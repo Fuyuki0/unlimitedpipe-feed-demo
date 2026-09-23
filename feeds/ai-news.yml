@@ -10,6 +10,9 @@ sources:
 operators:
   - type: grep
     patterns: [AI, LLM, LLMs, GPT, Claude, Gemini, language model, machine learning]
+    field: [title]       # match headlines, not links or boilerplate
+  - type: map
+    drop: [summary]      # both sources only put link boilerplate there
   - type: dedupe
     by: [link]
   - type: diff
