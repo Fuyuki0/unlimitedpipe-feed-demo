@@ -1,30 +1,19 @@
-# AI and LLM stories from Hacker News and Lobsters, as one feed.
 name: ai-news
-
+description: AI and LLM stories from the Hacker News front page and Lobsters, matched on headlines.
 sources:
   - type: rss
-    url:
-      - https://hnrss.org/frontpage
-      - https://lobste.rs/rss
-
+    url: [https://hnrss.org/frontpage, https://lobste.rs/rss]
 operators:
   - type: grep
     patterns: [AI, LLM, LLMs, GPT, Claude, Gemini, language model, machine learning]
-    field: [title]       # match headlines, not links or boilerplate
+    field: [title]
   - type: map
     drop: [summary]      # both sources only put link boilerplate there
   - type: dedupe
     by: [link]
   - type: diff
     only: [added]
-    emit_initial: true   # the first run fills the feed with current stories
-
+    emit_initial: true
 outputs:
-  - type: feed
-    path: ../public/ai-news.xml
-    title: AI news from Hacker News and Lobsters
-    link: https://news.ycombinator.com/
-  - type: feed
-    path: ../public/ai-news.json
-    title: AI news from Hacker News and Lobsters
-    link: https://news.ycombinator.com/
+  - {type: feed, path: ../public/ai-news.xml, title: AI news from Hacker News and Lobsters, link: https://news.ycombinator.com/}
+  - {type: feed, path: ../public/ai-news.json, title: AI news from Hacker News and Lobsters, link: https://news.ycombinator.com/}

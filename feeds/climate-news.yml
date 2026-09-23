@@ -1,0 +1,15 @@
+name: climate-news
+description: Climate and energy stories from BBC, NPR and Al Jazeera.
+sources:
+  - type: rss
+    url: [https://feeds.bbci.co.uk/news/world/rss.xml, https://feeds.bbci.co.uk/news/science_and_environment/rss.xml, https://feeds.npr.org/1001/rss.xml, https://www.aljazeera.com/xml/rss/all.xml]
+operators:
+  - type: grep
+    patterns: [climate, warming, emissions, heatwave, wildfire, wildfires, drought, flood, floods, renewable, solar, carbon, COP31]
+    field: [title, summary]
+  - {type: dedupe, by: [link]}
+  - {type: sort, by: [published_at], reverse: true}
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/climate-news.xml, title: Climate and energy news}
+  - {type: feed, path: ../public/climate-news.json, title: Climate and energy news}

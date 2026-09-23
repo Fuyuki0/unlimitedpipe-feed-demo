@@ -1,0 +1,11 @@
+name: show-hn
+description: Show HN projects that reached 100 points.
+sources:
+  - type: rss
+    url: "https://hnrss.org/show?points=100"
+operators:
+  - {type: map, drop: [summary]}
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/show-hn.xml, title: Show HN (100+ points), link: https://news.ycombinator.com/show}
+  - {type: feed, path: ../public/show-hn.json, title: Show HN (100+ points), link: https://news.ycombinator.com/show}

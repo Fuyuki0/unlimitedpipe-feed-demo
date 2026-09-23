@@ -1,0 +1,17 @@
+name: earthquakes
+description: Significant earthquakes worldwide, from the US Geological Survey.
+sources:
+  - type: web
+    url: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.geojson
+    records: features
+operators:
+  - type: map
+    assign:
+      - "title=properties.title"
+      - "link=properties.url"
+      - 'summary="Magnitude " + properties.mag + ", " + properties.place'
+    drop: [geometry, properties, type]
+  - {type: diff, key: id, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/earthquakes.xml, title: Significant earthquakes (USGS), link: https://earthquake.usgs.gov/earthquakes/map/}
+  - {type: feed, path: ../public/earthquakes.json, title: Significant earthquakes (USGS), link: https://earthquake.usgs.gov/earthquakes/map/}

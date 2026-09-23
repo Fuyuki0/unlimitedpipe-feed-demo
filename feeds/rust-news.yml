@@ -1,0 +1,10 @@
+name: rust-news
+description: The official Rust blog.
+sources:
+  - type: rss
+    url: https://blog.rust-lang.org/feed.xml
+operators:
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/rust-news.xml, title: Rust blog, link: https://blog.rust-lang.org/}
+  - {type: feed, path: ../public/rust-news.json, title: Rust blog, link: https://blog.rust-lang.org/}

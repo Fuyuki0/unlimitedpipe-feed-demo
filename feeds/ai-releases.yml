@@ -1,0 +1,17 @@
+name: ai-releases
+description: New releases of popular open-source AI tools (Ollama, llama.cpp, vLLM, Transformers, LangChain, ComfyUI, Open WebUI), from GitHub's API.
+sources:
+  - type: github
+    resource: releases
+    repo: [ollama/ollama, ggml-org/llama.cpp, vllm-project/vllm, huggingface/transformers, langchain-ai/langchain, comfyanonymous/ComfyUI, open-webui/open-webui]
+    limit: 5
+operators:
+  - type: filter
+    expr: 'not (tag matches "^b[0-9]+$")'   # skip llama.cpp's per-build releases
+  - type: map
+    assign: ['title=repo + " " + title']
+  - {type: sort, by: [published_at], reverse: true}
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/ai-releases.xml, title: Open-source AI tool releases, link: https://github.com/}
+  - {type: feed, path: ../public/ai-releases.json, title: Open-source AI tool releases, link: https://github.com/}

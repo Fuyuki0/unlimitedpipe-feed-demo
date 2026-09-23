@@ -1,0 +1,16 @@
+name: arxiv-llm
+description: New arXiv papers (cs.CL, cs.AI) about language models and agents, matched on titles.
+sources:
+  - type: rss
+    url: [https://rss.arxiv.org/rss/cs.CL, https://rss.arxiv.org/rss/cs.AI]
+operators:
+  - type: grep
+    patterns: [LLM, LLMs, language model, language models, agent, agents, agentic, reasoning]
+    field: [title]
+  - type: map
+    assign: ['summary=replace(summary, "^arXiv:\\S+\\s+Announce Type:\\s+\\S+\\s+Abstract:\\s*", "")']
+  - {type: dedupe, by: [link]}
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/arxiv-llm.xml, title: arXiv papers on language models and agents, link: https://arxiv.org/, max_items: 200}
+  - {type: feed, path: ../public/arxiv-llm.json, title: arXiv papers on language models and agents, link: https://arxiv.org/, max_items: 200}

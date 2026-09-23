@@ -1,0 +1,17 @@
+name: dev-releases
+description: New releases of everyday developer tools (uv, Ruff, Node.js, Deno, Bun, VS Code, Rust, TypeScript), from GitHub's API.
+sources:
+  - type: github
+    resource: releases
+    repo: [astral-sh/uv, astral-sh/ruff, nodejs/node, denoland/deno, oven-sh/bun, microsoft/vscode, rust-lang/rust, microsoft/TypeScript]
+    limit: 5
+operators:
+  - type: filter
+    expr: 'not (tag matches "^b[0-9]+$")'   # skip llama.cpp's per-build releases
+  - type: map
+    assign: ['title=repo + " " + title']
+  - {type: sort, by: [published_at], reverse: true}
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/dev-releases.xml, title: Developer tool releases, link: https://github.com/}
+  - {type: feed, path: ../public/dev-releases.json, title: Developer tool releases, link: https://github.com/}

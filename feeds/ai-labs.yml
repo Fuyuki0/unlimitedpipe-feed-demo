@@ -1,0 +1,11 @@
+name: ai-labs
+description: Announcements from OpenAI, Google DeepMind and Hugging Face, in one feed.
+sources:
+  - type: rss
+    url: [https://openai.com/news/rss.xml, https://deepmind.google/blog/rss.xml, https://huggingface.co/blog/feed.xml]
+operators:
+  - {type: sort, by: [published_at], reverse: true}
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/ai-labs.xml, title: AI lab announcements}
+  - {type: feed, path: ../public/ai-labs.json, title: AI lab announcements}
