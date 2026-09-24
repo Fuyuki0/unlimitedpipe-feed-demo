@@ -10,6 +10,7 @@ operators:
       - "title=properties.title"
       - "link=properties.url"
       - 'summary="Magnitude " + properties.mag + ", " + properties.place'
+      - "published_at=date(properties.time)"
     drop: [geometry, properties, type]
   - {type: diff, key: id, only: [added], emit_initial: true}
 outputs:
