@@ -2,12 +2,94 @@
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Hacker News (300+ points)",
   "home_page_url": "https://news.ycombinator.com/",
-  "description": "Events collected by UnlimitedPipe 0.3.1",
+  "description": "Events collected by UnlimitedPipe 0.3.2",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.3.1"
+    "generator": "UnlimitedPipe 0.3.2"
   },
   "items": [
+    {
+      "id": "650bf292c3340a8634c1",
+      "title": "Two-tier encryption in the UK",
+      "content_text": "hn https://news.ycombinator.com/item?id=49828731 · published_at 2026-09-24T10:39:19Z · points 310 · num_comments 314",
+      "date_published": "2026-09-24T10:39:19Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "650bf292c3340a8634c1",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50#https://news.ycombinator.com/item?id=49828731",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T19:33:22Z",
+          "data": {
+            "change": "added",
+            "label": "Two-tier encryption in the UK",
+            "item_type": "record",
+            "summary": "added: Two-tier encryption in the UK",
+            "after": {
+              "title": "Two-tier encryption in the UK",
+              "link": "https://macanorak.com/two-tier-encryption-in-the-uk/",
+              "hn": "https://news.ycombinator.com/item?id=49828731",
+              "published_at": "2026-09-24T10:39:19Z",
+              "points": 310,
+              "num_comments": 314
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 307,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.2",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "hn",
+                "namespace": "hn-top",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://macanorak.com/two-tier-encryption-in-the-uk/"
+    },
     {
       "id": "cdeea9d4ac48ea5afa37",
       "title": "F-Droid 2.0",

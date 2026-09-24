@@ -1,13 +1,1200 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "World headlines (BBC, NPR, Al Jazeera)",
-  "home_page_url": "https://www.aljazeera.com/xml/rss/all.xml",
-  "description": "Events collected by UnlimitedPipe 0.3.1",
+  "home_page_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+  "description": "Events collected by UnlimitedPipe 0.3.2",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.3.1"
+    "generator": "UnlimitedPipe 0.3.2"
   },
   "items": [
+    {
+      "id": "aa37978998c424b97cd6",
+      "title": "Priest killed and four injured in knife attack at Polish abbey",
+      "content_text": "A male suspect from Ukraine was arrested after the stabbings in the town of Jarosław, police say.",
+      "date_published": "2026-09-24T19:18:12Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "aa37978998c424b97cd6",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/c607lrvm41l3o#0",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-24T19:33:33Z",
+          "data": {
+            "change": "added",
+            "label": "Priest killed and four injured in knife attack at Polish abbey",
+            "item_type": "entry",
+            "summary": "added: Priest killed and four injured in knife attack at Polish abbey",
+            "after": {
+              "title": "Priest killed and four injured in knife attack at Polish abbey",
+              "link": "https://www.bbc.co.uk/news/articles/c607lrvm41l3o?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/c607lrvm41l3o#0",
+              "author": null,
+              "published_at": "2026-09-24T19:18:12Z",
+              "updated_at": "2026-09-24T19:18:12Z",
+              "summary": "A male suspect from Ukraine was arrested after the stabbings in the town of Jarosław, police say.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 65,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/c607lrvm41l3o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "44b79216b8e1ae0cf27e",
+      "title": "Israel’s policies threaten ‘very existence’ of Palestinians, Abbas tells UN",
+      "content_text": "Mahmoud Abbas says saving two-state solution begins with preserving Palestinian land, protecting those who live on it.",
+      "date_published": "2026-09-24T19:02:50Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "44b79216b8e1ae0cf27e",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790260927",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-24T19:33:33Z",
+          "data": {
+            "change": "added",
+            "label": "Israel’s policies threaten ‘very existence’ of Palestinians, Abbas tells UN",
+            "item_type": "entry",
+            "summary": "added: Israel’s policies threaten ‘very existence’ of Palestinians, Abbas tells UN",
+            "after": {
+              "title": "Israel’s policies threaten ‘very existence’ of Palestinians, Abbas tells UN",
+              "link": "https://www.aljazeera.com/news/2026/9/24/israels-policies-threaten-very-existence-of-palestinians-abbas-tells-un?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790260927",
+              "author": null,
+              "published_at": "2026-09-24T19:02:50Z",
+              "updated_at": "2026-09-24T19:02:50Z",
+              "summary": "Mahmoud Abbas says saving two-state solution begins with preserving Palestinian land, protecting those who live on it.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 73,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/news/2026/9/24/israels-policies-threaten-very-existence-of-palestinians-abbas-tells-un?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "3da0d712597d2130ece0",
+      "title": "Four civilians killed in Pakistani strikes in Afghanistan, Taliban says",
+      "content_text": "Pakistan says it struck 10 targets, adding the strikes were \"strictly limited to identified military objectives\".",
+      "date_published": "2026-09-24T19:02:36Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "3da0d712597d2130ece0",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/cm86xn0nnw58o#0",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-24T19:33:33Z",
+          "data": {
+            "change": "added",
+            "label": "Four civilians killed in Pakistani strikes in Afghanistan, Taliban says",
+            "item_type": "entry",
+            "summary": "added: Four civilians killed in Pakistani strikes in Afghanistan, Taliban says",
+            "after": {
+              "title": "Four civilians killed in Pakistani strikes in Afghanistan, Taliban says",
+              "link": "https://www.bbc.co.uk/news/articles/cm86xn0nnw58o?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/cm86xn0nnw58o#0",
+              "author": null,
+              "published_at": "2026-09-24T19:02:36Z",
+              "updated_at": "2026-09-24T19:02:36Z",
+              "summary": "Pakistan says it struck 10 targets, adding the strikes were \"strictly limited to identified military objectives\".",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 65,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/cm86xn0nnw58o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "61097b73daba95f49916",
+      "title": "Watch: UN delegates walk out of Netanyahu speech",
+      "content_text": "The Israeli delegation could be be seen cheering in support during Netanyahu's speech.",
+      "date_published": "2026-09-24T18:29:29Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "61097b73daba95f49916",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/videos/cqwyzmpm3pgdo#3",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-24T19:33:33Z",
+          "data": {
+            "change": "added",
+            "label": "Watch: UN delegates walk out of Netanyahu speech",
+            "item_type": "entry",
+            "summary": "added: Watch: UN delegates walk out of Netanyahu speech",
+            "after": {
+              "title": "Watch: UN delegates walk out of Netanyahu speech",
+              "link": "https://www.bbc.co.uk/news/videos/cqwyzmpm3pgdo?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/videos/cqwyzmpm3pgdo#3",
+              "author": null,
+              "published_at": "2026-09-24T18:29:29Z",
+              "updated_at": "2026-09-24T18:29:29Z",
+              "summary": "The Israeli delegation could be be seen cheering in support during Netanyahu's speech.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 65,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/videos/cqwyzmpm3pgdo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "634e327209139cb40905",
+      "title": "Ethiopian army says 272 Tigrayan fighters killed in Amhara",
+      "content_text": "Tigray People’s Liberation Front says in a 'situation of full-blown war' with Ethiopia's government.",
+      "date_published": "2026-09-24T18:19:03Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "634e327209139cb40905",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790266341",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-24T19:33:33Z",
+          "data": {
+            "change": "added",
+            "label": "Ethiopian army says 272 Tigrayan fighters killed in Amhara",
+            "item_type": "entry",
+            "summary": "added: Ethiopian army says 272 Tigrayan fighters killed in Amhara",
+            "after": {
+              "title": "Ethiopian army says 272 Tigrayan fighters killed in Amhara",
+              "link": "https://www.aljazeera.com/news/2026/9/24/ethiopian-army-says-272-tigrayan-fighters-killed-as-conflict-escalates?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790266341",
+              "author": null,
+              "published_at": "2026-09-24T18:19:03Z",
+              "updated_at": "2026-09-24T18:19:03Z",
+              "summary": "Tigray People’s Liberation Front says in a 'situation of full-blown war' with Ethiopia's government.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 73,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/news/2026/9/24/ethiopian-army-says-272-tigrayan-fighters-killed-as-conflict-escalates?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "6567dca65058b379826b",
+      "title": "US and China presidents discuss cooperation, trade and AI risks",
+      "content_text": "Donald Trump and Xi Jinping discussed trade tensions, technology and AI risks at the White House",
+      "date_published": "2026-09-24T18:19:01Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "6567dca65058b379826b",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790269355",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-24T19:33:33Z",
+          "data": {
+            "change": "added",
+            "label": "US and China presidents discuss cooperation, trade and AI risks",
+            "item_type": "entry",
+            "summary": "added: US and China presidents discuss cooperation, trade and AI risks",
+            "after": {
+              "title": "US and China presidents discuss cooperation, trade and AI risks",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/24/us-and-china-presidents-discuss-cooperation-trade-and-ai-risks?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790269355",
+              "author": null,
+              "published_at": "2026-09-24T18:19:01Z",
+              "updated_at": "2026-09-24T18:19:01Z",
+              "summary": "Donald Trump and Xi Jinping discussed trade tensions, technology and AI risks at the White House",
+              "categories": [
+                "Show Types"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 73,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/us-and-china-presidents-discuss-cooperation-trade-and-ai-risks?traffic_source=rss",
+      "tags": [
+        "Show Types"
+      ]
+    },
+    {
+      "id": "3c7a88683374f86c810d",
+      "title": "Nigeria vs: Madagascar AFCON 2027 qualifier – preview, teams, prediction",
+      "content_text": "Madagascar will attempt to emulate their last shock win over the Super Eagles - a 2-0 victory at AFCON 2019.",
+      "date_published": "2026-09-24T18:13:32Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "3c7a88683374f86c810d",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790255013",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-24T19:33:33Z",
+          "data": {
+            "change": "added",
+            "label": "Nigeria vs: Madagascar AFCON 2027 qualifier – preview, teams, prediction",
+            "item_type": "entry",
+            "summary": "added: Nigeria vs: Madagascar AFCON 2027 qualifier – preview, teams, prediction",
+            "after": {
+              "title": "Nigeria vs: Madagascar AFCON 2027 qualifier – preview, teams, prediction",
+              "link": "https://www.aljazeera.com/sports/2026/9/24/nigeria-vs-madagascar-afcon-2027-qualifier-preview-teams?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790255013",
+              "author": null,
+              "published_at": "2026-09-24T18:13:32Z",
+              "updated_at": "2026-09-24T18:13:32Z",
+              "summary": "Madagascar will attempt to emulate their last shock win over the Super Eagles - a 2-0 victory at AFCON 2019.",
+              "categories": [
+                "Sport"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 73,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/sports/2026/9/24/nigeria-vs-madagascar-afcon-2027-qualifier-preview-teams?traffic_source=rss",
+      "tags": [
+        "Sport"
+      ]
+    },
+    {
+      "id": "be6dc0472343847ff28c",
+      "title": "Why Australia chose the world's biggest political stage to reveal OpenAI hack",
+      "content_text": "Australia, which has strict social media restrictions and has proposed controls on algorithms and smart glasses, announced the breach at the UN.",
+      "date_published": "2026-09-24T18:06:40Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "be6dc0472343847ff28c",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/cr3eqk15ld14o#1",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-24T19:33:33Z",
+          "data": {
+            "change": "added",
+            "label": "Why Australia chose the world's biggest political stage to reveal OpenAI hack",
+            "item_type": "entry",
+            "summary": "added: Why Australia chose the world's biggest political stage to reveal OpenAI hack",
+            "after": {
+              "title": "Why Australia chose the world's biggest political stage to reveal OpenAI hack",
+              "link": "https://www.bbc.co.uk/news/articles/cr3eqk15ld14o?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/cr3eqk15ld14o#1",
+              "author": null,
+              "published_at": "2026-09-24T18:06:40Z",
+              "updated_at": "2026-09-24T18:06:40Z",
+              "summary": "Australia, which has strict social media restrictions and has proposed controls on algorithms and smart glasses, announced the breach at the UN.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 65,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/cr3eqk15ld14o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "81b4b22e048516df3692",
+      "title": "Rapper Macklemore announces 'Free Palestine' tour after Ed Sheeran fallout",
+      "content_text": "Proceeds from the tour, which begins in Dublin next month, will go to organisations supporting Palestinians, he says.",
+      "date_published": "2026-09-24T17:55:44Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "81b4b22e048516df3692",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/cqzjzlve8jg7o#0",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-24T19:33:33Z",
+          "data": {
+            "change": "added",
+            "label": "Rapper Macklemore announces 'Free Palestine' tour after Ed Sheeran fallout",
+            "item_type": "entry",
+            "summary": "added: Rapper Macklemore announces 'Free Palestine' tour after Ed Sheeran fallout",
+            "after": {
+              "title": "Rapper Macklemore announces 'Free Palestine' tour after Ed Sheeran fallout",
+              "link": "https://www.bbc.co.uk/news/articles/cqzjzlve8jg7o?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/cqzjzlve8jg7o#0",
+              "author": null,
+              "published_at": "2026-09-24T17:55:44Z",
+              "updated_at": "2026-09-24T17:55:44Z",
+              "summary": "Proceeds from the tour, which begins in Dublin next month, will go to organisations supporting Palestinians, he says.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 65,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/cqzjzlve8jg7o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "d71882acbd59f2b1f2a6",
+      "title": "RFK Jr.'s ethics filing reveals book deals worth millions of dollars",
+      "content_text": "Health Secretary Robert F. Kennedy Jr.'s annual financial disclosure reveals he has received two lucrative book advances and free flights from a friend while in office.",
+      "date_published": "2026-09-24T17:51:40Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d71882acbd59f2b1f2a6",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.npr.org/2026/09/24/nx-s1-5979867/rfk-ethics-book-deals",
+          "source_url": "https://feeds.npr.org/1001/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-24T19:33:33Z",
+          "data": {
+            "change": "added",
+            "label": "RFK Jr.'s ethics filing reveals book deals worth millions of dollars",
+            "item_type": "entry",
+            "summary": "added: RFK Jr.'s ethics filing reveals book deals worth millions of dollars",
+            "after": {
+              "title": "RFK Jr.'s ethics filing reveals book deals worth millions of dollars",
+              "link": "https://www.npr.org/2026/09/24/nx-s1-5979867/rfk-ethics-book-deals",
+              "id": "https://www.npr.org/2026/09/24/nx-s1-5979867/rfk-ethics-book-deals",
+              "author": "Sydney Lupkin",
+              "published_at": "2026-09-24T17:51:40Z",
+              "updated_at": "2026-09-24T17:51:40Z",
+              "summary": "Health Secretary Robert F. Kennedy Jr.'s annual financial disclosure reveals he has received two lucrative book advances and free flights from a friend while in office.",
+              "categories": [],
+              "feed": {
+                "title": "NPR Topics: News",
+                "url": "https://www.npr.org/templates/story/story.php?storyId=1001",
+                "feed_url": "https://feeds.npr.org/1001/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.npr.org/1001/rss.xml",
+            "elapsed_ms": 85,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.npr.org/2026/09/24/nx-s1-5979867/rfk-ethics-book-deals"
+    },
+    {
+      "id": "d3fb83c4cc7132bc4046",
+      "title": "Iranian-American group sues Trump over war",
+      "content_text": "Plaintiffs have families in Iran who have been harmed by the US war, they say.",
+      "date_published": "2026-09-24T17:45:52Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d3fb83c4cc7132bc4046",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790266600",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-24T19:33:33Z",
+          "data": {
+            "change": "added",
+            "label": "Iranian-American group sues Trump over war",
+            "item_type": "entry",
+            "summary": "added: Iranian-American group sues Trump over war",
+            "after": {
+              "title": "Iranian-American group sues Trump over war",
+              "link": "https://www.aljazeera.com/news/2026/9/24/iranian-american-group-sues-trump-over-war?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790266600",
+              "author": null,
+              "published_at": "2026-09-24T17:45:52Z",
+              "updated_at": "2026-09-24T17:45:52Z",
+              "summary": "Plaintiffs have families in Iran who have been harmed by the US war, they say.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 73,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/news/2026/9/24/iranian-american-group-sues-trump-over-war?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "548933b8ef0807c06378",
+      "title": "Poland says fire at Starlink station is sabotage as Denmark warns of rising Russian threat",
+      "content_text": "The satellite station is used in part to provide internet coverage to neighbouring Ukraine, the government says.",
+      "date_published": "2026-09-24T16:00:29Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "548933b8ef0807c06378",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/cmp30r1klk37o#1",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-24T19:33:33Z",
+          "data": {
+            "change": "added",
+            "label": "Poland says fire at Starlink station is sabotage as Denmark warns of rising Russian threat",
+            "item_type": "entry",
+            "summary": "added: Poland says fire at Starlink station is sabotage as Denmark warns of rising Russian threat",
+            "after": {
+              "title": "Poland says fire at Starlink station is sabotage as Denmark warns of rising Russian threat",
+              "link": "https://www.bbc.co.uk/news/articles/cmp30r1klk37o?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/cmp30r1klk37o#1",
+              "author": null,
+              "published_at": "2026-09-24T16:00:29Z",
+              "updated_at": "2026-09-24T16:00:29Z",
+              "summary": "The satellite station is used in part to provide internet coverage to neighbouring Ukraine, the government says.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 65,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/cmp30r1klk37o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "887f02aa2d4c4638ccc6",
+      "title": "105-year-old investigated for crimes at Nazi PoW camp in Germany",
+      "content_text": "The suspect is alleged to have been an accessory to murder at the Stalag 326 camp, where tens of thousands of Soviet PoWs died.",
+      "date_published": "2026-09-24T14:37:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "887f02aa2d4c4638ccc6",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/cwzrzjy3pynvo#1",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-24T19:33:33Z",
+          "data": {
+            "change": "added",
+            "label": "105-year-old investigated for crimes at Nazi PoW camp in Germany",
+            "item_type": "entry",
+            "summary": "added: 105-year-old investigated for crimes at Nazi PoW camp in Germany",
+            "after": {
+              "title": "105-year-old investigated for crimes at Nazi PoW camp in Germany",
+              "link": "https://www.bbc.co.uk/news/articles/cwzrzjy3pynvo?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/cwzrzjy3pynvo#1",
+              "author": null,
+              "published_at": "2026-09-24T14:37:34Z",
+              "updated_at": "2026-09-24T14:37:34Z",
+              "summary": "The suspect is alleged to have been an accessory to murder at the Stalag 326 camp, where tens of thousands of Soviet PoWs died.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 65,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/cwzrzjy3pynvo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "9b391a5216f9d4a81a28",
+      "title": "Why did an OpenAI system hack Australia's health system - and can it be stopped in the future?",
+      "content_text": "News that an automated AI agent hacked a government IT system raises big questions about regulating the tech.",
+      "date_published": "2026-09-24T14:08:38Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "9b391a5216f9d4a81a28",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/cw24jm9rryy3o#2",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-24T19:33:33Z",
+          "data": {
+            "change": "added",
+            "label": "Why did an OpenAI system hack Australia's health system - and can it be stopped in the future?",
+            "item_type": "entry",
+            "summary": "added: Why did an OpenAI system hack Australia's health system - and can it be stopped in the future?",
+            "after": {
+              "title": "Why did an OpenAI system hack Australia's health system - and can it be stopped in the future?",
+              "link": "https://www.bbc.co.uk/news/articles/cw24jm9rryy3o?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/cw24jm9rryy3o#2",
+              "author": null,
+              "published_at": "2026-09-24T14:08:38Z",
+              "updated_at": "2026-09-24T14:08:38Z",
+              "summary": "News that an automated AI agent hacked a government IT system raises big questions about regulating the tech.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 65,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/cw24jm9rryy3o?at_medium=RSS&at_campaign=rss"
+    },
     {
       "id": "70045fad67cfc5d4c95c",
       "title": "Ukrainian knifeman kills one, wounds four at abbey in Poland",

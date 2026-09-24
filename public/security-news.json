@@ -2,12 +2,272 @@
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Security news",
   "home_page_url": "https://feeds.feedburner.com/TheHackersNews",
-  "description": "Events collected by UnlimitedPipe 0.3.1",
+  "description": "Events collected by UnlimitedPipe 0.3.2",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.3.1"
+    "generator": "UnlimitedPipe 0.3.2"
   },
   "items": [
+    {
+      "id": "ac3e5f023a68b2521e3f",
+      "title": "Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions",
+      "content_text": "A OnePlus 15 running the latest OxygenOS can be rooted by a malicious app the owner installs, one that asks for no special permissions. A researcher, Rasmus Moorats, chained two flaws in OnePlus's own software to gain root access, the highest level of control over an Android phone.\nOnePlus told him the same flaws affect many more of its own devices and those of OPPO, though it has not",
+      "date_published": "2026-09-24T18:10:18Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ac3e5f023a68b2521e3f",
+          "source": "rss",
+          "type": "change",
+          "key": "https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html",
+          "source_url": "https://feeds.feedburner.com/TheHackersNews",
+          "timestamp": null,
+          "observed_at": "2026-09-24T19:33:25Z",
+          "data": {
+            "change": "added",
+            "label": "Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions",
+            "item_type": "entry",
+            "summary": "added: Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions",
+            "after": {
+              "title": "Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions",
+              "link": "https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html",
+              "id": "https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html",
+              "author": "info@thehackernews.com (The Hacker News)",
+              "published_at": "2026-09-24T18:10:18Z",
+              "updated_at": "2026-09-24T18:10:18Z",
+              "summary": "A OnePlus 15 running the latest OxygenOS can be rooted by a malicious app the owner installs, one that asks for no special permissions. A researcher, Rasmus Moorats, chained two flaws in OnePlus's own software to gain root access, the highest level of control over an Android phone.\nOnePlus told him the same flaws affect many more of its own devices and those of OPPO, though it has not",
+              "categories": [],
+              "feed": {
+                "title": "The Hacker News",
+                "url": "https://thehackernews.com",
+                "feed_url": "https://feeds.feedburner.com/TheHackersNews"
+              },
+              "enclosures": [
+                "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiGu2guziH88Cs_LnFsPkCJ4zuxqgSX7q3SRrBXdSAEeJPhmYnpNp-c0WCNCqoOoyCv6NcnmCKm20rhqSb2rjw7KZ6Kh6UssR2fZG5SZX9Pjhb_fjONdBfgpxqpWNABPDvSmD9Hp913nErgH4PQm1ehlyspJt5RXASYckP6jHE3G0V2ou5fwkG7JOZyBY/s1600/oneplus.jpg"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.feedburner.com/TheHackersNews",
+            "elapsed_ms": 289,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "security-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html"
+    },
+    {
+      "id": "8a262103243c6c89de4a",
+      "title": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
+      "content_text": "This week, the dangerous stuff keeps arriving dressed as something boring. An update. A login box. A search answer. A coding tool. A link you have clicked a hundred times before.\nThat is the thread running through the pile. Trusted paths get poisoned. Old bugs find new jobs. AI tools leak more than expected. Fake prompts look real enough. And some attacks barely need an exploit at all — just",
+      "date_published": "2026-09-24T17:52:43Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "8a262103243c6c89de4a",
+          "source": "rss",
+          "type": "change",
+          "key": "https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html",
+          "source_url": "https://feeds.feedburner.com/TheHackersNews",
+          "timestamp": null,
+          "observed_at": "2026-09-24T19:33:25Z",
+          "data": {
+            "change": "added",
+            "label": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
+            "item_type": "entry",
+            "summary": "added: ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
+            "after": {
+              "title": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
+              "link": "https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html",
+              "id": "https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html",
+              "author": "info@thehackernews.com (The Hacker News)",
+              "published_at": "2026-09-24T17:52:43Z",
+              "updated_at": "2026-09-24T17:52:43Z",
+              "summary": "This week, the dangerous stuff keeps arriving dressed as something boring. An update. A login box. A search answer. A coding tool. A link you have clicked a hundred times before.\nThat is the thread running through the pile. Trusted paths get poisoned. Old bugs find new jobs. AI tools leak more than expected. Fake prompts look real enough. And some attacks barely need an exploit at all — just",
+              "categories": [],
+              "feed": {
+                "title": "The Hacker News",
+                "url": "https://thehackernews.com",
+                "feed_url": "https://feeds.feedburner.com/TheHackersNews"
+              },
+              "enclosures": [
+                "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQeh1uEFjgxcgPPJkrXkAnJxZRxA9_ZolFQXNONWmfMGLViusszn4KTiJ9-8_r-AV94NS5BQlZ5eOrFnTvinPXcJB_G4o_BEZdv7xXMdAqfvZPfiUzKjlE70q2V6C9ze8H58pqYh-suKm_Yu1q3LoevignMd7nfjbjV7qx_vEad6BEFKUHwV5UlTFW1-dh/s1600/threatsday-sep.jpg"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.feedburner.com/TheHackersNews",
+            "elapsed_ms": 289,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "security-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html"
+    },
+    {
+      "id": "b0f87ae8633db31f7aa1",
+      "title": "Exposed GitLab project email addresses let attackers push code",
+      "content_text": "Private GitLab email addresses that allow developers to push issues or tasks to a project are being deliberately exposed in READMEs, contributing guides, and support pages used to collect bug reports. [...]",
+      "date_published": "2026-09-24T17:47:44Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "b0f87ae8633db31f7aa1",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bleepingcomputer.com/news/security/exposed-gitlab-project-email-addresses-let-attackers-push-code/",
+          "source_url": "https://www.bleepingcomputer.com/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-24T19:33:25Z",
+          "data": {
+            "change": "added",
+            "label": "Exposed GitLab project email addresses let attackers push code",
+            "item_type": "entry",
+            "summary": "added: Exposed GitLab project email addresses let attackers push code",
+            "after": {
+              "title": "Exposed GitLab project email addresses let attackers push code",
+              "link": "https://www.bleepingcomputer.com/news/security/exposed-gitlab-project-email-addresses-let-attackers-push-code/",
+              "id": "https://www.bleepingcomputer.com/news/security/exposed-gitlab-project-email-addresses-let-attackers-push-code/",
+              "author": "Bill Toulas",
+              "published_at": "2026-09-24T17:47:44Z",
+              "updated_at": "2026-09-24T17:47:44Z",
+              "summary": "Private GitLab email addresses that allow developers to push issues or tasks to a project are being deliberately exposed in READMEs, contributing guides, and support pages used to collect bug reports. [...]",
+              "categories": [
+                "Security"
+              ],
+              "feed": {
+                "title": "BleepingComputer",
+                "url": "https://www.bleepingcomputer.com/",
+                "feed_url": "https://www.bleepingcomputer.com/feed/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.bleepingcomputer.com/feed/",
+            "elapsed_ms": 117,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "security-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bleepingcomputer.com/news/security/exposed-gitlab-project-email-addresses-let-attackers-push-code/",
+      "tags": [
+        "Security"
+      ]
+    },
     {
       "id": "e04d2b8beb8af581852c",
       "title": "Placeholder third-party[.]com Referenced Across 1,700+ Repositories Now Serves Malicious Content",

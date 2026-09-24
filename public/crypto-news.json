@@ -9,6 +9,371 @@
   },
   "items": [
     {
+      "id": "f4b2f3e38fe82335fe0b",
+      "title": "Meta's New AI Toy Is a Keychain That Watches, Listens, and Never Blinks",
+      "content_text": "Muse Charm is Meta's palm-sized gadget for talking to its Muse AI agent on the go. It has cameras, a fingerprint sensor, and its own cell connection.",
+      "date_published": "2026-09-24T19:16:03Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "f4b2f3e38fe82335fe0b",
+          "source": "rss",
+          "type": "change",
+          "key": "https://decrypt.co/?p=379253",
+          "source_url": "https://decrypt.co/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-24T19:33:10Z",
+          "data": {
+            "change": "added",
+            "label": "Meta's New AI Toy Is a Keychain That Watches, Listens, and Never Blinks",
+            "item_type": "entry",
+            "summary": "added: Meta's New AI Toy Is a Keychain That Watches, Listens, and Never Blinks",
+            "after": {
+              "title": "Meta's New AI Toy Is a Keychain That Watches, Listens, and Never Blinks",
+              "link": "https://decrypt.co/379253/meta-ai-toy-muse-charm-keychain-watches-listens",
+              "id": "https://decrypt.co/?p=379253",
+              "author": "Jose Antonio Lanz",
+              "published_at": "2026-09-24T19:16:03Z",
+              "updated_at": "2026-09-24T19:16:03Z",
+              "summary": "Muse Charm is Meta's palm-sized gadget for talking to its Muse AI agent on the go. It has cameras, a fingerprint sensor, and its own cell connection.",
+              "categories": [
+                "Artificial Intelligence"
+              ],
+              "feed": {
+                "title": "Decrypt",
+                "url": "https://decrypt.co/feed",
+                "feed_url": "https://decrypt.co/feed"
+              },
+              "enclosures": [
+                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/09/Meta-muse-charm-gID_7.jpg@png"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://decrypt.co/feed",
+            "elapsed_ms": 63,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://decrypt.co/379253/meta-ai-toy-muse-charm-keychain-watches-listens",
+      "tags": [
+        "Artificial Intelligence"
+      ]
+    },
+    {
+      "id": "5884f11c79c46b8784c3",
+      "title": "Bitcoin just topped a key long-term moving average. Here's what it might mean",
+      "content_text": "Bitcoin just topped a key long-term moving average. Here's what it might mean",
+      "date_published": "2026-09-24T18:46:58Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "5884f11c79c46b8784c3",
+          "source": "rss",
+          "type": "change",
+          "key": "ee6a6c3e-6a67-4205-a430-f96e9b3af7d8",
+          "source_url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+          "timestamp": null,
+          "observed_at": "2026-09-24T19:33:10Z",
+          "data": {
+            "change": "added",
+            "label": "Bitcoin just topped a key long-term moving average. Here's what it might mean",
+            "item_type": "entry",
+            "summary": "added: Bitcoin just topped a key long-term moving average. Here's what it might mean",
+            "after": {
+              "title": "Bitcoin just topped a key long-term moving average. Here's what it might mean",
+              "link": "https://www.coindesk.com/markets/2026/09/24/bitcoin-just-topped-a-key-long-term-moving-average-here-s-what-it-might-mean",
+              "id": "ee6a6c3e-6a67-4205-a430-f96e9b3af7d8",
+              "author": "Olivier Acuna",
+              "published_at": "2026-09-24T18:46:58Z",
+              "updated_at": "2026-09-24T18:46:58Z",
+              "summary": null,
+              "categories": [
+                "Markets",
+                "Bitcoin News",
+                "News"
+              ],
+              "feed": {
+                "title": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+                "url": "https://www.coindesk.com/",
+                "feed_url": "https://www.coindesk.com/arc/outboundfeeds/rss/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.coindesk.com/arc/outboundfeeds/rss",
+            "elapsed_ms": 128,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.coindesk.com/markets/2026/09/24/bitcoin-just-topped-a-key-long-term-moving-average-here-s-what-it-might-mean",
+      "tags": [
+        "Markets",
+        "Bitcoin News",
+        "News"
+      ]
+    },
+    {
+      "id": "a55ea5cc12a66f55e9a6",
+      "title": "AI Can Now Doxx Your Anonymous Accounts? Here's What’s Going On",
+      "content_text": "A February research paper showing AI can unmask pseudonymous internet users is freaking everyone out again this week. Here's what the paper actually says.",
+      "date_published": "2026-09-24T18:31:03Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "a55ea5cc12a66f55e9a6",
+          "source": "rss",
+          "type": "change",
+          "key": "https://decrypt.co/?p=379228",
+          "source_url": "https://decrypt.co/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-24T19:33:10Z",
+          "data": {
+            "change": "added",
+            "label": "AI Can Now Doxx Your Anonymous Accounts? Here's What’s Going On",
+            "item_type": "entry",
+            "summary": "added: AI Can Now Doxx Your Anonymous Accounts? Here's What’s Going On",
+            "after": {
+              "title": "AI Can Now Doxx Your Anonymous Accounts? Here's What’s Going On",
+              "link": "https://decrypt.co/379228/ai-can-now-doxx-your-anonymous-accounts-heres-whats-going-on",
+              "id": "https://decrypt.co/?p=379228",
+              "author": "Jose Antonio Lanz",
+              "published_at": "2026-09-24T18:31:03Z",
+              "updated_at": "2026-09-24T18:31:03Z",
+              "summary": "A February research paper showing AI can unmask pseudonymous internet users is freaking everyone out again this week. Here's what the paper actually says.",
+              "categories": [
+                "Artificial Intelligence"
+              ],
+              "feed": {
+                "title": "Decrypt",
+                "url": "https://decrypt.co/feed",
+                "feed_url": "https://decrypt.co/feed"
+              },
+              "enclosures": [
+                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/03/decrypt-style-shhh-gID_7.png@png"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://decrypt.co/feed",
+            "elapsed_ms": 63,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://decrypt.co/379228/ai-can-now-doxx-your-anonymous-accounts-heres-whats-going-on",
+      "tags": [
+        "Artificial Intelligence"
+      ]
+    },
+    {
+      "id": "0a52e09e32762d212c6d",
+      "title": "New York Wants to Ban Polymarket, Lawsuit Calls It 'Illegal Gambling Operation'",
+      "content_text": "Attorney General Letitia James and Governor Kathy Hochul allege the prediction market operates without a license and exposes New Yorkers to gambling harms.",
+      "date_published": "2026-09-24T17:51:31Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "0a52e09e32762d212c6d",
+          "source": "rss",
+          "type": "change",
+          "key": "https://decrypt.co/?p=379244",
+          "source_url": "https://decrypt.co/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-24T19:33:10Z",
+          "data": {
+            "change": "added",
+            "label": "New York Wants to Ban Polymarket, Lawsuit Calls It 'Illegal Gambling Operation'",
+            "item_type": "entry",
+            "summary": "added: New York Wants to Ban Polymarket, Lawsuit Calls It 'Illegal Gambling Operation'",
+            "after": {
+              "title": "New York Wants to Ban Polymarket, Lawsuit Calls It 'Illegal Gambling Operation'",
+              "link": "https://decrypt.co/379244/new-york-ban-polymarket-lawsuit",
+              "id": "https://decrypt.co/?p=379244",
+              "author": "Decrypt Staff",
+              "published_at": "2026-09-24T17:51:31Z",
+              "updated_at": "2026-09-24T17:51:31Z",
+              "summary": "Attorney General Letitia James and Governor Kathy Hochul allege the prediction market operates without a license and exposes New Yorkers to gambling harms.",
+              "categories": [
+                "Law and Order"
+              ],
+              "feed": {
+                "title": "Decrypt",
+                "url": "https://decrypt.co/feed",
+                "feed_url": "https://decrypt.co/feed"
+              },
+              "enclosures": [
+                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/09/polymarket-decrypt-style-gID_7.jpg@png"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://decrypt.co/feed",
+            "elapsed_ms": 63,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://decrypt.co/379244/new-york-ban-polymarket-lawsuit",
+      "tags": [
+        "Law and Order"
+      ]
+    },
+    {
       "id": "590438280fb2d19be840",
       "title": "In Her Final Weeks, SEC's Peirce Calls for Ending the KYC 'Panopticon'",
       "content_text": "In one of her final speeches as commissioner, Peirce argued that regulators' \"data haystacks\" endanger the people they aim to protect—as recent KYC leaks expose crypto holders to phishing and physical attacks.",

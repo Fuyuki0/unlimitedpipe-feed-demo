@@ -3,9 +3,17 @@
   <channel>
     <title>Cloud and AI service incidents</title>
     <link>https://www.githubstatus.com/</link>
-    <description>Events collected by UnlimitedPipe 0.3.1</description>
-    <generator>UnlimitedPipe 0.3.1</generator>
-    <lastBuildDate>Thu, 24 Sep 2026 17:26:11 +0000</lastBuildDate>
+    <description>Events collected by UnlimitedPipe 0.3.2</description>
+    <generator>UnlimitedPipe 0.3.2</generator>
+    <lastBuildDate>Thu, 24 Sep 2026 19:33:10 +0000</lastBuildDate>
+    <item>
+      <title>OpenAI: Elevated Error Rates on GPT-6 Astra Pro</title>
+      <link>https://status.openai.com//incidents/01M3ACKDE4GYY67FXXNRRSC0CE</link>
+      <guid isPermaLink="false">95825c4b0997a3482a45</guid>
+      <pubDate>Thu, 24 Sep 2026 19:32:45 +0000</pubDate>
+      <description>Status: Monitoring
+We have applied the mitigation and are monitoring the recovery.</description>
+    </item>
     <item>
       <title>GitHub: Disruption with billing information updates</title>
       <link>https://www.githubstatus.com/incidents/1dk955gg3bvz</link>
@@ -1054,16 +1062,6 @@ Conversations (Operational)</description>
       <link>https://status.openai.com//incidents/01KZNZTPWMV06Z6TQNMY1R1QDR</link>
       <guid isPermaLink="false">595b590011a20f45938c</guid>
       <pubDate>Tue, 11 Aug 2026 02:48:20 +0000</pubDate>
-      <description>Status: Resolved
-All impacted services have now fully recovered.
-Affected components
-Conversations (Operational)</description>
-    </item>
-    <item>
-      <title>OpenAI: Increased errors for some ChatGPT users</title>
-      <link>https://status.openai.com//incidents/01KZN8RYNZY8T4QQGB3JWMPYRW</link>
-      <guid isPermaLink="false">00d1c805c620ddd3af2e</guid>
-      <pubDate>Mon, 10 Aug 2026 08:09:19 +0000</pubDate>
       <description>Status: Resolved
 All impacted services have now fully recovered.
 Affected components
