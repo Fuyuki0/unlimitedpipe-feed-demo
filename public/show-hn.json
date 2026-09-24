@@ -1,0 +1,4112 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Show HN (100+ points)",
+  "home_page_url": "https://news.ycombinator.com/show",
+  "description": "Events collected by UnlimitedPipe 0.3.1",
+  "_unlimitedpipe": {
+    "schema": "unlimitedpipe.event/1",
+    "generator": "UnlimitedPipe 0.3.1"
+  },
+  "items": [
+    {
+      "id": "e82c4c9e0b611acedb5a",
+      "title": "Show HN: Drop – A rootless Linux sandbox with gVisor support",
+      "content_text": "hn https://news.ycombinator.com/item?id=49801329 · published_at 2026-09-22T13:52:47Z · points 187 · num_comments 63",
+      "date_published": "2026-09-22T13:52:47Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "e82c4c9e0b611acedb5a",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49801329",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: Drop – A rootless Linux sandbox with gVisor support",
+            "item_type": "record",
+            "summary": "added: Show HN: Drop – A rootless Linux sandbox with gVisor support",
+            "after": {
+              "title": "Show HN: Drop – A rootless Linux sandbox with gVisor support",
+              "link": "https://droprun.sh/",
+              "hn": "https://news.ycombinator.com/item?id=49801329",
+              "published_at": "2026-09-22T13:52:47Z",
+              "points": 187,
+              "num_comments": 63
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://droprun.sh/"
+    },
+    {
+      "id": "a04dfecc5cbeb8277b84",
+      "title": "Show HN: JevBench, a reproducible benchmark for typed decision models",
+      "content_text": "hn https://news.ycombinator.com/item?id=49800574 · published_at 2026-09-22T13:01:03Z · points 145 · num_comments 36",
+      "date_published": "2026-09-22T13:01:03Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "a04dfecc5cbeb8277b84",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49800574",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: JevBench, a reproducible benchmark for typed decision models",
+            "item_type": "record",
+            "summary": "added: Show HN: JevBench, a reproducible benchmark for typed decision models",
+            "after": {
+              "title": "Show HN: JevBench, a reproducible benchmark for typed decision models",
+              "link": "https://benchmarkheaven.com/jev-models",
+              "hn": "https://news.ycombinator.com/item?id=49800574",
+              "published_at": "2026-09-22T13:01:03Z",
+              "points": 145,
+              "num_comments": 36
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://benchmarkheaven.com/jev-models"
+    },
+    {
+      "id": "b54ad32b7e63234f3c03",
+      "title": "Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM",
+      "content_text": "hn https://news.ycombinator.com/item?id=49783133 · published_at 2026-09-21T04:42:37Z · points 276 · num_comments 76",
+      "date_published": "2026-09-21T04:42:37Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "b54ad32b7e63234f3c03",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49783133",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM",
+            "item_type": "record",
+            "summary": "added: Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM",
+            "after": {
+              "title": "Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM",
+              "link": "https://github.com/volotat/mini-AGI/",
+              "hn": "https://news.ycombinator.com/item?id=49783133",
+              "published_at": "2026-09-21T04:42:37Z",
+              "points": 276,
+              "num_comments": 76
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://github.com/volotat/mini-AGI/"
+    },
+    {
+      "id": "984603c6fb2b1f481fed",
+      "title": "Show HN: Radius – A Meetup.com Alternative",
+      "content_text": "hn https://news.ycombinator.com/item?id=49777539 · published_at 2026-09-20T16:51:26Z · points 168 · num_comments 84",
+      "date_published": "2026-09-20T16:51:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "984603c6fb2b1f481fed",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49777539",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: Radius – A Meetup.com Alternative",
+            "item_type": "record",
+            "summary": "added: Show HN: Radius – A Meetup.com Alternative",
+            "after": {
+              "title": "Show HN: Radius – A Meetup.com Alternative",
+              "link": "https://radius.to/",
+              "hn": "https://news.ycombinator.com/item?id=49777539",
+              "published_at": "2026-09-20T16:51:26Z",
+              "points": 168,
+              "num_comments": 84
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://radius.to/"
+    },
+    {
+      "id": "78b7ccaccbe20a6a0233",
+      "title": "Show HN: A competition for small neural networks that play strategy games",
+      "content_text": "hn https://news.ycombinator.com/item?id=49776523 · published_at 2026-09-20T14:59:10Z · points 115 · num_comments 41",
+      "date_published": "2026-09-20T14:59:10Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "78b7ccaccbe20a6a0233",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49776523",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: A competition for small neural networks that play strategy games",
+            "item_type": "record",
+            "summary": "added: Show HN: A competition for small neural networks that play strategy games",
+            "after": {
+              "title": "Show HN: A competition for small neural networks that play strategy games",
+              "link": "https://tinybrains.dev",
+              "hn": "https://news.ycombinator.com/item?id=49776523",
+              "published_at": "2026-09-20T14:59:10Z",
+              "points": 115,
+              "num_comments": 41
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://tinybrains.dev"
+    },
+    {
+      "id": "5a59ec545403c33e157b",
+      "title": "Show HN: Cactus Needle 3: 8-29MB automation models can match DeepSeek V4 Flash",
+      "content_text": "hn https://news.ycombinator.com/item?id=49748553 · published_at 2026-09-18T00:11:44Z · points 236 · num_comments 92",
+      "date_published": "2026-09-18T00:11:44Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "5a59ec545403c33e157b",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49748553",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: Cactus Needle 3: 8-29MB automation models can match DeepSeek V4 Flash",
+            "item_type": "record",
+            "summary": "added: Show HN: Cactus Needle 3: 8-29MB automation models can match DeepSeek V4 Flash",
+            "after": {
+              "title": "Show HN: Cactus Needle 3: 8-29MB automation models can match DeepSeek V4 Flash",
+              "link": "https://cactuscompute.com/needle",
+              "hn": "https://news.ycombinator.com/item?id=49748553",
+              "published_at": "2026-09-18T00:11:44Z",
+              "points": 236,
+              "num_comments": 92
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://cactuscompute.com/needle"
+    },
+    {
+      "id": "a87c79c036702a1b087b",
+      "title": "Show HN: Snapdrop: Instantly share files between devices. No setup, no signup",
+      "content_text": "hn https://news.ycombinator.com/item?id=49746346 · published_at 2026-09-17T20:48:04Z · points 111 · num_comments 52",
+      "date_published": "2026-09-17T20:48:04Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "a87c79c036702a1b087b",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49746346",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: Snapdrop: Instantly share files between devices. No setup, no signup",
+            "item_type": "record",
+            "summary": "added: Show HN: Snapdrop: Instantly share files between devices. No setup, no signup",
+            "after": {
+              "title": "Show HN: Snapdrop: Instantly share files between devices. No setup, no signup",
+              "link": "https://snapdrop.me",
+              "hn": "https://news.ycombinator.com/item?id=49746346",
+              "published_at": "2026-09-17T20:48:04Z",
+              "points": 111,
+              "num_comments": 52
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://snapdrop.me"
+    },
+    {
+      "id": "76ee1685a4019151ce38",
+      "title": "Show HN: Share your AI Setup, Learn from others",
+      "content_text": "hn https://news.ycombinator.com/item?id=49740105 · published_at 2026-09-17T13:01:44Z · points 251 · num_comments 139",
+      "date_published": "2026-09-17T13:01:44Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "76ee1685a4019151ce38",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49740105",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: Share your AI Setup, Learn from others",
+            "item_type": "record",
+            "summary": "added: Show HN: Share your AI Setup, Learn from others",
+            "after": {
+              "title": "Show HN: Share your AI Setup, Learn from others",
+              "link": "https://mysetup.ai/",
+              "hn": "https://news.ycombinator.com/item?id=49740105",
+              "published_at": "2026-09-17T13:01:44Z",
+              "points": 251,
+              "num_comments": 139
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://mysetup.ai/"
+    },
+    {
+      "id": "ff1841c71b67d3fdced8",
+      "title": "Show HN: Capsule – Single-file web apps that save their data into SQLite",
+      "content_text": "hn https://news.ycombinator.com/item?id=49712278 · published_at 2026-09-15T13:31:40Z · points 380 · num_comments 167",
+      "date_published": "2026-09-15T13:31:40Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ff1841c71b67d3fdced8",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49712278",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: Capsule – Single-file web apps that save their data into SQLite",
+            "item_type": "record",
+            "summary": "added: Show HN: Capsule – Single-file web apps that save their data into SQLite",
+            "after": {
+              "title": "Show HN: Capsule – Single-file web apps that save their data into SQLite",
+              "link": "https://withcapsule.app/",
+              "hn": "https://news.ycombinator.com/item?id=49712278",
+              "published_at": "2026-09-15T13:31:40Z",
+              "points": 380,
+              "num_comments": 167
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://withcapsule.app/"
+    },
+    {
+      "id": "014eaa230a9e228d9a24",
+      "title": "Show HN: Hacking a $20 4G wireless hotspot into a texting device",
+      "content_text": "hn https://news.ycombinator.com/item?id=49712102 · published_at 2026-09-15T13:20:24Z · points 210 · num_comments 37",
+      "date_published": "2026-09-15T13:20:24Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "014eaa230a9e228d9a24",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49712102",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: Hacking a $20 4G wireless hotspot into a texting device",
+            "item_type": "record",
+            "summary": "added: Show HN: Hacking a $20 4G wireless hotspot into a texting device",
+            "after": {
+              "title": "Show HN: Hacking a $20 4G wireless hotspot into a texting device",
+              "link": "https://bkovac.github.io/modem-thing/",
+              "hn": "https://news.ycombinator.com/item?id=49712102",
+              "published_at": "2026-09-15T13:20:24Z",
+              "points": 210,
+              "num_comments": 37
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://bkovac.github.io/modem-thing/"
+    },
+    {
+      "id": "09490227b48fa2f2e000",
+      "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
+      "content_text": "hn https://news.ycombinator.com/item?id=49711544 · published_at 2026-09-15T12:31:10Z · points 2390 · num_comments 267",
+      "date_published": "2026-09-15T12:31:10Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "09490227b48fa2f2e000",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49711544",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
+            "item_type": "record",
+            "summary": "added: Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
+            "after": {
+              "title": "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations",
+              "link": "https://github.com/arnegiacomo/fugleramme",
+              "hn": "https://news.ycombinator.com/item?id=49711544",
+              "published_at": "2026-09-15T12:31:10Z",
+              "points": 2390,
+              "num_comments": 267
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://github.com/arnegiacomo/fugleramme"
+    },
+    {
+      "id": "d96cf0531f828436967a",
+      "title": "Show HN: Neobrutalism.dev – Just added Base UI support and added new color theme",
+      "content_text": "hn https://news.ycombinator.com/item?id=49699159 · published_at 2026-09-14T16:02:02Z · points 166 · num_comments 77",
+      "date_published": "2026-09-14T16:02:02Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d96cf0531f828436967a",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49699159",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: Neobrutalism.dev – Just added Base UI support and added new color theme",
+            "item_type": "record",
+            "summary": "added: Show HN: Neobrutalism.dev – Just added Base UI support and added new color theme",
+            "after": {
+              "title": "Show HN: Neobrutalism.dev – Just added Base UI support and added new color theme",
+              "link": "https://www.neobrutalism.dev/",
+              "hn": "https://news.ycombinator.com/item?id=49699159",
+              "published_at": "2026-09-14T16:02:02Z",
+              "points": 166,
+              "num_comments": 77
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.neobrutalism.dev/"
+    },
+    {
+      "id": "94716cb8856854f546ce",
+      "title": "Show HN: Pelican-bicycle alternatives",
+      "content_text": "hn https://news.ycombinator.com/item?id=49696402 · published_at 2026-09-14T13:20:22Z · points 133 · num_comments 45",
+      "date_published": "2026-09-14T13:20:22Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "94716cb8856854f546ce",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49696402",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: Pelican-bicycle alternatives",
+            "item_type": "record",
+            "summary": "added: Show HN: Pelican-bicycle alternatives",
+            "after": {
+              "title": "Show HN: Pelican-bicycle alternatives",
+              "link": "https://gally.net/temp/20260914pelican-alternatives/index.html",
+              "hn": "https://news.ycombinator.com/item?id=49696402",
+              "published_at": "2026-09-14T13:20:22Z",
+              "points": 133,
+              "num_comments": 45
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://gally.net/temp/20260914pelican-alternatives/index.html"
+    },
+    {
+      "id": "d3fdd204b370cd5a985e",
+      "title": "Show HN: Kinesis – Control your Mac with the Meta Neural Band",
+      "content_text": "hn https://news.ycombinator.com/item?id=49695408 · published_at 2026-09-14T12:01:31Z · points 122 · num_comments 46",
+      "date_published": "2026-09-14T12:01:31Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d3fdd204b370cd5a985e",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49695408",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: Kinesis – Control your Mac with the Meta Neural Band",
+            "item_type": "record",
+            "summary": "added: Show HN: Kinesis – Control your Mac with the Meta Neural Band",
+            "after": {
+              "title": "Show HN: Kinesis – Control your Mac with the Meta Neural Band",
+              "link": "https://github.com/callbacked/kinesis",
+              "hn": "https://news.ycombinator.com/item?id=49695408",
+              "published_at": "2026-09-14T12:01:31Z",
+              "points": 122,
+              "num_comments": 46
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://github.com/callbacked/kinesis"
+    },
+    {
+      "id": "0b980fcef0e329083ba6",
+      "title": "Show HN: I made a flight simulator, except you're just a passenger",
+      "content_text": "hn https://news.ycombinator.com/item?id=49693971 · published_at 2026-09-14T09:08:56Z · points 446 · num_comments 205",
+      "date_published": "2026-09-14T09:08:56Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "0b980fcef0e329083ba6",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49693971",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: I made a flight simulator, except you're just a passenger",
+            "item_type": "record",
+            "summary": "added: Show HN: I made a flight simulator, except you're just a passenger",
+            "after": {
+              "title": "Show HN: I made a flight simulator, except you're just a passenger",
+              "link": "https://inflightsimulator.com",
+              "hn": "https://news.ycombinator.com/item?id=49693971",
+              "published_at": "2026-09-14T09:08:56Z",
+              "points": 446,
+              "num_comments": 205
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://inflightsimulator.com"
+    },
+    {
+      "id": "5cbc42b31038de88ed93",
+      "title": "Show HN: Redis City – Explore how Redis works in an interactive 3D model",
+      "content_text": "hn https://news.ycombinator.com/item?id=49676425 · published_at 2026-09-12T19:43:34Z · points 186 · num_comments 28",
+      "date_published": "2026-09-12T19:43:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "5cbc42b31038de88ed93",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49676425",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: Redis City – Explore how Redis works in an interactive 3D model",
+            "item_type": "record",
+            "summary": "added: Show HN: Redis City – Explore how Redis works in an interactive 3D model",
+            "after": {
+              "title": "Show HN: Redis City – Explore how Redis works in an interactive 3D model",
+              "link": "https://poltora.dev/redis",
+              "hn": "https://news.ycombinator.com/item?id=49676425",
+              "published_at": "2026-09-12T19:43:34Z",
+              "points": 186,
+              "num_comments": 28
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://poltora.dev/redis"
+    },
+    {
+      "id": "a226a5c95b02168ef33c",
+      "title": "Show HN: Hacker News, Without AI",
+      "content_text": "hn https://news.ycombinator.com/item?id=49660783 · published_at 2026-09-11T16:08:50Z · points 198 · num_comments 82",
+      "date_published": "2026-09-11T16:08:50Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "a226a5c95b02168ef33c",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49660783",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: Hacker News, Without AI",
+            "item_type": "record",
+            "summary": "added: Show HN: Hacker News, Without AI",
+            "after": {
+              "title": "Show HN: Hacker News, Without AI",
+              "link": "https://www.unslop.news/",
+              "hn": "https://news.ycombinator.com/item?id=49660783",
+              "published_at": "2026-09-11T16:08:50Z",
+              "points": 198,
+              "num_comments": 82
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.unslop.news/"
+    },
+    {
+      "id": "91341b300e135be67a9f",
+      "title": "Show HN: Hacker News, without AI",
+      "content_text": "hn https://news.ycombinator.com/item?id=49659647 · published_at 2026-09-11T15:01:19Z · points 207 · num_comments 85",
+      "date_published": "2026-09-11T15:01:19Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "91341b300e135be67a9f",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49659647",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: Hacker News, without AI",
+            "item_type": "record",
+            "summary": "added: Show HN: Hacker News, without AI",
+            "after": {
+              "title": "Show HN: Hacker News, without AI",
+              "link": "https://hcker.news/?ai=exclude",
+              "hn": "https://news.ycombinator.com/item?id=49659647",
+              "published_at": "2026-09-11T15:01:19Z",
+              "points": 207,
+              "num_comments": 85
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://hcker.news/?ai=exclude"
+    },
+    {
+      "id": "0fc1464762e327fed03f",
+      "title": "Show HN: Bodily Oddities",
+      "content_text": "hn https://news.ycombinator.com/item?id=49649789 · published_at 2026-09-10T20:33:11Z · points 341 · num_comments 216",
+      "date_published": "2026-09-10T20:33:11Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "0fc1464762e327fed03f",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49649789",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: Bodily Oddities",
+            "item_type": "record",
+            "summary": "added: Show HN: Bodily Oddities",
+            "after": {
+              "title": "Show HN: Bodily Oddities",
+              "link": "https://vester.si/bodily-oddities/",
+              "hn": "https://news.ycombinator.com/item?id=49649789",
+              "published_at": "2026-09-10T20:33:11Z",
+              "points": 341,
+              "num_comments": 216
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://vester.si/bodily-oddities/"
+    },
+    {
+      "id": "5ca636c66596360cfe33",
+      "title": "Show HN: What if the speed of light was 5 km/h?",
+      "content_text": "hn https://news.ycombinator.com/item?id=49637385 · published_at 2026-09-10T01:58:00Z · points 633 · num_comments 290",
+      "date_published": "2026-09-10T01:58:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "5ca636c66596360cfe33",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49637385",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: What if the speed of light was 5 km/h?",
+            "item_type": "record",
+            "summary": "added: Show HN: What if the speed of light was 5 km/h?",
+            "after": {
+              "title": "Show HN: What if the speed of light was 5 km/h?",
+              "link": "https://rivendell.dmitrybrant.com/relativity/",
+              "hn": "https://news.ycombinator.com/item?id=49637385",
+              "published_at": "2026-09-10T01:58:00Z",
+              "points": 633,
+              "num_comments": 290
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://rivendell.dmitrybrant.com/relativity/"
+    },
+    {
+      "id": "90921176019a1422bee6",
+      "title": "Show HN: Compute polynomials twice as fast",
+      "content_text": "hn https://news.ycombinator.com/item?id=49623398 · published_at 2026-09-09T08:53:58Z · points 139 · num_comments 42",
+      "date_published": "2026-09-09T08:53:58Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "90921176019a1422bee6",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49623398",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: Compute polynomials twice as fast",
+            "item_type": "record",
+            "summary": "added: Show HN: Compute polynomials twice as fast",
+            "after": {
+              "title": "Show HN: Compute polynomials twice as fast",
+              "link": "https://thomasahle.com/fast-polynomials/",
+              "hn": "https://news.ycombinator.com/item?id=49623398",
+              "published_at": "2026-09-09T08:53:58Z",
+              "points": 139,
+              "num_comments": 42
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://thomasahle.com/fast-polynomials/"
+    },
+    {
+      "id": "d2750bf10493dabc54e3",
+      "title": "Show HN: LLM Attention Visualization",
+      "content_text": "hn https://news.ycombinator.com/item?id=49613068 · published_at 2026-09-08T16:59:41Z · points 177 · num_comments 32",
+      "date_published": "2026-09-08T16:59:41Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d2750bf10493dabc54e3",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49613068",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: LLM Attention Visualization",
+            "item_type": "record",
+            "summary": "added: Show HN: LLM Attention Visualization",
+            "after": {
+              "title": "Show HN: LLM Attention Visualization",
+              "link": "https://ishamf.dev/p/llm-attention-visualizer/",
+              "hn": "https://news.ycombinator.com/item?id=49613068",
+              "published_at": "2026-09-08T16:59:41Z",
+              "points": 177,
+              "num_comments": 32
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://ishamf.dev/p/llm-attention-visualizer/"
+    },
+    {
+      "id": "7fd85c188c4292c2b440",
+      "title": "Show HN: Copperhead – Cursor for circuit boards",
+      "content_text": "hn https://news.ycombinator.com/item?id=49610059 · published_at 2026-09-08T13:26:45Z · points 250 · num_comments 115",
+      "date_published": "2026-09-08T13:26:45Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "7fd85c188c4292c2b440",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49610059",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: Copperhead – Cursor for circuit boards",
+            "item_type": "record",
+            "summary": "added: Show HN: Copperhead – Cursor for circuit boards",
+            "after": {
+              "title": "Show HN: Copperhead – Cursor for circuit boards",
+              "link": "https://copperhead.sh/",
+              "hn": "https://news.ycombinator.com/item?id=49610059",
+              "published_at": "2026-09-08T13:26:45Z",
+              "points": 250,
+              "num_comments": 115
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://copperhead.sh/"
+    },
+    {
+      "id": "9b1a7279bfb8f5dd798d",
+      "title": "Show HN: Stuxnet – A reconstructed source code of the infamous cyber-weapon",
+      "content_text": "hn https://news.ycombinator.com/item?id=49603546 · published_at 2026-09-07T22:12:38Z · points 179 · num_comments 51",
+      "date_published": "2026-09-07T22:12:38Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "9b1a7279bfb8f5dd798d",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49603546",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: Stuxnet – A reconstructed source code of the infamous cyber-weapon",
+            "item_type": "record",
+            "summary": "added: Show HN: Stuxnet – A reconstructed source code of the infamous cyber-weapon",
+            "after": {
+              "title": "Show HN: Stuxnet – A reconstructed source code of the infamous cyber-weapon",
+              "link": "https://github.com/Sadpainy/Stuxnet",
+              "hn": "https://news.ycombinator.com/item?id=49603546",
+              "published_at": "2026-09-07T22:12:38Z",
+              "points": 179,
+              "num_comments": 51
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://github.com/Sadpainy/Stuxnet"
+    },
+    {
+      "id": "8224a64878f92eb61811",
+      "title": "Show HN: GET Together – A social network where you don't need POST to Post",
+      "content_text": "hn https://news.ycombinator.com/item?id=49592840 · published_at 2026-09-07T01:41:11Z · points 107 · num_comments 59",
+      "date_published": "2026-09-07T01:41:11Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "8224a64878f92eb61811",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49592840",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: GET Together – A social network where you don't need POST to Post",
+            "item_type": "record",
+            "summary": "added: Show HN: GET Together – A social network where you don't need POST to Post",
+            "after": {
+              "title": "Show HN: GET Together – A social network where you don't need POST to Post",
+              "link": "https://gettogether.dev",
+              "hn": "https://news.ycombinator.com/item?id=49592840",
+              "published_at": "2026-09-07T01:41:11Z",
+              "points": 107,
+              "num_comments": 59
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://gettogether.dev"
+    },
+    {
+      "id": "a7e56e578f9b4a2d1fb0",
+      "title": "Show HN: Mador – Make any DOM reactive with a tiny 80-line Proxy state tuple",
+      "content_text": "hn https://news.ycombinator.com/item?id=49590738 · published_at 2026-09-06T20:45:13Z · points 101 · num_comments 35",
+      "date_published": "2026-09-06T20:45:13Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "a7e56e578f9b4a2d1fb0",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49590738",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: Mador – Make any DOM reactive with a tiny 80-line Proxy state tuple",
+            "item_type": "record",
+            "summary": "added: Show HN: Mador – Make any DOM reactive with a tiny 80-line Proxy state tuple",
+            "after": {
+              "title": "Show HN: Mador – Make any DOM reactive with a tiny 80-line Proxy state tuple",
+              "link": "https://github.com/marsbos/mador",
+              "hn": "https://news.ycombinator.com/item?id=49590738",
+              "published_at": "2026-09-06T20:45:13Z",
+              "points": 101,
+              "num_comments": 35
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://github.com/marsbos/mador"
+    },
+    {
+      "id": "d51e22621bd3dd0aea7a",
+      "title": "Show HN: Jigsaw Haiku",
+      "content_text": "hn https://news.ycombinator.com/item?id=49568162 · published_at 2026-09-04T18:14:44Z · points 118 · num_comments 34",
+      "date_published": "2026-09-04T18:14:44Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d51e22621bd3dd0aea7a",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49568162",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: Jigsaw Haiku",
+            "item_type": "record",
+            "summary": "added: Show HN: Jigsaw Haiku",
+            "after": {
+              "title": "Show HN: Jigsaw Haiku",
+              "link": "https://jigsawhaiku.com/",
+              "hn": "https://news.ycombinator.com/item?id=49568162",
+              "published_at": "2026-09-04T18:14:44Z",
+              "points": 118,
+              "num_comments": 34
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://jigsawhaiku.com/"
+    },
+    {
+      "id": "1d8e43e3cc09feca313f",
+      "title": "Show HN: Open-Source eInk Bike Computer",
+      "content_text": "hn https://news.ycombinator.com/item?id=49567437 · published_at 2026-09-04T17:18:08Z · points 424 · num_comments 134",
+      "date_published": "2026-09-04T17:18:08Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "1d8e43e3cc09feca313f",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49567437",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: Open-Source eInk Bike Computer",
+            "item_type": "record",
+            "summary": "added: Show HN: Open-Source eInk Bike Computer",
+            "after": {
+              "title": "Show HN: Open-Source eInk Bike Computer",
+              "link": "https://opentrailpaper.com",
+              "hn": "https://news.ycombinator.com/item?id=49567437",
+              "published_at": "2026-09-04T17:18:08Z",
+              "points": 424,
+              "num_comments": 134
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://opentrailpaper.com"
+    },
+    {
+      "id": "1b61ad835e8867b55359",
+      "title": "Show HN: TERMy – A fast terminal assistant that does not use LLMs",
+      "content_text": "hn https://news.ycombinator.com/item?id=49562219 · published_at 2026-09-04T09:03:00Z · points 225 · num_comments 45",
+      "date_published": "2026-09-04T09:03:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "1b61ad835e8867b55359",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49562219",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: TERMy – A fast terminal assistant that does not use LLMs",
+            "item_type": "record",
+            "summary": "added: Show HN: TERMy – A fast terminal assistant that does not use LLMs",
+            "after": {
+              "title": "Show HN: TERMy – A fast terminal assistant that does not use LLMs",
+              "link": "https://github.com/gioblu/NPC-Forge/blob/main/docs/development.md",
+              "hn": "https://news.ycombinator.com/item?id=49562219",
+              "published_at": "2026-09-04T09:03:00Z",
+              "points": 225,
+              "num_comments": 45
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://github.com/gioblu/NPC-Forge/blob/main/docs/development.md"
+    },
+    {
+      "id": "91e71493c473800e96cb",
+      "title": "Show HN: Interactive Tree of Life",
+      "content_text": "hn https://news.ycombinator.com/item?id=49559069 · published_at 2026-09-04T00:40:06Z · points 117 · num_comments 28",
+      "date_published": "2026-09-04T00:40:06Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "91e71493c473800e96cb",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49559069",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: Interactive Tree of Life",
+            "item_type": "record",
+            "summary": "added: Show HN: Interactive Tree of Life",
+            "after": {
+              "title": "Show HN: Interactive Tree of Life",
+              "link": "https://ptree.org/",
+              "hn": "https://news.ycombinator.com/item?id=49559069",
+              "published_at": "2026-09-04T00:40:06Z",
+              "points": 117,
+              "num_comments": 28
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://ptree.org/"
+    },
+    {
+      "id": "01768aacc7e2c22e94dd",
+      "title": "Show HN: Weedout – Safari extension that hides YouTube AI-labeled videos",
+      "content_text": "hn https://news.ycombinator.com/item?id=49528895 · published_at 2026-09-01T22:06:57Z · points 185 · num_comments 84",
+      "date_published": "2026-09-01T22:06:57Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "01768aacc7e2c22e94dd",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49528895",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: Weedout – Safari extension that hides YouTube AI-labeled videos",
+            "item_type": "record",
+            "summary": "added: Show HN: Weedout – Safari extension that hides YouTube AI-labeled videos",
+            "after": {
+              "title": "Show HN: Weedout – Safari extension that hides YouTube AI-labeled videos",
+              "link": "https://masteranza.github.io/weedout/",
+              "hn": "https://news.ycombinator.com/item?id=49528895",
+              "published_at": "2026-09-01T22:06:57Z",
+              "points": 185,
+              "num_comments": 84
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://masteranza.github.io/weedout/"
+    },
+    {
+      "id": "4d170cafac5f4827e23d",
+      "title": "Show HN: OwnTime – a chess clock for your day's priorities",
+      "content_text": "hn https://news.ycombinator.com/item?id=49528506 · published_at 2026-09-01T21:29:24Z · points 118 · num_comments 67",
+      "date_published": "2026-09-01T21:29:24Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "4d170cafac5f4827e23d",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49528506",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: OwnTime – a chess clock for your day's priorities",
+            "item_type": "record",
+            "summary": "added: Show HN: OwnTime – a chess clock for your day's priorities",
+            "after": {
+              "title": "Show HN: OwnTime – a chess clock for your day's priorities",
+              "link": "https://owntime.app/",
+              "hn": "https://news.ycombinator.com/item?id=49528506",
+              "published_at": "2026-09-01T21:29:24Z",
+              "points": 118,
+              "num_comments": 67
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://owntime.app/"
+    },
+    {
+      "id": "215669c948e54c0a28de",
+      "title": "Show HN: HN Match Maker – Matching \"Who Wants to Be Hired?\" With \"Who's Hiring?\"",
+      "content_text": "hn https://news.ycombinator.com/item?id=49528057 · published_at 2026-09-01T20:53:35Z · points 125 · num_comments 46",
+      "date_published": "2026-09-01T20:53:35Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "215669c948e54c0a28de",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49528057",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: HN Match Maker – Matching \"Who Wants to Be Hired?\" With \"Who's Hiring?\"",
+            "item_type": "record",
+            "summary": "added: Show HN: HN Match Maker – Matching \"Who Wants to Be Hired?\" With \"Who's Hiring?\"",
+            "after": {
+              "title": "Show HN: HN Match Maker – Matching \"Who Wants to Be Hired?\" With \"Who's Hiring?\"",
+              "link": "https://hnmatchmaker.com/",
+              "hn": "https://news.ycombinator.com/item?id=49528057",
+              "published_at": "2026-09-01T20:53:35Z",
+              "points": 125,
+              "num_comments": 46
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://hnmatchmaker.com/"
+    },
+    {
+      "id": "dfaa9b9ffefe06732a56",
+      "title": "Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s",
+      "content_text": "hn https://news.ycombinator.com/item?id=49524447 · published_at 2026-09-01T16:42:46Z · points 240 · num_comments 118",
+      "date_published": "2026-09-01T16:42:46Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "dfaa9b9ffefe06732a56",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49524447",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s",
+            "item_type": "record",
+            "summary": "added: Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s",
+            "after": {
+              "title": "Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s",
+              "link": "https://github.com/carloslfu/slotstream",
+              "hn": "https://news.ycombinator.com/item?id=49524447",
+              "published_at": "2026-09-01T16:42:46Z",
+              "points": 240,
+              "num_comments": 118
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://github.com/carloslfu/slotstream"
+    },
+    {
+      "id": "5875f3cbd3bd812ac2cc",
+      "title": "Show HN: Laser Graffiti",
+      "content_text": "hn https://news.ycombinator.com/item?id=49489376 · published_at 2026-08-29T12:28:11Z · points 253 · num_comments 61",
+      "date_published": "2026-08-29T12:28:11Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "5875f3cbd3bd812ac2cc",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49489376",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: Laser Graffiti",
+            "item_type": "record",
+            "summary": "added: Show HN: Laser Graffiti",
+            "after": {
+              "title": "Show HN: Laser Graffiti",
+              "link": "https://laser.consti.de",
+              "hn": "https://news.ycombinator.com/item?id=49489376",
+              "published_at": "2026-08-29T12:28:11Z",
+              "points": 253,
+              "num_comments": 61
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://laser.consti.de"
+    },
+    {
+      "id": "34ed3bbd8d8b9fa2f5a1",
+      "title": "Show HN: NFC Energy-Harvesting PCB Business Card with an MCU",
+      "content_text": "hn https://news.ycombinator.com/item?id=49478426 · published_at 2026-08-28T13:48:12Z · points 231 · num_comments 30",
+      "date_published": "2026-08-28T13:48:12Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "34ed3bbd8d8b9fa2f5a1",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49478426",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: NFC Energy-Harvesting PCB Business Card with an MCU",
+            "item_type": "record",
+            "summary": "added: Show HN: NFC Energy-Harvesting PCB Business Card with an MCU",
+            "after": {
+              "title": "Show HN: NFC Energy-Harvesting PCB Business Card with an MCU",
+              "link": "https://wilsonharper.net/projects/businesscard/",
+              "hn": "https://news.ycombinator.com/item?id=49478426",
+              "published_at": "2026-08-28T13:48:12Z",
+              "points": 231,
+              "num_comments": 30
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://wilsonharper.net/projects/businesscard/"
+    },
+    {
+      "id": "761655d25ca31ca54df7",
+      "title": "Show HN: OpenTIE and OpenXWA, Modern Ports of Tie Fighter and X-Wing Alliance",
+      "content_text": "hn https://news.ycombinator.com/item?id=49471965 · published_at 2026-08-27T22:10:47Z · points 231 · num_comments 58",
+      "date_published": "2026-08-27T22:10:47Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "761655d25ca31ca54df7",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49471965",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: OpenTIE and OpenXWA, Modern Ports of Tie Fighter and X-Wing Alliance",
+            "item_type": "record",
+            "summary": "added: Show HN: OpenTIE and OpenXWA, Modern Ports of Tie Fighter and X-Wing Alliance",
+            "after": {
+              "title": "Show HN: OpenTIE and OpenXWA, Modern Ports of Tie Fighter and X-Wing Alliance",
+              "link": "https://github.com/elyosh/OpenTIE/",
+              "hn": "https://news.ycombinator.com/item?id=49471965",
+              "published_at": "2026-08-27T22:10:47Z",
+              "points": 231,
+              "num_comments": 58
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://github.com/elyosh/OpenTIE/"
+    },
+    {
+      "id": "818a034c093674696277",
+      "title": "Show HN: We built open OpenRouter that turns usage into a better model",
+      "content_text": "hn https://news.ycombinator.com/item?id=49471407 · published_at 2026-08-27T21:18:35Z · points 222 · num_comments 47",
+      "date_published": "2026-08-27T21:18:35Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "818a034c093674696277",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49471407",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: We built open OpenRouter that turns usage into a better model",
+            "item_type": "record",
+            "summary": "added: Show HN: We built open OpenRouter that turns usage into a better model",
+            "after": {
+              "title": "Show HN: We built open OpenRouter that turns usage into a better model",
+              "link": "https://github.com/experientiallabs/experiential",
+              "hn": "https://news.ycombinator.com/item?id=49471407",
+              "published_at": "2026-08-27T21:18:35Z",
+              "points": 222,
+              "num_comments": 47
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://github.com/experientiallabs/experiential"
+    },
+    {
+      "id": "56c7438bddb6901fa6ee",
+      "title": "Show HN: Voronoi Go",
+      "content_text": "hn https://news.ycombinator.com/item?id=49468816 · published_at 2026-08-27T18:03:37Z · points 158 · num_comments 26",
+      "date_published": "2026-08-27T18:03:37Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "56c7438bddb6901fa6ee",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49468816",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: Voronoi Go",
+            "item_type": "record",
+            "summary": "added: Show HN: Voronoi Go",
+            "after": {
+              "title": "Show HN: Voronoi Go",
+              "link": "https://voronoigo.com/",
+              "hn": "https://news.ycombinator.com/item?id=49468816",
+              "published_at": "2026-08-27T18:03:37Z",
+              "points": 158,
+              "num_comments": 26
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://voronoigo.com/"
+    },
+    {
+      "id": "16159d20a3a975a486a2",
+      "title": "Show HN: The load-bearing vocabulary of Claude",
+      "content_text": "hn https://news.ycombinator.com/item?id=49461817 · published_at 2026-08-27T08:59:49Z · points 710 · num_comments 326",
+      "date_published": "2026-08-27T08:59:49Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "16159d20a3a975a486a2",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49461817",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: The load-bearing vocabulary of Claude",
+            "item_type": "record",
+            "summary": "added: Show HN: The load-bearing vocabulary of Claude",
+            "after": {
+              "title": "Show HN: The load-bearing vocabulary of Claude",
+              "link": "https://louisabraham.github.io/load-bearing/",
+              "hn": "https://news.ycombinator.com/item?id=49461817",
+              "published_at": "2026-08-27T08:59:49Z",
+              "points": 710,
+              "num_comments": 326
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://louisabraham.github.io/load-bearing/"
+    },
+    {
+      "id": "80960d2db4f4bf3f9fad",
+      "title": "Show HN: Typebase – A single-folder back end you write in TypeScript",
+      "content_text": "hn https://news.ycombinator.com/item?id=49447178 · published_at 2026-08-26T11:33:31Z · points 119 · num_comments 49",
+      "date_published": "2026-08-26T11:33:31Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "80960d2db4f4bf3f9fad",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49447178",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: Typebase – A single-folder back end you write in TypeScript",
+            "item_type": "record",
+            "summary": "added: Show HN: Typebase – A single-folder back end you write in TypeScript",
+            "after": {
+              "title": "Show HN: Typebase – A single-folder back end you write in TypeScript",
+              "link": "https://typebase.io",
+              "hn": "https://news.ycombinator.com/item?id=49447178",
+              "published_at": "2026-08-26T11:33:31Z",
+              "points": 119,
+              "num_comments": 49
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://typebase.io"
+    },
+    {
+      "id": "90a5003b934de3fa4ee6",
+      "title": "Show HN: TeXbrain, a LaTeX editor that runs pdfTeX in the browser via WASM",
+      "content_text": "hn https://news.ycombinator.com/item?id=49441375 · published_at 2026-08-25T22:08:50Z · points 118 · num_comments 28",
+      "date_published": "2026-08-25T22:08:50Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "90a5003b934de3fa4ee6",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49441375",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: TeXbrain, a LaTeX editor that runs pdfTeX in the browser via WASM",
+            "item_type": "record",
+            "summary": "added: Show HN: TeXbrain, a LaTeX editor that runs pdfTeX in the browser via WASM",
+            "after": {
+              "title": "Show HN: TeXbrain, a LaTeX editor that runs pdfTeX in the browser via WASM",
+              "link": "https://github.com/swimmingbrain/texbrain",
+              "hn": "https://news.ycombinator.com/item?id=49441375",
+              "published_at": "2026-08-25T22:08:50Z",
+              "points": 118,
+              "num_comments": 28
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://github.com/swimmingbrain/texbrain"
+    },
+    {
+      "id": "b1d227dc8410abe6c4b1",
+      "title": "Show HN: LatticeDB – Like SQLite but for graph databases",
+      "content_text": "hn https://news.ycombinator.com/item?id=49437049 · published_at 2026-08-25T16:52:05Z · points 190 · num_comments 54",
+      "date_published": "2026-08-25T16:52:05Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "b1d227dc8410abe6c4b1",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49437049",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: LatticeDB – Like SQLite but for graph databases",
+            "item_type": "record",
+            "summary": "added: Show HN: LatticeDB – Like SQLite but for graph databases",
+            "after": {
+              "title": "Show HN: LatticeDB – Like SQLite but for graph databases",
+              "link": "https://github.com/jeffhajewski/latticedb",
+              "hn": "https://news.ycombinator.com/item?id=49437049",
+              "published_at": "2026-08-25T16:52:05Z",
+              "points": 190,
+              "num_comments": 54
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://github.com/jeffhajewski/latticedb"
+    },
+    {
+      "id": "35ae2d5b6c23666d469a",
+      "title": "Show HN: I made a Raspberry with Qwen my local car AI",
+      "content_text": "hn https://news.ycombinator.com/item?id=49435675 · published_at 2026-08-25T15:20:20Z · points 146 · num_comments 68",
+      "date_published": "2026-08-25T15:20:20Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "35ae2d5b6c23666d469a",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49435675",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: I made a Raspberry with Qwen my local car AI",
+            "item_type": "record",
+            "summary": "added: Show HN: I made a Raspberry with Qwen my local car AI",
+            "after": {
+              "title": "Show HN: I made a Raspberry with Qwen my local car AI",
+              "link": "https://github.com/ThinkOffApp/CarWatch",
+              "hn": "https://news.ycombinator.com/item?id=49435675",
+              "published_at": "2026-08-25T15:20:20Z",
+              "points": 146,
+              "num_comments": 68
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://github.com/ThinkOffApp/CarWatch"
+    },
+    {
+      "id": "2cf3a8791568d27e98f3",
+      "title": "Show HN: GlassBox – what the browser reveals, and how identifiable you are",
+      "content_text": "hn https://news.ycombinator.com/item?id=49421948 · published_at 2026-08-24T16:15:10Z · points 132 · num_comments 63",
+      "date_published": "2026-08-24T16:15:10Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "2cf3a8791568d27e98f3",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49421948",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: GlassBox – what the browser reveals, and how identifiable you are",
+            "item_type": "record",
+            "summary": "added: Show HN: GlassBox – what the browser reveals, and how identifiable you are",
+            "after": {
+              "title": "Show HN: GlassBox – what the browser reveals, and how identifiable you are",
+              "link": "https://glassbox.codecanary.org",
+              "hn": "https://news.ycombinator.com/item?id=49421948",
+              "published_at": "2026-08-24T16:15:10Z",
+              "points": 132,
+              "num_comments": 63
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://glassbox.codecanary.org"
+    },
+    {
+      "id": "0476f407b82cc5b27516",
+      "title": "Show HN: PicoMQ – Durable Streams over HTTP, on object storage",
+      "content_text": "hn https://news.ycombinator.com/item?id=49421806 · published_at 2026-08-24T16:08:17Z · points 159 · num_comments 31",
+      "date_published": "2026-08-24T16:08:17Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "0476f407b82cc5b27516",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49421806",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: PicoMQ – Durable Streams over HTTP, on object storage",
+            "item_type": "record",
+            "summary": "added: Show HN: PicoMQ – Durable Streams over HTTP, on object storage",
+            "after": {
+              "title": "Show HN: PicoMQ – Durable Streams over HTTP, on object storage",
+              "link": "https://picomq.com/",
+              "hn": "https://news.ycombinator.com/item?id=49421806",
+              "published_at": "2026-08-24T16:08:17Z",
+              "points": 159,
+              "num_comments": 31
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://picomq.com/"
+    },
+    {
+      "id": "50c01ff1fd700868aeb4",
+      "title": "Show HN: Galaxium, an experimental WebGPU space explorer",
+      "content_text": "hn https://news.ycombinator.com/item?id=49420524 · published_at 2026-08-24T14:44:20Z · points 137 · num_comments 40",
+      "date_published": "2026-08-24T14:44:20Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "50c01ff1fd700868aeb4",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49420524",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: Galaxium, an experimental WebGPU space explorer",
+            "item_type": "record",
+            "summary": "added: Show HN: Galaxium, an experimental WebGPU space explorer",
+            "after": {
+              "title": "Show HN: Galaxium, an experimental WebGPU space explorer",
+              "link": "https://galaxium.app",
+              "hn": "https://news.ycombinator.com/item?id=49420524",
+              "published_at": "2026-08-24T14:44:20Z",
+              "points": 137,
+              "num_comments": 40
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://galaxium.app"
+    },
+    {
+      "id": "d8409889df71043ced48",
+      "title": "Show HN: A techno machine in one HTML file, with verifiable renders",
+      "content_text": "hn https://news.ycombinator.com/item?id=49419351 · published_at 2026-08-24T13:17:11Z · points 240 · num_comments 48",
+      "date_published": "2026-08-24T13:17:11Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d8409889df71043ced48",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49419351",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: A techno machine in one HTML file, with verifiable renders",
+            "item_type": "record",
+            "summary": "added: Show HN: A techno machine in one HTML file, with verifiable renders",
+            "after": {
+              "title": "Show HN: A techno machine in one HTML file, with verifiable renders",
+              "link": "https://ssx360.github.io/rack-02/?src=hn",
+              "hn": "https://news.ycombinator.com/item?id=49419351",
+              "published_at": "2026-08-24T13:17:11Z",
+              "points": 240,
+              "num_comments": 48
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://ssx360.github.io/rack-02/?src=hn"
+    },
+    {
+      "id": "9785d9aa42393d04a248",
+      "title": "Show HN: I wrote a BASIC interpreter that boots on UEFI machines",
+      "content_text": "hn https://news.ycombinator.com/item?id=49410814 · published_at 2026-08-23T17:48:12Z · points 156 · num_comments 44",
+      "date_published": "2026-08-23T17:48:12Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "9785d9aa42393d04a248",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49410814",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: I wrote a BASIC interpreter that boots on UEFI machines",
+            "item_type": "record",
+            "summary": "added: Show HN: I wrote a BASIC interpreter that boots on UEFI machines",
+            "after": {
+              "title": "Show HN: I wrote a BASIC interpreter that boots on UEFI machines",
+              "link": "https://tarjan.itch.io/thoreaubasic",
+              "hn": "https://news.ycombinator.com/item?id=49410814",
+              "published_at": "2026-08-23T17:48:12Z",
+              "points": 156,
+              "num_comments": 44
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://tarjan.itch.io/thoreaubasic"
+    },
+    {
+      "id": "5dd5d1f6f7bb69a526f5",
+      "title": "Show HN: Huzzah – a novel approach to coding with AI",
+      "content_text": "hn https://news.ycombinator.com/item?id=49378768 · published_at 2026-08-20T19:05:36Z · points 384 · num_comments 209",
+      "date_published": "2026-08-20T19:05:36Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "5dd5d1f6f7bb69a526f5",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49378768",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:30:25Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: Huzzah – a novel approach to coding with AI",
+            "item_type": "record",
+            "summary": "added: Show HN: Huzzah – a novel approach to coding with AI",
+            "after": {
+              "title": "Show HN: Huzzah – a novel approach to coding with AI",
+              "link": "https://www.danielvaughn.dev/posts/huzzah/",
+              "hn": "https://news.ycombinator.com/item?id=49378768",
+              "published_at": "2026-08-20T19:05:36Z",
+              "points": 384,
+              "num_comments": 209
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.danielvaughn.dev/posts/huzzah/"
+    }
+  ]
+}
