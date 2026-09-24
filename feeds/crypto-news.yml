@@ -1,0 +1,12 @@
+name: crypto-news
+description: Crypto news from CoinDesk, Cointelegraph and Decrypt, merged, newest first.
+sources:
+  - type: rss
+    url: [https://www.coindesk.com/arc/outboundfeeds/rss/, https://cointelegraph.com/rss, https://decrypt.co/feed]
+operators:
+  - {type: dedupe, by: [link]}
+  - {type: sort, by: [published_at], reverse: true}
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/crypto-news.xml, title: "Crypto news (CoinDesk, Cointelegraph, Decrypt)", max_items: 150}
+  - {type: feed, path: ../public/crypto-news.json, title: "Crypto news (CoinDesk, Cointelegraph, Decrypt)", max_items: 150}

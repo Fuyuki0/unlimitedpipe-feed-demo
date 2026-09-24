@@ -1,0 +1,11 @@
+name: hn-top
+description: Hacker News stories that reached 300 points, the day's biggest discussions.
+sources:
+  - type: rss
+    url: "https://hnrss.org/frontpage?points=300"
+operators:
+  - {type: map, drop: [summary]}
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/hn-top.xml, title: Hacker News (300+ points), link: https://news.ycombinator.com/}
+  - {type: feed, path: ../public/hn-top.json, title: Hacker News (300+ points), link: https://news.ycombinator.com/}

@@ -1,0 +1,20 @@
+name: cloud-status
+description: New incidents at GitHub, Cloudflare, OpenAI, Anthropic (Claude) and Google Cloud, from their status pages, without scheduled maintenance.
+sources:
+  - type: rss
+    url:
+      - https://www.githubstatus.com/history.rss
+      - https://www.cloudflarestatus.com/history.rss
+      - https://status.openai.com/history.rss
+      - https://status.anthropic.com/history.rss
+      - https://status.cloud.google.com/en/feed.atom
+operators:
+  - type: filter
+    expr: 'not (summary contains "scheduled maintenance")'
+  - type: map
+    assign: ['title=replace(feed.title, "(?i)\\s*(status|service health)\\b.*$", "") + ": " + title']
+  - {type: sort, by: [published_at], reverse: true}
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/cloud-status.xml, title: Cloud and AI service incidents, link: https://www.githubstatus.com/}
+  - {type: feed, path: ../public/cloud-status.json, title: Cloud and AI service incidents, link: https://www.githubstatus.com/}

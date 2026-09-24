@@ -1,0 +1,16 @@
+name: space-launches
+description: Rocket launches worldwide as soon as they are scheduled, from The Space Devs' Launch Library 2.
+sources:
+  - type: web
+    url: "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list"
+    records: results
+operators:
+  - type: map
+    assign:
+      - 'link="https://spacelaunchnow.app/launch/" + slug + "/"'
+      - 'summary="Launch window opens " + replace(net, "T(\\d\\d:\\d\\d):\\d\\dZ$", " \\1 UTC") + " (" + status.name + ")"'
+    drop: [url, response_mode, image, infographic, net_precision]
+  - {type: diff, key: id, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/space-launches.xml, title: Rocket launches, link: https://thespacedevs.com/llapi}
+  - {type: feed, path: ../public/space-launches.json, title: Rocket launches, link: https://thespacedevs.com/llapi}

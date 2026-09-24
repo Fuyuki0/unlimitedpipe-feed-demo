@@ -1,0 +1,16 @@
+name: ai-papers
+description: Hugging Face Daily Papers, the AI research papers the community highlights each day.
+sources:
+  - type: web
+    url: https://huggingface.co/api/daily_papers
+operators:
+  - type: map
+    assign:
+      - 'link="https://huggingface.co/papers/" + paper.id'
+      - "published_at=paper.submittedOnDailyAt"
+      - "upvotes=paper.upvotes"
+    drop: [paper, publishedAt, thumbnail, submittedBy, isAuthorParticipating, numComments]
+  - {type: diff, key: link, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/ai-papers.xml, title: Hugging Face Daily Papers, link: https://huggingface.co/papers, max_items: 150}
+  - {type: feed, path: ../public/ai-papers.json, title: Hugging Face Daily Papers, link: https://huggingface.co/papers, max_items: 150}

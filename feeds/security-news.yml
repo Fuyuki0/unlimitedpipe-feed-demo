@@ -1,0 +1,12 @@
+name: security-news
+description: Security news from Krebs on Security, BleepingComputer, The Hacker News and Schneier on Security, merged.
+sources:
+  - type: rss
+    url: [https://krebsonsecurity.com/feed/, https://www.bleepingcomputer.com/feed/, https://feeds.feedburner.com/TheHackersNews, https://www.schneier.com/feed/atom/]
+operators:
+  - {type: dedupe, by: [link]}
+  - {type: sort, by: [published_at], reverse: true}
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/security-news.xml, title: Security news, max_items: 150}
+  - {type: feed, path: ../public/security-news.json, title: Security news, max_items: 150}
