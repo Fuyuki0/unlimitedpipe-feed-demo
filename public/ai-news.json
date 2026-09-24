@@ -2,12 +2,119 @@
   "version": "https://jsonfeed.org/version/1.1",
   "title": "AI news from Hacker News and Lobsters",
   "home_page_url": "https://news.ycombinator.com/",
-  "description": "Events collected by UnlimitedPipe 0.3.1",
+  "description": "Events collected by UnlimitedPipe 0.3.2",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.3.1"
+    "generator": "UnlimitedPipe 0.3.2"
   },
   "items": [
+    {
+      "id": "10467c7c243f4c46f401",
+      "title": "AI Workers' Inquiry 2026",
+      "content_text": "AI Workers' Inquiry 2026",
+      "date_published": "2026-09-24T17:41:35Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "10467c7c243f4c46f401",
+          "source": "rss",
+          "type": "change",
+          "key": "https://lobste.rs/s/uxvwlo",
+          "source_url": "https://lobste.rs/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:42:58Z",
+          "data": {
+            "change": "added",
+            "label": "AI Workers' Inquiry 2026",
+            "item_type": "entry",
+            "summary": "added: AI Workers' Inquiry 2026",
+            "after": {
+              "title": "AI Workers' Inquiry 2026",
+              "link": "https://techworkersinquiry.org/ai/",
+              "id": "https://lobste.rs/s/uxvwlo",
+              "author": "techworkersinquiry.org via gmem",
+              "published_at": "2026-09-24T17:41:35Z",
+              "updated_at": "2026-09-24T17:41:35Z",
+              "categories": [
+                "practices",
+                "ai"
+              ],
+              "feed": {
+                "title": "Lobsters",
+                "url": "https://lobste.rs/",
+                "feed_url": "https://lobste.rs/rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://lobste.rs/rss",
+            "elapsed_ms": 388,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "grep",
+              "version": "0.3.2",
+              "args": {
+                "patterns": [
+                  "AI",
+                  "LLM",
+                  "LLMs",
+                  "GPT",
+                  "Claude",
+                  "Gemini",
+                  "language model",
+                  "machine learning"
+                ],
+                "field": [
+                  "title"
+                ]
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "drop": [
+                  "summary"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "ai-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://techworkersinquiry.org/ai/",
+      "tags": [
+        "practices",
+        "ai"
+      ]
+    },
     {
       "id": "73085135fb3b2b5133da",
       "title": "Oracle invokes force majeure on New Mexico AI data center",

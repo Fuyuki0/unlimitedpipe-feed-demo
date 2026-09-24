@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Significant earthquakes (USGS)</title>
+    <link>https://earthquake.usgs.gov/earthquakes/map/</link>
+    <description>Events collected by UnlimitedPipe 0.3.2</description>
+    <generator>UnlimitedPipe 0.3.2</generator>
+    <lastBuildDate>Thu, 24 Sep 2026 17:43:21 +0000</lastBuildDate>
+    <item>
+      <title>M 6.4 - 49 km NNE of Kainantu, Papua New Guinea</title>
+      <link>https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiqc</link>
+      <guid isPermaLink="false">8b6993c3d1517de68dc5</guid>
+      <pubDate>Sun, 20 Sep 2026 09:17:35 +0000</pubDate>
+      <description>Magnitude 6.4, 49 km NNE of Kainantu, Papua New Guinea</description>
+    </item>
+  </channel>
+</rss>

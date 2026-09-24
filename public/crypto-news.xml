@@ -2,10 +2,19 @@
 <rss version="2.0">
   <channel>
     <title>Crypto news (CoinDesk, Cointelegraph, Decrypt)</title>
-    <link>https://cointelegraph.com/rss</link>
-    <description>Events collected by UnlimitedPipe 0.3.1</description>
-    <generator>UnlimitedPipe 0.3.1</generator>
-    <lastBuildDate>Thu, 24 Sep 2026 17:26:12 +0000</lastBuildDate>
+    <link>https://decrypt.co/feed</link>
+    <description>Events collected by UnlimitedPipe 0.3.2</description>
+    <generator>UnlimitedPipe 0.3.2</generator>
+    <lastBuildDate>Thu, 24 Sep 2026 17:43:12 +0000</lastBuildDate>
+    <item>
+      <title>In Her Final Weeks, SEC's Peirce Calls for Ending the KYC 'Panopticon'</title>
+      <link>https://decrypt.co/379217/sec-peirce-end-kyc-panopticon-zero-knowledge-proofs</link>
+      <guid isPermaLink="false">590438280fb2d19be840</guid>
+      <pubDate>Thu, 24 Sep 2026 17:31:03 +0000</pubDate>
+      <description>In one of her final speeches as commissioner, Peirce argued that regulators' "data haystacks" endanger the people they aim to protect—as recent KYC leaks expose crypto holders to phishing and physical attacks.</description>
+      <category>zcash</category>
+      <category>Law and Order</category>
+    </item>
     <item>
       <title>Crypto treasury model loses its edge as stock premiums fade: DWF</title>
       <link>https://cointelegraph.com/news/crypto-treasury-firms-below-nav-sequans-bitcoin-exit?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound</link>

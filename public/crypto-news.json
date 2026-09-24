@@ -1,13 +1,106 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Crypto news (CoinDesk, Cointelegraph, Decrypt)",
-  "home_page_url": "https://cointelegraph.com/rss",
-  "description": "Events collected by UnlimitedPipe 0.3.1",
+  "home_page_url": "https://decrypt.co/feed",
+  "description": "Events collected by UnlimitedPipe 0.3.2",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.3.1"
+    "generator": "UnlimitedPipe 0.3.2"
   },
   "items": [
+    {
+      "id": "590438280fb2d19be840",
+      "title": "In Her Final Weeks, SEC's Peirce Calls for Ending the KYC 'Panopticon'",
+      "content_text": "In one of her final speeches as commissioner, Peirce argued that regulators' \"data haystacks\" endanger the people they aim to protect—as recent KYC leaks expose crypto holders to phishing and physical attacks.",
+      "date_published": "2026-09-24T17:31:03Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "590438280fb2d19be840",
+          "source": "rss",
+          "type": "change",
+          "key": "https://decrypt.co/?p=379217",
+          "source_url": "https://decrypt.co/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:43:12Z",
+          "data": {
+            "change": "added",
+            "label": "In Her Final Weeks, SEC's Peirce Calls for Ending the KYC 'Panopticon'",
+            "item_type": "entry",
+            "summary": "added: In Her Final Weeks, SEC's Peirce Calls for Ending the KYC 'Panopticon'",
+            "after": {
+              "title": "In Her Final Weeks, SEC's Peirce Calls for Ending the KYC 'Panopticon'",
+              "link": "https://decrypt.co/379217/sec-peirce-end-kyc-panopticon-zero-knowledge-proofs",
+              "id": "https://decrypt.co/?p=379217",
+              "author": "Guillermo Jimenez",
+              "published_at": "2026-09-24T17:31:03Z",
+              "updated_at": "2026-09-24T17:31:03Z",
+              "summary": "In one of her final speeches as commissioner, Peirce argued that regulators' \"data haystacks\" endanger the people they aim to protect—as recent KYC leaks expose crypto holders to phishing and physical attacks.",
+              "categories": [
+                "zcash",
+                "Law and Order"
+              ],
+              "feed": {
+                "title": "Decrypt",
+                "url": "https://decrypt.co/feed",
+                "feed_url": "https://decrypt.co/feed"
+              },
+              "enclosures": [
+                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/09/hester-peirce-decrypt-style-gID_7.jpg@png"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://decrypt.co/feed",
+            "elapsed_ms": 121,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://decrypt.co/379217/sec-peirce-end-kyc-panopticon-zero-knowledge-proofs",
+      "tags": [
+        "zcash",
+        "Law and Order"
+      ]
+    },
     {
       "id": "237c42939e63a1c01fee",
       "title": "Crypto treasury model loses its edge as stock premiums fade: DWF",
