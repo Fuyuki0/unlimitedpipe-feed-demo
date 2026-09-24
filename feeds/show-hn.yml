@@ -1,11 +1,15 @@
 name: show-hn
-description: Show HN projects that reached 100 points.
+description: Show HN projects that reached 100 points, from the official Hacker News search API.
 sources:
-  - type: rss
-    url: "https://hnrss.org/show?points=100"
+  - type: web
+    url: "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50"
+    records: hits
 operators:
-  - {type: map, drop: [summary]}
-  - {type: diff, only: [added], emit_initial: true}
+  - type: map
+    assign: ['hn="https://news.ycombinator.com/item?id=" + objectID']
+  - type: select
+    fields: [title, link=url|hn, hn, published_at=created_at, points, num_comments]
+  - {type: diff, key: hn, only: [added], emit_initial: true}
 outputs:
   - {type: feed, path: ../public/show-hn.xml, title: Show HN (100+ points), link: https://news.ycombinator.com/show}
   - {type: feed, path: ../public/show-hn.json, title: Show HN (100+ points), link: https://news.ycombinator.com/show}
