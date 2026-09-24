@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Python news and PEPs</title>
+    <link>https://www.python.org/</link>
+    <description>Events collected by UnlimitedPipe 0.3.0</description>
+    <generator>UnlimitedPipe 0.3.0</generator>
+    <lastBuildDate>Thu, 24 Sep 2026 10:05:26 +0000</lastBuildDate>
+    <item>
+      <title>The Python documentation is now available in Persian</title>
+      <link>https://blog.python.org/2026/09/the-python-documentation-is-now-available-in-persian/</link>
+      <guid isPermaLink="false">231a139fa8ad4577c95e</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <category>docs</category>
+    </item>
+    <item>
+      <title>PEP 849: More Expressive Type Expressions</title>
+      <link>https://peps.python.org/pep-0849/</link>
+      <guid isPermaLink="false">fd2223d8c533fdbeb0a7</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>Currently, the Python interpreter allows any expression to be used as an annotation. But their most popular usage, type annotations, are restricted to only a small subset of possible expressions. This is because type annotations need to be introspectable at runtime and many valid expressions produce values where that is not possible. This greatly limits which expressions can be assigned a meaning within the typing spec and limits the expressiveness and ease of use of type annotations.</description>
+    </item>
+    <item>
+      <title>PEP 824: None-coalescing operators</title>
+      <link>https://peps.python.org/pep-0824/</link>
+      <guid isPermaLink="false">e616d87c88c380adeb10</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>This PEP proposes adding two new operators.</description>
+    </item>
+    <item>
+      <title>PEP 823: None-aware access operators</title>
+      <link>https://peps.python.org/pep-0823/</link>
+      <guid isPermaLink="false">34fa55499c1aab741432</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>This PEP proposes adding two new operators.</description>
+    </item>
+    <item>
+      <title>PEP 846: Docstrings for Type Aliases</title>
+      <link>https://peps.python.org/pep-0846/</link>
+      <guid isPermaLink="false">5ec810e7f602cb809ca8</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>This PEP proposes preserving a string literal immediately following a type statement as the resulting type alias object’s __doc__ attribute, exposing that documentation through ast, and displaying it through pydoc and help(). It follows the placement already supported by source-based documentation tools. The parser stores the docstring in a new optional doc field on ast.TypeAlias instead of creating a separate ast.Expr node for it. ast.get_docstring() retrieves alias docstrings from this field.</description>
+    </item>
+    <item>
+      <title>Python 3.15.0 candidate 2 is here!</title>
+      <link>https://blog.python.org/2026/09/python-3150-rc2/</link>
+      <guid isPermaLink="false">293605a95692a1e1286e</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>Last chance to test before the big day!</description>
+      <category>releases</category>
+    </item>
+    <item>
+      <title>PEP 845: Leading-Dot Value Patterns</title>
+      <link>https://peps.python.org/pep-0845/</link>
+      <guid isPermaLink="false">2245d62a319926db643a</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>This PEP enables the use of non-attribute names as value patterns in match statements. A name prefixed with a dot is looked up using the normal name resolution rules and compared to the match subject by equality in the same manner as existing value patterns, instead of being treated as a capture pattern. This makes it possible to match local variables and global variables defined in the same module without using a guard clause.</description>
+    </item>
+    <item>
+      <title>RISC-V is now officially supported by CPython!</title>
+      <link>https://blog.python.org/2026/08/riscv-now-officially-supported/</link>
+      <guid isPermaLink="false">734c4d4ac2aef4d97ee3</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>I’m happy to announce that RISC-V platforms are now officially supported by CPython. 🎉 🚀</description>
+    </item>
+    <item>
+      <title>The Python documentation is now available in Russian!</title>
+      <link>https://blog.python.org/2026/08/the-python-documentation-is-now-available-in-russian/</link>
+      <guid isPermaLink="false">f0788bb93f8712efa414</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <category>docs</category>
+    </item>
+    <item>
+      <title>Announcing the Packaging Council Election Candidates for 2026!</title>
+      <link>https://blog.python.org/2026/08/2026-packaging-council-nominees/</link>
+      <guid isPermaLink="false">f5ad17345948b93faf97</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>Announcing the 17 nominees for the inaugural Python Packaging Council election, and how to vote in the election.</description>
+    </item>
+    <item>
+      <title>Python 3.12.14, 3.11.16 and 3.10.21 are now available!</title>
+      <link>https://blog.python.org/2026/08/python-31214-31116-31021/</link>
+      <guid isPermaLink="false">3b73c32c3fc4fdeebd1e</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>[Python Releases Eclipse Your Security!](https://discuss.python.org/t/python-3-12-14-3-11-16-and-3-10-21-are-now-available/108537) New security releases for 3.10, 3.11 and 3.12 are now available.</description>
+      <category>releases</category>
+    </item>
+    <item>
+      <title>PEP 847: Problem Details for the Simple Repository API</title>
+      <link>https://peps.python.org/pep-0847/</link>
+      <guid isPermaLink="false">48a64d74fc7cd5667cb6</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>This PEP proposes standardizing the format of error responses returned by the simple repository API.</description>
+    </item>
+    <item>
+      <title>Python 3.14.7 and 3.13.15 are now available!</title>
+      <link>https://blog.python.org/2026/08/python-3147-31315/</link>
+      <guid isPermaLink="false">bf48f88750b11d23acc1</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>A pair of bug fix releases await your upgrade.</description>
+      <category>releases</category>
+    </item>
+    <item>
+      <title>PEP 844: ``public`` and ``private`` builtins</title>
+      <link>https://peps.python.org/pep-0844/</link>
+      <guid isPermaLink="false">86f791ff735c9e06122c</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>This PEP proposes adding two new builtin functions, public() and private(), which document the public interface of a module by keeping its __all__ synchronized with the names actually defined to be public in that module. Both are used as decorators (@public and @private) on class and function definitions, so that a name’s visibility is declared exactly once, at the point where the name is defined. Both additionally have a single argument call form for names that are bound by other means (such…</description>
+    </item>
+    <item>
+      <title>PEP 843: Export Statement for DRY Re-exports</title>
+      <link>https://peps.python.org/pep-0843/</link>
+      <guid isPermaLink="false">8011afce64428fbff2a3</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>Large libraries separate their implementation layout (the tree of modules convenient for maintainers) from their public layout (the shallower, curated tree they present to users). Building that public layout today means choosing between two imperfect options.</description>
+    </item>
+    <item>
+      <title>Python 3.15.0 candidate 1 is here!</title>
+      <link>https://blog.python.org/2026/08/python-3150-rc1/</link>
+      <guid isPermaLink="false">08d30abfd35639da2b2e</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>Get those wheels rolling!</description>
+      <category>releases</category>
+    </item>
+    <item>
+      <title>PEP 842: Module Exports</title>
+      <link>https://peps.python.org/pep-0842/</link>
+      <guid isPermaLink="false">5797e9f4284152e56058</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>This PEP proposes an export statement that modules can use to express intent about the visibility of variables from outside the module.</description>
+    </item>
+    <item>
+      <title>Get Ready: 2026 Python Packaging Council Nominations Opening Soon!</title>
+      <link>https://blog.python.org/2026/07/2026-packaging-council-nominations/</link>
+      <guid isPermaLink="false">5e95de91fbcc882ed06e</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>The inaugural Python Packaging Council election nomination period opens on Tuesday, July 28th, 2:00 pm UTC and closes on Tuesday, August 11th, 2:00 pm UTC.</description>
+    </item>
+    <item>
+      <title>PEP 841: Adding Frozen Syntax to Optimize Immutable Types</title>
+      <link>https://peps.python.org/pep-0841/</link>
+      <guid isPermaLink="false">2ae41df233a24b50abf9</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>This PEP proposes frozen display syntax: f{1, 2, 3} evaluates to a frozenset, and f{'a': 1} evaluates to a frozendict. Because immutability is guaranteed by the syntax itself rather than inferred from usage, the compiler can treat frozen displays as first-class citizens of its optimization pipeline: constant displays are folded into a single LOAD_CONST with an exact result type at compile time and cached in .pyc files.</description>
+    </item>
+    <item>
+      <title>Python 3.15.0 beta 4 is here!</title>
+      <link>https://blog.python.org/2026/07/python-3150-beta-4/</link>
+      <guid isPermaLink="false">87e7b0fd8c114bfca0ca</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>The final 3.15 beta is out!</description>
+      <category>releases</category>
+    </item>
+    <item>
+      <title>Packaging Council Inaugural Election Dates</title>
+      <link>https://blog.python.org/2026/06/2026-packaging-council-election-dates/</link>
+      <guid isPermaLink="false">34497f601b64acef183f</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>A new Python Packaging Council (PPC) is being established, with their election of the inaugural PPC will be held in parallel to the 2026 PSF Board election.</description>
+    </item>
+    <item>
+      <title>Mitigated API authentication bypass for python.org download metadata</title>
+      <link>https://blog.python.org/2026/06/mitigated-api-bypass-for-download-metadata-python-dot-org/</link>
+      <guid isPermaLink="false">4b402e6dabf0cc30ae92</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>Vulnerability mitigated in python.org with follow-up third-party audit from Trail of Bits</description>
+      <category>security</category>
+    </item>
+    <item>
+      <title>Python 3.15.0 beta 3 is here!</title>
+      <link>https://blog.python.org/2026/06/python-3150-beta-3/</link>
+      <guid isPermaLink="false">e6206c7a3132d1f3a9bf</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>The penultimate 3.15 beta is out!</description>
+      <category>releases</category>
+    </item>
+    <item>
+      <title>Python 3.14.6 and 3.13.14 are now available!</title>
+      <link>https://blog.python.org/2026/06/python-3146-31314/</link>
+      <guid isPermaLink="false">6ab60ba682b65c7795b3</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>A pair of bug fix releases await your upgrade.</description>
+      <category>releases</category>
+    </item>
+    <item>
+      <title>Python 3.15.0 beta 2 is here!</title>
+      <link>https://blog.python.org/2026/06/python-3150-beta-2/</link>
+      <guid isPermaLink="false">13b5ce9da0ecd2620246</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>The antepenultimate 3.15 beta is out!</description>
+      <category>releases</category>
+    </item>
+    <item>
+      <title>Python 3.14.5 is out!</title>
+      <link>https://blog.python.org/2026/05/python-3145-is-out/</link>
+      <guid isPermaLink="false">a41dd3347ccaac8bf33c</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>A special release with a new (old) garbage collector.</description>
+      <category>releases</category>
+    </item>
+    <item>
+      <title>Python 3.15.0 beta 1 is here!</title>
+      <link>https://blog.python.org/2026/05/python-3150-beta-1/</link>
+      <guid isPermaLink="false">e86aa65ba819f03e6ca6</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>The propreantepenultimate 3.15 beta is out!</description>
+      <category>releases</category>
+    </item>
+    <item>
+      <title>Python 3.14.5 release candidate</title>
+      <link>https://blog.python.org/2026/05/python-3145rc1/</link>
+      <guid isPermaLink="false">cc37b263a7b5c3fc792d</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>A special release candidate with a new (old) garbage collector.</description>
+      <category>releases</category>
+    </item>
+    <item>
+      <title>Rust for CPython Progress Update April 2026</title>
+      <link>https://blog.python.org/2026/04/rust-for-cpython-2026-04/</link>
+      <guid isPermaLink="false">ceb996e47edd0e5b1ce9</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>Rust for CPython project status update April 2026</description>
+      <category>Rust</category>
+    </item>
+    <item>
+      <title>Python 3.15.0a8, 3.14.4 and 3.13.13 are out!</title>
+      <link>https://blog.python.org/2026/04/python-3150a8-3144-31313/</link>
+      <guid isPermaLink="false">02e377ccfcff50e081bb</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>A final alpha and two bug fixes are awaiting your upgrade.</description>
+      <category>releases</category>
+    </item>
+    <item>
+      <title>Python 3.15's JIT is now back on track</title>
+      <link>https://blog.python.org/2026/03/jit-on-track/</link>
+      <guid isPermaLink="false">db03f550f37db76a2086</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>A look at Python's JIT in 3.15a7.</description>
+      <category>JIT</category>
+      <category>performance</category>
+    </item>
+    <item>
+      <title>Python 3.15.0 alpha 7</title>
+      <link>https://blog.python.org/2026/03/python-3150-alpha-7/</link>
+      <guid isPermaLink="false">a18b71a7a1d57333409d</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>The penultimate 3.15 alpha is out!</description>
+      <category>releases</category>
+    </item>
+    <item>
+      <title>CPython: 36 Years of Source Code</title>
+      <link>https://blog.python.org/2026/03/cpython-codebase-growth/</link>
+      <guid isPermaLink="false">9485b845c985b0afbb27</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>An analysis of the growth of CPython's codebase from its first commits to the present day</description>
+      <category>history</category>
+    </item>
+    <item>
+      <title>Python 3.12.13, 3.11.15 and 3.10.20 are now available!</title>
+      <link>https://blog.python.org/2026/03/python-31213-31115-31020/</link>
+      <guid isPermaLink="false">0ef7f0d154e60f114c48</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>[Python Releases For Your Security!](https://discuss.python.org/t/python-3-12-13-3-11-15-and-3-10-20-are-now-available/106363) New security releases for 3.10, 3.11 and 3.12 are now available.</description>
+      <category>releases</category>
+    </item>
+    <item>
+      <title>The Python Insider Blog Has Moved!</title>
+      <link>https://blog.python.org/2026/03/the-python-insider-blog-has-moved/</link>
+      <guid isPermaLink="false">3286a2d9c414f472e7fb</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>Python Insider now lives at blog.python.org, backed by a Git repository. All 307 posts from the Blogger era have been migrated, and old URLs redirect automatically.</description>
+      <category>python</category>
+      <category>community</category>
+    </item>
+    <item>
+      <title>Join the Python Security Response Team!</title>
+      <link>https://blog.python.org/2026/02/join-the-python-security-response-team/</link>
+      <guid isPermaLink="false">a8d9fe62bafb40d3d02b</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>The Python Security Response Team now has an approved public governance document (PEP 811) and is welcoming new members.</description>
+      <category>security</category>
+      <category>psrt</category>
+    </item>
+    <item>
+      <title>Python 3.15.0 alpha 6</title>
+      <link>https://blog.python.org/2026/02/python-3150-alpha-6/</link>
+      <guid isPermaLink="false">33d5a8fb05eb5c0356f3</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>This is an early developer preview of Python 3.15 www.python.org/downloads/release/python-3150a6/ Major new features of the 3.15 series, compared to 3.14 Pyt...</description>
+      <category>releases</category>
+    </item>
+    <item>
+      <title>Python 3.14.3 and 3.13.12 are now available!</title>
+      <link>https://blog.python.org/2026/02/python-3143-and-31312-are-now-available/</link>
+      <guid isPermaLink="false">57242f7c020fa7d7f135</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>Python 3.14.3 is now available! This is third maintenance release of Python 3.14 Python 3.14.3 is the third maintenance release of 3.14, containing around ...</description>
+      <category>releases</category>
+    </item>
+    <item>
+      <title>Python 3.15.0 alpha 5 (yes, another alpha!)</title>
+      <link>https://blog.python.org/2026/01/python-3150-alpha-5-yes-another-alpha/</link>
+      <guid isPermaLink="false">eaec5a8e47c235442383</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>Note: 3.15.0a4 was accidentally built against from 2025-12-23 instead of 2026-01-13, so this 3.15.0a5 is an extra release correctly built against 2026-01-14...</description>
+      <category>releases</category>
+    </item>
+    <item>
+      <title>Python 3.15.0 alpha 4</title>
+      <link>https://blog.python.org/2026/01/python-3150-alpha-4/</link>
+      <guid isPermaLink="false">09861df44051823c7a09</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>Edit: This 3.15.0a4 was accidentally built against \ from 2025-12-23 instead of 2026-01-13, so 3.15.0a5 is an extra release correctly built against 2026-01-1...</description>
+      <category>releases</category>
+    </item>
+    <item>
+      <title>Python 3.15.0 alpha 3</title>
+      <link>https://blog.python.org/2025/12/python-3150-alpha-3/</link>
+      <guid isPermaLink="false">153644ddc4aece7d53f4</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>This is an early developer preview of Python 3.15 www.python.org/downloads/release/python-3150a3/ Major new features of the 3.15 series, compared to 3.14 Pyt...</description>
+      <category>releases</category>
+    </item>
+    <item>
+      <title>Python 3.14.2 and 3.13.11 are now available!</title>
+      <link>https://blog.python.org/2025/12/python-3142-and-31311-are-now-available/</link>
+      <guid isPermaLink="false">7c46c5372b71bcd33806</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>Two more, just three days after the last? Yes! We found some regressions, so here’s an expedited pair of releases. They also come with some bonus security fi...</description>
+      <category>releases</category>
+    </item>
+    <item>
+      <title>Python 3.13.10 is now available, too, you know!</title>
+      <link>https://blog.python.org/2025/12/python-31310-is-now-available-too-you/</link>
+      <guid isPermaLink="false">96872901a1c2ffbf6b6c</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>The latest version of Python 3.13 is now available! Python 3.13.10 https://www.python.org/downloads/release/python-31310/ This is the tenth maintenance rel...</description>
+      <category>releases</category>
+    </item>
+    <item>
+      <title>Python 3.14.1 is now available!</title>
+      <link>https://blog.python.org/2025/12/python-3141-is-now-available/</link>
+      <guid isPermaLink="false">24197cda760d1ecbfea3</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>!Two snakes enjoying a pie with 3.14 on the top and π crimping This is first maintenance release of Python 3.14 Python 3.14.1 is the first maintenance release...</description>
+      <category>releases</category>
+    </item>
+    <item>
+      <title>Python 3.15.0 alpha 2</title>
+      <link>https://blog.python.org/2025/11/python-3150a2/</link>
+      <guid isPermaLink="false">5cdb71eb3b88c3e00296</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>This is an early developer preview of Python 3.15 https://www.python.org/downloads/release/python-3150a2/ Major new features of the 3.15 series, compared to ...</description>
+      <category>releases</category>
+    </item>
+    <item>
+      <title>Python 3.15.0 alpha 1</title>
+      <link>https://blog.python.org/2025/10/python-3150-alpha-1/</link>
+      <guid isPermaLink="false">d5d7ddabdbe470889b88</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>This is an early developer preview of Python 3.15 https://www.python.org/downloads/release/python-3150a1/ Major new features of the 3.15 series, compared to ...</description>
+      <category>releases</category>
+    </item>
+    <item>
+      <title>Python 3.13.9 is now available!</title>
+      <link>https://blog.python.org/2025/10/python-3139-is-now-available/</link>
+      <guid isPermaLink="false">4359820a6d0f66dedc56</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>Python 3.13.9 https://www.python.org/downloads/release/python-3139/ 3.13.9 is an expedited release containing a fix for one specific regression in Python 3.1...</description>
+      <category>releases</category>
+    </item>
+    <item>
+      <title>Python 3.12.12, 3.11.14, 3.10.19 and 3.9.24 are now available!</title>
+      <link>https://blog.python.org/2025/10/python-31212-31114-31019-and-3924-are/</link>
+      <guid isPermaLink="false">5b733fceef0a425e2f4c</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>[](https://discuss.python.org/t/python-3-12-12-3-11-14-3-10-19-and-3-9-24-are-now-available/104273#p-273973-old-timer-release-party-1)Old-timer Release Party...</description>
+      <category>releases</category>
+    </item>
+    <item>
+      <title>Python 3.13.8 is now available</title>
+      <link>https://blog.python.org/2025/10/python-3138-is-now-available/</link>
+      <guid isPermaLink="false">ac104fc6a315d8a5c238</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>The latest version of Python 3.13 is now available! Python 3.13.8 https://www.python.org/downloads/release/python-3138/ This is the eighth maintenance rele...</description>
+    </item>
+    <item>
+      <title>Python 3.14.0 (final) is here!</title>
+      <link>https://blog.python.org/2025/10/python-3140-final-is-here/</link>
+      <guid isPermaLink="false">895f3379fdf4f8a7c20e</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>!Two snakes enjoying a pie with 3.14 on the top and π crimping Python 3.14.0 is now available python.org/downloads/release/python-3140/ This is the stable re...</description>
+      <category>releases</category>
+    </item>
+    <item>
+      <title>Python 3.14.0rc3 is go!</title>
+      <link>https://blog.python.org/2025/09/python-3140rc3-is-go/</link>
+      <guid isPermaLink="false">906cf7299334858cac77</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>It’s 🪄 finally 🪄 the final 3.14 release candidate! https://www.python.org/downloads/release/python-3140rc3/ Note: It’s another magic release. We fixed anot...</description>
+      <category>releases</category>
+    </item>
+    <item>
+      <title>Python 3.14.0rc2 and 3.13.7 are go!</title>
+      <link>https://blog.python.org/2025/08/python-3140rc2-and-3137-are-go/</link>
+      <guid isPermaLink="false">8679daff37c9008826a4</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>Not one but two expedited releases! 🎉 🎉 Python 3.14.0rc2 It’s the ~final~ 🪄 penultimate 🪄 3.14 release candidate! https://www.python.org/downloads/releas...</description>
+      <category>releases</category>
+    </item>
+    <item>
+      <title>Python 3.13.6 is now available</title>
+      <link>https://blog.python.org/2025/08/python-3136-is-now-available/</link>
+      <guid isPermaLink="false">24f99686da26739e5c18</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>The latest version of Python 3.13 is now available! [](https://discuss.python.org/t/python-3-13-6-has-been-released/101482#p-265330-python-3136-1)Python 3.13...</description>
+    </item>
+    <item>
+      <title>Python 3.14 release candidate 1 is go!</title>
+      <link>https://blog.python.org/2025/07/python-314-release-candidate-1-is-go/</link>
+      <guid isPermaLink="false">a87bb41ff49dd4bcba50</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>It’s the first 3.14 release candidate! https://www.python.org/downloads/release/python-3140rc1/ This is the first release candidate of Python 3.14 This relea...</description>
+      <category>releases</category>
+    </item>
+    <item>
+      <title>Python 3.14.0 beta 4 is here!</title>
+      <link>https://blog.python.org/2025/07/python-3140-beta-4-is-here/</link>
+      <guid isPermaLink="false">b98ceda5969b3bca7c9b</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>It’s the final 3.14 beta! https://www.python.org/downloads/release/python-3140b4/ This is a beta preview of Python 3.14 Python 3.14 is still in development. ...</description>
+      <category>releases</category>
+    </item>
+    <item>
+      <title>Python 3.14.0 beta 3 is here!</title>
+      <link>https://blog.python.org/2025/06/python-3140-beta-3-is-here/</link>
+      <guid isPermaLink="false">ae62f3364491a47712d6</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>It’s 3.14 beta 3! https://www.python.org/downloads/release/python-3140b3/ This is a beta preview of Python 3.14 Python 3.14 is still in development. This rel...</description>
+      <category>releases</category>
+    </item>
+    <item>
+      <title>Python 3.13.5 is now available!</title>
+      <link>https://blog.python.org/2025/06/python-3135-is-now-available/</link>
+      <guid isPermaLink="false">7a8cc1b45bc91ab48ae4</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>When I was younger we would call this a brown paper bag release, but actually, we shouldn’t hide from our mistakes. We’re only human. So, please enjoy: [](ht...</description>
+    </item>
+    <item>
+      <title>Python 3.13.4, 3.12.11, 3.11.13, 3.10.18 and 3.9.23 are now available</title>
+      <link>https://blog.python.org/2025/06/python-3134-31211-31113-31018-and-3923/</link>
+      <guid isPermaLink="false">f32a20a479495e65fe17</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>Python Release Party It was only meant to be release day for 3.13.4 today, but poor number 13 looked so lonely… And hey, we had a couple of tarfile CVEs that...</description>
+    </item>
+    <item>
+      <title>Python 3.14.0 beta 2 is here!</title>
+      <link>https://blog.python.org/2025/05/python-3140-beta-2-is-here/</link>
+      <guid isPermaLink="false">3e8a7b6d77ffa49795cd</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>Here’s the second 3.14 beta. https://www.python.org/downloads/release/python-3140b2/ This is a beta preview of Python 3.14 Python 3.14 is still in developmen...</description>
+      <category>releases</category>
+    </item>
+    <item>
+      <title>Python 3.14.0 beta 1 is here!</title>
+      <link>https://blog.python.org/2025/05/python-3140-beta-1-is-here/</link>
+      <guid isPermaLink="false">abeefe75c8104a0ccc88</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:26 +0000</pubDate>
+      <description>Only one day late, welcome to the first beta! https://www.python.org/downloads/release/python-3140b1/ This is a beta preview of Python 3.14 Python 3.14 is st...</description>
+      <category>releases</category>
+    </item>
+  </channel>
+</rss>

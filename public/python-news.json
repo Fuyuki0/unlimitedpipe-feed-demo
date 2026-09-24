@@ -1,0 +1,4668 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Python news and PEPs",
+  "home_page_url": "https://www.python.org/",
+  "description": "Events collected by UnlimitedPipe 0.3.0",
+  "_unlimitedpipe": {
+    "schema": "unlimitedpipe.event/1",
+    "generator": "UnlimitedPipe 0.3.0"
+  },
+  "items": [
+    {
+      "id": "231a139fa8ad4577c95e",
+      "title": "The Python documentation is now available in Persian",
+      "content_text": "The Python documentation is now available in Persian",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "231a139fa8ad4577c95e",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2026/09/the-python-documentation-is-now-available-in-persian/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "The Python documentation is now available in Persian",
+            "item_type": "entry",
+            "summary": "added: The Python documentation is now available in Persian",
+            "after": {
+              "title": "The Python documentation is now available in Persian",
+              "link": "https://blog.python.org/2026/09/the-python-documentation-is-now-available-in-persian/",
+              "id": "https://blog.python.org/2026/09/the-python-documentation-is-now-available-in-persian/",
+              "author": "Stan Ulbrych",
+              "published_at": "2026-09-23T00:00:00Z",
+              "updated_at": "2026-09-23T00:00:00Z",
+              "summary": null,
+              "categories": [
+                "docs"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2026/09/the-python-documentation-is-now-available-in-persian/",
+      "tags": [
+        "docs"
+      ]
+    },
+    {
+      "id": "fd2223d8c533fdbeb0a7",
+      "title": "PEP 849: More Expressive Type Expressions",
+      "content_text": "Currently, the Python interpreter allows any expression to be used as an annotation. But their most popular usage, type annotations, are restricted to only a small subset of possible expressions. This is because type annotations need to be introspectable at runtime and many valid expressions produce values where that is not possible. This greatly limits which expressions can be assigned a meaning within the typing spec and limits the expressiveness and ease of use of type annotations.",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "fd2223d8c533fdbeb0a7",
+          "source": "rss",
+          "type": "change",
+          "key": "https://peps.python.org/pep-0849/",
+          "source_url": "https://peps.python.org/peps.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "PEP 849: More Expressive Type Expressions",
+            "item_type": "entry",
+            "summary": "added: PEP 849: More Expressive Type Expressions",
+            "after": {
+              "title": "PEP 849: More Expressive Type Expressions",
+              "link": "https://peps.python.org/pep-0849/",
+              "id": "https://peps.python.org/pep-0849/",
+              "author": "Imogen Hergeth (python at imogen.tech)",
+              "published_at": "2026-09-20T00:00:00Z",
+              "updated_at": "2026-09-20T00:00:00Z",
+              "summary": "Currently, the Python interpreter allows any expression to be used as an annotation. But their most popular usage, type annotations, are restricted to only a small subset of possible expressions. This is because type annotations need to be introspectable at runtime and many valid expressions produce values where that is not possible. This greatly limits which expressions can be assigned a meaning within the typing spec and limits the expressiveness and ease of use of type annotations.",
+              "categories": [],
+              "feed": {
+                "title": "Newest Python PEPs",
+                "url": "https://peps.python.org/",
+                "feed_url": "https://peps.python.org/peps.rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://peps.python.org/peps.rss",
+            "elapsed_ms": 41,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://peps.python.org/pep-0849/"
+    },
+    {
+      "id": "e616d87c88c380adeb10",
+      "title": "PEP 824: None-coalescing operators",
+      "content_text": "This PEP proposes adding two new operators.",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "e616d87c88c380adeb10",
+          "source": "rss",
+          "type": "change",
+          "key": "https://peps.python.org/pep-0824/",
+          "source_url": "https://peps.python.org/peps.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "PEP 824: None-coalescing operators",
+            "item_type": "entry",
+            "summary": "added: PEP 824: None-coalescing operators",
+            "after": {
+              "title": "PEP 824: None-coalescing operators",
+              "link": "https://peps.python.org/pep-0824/",
+              "id": "https://peps.python.org/pep-0824/",
+              "author": "Marc Mueller",
+              "published_at": "2026-09-20T00:00:00Z",
+              "updated_at": "2026-09-20T00:00:00Z",
+              "summary": "This PEP proposes adding two new operators.",
+              "categories": [],
+              "feed": {
+                "title": "Newest Python PEPs",
+                "url": "https://peps.python.org/",
+                "feed_url": "https://peps.python.org/peps.rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://peps.python.org/peps.rss",
+            "elapsed_ms": 41,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://peps.python.org/pep-0824/"
+    },
+    {
+      "id": "34fa55499c1aab741432",
+      "title": "PEP 823: None-aware access operators",
+      "content_text": "This PEP proposes adding two new operators.",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "34fa55499c1aab741432",
+          "source": "rss",
+          "type": "change",
+          "key": "https://peps.python.org/pep-0823/",
+          "source_url": "https://peps.python.org/peps.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "PEP 823: None-aware access operators",
+            "item_type": "entry",
+            "summary": "added: PEP 823: None-aware access operators",
+            "after": {
+              "title": "PEP 823: None-aware access operators",
+              "link": "https://peps.python.org/pep-0823/",
+              "id": "https://peps.python.org/pep-0823/",
+              "author": "Marc Mueller",
+              "published_at": "2026-09-20T00:00:00Z",
+              "updated_at": "2026-09-20T00:00:00Z",
+              "summary": "This PEP proposes adding two new operators.",
+              "categories": [],
+              "feed": {
+                "title": "Newest Python PEPs",
+                "url": "https://peps.python.org/",
+                "feed_url": "https://peps.python.org/peps.rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://peps.python.org/peps.rss",
+            "elapsed_ms": 41,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://peps.python.org/pep-0823/"
+    },
+    {
+      "id": "5ec810e7f602cb809ca8",
+      "title": "PEP 846: Docstrings for Type Aliases",
+      "content_text": "This PEP proposes preserving a string literal immediately following a type statement as the resulting type alias object’s __doc__ attribute, exposing that documentation through ast, and displaying it through pydoc and help(). It follows the placement already supported by source-based documentation tools. The parser stores the docstring in a new optional doc field on ast.TypeAlias instead of creating a separate ast.Expr node for it. ast.get_docstring() retrieves alias docstrings from this field.",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "5ec810e7f602cb809ca8",
+          "source": "rss",
+          "type": "change",
+          "key": "https://peps.python.org/pep-0846/",
+          "source_url": "https://peps.python.org/peps.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "PEP 846: Docstrings for Type Aliases",
+            "item_type": "entry",
+            "summary": "added: PEP 846: Docstrings for Type Aliases",
+            "after": {
+              "title": "PEP 846: Docstrings for Type Aliases",
+              "link": "https://peps.python.org/pep-0846/",
+              "id": "https://peps.python.org/pep-0846/",
+              "author": "Bartosz Sławecki (bartosz@ilikepython.com)",
+              "published_at": "2026-09-06T00:00:00Z",
+              "updated_at": "2026-09-06T00:00:00Z",
+              "summary": "This PEP proposes preserving a string literal immediately following a type statement as the resulting type alias object’s __doc__ attribute, exposing that documentation through ast, and displaying it through pydoc and help(). It follows the placement already supported by source-based documentation tools. The parser stores the docstring in a new optional doc field on ast.TypeAlias instead of creating a separate ast.Expr node for it. ast.get_docstring() retrieves alias docstrings from this field.",
+              "categories": [],
+              "feed": {
+                "title": "Newest Python PEPs",
+                "url": "https://peps.python.org/",
+                "feed_url": "https://peps.python.org/peps.rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://peps.python.org/peps.rss",
+            "elapsed_ms": 41,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://peps.python.org/pep-0846/"
+    },
+    {
+      "id": "293605a95692a1e1286e",
+      "title": "Python 3.15.0 candidate 2 is here!",
+      "content_text": "Last chance to test before the big day!",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "293605a95692a1e1286e",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2026/09/python-3150-rc2/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.15.0 candidate 2 is here!",
+            "item_type": "entry",
+            "summary": "added: Python 3.15.0 candidate 2 is here!",
+            "after": {
+              "title": "Python 3.15.0 candidate 2 is here!",
+              "link": "https://blog.python.org/2026/09/python-3150-rc2/",
+              "id": "https://blog.python.org/2026/09/python-3150-rc2/",
+              "author": "Hugo van Kemenade",
+              "published_at": "2026-09-01T00:00:00Z",
+              "updated_at": "2026-09-01T00:00:00Z",
+              "summary": "Last chance to test before the big day!",
+              "categories": [
+                "releases"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2026/09/python-3150-rc2/",
+      "tags": [
+        "releases"
+      ]
+    },
+    {
+      "id": "2245d62a319926db643a",
+      "title": "PEP 845: Leading-Dot Value Patterns",
+      "content_text": "This PEP enables the use of non-attribute names as value patterns in match statements. A name prefixed with a dot is looked up using the normal name resolution rules and compared to the match subject by equality in the same manner as existing value patterns, instead of being treated as a capture pattern. This makes it possible to match local variables and global variables defined in the same module without using a guard clause.",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "2245d62a319926db643a",
+          "source": "rss",
+          "type": "change",
+          "key": "https://peps.python.org/pep-0845/",
+          "source_url": "https://peps.python.org/peps.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "PEP 845: Leading-Dot Value Patterns",
+            "item_type": "entry",
+            "summary": "added: PEP 845: Leading-Dot Value Patterns",
+            "after": {
+              "title": "PEP 845: Leading-Dot Value Patterns",
+              "link": "https://peps.python.org/pep-0845/",
+              "id": "https://peps.python.org/pep-0845/",
+              "author": "Thomas Kehrenberg (tmke8@posteo.net),  (Marc)",
+              "published_at": "2026-08-25T00:00:00Z",
+              "updated_at": "2026-08-25T00:00:00Z",
+              "summary": "This PEP enables the use of non-attribute names as value patterns in match statements. A name prefixed with a dot is looked up using the normal name resolution rules and compared to the match subject by equality in the same manner as existing value patterns, instead of being treated as a capture pattern. This makes it possible to match local variables and global variables defined in the same module without using a guard clause.",
+              "categories": [],
+              "feed": {
+                "title": "Newest Python PEPs",
+                "url": "https://peps.python.org/",
+                "feed_url": "https://peps.python.org/peps.rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://peps.python.org/peps.rss",
+            "elapsed_ms": 41,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://peps.python.org/pep-0845/"
+    },
+    {
+      "id": "734c4d4ac2aef4d97ee3",
+      "title": "RISC-V is now officially supported by CPython!",
+      "content_text": "I’m happy to announce that RISC-V platforms are now officially supported by CPython. 🎉 🚀",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "734c4d4ac2aef4d97ee3",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2026/08/riscv-now-officially-supported/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "RISC-V is now officially supported by CPython!",
+            "item_type": "entry",
+            "summary": "added: RISC-V is now officially supported by CPython!",
+            "after": {
+              "title": "RISC-V is now officially supported by CPython!",
+              "link": "https://blog.python.org/2026/08/riscv-now-officially-supported/",
+              "id": "https://blog.python.org/2026/08/riscv-now-officially-supported/",
+              "author": "Stan Ulbrych",
+              "published_at": "2026-08-24T00:00:00Z",
+              "updated_at": "2026-08-24T00:00:00Z",
+              "summary": "I’m happy to announce that RISC-V platforms are now officially supported by CPython. 🎉 🚀",
+              "categories": [],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2026/08/riscv-now-officially-supported/"
+    },
+    {
+      "id": "f0788bb93f8712efa414",
+      "title": "The Python documentation is now available in Russian!",
+      "content_text": "The Python documentation is now available in Russian!",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "f0788bb93f8712efa414",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2026/08/the-python-documentation-is-now-available-in-russian/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "The Python documentation is now available in Russian!",
+            "item_type": "entry",
+            "summary": "added: The Python documentation is now available in Russian!",
+            "after": {
+              "title": "The Python documentation is now available in Russian!",
+              "link": "https://blog.python.org/2026/08/the-python-documentation-is-now-available-in-russian/",
+              "id": "https://blog.python.org/2026/08/the-python-documentation-is-now-available-in-russian/",
+              "author": "Stan Ulbrych",
+              "published_at": "2026-08-22T00:00:00Z",
+              "updated_at": "2026-08-22T00:00:00Z",
+              "summary": null,
+              "categories": [
+                "docs"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2026/08/the-python-documentation-is-now-available-in-russian/",
+      "tags": [
+        "docs"
+      ]
+    },
+    {
+      "id": "f5ad17345948b93faf97",
+      "title": "Announcing the Packaging Council Election Candidates for 2026!",
+      "content_text": "Announcing the 17 nominees for the inaugural Python Packaging Council election, and how to vote in the election.",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "f5ad17345948b93faf97",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2026/08/2026-packaging-council-nominees/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Announcing the Packaging Council Election Candidates for 2026!",
+            "item_type": "entry",
+            "summary": "added: Announcing the Packaging Council Election Candidates for 2026!",
+            "after": {
+              "title": "Announcing the Packaging Council Election Candidates for 2026!",
+              "link": "https://blog.python.org/2026/08/2026-packaging-council-nominees/",
+              "id": "https://blog.python.org/2026/08/2026-packaging-council-nominees/",
+              "author": "Pradyun Gedam",
+              "published_at": "2026-08-13T00:00:00Z",
+              "updated_at": "2026-08-13T00:00:00Z",
+              "summary": "Announcing the 17 nominees for the inaugural Python Packaging Council election, and how to vote in the election.",
+              "categories": [],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2026/08/2026-packaging-council-nominees/"
+    },
+    {
+      "id": "3b73c32c3fc4fdeebd1e",
+      "title": "Python 3.12.14, 3.11.16 and 3.10.21 are now available!",
+      "content_text": "[Python Releases Eclipse Your Security!](https://discuss.python.org/t/python-3-12-14-3-11-16-and-3-10-21-are-now-available/108537) New security releases for 3.10, 3.11 and 3.12 are now available.",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "3b73c32c3fc4fdeebd1e",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2026/08/python-31214-31116-31021/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.12.14, 3.11.16 and 3.10.21 are now available!",
+            "item_type": "entry",
+            "summary": "added: Python 3.12.14, 3.11.16 and 3.10.21 are now available!",
+            "after": {
+              "title": "Python 3.12.14, 3.11.16 and 3.10.21 are now available!",
+              "link": "https://blog.python.org/2026/08/python-31214-31116-31021/",
+              "id": "https://blog.python.org/2026/08/python-31214-31116-31021/",
+              "author": "Thomas Wouters",
+              "published_at": "2026-08-12T00:00:00Z",
+              "updated_at": "2026-08-12T00:00:00Z",
+              "summary": "[Python Releases Eclipse Your Security!](https://discuss.python.org/t/python-3-12-14-3-11-16-and-3-10-21-are-now-available/108537) New security releases for 3.10, 3.11 and 3.12 are now available.",
+              "categories": [
+                "releases"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2026/08/python-31214-31116-31021/",
+      "tags": [
+        "releases"
+      ]
+    },
+    {
+      "id": "48a64d74fc7cd5667cb6",
+      "title": "PEP 847: Problem Details for the Simple Repository API",
+      "content_text": "This PEP proposes standardizing the format of error responses returned by the simple repository API.",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "48a64d74fc7cd5667cb6",
+          "source": "rss",
+          "type": "change",
+          "key": "https://peps.python.org/pep-0847/",
+          "source_url": "https://peps.python.org/peps.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "PEP 847: Problem Details for the Simple Repository API",
+            "item_type": "entry",
+            "summary": "added: PEP 847: Problem Details for the Simple Repository API",
+            "after": {
+              "title": "PEP 847: Problem Details for the Simple Repository API",
+              "link": "https://peps.python.org/pep-0847/",
+              "id": "https://peps.python.org/pep-0847/",
+              "author": "Luis Gonzalez (lgonzalez@sonatype.com), William Woodruff (william@yossarian.net), Zsolt Dollenstein (zsol.zsol@gmail.com)",
+              "published_at": "2026-08-06T00:00:00Z",
+              "updated_at": "2026-08-06T00:00:00Z",
+              "summary": "This PEP proposes standardizing the format of error responses returned by the simple repository API.",
+              "categories": [],
+              "feed": {
+                "title": "Newest Python PEPs",
+                "url": "https://peps.python.org/",
+                "feed_url": "https://peps.python.org/peps.rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://peps.python.org/peps.rss",
+            "elapsed_ms": 41,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://peps.python.org/pep-0847/"
+    },
+    {
+      "id": "bf48f88750b11d23acc1",
+      "title": "Python 3.14.7 and 3.13.15 are now available!",
+      "content_text": "A pair of bug fix releases await your upgrade.",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "bf48f88750b11d23acc1",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2026/08/python-3147-31315/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.14.7 and 3.13.15 are now available!",
+            "item_type": "entry",
+            "summary": "added: Python 3.14.7 and 3.13.15 are now available!",
+            "after": {
+              "title": "Python 3.14.7 and 3.13.15 are now available!",
+              "link": "https://blog.python.org/2026/08/python-3147-31315/",
+              "id": "https://blog.python.org/2026/08/python-3147-31315/",
+              "author": "Thomas Wouters",
+              "published_at": "2026-08-05T00:00:00Z",
+              "updated_at": "2026-08-05T00:00:00Z",
+              "summary": "A pair of bug fix releases await your upgrade.",
+              "categories": [
+                "releases"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2026/08/python-3147-31315/",
+      "tags": [
+        "releases"
+      ]
+    },
+    {
+      "id": "86f791ff735c9e06122c",
+      "title": "PEP 844: ``public`` and ``private`` builtins",
+      "content_text": "This PEP proposes adding two new builtin functions, public() and private(), which document the public interface of a module by keeping its __all__ synchronized with the names actually defined to be public in that module. Both are used as decorators (@public and @private) on class and function definitions, so that a name’s visibility is declared exactly once, at the point where the name is defined. Both additionally have a single argument call form for names that are bound by other means (such…",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "86f791ff735c9e06122c",
+          "source": "rss",
+          "type": "change",
+          "key": "https://peps.python.org/pep-0844/",
+          "source_url": "https://peps.python.org/peps.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "PEP 844: ``public`` and ``private`` builtins",
+            "item_type": "entry",
+            "summary": "added: PEP 844: ``public`` and ``private`` builtins",
+            "after": {
+              "title": "PEP 844: ``public`` and ``private`` builtins",
+              "link": "https://peps.python.org/pep-0844/",
+              "id": "https://peps.python.org/pep-0844/",
+              "author": "Barry Warsaw (barry@python.org)",
+              "published_at": "2026-08-05T00:00:00Z",
+              "updated_at": "2026-08-05T00:00:00Z",
+              "summary": "This PEP proposes adding two new builtin functions, public() and private(), which document the public interface of a module by keeping its __all__ synchronized with the names actually defined to be public in that module. Both are used as decorators (@public and @private) on class and function definitions, so that a name’s visibility is declared exactly once, at the point where the name is defined. Both additionally have a single argument call form for names that are bound by other means (such as from ... import statements), and public() has a keyword argument form for names that cannot be decorated, such as constants.",
+              "categories": [],
+              "feed": {
+                "title": "Newest Python PEPs",
+                "url": "https://peps.python.org/",
+                "feed_url": "https://peps.python.org/peps.rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://peps.python.org/peps.rss",
+            "elapsed_ms": 41,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://peps.python.org/pep-0844/"
+    },
+    {
+      "id": "8011afce64428fbff2a3",
+      "title": "PEP 843: Export Statement for DRY Re-exports",
+      "content_text": "Large libraries separate their implementation layout (the tree of modules convenient for maintainers) from their public layout (the shallower, curated tree they present to users). Building that public layout today means choosing between two imperfect options.",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "8011afce64428fbff2a3",
+          "source": "rss",
+          "type": "change",
+          "key": "https://peps.python.org/pep-0843/",
+          "source_url": "https://peps.python.org/peps.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "PEP 843: Export Statement for DRY Re-exports",
+            "item_type": "entry",
+            "summary": "added: PEP 843: Export Statement for DRY Re-exports",
+            "after": {
+              "title": "PEP 843: Export Statement for DRY Re-exports",
+              "link": "https://peps.python.org/pep-0843/",
+              "id": "https://peps.python.org/pep-0843/",
+              "author": "Neil Girdhar (mistersheik@gmail.com)",
+              "published_at": "2026-08-05T00:00:00Z",
+              "updated_at": "2026-08-05T00:00:00Z",
+              "summary": "Large libraries separate their implementation layout (the tree of modules convenient for maintainers) from their public layout (the shallower, curated tree they present to users). Building that public layout today means choosing between two imperfect options.",
+              "categories": [],
+              "feed": {
+                "title": "Newest Python PEPs",
+                "url": "https://peps.python.org/",
+                "feed_url": "https://peps.python.org/peps.rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://peps.python.org/peps.rss",
+            "elapsed_ms": 41,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://peps.python.org/pep-0843/"
+    },
+    {
+      "id": "08d30abfd35639da2b2e",
+      "title": "Python 3.15.0 candidate 1 is here!",
+      "content_text": "Get those wheels rolling!",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "08d30abfd35639da2b2e",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2026/08/python-3150-rc1/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.15.0 candidate 1 is here!",
+            "item_type": "entry",
+            "summary": "added: Python 3.15.0 candidate 1 is here!",
+            "after": {
+              "title": "Python 3.15.0 candidate 1 is here!",
+              "link": "https://blog.python.org/2026/08/python-3150-rc1/",
+              "id": "https://blog.python.org/2026/08/python-3150-rc1/",
+              "author": "Hugo van Kemenade",
+              "published_at": "2026-08-04T00:00:00Z",
+              "updated_at": "2026-08-04T00:00:00Z",
+              "summary": "Get those wheels rolling!",
+              "categories": [
+                "releases"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2026/08/python-3150-rc1/",
+      "tags": [
+        "releases"
+      ]
+    },
+    {
+      "id": "5797e9f4284152e56058",
+      "title": "PEP 842: Module Exports",
+      "content_text": "This PEP proposes an export statement that modules can use to express intent about the visibility of variables from outside the module.",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "5797e9f4284152e56058",
+          "source": "rss",
+          "type": "change",
+          "key": "https://peps.python.org/pep-0842/",
+          "source_url": "https://peps.python.org/peps.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "PEP 842: Module Exports",
+            "item_type": "entry",
+            "summary": "added: PEP 842: Module Exports",
+            "after": {
+              "title": "PEP 842: Module Exports",
+              "link": "https://peps.python.org/pep-0842/",
+              "id": "https://peps.python.org/pep-0842/",
+              "author": "Peter Bierma (peter@python.org)",
+              "published_at": "2026-07-25T00:00:00Z",
+              "updated_at": "2026-07-25T00:00:00Z",
+              "summary": "This PEP proposes an export statement that modules can use to express intent about the visibility of variables from outside the module.",
+              "categories": [],
+              "feed": {
+                "title": "Newest Python PEPs",
+                "url": "https://peps.python.org/",
+                "feed_url": "https://peps.python.org/peps.rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://peps.python.org/peps.rss",
+            "elapsed_ms": 41,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://peps.python.org/pep-0842/"
+    },
+    {
+      "id": "5e95de91fbcc882ed06e",
+      "title": "Get Ready: 2026 Python Packaging Council Nominations Opening Soon!",
+      "content_text": "The inaugural Python Packaging Council election nomination period opens on Tuesday, July 28th, 2:00 pm UTC and closes on Tuesday, August 11th, 2:00 pm UTC.",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "5e95de91fbcc882ed06e",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2026/07/2026-packaging-council-nominations/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Get Ready: 2026 Python Packaging Council Nominations Opening Soon!",
+            "item_type": "entry",
+            "summary": "added: Get Ready: 2026 Python Packaging Council Nominations Opening Soon!",
+            "after": {
+              "title": "Get Ready: 2026 Python Packaging Council Nominations Opening Soon!",
+              "link": "https://blog.python.org/2026/07/2026-packaging-council-nominations/",
+              "id": "https://blog.python.org/2026/07/2026-packaging-council-nominations/",
+              "author": "Pradyun Gedam",
+              "published_at": "2026-07-23T00:00:00Z",
+              "updated_at": "2026-07-23T00:00:00Z",
+              "summary": "The inaugural Python Packaging Council election nomination period opens on Tuesday, July 28th, 2:00 pm UTC and closes on Tuesday, August 11th, 2:00 pm UTC.",
+              "categories": [],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2026/07/2026-packaging-council-nominations/"
+    },
+    {
+      "id": "2ae41df233a24b50abf9",
+      "title": "PEP 841: Adding Frozen Syntax to Optimize Immutable Types",
+      "content_text": "This PEP proposes frozen display syntax: f{1, 2, 3} evaluates to a frozenset, and f{'a': 1} evaluates to a frozendict. Because immutability is guaranteed by the syntax itself rather than inferred from usage, the compiler can treat frozen displays as first-class citizens of its optimization pipeline: constant displays are folded into a single LOAD_CONST with an exact result type at compile time and cached in .pyc files.",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "2ae41df233a24b50abf9",
+          "source": "rss",
+          "type": "change",
+          "key": "https://peps.python.org/pep-0841/",
+          "source_url": "https://peps.python.org/peps.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "PEP 841: Adding Frozen Syntax to Optimize Immutable Types",
+            "item_type": "entry",
+            "summary": "added: PEP 841: Adding Frozen Syntax to Optimize Immutable Types",
+            "after": {
+              "title": "PEP 841: Adding Frozen Syntax to Optimize Immutable Types",
+              "link": "https://peps.python.org/pep-0841/",
+              "id": "https://peps.python.org/pep-0841/",
+              "author": "Donghee Na (donghee.na@python.org), Nikita Sobolev (mail@sobolevn.me)",
+              "published_at": "2026-07-20T00:00:00Z",
+              "updated_at": "2026-07-20T00:00:00Z",
+              "summary": "This PEP proposes frozen display syntax: f{1, 2, 3} evaluates to a frozenset, and f{'a': 1} evaluates to a frozendict. Because immutability is guaranteed by the syntax itself rather than inferred from usage, the compiler can treat frozen displays as first-class citizens of its optimization pipeline: constant displays are folded into a single LOAD_CONST with an exact result type at compile time and cached in .pyc files.",
+              "categories": [],
+              "feed": {
+                "title": "Newest Python PEPs",
+                "url": "https://peps.python.org/",
+                "feed_url": "https://peps.python.org/peps.rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://peps.python.org/peps.rss",
+            "elapsed_ms": 41,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://peps.python.org/pep-0841/"
+    },
+    {
+      "id": "87e7b0fd8c114bfca0ca",
+      "title": "Python 3.15.0 beta 4 is here!",
+      "content_text": "The final 3.15 beta is out!",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "87e7b0fd8c114bfca0ca",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2026/07/python-3150-beta-4/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.15.0 beta 4 is here!",
+            "item_type": "entry",
+            "summary": "added: Python 3.15.0 beta 4 is here!",
+            "after": {
+              "title": "Python 3.15.0 beta 4 is here!",
+              "link": "https://blog.python.org/2026/07/python-3150-beta-4/",
+              "id": "https://blog.python.org/2026/07/python-3150-beta-4/",
+              "author": "Hugo van Kemenade",
+              "published_at": "2026-07-18T00:00:00Z",
+              "updated_at": "2026-07-18T00:00:00Z",
+              "summary": "The final 3.15 beta is out!",
+              "categories": [
+                "releases"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2026/07/python-3150-beta-4/",
+      "tags": [
+        "releases"
+      ]
+    },
+    {
+      "id": "34497f601b64acef183f",
+      "title": "Packaging Council Inaugural Election Dates",
+      "content_text": "A new Python Packaging Council (PPC) is being established, with their election of the inaugural PPC will be held in parallel to the 2026 PSF Board election.",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "34497f601b64acef183f",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2026/06/2026-packaging-council-election-dates/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Packaging Council Inaugural Election Dates",
+            "item_type": "entry",
+            "summary": "added: Packaging Council Inaugural Election Dates",
+            "after": {
+              "title": "Packaging Council Inaugural Election Dates",
+              "link": "https://blog.python.org/2026/06/2026-packaging-council-election-dates/",
+              "id": "https://blog.python.org/2026/06/2026-packaging-council-election-dates/",
+              "author": "Pradyun Gedam",
+              "published_at": "2026-06-28T00:00:00Z",
+              "updated_at": "2026-06-28T00:00:00Z",
+              "summary": "A new Python Packaging Council (PPC) is being established, with their election of the inaugural PPC will be held in parallel to the 2026 PSF Board election.",
+              "categories": [],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2026/06/2026-packaging-council-election-dates/"
+    },
+    {
+      "id": "4b402e6dabf0cc30ae92",
+      "title": "Mitigated API authentication bypass for python.org download metadata",
+      "content_text": "Vulnerability mitigated in python.org with follow-up third-party audit from Trail of Bits",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "4b402e6dabf0cc30ae92",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2026/06/mitigated-api-bypass-for-download-metadata-python-dot-org/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Mitigated API authentication bypass for python.org download metadata",
+            "item_type": "entry",
+            "summary": "added: Mitigated API authentication bypass for python.org download metadata",
+            "after": {
+              "title": "Mitigated API authentication bypass for python.org download metadata",
+              "link": "https://blog.python.org/2026/06/mitigated-api-bypass-for-download-metadata-python-dot-org/",
+              "id": "https://blog.python.org/2026/06/mitigated-api-bypass-for-download-metadata-python-dot-org/",
+              "author": "Seth Larson",
+              "published_at": "2026-06-23T00:00:00Z",
+              "updated_at": "2026-06-23T00:00:00Z",
+              "summary": "Vulnerability mitigated in python.org with follow-up third-party audit from Trail of Bits",
+              "categories": [
+                "security"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2026/06/mitigated-api-bypass-for-download-metadata-python-dot-org/",
+      "tags": [
+        "security"
+      ]
+    },
+    {
+      "id": "e6206c7a3132d1f3a9bf",
+      "title": "Python 3.15.0 beta 3 is here!",
+      "content_text": "The penultimate 3.15 beta is out!",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "e6206c7a3132d1f3a9bf",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2026/06/python-3150-beta-3/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.15.0 beta 3 is here!",
+            "item_type": "entry",
+            "summary": "added: Python 3.15.0 beta 3 is here!",
+            "after": {
+              "title": "Python 3.15.0 beta 3 is here!",
+              "link": "https://blog.python.org/2026/06/python-3150-beta-3/",
+              "id": "https://blog.python.org/2026/06/python-3150-beta-3/",
+              "author": "Hugo van Kemenade",
+              "published_at": "2026-06-23T00:00:00Z",
+              "updated_at": "2026-06-23T00:00:00Z",
+              "summary": "The penultimate 3.15 beta is out!",
+              "categories": [
+                "releases"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2026/06/python-3150-beta-3/",
+      "tags": [
+        "releases"
+      ]
+    },
+    {
+      "id": "6ab60ba682b65c7795b3",
+      "title": "Python 3.14.6 and 3.13.14 are now available!",
+      "content_text": "A pair of bug fix releases await your upgrade.",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "6ab60ba682b65c7795b3",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2026/06/python-3146-31314/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.14.6 and 3.13.14 are now available!",
+            "item_type": "entry",
+            "summary": "added: Python 3.14.6 and 3.13.14 are now available!",
+            "after": {
+              "title": "Python 3.14.6 and 3.13.14 are now available!",
+              "link": "https://blog.python.org/2026/06/python-3146-31314/",
+              "id": "https://blog.python.org/2026/06/python-3146-31314/",
+              "author": "Hugo van Kemenade",
+              "published_at": "2026-06-10T00:00:00Z",
+              "updated_at": "2026-06-10T00:00:00Z",
+              "summary": "A pair of bug fix releases await your upgrade.",
+              "categories": [
+                "releases"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2026/06/python-3146-31314/",
+      "tags": [
+        "releases"
+      ]
+    },
+    {
+      "id": "13b5ce9da0ecd2620246",
+      "title": "Python 3.15.0 beta 2 is here!",
+      "content_text": "The antepenultimate 3.15 beta is out!",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "13b5ce9da0ecd2620246",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2026/06/python-3150-beta-2/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.15.0 beta 2 is here!",
+            "item_type": "entry",
+            "summary": "added: Python 3.15.0 beta 2 is here!",
+            "after": {
+              "title": "Python 3.15.0 beta 2 is here!",
+              "link": "https://blog.python.org/2026/06/python-3150-beta-2/",
+              "id": "https://blog.python.org/2026/06/python-3150-beta-2/",
+              "author": "Hugo van Kemenade",
+              "published_at": "2026-06-02T00:00:00Z",
+              "updated_at": "2026-06-02T00:00:00Z",
+              "summary": "The antepenultimate 3.15 beta is out!",
+              "categories": [
+                "releases"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2026/06/python-3150-beta-2/",
+      "tags": [
+        "releases"
+      ]
+    },
+    {
+      "id": "a41dd3347ccaac8bf33c",
+      "title": "Python 3.14.5 is out!",
+      "content_text": "A special release with a new (old) garbage collector.",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "a41dd3347ccaac8bf33c",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2026/05/python-3145-is-out/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.14.5 is out!",
+            "item_type": "entry",
+            "summary": "added: Python 3.14.5 is out!",
+            "after": {
+              "title": "Python 3.14.5 is out!",
+              "link": "https://blog.python.org/2026/05/python-3145-is-out/",
+              "id": "https://blog.python.org/2026/05/python-3145-is-out/",
+              "author": "Hugo van Kemenade",
+              "published_at": "2026-05-10T00:00:00Z",
+              "updated_at": "2026-05-10T00:00:00Z",
+              "summary": "A special release with a new (old) garbage collector.",
+              "categories": [
+                "releases"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2026/05/python-3145-is-out/",
+      "tags": [
+        "releases"
+      ]
+    },
+    {
+      "id": "e86aa65ba819f03e6ca6",
+      "title": "Python 3.15.0 beta 1 is here!",
+      "content_text": "The propreantepenultimate 3.15 beta is out!",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "e86aa65ba819f03e6ca6",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2026/05/python-3150-beta-1/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.15.0 beta 1 is here!",
+            "item_type": "entry",
+            "summary": "added: Python 3.15.0 beta 1 is here!",
+            "after": {
+              "title": "Python 3.15.0 beta 1 is here!",
+              "link": "https://blog.python.org/2026/05/python-3150-beta-1/",
+              "id": "https://blog.python.org/2026/05/python-3150-beta-1/",
+              "author": "Hugo van Kemenade",
+              "published_at": "2026-05-07T00:00:00Z",
+              "updated_at": "2026-05-07T00:00:00Z",
+              "summary": "The propreantepenultimate 3.15 beta is out!",
+              "categories": [
+                "releases"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2026/05/python-3150-beta-1/",
+      "tags": [
+        "releases"
+      ]
+    },
+    {
+      "id": "cc37b263a7b5c3fc792d",
+      "title": "Python 3.14.5 release candidate",
+      "content_text": "A special release candidate with a new (old) garbage collector.",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "cc37b263a7b5c3fc792d",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2026/05/python-3145rc1/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.14.5 release candidate",
+            "item_type": "entry",
+            "summary": "added: Python 3.14.5 release candidate",
+            "after": {
+              "title": "Python 3.14.5 release candidate",
+              "link": "https://blog.python.org/2026/05/python-3145rc1/",
+              "id": "https://blog.python.org/2026/05/python-3145rc1/",
+              "author": "Hugo van Kemenade",
+              "published_at": "2026-05-04T00:00:00Z",
+              "updated_at": "2026-05-04T00:00:00Z",
+              "summary": "A special release candidate with a new (old) garbage collector.",
+              "categories": [
+                "releases"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2026/05/python-3145rc1/",
+      "tags": [
+        "releases"
+      ]
+    },
+    {
+      "id": "ceb996e47edd0e5b1ce9",
+      "title": "Rust for CPython Progress Update April 2026",
+      "content_text": "Rust for CPython project status update April 2026",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ceb996e47edd0e5b1ce9",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2026/04/rust-for-cpython-2026-04/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Rust for CPython Progress Update April 2026",
+            "item_type": "entry",
+            "summary": "added: Rust for CPython Progress Update April 2026",
+            "after": {
+              "title": "Rust for CPython Progress Update April 2026",
+              "link": "https://blog.python.org/2026/04/rust-for-cpython-2026-04/",
+              "id": "https://blog.python.org/2026/04/rust-for-cpython-2026-04/",
+              "author": "Emma Smith",
+              "published_at": "2026-04-08T00:00:00Z",
+              "updated_at": "2026-04-08T00:00:00Z",
+              "summary": "Rust for CPython project status update April 2026",
+              "categories": [
+                "Rust"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2026/04/rust-for-cpython-2026-04/",
+      "tags": [
+        "Rust"
+      ]
+    },
+    {
+      "id": "02e377ccfcff50e081bb",
+      "title": "Python 3.15.0a8, 3.14.4 and 3.13.13 are out!",
+      "content_text": "A final alpha and two bug fixes are awaiting your upgrade.",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "02e377ccfcff50e081bb",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2026/04/python-3150a8-3144-31313/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.15.0a8, 3.14.4 and 3.13.13 are out!",
+            "item_type": "entry",
+            "summary": "added: Python 3.15.0a8, 3.14.4 and 3.13.13 are out!",
+            "after": {
+              "title": "Python 3.15.0a8, 3.14.4 and 3.13.13 are out!",
+              "link": "https://blog.python.org/2026/04/python-3150a8-3144-31313/",
+              "id": "https://blog.python.org/2026/04/python-3150a8-3144-31313/",
+              "author": "Hugo van Kemenade",
+              "published_at": "2026-04-07T00:00:00Z",
+              "updated_at": "2026-04-07T00:00:00Z",
+              "summary": "A final alpha and two bug fixes are awaiting your upgrade.",
+              "categories": [
+                "releases"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2026/04/python-3150a8-3144-31313/",
+      "tags": [
+        "releases"
+      ]
+    },
+    {
+      "id": "db03f550f37db76a2086",
+      "title": "Python 3.15's JIT is now back on track",
+      "content_text": "A look at Python's JIT in 3.15a7.",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "db03f550f37db76a2086",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2026/03/jit-on-track/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.15's JIT is now back on track",
+            "item_type": "entry",
+            "summary": "added: Python 3.15's JIT is now back on track",
+            "after": {
+              "title": "Python 3.15's JIT is now back on track",
+              "link": "https://blog.python.org/2026/03/jit-on-track/",
+              "id": "https://blog.python.org/2026/03/jit-on-track/",
+              "author": "Ken Jin",
+              "published_at": "2026-03-23T00:00:00Z",
+              "updated_at": "2026-03-23T00:00:00Z",
+              "summary": "A look at Python's JIT in 3.15a7.",
+              "categories": [
+                "JIT",
+                "performance"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2026/03/jit-on-track/",
+      "tags": [
+        "JIT",
+        "performance"
+      ]
+    },
+    {
+      "id": "a18b71a7a1d57333409d",
+      "title": "Python 3.15.0 alpha 7",
+      "content_text": "The penultimate 3.15 alpha is out!",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "a18b71a7a1d57333409d",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2026/03/python-3150-alpha-7/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.15.0 alpha 7",
+            "item_type": "entry",
+            "summary": "added: Python 3.15.0 alpha 7",
+            "after": {
+              "title": "Python 3.15.0 alpha 7",
+              "link": "https://blog.python.org/2026/03/python-3150-alpha-7/",
+              "id": "https://blog.python.org/2026/03/python-3150-alpha-7/",
+              "author": "Hugo van Kemenade",
+              "published_at": "2026-03-10T00:00:00Z",
+              "updated_at": "2026-03-10T00:00:00Z",
+              "summary": "The penultimate 3.15 alpha is out!",
+              "categories": [
+                "releases"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2026/03/python-3150-alpha-7/",
+      "tags": [
+        "releases"
+      ]
+    },
+    {
+      "id": "9485b845c985b0afbb27",
+      "title": "CPython: 36 Years of Source Code",
+      "content_text": "An analysis of the growth of CPython's codebase from its first commits to the present day",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "9485b845c985b0afbb27",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2026/03/cpython-codebase-growth/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "CPython: 36 Years of Source Code",
+            "item_type": "entry",
+            "summary": "added: CPython: 36 Years of Source Code",
+            "after": {
+              "title": "CPython: 36 Years of Source Code",
+              "link": "https://blog.python.org/2026/03/cpython-codebase-growth/",
+              "id": "https://blog.python.org/2026/03/cpython-codebase-growth/",
+              "author": "Stan Ulbrych",
+              "published_at": "2026-03-08T00:00:00Z",
+              "updated_at": "2026-03-08T00:00:00Z",
+              "summary": "An analysis of the growth of CPython's codebase from its first commits to the present day",
+              "categories": [
+                "history"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2026/03/cpython-codebase-growth/",
+      "tags": [
+        "history"
+      ]
+    },
+    {
+      "id": "0ef7f0d154e60f114c48",
+      "title": "Python 3.12.13, 3.11.15 and 3.10.20 are now available!",
+      "content_text": "[Python Releases For Your Security!](https://discuss.python.org/t/python-3-12-13-3-11-15-and-3-10-20-are-now-available/106363) New security releases for 3.10, 3.11 and 3.12 are now available.",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "0ef7f0d154e60f114c48",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2026/03/python-31213-31115-31020/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.12.13, 3.11.15 and 3.10.20 are now available!",
+            "item_type": "entry",
+            "summary": "added: Python 3.12.13, 3.11.15 and 3.10.20 are now available!",
+            "after": {
+              "title": "Python 3.12.13, 3.11.15 and 3.10.20 are now available!",
+              "link": "https://blog.python.org/2026/03/python-31213-31115-31020/",
+              "id": "https://blog.python.org/2026/03/python-31213-31115-31020/",
+              "author": "Thomas Wouters",
+              "published_at": "2026-03-03T00:00:00Z",
+              "updated_at": "2026-03-03T00:00:00Z",
+              "summary": "[Python Releases For Your Security!](https://discuss.python.org/t/python-3-12-13-3-11-15-and-3-10-20-are-now-available/106363) New security releases for 3.10, 3.11 and 3.12 are now available.",
+              "categories": [
+                "releases"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2026/03/python-31213-31115-31020/",
+      "tags": [
+        "releases"
+      ]
+    },
+    {
+      "id": "3286a2d9c414f472e7fb",
+      "title": "The Python Insider Blog Has Moved!",
+      "content_text": "Python Insider now lives at blog.python.org, backed by a Git repository. All 307 posts from the Blogger era have been migrated, and old URLs redirect automatically.",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "3286a2d9c414f472e7fb",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2026/03/the-python-insider-blog-has-moved/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "The Python Insider Blog Has Moved!",
+            "item_type": "entry",
+            "summary": "added: The Python Insider Blog Has Moved!",
+            "after": {
+              "title": "The Python Insider Blog Has Moved!",
+              "link": "https://blog.python.org/2026/03/the-python-insider-blog-has-moved/",
+              "id": "https://blog.python.org/2026/03/the-python-insider-blog-has-moved/",
+              "author": "Jacob Coffee",
+              "published_at": "2026-03-03T00:00:00Z",
+              "updated_at": "2026-03-03T00:00:00Z",
+              "summary": "Python Insider now lives at blog.python.org, backed by a Git repository. All 307 posts from the Blogger era have been migrated, and old URLs redirect automatically.",
+              "categories": [
+                "python",
+                "community"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2026/03/the-python-insider-blog-has-moved/",
+      "tags": [
+        "python",
+        "community"
+      ]
+    },
+    {
+      "id": "a8d9fe62bafb40d3d02b",
+      "title": "Join the Python Security Response Team!",
+      "content_text": "The Python Security Response Team now has an approved public governance document (PEP 811) and is welcoming new members.",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "a8d9fe62bafb40d3d02b",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2026/02/join-the-python-security-response-team/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Join the Python Security Response Team!",
+            "item_type": "entry",
+            "summary": "added: Join the Python Security Response Team!",
+            "after": {
+              "title": "Join the Python Security Response Team!",
+              "link": "https://blog.python.org/2026/02/join-the-python-security-response-team/",
+              "id": "https://blog.python.org/2026/02/join-the-python-security-response-team/",
+              "author": "Seth Larson",
+              "published_at": "2026-02-17T00:00:00Z",
+              "updated_at": "2026-02-17T00:00:00Z",
+              "summary": "The Python Security Response Team now has an approved public governance document (PEP 811) and is welcoming new members.",
+              "categories": [
+                "security",
+                "psrt"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2026/02/join-the-python-security-response-team/",
+      "tags": [
+        "security",
+        "psrt"
+      ]
+    },
+    {
+      "id": "33d5a8fb05eb5c0356f3",
+      "title": "Python 3.15.0 alpha 6",
+      "content_text": "This is an early developer preview of Python 3.15 www.python.org/downloads/release/python-3150a6/ Major new features of the 3.15 series, compared to 3.14 Pyt...",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "33d5a8fb05eb5c0356f3",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2026/02/python-3150-alpha-6/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.15.0 alpha 6",
+            "item_type": "entry",
+            "summary": "added: Python 3.15.0 alpha 6",
+            "after": {
+              "title": "Python 3.15.0 alpha 6",
+              "link": "https://blog.python.org/2026/02/python-3150-alpha-6/",
+              "id": "https://blog.python.org/2026/02/python-3150-alpha-6/",
+              "author": "Hugo van Kemenade",
+              "published_at": "2026-02-11T00:00:00Z",
+              "updated_at": "2026-02-11T00:00:00Z",
+              "summary": "This is an early developer preview of Python 3.15 www.python.org/downloads/release/python-3150a6/ Major new features of the 3.15 series, compared to 3.14 Pyt...",
+              "categories": [
+                "releases"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2026/02/python-3150-alpha-6/",
+      "tags": [
+        "releases"
+      ]
+    },
+    {
+      "id": "57242f7c020fa7d7f135",
+      "title": "Python 3.14.3 and 3.13.12 are now available!",
+      "content_text": "Python 3.14.3 is now available! This is third maintenance release of Python 3.14 Python 3.14.3 is the third maintenance release of 3.14, containing around ...",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "57242f7c020fa7d7f135",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2026/02/python-3143-and-31312-are-now-available/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.14.3 and 3.13.12 are now available!",
+            "item_type": "entry",
+            "summary": "added: Python 3.14.3 and 3.13.12 are now available!",
+            "after": {
+              "title": "Python 3.14.3 and 3.13.12 are now available!",
+              "link": "https://blog.python.org/2026/02/python-3143-and-31312-are-now-available/",
+              "id": "https://blog.python.org/2026/02/python-3143-and-31312-are-now-available/",
+              "author": "Thomas Wouters",
+              "published_at": "2026-02-03T00:00:00Z",
+              "updated_at": "2026-02-03T00:00:00Z",
+              "summary": "Python 3.14.3 is now available! This is third maintenance release of Python 3.14 Python 3.14.3 is the third maintenance release of 3.14, containing around ...",
+              "categories": [
+                "releases"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2026/02/python-3143-and-31312-are-now-available/",
+      "tags": [
+        "releases"
+      ]
+    },
+    {
+      "id": "eaec5a8e47c235442383",
+      "title": "Python 3.15.0 alpha 5 (yes, another alpha!)",
+      "content_text": "Note: 3.15.0a4 was accidentally built against from 2025-12-23 instead of 2026-01-13, so this 3.15.0a5 is an extra release correctly built against 2026-01-14...",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "eaec5a8e47c235442383",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2026/01/python-3150-alpha-5-yes-another-alpha/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.15.0 alpha 5 (yes, another alpha!)",
+            "item_type": "entry",
+            "summary": "added: Python 3.15.0 alpha 5 (yes, another alpha!)",
+            "after": {
+              "title": "Python 3.15.0 alpha 5 (yes, another alpha!)",
+              "link": "https://blog.python.org/2026/01/python-3150-alpha-5-yes-another-alpha/",
+              "id": "https://blog.python.org/2026/01/python-3150-alpha-5-yes-another-alpha/",
+              "author": "Hugo van Kemenade",
+              "published_at": "2026-01-14T00:00:00Z",
+              "updated_at": "2026-01-14T00:00:00Z",
+              "summary": "Note: 3.15.0a4 was accidentally built against from 2025-12-23 instead of 2026-01-13, so this 3.15.0a5 is an extra release correctly built against 2026-01-14...",
+              "categories": [
+                "releases"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2026/01/python-3150-alpha-5-yes-another-alpha/",
+      "tags": [
+        "releases"
+      ]
+    },
+    {
+      "id": "09861df44051823c7a09",
+      "title": "Python 3.15.0 alpha 4",
+      "content_text": "Edit: This 3.15.0a4 was accidentally built against \\ from 2025-12-23 instead of 2026-01-13, so 3.15.0a5 is an extra release correctly built against 2026-01-1...",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "09861df44051823c7a09",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2026/01/python-3150-alpha-4/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.15.0 alpha 4",
+            "item_type": "entry",
+            "summary": "added: Python 3.15.0 alpha 4",
+            "after": {
+              "title": "Python 3.15.0 alpha 4",
+              "link": "https://blog.python.org/2026/01/python-3150-alpha-4/",
+              "id": "https://blog.python.org/2026/01/python-3150-alpha-4/",
+              "author": "Hugo van Kemenade",
+              "published_at": "2026-01-13T00:00:00Z",
+              "updated_at": "2026-01-13T00:00:00Z",
+              "summary": "Edit: This 3.15.0a4 was accidentally built against \\ from 2025-12-23 instead of 2026-01-13, so 3.15.0a5 is an extra release correctly built against 2026-01-1...",
+              "categories": [
+                "releases"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2026/01/python-3150-alpha-4/",
+      "tags": [
+        "releases"
+      ]
+    },
+    {
+      "id": "153644ddc4aece7d53f4",
+      "title": "Python 3.15.0 alpha 3",
+      "content_text": "This is an early developer preview of Python 3.15 www.python.org/downloads/release/python-3150a3/ Major new features of the 3.15 series, compared to 3.14 Pyt...",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "153644ddc4aece7d53f4",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2025/12/python-3150-alpha-3/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.15.0 alpha 3",
+            "item_type": "entry",
+            "summary": "added: Python 3.15.0 alpha 3",
+            "after": {
+              "title": "Python 3.15.0 alpha 3",
+              "link": "https://blog.python.org/2025/12/python-3150-alpha-3/",
+              "id": "https://blog.python.org/2025/12/python-3150-alpha-3/",
+              "author": "Hugo van Kemenade",
+              "published_at": "2025-12-16T00:00:00Z",
+              "updated_at": "2025-12-16T00:00:00Z",
+              "summary": "This is an early developer preview of Python 3.15 www.python.org/downloads/release/python-3150a3/ Major new features of the 3.15 series, compared to 3.14 Pyt...",
+              "categories": [
+                "releases"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2025/12/python-3150-alpha-3/",
+      "tags": [
+        "releases"
+      ]
+    },
+    {
+      "id": "7c46c5372b71bcd33806",
+      "title": "Python 3.14.2 and 3.13.11 are now available!",
+      "content_text": "Two more, just three days after the last? Yes! We found some regressions, so here’s an expedited pair of releases. They also come with some bonus security fi...",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "7c46c5372b71bcd33806",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2025/12/python-3142-and-31311-are-now-available/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.14.2 and 3.13.11 are now available!",
+            "item_type": "entry",
+            "summary": "added: Python 3.14.2 and 3.13.11 are now available!",
+            "after": {
+              "title": "Python 3.14.2 and 3.13.11 are now available!",
+              "link": "https://blog.python.org/2025/12/python-3142-and-31311-are-now-available/",
+              "id": "https://blog.python.org/2025/12/python-3142-and-31311-are-now-available/",
+              "author": "Hugo van Kemenade",
+              "published_at": "2025-12-05T00:00:00Z",
+              "updated_at": "2025-12-05T00:00:00Z",
+              "summary": "Two more, just three days after the last? Yes! We found some regressions, so here’s an expedited pair of releases. They also come with some bonus security fi...",
+              "categories": [
+                "releases"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2025/12/python-3142-and-31311-are-now-available/",
+      "tags": [
+        "releases"
+      ]
+    },
+    {
+      "id": "96872901a1c2ffbf6b6c",
+      "title": "Python 3.13.10 is now available, too, you know!",
+      "content_text": "The latest version of Python 3.13 is now available! Python 3.13.10 https://www.python.org/downloads/release/python-31310/ This is the tenth maintenance rel...",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "96872901a1c2ffbf6b6c",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2025/12/python-31310-is-now-available-too-you/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.13.10 is now available, too, you know!",
+            "item_type": "entry",
+            "summary": "added: Python 3.13.10 is now available, too, you know!",
+            "after": {
+              "title": "Python 3.13.10 is now available, too, you know!",
+              "link": "https://blog.python.org/2025/12/python-31310-is-now-available-too-you/",
+              "id": "https://blog.python.org/2025/12/python-31310-is-now-available-too-you/",
+              "author": "Thomas Wouters",
+              "published_at": "2025-12-02T00:00:00Z",
+              "updated_at": "2025-12-02T00:00:00Z",
+              "summary": "The latest version of Python 3.13 is now available! Python 3.13.10 https://www.python.org/downloads/release/python-31310/ This is the tenth maintenance rel...",
+              "categories": [
+                "releases"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2025/12/python-31310-is-now-available-too-you/",
+      "tags": [
+        "releases"
+      ]
+    },
+    {
+      "id": "24197cda760d1ecbfea3",
+      "title": "Python 3.14.1 is now available!",
+      "content_text": "!Two snakes enjoying a pie with 3.14 on the top and π crimping This is first maintenance release of Python 3.14 Python 3.14.1 is the first maintenance release...",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "24197cda760d1ecbfea3",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2025/12/python-3141-is-now-available/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.14.1 is now available!",
+            "item_type": "entry",
+            "summary": "added: Python 3.14.1 is now available!",
+            "after": {
+              "title": "Python 3.14.1 is now available!",
+              "link": "https://blog.python.org/2025/12/python-3141-is-now-available/",
+              "id": "https://blog.python.org/2025/12/python-3141-is-now-available/",
+              "author": "Hugo van Kemenade",
+              "published_at": "2025-12-02T00:00:00Z",
+              "updated_at": "2025-12-02T00:00:00Z",
+              "summary": "!Two snakes enjoying a pie with 3.14 on the top and π crimping This is first maintenance release of Python 3.14 Python 3.14.1 is the first maintenance release...",
+              "categories": [
+                "releases"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2025/12/python-3141-is-now-available/",
+      "tags": [
+        "releases"
+      ]
+    },
+    {
+      "id": "5cdb71eb3b88c3e00296",
+      "title": "Python 3.15.0 alpha 2",
+      "content_text": "This is an early developer preview of Python 3.15 https://www.python.org/downloads/release/python-3150a2/ Major new features of the 3.15 series, compared to ...",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "5cdb71eb3b88c3e00296",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2025/11/python-3150a2/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.15.0 alpha 2",
+            "item_type": "entry",
+            "summary": "added: Python 3.15.0 alpha 2",
+            "after": {
+              "title": "Python 3.15.0 alpha 2",
+              "link": "https://blog.python.org/2025/11/python-3150a2/",
+              "id": "https://blog.python.org/2025/11/python-3150a2/",
+              "author": "Hugo van Kemenade",
+              "published_at": "2025-11-19T00:00:00Z",
+              "updated_at": "2025-11-19T00:00:00Z",
+              "summary": "This is an early developer preview of Python 3.15 https://www.python.org/downloads/release/python-3150a2/ Major new features of the 3.15 series, compared to ...",
+              "categories": [
+                "releases"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2025/11/python-3150a2/",
+      "tags": [
+        "releases"
+      ]
+    },
+    {
+      "id": "d5d7ddabdbe470889b88",
+      "title": "Python 3.15.0 alpha 1",
+      "content_text": "This is an early developer preview of Python 3.15 https://www.python.org/downloads/release/python-3150a1/ Major new features of the 3.15 series, compared to ...",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d5d7ddabdbe470889b88",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2025/10/python-3150-alpha-1/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.15.0 alpha 1",
+            "item_type": "entry",
+            "summary": "added: Python 3.15.0 alpha 1",
+            "after": {
+              "title": "Python 3.15.0 alpha 1",
+              "link": "https://blog.python.org/2025/10/python-3150-alpha-1/",
+              "id": "https://blog.python.org/2025/10/python-3150-alpha-1/",
+              "author": "Hugo van Kemenade",
+              "published_at": "2025-10-15T00:00:00Z",
+              "updated_at": "2025-10-15T00:00:00Z",
+              "summary": "This is an early developer preview of Python 3.15 https://www.python.org/downloads/release/python-3150a1/ Major new features of the 3.15 series, compared to ...",
+              "categories": [
+                "releases"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2025/10/python-3150-alpha-1/",
+      "tags": [
+        "releases"
+      ]
+    },
+    {
+      "id": "4359820a6d0f66dedc56",
+      "title": "Python 3.13.9 is now available!",
+      "content_text": "Python 3.13.9 https://www.python.org/downloads/release/python-3139/ 3.13.9 is an expedited release containing a fix for one specific regression in Python 3.1...",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "4359820a6d0f66dedc56",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2025/10/python-3139-is-now-available/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.13.9 is now available!",
+            "item_type": "entry",
+            "summary": "added: Python 3.13.9 is now available!",
+            "after": {
+              "title": "Python 3.13.9 is now available!",
+              "link": "https://blog.python.org/2025/10/python-3139-is-now-available/",
+              "id": "https://blog.python.org/2025/10/python-3139-is-now-available/",
+              "author": "Thomas Wouters",
+              "published_at": "2025-10-14T00:00:00Z",
+              "updated_at": "2025-10-14T00:00:00Z",
+              "summary": "Python 3.13.9 https://www.python.org/downloads/release/python-3139/ 3.13.9 is an expedited release containing a fix for one specific regression in Python 3.1...",
+              "categories": [
+                "releases"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2025/10/python-3139-is-now-available/",
+      "tags": [
+        "releases"
+      ]
+    },
+    {
+      "id": "5b733fceef0a425e2f4c",
+      "title": "Python 3.12.12, 3.11.14, 3.10.19 and 3.9.24 are now available!",
+      "content_text": "[](https://discuss.python.org/t/python-3-12-12-3-11-14-3-10-19-and-3-9-24-are-now-available/104273#p-273973-old-timer-release-party-1)Old-timer Release Party...",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "5b733fceef0a425e2f4c",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2025/10/python-31212-31114-31019-and-3924-are/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.12.12, 3.11.14, 3.10.19 and 3.9.24 are now available!",
+            "item_type": "entry",
+            "summary": "added: Python 3.12.12, 3.11.14, 3.10.19 and 3.9.24 are now available!",
+            "after": {
+              "title": "Python 3.12.12, 3.11.14, 3.10.19 and 3.9.24 are now available!",
+              "link": "https://blog.python.org/2025/10/python-31212-31114-31019-and-3924-are/",
+              "id": "https://blog.python.org/2025/10/python-31212-31114-31019-and-3924-are/",
+              "author": "Thomas Wouters",
+              "published_at": "2025-10-09T00:00:00Z",
+              "updated_at": "2025-10-09T00:00:00Z",
+              "summary": "[](https://discuss.python.org/t/python-3-12-12-3-11-14-3-10-19-and-3-9-24-are-now-available/104273#p-273973-old-timer-release-party-1)Old-timer Release Party...",
+              "categories": [
+                "releases"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2025/10/python-31212-31114-31019-and-3924-are/",
+      "tags": [
+        "releases"
+      ]
+    },
+    {
+      "id": "ac104fc6a315d8a5c238",
+      "title": "Python 3.13.8 is now available",
+      "content_text": "The latest version of Python 3.13 is now available! Python 3.13.8 https://www.python.org/downloads/release/python-3138/ This is the eighth maintenance rele...",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ac104fc6a315d8a5c238",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2025/10/python-3138-is-now-available/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.13.8 is now available",
+            "item_type": "entry",
+            "summary": "added: Python 3.13.8 is now available",
+            "after": {
+              "title": "Python 3.13.8 is now available",
+              "link": "https://blog.python.org/2025/10/python-3138-is-now-available/",
+              "id": "https://blog.python.org/2025/10/python-3138-is-now-available/",
+              "author": "Thomas Wouters",
+              "published_at": "2025-10-07T00:00:00Z",
+              "updated_at": "2025-10-07T00:00:00Z",
+              "summary": "The latest version of Python 3.13 is now available! Python 3.13.8 https://www.python.org/downloads/release/python-3138/ This is the eighth maintenance rele...",
+              "categories": [],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2025/10/python-3138-is-now-available/"
+    },
+    {
+      "id": "895f3379fdf4f8a7c20e",
+      "title": "Python 3.14.0 (final) is here!",
+      "content_text": "!Two snakes enjoying a pie with 3.14 on the top and π crimping Python 3.14.0 is now available python.org/downloads/release/python-3140/ This is the stable re...",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "895f3379fdf4f8a7c20e",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2025/10/python-3140-final-is-here/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.14.0 (final) is here!",
+            "item_type": "entry",
+            "summary": "added: Python 3.14.0 (final) is here!",
+            "after": {
+              "title": "Python 3.14.0 (final) is here!",
+              "link": "https://blog.python.org/2025/10/python-3140-final-is-here/",
+              "id": "https://blog.python.org/2025/10/python-3140-final-is-here/",
+              "author": "Hugo van Kemenade",
+              "published_at": "2025-10-07T00:00:00Z",
+              "updated_at": "2025-10-07T00:00:00Z",
+              "summary": "!Two snakes enjoying a pie with 3.14 on the top and π crimping Python 3.14.0 is now available python.org/downloads/release/python-3140/ This is the stable re...",
+              "categories": [
+                "releases"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2025/10/python-3140-final-is-here/",
+      "tags": [
+        "releases"
+      ]
+    },
+    {
+      "id": "906cf7299334858cac77",
+      "title": "Python 3.14.0rc3 is go!",
+      "content_text": "It’s 🪄 finally 🪄 the final 3.14 release candidate! https://www.python.org/downloads/release/python-3140rc3/ Note: It’s another magic release. We fixed anot...",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "906cf7299334858cac77",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2025/09/python-3140rc3-is-go/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.14.0rc3 is go!",
+            "item_type": "entry",
+            "summary": "added: Python 3.14.0rc3 is go!",
+            "after": {
+              "title": "Python 3.14.0rc3 is go!",
+              "link": "https://blog.python.org/2025/09/python-3140rc3-is-go/",
+              "id": "https://blog.python.org/2025/09/python-3140rc3-is-go/",
+              "author": "Hugo van Kemenade",
+              "published_at": "2025-09-18T00:00:00Z",
+              "updated_at": "2025-09-18T00:00:00Z",
+              "summary": "It’s 🪄 finally 🪄 the final 3.14 release candidate! https://www.python.org/downloads/release/python-3140rc3/ Note: It’s another magic release. We fixed anot...",
+              "categories": [
+                "releases"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2025/09/python-3140rc3-is-go/",
+      "tags": [
+        "releases"
+      ]
+    },
+    {
+      "id": "8679daff37c9008826a4",
+      "title": "Python 3.14.0rc2 and 3.13.7 are go!",
+      "content_text": "Not one but two expedited releases! 🎉 🎉 Python 3.14.0rc2 It’s the ~final~ 🪄 penultimate 🪄 3.14 release candidate! https://www.python.org/downloads/releas...",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "8679daff37c9008826a4",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2025/08/python-3140rc2-and-3137-are-go/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.14.0rc2 and 3.13.7 are go!",
+            "item_type": "entry",
+            "summary": "added: Python 3.14.0rc2 and 3.13.7 are go!",
+            "after": {
+              "title": "Python 3.14.0rc2 and 3.13.7 are go!",
+              "link": "https://blog.python.org/2025/08/python-3140rc2-and-3137-are-go/",
+              "id": "https://blog.python.org/2025/08/python-3140rc2-and-3137-are-go/",
+              "author": "Hugo van Kemenade",
+              "published_at": "2025-08-14T00:00:00Z",
+              "updated_at": "2025-08-14T00:00:00Z",
+              "summary": "Not one but two expedited releases! 🎉 🎉 Python 3.14.0rc2 It’s the ~final~ 🪄 penultimate 🪄 3.14 release candidate! https://www.python.org/downloads/releas...",
+              "categories": [
+                "releases"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2025/08/python-3140rc2-and-3137-are-go/",
+      "tags": [
+        "releases"
+      ]
+    },
+    {
+      "id": "24f99686da26739e5c18",
+      "title": "Python 3.13.6 is now available",
+      "content_text": "The latest version of Python 3.13 is now available! [](https://discuss.python.org/t/python-3-13-6-has-been-released/101482#p-265330-python-3136-1)Python 3.13...",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "24f99686da26739e5c18",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2025/08/python-3136-is-now-available/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.13.6 is now available",
+            "item_type": "entry",
+            "summary": "added: Python 3.13.6 is now available",
+            "after": {
+              "title": "Python 3.13.6 is now available",
+              "link": "https://blog.python.org/2025/08/python-3136-is-now-available/",
+              "id": "https://blog.python.org/2025/08/python-3136-is-now-available/",
+              "author": "Thomas Wouters",
+              "published_at": "2025-08-06T00:00:00Z",
+              "updated_at": "2025-08-06T00:00:00Z",
+              "summary": "The latest version of Python 3.13 is now available! [](https://discuss.python.org/t/python-3-13-6-has-been-released/101482#p-265330-python-3136-1)Python 3.13...",
+              "categories": [],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2025/08/python-3136-is-now-available/"
+    },
+    {
+      "id": "a87bb41ff49dd4bcba50",
+      "title": "Python 3.14 release candidate 1 is go!",
+      "content_text": "It’s the first 3.14 release candidate! https://www.python.org/downloads/release/python-3140rc1/ This is the first release candidate of Python 3.14 This relea...",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "a87bb41ff49dd4bcba50",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2025/07/python-314-release-candidate-1-is-go/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.14 release candidate 1 is go!",
+            "item_type": "entry",
+            "summary": "added: Python 3.14 release candidate 1 is go!",
+            "after": {
+              "title": "Python 3.14 release candidate 1 is go!",
+              "link": "https://blog.python.org/2025/07/python-314-release-candidate-1-is-go/",
+              "id": "https://blog.python.org/2025/07/python-314-release-candidate-1-is-go/",
+              "author": "Hugo van Kemenade",
+              "published_at": "2025-07-22T00:00:00Z",
+              "updated_at": "2025-07-22T00:00:00Z",
+              "summary": "It’s the first 3.14 release candidate! https://www.python.org/downloads/release/python-3140rc1/ This is the first release candidate of Python 3.14 This relea...",
+              "categories": [
+                "releases"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2025/07/python-314-release-candidate-1-is-go/",
+      "tags": [
+        "releases"
+      ]
+    },
+    {
+      "id": "b98ceda5969b3bca7c9b",
+      "title": "Python 3.14.0 beta 4 is here!",
+      "content_text": "It’s the final 3.14 beta! https://www.python.org/downloads/release/python-3140b4/ This is a beta preview of Python 3.14 Python 3.14 is still in development. ...",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "b98ceda5969b3bca7c9b",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2025/07/python-3140-beta-4-is-here/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.14.0 beta 4 is here!",
+            "item_type": "entry",
+            "summary": "added: Python 3.14.0 beta 4 is here!",
+            "after": {
+              "title": "Python 3.14.0 beta 4 is here!",
+              "link": "https://blog.python.org/2025/07/python-3140-beta-4-is-here/",
+              "id": "https://blog.python.org/2025/07/python-3140-beta-4-is-here/",
+              "author": "Hugo van Kemenade",
+              "published_at": "2025-07-08T00:00:00Z",
+              "updated_at": "2025-07-08T00:00:00Z",
+              "summary": "It’s the final 3.14 beta! https://www.python.org/downloads/release/python-3140b4/ This is a beta preview of Python 3.14 Python 3.14 is still in development. ...",
+              "categories": [
+                "releases"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2025/07/python-3140-beta-4-is-here/",
+      "tags": [
+        "releases"
+      ]
+    },
+    {
+      "id": "ae62f3364491a47712d6",
+      "title": "Python 3.14.0 beta 3 is here!",
+      "content_text": "It’s 3.14 beta 3! https://www.python.org/downloads/release/python-3140b3/ This is a beta preview of Python 3.14 Python 3.14 is still in development. This rel...",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ae62f3364491a47712d6",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2025/06/python-3140-beta-3-is-here/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.14.0 beta 3 is here!",
+            "item_type": "entry",
+            "summary": "added: Python 3.14.0 beta 3 is here!",
+            "after": {
+              "title": "Python 3.14.0 beta 3 is here!",
+              "link": "https://blog.python.org/2025/06/python-3140-beta-3-is-here/",
+              "id": "https://blog.python.org/2025/06/python-3140-beta-3-is-here/",
+              "author": "Hugo van Kemenade",
+              "published_at": "2025-06-17T00:00:00Z",
+              "updated_at": "2025-06-17T00:00:00Z",
+              "summary": "It’s 3.14 beta 3! https://www.python.org/downloads/release/python-3140b3/ This is a beta preview of Python 3.14 Python 3.14 is still in development. This rel...",
+              "categories": [
+                "releases"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2025/06/python-3140-beta-3-is-here/",
+      "tags": [
+        "releases"
+      ]
+    },
+    {
+      "id": "7a8cc1b45bc91ab48ae4",
+      "title": "Python 3.13.5 is now available!",
+      "content_text": "When I was younger we would call this a brown paper bag release, but actually, we shouldn’t hide from our mistakes. We’re only human. So, please enjoy: [](ht...",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "7a8cc1b45bc91ab48ae4",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2025/06/python-3135-is-now-available/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.13.5 is now available!",
+            "item_type": "entry",
+            "summary": "added: Python 3.13.5 is now available!",
+            "after": {
+              "title": "Python 3.13.5 is now available!",
+              "link": "https://blog.python.org/2025/06/python-3135-is-now-available/",
+              "id": "https://blog.python.org/2025/06/python-3135-is-now-available/",
+              "author": "Thomas Wouters",
+              "published_at": "2025-06-11T00:00:00Z",
+              "updated_at": "2025-06-11T00:00:00Z",
+              "summary": "When I was younger we would call this a brown paper bag release, but actually, we shouldn’t hide from our mistakes. We’re only human. So, please enjoy: [](ht...",
+              "categories": [],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2025/06/python-3135-is-now-available/"
+    },
+    {
+      "id": "f32a20a479495e65fe17",
+      "title": "Python 3.13.4, 3.12.11, 3.11.13, 3.10.18 and 3.9.23 are now available",
+      "content_text": "Python Release Party It was only meant to be release day for 3.13.4 today, but poor number 13 looked so lonely… And hey, we had a couple of tarfile CVEs that...",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "f32a20a479495e65fe17",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2025/06/python-3134-31211-31113-31018-and-3923/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.13.4, 3.12.11, 3.11.13, 3.10.18 and 3.9.23 are now available",
+            "item_type": "entry",
+            "summary": "added: Python 3.13.4, 3.12.11, 3.11.13, 3.10.18 and 3.9.23 are now available",
+            "after": {
+              "title": "Python 3.13.4, 3.12.11, 3.11.13, 3.10.18 and 3.9.23 are now available",
+              "link": "https://blog.python.org/2025/06/python-3134-31211-31113-31018-and-3923/",
+              "id": "https://blog.python.org/2025/06/python-3134-31211-31113-31018-and-3923/",
+              "author": "Thomas Wouters",
+              "published_at": "2025-06-03T00:00:00Z",
+              "updated_at": "2025-06-03T00:00:00Z",
+              "summary": "Python Release Party It was only meant to be release day for 3.13.4 today, but poor number 13 looked so lonely… And hey, we had a couple of tarfile CVEs that...",
+              "categories": [],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2025/06/python-3134-31211-31113-31018-and-3923/"
+    },
+    {
+      "id": "3e8a7b6d77ffa49795cd",
+      "title": "Python 3.14.0 beta 2 is here!",
+      "content_text": "Here’s the second 3.14 beta. https://www.python.org/downloads/release/python-3140b2/ This is a beta preview of Python 3.14 Python 3.14 is still in developmen...",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "3e8a7b6d77ffa49795cd",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2025/05/python-3140-beta-2-is-here/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.14.0 beta 2 is here!",
+            "item_type": "entry",
+            "summary": "added: Python 3.14.0 beta 2 is here!",
+            "after": {
+              "title": "Python 3.14.0 beta 2 is here!",
+              "link": "https://blog.python.org/2025/05/python-3140-beta-2-is-here/",
+              "id": "https://blog.python.org/2025/05/python-3140-beta-2-is-here/",
+              "author": "Hugo van Kemenade",
+              "published_at": "2025-05-26T00:00:00Z",
+              "updated_at": "2025-05-26T00:00:00Z",
+              "summary": "Here’s the second 3.14 beta. https://www.python.org/downloads/release/python-3140b2/ This is a beta preview of Python 3.14 Python 3.14 is still in developmen...",
+              "categories": [
+                "releases"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2025/05/python-3140-beta-2-is-here/",
+      "tags": [
+        "releases"
+      ]
+    },
+    {
+      "id": "abeefe75c8104a0ccc88",
+      "title": "Python 3.14.0 beta 1 is here!",
+      "content_text": "Only one day late, welcome to the first beta! https://www.python.org/downloads/release/python-3140b1/ This is a beta preview of Python 3.14 Python 3.14 is st...",
+      "date_published": "2026-09-24T10:05:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "abeefe75c8104a0ccc88",
+          "source": "rss",
+          "type": "change",
+          "key": "https://blog.python.org/2025/05/python-3140-beta-1-is-here/",
+          "source_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:05:26Z",
+          "data": {
+            "change": "added",
+            "label": "Python 3.14.0 beta 1 is here!",
+            "item_type": "entry",
+            "summary": "added: Python 3.14.0 beta 1 is here!",
+            "after": {
+              "title": "Python 3.14.0 beta 1 is here!",
+              "link": "https://blog.python.org/2025/05/python-3140-beta-1-is-here/",
+              "id": "https://blog.python.org/2025/05/python-3140-beta-1-is-here/",
+              "author": "Hugo van Kemenade",
+              "published_at": "2025-05-07T00:00:00Z",
+              "updated_at": "2025-05-07T00:00:00Z",
+              "summary": "Only one day late, welcome to the first beta! https://www.python.org/downloads/release/python-3140b1/ This is a beta preview of Python 3.14 Python 3.14 is st...",
+              "categories": [
+                "releases"
+              ],
+              "feed": {
+                "title": "Python Insider",
+                "url": "https://blog.python.org/",
+                "feed_url": "https://blog.python.org/feeds/posts/default?alt=rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://blog.python.org/feeds/posts/default?alt=rss",
+            "elapsed_ms": 116,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.0",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.python.org/2025/05/python-3140-beta-1-is-here/",
+      "tags": [
+        "releases"
+      ]
+    }
+  ]
+}

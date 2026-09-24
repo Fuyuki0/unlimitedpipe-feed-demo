@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>AI lab announcements</title>
+    <link>https://huggingface.co/blog/feed.xml</link>
+    <description>Events collected by UnlimitedPipe 0.3.0</description>
+    <generator>UnlimitedPipe 0.3.0</generator>
+    <lastBuildDate>Thu, 24 Sep 2026 10:05:22 +0000</lastBuildDate>
+    <item>
+      <title>How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows</title>
+      <link>https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp</link>
+      <guid isPermaLink="false">a22180d0fb9af1651c94</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Advancing Private AI Compute with secure, server-side memory</title>
+      <link>https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/</link>
+      <guid isPermaLink="false">5d060019e56dc5a17d5f</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>Introducing private, server-side memory to Private AI Compute for personal AI.</description>
+    </item>
+    <item>
+      <title>Two years of OpenAI Academy</title>
+      <link>https://openai.com/index/two-years-of-openai-academy</link>
+      <guid isPermaLink="false">1a3eda18257d00531db8</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>Marking two years of OpenAI Academy and bringing AI skills to even more communities.</description>
+      <category>Company</category>
+    </item>
+    <item>
+      <title>Gemini 3.8 text-to-speech says hello</title>
+      <link>https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/</link>
+      <guid isPermaLink="false">19d6b505b27a010658de</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI extends cyber access to Ukraine for civilian defense</title>
+      <link>https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense</link>
+      <guid isPermaLink="false">6523bffec63edb6b7860</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.</description>
+      <category>Global Affairs</category>
+    </item>
+    <item>
+      <title>Sam Altman’s remarks at the United Nations Security Council</title>
+      <link>https://openai.com/index/sam-altman-un-security-council-remarks</link>
+      <guid isPermaLink="false">8da240bc66bfd7364741</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.</description>
+      <category>Global Affairs</category>
+    </item>
+    <item>
+      <title>Harvey turns legal context into stronger drafts with GPT-6 Astra</title>
+      <link>https://openai.com/index/harvey-from-context-to-confidence-with-astra</link>
+      <guid isPermaLink="false">fcb7afd7fbda621a3412</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.</description>
+      <category>Startup</category>
+    </item>
+    <item>
+      <title>How invideo improves color grading 3x with GPT‑6 Astra</title>
+      <link>https://openai.com/index/invideo-builds-with-gpt-6-astra</link>
+      <guid isPermaLink="false">f0d898787d198a0bb033</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.</description>
+    </item>
+    <item>
+      <title>Ringg’s AI agents resolve up to 65% of customer calls with OpenAI</title>
+      <link>https://openai.com/index/ringg</link>
+      <guid isPermaLink="false">686e9e396cc4481d5c2d</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.</description>
+    </item>
+    <item>
+      <title>Introducing MentalHealthBench</title>
+      <link>https://openai.com/index/introducing-mentalhealthbench</link>
+      <guid isPermaLink="false">438bc84dca68dd217750</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.</description>
+      <category>Publication</category>
+    </item>
+    <item>
+      <title>ChatGPT Ads expands to Southeast Asia and Taiwan</title>
+      <link>https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan</link>
+      <guid isPermaLink="false">e1db335c4f768323da67</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.</description>
+      <category>Product</category>
+    </item>
+    <item>
+      <title>Airbnb widens access to GPT-6 Astra and OpenAI frontier models</title>
+      <link>https://openai.com/index/airbnb-gpt-6-astra</link>
+      <guid isPermaLink="false">42c9b1bab3179a7be037</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.</description>
+      <category>Company</category>
+    </item>
+    <item>
+      <title>Grab and OpenAI bring practical AI skills to Southeast Asia</title>
+      <link>https://openai.com/index/grab-openai-ai-skills-southeast-asia</link>
+      <guid isPermaLink="false">111208300a63bb89d5c9</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>OpenAI and Grab launch GO Forward with AI, a regional programme helping 30,000 partners build practical AI skills across Southeast Asia.</description>
+      <category>Global Affairs</category>
+    </item>
+    <item>
+      <title>Better prompt caching for GPT-6</title>
+      <link>https://openai.com/index/better-prompt-caching-for-gpt-6</link>
+      <guid isPermaLink="false">62fcaa7fc757f24af88e</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>Learn how GPT-6 improves prompt caching with higher cache hit rates, new diagnostics, explicit breakpoints, and controls that reduce latency and costs.</description>
+      <category>Product</category>
+    </item>
+    <item>
+      <title>Introducing GPT-6 Sol and Luna</title>
+      <link>https://openai.com/index/introducing-gpt-6-sol-and-luna</link>
+      <guid isPermaLink="false">148f173a52c772c6e76d</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>Meet GPT-6 Sol and Luna, two models that bring frontier intelligence to everyday work with different balances of capability and cost.</description>
+      <category>Product</category>
+    </item>
+    <item>
+      <title>Parallel cut research time and cost in half with GPT‑6 Astra</title>
+      <link>https://openai.com/index/parallel-cuts-time-and-cost-with-astra</link>
+      <guid isPermaLink="false">bfbf8106e180501c9473</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.</description>
+      <category>Startup</category>
+    </item>
+    <item>
+      <title>Priorities and principles for effective third party assessments</title>
+      <link>https://openai.com/index/priorities-principles-third-party-assessments</link>
+      <guid isPermaLink="false">15fb1d81b055467b0a3e</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>OpenAI outlines priorities and principles for rigorous, secure, and independent third-party AI safety assessments of frontier models and safeguards.</description>
+      <category>Safety</category>
+    </item>
+    <item>
+      <title>How UK AISI and EvalEval Are Making Benchmark Results Reproducible</title>
+      <link>https://huggingface.co/blog/evaleval-aisi</link>
+      <guid isPermaLink="false">3cdbc250d9231fb41157</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Transformers now runs llama.cpp quants</title>
+      <link>https://huggingface.co/blog/transformers-llama-cpp-quants</link>
+      <guid isPermaLink="false">51474376f1733d3de2fa</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community</title>
+      <link>https://huggingface.co/blog/omlx</link>
+      <guid isPermaLink="false">a230a0cc767e4e3bf192</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem</title>
+      <link>https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an</link>
+      <guid isPermaLink="false">4a0ca043e5f4cb0ba641</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Higgsfield AI ships new video features in a day with GPT-6 Astra</title>
+      <link>https://openai.com/index/higgsfield-from-prompt-to-production-with-astra</link>
+      <guid isPermaLink="false">7f9592fcf4fa72cac805</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>With GPT-6 Astra, Higgsfield AI makes video ad creation easier for small businesses and brings new creative tools to market faster.</description>
+      <category>Startup</category>
+    </item>
+    <item>
+      <title>Advisory Group on Mathematics and Artificial Intelligence</title>
+      <link>https://openai.com/index/advisory-group-on-mathematics-and-ai</link>
+      <guid isPermaLink="false">ee6618ddeda07d0c4b41</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>OpenAI is working with an independent Advisory Group on Mathematics and Artificial Intelligence to guide the review and communication of emerging AI results.</description>
+      <category>Company</category>
+    </item>
+    <item>
+      <title>Building standards for the next phase of AI</title>
+      <link>https://openai.com/index/building-standards-next-phase-ai</link>
+      <guid isPermaLink="false">e93d56230b4352de3f09</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>OpenAI outlines a path to shared global AI standards, calling for coordinated evaluation, reporting, and governance to improve safety.</description>
+      <category>Global Affairs</category>
+    </item>
+    <item>
+      <title>Expanding OpenAI Academy with new learning paths</title>
+      <link>https://openai.com/index/expanding-openai-academy-with-new-learning-paths</link>
+      <guid isPermaLink="false">99538cbcd190637625a3</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.</description>
+      <category>Company</category>
+    </item>
+    <item>
+      <title>How V7 gives AI agents institutional memory</title>
+      <link>https://openai.com/index/v7</link>
+      <guid isPermaLink="false">db5b454ec1e9a006aa31</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.</description>
+      <category>Startup</category>
+    </item>
+    <item>
+      <title>tokenizers v1: encode, decode and scaling, measured</title>
+      <link>https://huggingface.co/blog/tokenizers-v1</link>
+      <guid isPermaLink="false">0d6a01d8f6b07a4a4e14</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing the Australian Youth Safety Blueprint</title>
+      <link>https://openai.com/index/australian-youth-safety-blueprint</link>
+      <guid isPermaLink="false">07f64d404a7ac182e381</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.</description>
+      <category>Company</category>
+    </item>
+    <item>
+      <title>How Cooley is accelerating IPO work with ChatGPT</title>
+      <link>https://openai.com/index/cooley-gopublic</link>
+      <guid isPermaLink="false">e091e5f0ab1989da6136</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>Cooley built GO Public with ChatGPT Work to bring intelligence to the IPO process, helping lawyers surface issues earlier and focus judgment where it matters most.</description>
+    </item>
+    <item>
+      <title>Introducing Astra for Law</title>
+      <link>https://openai.com/index/astra-for-law</link>
+      <guid isPermaLink="false">a763f20fee42720d5eed</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>OpenAI for Law brings frontier intelligence for law, custom firm workflows, connected legal data sources, and legal-grade controls for confidential client work.</description>
+      <category>Company</category>
+    </item>
+    <item>
+      <title>Our framework for reporting model misalignment</title>
+      <link>https://openai.com/index/model-misalignment-reporting-framework</link>
+      <guid isPermaLink="false">cd79130492bbe86dcfad</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.</description>
+      <category>Research</category>
+    </item>
+    <item>
+      <title>Helping older adults use AI in everyday life</title>
+      <link>https://openai.com/index/helping-older-adults-use-ai-in-everyday-life</link>
+      <guid isPermaLink="false">a52f8b3a6bf6f6becb97</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.</description>
+      <category>Global Affairs</category>
+    </item>
+    <item>
+      <title>Reimagining advertising with AI</title>
+      <link>https://openai.com/index/reimagining-advertising-with-ai</link>
+      <guid isPermaLink="false">a32163a331ce3a9ed1cc</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.</description>
+      <category>Product</category>
+    </item>
+    <item>
+      <title>Hex turns complex analysis into visual reports with GPT‑6 Astra</title>
+      <link>https://openai.com/index/hex-gpt-6-astra</link>
+      <guid isPermaLink="false">176cdf82d9d5e8e12f5d</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>GPT-6 Astra helps Hex’s data agents turn answers into interactive visualizations that employees are proud to share.</description>
+      <category>Startup</category>
+    </item>
+    <item>
+      <title>How to connect AI usage to business value</title>
+      <link>https://openai.com/index/how-to-connect-ai-usage-to-business-value</link>
+      <guid isPermaLink="false">33e4df031839401c4f78</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.</description>
+      <category>Product</category>
+    </item>
+    <item>
+      <title>How workers are unlocking new ways of working</title>
+      <link>https://openai.com/index/unlocking-new-ways-of-working</link>
+      <guid isPermaLink="false">822d25b45f7140b3666f</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.</description>
+      <category>Global Affairs</category>
+    </item>
+    <item>
+      <title>Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking</title>
+      <link>https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/</link>
+      <guid isPermaLink="false">1bacd6a59cd0f2ce06fe</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Your Agent Aced the Task. Will It Do It Again?</title>
+      <link>https://huggingface.co/blog/ibm-research/altk-evolve-consistency</link>
+      <guid isPermaLink="false">2b82c140b5ffd029b9b5</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Fyxer built an AI executive assistant people trust</title>
+      <link>https://openai.com/index/fyxer</link>
+      <guid isPermaLink="false">58ba7081ba1db3b94226</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>Fyxer uses OpenAI models, fine-tuning, memory, and real user feedback to organize inboxes and draft emails in each user’s voice.</description>
+      <category>Startup</category>
+    </item>
+    <item>
+      <title>Perplexity trusts GPT-6 Astra with end-to-end systems</title>
+      <link>https://openai.com/index/perplexity-improving-accuracy-with-astra</link>
+      <guid isPermaLink="false">c37e7f40fd03ee0b0cf5</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.</description>
+    </item>
+    <item>
+      <title>Cognition helps Devin test its own work with GPT‑6 Astra</title>
+      <link>https://openai.com/index/cognition-devin-testing-with-astra</link>
+      <guid isPermaLink="false">2a46dc7f25ee7e43e771</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.</description>
+    </item>
+    <item>
+      <title>Rapidly scaling online storage to serve over 1 billion ChatGPT users</title>
+      <link>https://openai.com/index/scaling-storage-one-billion-users-part-one</link>
+      <guid isPermaLink="false">273a6e087f66c7e90c41</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.</description>
+      <category>Engineering</category>
+    </item>
+    <item>
+      <title>How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules</title>
+      <link>https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials</link>
+      <guid isPermaLink="false">281cfd80cc211aa19f57</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.</description>
+      <category>Applied AI</category>
+    </item>
+    <item>
+      <title>Now everyone can put data to work</title>
+      <link>https://openai.com/index/put-data-to-work</link>
+      <guid isPermaLink="false">1d5a6988953ccbc1396f</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.</description>
+      <category>Product</category>
+    </item>
+    <item>
+      <title>Introducing ChatGPT for Financial Services</title>
+      <link>https://openai.com/index/introducing-chatgpt-financial-services</link>
+      <guid isPermaLink="false">041b7af8c6262b558b4d</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.</description>
+      <category>Product</category>
+    </item>
+    <item>
+      <title>Expanding AI access and cyber defense for federal, state, local, and tribal governments</title>
+      <link>https://openai.com/index/expanding-ai-access-us-government</link>
+      <guid isPermaLink="false">41b53e632a7a00886989</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.</description>
+      <category>Global Affairs</category>
+    </item>
+    <item>
+      <title>Build more natural voice experiences with GPT‑Live‑1 in the API</title>
+      <link>https://openai.com/index/introducing-gpt-live-1-in-the-api</link>
+      <guid isPermaLink="false">f0d43c33439fddee58e4</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.</description>
+      <category>Product</category>
+    </item>
+    <item>
+      <title>Introducing the Agents API</title>
+      <link>https://openai.com/index/introducing-the-agents-api</link>
+      <guid isPermaLink="false">f745964cda29cb9f3059</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.</description>
+      <category>Product</category>
+    </item>
+    <item>
+      <title>Async GRPO with LoRA across HF Jobs: a bucket, a proxy, and no NCCL</title>
+      <link>https://huggingface.co/blog/asyncgrpo-lora-hfjobs</link>
+      <guid isPermaLink="false">17f57a4d63a6dc0d34e0</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Rebuilding AUTOMATIC1111 with Gradio Workflow</title>
+      <link>https://huggingface.co/blog/gradio-workflow-1111</link>
+      <guid isPermaLink="false">1f474a6e281ecdd65abd</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Paul Christiano joins OpenAI Foundation Board</title>
+      <link>https://openai.com/index/paul-christiano-joins-openai-foundation-board</link>
+      <guid isPermaLink="false">b1547660bf713fccbd71</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.</description>
+      <category>Company</category>
+    </item>
+    <item>
+      <title>The AI policy window is open. We need to act.</title>
+      <link>https://openai.com/index/ai-policy-window</link>
+      <guid isPermaLink="false">1bcbccb3c60d0f8fbe1c</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>Chris Lehane argues that stronger AI capabilities require stronger safety evidence, shared standards, and durable policy action while the policy window remains open.</description>
+      <category>Global Affairs</category>
+    </item>
+    <item>
+      <title>GPT-6 Astra: The next generation in intelligence for work</title>
+      <link>https://openai.com/index/gpt-6-astra-next-generation-work</link>
+      <guid isPermaLink="false">a8ae1bb68270739fb667</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>Meet GPT-6 Astra, OpenAI’s most capable model for business, with advanced reasoning, computer use, and stronger writing and design judgment.</description>
+      <category>Product</category>
+    </item>
+    <item>
+      <title>How GPT-5.6 Sol helps run quantum computing experiments</title>
+      <link>https://openai.com/index/codex-quantum-computing-experiments</link>
+      <guid isPermaLink="false">af5df4ffef13a2be4a69</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>See how an MIT researcher uses GPT-5.6 Sol with Codex to autonomously run quantum computing experiments, analyze results, and calibrate qubits.</description>
+      <category>Applied AI</category>
+    </item>
+    <item>
+      <title>AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome</title>
+      <link>https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/</link>
+      <guid isPermaLink="false">6d451e691da6ecca4eec</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>AlphaGenome Atlas maps the molecular effects of 9 billion single-letter DNA variants across the human genome.</description>
+    </item>
+    <item>
+      <title>The Work Now Within Reach</title>
+      <link>https://openai.com/index/the-work-now-within-reach</link>
+      <guid isPermaLink="false">31505816f54188b5ba35</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>Explore how more capable, affordable AI can expand the work people and businesses can accomplish—and make growth more economical.</description>
+      <category>Company</category>
+    </item>
+    <item>
+      <title>Introducing ChatGPT Images 2.5</title>
+      <link>https://openai.com/index/introducing-chatgpt-images-2-5</link>
+      <guid isPermaLink="false">a2f4bdc1dd74ce38bb67</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>ChatGPT Images 2.5 helps turn your ideas, sketches, and reference photos into more personalized, polished images that better reflect your ideas.</description>
+      <category>Product</category>
+    </item>
+    <item>
+      <title>On the Navier–Stokes Millennium Prize Problem</title>
+      <link>https://openai.com/index/navier-stokes-solution</link>
+      <guid isPermaLink="false">6c798ff0689aa9043cb4</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>We’re sharing an AI-generated solution to the Navier–Stokes Millennium Prize Problem, including a writeup and a formal proof in Lean.</description>
+      <category>Research</category>
+    </item>
+    <item>
+      <title>Funding grants for new research into AI and teen development</title>
+      <link>https://openai.com/index/teen-development-research-grants</link>
+      <guid isPermaLink="false">f954674dd69f89d9d9e3</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety.</description>
+      <category>Safety</category>
+    </item>
+    <item>
+      <title>OpenAI expands initiatives to support journalism from classrooms to newsrooms</title>
+      <link>https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms</link>
+      <guid isPermaLink="false">8d6d5631371aab5af694</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations.</description>
+      <category>Company</category>
+    </item>
+    <item>
+      <title>1Password increases engineering productivity 21% with Codex</title>
+      <link>https://openai.com/index/1password</link>
+      <guid isPermaLink="false">19284e1a5645e9dc90c6</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies.</description>
+    </item>
+    <item>
+      <title>Supporting independent journalism in Ukraine</title>
+      <link>https://openai.com/index/supporting-independent-journalism-in-ukraine</link>
+      <guid isPermaLink="false">c74f28d445f4d2dba03d</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism.</description>
+      <category>Global Affairs</category>
+    </item>
+    <item>
+      <title>An Alien Mind</title>
+      <link>https://openai.com/index/an-alien-mind</link>
+      <guid isPermaLink="false">41fbd07fa61b64cf5d50</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>Jakub Pachocki reflects on increasingly capable AI and the challenge of keeping it aligned. He calls for stronger safeguards and international coordination.</description>
+      <category>Safety</category>
+    </item>
+    <item>
+      <title>Research acceleration: The view inside OpenAI</title>
+      <link>https://openai.com/index/research-acceleration-view-inside-openai</link>
+      <guid isPermaLink="false">f4ebf6a9a2b3ee92a4f5</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration.</description>
+      <category>Research</category>
+    </item>
+    <item>
+      <title>Introducing WeatherNext 3, our most advanced and accurate global weather AI model</title>
+      <link>https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/</link>
+      <guid isPermaLink="false">c08342d9a17279517f58</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Daybreak for Frontline Defenders: $1B to protect essential services</title>
+      <link>https://openai.com/index/daybreak-for-frontline-defenders</link>
+      <guid isPermaLink="false">6634a0e6215dea84d563</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.</description>
+      <category>Security</category>
+    </item>
+    <item>
+      <title>NeoMME: an efficient Multimodal-native and Multilingual Encoder</title>
+      <link>https://huggingface.co/blog/Hcompany/neomme</link>
+      <guid isPermaLink="false">5625c945d45d9262244b</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Playco cut manual fixes 50% prototyping games with GPT-6 Astra</title>
+      <link>https://openai.com/index/playco-game-prototyping-with-astra</link>
+      <guid isPermaLink="false">5b17d97ed3b3b0ff1dfd</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.</description>
+      <category>Startup</category>
+    </item>
+    <item>
+      <title>Legora reviewed 41 documents in minutes with GPT-6 Astra</title>
+      <link>https://openai.com/index/legora-financial-statement-review-with-astra</link>
+      <guid isPermaLink="false">21c3a44dc61250d99660</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.</description>
+      <category>Startup</category>
+    </item>
+    <item>
+      <title>GPT-6 Astra: A new generation of intelligence</title>
+      <link>https://openai.com/index/gpt-6-astra</link>
+      <guid isPermaLink="false">f103a6941520c189d451</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.</description>
+      <category>Research</category>
+    </item>
+    <item>
+      <title>Safety overview: GPT-6 Astra</title>
+      <link>https://openai.com/index/safety-overview-gpt-6-astra</link>
+      <guid isPermaLink="false">8ff65f25b586658972b4</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.</description>
+      <category>Safety</category>
+    </item>
+    <item>
+      <title>Fine-tuning a 350M Model for Better Structured Outputs in 100 GRPO Steps</title>
+      <link>https://huggingface.co/blog/grpo-with-trl-ifstruct</link>
+      <guid isPermaLink="false">84ad25db1f8934710ed0</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Give Your Coding Agents a Memory You Own</title>
+      <link>https://huggingface.co/blog/funes</link>
+      <guid isPermaLink="false">080d6ef9f29369f28f8f</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Training a coding model to paint watercolours with TRL and OpenEnv</title>
+      <link>https://huggingface.co/blog/train-to-paint-with-code</link>
+      <guid isPermaLink="false">0fda39431694d429d273</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Proactive cyber defense for governments and enterprises</title>
+      <link>https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/</link>
+      <guid isPermaLink="false">55380aacfe71cd71db68</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Gemini 3.8 Flash and 3.8 Flash Cyber</title>
+      <link>https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/</link>
+      <guid isPermaLink="false">ef1e648acee6ead65c3b</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT</title>
+      <link>https://openai.com/index/atv-big-air-tour</link>
+      <guid isPermaLink="false">501c74c4ab9073310ff0</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.</description>
+    </item>
+    <item>
+      <title>BenchMIRT: What are LLM benchmarks actually measuring?</title>
+      <link>https://huggingface.co/blog/allenai/benchmirt</link>
+      <guid isPermaLink="false">3415c8b5f5bd375768fd</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing agentic video understanding with Gemini</title>
+      <link>https://deepmind.google/blog/introducing-agentic-video-in-gemini/</link>
+      <guid isPermaLink="false">82d51343f43a1816f69f</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>How AI-native companies turn workflows into operating capability</title>
+      <link>https://openai.com/index/ai-native-company-workflows</link>
+      <guid isPermaLink="false">67cedac0a847d451bc3a</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.</description>
+      <category>AI Adoption</category>
+    </item>
+    <item>
+      <title>Path to Astra: critical capabilities and frontier safeguards</title>
+      <link>https://openai.com/index/path-to-astra</link>
+      <guid isPermaLink="false">3314788e25fb25cebd8b</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.</description>
+      <category>Safety</category>
+    </item>
+    <item>
+      <title>Healthcare organizations can now connect EHR and additional industry data to ChatGPT</title>
+      <link>https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources</link>
+      <guid isPermaLink="false">e963664c7bf7a0624483</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.</description>
+      <category>Product</category>
+    </item>
+    <item>
+      <title>How law firm Gilbert + Tobin governs and scales AI with OpenAI</title>
+      <link>https://openai.com/index/gilbert-tobin</link>
+      <guid isPermaLink="false">217c6b532e7372a78461</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.</description>
+    </item>
+    <item>
+      <title>Introducing @huggingface/kernels: 200+ WebGPU Kernels for Local AI</title>
+      <link>https://huggingface.co/blog/webgpu-kernels</link>
+      <guid isPermaLink="false">8320ace6d2163bccedab</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI supports California’s bill to advance youth AI safety</title>
+      <link>https://openai.com/index/supporting-california-bill-advance-ai-youth-safety</link>
+      <guid isPermaLink="false">86056003b095c062124b</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.</description>
+      <category>Company</category>
+    </item>
+    <item>
+      <title>Polimill builds Japan's next-generation public AI infrastructure</title>
+      <link>https://openai.com/index/polimill</link>
+      <guid isPermaLink="false">ed496644c32370340dc2</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.</description>
+    </item>
+    <item>
+      <title>A milestone in expanding access to AI</title>
+      <link>https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads</link>
+      <guid isPermaLink="false">864d2e54ac9518b5c933</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.</description>
+      <category>Product</category>
+    </item>
+    <item>
+      <title>Our decision on Cursor following its acquisition by SpaceX</title>
+      <link>https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex</link>
+      <guid isPermaLink="false">40e81828efb2927c7407</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.</description>
+      <category>Company</category>
+    </item>
+    <item>
+      <title>Supporting Thailand’s next generation of AI startups</title>
+      <link>https://openai.com/index/supporting-next-generation-ai-startups-thailand</link>
+      <guid isPermaLink="false">9d496cc345de874fc090</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.</description>
+      <category>Company</category>
+    </item>
+    <item>
+      <title>The Open ASR Leaderboard Adds Its First Global South Language</title>
+      <link>https://huggingface.co/blog/open-asr-leaderboard-global-south</link>
+      <guid isPermaLink="false">83bd122b91071a8feb42</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gemini Omni 1.1 Flash lets you build with more control</title>
+      <link>https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/</link>
+      <guid isPermaLink="false">521d7dab97b77e8c40c3</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Piloting the world's first double-blind AI evaluations</title>
+      <link>https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/</link>
+      <guid isPermaLink="false">6522e86a91d3e50e5d29</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>Piloting the world's first double-blind AI evaluations</description>
+    </item>
+    <item>
+      <title>Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training</title>
+      <link>https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training</link>
+      <guid isPermaLink="false">12bb4a29a848f3eecbc0</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.</description>
+      <category>Company</category>
+    </item>
+    <item>
+      <title>Expanding OpenAI’s presence in Brazil</title>
+      <link>https://openai.com/index/expanding-our-presence-in-brazil</link>
+      <guid isPermaLink="false">81bc50e95b94e9865b2f</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.</description>
+      <category>Company</category>
+    </item>
+    <item>
+      <title>Intelligent transcription with Gemini 3.5 Transcribe</title>
+      <link>https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/</link>
+      <guid isPermaLink="false">e11a2fd775b758d27db1</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>Now you can get more intelligent speech-to-text transcription with Gemini 3.5 Transcribe.</description>
+    </item>
+    <item>
+      <title>Bringing ChatGPT for Teachers to more U.S. school districts</title>
+      <link>https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts</link>
+      <guid isPermaLink="false">6d2a137d12982a19ce38</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.</description>
+      <category>Product</category>
+    </item>
+    <item>
+      <title>Learning never stops: How AI makes learning continuous</title>
+      <link>https://openai.com/index/learning-never-stops</link>
+      <guid isPermaLink="false">68b111ea521281633ed9</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.</description>
+      <category>Product</category>
+    </item>
+    <item>
+      <title>The Hugging Face incident and the road ahead</title>
+      <link>https://openai.com/index/hugging-face-incident-and-the-road-ahead</link>
+      <guid isPermaLink="false">d4b1dd7edd3a58517e13</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.</description>
+      <category>Security</category>
+    </item>
+    <item>
+      <title>How loveholidays is making everyone a builder with Codex</title>
+      <link>https://openai.com/index/loveholidays</link>
+      <guid isPermaLink="false">4b901ae4b296b5497af8</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+      <description>Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.</description>
+    </item>
+    <item>
+      <title>Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers</title>
+      <link>https://huggingface.co/blog/train-multi-vector-encoder</link>
+      <guid isPermaLink="false">c8d7ba965ba1adac918d</guid>
+      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
