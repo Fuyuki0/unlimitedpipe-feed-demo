@@ -2,12 +2,437 @@
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Thailand news in English",
   "home_page_url": "https://www.khaosodenglish.com/feed/",
-  "description": "Events collected by UnlimitedPipe 0.3.0",
+  "description": "Events collected by UnlimitedPipe 0.3.1",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.3.0"
+    "generator": "UnlimitedPipe 0.3.1"
   },
   "items": [
+    {
+      "id": "9a95996ac589e0ad7e48",
+      "title": "Historic glass plates offer vital record of Thailand’s history, culture",
+      "content_text": "BANGKOK — Thailand’s historic glass plate negatives and original photographs offer a visual record of the country’s social, cultural and political history, Culture Minister Sabida Thaiseth said on 24 September. Sabida said photography was introduced to Thailand by foreigners during the reign of King Rama III. During the reign of King Rama IV, the monarch […]\nThe post Historic glass plates offer vital record of Thailand’s history, culture appeared first on Khaosod English .",
+      "date_published": "2026-09-24T12:54:47Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "9a95996ac589e0ad7e48",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.khaosodenglish.com/?p=1464955847",
+          "source_url": "https://www.khaosodenglish.com/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-24T15:33:26Z",
+          "data": {
+            "change": "added",
+            "label": "Historic glass plates offer vital record of Thailand’s history, culture",
+            "item_type": "entry",
+            "summary": "added: Historic glass plates offer vital record of Thailand’s history, culture",
+            "after": {
+              "title": "Historic glass plates offer vital record of Thailand’s history, culture",
+              "link": "https://www.khaosodenglish.com/featured/2026/09/24/historic-glass-plates-offer-vital-record-of-thailands-history-culture/",
+              "id": "https://www.khaosodenglish.com/?p=1464955847",
+              "author": "Khaosod English",
+              "published_at": "2026-09-24T12:54:47Z",
+              "updated_at": "2026-09-24T12:54:47Z",
+              "summary": "BANGKOK — Thailand’s historic glass plate negatives and original photographs offer a visual record of the country’s social, cultural and political history, Culture Minister Sabida Thaiseth said on 24 September. Sabida said photography was introduced to Thailand by foreigners during the reign of King Rama III. During the reign of King Rama IV, the monarch […]\nThe post Historic glass plates offer vital record of Thailand’s history, culture appeared first on Khaosod English .",
+              "categories": [
+                "Featured",
+                "Thailand"
+              ],
+              "feed": {
+                "title": "Khaosod English",
+                "url": "https://www.khaosodenglish.com",
+                "feed_url": "https://www.khaosodenglish.com/feed/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.khaosodenglish.com/feed/",
+            "elapsed_ms": 1743,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "namespace": "thailand-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.khaosodenglish.com/featured/2026/09/24/historic-glass-plates-offer-vital-record-of-thailands-history-culture/",
+      "tags": [
+        "Featured",
+        "Thailand"
+      ]
+    },
+    {
+      "id": "71607514fb2040a071e7",
+      "title": "​Thailand and Cambodia Don’t Need a Culture War on Top of Their Border War",
+      "content_text": "​Last year, Thailand and Cambodia could not agree on where their common border lay without resorting to war and killings. This week, they cannot even agree on which traditional costumes belong to Thailand or Cambodia, or which constitute shared heritage, without hurling insults and looking down on each other, after the Miss Universe Cambodia pageant […]\nThe post ​Thailand and Cambodia Don’t Need a Culture War on Top of Their Border War appeared first on Khaosod English .",
+      "date_published": "2026-09-24T12:14:23Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "71607514fb2040a071e7",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.khaosodenglish.com/?p=1464955838",
+          "source_url": "https://www.khaosodenglish.com/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-24T15:33:26Z",
+          "data": {
+            "change": "added",
+            "label": "​Thailand and Cambodia Don’t Need a Culture War on Top of Their Border War",
+            "item_type": "entry",
+            "summary": "added: ​Thailand and Cambodia Don’t Need a Culture War on Top of Their Border War",
+            "after": {
+              "title": "​Thailand and Cambodia Don’t Need a Culture War on Top of Their Border War",
+              "link": "https://www.khaosodenglish.com/opinion/2026/09/24/thailand-and-cambodia-dont-need-a-culture-war-on-top-of-their-border-war/",
+              "id": "https://www.khaosodenglish.com/?p=1464955838",
+              "author": "Pravit Rojanaphruk, Senior Staff Writer",
+              "published_at": "2026-09-24T12:14:23Z",
+              "updated_at": "2026-09-24T12:14:23Z",
+              "summary": "​Last year, Thailand and Cambodia could not agree on where their common border lay without resorting to war and killings. This week, they cannot even agree on which traditional costumes belong to Thailand or Cambodia, or which constitute shared heritage, without hurling insults and looking down on each other, after the Miss Universe Cambodia pageant […]\nThe post ​Thailand and Cambodia Don’t Need a Culture War on Top of Their Border War appeared first on Khaosod English .",
+              "categories": [
+                "Opinion",
+                "Cambodia",
+                "pravit",
+                "Thailand"
+              ],
+              "feed": {
+                "title": "Khaosod English",
+                "url": "https://www.khaosodenglish.com",
+                "feed_url": "https://www.khaosodenglish.com/feed/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.khaosodenglish.com/feed/",
+            "elapsed_ms": 1743,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "namespace": "thailand-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.khaosodenglish.com/opinion/2026/09/24/thailand-and-cambodia-dont-need-a-culture-war-on-top-of-their-border-war/",
+      "tags": [
+        "Opinion",
+        "Cambodia",
+        "pravit",
+        "Thailand"
+      ]
+    },
+    {
+      "id": "aed588283790e3af5dd0",
+      "title": "Puripol storms into Asian Games 100m semis with 9.95",
+      "content_text": "NAGOYA, Japan — Thailand’s Puripol Boonson clocked a season-best 9.95 seconds to win his heat and advance to the men’s 100-metre semifinals at the 20th Asian Games in Nagoya on Thursday. The 20-year-old sprinter got off to a strong start and led from the outset in Heat 1 at Nagoya City Mizuho Park Athletics Stadium, […]\nThe post Puripol storms into Asian Games 100m semis with 9.95 appeared first on Khaosod English .",
+      "date_published": "2026-09-24T11:39:31Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "aed588283790e3af5dd0",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.khaosodenglish.com/?p=1464955841",
+          "source_url": "https://www.khaosodenglish.com/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-24T15:33:26Z",
+          "data": {
+            "change": "added",
+            "label": "Puripol storms into Asian Games 100m semis with 9.95",
+            "item_type": "entry",
+            "summary": "added: Puripol storms into Asian Games 100m semis with 9.95",
+            "after": {
+              "title": "Puripol storms into Asian Games 100m semis with 9.95",
+              "link": "https://www.khaosodenglish.com/featured/2026/09/24/puripol-storms-into-asian-games-100m-semis-with-9-95/",
+              "id": "https://www.khaosodenglish.com/?p=1464955841",
+              "author": "Khaosod English",
+              "published_at": "2026-09-24T11:39:31Z",
+              "updated_at": "2026-09-24T11:39:31Z",
+              "summary": "NAGOYA, Japan — Thailand’s Puripol Boonson clocked a season-best 9.95 seconds to win his heat and advance to the men’s 100-metre semifinals at the 20th Asian Games in Nagoya on Thursday. The 20-year-old sprinter got off to a strong start and led from the outset in Heat 1 at Nagoya City Mizuho Park Athletics Stadium, […]\nThe post Puripol storms into Asian Games 100m semis with 9.95 appeared first on Khaosod English .",
+              "categories": [
+                "Featured",
+                "Asian Games",
+                "Puripol Boonson"
+              ],
+              "feed": {
+                "title": "Khaosod English",
+                "url": "https://www.khaosodenglish.com",
+                "feed_url": "https://www.khaosodenglish.com/feed/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.khaosodenglish.com/feed/",
+            "elapsed_ms": 1743,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "namespace": "thailand-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.khaosodenglish.com/featured/2026/09/24/puripol-storms-into-asian-games-100m-semis-with-9-95/",
+      "tags": [
+        "Featured",
+        "Asian Games",
+        "Puripol Boonson"
+      ]
+    },
+    {
+      "id": "e1d380f0f59535836fa4",
+      "title": "Chinese man arrested with gun, meth after 586-day overstay in Thailand",
+      "content_text": "BANGKOK — A 50-year-old Chinese man has been arrested in Bangkok after police found a revolver and 4.8 grammes of crystal methamphetamine in his possession, while immigration records showed he had overstayed his permission to remain in Thailand by 586 days. Police from Wang Thonglang Police Station arrested the man at about 16:00 on 23 […]\nThe post Chinese man arrested with gun, meth after 586-day overstay in Thailand appeared first on Khaosod English .",
+      "date_published": "2026-09-24T10:31:44Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "e1d380f0f59535836fa4",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.khaosodenglish.com/?p=1464955831",
+          "source_url": "https://www.khaosodenglish.com/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-24T15:33:26Z",
+          "data": {
+            "change": "added",
+            "label": "Chinese man arrested with gun, meth after 586-day overstay in Thailand",
+            "item_type": "entry",
+            "summary": "added: Chinese man arrested with gun, meth after 586-day overstay in Thailand",
+            "after": {
+              "title": "Chinese man arrested with gun, meth after 586-day overstay in Thailand",
+              "link": "https://www.khaosodenglish.com/news/crimecourtscalamity/2026/09/24/chinese-man-arrested-with-gun-meth-after-586-day-overstay-in-thailand/",
+              "id": "https://www.khaosodenglish.com/?p=1464955831",
+              "author": "Khaosod English",
+              "published_at": "2026-09-24T10:31:44Z",
+              "updated_at": "2026-09-24T10:31:44Z",
+              "summary": "BANGKOK — A 50-year-old Chinese man has been arrested in Bangkok after police found a revolver and 4.8 grammes of crystal methamphetamine in his possession, while immigration records showed he had overstayed his permission to remain in Thailand by 586 days. Police from Wang Thonglang Police Station arrested the man at about 16:00 on 23 […]\nThe post Chinese man arrested with gun, meth after 586-day overstay in Thailand appeared first on Khaosod English .",
+              "categories": [
+                "Crime, Courts, Calamity",
+                "Chinese"
+              ],
+              "feed": {
+                "title": "Khaosod English",
+                "url": "https://www.khaosodenglish.com",
+                "feed_url": "https://www.khaosodenglish.com/feed/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.khaosodenglish.com/feed/",
+            "elapsed_ms": 1743,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "namespace": "thailand-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.khaosodenglish.com/news/crimecourtscalamity/2026/09/24/chinese-man-arrested-with-gun-meth-after-586-day-overstay-in-thailand/",
+      "tags": [
+        "Crime, Courts, Calamity",
+        "Chinese"
+      ]
+    },
+    {
+      "id": "070c59427a7da0e70c30",
+      "title": "Beyond the crown: Miss International Queens reflect on family, survival, and growth",
+      "content_text": "Miss International Queen 2026 brought together transgender contestants from around the world in Pattaya, where Thai-American contestant Lo Colby, representing the United States, took the crown. Thailand’s Theerachaya Pimkitidaj was named first runner-up, while Japan’s Saki Iwai finished second runner-up. The three queens visited Khaosod English on Wednesday to discuss what brought them to the […]\nThe post Beyond the crown: Miss International Queens reflect on family, survival, and growth…",
+      "date_published": "2026-09-24T10:21:42Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "070c59427a7da0e70c30",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.khaosodenglish.com/?p=1464955805",
+          "source_url": "https://www.khaosodenglish.com/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-24T15:33:26Z",
+          "data": {
+            "change": "added",
+            "label": "Beyond the crown: Miss International Queens reflect on family, survival, and growth",
+            "item_type": "entry",
+            "summary": "added: Beyond the crown: Miss International Queens reflect on family, survival, and growth",
+            "after": {
+              "title": "Beyond the crown: Miss International Queens reflect on family, survival, and growth",
+              "link": "https://www.khaosodenglish.com/life/2026/09/24/beyond-the-crown-miss-international-queens-reflect-on-family-survival-and-growth/",
+              "id": "https://www.khaosodenglish.com/?p=1464955805",
+              "author": "Seth Buren",
+              "published_at": "2026-09-24T10:21:42Z",
+              "updated_at": "2026-09-24T10:21:42Z",
+              "summary": "Miss International Queen 2026 brought together transgender contestants from around the world in Pattaya, where Thai-American contestant Lo Colby, representing the United States, took the crown. Thailand’s Theerachaya Pimkitidaj was named first runner-up, while Japan’s Saki Iwai finished second runner-up. The three queens visited Khaosod English on Wednesday to discuss what brought them to the […]\nThe post Beyond the crown: Miss International Queens reflect on family, survival, and growth appeared first on Khaosod English .",
+              "categories": [
+                "Arts & Culture",
+                "Lifestyle",
+                "News",
+                "Lo Colby",
+                "Miss International Queen",
+                "pageant",
+                "Saki Iwai",
+                "Theerachaya Pimkitidaj",
+                "transgender"
+              ],
+              "feed": {
+                "title": "Khaosod English",
+                "url": "https://www.khaosodenglish.com",
+                "feed_url": "https://www.khaosodenglish.com/feed/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.khaosodenglish.com/feed/",
+            "elapsed_ms": 1743,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "namespace": "thailand-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.khaosodenglish.com/life/2026/09/24/beyond-the-crown-miss-international-queens-reflect-on-family-survival-and-growth/",
+      "tags": [
+        "Arts & Culture",
+        "Lifestyle",
+        "News",
+        "Lo Colby",
+        "Miss International Queen",
+        "pageant",
+        "Saki Iwai",
+        "Theerachaya Pimkitidaj",
+        "transgender"
+      ]
+    },
     {
       "id": "25f934505f7192ca0184",
       "title": "Thailand wins silver in NARAKA: BLADEPOINT at Asian Games",

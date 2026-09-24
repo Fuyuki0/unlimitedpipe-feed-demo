@@ -9,6 +9,88 @@
   },
   "items": [
     {
+      "id": "145be175f889e8307dcd",
+      "title": "langchain-ai/langchain langchain-openai==1.6.6",
+      "content_text": "Changes since langchain-openai==1.6.5\nrelease(openai): 1.6.6 (#40800)\nfix(openai): raise on error events in stream path (#40791)",
+      "date_published": "2026-09-24T11:31:31Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "145be175f889e8307dcd",
+          "source": "github",
+          "type": "change",
+          "key": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.6",
+          "source_url": "https://api.github.com/repos/langchain-ai/langchain/releases",
+          "timestamp": null,
+          "observed_at": "2026-09-24T15:32:58Z",
+          "data": {
+            "change": "added",
+            "label": "langchain-ai/langchain langchain-openai==1.6.6",
+            "item_type": "release",
+            "summary": "added: langchain-ai/langchain langchain-openai==1.6.6",
+            "after": {
+              "repo": "langchain-ai/langchain",
+              "title": "langchain-ai/langchain langchain-openai==1.6.6",
+              "tag": "langchain-openai==1.6.6",
+              "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.6",
+              "published_at": "2026-09-24T11:31:31Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "summary": "Changes since langchain-openai==1.6.5\nrelease(openai): 1.6.6 (#40800)\nfix(openai): raise on error events in stream path (#40791)",
+              "assets": 2
+            }
+          },
+          "metadata": {
+            "method": "github-api"
+          },
+          "provenance": [
+            {
+              "step": "github",
+              "version": "0.3.1"
+            },
+            {
+              "step": "filter",
+              "version": "0.3.1",
+              "args": {
+                "expr": "not (tag matches \"^b[0-9]+$\")"
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "title=repo + \" \" + title"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "namespace": "ai-releases",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.6"
+    },
+    {
       "id": "2c7374fdae64e83fde12",
       "title": "langchain-ai/langchain langchain-anthropic==1.7.4",
       "content_text": "Changes since langchain-anthropic==1.7.3\nchore(anthropic): fix integration test cassette (#40790)\nrelease(anthropic): 1.7.4 (#40786)\nfix(anthropic): add Opus 5.5 and GPT-6 profile augmentations (#40785)\nfeat(anthropic,openai): mid-conversation tool changes on SystemMessage (#40758)",
