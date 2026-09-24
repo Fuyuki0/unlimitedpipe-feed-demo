@@ -2,12 +2,79 @@
   "version": "https://jsonfeed.org/version/1.1",
   "title": "NASA Image of the Day",
   "home_page_url": "https://www.nasa.gov/image-of-the-day/",
-  "description": "Events collected by UnlimitedPipe 0.3.0",
+  "description": "Events collected by UnlimitedPipe 0.3.1",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.3.0"
+    "generator": "UnlimitedPipe 0.3.1"
   },
   "items": [
+    {
+      "id": "fb54d2a78e3cbe70d0d7",
+      "title": "Practicing for Safe Landings on the Moon and Beyond",
+      "content_text": "An Alta-X drone flies an advanced guidance and navigation system known as the Safe and Precise Landing – Integrated Capabilities Evolution (SPLICE) experiment near NASA’s Armstrong Flight Research Center in Edwards, California, on Thursday, Aug. 27, 2026.",
+      "date_published": "2026-09-24T16:36:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "fb54d2a78e3cbe70d0d7",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.nasa.gov/image-detail/nasa-navigation-experiment-shows-promise-for-landing-on-other-planets/",
+          "source_url": "https://www.nasa.gov/feeds/iotd-feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:24Z",
+          "data": {
+            "change": "added",
+            "label": "Practicing for Safe Landings on the Moon and Beyond",
+            "item_type": "entry",
+            "summary": "added: Practicing for Safe Landings on the Moon and Beyond",
+            "after": {
+              "title": "Practicing for Safe Landings on the Moon and Beyond",
+              "link": "https://www.nasa.gov/image-detail/nasa-navigation-experiment-shows-promise-for-landing-on-other-planets/",
+              "id": "https://www.nasa.gov/image-detail/nasa-navigation-experiment-shows-promise-for-landing-on-other-planets/",
+              "author": null,
+              "published_at": "2026-09-24T16:36:00Z",
+              "updated_at": "2026-09-24T16:36:00Z",
+              "summary": "An Alta-X drone flies an advanced guidance and navigation system known as the Safe and Precise Landing – Integrated Capabilities Evolution (SPLICE) experiment near NASA’s Armstrong Flight Research Center in Edwards, California, on Thursday, Aug. 27, 2026.",
+              "categories": [],
+              "feed": {
+                "title": "NASA Image of the Day",
+                "url": "https://www.nasa.gov/image-of-the-day/",
+                "feed_url": "https://www.nasa.gov/feeds/iotd-feed/"
+              },
+              "enclosures": [
+                "https://www.nasa.gov/wp-content/uploads/2026/09/afrc2026-0179-18orig.jpg"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.nasa.gov/feeds/iotd-feed/",
+            "elapsed_ms": 86,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.1"
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "namespace": "nasa-image",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.nasa.gov/image-detail/nasa-navigation-experiment-shows-promise-for-landing-on-other-planets/"
+    },
     {
       "id": "1da713d1ab7702ee51a3",
       "title": "NASA's Hubble Telescope Reaches Milestone, Looks for Elusive Supernova",

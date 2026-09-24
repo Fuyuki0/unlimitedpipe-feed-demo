@@ -1,0 +1,2592 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Rocket launches",
+  "home_page_url": "https://thespacedevs.com/llapi",
+  "description": "Events collected by UnlimitedPipe 0.3.1",
+  "_unlimitedpipe": {
+    "schema": "unlimitedpipe.event/1",
+    "generator": "UnlimitedPipe 0.3.1"
+  },
+  "items": [
+    {
+      "id": "818244414ed555b4d198",
+      "title": "Long March 6A | Yaogan 40 Group 04",
+      "content_text": "Launch window opens 2026-09-24 08:46 UTC (Launch Successful)",
+      "date_published": "2026-09-24T17:26:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "818244414ed555b4d198",
+          "source": "web",
+          "type": "change",
+          "key": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list#aed67837-b567-43e0-8071-c3ccc24aa496",
+          "source_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:34Z",
+          "data": {
+            "change": "added",
+            "label": "Long March 6A | Yaogan 40 Group 04",
+            "item_type": "record",
+            "summary": "added: Long March 6A | Yaogan 40 Group 04",
+            "after": {
+              "id": "aed67837-b567-43e0-8071-c3ccc24aa496",
+              "name": "Long March 6A | Yaogan 40 Group 04",
+              "slug": "long-march-6a-yaogan-40-group-04",
+              "launch_designator": null,
+              "status": {
+                "id": 3,
+                "name": "Launch Successful",
+                "abbrev": "Success",
+                "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+              },
+              "last_updated": "2026-09-24T09:47:29Z",
+              "net": "2026-09-24T08:46:00Z",
+              "window_end": "2026-09-24T09:04:00Z",
+              "window_start": "2026-09-24T08:38:00Z",
+              "link": "https://spacelaunchnow.app/launch/long-march-6a-yaogan-40-group-04/",
+              "summary": "Launch window opens 2026-09-24 08:46 UTC (Launch Successful)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+            "content_type": "application/json",
+            "elapsed_ms": 330,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "link=\"https://spacelaunchnow.app/launch/\" + slug + \"/\"",
+                  "summary=\"Launch window opens \" + replace(net, \"T(\\\\d\\\\d:\\\\d\\\\d):\\\\d\\\\dZ$\", \" \\\\1 UTC\") + \" (\" + status.name + \")\""
+                ],
+                "drop": [
+                  "url",
+                  "response_mode",
+                  "image",
+                  "infographic",
+                  "net_precision"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "id",
+                "namespace": "space-launches",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://spacelaunchnow.app/launch/long-march-6a-yaogan-40-group-04/"
+    },
+    {
+      "id": "94472ca8e603cf70592a",
+      "title": "Electron | Owlright, Owlright, Owlright (StriX Launch 13)",
+      "content_text": "Launch window opens 2026-09-26 00:15 UTC (Go for Launch)",
+      "date_published": "2026-09-24T17:26:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "94472ca8e603cf70592a",
+          "source": "web",
+          "type": "change",
+          "key": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list#9e24bef7-c44b-4fdc-ba52-68545ce9457e",
+          "source_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:34Z",
+          "data": {
+            "change": "added",
+            "label": "Electron | Owlright, Owlright, Owlright (StriX Launch 13)",
+            "item_type": "record",
+            "summary": "added: Electron | Owlright, Owlright, Owlright (StriX Launch 13)",
+            "after": {
+              "id": "9e24bef7-c44b-4fdc-ba52-68545ce9457e",
+              "name": "Electron | Owlright, Owlright, Owlright (StriX Launch 13)",
+              "slug": "electron-owlright-owlright-owlright-strix-launch-1",
+              "launch_designator": null,
+              "status": {
+                "id": 1,
+                "name": "Go for Launch",
+                "abbrev": "Go",
+                "description": "Current T-0 confirmed by official or reliable sources."
+              },
+              "last_updated": "2026-09-19T04:36:18Z",
+              "net": "2026-09-26T00:15:00Z",
+              "window_end": "2026-09-26T00:15:00Z",
+              "window_start": "2026-09-26T00:15:00Z",
+              "link": "https://spacelaunchnow.app/launch/electron-owlright-owlright-owlright-strix-launch-1/",
+              "summary": "Launch window opens 2026-09-26 00:15 UTC (Go for Launch)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+            "content_type": "application/json",
+            "elapsed_ms": 330,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "link=\"https://spacelaunchnow.app/launch/\" + slug + \"/\"",
+                  "summary=\"Launch window opens \" + replace(net, \"T(\\\\d\\\\d:\\\\d\\\\d):\\\\d\\\\dZ$\", \" \\\\1 UTC\") + \" (\" + status.name + \")\""
+                ],
+                "drop": [
+                  "url",
+                  "response_mode",
+                  "image",
+                  "infographic",
+                  "net_precision"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "id",
+                "namespace": "space-launches",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://spacelaunchnow.app/launch/electron-owlright-owlright-owlright-strix-launch-1/"
+    },
+    {
+      "id": "8845730f5c751aefdc6a",
+      "title": "Falcon 9 Block 5 | USSF-385",
+      "content_text": "Launch window opens 2026-09-26 11:56 UTC (Go for Launch)",
+      "date_published": "2026-09-24T17:26:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "8845730f5c751aefdc6a",
+          "source": "web",
+          "type": "change",
+          "key": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list#7330d83b-c478-426c-8859-f9e3a335876d",
+          "source_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:34Z",
+          "data": {
+            "change": "added",
+            "label": "Falcon 9 Block 5 | USSF-385",
+            "item_type": "record",
+            "summary": "added: Falcon 9 Block 5 | USSF-385",
+            "after": {
+              "id": "7330d83b-c478-426c-8859-f9e3a335876d",
+              "name": "Falcon 9 Block 5 | USSF-385",
+              "slug": "falcon-9-block-5-ussf-385",
+              "launch_designator": null,
+              "status": {
+                "id": 1,
+                "name": "Go for Launch",
+                "abbrev": "Go",
+                "description": "Current T-0 confirmed by official or reliable sources."
+              },
+              "last_updated": "2026-09-17T21:05:26Z",
+              "net": "2026-09-26T11:56:00Z",
+              "window_end": "2026-09-26T14:56:00Z",
+              "window_start": "2026-09-26T11:56:00Z",
+              "link": "https://spacelaunchnow.app/launch/falcon-9-block-5-ussf-385/",
+              "summary": "Launch window opens 2026-09-26 11:56 UTC (Go for Launch)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+            "content_type": "application/json",
+            "elapsed_ms": 330,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "link=\"https://spacelaunchnow.app/launch/\" + slug + \"/\"",
+                  "summary=\"Launch window opens \" + replace(net, \"T(\\\\d\\\\d:\\\\d\\\\d):\\\\d\\\\dZ$\", \" \\\\1 UTC\") + \" (\" + status.name + \")\""
+                ],
+                "drop": [
+                  "url",
+                  "response_mode",
+                  "image",
+                  "infographic",
+                  "net_precision"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "id",
+                "namespace": "space-launches",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://spacelaunchnow.app/launch/falcon-9-block-5-ussf-385/"
+    },
+    {
+      "id": "95a8dfae1f46f42e691c",
+      "title": "Starship | Starlink Group 31-1 (Starship Flight 14)",
+      "content_text": "Launch window opens 2026-09-28 12:15 UTC (To Be Confirmed)",
+      "date_published": "2026-09-24T17:26:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "95a8dfae1f46f42e691c",
+          "source": "web",
+          "type": "change",
+          "key": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list#7d1afb26-6f9c-429b-9ccf-29012fd1e519",
+          "source_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:34Z",
+          "data": {
+            "change": "added",
+            "label": "Starship | Starlink Group 31-1 (Starship Flight 14)",
+            "item_type": "record",
+            "summary": "added: Starship | Starlink Group 31-1 (Starship Flight 14)",
+            "after": {
+              "id": "7d1afb26-6f9c-429b-9ccf-29012fd1e519",
+              "name": "Starship | Starlink Group 31-1 (Starship Flight 14)",
+              "slug": "starship-starlink-group-31-1-starship-flight-14",
+              "launch_designator": null,
+              "status": {
+                "id": 8,
+                "name": "To Be Confirmed",
+                "abbrev": "TBC",
+                "description": "Awaiting official confirmation - current date is known with some certainty."
+              },
+              "last_updated": "2026-09-17T18:33:08Z",
+              "net": "2026-09-28T12:15:00Z",
+              "window_end": "2026-09-28T13:30:00Z",
+              "window_start": "2026-09-28T12:15:00Z",
+              "link": "https://spacelaunchnow.app/launch/starship-starlink-group-31-1-starship-flight-14/",
+              "summary": "Launch window opens 2026-09-28 12:15 UTC (To Be Confirmed)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+            "content_type": "application/json",
+            "elapsed_ms": 330,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "link=\"https://spacelaunchnow.app/launch/\" + slug + \"/\"",
+                  "summary=\"Launch window opens \" + replace(net, \"T(\\\\d\\\\d:\\\\d\\\\d):\\\\d\\\\dZ$\", \" \\\\1 UTC\") + \" (\" + status.name + \")\""
+                ],
+                "drop": [
+                  "url",
+                  "response_mode",
+                  "image",
+                  "infographic",
+                  "net_precision"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "id",
+                "namespace": "space-launches",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://spacelaunchnow.app/launch/starship-starlink-group-31-1-starship-flight-14/"
+    },
+    {
+      "id": "603ac3bc18d076f75488",
+      "title": "Falcon 9 Block 5 | Crew-13",
+      "content_text": "Launch window opens 2026-10-01 15:10 UTC (Go for Launch)",
+      "date_published": "2026-09-24T17:26:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "603ac3bc18d076f75488",
+          "source": "web",
+          "type": "change",
+          "key": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list#18441371-8b2e-457c-afb5-1ec1b11ab630",
+          "source_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:34Z",
+          "data": {
+            "change": "added",
+            "label": "Falcon 9 Block 5 | Crew-13",
+            "item_type": "record",
+            "summary": "added: Falcon 9 Block 5 | Crew-13",
+            "after": {
+              "id": "18441371-8b2e-457c-afb5-1ec1b11ab630",
+              "name": "Falcon 9 Block 5 | Crew-13",
+              "slug": "falcon-9-block-5-crew-13",
+              "launch_designator": null,
+              "status": {
+                "id": 1,
+                "name": "Go for Launch",
+                "abbrev": "Go",
+                "description": "Current T-0 confirmed by official or reliable sources."
+              },
+              "last_updated": "2026-09-22T22:15:06Z",
+              "net": "2026-10-01T15:10:06Z",
+              "window_end": "2026-10-01T15:10:06Z",
+              "window_start": "2026-10-01T15:10:06Z",
+              "link": "https://spacelaunchnow.app/launch/falcon-9-block-5-crew-13/",
+              "summary": "Launch window opens 2026-10-01 15:10 UTC (Go for Launch)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+            "content_type": "application/json",
+            "elapsed_ms": 330,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "link=\"https://spacelaunchnow.app/launch/\" + slug + \"/\"",
+                  "summary=\"Launch window opens \" + replace(net, \"T(\\\\d\\\\d:\\\\d\\\\d):\\\\d\\\\dZ$\", \" \\\\1 UTC\") + \" (\" + status.name + \")\""
+                ],
+                "drop": [
+                  "url",
+                  "response_mode",
+                  "image",
+                  "infographic",
+                  "net_precision"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "id",
+                "namespace": "space-launches",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://spacelaunchnow.app/launch/falcon-9-block-5-crew-13/"
+    },
+    {
+      "id": "ffbdf57e05bbd6a5d23e",
+      "title": "Falcon 9 Block 5 | Transporter 18 (Dedicated SSO Rideshare)",
+      "content_text": "Launch window opens 2026-10-01 18:08 UTC (To Be Confirmed)",
+      "date_published": "2026-09-24T17:26:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ffbdf57e05bbd6a5d23e",
+          "source": "web",
+          "type": "change",
+          "key": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list#67213393-7983-4c06-8b44-b8c785a5ed79",
+          "source_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:34Z",
+          "data": {
+            "change": "added",
+            "label": "Falcon 9 Block 5 | Transporter 18 (Dedicated SSO Rideshare)",
+            "item_type": "record",
+            "summary": "added: Falcon 9 Block 5 | Transporter 18 (Dedicated SSO Rideshare)",
+            "after": {
+              "id": "67213393-7983-4c06-8b44-b8c785a5ed79",
+              "name": "Falcon 9 Block 5 | Transporter 18 (Dedicated SSO Rideshare)",
+              "slug": "falcon-9-block-5-transporter-18-dedicated-sso-ride",
+              "launch_designator": null,
+              "status": {
+                "id": 8,
+                "name": "To Be Confirmed",
+                "abbrev": "TBC",
+                "description": "Awaiting official confirmation - current date is known with some certainty."
+              },
+              "last_updated": "2026-09-23T15:05:22Z",
+              "net": "2026-10-01T18:08:00Z",
+              "window_end": "2026-10-01T20:09:00Z",
+              "window_start": "2026-10-01T18:08:00Z",
+              "link": "https://spacelaunchnow.app/launch/falcon-9-block-5-transporter-18-dedicated-sso-ride/",
+              "summary": "Launch window opens 2026-10-01 18:08 UTC (To Be Confirmed)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+            "content_type": "application/json",
+            "elapsed_ms": 330,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "link=\"https://spacelaunchnow.app/launch/\" + slug + \"/\"",
+                  "summary=\"Launch window opens \" + replace(net, \"T(\\\\d\\\\d:\\\\d\\\\d):\\\\d\\\\dZ$\", \" \\\\1 UTC\") + \" (\" + status.name + \")\""
+                ],
+                "drop": [
+                  "url",
+                  "response_mode",
+                  "image",
+                  "infographic",
+                  "net_precision"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "id",
+                "namespace": "space-launches",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://spacelaunchnow.app/launch/falcon-9-block-5-transporter-18-dedicated-sso-ride/"
+    },
+    {
+      "id": "e6605fa3d4f562638a82",
+      "title": "Falcon Heavy | NROL-97",
+      "content_text": "Launch window opens 2026-10-02 03:53 UTC (Go for Launch)",
+      "date_published": "2026-09-24T17:26:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "e6605fa3d4f562638a82",
+          "source": "web",
+          "type": "change",
+          "key": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list#4651fd8a-43de-4166-bf8f-c168b3bd1d2c",
+          "source_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:34Z",
+          "data": {
+            "change": "added",
+            "label": "Falcon Heavy | NROL-97",
+            "item_type": "record",
+            "summary": "added: Falcon Heavy | NROL-97",
+            "after": {
+              "id": "4651fd8a-43de-4166-bf8f-c168b3bd1d2c",
+              "name": "Falcon Heavy | NROL-97",
+              "slug": "falcon-heavy-nrol-97",
+              "launch_designator": null,
+              "status": {
+                "id": 1,
+                "name": "Go for Launch",
+                "abbrev": "Go",
+                "description": "Current T-0 confirmed by official or reliable sources."
+              },
+              "last_updated": "2026-09-24T14:39:19Z",
+              "net": "2026-10-02T03:53:00Z",
+              "window_end": "2026-10-02T03:53:00Z",
+              "window_start": "2026-10-02T03:53:00Z",
+              "link": "https://spacelaunchnow.app/launch/falcon-heavy-nrol-97/",
+              "summary": "Launch window opens 2026-10-02 03:53 UTC (Go for Launch)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+            "content_type": "application/json",
+            "elapsed_ms": 330,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "link=\"https://spacelaunchnow.app/launch/\" + slug + \"/\"",
+                  "summary=\"Launch window opens \" + replace(net, \"T(\\\\d\\\\d:\\\\d\\\\d):\\\\d\\\\dZ$\", \" \\\\1 UTC\") + \" (\" + status.name + \")\""
+                ],
+                "drop": [
+                  "url",
+                  "response_mode",
+                  "image",
+                  "infographic",
+                  "net_precision"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "id",
+                "namespace": "space-launches",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://spacelaunchnow.app/launch/falcon-heavy-nrol-97/"
+    },
+    {
+      "id": "29d9f5d0baad4d115a8a",
+      "title": "SR75 | Flight 2",
+      "content_text": "Launch window opens 2026-10-05 00:00 UTC (To Be Determined)",
+      "date_published": "2026-09-24T17:26:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "29d9f5d0baad4d115a8a",
+          "source": "web",
+          "type": "change",
+          "key": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list#6b89cfc8-8880-4b5b-856c-0e547d45b639",
+          "source_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:34Z",
+          "data": {
+            "change": "added",
+            "label": "SR75 | Flight 2",
+            "item_type": "record",
+            "summary": "added: SR75 | Flight 2",
+            "after": {
+              "id": "6b89cfc8-8880-4b5b-856c-0e547d45b639",
+              "name": "SR75 | Flight 2",
+              "slug": "sr75-flight-2",
+              "launch_designator": null,
+              "status": {
+                "id": 2,
+                "name": "To Be Determined",
+                "abbrev": "TBD",
+                "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
+              },
+              "last_updated": "2026-09-18T03:10:16Z",
+              "net": "2026-10-05T00:00:00Z",
+              "window_end": "2026-10-05T00:00:00Z",
+              "window_start": "2026-10-05T00:00:00Z",
+              "link": "https://spacelaunchnow.app/launch/sr75-flight-2/",
+              "summary": "Launch window opens 2026-10-05 00:00 UTC (To Be Determined)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+            "content_type": "application/json",
+            "elapsed_ms": 330,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "link=\"https://spacelaunchnow.app/launch/\" + slug + \"/\"",
+                  "summary=\"Launch window opens \" + replace(net, \"T(\\\\d\\\\d:\\\\d\\\\d):\\\\d\\\\dZ$\", \" \\\\1 UTC\") + \" (\" + status.name + \")\""
+                ],
+                "drop": [
+                  "url",
+                  "response_mode",
+                  "image",
+                  "infographic",
+                  "net_precision"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "id",
+                "namespace": "space-launches",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://spacelaunchnow.app/launch/sr75-flight-2/"
+    },
+    {
+      "id": "aede8de4e5681d5d3b5c",
+      "title": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
+      "content_text": "Launch window opens 2026-10-07 00:00 UTC (To Be Determined)",
+      "date_published": "2026-09-24T17:26:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "aede8de4e5681d5d3b5c",
+          "source": "web",
+          "type": "change",
+          "key": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list#7bdc412b-c965-4517-a131-f57a01189803",
+          "source_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:34Z",
+          "data": {
+            "change": "added",
+            "label": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
+            "item_type": "record",
+            "summary": "added: Ariane 64 Block 2 | Amazon Leo (LE-04)",
+            "after": {
+              "id": "7bdc412b-c965-4517-a131-f57a01189803",
+              "name": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
+              "slug": "ariane-64-block-2-amazon-leo-le-04",
+              "launch_designator": null,
+              "status": {
+                "id": 2,
+                "name": "To Be Determined",
+                "abbrev": "TBD",
+                "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
+              },
+              "last_updated": "2026-07-03T12:23:14Z",
+              "net": "2026-10-07T00:00:00Z",
+              "window_end": "2026-10-07T00:00:00Z",
+              "window_start": "2026-10-07T00:00:00Z",
+              "link": "https://spacelaunchnow.app/launch/ariane-64-block-2-amazon-leo-le-04/",
+              "summary": "Launch window opens 2026-10-07 00:00 UTC (To Be Determined)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+            "content_type": "application/json",
+            "elapsed_ms": 330,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "link=\"https://spacelaunchnow.app/launch/\" + slug + \"/\"",
+                  "summary=\"Launch window opens \" + replace(net, \"T(\\\\d\\\\d:\\\\d\\\\d):\\\\d\\\\dZ$\", \" \\\\1 UTC\") + \" (\" + status.name + \")\""
+                ],
+                "drop": [
+                  "url",
+                  "response_mode",
+                  "image",
+                  "infographic",
+                  "net_precision"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "id",
+                "namespace": "space-launches",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://spacelaunchnow.app/launch/ariane-64-block-2-amazon-leo-le-04/"
+    },
+    {
+      "id": "e924e84674bdd81ca4e7",
+      "title": "Nuri | NeonSat-2 to 6",
+      "content_text": "Launch window opens 2026-10-07 03:23 UTC (Go for Launch)",
+      "date_published": "2026-09-24T17:26:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "e924e84674bdd81ca4e7",
+          "source": "web",
+          "type": "change",
+          "key": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list#e0741415-6c63-4236-9736-24a6c04485bc",
+          "source_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:34Z",
+          "data": {
+            "change": "added",
+            "label": "Nuri | NeonSat-2 to 6",
+            "item_type": "record",
+            "summary": "added: Nuri | NeonSat-2 to 6",
+            "after": {
+              "id": "e0741415-6c63-4236-9736-24a6c04485bc",
+              "name": "Nuri | NeonSat-2 to 6",
+              "slug": "nuri-neonsat-2-to-6",
+              "launch_designator": null,
+              "status": {
+                "id": 1,
+                "name": "Go for Launch",
+                "abbrev": "Go",
+                "description": "Current T-0 confirmed by official or reliable sources."
+              },
+              "last_updated": "2026-08-27T02:42:27Z",
+              "net": "2026-10-07T03:23:00Z",
+              "window_end": "2026-10-07T04:23:00Z",
+              "window_start": "2026-10-07T03:23:00Z",
+              "link": "https://spacelaunchnow.app/launch/nuri-neonsat-2-to-6/",
+              "summary": "Launch window opens 2026-10-07 03:23 UTC (Go for Launch)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+            "content_type": "application/json",
+            "elapsed_ms": 330,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "link=\"https://spacelaunchnow.app/launch/\" + slug + \"/\"",
+                  "summary=\"Launch window opens \" + replace(net, \"T(\\\\d\\\\d:\\\\d\\\\d):\\\\d\\\\dZ$\", \" \\\\1 UTC\") + \" (\" + status.name + \")\""
+                ],
+                "drop": [
+                  "url",
+                  "response_mode",
+                  "image",
+                  "infographic",
+                  "net_precision"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "id",
+                "namespace": "space-launches",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://spacelaunchnow.app/launch/nuri-neonsat-2-to-6/"
+    },
+    {
+      "id": "24641175c396da04227f",
+      "title": "Falcon 9 Block 5 | Starlink Group 15-25",
+      "content_text": "Launch window opens 2026-10-10 16:00 UTC (Go for Launch)",
+      "date_published": "2026-09-24T17:26:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "24641175c396da04227f",
+          "source": "web",
+          "type": "change",
+          "key": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list#97c6f5e1-299e-4652-b72d-9618ac047076",
+          "source_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:34Z",
+          "data": {
+            "change": "added",
+            "label": "Falcon 9 Block 5 | Starlink Group 15-25",
+            "item_type": "record",
+            "summary": "added: Falcon 9 Block 5 | Starlink Group 15-25",
+            "after": {
+              "id": "97c6f5e1-299e-4652-b72d-9618ac047076",
+              "name": "Falcon 9 Block 5 | Starlink Group 15-25",
+              "slug": "falcon-9-block-5-starlink-group-15-25",
+              "launch_designator": null,
+              "status": {
+                "id": 1,
+                "name": "Go for Launch",
+                "abbrev": "Go",
+                "description": "Current T-0 confirmed by official or reliable sources."
+              },
+              "last_updated": "2026-09-22T01:25:08Z",
+              "net": "2026-10-10T16:00:00Z",
+              "window_end": "2026-10-10T20:00:00Z",
+              "window_start": "2026-10-10T16:00:00Z",
+              "link": "https://spacelaunchnow.app/launch/falcon-9-block-5-starlink-group-15-25/",
+              "summary": "Launch window opens 2026-10-10 16:00 UTC (Go for Launch)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+            "content_type": "application/json",
+            "elapsed_ms": 330,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "link=\"https://spacelaunchnow.app/launch/\" + slug + \"/\"",
+                  "summary=\"Launch window opens \" + replace(net, \"T(\\\\d\\\\d:\\\\d\\\\d):\\\\d\\\\dZ$\", \" \\\\1 UTC\") + \" (\" + status.name + \")\""
+                ],
+                "drop": [
+                  "url",
+                  "response_mode",
+                  "image",
+                  "infographic",
+                  "net_precision"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "id",
+                "namespace": "space-launches",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://spacelaunchnow.app/launch/falcon-9-block-5-starlink-group-15-25/"
+    },
+    {
+      "id": "a93d3f4207c34c1763c0",
+      "title": "GSLV Mk II | IRNSS-1L (NVS-03)",
+      "content_text": "Launch window opens 2026-10-15 00:00 UTC (To Be Determined)",
+      "date_published": "2026-09-24T17:26:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "a93d3f4207c34c1763c0",
+          "source": "web",
+          "type": "change",
+          "key": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list#20d5676e-111b-40e3-8923-b218c3665ca2",
+          "source_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:34Z",
+          "data": {
+            "change": "added",
+            "label": "GSLV Mk II | IRNSS-1L (NVS-03)",
+            "item_type": "record",
+            "summary": "added: GSLV Mk II | IRNSS-1L (NVS-03)",
+            "after": {
+              "id": "20d5676e-111b-40e3-8923-b218c3665ca2",
+              "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
+              "slug": "gslv-mk-ii-irnss-1l-nvs-03",
+              "launch_designator": null,
+              "status": {
+                "id": 2,
+                "name": "To Be Determined",
+                "abbrev": "TBD",
+                "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
+              },
+              "last_updated": "2026-09-22T21:32:09Z",
+              "net": "2026-10-15T00:00:00Z",
+              "window_end": "2026-10-15T00:00:00Z",
+              "window_start": "2026-10-15T00:00:00Z",
+              "link": "https://spacelaunchnow.app/launch/gslv-mk-ii-irnss-1l-nvs-03/",
+              "summary": "Launch window opens 2026-10-15 00:00 UTC (To Be Determined)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+            "content_type": "application/json",
+            "elapsed_ms": 330,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "link=\"https://spacelaunchnow.app/launch/\" + slug + \"/\"",
+                  "summary=\"Launch window opens \" + replace(net, \"T(\\\\d\\\\d:\\\\d\\\\d):\\\\d\\\\dZ$\", \" \\\\1 UTC\") + \" (\" + status.name + \")\""
+                ],
+                "drop": [
+                  "url",
+                  "response_mode",
+                  "image",
+                  "infographic",
+                  "net_precision"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "id",
+                "namespace": "space-launches",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://spacelaunchnow.app/launch/gslv-mk-ii-irnss-1l-nvs-03/"
+    },
+    {
+      "id": "bbe1caa564a52076602b",
+      "title": "H3-24 | Martian Moon eXplorer (MMX)",
+      "content_text": "Launch window opens 2026-10-19 19:41 UTC (Go for Launch)",
+      "date_published": "2026-09-24T17:26:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "bbe1caa564a52076602b",
+          "source": "web",
+          "type": "change",
+          "key": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list#69ebbcd2-b257-4070-9ef9-21e7d1f8a883",
+          "source_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:34Z",
+          "data": {
+            "change": "added",
+            "label": "H3-24 | Martian Moon eXplorer (MMX)",
+            "item_type": "record",
+            "summary": "added: H3-24 | Martian Moon eXplorer (MMX)",
+            "after": {
+              "id": "69ebbcd2-b257-4070-9ef9-21e7d1f8a883",
+              "name": "H3-24 | Martian Moon eXplorer (MMX)",
+              "slug": "h3-24-martian-moon-explorer-mmx",
+              "launch_designator": null,
+              "status": {
+                "id": 1,
+                "name": "Go for Launch",
+                "abbrev": "Go",
+                "description": "Current T-0 confirmed by official or reliable sources."
+              },
+              "last_updated": "2026-08-20T21:04:48Z",
+              "net": "2026-10-19T19:41:03Z",
+              "window_end": "2026-10-19T19:41:03Z",
+              "window_start": "2026-10-19T19:41:03Z",
+              "link": "https://spacelaunchnow.app/launch/h3-24-martian-moon-explorer-mmx/",
+              "summary": "Launch window opens 2026-10-19 19:41 UTC (Go for Launch)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+            "content_type": "application/json",
+            "elapsed_ms": 330,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "link=\"https://spacelaunchnow.app/launch/\" + slug + \"/\"",
+                  "summary=\"Launch window opens \" + replace(net, \"T(\\\\d\\\\d:\\\\d\\\\d):\\\\d\\\\dZ$\", \" \\\\1 UTC\") + \" (\" + status.name + \")\""
+                ],
+                "drop": [
+                  "url",
+                  "response_mode",
+                  "image",
+                  "infographic",
+                  "net_precision"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "id",
+                "namespace": "space-launches",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://spacelaunchnow.app/launch/h3-24-martian-moon-explorer-mmx/"
+    },
+    {
+      "id": "fb15126093d0b861e727",
+      "title": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
+      "content_text": "Launch window opens 2026-10-31 00:00 UTC (To Be Determined)",
+      "date_published": "2026-09-24T17:26:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "fb15126093d0b861e727",
+          "source": "web",
+          "type": "change",
+          "key": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list#3b430f81-0ff1-4d85-8a1a-cef0de326198",
+          "source_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:34Z",
+          "data": {
+            "change": "added",
+            "label": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
+            "item_type": "record",
+            "summary": "added: Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
+            "after": {
+              "id": "3b430f81-0ff1-4d85-8a1a-cef0de326198",
+              "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
+              "slug": "falcon-9-block-5-bandwagon-5-dedicated-mid-inclina",
+              "launch_designator": null,
+              "status": {
+                "id": 2,
+                "name": "To Be Determined",
+                "abbrev": "TBD",
+                "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
+              },
+              "last_updated": "2026-08-20T21:15:21Z",
+              "net": "2026-10-31T00:00:00Z",
+              "window_end": "2026-10-31T00:00:00Z",
+              "window_start": "2026-10-31T00:00:00Z",
+              "link": "https://spacelaunchnow.app/launch/falcon-9-block-5-bandwagon-5-dedicated-mid-inclina/",
+              "summary": "Launch window opens 2026-10-31 00:00 UTC (To Be Determined)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+            "content_type": "application/json",
+            "elapsed_ms": 330,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "link=\"https://spacelaunchnow.app/launch/\" + slug + \"/\"",
+                  "summary=\"Launch window opens \" + replace(net, \"T(\\\\d\\\\d:\\\\d\\\\d):\\\\d\\\\dZ$\", \" \\\\1 UTC\") + \" (\" + status.name + \")\""
+                ],
+                "drop": [
+                  "url",
+                  "response_mode",
+                  "image",
+                  "infographic",
+                  "net_precision"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "id",
+                "namespace": "space-launches",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://spacelaunchnow.app/launch/falcon-9-block-5-bandwagon-5-dedicated-mid-inclina/"
+    },
+    {
+      "id": "2ce3d26c6be1fb16d363",
+      "title": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
+      "content_text": "Launch window opens 2026-10-31 00:00 UTC (To Be Determined)",
+      "date_published": "2026-09-24T17:26:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "2ce3d26c6be1fb16d363",
+          "source": "web",
+          "type": "change",
+          "key": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list#bf2c3027-a314-403e-a416-2bfd5d165ad1",
+          "source_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:34Z",
+          "data": {
+            "change": "added",
+            "label": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
+            "item_type": "record",
+            "summary": "added: Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
+            "after": {
+              "id": "bf2c3027-a314-403e-a416-2bfd5d165ad1",
+              "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
+              "slug": "falcon-9-block-5-dragon-crs-2-spx-35",
+              "launch_designator": null,
+              "status": {
+                "id": 2,
+                "name": "To Be Determined",
+                "abbrev": "TBD",
+                "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
+              },
+              "last_updated": "2026-09-04T19:26:10Z",
+              "net": "2026-10-31T00:00:00Z",
+              "window_end": "2026-10-31T00:00:00Z",
+              "window_start": "2026-10-31T00:00:00Z",
+              "link": "https://spacelaunchnow.app/launch/falcon-9-block-5-dragon-crs-2-spx-35/",
+              "summary": "Launch window opens 2026-10-31 00:00 UTC (To Be Determined)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+            "content_type": "application/json",
+            "elapsed_ms": 330,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "link=\"https://spacelaunchnow.app/launch/\" + slug + \"/\"",
+                  "summary=\"Launch window opens \" + replace(net, \"T(\\\\d\\\\d:\\\\d\\\\d):\\\\d\\\\dZ$\", \" \\\\1 UTC\") + \" (\" + status.name + \")\""
+                ],
+                "drop": [
+                  "url",
+                  "response_mode",
+                  "image",
+                  "infographic",
+                  "net_precision"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "id",
+                "namespace": "space-launches",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://spacelaunchnow.app/launch/falcon-9-block-5-dragon-crs-2-spx-35/"
+    },
+    {
+      "id": "8468af347a6ff941c628",
+      "title": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
+      "content_text": "Launch window opens 2026-10-31 00:00 UTC (To Be Determined)",
+      "date_published": "2026-09-24T17:26:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "8468af347a6ff941c628",
+          "source": "web",
+          "type": "change",
+          "key": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list#da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
+          "source_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:34Z",
+          "data": {
+            "change": "added",
+            "label": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
+            "item_type": "record",
+            "summary": "added: Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
+            "after": {
+              "id": "da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
+              "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
+              "slug": "falcon-9-block-5-sda-tranche-1-transport-layer-a",
+              "launch_designator": null,
+              "status": {
+                "id": 2,
+                "name": "To Be Determined",
+                "abbrev": "TBD",
+                "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
+              },
+              "last_updated": "2026-09-18T02:32:59Z",
+              "net": "2026-10-31T00:00:00Z",
+              "window_end": "2026-10-31T00:00:00Z",
+              "window_start": "2026-10-31T00:00:00Z",
+              "link": "https://spacelaunchnow.app/launch/falcon-9-block-5-sda-tranche-1-transport-layer-a/",
+              "summary": "Launch window opens 2026-10-31 00:00 UTC (To Be Determined)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+            "content_type": "application/json",
+            "elapsed_ms": 330,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "link=\"https://spacelaunchnow.app/launch/\" + slug + \"/\"",
+                  "summary=\"Launch window opens \" + replace(net, \"T(\\\\d\\\\d:\\\\d\\\\d):\\\\d\\\\dZ$\", \" \\\\1 UTC\") + \" (\" + status.name + \")\""
+                ],
+                "drop": [
+                  "url",
+                  "response_mode",
+                  "image",
+                  "infographic",
+                  "net_precision"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "id",
+                "namespace": "space-launches",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://spacelaunchnow.app/launch/falcon-9-block-5-sda-tranche-1-transport-layer-a/"
+    },
+    {
+      "id": "00e8fabdd5805de01e08",
+      "title": "Long March 12A | Flight 2",
+      "content_text": "Launch window opens 2026-10-31 00:00 UTC (To Be Determined)",
+      "date_published": "2026-09-24T17:26:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "00e8fabdd5805de01e08",
+          "source": "web",
+          "type": "change",
+          "key": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list#dc570565-4dcf-4ab9-8174-bf88efef477f",
+          "source_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:34Z",
+          "data": {
+            "change": "added",
+            "label": "Long March 12A | Flight 2",
+            "item_type": "record",
+            "summary": "added: Long March 12A | Flight 2",
+            "after": {
+              "id": "dc570565-4dcf-4ab9-8174-bf88efef477f",
+              "name": "Long March 12A | Flight 2",
+              "slug": "long-march-12a-flight-2",
+              "launch_designator": null,
+              "status": {
+                "id": 2,
+                "name": "To Be Determined",
+                "abbrev": "TBD",
+                "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
+              },
+              "last_updated": "2026-09-20T02:52:25Z",
+              "net": "2026-10-31T00:00:00Z",
+              "window_end": "2026-10-31T00:00:00Z",
+              "window_start": "2026-10-31T00:00:00Z",
+              "link": "https://spacelaunchnow.app/launch/long-march-12a-flight-2/",
+              "summary": "Launch window opens 2026-10-31 00:00 UTC (To Be Determined)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+            "content_type": "application/json",
+            "elapsed_ms": 330,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "link=\"https://spacelaunchnow.app/launch/\" + slug + \"/\"",
+                  "summary=\"Launch window opens \" + replace(net, \"T(\\\\d\\\\d:\\\\d\\\\d):\\\\d\\\\dZ$\", \" \\\\1 UTC\") + \" (\" + status.name + \")\""
+                ],
+                "drop": [
+                  "url",
+                  "response_mode",
+                  "image",
+                  "infographic",
+                  "net_precision"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "id",
+                "namespace": "space-launches",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://spacelaunchnow.app/launch/long-march-12a-flight-2/"
+    },
+    {
+      "id": "c39ad782a122fac4ad58",
+      "title": "Vulcan VC6L | Amazon Leo (LV-01)",
+      "content_text": "Launch window opens 2026-10-31 00:00 UTC (To Be Determined)",
+      "date_published": "2026-09-24T17:26:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c39ad782a122fac4ad58",
+          "source": "web",
+          "type": "change",
+          "key": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list#ef9850ad-1096-425b-9d27-f7bbd186e61a",
+          "source_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:34Z",
+          "data": {
+            "change": "added",
+            "label": "Vulcan VC6L | Amazon Leo (LV-01)",
+            "item_type": "record",
+            "summary": "added: Vulcan VC6L | Amazon Leo (LV-01)",
+            "after": {
+              "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
+              "name": "Vulcan VC6L | Amazon Leo (LV-01)",
+              "slug": "vulcan-vc6l-amazon-leo-lv-01",
+              "launch_designator": null,
+              "status": {
+                "id": 2,
+                "name": "To Be Determined",
+                "abbrev": "TBD",
+                "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
+              },
+              "last_updated": "2026-09-20T02:52:14Z",
+              "net": "2026-10-31T00:00:00Z",
+              "window_end": "2026-10-31T00:00:00Z",
+              "window_start": "2026-10-31T00:00:00Z",
+              "link": "https://spacelaunchnow.app/launch/vulcan-vc6l-amazon-leo-lv-01/",
+              "summary": "Launch window opens 2026-10-31 00:00 UTC (To Be Determined)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+            "content_type": "application/json",
+            "elapsed_ms": 330,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "link=\"https://spacelaunchnow.app/launch/\" + slug + \"/\"",
+                  "summary=\"Launch window opens \" + replace(net, \"T(\\\\d\\\\d:\\\\d\\\\d):\\\\d\\\\dZ$\", \" \\\\1 UTC\") + \" (\" + status.name + \")\""
+                ],
+                "drop": [
+                  "url",
+                  "response_mode",
+                  "image",
+                  "infographic",
+                  "net_precision"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "id",
+                "namespace": "space-launches",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://spacelaunchnow.app/launch/vulcan-vc6l-amazon-leo-lv-01/"
+    },
+    {
+      "id": "d5a1e0bf8b41906764fc",
+      "title": "Soyuz 2.1b | Progress MS-36 (97P)",
+      "content_text": "Launch window opens 2026-11-24 05:03 UTC (To Be Confirmed)",
+      "date_published": "2026-09-24T17:26:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d5a1e0bf8b41906764fc",
+          "source": "web",
+          "type": "change",
+          "key": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list#8dd5de11-831b-445f-86f0-bffefe0550d9",
+          "source_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:34Z",
+          "data": {
+            "change": "added",
+            "label": "Soyuz 2.1b | Progress MS-36 (97P)",
+            "item_type": "record",
+            "summary": "added: Soyuz 2.1b | Progress MS-36 (97P)",
+            "after": {
+              "id": "8dd5de11-831b-445f-86f0-bffefe0550d9",
+              "name": "Soyuz 2.1b | Progress MS-36 (97P)",
+              "slug": "soyuz-21b-progress-ms-36-97p",
+              "launch_designator": null,
+              "status": {
+                "id": 8,
+                "name": "To Be Confirmed",
+                "abbrev": "TBC",
+                "description": "Awaiting official confirmation - current date is known with some certainty."
+              },
+              "last_updated": "2026-06-08T21:46:36Z",
+              "net": "2026-11-24T05:03:00Z",
+              "window_end": "2026-11-24T05:03:00Z",
+              "window_start": "2026-11-24T05:03:00Z",
+              "link": "https://spacelaunchnow.app/launch/soyuz-21b-progress-ms-36-97p/",
+              "summary": "Launch window opens 2026-11-24 05:03 UTC (To Be Confirmed)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+            "content_type": "application/json",
+            "elapsed_ms": 330,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "link=\"https://spacelaunchnow.app/launch/\" + slug + \"/\"",
+                  "summary=\"Launch window opens \" + replace(net, \"T(\\\\d\\\\d:\\\\d\\\\d):\\\\d\\\\dZ$\", \" \\\\1 UTC\") + \" (\" + status.name + \")\""
+                ],
+                "drop": [
+                  "url",
+                  "response_mode",
+                  "image",
+                  "infographic",
+                  "net_precision"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "id",
+                "namespace": "space-launches",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://spacelaunchnow.app/launch/soyuz-21b-progress-ms-36-97p/"
+    },
+    {
+      "id": "070f48ae4e095235c6b1",
+      "title": "Ariane 62 | Metop-SG B1",
+      "content_text": "Launch window opens 2026-11-30 00:00 UTC (To Be Determined)",
+      "date_published": "2026-09-24T17:26:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "070f48ae4e095235c6b1",
+          "source": "web",
+          "type": "change",
+          "key": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list#22e117bf-041c-49d5-9d09-7b180036e143",
+          "source_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:34Z",
+          "data": {
+            "change": "added",
+            "label": "Ariane 62 | Metop-SG B1",
+            "item_type": "record",
+            "summary": "added: Ariane 62 | Metop-SG B1",
+            "after": {
+              "id": "22e117bf-041c-49d5-9d09-7b180036e143",
+              "name": "Ariane 62 | Metop-SG B1",
+              "slug": "ariane-62-metop-sg-b1",
+              "launch_designator": null,
+              "status": {
+                "id": 2,
+                "name": "To Be Determined",
+                "abbrev": "TBD",
+                "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
+              },
+              "last_updated": "2026-08-31T09:22:29Z",
+              "net": "2026-11-30T00:00:00Z",
+              "window_end": "2026-11-30T00:00:00Z",
+              "window_start": "2026-11-30T00:00:00Z",
+              "link": "https://spacelaunchnow.app/launch/ariane-62-metop-sg-b1/",
+              "summary": "Launch window opens 2026-11-30 00:00 UTC (To Be Determined)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+            "content_type": "application/json",
+            "elapsed_ms": 330,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "link=\"https://spacelaunchnow.app/launch/\" + slug + \"/\"",
+                  "summary=\"Launch window opens \" + replace(net, \"T(\\\\d\\\\d:\\\\d\\\\d):\\\\d\\\\dZ$\", \" \\\\1 UTC\") + \" (\" + status.name + \")\""
+                ],
+                "drop": [
+                  "url",
+                  "response_mode",
+                  "image",
+                  "infographic",
+                  "net_precision"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "id",
+                "namespace": "space-launches",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://spacelaunchnow.app/launch/ariane-62-metop-sg-b1/"
+    },
+    {
+      "id": "107d6345b3c6f6e229a4",
+      "title": "Falcon Heavy | Griffin Mission One",
+      "content_text": "Launch window opens 2026-11-30 00:00 UTC (To Be Determined)",
+      "date_published": "2026-09-24T17:26:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "107d6345b3c6f6e229a4",
+          "source": "web",
+          "type": "change",
+          "key": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list#d3bd7fb2-fac6-49fc-ae52-cee07d2fde67",
+          "source_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:34Z",
+          "data": {
+            "change": "added",
+            "label": "Falcon Heavy | Griffin Mission One",
+            "item_type": "record",
+            "summary": "added: Falcon Heavy | Griffin Mission One",
+            "after": {
+              "id": "d3bd7fb2-fac6-49fc-ae52-cee07d2fde67",
+              "name": "Falcon Heavy | Griffin Mission One",
+              "slug": "falcon-heavy-griffin-mission-one",
+              "launch_designator": null,
+              "status": {
+                "id": 2,
+                "name": "To Be Determined",
+                "abbrev": "TBD",
+                "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
+              },
+              "last_updated": "2026-06-02T15:03:17Z",
+              "net": "2026-11-30T00:00:00Z",
+              "window_end": "2026-11-30T00:00:00Z",
+              "window_start": "2026-11-30T00:00:00Z",
+              "link": "https://spacelaunchnow.app/launch/falcon-heavy-griffin-mission-one/",
+              "summary": "Launch window opens 2026-11-30 00:00 UTC (To Be Determined)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+            "content_type": "application/json",
+            "elapsed_ms": 330,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "link=\"https://spacelaunchnow.app/launch/\" + slug + \"/\"",
+                  "summary=\"Launch window opens \" + replace(net, \"T(\\\\d\\\\d:\\\\d\\\\d):\\\\d\\\\dZ$\", \" \\\\1 UTC\") + \" (\" + status.name + \")\""
+                ],
+                "drop": [
+                  "url",
+                  "response_mode",
+                  "image",
+                  "infographic",
+                  "net_precision"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "id",
+                "namespace": "space-launches",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://spacelaunchnow.app/launch/falcon-heavy-griffin-mission-one/"
+    },
+    {
+      "id": "1a656dd59918707726ad",
+      "title": "HANBIT-Nano | InnoSat-0",
+      "content_text": "Launch window opens 2026-11-30 00:00 UTC (To Be Determined)",
+      "date_published": "2026-09-24T17:26:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "1a656dd59918707726ad",
+          "source": "web",
+          "type": "change",
+          "key": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list#7c891a0b-7194-4425-8cfd-2e8c75af2924",
+          "source_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:34Z",
+          "data": {
+            "change": "added",
+            "label": "HANBIT-Nano | InnoSat-0",
+            "item_type": "record",
+            "summary": "added: HANBIT-Nano | InnoSat-0",
+            "after": {
+              "id": "7c891a0b-7194-4425-8cfd-2e8c75af2924",
+              "name": "HANBIT-Nano | InnoSat-0",
+              "slug": "hanbit-nano-innosat-0",
+              "launch_designator": null,
+              "status": {
+                "id": 2,
+                "name": "To Be Determined",
+                "abbrev": "TBD",
+                "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
+              },
+              "last_updated": "2026-07-22T15:16:09Z",
+              "net": "2026-11-30T00:00:00Z",
+              "window_end": "2026-11-30T00:00:00Z",
+              "window_start": "2026-11-30T00:00:00Z",
+              "link": "https://spacelaunchnow.app/launch/hanbit-nano-innosat-0/",
+              "summary": "Launch window opens 2026-11-30 00:00 UTC (To Be Determined)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+            "content_type": "application/json",
+            "elapsed_ms": 330,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "link=\"https://spacelaunchnow.app/launch/\" + slug + \"/\"",
+                  "summary=\"Launch window opens \" + replace(net, \"T(\\\\d\\\\d:\\\\d\\\\d):\\\\d\\\\dZ$\", \" \\\\1 UTC\") + \" (\" + status.name + \")\""
+                ],
+                "drop": [
+                  "url",
+                  "response_mode",
+                  "image",
+                  "infographic",
+                  "net_precision"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "id",
+                "namespace": "space-launches",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://spacelaunchnow.app/launch/hanbit-nano-innosat-0/"
+    },
+    {
+      "id": "412311fea7487d5082bf",
+      "title": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
+      "content_text": "Launch window opens 2026-12-31 00:00 UTC (To Be Determined)",
+      "date_published": "2026-09-24T17:26:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "412311fea7487d5082bf",
+          "source": "web",
+          "type": "change",
+          "key": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list#d74afbc7-0de5-491c-be05-4e9c31f736ac",
+          "source_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:34Z",
+          "data": {
+            "change": "added",
+            "label": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
+            "item_type": "record",
+            "summary": "added: Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
+            "after": {
+              "id": "d74afbc7-0de5-491c-be05-4e9c31f736ac",
+              "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
+              "slug": "falcon-9-block-5-cygnus-crs-2-ng-25",
+              "launch_designator": null,
+              "status": {
+                "id": 2,
+                "name": "To Be Determined",
+                "abbrev": "TBD",
+                "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
+              },
+              "last_updated": "2026-08-07T00:02:21Z",
+              "net": "2026-12-31T00:00:00Z",
+              "window_end": "2026-12-31T00:00:00Z",
+              "window_start": "2026-12-31T00:00:00Z",
+              "link": "https://spacelaunchnow.app/launch/falcon-9-block-5-cygnus-crs-2-ng-25/",
+              "summary": "Launch window opens 2026-12-31 00:00 UTC (To Be Determined)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+            "content_type": "application/json",
+            "elapsed_ms": 330,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "link=\"https://spacelaunchnow.app/launch/\" + slug + \"/\"",
+                  "summary=\"Launch window opens \" + replace(net, \"T(\\\\d\\\\d:\\\\d\\\\d):\\\\d\\\\dZ$\", \" \\\\1 UTC\") + \" (\" + status.name + \")\""
+                ],
+                "drop": [
+                  "url",
+                  "response_mode",
+                  "image",
+                  "infographic",
+                  "net_precision"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "id",
+                "namespace": "space-launches",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://spacelaunchnow.app/launch/falcon-9-block-5-cygnus-crs-2-ng-25/"
+    },
+    {
+      "id": "3fd17e94212a91f2aaec",
+      "title": "Falcon 9 Block 5 | SDA Tranche 2 Transport Layer D",
+      "content_text": "Launch window opens 2026-12-31 00:00 UTC (To Be Determined)",
+      "date_published": "2026-09-24T17:26:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "3fd17e94212a91f2aaec",
+          "source": "web",
+          "type": "change",
+          "key": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list#71df1dd0-d658-4762-b0bc-0fca6886aea7",
+          "source_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:34Z",
+          "data": {
+            "change": "added",
+            "label": "Falcon 9 Block 5 | SDA Tranche 2 Transport Layer D",
+            "item_type": "record",
+            "summary": "added: Falcon 9 Block 5 | SDA Tranche 2 Transport Layer D",
+            "after": {
+              "id": "71df1dd0-d658-4762-b0bc-0fca6886aea7",
+              "name": "Falcon 9 Block 5 | SDA Tranche 2 Transport Layer D",
+              "slug": "falcon-9-block-5-sda-tranche-2-transport-layer-d",
+              "launch_designator": null,
+              "status": {
+                "id": 2,
+                "name": "To Be Determined",
+                "abbrev": "TBD",
+                "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
+              },
+              "last_updated": "2026-02-24T17:08:45Z",
+              "net": "2026-12-31T00:00:00Z",
+              "window_end": "2026-12-31T00:00:00Z",
+              "window_start": "2026-12-31T00:00:00Z",
+              "link": "https://spacelaunchnow.app/launch/falcon-9-block-5-sda-tranche-2-transport-layer-d/",
+              "summary": "Launch window opens 2026-12-31 00:00 UTC (To Be Determined)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+            "content_type": "application/json",
+            "elapsed_ms": 330,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "link=\"https://spacelaunchnow.app/launch/\" + slug + \"/\"",
+                  "summary=\"Launch window opens \" + replace(net, \"T(\\\\d\\\\d:\\\\d\\\\d):\\\\d\\\\dZ$\", \" \\\\1 UTC\") + \" (\" + status.name + \")\""
+                ],
+                "drop": [
+                  "url",
+                  "response_mode",
+                  "image",
+                  "infographic",
+                  "net_precision"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "id",
+                "namespace": "space-launches",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://spacelaunchnow.app/launch/falcon-9-block-5-sda-tranche-2-transport-layer-d/"
+    },
+    {
+      "id": "93ba262dcefba8a383dc",
+      "title": "Falcon 9 Block 5 | SDA Tranche 2 Transport Layer E",
+      "content_text": "Launch window opens 2026-12-31 00:00 UTC (To Be Determined)",
+      "date_published": "2026-09-24T17:26:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "93ba262dcefba8a383dc",
+          "source": "web",
+          "type": "change",
+          "key": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list#71ed4649-8d71-42e8-8548-d42ffa2c5a6e",
+          "source_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:34Z",
+          "data": {
+            "change": "added",
+            "label": "Falcon 9 Block 5 | SDA Tranche 2 Transport Layer E",
+            "item_type": "record",
+            "summary": "added: Falcon 9 Block 5 | SDA Tranche 2 Transport Layer E",
+            "after": {
+              "id": "71ed4649-8d71-42e8-8548-d42ffa2c5a6e",
+              "name": "Falcon 9 Block 5 | SDA Tranche 2 Transport Layer E",
+              "slug": "falcon-9-block-5-sda-tranche-2-transport-layer-e",
+              "launch_designator": null,
+              "status": {
+                "id": 2,
+                "name": "To Be Determined",
+                "abbrev": "TBD",
+                "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
+              },
+              "last_updated": "2025-04-10T05:42:02Z",
+              "net": "2026-12-31T00:00:00Z",
+              "window_end": "2026-12-31T00:00:00Z",
+              "window_start": "2026-12-31T00:00:00Z",
+              "link": "https://spacelaunchnow.app/launch/falcon-9-block-5-sda-tranche-2-transport-layer-e/",
+              "summary": "Launch window opens 2026-12-31 00:00 UTC (To Be Determined)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+            "content_type": "application/json",
+            "elapsed_ms": 330,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "link=\"https://spacelaunchnow.app/launch/\" + slug + \"/\"",
+                  "summary=\"Launch window opens \" + replace(net, \"T(\\\\d\\\\d:\\\\d\\\\d):\\\\d\\\\dZ$\", \" \\\\1 UTC\") + \" (\" + status.name + \")\""
+                ],
+                "drop": [
+                  "url",
+                  "response_mode",
+                  "image",
+                  "infographic",
+                  "net_precision"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "id",
+                "namespace": "space-launches",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://spacelaunchnow.app/launch/falcon-9-block-5-sda-tranche-2-transport-layer-e/"
+    },
+    {
+      "id": "025ec90e97f62edb57ae",
+      "title": "Falcon 9 Block 5 | Telesat Lightspeed 1",
+      "content_text": "Launch window opens 2026-12-31 00:00 UTC (To Be Determined)",
+      "date_published": "2026-09-24T17:26:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "025ec90e97f62edb57ae",
+          "source": "web",
+          "type": "change",
+          "key": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list#ce1317de-ec94-4479-9b28-38ebf11f13ae",
+          "source_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:34Z",
+          "data": {
+            "change": "added",
+            "label": "Falcon 9 Block 5 | Telesat Lightspeed 1",
+            "item_type": "record",
+            "summary": "added: Falcon 9 Block 5 | Telesat Lightspeed 1",
+            "after": {
+              "id": "ce1317de-ec94-4479-9b28-38ebf11f13ae",
+              "name": "Falcon 9 Block 5 | Telesat Lightspeed 1",
+              "slug": "falcon-9-block-5-telesat-lightspeed-1",
+              "launch_designator": null,
+              "status": {
+                "id": 2,
+                "name": "To Be Determined",
+                "abbrev": "TBD",
+                "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
+              },
+              "last_updated": "2025-11-06T10:41:03Z",
+              "net": "2026-12-31T00:00:00Z",
+              "window_end": "2026-12-31T00:00:00Z",
+              "window_start": "2026-12-31T00:00:00Z",
+              "link": "https://spacelaunchnow.app/launch/falcon-9-block-5-telesat-lightspeed-1/",
+              "summary": "Launch window opens 2026-12-31 00:00 UTC (To Be Determined)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+            "content_type": "application/json",
+            "elapsed_ms": 330,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "link=\"https://spacelaunchnow.app/launch/\" + slug + \"/\"",
+                  "summary=\"Launch window opens \" + replace(net, \"T(\\\\d\\\\d:\\\\d\\\\d):\\\\d\\\\dZ$\", \" \\\\1 UTC\") + \" (\" + status.name + \")\""
+                ],
+                "drop": [
+                  "url",
+                  "response_mode",
+                  "image",
+                  "infographic",
+                  "net_precision"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "id",
+                "namespace": "space-launches",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://spacelaunchnow.app/launch/falcon-9-block-5-telesat-lightspeed-1/"
+    },
+    {
+      "id": "532c16b5f8b85dbc5f3f",
+      "title": "Ariane 62 | Galileo L15 (FOC FM28 & FM31)",
+      "content_text": "Launch window opens 2026-12-31 00:00 UTC (To Be Determined)",
+      "date_published": "2026-09-24T17:26:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "532c16b5f8b85dbc5f3f",
+          "source": "web",
+          "type": "change",
+          "key": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list#0b85fcca-5252-48d7-9ccb-c10b1da9d183",
+          "source_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:34Z",
+          "data": {
+            "change": "added",
+            "label": "Ariane 62 | Galileo L15 (FOC FM28 & FM31)",
+            "item_type": "record",
+            "summary": "added: Ariane 62 | Galileo L15 (FOC FM28 & FM31)",
+            "after": {
+              "id": "0b85fcca-5252-48d7-9ccb-c10b1da9d183",
+              "name": "Ariane 62 | Galileo L15 (FOC FM28 & FM31)",
+              "slug": "ariane-62-galileo-l15-foc-fm28-fm31",
+              "launch_designator": null,
+              "status": {
+                "id": 2,
+                "name": "To Be Determined",
+                "abbrev": "TBD",
+                "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
+              },
+              "last_updated": "2025-12-10T18:28:10Z",
+              "net": "2026-12-31T00:00:00Z",
+              "window_end": "2026-12-31T00:00:00Z",
+              "window_start": "2026-12-31T00:00:00Z",
+              "link": "https://spacelaunchnow.app/launch/ariane-62-galileo-l15-foc-fm28-fm31/",
+              "summary": "Launch window opens 2026-12-31 00:00 UTC (To Be Determined)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+            "content_type": "application/json",
+            "elapsed_ms": 330,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "link=\"https://spacelaunchnow.app/launch/\" + slug + \"/\"",
+                  "summary=\"Launch window opens \" + replace(net, \"T(\\\\d\\\\d:\\\\d\\\\d):\\\\d\\\\dZ$\", \" \\\\1 UTC\") + \" (\" + status.name + \")\""
+                ],
+                "drop": [
+                  "url",
+                  "response_mode",
+                  "image",
+                  "infographic",
+                  "net_precision"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "id",
+                "namespace": "space-launches",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://spacelaunchnow.app/launch/ariane-62-galileo-l15-foc-fm28-fm31/"
+    },
+    {
+      "id": "aa7283231c9e23720c32",
+      "title": "Falcon 9 Block 5 | CHORUS",
+      "content_text": "Launch window opens 2026-12-31 00:00 UTC (To Be Determined)",
+      "date_published": "2026-09-24T17:26:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "aa7283231c9e23720c32",
+          "source": "web",
+          "type": "change",
+          "key": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list#8bf5f61e-a7e1-41e6-aede-7b87e4beebab",
+          "source_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:34Z",
+          "data": {
+            "change": "added",
+            "label": "Falcon 9 Block 5 | CHORUS",
+            "item_type": "record",
+            "summary": "added: Falcon 9 Block 5 | CHORUS",
+            "after": {
+              "id": "8bf5f61e-a7e1-41e6-aede-7b87e4beebab",
+              "name": "Falcon 9 Block 5 | CHORUS",
+              "slug": "falcon-9-block-5-chorus",
+              "launch_designator": null,
+              "status": {
+                "id": 2,
+                "name": "To Be Determined",
+                "abbrev": "TBD",
+                "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
+              },
+              "last_updated": "2025-11-14T23:31:58Z",
+              "net": "2026-12-31T00:00:00Z",
+              "window_end": "2026-12-31T00:00:00Z",
+              "window_start": "2026-12-31T00:00:00Z",
+              "link": "https://spacelaunchnow.app/launch/falcon-9-block-5-chorus/",
+              "summary": "Launch window opens 2026-12-31 00:00 UTC (To Be Determined)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+            "content_type": "application/json",
+            "elapsed_ms": 330,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "link=\"https://spacelaunchnow.app/launch/\" + slug + \"/\"",
+                  "summary=\"Launch window opens \" + replace(net, \"T(\\\\d\\\\d:\\\\d\\\\d):\\\\d\\\\dZ$\", \" \\\\1 UTC\") + \" (\" + status.name + \")\""
+                ],
+                "drop": [
+                  "url",
+                  "response_mode",
+                  "image",
+                  "infographic",
+                  "net_precision"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "id",
+                "namespace": "space-launches",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://spacelaunchnow.app/launch/falcon-9-block-5-chorus/"
+    },
+    {
+      "id": "0e09551820fd67550e56",
+      "title": "Falcon 9 Block 5 | Inmarsat-7 F1 (GX-7)",
+      "content_text": "Launch window opens 2026-12-31 00:00 UTC (To Be Determined)",
+      "date_published": "2026-09-24T17:26:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "0e09551820fd67550e56",
+          "source": "web",
+          "type": "change",
+          "key": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list#01ca3653-126a-4c01-94fb-a9467b39cdac",
+          "source_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:34Z",
+          "data": {
+            "change": "added",
+            "label": "Falcon 9 Block 5 | Inmarsat-7 F1 (GX-7)",
+            "item_type": "record",
+            "summary": "added: Falcon 9 Block 5 | Inmarsat-7 F1 (GX-7)",
+            "after": {
+              "id": "01ca3653-126a-4c01-94fb-a9467b39cdac",
+              "name": "Falcon 9 Block 5 | Inmarsat-7 F1 (GX-7)",
+              "slug": "falcon-9-block-5-inmarsat-7-f1-gx-7",
+              "launch_designator": null,
+              "status": {
+                "id": 2,
+                "name": "To Be Determined",
+                "abbrev": "TBD",
+                "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
+              },
+              "last_updated": "2026-02-04T11:37:33Z",
+              "net": "2026-12-31T00:00:00Z",
+              "window_end": "2026-12-31T00:00:00Z",
+              "window_start": "2026-12-31T00:00:00Z",
+              "link": "https://spacelaunchnow.app/launch/falcon-9-block-5-inmarsat-7-f1-gx-7/",
+              "summary": "Launch window opens 2026-12-31 00:00 UTC (To Be Determined)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+            "content_type": "application/json",
+            "elapsed_ms": 330,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "link=\"https://spacelaunchnow.app/launch/\" + slug + \"/\"",
+                  "summary=\"Launch window opens \" + replace(net, \"T(\\\\d\\\\d:\\\\d\\\\d):\\\\d\\\\dZ$\", \" \\\\1 UTC\") + \" (\" + status.name + \")\""
+                ],
+                "drop": [
+                  "url",
+                  "response_mode",
+                  "image",
+                  "infographic",
+                  "net_precision"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "id",
+                "namespace": "space-launches",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://spacelaunchnow.app/launch/falcon-9-block-5-inmarsat-7-f1-gx-7/"
+    },
+    {
+      "id": "271fd8069714d3dd4b6b",
+      "title": "Falcon 9 Block 5 | SDA Tranche 1 Tracking Layer A",
+      "content_text": "Launch window opens 2026-12-31 00:00 UTC (To Be Determined)",
+      "date_published": "2026-09-24T17:26:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "271fd8069714d3dd4b6b",
+          "source": "web",
+          "type": "change",
+          "key": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list#2d0472b9-463d-49c8-afb1-7925e49a3368",
+          "source_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:34Z",
+          "data": {
+            "change": "added",
+            "label": "Falcon 9 Block 5 | SDA Tranche 1 Tracking Layer A",
+            "item_type": "record",
+            "summary": "added: Falcon 9 Block 5 | SDA Tranche 1 Tracking Layer A",
+            "after": {
+              "id": "2d0472b9-463d-49c8-afb1-7925e49a3368",
+              "name": "Falcon 9 Block 5 | SDA Tranche 1 Tracking Layer A",
+              "slug": "falcon-9-block-5-sda-tranche-1-tracking-layer-a",
+              "launch_designator": null,
+              "status": {
+                "id": 2,
+                "name": "To Be Determined",
+                "abbrev": "TBD",
+                "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
+              },
+              "last_updated": "2026-08-27T15:58:58Z",
+              "net": "2026-12-31T00:00:00Z",
+              "window_end": "2026-12-31T00:00:00Z",
+              "window_start": "2026-12-31T00:00:00Z",
+              "link": "https://spacelaunchnow.app/launch/falcon-9-block-5-sda-tranche-1-tracking-layer-a/",
+              "summary": "Launch window opens 2026-12-31 00:00 UTC (To Be Determined)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+            "content_type": "application/json",
+            "elapsed_ms": 330,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "link=\"https://spacelaunchnow.app/launch/\" + slug + \"/\"",
+                  "summary=\"Launch window opens \" + replace(net, \"T(\\\\d\\\\d:\\\\d\\\\d):\\\\d\\\\dZ$\", \" \\\\1 UTC\") + \" (\" + status.name + \")\""
+                ],
+                "drop": [
+                  "url",
+                  "response_mode",
+                  "image",
+                  "infographic",
+                  "net_precision"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "id",
+                "namespace": "space-launches",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://spacelaunchnow.app/launch/falcon-9-block-5-sda-tranche-1-tracking-layer-a/"
+    }
+  ]
+}

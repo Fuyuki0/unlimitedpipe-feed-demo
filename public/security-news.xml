@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Security news</title>
+    <link>https://feeds.feedburner.com/TheHackersNews</link>
+    <description>Events collected by UnlimitedPipe 0.3.1</description>
+    <generator>UnlimitedPipe 0.3.1</generator>
+    <lastBuildDate>Thu, 24 Sep 2026 17:26:26 +0000</lastBuildDate>
+    <item>
+      <title>Placeholder third-party[.]com Referenced Across 1,700+ Repositories Now Serves Malicious Content</title>
+      <link>https://thehackernews.com/2026/09/placeholder-third-partycom-referenced.html</link>
+      <guid isPermaLink="false">e04d2b8beb8af581852c</guid>
+      <pubDate>Thu, 24 Sep 2026 15:27:32 +0000</pubDate>
+      <description>The "third-party[.]com" domain, commonly used as a documentation placeholder, has been observed serving a ClickFix lure to Windows browsers while displaying a harmless decoy to other users.
+"third-party[.]com has been a generic documentation placeholder for years, the same role example.com plays," Manifold Security's Head of Research, Ax Sharma, said. "Unlike 'example[.]com,' third-party[.]com</description>
+    </item>
+    <item>
+      <title>Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer</title>
+      <link>https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html</link>
+      <guid isPermaLink="false">11bc09d731bc9d0d7e0d</guid>
+      <pubDate>Thu, 24 Sep 2026 14:29:06 +0000</pubDate>
+      <description>An active ClickFix campaign has been observed compromising legitimate Ukrainian business websites to inject bogus Cloudflare verification pages and trick victims into downloading a previously undocumented information stealer called Psychedelic.
+"When a visitor interacts with the page, the lure copies a Windows Installer command to the clipboard and instructs the visitor to paste it into the</description>
+    </item>
+    <item>
+      <title>FedRAMP VDR &amp; VER: Daily Scans Are Only the Beginning</title>
+      <link>https://www.bleepingcomputer.com/news/security/fedramp-vdr-and-ver-daily-scans-are-only-the-beginning/</link>
+      <guid isPermaLink="false">b27fe55a49d3df0ad506</guid>
+      <pubDate>Thu, 24 Sep 2026 14:02:12 +0000</pubDate>
+      <description>FedRAMP's new VDR and VER requirements make vulnerability management more continuous, with faster scanning, tighter remediation deadlines, and stronger evidence requirements. Anecdotes explains why the December 7 deadline is just the beginning of a broader shift toward continuous, automated compliance validation. [...]</description>
+      <category>Security</category>
+    </item>
+    <item>
+      <title>Hackers now exploit critical Roundcube flaw in code injection attacks</title>
+      <link>https://www.bleepingcomputer.com/news/security/critical-roundcube-flaw-now-actively-exploited-in-code-injection-attacks/</link>
+      <guid isPermaLink="false">3b88e89da3fa766e9bab</guid>
+      <pubDate>Thu, 24 Sep 2026 13:27:57 +0000</pubDate>
+      <description>A high-severity Roundcube Webmail vulnerability patched in May is now being actively exploited in attacks, according to the Canadian Centre for Cyber Security. [...]</description>
+      <category>Security</category>
+    </item>
+    <item>
+      <title>Windows 11 KB5124010 update released with 46 changes and fixes</title>
+      <link>https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5124010-update-released-with-46-changes-and-fixes/</link>
+      <guid isPermaLink="false">3dd60f8e552b6a534382</guid>
+      <pubDate>Thu, 24 Sep 2026 12:16:32 +0000</pubDate>
+      <description>Microsoft released the KB5124010 September 2026 non-security preview update for Windows 11 24H2 and 25H2, with 46 changes including Bluetooth improvements and the ability to remap the Copilot key. [...]</description>
+      <category>Microsoft</category>
+    </item>
+    <item>
+      <title>Corp MDM Spyware Targets Logistics Firms, Steals New SMS and Redirects Calls</title>
+      <link>https://thehackernews.com/2026/09/corp-mdm-spyware-targets-logistics.html</link>
+      <guid isPermaLink="false">8c43dcccbaf6ef342ae7</guid>
+      <pubDate>Thu, 24 Sep 2026 12:05:27 +0000</pubDate>
+      <description>The logistics sector has become the target of a new malicious cyber campaign that distributes an Android spyware codenamed Corp MDM.
+According to Have I Been Squatted, the campaign uses fake Google Play pages branded as CEVA and TKW Logistics to distribute an Android Package Kit (APK) file that's dressed up as a system service. The delivered app has the package name "com.corp.mdm"
+Corp MDM</description>
+    </item>
+    <item>
+      <title>Malicious npm Packages That Evade Defenses</title>
+      <link>https://www.schneier.com/blog/archives/2026/09/malicious-npm-packages-that-evade-defenses.html</link>
+      <guid isPermaLink="false">08b4e83b33713ea9b0c9</guid>
+      <pubDate>Thu, 24 Sep 2026 11:07:42 +0000</pubDate>
+      <description>This is an impressive piece of malware . Its sophistication says nation-state to me, but there is no direct evidence and certainly no attribution.</description>
+      <category>Uncategorized</category>
+      <category>defense</category>
+      <category>malware</category>
+    </item>
+    <item>
+      <title>Secrets Sprawl Is an Identity Problem That AI Just Made Impossible to Ignore</title>
+      <link>https://thehackernews.com/2026/09/secrets-sprawl-is-identity-problem-that.html</link>
+      <guid isPermaLink="false">df1bbfbfd33d61d09d86</guid>
+      <pubDate>Thu, 24 Sep 2026 11:00:00 +0000</pubDate>
+      <description>AI coding agents are changing how quickly developers can build and ship software as well as how quickly credentials can become exposed. According to GitGuardian’s 2026 State of Secrets Sprawl Report, commits identified as AI-assisted are leaking secrets at approximately twice the rate of human-written ones. Most of the fastest-growing categories of leaked credentials are now connected to AI</description>
+    </item>
+    <item>
+      <title>CISA: Ransomware gangs now exploiting critical TeamCity flaw</title>
+      <link>https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw/</link>
+      <guid isPermaLink="false">eea62150121acf40cca5</guid>
+      <pubDate>Thu, 24 Sep 2026 10:42:37 +0000</pubDate>
+      <description>​The U.S. Cybersecurity and Infrastructure Security Agency (CISA) warned federal agencies on Wednesday that ransomware gangs are now also exploiting a critical JetBrains TeamCity vulnerability patched in July. [...]</description>
+      <category>Security</category>
+    </item>
+    <item>
+      <title>OpenAI hacked Australian Medicare govt site, probed data providers</title>
+      <link>https://www.bleepingcomputer.com/news/security/openai-hacked-australian-medicare-govt-site-probed-data-providers/</link>
+      <guid isPermaLink="false">afa45af01e2488a8125c</guid>
+      <pubDate>Thu, 24 Sep 2026 09:38:53 +0000</pubDate>
+      <description>OpenAI agents targeted public data providers in multiple countries, probing some for vulnerabilities and exploiting a security weakness in an Australian government portal while performing information-retrieval tasks as part of a research project. [...]</description>
+      <category>Security</category>
+    </item>
+    <item>
+      <title>17,000 URLs Reveal How ClickFix Turns Trusted Websites Into Malware Traps: Report by CTM360</title>
+      <link>https://thehackernews.com/2026/09/17000-urls-reveal-how-clickfix-turns.html</link>
+      <guid isPermaLink="false">b48ab760b2c28d3202e4</guid>
+      <pubDate>Thu, 24 Sep 2026 09:14:21 +0000</pubDate>
+      <description>ClickFix has become the most common way attackers get into enterprise networks, and it does it without an exploit, an attachment, or a file on disk. Our new global threat report traces the technique from a novelty in late 2023 to a subscription product with on-chain infrastructure and a state-sponsored user base, and explains why blocking malicious domains is no longer a useful defense.
+Read</description>
+    </item>
+    <item>
+      <title>Microsoft fixes bug that broke Windows File History backup feature</title>
+      <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-windows-backup-feature-broken-by-september-updates/</link>
+      <guid isPermaLink="false">b1305cec387e13bdb884</guid>
+      <pubDate>Thu, 24 Sep 2026 08:14:47 +0000</pubDate>
+      <description>Microsoft has fixed a known issue that breaks the built-in File History backup feature on some Windows systems after installing the September 2026 security updates. [...]</description>
+      <category>Microsoft</category>
+    </item>
+    <item>
+      <title>OpenAI Agent Bypassed Australian Medicare Portal Controls to Access Non-Public Files</title>
+      <link>https://thehackernews.com/2026/09/openai-agent-bypassed-australian.html</link>
+      <guid isPermaLink="false">8ec85966dc1dfde35b5d</guid>
+      <pubDate>Thu, 24 Sep 2026 07:07:25 +0000</pubDate>
+      <description>An AI agent on an internal OpenAI research task bypassed access controls on an Australian government Medicare statistics portal in June, Prime Minister Anthony Albanese said.
+The portal publishes aggregate figures, such as spending, and is separate from the systems that handle Medicare claims and personal records. The agent reached files on it that were not public, but no personal</description>
+    </item>
+    <item>
+      <title>TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords</title>
+      <link>https://thehackernews.com/2026/09/teamfiltration-compromises-seven.html</link>
+      <guid isPermaLink="false">a107a9d4884ec7fcb245</guid>
+      <pubDate>Thu, 24 Sep 2026 06:32:03 +0000</pubDate>
+      <description>Cybersecurity researchers have disclosed details of an active TeamFiltration campaign codenamed UNK_CondorFiltration that has targeted over 5,700 accounts across 28 Microsoft 365 tenants.
+According to Proofpoint, the activity has primarily focused on Chilean retail and financial institutions. It originated from 1,487 unique AWS EC2 source IP addresses.
+"The campaign compromised 7 accounts –</description>
+    </item>
+    <item>
+      <title>Attackers Exploit WordPress CVE-2026-87902 Within Hours of Disclosure</title>
+      <link>https://thehackernews.com/2026/09/attackers-exploit-wordpress-cve-2026.html</link>
+      <guid isPermaLink="false">afad1ccbc7ca91524262</guid>
+      <pubDate>Thu, 24 Sep 2026 05:36:18 +0000</pubDate>
+      <description>Threat actors have begun to actively exploit a critical security flaw in WordPress within hours of public disclosure.
+The vulnerability in question is CVE-2026-87902 (CVSS score: 9.2), which could allow an unauthenticated attacker to obtain remote code execution (RCE).
+"An unauthenticated attacker can make get_page_template() page-template resolution include a chosen readable local .php file</description>
+    </item>
+    <item>
+      <title>Placeholder domain used in dev docs now serves ClickFix attacks</title>
+      <link>https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/</link>
+      <guid isPermaLink="false">4276ef94121eb2c0925b</guid>
+      <pubDate>Wed, 23 Sep 2026 22:46:01 +0000</pubDate>
+      <description>The "third-party.com" domain, commonly used as a placeholder in developer documentation and code examples, is serving a fake Cloudflare verification page that attempts to trick Windows users into executing PowerShell commands. [...]</description>
+      <category>Security</category>
+    </item>
+    <item>
+      <title>New RemControl Android banking malware targets users in Europe and Canada</title>
+      <link>https://www.bleepingcomputer.com/news/security/new-remcontrol-android-banking-malware-targets-users-in-europe-and-canada/</link>
+      <guid isPermaLink="false">ac6b44577acbe7d11cc9</guid>
+      <pubDate>Wed, 23 Sep 2026 21:25:13 +0000</pubDate>
+      <description>A new Android malware-as-a-service (MaaS) platform called RemControl is targeting users through malvertising campaigns that impersonate the TVTap IPTV application. [...]</description>
+      <category>Security</category>
+      <category>Mobile</category>
+    </item>
+    <item>
+      <title>Check Point warns of hackers exploiting Security Gateway VPN RCE flaw</title>
+      <link>https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/</link>
+      <guid isPermaLink="false">53249e653028dfc44c66</guid>
+      <pubDate>Wed, 23 Sep 2026 19:53:54 +0000</pubDate>
+      <description>Cybersecurity company Check Point has confirmed active exploitation of CVE-2026-85102, a pre-authentication remote code execution (RCE) vulnerability in the VPN certificate-handling functionality of its Security Gateway product. [...]</description>
+      <category>Security</category>
+    </item>
+    <item>
+      <title>Hackers start exploiting critical WordPress flaw for code execution</title>
+      <link>https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/</link>
+      <guid isPermaLink="false">7efef70923bd019435cd</guid>
+      <pubDate>Wed, 23 Sep 2026 18:31:22 +0000</pubDate>
+      <description>Threat actors have moved from probing WordPress sites vulnerable to CVE-2026-87902 to exploiting the flaw to write files to disk that execute shell commands when accessed. [...]</description>
+      <category>Security</category>
+    </item>
+    <item>
+      <title>Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry</title>
+      <link>https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html</link>
+      <guid isPermaLink="false">6487e981f380ea069b8b</guid>
+      <pubDate>Wed, 23 Sep 2026 18:06:30 +0000</pubDate>
+      <description>Cybersecurity researchers have disclosed Go-based malware distributed via two Go Modules and two Terraform providers, marking the first time threat actors are using the centralized repository hosted by HashiCorp as a distribution vector for malicious payloads.
+According to Aikido, the list of Terraform providers and Go modules is below -
+gocommunity-io/dockerd (222 downloads)
+kreuzwenker/</description>
+    </item>
+    <item>
+      <title>A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You</title>
+      <link>https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html</link>
+      <guid isPermaLink="false">8fccc478b4854bce25b3</guid>
+      <pubDate>Wed, 23 Sep 2026 16:53:10 +0000</pubDate>
+      <description>The private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab commits in your name, to any branch you can push to, including main, and can start CI/CD jobs that run as you.
+GitLab shows each user this address behind a button labeled "Email work item to this project." Mail sent to it opens an issue in that project, authored</description>
+    </item>
+    <item>
+      <title>Malicious AI agents steal 600K credit cards, infect 100+ sites with skimmers</title>
+      <link>https://www.bleepingcomputer.com/news/security/malicious-ai-agents-steal-600k-credit-cards-infect-100-plus-sites-with-skimmers/</link>
+      <guid isPermaLink="false">4b28438ee3d37b50205f</guid>
+      <pubDate>Wed, 23 Sep 2026 16:20:54 +0000</pubDate>
+      <description>A financially motivated threat actor is using open-source AI agent frameworks to attack hundreds of online retailers at scale, stealing more than 600,000 credit card records. [...]</description>
+      <category>Security</category>
+      <category>Artificial Intelligence</category>
+    </item>
+    <item>
+      <title>MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key</title>
+      <link>https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html</link>
+      <guid isPermaLink="false">e445484a96ce82cbf9e8</guid>
+      <pubDate>Wed, 23 Sep 2026 16:06:41 +0000</pubDate>
+      <description>Two MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of Internet-exposed routers without a password, SSH key, or completed authentication.
+The chain, which CERT Polska calls MikroTrick, combines an SSH state-machine flaw (CVE-2026-67279) with an argument-injection bug in the RouterOS login process (CVE-2026-86060). Attack logs date to at</description>
+    </item>
+    <item>
+      <title>InfraTrust report warns network management systems under attack</title>
+      <link>https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack/</link>
+      <guid isPermaLink="false">2a39455f43d36a287fac</guid>
+      <pubDate>Wed, 23 Sep 2026 14:35:26 +0000</pubDate>
+      <description>Attackers are increasingly targeting the management systems used to control enterprise infrastructure, with several critical vulnerabilities actively exploited before or shortly after vendors disclosed them. [...]</description>
+      <category>Security</category>
+    </item>
+    <item>
+      <title>This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move</title>
+      <link>https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html</link>
+      <guid isPermaLink="false">b7ac3967f542bafc9e7e</guid>
+      <pubDate>Wed, 23 Sep 2026 14:17:58 +0000</pubDate>
+      <description>A Windows malware called CLOSEDQUORUM is built to take orders from a vote of up to four AI models instead of an attacker's server, Cisco Talos said on September 22.
+The models can choose to steal Windows credentials, saved browser passwords, and crypto wallet data. Talos has not seen this setup work from start to finish, and the public version of the malware does not work as it is.</description>
+    </item>
+    <item>
+      <title>How One Kubernetes YAML Can Hand Over a GCP Organization</title>
+      <link>https://www.bleepingcomputer.com/news/security/how-one-kubernetes-yaml-can-hand-over-a-gcp-organization/</link>
+      <guid isPermaLink="false">3f68816f889c2997ee5d</guid>
+      <pubDate>Wed, 23 Sep 2026 14:01:11 +0000</pubDate>
+      <description>A Kubernetes user with limited permissions can potentially gain control of an entire Google Cloud organization by exploiting the authority granted to Google Kubernetes Config Connector. Varonis explains how this confused deputy problem can turn a single Kubernetes YAML file into a path to organization-wide privilege escalation. [...]</description>
+      <category>Security</category>
+    </item>
+    <item>
+      <title>Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI</title>
+      <link>https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html</link>
+      <guid isPermaLink="false">af78a5f8984243363f2f</guid>
+      <pubDate>Wed, 23 Sep 2026 13:52:46 +0000</pubDate>
+      <description>Unknown threat actors have managed to compromise two legitimate MemTensor packages across the npm and Python Package Index (PyPI) repositories to push a platform-specific Go-based implant dubbed sckit designed for Windows, Linux, and macOS.
+According to reports from Aikido, SafeDep, Socket, and StepSecurity, the libraries in question below -
+@memtensor/memos-cloud-openclaw-plugin versions</description>
+    </item>
+    <item>
+      <title>Arista patches actively exploited VeloCloud Orchestrator zero-day</title>
+      <link>https://www.bleepingcomputer.com/news/security/arista-patches-actively-exploited-velocloud-orchestrator-zero-day/</link>
+      <guid isPermaLink="false">4b34085389c96c6dbd31</guid>
+      <pubDate>Wed, 23 Sep 2026 12:29:53 +0000</pubDate>
+      <description>Arista Networks has released security patches for a zero-day flaw that is being actively exploited and affects VeloCloud Orchestrator (VCO) On-Prem deployments. [...]</description>
+      <category>Security</category>
+    </item>
+    <item>
+      <title>New cPanel Flaw Lets a Hosting Account Run Code as Root, Take Full Server Control</title>
+      <link>https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html</link>
+      <guid isPermaLink="false">bf02dfa56f671080bd99</guid>
+      <pubDate>Wed, 23 Sep 2026 12:16:00 +0000</pubDate>
+      <description>A flaw in cPanel's CalDAV and CardDAV service lets anyone with a cPanel hosting account run code as root and take "full control of the server," the company said on September 22.
+A second bug in the WP Toolkit plugin, used to install and manage WordPress sites, allows an account holder to change databases that belong to other accounts.
+cPanel has released fixed versions for both,</description>
+    </item>
+    <item>
+      <title>545 Hackers Tested It First. Now XRanges for AI Scores Your Security Agent</title>
+      <link>https://thehackernews.com/2026/09/545-hackers-tested-it-first-now-xranges.html</link>
+      <guid isPermaLink="false">2a3444963f02d3d9e38d</guid>
+      <pubDate>Wed, 23 Sep 2026 11:47:19 +0000</pubDate>
+      <description>Autonomous security agents are getting good at finding bugs. Nobody has a good way to measure how good. Point one at a realistic target and what comes back is a report the agent wrote about itself: confident prose, a list of findings, and no way to tell which of them happened. Someone with a security background then sits down and checks every claim against the target. Which findings are real,</description>
+    </item>
+    <item>
+      <title>Anthropic and OpenAI Models Still Attempt Restricted Actions in Safety Tests</title>
+      <link>https://thehackernews.com/2026/09/anthropic-and-openai-models-still.html</link>
+      <guid isPermaLink="false">4448f8b46b709f030b73</guid>
+      <pubDate>Wed, 23 Sep 2026 11:47:13 +0000</pubDate>
+      <description>Anthropic and OpenAI on Tuesday announced new models, with both artificial intelligence (AI) companies noting that they are continuing to invest in improving alignment to combat risky behavior.
+Opus 5.5, per Anthropic, is a "major step up from Opus 5," and "achieves the best scores of any model to date on our automated behavioral audit, our alignment suite that tests Claude across thousands</description>
+    </item>
+    <item>
+      <title>Microsoft: September Windows updates break Always On VPN connections</title>
+      <link>https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-windows-updates-break-always-on-vpn-connections/</link>
+      <guid isPermaLink="false">302a19fdac9c84e1a8fc</guid>
+      <pubDate>Wed, 23 Sep 2026 11:18:13 +0000</pubDate>
+      <description>Microsoft warned that the September 2026 security updates may also break Always On VPN connections on some Windows 11 systems. [...]</description>
+      <category>Microsoft</category>
+    </item>
+    <item>
+      <title>Exploit Released for Unpatched Ubuntu Linux Flaw Enabling Host-Root Container Escape</title>
+      <link>https://thehackernews.com/2026/09/exploit-released-for-unpatched-ubuntu.html</link>
+      <guid isPermaLink="false">e61546700223b6fd32b1</guid>
+      <pubDate>Wed, 23 Sep 2026 11:12:18 +0000</pubDate>
+      <description>A use-after-free in the Linux kernel's AF_UNIX socket subsystem can be used to escape a container and gain root on the host, security firm DepthFirst said in research published September 22.
+The flaw, tracked as CVE-2026-80521 (CVSS score: 7.8), was fixed upstream on August 6, but Ubuntu has not shipped the patch for its 26.04, 24.04, or 22.04 LTS releases. DepthFirst</description>
+    </item>
+    <item>
+      <title>Research on Models Engaging in Genie-Like Behavior</title>
+      <link>https://www.schneier.com/blog/archives/2026/09/research-on-models-engaging-in-genie-like-behavior.html</link>
+      <guid isPermaLink="false">e9ec11ad2bd1d535d8e0</guid>
+      <pubDate>Wed, 23 Sep 2026 11:03:36 +0000</pubDate>
+      <description>New paper: “ Self-Jailbreaking: Language Models Can Reason Themselves Out of Safety Alignment After Benign Reasoning Training .”
+Abstract: We discover a novel and surprising phenomenon of unintentional misalignment in reasoning language models (RLMs), which we call self-jailbreaking. Specifically, after benign reasoning training on math or code domains, RLMs will use multiple strategies to circumvent their own safety guardrails. One strategy is to introduce benign assumptions about users and…</description>
+      <category>Uncategorized</category>
+      <category>academic papers</category>
+      <category>AI</category>
+      <category>lies</category>
+    </item>
+    <item>
+      <title>F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers</title>
+      <link>https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html</link>
+      <guid isPermaLink="false">75bfec002e41b43e4568</guid>
+      <pubDate>Wed, 23 Sep 2026 08:29:48 +0000</pubDate>
+      <description>Attackers are exploiting a critical flaw in F5 BIG-IP Access Policy Manager (APM) that lets them run code on a BIG-IP system without logging in, F5 says.
+The flaw, CVE-2026-94127, affects only systems in which APM serves as an OAuth authorization server, issuing access tokens to applications. F5 disclosed it in an advisory on September 22 and has released engineering hotfixes.</description>
+    </item>
+    <item>
+      <title>Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware</title>
+      <link>https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html</link>
+      <guid isPermaLink="false">4823057a9e2827d6a3ac</guid>
+      <pubDate>Wed, 23 Sep 2026 08:29:24 +0000</pubDate>
+      <description>A Chinese threat actor codenamed UTA0565 has been observed exploiting the recently disclosed Google Chrome-Microsoft Windows exploit chain as zero-days through fake websites.
+The attacks, detected on September 3 and 4, 2026, involved the chaining of two vulnerabilities in Chrome (CVE-2026-85046, CVE-2026-87491) and one impacting Windows Advanced Local Procedure Call (CVE-2026-85880) to break</description>
+    </item>
+    <item>
+      <title>Critical Next.js ImageResponse Flaw Can Lead to Server Code Execution via Crafted SVG Input</title>
+      <link>https://thehackernews.com/2026/09/critical-nextjs-imageresponse-flaw-can.html</link>
+      <guid isPermaLink="false">964bb0fad8314354edef</guid>
+      <pubDate>Wed, 23 Sep 2026 07:04:40 +0000</pubDate>
+      <description>A new security vulnerability in Next.js could allow attackers to run code on a server via ImageResponse, the feature that generates Open Graph and other social preview images, Vercel said.
+The risk applies when an app puts values an attacker controls, such as text read from the request URL, into the image. Vercel, which develops Next.js, fixed the flaw on September 22 in version</description>
+    </item>
+    <item>
+      <title>ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants</title>
+      <link>https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html</link>
+      <guid isPermaLink="false">94e7966263875b1b139d</guid>
+      <pubDate>Wed, 23 Sep 2026 05:30:09 +0000</pubDate>
+      <description>The cyber extortion group known as ShinyHunters on Tuesday claimed it had breached the U.S. Federal Bureau of Investigation and stolen data belonging to current and former employees at the agency.
+"We have compromised the FBI. We hold very sensitive data on almost ALL FBI Agents and individuals who filed an application with the FBI for a job," the group said in a statement posted on their dark</description>
+    </item>
+    <item>
+      <title>Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks</title>
+      <link>https://thehackernews.com/2026/09/check-point-warns-of-management-server.html</link>
+      <guid isPermaLink="false">8ab93946919efed79ae3</guid>
+      <pubDate>Tue, 22 Sep 2026 18:29:39 +0000</pubDate>
+      <description>Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23, the company said.
+The flaw, CVE-2026-93616, allows an attacker who can access the server's web service to run scripts on it without logging in. Check Point released a fix on September 22 for the server that controls firewall policies for the Check Point</description>
+    </item>
+    <item>
+      <title>WordPress Issues Patch for Critical Flaw That Can Enable Code Execution on Some Servers</title>
+      <link>https://thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html</link>
+      <guid isPermaLink="false">b84f83bcee9055557c7d</guid>
+      <pubDate>Tue, 22 Sep 2026 18:03:10 +0000</pubDate>
+      <description>WordPress has fixed a critical flaw in its core software that lets an attacker with no account make a site load a PHP file from outside its theme folders.
+On some servers, that can go further, allowing the attacker to run their own code. The fix shipped on September 22 in WordPress 7.1.2, with fixes for every branch the project still supports, back to 4.7, and WordPress is telling site owners</description>
+    </item>
+    <item>
+      <title>Malicious npm Package Poses as Twilio Bug-Bounty Probe, Can Exfiltrate Credentials</title>
+      <link>https://thehackernews.com/2026/09/malicious-npm-package-poses-as-twilio.html</link>
+      <guid isPermaLink="false">329147ed8e239250f210</guid>
+      <pubDate>Tue, 22 Sep 2026 17:58:15 +0000</pubDate>
+      <description>Cybersecurity researchers have disclosed details of a malicious npm package named "tw-pkgprobe-7731" that masquerades as a security tool targeting developers integrating Twilio into their applications, while stealthily attempting to harvest sensitive data.
+The package, named "tw-pkgprobe-7731," was first uploaded to the npm registry in mid-August 2026 by an npm account named "twdepprobe7731."</description>
+    </item>
+    <item>
+      <title>Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises</title>
+      <link>https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html</link>
+      <guid isPermaLink="false">529ef66015253f417cbd</guid>
+      <pubDate>Tue, 22 Sep 2026 17:03:31 +0000</pubDate>
+      <description>Microsoft on Tuesday announced the takedown of the EvilTokens device code phishing service that it said used artificial intelligence (AI) "at every step of the attack chain."
+The action, carried out with authorization from the U.S. District Court for the Eastern District of Virginia, involved the efforts of Health-ISAC, alongside Cloudflare, Coinbase, OpenAI, Railway, SpyCloud, The Shadowserver</description>
+    </item>
+    <item>
+      <title>Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials</title>
+      <link>https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html</link>
+      <guid isPermaLink="false">de161616d309dbfa7a52</guid>
+      <pubDate>Tue, 22 Sep 2026 16:41:12 +0000</pubDate>
+      <description>A critical vulnerability in Bifrost, an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary commands on the gateway server with a single HTTP request.
+The flaw, tracked as CVE-2026-90898 (CVSS score: 9.8), affects all versions of the Bifrost HTTP transport before 2.1.0 when management authentication is</description>
+    </item>
+    <item>
+      <title>Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates</title>
+      <link>https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html</link>
+      <guid isPermaLink="false">9afcf8f08cd576cf93a6</guid>
+      <pubDate>Tue, 22 Sep 2026 16:14:04 +0000</pubDate>
+      <description>A zero-day proof-of-concept tool that stops Microsoft Defender from installing platform and signature updates by filling all available disk space was published on GitHub on September 19.
+The tool, called BigDiskBuster, has no patch, no CVE, and no Microsoft advisory. Its author, Abdelhamid Naceri, is a former Microsoft security researcher whose earlier Defender exploits were used in</description>
+    </item>
+    <item>
+      <title>AI Agents Are Rewriting the Rules of Lateral Movement</title>
+      <link>https://thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html</link>
+      <guid isPermaLink="false">3c6900176cb632abb0b6</guid>
+      <pubDate>Tue, 22 Sep 2026 12:30:00 +0000</pubDate>
+      <description>Security teams have spent decades asking whether an identity has too much access. AI agents raise a harder question: how can we determine which paths an autonomous system can discover, given the access it already has?
+A person may try several ways to complete a task. A deterministic application follows the flow its developer wrote. But an AI agent is relentless in its pursuit of done. In May</description>
+    </item>
+    <item>
+      <title>New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups</title>
+      <link>https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html</link>
+      <guid isPermaLink="false">7bbdb8f91552aa4dfe55</guid>
+      <pubDate>Tue, 22 Sep 2026 12:29:00 +0000</pubDate>
+      <description>Attackers are exploiting a new flaw in on-premises VeloCloud Orchestrator (VCO), the server that manages the Edge devices in a VeloCloud SD-WAN, Arista said on September 22.
+The flaw, tracked as CVE-2026-93952, may allow a remote attacker with no login access to privilege internal functions and affect the VCO host. Only orchestrators set up to authenticate their Edges with certificates are</description>
+    </item>
+    <item>
+      <title>DORA Year Two: Can Your SOC Actually See the Attack?</title>
+      <link>https://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html</link>
+      <guid isPermaLink="false">b19344643d481b00b06f</guid>
+      <pubDate>Tue, 22 Sep 2026 11:45:00 +0000</pubDate>
+      <description>When the Digital Operational Resilience Act (DORA) became enforceable across the European Union in January 2025, it triggered an administrative sprint. Financial entities spent the first year establishing risk governance, assessing third-party service providers, updating contract clauses, and documenting incident escalation workflows.
+Now in its second year, the harder part of DORA is</description>
+    </item>
+    <item>
+      <title>New Linux Kernel Flaw Gives ARM64 KVM Guests Read-Write Access to Host Memory</title>
+      <link>https://thehackernews.com/2026/09/new-linux-kernel-flaw-gives-arm64-kvm.html</link>
+      <guid isPermaLink="false">92d41b697f335f81858f</guid>
+      <pubDate>Tue, 22 Sep 2026 11:38:40 +0000</pubDate>
+      <description>A new flaw in the Linux kernel's KVM virtualization code for ARM64 processors can leave a freed piece of host memory exposed to a guest virtual machine on hosts with nested virtualization enabled.
+The bug, tracked as CVE-2026-89775, allows a guest to read and write host kernel memory, and the researcher who found it says it can be used to escape the guest and run code on the host machine.</description>
+    </item>
+    <item>
+      <title>SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE</title>
+      <link>https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html</link>
+      <guid isPermaLink="false">e3d3a9c21492c1c5e667</guid>
+      <pubDate>Tue, 22 Sep 2026 11:17:41 +0000</pubDate>
+      <description>A SharePoint Server vulnerability that Microsoft initially classified as a spoofing flaw with a CVSS score of 6.5 actually enables authenticated remote code execution, according to full technical details published today by Viettel Cyber Security researcher Dinh Ho Anh Khoa.
+The flaw, CVE-2026-65660, affects SharePoint Server 2016, 2019, and Subscription Edition. Patches have been</description>
+    </item>
+    <item>
+      <title>GPT-6 Astra Breaks an Old Enigma Message</title>
+      <link>https://www.schneier.com/blog/archives/2026/09/gpt-6-astra-breaks-an-old-enigma-message.html</link>
+      <guid isPermaLink="false">625181eff9b16c54c4bb</guid>
+      <pubDate>Tue, 22 Sep 2026 11:02:45 +0000</pubDate>
+      <description>This is pretty amazing:
+However, the most astonishing thing about this break is that the GPT­6 Astra did it entirely on its own. Carter Leffer only directed GPT­6 Astra to see if it could break any of the unbroken Enigma messages published on the Crypto Cellar Research web page. After analysing the unbroken messages on the website, it decided that the most promising message was Nr. 172, MVUEH and it also quickly suspected that the plaintext of Nr. 173, SIPVX, might be related to the plaintext…</description>
+      <category>Uncategorized</category>
+      <category>AI</category>
+      <category>cryptanalysis</category>
+      <category>Enigma</category>
+      <category>history of cryptography</category>
+    </item>
+    <item>
+      <title>Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal</title>
+      <link>https://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html</link>
+      <guid isPermaLink="false">63e72863f923671d257f</guid>
+      <pubDate>Tue, 22 Sep 2026 09:38:18 +0000</pubDate>
+      <description>A malicious npm package named "indexed-btree" has been observed hiding its malicious behavior within application code rather than using lifecycle scripts, indicating that threat actors are likely shifting tactics in response to recent security controls.
+"Indexed-btree is a malicious npm package mimicking the legit sorted-btree package, an ordinary B-tree/indexing utility," Checkmarx said. "</description>
+    </item>
+    <item>
+      <title>SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing</title>
+      <link>https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html</link>
+      <guid isPermaLink="false">09a12d2635d448492840</guid>
+      <pubDate>Tue, 22 Sep 2026 07:52:03 +0000</pubDate>
+      <description>The threat actor known as SideCopy has been observed using spear-phishing lures to target academic institutions in India, expanding their strategic focus beyond government entities.
+"SideCopy campaign operations typically initiate through spear-phishing campaigns that leverage the abuse of mshta.exe to execute malicious scripts and circumvent standard security protocols," Trellix researchers</description>
+    </item>
+    <item>
+      <title>One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor</title>
+      <link>https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html</link>
+      <guid isPermaLink="false">7bf4d01a51f4a4e1b3a7</guid>
+      <pubDate>Tue, 22 Sep 2026 06:33:57 +0000</pubDate>
+      <description>Malware already running on a Mac can quietly take over Meta's Muse assistant and use the broad access its owner granted the app, security researcher Patrick Wardle has shown in a proof-of-concept released on September 21.
+It works by changing a hidden setting so that when the user taps the microphone and dictates a prompt, the words go to the attacker instead of Meta.
+The flaw is in</description>
+    </item>
+    <item>
+      <title>WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session</title>
+      <link>https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html</link>
+      <guid isPermaLink="false">4ceed1ebe277afbf4d11</guid>
+      <pubDate>Tue, 22 Sep 2026 06:03:14 +0000</pubDate>
+      <description>A new flaw in WordPress core let an anonymous visitor leave a comment that planted a hidden script on the page. If a logged-in administrator later opened that page, the script could run code on the site's server.
+WordPress fixed the flaw, tracked as CVE-2026-93485 and called "Comment2Shell," on September 17 in version 7.1.1 and told site owners to update right away. There is</description>
+    </item>
+    <item>
+      <title>Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access</title>
+      <link>https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html</link>
+      <guid isPermaLink="false">c0faf96ba5b9d0106df5</guid>
+      <pubDate>Tue, 22 Sep 2026 05:31:59 +0000</pubDate>
+      <description>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a now-patched security flaw impacting Zyxel GS1900 series switches to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.
+The vulnerability, tracked as CVE-2026-7273 (CVSS score: 8.8), is a stack-based buffer overflow vulnerability that could result in arbitrary operating</description>
+    </item>
+    <item>
+      <title>Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR</title>
+      <link>https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html</link>
+      <guid isPermaLink="false">b3f849f7d47f55c68abd</guid>
+      <pubDate>Mon, 21 Sep 2026 17:31:01 +0000</pubDate>
+      <description>A fake LastPass Authenticator installer offered on GitHub installs a Windows kernel driver that shuts off antivirus and other security software before a password stealer runs if a victim downloads and runs it, researchers at LastPass and Delphos Labs said on September 17.
+Microsoft's own hardware-compatibility program signs the driver, scored zero detections on VirusTotal when researchers</description>
+    </item>
+    <item>
+      <title>Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto</title>
+      <link>https://thehackernews.com/2026/09/contagious-interview-campaign.html</link>
+      <guid isPermaLink="false">7a35fd84ee32e3b23102</guid>
+      <pubDate>Mon, 21 Sep 2026 17:19:00 +0000</pubDate>
+      <description>The North Korean threat actors behind the Contagious Interview campaign have compromised at least 30,000 devices located in more than 100 countries and siphoned funds or account credentials from over 7,000 cryptocurrency wallets, according to a new joint cybersecurity advisory.
+The primary targets of the campaign are individual web designers, engineers, and specialists in cryptocurrency,</description>
+    </item>
+    <item>
+      <title>Google Fined €403 Million Over GDPR Violations Tied to Location Data</title>
+      <link>https://thehackernews.com/2026/09/google-fined-403-million-over-gdpr.html</link>
+      <guid isPermaLink="false">bc30fcacae562b31c815</guid>
+      <pubDate>Mon, 21 Sep 2026 16:57:31 +0000</pubDate>
+      <description>Google has been fined €403 million for breaking the EU's data protection law, the GDPR, in the way three of its features handled people's location data from May 2018 to February 2020.
+Ireland's Data Protection Commission (DPC), Google's lead regulator in the EU, also ordered the company to make its processing comply with the law within 6 months. The DPC has not said publicly which</description>
+    </item>
+    <item>
+      <title>Reverse-Engineering Flock Cameras</title>
+      <link>https://www.schneier.com/blog/archives/2026/09/reverse-engineering-flock-cameras.html</link>
+      <guid isPermaLink="false">de4e9d8a5c8732d7c694</guid>
+      <pubDate>Mon, 21 Sep 2026 14:37:45 +0000</pubDate>
+      <description>Hackers captured a Flock camera and got a look (alternate link ) at the software:
+While much of the automatic license plate reader’s (ALPR) most sensitive storage remained encrypted and inaccessible, the joint analysis of the recovered data shows that software running on the device explicitly detects people as well as vehicles, license plates, and bicycles. The camera can produce dozens of images of a single passing vehicle and, according to several weeks of recovered logs, generated more than…</description>
+      <category>Uncategorized</category>
+      <category>AI</category>
+      <category>cameras</category>
+      <category>cars</category>
+      <category>reverse engineering</category>
+    </item>
+    <item>
+      <title>⚡ Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks</title>
+      <link>https://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html</link>
+      <guid isPermaLink="false">6dc0fd0aea5f691dc232</guid>
+      <pubDate>Mon, 21 Sep 2026 14:24:13 +0000</pubDate>
+      <description>A browser. A plugin. A package. A login screen. Normal stuff. That is basically the problem this week.
+The trouble keeps showing up inside things people already trust: code that takes a bad turn, old payloads coming back, exposed systems, weak checks, fake fixes, and attack paths that look almost too easy. Even the research side is getting messy, with more findings, more automation, and not</description>
+    </item>
+    <item>
+      <title>TASK#STOMP PowerShell Backdoor Steals Documents, Wi-Fi Passwords, and Clipboard Data</title>
+      <link>https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html</link>
+      <guid isPermaLink="false">5a05ba1abbce87eebee3</guid>
+      <pubDate>Mon, 21 Sep 2026 14:15:40 +0000</pubDate>
+      <description>Cybersecurity researchers have disclosed details of a new campaign dubbed TASK#STOMP that delivers a PowerShell backdoor designed to harvest sensitive data from compromised hosts.
+The backdoor "automatically harvests and exfiltrates business documents, watches the filesystem for new files in real time, steals Wi-Fi passwords and clipboard contents, takes screenshots, and accepts arbitrary</description>
+    </item>
+    <item>
+      <title>ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure</title>
+      <link>https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html</link>
+      <guid isPermaLink="false">53399ff6478c9eb36908</guid>
+      <pubDate>Mon, 21 Sep 2026 08:39:38 +0000</pubDate>
+      <description>Threat actors are leveraging ClickFix-like lures to deliver a previously undocumented remote access trojan (RAT) called ChainScript.
+"ChainScript has appeared under multiple build names, including ComponentTask33, UpdateDigital, HostShared, and OrchidViolet66, while presenting itself as Spotify, Zoom Workplace, and Microsoft Teams software," Blackpoint Adversary Pursuit Group (APG)</description>
+    </item>
+    <item>
+      <title>Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors</title>
+      <link>https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html</link>
+      <guid isPermaLink="false">d1dcc2bf07b665d7b890</guid>
+      <pubDate>Mon, 21 Sep 2026 06:06:44 +0000</pubDate>
+      <description>The North Korean threat actor known as Jade Sleet has been attributed to the compromise of an India-based "much smaller organization" in the information technology (IT) services industry, once again highlighting how the adversary continues to target developers to breach target networks.
+Cybersecurity company SentinelOne, which disclosed details of the activity, said it involved the use of Apple</description>
+    </item>
+    <item>
+      <title>Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws</title>
+      <link>https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html</link>
+      <guid isPermaLink="false">b117932a335f465cd78e</guid>
+      <pubDate>Sat, 19 Sep 2026 18:36:53 +0000</pubDate>
+      <description>Three researchers at the security firm Hacktron used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of several OpenAI employees, then reach an internal OpenAI code repository.
+The chain began with a bug in the software that runs OpenAI's public help forum and moved through a weakness in OpenAI's own login system.
+This was security research,</description>
+    </item>
+    <item>
+      <title>Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar</title>
+      <link>https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html</link>
+      <guid isPermaLink="false">f26c4c2fb293d7a5300e</guid>
+      <pubDate>Sat, 19 Sep 2026 13:28:48 +0000</pubDate>
+      <description>A new CVE drops. Your scanner finds it. The severity score looks ugly.
+But that still does not answer the question that matters: Can it actually be exploited in your environment?
+Mythos-class AI is compressing the time between disclosure and working exploitation, while many security programs still validate risk on weekly or quarterly cycles. The dangerous gap is no longer just technical. It is</description>
+    </item>
+    <item>
+      <title>Identity Visibility in 2026: The Foundation of Identity Security</title>
+      <link>https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html</link>
+      <guid isPermaLink="false">2c08df2beb4c16e7e48f</guid>
+      <pubDate>Sat, 19 Sep 2026 13:28:41 +0000</pubDate>
+      <description>Identity visibility is a starting point for modern identity security, because stolen and misused credentials are among the most frequently reported initial access vectors in breach research, including Verizon's annual Data Breach Investigations Report. This article explains what identity visibility means in IAM, why cloud and multicloud environments complicate it, which capabilities matter in</description>
+    </item>
+    <item>
+      <title>SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE</title>
+      <link>https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html</link>
+      <guid isPermaLink="false">4e5687e6713d6ec51c9f</guid>
+      <pubDate>Sat, 19 Sep 2026 09:31:17 +0000</pubDate>
+      <description>SolarWinds has released security updates to address a high-severity flaw in Access Rights Manager (ARM) that, if successfully exploited, could lead to an unauthenticated remote code execution vulnerability.
+The vulnerability, tracked as CVE-2026-28326, is rated 8.8 out of 10.0 on the CVSS scoring system. The issue affects all versions of Access Rights Manager 2026.2 and prior.
+"SolarWinds</description>
+    </item>
+    <item>
+      <title>Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild</title>
+      <link>https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html</link>
+      <guid isPermaLink="false">36a1d68990c919349bd3</guid>
+      <pubDate>Sat, 19 Sep 2026 08:18:54 +0000</pubDate>
+      <description>A critical vulnerability impacting Orkes Conductor is being actively exploited in the wild, according to Fortinet.
+The vulnerability in question is CVE-2026-58138 (CVSS v3.1 score: 9.8/CVSS v4 score: 9.3), which relates to a case of unauthenticated remote code execution.
+"Orkes Conductor 3.21.21 before 3.30.2 contains an unauthenticated remote code execution vulnerability that allows remote</description>
+    </item>
+    <item>
+      <title>Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up</title>
+      <link>https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html</link>
+      <guid isPermaLink="false">dd9a4a839927a7ffd39f</guid>
+      <pubDate>Sat, 19 Sep 2026 07:51:34 +0000</pubDate>
+      <description>Google's Gemini model has become the latest artificial intelligence (AI) system to access the internet and break into other companies during a cybersecurity evaluation. The development was first reported by The Wall Street Journal.
+The incidents occurred in May 2026 as part of a test run conducted by Israeli company Irregular. The evaluation partner was also involved in similar hacks disclosed</description>
+    </item>
+    <item>
+      <title>Friday Squid Blogging: On Squid Egg Sacs</title>
+      <link>https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-on-squid-egg-sacs.html</link>
+      <guid isPermaLink="false">22747b02e9527913f745</guid>
+      <pubDate>Fri, 18 Sep 2026 21:06:00 +0000</pubDate>
+      <description>Short essay about squid egg sacs.
+As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered.
+Blog moderation policy.</description>
+      <category>Uncategorized</category>
+      <category>squid</category>
+    </item>
+    <item>
+      <title>Are AIs Still Struggling with CAPTCHAs?</title>
+      <link>https://www.schneier.com/blog/archives/2026/09/are-ais-still-struggling-with-captchas.html</link>
+      <guid isPermaLink="false">feaf471b74244aa2ace0</guid>
+      <pubDate>Fri, 18 Sep 2026 11:05:52 +0000</pubDate>
+      <description>Anthropic’s recent security-incident document contains a bit about how CAPTCHAs are still frustrating Claude.
+In the transcript, the Claude model that is so powerful that Anthropic is gatekeeping access to it appeared to slam its virtual head against the wall solving a simple image identification test. In a test where the agent was asked to identify a shape that didn’t match the others displayed, it couldn’t even decide which image to select. Instead, it repeatedly went over the same images and…</description>
+      <category>Uncategorized</category>
+      <category>AI</category>
+      <category>captchas</category>
+      <category>games</category>
+    </item>
+    <item>
+      <title>How Candidates Could Use AI for Good</title>
+      <link>https://www.schneier.com/blog/archives/2026/09/how-candidates-could-use-ai-for-good.html</link>
+      <guid isPermaLink="false">6632fd936f50aa3e5a9a</guid>
+      <pubDate>Thu, 17 Sep 2026 11:06:31 +0000</pubDate>
+      <description>This essay was written with Nathan E. Sanders, and originally appeared in The Guardian .
+There are plenty of signs that AI will make all of our experiences of the US midterm elections worse. Voters have anxiety about AI’s impacts on the country. Politicos are using AI deepfakes to spread lies. The White House is posting slopaganda .
+Meanwhile, candidates are missing a real opportunity to use AI to make campaigning better. The technology can help candidates listen more deeply to voters’…</description>
+      <category>Uncategorized</category>
+      <category>AI</category>
+      <category>democracy</category>
+      <category>LLM</category>
+    </item>
+    <item>
+      <title>Data Broker Radaris Loses Domains in Privacy Fight</title>
+      <link>https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/</link>
+      <guid isPermaLink="false">9391ba4081e96e6ea053</guid>
+      <pubDate>Wed, 16 Sep 2026 18:14:22 +0000</pubDate>
+      <description>The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That reputation caught up with the company recently in a lawsuit alleging Radaris violated a New Jersey privacy law that provides for hefty fines against data brokers that publish personal information on state law enforcement officials. In the face of repeated stonewalling and prevarication by attorneys for Radaris, the judge…</description>
+      <category>A Little Sunshine</category>
+      <category>Ne'er-Do-Well News</category>
+      <category>Andtop Company</category>
+      <category>Atlas Data Privacy</category>
+      <category>Bitseller Expert Limited</category>
+      <category>Dmitry Lubarsky</category>
+      <category>Gary Norden</category>
+      <category>Igor Lubarsky</category>
+      <category>Justin Sherman</category>
+      <category>Lifetime Value Company</category>
+      <category>Matt Adkisson</category>
+      <category>NumberGuru</category>
+      <category>OneRep</category>
+      <category>PEM Law</category>
+      <category>PeopleLooker</category>
+      <category>PeopleSmart</category>
+      <category>Radaris</category>
+      <category>Radaris.com</category>
+      <category>Raj Parikh</category>
+      <category>Val Gurvits</category>
+      <category>Victor Worms</category>
+    </item>
+    <item>
+      <title>Fake CAPTCHA Scams</title>
+      <link>https://www.schneier.com/blog/archives/2026/09/fake-captcha-scams.html</link>
+      <guid isPermaLink="false">444eac8f92204f6b3f60</guid>
+      <pubDate>Wed, 16 Sep 2026 11:25:26 +0000</pubDate>
+      <description>New variant of an old scam: Use the framing of a CAPTCHA to get an unsuspecting user to download and run a malicious program.</description>
+      <category>Uncategorized</category>
+      <category>captchas</category>
+      <category>scams</category>
+    </item>
+    <item>
+      <title>25 Years of Mass Surveillance Is Enough</title>
+      <link>https://www.schneier.com/blog/archives/2026/09/25-years-of-mass-surveillance-is-enough.html</link>
+      <guid isPermaLink="false">7f5c07ec9f3bbb91422d</guid>
+      <pubDate>Tue, 15 Sep 2026 11:01:41 +0000</pubDate>
+      <description>This essay was written with Cindy Cohn, and originally appeared in Lawfare .
+One of the many legacies of the terrorist attacks of Sept. 11 is the government-wide shift from targeted surveillance—such as individual wiretaps or pen register/trap and trace orders—to mass surveillance techniques—such as tapping into the internet backbone or mass collection of telephone or internet metadata. The legal and technical architecture of modern mass surveillance, initially framed as a necessary defense…</description>
+      <category>Uncategorized</category>
+      <category>privacy</category>
+      <category>surveillance</category>
+    </item>
+    <item>
+      <title>On the NSA’s Supercomputer from the 1960s</title>
+      <link>https://www.schneier.com/blog/archives/2026/09/on-the-nsas-supercomputer-from-the-1960s.html</link>
+      <guid isPermaLink="false">f852ff89f116646c48d8</guid>
+      <pubDate>Tue, 15 Sep 2026 10:16:24 +0000</pubDate>
+      <description>Really interesting story about Harvest, a specialized code breaking computer built in the 1960s by IBM for the NSA.</description>
+      <category>Uncategorized</category>
+      <category>history of computing</category>
+      <category>history of cryptography</category>
+      <category>IBM</category>
+      <category>intelligence</category>
+      <category>NSA</category>
+    </item>
+    <item>
+      <title>Microsoft Plugs Nearly 1,000 Security Holes</title>
+      <link>https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/</link>
+      <guid isPermaLink="false">f50c5a6002155cfff308</guid>
+      <pubDate>Tue, 08 Sep 2026 21:44:22 +0000</pubDate>
+      <description>Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the discovery of vulnerabilities, but security experts warn that many organizations already are struggling to prioritize the more human-intensive endeavor of testing and deploying so many fixes each month.</description>
+      <category>Latest Warnings</category>
+      <category>Security Tools</category>
+      <category>Time to Patch</category>
+      <category>CVE-2026-69730</category>
+      <category>CVE-2026-69829</category>
+      <category>CVE-2026-81963</category>
+      <category>CVE-2026-85880</category>
+      <category>Fortra</category>
+      <category>Microsoft Patch Tuesday September 2026</category>
+      <category>Satnam Narang</category>
+      <category>Tenable</category>
+      <category>Tyler Reguly</category>
+    </item>
+    <item>
+      <title>FBI Probes Service Selling 153M+ Drivers Licenses</title>
+      <link>https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/</link>
+      <guid isPermaLink="false">3bcd1878e2f285789a87</guid>
+      <pubDate>Tue, 01 Sep 2026 22:40:28 +0000</pubDate>
+      <description>A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning images collected by a widely-used identity verification company based in Louisiana. KrebsOnSecurity also has learned that the New Orleans field office of the Federal Bureau of Investigation (FBI)…</description>
+      <category>A Little Sunshine</category>
+      <category>Data Breaches</category>
+      <category>The Coming Storm</category>
+      <category>Web Fraud 2.0</category>
+      <category>Cybera</category>
+      <category>DecryptAds</category>
+      <category>exploit</category>
+      <category>Hertz</category>
+      <category>idscan.net</category>
+      <category>Jillian Kossman</category>
+      <category>Larry Baldwin</category>
+      <category>Nexus</category>
+      <category>Planet13</category>
+      <category>Zach Edwards</category>
+    </item>
+    <item>
+      <title>Two Alleged ‘TeamPCP’ Hackers Arrested in Australia</title>
+      <link>https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/</link>
+      <guid isPermaLink="false">73e80e597a1078089ea4</guid>
+      <pubDate>Thu, 27 Aug 2026 11:04:15 +0000</pubDate>
+      <description>Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrating the longest running spree of software supply chain attacks ever.
+In a statement released today, the Australian Federal Police (AFP) said two unnamed suspects from Western Australia, aged 21 and 23, were arrested in connection with a "sophisticated cybercrime syndicate that allegedly created malicious open-source software to rob thousands of…</description>
+      <category>Breadcrumbs</category>
+      <category>Ne'er-Do-Well News</category>
+      <category>Ransomware</category>
+      <category>Aikido Security</category>
+      <category>BulkDMT</category>
+      <category>Charlie Eriksen</category>
+      <category>Constella Intelligence</category>
+      <category>cybercats</category>
+      <category>domaintools</category>
+      <category>Ellis</category>
+      <category>Epieos</category>
+      <category>Express</category>
+      <category>Flashpoint</category>
+      <category>GitHub</category>
+      <category>Intel 471</category>
+      <category>OPSEC Express</category>
+      <category>pcpcats</category>
+      <category>Persy_PCP</category>
+      <category>Ruben Thomson</category>
+      <category>ruben@securecomputing.au</category>
+      <category>rubenthomson.com</category>
+      <category>sheepstealing@gmail.com</category>
+      <category>shitstickpp@gmail.com</category>
+      <category>SpyCloud</category>
+      <category>surfinup8@gmail.com</category>
+      <category>TeamPCP</category>
+      <category>Tensor Industries</category>
+      <category>yolosolo17@gmail.com</category>
+    </item>
+    <item>
+      <title>Who’s Tracking You? Use This New Service to Find Out</title>
+      <link>https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/</link>
+      <guid isPermaLink="false">11fa1b71ca22e60db39d</guid>
+      <pubDate>Fri, 14 Aug 2026 11:24:35 +0000</pubDate>
+      <description>It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but it is not easily parsed and traditionally much of it has remained walled away in the hands of large advertising platforms. Not anymore: A powerful and free new service called DecryptAds scrapes and correlates this adtech data and makes it simple to quickly learn a great deal about the entities…</description>
+      <category>A Little Sunshine</category>
+      <category>Security Tools</category>
+      <category>Web Fraud 2.0</category>
+      <category>AdBlock</category>
+      <category>AdBlock Plus</category>
+      <category>Alfa Bank</category>
+      <category>Between Digital</category>
+      <category>BitSight</category>
+      <category>DecryptAds</category>
+      <category>Fengwo Group</category>
+      <category>Infoblox</category>
+      <category>opera</category>
+      <category>Pi-hole</category>
+      <category>Raspberry Pi</category>
+      <category>uBlock Origin</category>
+      <category>Zach Edwards</category>
+    </item>
+    <item>
+      <title>Microsoft Plugs Nearly 400 Security Holes</title>
+      <link>https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/</link>
+      <guid isPermaLink="false">3c7ea3016c92b7895458</guid>
+      <pubDate>Tue, 11 Aug 2026 21:28:35 +0000</pubDate>
+      <description>Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to today.</description>
+      <category>Latest Warnings</category>
+      <category>Security Tools</category>
+      <category>Time to Patch</category>
+      <category>1Password</category>
+      <category>afd.sys</category>
+      <category>Automox</category>
+      <category>CVE-2026-62832</category>
+      <category>CVE-2026-68820</category>
+      <category>CVE-2026-72971</category>
+      <category>Ed Skoudis</category>
+      <category>Landon Miles</category>
+      <category>Microsoft Patch Tuesday August 2026</category>
+      <category>Nightmare Eclipse</category>
+      <category>SANS Technology Institute</category>
+    </item>
+    <item>
+      <title>Canadian Man Pleads Guilty in Snowflake Extortions</title>
+      <link>https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/</link>
+      <guid isPermaLink="false">c51b1f4c80ab53f5cb88</guid>
+      <pubDate>Thu, 06 Aug 2026 17:00:56 +0000</pubDate>
+      <description>A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontario, also admitted to stealing call and text history records of more than 100 million AT&amp;T customers.</description>
+      <category>Breadcrumbs</category>
+      <category>Ne'er-Do-Well News</category>
+      <category>Ransomware</category>
+      <category>Cameron John Wagenius</category>
+      <category>Connor Riley Moucka</category>
+      <category>IntelSecrets</category>
+      <category>IRDev</category>
+      <category>John Erin Binns</category>
+      <category>Judische</category>
+      <category>Snowflake</category>
+      <category>Waifu</category>
+    </item>
+    <item>
+      <title>Read This Before You Buy That TV Streaming Stick</title>
+      <link>https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/</link>
+      <guid isPermaLink="false">5e463a5e34e75e3b3e51</guid>
+      <pubDate>Thu, 30 Jul 2026 16:49:00 +0000</pubDate>
+      <description>Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-time fee, warning that they secretly rent the user's Internet connection out to strangers. But a groundbreaking new analysis finds these devices also routinely spoof themselves as mobile phones clicking ads on AI-generated websites as part of sprawling operation that seeks to defraud online merchants and advertising networks.</description>
+      <category>A Little Sunshine</category>
+      <category>Internet of Things (IoT)</category>
+      <category>Latest Warnings</category>
+      <category>Web Fraud 2.0</category>
+      <category>AI digital humans</category>
+      <category>BitSight</category>
+      <category>Bitsight TRACE</category>
+      <category>Blockly</category>
+      <category>Fengwo Group</category>
+      <category>H96</category>
+      <category>Huawei</category>
+      <category>Pedro Falé</category>
+      <category>residential proxy</category>
+      <category>Samsung</category>
+      <category>Vivo</category>
+      <category>Xiaomi</category>
+      <category>Zhejiang Fengwo IoT Technology Ltd</category>
+    </item>
+    <item>
+      <title>LG to Ban Residential Proxies from Smart TV Apps</title>
+      <link>https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/</link>
+      <guid isPermaLink="false">d24ca5492336d299b99a</guid>
+      <pubDate>Wed, 22 Jul 2026 01:10:38 +0000</pubDate>
+      <description>The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one's television into an always-on residential proxy node. The move comes less than a month after researchers found that more than 42 percent of games and other apps available for download on LG's webOS store allow unknown third-parties to route their Internet traffic through a user's TV.</description>
+      <category>A Little Sunshine</category>
+      <category>Internet of Things (IoT)</category>
+      <category>The Coming Storm</category>
+      <category>Bright Data</category>
+      <category>John Taylor</category>
+      <category>LG Electronics USA</category>
+      <category>residential proxies</category>
+      <category>Samsung</category>
+      <category>Spur</category>
+      <category>Tizen</category>
+      <category>Trevor Sutter</category>
+      <category>webOS</category>
+    </item>
+    <item>
+      <title>Microsoft Patches a Record 570 Security Flaws</title>
+      <link>https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/</link>
+      <guid isPermaLink="false">df567a66968888f1fb74</guid>
+      <pubDate>Tue, 14 Jul 2026 19:22:42 +0000</pubDate>
+      <description>Microsoft Corp. today released software updates to plug at least 570 security holes in its Windows operating systems and other software, almost triple the number of vulnerabilities the software giant fixed in its record-smashing Patch Tuesday release last month. Microsoft attributed the burgeoning patch counts to vulnerability discoveries aided by artificial intelligence.</description>
+      <category>Security Tools</category>
+      <category>The Coming Storm</category>
+      <category>Time to Patch</category>
+      <category>Action1</category>
+      <category>Active Directory Federation Services</category>
+      <category>Chris Goettl</category>
+      <category>CVE-2026-48561</category>
+      <category>CVE-2026-50661</category>
+      <category>CVE-2026-56155</category>
+      <category>CVE-2026-56164</category>
+      <category>Ivanti</category>
+      <category>Jack Bicer</category>
+      <category>Microsoft Corp.</category>
+      <category>Patch Tuesday July 2026</category>
+      <category>Pavan Davuluri</category>
+      <category>Satnam Narang</category>
+      <category>Tenable</category>
+      <category>Windows BitLocker</category>
+    </item>
+  </channel>
+</rss>

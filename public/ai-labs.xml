@@ -2,10 +2,16 @@
 <rss version="2.0">
   <channel>
     <title>AI lab announcements</title>
-    <link>https://huggingface.co/blog/feed.xml</link>
+    <link>https://deepmind.google/blog/rss.xml</link>
     <description>Events collected by UnlimitedPipe 0.3.1</description>
     <generator>UnlimitedPipe 0.3.1</generator>
-    <lastBuildDate>Thu, 24 Sep 2026 15:32:45 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 17:25:58 +0000</lastBuildDate>
+    <item>
+      <title>Introducing Gemini 3.8 Live with Live Avatar</title>
+      <link>https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/</link>
+      <guid isPermaLink="false">f55fb15376412c869bd1</guid>
+      <pubDate>Thu, 24 Sep 2026 16:20:39 +0000</pubDate>
+    </item>
     <item>
       <title>Accelerating vision-language models with LFM2.5-VL-DSpark</title>
       <link>https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark</link>
@@ -736,13 +742,6 @@
       <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
       <description>OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.</description>
       <category>Security</category>
-    </item>
-    <item>
-      <title>How loveholidays is making everyone a builder with Codex</title>
-      <link>https://openai.com/index/loveholidays</link>
-      <guid isPermaLink="false">4b901ae4b296b5497af8</guid>
-      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
-      <description>Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.</description>
     </item>
   </channel>
 </rss>

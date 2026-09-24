@@ -1,13 +1,87 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "AI lab announcements",
-  "home_page_url": "https://huggingface.co/blog/feed.xml",
+  "home_page_url": "https://deepmind.google/blog/rss.xml",
   "description": "Events collected by UnlimitedPipe 0.3.1",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
     "generator": "UnlimitedPipe 0.3.1"
   },
   "items": [
+    {
+      "id": "f55fb15376412c869bd1",
+      "title": "Introducing Gemini 3.8 Live with Live Avatar",
+      "content_text": "Introducing Gemini 3.8 Live with Live Avatar",
+      "date_published": "2026-09-24T16:20:39Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "f55fb15376412c869bd1",
+          "source": "rss",
+          "type": "change",
+          "key": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+          "source_url": "https://deepmind.google/blog/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:25:58Z",
+          "data": {
+            "change": "added",
+            "label": "Introducing Gemini 3.8 Live with Live Avatar",
+            "item_type": "entry",
+            "summary": "added: Introducing Gemini 3.8 Live with Live Avatar",
+            "after": {
+              "title": "Introducing Gemini 3.8 Live with Live Avatar",
+              "link": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+              "id": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+              "author": null,
+              "published_at": "2026-09-24T16:20:39Z",
+              "updated_at": "2026-09-24T16:20:39Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Google DeepMind News",
+                "url": "https://deepmind.google/blog/",
+                "feed_url": "https://deepmind.google/blog/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://deepmind.google/blog/rss.xml",
+            "elapsed_ms": 132,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "namespace": "ai-labs",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/"
+    },
     {
       "id": "4795bb991cc76de8ff85",
       "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
@@ -7643,80 +7717,6 @@
       "tags": [
         "Security"
       ]
-    },
-    {
-      "id": "4b901ae4b296b5497af8",
-      "title": "How loveholidays is making everyone a builder with Codex",
-      "content_text": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
-      "date_published": "2026-09-24T10:05:22Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "4b901ae4b296b5497af8",
-          "source": "rss",
-          "type": "change",
-          "key": "https://openai.com/index/loveholidays",
-          "source_url": "https://openai.com/news/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T10:05:22Z",
-          "data": {
-            "change": "added",
-            "label": "How loveholidays is making everyone a builder with Codex",
-            "item_type": "entry",
-            "summary": "added: How loveholidays is making everyone a builder with Codex",
-            "after": {
-              "title": "How loveholidays is making everyone a builder with Codex",
-              "link": "https://openai.com/index/loveholidays",
-              "id": "https://openai.com/index/loveholidays",
-              "author": null,
-              "published_at": "2026-08-26T00:00:00Z",
-              "updated_at": "2026-08-26T00:00:00Z",
-              "summary": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
-              "categories": [],
-              "feed": {
-                "title": "OpenAI News",
-                "url": "https://openai.com/news",
-                "feed_url": "https://openai.com/news/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://openai.com/news/rss.xml",
-            "elapsed_ms": 119,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.0"
-            },
-            {
-              "step": "sort",
-              "version": "0.3.0",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.0",
-              "args": {
-                "namespace": "ai-labs",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://openai.com/index/loveholidays"
     }
   ]
 }

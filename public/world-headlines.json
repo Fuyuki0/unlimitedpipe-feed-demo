@@ -1,13 +1,1494 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "World headlines (BBC, NPR, Al Jazeera)",
-  "home_page_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+  "home_page_url": "https://www.aljazeera.com/xml/rss/all.xml",
   "description": "Events collected by UnlimitedPipe 0.3.1",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
     "generator": "UnlimitedPipe 0.3.1"
   },
   "items": [
+    {
+      "id": "70045fad67cfc5d4c95c",
+      "title": "Ukrainian knifeman kills one, wounds four at abbey in Poland",
+      "content_text": "Ukraine's President Zelenskyy denounces 'horrific crime' after 31-year-old attacks clergy, worshippers in border town.",
+      "date_published": "2026-09-24T17:15:31Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "70045fad67cfc5d4c95c",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790266412",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:38Z",
+          "data": {
+            "change": "added",
+            "label": "Ukrainian knifeman kills one, wounds four at abbey in Poland",
+            "item_type": "entry",
+            "summary": "added: Ukrainian knifeman kills one, wounds four at abbey in Poland",
+            "after": {
+              "title": "Ukrainian knifeman kills one, wounds four at abbey in Poland",
+              "link": "https://www.aljazeera.com/news/2026/9/24/ukrainian-knifeman-kills-one-wounds-four-at-abbey-in-poland?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790266412",
+              "author": null,
+              "published_at": "2026-09-24T17:15:31Z",
+              "updated_at": "2026-09-24T17:15:31Z",
+              "summary": "Ukraine's President Zelenskyy denounces 'horrific crime' after 31-year-old attacks clergy, worshippers in border town.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 143,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.1"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/news/2026/9/24/ukrainian-knifeman-kills-one-wounds-four-at-abbey-in-poland?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "1140897845d268d4aa51",
+      "title": "Jerusalem Daily: Ben-Gvir sets out bid to become defence minister",
+      "content_text": "In October elections, Israel’s national security minister Itamar Ben-Gvir is hoping to become defence minister.",
+      "date_published": "2026-09-24T17:08:50Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "1140897845d268d4aa51",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790269458",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:38Z",
+          "data": {
+            "change": "added",
+            "label": "Jerusalem Daily: Ben-Gvir sets out bid to become defence minister",
+            "item_type": "entry",
+            "summary": "added: Jerusalem Daily: Ben-Gvir sets out bid to become defence minister",
+            "after": {
+              "title": "Jerusalem Daily: Ben-Gvir sets out bid to become defence minister",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/24/jerusalem-daily-ben-gvir-sets-out-bid-to-become-defence-minister?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790269458",
+              "author": null,
+              "published_at": "2026-09-24T17:08:50Z",
+              "updated_at": "2026-09-24T17:08:50Z",
+              "summary": "In October elections, Israel’s national security minister Itamar Ben-Gvir is hoping to become defence minister.",
+              "categories": [
+                "Show Types"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 143,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.1"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/jerusalem-daily-ben-gvir-sets-out-bid-to-become-defence-minister?traffic_source=rss",
+      "tags": [
+        "Show Types"
+      ]
+    },
+    {
+      "id": "258a0a8a3d0d4e068dd6",
+      "title": "Collapsing currency and inflation leave families struggling in Sudan",
+      "content_text": "Rising bread, sugar and meat prices strain Sudanese households already grappling with war and economic instability.",
+      "date_published": "2026-09-24T17:03:55Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "258a0a8a3d0d4e068dd6",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1789652809",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:38Z",
+          "data": {
+            "change": "added",
+            "label": "Collapsing currency and inflation leave families struggling in Sudan",
+            "item_type": "entry",
+            "summary": "added: Collapsing currency and inflation leave families struggling in Sudan",
+            "after": {
+              "title": "Collapsing currency and inflation leave families struggling in Sudan",
+              "link": "https://www.aljazeera.com/features/2026/9/24/collapsing-currency-and-inflation-leave-families-struggling-in-sudan?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1789652809",
+              "author": null,
+              "published_at": "2026-09-24T17:03:55Z",
+              "updated_at": "2026-09-24T17:03:55Z",
+              "summary": "Rising bread, sugar and meat prices strain Sudanese households already grappling with war and economic instability.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 143,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.1"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/features/2026/9/24/collapsing-currency-and-inflation-leave-families-struggling-in-sudan?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "c39cbacfe218700f9a29",
+      "title": "Gaza’s recovery needs reach $71.5bn amid ‘most severe economic crisis’: UN",
+      "content_text": "UN trade body report says consequences of Israeli occupation have 'skyrocketed' with 90% unemployed in Gaza.",
+      "date_published": "2026-09-24T17:03:31Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c39cbacfe218700f9a29",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790260688",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:38Z",
+          "data": {
+            "change": "added",
+            "label": "Gaza’s recovery needs reach $71.5bn amid ‘most severe economic crisis’: UN",
+            "item_type": "entry",
+            "summary": "added: Gaza’s recovery needs reach $71.5bn amid ‘most severe economic crisis’: UN",
+            "after": {
+              "title": "Gaza’s recovery needs reach $71.5bn amid ‘most severe economic crisis’: UN",
+              "link": "https://www.aljazeera.com/news/2026/9/24/gazas-recovery-needs-reach-71-5bn-amid-most-severe-economic-crisis-un?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790260688",
+              "author": null,
+              "published_at": "2026-09-24T17:03:31Z",
+              "updated_at": "2026-09-24T17:03:31Z",
+              "summary": "UN trade body report says consequences of Israeli occupation have 'skyrocketed' with 90% unemployed in Gaza.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 143,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.1"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/news/2026/9/24/gazas-recovery-needs-reach-71-5bn-amid-most-severe-economic-crisis-un?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "b57b08114328d07da9c6",
+      "title": "Africa’s bid for a seat on the Security Council",
+      "content_text": "Africa has 54 countries at the United Nations, but not one has a permanent seat on the powerful UN Security Council.",
+      "date_published": "2026-09-24T16:58:49Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "b57b08114328d07da9c6",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790268782",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:38Z",
+          "data": {
+            "change": "added",
+            "label": "Africa’s bid for a seat on the Security Council",
+            "item_type": "entry",
+            "summary": "added: Africa’s bid for a seat on the Security Council",
+            "after": {
+              "title": "Africa’s bid for a seat on the Security Council",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/24/africas-bid-for-a-seat-on-the-security-council?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790268782",
+              "author": null,
+              "published_at": "2026-09-24T16:58:49Z",
+              "updated_at": "2026-09-24T16:58:49Z",
+              "summary": "Africa has 54 countries at the United Nations, but not one has a permanent seat on the powerful UN Security Council.",
+              "categories": [
+                "Show Types"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 143,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.1"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/africas-bid-for-a-seat-on-the-security-council?traffic_source=rss",
+      "tags": [
+        "Show Types"
+      ]
+    },
+    {
+      "id": "89854d42d7b8762285b6",
+      "title": "‘Hostile, but hooked’: What’s behind the US-China trade truce extension?",
+      "content_text": "Some analysts say extending the truce is pure optics - others say it's a useful step towards a more durable deal.",
+      "date_published": "2026-09-24T16:53:29Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "89854d42d7b8762285b6",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790256752",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:38Z",
+          "data": {
+            "change": "added",
+            "label": "‘Hostile, but hooked’: What’s behind the US-China trade truce extension?",
+            "item_type": "entry",
+            "summary": "added: ‘Hostile, but hooked’: What’s behind the US-China trade truce extension?",
+            "after": {
+              "title": "‘Hostile, but hooked’: What’s behind the US-China trade truce extension?",
+              "link": "https://www.aljazeera.com/news-analysis/2026/9/24/hostile-but-hooked-whats-behind-the-us-china-trade-truce-extension?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790256752",
+              "author": null,
+              "published_at": "2026-09-24T16:53:29Z",
+              "updated_at": "2026-09-24T16:53:29Z",
+              "summary": "Some analysts say extending the truce is pure optics - others say it's a useful step towards a more durable deal.",
+              "categories": [
+                "News Analysis"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 143,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.1"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/news-analysis/2026/9/24/hostile-but-hooked-whats-behind-the-us-china-trade-truce-extension?traffic_source=rss",
+      "tags": [
+        "News Analysis"
+      ]
+    },
+    {
+      "id": "8cfbf71ee5d642b8acf6",
+      "title": "Four civilians killed in Pakistani airstrikes in Afghanistan",
+      "content_text": "Four civilians have been killed in the latest Pakistani airstrikes in Afghanistan.",
+      "date_published": "2026-09-24T16:51:30Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "8cfbf71ee5d642b8acf6",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790267896",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:38Z",
+          "data": {
+            "change": "added",
+            "label": "Four civilians killed in Pakistani airstrikes in Afghanistan",
+            "item_type": "entry",
+            "summary": "added: Four civilians killed in Pakistani airstrikes in Afghanistan",
+            "after": {
+              "title": "Four civilians killed in Pakistani airstrikes in Afghanistan",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/24/four-civilians-killed-in-pakistani-airstrikes-in-afghanistan?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790267896",
+              "author": null,
+              "published_at": "2026-09-24T16:51:30Z",
+              "updated_at": "2026-09-24T16:51:30Z",
+              "summary": "Four civilians have been killed in the latest Pakistani airstrikes in Afghanistan.",
+              "categories": [
+                "Show Types"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 143,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.1"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/four-civilians-killed-in-pakistani-airstrikes-in-afghanistan?traffic_source=rss",
+      "tags": [
+        "Show Types"
+      ]
+    },
+    {
+      "id": "f0c29bdeafcf94895d16",
+      "title": "Media outlets access to White House restored after a chaotic few hours",
+      "content_text": "A US federal judge had ordered the White House to 'immediately return, reinstate and restore' the three outlets' access.",
+      "date_published": "2026-09-24T16:45:39Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "f0c29bdeafcf94895d16",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790263868",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:38Z",
+          "data": {
+            "change": "added",
+            "label": "Media outlets access to White House restored after a chaotic few hours",
+            "item_type": "entry",
+            "summary": "added: Media outlets access to White House restored after a chaotic few hours",
+            "after": {
+              "title": "Media outlets access to White House restored after a chaotic few hours",
+              "link": "https://www.aljazeera.com/economy/2026/9/24/media-outlets-still-denied-access-to-white-house-despite-judges-order?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790263868",
+              "author": null,
+              "published_at": "2026-09-24T16:45:39Z",
+              "updated_at": "2026-09-24T16:45:39Z",
+              "summary": "A US federal judge had ordered the White House to 'immediately return, reinstate and restore' the three outlets' access.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 143,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.1"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/economy/2026/9/24/media-outlets-still-denied-access-to-white-house-despite-judges-order?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "c3ee1d67b4bada57417f",
+      "title": "Greek PM urges UK PM to return Elgin Marbles permanently",
+      "content_text": "Andy Burnham said in 2023 the sculptures should be returned to Greece with \"no strings attached\".",
+      "date_published": "2026-09-24T16:36:33Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c3ee1d67b4bada57417f",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/cqm2mgk6mlddo#1",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:38Z",
+          "data": {
+            "change": "added",
+            "label": "Greek PM urges UK PM to return Elgin Marbles permanently",
+            "item_type": "entry",
+            "summary": "added: Greek PM urges UK PM to return Elgin Marbles permanently",
+            "after": {
+              "title": "Greek PM urges UK PM to return Elgin Marbles permanently",
+              "link": "https://www.bbc.co.uk/news/articles/cqm2mgk6mlddo?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/cqm2mgk6mlddo#1",
+              "author": null,
+              "published_at": "2026-09-24T16:36:33Z",
+              "updated_at": "2026-09-24T16:36:33Z",
+              "summary": "Andy Burnham said in 2023 the sculptures should be returned to Greece with \"no strings attached\".",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 139,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.1"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/cqm2mgk6mlddo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "589d81bd7da364c67ede",
+      "title": "Mahmoud Abbas: What will it take to ‘protect’ Palestine?",
+      "content_text": "Palestinian President Mahmoud Abbas questioned how long the world would “remain silent” on Israel's actions.",
+      "date_published": "2026-09-24T16:35:16Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "589d81bd7da364c67ede",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790267075",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:38Z",
+          "data": {
+            "change": "added",
+            "label": "Mahmoud Abbas: What will it take to ‘protect’ Palestine?",
+            "item_type": "entry",
+            "summary": "added: Mahmoud Abbas: What will it take to ‘protect’ Palestine?",
+            "after": {
+              "title": "Mahmoud Abbas: What will it take to ‘protect’ Palestine?",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/24/mahmoud-abbas-what-will-it-take-to-protect-palestine?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790267075",
+              "author": null,
+              "published_at": "2026-09-24T16:35:16Z",
+              "updated_at": "2026-09-24T16:35:16Z",
+              "summary": "Palestinian President Mahmoud Abbas questioned how long the world would “remain silent” on Israel's actions.",
+              "categories": [
+                "Show Types"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 143,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.1"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/mahmoud-abbas-what-will-it-take-to-protect-palestine?traffic_source=rss",
+      "tags": [
+        "Show Types"
+      ]
+    },
+    {
+      "id": "81d6568f5bdeea3f361f",
+      "title": "Trump invites Putin to Miami G20: Why that matters",
+      "content_text": "US Secretary of State Rubio said the summit would be an 'opportunity' for Putin to engage with other world leaders.",
+      "date_published": "2026-09-24T16:32:56Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "81d6568f5bdeea3f361f",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790252692",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:38Z",
+          "data": {
+            "change": "added",
+            "label": "Trump invites Putin to Miami G20: Why that matters",
+            "item_type": "entry",
+            "summary": "added: Trump invites Putin to Miami G20: Why that matters",
+            "after": {
+              "title": "Trump invites Putin to Miami G20: Why that matters",
+              "link": "https://www.aljazeera.com/news/2026/9/24/trump-invites-putin-to-miami-g20-why-that-matters?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790252692",
+              "author": null,
+              "published_at": "2026-09-24T16:32:56Z",
+              "updated_at": "2026-09-24T16:32:56Z",
+              "summary": "US Secretary of State Rubio said the summit would be an 'opportunity' for Putin to engage with other world leaders.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 143,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.1"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/news/2026/9/24/trump-invites-putin-to-miami-g20-why-that-matters?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "dec90713150e4016b7f7",
+      "title": "Mortgage rates have just surpassed 7% for the first time in well over a year",
+      "content_text": "Rates have climbed more than a full percentage point since the U.S. war against Iran started.",
+      "date_published": "2026-09-24T16:01:44Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "dec90713150e4016b7f7",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.npr.org/2026/09/24/nx-s1-5977796/mortgage-rates-freddie-mac-homebuying",
+          "source_url": "https://feeds.npr.org/1001/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:38Z",
+          "data": {
+            "change": "added",
+            "label": "Mortgage rates have just surpassed 7% for the first time in well over a year",
+            "item_type": "entry",
+            "summary": "added: Mortgage rates have just surpassed 7% for the first time in well over a year",
+            "after": {
+              "title": "Mortgage rates have just surpassed 7% for the first time in well over a year",
+              "link": "https://www.npr.org/2026/09/24/nx-s1-5977796/mortgage-rates-freddie-mac-homebuying",
+              "id": "https://www.npr.org/2026/09/24/nx-s1-5977796/mortgage-rates-freddie-mac-homebuying",
+              "author": "Stephan Bisaha",
+              "published_at": "2026-09-24T16:01:44Z",
+              "updated_at": "2026-09-24T16:01:44Z",
+              "summary": "Rates have climbed more than a full percentage point since the U.S. war against Iran started.",
+              "categories": [],
+              "feed": {
+                "title": "NPR Topics: News",
+                "url": "https://www.npr.org/templates/story/story.php?storyId=1001",
+                "feed_url": "https://feeds.npr.org/1001/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.npr.org/1001/rss.xml",
+            "elapsed_ms": 202,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.1"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.npr.org/2026/09/24/nx-s1-5977796/mortgage-rates-freddie-mac-homebuying"
+    },
+    {
+      "id": "429b5bf7e2517ac677ff",
+      "title": "LIVE: Ivory Coast vs Ghana – AFCON qualifying",
+      "content_text": "Follow updates, build-up, team news and lineups, from our live text commentary stream coverage as Yan Diomande stars.",
+      "date_published": "2026-09-24T16:01:15Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "429b5bf7e2517ac677ff",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790183863",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:38Z",
+          "data": {
+            "change": "added",
+            "label": "LIVE: Ivory Coast vs Ghana – AFCON qualifying",
+            "item_type": "entry",
+            "summary": "added: LIVE: Ivory Coast vs Ghana – AFCON qualifying",
+            "after": {
+              "title": "LIVE: Ivory Coast vs Ghana – AFCON qualifying",
+              "link": "https://www.aljazeera.com/sports/liveblog/2026/9/24/live-ivory-coast-vs-ghana-afcon-qualifying?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790183863",
+              "author": null,
+              "published_at": "2026-09-24T16:01:15Z",
+              "updated_at": "2026-09-24T16:01:15Z",
+              "summary": "Follow updates, build-up, team news and lineups, from our live text commentary stream coverage as Yan Diomande stars.",
+              "categories": [
+                "Sport"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 143,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.1"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/sports/liveblog/2026/9/24/live-ivory-coast-vs-ghana-afcon-qualifying?traffic_source=rss",
+      "tags": [
+        "Sport"
+      ]
+    },
+    {
+      "id": "85147709d5b755ef41d2",
+      "title": "NAZA, Israeli film on Gaza, to stream for free after theatrical run",
+      "content_text": "Co-director Yuval Abraham says documentary exposing Israeli abuses will be available online in November.",
+      "date_published": "2026-09-24T15:59:25Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "85147709d5b755ef41d2",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790256994",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:38Z",
+          "data": {
+            "change": "added",
+            "label": "NAZA, Israeli film on Gaza, to stream for free after theatrical run",
+            "item_type": "entry",
+            "summary": "added: NAZA, Israeli film on Gaza, to stream for free after theatrical run",
+            "after": {
+              "title": "NAZA, Israeli film on Gaza, to stream for free after theatrical run",
+              "link": "https://www.aljazeera.com/news/2026/9/24/naza-israeli-film-on-gaza-to-stream-for-free-after-theatrical-run?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790256994",
+              "author": null,
+              "published_at": "2026-09-24T15:59:25Z",
+              "updated_at": "2026-09-24T15:59:25Z",
+              "summary": "Co-director Yuval Abraham says documentary exposing Israeli abuses will be available online in November.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 143,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.1"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/news/2026/9/24/naza-israeli-film-on-gaza-to-stream-for-free-after-theatrical-run?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "70131b200a9396e7e383",
+      "title": "LIVE: Portugal vs Wales – UEFA Nations League",
+      "content_text": "Follow updates, with build-up, team news and lineups, from our live text commentary stream coverage as Ronaldo stars.",
+      "date_published": "2026-09-24T15:46:12Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "70131b200a9396e7e383",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790182485",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:38Z",
+          "data": {
+            "change": "added",
+            "label": "LIVE: Portugal vs Wales – UEFA Nations League",
+            "item_type": "entry",
+            "summary": "added: LIVE: Portugal vs Wales – UEFA Nations League",
+            "after": {
+              "title": "LIVE: Portugal vs Wales – UEFA Nations League",
+              "link": "https://www.aljazeera.com/sports/liveblog/2026/9/24/live-portugal-vs-wales-uefa-nations-league?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790182485",
+              "author": null,
+              "published_at": "2026-09-24T15:46:12Z",
+              "updated_at": "2026-09-24T15:46:12Z",
+              "summary": "Follow updates, with build-up, team news and lineups, from our live text commentary stream coverage as Ronaldo stars.",
+              "categories": [
+                "Sport"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 143,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.1"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/sports/liveblog/2026/9/24/live-portugal-vs-wales-uefa-nations-league?traffic_source=rss",
+      "tags": [
+        "Sport"
+      ]
+    },
+    {
+      "id": "518d418f4a9720c84759",
+      "title": "Trump welcomes China’s Xi Jinping to White House",
+      "content_text": "Trump welcomes China’s Xi Jinping to White House",
+      "date_published": "2026-09-24T15:27:45Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "518d418f4a9720c84759",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790262251",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:38Z",
+          "data": {
+            "change": "added",
+            "label": "Trump welcomes China’s Xi Jinping to White House",
+            "item_type": "entry",
+            "summary": "added: Trump welcomes China’s Xi Jinping to White House",
+            "after": {
+              "title": "Trump welcomes China’s Xi Jinping to White House",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/24/trump-welcomes-chinas-xi-jinping-to-white-house?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790262251",
+              "author": null,
+              "published_at": "2026-09-24T15:27:45Z",
+              "updated_at": "2026-09-24T15:27:45Z",
+              "summary": "Trump welcomes China’s Xi Jinping to White House",
+              "categories": [
+                "Show Types"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 143,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.1"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/trump-welcomes-chinas-xi-jinping-to-white-house?traffic_source=rss",
+      "tags": [
+        "Show Types"
+      ]
+    },
+    {
+      "id": "e02aa84cefc7410c7daf",
+      "title": "Trump and Xi strike cordial tone at summit amid underlying tensions",
+      "content_text": "On Thursday, the two leaders will hold meetings where Trump and Xi are expected to talk about artificial intelligence, rare earths, trade and geopolitics such as Iran and Taiwan.",
+      "date_published": "2026-09-24T12:43:15Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "e02aa84cefc7410c7daf",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.npr.org/2026/09/24/g-s1-144806/trump-xi-summit",
+          "source_url": "https://feeds.npr.org/1001/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-24T17:26:38Z",
+          "data": {
+            "change": "added",
+            "label": "Trump and Xi strike cordial tone at summit amid underlying tensions",
+            "item_type": "entry",
+            "summary": "added: Trump and Xi strike cordial tone at summit amid underlying tensions",
+            "after": {
+              "title": "Trump and Xi strike cordial tone at summit amid underlying tensions",
+              "link": "https://www.npr.org/2026/09/24/g-s1-144806/trump-xi-summit",
+              "id": "https://www.npr.org/2026/09/24/g-s1-144806/trump-xi-summit",
+              "author": "Rob Schmitz",
+              "published_at": "2026-09-24T12:43:15Z",
+              "updated_at": "2026-09-24T12:43:15Z",
+              "summary": "On Thursday, the two leaders will hold meetings where Trump and Xi are expected to talk about artificial intelligence, rare earths, trade and geopolitics such as Iran and Taiwan.",
+              "categories": [],
+              "feed": {
+                "title": "NPR Topics: News",
+                "url": "https://www.npr.org/templates/story/story.php?storyId=1001",
+                "feed_url": "https://feeds.npr.org/1001/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.npr.org/1001/rss.xml",
+            "elapsed_ms": 202,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.1"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.npr.org/2026/09/24/g-s1-144806/trump-xi-summit"
+    },
     {
       "id": "850f01247b8d87919e13",
       "title": "White House 'repeatedly violated' court order to restore press access, say media outlets",
