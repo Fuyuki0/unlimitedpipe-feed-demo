@@ -2,10 +2,27 @@
 <rss version="2.0">
   <channel>
     <title>Security news</title>
-    <link>https://feeds.feedburner.com/TheHackersNews</link>
+    <link>https://www.bleepingcomputer.com/feed/</link>
     <description>Events collected by UnlimitedPipe 0.3.2</description>
     <generator>UnlimitedPipe 0.3.2</generator>
-    <lastBuildDate>Thu, 24 Sep 2026 19:33:25 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 22:46:25 +0000</lastBuildDate>
+    <item>
+      <title>MacSync malware uses public iCloud calendars to deliver new payloads</title>
+      <link>https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/</link>
+      <guid isPermaLink="false">007eb56edb7b0dd0311f</guid>
+      <pubDate>Thu, 24 Sep 2026 20:53:35 +0000</pubDate>
+      <description>A new variant of the MacSync malware targeting macOS systems now uses public iCloud calendar events to deliver new native payloads. [...]</description>
+      <category>Security</category>
+    </item>
+    <item>
+      <title>New Carbonato malware uses AI agents to hijack exposed Docker hosts</title>
+      <link>https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/</link>
+      <guid isPermaLink="false">a5bb982d4a39aae0dcfe</guid>
+      <pubDate>Thu, 24 Sep 2026 20:10:48 +0000</pubDate>
+      <description>A new botnet malware called Carbonato is targeting insecure hosts running Docker daemons to install the Hermes Agent AI framework and take control. [...]</description>
+      <category>Security</category>
+      <category>Artificial Intelligence</category>
+    </item>
     <item>
       <title>Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions</title>
       <link>https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html</link>

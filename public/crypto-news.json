@@ -1,13 +1,1395 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Crypto news (CoinDesk, Cointelegraph, Decrypt)",
-  "home_page_url": "https://decrypt.co/feed",
+  "home_page_url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
   "description": "Events collected by UnlimitedPipe 0.3.2",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
     "generator": "UnlimitedPipe 0.3.2"
   },
   "items": [
+    {
+      "id": "879edb9a9c8410dd26b6",
+      "title": "New York sues Polymarket, alleging it is running an illegal gambling operation",
+      "content_text": "New York sues Polymarket, alleging it is running an illegal gambling operation",
+      "date_published": "2026-09-24T22:41:44Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "879edb9a9c8410dd26b6",
+          "source": "rss",
+          "type": "change",
+          "key": "3104e571-2648-4823-bc35-4911ef0d6643",
+          "source_url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+          "timestamp": null,
+          "observed_at": "2026-09-24T22:46:10Z",
+          "data": {
+            "change": "added",
+            "label": "New York sues Polymarket, alleging it is running an illegal gambling operation",
+            "item_type": "entry",
+            "summary": "added: New York sues Polymarket, alleging it is running an illegal gambling operation",
+            "after": {
+              "title": "New York sues Polymarket, alleging it is running an illegal gambling operation",
+              "link": "https://www.coindesk.com/policy/2026/09/24/new-york-sues-polymarket-alleging-it-is-running-an-illegal-gambling-operation",
+              "id": "3104e571-2648-4823-bc35-4911ef0d6643",
+              "author": "Helene Braun",
+              "published_at": "2026-09-24T22:41:44Z",
+              "updated_at": "2026-09-24T22:41:44Z",
+              "summary": null,
+              "categories": [
+                "Policy",
+                "Polymarket",
+                "News"
+              ],
+              "feed": {
+                "title": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+                "url": "https://www.coindesk.com/",
+                "feed_url": "https://www.coindesk.com/arc/outboundfeeds/rss/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.coindesk.com/arc/outboundfeeds/rss",
+            "elapsed_ms": 213,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.coindesk.com/policy/2026/09/24/new-york-sues-polymarket-alleging-it-is-running-an-illegal-gambling-operation",
+      "tags": [
+        "Policy",
+        "Polymarket",
+        "News"
+      ]
+    },
+    {
+      "id": "36921e8e29f722b12dd7",
+      "title": "U.S. Federal Reserve moves on proposals to implement GENIUS Act for stablecoins",
+      "content_text": "U.S. Federal Reserve moves on proposals to implement GENIUS Act for stablecoins",
+      "date_published": "2026-09-24T22:28:49Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "36921e8e29f722b12dd7",
+          "source": "rss",
+          "type": "change",
+          "key": "331cde12-93a7-47e4-8e88-0f54bb0c491c",
+          "source_url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+          "timestamp": null,
+          "observed_at": "2026-09-24T22:46:10Z",
+          "data": {
+            "change": "added",
+            "label": "U.S. Federal Reserve moves on proposals to implement GENIUS Act for stablecoins",
+            "item_type": "entry",
+            "summary": "added: U.S. Federal Reserve moves on proposals to implement GENIUS Act for stablecoins",
+            "after": {
+              "title": "U.S. Federal Reserve moves on proposals to implement GENIUS Act for stablecoins",
+              "link": "https://www.coindesk.com/policy/2026/09/24/u-s-federal-reserve-moves-on-proposals-to-implement-genius-act-for-stablecoins",
+              "id": "331cde12-93a7-47e4-8e88-0f54bb0c491c",
+              "author": "Jesse Hamilton",
+              "published_at": "2026-09-24T22:28:49Z",
+              "updated_at": "2026-09-24T22:28:49Z",
+              "summary": null,
+              "categories": [
+                "Policy",
+                "Regulation",
+                "Stablecoins",
+                "News"
+              ],
+              "feed": {
+                "title": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+                "url": "https://www.coindesk.com/",
+                "feed_url": "https://www.coindesk.com/arc/outboundfeeds/rss/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.coindesk.com/arc/outboundfeeds/rss",
+            "elapsed_ms": 213,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.coindesk.com/policy/2026/09/24/u-s-federal-reserve-moves-on-proposals-to-implement-genius-act-for-stablecoins",
+      "tags": [
+        "Policy",
+        "Regulation",
+        "Stablecoins",
+        "News"
+      ]
+    },
+    {
+      "id": "15c46f2853aeb5be2917",
+      "title": "Fed proposes new capital, redemption rules for stablecoin issuers",
+      "content_text": "The Fed’s proposal would set capital requirements, a two-day redemption window and new reserve disclosures as regulators implement the GENIUS Act.",
+      "date_published": "2026-09-24T22:10:09Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "15c46f2853aeb5be2917",
+          "source": "rss",
+          "type": "change",
+          "key": "https://cointelegraph.com/news/fed-proposes-new-capital-redemption-rules-for-stablecoin-issuers",
+          "source_url": "https://cointelegraph.com/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T22:46:10Z",
+          "data": {
+            "change": "added",
+            "label": "Fed proposes new capital, redemption rules for stablecoin issuers",
+            "item_type": "entry",
+            "summary": "added: Fed proposes new capital, redemption rules for stablecoin issuers",
+            "after": {
+              "title": "Fed proposes new capital, redemption rules for stablecoin issuers",
+              "link": "https://cointelegraph.com/news/fed-proposes-new-capital-redemption-rules-for-stablecoin-issuers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+              "id": "https://cointelegraph.com/news/fed-proposes-new-capital-redemption-rules-for-stablecoin-issuers",
+              "author": "Cointelegraph by Nate Kostar",
+              "published_at": "2026-09-24T22:10:09Z",
+              "updated_at": "2026-09-24T22:13:07Z",
+              "summary": "The Fed’s proposal would set capital requirements, a two-day redemption window and new reserve disclosures as regulators implement the GENIUS Act.",
+              "categories": [
+                "Latest News"
+              ],
+              "feed": {
+                "title": "Cointelegraph.com News",
+                "url": "https://cointelegraph.com",
+                "feed_url": "https://cointelegraph.com/rss"
+              },
+              "enclosures": [
+                "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3AP0WARDM7K816JES0B780Z/hi-us-crypto-bills-compared-genius-act.jpg"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://cointelegraph.com/rss",
+            "elapsed_ms": 182,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://cointelegraph.com/news/fed-proposes-new-capital-redemption-rules-for-stablecoin-issuers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "tags": [
+        "Latest News"
+      ]
+    },
+    {
+      "id": "d0845f78fa20d39a4709",
+      "title": "Crypto exchange Bitget says $352 million affected in a hack, claims user funds are 'safe'",
+      "content_text": "Crypto exchange Bitget says $352 million affected in a hack, claims user funds are 'safe'",
+      "date_published": "2026-09-24T21:59:32Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d0845f78fa20d39a4709",
+          "source": "rss",
+          "type": "change",
+          "key": "3d99cf63-848f-4bc8-b46a-b779908fafae",
+          "source_url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+          "timestamp": null,
+          "observed_at": "2026-09-24T22:46:10Z",
+          "data": {
+            "change": "added",
+            "label": "Crypto exchange Bitget says $352 million affected in a hack, claims user funds are 'safe'",
+            "item_type": "entry",
+            "summary": "added: Crypto exchange Bitget says $352 million affected in a hack, claims user funds are 'safe'",
+            "after": {
+              "title": "Crypto exchange Bitget says $352 million affected in a hack, claims user funds are 'safe'",
+              "link": "https://www.coindesk.com/markets/2026/09/24/crypto-exchange-bitget-loses-usd352-million-in-hack-claims-user-funds-are-safe",
+              "id": "3d99cf63-848f-4bc8-b46a-b779908fafae",
+              "author": "Nikhilesh De",
+              "published_at": "2026-09-24T21:59:32Z",
+              "updated_at": "2026-09-24T21:59:32Z",
+              "summary": null,
+              "categories": [
+                "Markets",
+                "Hack",
+                "Breaking News",
+                "News"
+              ],
+              "feed": {
+                "title": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+                "url": "https://www.coindesk.com/",
+                "feed_url": "https://www.coindesk.com/arc/outboundfeeds/rss/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.coindesk.com/arc/outboundfeeds/rss",
+            "elapsed_ms": 213,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.coindesk.com/markets/2026/09/24/crypto-exchange-bitget-loses-usd352-million-in-hack-claims-user-funds-are-safe",
+      "tags": [
+        "Markets",
+        "Hack",
+        "Breaking News",
+        "News"
+      ]
+    },
+    {
+      "id": "071bf1b33d36c657be85",
+      "title": "Federal Reserve Unveils Stablecoin Rules on Reserves and Capital",
+      "content_text": "The central bank opened two proposals for comment under the GENIUS Act, requiring issuers it supervises to back tokens fully with safe assets and creating an application process for banks seeking to issue stablecoins.",
+      "date_published": "2026-09-24T21:56:03Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "071bf1b33d36c657be85",
+          "source": "rss",
+          "type": "change",
+          "key": "https://decrypt.co/?p=379274",
+          "source_url": "https://decrypt.co/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-24T22:46:10Z",
+          "data": {
+            "change": "added",
+            "label": "Federal Reserve Unveils Stablecoin Rules on Reserves and Capital",
+            "item_type": "entry",
+            "summary": "added: Federal Reserve Unveils Stablecoin Rules on Reserves and Capital",
+            "after": {
+              "title": "Federal Reserve Unveils Stablecoin Rules on Reserves and Capital",
+              "link": "https://decrypt.co/379274/federal-reserve-unveils-stablecoin-rules-on-reserves-and-capital",
+              "id": "https://decrypt.co/?p=379274",
+              "author": "Decrypt Staff",
+              "published_at": "2026-09-24T21:56:03Z",
+              "updated_at": "2026-09-24T21:56:03Z",
+              "summary": "The central bank opened two proposals for comment under the GENIUS Act, requiring issuers it supervises to back tokens fully with safe assets and creating an application process for banks seeking to issue stablecoins.",
+              "categories": [
+                "Law and Order"
+              ],
+              "feed": {
+                "title": "Decrypt",
+                "url": "https://decrypt.co/feed",
+                "feed_url": "https://decrypt.co/feed"
+              },
+              "enclosures": [
+                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/09/federal-reserve-decrypt-style-02-gID_7.jpg@png"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://decrypt.co/feed",
+            "elapsed_ms": 98,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://decrypt.co/379274/federal-reserve-unveils-stablecoin-rules-on-reserves-and-capital",
+      "tags": [
+        "Law and Order"
+      ]
+    },
+    {
+      "id": "847c95cb7a8bc4730b43",
+      "title": "Bitget confirms $351M security breach, suspends withdrawals",
+      "content_text": "Bitget said unauthorized transfers affected a limited number of hot wallets, while cold wallets and most platform assets remained unaffected.",
+      "date_published": "2026-09-24T21:47:17Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "847c95cb7a8bc4730b43",
+          "source": "rss",
+          "type": "change",
+          "key": "https://cointelegraph.com/news/bitget-calls-security-withdrawal-claims-unverified-amid-178m-breach-reports",
+          "source_url": "https://cointelegraph.com/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T22:46:10Z",
+          "data": {
+            "change": "added",
+            "label": "Bitget confirms $351M security breach, suspends withdrawals",
+            "item_type": "entry",
+            "summary": "added: Bitget confirms $351M security breach, suspends withdrawals",
+            "after": {
+              "title": "Bitget confirms $351M security breach, suspends withdrawals",
+              "link": "https://cointelegraph.com/news/bitget-calls-security-withdrawal-claims-unverified-amid-178m-breach-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+              "id": "https://cointelegraph.com/news/bitget-calls-security-withdrawal-claims-unverified-amid-178m-breach-reports",
+              "author": "Cointelegraph by Nate Kostar",
+              "published_at": "2026-09-24T21:47:17Z",
+              "updated_at": "2026-09-24T21:49:45Z",
+              "summary": "Bitget said unauthorized transfers affected a limited number of hot wallets, while cold wallets and most platform assets remained unaffected.",
+              "categories": [
+                "Latest News"
+              ],
+              "feed": {
+                "title": "Cointelegraph.com News",
+                "url": "https://cointelegraph.com",
+                "feed_url": "https://cointelegraph.com/rss"
+              },
+              "enclosures": [
+                "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3ANFG8K9N6H2586MPQRV7KT/hi-got-crypto-losses-wallet-1.jpg"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://cointelegraph.com/rss",
+            "elapsed_ms": 182,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://cointelegraph.com/news/bitget-calls-security-withdrawal-claims-unverified-amid-178m-breach-reports?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "tags": [
+        "Latest News"
+      ]
+    },
+    {
+      "id": "ba5a053a73d082c806d5",
+      "title": "CFTC updates guidance on tokenized assets, blockchain records after failed vote",
+      "content_text": "Although the CFTC chair did not say the failed vote on the CLARITY Act was behind new rules for authorized crypto entities, he said the move was “to provide regulatory clarity.“",
+      "date_published": "2026-09-24T21:42:51Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ba5a053a73d082c806d5",
+          "source": "rss",
+          "type": "change",
+          "key": "https://cointelegraph.com/news/cftc-digital-assets-regulation-failed-clarity-vote",
+          "source_url": "https://cointelegraph.com/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T22:46:10Z",
+          "data": {
+            "change": "added",
+            "label": "CFTC updates guidance on tokenized assets, blockchain records after failed vote",
+            "item_type": "entry",
+            "summary": "added: CFTC updates guidance on tokenized assets, blockchain records after failed vote",
+            "after": {
+              "title": "CFTC updates guidance on tokenized assets, blockchain records after failed vote",
+              "link": "https://cointelegraph.com/news/cftc-digital-assets-regulation-failed-clarity-vote?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+              "id": "https://cointelegraph.com/news/cftc-digital-assets-regulation-failed-clarity-vote",
+              "author": "Cointelegraph by Turner Wright",
+              "published_at": "2026-09-24T21:42:51Z",
+              "updated_at": "2026-09-24T21:45:02Z",
+              "summary": "Although the CFTC chair did not say the failed vote on the CLARITY Act was behind new rules for authorized crypto entities, he said the move was “to provide regulatory clarity.“",
+              "categories": [
+                "Latest News"
+              ],
+              "feed": {
+                "title": "Cointelegraph.com News",
+                "url": "https://cointelegraph.com",
+                "feed_url": "https://cointelegraph.com/rss"
+              },
+              "enclosures": [
+                "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2RCXR1ZF4MGZQYC31CCHQC8/paper-document-man-office-cftc-2.jpg"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://cointelegraph.com/rss",
+            "elapsed_ms": 182,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://cointelegraph.com/news/cftc-digital-assets-regulation-failed-clarity-vote?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "tags": [
+        "Latest News"
+      ]
+    },
+    {
+      "id": "17a49eed774d5b3f3fe1",
+      "title": "Bitget Hacked as $350 Million Vanishes From Crypto Exchange Wallets",
+      "content_text": "A newly created wallet drained hot and cold reserves labeled as belonging to Bitget across multiple blockchains in under an hour.",
+      "date_published": "2026-09-24T21:15:38Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "17a49eed774d5b3f3fe1",
+          "source": "rss",
+          "type": "change",
+          "key": "https://decrypt.co/?p=379275",
+          "source_url": "https://decrypt.co/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-24T22:46:10Z",
+          "data": {
+            "change": "added",
+            "label": "Bitget Hacked as $350 Million Vanishes From Crypto Exchange Wallets",
+            "item_type": "entry",
+            "summary": "added: Bitget Hacked as $350 Million Vanishes From Crypto Exchange Wallets",
+            "after": {
+              "title": "Bitget Hacked as $350 Million Vanishes From Crypto Exchange Wallets",
+              "link": "https://decrypt.co/379275/bitget-hack-183-million-crypto-exchange-wallets",
+              "id": "https://decrypt.co/?p=379275",
+              "author": "Jose Antonio Lanz",
+              "published_at": "2026-09-24T21:15:38Z",
+              "updated_at": "2026-09-24T21:15:38Z",
+              "summary": "A newly created wallet drained hot and cold reserves labeled as belonging to Bitget across multiple blockchains in under an hour.",
+              "categories": [
+                "Coins"
+              ],
+              "feed": {
+                "title": "Decrypt",
+                "url": "https://decrypt.co/feed",
+                "feed_url": "https://decrypt.co/feed"
+              },
+              "enclosures": [
+                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Hacker1-gID_7.png@png"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://decrypt.co/feed",
+            "elapsed_ms": 98,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://decrypt.co/379275/bitget-hack-183-million-crypto-exchange-wallets",
+      "tags": [
+        "Coins"
+      ]
+    },
+    {
+      "id": "16c952ba1ade2cdbbd6a",
+      "title": "Bitcoin price steadies, ONDO rallies as US Treasury yields hit 2007 highs",
+      "content_text": "US Treasury yields hit a 19-year high on Thursday, pressuring risk assets as Bitcoin held near $84,000 and ONDO became top performer among altcoins.",
+      "date_published": "2026-09-24T20:32:16Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "16c952ba1ade2cdbbd6a",
+          "source": "rss",
+          "type": "change",
+          "key": "https://cointelegraph.com/markets/bitcoin-steadies-ondo-rallies-us-treasury-yields-hit-2007-highs",
+          "source_url": "https://cointelegraph.com/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T22:46:10Z",
+          "data": {
+            "change": "added",
+            "label": "Bitcoin price steadies, ONDO rallies as US Treasury yields hit 2007 highs",
+            "item_type": "entry",
+            "summary": "added: Bitcoin price steadies, ONDO rallies as US Treasury yields hit 2007 highs",
+            "after": {
+              "title": "Bitcoin price steadies, ONDO rallies as US Treasury yields hit 2007 highs",
+              "link": "https://cointelegraph.com/markets/bitcoin-steadies-ondo-rallies-us-treasury-yields-hit-2007-highs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+              "id": "https://cointelegraph.com/markets/bitcoin-steadies-ondo-rallies-us-treasury-yields-hit-2007-highs",
+              "author": "Cointelegraph by Charles Bennett",
+              "published_at": "2026-09-24T20:32:16Z",
+              "updated_at": "2026-09-24T20:32:21Z",
+              "summary": "US Treasury yields hit a 19-year high on Thursday, pressuring risk assets as Bitcoin held near $84,000 and ONDO became top performer among altcoins.",
+              "categories": [
+                "Markets"
+              ],
+              "feed": {
+                "title": "Cointelegraph.com News",
+                "url": "https://cointelegraph.com",
+                "feed_url": "https://cointelegraph.com/rss"
+              },
+              "enclosures": [
+                "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3AGHD04QX5Q0GBBZ75P2EB6/hi-blockchain-explanatory-articles-for-the-very-beginner-ondo-2.jpg"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://cointelegraph.com/rss",
+            "elapsed_ms": 182,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://cointelegraph.com/markets/bitcoin-steadies-ondo-rallies-us-treasury-yields-hit-2007-highs?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "tags": [
+        "Markets"
+      ]
+    },
+    {
+      "id": "d409a0fbc85ee9552245",
+      "title": "Someone was trying to sell Ondo Finance after founder Nathan Allman's death",
+      "content_text": "Someone was trying to sell Ondo Finance after founder Nathan Allman's death",
+      "date_published": "2026-09-24T20:13:25Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d409a0fbc85ee9552245",
+          "source": "rss",
+          "type": "change",
+          "key": "6ebdf1a5-c0de-4eb4-a867-0fa5c493ee88",
+          "source_url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+          "timestamp": null,
+          "observed_at": "2026-09-24T22:46:10Z",
+          "data": {
+            "change": "added",
+            "label": "Someone was trying to sell Ondo Finance after founder Nathan Allman's death",
+            "item_type": "entry",
+            "summary": "added: Someone was trying to sell Ondo Finance after founder Nathan Allman's death",
+            "after": {
+              "title": "Someone was trying to sell Ondo Finance after founder Nathan Allman's death",
+              "link": "https://www.coindesk.com/business/2026/09/23/someone-was-trying-to-sell-ondo-finance-after-founder-nathan-allman-s-death",
+              "id": "6ebdf1a5-c0de-4eb4-a867-0fa5c493ee88",
+              "author": "Will Canny",
+              "published_at": "2026-09-24T20:13:25Z",
+              "updated_at": "2026-09-24T20:13:25Z",
+              "summary": null,
+              "categories": [
+                "Finance",
+                "ondo finance",
+                "mergers and acquisitions",
+                "Exclusive",
+                "Tokenization",
+                "News"
+              ],
+              "feed": {
+                "title": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+                "url": "https://www.coindesk.com/",
+                "feed_url": "https://www.coindesk.com/arc/outboundfeeds/rss/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.coindesk.com/arc/outboundfeeds/rss",
+            "elapsed_ms": 213,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.coindesk.com/business/2026/09/23/someone-was-trying-to-sell-ondo-finance-after-founder-nathan-allman-s-death",
+      "tags": [
+        "Finance",
+        "ondo finance",
+        "mergers and acquisitions",
+        "Exclusive",
+        "Tokenization",
+        "News"
+      ]
+    },
+    {
+      "id": "d5ea64d6790bd9323a6b",
+      "title": "Bullish, Alpaca and Apex Fintech form coalition to push issuer-backed tokenized stocks",
+      "content_text": "Bullish, Alpaca and Apex Fintech form coalition to push issuer-backed tokenized stocks",
+      "date_published": "2026-09-24T20:05:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d5ea64d6790bd9323a6b",
+          "source": "rss",
+          "type": "change",
+          "key": "c06095bb-4167-4d73-9cf2-6cf6cffc77ae",
+          "source_url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+          "timestamp": null,
+          "observed_at": "2026-09-24T22:46:10Z",
+          "data": {
+            "change": "added",
+            "label": "Bullish, Alpaca and Apex Fintech form coalition to push issuer-backed tokenized stocks",
+            "item_type": "entry",
+            "summary": "added: Bullish, Alpaca and Apex Fintech form coalition to push issuer-backed tokenized stocks",
+            "after": {
+              "title": "Bullish, Alpaca and Apex Fintech form coalition to push issuer-backed tokenized stocks",
+              "link": "https://www.coindesk.com/business/2026/09/24/bullish-alpaca-and-apex-fintech-form-coalition-to-push-issuer-backed-tokenized-stocks",
+              "id": "c06095bb-4167-4d73-9cf2-6cf6cffc77ae",
+              "author": "AI Boost",
+              "published_at": "2026-09-24T20:05:00Z",
+              "updated_at": "2026-09-24T20:05:00Z",
+              "summary": null,
+              "categories": [
+                "Finance",
+                "Tokenization",
+                "News"
+              ],
+              "feed": {
+                "title": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+                "url": "https://www.coindesk.com/",
+                "feed_url": "https://www.coindesk.com/arc/outboundfeeds/rss/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.coindesk.com/arc/outboundfeeds/rss",
+            "elapsed_ms": 213,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.coindesk.com/business/2026/09/24/bullish-alpaca-and-apex-fintech-form-coalition-to-push-issuer-backed-tokenized-stocks",
+      "tags": [
+        "Finance",
+        "Tokenization",
+        "News"
+      ]
+    },
+    {
+      "id": "ccd577b665c899a1982a",
+      "title": "U.S. commodities firms can invest in tokenized assets, use blockchain records: CFTC",
+      "content_text": "U.S. commodities firms can invest in tokenized assets, use blockchain records: CFTC",
+      "date_published": "2026-09-24T20:04:46Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ccd577b665c899a1982a",
+          "source": "rss",
+          "type": "change",
+          "key": "a99ae8a8-f7b9-43f1-a26e-d801dc263ea2",
+          "source_url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+          "timestamp": null,
+          "observed_at": "2026-09-24T22:46:10Z",
+          "data": {
+            "change": "added",
+            "label": "U.S. commodities firms can invest in tokenized assets, use blockchain records: CFTC",
+            "item_type": "entry",
+            "summary": "added: U.S. commodities firms can invest in tokenized assets, use blockchain records: CFTC",
+            "after": {
+              "title": "U.S. commodities firms can invest in tokenized assets, use blockchain records: CFTC",
+              "link": "https://www.coindesk.com/policy/2026/09/24/u-s-commodities-firms-can-invest-in-tokenized-assets-use-blockchain-records-cftc",
+              "id": "a99ae8a8-f7b9-43f1-a26e-d801dc263ea2",
+              "author": "Jesse Hamilton",
+              "published_at": "2026-09-24T20:04:46Z",
+              "updated_at": "2026-09-24T20:04:46Z",
+              "summary": null,
+              "categories": [
+                "Policy",
+                "Regulation",
+                "Tokenization",
+                "News"
+              ],
+              "feed": {
+                "title": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+                "url": "https://www.coindesk.com/",
+                "feed_url": "https://www.coindesk.com/arc/outboundfeeds/rss/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.coindesk.com/arc/outboundfeeds/rss",
+            "elapsed_ms": 213,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.coindesk.com/policy/2026/09/24/u-s-commodities-firms-can-invest-in-tokenized-assets-use-blockchain-records-cftc",
+      "tags": [
+        "Policy",
+        "Regulation",
+        "Tokenization",
+        "News"
+      ]
+    },
+    {
+      "id": "87a58a7ea7f487bce61d",
+      "title": "DoubleZero brings dedicated fiber market data to Hyperliquid traders",
+      "content_text": "DoubleZero launched a dedicated fiber market data feed for Hyperliquid, giving professional trading firms faster access to its full order book.",
+      "date_published": "2026-09-24T20:04:07Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "87a58a7ea7f487bce61d",
+          "source": "rss",
+          "type": "change",
+          "key": "https://cointelegraph.com/news/doublezero-brings-dedicated-fiber-market-data-hyperliquid-traders",
+          "source_url": "https://cointelegraph.com/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-24T22:46:10Z",
+          "data": {
+            "change": "added",
+            "label": "DoubleZero brings dedicated fiber market data to Hyperliquid traders",
+            "item_type": "entry",
+            "summary": "added: DoubleZero brings dedicated fiber market data to Hyperliquid traders",
+            "after": {
+              "title": "DoubleZero brings dedicated fiber market data to Hyperliquid traders",
+              "link": "https://cointelegraph.com/news/doublezero-brings-dedicated-fiber-market-data-hyperliquid-traders?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+              "id": "https://cointelegraph.com/news/doublezero-brings-dedicated-fiber-market-data-hyperliquid-traders",
+              "author": "Cointelegraph by Nate Kostar",
+              "published_at": "2026-09-24T20:04:07Z",
+              "updated_at": "2026-09-24T20:06:43Z",
+              "summary": "DoubleZero launched a dedicated fiber market data feed for Hyperliquid, giving professional trading firms faster access to its full order book.",
+              "categories": [
+                "Latest News"
+              ],
+              "feed": {
+                "title": "Cointelegraph.com News",
+                "url": "https://cointelegraph.com",
+                "feed_url": "https://cointelegraph.com/rss"
+              },
+              "enclosures": [
+                "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3AEQ9Y8JV78QH3H8M1G3403/analitycs2021-hype-1.jpg"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://cointelegraph.com/rss",
+            "elapsed_ms": 182,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://cointelegraph.com/news/doublezero-brings-dedicated-fiber-market-data-hyperliquid-traders?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "tags": [
+        "Latest News"
+      ]
+    },
+    {
+      "id": "9439d5a1220f67da812a",
+      "title": "The stock token debate, and the gap nobody can close alone",
+      "content_text": "The stock token debate, and the gap nobody can close alone",
+      "date_published": "2026-09-24T20:03:21Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "9439d5a1220f67da812a",
+          "source": "rss",
+          "type": "change",
+          "key": "e63a3fc1-913b-44ec-a49b-81947b053cff",
+          "source_url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+          "timestamp": null,
+          "observed_at": "2026-09-24T22:46:10Z",
+          "data": {
+            "change": "added",
+            "label": "The stock token debate, and the gap nobody can close alone",
+            "item_type": "entry",
+            "summary": "added: The stock token debate, and the gap nobody can close alone",
+            "after": {
+              "title": "The stock token debate, and the gap nobody can close alone",
+              "link": "https://www.coindesk.com/opinion/2026/09/24/the-stock-token-debate-and-the-gap-nobody-can-close-alone",
+              "id": "e63a3fc1-913b-44ec-a49b-81947b053cff",
+              "author": "Tram Doman",
+              "published_at": "2026-09-24T20:03:21Z",
+              "updated_at": "2026-09-24T20:03:21Z",
+              "summary": null,
+              "categories": [
+                "Opinion",
+                "Opinion"
+              ],
+              "feed": {
+                "title": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+                "url": "https://www.coindesk.com/",
+                "feed_url": "https://www.coindesk.com/arc/outboundfeeds/rss/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.coindesk.com/arc/outboundfeeds/rss",
+            "elapsed_ms": 213,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.coindesk.com/opinion/2026/09/24/the-stock-token-debate-and-the-gap-nobody-can-close-alone",
+      "tags": [
+        "Opinion",
+        "Opinion"
+      ]
+    },
+    {
+      "id": "82ce59cc71fa7540c3a8",
+      "title": "Humans Are Reading Your ChatGPT Chats, New Lawsuit Claims",
+      "content_text": "A proposed class action accuses OpenAI of quietly routing real conversations to outside contractors through a program called Project Lily—without telling users first.",
+      "date_published": "2026-09-24T20:01:03Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "82ce59cc71fa7540c3a8",
+          "source": "rss",
+          "type": "change",
+          "key": "https://decrypt.co/?p=379272",
+          "source_url": "https://decrypt.co/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-24T22:46:10Z",
+          "data": {
+            "change": "added",
+            "label": "Humans Are Reading Your ChatGPT Chats, New Lawsuit Claims",
+            "item_type": "entry",
+            "summary": "added: Humans Are Reading Your ChatGPT Chats, New Lawsuit Claims",
+            "after": {
+              "title": "Humans Are Reading Your ChatGPT Chats, New Lawsuit Claims",
+              "link": "https://decrypt.co/379272/humans-reading-chatgpt-chats-lawsuit",
+              "id": "https://decrypt.co/?p=379272",
+              "author": "Jose Antonio Lanz",
+              "published_at": "2026-09-24T20:01:03Z",
+              "updated_at": "2026-09-24T20:01:03Z",
+              "summary": "A proposed class action accuses OpenAI of quietly routing real conversations to outside contractors through a program called Project Lily—without telling users first.",
+              "categories": [
+                "Artificial Intelligence"
+              ],
+              "feed": {
+                "title": "Decrypt",
+                "url": "https://decrypt.co/feed",
+                "feed_url": "https://decrypt.co/feed"
+              },
+              "enclosures": [
+                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/07/ChatGPT-gID_7.jpg@png"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://decrypt.co/feed",
+            "elapsed_ms": 98,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://decrypt.co/379272/humans-reading-chatgpt-chats-lawsuit",
+      "tags": [
+        "Artificial Intelligence"
+      ]
+    },
     {
       "id": "f4b2f3e38fe82335fe0b",
       "title": "Meta's New AI Toy Is a Keychain That Watches, Listens, and Never Blinks",

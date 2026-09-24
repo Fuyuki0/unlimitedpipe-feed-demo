@@ -1,13 +1,191 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Security news",
-  "home_page_url": "https://feeds.feedburner.com/TheHackersNews",
+  "home_page_url": "https://www.bleepingcomputer.com/feed/",
   "description": "Events collected by UnlimitedPipe 0.3.2",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
     "generator": "UnlimitedPipe 0.3.2"
   },
   "items": [
+    {
+      "id": "007eb56edb7b0dd0311f",
+      "title": "MacSync malware uses public iCloud calendars to deliver new payloads",
+      "content_text": "A new variant of the MacSync malware targeting macOS systems now uses public iCloud calendar events to deliver new native payloads. [...]",
+      "date_published": "2026-09-24T20:53:35Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "007eb56edb7b0dd0311f",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/",
+          "source_url": "https://www.bleepingcomputer.com/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-24T22:46:25Z",
+          "data": {
+            "change": "added",
+            "label": "MacSync malware uses public iCloud calendars to deliver new payloads",
+            "item_type": "entry",
+            "summary": "added: MacSync malware uses public iCloud calendars to deliver new payloads",
+            "after": {
+              "title": "MacSync malware uses public iCloud calendars to deliver new payloads",
+              "link": "https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/",
+              "id": "https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/",
+              "author": "Bill Toulas",
+              "published_at": "2026-09-24T20:53:35Z",
+              "updated_at": "2026-09-24T20:53:35Z",
+              "summary": "A new variant of the MacSync malware targeting macOS systems now uses public iCloud calendar events to deliver new native payloads. [...]",
+              "categories": [
+                "Security"
+              ],
+              "feed": {
+                "title": "BleepingComputer",
+                "url": "https://www.bleepingcomputer.com/",
+                "feed_url": "https://www.bleepingcomputer.com/feed/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.bleepingcomputer.com/feed/",
+            "elapsed_ms": 127,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "security-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bleepingcomputer.com/news/security/macsync-malware-uses-public-icloud-calendars-to-deliver-new-payloads/",
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "id": "a5bb982d4a39aae0dcfe",
+      "title": "New Carbonato malware uses AI agents to hijack exposed Docker hosts",
+      "content_text": "A new botnet malware called Carbonato is targeting insecure hosts running Docker daemons to install the Hermes Agent AI framework and take control. [...]",
+      "date_published": "2026-09-24T20:10:48Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "a5bb982d4a39aae0dcfe",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/",
+          "source_url": "https://www.bleepingcomputer.com/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-24T22:46:25Z",
+          "data": {
+            "change": "added",
+            "label": "New Carbonato malware uses AI agents to hijack exposed Docker hosts",
+            "item_type": "entry",
+            "summary": "added: New Carbonato malware uses AI agents to hijack exposed Docker hosts",
+            "after": {
+              "title": "New Carbonato malware uses AI agents to hijack exposed Docker hosts",
+              "link": "https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/",
+              "id": "https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/",
+              "author": "Bill Toulas",
+              "published_at": "2026-09-24T20:10:48Z",
+              "updated_at": "2026-09-24T20:10:48Z",
+              "summary": "A new botnet malware called Carbonato is targeting insecure hosts running Docker daemons to install the Hermes Agent AI framework and take control. [...]",
+              "categories": [
+                "Security",
+                "Artificial Intelligence"
+              ],
+              "feed": {
+                "title": "BleepingComputer",
+                "url": "https://www.bleepingcomputer.com/",
+                "feed_url": "https://www.bleepingcomputer.com/feed/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.bleepingcomputer.com/feed/",
+            "elapsed_ms": 127,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "security-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/",
+      "tags": [
+        "Security",
+        "Artificial Intelligence"
+      ]
+    },
     {
       "id": "ac3e5f023a68b2521e3f",
       "title": "Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions",

@@ -9,6 +9,252 @@
   },
   "items": [
     {
+      "id": "810a0fef5a30ad9697a3",
+      "title": "Show HN: Make cursed fonts like Times New Bastard",
+      "content_text": "hn https://news.ycombinator.com/item?id=49823738 · published_at 2026-09-23T22:53:28Z · points 371 · num_comments 52",
+      "date_published": "2026-09-23T22:53:28Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "810a0fef5a30ad9697a3",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50#https://news.ycombinator.com/item?id=49823738",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T22:46:22Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: Make cursed fonts like Times New Bastard",
+            "item_type": "record",
+            "summary": "added: Show HN: Make cursed fonts like Times New Bastard",
+            "after": {
+              "title": "Show HN: Make cursed fonts like Times New Bastard",
+              "link": "https://bastardica.mitpit.com",
+              "hn": "https://news.ycombinator.com/item?id=49823738",
+              "published_at": "2026-09-23T22:53:28Z",
+              "points": 371,
+              "num_comments": 52
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 321,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.2",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "hn",
+                "namespace": "hn-top",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://bastardica.mitpit.com"
+    },
+    {
+      "id": "4226f0c2032d40a788f6",
+      "title": "ArXiv receives multiyear commitments to support it as an independent nonprofit",
+      "content_text": "hn https://news.ycombinator.com/item?id=49823664 · published_at 2026-09-23T22:45:49Z · points 304 · num_comments 38",
+      "date_published": "2026-09-23T22:45:49Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "4226f0c2032d40a788f6",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50#https://news.ycombinator.com/item?id=49823664",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T22:46:22Z",
+          "data": {
+            "change": "added",
+            "label": "ArXiv receives multiyear commitments to support it as an independent nonprofit",
+            "item_type": "record",
+            "summary": "added: ArXiv receives multiyear commitments to support it as an independent nonprofit",
+            "after": {
+              "title": "ArXiv receives multiyear commitments to support it as an independent nonprofit",
+              "link": "https://blog.arxiv.org/2026/09/23/arxiv-receives-multiyear-investment/",
+              "hn": "https://news.ycombinator.com/item?id=49823664",
+              "published_at": "2026-09-23T22:45:49Z",
+              "points": 304,
+              "num_comments": 38
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 321,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.2",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "hn",
+                "namespace": "hn-top",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://blog.arxiv.org/2026/09/23/arxiv-receives-multiyear-investment/"
+    },
+    {
+      "id": "30f41d6ac0456f1d0f2c",
+      "title": "VSCode's SSH Agent Is Bananas (2025)",
+      "content_text": "hn https://news.ycombinator.com/item?id=49822555 · published_at 2026-09-23T21:01:48Z · points 301 · num_comments 205",
+      "date_published": "2026-09-23T21:01:48Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "30f41d6ac0456f1d0f2c",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50#https://news.ycombinator.com/item?id=49822555",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-24T22:46:22Z",
+          "data": {
+            "change": "added",
+            "label": "VSCode's SSH Agent Is Bananas (2025)",
+            "item_type": "record",
+            "summary": "added: VSCode's SSH Agent Is Bananas (2025)",
+            "after": {
+              "title": "VSCode's SSH Agent Is Bananas (2025)",
+              "link": "https://fly.io/blog/vscode-ssh-wtf/",
+              "hn": "https://news.ycombinator.com/item?id=49822555",
+              "published_at": "2026-09-23T21:01:48Z",
+              "points": 301,
+              "num_comments": 205
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 321,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.2",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "hn",
+                "namespace": "hn-top",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://fly.io/blog/vscode-ssh-wtf/"
+    },
+    {
       "id": "650bf292c3340a8634c1",
       "title": "Two-tier encryption in the UK",
       "content_text": "hn https://news.ycombinator.com/item?id=49828731 · published_at 2026-09-24T10:39:19Z · points 310 · num_comments 314",
