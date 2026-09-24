@@ -1,0 +1,158 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Significant earthquakes (USGS)",
+  "home_page_url": "https://earthquake.usgs.gov/earthquakes/map/",
+  "description": "Events collected by UnlimitedPipe 0.3.1",
+  "_unlimitedpipe": {
+    "schema": "unlimitedpipe.event/1",
+    "generator": "UnlimitedPipe 0.3.1"
+  },
+  "items": [
+    {
+      "id": "103afa61000e6143b849",
+      "title": "M 6.4 - 49 km NNE of Kainantu, Papua New Guinea",
+      "content_text": "Magnitude 6.4, 49 km NNE of Kainantu, Papua New Guinea",
+      "date_published": "2026-09-24T10:12:53Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "103afa61000e6143b849",
+          "source": "web",
+          "type": "change",
+          "key": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.geojson#us7000tiqc",
+          "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.geojson",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:12:53Z",
+          "data": {
+            "change": "added",
+            "label": "M 6.4 - 49 km NNE of Kainantu, Papua New Guinea",
+            "item_type": "record",
+            "summary": "added: M 6.4 - 49 km NNE of Kainantu, Papua New Guinea",
+            "after": {
+              "id": "us7000tiqc",
+              "title": "M 6.4 - 49 km NNE of Kainantu, Papua New Guinea",
+              "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiqc",
+              "summary": "Magnitude 6.4, 49 km NNE of Kainantu, Papua New Guinea"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.geojson",
+            "content_type": "application/json",
+            "elapsed_ms": 5,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "title=properties.title",
+                  "link=properties.url",
+                  "summary=\"Magnitude \" + properties.mag + \", \" + properties.place"
+                ],
+                "drop": [
+                  "geometry",
+                  "properties",
+                  "type"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "id",
+                "namespace": "earthquakes",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiqc"
+    },
+    {
+      "id": "93cc7e28fe4cba3c9ba9",
+      "title": "M 6.5 - 169 km W of Nikolski, Alaska",
+      "content_text": "Magnitude 6.5, 169 km W of Nikolski, Alaska",
+      "date_published": "2026-09-24T10:12:53Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "93cc7e28fe4cba3c9ba9",
+          "source": "web",
+          "type": "change",
+          "key": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.geojson#us7000ti1p",
+          "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.geojson",
+          "timestamp": null,
+          "observed_at": "2026-09-24T10:12:53Z",
+          "data": {
+            "change": "added",
+            "label": "M 6.5 - 169 km W of Nikolski, Alaska",
+            "item_type": "record",
+            "summary": "added: M 6.5 - 169 km W of Nikolski, Alaska",
+            "after": {
+              "id": "us7000ti1p",
+              "title": "M 6.5 - 169 km W of Nikolski, Alaska",
+              "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti1p",
+              "summary": "Magnitude 6.5, 169 km W of Nikolski, Alaska"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.geojson",
+            "content_type": "application/json",
+            "elapsed_ms": 5,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.1"
+            },
+            {
+              "step": "map",
+              "version": "0.3.1",
+              "args": {
+                "assign": [
+                  "title=properties.title",
+                  "link=properties.url",
+                  "summary=\"Magnitude \" + properties.mag + \", \" + properties.place"
+                ],
+                "drop": [
+                  "geometry",
+                  "properties",
+                  "type"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.1",
+              "args": {
+                "key": "id",
+                "namespace": "earthquakes",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti1p"
+    }
+  ]
+}

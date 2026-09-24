@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Developer tool releases</title>
+    <link>https://github.com/</link>
+    <description>Events collected by UnlimitedPipe 0.3.1</description>
+    <generator>UnlimitedPipe 0.3.1</generator>
+    <lastBuildDate>Thu, 24 Sep 2026 10:12:52 +0000</lastBuildDate>
+    <item>
+      <title>nodejs/node 2026-09-23, Version 22.23.3 'Jod' (LTS), @aduh95 prepared by @juanarbol</title>
+      <link>https://github.com/nodejs/node/releases/tag/v22.23.3</link>
+      <guid isPermaLink="false">b2048665546487e35fd1</guid>
+      <pubDate>Wed, 23 Sep 2026 18:21:37 +0000</pubDate>
+      <description>Notable Changes
+[fe2a6b2be8] - crypto: update root certificates to NSS 3.125 (Node.js GitHub Bot) #64746
+[871167ddfd] - deps: update corepack to 0.36.0 (Node.js GitHub Bot) #65653
+[b816fc8958] - deps: upgrade npm to 10.9.9 (npm team) #64884
+[e306521444] - deps: update icu to 78.3 (Node.js GitHub Bot) #62324
+[a9cb31129f] - deps: update OpenSSL 3.5.8 (Node.js GitHub Bot) #65542
+[2a3548e51c] - deps: update Undici to 6.28.1 (mcollina) #65790
+[3909ff2c4a] - node-api: support SharedArrayBuffer in…</description>
+    </item>
+    <item>
+      <title>microsoft/vscode 1.139.0</title>
+      <link>https://github.com/microsoft/vscode/releases/tag/1.139.0</link>
+      <guid isPermaLink="false">4b6baba899a7216bf756</guid>
+      <pubDate>Wed, 23 Sep 2026 10:32:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>astral-sh/uv 0.12.18</title>
+      <link>https://github.com/astral-sh/uv/releases/tag/0.12.18</link>
+      <guid isPermaLink="false">64d20e49fafb9b87f3fa</guid>
+      <pubDate>Tue, 22 Sep 2026 23:00:51 +0000</pubDate>
+      <description>Release Notes
+Released on 2026-09-22.
+This release addresses GHSA-2cv4-cqwr-gwf7, which is a path traversal weakness during wheel installation on Windows. No other platforms are affected by this advisory.
+Enhancements
+Add --output-format json to uv pip install and uv pip sync, including for --dry-run and --check (#21893)
+Add --check to uv pip install and uv pip sync to report planned changes without modifying the environment (#21844)
+Identify failures from getrequiresforbuild hooks correctly in…</description>
+    </item>
+    <item>
+      <title>nodejs/node 2026-09-22, Version 26.10.0 (Current), @aduh95</title>
+      <link>https://github.com/nodejs/node/releases/tag/v26.10.0</link>
+      <guid isPermaLink="false">4ac7aca72a69c8fdb03d</guid>
+      <pubDate>Tue, 22 Sep 2026 09:02:46 +0000</pubDate>
+      <description>Notable Changes
+[c0a42d23e5] - (SEMVER-MINOR) crypto: add crypto.parsePKCS12() (Brian Muenzenmeyer) #65627
+[eb4fabe81e] - doc: add araujogui to collaborators (Guilherme Araújo) #66090
+[64fb33d791] - (SEMVER-MINOR) ffi: load libraries from a mounted VFS (Matteo Collina) #65909
+[2b1701f810] - (SEMVER-MINOR) fs: add openAsBlobSync (greenhead) #65644
+[080e76b3d7] - (SEMVER-MINOR) net: support sending net.BoundSocket to threads and child processes (Guy Bedford) #64725
+[13e61f6ae6] - (SEMVER-MINOR)…</description>
+    </item>
+    <item>
+      <title>astral-sh/uv 0.12.17</title>
+      <link>https://github.com/astral-sh/uv/releases/tag/0.12.17</link>
+      <guid isPermaLink="false">87fe67132aaec8e76f61</guid>
+      <pubDate>Fri, 18 Sep 2026 18:59:24 +0000</pubDate>
+      <description>Release Notes
+Released on 2026-09-18.
+Enhancements
+Reject unsupported Git archive paths in lockfiles with a clear error instead of panicking during frozen exports (#21780)
+Preview features
+Set minimum glibc and musl versions that universal resolutions must support with minimum-libc-version (#21651)
+Reject pylock.toml files whose wheel filenames do not match their declared package names or versions (#20746)
+Keep uv workspace metadata read-only unless --sync is provided (#21821)
+Apply uv check…</description>
+    </item>
+    <item>
+      <title>astral-sh/uv 0.12.16</title>
+      <link>https://github.com/astral-sh/uv/releases/tag/0.12.16</link>
+      <guid isPermaLink="false">f71b547f270fcb8a1f0e</guid>
+      <pubDate>Fri, 18 Sep 2026 01:01:42 +0000</pubDate>
+      <description>Release Notes
+Released on 2026-09-17.
+Python
+Add Pyodide 314.0.7, 0.29.5, and 0.27.8 (#21741)
+Enhancements
+Verify downloaded wheels and source distributions against hashes supplied by package indexes (#21562)
+Allow build-constraint-dependencies entries to include hashes for verifying downloaded build dependencies (#21467)
+Honor Darwin platformrelease markers in required-environments using macOS wheel deployment targets (#21766)
+Reject unsupported Git URL schemes while parsing lockfiles instead…</description>
+    </item>
+    <item>
+      <title>denoland/deno v2.9.7</title>
+      <link>https://github.com/denoland/deno/releases/tag/v2.9.7</link>
+      <guid isPermaLink="false">eb8d46233f771f023d69</guid>
+      <pubDate>Thu, 17 Sep 2026 09:04:55 +0000</pubDate>
+      <description>2.9.7 / 2026.09.16
+fix(audit): honor configured CA stores (#36728)
+fix(cache): make HTTP authority paths unambiguous (#36356)
+fix(cli): accept all valid sys permission descriptors (#36753)
+fix(cli): don't duplicate passthrough args for deno deploy/sandbox (#36722)
+fix(cli): generate valid bash completions (#36736)
+fix(cli): preserve double dash before the entrypoint (#36835)
+fix(cli): restore optional-value semantics for deno bundle --sourcemap
+(#36723)
+fix(completions): keep the dash on short…</description>
+    </item>
+    <item>
+      <title>nodejs/node 2026-09-16, Version 26.9.0 (Current), @aduh95</title>
+      <link>https://github.com/nodejs/node/releases/tag/v26.9.0</link>
+      <guid isPermaLink="false">f9b5205d9a23d7e0058a</guid>
+      <pubDate>Wed, 16 Sep 2026 18:16:39 +0000</pubDate>
+      <description>Notable Changes
+[d414624dce] - (SEMVER-MINOR) crypto: add a generic MAC API (Filip Skokan) #65553
+[7ac458f802] - (SEMVER-MINOR) crypto: discover ciphers from OpenSSL providers (Filip Skokan) #65484
+[7c7e95a3bd] - (SEMVER-MINOR) crypto: discover hashes from OpenSSL providers (Filip Skokan) #65484
+[2d2f4f6d1a] - (SEMVER-MINOR) ffi: enable module by default (Matteo Collina) #65475
+[657415c6df] - (SEMVER-MINOR) lib: implement node:bench (James M Snell) #65606
+[ebcfec2f0c] - (SEMVER-MINOR)…</description>
+    </item>
+    <item>
+      <title>astral-sh/ruff 0.16.8</title>
+      <link>https://github.com/astral-sh/ruff/releases/tag/0.16.8</link>
+      <guid isPermaLink="false">341056ae5365829a503e</guid>
+      <pubDate>Wed, 16 Sep 2026 15:56:22 +0000</pubDate>
+      <description>Release Notes
+Released on 2026-09-16.
+Bug fixes
+Visit functional TypedDict keyword arguments correctly (#28584)
+[flake8-simplify] Detect nested async with under sync parent (SIM117) (#27821)
+[flake8-simplify] Preserve operand order in SIM109 fix (#27824)
+[pyupgrade] Preserve required parentheses in multiline UP040 fixes (#28164)
+[pyupgrade] Skip TypeVarTuple and ParamSpec conversions with bounds or constraints (UP040, UP046, UP047) (#28505)
+Rule changes
+Add support for lazymodules…</description>
+    </item>
+    <item>
+      <title>microsoft/vscode 1.138.0</title>
+      <link>https://github.com/microsoft/vscode/releases/tag/1.138.0</link>
+      <guid isPermaLink="false">04fb057e1ad62fd2db5e</guid>
+      <pubDate>Wed, 16 Sep 2026 07:14:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>astral-sh/uv 0.12.15</title>
+      <link>https://github.com/astral-sh/uv/releases/tag/0.12.15</link>
+      <guid isPermaLink="false">062e1ed00ca9642edc96</guid>
+      <pubDate>Tue, 15 Sep 2026 12:09:40 +0000</pubDate>
+      <description>Release Notes
+Released on 2026-09-15.
+Performance
+Speed up cold-cache resolution and HTTP cache revalidation by batching cache writes (#21675)
+Bug fixes
+Fix regressions in 0.12.14 when installing to symlinked destinations or using uv pip install --target . (#21699)
+Install uv 0.12.15
+Install prebuilt binaries via shell script
+sh
+curl --proto '=https' --tlsv1.2 -LsSf https://releases.astral.sh/github/uv/releases/download/0.12.15/uv-installer.sh | sh
+Install prebuilt binaries via powershell…</description>
+    </item>
+    <item>
+      <title>astral-sh/uv 0.12.14</title>
+      <link>https://github.com/astral-sh/uv/releases/tag/0.12.14</link>
+      <guid isPermaLink="false">e850258ae458a83d40eb</guid>
+      <pubDate>Tue, 15 Sep 2026 02:19:30 +0000</pubDate>
+      <description>Release Notes
+Released on 2026-09-15.
+Enhancements
+Resume interrupted downloads with HTTP Range requests when supported (#21570)
+Use a consistent format for error rendering (#17110)
+Render error and warning causes with compact cause: labels (#21599, #21603)
+Show underlying causes and hints in user warnings (#21565)
+Show resolver hints for failed uv tool upgrade operations (#21566)
+Preview features
+Export multiple dependency selections from a shared lockfile in one uv export --batch invocation…</description>
+    </item>
+    <item>
+      <title>astral-sh/ruff 0.16.7</title>
+      <link>https://github.com/astral-sh/ruff/releases/tag/0.16.7</link>
+      <guid isPermaLink="false">25a26654b543c797b8f2</guid>
+      <pubDate>Thu, 10 Sep 2026 18:05:06 +0000</pubDate>
+      <description>Release Notes
+Released on 2026-09-10.
+Preview features
+[ruff] Add rule for default values on method receivers (RUF077) (#26700)
+[ruff] Recognize re.prefixmatch (RUF039, RUF055) (#28311)
+Bug fixes
+Alternate nested quotes inside format spec interpolations (#28259)
+[flake8-implicit-str-concat] Mark fix unsafe when it creates a docstring (ISC003) (#27981)
+[flake8-tidy-imports] Skip fixes for multi-member imports (TID254) (#26584)
+[pylint] Gate ImportCycleError on Python 3.15 (PLW0133) (#28310)
+Rule…</description>
+    </item>
+    <item>
+      <title>nodejs/node 2026-09-09, Version 26.8.2 (Current), @aduh95</title>
+      <link>https://github.com/nodejs/node/releases/tag/v26.8.2</link>
+      <guid isPermaLink="false">6494d2a4d25ef6c5f705</guid>
+      <pubDate>Wed, 09 Sep 2026 16:07:48 +0000</pubDate>
+      <description>Notable Changes
+[616bd3fa26] - doc: deprecate Server.prototype.listen2 in node:net (Antoine du Hamel) #65593
+[ae1801eb55] - meta: refine the security vuln posture for experimental features (James M Snell) #65438
+[09feba74c8] - deps: update Undici to 8.10.2 (Node.js GitHub Bot) #65788
+[7efdbe3eb9] - deps: update OpenSSL to 3.5.8 (Node.js GitHub Bot) #65542
+Commits
+[d8aedd6584] - build: skip dockit on riscv64 (Stewart X Addison) #62251
+[1899c274eb] - build: activate correct default flags for…</description>
+    </item>
+    <item>
+      <title>microsoft/vscode 1.137.0</title>
+      <link>https://github.com/microsoft/vscode/releases/tag/1.137.0</link>
+      <guid isPermaLink="false">0dda9a825b5f170c343d</guid>
+      <pubDate>Wed, 09 Sep 2026 15:32:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>nodejs/node 2026-09-08, Version 24.21.0 'Krypton' (LTS), @aduh95</title>
+      <link>https://github.com/nodejs/node/releases/tag/v24.21.0</link>
+      <guid isPermaLink="false">907809cddad52c763601</guid>
+      <pubDate>Tue, 08 Sep 2026 21:51:09 +0000</pubDate>
+      <description>Notable Changes
+[71106e1f17] - crypto: update root certificates to NSS 3.126 (Node.js GitHub Bot) #65495
+[afca0a912d] - (SEMVER-MINOR) crypto: support loading private keys through STORE loaders (Filip Skokan) #63949
+[6274fccbd9] - deps: update OpenSSL to 3.5.8 (Node.js GitHub Bot) #65542
+[53cba013c7] - deps: update Undici to 7.29.1 (Node.js GitHub Bot) #65789
+[0529772798] - (SEMVER-MINOR) lib,src: improve histogram implementation (James M Snell) #65024
+[41c7062b81] - (SEMVER-MINOR) net: improve…</description>
+    </item>
+    <item>
+      <title>microsoft/vscode 1.136.2</title>
+      <link>https://github.com/microsoft/vscode/releases/tag/1.136.2</link>
+      <guid isPermaLink="false">be59c13f465466760b27</guid>
+      <pubDate>Tue, 08 Sep 2026 17:54:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>oven-sh/bun Bun v1.4.2</title>
+      <link>https://github.com/oven-sh/bun/releases/tag/bun-v1.4.2</link>
+      <guid isPermaLink="false">e86071d83b097445c3d0</guid>
+      <pubDate>Sat, 05 Sep 2026 05:55:48 +0000</pubDate>
+      <description>To install Bun v1.4.2
+bash
+curl -fsSL https://bun.sh/install | bash
+or you can use npm
+npm install -g bun
+Windows:
+bash
+powershell -c "irm bun.sh/install.ps1|iex"
+To upgrade to Bun v1.4.2:
+bash
+bun upgrade
+Read Bun v1.4.2's release notes on Bun's blog
+Thanks to 3 contributors!
+@dylan-conway
+@jarred-sumner
+@robobun</description>
+    </item>
+    <item>
+      <title>oven-sh/bun Bun v1.4.1</title>
+      <link>https://github.com/oven-sh/bun/releases/tag/bun-v1.4.1</link>
+      <guid isPermaLink="false">3a257d3f5f9967012958</guid>
+      <pubDate>Fri, 04 Sep 2026 08:33:19 +0000</pubDate>
+      <description>To install Bun v1.4.1
+bash
+curl -fsSL https://bun.sh/install | bash
+or you can use npm
+npm install -g bun
+Windows:
+bash
+powershell -c "irm bun.sh/install.ps1|iex"
+To upgrade to Bun v1.4.1:
+bash
+bun upgrade
+Read Bun v1.4.1's release notes on Bun's blog
+Thanks to 7 contributors!
+@alii
+@dylan-conway
+@jarred-sumner
+@jvitormelo
+@marshallofsound
+@robobun
+@sosukesuzuki</description>
+    </item>
+    <item>
+      <title>astral-sh/ruff 0.16.6</title>
+      <link>https://github.com/astral-sh/ruff/releases/tag/0.16.6</link>
+      <guid isPermaLink="false">3d36712635ede0ee53e2</guid>
+      <pubDate>Thu, 03 Sep 2026 17:20:13 +0000</pubDate>
+      <description>Release Notes
+Released on 2026-09-03.
+Preview features
+Move pytest-fixture-autouse to the restriction category (#28219)
+[flake8-pytest-style] Add an autofix for PT020 (#27993)
+[flake8-tidy-imports] Prevent fix loop between TID254 and TID255 (#28262)
+[isort] Exclude pragma comments from line length calculation (I001) (#27313)
+Bug fixes
+Validate unary expressions when parsing (#28233)
+[flake8-async, pylint] Recognize builtins.open (ASYNC230, PLW1514) (#28021)
+[flake8-bugbear] Fix panic on match…</description>
+    </item>
+    <item>
+      <title>microsoft/vscode 1.136.1</title>
+      <link>https://github.com/microsoft/vscode/releases/tag/1.136.1</link>
+      <guid isPermaLink="false">5efca7ab143408c42b68</guid>
+      <pubDate>Thu, 03 Sep 2026 15:25:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>rust-lang/rust Rust 1.98.1</title>
+      <link>https://github.com/rust-lang/rust/releases/tag/1.98.1</link>
+      <guid isPermaLink="false">209560e1f4bffbf99d78</guid>
+      <pubDate>Thu, 03 Sep 2026 13:14:07 +0000</pubDate>
+      <description>rustc: fix miscompilation in generating vtables</description>
+    </item>
+    <item>
+      <title>denoland/deno v2.9.6</title>
+      <link>https://github.com/denoland/deno/releases/tag/v2.9.6</link>
+      <guid isPermaLink="false">eede7502c1b78eb9394b</guid>
+      <pubDate>Thu, 27 Aug 2026 17:29:30 +0000</pubDate>
+      <description>2.9.6 / 2026.08.27
+feat(compressible): add support for 'text/x-component' content type (#36450)
+feat(desktop): clipboard api (#35750)
+feat(desktop): support checked, icon, and tooltip on menu items (#36649)
+fix(bundle): isolate esbuild downloads from workspace registries (#36467)
+fix(cache): combine duplicate headers for Vary matching (#36476)
+fix(cliparser): remove orphaned sync-types parser
+fix(core): cap adaptive buffer initial allocations (#36432)
+fix(core): make Unix pipe fd ownership…</description>
+    </item>
+    <item>
+      <title>astral-sh/ruff 0.16.5</title>
+      <link>https://github.com/astral-sh/ruff/releases/tag/0.16.5</link>
+      <guid isPermaLink="false">b7bfb5205c0cbf2ce2f1</guid>
+      <pubDate>Thu, 27 Aug 2026 16:37:58 +0000</pubDate>
+      <description>Release Notes
+Released on 2026-08-27.
+Preview features
+Allow rules without codes (#28049)
+Introduce category selectors (#27666)
+Update preview default rules and categories (#27877)
+Bug fixes
+[flake8-async] Detect blocking generic HTTP requests (ASYNC210) (#28024)
+[flake8-datetimez] Allow timezone-safe strptime chains (DTZ007) (#28023)
+[flake8-simplify] Respect side effects in lambda defaults (SIM401) (#28000)
+Server
+Fix duplicated "of" in ClientOptions doc comment…</description>
+    </item>
+    <item>
+      <title>microsoft/TypeScript TypeScript 7.0.2</title>
+      <link>https://github.com/microsoft/TypeScript/releases/tag/v7.0.2</link>
+      <guid isPermaLink="false">d2e6ab8117691c766191</guid>
+      <pubDate>Thu, 20 Aug 2026 18:09:49 +0000</pubDate>
+      <description>https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/
+This tag was originally released at: https://github.com/microsoft/typescript-go/releases/tag/typescript%2Fv7.0.2</description>
+    </item>
+    <item>
+      <title>rust-lang/rust Rust 1.98.0</title>
+      <link>https://github.com/rust-lang/rust/releases/tag/1.98.0</link>
+      <guid isPermaLink="false">a7d958cdc229f19f26b6</guid>
+      <pubDate>Thu, 20 Aug 2026 18:05:33 +0000</pubDate>
+      <description>Language
+Allow shortening lifetime of &amp;mut when unsize-coercing, even in an invariant position. For example, you can now coerce a Cell to a Cell . Such shortenings were already previously allowed when coercing a &amp;mut to a &amp;, or coercing a &amp; to a &amp;.
+Add deny-by-default invalidruntimesymboldefinitions lint and warn-by-default suspiciousruntimesymboldefinitions lint
+The lints currently specifically targets core runtime symbols like memcmp, memset, strlen, ... and is planned to be expanded in the…</description>
+    </item>
+    <item>
+      <title>astral-sh/ruff 0.16.4</title>
+      <link>https://github.com/astral-sh/ruff/releases/tag/0.16.4</link>
+      <guid isPermaLink="false">3a6cfc2f3d5436be3dfc</guid>
+      <pubDate>Thu, 20 Aug 2026 17:44:56 +0000</pubDate>
+      <description>Release Notes
+Released on 2026-08-20.
+Preview features
+[flake8-use-pathlib] Add autofix for PTH116 (#26460)
+[refurb] Restrict delete-full-slice to lists (FURB131) (#27711)
+[refurb] Skip FURB101 and FURB103 when the open argument is a file descriptor (#27643)
+Bug fixes
+Fix InvalidInstruction on Windows CPUs that do not support POPCNT (#27803)
+[pyflakes] Emit semantic syntax errors in string type definitions as F722 (#27835)
+[pylint] Allow os.exit imports in import-private-name (PLC2701)…</description>
+    </item>
+    <item>
+      <title>oven-sh/bun Bun v1.4</title>
+      <link>https://github.com/oven-sh/bun/releases/tag/bun-v1.4.0</link>
+      <guid isPermaLink="false">d7e073c7e4b7a595d52a</guid>
+      <pubDate>Thu, 20 Aug 2026 14:07:21 +0000</pubDate>
+      <description>To install Bun v1.4
+bash
+curl -fsSL https://bun.com/install | bash
+or you can use npm
+npm install -g bun
+Windows:
+bash
+powershell -c "irm bun.com/install.ps1|iex"
+To upgrade to Bun v1.4.0:
+bash
+bun upgrade
+Read the blog post:
+Thank you
+Bun is free, open source, and MIT-licensed. We receive a lot of contributions from the community, and we'd like to thank everyone who fixed a bug or contributed since Bun…</description>
+    </item>
+    <item>
+      <title>denoland/deno v2.9.5</title>
+      <link>https://github.com/denoland/deno/releases/tag/v2.9.5</link>
+      <guid isPermaLink="false">ec7dfc39871eba4d6eb8</guid>
+      <pubDate>Thu, 06 Aug 2026 15:05:43 +0000</pubDate>
+      <description>2.9.5 / 2026.08.06
+feat(add): --unscoped flag to alias packages by their unscoped name (#36319)
+feat(task): add --members flag to run tasks in workspace members only (#35748)
+feat: add Blob/Body textStream() (#35616)
+feat: add experimental QuickJS backend (#36194)
+fix(bundle): avoid esbuild protocol deadlock (#36427)
+fix(bundle): respect runtime file permissions (#36107)
+fix(cjs): use loader sources for recursive analysis (#36111)
+fix(cli): escape control characters in external metadata…</description>
+    </item>
+    <item>
+      <title>denoland/deno v2.9.4</title>
+      <link>https://github.com/denoland/deno/releases/tag/v2.9.4</link>
+      <guid isPermaLink="false">54a6b927ca392b6c314e</guid>
+      <pubDate>Thu, 23 Jul 2026 16:59:31 +0000</pubDate>
+      <description>2.9.4 / 2026.07.23
+feat(desktop): enable --hmr for React Router (#35900)
+feat(ext/node): add a byteLength/length parameter to
+Buffer.indexOf/lastIndexOf/includes (#35872)
+feat(ext/node): support raw chacha20 cipher in crypto.createCipheriv (#36016)
+feat: upgrade V8 to 150.2.0 (#36098)
+fix(add): support --minimum-dependency-age flag in deno add/remove (#36099)
+fix(cache): store Web Cache under origin data (#36145)
+fix(canvas): require FFI permission for native window handles (#36080)
+fix(clean)…</description>
+    </item>
+    <item>
+      <title>rust-lang/rust Rust 1.97.1</title>
+      <link>https://github.com/rust-lang/rust/releases/tag/1.97.1</link>
+      <guid isPermaLink="false">ad865aaaa6a57b814ab2</guid>
+      <pubDate>Thu, 16 Jul 2026 12:29:15 +0000</pubDate>
+      <description>rustc: Fix miscompilation in LLVM optimization This backports an LLVM submodule bump to include the LLVM-side fix and a revert of the rustc change that is one known trigger for the bug. The rustc side revert should not be strictly necessary but is done out of abundance of caution.</description>
+    </item>
+    <item>
+      <title>denoland/deno v2.9.3</title>
+      <link>https://github.com/denoland/deno/releases/tag/v2.9.3</link>
+      <guid isPermaLink="false">d55b3e9a6989b2766b9f</guid>
+      <pubDate>Wed, 15 Jul 2026 15:35:06 +0000</pubDate>
+      <description>2.9.3 / 2026.07.15
+feat(cli): deno add --no-save and --save-optional (#36039)
+feat(cli): add --min-dep-age alias (#35914)
+feat(compile): support aarch64-pc-windows-msvc target (#36004)
+feat(ext/fetch): add http2MaxHeaderListSize option to
+Deno.createHttpClient (#33194)
+fix(bundle): preserve raw imports in watch mode (#36040)
+fix(canvas): don't hold SurfaceData mut borrow over window resize (#35993)
+fix(config): reject out-of-range minimum dependency ages (#36051)
+fix(core): block user ext…</description>
+    </item>
+    <item>
+      <title>rust-lang/rust Rust 1.97.0</title>
+      <link>https://github.com/rust-lang/rust/releases/tag/1.97.0</link>
+      <guid isPermaLink="false">64f7ba84bb4fcf95a45b</guid>
+      <pubDate>Thu, 09 Jul 2026 12:25:16 +0000</pubDate>
+      <description>Language
+Consider Result and ControlFlow to be equivalent to T for must use lint
+Add allow-by-default deadcodepubinbinary lint for unused pub items in binary crates
+Stabilize the div32, lam-bh, lamcas, ld-seq-sa and scq target features
+Stabilize cfg(targethasatomicprimitivealignment)
+Allow trailing self in imports in more cases
+Platform Support
+nvptx64-nvidia-cuda: drop support for old architectures and old ISAs
+Refer to Rust's platform support page for more information on Rust's tiered…</description>
+    </item>
+    <item>
+      <title>rust-lang/rust Rust 1.96.1</title>
+      <link>https://github.com/rust-lang/rust/releases/tag/1.96.1</link>
+      <guid isPermaLink="false">b3cc94dec82cb84ea370</guid>
+      <pubDate>Sun, 05 Jul 2026 23:50:27 +0000</pubDate>
+      <description>Cargo: fix timeout/retry behavior
+Cargo: apply patches for CVE-2025-15661, CVE-2026-55199, and CVE-2026-55200 to libssh2
+rustc: fix miscompilation in MIR optimization</description>
+    </item>
+    <item>
+      <title>oven-sh/bun Bun v1.3.14</title>
+      <link>https://github.com/oven-sh/bun/releases/tag/bun-v1.3.14</link>
+      <guid isPermaLink="false">829eb765856b05097110</guid>
+      <pubDate>Wed, 13 May 2026 03:48:28 +0000</pubDate>
+      <description>To install Bun v1.3.14
+bash
+curl -fsSL https://bun.sh/install | bash
+or you can use npm
+npm install -g bun
+Windows:
+bash
+powershell -c "irm bun.sh/install.ps1|iex"
+To upgrade to Bun v1.3.14:
+bash
+bun upgrade
+Read Bun v1.3.14's release notes on Bun's blog
+Thanks to 11 contributors!
+@190n
+@alii
+@carlsmedstad
+@cirospaciari
+@coleleavitt
+@djs5008
+@dylan-conway
+@ig-ant
+@Jarred-Sumner
+@robobun
+@sosukesuzuki</description>
+    </item>
+    <item>
+      <title>oven-sh/bun Bun v1.3.13</title>
+      <link>https://github.com/oven-sh/bun/releases/tag/bun-v1.3.13</link>
+      <guid isPermaLink="false">ad816de0f3a6e4056f10</guid>
+      <pubDate>Mon, 20 Apr 2026 08:07:57 +0000</pubDate>
+      <description>To install Bun v1.3.13
+bash
+curl -fsSL https://bun.sh/install | bash
+or you can use npm
+npm install -g bun
+Windows:
+bash
+powershell -c "irm bun.sh/install.ps1|iex"
+To upgrade to Bun v1.3.13:
+bash
+bun upgrade
+Read Bun v1.3.13's release notes on Bun's blog
+Thanks to 8 contributors!
+@alii
+@ant-kurt
+@chrislloyd
+@cirospaciari
+@dylan-conway
+@jarred-sumner
+@robobun
+@sosukesuzuki</description>
+    </item>
+    <item>
+      <title>microsoft/TypeScript TypeScript 6.0.3</title>
+      <link>https://github.com/microsoft/TypeScript/releases/tag/v6.0.3</link>
+      <guid isPermaLink="false">3a7ffcf3fa2e7e60d735</guid>
+      <pubDate>Thu, 16 Apr 2026 23:43:08 +0000</pubDate>
+      <description>For release notes, check out the release announcement blog post.
+fixed issues query for TypeScript 6.0.0 (Beta).
+fixed issues query for TypeScript 6.0.1 (RC).
+fixed issues query for TypeScript 6.0.2 (Stable).
+fixed issues query for TypeScript 6.0.3 (Stable).
+Downloads are available on:
+npm</description>
+    </item>
+    <item>
+      <title>microsoft/TypeScript TypeScript 6.0</title>
+      <link>https://github.com/microsoft/TypeScript/releases/tag/v6.0.2</link>
+      <guid isPermaLink="false">57839b1675b8ba82a642</guid>
+      <pubDate>Mon, 23 Mar 2026 16:19:11 +0000</pubDate>
+      <description>For release notes, check out the release announcement blog post.
+fixed issues query for TypeScript 6.0.0 (Beta).
+fixed issues query for TypeScript 6.0.1 (RC).
+fixed issues query for TypeScript 6.0.2 (Stable).
+Downloads are available on:
+npm</description>
+    </item>
+    <item>
+      <title>microsoft/TypeScript TypeScript 6.0.1 RC</title>
+      <link>https://github.com/microsoft/TypeScript/releases/tag/v6.0-rc</link>
+      <guid isPermaLink="false">97d01efbb76c0b49e3b5</guid>
+      <pubDate>Fri, 06 Mar 2026 17:56:53 +0000</pubDate>
+      <description>For release notes, check out the release announcement blog post.
+fixed issues query for TypeScript 6.0.0 (Beta).
+fixed issues query for TypeScript 6.0.1 (RC).
+Downloads are available on:
+npm</description>
+    </item>
+    <item>
+      <title>microsoft/TypeScript TypeScript 6.0 Beta</title>
+      <link>https://github.com/microsoft/TypeScript/releases/tag/v6.0-beta</link>
+      <guid isPermaLink="false">ab011b44aa785e5122d7</guid>
+      <pubDate>Wed, 18 Feb 2026 18:11:46 +0000</pubDate>
+      <description>For release notes, check out the release announcement.
+fixed issues query for Typescript 6.0.0 (Beta).
+Downloads are available on:
+npm</description>
+    </item>
+  </channel>
+</rss>

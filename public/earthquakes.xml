@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Significant earthquakes (USGS)</title>
+    <link>https://earthquake.usgs.gov/earthquakes/map/</link>
+    <description>Events collected by UnlimitedPipe 0.3.1</description>
+    <generator>UnlimitedPipe 0.3.1</generator>
+    <lastBuildDate>Thu, 24 Sep 2026 10:12:53 +0000</lastBuildDate>
+    <item>
+      <title>M 6.4 - 49 km NNE of Kainantu, Papua New Guinea</title>
+      <link>https://earthquake.usgs.gov/earthquakes/eventpage/us7000tiqc</link>
+      <guid isPermaLink="false">103afa61000e6143b849</guid>
+      <pubDate>Thu, 24 Sep 2026 10:12:53 +0000</pubDate>
+      <description>Magnitude 6.4, 49 km NNE of Kainantu, Papua New Guinea</description>
+    </item>
+    <item>
+      <title>M 6.5 - 169 km W of Nikolski, Alaska</title>
+      <link>https://earthquake.usgs.gov/earthquakes/eventpage/us7000ti1p</link>
+      <guid isPermaLink="false">93cc7e28fe4cba3c9ba9</guid>
+      <pubDate>Thu, 24 Sep 2026 10:12:53 +0000</pubDate>
+      <description>Magnitude 6.5, 169 km W of Nikolski, Alaska</description>
+    </item>
+  </channel>
+</rss>

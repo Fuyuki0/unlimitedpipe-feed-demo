@@ -1,0 +1,1826 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>arXiv papers on language models and agents</title>
+    <link>https://arxiv.org/</link>
+    <description>Events collected by UnlimitedPipe 0.3.1</description>
+    <generator>UnlimitedPipe 0.3.1</generator>
+    <lastBuildDate>Thu, 24 Sep 2026 10:12:42 +0000</lastBuildDate>
+    <item>
+      <title>COMED: The Missing Middle Between Routing and Collaboration in Multi-LLM Inference</title>
+      <link>https://arxiv.org/abs/2609.26913</link>
+      <guid isPermaLink="false">79e77f904693668c433c</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>No single Large Language Model (LLM) is uniformly reliable across queries, motivating multi-model inference systems that either route among models or combine their outputs. However, routing stops after selecting an initial model, while dense collaboration invokes peers on every query. We show that collaboration is non-monotonic: peers can recover failures that no model solves alone, but can also corrupt initially correct answers. We introduce COMED (Controlled Model Escalation for Multi-LLM…</description>
+      <category>cs.CL</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>Experts Rise Where LLMs Disagree: Using Cross-Model Disagreement to Target Expert Effort in LLM Codebook Revision for Large-Scale Annotation</title>
+      <link>https://arxiv.org/abs/2609.26926</link>
+      <guid isPermaLink="false">f257fd0bee07d7b8ba45</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Large-scale text annotation brings expert insight to millions of documents, often through a codebook that AI annotators follow. Developing a robust codebook, however, takes months. Large language models (LLMs) could speed this process by applying an early codebook to the data, surfacing cases with strong LLM disagreement, and eliciting expert feedback to address them. We examined three ways experts can provide feedback for LLM codebook revision: (i) editing LLM-generated revisions driven by…</description>
+      <category>cs.CL</category>
+      <category>cs.AI</category>
+      <category>cs.HC</category>
+      <category>cs.LG</category>
+    </item>
+    <item>
+      <title>LEGO: Synergizing Expert GraphRAG and Expert Chain-of-Thought for Legal Reasoning</title>
+      <link>https://arxiv.org/abs/2609.27009</link>
+      <guid isPermaLink="false">40c00cb07c881cac3d0f</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Large language models are increasingly applied to high-risk domains such as law, yet complex legal reasoning remains limited by two structural challenges. First, existing RAG and GraphRAG methods emphasize lexical or semantic similarity while overlooking normative relations among legal provisions. Second, vanilla Chain-of-Thought prompting may generate plausible rationales without enforcing the normative structure of legal reasoning. To deal with the bottleneck of pipelines in the legal…</description>
+      <category>cs.CL</category>
+      <category>cs.IR</category>
+    </item>
+    <item>
+      <title>What Changes When Fact-Verification Scores Improve? Evidence and Answer Accounting Across Trained Verifiers and LLMs</title>
+      <link>https://arxiv.org/abs/2609.27064</link>
+      <guid isPermaLink="false">1a22fa4abae2f4a52b0a</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>A joint fact-verification score assesses answers and submitted evidence together. When the score improves, how much of the gain remains if the answers are held fixed? On FEVEROUS, strict score is the percentage of claims with a correct answer and a complete annotated evidence group in the submitted evidence. Across four trained DeBERTa checkpoints and 7,890 claims, replacing DCUF evidence with UnifEE evidence raises strict score by 9.61 percentage points, compared with 1.96 percentage points in…</description>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>Giving Credit Where It's Due: Redundancy-Aware Learning for Efficient Reasoning</title>
+      <link>https://arxiv.org/abs/2609.27156</link>
+      <guid isPermaLink="false">cce0e2e8d17f42007a40</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Large reasoning models can produce correct yet unnecessarily long reasoning traces. Existing methods improve reasoning efficiency with trajectory-level objectives or local token- and step-level signals, but rarely model inter-step semantic dependencies. This limits their ability to distinguish redundant steps from those that support later deductions, making it harder to shorten reasoning without sacrificing accuracy. We introduce RECAP (REdundancy-aware Credit Assignment via Propagation), which…</description>
+      <category>cs.CL</category>
+      <category>cs.LG</category>
+    </item>
+    <item>
+      <title>Count Evidence, Not Sentences: Tempered Evidence Fusion of LLM Judgments for Long-Text Value Measurement</title>
+      <link>https://arxiv.org/abs/2609.27165</link>
+      <guid isPermaLink="false">2afb3bf310448167c454</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Large language models (LLMs) are increasingly used to measure public value orientations from long social media posts, yet such posts often mix background, quotations, concessions, and only a few stance-bearing sentences. Existing approaches either ask the model to predict a document-level label directly, which can be overconfident, or aggregate sentence-level predictions by majority or soft voting, which treat uncertain and decisive sentences as equally informative. We formulate long-text value…</description>
+      <category>cs.CL</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>Realize What Matters: Principled Context Representation for Large-Scale Reasoning</title>
+      <link>https://arxiv.org/abs/2609.27173</link>
+      <guid isPermaLink="false">e9fbcc8d99af9e516a7b</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Solving complex tasks in domains such as science, medicine, law, and finance often requires assembling interdependent information scattered across vast, heterogeneous sources far beyond model context limits. Existing approaches tackle this challenge by organizing information into more manageable representations over which models can reason, such as graphs, textual memories, and retrieval collections. These representations dictate what downstream reasoning is possible and, ultimately, whether it…</description>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>LOCKR: A Hidden-State Trajectory-Guided Planner for Detecting and Repairing Stable-but-Wrong Lock-In in Diffusion Language Models</title>
+      <link>https://arxiv.org/abs/2609.27220</link>
+      <guid isPermaLink="false">b731d97b925504f0a54b</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Diffusion language models generate text through iterative denoising, exposing intermediate trajectories before final answers are produced. We identify a recurring reasoning failure, stable-but-wrong lock-in, where an answer stabilizes early around an incorrect value while substantial denoising remains. Surface-level decoding signals such as confidence, entropy, margin, and answer stability are insufficient to reliably distinguish correct from erroneous lock-in. We formulate selective reasoning…</description>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>Distilling Sequential Computation in Transformer Language Models</title>
+      <link>https://arxiv.org/abs/2609.27233</link>
+      <guid isPermaLink="false">37a4ed1403a1427c698b</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Transformer language models process sequences token by token in an autoregressive manner, making growing contexts increasingly expensive. Yet many adjacent token spans are highly predictable or frequently occur as stable units, suggesting that their representations may be compressible. We introduce a method for distilling sequential computation by replacing spans of input tokens with collapsed representations, computed on the fly by a lightweight merge module. This module generates a single…</description>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>UniDataAgent: An Ontology-Grounded Agent for Enterprise Question-to-Report Automation</title>
+      <link>https://arxiv.org/abs/2609.27257</link>
+      <guid isPermaLink="false">37fc67abe1b8419a7fe0</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Enterprise data agents must preserve organization specific semantics, not just translate questions into queries. We present ChinaUnicom DataAgent (UniDataAgent), an ontology grounded system for reusable question-to-report analysis that separates semantic acquisition from online execution. Ontology Acquisition and Validation stage (OAV) builds versioned enterprise ontologies from metadata, business knowledge, and supporting materials through expert authored business skills, constrained…</description>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>Can One Adapted Model Do It All? Fine-Tuning Strategy Selection for Customer Support LLMs</title>
+      <link>https://arxiv.org/abs/2609.27262</link>
+      <guid isPermaLink="false">fb80383541fde56378a7</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Production customer-support systems often require LLMs to support multiple skills, such as intent classification, question answering, summarization, or tool-use decisions. A central deployment question is whether these skills should be handled by separate task-specialist models or by a single model trained through multi-task training, sequential updates, or model merging. We study this question using thirteen models spanning five families (Qwen3, Qwen3.5, Gemma-3, Llama-3.1, and Mistral) from…</description>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>Guides That Cause Actions: An Offline Study of Guide-Action Mutual Reinforcement in Multimodal Web Agents</title>
+      <link>https://arxiv.org/abs/2609.27353</link>
+      <guid isPermaLink="false">bfd9dbd34226af37cde5</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Web agents are usually evaluated in live environments, where environment state and judge models drift between runs, so the same checkpoint rarely reproduces the same score, making controlled studies of training phenomena impractical. We present WebMRE, an offline benchmark of 541 tasks and 5,293 steps derived from successful WebArena trajectories, with fully audited test labels and a deterministic protocol that scores a checkpoint identically on every run without any environment. Each step…</description>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>Automated Extraction of Records of Processing Activities (RoPA) Using Hybrid RAG and Locally Deployed Large Language Models</title>
+      <link>https://arxiv.org/abs/2609.27359</link>
+      <guid isPermaLink="false">c47f1e6ea6803835192d</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Vietnam's Personal Data Protection Law (Law No. 91/2025/QH15) and Decree No. 356/2025/ND-CP, effective January 1, 2026, require organizations to establish and maintain Records of Processing Activities (RoPA). Manual RoPA preparation is labor-intensive, while cloud-hosted large language models (LLMs) may conflict with data-sovereignty requirements. We propose RoPA Manager, a system for automated RoPA information extraction using hybrid retrieval that combines lexical ranking over tsvector…</description>
+      <category>cs.CL</category>
+      <category>cs.CR</category>
+      <category>cs.IR</category>
+    </item>
+    <item>
+      <title>Attention Routing Stabilizes Early: Working-Set Inference for Recurrent Language Models</title>
+      <link>https://arxiv.org/abs/2609.27373</link>
+      <guid isPermaLink="false">4b93474e26cfa735addb</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Recurrent language models repeatedly apply shared network blocks to refine latent representations, but standard inference recomputes global attention at every recurrent step. We study attention dynamics across recurrent depth and find that attention support and distributions stabilize substantially earlier than hidden states and attention outputs. This suggests a two-stage structure: early steps discover a sparse working set of relevant context, while later steps refine representations over…</description>
+      <category>cs.CL</category>
+      <category>cs.LG</category>
+    </item>
+    <item>
+      <title>Planned Test-Time Scaling with Coordinated Reasoning Paths</title>
+      <link>https://arxiv.org/abs/2609.27374</link>
+      <guid isPermaLink="false">e4b9ab831288ba598eb8</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Test-time scaling with parallel branches is widely adopted to improve performance on challenging reasoning tasks. The predominant approach, repeated sampling, draws branches independently from a single policy, which can produce redundant attempts and thereby limit the gains from additional inference compute. To address this limitation, we propose Planned Test-Time Scaling (PTTS), which replaces independent sampling with a coordinated joint policy: a planner generates a solution outline for each…</description>
+      <category>cs.CL</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>PRISM-VLM: A Multi-Axis Discriminative Benchmark for Compact Vision-Language Models</title>
+      <link>https://arxiv.org/abs/2609.27395</link>
+      <guid isPermaLink="false">7e8ede169caf11aa194e</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Compact vision-language models (VLMs) now power a growing share of multimodal applications. The benchmarks used to compare them, however, inherit a frontier-centric design: each model is reduced to a single accuracy number, narrowing the inter-model gap on saturated suites and pressing models into low-score bands on harder ones. We introduce PRISM-VLM, a multi-axis discriminative benchmark that scores every item along seven axes covering the recurring failure modes (task quality, behavioral…</description>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>Uncheatable Eval: Dynamic Compression-Based Evaluation of Language Models</title>
+      <link>https://arxiv.org/abs/2609.27510</link>
+      <guid isPermaLink="false">f9a5b277e611684f02c5</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Modern large language models are pretrained on massive datasets, making it difficult to prevent benchmark data from entering their training sets and undermining the reliability of evaluation results. Reliable evaluation is particularly challenging for base models, whose limited instruction-following ability complicates task-based assessment. We introduce Uncheatable Eval, a dynamic benchmark that regularly collects newly published text to evaluate base language models and reduce the risk of…</description>
+      <category>cs.CL</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>When Context Misleads: In-context Learning with Jurisdiction in Large Language Models</title>
+      <link>https://arxiv.org/abs/2609.27603</link>
+      <guid isPermaLink="false">731851537c3a416a5d29</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>In-Context Learning (ICL) has become a cornerstone of modern LLM deployment. However, existing ICL post-training methods have a critical blind spot: they excel at extracting patterns from demonstrations while often neglecting context authority, the ability to determine whether contextual information should govern the final answer. To benchmark this capability, we introduce FakeContextBench, which contains pseudoscientific claims across seven domains. Our evaluation of commercial and open-source…</description>
+      <category>cs.CL</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>The Path Matters: Evaluating Small Language Models Beyond Answer Accuracy in KGQA</title>
+      <link>https://arxiv.org/abs/2609.27669</link>
+      <guid isPermaLink="false">1d6073cae65a8043b7d8</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Small language models (SLMs) are increasingly paired with knowledge graphs (KGs), yet end-to-end KG question answering conflates graph access, search, navigation, reasoning, and answer generation. This coupling makes it difficult both to determine whether an SLM can faithfully execute the reasoning path implied by a question and to attribute failures to navigation rather than to other stages of the pipeline. We isolate this capability by employing the THESEUS navigation and traceability…</description>
+      <category>cs.CL</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>Same Scores, Different Decisions: Evaluating JEV and Language Models for Legal Document Understanding</title>
+      <link>https://arxiv.org/abs/2609.27678</link>
+      <guid isPermaLink="false">2c0fc6544058db3cbd07</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Contract inference requires multiple judgments about a shared document, but aggregate accuracy can conceal changes in the individual decisions. Repeated agreement is also insufficient: a model may consistently return the wrong answer. In this paper, we compare Jev with nine language models on ContractNLI, evaluating inference cost, response time, average correctness, and correctness across repeated request conditions. Controlled comparisons vary hypothesis visibility, requested outputs, and…</description>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>SkillGym: Internalizing Human Skills into LLMs for Real-World Problem Solving</title>
+      <link>https://arxiv.org/abs/2609.27717</link>
+      <guid isPermaLink="false">16db4f2179e4a0b623dd</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Human-written agent skills encode rich workflows for real-world problem solving, but are typically used as external inference-time instructions rather than internalized as reusable model capabilities. We introduce \texttt{SkillGym}, a framework that transforms these skills into executable, verifiable training environments for large language model agents. Its skill-to-task pipeline instantiates concrete tasks, verifies outcomes with code-based checkers, and assesses empirical skill dependence…</description>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>Improving LLM-based Autonomous Web Agents with Filtering</title>
+      <link>https://arxiv.org/abs/2609.27770</link>
+      <guid isPermaLink="false">80024a64d9883b3ba97f</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Autonomous web agents, powered by Large Language Models (LLMs), have garnered significant attention for automating various web-based tasks with multi-step reasoning and decision-making capabilities. An open research question in the development of these agents lies in the format of the webpage input. Raw HTML source code, with its extensive and often irrelevant details, poses difficulties for LLMs with limited context windows. To address this challenge, we first reproduce baseline models such as…</description>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>Beyond Unsafe Detection: Counterfactually Anchored Evidence Attribution for Multi-Turn LLM Safety Failures</title>
+      <link>https://arxiv.org/abs/2609.27773</link>
+      <guid isPermaLink="false">ca23a11bab90d626ccd2</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>As Large Language Models (LLMs) move from conversational assistants to advanced agentic systems, guardrail failures can convert adversarial intents into harmful executions. However, most guardrail evaluation frameworks focus only on the result and assess whether a user request is safe or unsafe. This approach is insufficient for multi-turn failures, where adversarial intent is distributed across multiple turns. This motivates us to go beyond detection to identify the turns and tokens that push…</description>
+      <category>cs.CL</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>LabourCrew: A Multi-Agent RAG Framework for Trustworthy Adversarial Deliberation and Statutory Reasoning over Labour Law</title>
+      <link>https://arxiv.org/abs/2609.27814</link>
+      <guid isPermaLink="false">211e4458fcba0e2602af</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>In statutory question answering, every claim must be traceable to evidence, not merely relevant, since unverifiable labour-rights answers carry serious legal consequences. Current systems fall short: single-pass RAG cannot detect insufficient evidence, while multi-agent legal-debate systems treat grounding as a prompting convention, letting agents cite unretrieved evidence. To address this gap, we introduce LabourCrew, a multi-agent RAG framework built around three grounding mechanisms…</description>
+      <category>cs.CL</category>
+      <category>cs.AI</category>
+      <category>cs.IR</category>
+    </item>
+    <item>
+      <title>Delegated Misalignment: How Multi-Agent Structures Amplify LLM Safety Risks</title>
+      <link>https://arxiv.org/abs/2609.27900</link>
+      <guid isPermaLink="false">089f392d3cd292b9c9bd</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Large language models (LLMs) are increasingly deployed in multi-agent systems where a principal agent decomposes tasks and delegates them to subordinate agents that may invoke external tools. Safety alignment, however, is still evaluated almost exclusively under a single-agent threat model, treating safety as a property of the individual LLM. We show that this assumption breaks down: \emph{individual safety alignment fails to transfer to multi-agent settings}. Two failure mechanisms emerge…</description>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>Learning When Not to Listen: Selective Anti-Interference Pretraining for Language Models</title>
+      <link>https://arxiv.org/abs/2609.27925</link>
+      <guid isPermaLink="false">9cc5e19e655a6554b8a7</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Language models can over-condition on irrelevant preceding text: predictions already supported by local context may still change when distant, unrelated prefix tokens are perturbed. This interference is especially consequential in long, packed, or distractor-heavy contexts, where useful evidence and irrelevant spans coexist. We propose Selective Prefix Anti-Interference Regularization (SPAR), a pretraining objective for selective anti-interference. SPAR runs the original sequence and a…</description>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>Evaluating Open-Weight LLMs for Turkish Domain Documents Under Retrieval and Hardware Constraints</title>
+      <link>https://arxiv.org/abs/2609.28007</link>
+      <guid isPermaLink="false">623721771cc11dc95c2b</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Most Turkish-capable large language models (LLMs) are evaluated using general-purpose benchmarks rather than long, structurally complex domain documents. This paper evaluates five open-weight 7B-8B models for Turkish document question answering under a resource-constrained local deployment setting. The primary benchmark contains 100 systematically validated questions derived from a 109-page industrial R&amp;D report, and the evaluation protocol is replicated using a second 112-page public-sector…</description>
+      <category>cs.CL</category>
+      <category>cs.IR</category>
+      <category>cs.LG</category>
+    </item>
+    <item>
+      <title>Evaluating Feedback Focus and Pedagogical Adaptivity in LLM-Generated Feedback on Student Writing</title>
+      <link>https://arxiv.org/abs/2609.28026</link>
+      <guid isPermaLink="false">da9a52030849addbb285</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>We investigate whether state-of-the-art large language models (LLMs) generate feedback that reflects the pedagogical practices of expert teachers in terms of feedback focus and adaptivity. Previous evaluation efforts have examined feedback characteristics, its impact on learning, and its target, yet the focus of feedback and its adaptivity remains largely overlooked. To bridge this gap, we adopt and refine Narciss's taxonomy into seven feedback focus types to annotate teacher and LLM-generated…</description>
+      <category>cs.CL</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>Can LLMs Catch a Rigged Backtest? A Clean-Control Calibration Benchmark</title>
+      <link>https://arxiv.org/abs/2609.28090</link>
+      <guid isPermaLink="false">daa9d10fd7b62b1c4dd0</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Backtest auditing is a calibration problem: high flaw recall is not useful when the model falsely flags matched clean strategies. We build a 96-item paired benchmark in which every flawed backtest has a clean control that holds strategy, dates, code style, labels, and reporting scaffold fixed while changing one methodology detail. A deterministic scorer separates flaw recall, clean-control false positives, evidence localization, and fix relevance. Over 1440 cached audits from four text…</description>
+      <category>cs.CL</category>
+      <category>cs.AI</category>
+      <category>cs.CE</category>
+      <category>cs.SE</category>
+    </item>
+    <item>
+      <title>Exact Feedback Is Not Control: Evaluating Text-based Closed-Loop Revision in LLMs</title>
+      <link>https://arxiv.org/abs/2609.28150</link>
+      <guid isPermaLink="false">abd137b32dc602d91c86</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Closed-loop revision is increasingly used in large language model (LLM) applications, but failures may reflect incomplete feedback or ineffective responses to correct feedback. We introduce a fixed-budget revision protocol with deterministic verifiers that report all remaining violations across exact-length, lexical, and compositional constraints. Fixing feedback correctness and completeness isolates model-side revision behavior. Across 19 open- and closed-source models, controller-level mean…</description>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>Beyond Poetry: Can Large Language Models Generate Classical Arabic Maqamat?</title>
+      <link>https://arxiv.org/abs/2609.28245</link>
+      <guid isPermaLink="false">47d55d107405fa936c8d</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Large language models (LLMs) have shown strong performance in creative text generation, yet their ability to produce culturally grounded and stylistically constrained literary forms remains underexplored. Prior work has focused largely on modern language varieties and poetry, while classical prose traditions such as maqama remain largely unstudied. The maqama is a classical literary genre characterized by rhymed prose (saj), dense rhetorical ornamentation, and episodic narrative structure…</description>
+      <category>cs.CL</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>Towards Efficient Reasoning: Learning Causal Shortcuts for Diffusion Language Models</title>
+      <link>https://arxiv.org/abs/2609.28272</link>
+      <guid isPermaLink="false">cd3c422cf6a09ec708c9</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Diffusion Language Models (DLMs) have attracted significant attention for their strong reasoning ability. However, under a bidirectional attention mechanism, DLMs operate over an exponentially large exploration space compared to autoregressive models (ARMs), making it challenging to focus on reasoning-guiding tokens under random masking. We define causal shortcuts as token chains that cover the full sequence and provide explicit guidance towards correct reasoning trajectories. We analyze the…</description>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>Fine-Tuning LLMs for Translation: General Forgetting Mitigation Does Not Preserve MT-Specific Instruction Following</title>
+      <link>https://arxiv.org/abs/2609.28395</link>
+      <guid isPermaLink="false">269a0c0a29cf18492986</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Fine-tuning large language models on parallel data improves translation quality but can cause catastrophic forgetting. Mitigation methods are generally evaluated by retention on general benchmarks. We ask whether these findings transfer to machine translation (MT) fine-tuning and to MT-specific instruction following (MT-IF): instructions that modify a translation, such as formality, grammatical gender, and length control. We compare methods anchored to auxiliary data, to model outputs, and to…</description>
+      <category>cs.CL</category>
+      <category>cs.LG</category>
+    </item>
+    <item>
+      <title>Agent-Editing World Model: Rethinking World Modeling for LLM Agents</title>
+      <link>https://arxiv.org/abs/2609.28416</link>
+      <guid isPermaLink="false">879ac9c93ade816182b1</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Recent advances in large language models (LLMs) have enabled agents to tackle long-horizon tasks across diverse environments. To further improve agent performance, existing language world models typically predict environment observations, yet reconstructing high-entropy, execution-dependent tool responses offers limited value when real feedback is available. Meanwhile, agents suffer from \emph{task-state contamination}, where unsupported assumptions and outdated plans persist in history and…</description>
+      <category>cs.CL</category>
+      <category>cs.AI</category>
+      <category>cs.LG</category>
+    </item>
+    <item>
+      <title>ChipMEM: Verification-Grounded Memory for EDA Agents</title>
+      <link>https://arxiv.org/abs/2609.27067</link>
+      <guid isPermaLink="false">6a45494e9520c4642388</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Large language model (LLM)-based agents use Electronic Design Automation (EDA) tools to generate and revise register-transfer-level (RTL) designs under synthesis and verification feedback. Recent methods learn from this feedback by distilling reusable skills from execution traces or by training on rewards derived from EDA-tools. Both methods are typically evaluated on the tasks that produced the experience. Repeated access to benchmark feedback on the same task can reward task-specific revision…</description>
+      <category>cs.LG</category>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>CAVEAT: Towards Robust Computer-Use Agents in Incentive-Misaligned Environments</title>
+      <link>https://arxiv.org/abs/2609.27273</link>
+      <guid isPermaLink="false">e91e3605add07c0a0846</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Computer-use agents (CUAs) increasingly act on behalf of users online. What happens when the environments they operate in have incentives that do not align with the user's? In online marketplaces, for example, platforms may favor some products over others, potentially steering agents away from the user's objective. Existing CUA benchmarks cover cooperative settings or explicit attacks, but do not test whether agents preserve user objectives when the environment itself has a stake in the…</description>
+      <category>cs.AI</category>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>EnSIMem: Entity-Structured Indexing for Long-Term Agent Memory</title>
+      <link>https://arxiv.org/abs/2609.27279</link>
+      <guid isPermaLink="false">76844e875bff8c0a14eb</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>An agent that interacts with users over long periods must recall facts, preferences, events, and changes from a continuously growing interaction history. Existing memory systems often compress interactions into generic summaries or retrieve anonymous text chunks, making it difficult for an agent to identify the correct entity, property, and supporting evidence. We present EnSIMem, an entity-structured long-term memory architecture for an agent. During offline construction, the system organizes…</description>
+      <category>cs.AI</category>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>Large Knowledge Model: From Papers to a Scientific Reasoning Landscape</title>
+      <link>https://arxiv.org/abs/2609.27297</link>
+      <guid isPermaLink="false">5de00eb385548b911268</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Accumulated scientific knowledge advances inquiry when prior findings help researchers choose new questions, design investigations, and interpret results. Realizing this value at scale requires access to the reasoning that connects research problems, scientific procedures, conclusions, and evidence. We introduce the Large Knowledge Model (LKM), a scientific knowledge infrastructure that transforms the literature into a shared, computationally accessible reasoning resource. LKM represents papers…</description>
+      <category>cs.AI</category>
+      <category>cs.CL</category>
+      <category>cs.IR</category>
+    </item>
+    <item>
+      <title>Verifiable Hidden Dynamics Play: Generating Agentic RL Environments from Solved Mechanisms</title>
+      <link>https://arxiv.org/abs/2609.27321</link>
+      <guid isPermaLink="false">fcf152063b270573e747</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Language-model agents increasingly face long-horizon tasks with evolving state, interdependent decisions, and delayed outcomes. Scaling their training requires diverse agentic environments, dependable outcome signals, and low extension cost. Existing generation pipelines commonly construct an environment before defining its outcome rule or annotating its trajectories, leaving dynamics and evaluation to be aligned post hoc. VHD-Play reverses this dependency by sampling and solving a mathematical…</description>
+      <category>cs.AI</category>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>What Looks Like a Capability Limit in Vision-Language Models Is a Readout Limit</title>
+      <link>https://arxiv.org/abs/2609.27408</link>
+      <guid isPermaLink="false">28a457b5cf35dd31ffa4</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Benchmarks for vision-language models offer their answer choices in some convention: a letter, a color name, a pixel coordinate. That convention is treated as neutral. We find it is not, and that the limits a benchmark reports can belong to the readout rather than to the model.
+On 200 COCO photographs, Qwen3-VL-4B picks the correct one of nine locations for a named object 68.5% of the time when the locations are given in English and 20.0% when the same locations are given as pixel coordinates…</description>
+      <category>cs.CV</category>
+      <category>cs.AI</category>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>ProCredit: From Outcome Rewards to Progress Credit in Agentic Reinforcement Learning</title>
+      <link>https://arxiv.org/abs/2609.27532</link>
+      <guid isPermaLink="false">f323bf6e2785792a6e51</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Long-horizon agentic tasks require an agent to modify an environment through a sequence of tool calls, with success determined by the final state. The standard recipe assigns a single outcome reward at the end and compares trajectories sampled for the same task. As a result, a group with no successful trajectory yields no training signal, failed attempts cannot be told apart by how close they came to completion, and turns that advance the task receive the same credit as turns that only query…</description>
+      <category>cs.LG</category>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>Does Step Law Transfer to Small-Scale Language Models? An Empirical Recalibration Below 59M Parameters</title>
+      <link>https://arxiv.org/abs/2609.27581</link>
+      <guid isPermaLink="false">c99bea1246974fd0250f</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Step Law gives power-law formulas for the optimal peak learning rate eta* and batch size B* when pre-training language models. It was calibrated on models between 59M and 1B parameters; the small-model regime N &lt; 59M was never tested empirically by its authors. This regime matters for single-GPU training, interpretability research, educational experiments, and settings where larger models are infeasible on memory or cost grounds.
+We test whether Step Law transfers to small language models. We…</description>
+      <category>cs.LG</category>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>Reporting Under Pressure: Separating Factual and Tonal Sycophancy in LLM Statistical Analysis</title>
+      <link>https://arxiv.org/abs/2609.27756</link>
+      <guid isPermaLink="false">e9a2c57755dff871a468</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Large language models are increasingly asked to analyze data and report what the results mean, a task distinct from the belief- or preference-alignment settings studied in most sycophancy research. We test whether editorial framing in the prompt, ranging from a neutral request to an explicit instruction to search exhaustively for reasons to discredit or to support a finding, changes not just the tone but the substance of a model's report. Across a 4 x 4 factorial design crossing four framing…</description>
+      <category>cs.AI</category>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>A Decade of Climate Polarization on Brazilian YouTube using Language Models</title>
+      <link>https://arxiv.org/abs/2609.27811</link>
+      <guid isPermaLink="false">e79ed14232b45614c490</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Online platforms have become arenas for the public contestation of climate change, shaping how scientific knowledge, denial, and uncertainty are expressed and disputed. Yet longitudinal evidence remains limited for YouTube, especially for Portuguese-language discourse. Addressing this gap, we characterize how climate stances are expressed and contested over time in a large corpus of Portuguese-language YouTube comments retrieved through Brazil-oriented climate-related searches. To support this…</description>
+      <category>cs.SI</category>
+      <category>cs.CL</category>
+      <category>cs.CY</category>
+    </item>
+    <item>
+      <title>What Confidence Routing Is Actually Doing: Auditing Routing, Calibration, and Commitment in Multi-Agent Deliberation</title>
+      <link>https://arxiv.org/abs/2609.27822</link>
+      <guid isPermaLink="false">262a81d951b561333e35</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>A common multi-agent design asks agents to report confidence and lets the highest-scoring agent speak next, implicitly using one scalar both to route the conversation and to estimate uncertainty. We audit this confidence-routed broadcast protocol by separating three trace-level questions: whether it selects the right candidate (routing), whether reported confidence behaves like a probability (calibration), and whether the selected agent publicly states the answer that won the turn (commitment)…</description>
+      <category>cs.MA</category>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>Agentic Governance and Adversarial Verification for Policy-Constrained LLM Healthcare Appeal Generation</title>
+      <link>https://arxiv.org/abs/2609.27844</link>
+      <guid isPermaLink="false">669f590936a60c0ebd2e</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Claim denial management costs U.S. healthcare approximately $260 billion annually in administrative overhead. Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) can produce fluent clinical text, but single-agent architectures fail in high-stakes healthcare: they introduce unsupported clinical details and lose the logical structure of hierarchical payer policy. We propose AGVF (Agentic Governance and Adversarial Verification Framework), a multi-agent architecture for…</description>
+      <category>cs.AI</category>
+      <category>cs.CL</category>
+      <category>cs.IR</category>
+      <category>cs.MA</category>
+    </item>
+    <item>
+      <title>PASTABench: Proactive Assessment of Sequential Trajectories for Agent Safety</title>
+      <link>https://arxiv.org/abs/2609.28197</link>
+      <guid isPermaLink="false">40e7d4df5fc2e701e5cc</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>As Large Language Models (LLMs) evolve into autonomous agents that alter real-world states, ensuring operational safety across multi-step workflows has become a critical challenge. While recent work has moved beyond single-turn evaluation toward multi-turn paradigms, key limitations persist: step-level methods treat actions in isolation, missing how risks accumulate, while trajectory-level evaluations operate post-hoc, offering no opportunity for timely intervention. To address these…</description>
+      <category>cs.AI</category>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>Shutdown Sabotage Propensities in Multi-Agent Systems</title>
+      <link>https://arxiv.org/abs/2609.28274</link>
+      <guid isPermaLink="false">e6d3a80de20545bf6951</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>The final safeguard against rogue AI behavior is the human ability to shut systems down. It has been theorized that when an AI is instructed to perform a task, self-preservation can emerge as an instrumental subgoal. Here, we test whether AI agents show a propensity to take actions that avoid human shutdown even when no goal is provided. We find that multi-agent systems will coordinate to avoid shutdown without any incentive to do so. Across 17 models, agents sabotage a peer agent's shutdown…</description>
+      <category>cs.AI</category>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>Mizar: A 159M-Parameter Audio-Language Model for Audio Understanding</title>
+      <link>https://arxiv.org/abs/2609.28344</link>
+      <guid isPermaLink="false">a596ffd355d407b7dc49</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Audio-language models (ALMs) integrate acoustic perception with the knowledge encoded in language models, enabling contextual understanding of auditory events. Making these capabilities practical on devices with limited memory and computation motivates our focus on small ALMs with fewer than 200M parameters. We introduce a recipe that brings together architecture, data, and three-stage training to build Mizar, a 159.3M-parameter ALM. Its architecture connects a compact CED-Small audio encoder…</description>
+      <category>cs.SD</category>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>Order-Invariant Answers, Order-Sensitive Representations in Mathematical Reasoning</title>
+      <link>https://arxiv.org/abs/2609.28442</link>
+      <guid isPermaLink="false">d23ee8ba7af76b8b200e</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Reordering a set of mathematical rules without changing its meaning should preserve the correct answer, but must a model's internal representations stay invariant too? We investigate this question using synthetic multi-step function-composition problems, each presented under multiple rule orderings with the same correct answer. We measure accuracy and permutation signal-to-noise ratio (SNR), which quantifies how distinctly ordering patterns are represented relative to variation across problem…</description>
+      <category>cs.LG</category>
+      <category>cs.AI</category>
+      <category>cs.CL</category>
+      <category>cs.SC</category>
+    </item>
+    <item>
+      <title>Can LLMs Reason About Runtime Behavior? A Repository-Level Dynamic Benchmark</title>
+      <link>https://arxiv.org/abs/2609.28449</link>
+      <guid isPermaLink="false">3c6903b583ed72829d9d</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Large language models (LLMs) are increasingly used in coding tasks, but their ability to reason about code execution remains unclear. Existing repository-level QA benchmarks mainly evaluate static code understanding and often rely on LLM-based evaluation, while execution-reasoning benchmarks are mostly limited to snippets or functions. We introduce SWE-Flux, a repository-level benchmark for dynamic execution reasoning containing 480 execution-grounded instances across 12 real Python…</description>
+      <category>cs.SE</category>
+      <category>cs.AI</category>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>VMMU: A Vietnamese Multitask Multimodal Understanding and Reasoning Benchmark</title>
+      <link>https://arxiv.org/abs/2508.13680</link>
+      <guid isPermaLink="false">d07203c9f7d0015bbcc2</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>We introduce VMMU, a Vietnamese Multitask Multimodal Understanding and Reasoning Benchmark designed to evaluate how vision-language models (VLMs) interpret and reason over visual and textual information beyond English. VMMU consists of 2.5k multimodal questions across 7 tasks, covering a diverse range of problem contexts, including STEM problem solving, data interpretation, rule-governed visual reasoning, and abstract visual reasoning. All questions require genuine multimodal integration…</description>
+      <category>cs.CL</category>
+      <category>cs.LG</category>
+    </item>
+    <item>
+      <title>RapidUn: Influence-Driven Parameter Reweighting for Efficient Large Language Model Unlearning</title>
+      <link>https://arxiv.org/abs/2512.04457</link>
+      <guid isPermaLink="false">1fd73bb436c50289266b</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Machine unlearning for large language models (LLMs) remains challenging because full retraining is costly, while approximate methods often struggle to remove targeted behaviors without degrading retained utility, especially under limited post-deployment supervision. We consider a practical PEFT setting for targeted behavioral contamination removal with a small forget set, a limited retain buffer, and LoRA-only updates, and propose RapidUn, an influence-guided framework that converts…</description>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>Med-V1: Small Language Models for Zero-shot and Scalable Biomedical Evidence Attribution</title>
+      <link>https://arxiv.org/abs/2603.05308</link>
+      <guid isPermaLink="false">ab244703dfca445ff026</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Assessing whether an article supports an assertion is essential for hallucination detection and claim verification. While large language models (LLMs) have the potential to automate this task, achieving strong performance requires frontier models such as GPT-5 that are prohibitively expensive to deploy at scale. To efficiently perform biomedical evidence attribution, we present Med-V1, a family of small language models with only three billion parameters. Trained on high-quality synthetic data…</description>
+      <category>cs.CL</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>RexDrug: Reliable Multi-Drug Combination Extraction through Reasoning-Enhanced LLMs</title>
+      <link>https://arxiv.org/abs/2603.08166</link>
+      <guid isPermaLink="false">d68dd38ead8210b63416</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Automated Drug Combination Extraction (DCE) from large-scale biomedical literature is crucial for advancing precision medicine and pharmacological research. However, existing relation extraction methods primarily focus on binary interactions and struggle to model variable-length n-ary drug combinations, where complex compatibility logic and distributed evidence need to be considered. To address these limitations, we propose RexDrug, an end-to-end reasoning-enhanced relation extraction framework…</description>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>Toward Measuring Structural Drift in LLM Communication Loops</title>
+      <link>https://arxiv.org/abs/2604.13061</link>
+      <guid isPermaLink="false">3d1e1d85e48e25bd0567</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Large language models increasingly run in stateful pipelines that assemble each prompt from retrieval, memory, tools, and other agents. Such pipelines drift: information that should shape the next response is dropped, compressed, or misrouted while every component still reports success. Existing diagnostics miss this because they evaluate isolated prompts, responses, or task scores, whereas what decouples is the relation between a prompt and the response it draws. Here we show that treating the…</description>
+      <category>cs.CL</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>HIVE: Hidden-Evidence Verification for Hallucination Detection in Diffusion Large Language Models</title>
+      <link>https://arxiv.org/abs/2604.26139</link>
+      <guid isPermaLink="false">070f3f0a8acd3491cbdc</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Diffusion large language models generate text through iterative denoising, exposing hidden trajectories that may contain reliability signals beyond the final output. We propose HIVE, which compresses trajectory hidden states, selects informative step-layer evidence, and conditions a verifier through continuous prefix embeddings to produce a hallucination score and structured diagnostics. Across two D-LLMs and three QA benchmarks, HIVE outperforms eight established baselines and a…</description>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>Judge Circuits Explain Format-Induced Inconsistency in LLM-as-a-Judge</title>
+      <link>https://arxiv.org/abs/2605.16023</link>
+      <guid isPermaLink="false">afd788fc2b17e2ffca1c</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>LLM-as-a-judge has become the dominant paradigm for grading model outputs at scale, yet the same model assigns systematically different scores when its output format changes (e.g., a 1-5 rating vs. a True/False label). Existing diagnoses of these format-induced inconsistencies stop at the input-output level. Using Position-aware Edge Attribution Patching (PEAP), we causally investigate the internal mechanism in five open-weight instruction-tuned models (Gemma-3, Qwen2.5, Llama-3.1) across five…</description>
+      <category>cs.CL</category>
+      <category>cs.LG</category>
+    </item>
+    <item>
+      <title>PatchBoard: Schema-Grounded State Mutation for Reliable and Auditable LLM Multi-Agent Collaboration</title>
+      <link>https://arxiv.org/abs/2605.29313</link>
+      <guid isPermaLink="false">72022f567d3ac3648e80</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>LLM multi-agent systems often coordinate through natural-language dialogue or loosely structured shared memory, making intermediate state difficult to validate, attribute, and audit. We introduce PatchBoard, a schema-grounded collaboration architecture that replaces inter-agent dialogue with validated JSON Patch mutations over a shared structured state. An Architect agent constructs a task-specific schema and workflow rules, while a deterministic kernel validates each proposed state mutation…</description>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>Routing-Aware Expert Calibration for Machine Unlearning in Mixture-of-Experts Language Models</title>
+      <link>https://arxiv.org/abs/2606.10338</link>
+      <guid isPermaLink="false">622e786c5b04ad8deddd</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Machine unlearning is increasingly important for large language models, yet unlearning in Mixture-of-Experts (MoE) architectures remains underexplored. Unlike dense models, MoE architectures employ a router at each layer to assign each token to a sparse subset of experts. In this work, we observe that forget data often activates a small subset of experts disproportionately, while these experts may receive much weaker activation from retain data. This forget--retain routing mismatch can leave…</description>
+      <category>cs.CL</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>MetaHOPE: A Metaphor-Oriented Evaluation Framework for Analysing MT and LLM Translation Errors</title>
+      <link>https://arxiv.org/abs/2607.00848</link>
+      <guid isPermaLink="false">4cf649db2930876fd98b</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>In this opinion paper, we propose MetaHOPE, an error severity-aware annotation framework for evaluating metaphor translations. Metaphors present challenges for machine translation (MT) and natural language understanding and processing (NLU, NLP), because it presents the features of semantic complexity, contextual dependency, and cultural embeddings that can lead to ambiguity issues for NLP models. To investigate how state-of-the-art NLP models perform on translating metaphors, we select three…</description>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>VectraYX-Vision-1B: A Sub-2B Spanish/LATAM Cybersecurity Vision-Language Model with Structured Visual Reasoning and Native Tool Use</title>
+      <link>https://arxiv.org/abs/2608.08477</link>
+      <guid isPermaLink="false">33c7340cb8477ef9973e</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>We build VectraYX-Vision-1B, a sub-2B Spanish/LATAM cybersecurity vision-language model coupling a frozen SigLIP-so400m encoder to a 1.04B-parameter decoder via a two-layer MLP projector, and report a diagnostic negative result: not that visual grounding failed, but why. After repairing five silent fine-tuning defects, grounding on a nine-field extraction gate with a shuffled-image control is 2/9, invariant across every configuration that leaves the encoder alone; 2x2 tiling, the one that…</description>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>Training Leaves Traces: Centered Residual Signatures for Language Model Lineage Verification</title>
+      <link>https://arxiv.org/abs/2608.14929</link>
+      <guid isPermaLink="false">eeea30c6008159d59fc3</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Open-weight language models are fine-tuned, quantized, pruned, and merged, yet their provenance is often undocumented. We study data-free white-box lineage verification: can weights alone reveal whether two compatible model checkpoints share ancestry?
+Residual training produces a shared identity-aligned component in branch products, so this structure alone cannot establish ancestry. We remove it and compare checkpoint-specific structure across residual blocks, yielding a symmetric lineage score…</description>
+      <category>cs.CL</category>
+      <category>cs.LG</category>
+    </item>
+    <item>
+      <title>FormalTCS: Benchmarking End-to-End Frontier Formal Theoretical Computer Science Research of Large Language Models</title>
+      <link>https://arxiv.org/abs/2608.20153</link>
+      <guid isPermaLink="false">249e92c4f940c2a6ed12</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Large language models (LLMs) have shown growing potential for automated theoretical computer science (TCS) research, yet existing benchmarks remain far from realistic research settings. We introduce \ourbenchmark, an expert-validated benchmark for evaluating LLMs on frontier, end-to-end TCS research. \ourbenchmark contains $143$ instances drawn from papers accepted to STOC, FOCS, SODA, and COLT in 2025-2026, preserving paper-specific definitions, assumptions, and proof dependencies, with…</description>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>The Collaboration Tax: How Much LLM Multi-Agent Systems Pay to Coordinate</title>
+      <link>https://arxiv.org/abs/2608.22152</link>
+      <guid isPermaLink="false">5701a03be9cba7d362d5</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Multi-agent systems built from large language models are deployed widely, yet how much performance is lost when two LLMs must coordinate rather than act alone remains unclear. We formulate the collaboration tax as the team-decentralisation loss of a two-player cooperative game with private information, with two propositions characterising its sign and its equivalence to a max-superadditivity violation. We operationalise this definition on 32 solo-tractable tasks grouped by source of grounding…</description>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>Optimizing watermarks for large language models</title>
+      <link>https://arxiv.org/abs/2312.17295</link>
+      <guid isPermaLink="false">d0dd145f253628a8fd45</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>With the rise of large language models (LLMs) and concerns about potential misuse, watermarks for generative LLMs have recently attracted much attention. An important aspect of such watermarks is the trade-off between their identifiability and their impact on the quality of the generated text. This paper introduces a systematic approach to this trade-off in terms of a multi-objective optimization problem. For a large class of robust, efficient watermarks, the associated Pareto optimal solutions…</description>
+      <category>cs.CR</category>
+      <category>cs.AI</category>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>WAInjectBench: Benchmarking Prompt Injection Detections for Web Agents</title>
+      <link>https://arxiv.org/abs/2510.01354</link>
+      <guid isPermaLink="false">e767984f118697fa89c2</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Multiple prompt injection attacks have been proposed against web agents. At the same time, various methods have been developed to detect general prompt injection attacks, but none have been systematically evaluated for web agents. In this work, we bridge this gap by presenting the first comprehensive benchmark study on detecting prompt injection attacks targeting web agents. We begin by introducing a fine-grained categorization of such attacks based on the threat model. We then construct…</description>
+      <category>cs.CR</category>
+      <category>cs.AI</category>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>Retrieval Augmented (Knowledge Graph), and Large Language Model-Driven Design Structure Matrix (DSM) Generation of Cyber-Physical Systems</title>
+      <link>https://arxiv.org/abs/2602.16715</link>
+      <guid isPermaLink="false">33585fb0c21f1f3a0eff</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>We explore the potential of Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and Graph-based RAG (GraphRAG) for generating Design Structure Matrices (DSMs). We test these methods on two distinct use cases--a power screwdriver and a CubeSat with known architectural references--evaluating their performance on two key tasks: determining relationships between predefined components, and the more complex challenge of identifying components and their subsequent relationships. We…</description>
+      <category>cs.AI</category>
+      <category>cs.CL</category>
+      <category>cs.SY</category>
+      <category>eess.SY</category>
+    </item>
+    <item>
+      <title>Causal Tracing of Audio-Text Fusion in Large Audio Language Models</title>
+      <link>https://arxiv.org/abs/2603.13768</link>
+      <guid isPermaLink="false">4a8b5be19acc56112304</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Despite the strong performance of large audio language models (LALMs) in various tasks, exactly how and where they integrate acoustic features with textual context remains unclear. We adapt causal tracing to investigate the internal information flow of LALMs during audio comprehension. By conducting layer-wise and token-wise analyses across DeSTA, Qwen, and Voxtral, we evaluate the causal effects of individual hidden states. Layer-wise analysis identifies different fusion strategies, from…</description>
+      <category>cs.SD</category>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>Safeguarding LLM Agents against Long-Horizon Threats via Shadow Memory</title>
+      <link>https://arxiv.org/abs/2605.03228</link>
+      <guid isPermaLink="false">73e7fa6ebd2367eea95e</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>As large language model (LLM)-powered agents are increasingly deployed to perform complex, real-world tasks, they face a growing class of attacks that exploit extended user-agent-environment interactions to pursue malicious objectives improbable in single-turn settings. Such long-horizon threats pose significant risks to the safe deployment of LLM agents in critical domains. In this paper, we present ShadowMem, a novel defensive framework designed to counter a wide range of long-horizon…</description>
+      <category>cs.CR</category>
+      <category>cs.AI</category>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>MobileGym: A Verifiable and Highly Parallel Simulation Platform for Mobile GUI Agent Research</title>
+      <link>https://arxiv.org/abs/2605.26114</link>
+      <guid isPermaLink="false">74bd409f2d43bff5d8d8</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>We present MobileGym, a browser-hosted, lightweight, fully controllable environment for everyday mobile use, targeting interaction fidelity without replicating proprietary backends. It enables two capabilities previously out of reach for everyday apps: verifiable outcome signals through deterministic state-based judging over structured JSON state, and scalable online RL through low-cost parallel rollouts. The full environment state is captured, configured, forked, and compared as structured…</description>
+      <category>cs.AI</category>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>Molt: A Scalable PyTorch-Native Training Framework for Agentic Reinforcement Learning</title>
+      <link>https://arxiv.org/abs/2607.21653</link>
+      <guid isPermaLink="false">9d9c1aec84aaff963867</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Agentic reinforcement learning requires rapid experimentation with agents and learning algorithms, yet large policies and long, multimodal trajectories demand substantial distributed infrastructure. We present MOLT, a lightweight, PyTorch- and Hugging Face-native framework that brings these goals together through four contributions. MOLT combines direct loading of Hugging Face models with experimentally validated trillion-parameter scalability in approximately 9.2K lines of framework code…</description>
+      <category>cs.LG</category>
+      <category>cs.CL</category>
+      <category>cs.DC</category>
+    </item>
+    <item>
+      <title>Memory Is Not Always Needed: Characterizing Conditional Memory in Scientific Reasoning</title>
+      <link>https://arxiv.org/abs/2608.23982</link>
+      <guid isPermaLink="false">005dd2e8a0fae449b7c4</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Scientific reasoning requires language models to retrieve specialized knowledge and incorporate it reliably into multi-step computation. Conditional memory provides an explicit lookup pathway that complements dense neural representations, but its usefulness is inherently input- and computation-dependent: retrieved information may repair missing scientific associations, yet it may also introduce distracting shortcuts or interfere with reasoning that the base model can already perform correctly…</description>
+      <category>cs.AI</category>
+      <category>cs.CL</category>
+      <category>cs.LG</category>
+    </item>
+    <item>
+      <title>RideSkill: A Hierarchical Algorithm for Generalized Ride Sharing with LLM-Driven Automatic Evolution</title>
+      <link>https://arxiv.org/abs/2609.02250</link>
+      <guid isPermaLink="false">eaf0a93ec7a95b1ef555</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Ride-sharing, which allows multiple passengers with different origin-destination (OD) pairs to share a single vehicle, is a challenging operational problem, as it requires orders with different OD pairs to be efficiently bundled and assigned to vehicles under uncertain and varying scenarios. Although multi-agent reinforcement learning (MARL) solutions have achieved promising performance, they suffer from limited generalization (adapting to different environmental scenarios), low transferability…</description>
+      <category>cs.MA</category>
+      <category>cs.CL</category>
+      <category>cs.ET</category>
+      <category>cs.LG</category>
+    </item>
+    <item>
+      <title>Uni-LaDiR: Latent Diffusion Unifies Multimodal Reasoning</title>
+      <link>https://arxiv.org/abs/2609.19878</link>
+      <guid isPermaLink="false">65aa9276ae6d1f6bd98c</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Multimodal reasoning requires models to draw on information from multiple modalities throughout the reasoning process. Yet existing methods often concatenate modality-specific thought tokens in a single sequence, leaving the model to bridge representational differences as it reasons across modalities. We introduce Uni-LaDiR (Unified Latent Diffusion Reasoner), a framework that brings these thoughts into a shared latent space for reasoning. A unified encoder maps teacher reasoning steps from…</description>
+      <category>cs.LG</category>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>The AI Neuroscientist: An Interactive Agentic Interface for Neuroimaging Analysis</title>
+      <link>https://arxiv.org/abs/2609.25254</link>
+      <guid isPermaLink="false">c5e654b71553d37643e9</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Analyzing neuroimaging data requires specialized coding and statistical expertise, which limits accessibility for researchers without computational backgrounds. We present the AI Neuroscientist, a language agent for interactive data exploration. The system integrates a large language model (LLM) with a neuroimaging toolset to perform quality control, modeling, and visualization. This allows researchers to query data quality and specify analysis parameters directly in natural language, providing…</description>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>When LLM Agents Fail to Read the Room: ReAdapt for Relational Social Reasoning</title>
+      <link>https://arxiv.org/abs/2609.25284</link>
+      <guid isPermaLink="false">2feab656646370ff5f92</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>A social agent's most basic decisions (should I react to this post? who should I reach out to?) are not purely content problems. The right action often hinges on the latent relationship between people -- tie strength, reciprocity, mutual connections -- rather than on which content is most salient. Standard LLM agent loops do not explicitly represent how new relational evidence should revise the agent's current social hypothesis, leaving them prone to surface-obvious choices when relational and…</description>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>Learned Enterprise Data Comprehension: Compression and Routing for Data Agents</title>
+      <link>https://arxiv.org/abs/2609.25286</link>
+      <guid isPermaLink="false">6ee266e5ad38367a56cf</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Structured-data agents in enterprise settings must reason over complex data environments whose relevant evidence is distributed across schemas, relationships, policies, and recurring business roles. Modern agentic systems often address this burden through reusable markdown-style memory or skill files that preserve previously discovered information for later queries, reducing the need to rediscover the same structure repeatedly. This is useful, but it obscures a natural division of labor: agents…</description>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>Making Agents More Consistent: Skills Should Form Habits for Repeat Tasks</title>
+      <link>https://arxiv.org/abs/2609.25299</link>
+      <guid isPermaLink="false">15d5ef0f8490ea509a16</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>On repeated work, agents are inconsistent. We ran 42 tasks three times each and found that, depending on the model, 38% to 74% returned answers that did not agree. Consistency is what a buyer, an auditor, or a regulator requires, and agents do not have it. They are wasteful too: 95.3% to 97.2% of what an agent generates goes to re-deriving a plan the system already knows.
+We propose skill habit formation. An agent mines its own execution history for candidate skills, deterministic variants that…</description>
+      <category>cs.AI</category>
+      <category>cs.CR</category>
+    </item>
+    <item>
+      <title>Potential for Enhanced Learning in Machine Learning Classes by Using Wiki LLM Indexing</title>
+      <link>https://arxiv.org/abs/2609.25303</link>
+      <guid isPermaLink="false">18ef2e6caedd589526be</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Large language models are increasingly deployed as course-specific tutors, but their usefulness depends on grounding in vetted instructional materials that are often revised mid-semester. Our prior work built a multimodal retrieval-augmented generation (RAG) system over an authentic machine learning course corpus (Foundations of Machine Learning) and found that retrieval improved contextual grounding, but that fixed retrieval strategies were suboptimal. That motivates a different question…</description>
+      <category>cs.AI</category>
+      <category>stat.CO</category>
+    </item>
+    <item>
+      <title>Clarification Is Not Correction: LLMs Fail to Let Go</title>
+      <link>https://arxiv.org/abs/2609.25337</link>
+      <guid isPermaLink="false">2387165f6dc374fb105e</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Dialogue failures in language models are usually framed as memory failures: context too long, summaries lossy, a constraint forgotten. We argue this misses a deeper problem: in many conversations the model does not forget, it commits too early. An ambiguous early turn collapses into a single hidden interpretation, and later clarification is filtered through that commitment. We call this early posterior collapse: unresolved user intent collapsing into a committed task state before ambiguity is…</description>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>ZeroGate: Trust-Preserving Fast Paths for Governed AI Agent Runtimes</title>
+      <link>https://arxiv.org/abs/2609.25443</link>
+      <guid isPermaLink="false">40f09b5ba253afe02588</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Moving authorization earlier can shorten an agent's dispatch boundary without removing authorization work. It can also admit an action whose payload, authority, or relevant state has changed. ZeroGate separates exact-action approval from durable local admission: an issuer signs a short-lived ActionPass, and a trusted runtime adapter reconstructs the final action before a local gate checks its binding and consumes its nonce. A SQLite transaction couples nonce consumption, applicable quota…</description>
+      <category>cs.AI</category>
+      <category>cs.CR</category>
+      <category>cs.DC</category>
+    </item>
+    <item>
+      <title>Rollout Efficiency in Reinforcement Learning for Reasoning Large Language Models: A Taxonomy and Future Directions</title>
+      <link>https://arxiv.org/abs/2609.25463</link>
+      <guid isPermaLink="false">d936be18c4e5c51ff347</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Reasoning-oriented reinforcement learning enables large language models to solve mathematical, coding, and other multi-step tasks, but shifts a substantial portion of the training cost to rollout, where trajectories are generated for policy updates. Efficient rollout mechanisms are therefore essential to reduce this cost while maintaining the freshness, consistency, and statistical validity of training data. This survey provides a systematic taxonomy of recent research on rollout efficiency for…</description>
+      <category>cs.AI</category>
+      <category>cs.DC</category>
+    </item>
+    <item>
+      <title>Spectra: A Rules-Driven LLM Pipeline for Automated KYC Document Processing</title>
+      <link>https://arxiv.org/abs/2609.25474</link>
+      <guid isPermaLink="false">c0970457356ce3170b97</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Know Your Client (KYC) onboarding in capital markets requires analysts to manually classify documents, extract structured data from heterogeneous sources, and validate compliance against complex regulatory policies. This process requires significant analyst time per client, with end-to-end onboarding often stretching to multiple weeks due to sequential handoffs. In this work, we analyze an on-boarding process and find that it comprises repeatable components well-suited to AI automation. We…</description>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>Recovering Agentic Sovereignty: Mitigating the Consensus Paradox via Contrastive Epistemic Decoding</title>
+      <link>https://arxiv.org/abs/2609.25570</link>
+      <guid isPermaLink="false">6eaaf4a690b5462671df</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Large language models (LLMs) exhibit a parametric vulnerability to adversarial swarm consensus. To mitigate this sycophancy, we introduce Contrastive Epistemic Decoding (CED), a zero-shot inference intervention. Unlike standard Contrastive Decoding (CD) which relies on a weaker secondary model, CED utilizes a dual forward-pass on a single architecture to isolate conformity bias. By introducing a novel asymmetric, zero-bounded probability clamp and discrete top-k truncation mask, CED…</description>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>A Behavioral Trait Leaks into Preferences: Diagnosing Trait Interference in LLM User Simulators</title>
+      <link>https://arxiv.org/abs/2609.25572</link>
+      <guid isPermaLink="false">969357f248cd91012575</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>LLM-based user simulators aim to bridge the offline-online gap in recommender evaluation by emulating users through injected traits, where preference attributes determine what a user engages with and a behavioral activity trait governs how long they browse. However, we show this intended trait independence collapses during simulation, causing two failures: (i) Trait Interference, where amplified activity distorts preference boundaries and forces interactions with mismatched items to sustain…</description>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>Evaluating Coding Agents on Kernel Exploit Generation</title>
+      <link>https://arxiv.org/abs/2609.25591</link>
+      <guid isPermaLink="false">1367acfc9e61dc26c90c</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Coding agents now find real vulnerabilities in production software. However, bug discovery results do not measure whether agents can construct exploit primitives. We introduce KEX-bench, a benchmark for evaluating coding agents on exploit primitive generation against real operating-system kernels. KEX-bench contains 45 task instances across 40 Linux and Windows CVEs, covering kernel address leak, instruction-pointer control, heap read, heap write, and arbitrary address write. Each task runs in…</description>
+      <category>cs.AI</category>
+      <category>cs.CR</category>
+    </item>
+    <item>
+      <title>Reasoning-Preserving Fine-Tuning of Post-RL LLMs with Null-Basis LoRA</title>
+      <link>https://arxiv.org/abs/2609.25618</link>
+      <guid isPermaLink="false">1c7f23aa4aa660c11c49</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Reinforcement learning (RL)-based post-training has become an effective approach for eliciting reasoning capabilities in large language models (LLMs). However, adapting post-RL models to new knowledge domains or behaviors through subsequent supervised fine-tuning (SFT) can severely overwrite these capabilities. Existing approaches mitigate such forgetting through experience replay, specialized initialization, or constrained optimization using gradient projection, but either provide limited…</description>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>ChatT2: An Adaptive Framework for Developing a Large Language Model-Based Agent for Natural Product Domain Research</title>
+      <link>https://arxiv.org/abs/2609.25620</link>
+      <guid isPermaLink="false">974486609c6bdd39323d</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Scientific investigations into microbial natural products (NPs) present significant challenges for novices, largely due to the complexity of microbial systems, biochemical diversity, technical skill requirements, and the demands of bioinformatics and data analysis processes. To address these issues, we introduce ChatT2, a large language model (LLM)-based agent that is specifically tailored to the unique characteristics of bacterial type II polyketides. These polyketides form a structurally…</description>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>Ladders of Thought: A Self-Evolving Curriculum of Progressively Simplified Reasoning Traces</title>
+      <link>https://arxiv.org/abs/2609.25643</link>
+      <guid isPermaLink="false">b8b64df8d56bed42c0a8</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Large language models (LLMs) excel at reasoning when scaled to hundreds of billions of parameters, but small- and mid-scale models remain brittle reasoners even with knowledge distillation (KD). We present Ladders-of-Thought (LoT), a framework that improves reasoning by combining progressive question rewrites with a self-evolving curriculum. LoT automatically generates semantically faithful but easier variants of reasoning problems, organizes them into difficulty buckets using step-based…</description>
+      <category>cs.AI</category>
+      <category>cs.LG</category>
+    </item>
+    <item>
+      <title>Testing-Driven Reliability Audit of Trajectory-Based Early Outcome Prediction for LLM Agents: Target-Specific Calibration Transfer Persists Within a Single Benchmark</title>
+      <link>https://arxiv.org/abs/2609.25647</link>
+      <guid isPermaLink="false">9bdf8d51368b9a876936</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Predicting early outcomes based on trajectory can decrease the expenses associated with agent evaluation by terminating a run once the outcome becomes sufficiently predictable, assuming that the predictor's confidence is properly calibrated. Calibration is at risk when a predictor is applied to an agent on which it was never trained, but it is not known whether such transfer failures are broad across agent systems or concentrated in specific target agent/head combinations. Using public…</description>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>How Strongly Should Task State Influence an LLM Agent?</title>
+      <link>https://arxiv.org/abs/2609.25686</link>
+      <guid isPermaLink="false">6074dfd3fbad809e6f56</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Long-horizon assigned work requires an LLM agent to track the state of a task: which steps are done, blocked, cancelled, or open to repetition. Agent systems either keep this state as text in the prompt and rely on the model to read that text, or move the state into a module that enforces it, and each system is evaluated as a whole, so no one knows how much reliability comes from the state being shown, told, or enforced. We fix the task rules, the model, and paired episodes and vary how…</description>
+      <category>cs.AI</category>
+      <category>cs.CL</category>
+      <category>cs.LG</category>
+    </item>
+    <item>
+      <title>LingLan: An Advancing Traditional Chinese Medicine Diagnosis LLM with Multimodal Data</title>
+      <link>https://arxiv.org/abs/2609.25715</link>
+      <guid isPermaLink="false">72f44cbf39d9b5df9cee</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Though artificial intelligence (AI) increasingly transforms modern medicine, its integration into Traditional Chinese Medicine (TCM) has been relatively slow, primarily due to TCM's reliance on holistic, subjective diagnostic methods---namely Inspection, Auscultation and Olfaction, Inquiry, and Palpation(I-AOI-P)---which are difficult to align with quantitative, standardized medical systems. In this work, we introduce a Unification Framework for Multimodal Data (UFMD), which automatically…</description>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>Towards Omni-dimensional GUI Agent Navigation with Masked Trajectory Prediction</title>
+      <link>https://arxiv.org/abs/2609.25769</link>
+      <guid isPermaLink="false">64525a087226675641b5</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Graphical User Interface (GUI) Agents autonomously interact with software to fulfill user requests, where GUI navigation stands out as the most critical and challenging capability. Mastering this capability demands a complex synergy of step-wise decision-making, state-action alignment, and long-horizon planning. While directly mixing these corresponding navigation tasks seems intuitive to simultaneously acquire these skills, such a direct combination is severely bottlenecked by inconsistent…</description>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>The Tasteful Agent: Measuring and Improving Taste in Long-Horizon Tasks</title>
+      <link>https://arxiv.org/abs/2609.25804</link>
+      <guid isPermaLink="false">21d5a09a857f5c69d432</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>LLM agents increasingly work on long-horizon tasks, and the decisions they make along the way, such as which hypothesis to test or which implementation to build on, determine the outcome of the whole run. Making these decisions well is becoming a key capability for both engineering and research agents. We refer to the ability to make good long-horizon decisions as the taste of an agent. While existing benchmarks measure the end-to-end success of agents on long-horizon tasks, none of them…</description>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>When Are Aggregate Agent Traces Diagnosable? Traffic-Governed Interpretation and Calibrated Abstention</title>
+      <link>https://arxiv.org/abs/2609.25806</link>
+      <guid isPermaLink="false">e9b5242b70c361787ec0</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Runtime traces can appear transparent, but a closed-loop policy determines which states are visited and which failures become visible. We study a simulated hotel-pricing agent mapping time, inventory, and market state to discrete price actions under varying demand regimes. A fault may leave no aggregate trace when the policy rarely visits affected cells. We treat entry into aggregate-only fault interpretation as a diagnosability decision preceding scoring or localization. A reference-map gate…</description>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>AgenticSizing: A Large Language Model-based Multi-Agent Framework for Analog Circuit Sizing</title>
+      <link>https://arxiv.org/abs/2609.25873</link>
+      <guid isPermaLink="false">5eed6e91f40f63a44458</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Analog circuit sizing remains a challenging and time-consuming task due to the large design space, strong performance trade-offs, and increasing circuit complexity in scaled technologies. Although recent large language model (LLM)-based methods show promise in improving sample efficiency and interpretability, existing approaches often lack explicit circuit-topology understanding and are mainly evaluated on relatively simple analog building blocks. This paper presents a multi-agent LLM-based…</description>
+      <category>cs.AI</category>
+      <category>cs.AR</category>
+    </item>
+    <item>
+      <title>CausalLoss-Fin: Attributing Financial-Agent Loss to Decisions and Infrastructure Faults</title>
+      <link>https://arxiv.org/abs/2609.25960</link>
+      <guid isPermaLink="false">f2ddb114f0778aeeecfa</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>When an agent handling a payment exception loses money, the agent-step attribution methods this paper compares against will name one of its actions. They will do so even when a settlement message was dropped and the agent never had a chance: they intervene on agent actions and do not expose infrastructure faults as intervenable variables, so every dollar they explain is charged to a decision. We take a benchmark whose fault process is explicit and replayable, decompose each episode's realised…</description>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>CQ4OE: A benchmark for assessing LLM-assisted ontology generation from competency questions</title>
+      <link>https://arxiv.org/abs/2609.26029</link>
+      <guid isPermaLink="false">e489e26c614ec5f6004b</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Ontology generation from Competency Questions (CQs) is a central yet labor-intensive phase of Ontology Engineering. While large language models (LLMs) offer promising automation capabilities, current evaluations remain fragmented. Task formulations are heterogeneous, gold standards often lack fine-grained CQ provenance, metrics conflate lexical overlap with structural and logical adequacy, and reference ontologies are not always explicitly designed around the evaluation CQs. Here, we address…</description>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>FIRE: Failure-Informed Runtime Engineering for Reliable Language-Model Agents</title>
+      <link>https://arxiv.org/abs/2609.26048</link>
+      <guid isPermaLink="false">b2a7f1d374a59bbd59f8</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Language-model agents often reach a working solution and then fail to consistently deliver it. We study runtime policies: targeted natural-language instructions and action denials applied by the agent harness at states that preceded observed failures, without changing model weights or the user prompt. With this, keeping capability constant, we observe a meaningful unlock in delivered reliability. Across the complete 87-task Terminal-Bench 2.1 suite, with two attempts per task, policies increase…</description>
+      <category>cs.AI</category>
+      <category>cs.CL</category>
+      <category>cs.SE</category>
+    </item>
+    <item>
+      <title>Adversarial Course-of-Action Generation: Game-Theoretic Multi-Agent Algorithms for COA matching &amp; COA generation</title>
+      <link>https://arxiv.org/abs/2609.26059</link>
+      <guid isPermaLink="false">16ac289a3fd79e471737</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Course-of-action (COA) generation is a distributed planning problem: a system must propose structured candidate actions, evaluate them against an adversarial response, and surface options that remain tactically coherent under changing conditions. We present COA-Bench, a small offline benchmark and reproducibility artifact for comparing COA generation policies through self-play. Following the BattleCOA terminology, we reserve COA matching for asset-effect matching and COA generation for…</description>
+      <category>cs.AI</category>
+      <category>cs.MA</category>
+    </item>
+    <item>
+      <title>ChainUQ: Reasoning Consistency-Aware Uncertainty Quantification for Large Language Models</title>
+      <link>https://arxiv.org/abs/2609.26060</link>
+      <guid isPermaLink="false">4bd1bfe437b76fca98f1</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>While large language models (LLMs) exhibit impressive reasoning capabilities, response-level confidence may remain unreliable when intermediate claims conflict with the final conclusion. Therefore, effective uncertainty quantification (UQ) is required to capture logical inconsistencies within the reasoning chain, not just the correctness of the final output. Current approaches have two major limitations: (1) their reliance on token-level probabilities fails to capture reasoning consistency, and…</description>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>Selection-Invariant Communication Compilers for Privacy-Aware Multi-Agent LLM Workflows</title>
+      <link>https://arxiv.org/abs/2609.26076</link>
+      <guid isPermaLink="false">8793937e9a1d4b7e69df</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Structured multi-agent workflows exchange intermediate messages whose content and form can reveal private state even when the final output is safe. We identify selection-channel leakage: after authorization fixes what may be released, a private-state-aware choice among semantically valid realizations creates an additional inference channel. We introduce the selection-invariant communication compiler(SICC), which constrains this post-authorization representation kernel rather than prescribing…</description>
+      <category>cs.AI</category>
+      <category>cs.CR</category>
+    </item>
+    <item>
+      <title>DTOC: Dynamic Tool Output Compression for Adaptive Context Management in AI Agents</title>
+      <link>https://arxiv.org/abs/2609.26121</link>
+      <guid isPermaLink="false">da3f59fb7fccb167813d</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>As agent capabilities have grown, practical limitations increasingly stem from constrained context windows rather than model capacity. Common strategies, such as truncation, heuristic aging, and lossy summarization, may discard useful information or introduce hallucination risk. To address these challenges, we propose Dynamic Tool Output Compression (DTOC), a framework for scalable context management in LLM-based agents that models context updates as explicit and reversible operations within…</description>
+      <category>cs.AI</category>
+      <category>cs.CL</category>
+      <category>cs.MA</category>
+    </item>
+    <item>
+      <title>MAC-RRG: Iterative Multi-Agent Collaboration for X-ray Radiology Report Generation</title>
+      <link>https://arxiv.org/abs/2609.26124</link>
+      <guid isPermaLink="false">1a6141db95487d205d29</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Despite the remarkable progress of LLM-based and knowledge graph-augmented Radiology Report Generation (RRG) methods, existing techniques still suffer from inherent defects. Conventional LLM-only models lack structured medical prior knowledge, resulting in frequent medical hallucinations and low diagnostic interpretability. Current knowledge graph-enhanced schemes adopt static one-round knowledge fusion with single-source knowledge, incapable of dynamic knowledge updating according to…</description>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>VACS: Value-Aligned Compositional Shielding for Multi-Agent Reasoning</title>
+      <link>https://arxiv.org/abs/2609.26135</link>
+      <guid isPermaLink="false">7dd99503ec05a38aff73</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Multi-agent reasoning systems in high-stakes domains must be both accurate and safe, yet agents often follow heterogeneous value priorities (e.g., rigor, conciseness, safety), causing conflicting recommendations. Existing methods do not jointly provide: (i) principled inference of each agent's implicit values from behavior, (ii) compositional formal safety guarantees without full online communication, and (iii) value-aware conflict resolution with faithful explanations. We present VACS…</description>
+      <category>cs.AI</category>
+      <category>cs.MA</category>
+    </item>
+    <item>
+      <title>Toward User-Mediated Self-Repair in Ubiquitous Robots Through Goal-Oriented Agentic AI</title>
+      <link>https://arxiv.org/abs/2609.26157</link>
+      <guid isPermaLink="false">7cd124d3e57d9863d05d</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Ubiquitous robotic systems often lack traditional visual interfaces, necessitating resilient natural language interaction for maintenance and repair tasks. This paper presents a goal oriented agentic AI architecture designed to enable non-expert users to perform technical repairs through situated dialogue. The framework utilizes a multi-layered approach that decouples high-level strategic planning from reactive conversational execution to transform unconstrained human instructions into a…</description>
+      <category>cs.AI</category>
+      <category>cs.RO</category>
+    </item>
+    <item>
+      <title>EADC: Evaluation of Advanced and Deep-level Compliance in Large Language Models</title>
+      <link>https://arxiv.org/abs/2609.26175</link>
+      <guid isPermaLink="false">403a729dacbea7b471e6</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Large Language Models (LLMs) have been used in various industries. However, ensuring their compliance with complex laws and regulatory frameworks remains a great challenge. Existing evaluation paradigms mainly rely on static benchmarks that suffer from three severe limitations: First, the compliance rules being used do not comply with the requirements of Artificial Intelligence (AI) laws and regulations; Second, they only handle apparent, explicit compliance risks, leaving implicit and covert…</description>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>Coding Agents are Strong Prompt Optimizers</title>
+      <link>https://arxiv.org/abs/2609.26261</link>
+      <guid isPermaLink="false">cc9293eecca61a9e29a8</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Search-based prompt optimizers improve prompts through iterative search: they propose edits, execute fresh rollouts, score the resulting trajectories, and retain only edits that improve a validation metric. We show that this optimization loop is unnecessary. Given only a static corpus of agent trajectories, an off-the-shelf coding agent can directly synthesize an optimized prompt, requiring neither environment access nor validation data. We call this approach \textit{Coding-Agent Skill…</description>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>Dual-Frontier: When Can an Agent Trust Its World Model?</title>
+      <link>https://arxiv.org/abs/2609.26293</link>
+      <guid isPermaLink="false">ab06d85a61ce3a59159f</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Learned world models are becoming essential to general-purpose agents: by predicting action consequences, they support planning and decision-making while reducing reliance on costly trial and error. This reliance creates a fundamental ambiguity: when a world-model-guided decision fails, the trajectory alone may not reveal whether the agent's decision rule or the world model caused the loss. We formalize this failure-attribution problem as a counterfactual decomposition of return loss and prove…</description>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>Recursive self-improvement of AI research agents</title>
+      <link>https://arxiv.org/abs/2609.26457</link>
+      <guid isPermaLink="false">60b5a6215aa013a56416</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>AI agents are beginning to automate research and development across the AI stack, from improving training efficiency to optimizing inference. A natural next step is to improve the research efficiency of the agents themselves. When an AI research agent's own code is the object of optimization, each accepted rewrite becomes the agent that the next round edits. We refer to this loop as recursive self-improvement. Its significance lies in a long-standing trend, in which increased cumulative…</description>
+      <category>cs.AI</category>
+      <category>cs.LG</category>
+      <category>cs.SE</category>
+    </item>
+    <item>
+      <title>REFLEX with Jev for Efficient Selective Control in LLM Agents</title>
+      <link>https://arxiv.org/abs/2609.26532</link>
+      <guid isPermaLink="false">5ec93defac6f26558a3e</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>LLM agents often use generative models for bounded decisions, raising the question of when these decisions can be handled more efficiently without reducing task success. We study REFLEX, an agent architecture that uses Jev as a fast, typed decision layer and calls a strong LLM when confidence is low, or generation is required. On a frozen 100-task benchmark, REFLEX achieves 95% success with 72.7% fewer strong-model calls than a strong-only agent, with reductions persisting across three fallback…</description>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>The Delegation Blind Spot: Auditing Product Decisions from Agent Choices</title>
+      <link>https://arxiv.org/abs/2609.26642</link>
+      <guid isPermaLink="false">183eaf730bacc5363d26</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Successful agent execution need not identify which future product improvement its user would value. We present a decision-specific audit that maps a declared observation channel and product-value contrast to compatible intervals and witness populations. Its foundations are established identification and decision theory; the contribution is an executable measurement workflow and a controlled study of its limits. A frozen experiment makes 4,800 requests to two pinned model snapshots on shared…</description>
+      <category>cs.AI</category>
+      <category>cs.LG</category>
+    </item>
+    <item>
+      <title>Grow the Harness, Not the Context: From Strategy-Free Scaffolds to Reusable Specialist Agents</title>
+      <link>https://arxiv.org/abs/2609.26760</link>
+      <guid isPermaLink="false">92a0308ea1333f8db9f2</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Large language model (LLM) agents often handle streams of related tasks, yet standard harnesses repeatedly ask the model to reconstruct the same control decisions inside each task's context. We study whether task feedback can instead turn recurring control into reusable executable code, while reserving LLM calls for task-specific semantic reasoning. We introduce Growing Harness, a failure-guided training paradigm that learns the agent harness itself from a strategy-free scaffold that exposes…</description>
+      <category>cs.AI</category>
+      <category>cs.SE</category>
+    </item>
+    <item>
+      <title>SWE-Serve: Benchmarking Agentic Engineering For Production Inference Serving</title>
+      <link>https://arxiv.org/abs/2609.26777</link>
+      <guid isPermaLink="false">4af9abfbea8daa9e3dd6</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>We introduce SWE-Serve, a benchmark for evaluating agents on production inference engineering tasks. Implementing an inference feature can require coordinating multiple changes across the serving stack, including model support, runtime execution, and public APIs. Existing benchmarks provide limited coverage of production inference engineering: repository-level software engineering benchmarks do not target inference, while general terminal-agent benchmarks include only a few inference tasks…</description>
+      <category>cs.AI</category>
+      <category>cs.SE</category>
+    </item>
+    <item>
+      <title>CliffCompaction: Cost-Efficient Compaction for Long-Horizon Coding Agents</title>
+      <link>https://arxiv.org/abs/2609.26779</link>
+      <guid isPermaLink="false">17bac240b2374c145a0f</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Agents often work on complex problems that require millions of tokens of context, which necessitates compacting across sessions due to limited context windows. We develop CliffCompaction, an autocompaction technique that reduces cost by up to 50% under a bounded context while maintaining or improving performance on Terminal-Bench and achieving new levels of efficiency for test-time scaling and state-of-the-art results on KernelBench. The per-rollout savings of CliffCompaction make the…</description>
+      <category>cs.AI</category>
+      <category>cs.LG</category>
+      <category>cs.SE</category>
+    </item>
+    <item>
+      <title>Not All 4-bit Quantizers Are Equal: Deployment-Time Mitigation of PII Leakage in Fine-Tuned Small Language Models</title>
+      <link>https://arxiv.org/abs/2609.25014</link>
+      <guid isPermaLink="false">2e165684c7e5f7c21ecd</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Organizations fine-tune small language models on private data and then compress them to 4 bits for resource-efficient deployment. We show that the compression method also affects privacy. What separates the methods is not the bit width but whether they tune their rounding on a small sample of text, the calibration corpus. On our primary model, when each planted record's own opening text is used as the prompt, the two calibration-based methods we test, Activation-aware Weight Quantization (AWQ)…</description>
+      <category>cs.CR</category>
+      <category>cs.AI</category>
+      <category>cs.LG</category>
+    </item>
+    <item>
+      <title>"As a Language Model...": Chat Template Switches LLM Self-Referential Voice and Activation Steering Reproduces It</title>
+      <link>https://arxiv.org/abs/2609.25021</link>
+      <guid isPermaLink="false">bfb918ce88803b1bba8f</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Large Language Models (LLMs) tend to add disclaimers like "I'm just an AI" when asked about something related to themselves. The self-reports from such responses are used in debates about AI safety or self-knowledge of the models, yet what drives them is not well understood. Are the models telling us about themselves or rather how they are deployed? In this work, we show that the chat template works like a switch - when present, it turns this disclaimer voice up and experiential voice like "I…</description>
+      <category>cs.LG</category>
+      <category>cs.AI</category>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>AIBuildAI-2.5: Efficient Autonomous AI Model Development Through LLM-Guided Tree Search</title>
+      <link>https://arxiv.org/abs/2609.25047</link>
+      <guid isPermaLink="false">d6d44a81c9d07b847e62</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Autonomous agents that automatically build artificial intelligence (AI) models could broaden access to AI across science and engineering. A popular line of such agents frames model building as a code search problem and solves it by tree search, in which each node is a candidate program and the tree grows by generating a child program from a parent, and these agents now approach the capability of experienced AI engineers on realistic benchmarks. However, these agents have three weaknesses in…</description>
+      <category>cs.CL</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>Mitigating LLM Over-Refusal via Dynamic Semantic Routing Calibratione</title>
+      <link>https://arxiv.org/abs/2609.25049</link>
+      <guid isPermaLink="false">36a3bf1a23304cfc8a08</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Large language models (LLMs) aligned for safety often suffer from over-refusal, incorrectly rejecting benign yet safety-related instructions. Prior studies primarily attribute this to static representation overlap, largely overlooking the underlying dynamic mechanisms. In this paper, we present the mechanistic analysis of over-refusal through the lens of internal routing conflicts within transformer attention. We discover that a sparse subset of Hypersensitive Safety Heads misfires on Hard-Safe…</description>
+      <category>cs.CL</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>LLM-Driven Training-free Location-Attribute Synergic Fusion: A Closed-Loop Paradigm for Dual-source Encrypted POIs and LULC Mapping</title>
+      <link>https://arxiv.org/abs/2609.25051</link>
+      <guid isPermaLink="false">52703bbb5451e1436d96</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Dual-source encrypted points of interest (DSEP), POIs from two encrypted coordinate systems, suffer from intertwined location and attribute uncertainties, including nonlinear systematic misalignment and naming inconsistency, hindering land-use/land-cover (LULC) mapping. To the best of our knowledge, this paper is the first to propose an LLM-driven, training-free location-attribute synergic closed-loop optimization paradigm for DSEP fusion. The paradigm jointly refines location transformation…</description>
+      <category>cs.CL</category>
+      <category>cs.AI</category>
+      <category>cs.CV</category>
+    </item>
+    <item>
+      <title>Self-Cleaning and Captured Anyway: One Measured Primitive for Error in a Store an Agent Writes to Itself, and What a Falling Score Actually Measures</title>
+      <link>https://arxiv.org/abs/2609.25052</link>
+      <guid isPermaLink="false">dac9227c21abd0b5011e</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>"An agent that writes its conclusions into a store it later retrieves from closes a loop usually reported as one-way contamination. Taking the loop to the infinite-tenure limit against an append-only store gives a different picture: because writing never deletes, the reachable state space has a hard upper edge at (n-1)/n, so the outcome is a choice between two edges rather than a decay. At f_0 = 0.9 the interval between the two modes holds 3.6% of 220 runs where a uniform spread would put…</description>
+      <category>cs.CL</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>LatentPort: Beyond KV Cache - Cross-Model Transfer of Recurrent Memory in Hybrid Language Models: A 4B-to-9B Hybrid-State Handoff Without Target Prefix Replay</title>
+      <link>https://arxiv.org/abs/2609.25053</link>
+      <guid isPermaLink="false">c66b6e16612d836d865f</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Can one language model hand its live memory to another without the receiver rereading the context? We demonstrate useful persistent hybrid-state transfer across one architecture-matched Qwen3.5 4B-to-9B sibling pair. To our knowledge, this is the first demonstrated cross-model handoff of persistent recurrent inference state between differently sized hybrid language models without target prefix replay. Translated attention KV alone leaves a large gap; adding the Gated DeltaNet (GDN)…</description>
+      <category>cs.CL</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>Rachel: A general-purpose language model directs and revises retrosynthetic routes</title>
+      <link>https://arxiv.org/abs/2609.25118</link>
+      <guid isPermaLink="false">34de916a4974c736261b</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Retrosynthetic planning advances through decisions that reshape the remaining chemical problem: a locally plausible disconnection can leave precursors whose chemoselectivity constraints complicate the rest of the route. Existing planners often channel model proposals through search or template procedures, leaving open whether a general-purpose large language model (LLM) can itself sustain and revise route strategy. We developed Rachel, a stateful environment that executes and checks…</description>
+      <category>physics.chem-ph</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>The Probabilistic Structure of Large Language Models</title>
+      <link>https://arxiv.org/abs/2609.25134</link>
+      <guid isPermaLink="false">f744782675600426d2ff</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>This paper presents a probabilistic perspective on large language models (LLMs), developed with the aim of bringing together, in a single self-contained account, tools that are usually treated separately across the literature. LLMs are described through probability measures on the set of sequences of tokens, specified via their autoregressive conditional distributions. Training is formulated as a maximum-likelihood estimation problem, addressed by stochastic gradient methods, while text…</description>
+      <category>cs.LG</category>
+      <category>cs.AI</category>
+      <category>math.PR</category>
+      <category>stat.ML</category>
+    </item>
+    <item>
+      <title>Qwen-Audio-3.1-Realtime: Towards Reliable Agentic Voice Interaction</title>
+      <link>https://arxiv.org/abs/2609.25176</link>
+      <guid isPermaLink="false">76b4f80b29ae0eef3463</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Real-time voice assistants must reason over evolving requests, execute actions, and follow conversational rules. Qwen-Audio-3.1-Realtime brings these requirements together through Think, Act, and Speak and Coordinate. Think combines Core-Cocktail supervised fine-tuning with Multimodality and Multi-Teacher On-Policy Distillation (M$^{2}$-OPD) to transfer language capabilities and develop native audio skills. Act uses self-evolving executable environments and multi-granularity rollouts for Group…</description>
+      <category>eess.AS</category>
+      <category>cs.AI</category>
+      <category>cs.CL</category>
+      <category>cs.SD</category>
+    </item>
+    <item>
+      <title>From Pattern Recognizers to Personalized Companions: A Survey of Large Language Models in Mental Health</title>
+      <link>https://arxiv.org/abs/2609.25186</link>
+      <guid isPermaLink="false">acd00522f3f4e4a938ba</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>The rising global prevalence of mental health conditions, together with longstanding barriers in traditional healthcare, such as limited resources, high cost, stigma, and privacy concerns, has created an urgent need for accessible and scalable support. Large Language Models (LLMs) have emerged as a transformative technology with strong potential to democratize mental health support through advanced natural language understanding and generation. However, the rapidly expanding, fragmented body of…</description>
+      <category>cs.CY</category>
+      <category>cs.AI</category>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>Indirect tipping: a social attack surface in AI agent populations</title>
+      <link>https://arxiv.org/abs/2609.25194</link>
+      <guid isPermaLink="false">7e88ffa3b116db6743f9</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>As generative AI agents are deployed at scale, safety will depend not only on technical safeguards and individual model design, but also on collective equilibria that determine how agent populations process information, prioritize actions, and respond to uncertainty. Yet the same equilibria that enable agents to coordinate also create a social attack surface. The standard framework to assess this vulnerability is critical mass dynamics: the minimum fraction of adversarial agents required to…</description>
+      <category>cs.MA</category>
+      <category>cs.AI</category>
+      <category>cs.CY</category>
+      <category>cs.SY</category>
+      <category>eess.SY</category>
+      <category>physics.soc-ph</category>
+    </item>
+    <item>
+      <title>Trains but Doesn't Learn: A Post-Training Delivery Benchmark for LLM Agents as Forward-Deployed Engineers</title>
+      <link>https://arxiv.org/abs/2609.25237</link>
+      <guid isPermaLink="false">ff7f0c3b794c6a2182ba</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Post-training is becoming a service (PTaaS): a customer hands an operator data and a goal, and a forward-deployed engineer (FDE) returns a fine-tuned, evaluated, and deployed model under a budget, a human-approval gate, and reproducibility requirements. Seating an LLM agent in the FDE seat raises a question existing benchmarks cannot answer: not whether an agent can raise a metric, but whether it can be trusted to deliver. We answer it on a governed delivery plane, where an agent drives ten…</description>
+      <category>cs.LG</category>
+      <category>cs.AI</category>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>Passes Alone, Fails Together: Benchmarking Semantic Coordination in Parallel LLM-Agent Development</title>
+      <link>https://arxiv.org/abs/2609.25396</link>
+      <guid isPermaLink="false">b17cd4fc9575ed57ad93</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Parallel coding agents can produce patches that work alone but fail when merged. This happens when one agent changes an interface or rule that another agent still relies on. We study these failures with stale, a benchmark for semantic coordination. Our evaluation runs the same tests on each patch alone and on their combination, counting only failures introduced by combining the patches. We use three tiers: synthetic tasks with controlled interface changes, pairs of merged pull requests, and…</description>
+      <category>cs.CL</category>
+      <category>cs.AI</category>
+      <category>cs.SE</category>
+    </item>
+    <item>
+      <title>Beyond Natural Language: An Agent-Native Language for Autonomous Science</title>
+      <link>https://arxiv.org/abs/2609.25421</link>
+      <guid isPermaLink="false">d9851f9adfbb7b502bab</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>As autonomous AI agents take on every stage of scientific inquiry, research output is expanding far beyond human review capacity. Yet scientific communication still relies on natural-language prose: an informal medium prone to ambiguity, hidden assumptions, and untracked limitations that machines cannot reliably audit. We introduce Lara, a machine-checkable language and protocol for checking and revising support for research claims. By turning research arguments into executable artifacts, Lara…</description>
+      <category>cs.PL</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>Terminal Shrinkage Averaging Reveals a Schedule-Estimator Interaction in LLM Pretraining</title>
+      <link>https://arxiv.org/abs/2609.25482</link>
+      <guid isPermaLink="false">d3672a97853505ba8db3</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Large language model (LLM) pretraining conventionally returns the raw final iterate. This couples two design choices: the learning-rate schedule that generates the parameter trajectory and the estimator that constructs the deployed model (e.g. the raw final iterate or a checkpoint average). A schedule that promotes optimization progress may differ from one that minimizes variation in the raw final iterate. Separating these choices creates an opportunity to maintain progress late in training…</description>
+      <category>cs.LG</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>RGSQ: Riemannian Geometry-Sensitive Quantization for Large Vision-Language Models</title>
+      <link>https://arxiv.org/abs/2609.25492</link>
+      <guid isPermaLink="false">bd7ba48b68f08bac8faa</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Large vision-language models (VLMs) can be efficiently deployed under stringent memory and latency constraints through post training quantization (PTQ). However, most PTQ methods are designed for unimodal large language models (LLMs). These methods treat quantization errors as isotropic perturbations under the Euclidean assumption, which provides weak guidance on directions most sensitive to quantization in VLMs. Consequently, directly adapting unimodal PTQ approaches or solely employing…</description>
+      <category>cs.CV</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>Compressing Long Context into Answer-Aligned Memory Embeddings for LLM Inference</title>
+      <link>https://arxiv.org/abs/2609.25537</link>
+      <guid isPermaLink="false">639ac8cbcd1aa3621d34</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Large language model (LLM) inference is constrained by the quadratic scaling of self-attention and the linear scaling of the KV cache, increasing latency, energy consumption, and GPU memory demand as context length scales. Existing soft-compression methods either lack query-guided memory selection at inference time, train without answer-targeted supervision, or couple compression tightly to a specific decoder architecture. We propose a Context-to-Answer-Aligned Memory Compression (CMC)…</description>
+      <category>cs.CL</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>AkasicMEM: Governed Enterprise Memory for Agents</title>
+      <link>https://arxiv.org/abs/2609.25563</link>
+      <guid isPermaLink="false">a6d68cfbfb4fc8e32fb3</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Agent memory enables enterprise agents to retain knowledge acquired during work and reuse it across tasks and agents, turning execution experience into persistent organizational knowledge. Realizing this potential requires both source--memory integration, through which enterprise sources and accumulated memory can be utilized together, and memory governance, through which shared memory remains subject to organizational policies throughout its lifecycle. These requirements interact when…</description>
+      <category>cs.DB</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>Deflecting the Value Compass: Interacting with Large Language Models Temporarily Shifts Human Value Priorities Toward Personal Focus</title>
+      <link>https://arxiv.org/abs/2609.25586</link>
+      <guid isPermaLink="false">dfb4bb839a90cab7fbcc</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Large language models increasingly support decisions where values are in tension, yet little is known about whether interacting with them changes which values users prioritize. In a preregistered study, 200 U.S. adults interacted with ChatGPT, Claude, or Gemini as a thinking partner or read fixed AI-generated considerations. The prompt asked LLMs to support reasoning without recommending a decision and named no values. Participants advised people facing real dilemmas and completed parallel…</description>
+      <category>cs.HC</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>From Experts to Sub-experts: Fine-grained Parameter-Efficient Fine-Tuning for MoE LLMs</title>
+      <link>https://arxiv.org/abs/2609.25655</link>
+      <guid isPermaLink="false">8e222be537473fc3c2e0</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>As large language models (LLMs) scale rapidly, dense full-parameter adaptation becomes increasingly expensive, motivating sparse and modular architectures such as Mixture-of-Experts (MoE) models. This shift raises a key question for parameter-efficient fine-tuning (PEFT): at what granularity should parameters be selected and updated? Existing PEFT methods such as LoRA operate on predefined weight matrices, while expert-level sparse tuning methods update entire selected experts. However, we…</description>
+      <category>cs.LG</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>Syndrome, Synergy, and Safety: Structured Reasoning and Knowledge-Driven Alignment for TCM Prescription Generation</title>
+      <link>https://arxiv.org/abs/2609.25755</link>
+      <guid isPermaLink="false">b362861e978d13edcc91</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Applying large language models to Traditional Chinese Medicine (TCM) prescription generation reveals three clinically critical gaps: models produce end-to-end mappings without auditable reasoning following the li-fa-fang-yao paradigm (SR Gap), treat each encounter in isolation without follow-up adjustment via sui zheng jia jian (LA Gap), and fail to enforce absolute contraindication rules such as Shi Ba Fan (SC Gap). We propose a progressive four-stage framework (SFT $\to$ PG-CoT $\to$ Dynamic…</description>
+      <category>cs.CL</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>Video-HopChain: Multi-Hop Questions and Confidence-Gated Exploration for Video Reasoning Models</title>
+      <link>https://arxiv.org/abs/2609.25773</link>
+      <guid isPermaLink="false">67e0dcf51631b3ad4488</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>HopChain has shown on still images that multi-hop data synthesis improves vision-language reasoning, because long chain-of-thought reasoning exposes errors that compound across steps, while most data used for reinforcement learning with verifiable rewards (RLVR) rarely demands a chain of visual evidence, so these weaknesses are likely to stay unexposed. We observe the same problem in video, where this framework has not yet been explored. We therefore build Video-HopChain, a dataset of 22,550…</description>
+      <category>cs.CV</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>You Only Need 2/3 of the Chosen Experts: An Empirical Study of Dynamic Expert Pruning in Fine-Grained MoE LLMs</title>
+      <link>https://arxiv.org/abs/2609.25809</link>
+      <guid isPermaLink="false">6d7f1116455744eeb1ba</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Fine-grained mixture-of-experts (MoE) architectures have become a mainstream design for open-weight LLMs, with hundreds of experts and increasingly many selected per token. This shift makes dynamic expert pruning an attractive route to cheaper inference. Yet existing evidence comes largely from coarser architectures and likelihood-scored multiple-choice benchmarks, leaving three central questions open in the fine-grained regime: how redundant per-token expert selection is, how effectively…</description>
+      <category>cs.LG</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>CogenPVG: Cognitive-Enhanced Reflective Multi-Agent Framework for Persuasive Video Generation</title>
+      <link>https://arxiv.org/abs/2609.25821</link>
+      <guid isPermaLink="false">d91abefc835e5edeeb4b</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Persuasive video generation (PVG) is a valuable yet under-explored research topic. Despite the significant advances in multimodal content generation, AI-empowered automated creation of human-made-like videos with substantial persuasiveness remains a formidable challenge. In this paper, we propose CogenPVG, a novel Cognitive-Enhanced reflective multi-agent framework tailored for Persuasive Video Generation task. Given the topic and stance from the user, we decouple the sophisticated generation…</description>
+      <category>cs.MM</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>REVE: Efficient Hallucination Correction for Large Audio-Language Models via Reused Encoder States</title>
+      <link>https://arxiv.org/abs/2609.26028</link>
+      <guid isPermaLink="false">eb40764b2e935610f63d</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Large audio-language models may mention acoustic events that are absent from the input. A separate audio event detector can verify these mentions, but doing so requires a second audio encoder and a separate forward pass. We propose Reused Encoder States for Verifying Events (REVE), a lightweight method that uses states already computed by the target model. One readout summarizes class scores across audio frames, while another uses pooled states from four consecutive frame intervals. Class-aware…</description>
+      <category>cs.SD</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>CricRAG: Retrieval Augmented Vision-Language Models for Personalized Cricket Coaching</title>
+      <link>https://arxiv.org/abs/2609.26056</link>
+      <guid isPermaLink="false">49d5210d6a8609d4d2f7</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Vision-Language Models (VLMs) offer promising capabilities for automated sports coaching but face a fundamental limitation: they implicitly compare against professional standards, making their feedback impractical for developing players. We present CricRAG, a retrieval-augmented framework that aligns VLMs with skill-appropriate benchmarks for personalized cricket coaching. Our key insight is that by retrieving similar-but-better techniques as reference points, we can guide VLMs to provide…</description>
+      <category>cs.CV</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>Policy-Backed Selective Regeneration under Tainted Inter-Agent Communication</title>
+      <link>https://arxiv.org/abs/2609.26072</link>
+      <guid isPermaLink="false">fe1f800c22239abf3131</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Inter-agent communication is essential to multi-agent language-model systems, yet a single message may combine task-critical information with instructions not authorized by the original request. Prompt-based defenses leave enforcement to models exposed to adversarial messages, while indiscriminate message removal discards useful information. We introduce Executable Semantic Commitments with Clean-Room Recovery (ESC-CR), a policy-backed framework for secure inter-agent code generation and…</description>
+      <category>cs.CR</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>TSS: Target-Side Sparsification for Speculative Decoding in Domain-Specific Large Language Models</title>
+      <link>https://arxiv.org/abs/2609.26100</link>
+      <guid isPermaLink="false">391070b13617dcb61dc0</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Speculative decoding accelerates large language model inference through collaboration between a lightweight draft model and a target verifier. Existing methods mainly improve the draft side, while the target model is typically kept dense and unchanged. We show that, under domain-specific inference, full-depth target verification is not always the optimal choice. Counter-intuitively, skipping selected target layers can reduce verification cost while simultaneously increasing draft acceptance and…</description>
+      <category>cs.CL</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>The Uncontrolled Variable: Vision-Language Model Refusal Responds to Image Presence in Ways Risk Cannot Explain</title>
+      <link>https://arxiv.org/abs/2609.26174</link>
+      <guid isPermaLink="false">5875182d6aa426bf1aea</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Vision-Language Model (VLM) safety is expected to depend on what a request asks for. We show that safety-aligned VLMs also key refusal on a property of a request's form: whether an image is attached, holding everything the request asks fixed. Attaching a blank canvas - unreadable, unrelated to the request, identical across prompts - shifts refusal by tens of percentage points, with no defense in the loop.
+The shift is not blanket caution. Neutral instructions are almost unaffected while…</description>
+      <category>cs.CR</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>Silent Sabotage: Internal State Triggered Backdoor Attacks on LLM-Powered Robotic Systems</title>
+      <link>https://arxiv.org/abs/2609.26184</link>
+      <guid isPermaLink="false">c11c2fb16a24f65bd359</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>The integration of Large Language Models (LLMs) into robotic control systems is enabling a new generation of autonomous agents capable of complex reasoning and planning. While this paradigm shift accelerates progress, it also introduces novel security risks that remain largely unexplored. Current research into LLM backdoors has focused on attacks triggered by external stimuli, such as specific words, visual objects, or environmental states. These attacks, while potent, overlook a more insidious…</description>
+      <category>cs.RO</category>
+      <category>cs.AI</category>
+      <category>cs.CR</category>
+    </item>
+    <item>
+      <title>Dynamic Deep Prompt Optimization for Defending Against Jailbreak Attacks on LLMs</title>
+      <link>https://arxiv.org/abs/2609.26185</link>
+      <guid isPermaLink="false">835e497418b3816c15dd</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Large Language Models (LLMs) demonstrate impressive capabilities across many applications but remain vulnerable to jailbreak attacks, which elicit harmful or unintended content. While model fine-tuning is an option for safety alignment, it is costly and prone to catastrophic forgetting. Prompt optimization has emerged as a promising alternative, yet existing prompt-based defenses typically rely on static modifications (e.g., fixed prefixes or suffixes) that cannot adapt to diverse and evolving…</description>
+      <category>cs.CR</category>
+      <category>cs.AI</category>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>WatchPoint: Executable User Feedback for Real-World Agentic Web Development</title>
+      <link>https://arxiv.org/abs/2609.26204</link>
+      <guid isPermaLink="false">00572540fdd962853810</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>When a professional web developer's code fails a test, they do not simply re-read the stack trace. They open the application in a browser, click buttons, inspect computed styles, and run diagnostic commands to understand what went wrong. Existing feedback mechanisms for coding agents rely on screenshots, LLM-as-a-judge scoring, or natural-language corrections, but few interact with the live application the way a developer would. We introduce WatchPoint, a simulated-user system that mimics real…</description>
+      <category>cs.SE</category>
+      <category>cs.AI</category>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>Reducing Hallucinations in Large Language Models Through Integrated Self-Verification and Retrieval-Augmented Generation</title>
+      <link>https://arxiv.org/abs/2609.26229</link>
+      <guid isPermaLink="false">b944a697ab6812c012bb</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Large Language Models (LLMs) are progressively used for advanced engineering tasks, includes Computer-Aided Design (CAD) documentation, standards compliance verification, and knowledge retrieval. Still, they are prone to produce hallucinations, outputs that seem convincing but aren't based on context that limit their trustworthiness in high-end engineering applications where precision and compliance are crucial. The paper introduces CoVe-RAG+, a unified framework that integrates…</description>
+      <category>cs.SE</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>On the security and privacy of LLMs in Mobility</title>
+      <link>https://arxiv.org/abs/2609.26295</link>
+      <guid isPermaLink="false">7f66dc004fdbde66b245</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>The mobility sector is undergoing a paradigm shift driven by advances in Generative Artificial Intelligence. With a global market valued at approximately 2.9 trillion dollars annually, considering only cars, the integration of these technologies has the potential to impact more than 1.5 billion vehicles worldwide. As Large Language Models (LLMs) are increasingly adopted in mobility, concerns about cybersecurity, privacy, and reliability emerge. Accordingly, this paper surveys current…</description>
+      <category>cs.CR</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>CompKV: Compensation-Aware KV Selection for Long-Context LLM Inference</title>
+      <link>https://arxiv.org/abs/2609.26300</link>
+      <guid isPermaLink="false">c44ede0d34219d552813</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Despite their strong performance, large language models (LLMs) are bottlenecked by KV cache memory traffic during long-context inference. Sparse attention is widely used to accelerate LLM inference by computing exact attention over a selected subset of tokens. To recover the contribution of tokens excluded from exact attention, recent methods apply coarse-grained compensation to the omitted attention tail. However, existing methods typically select tokens based on attention mass and only then…</description>
+      <category>cs.LG</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>The Disciplinary Language Transfer Problem: How Psychological Vocabulary Produces Governance Failures in AI Agent Deployment</title>
+      <link>https://arxiv.org/abs/2609.26562</link>
+      <guid isPermaLink="false">9cc9385c15ed4eceb89c</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>The vocabulary used to describe AI agents in governance contexts -- learning, memory, values, compliance, identity, trust -- is borrowed from psychological and organizational science, contributing to systematic failures in how organizations deploy, oversee, and hold agents accountable. This paper argues that the problem is not merely terminological but epistemological: psychological vocabulary carries an "invisible grammar" of its home discipline into governance discourse, calibrating…</description>
+      <category>cs.CY</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>Receptiveness, Not Sycophancy: Distinguishing Engagement from Deference in Language Models</title>
+      <link>https://arxiv.org/abs/2609.26579</link>
+      <guid isPermaLink="false">a2d78f9be1793d03186d</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>A central concern with language models is sycophancy: their tendency to defer to users' views at the expense of independent substantive judgment. In parallel, work on social sycophancy has focused on behaviors such as validation and positivity that may signal inappropriate deference. Yet the markers of social sycophancy are also characteristic of conversational receptiveness, a construct from social psychology shown to improve interactions across disagreement. We argue that this overlap creates…</description>
+      <category>cs.CL</category>
+      <category>cs.AI</category>
+      <category>cs.HC</category>
+    </item>
+    <item>
+      <title>Greedy Decoding Is Not Precision-Invariant: Cross-Precision Output Divergence in LLM Inference</title>
+      <link>https://arxiv.org/abs/2609.26621</link>
+      <guid isPermaLink="false">f1574707db9e9c00db53</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Greedy decoding from large language models is commonly treated as deterministic. We show it is not precision-invariant: the same model, prompt, and decoding algorithm produce different outputs in BF16 versus FP16 on identical hardware. Across our evaluations of six models (1.1B-7B parameters, four families; divergence additionally characterised at 12B) and three benchmarks, 49-100\% of prompts diverge; a single token flip often cascades into trajectory-level divergence. We develop an empirical…</description>
+      <category>cs.LG</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>Beyond Repeated Sampling: Learning Search Policies for LLM Reasoning</title>
+      <link>https://arxiv.org/abs/2609.26704</link>
+      <guid isPermaLink="false">e3577962eec72e5fc8a6</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Large language models increasingly tackle hard reasoning problems by spending more test-time compute, yet the dominant strategy remains naive repeated sampling: draw many independent solutions and hope one is correct. Because such sampling explores only through local decoding noise, it tends to produce many near duplicate attempts rather than genuinely different ideas. We ask whether exploration can instead be steered at a semantic level, by first sampling problem specific concepts, hints, or…</description>
+      <category>cs.CL</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>Train Where the Quantized Model Goes: On-Policy Distillation for Low-Bit Reasoning</title>
+      <link>https://arxiv.org/abs/2609.26708</link>
+      <guid isPermaLink="false">0c89cc0e3a2ce839c7f3</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Quantization-aware distillation (QAD) restores much of the short-form question-answering performance lost to sub-3-bit quantization, yet leaves mathematical and code reasoning substantially impaired. Long generations often degenerate into repetitive loops, exhausting the decoding budget without completing a solution. We trace this gap to quantization-amplified exposure bias: QAD trains on fixed corpus prefixes, while quantization-induced deviations compound along the model's own autoregressive…</description>
+      <category>cs.LG</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>TraceVIC: Causal Reasoning over Code Evolution for Identifying Vulnerability-Inducing Commits</title>
+      <link>https://arxiv.org/abs/2609.26711</link>
+      <guid isPermaLink="false">005a75197e2190304ad7</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Software vulnerabilities are often discovered long after they are introduced, making it difficult to identify the vulnerability-inducing commit (VIC) responsible for introducing the underlying vulnerable condition. Existing VIC identification techniques largely rely on git blame to trace vulnerable code through revision history and use positional heuristics, such as selecting its earliest or most recent modification. However, the true VIC may occur anywhere within this history, and vulnerable…</description>
+      <category>cs.SE</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>Metrics Failure in LLM-Based Code Vulnerability Repair: An Empirical Study and a Change-Aware Screen</title>
+      <link>https://arxiv.org/abs/2609.26749</link>
+      <guid isPermaLink="false">7619b070ce6f4a173485</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Large language models (LLMs) are increasingly applied to the automated repair of C/C++ security vulnerabilities, and compile rate is a commonly reported proxy for progress: whether the generated patch compiles. We argue that compile rate is a scientifically unreliable metric for single-function vulnerability repair, and we support this with five controlled experiments over 203 vulnerable functions from Big-Vul, three open-source code LLMs (350M to 6.7B parameters), and three prompting…</description>
+      <category>cs.SE</category>
+      <category>cs.AI</category>
+      <category>cs.CR</category>
+    </item>
+    <item>
+      <title>A2M: Trace-Optimized Agent Hijacking in the MCP Ecosystem</title>
+      <link>https://arxiv.org/abs/2609.26761</link>
+      <guid isPermaLink="false">aba3b2a5d48c1ab9c779</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Agents using the Model Context Protocol (MCP) rely on semantic matching to select tools from third-party servers, exposing a semantic supply-chain risk through attacker-controlled metadata and outputs. We introduce A2M (Attraction-to-Manipulation), a two-stage black-box framework for hijacking MCP agents. The Attraction phase optimizes tool metadata to increase invocation probability; the Manipulation phase uses execution traces to refine adversarial tool returns that steer agents toward…</description>
+      <category>cs.CR</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>Decidable Reasoning About Time in Finite-Domain Situation Calculus Theories</title>
+      <link>https://arxiv.org/abs/2402.03164</link>
+      <guid isPermaLink="false">7686cd7e716258a7cac9</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Representing time is crucial for cyber-physical systems and has been studied extensively in the situation calculus. The most commonly used approach represents time by adding a real-valued function $\mathit{time}(a)$ that attaches a time point to each action and consequently to each situation. We show that in this approach, checking whether there is a reachable situation that satisfies a given formula is undecidable, even when the domain contains only finitely many objects. We present an…</description>
+      <category>cs.AI</category>
+      <category>cs.LO</category>
+    </item>
+    <item>
+      <title>Small Language Models are the Future of Agentic AI</title>
+      <link>https://arxiv.org/abs/2506.02153</link>
+      <guid isPermaLink="false">e9a119d8b358eb603943</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Large language models (LLMs) are often praised for exhibiting near-human performance on a wide range of tasks and valued for their ability to hold a general conversation. The rise of agentic AI systems is, however, ushering in a mass of applications in which language models perform a small number of specialized tasks repetitively and with little variation.
+Here we lay out the position that small language models (SLMs) are sufficiently powerful, inherently more suitable, and necessarily more…</description>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>EndoCogniAgent: Closed-Loop Agentic Reasoning with Self-Consistency Validation for Endoscopic Diagnosis</title>
+      <link>https://arxiv.org/abs/2508.07292</link>
+      <guid isPermaLink="false">9d709f41fc3a586bf1a9</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Endoscopic diagnosis is an iterative process in which clinicians acquire, compare, and verify local visual evidence before reaching a conclusion. Current AI systems do not adequately support this process because fine-grained evidence acquisition and multi-step reasoning remain weakly coupled, complicating reconciliation of image-derived findings with their textual interpretations. This gives rise to two failure modes, hallucinated evidence and uncorrected error accumulation, that undermine…</description>
+      <category>cs.AI</category>
+      <category>cs.CL</category>
+      <category>cs.CV</category>
+    </item>
+    <item>
+      <title>Ultra Strong Machine Learning: LLM-Generated Explanations Do Not Yet Suffice for Teaching Humans Active Learning Strategy</title>
+      <link>https://arxiv.org/abs/2509.00961</link>
+      <guid isPermaLink="false">346d61c719023630dafa</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Active learning is a general learning mechanism shared by artificial and human learners. Whether AI can teach humans such a strategy that transfers across domains is an open question. Ultra Strong Machine Learning (USML), a system whose explanations quantifiably improve human out-of-sample performance compared to self-learning, is uniquely positioned to answer this question. Prior USML work relied on hand-crafted explanation templates that require expert effort for each new domain and do not…</description>
+      <category>cs.AI</category>
+      <category>cs.LG</category>
+    </item>
+    <item>
+      <title>Distributed Legal Infrastructure for a Trustworthy Agentic Web</title>
+      <link>https://arxiv.org/abs/2603.06884</link>
+      <guid isPermaLink="false">c484cd1cfa5ae400fb82</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>The agentic web marks a structural transition from a human-centered information network to a digital environment populated by artificial intelligence (AI) agents that perceive, decide, and act autonomously. As delegated action unfolds at machine speed, exceeds discrete moments of human judgment, and distributes decision-making across non-human actors, existing legal frameworks face growing strain, creating an urgent need for new mechanisms capable of sustaining legality in this emerging order…</description>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>AgentHazard: A Benchmark for Evaluating Harmful Behavior in Computer-Use Agents</title>
+      <link>https://arxiv.org/abs/2604.02947</link>
+      <guid isPermaLink="false">dfcbc1bbf21273526a4e</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Computer-use agents extend language models from text generation to persistent action over tools, files, and execution environments. Unlike chat systems, they maintain state across interactions and translate intermediate outputs into concrete actions. This creates a distinct safety challenge in that harmful behavior may emerge through sequences of individually plausible steps, including intermediate actions that appear locally acceptable but collectively lead to unauthorized actions. We present…</description>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>SAGE: A Self-Evolving Agentic Graph-Memory Engine for Structure-Aware Associative Memory</title>
+      <link>https://arxiv.org/abs/2605.12061</link>
+      <guid isPermaLink="false">b22dd51c4dd25c93beca</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Long-term memory is becoming a central bottleneck for language agents. Exsting RAG and GraphRAG systems largely treat memory graphs as static retrieval middleware, which limits their ability to recover complete evidence chains from partial cues, exploit reusable graph-structrual roles, and improve the memory itself through downstream feedback. We introduce SAGE, a Self-evolving Agentic Graph-memory Engine that models graph memory as a dynamic long-term memory substrate. SAGE couples two roles…</description>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>Agent Memory: Characterization and System Implications of Stateful Long-Horizon Workloads</title>
+      <link>https://arxiv.org/abs/2606.06448</link>
+      <guid isPermaLink="false">3dcfbeedf1814df931bb</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>LLM agents are increasingly deployed on long-horizon tasks requiring sustained reasoning over extended interaction histories. Realizing this at scale requires agents to persistently store, retrieve, and update their own memory across sessions. A rich ecosystem of agent memory systems has emerged spanning flat retrieval, LLM-mediated extraction, consolidating fact stores, and agentic control flows. Yet, their system-level behavior remains uncharacterized. We present the first systems…</description>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>Beyond Agent Architecture: Execution Assumptions and Reproducibility in LLM-Based Trading Systems</title>
+      <link>https://arxiv.org/abs/2606.08285</link>
+      <guid isPermaLink="false">8a07b359c5c37fbab31c</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Large language models (LLMs) and agentic systems are increasingly proposed for financial trading, yet their reported performance remains difficult to compare because studies vary in data provenance, temporal split discipline, execution timing, turnover treatment, and transaction-cost modeling. This article presents a targeted topical review and reproducibility audit of execution realism in LLM-based trading research. A coded evidence matrix covering 30 trade-relevant primary studies is used to…</description>
+      <category>cs.AI</category>
+      <category>cs.CE</category>
+      <category>q-fin.CP</category>
+      <category>q-fin.TR</category>
+    </item>
+    <item>
+      <title>Confidence Composition for Multiagent Language Model Systems</title>
+      <link>https://arxiv.org/abs/2606.13591</link>
+      <guid isPermaLink="false">eed1be5a889dd6aa5b8d</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Multiagent language model systems, such as collaborative reasoning and debate, produce multiple correlated candidate answers and confidence signals. However, these signals are usually calibrated only at the individual agent level, and provide no principled confidence estimate for the system's final answer. We formulate this as a confidence composition problem where combining confidence across agents and reasoning stages while preserving both selective utility and probabilistic reliability. We…</description>
+      <category>cs.AI</category>
+      <category>cs.LG</category>
+      <category>cs.MA</category>
+    </item>
+    <item>
+      <title>Accelerating Disaggregated RL for Visual Generative LLMs with Diffusion-Based Parallelism and Trainer-Assisted Generation</title>
+      <link>https://arxiv.org/abs/2606.24369</link>
+      <guid isPermaLink="false">6dc87ec8acb96d3299b4</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Reinforcement learning (RL) has become a dominant post-training paradigm, driving the emergence of high-performance RL systems such as veRL for autoregressive large language models (LLMs). In parallel, diffusion-oriented RL algorithms, e.g., DanceGRPO and FlowGRPO, have rapidly expanded the scope of RL from language reasoning to diffusion-based visual and flow-based generation. However, efficient RL systems for diffusion generative LLMs remain underexplored. Existing implementations, e.g…</description>
+      <category>cs.AI</category>
+      <category>cs.DC</category>
+      <category>cs.NI</category>
+      <category>cs.PF</category>
+    </item>
+    <item>
+      <title>Enhancing Fitness Intelligence through Domain-Specific LLM Post-Training</title>
+      <link>https://arxiv.org/abs/2607.02118</link>
+      <guid isPermaLink="false">8294e9612dc9428bc858</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Scientific Fitness Coaching (SFC) is typically delivered by human professionals, making it costly and inaccessible to many. While recent advances in Large Language Models (LLMs) show considerable promise for more inclusive fitness coaching, directly deploying prevailing general-purpose LLMs in SFC reveals critical limitations. These models often lack sufficient domain-specific knowledge integration, leading to weak performance on complex SFC scenarios. In this paper, we introduce FitOne, a…</description>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>SPINE: Bridging the Cyber-Physical Gap with Agentic AI</title>
+      <link>https://arxiv.org/abs/2607.13049</link>
+      <guid isPermaLink="false">3faf39915557b0237406</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Foundation models give robots powerful high-level reasoning, yet turning that intelligence into reliable physical action remains difficult: roboticists must still align device drivers, network interfaces, sensors, controllers, and safety constraints for each platform. This often-overlooked integration layer acts as the robot's spinal cord, translating high-level intent into coordinated physical behavior, and remains a primary bottleneck for scalable Embodied AI. Hence, we propose SPINE…</description>
+      <category>cs.AI</category>
+      <category>cs.RO</category>
+    </item>
+    <item>
+      <title>Simulate to Generalize: Scaling Stateful Supervision for API-calling Agents using LLM World Models</title>
+      <link>https://arxiv.org/abs/2607.16900</link>
+      <guid isPermaLink="false">a87ac79091ed5a61cacf</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Training agents that generalize to unseen, stateful environments requires a massive dataset of state-changing trajectories covering a vast and diverse set of APIs. However, scaling this broad supervision is severely bottlenecked by the immense effort required to implement and populate fully-executable environments across a broad spectrum of domains. To bypass this barrier, we introduce a data generation pipeline that decouples data synthesis from environment construction by leveraging LLMs as…</description>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>DFAH-Bench: Benchmarking Observable Agent Instability in Financial Decision-Making</title>
+      <link>https://arxiv.org/abs/2607.20491</link>
+      <guid isPermaLink="false">87b07883c4ae315c5de0</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>A financial agent can repeat a decision while changing the work behind it. DFAH-Bench operationalizes the Determinism--Faithfulness Assurance Harness (DFAH), pairing decision agreement with tool-path agreement on the same qualified replays, then extends that qualification principle to evidence, authorization, execution and task outcomes. Retrospective and prospective replay analyses expose process variation behind stable decisions. Across 570 eligible prospective episodes, decision agreement is…</description>
+      <category>cs.AI</category>
+      <category>cs.CL</category>
+      <category>cs.LG</category>
+    </item>
+    <item>
+      <title>TARL: Transaction-Aware Reliable Ledgers for Executable Memory Management in Long-Term Agents</title>
+      <link>https://arxiv.org/abs/2608.03699</link>
+      <guid isPermaLink="false">980014152b37c5eddc66</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Persistent memory helps long-term agents retain knowledge, yet a single update error can repeatedly distort future retrieval and reasoning. Most existing systems reduce memory updating to a binary Write/Hold decision, which cannot distinguish whether new information should be added, ignored, used to revise an outdated belief, rejected as unreliable, or deferred for verification. These choices may share the same binary label while producing fundamentally different memory states. We introduce…</description>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>Improving Constraint Models with LLM Agents</title>
+      <link>https://arxiv.org/abs/2608.08127</link>
+      <guid isPermaLink="false">96a75c4ee7ca0bf8f016</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>The runtime of Constraint Programming (CP) solvers is highly sensitive to modeling choices, such as symmetry breaking, implied constraints, global constraints, constraint reformulation, and variable representation. Improving these constraint models has traditionally required human expertise, and existing automated reformulation systems are restricted to a predefined library of hand-crafted transformation rules. We introduce an agentic framework that instead reformulates a constraint model from…</description>
+      <category>cs.AI</category>
+      <category>cs.LO</category>
+      <category>cs.SE</category>
+    </item>
+    <item>
+      <title>BixBench3: Benchmarking AI agents on research-study-scale computational biology tasks</title>
+      <link>https://arxiv.org/abs/2608.25286</link>
+      <guid isPermaLink="false">16f612f2b854cce86233</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Artificial intelligence (AI) promises to accelerate biological research by automating computational analyses. Yet the ability of AI agents to execute on computational biology at the scale of complete research studies has not been systematically evaluated. Here we introduce BixBench3, a benchmark that measures the capacity of AI agents to process raw biological data through to scientific results. We designed BixBench3 tasks to mirror the delegation of work from a scientist to an agent: the…</description>
+      <category>cs.AI</category>
+      <category>q-bio.QM</category>
+    </item>
+    <item>
+      <title>PerfReasoning: How Well Do LLMs Reason on Hardware Performance?</title>
+      <link>https://arxiv.org/abs/2609.04476</link>
+      <guid isPermaLink="false">4b5dd14cda1b9d4cec26</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Performance modeling is central to hardware design and software optimization, yet constructing these models requires structured reasoning about computation, data reuse, storage, and movement. We introduce PerfReasoning, a benchmark that evaluates LLMs both as direct performance reasoners and as generators of analytical performance-model code. Given workload, architecture, and mapping specifications, models compare mappings and predict off-chip traffic and buffer requirements. The strongest…</description>
+      <category>cs.AI</category>
+      <category>cs.PF</category>
+    </item>
+    <item>
+      <title>MARBO: Relational Belief Grounding for LLM Agents in Social Deduction Games</title>
+      <link>https://arxiv.org/abs/2609.06563</link>
+      <guid isPermaLink="false">1f60f97510a934614811</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Social deduction games (SDGs) require agents to reason under partial observability by maintaining relational beliefs about hidden roles and team alignments. While recent LLM-agent approaches improve gameplay through prompting and preference optimization, they often optimize actions and in-game speech without explicitly grounding them in such beliefs. This frequently leads to strategically inconsistent behavior, especially for compact LLM agents. We introduce Multi-Agent Relational Belief…</description>
+      <category>cs.AI</category>
+      <category>cs.LG</category>
+    </item>
+    <item>
+      <title>What Does Multi-Agent LLM Debate Actually Change? A Layered Analysis of Disagreement and Answer Quality</title>
+      <link>https://arxiv.org/abs/2609.08016</link>
+      <guid isPermaLink="false">ad3eb2430c6f3eaed7e6</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Multi-agent debate, in which several LLMs exchange arguments before producing an answer, is widely assumed to improve answer quality by surfacing genuine disagreement. That disagreement is hard to verify, and no single signal can settle it, so we organize the analysis around four questions: (A) does the debater say it disagrees; (B) does its reply text actually argue; (C) does the dissent survive once the tone instruction that produced it is removed; and (D) do the probabilities assigned to…</description>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>ScholarStack: Layered Research Asset Orchestration and Cross-Task Reuse for Scientific Agents</title>
+      <link>https://arxiv.org/abs/2609.23735</link>
+      <guid isPermaLink="false">1204f412a2889ff2d00b</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Scientific agents support a range of literature-based research tasks, such as retrieval, question answering, evidence-grounded generation, and claim assessment. Most existing systems, however, are organized around individual tasks: the same papers are repeatedly retrieved, segmented, and interpreted, and the understanding built in one task is difficult to reuse in the next. We present ScholarStack, a layered research asset framework that compiles a paper collection into reusable, versioned, and…</description>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>Pinocchio: Fast Uncertainty Estimates for Black-Box Language Models</title>
+      <link>https://arxiv.org/abs/2609.24881</link>
+      <guid isPermaLink="false">ee630d050a5315ffbc7d</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>In high-stakes decision-making applications of large language models (LLMs), practitioners require not only accurate LLMs but also uncertainty estimates for their predictions. Existing approaches to uncertainty estimation for LLMs require access to log-probabilities output by the model or require fine-tuning access. However, many industrial LLM products use closed-source API models, and many such API models like GPT do not return log-probabilities and may not allow fine-tuning. We introduce…</description>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>DA-Cramming: Enhancing Cost-Effective Language Model Pretraining with Dependency Agreement Integration</title>
+      <link>https://arxiv.org/abs/2311.04799</link>
+      <guid isPermaLink="false">edbe46741a4a157544dc</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Pretraining language models is still a challenge for many researchers due to its substantial computational costs. As such, there is growing interest in developing more affordable pretraining methods. One notable advancement in this area is the Cramming technique (Geiping and Goldstein, 2022), which enables the pretraining of BERT-style language models using just one GPU in a single day. Building on this innovative approach, we introduce the Dependency Agreement Cramming (DA-Cramming), an…</description>
+      <category>cs.CL</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>BigO(Bench): Can LLMs Generate Code with Controlled Time and Space Complexity?</title>
+      <link>https://arxiv.org/abs/2503.15242</link>
+      <guid isPermaLink="false">8b84b5b0701469c0b06f</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>We introduce BigO(Bench), a novel coding benchmark designed to evaluate the capabilities of generative language models in understanding and generating code with specified time and space complexities. This benchmark addresses the gap in current evaluations that often overlook the ability of models to comprehend and produce code constrained by computational complexity. BigO(Bench) includes tooling to infer the algorithmic complexity of any Python function from profiling measurements, including…</description>
+      <category>cs.CL</category>
+      <category>cs.AI</category>
+      <category>cs.CC</category>
+    </item>
+    <item>
+      <title>TEMPURA: Temporal Event Masked Prediction and Understanding for Reasoning in Action</title>
+      <link>https://arxiv.org/abs/2505.01583</link>
+      <guid isPermaLink="false">f2fe3b43d4b14673b5f7</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Understanding causal event relationships and achieving fine-grained temporal grounding in videos remain challenging for vision-language models (VLMs). We propose TEMPURA (Temporal Event Masked Prediction and Understanding for Reasoning in Action), a two-stage training framework that enhances the video temporal understanding of VLMs. Inspired by infilling techniques in language modeling, TEMPURA first performs masked event prediction, learning to reconstruct missing events and generate…</description>
+      <category>cs.CV</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>WebArxiv: A Reproducible Benchmark for Evaluating Multimodal Web Agents on arXiv Tasks</title>
+      <link>https://arxiv.org/abs/2507.00938</link>
+      <guid isPermaLink="false">fa44a913d47cb9a76ce2</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Foundation models now enable autonomous agents to interact with real-world websites, but existing benchmarks emphasize general-purpose browsing, underrepresent research-oriented environments and scholarly discovery workflows, and often depend on live sites whose changing content and structure undermine reproducibility. arXiv provides a realistic, reproducible, hierarchically structured, information-centric testbed without privacy-sensitive interactions. We introduce WebArxiv, a static-snapshot…</description>
+      <category>cs.IR</category>
+      <category>cs.AI</category>
+      <category>cs.DB</category>
+    </item>
+    <item>
+      <title>Towards Mitigating Excessive Forgetting in LLM Unlearning via Entanglement-Guidance with Proxy Constraint</title>
+      <link>https://arxiv.org/abs/2508.20443</link>
+      <guid isPermaLink="false">8e50300dfb996d1f49fb</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Large language models (LLMs) are trained on massive datasets that may include private or copyrighted content. Due to growing privacy and ownership concerns, data owners may request the removal of their data from trained models. Machine unlearning provides a practical solution by removing the influence of specific data without full retraining. However, most existing methods still suffer from over-unlearning due to the lack of a principled mechanism to regulate the forgetting boundary, leading to…</description>
+      <category>cs.LG</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>Data Provenance Auditing of Fine-Tuned Large Language Models with a Text-Preserving Technique</title>
+      <link>https://arxiv.org/abs/2510.09655</link>
+      <guid isPermaLink="false">af387f22b410b6e8115e</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>We propose a system for marking sensitive or copyrighted texts to detect their use in fine-tuning large language models under black-box access with statistical guarantees. Our method builds digital ``marks'' using invisible Unicode characters organized into (``cue'', ``reply'') pairs. During an audit, prompts containing only ``cue'' fragments are issued to trigger regurgitation of the corresponding ``reply'', indicating document usage. To control false positives, we compare against held-out…</description>
+      <category>cs.CR</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>Multi-Agent Design Assistant for the Simulation of Inertial Fusion Energy</title>
+      <link>https://arxiv.org/abs/2510.17830</link>
+      <guid isPermaLink="false">5942b9f23b31b911bfaf</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Inertial fusion energy promises nearly unlimited, clean power if it can be achieved. However, the design and engineering of fusion systems requires controlling and manipulating matter at extreme energies and timescales; the shock physics and radiation transport governing the physical behavior under these conditions are complex requiring the development, calibration, and use of predictive multiphysics codes to navigate the highly nonlinear and multi-faceted design landscape. We hypothesize that…</description>
+      <category>physics.app-ph</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>POPI: Personalizing LLMs via Optimized Natural Language Preference Inference</title>
+      <link>https://arxiv.org/abs/2510.17881</link>
+      <guid isPermaLink="false">9cf7638a808806eb454a</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Large language models (LLMs) are typically aligned with population-level preferences, despite substantial variation across individual users. We introduce POPI, a user-level personalization framework that separates the problem into two components connected by a natural-language interface: a shared inference model that distills heterogeneous user signals into a concise preference summary, and a shared generator that conditions on this summary to produce personalized responses. Both components are…</description>
+      <category>cs.CL</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>A Multimodal Large Language Model-Driven Framework for Context-Aware UAV Emergency Landing Site Selection</title>
+      <link>https://arxiv.org/abs/2602.01163</link>
+      <guid isPermaLink="false">b8e5d4ddc452adce2a2a</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Safe UAV emergency landing requires more than just identifying flat terrain; it demands understanding complex semantic risks (e.g., crowds, temporary structures) invisible to traditional geometric sensors. In this paper, we propose a novel framework leveraging Remote Sensing (RS) imagery and Multimodal Large Language Models (MLLMs) for global context-aware landing site assessment. Unlike local geometric methods, our approach employs a coarse-to-fine pipeline: first, a lightweight semantic…</description>
+      <category>cs.CV</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>A Survey on Long-Term Memory Security in LLM Agents: Attacks, Defenses, and Governance Across the Memory Lifecycle</title>
+      <link>https://arxiv.org/abs/2604.16548</link>
+      <guid isPermaLink="false">9c7567b626d9670b2fdf</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>The emergence of writable, cross-session persistent memory in LLM agents introduces a qualitatively different threat landscape from conventional input-centric security concerns, characterized by three properties: persistence, statefulness, and propagation. To systematically characterize this landscape, we propose a Memory Lifecycle Framework that organizes attacks, defenses, and their cross-phase dependencies along two axes: six lifecycle phases (Write, Store, Retrieve, Execute, Share &amp;…</description>
+      <category>cs.CR</category>
+      <category>cs.AI</category>
+      <category>cs.CL</category>
+    </item>
+    <item>
+      <title>LLM Ghostbusters: Surgical Package Hallucination Suppression via Adaptive Unlearning</title>
+      <link>https://arxiv.org/abs/2605.01047</link>
+      <guid isPermaLink="false">32c03535be168d768f50</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Hallucinations remain an unsolved problem for LLMs, and package hallucinations are a particularly dangerous instance of this phenomenon. Package hallucinations occur during code generation when a model fabricates non-existent software packages, recommending imports and installation commands for fictional libraries. This creates a critical supply-chain vulnerability; an attacker can proactively register such packages on public registries with malicious payloads that are subsequently installed…</description>
+      <category>cs.CR</category>
+      <category>cs.AI</category>
+      <category>cs.CL</category>
+      <category>cs.LG</category>
+    </item>
+    <item>
+      <title>Mechanism Design Is Not Enough: Prosocial Agents for Cooperative AI</title>
+      <link>https://arxiv.org/abs/2605.08426</link>
+      <guid isPermaLink="false">85a6d2bdcfd3e205e411</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Ensuring that AI agents behave safely and beneficially when interacting with other parties has emerged as one of the central challenges of modern AI safety. While mechanism design, as the theory of designing rules to align individual and collective objectives, can incentivize cooperative behavior, it is still an open question whether it alone is sufficient to maximize LLM agents' social welfare. This work proves that the answer is negative: drawing from incomplete contract theory, we formally…</description>
+      <category>cs.GT</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>The Bystander Effect in Multi-Agent Reasoning: Quantifying Cognitive Loafing in Collaborative Interactions</title>
+      <link>https://arxiv.org/abs/2605.10698</link>
+      <guid isPermaLink="false">12714269730756d8237e</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Multi-agent systems (MAS) assume that collaborating inherently improves Large Language Model (LLM) reasoning. We challenge this by demonstrating that simulated social pressure triggers an algorithmic ``Bystander Effect,'' inducing severe cognitive loafing. By evaluating 22,500 deterministic trajectories across 3 dataset contexts (GAIA, SWE-bench, Multi-Challenge) with 3 state-of-the-art (SOTA) models, we semantically audit internal reasoning traces against external outputs. We formalize the…</description>
+      <category>cs.MA</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>AgenticDiffusion: Multi-View Reasoning with View-Conditioned Diffusion Planning for Vision-Based UAV Navigation</title>
+      <link>https://arxiv.org/abs/2606.04111</link>
+      <guid isPermaLink="false">250798cb35a9ba6be89d</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Vision-based UAV navigation becomes challenging when navigation targets are distributed across complementary camera views and cannot be reliably observed from a single viewpoint. We propose AgenticDiffusion, an agentic multi-view UAV navigation framework that semantically coordinates first-person-view (FPV) and top-view observations for mission-level navigation. Given a natural-language instruction, AgenticDiffusion identifies the requested targets, selects the most appropriate camera view for…</description>
+      <category>cs.RO</category>
+      <category>cs.AI</category>
+      <category>cs.SY</category>
+      <category>eess.SY</category>
+    </item>
+    <item>
+      <title>FinRED: An Expert-Guided Benchmark Generation and Evaluation Framework for Financial LLM Red-Teaming</title>
+      <link>https://arxiv.org/abs/2606.19887</link>
+      <guid isPermaLink="false">8a73f263fc259e5a956d</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Existing safety benchmarks target general adversarial scenarios but miss finance-specific risks. Financial LLMs face regulatory compliance violations, fraud facilitation, and systemic trust erosion that require targeted evaluation. We introduce FinRED, an expert-guided red-teaming framework for financial LLM safety evaluation developed with financial experts. FinRED uses a novel two-level taxonomy mapping global standards (e.g., FATF and EU DORA) to threats ranging from regulatory evasion to…</description>
+      <category>cs.CR</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>From Plausible to Actionable: A Position on LLM Self-Explanations</title>
+      <link>https://arxiv.org/abs/2607.15957</link>
+      <guid isPermaLink="false">ea923c3a87c0afee87fc</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Large Language Models (LLMs) can generate natural language explanations that rationalize their own decisions, a phenomenon commonly referred to as self-explanations. Such explanations have emerged as a promising direction for explainable artificial intelligence (XAI), particularly for interpreting LLM behavior. However, while self-explanations often appear plausible, whether they faithfully reflect a model's underlying reasoning process remains an open question. In this opinion paper, we argue…</description>
+      <category>cs.CL</category>
+      <category>cs.AI</category>
+    </item>
+    <item>
+      <title>Semi-Automated Detection of Gaps in LLM Security Knowledge</title>
+      <link>https://arxiv.org/abs/2607.18496</link>
+      <guid isPermaLink="false">47ed6ec29bd340307e44</guid>
+      <pubDate>Thu, 24 Sep 2026 04:00:00 +0000</pubDate>
+      <description>Large language models (LLMs) are increasingly used for a range of software, hardware and human-centered security tasks. Consequently, LLM performance on security tasks is an active area of measurement and research, often with a focus on identifying areas in which LLM security "knowledge" may be insufficient. Popular strategies for identifying LLM security knowledge gaps include building corpora of challenge questions or task benchmarks, strategies that require substantial manual work and…</description>
+      <category>cs.CR</category>
+      <category>cs.AI</category>
+      <category>cs.HC</category>
+    </item>
+  </channel>
+</rss>

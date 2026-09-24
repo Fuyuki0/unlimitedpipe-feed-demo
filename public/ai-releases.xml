@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Open-source AI tool releases</title>
+    <link>https://github.com/</link>
+    <description>Events collected by UnlimitedPipe 0.3.1</description>
+    <generator>UnlimitedPipe 0.3.1</generator>
+    <lastBuildDate>Thu, 24 Sep 2026 10:12:41 +0000</lastBuildDate>
+    <item>
+      <title>langchain-ai/langchain langchain-anthropic==1.7.4</title>
+      <link>https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.4</link>
+      <guid isPermaLink="false">2c7374fdae64e83fde12</guid>
+      <pubDate>Wed, 23 Sep 2026 17:56:03 +0000</pubDate>
+      <description>Changes since langchain-anthropic==1.7.3
+chore(anthropic): fix integration test cassette (#40790)
+release(anthropic): 1.7.4 (#40786)
+fix(anthropic): add Opus 5.5 and GPT-6 profile augmentations (#40785)
+feat(anthropic,openai): mid-conversation tool changes on SystemMessage (#40758)</description>
+    </item>
+    <item>
+      <title>langchain-ai/langchain langchain-openai==1.6.5</title>
+      <link>https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.5</link>
+      <guid isPermaLink="false">44a9258d2025f86d7b54</guid>
+      <pubDate>Wed, 23 Sep 2026 15:31:52 +0000</pubDate>
+      <description>Changes since langchain-openai==1.6.4
+release(openai): 1.6.5 (#40787)
+fix(anthropic): add Opus 5.5 and GPT-6 profile augmentations (#40785)
+feat(anthropic,openai): mid-conversation tool changes on SystemMessage (#40758)</description>
+    </item>
+    <item>
+      <title>ollama/ollama v0.34.4</title>
+      <link>https://github.com/ollama/ollama/releases/tag/v0.34.4</link>
+      <guid isPermaLink="false">044e7d4ff904a170022b</guid>
+      <pubDate>Wed, 23 Sep 2026 02:24:43 +0000</pubDate>
+      <description>What's Changed
+Structured outputs on thinking models now apply in a single pass, making them faster and more reliable.
+Fixed intermittent "model not found" errors with a large local library
+Fixed the macOS app becoming unresponsive when checking if ChatGPT or Codex is running.
+Qwen 3.8 prompt processing is faster on Apple Silicon.
+Gemma 4 on Apple Silicon now picks the best image resolution per image, keeping more detail in high-resolution images.
+Updated llama.cpp, MLX, and XGrammar.
+Full…</description>
+    </item>
+    <item>
+      <title>langchain-ai/langchain langchain-openai==1.6.4</title>
+      <link>https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.4</link>
+      <guid isPermaLink="false">8ee4b779172f35e4a50e</guid>
+      <pubDate>Tue, 22 Sep 2026 22:37:09 +0000</pubDate>
+      <description>Changes since langchain-openai==1.6.3
+release(openai): 1.6.4 (#40775)
+chore(model-profiles): refresh openai model profile data (#40774)</description>
+    </item>
+    <item>
+      <title>vllm-project/vllm v0.30.0</title>
+      <link>https://github.com/vllm-project/vllm/releases/tag/v0.30.0</link>
+      <guid isPermaLink="false">7e2b40ccb198a9f61d14</guid>
+      <pubDate>Tue, 22 Sep 2026 05:20:54 +0000</pubDate>
+      <description>v0.30.0
+Highlights
+This release features 762 commits from 315 contributors (104 new)!
+New models: DeepSeek-V4.1-Flash (#56214, #56228, #56208) with the whole KV stored in MXFP8 through the FlashMLA V4.1 record on SM100 (#56893), DeepGEMM Mega-mHC (#56962), and async Engram prefetch with Engram DP sharding (#56512); DeepSeek-V4-Flash-Vision-Exp (#54566), also on ROCm (#55107) and with LoRA (#55897); GLM-5.3-Flash (#53906) with EPLB (#55119); K2-Horizon (#55063); Cohere Compass (#54774); Bailing…</description>
+    </item>
+    <item>
+      <title>langchain-ai/langchain langchain-fireworks==1.6.2</title>
+      <link>https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.6.2</link>
+      <guid isPermaLink="false">b92d1498724d1ccb04a9</guid>
+      <pubDate>Tue, 22 Sep 2026 04:44:04 +0000</pubDate>
+      <description>Changes since langchain-fireworks==1.6.1
+fix(fireworks): use current completions model in LLM tests (#40740)
+hotfix(fireworks): use available model in LLM tests (#40737)
+release(fireworks): 1.6.2 (#40735)
+chore(model-profiles): refresh model profile data (#40665)
+chore(deps): bump anyio from 4.11.0 to 4.14.2 in /libs/partners/fireworks (#40639)
+chore(deps): bump urllib3 from 2.7.0 to 2.8.0 in /libs/partners/fireworks (#40587)
+chore(deps): bump langsmith from 0.12.1 to 0.12.6 in…</description>
+    </item>
+    <item>
+      <title>langchain-ai/langchain langchain-openrouter==0.2.9</title>
+      <link>https://github.com/langchain-ai/langchain/releases/tag/langchain-openrouter%3D%3D0.2.9</link>
+      <guid isPermaLink="false">ebf988edd28262e79660</guid>
+      <pubDate>Tue, 22 Sep 2026 04:16:11 +0000</pubDate>
+      <description>Changes since langchain-openrouter==0.2.8
+release(openrouter): 0.2.9 (#40736)
+chore(model-profiles): refresh model profile data (#40705)
+chore(model-profiles): refresh model profile data (#40685)
+chore(model-profiles): refresh model profile data (#40665)
+chore(deps): bump anyio from 4.13.0 to 4.14.2 in /libs/partners/openrouter (#40627)
+chore(model-profiles): refresh model profile data (#40600)
+chore(model-profiles): refresh model profile data (#40541)
+chore(model-profiles): refresh model…</description>
+    </item>
+    <item>
+      <title>open-webui/open-webui v0.11.4</title>
+      <link>https://github.com/open-webui/open-webui/releases/tag/v0.11.4</link>
+      <guid isPermaLink="false">929b6e69f90d4e78c9fd</guid>
+      <pubDate>Mon, 21 Sep 2026 19:25:21 +0000</pubDate>
+      <description>Added
+📉 Far smaller slim image. A slim build now comes down at around 175 MB, near enough 89% smaller than the last release, the local models, the packages around them and the tools that installed them all gone from it; what that changes about the way an instance behaves is set out under Changed below and in the documentation. Commit, Commit
+📦 Smaller standard image. The image no longer carries a second copy of Python, two sets of fonts nothing ever loaded, packages nothing imports, or the tool…</description>
+    </item>
+    <item>
+      <title>comfyanonymous/ComfyUI v0.37.0</title>
+      <link>https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.37.0</link>
+      <guid isPermaLink="false">5f8f6068d980d8ef1d6a</guid>
+      <pubDate>Mon, 21 Sep 2026 07:35:01 +0000</pubDate>
+      <description>What's Changed
+Aimdo 0.5.5 + Auto-detect and enable --fast-disk when the disk is fast (CORE-440) by @rattus128 in https://github.com/Comfy-Org/ComfyUI/pull/16333
+[Partner Nodes] feat(OpenAI): add transparent background support for GPT Image 2 by @bigcat88 in https://github.com/Comfy-Org/ComfyUI/pull/16366
+Add CFG control to YuE2 Generate Music node. by @comfyanonymous in https://github.com/Comfy-Org/ComfyUI/pull/16373
+Always put text encoder on GPU when dynamic vram on. by @comfyanonymous in…</description>
+    </item>
+    <item>
+      <title>ollama/ollama v0.34.3</title>
+      <link>https://github.com/ollama/ollama/releases/tag/v0.34.3</link>
+      <guid isPermaLink="false">99eaa7724d4088de4ea4</guid>
+      <pubDate>Sat, 19 Sep 2026 00:02:57 +0000</pubDate>
+      <description>What's Changed
+GET /api/show now advertises each model's thinking controls and default:
+Available in the CLI with:
+ollama show gemma4
+thinking
+levels false, true
+default true
+Available in the API with:
+sh
+curl http://localhost:11434/api/show -d '{"model": "glm-5.3-flash:cloud"}'
+json
+{
+"thinking": {
+"values": ["low", "high", "max"],
+"default": "max"
+}
+}
+Also available on ollama.com directly for cloud models.
+Nemotron H vision models are now supported on Apple Silicon with MLX
+Ollama's macOS app…</description>
+    </item>
+    <item>
+      <title>comfyanonymous/ComfyUI v0.36.0</title>
+      <link>https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.36.0</link>
+      <guid isPermaLink="false">f3054aca84e7115a3b75</guid>
+      <pubDate>Tue, 15 Sep 2026 22:26:17 +0000</pubDate>
+      <description>What's Changed
+Add new model blueprints and reorganize subgraph categories by @comfyui-wiki in https://github.com/Comfy-Org/ComfyUI/pull/14785
+main: bump the AMD Windows VA quota to 4TB (CORE-409) by @rattus128 in https://github.com/Comfy-Org/ComfyUI/pull/16199
+[Partner Noes] feat(OpenRouter): add Microsoft mai-image-2.6 models by @bigcat88 in https://github.com/Comfy-Org/ComfyUI/pull/16188
+quantops: drop the dead ROCm triton arch gate by @0xDELUXA in…</description>
+    </item>
+    <item>
+      <title>ollama/ollama v0.34.2</title>
+      <link>https://github.com/ollama/ollama/releases/tag/v0.34.2</link>
+      <guid isPermaLink="false">0d4ffd546aa20137a71b</guid>
+      <pubDate>Tue, 15 Sep 2026 21:21:07 +0000</pubDate>
+      <description>What's Changed
+Added first-run setup when running ollama, with options to sign in or continue locally. Setup completion is shared with the desktop app on macOS and Windows.
+Added ollama://apps to open the desktop app’s Apps page directly on macOS and Windows.
+Fixed excessive memory growth during long generations with MLX speculative decoding.
+Updated llama.cpp.
+Full Changelog: https://github.com/ollama/ollama/compare/v0.34.1...v0.34.2</description>
+    </item>
+    <item>
+      <title>ollama/ollama v0.34.1</title>
+      <link>https://github.com/ollama/ollama/releases/tag/v0.34.1</link>
+      <guid isPermaLink="false">f9e9eb8116f0a4751423</guid>
+      <pubDate>Mon, 14 Sep 2026 22:14:03 +0000</pubDate>
+      <description>What's Changed
+MLX safetensors ollama create no longer experimental. GGUF model creation now requires using llama.cpp tooling for safetensor conversion and quantization.
+Improved MLX memory handling on Apple Silicon
+Runaway repeat token detection now requires 100 repeat tokens for reduced false positives (e.g. OCR)
+/api/tags is much faster on large model libraries (3.1 s → 294 ms cold in testing), and model capabilities are now reported consistently.
+Deprecated typicalp: it can no longer be set…</description>
+    </item>
+    <item>
+      <title>comfyanonymous/ComfyUI v0.35.0</title>
+      <link>https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.35.0</link>
+      <guid isPermaLink="false">5a3fe6440844cc64d7ee</guid>
+      <pubDate>Wed, 09 Sep 2026 19:55:08 +0000</pubDate>
+      <description>What's Changed
+[Partner Nodes] chore(Google): drop retiring Veo 2 and Veo 3.0 models by @bigcat88 in https://github.com/Comfy-Org/ComfyUI/pull/15883
+[Partner Nodes] feat(Recraft): add V4 Styles by @bigcat88 in https://github.com/Comfy-Org/ComfyUI/pull/15903
+[Partner Nodes] feat(WAN): add WAN3-Prime model support by @bigcat88 in https://github.com/Comfy-Org/ComfyUI/pull/15894
+Bump comfyui-frontend-package to 1.51.9 by @comfy-pr-bot in https://github.com/Comfy-Org/ComfyUI/pull/15696
+Support avif…</description>
+    </item>
+    <item>
+      <title>huggingface/transformers Release 5.17.0</title>
+      <link>https://github.com/huggingface/transformers/releases/tag/v5.17.0</link>
+      <guid isPermaLink="false">2909b10713ae1d9adccc</guid>
+      <pubDate>Wed, 09 Sep 2026 15:42:45 +0000</pubDate>
+      <description>Release v5.17.0
+New Model additions
+HYV4
+Hy4-Preview is a 780B-parameter mixture-of-experts language model that activates 49B parameters per
+token. Each MoE layer holds 256 routed experts plus one always-active shared expert and routes every
+token to 8 of them. The context window is 1M tokens.
+The architecture combines four features:
+Multi-head Latent Attention (MLA) compresses keys and values into a low-rank latent
+(kvlorarank) that kvbproj expands back to one key/value per query…</description>
+    </item>
+    <item>
+      <title>vllm-project/vllm v0.29.0</title>
+      <link>https://github.com/vllm-project/vllm/releases/tag/v0.29.0</link>
+      <guid isPermaLink="false">5575d3b9e1a7e79e3f4b</guid>
+      <pubDate>Wed, 09 Sep 2026 08:54:49 +0000</pubDate>
+      <description>v0.29.0
+Highlights
+This release features 594 commits from 277 contributors (91 new)!
+Model Runner V2 is now the default for all models (#53183), completing the rollout that began with pooling models (#48290). MRV2 also gained CUDA graph memory profiling for KV cache auto-sizing (#53306), batch-sharded sampling that cuts per-step logits memory by 1/TP (#50465), prompt embeds (#42963), extracthiddenstates speculation (#49811), padded FULL cudagraph dispatch for uniform decode under spec decode…</description>
+    </item>
+    <item>
+      <title>ollama/ollama v0.34.0</title>
+      <link>https://github.com/ollama/ollama/releases/tag/v0.34.0</link>
+      <guid isPermaLink="false">0c9dbfacce9bf358675d</guid>
+      <pubDate>Sat, 05 Sep 2026 23:49:00 +0000</pubDate>
+      <description>Use Ollama models in ChatGPT Desktop
+Ollama models can now be used directly in ChatGPT Desktop, so you can keep your existing workflow while running open models. Setup is available from the Ollama app on MacOS.
+This release also improves structured output performance on Apple Silicon, adds support for OpenAI-compatible client tool search and response compaction.
+Full Changelog: https://github.com/ollama/ollama/compare/v0.33.3...v0.34.0</description>
+    </item>
+    <item>
+      <title>open-webui/open-webui v0.11.3</title>
+      <link>https://github.com/open-webui/open-webui/releases/tag/v0.11.3</link>
+      <guid isPermaLink="false">a6725ed4adb394530e8a</guid>
+      <pubDate>Mon, 31 Aug 2026 14:55:53 +0000</pubDate>
+      <description>Added
+♿ Accessibility mode reaches the menus. Accessibility mode now marks the menu entry you are pointing at and the model already chosen with a stronger background, across the dropdown menus, their submenus, and the model picker together with its filter and compare controls, so those cues carry the contrast the accessibility guidelines ask for in both themes. Commit, Commit
+🔄 General improvements. Various improvements were implemented across the application to enhance performance, stability…</description>
+    </item>
+    <item>
+      <title>open-webui/open-webui v0.11.2</title>
+      <link>https://github.com/open-webui/open-webui/releases/tag/v0.11.2</link>
+      <guid isPermaLink="false">5163c9e26e5c10090e04</guid>
+      <pubDate>Mon, 31 Aug 2026 05:48:23 +0000</pubDate>
+      <description>Added
+🖼️ Richer previews for terminal files. Word documents and slide decks produced in the terminal are now previewed as the finished document rather than an approximation, and every document preview gains a page strip down the side with numbered thumbnails you can click to jump straight to a page, and the notice warning that a preview might differ from the download is gone now that it does not. Commit, Commit, Commit, Commit, Commit
+⚡ Less overhead on every message. Deployments without…</description>
+    </item>
+    <item>
+      <title>huggingface/transformers Release v5.16.1</title>
+      <link>https://github.com/huggingface/transformers/releases/tag/v5.16.1</link>
+      <guid isPermaLink="false">483828ef42f6ee623b98</guid>
+      <pubDate>Wed, 26 Aug 2026 14:50:01 +0000</pubDate>
+      <description>Release v5.16.1
+This is a special release as we include GLM! (and a few small fixes)
+GLM-5.3-Flash
+GLM-5.3-Flash, the first natively multimodal model in the GLM-5 series. With 320B total parameters and just 18B active parameters, it outperforms GLM-5.2 across benchmarks and real-world workloads at one-tenth the price, while approaching Claude Opus 4.8 on coding and agentic benchmarks.
+GLM-5.3-Flash starts from a newly trained base model, with its architecture and training recipe redesigned…</description>
+    </item>
+    <item>
+      <title>huggingface/transformers Release: v5.16.0</title>
+      <link>https://github.com/huggingface/transformers/releases/tag/v5.16.0</link>
+      <guid isPermaLink="false">6769447ad40052077fed</guid>
+      <pubDate>Wed, 26 Aug 2026 12:35:15 +0000</pubDate>
+      <description>Release v5.16.0
+New Model additions
+Qwen4-Exp
+Qwen4-Exp builds on Qwen3.5's hybrid text and multimodal architecture with three key components: GatedResidual (GR), Qwen Sparse Attention (QSA), and Per-Layer Embedding (PLE).
+GR is a Qwen-developed residual architecture that combines Hyper-Connection with GatedNorm. It mixes multiple residual streams with fine-grained elementwise gating before each attention and Mixture-of-Experts (MoE) block, then controls how much of the block output is injected…</description>
+    </item>
+    <item>
+      <title>vllm-project/vllm v0.28.0</title>
+      <link>https://github.com/vllm-project/vllm/releases/tag/v0.28.0</link>
+      <guid isPermaLink="false">f76be6f5d4aa0827db82</guid>
+      <pubDate>Wed, 26 Aug 2026 09:46:30 +0000</pubDate>
+      <description>v0.28.0
+Highlights
+This release features 584 commits from 270 contributors (76 new)!
+Kimi-K3 performance push: a major optimization effort for Kimi-K3 across the stack — Decode Context Parallel (DCP) support (#50484), fused FlashKDA decode and prefill kernels (#50654, #51311, #52458), SiTU activation support for MegaMoE (#50510), GEMM-RS for sequence parallelism (#52079), combined all-gathers with 1.53x kernel-level speedup (#51070), an adaptive speculative token budget delivering 60% better…</description>
+    </item>
+    <item>
+      <title>comfyanonymous/ComfyUI v0.34.0</title>
+      <link>https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.34.0</link>
+      <guid isPermaLink="false">5d0b316b0d55065d7636</guid>
+      <pubDate>Wed, 26 Aug 2026 02:09:08 +0000</pubDate>
+      <description>What's Changed
+Fix minimax music not working on non dynamic vram. by @comfyanonymous in https://github.com/Comfy-Org/ComfyUI/pull/15588
+Add MiniMaxH3AddGuide for anchoring image and audio guides at any frame by @drozbay in https://github.com/Comfy-Org/ComfyUI/pull/15439
+chore(openapi): sync shared API contract from cloud@94d0f1b by @comfy-pr-bot in https://github.com/Comfy-Org/ComfyUI/pull/15041
+Bump comfyui-frontend-package to 1.49.6 by @comfy-pr-bot in…</description>
+    </item>
+    <item>
+      <title>open-webui/open-webui v0.11.1</title>
+      <link>https://github.com/open-webui/open-webui/releases/tag/v0.11.1</link>
+      <guid isPermaLink="false">978ce3fb151dbfcba8df</guid>
+      <pubDate>Tue, 25 Aug 2026 21:17:57 +0000</pubDate>
+      <description>Added
+🚦 Human in the loop tool approval. Where an administrator has turned it on, you can switch a conversation from letting tools run freely to being asked first, so a model that wants to use a tool stops and waits for you to allow or deny it, one call at a time in a saved conversation, by button or by keyboard shortcut, with your choice remembered for this conversation and for future ones, switching back to running freely releasing anything already waiting, and automations, channel replies…</description>
+    </item>
+    <item>
+      <title>huggingface/transformers Patch release: v5.15.1</title>
+      <link>https://github.com/huggingface/transformers/releases/tag/v5.15.1</link>
+      <guid isPermaLink="false">10b8143111914c6b492f</guid>
+      <pubDate>Wed, 19 Aug 2026 10:50:47 +0000</pubDate>
+      <description>Patch release v5.15.1
+This patch most notably solves a few issues with DFlash and MTP candidate generators, as well as an issue where images could sometimes not be processed on accelerator if using Lanczos filter.
+It contains the following commits:
+Fix DFlash candidate token device mismatch with devicemap="auto" (#47877) by @sywangyi and @Cyrilvallez
+Align logit distributions for CandidateGenerators using sampling (#48007) by @Cyrilvallez
+Fix MTP config when mlplayertypes is absent (#48015) by…</description>
+    </item>
+    <item>
+      <title>comfyanonymous/ComfyUI v0.33.1</title>
+      <link>https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.33.1</link>
+      <guid isPermaLink="false">b65e8130fc3278de11bc</guid>
+      <pubDate>Thu, 13 Aug 2026 22:18:34 +0000</pubDate>
+      <description>What's Changed
+Fix KSamplerAdvanced with addnoise disabled on nested latents by @kijai in https://github.com/Comfy-Org/ComfyUI/pull/15447
+Update workflow templates to v0.11.40 by @comfyui-wiki in https://github.com/Comfy-Org/ComfyUI/pull/15522
+chore: replace api nodes -&gt; partner nodes in README by @robinjhuang in https://github.com/Comfy-Org/ComfyUI/pull/15519
+Fix PreviewAny escaping non-ASCII text in dict and list previews by @christian-byrne in…</description>
+    </item>
+    <item>
+      <title>vllm-project/vllm v0.27.1</title>
+      <link>https://github.com/vllm-project/vllm/releases/tag/v0.27.1</link>
+      <guid isPermaLink="false">c8369cbfd12301518036</guid>
+      <pubDate>Tue, 11 Aug 2026 10:47:49 +0000</pubDate>
+      <description>This is a patch release on top of v0.27.0.
+Support quantized DSpark Markov heads (#50424)</description>
+    </item>
+    <item>
+      <title>vllm-project/vllm v0.27.0</title>
+      <link>https://github.com/vllm-project/vllm/releases/tag/v0.27.0</link>
+      <guid isPermaLink="false">1050f2ae8765a9b8a525</guid>
+      <pubDate>Mon, 10 Aug 2026 21:18:11 +0000</pubDate>
+      <description>vLLM v0.27.0 Release Notes
+Highlights
+This release features 561 commits from 242 contributors (64 new)!
+Kimi K3 support with a full stack landing in one release: core model files and kernels (#50089, #50000), Python (#50093) and Rust (#50104) frontends, AttnRes kernels (#50090), DeepGEMM support (#50458), compressed-tensors quantized checkpoints (#50500), DSpark AR fusion (#50242), and an option to shard the shared expert instead of replicating it (#50656).
+More new models: Qwen3.5 text-only…</description>
+    </item>
+    <item>
+      <title>huggingface/transformers Release: v5.15.0</title>
+      <link>https://github.com/huggingface/transformers/releases/tag/v5.15.0</link>
+      <guid isPermaLink="false">5bc225903c9d4dbe9d7c</guid>
+      <pubDate>Mon, 10 Aug 2026 10:28:13 +0000</pubDate>
+      <description>Release v5.15.0
+New Model additions
+Meta Muse Glimmer
+Muse Glimmer, released today, is Meta’s new multimodal model, especially designed for agentic use cases. Distilled from Muse to 30B parameters, and released under the Apache 2.0 license, it can be deployed to local setups for privacy-aware applications such as coding, document analysis, personal assistants, Claw- or Hermes-like setups.
+Muse Glimmer is a dense 30B parameter model consisting of:
+2B ViT-style encoder for vision (Perception…</description>
+    </item>
+    <item>
+      <title>open-webui/open-webui v0.11.0</title>
+      <link>https://github.com/open-webui/open-webui/releases/tag/v0.11.0</link>
+      <guid isPermaLink="false">e1ba6959e9cc92912402</guid>
+      <pubDate>Mon, 27 Jul 2026 09:30:15 +0000</pubDate>
+      <description>Added
+🎨 Redesigned interface. Open WebUI has been visually rebuilt from the ground up. All aspects of the User Interface, from the chat view to the admin panel. Now with a narrower conversation column, lighter typography, tidier spacing, consistent menus and dropdowns, clearly outlined text boxes, and settings rearranged. Commit, Commit, Commit, Commit, Commit, Commit, Commit, Commit, Commit, Commit, Commit, Commit, Commit, Commit, Commit, Commit, Commit, Commit, Commit, Commit, Commit, Commit…</description>
+    </item>
+  </channel>
+</rss>
