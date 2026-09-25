@@ -5,7 +5,20 @@
     <link>https://github.com/</link>
     <description>Events collected by UnlimitedPipe 0.3.2</description>
     <generator>UnlimitedPipe 0.3.2</generator>
-    <lastBuildDate>Thu, 24 Sep 2026 19:33:05 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 06:46:01 +0000</lastBuildDate>
+    <item>
+      <title>ollama/ollama v0.40.0</title>
+      <link>https://github.com/ollama/ollama/releases/tag/v0.40.0-rc0</link>
+      <guid isPermaLink="false">ce754497d07217e7abab</guid>
+      <pubDate>Fri, 25 Sep 2026 03:31:52 +0000</pubDate>
+      <description>What's Changed
+Models run on MLX on Apple Silicon by default
+In this release, model architectures supported by the MLX runner will run by default on Apple Silicon devices.
+ollama pull qwen3.8
+ollama run qwen3.8
+During the RC we will be testing and enabling additional models.
+Full Changelog: https://github.com/ollama/ollama/compare/v0.34.4...v0.40.0-rc0</description>
+    </item>
     <item>
       <title>langchain-ai/langchain langchain-core==1.6.5</title>
       <link>https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.5</link>

@@ -2,12 +2,532 @@
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Thailand news in English",
   "home_page_url": "https://www.khaosodenglish.com/feed/",
-  "description": "Events collected by UnlimitedPipe 0.3.1",
+  "description": "Events collected by UnlimitedPipe 0.3.2",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.3.1"
+    "generator": "UnlimitedPipe 0.3.2"
   },
   "items": [
+    {
+      "id": "8175984e8e0e17a9d4db",
+      "title": "Phuket prepares grand welcome for AGT winner Nene Royal",
+      "content_text": "PHUKET — 25 September 2026, Phuket is preparing to welcome home 16-year-old Nene Royal after the young singer and guitarist from the province won the America’s Got Talent 2026 title. At a press briefing at Phuket City Hall at 08:30 on Friday, Phuket Deputy Governor Romdon Haji-Awae, speaking on behalf of Phuket Governor Chotinerin Kerdsom, […]\nThe post Phuket prepares grand welcome for AGT winner Nene Royal appeared first on Khaosod English .",
+      "date_published": "2026-09-25T06:43:53Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "8175984e8e0e17a9d4db",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.khaosodenglish.com/?p=1464955912",
+          "source_url": "https://www.khaosodenglish.com/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-25T06:46:28Z",
+          "data": {
+            "change": "added",
+            "label": "Phuket prepares grand welcome for AGT winner Nene Royal",
+            "item_type": "entry",
+            "summary": "added: Phuket prepares grand welcome for AGT winner Nene Royal",
+            "after": {
+              "title": "Phuket prepares grand welcome for AGT winner Nene Royal",
+              "link": "https://www.khaosodenglish.com/featured/2026/09/25/phuket-prepares-grand-welcome-for-agt-winner-nene-royal/",
+              "id": "https://www.khaosodenglish.com/?p=1464955912",
+              "author": "Khaosod English",
+              "published_at": "2026-09-25T06:43:53Z",
+              "updated_at": "2026-09-25T06:43:53Z",
+              "summary": "PHUKET — 25 September 2026, Phuket is preparing to welcome home 16-year-old Nene Royal after the young singer and guitarist from the province won the America’s Got Talent 2026 title. At a press briefing at Phuket City Hall at 08:30 on Friday, Phuket Deputy Governor Romdon Haji-Awae, speaking on behalf of Phuket Governor Chotinerin Kerdsom, […]\nThe post Phuket prepares grand welcome for AGT winner Nene Royal appeared first on Khaosod English .",
+              "categories": [
+                "Entertainment",
+                "Featured",
+                "Lifestyle",
+                "News",
+                "AGT",
+                "Nene Royal",
+                "Phuket"
+              ],
+              "feed": {
+                "title": "Khaosod English",
+                "url": "https://www.khaosodenglish.com",
+                "feed_url": "https://www.khaosodenglish.com/feed/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.khaosodenglish.com/feed/",
+            "elapsed_ms": 660,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "thailand-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.khaosodenglish.com/featured/2026/09/25/phuket-prepares-grand-welcome-for-agt-winner-nene-royal/",
+      "tags": [
+        "Entertainment",
+        "Featured",
+        "Lifestyle",
+        "News",
+        "AGT",
+        "Nene Royal",
+        "Phuket"
+      ]
+    },
+    {
+      "id": "641f2549661595334531",
+      "title": "UN delegates walk out as Netanyahu defends Israel’s actions",
+      "content_text": "NEW YORK, United State — 25 September 2026, Israeli Prime Minister Benjamin Netanyahu delivered a combative speech at the 81st United Nations General Assembly on 24 September, defending Israel’s actions in the region as dozens of delegates walked out of the chamber in protest. The speech came as Netanyahu faces growing international criticism over the […]\nThe post UN delegates walk out as Netanyahu defends Israel’s actions appeared first on Khaosod English .",
+      "date_published": "2026-09-25T06:11:57Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "641f2549661595334531",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.khaosodenglish.com/?p=1464955887",
+          "source_url": "https://www.khaosodenglish.com/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-25T06:46:28Z",
+          "data": {
+            "change": "added",
+            "label": "UN delegates walk out as Netanyahu defends Israel’s actions",
+            "item_type": "entry",
+            "summary": "added: UN delegates walk out as Netanyahu defends Israel’s actions",
+            "after": {
+              "title": "UN delegates walk out as Netanyahu defends Israel’s actions",
+              "link": "https://www.khaosodenglish.com/politics/2026/09/25/un-delegates-walk-out-as-netanyahu-defends-israels-actions/",
+              "id": "https://www.khaosodenglish.com/?p=1464955887",
+              "author": "Khaosod English",
+              "published_at": "2026-09-25T06:11:57Z",
+              "updated_at": "2026-09-25T06:11:57Z",
+              "summary": "NEW YORK, United State — 25 September 2026, Israeli Prime Minister Benjamin Netanyahu delivered a combative speech at the 81st United Nations General Assembly on 24 September, defending Israel’s actions in the region as dozens of delegates walked out of the chamber in protest. The speech came as Netanyahu faces growing international criticism over the […]\nThe post UN delegates walk out as Netanyahu defends Israel’s actions appeared first on Khaosod English .",
+              "categories": [
+                "International",
+                "News",
+                "Politics",
+                "Benjamin Netanyahu",
+                "Israeli",
+                "UNGA",
+                "walk out"
+              ],
+              "feed": {
+                "title": "Khaosod English",
+                "url": "https://www.khaosodenglish.com",
+                "feed_url": "https://www.khaosodenglish.com/feed/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.khaosodenglish.com/feed/",
+            "elapsed_ms": 660,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "thailand-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.khaosodenglish.com/politics/2026/09/25/un-delegates-walk-out-as-netanyahu-defends-israels-actions/",
+      "tags": [
+        "International",
+        "News",
+        "Politics",
+        "Benjamin Netanyahu",
+        "Israeli",
+        "UNGA",
+        "walk out"
+      ]
+    },
+    {
+      "id": "03c4c83894d9be2c6897",
+      "title": "Anutin calls for UN reform, equal voices at 81st General Assembly",
+      "content_text": "NEW YORK, United States — Prime Minister Anutin Charnvirakul called for reform of the United Nations to give countries a more equal voice and restore trust in multilateralism as he addressed the 81st session of the UN General Assembly in New York on 24 September. Anutin, who is also Thailand’s interior minister, delivered Thailand’s national […]\nThe post Anutin calls for UN reform, equal voices at 81st General Assembly appeared first on Khaosod English .",
+      "date_published": "2026-09-25T05:25:19Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "03c4c83894d9be2c6897",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.khaosodenglish.com/?p=1464955879",
+          "source_url": "https://www.khaosodenglish.com/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-25T06:46:28Z",
+          "data": {
+            "change": "added",
+            "label": "Anutin calls for UN reform, equal voices at 81st General Assembly",
+            "item_type": "entry",
+            "summary": "added: Anutin calls for UN reform, equal voices at 81st General Assembly",
+            "after": {
+              "title": "Anutin calls for UN reform, equal voices at 81st General Assembly",
+              "link": "https://www.khaosodenglish.com/featured/2026/09/25/anutin-calls-for-un-reform-equal-voices-at-81st-general-assembly/",
+              "id": "https://www.khaosodenglish.com/?p=1464955879",
+              "author": "Khaosod English",
+              "published_at": "2026-09-25T05:25:19Z",
+              "updated_at": "2026-09-25T05:25:19Z",
+              "summary": "NEW YORK, United States — Prime Minister Anutin Charnvirakul called for reform of the United Nations to give countries a more equal voice and restore trust in multilateralism as he addressed the 81st session of the UN General Assembly in New York on 24 September. Anutin, who is also Thailand’s interior minister, delivered Thailand’s national […]\nThe post Anutin calls for UN reform, equal voices at 81st General Assembly appeared first on Khaosod English .",
+              "categories": [
+                "Featured",
+                "anutin",
+                "UNGA"
+              ],
+              "feed": {
+                "title": "Khaosod English",
+                "url": "https://www.khaosodenglish.com",
+                "feed_url": "https://www.khaosodenglish.com/feed/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.khaosodenglish.com/feed/",
+            "elapsed_ms": 660,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "thailand-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.khaosodenglish.com/featured/2026/09/25/anutin-calls-for-un-reform-equal-voices-at-81st-general-assembly/",
+      "tags": [
+        "Featured",
+        "anutin",
+        "UNGA"
+      ]
+    },
+    {
+      "id": "4e570149cb89278d61e7",
+      "title": "Trump and Xi meet With Taiwan, Iran, AI, and trade at stake",
+      "content_text": "WASHINGTON (AP) — Presidents Donald Trump and Xi Jinping met for high stakes talks on Thursday at an urgent moment for the U.S.-China relationship, with the world’s preeminent powers divided on the war in Iran and still grappling to find common ground on trade and how to best navigate the jarring advances of artificial intelligence. […]\nThe post Trump and Xi meet With Taiwan, Iran, AI, and trade at stake appeared first on Khaosod English .",
+      "date_published": "2026-09-25T04:29:37Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "4e570149cb89278d61e7",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.khaosodenglish.com/?p=1464955871",
+          "source_url": "https://www.khaosodenglish.com/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-25T06:46:28Z",
+          "data": {
+            "change": "added",
+            "label": "Trump and Xi meet With Taiwan, Iran, AI, and trade at stake",
+            "item_type": "entry",
+            "summary": "added: Trump and Xi meet With Taiwan, Iran, AI, and trade at stake",
+            "after": {
+              "title": "Trump and Xi meet With Taiwan, Iran, AI, and trade at stake",
+              "link": "https://www.khaosodenglish.com/news/international/2026/09/25/trump-and-xi-meet-with-taiwan-iran-and-trade-at-stake/",
+              "id": "https://www.khaosodenglish.com/?p=1464955871",
+              "author": "Associated Press",
+              "published_at": "2026-09-25T04:29:37Z",
+              "updated_at": "2026-09-25T04:29:37Z",
+              "summary": "WASHINGTON (AP) — Presidents Donald Trump and Xi Jinping met for high stakes talks on Thursday at an urgent moment for the U.S.-China relationship, with the world’s preeminent powers divided on the war in Iran and still grappling to find common ground on trade and how to best navigate the jarring advances of artificial intelligence. […]\nThe post Trump and Xi meet With Taiwan, Iran, AI, and trade at stake appeared first on Khaosod English .",
+              "categories": [
+                "International",
+                "State visit",
+                "Trump",
+                "Xi Jingping"
+              ],
+              "feed": {
+                "title": "Khaosod English",
+                "url": "https://www.khaosodenglish.com",
+                "feed_url": "https://www.khaosodenglish.com/feed/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.khaosodenglish.com/feed/",
+            "elapsed_ms": 660,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "thailand-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.khaosodenglish.com/news/international/2026/09/25/trump-and-xi-meet-with-taiwan-iran-and-trade-at-stake/",
+      "tags": [
+        "International",
+        "State visit",
+        "Trump",
+        "Xi Jingping"
+      ]
+    },
+    {
+      "id": "1e2e6ba4d6c25914f9e2",
+      "title": "GISTDA’s Satellite images show high flood risks across Thailand",
+      "content_text": "BANGKOK — 25 September 2026, Thailand’s Geo-Informatics and Space Technology Development Agency (GISTDA) has released satellite imagery showing widespread high-risk flood areas across several provinces following continued heavy rain, urging residents in areas marked red to closely monitor the situation. GISTDA said on Friday that it was using satellite technology and geospatial data to monitor […]\nThe post GISTDA’s Satellite images show high flood risks across Thailand appeared first on Khaosod…",
+      "date_published": "2026-09-25T03:00:24Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "1e2e6ba4d6c25914f9e2",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.khaosodenglish.com/?p=1464955862",
+          "source_url": "https://www.khaosodenglish.com/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-25T06:46:28Z",
+          "data": {
+            "change": "added",
+            "label": "GISTDA’s Satellite images show high flood risks across Thailand",
+            "item_type": "entry",
+            "summary": "added: GISTDA’s Satellite images show high flood risks across Thailand",
+            "after": {
+              "title": "GISTDA’s Satellite images show high flood risks across Thailand",
+              "link": "https://www.khaosodenglish.com/featured/2026/09/25/gistdas-satellite-images-show-high-flood-risks-across-thailand/",
+              "id": "https://www.khaosodenglish.com/?p=1464955862",
+              "author": "Khaosod English",
+              "published_at": "2026-09-25T03:00:24Z",
+              "updated_at": "2026-09-25T03:00:24Z",
+              "summary": "BANGKOK — 25 September 2026, Thailand’s Geo-Informatics and Space Technology Development Agency (GISTDA) has released satellite imagery showing widespread high-risk flood areas across several provinces following continued heavy rain, urging residents in areas marked red to closely monitor the situation. GISTDA said on Friday that it was using satellite technology and geospatial data to monitor […]\nThe post GISTDA’s Satellite images show high flood risks across Thailand appeared first on Khaosod English .",
+              "categories": [
+                "Featured",
+                "News",
+                "flood",
+                "gistda",
+                "Satellite images"
+              ],
+              "feed": {
+                "title": "Khaosod English",
+                "url": "https://www.khaosodenglish.com",
+                "feed_url": "https://www.khaosodenglish.com/feed/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.khaosodenglish.com/feed/",
+            "elapsed_ms": 660,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "thailand-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.khaosodenglish.com/featured/2026/09/25/gistdas-satellite-images-show-high-flood-risks-across-thailand/",
+      "tags": [
+        "Featured",
+        "News",
+        "flood",
+        "gistda",
+        "Satellite images"
+      ]
+    },
+    {
+      "id": "f4aa5bd547a408058556",
+      "title": "Thai Enquirer News Summary – September 25, 2026",
+      "content_text": "September 25, 2026 Political news Sondhi and his protest movement start their sage today Today a nationalist coalition led by former yellow-shirt figure Sondhi Limthongkul, Nitithorn Lamluea, Panthep Puapongpan, and Pichit Chaimongkol plans to rally at the Election Commission’s office in Bangkok on September 25 to demand a broader investigation into alleged collusion during the […]\nThe post Thai Enquirer News Summary – September 25, 2026 appeared first on Thai Enquirer .",
+      "date_published": "2026-09-25T01:58:05Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "f4aa5bd547a408058556",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.thaienquirer.com/?p=74582",
+          "source_url": "https://www.thaienquirer.com/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-25T06:46:28Z",
+          "data": {
+            "change": "added",
+            "label": "Thai Enquirer News Summary – September 25, 2026",
+            "item_type": "entry",
+            "summary": "added: Thai Enquirer News Summary – September 25, 2026",
+            "after": {
+              "title": "Thai Enquirer News Summary – September 25, 2026",
+              "link": "https://www.thaienquirer.com/74582/thai-enquirer-news-summary-september-25-2026/",
+              "id": "https://www.thaienquirer.com/?p=74582",
+              "author": "Thai Enquirer Summary",
+              "published_at": "2026-09-25T01:58:05Z",
+              "updated_at": "2026-09-25T01:58:05Z",
+              "summary": "September 25, 2026 Political news Sondhi and his protest movement start their sage today Today a nationalist coalition led by former yellow-shirt figure Sondhi Limthongkul, Nitithorn Lamluea, Panthep Puapongpan, and Pichit Chaimongkol plans to rally at the Election Commission’s office in Bangkok on September 25 to demand a broader investigation into alleged collusion during the […]\nThe post Thai Enquirer News Summary – September 25, 2026 appeared first on Thai Enquirer .",
+              "categories": [
+                "Current Affairs",
+                "News summary",
+                "Social Buzz"
+              ],
+              "feed": {
+                "title": "Thai Enquirer",
+                "url": "https://www.thaienquirer.com/",
+                "feed_url": "https://www.thaienquirer.com/feed/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.thaienquirer.com/feed/",
+            "elapsed_ms": 2567,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "thailand-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.thaienquirer.com/74582/thai-enquirer-news-summary-september-25-2026/",
+      "tags": [
+        "Current Affairs",
+        "News summary",
+        "Social Buzz"
+      ]
+    },
     {
       "id": "9a95996ac589e0ad7e48",
       "title": "Historic glass plates offer vital record of Thailand’s history, culture",

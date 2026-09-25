@@ -1,13 +1,185 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Security news",
-  "home_page_url": "https://www.bleepingcomputer.com/feed/",
+  "home_page_url": "https://feeds.feedburner.com/TheHackersNews",
   "description": "Events collected by UnlimitedPipe 0.3.2",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
     "generator": "UnlimitedPipe 0.3.2"
   },
   "items": [
+    {
+      "id": "efa02bb8be11761df99f",
+      "title": "Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data",
+      "content_text": "A flaw in Cloudflare Containers let a paying customer read data that other customers' containers had left behind on the same server, Cloudflare and the researchers who found it said on Thursday.\nThe data came from disk space that earlier containers had used and given up, not from any live workload, and an attacker could not choose whose data they got, according to Cloudflare. The company",
+      "date_published": "2026-09-25T04:49:22Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "efa02bb8be11761df99f",
+          "source": "rss",
+          "type": "change",
+          "key": "https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html",
+          "source_url": "https://feeds.feedburner.com/TheHackersNews",
+          "timestamp": null,
+          "observed_at": "2026-09-25T06:46:21Z",
+          "data": {
+            "change": "added",
+            "label": "Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data",
+            "item_type": "entry",
+            "summary": "added: Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data",
+            "after": {
+              "title": "Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data",
+              "link": "https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html",
+              "id": "https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html",
+              "author": "info@thehackernews.com (The Hacker News)",
+              "published_at": "2026-09-25T04:49:22Z",
+              "updated_at": "2026-09-25T04:49:22Z",
+              "summary": "A flaw in Cloudflare Containers let a paying customer read data that other customers' containers had left behind on the same server, Cloudflare and the researchers who found it said on Thursday.\nThe data came from disk space that earlier containers had used and given up, not from any live workload, and an attacker could not choose whose data they got, according to Cloudflare. The company",
+              "categories": [],
+              "feed": {
+                "title": "The Hacker News",
+                "url": "https://thehackernews.com",
+                "feed_url": "https://feeds.feedburner.com/TheHackersNews"
+              },
+              "enclosures": [
+                "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjJuj6tshfElqbwJCAvJf00nvl1Tng8D3yBW5uZZyVpwOqXJuzBB1df67IlNM1OSkHdGH11R6G8rseykpeXWUBu24sJvyxDL-uiqA7NC2ItwUUN2fMdaTWhqcHR2WYfpI6ihc0EVpEXfep1VFBygmh2-F6cAL1lwin0qQbmSebV5OmhqFmgBs3i0_WtdGI/s1600/cf-escape.jpg"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.feedburner.com/TheHackersNews",
+            "elapsed_ms": 204,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "security-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html"
+    },
+    {
+      "id": "03885e93f49e4f3da1e8",
+      "title": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
+      "content_text": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added two critical security flaws impacting WSO2 and Adobe Commerce and Magento to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active exploitation.\nThe vulnerabilities are listed below -\nCVE-2026-5430 (CVS score: 9.8) - A path traversal vulnerability in WSO2 API Control Plane,",
+      "date_published": "2026-09-25T04:46:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "03885e93f49e4f3da1e8",
+          "source": "rss",
+          "type": "change",
+          "key": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html",
+          "source_url": "https://feeds.feedburner.com/TheHackersNews",
+          "timestamp": null,
+          "observed_at": "2026-09-25T06:46:21Z",
+          "data": {
+            "change": "added",
+            "label": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
+            "item_type": "entry",
+            "summary": "added: WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
+            "after": {
+              "title": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
+              "link": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html",
+              "id": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html",
+              "author": "info@thehackernews.com (The Hacker News)",
+              "published_at": "2026-09-25T04:46:34Z",
+              "updated_at": "2026-09-25T04:46:34Z",
+              "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added two critical security flaws impacting WSO2 and Adobe Commerce and Magento to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active exploitation.\nThe vulnerabilities are listed below -\nCVE-2026-5430 (CVS score: 9.8) - A path traversal vulnerability in WSO2 API Control Plane,",
+              "categories": [],
+              "feed": {
+                "title": "The Hacker News",
+                "url": "https://thehackernews.com",
+                "feed_url": "https://feeds.feedburner.com/TheHackersNews"
+              },
+              "enclosures": [
+                "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqTAzyCx7Cezy4z5oRz-uAHvdvW1IZDrQlfIqT_ZDJ22Hvarb4lmYWkjqBDI_CngiSy2wuot68b2CgMS_0CWVZS93lYo5wqJsd5-WdFQgO3dieodXpVQiizcFjQsPzUOlVrs32zkBaHAwOyD7S4GCZ3b1d-Jyt4-ZTaMltfU0jG5dwBw5cxj880D4Cx8W0/s1600/ADOBE-CISA.jpg"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.feedburner.com/TheHackersNews",
+            "elapsed_ms": 204,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "security-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html"
+    },
     {
       "id": "007eb56edb7b0dd0311f",
       "title": "MacSync malware uses public iCloud calendars to deliver new payloads",

@@ -2,12 +2,1218 @@
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Hugging Face Daily Papers",
   "home_page_url": "https://huggingface.co/papers",
-  "description": "Events collected by UnlimitedPipe 0.3.1",
+  "description": "Events collected by UnlimitedPipe 0.3.2",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.3.1"
+    "generator": "UnlimitedPipe 0.3.2"
   },
   "items": [
+    {
+      "id": "137ad8f726b168fcd24d",
+      "title": "DeltaWAM: Delta World Action Models for Bimanual Manipulation",
+      "content_text": "World-action models (WAMs) transfer visual and motion priors from pretrained video generators to robot control by jointly modeling visual dynamics and actions. Existing WAMs, however, predict dense future frames during training, repeatedly modeling largely unchanged content and coupling action-conditioned dynamics to nuisance appearance variations. At inference, processing each complete observation with the heavy video expert bottlenecks few-step action generation. Accordingly, we propose…",
+      "date_published": "2026-09-25T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "137ad8f726b168fcd24d",
+          "source": "web",
+          "type": "change",
+          "key": "https://huggingface.co/api/daily_papers#https://huggingface.co/papers/2609.28811",
+          "source_url": "https://huggingface.co/api/daily_papers",
+          "timestamp": null,
+          "observed_at": "2026-09-25T06:45:54Z",
+          "data": {
+            "change": "added",
+            "label": "DeltaWAM: Delta World Action Models for Bimanual Manipulation",
+            "item_type": "record",
+            "summary": "added: DeltaWAM: Delta World Action Models for Bimanual Manipulation",
+            "after": {
+              "title": "DeltaWAM: Delta World Action Models for Bimanual Manipulation",
+              "summary": "World-action models (WAMs) transfer visual and motion priors from pretrained video generators to robot control by jointly modeling visual dynamics and actions. Existing WAMs, however, predict dense future frames during training, repeatedly modeling largely unchanged content and coupling action-conditioned dynamics to nuisance appearance variations. At inference, processing each complete observation with the heavy video expert bottlenecks few-step action generation. Accordingly, we propose DeltaWAM, which jointly predicts visual deltas and actions using dense-anchor, sparse-delta, and action streams, with three architectures that differ in representation and computation sharing. We further develop Streaming Delta Memory (SDM), which updates cached anchor context with compact observed deltas, reducing heavy video-expert processing. On RoboTwin, DeltaWAM with SDM improves average success over Fast-WAM from 81.3% to 85.4% in the clean setting and from 75.8% to 83.9% under visual randomization. The three architectures reduce training FLOPs by 17.78-23.77%, while SDM reduces one-step inference latency and FLOPs by 36.57% and 31.55%, respectively; real-world evaluations further show the highest overall success rate and normalized progress among the evaluated policies. Code: https://github.com/AIGeeksGroup/DeltaWAM. Website: https://aigeeksgroup.github.io/DeltaWAM.",
+              "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/64ec877bb93654d4ca5c92e9/I36QgrsHriRKzZ83Jrd0N.mp4"
+              ],
+              "link": "https://huggingface.co/papers/2609.28811",
+              "published_at": "2026-09-25T00:00:00.000Z",
+              "upvotes": 0
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://huggingface.co/api/daily_papers",
+            "content_type": "application/json",
+            "elapsed_ms": 130,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "link=\"https://huggingface.co/papers/\" + paper.id",
+                  "published_at=paper.submittedOnDailyAt",
+                  "upvotes=paper.upvotes"
+                ],
+                "drop": [
+                  "paper",
+                  "publishedAt",
+                  "thumbnail",
+                  "submittedBy",
+                  "isAuthorParticipating",
+                  "numComments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "link",
+                "namespace": "ai-papers",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://huggingface.co/papers/2609.28811"
+    },
+    {
+      "id": "0c5a8ee362623bbceb45",
+      "title": "Rufus-Air: An Open LLM Post-Training Recipe",
+      "content_text": "Rufus-Air is an open and reproducible post-training recipe on GLM-4.5-Air-Base (106B-A12B), organized as a serial pipeline of eight stages: SFT, Reasoning RL, Coding RL, Instruction-Following RL, General Agent, Coding Agent, Search Agent, and RLHF. We document the data, reward design, infrastructure, stage order, and stagewise results needed to reproduce the recipe. Stages progress from basic to advanced capabilities and from hard, verifiable rewards to softer judge-based signals. Training…",
+      "date_published": "2026-09-25T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "0c5a8ee362623bbceb45",
+          "source": "web",
+          "type": "change",
+          "key": "https://huggingface.co/api/daily_papers#https://huggingface.co/papers/2609.29421",
+          "source_url": "https://huggingface.co/api/daily_papers",
+          "timestamp": null,
+          "observed_at": "2026-09-25T06:45:54Z",
+          "data": {
+            "change": "added",
+            "label": "Rufus-Air: An Open LLM Post-Training Recipe",
+            "item_type": "record",
+            "summary": "added: Rufus-Air: An Open LLM Post-Training Recipe",
+            "after": {
+              "title": "Rufus-Air: An Open LLM Post-Training Recipe",
+              "summary": "Rufus-Air is an open and reproducible post-training recipe on GLM-4.5-Air-Base (106B-A12B), organized as a serial pipeline of eight stages: SFT, Reasoning RL, Coding RL, Instruction-Following RL, General Agent, Coding Agent, Search Agent, and RLHF. We document the data, reward design, infrastructure, stage order, and stagewise results needed to reproduce the recipe. Stages progress from basic to advanced capabilities and from hard, verifiable rewards to softer judge-based signals. Training builds on open-source components and public data, much of it used as released, without new human annotation or an in-house distillation teacher. Our main findings are that (i) diverse, high-quality SFT establishes a strong capability floor; (ii) difficulty filtering keeps RL prompts within a productive learning range; (iii) reward reliability provides a practical principle for ordering stages; and (iv) infrastructure and engineering choices are part of the recipe, not just an implementation detail. Rufus-Air improves over the official GLM-4.5-Air post-trained release and is competitive with similarly sized open models.",
+              "organization": {
+                "_id": "5ffdfbadbba2ae614d771970",
+                "name": "amazon",
+                "fullname": "Amazon",
+                "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/66f19ed428ae41c20c470792/8y7msN6A6W82LdQhQd85a.png"
+              },
+              "link": "https://huggingface.co/papers/2609.29421",
+              "published_at": "2026-09-25T00:00:00.000Z",
+              "upvotes": 1
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://huggingface.co/api/daily_papers",
+            "content_type": "application/json",
+            "elapsed_ms": 130,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "link=\"https://huggingface.co/papers/\" + paper.id",
+                  "published_at=paper.submittedOnDailyAt",
+                  "upvotes=paper.upvotes"
+                ],
+                "drop": [
+                  "paper",
+                  "publishedAt",
+                  "thumbnail",
+                  "submittedBy",
+                  "isAuthorParticipating",
+                  "numComments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "link",
+                "namespace": "ai-papers",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://huggingface.co/papers/2609.29421"
+    },
+    {
+      "id": "8b1becc9ce5b4d0ae6e6",
+      "title": "Neural Spectral Capacity: Measuring and Designing Architectures from Network Specification Alone",
+      "content_text": "Modern Transformer design and compression both reduce to allocating capacity under a budget. The standard scalars for these decisions, #Params and #FLOPs, capture size and compute but not architectural structure: two architectures with identical parameter budgets but different depth-width, head, or FFN allocations receive identical scores yet behave differently. We propose Neural Spectral Capacity (NSC), a closed-form scalar grounded in the singular-value spectrum of each weight matrix. Under…",
+      "date_published": "2026-09-25T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "8b1becc9ce5b4d0ae6e6",
+          "source": "web",
+          "type": "change",
+          "key": "https://huggingface.co/api/daily_papers#https://huggingface.co/papers/2609.23087",
+          "source_url": "https://huggingface.co/api/daily_papers",
+          "timestamp": null,
+          "observed_at": "2026-09-25T06:45:54Z",
+          "data": {
+            "change": "added",
+            "label": "Neural Spectral Capacity: Measuring and Designing Architectures from Network Specification Alone",
+            "item_type": "record",
+            "summary": "added: Neural Spectral Capacity: Measuring and Designing Architectures from Network Specification Alone",
+            "after": {
+              "title": "Neural Spectral Capacity: Measuring and Designing Architectures from Network Specification Alone",
+              "summary": "Modern Transformer design and compression both reduce to allocating capacity under a budget. The standard scalars for these decisions, #Params and #FLOPs, capture size and compute but not architectural structure: two architectures with identical parameter budgets but different depth-width, head, or FFN allocations receive identical scores yet behave differently. We propose Neural Spectral Capacity (NSC), a closed-form scalar grounded in the singular-value spectrum of each weight matrix. Under standard random initialization, the Marchenko-Pastur law renders NSC computable from the architectural specification alone, with no model instantiation, data, or gradients. Its layer-wise additive structure admits NSC-DP, an exact dynamic-programming solver returning the architecture globally maximizing NSC under resource constraints in seconds on a CPU -- a guarantee that black-box search over existing training-free proxies cannot provide. Empirically, NSC outperforms #Params, #FLOPs, and representative training-free proxies in ranking across seven Transformer and CNN families (on FlexiBERT, τ= 0.505 on pairs differing in #Params by less than 10%, where #Params collapses to 0.082); NSC-DP discovers a Transformer-XL architecture on WikiText-103 that beats the human-designed baseline in 2 seconds; and prunes LLaMA-7B to the best 5.7B model across eight commonsense reasoning tasks without any calibration data, about 5900x faster than the strongest training-free proxy baseline.",
+              "organization": {
+                "_id": "660f70a49760d0856d246a35",
+                "name": "CityU-HongKong",
+                "fullname": "City University of Hong Kong",
+                "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/660f6d7951c7a7d619e75393/BXxWP_bnnPM4OLq6pGpFc.png"
+              },
+              "link": "https://huggingface.co/papers/2609.23087",
+              "published_at": "2026-09-25T00:00:00.000Z",
+              "upvotes": 2
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://huggingface.co/api/daily_papers",
+            "content_type": "application/json",
+            "elapsed_ms": 130,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "link=\"https://huggingface.co/papers/\" + paper.id",
+                  "published_at=paper.submittedOnDailyAt",
+                  "upvotes=paper.upvotes"
+                ],
+                "drop": [
+                  "paper",
+                  "publishedAt",
+                  "thumbnail",
+                  "submittedBy",
+                  "isAuthorParticipating",
+                  "numComments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "link",
+                "namespace": "ai-papers",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://huggingface.co/papers/2609.23087"
+    },
+    {
+      "id": "036e5a533041b36e744a",
+      "title": "IterSynth: Rethinking Deep Search Agents via Role-Decoupled Iterative Synthesis",
+      "content_text": "Deep search requires LLM agents to decompose complex queries, search for evidence, and synthesize grounded answers, yet existing ReAct-style agents suffer from two limitations: role coupling, where one policy must handle planning, evidence use, and synthesis; and context accumulation, where growing search histories introduce noise and obscure useful information. To address these issues, we propose IterSynth, a role-decoupled and summary-based paradigm that alternates between a Planner for…",
+      "date_published": "2026-09-25T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "036e5a533041b36e744a",
+          "source": "web",
+          "type": "change",
+          "key": "https://huggingface.co/api/daily_papers#https://huggingface.co/papers/2609.29444",
+          "source_url": "https://huggingface.co/api/daily_papers",
+          "timestamp": null,
+          "observed_at": "2026-09-25T06:45:54Z",
+          "data": {
+            "change": "added",
+            "label": "IterSynth: Rethinking Deep Search Agents via Role-Decoupled Iterative Synthesis",
+            "item_type": "record",
+            "summary": "added: IterSynth: Rethinking Deep Search Agents via Role-Decoupled Iterative Synthesis",
+            "after": {
+              "title": "IterSynth: Rethinking Deep Search Agents via Role-Decoupled Iterative Synthesis",
+              "summary": "Deep search requires LLM agents to decompose complex queries, search for evidence, and synthesize grounded answers, yet existing ReAct-style agents suffer from two limitations: role coupling, where one policy must handle planning, evidence use, and synthesis; and context accumulation, where growing search histories introduce noise and obscure useful information. To address these issues, we propose IterSynth, a role-decoupled and summary-based paradigm that alternates between a Planner for identifying information needs and a Synthesizer for integrating evidence into an evolving summary state. This design separates planning from synthesis while using the summary as the persistent state of search, reducing both capability coupling and context noise. To train IterSynth effectively, we further introduce Role-Decoupled Policy Optimization (RDPO) for reinforcement learning, which combines terminal outcome rewards with turn-level rubric evaluations and computes role-specific advantages for more precise credit assignment. Experiments on five long-horizon deep-search benchmarks such as BrowseComp and Xbench-DS show that IterSynth-8B achieves an average score of 50.7, surpassing the strongest prior leq8B agent by +4.2\\%. Moreover, IterSynth serves as a model-agnostic prompting paradigm, delivering substantial zero-shot gains over ReAct and similar prompting paradigms on frontier proprietary models.",
+              "organization": {
+                "_id": "682cd1054ef56a9cb302716c",
+                "name": "ZJU-REAL",
+                "fullname": "REAL Lab",
+                "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/64098738342c26884c792c93/0cK2dzrgQem8r2utlMm98.webp"
+              },
+              "link": "https://huggingface.co/papers/2609.29444",
+              "published_at": "2026-09-25T00:00:00.000Z",
+              "upvotes": 4
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://huggingface.co/api/daily_papers",
+            "content_type": "application/json",
+            "elapsed_ms": 130,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "link=\"https://huggingface.co/papers/\" + paper.id",
+                  "published_at=paper.submittedOnDailyAt",
+                  "upvotes=paper.upvotes"
+                ],
+                "drop": [
+                  "paper",
+                  "publishedAt",
+                  "thumbnail",
+                  "submittedBy",
+                  "isAuthorParticipating",
+                  "numComments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "link",
+                "namespace": "ai-papers",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://huggingface.co/papers/2609.29444"
+    },
+    {
+      "id": "78eb498a7b51b3fb1910",
+      "title": "ViRDM: Taming Representation Distribution Matching for Few-Step Causal Video Generation",
+      "content_text": "Few-step autoregressive (AR) video diffusion enables low-latency streaming generation, but existing post-training methods predominantly rely on Distribution Matching Distillation (DMD), requiring both a large pretrained teacher and an online critic to estimate distributional discrepancies through diffusion scores. In this work, we ask whether this resource-intensive teacher--critic stack can be eliminated by post-training only the generator against a precomputed target distribution. Drawing…",
+      "date_published": "2026-09-25T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "78eb498a7b51b3fb1910",
+          "source": "web",
+          "type": "change",
+          "key": "https://huggingface.co/api/daily_papers#https://huggingface.co/papers/2609.28923",
+          "source_url": "https://huggingface.co/api/daily_papers",
+          "timestamp": null,
+          "observed_at": "2026-09-25T06:45:54Z",
+          "data": {
+            "change": "added",
+            "label": "ViRDM: Taming Representation Distribution Matching for Few-Step Causal Video Generation",
+            "item_type": "record",
+            "summary": "added: ViRDM: Taming Representation Distribution Matching for Few-Step Causal Video Generation",
+            "after": {
+              "title": "ViRDM: Taming Representation Distribution Matching for Few-Step Causal Video Generation",
+              "summary": "Few-step autoregressive (AR) video diffusion enables low-latency streaming generation, but existing post-training methods predominantly rely on Distribution Matching Distillation (DMD), requiring both a large pretrained teacher and an online critic to estimate distributional discrepancies through diffusion scores. In this work, we ask whether this resource-intensive teacher--critic stack can be eliminated by post-training only the generator against a precomputed target distribution. Drawing inspiration from representation distribution matching (RDM) for one-step image generation, we systematically study its transfer to few-step causal video generation and identify three key barriers: a memory-intractable gradient path, a distinct video optimization regime, and representation distributions that underconstrain temporal dynamics. We introduce ViRDM, a teacher- and critic-free video post-training recipe that addresses these barriers sequentially. By coupling RDM with stochastically truncated clean-exit supervision, a lightweight VAE decoder, and staged vector--Jacobian products, ViRDM makes representation distribution matching memory-feasible for multi-step causal video rollouts. We further establish effective generated-population and initialization regimes for video RDM, and introduce lightweight dynamics regularization to compensate for the underconstrained temporal dynamics. ViRDM turns three-network distillation into generator-only post-training, reducing GPU memory use and training time while improving video quality. With only 20 generator updates, the recipe reaches 84.87 on the official VBench evaluation, outperforming the previous best few-step causal baseline by 0.36, while requiring 16 A100 GPU-hours. We additionally report exploratory results demonstrating the potential of the same recipe for lower causal sampling budget and for one-, two-, and four-step bidirectional generation.",
+              "link": "https://huggingface.co/papers/2609.28923",
+              "published_at": "2026-09-25T00:00:00.000Z",
+              "upvotes": 1
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://huggingface.co/api/daily_papers",
+            "content_type": "application/json",
+            "elapsed_ms": 130,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "link=\"https://huggingface.co/papers/\" + paper.id",
+                  "published_at=paper.submittedOnDailyAt",
+                  "upvotes=paper.upvotes"
+                ],
+                "drop": [
+                  "paper",
+                  "publishedAt",
+                  "thumbnail",
+                  "submittedBy",
+                  "isAuthorParticipating",
+                  "numComments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "link",
+                "namespace": "ai-papers",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://huggingface.co/papers/2609.28923"
+    },
+    {
+      "id": "2cd8047667fab8718148",
+      "title": "AgentKernel: The Trust-Native Agentic Operating System",
+      "content_text": "Modern AI agents routinely cross trust boundaries: they ingest untrusted content, combine it with privileged instructions, persist intermediate beliefs in long-term memory, and invoke privileged tools. This creates an attack surface in which malicious payloads can enter through model inputs and cause harmful tool actions. Yet current governance stacks remain application-level middleware that share a process trust boundary with the agents they monitor. We argue that agents need an…",
+      "date_published": "2026-09-25T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "2cd8047667fab8718148",
+          "source": "web",
+          "type": "change",
+          "key": "https://huggingface.co/api/daily_papers#https://huggingface.co/papers/2609.29647",
+          "source_url": "https://huggingface.co/api/daily_papers",
+          "timestamp": null,
+          "observed_at": "2026-09-25T06:45:54Z",
+          "data": {
+            "change": "added",
+            "label": "AgentKernel: The Trust-Native Agentic Operating System",
+            "item_type": "record",
+            "summary": "added: AgentKernel: The Trust-Native Agentic Operating System",
+            "after": {
+              "title": "AgentKernel: The Trust-Native Agentic Operating System",
+              "summary": "Modern AI agents routinely cross trust boundaries: they ingest untrusted content, combine it with privileged instructions, persist intermediate beliefs in long-term memory, and invoke privileged tools. This creates an attack surface in which malicious payloads can enter through model inputs and cause harmful tool actions. Yet current governance stacks remain application-level middleware that share a process trust boundary with the agents they monitor. We argue that agents need an operating-system substrate providing mandatory, non-bypassable services for identity, input mediation, memory governance, and execution control.\n  We introduce AgentKernel, a trust-native agent operating system built around the premise that security must be a first-class design constraint. AgentKernel wraps the agent lifecycle in a mandatory enforcement boundary organized into four pillars: Identity, Perception, Cognition, and Execution. Each pillar adapts classical OS security principles to failures at the semantic plane, including delegation abuse, prompt injection, memory poisoning, and tool misuse.\n  AgentKernel treats structural security as a capability multiplier. Kernel-managed identity supports trustworthy cross-organization collaboration; graduated perception replaces brittle single-point filters; information-flow-controlled memory improves retrieval fidelity while limiting poisoning; and semantic-to-kernel enforcement permits broader tool privileges behind a non-bypassable boundary. We position AgentKernel as the missing OS layer beneath orchestration frameworks, agent runtimes, governance platforms, and execution sandboxes, and use systematic comparison and security analysis to show how a single integrated architecture can enforce security across the full agent lifecycle.",
+              "link": "https://huggingface.co/papers/2609.29647",
+              "published_at": "2026-09-25T00:00:00.000Z",
+              "upvotes": 4
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://huggingface.co/api/daily_papers",
+            "content_type": "application/json",
+            "elapsed_ms": 130,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "link=\"https://huggingface.co/papers/\" + paper.id",
+                  "published_at=paper.submittedOnDailyAt",
+                  "upvotes=paper.upvotes"
+                ],
+                "drop": [
+                  "paper",
+                  "publishedAt",
+                  "thumbnail",
+                  "submittedBy",
+                  "isAuthorParticipating",
+                  "numComments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "link",
+                "namespace": "ai-papers",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://huggingface.co/papers/2609.29647"
+    },
+    {
+      "id": "b0f2e3628d42c051b296",
+      "title": "PUBG Ally: A Conversational Embodied Agent as an AI Teammate",
+      "content_text": "We introduce PUBG Ally, an embodied agent for PUBG: BATTLEGROUNDS that can reason, act autonomously, and play alongside players as a voice-enabled teammate. Building such a teammate requires combining two difficult capabilities: it must perceive and respond to a constantly changing game world under strict latency constraints while interacting naturally with players, keeping its speech synchronized with its actions. Ally therefore combines agentic tool use with real-time game control. A…",
+      "date_published": "2026-09-25T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "b0f2e3628d42c051b296",
+          "source": "web",
+          "type": "change",
+          "key": "https://huggingface.co/api/daily_papers#https://huggingface.co/papers/2609.29837",
+          "source_url": "https://huggingface.co/api/daily_papers",
+          "timestamp": null,
+          "observed_at": "2026-09-25T06:45:54Z",
+          "data": {
+            "change": "added",
+            "label": "PUBG Ally: A Conversational Embodied Agent as an AI Teammate",
+            "item_type": "record",
+            "summary": "added: PUBG Ally: A Conversational Embodied Agent as an AI Teammate",
+            "after": {
+              "title": "PUBG Ally: A Conversational Embodied Agent as an AI Teammate",
+              "summary": "We introduce PUBG Ally, an embodied agent for PUBG: BATTLEGROUNDS that can reason, act autonomously, and play alongside players as a voice-enabled teammate. Building such a teammate requires combining two difficult capabilities: it must perceive and respond to a constantly changing game world under strict latency constraints while interacting naturally with players, keeping its speech synchronized with its actions. Ally therefore combines agentic tool use with real-time game control. A language-model agent uses a controlled interface to inspect game information, interpret player speech, maintain context, decide what to say, and issue high-level action choices that steer a faster control layer for movement, combat, and recovery. Because the player's and Ally's speech and actions continually shape each other and the course of the match, training requires data from actual gameplay. We therefore collect data across nearly 39k sessions in which real players play alongside Ally, recording gameplay, player speech, agent decisions, tool use, actions, and player feedback, and use these records for iterative training. To evaluate teammate quality, we use player feedback and preference comparisons to identify gaps between offline evaluations and player preferences, and iteratively refine the evaluation criteria. Deploying Ally in live service further requires low-latency on-device execution and safeguards for player-facing communication, which we address through model compression, context compaction, targeted safety training, runtime guardrails, and memory redaction. During the live service, we surveyed players in 141 countries. Among respondents whose play with Ally was confirmed in game records, positive responses exceeded negative responses by 25.1 percentage points when asked whether they would recommend Ally, with players describing Ally not only as a tool but also as a teammate or companion.",
+              "link": "https://huggingface.co/papers/2609.29837",
+              "published_at": "2026-09-25T00:00:00.000Z",
+              "upvotes": 3
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://huggingface.co/api/daily_papers",
+            "content_type": "application/json",
+            "elapsed_ms": 130,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "link=\"https://huggingface.co/papers/\" + paper.id",
+                  "published_at=paper.submittedOnDailyAt",
+                  "upvotes=paper.upvotes"
+                ],
+                "drop": [
+                  "paper",
+                  "publishedAt",
+                  "thumbnail",
+                  "submittedBy",
+                  "isAuthorParticipating",
+                  "numComments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "link",
+                "namespace": "ai-papers",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://huggingface.co/papers/2609.29837"
+    },
+    {
+      "id": "f3b2d0c92f4f25373ae1",
+      "title": "OmniEcho: Spatial Audio Understanding for Embodied Agents",
+      "content_text": "Humans can effortlessly localize the direction of a sound source and integrate it with visual cues for reasoning, yet this remains challenging for embodied agents. In particular, it is still unclear how to effectively evaluate and model spatial audio understanding in embodied settings. To address this gap, we introduce OmniEchoBench, a unified benchmark for spatial audio-visual perception and audio-vision-language navigation. OmniEchoBench comprises six tasks over 197 real-world spatial…",
+      "date_published": "2026-09-25T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "f3b2d0c92f4f25373ae1",
+          "source": "web",
+          "type": "change",
+          "key": "https://huggingface.co/api/daily_papers#https://huggingface.co/papers/2609.23407",
+          "source_url": "https://huggingface.co/api/daily_papers",
+          "timestamp": null,
+          "observed_at": "2026-09-25T06:45:54Z",
+          "data": {
+            "change": "added",
+            "label": "OmniEcho: Spatial Audio Understanding for Embodied Agents",
+            "item_type": "record",
+            "summary": "added: OmniEcho: Spatial Audio Understanding for Embodied Agents",
+            "after": {
+              "title": "OmniEcho: Spatial Audio Understanding for Embodied Agents",
+              "summary": "Humans can effortlessly localize the direction of a sound source and integrate it with visual cues for reasoning, yet this remains challenging for embodied agents. In particular, it is still unclear how to effectively evaluate and model spatial audio understanding in embodied settings. To address this gap, we introduce OmniEchoBench, a unified benchmark for spatial audio-visual perception and audio-vision-language navigation. OmniEchoBench comprises six tasks over 197 real-world spatial audio-visual scenes, 2,972 question-answer pairs, and 900 navigation samples with first-order ambisonics (FOA) audio collected from 30 real-world environments. To enable scalable training supervision, we develop a controllable rendering pipeline for spatial audio. It preserves geometric consistency among sound sources, visual observations, and agent trajectories. Building on this, we propose OmniEcho, a spatially aware omni-modal model. It introduces an FOA spatial encoder alongside a pretrained semantic audio pathway. Extensive experiments show that OmniEcho achieves state-of-the-art performance on spatial audio-visual perception. For our sound-guided navigation, OmniEcho reaches a performance level close to that of traditional vision-language navigation. These results demonstrate that spatial audio can serve as a valuable signal for embodied scene reasoning and navigation, while also highlighting fine-grained spatial localization and distance estimation as important open challenges.",
+              "organization": {
+                "_id": "6a07ff936781d8b803c28343",
+                "name": "PKU-VaLuE-Lab",
+                "fullname": "PKU-VaLuE-Lab",
+                "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/62b4fe7ab25cb80fcf2ffd66/velgm3kH_oJ2b0aoapBBM.png"
+              },
+              "link": "https://huggingface.co/papers/2609.23407",
+              "published_at": "2026-09-25T00:00:00.000Z",
+              "upvotes": 15
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://huggingface.co/api/daily_papers",
+            "content_type": "application/json",
+            "elapsed_ms": 130,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "link=\"https://huggingface.co/papers/\" + paper.id",
+                  "published_at=paper.submittedOnDailyAt",
+                  "upvotes=paper.upvotes"
+                ],
+                "drop": [
+                  "paper",
+                  "publishedAt",
+                  "thumbnail",
+                  "submittedBy",
+                  "isAuthorParticipating",
+                  "numComments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "link",
+                "namespace": "ai-papers",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://huggingface.co/papers/2609.23407"
+    },
+    {
+      "id": "a3a115464f5c6dae0d25",
+      "title": "World Action Agent: Harnessing VLMs for Robot Manipulation via World Action Rehearsal",
+      "content_text": "General-purpose vision-language models (VLMs) bring broad knowledge and spatial reasoning to robot manipulation, yet existing systems either use them indirectly, to predict constraints or write programs, or give them a view of the scene rather than a world in which to act. We present World Action Agent (WAA), a multi-agent harness through which VLMs pilot robots with basic tools, making every decision within a visual action workspace. The workspace has three properties. Contact views, selected…",
+      "date_published": "2026-09-25T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "a3a115464f5c6dae0d25",
+          "source": "web",
+          "type": "change",
+          "key": "https://huggingface.co/api/daily_papers#https://huggingface.co/papers/2609.29964",
+          "source_url": "https://huggingface.co/api/daily_papers",
+          "timestamp": null,
+          "observed_at": "2026-09-25T06:45:54Z",
+          "data": {
+            "change": "added",
+            "label": "World Action Agent: Harnessing VLMs for Robot Manipulation via World Action Rehearsal",
+            "item_type": "record",
+            "summary": "added: World Action Agent: Harnessing VLMs for Robot Manipulation via World Action Rehearsal",
+            "after": {
+              "title": "World Action Agent: Harnessing VLMs for Robot Manipulation via World Action Rehearsal",
+              "summary": "General-purpose vision-language models (VLMs) bring broad knowledge and spatial reasoning to robot manipulation, yet existing systems either use them indirectly, to predict constraints or write programs, or give them a view of the scene rather than a world in which to act. We present World Action Agent (WAA), a multi-agent harness through which VLMs pilot robots with basic tools, making every decision within a visual action workspace. The workspace has three properties. Contact views, selected automatically from the scene geometry, present the scene around the current interaction. Action rehearsal turns each action into an editable proposal that the agent, alone or through an Imagination Agent, previews and revises against planning feedback before execution. In-view correction closes the loop between observation, rehearsal, and low-level execution, letting the agent remove residual offsets in the view where it observes them. Through the same workspace, WAA acquires embodied procedural knowledge in two ways: it evolves multimodal skills from expert videos and human teaching under evidence-based review and consults them through a Skill Agent, and its interaction traces train smaller VLMs to pilot the same harness. On LIBERO-Pro, WAA with skills evolved only from LIBERO-90 reaches a state-of-the-art 75.6% average success, outperforming end-to-end VLAs, code-as-policy agents, and a visual-harness baseline with the same backbone; the same skills remain effective on robosuite without further learning. Fine-tuning Qwen3.5-9B on harness traces raises its out-of-domain success from 1.7% to 43.3%.",
+              "link": "https://huggingface.co/papers/2609.29964",
+              "published_at": "2026-09-25T00:00:00.000Z",
+              "upvotes": 3
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://huggingface.co/api/daily_papers",
+            "content_type": "application/json",
+            "elapsed_ms": 130,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "link=\"https://huggingface.co/papers/\" + paper.id",
+                  "published_at=paper.submittedOnDailyAt",
+                  "upvotes=paper.upvotes"
+                ],
+                "drop": [
+                  "paper",
+                  "publishedAt",
+                  "thumbnail",
+                  "submittedBy",
+                  "isAuthorParticipating",
+                  "numComments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "link",
+                "namespace": "ai-papers",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://huggingface.co/papers/2609.29964"
+    },
+    {
+      "id": "074a1b6edd1a1896e523",
+      "title": "WanPE: Towards Cinematic Prompt Enhancement for Modern Text-to-Video Generation",
+      "content_text": "Video generation begins in text space by authoring a cinematic screenplay, then materializes into pixels. As contemporary video generators scale to 30 seconds and faithfully follow complex conditions, the textual prompt largely directs the production, planning how actions, camera trajectories, lighting, and sound unfold across multi-shot sequences. In this paper, we present WanPE, a 397B-parameter prompt enhancement model trained on 1.05M real-world videos to master director-level cinematic…",
+      "date_published": "2026-09-25T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "074a1b6edd1a1896e523",
+          "source": "web",
+          "type": "change",
+          "key": "https://huggingface.co/api/daily_papers#https://huggingface.co/papers/2609.30221",
+          "source_url": "https://huggingface.co/api/daily_papers",
+          "timestamp": null,
+          "observed_at": "2026-09-25T06:45:54Z",
+          "data": {
+            "change": "added",
+            "label": "WanPE: Towards Cinematic Prompt Enhancement for Modern Text-to-Video Generation",
+            "item_type": "record",
+            "summary": "added: WanPE: Towards Cinematic Prompt Enhancement for Modern Text-to-Video Generation",
+            "after": {
+              "title": "WanPE: Towards Cinematic Prompt Enhancement for Modern Text-to-Video Generation",
+              "summary": "Video generation begins in text space by authoring a cinematic screenplay, then materializes into pixels. As contemporary video generators scale to 30 seconds and faithfully follow complex conditions, the textual prompt largely directs the production, planning how actions, camera trajectories, lighting, and sound unfold across multi-shot sequences. In this paper, we present WanPE, a 397B-parameter prompt enhancement model trained on 1.05M real-world videos to master director-level cinematic planning. WanPE formulates shot-level cinematic plans via video-grounded reverse construction and employs Semantic-Consistency GRPO (SC-GRPO) to faithfully preserve user requirements across shots and over time. To benchmark this capability, we curate WanPEval, a human-annotated testbed covering durations from 5 to 30 seconds across varying intent granularities, supported by approximately 11K blind pairwise assessments. When powering Wan3.0's video generator, WanPE-397B boosts human preference over raw user prompts by 10.66-18.84 points at 5-15 seconds and by a dramatic 50.86 points in the 30-second arena. Ablation studies show that reverse construction demonstrates clear superiority over forward rewriting, while SC-GRPO robustly preserves semantic fidelity across model scales. Ultimately, WanPE leads all evaluated commercial offerings at 5-15 seconds and remains competitive with Seedance 2.5 at 30 seconds.",
+              "link": "https://huggingface.co/papers/2609.30221",
+              "published_at": "2026-09-25T00:00:00.000Z",
+              "upvotes": 3
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://huggingface.co/api/daily_papers",
+            "content_type": "application/json",
+            "elapsed_ms": 130,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "link=\"https://huggingface.co/papers/\" + paper.id",
+                  "published_at=paper.submittedOnDailyAt",
+                  "upvotes=paper.upvotes"
+                ],
+                "drop": [
+                  "paper",
+                  "publishedAt",
+                  "thumbnail",
+                  "submittedBy",
+                  "isAuthorParticipating",
+                  "numComments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "link",
+                "namespace": "ai-papers",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://huggingface.co/papers/2609.30221"
+    },
+    {
+      "id": "2b1ecf0319153c2ad3b3",
+      "title": "ExplorationBench: Measuring AI Systems' Exploration in Verifiable Alien Worlds",
+      "content_text": "Scientific discovery begins where known problems end. There, AI systems must engage in exploration: framing hypotheses, designing experiments, and iterating on the results. However, evaluating this ability is difficult: (1) how to verify whether a genuinely new hypothesis holds, and (2) how to determine whether a system has discovered it through exploration or merely recalled related knowledge from pre-training data. To this end, we introduce ExplorationBench, which turns the wicked problem of…",
+      "date_published": "2026-09-25T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "2b1ecf0319153c2ad3b3",
+          "source": "web",
+          "type": "change",
+          "key": "https://huggingface.co/api/daily_papers#https://huggingface.co/papers/2609.30199",
+          "source_url": "https://huggingface.co/api/daily_papers",
+          "timestamp": null,
+          "observed_at": "2026-09-25T06:45:54Z",
+          "data": {
+            "change": "added",
+            "label": "ExplorationBench: Measuring AI Systems' Exploration in Verifiable Alien Worlds",
+            "item_type": "record",
+            "summary": "added: ExplorationBench: Measuring AI Systems' Exploration in Verifiable Alien Worlds",
+            "after": {
+              "title": "ExplorationBench: Measuring AI Systems' Exploration in Verifiable Alien Worlds",
+              "summary": "Scientific discovery begins where known problems end. There, AI systems must engage in exploration: framing hypotheses, designing experiments, and iterating on the results. However, evaluating this ability is difficult: (1) how to verify whether a genuinely new hypothesis holds, and (2) how to determine whether a system has discovered it through exploration or merely recalled related knowledge from pre-training data. To this end, we introduce ExplorationBench, which turns the wicked problem of evaluating scientific exploration into a concrete and tractable framework built on verifiable Alien Worlds: their rules are executable, so every answer can be checked exactly, and they conflict with familiar knowledge, so recall alone cannot solve the tasks. The benchmark contains two sandboxes, AlienCode (31 discovery targets, 70 tasks) and AlienLogic (24 discovery targets, 70 tasks). Each sandbox provides a flawed manual, task-specific environmental feedback, and a dedicated tool-call schema. Systems use these resources to explore the sandbox, then solve held-out tasks. We evaluate 10 AI systems and find that the strongest systems can acquire and apply unfamiliar rules, while performance varies substantially across trajectories and continued exploration can stall or reverse earlier gains. ExplorationBench represents a step towards AI systems that can acquire and apply genuinely new knowledge through exploration in unknown environments.",
+              "organization": {
+                "_id": "6645f953c39288df638dbdd5",
+                "name": "Tencent-Hunyuan",
+                "fullname": "Tencent Hunyuan",
+                "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/62d22496c58f969c152bcefd/woKSjt2wXvBNKussyYPsa.png"
+              },
+              "link": "https://huggingface.co/papers/2609.30199",
+              "published_at": "2026-09-25T00:00:00.000Z",
+              "upvotes": 2
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://huggingface.co/api/daily_papers",
+            "content_type": "application/json",
+            "elapsed_ms": 130,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "link=\"https://huggingface.co/papers/\" + paper.id",
+                  "published_at=paper.submittedOnDailyAt",
+                  "upvotes=paper.upvotes"
+                ],
+                "drop": [
+                  "paper",
+                  "publishedAt",
+                  "thumbnail",
+                  "submittedBy",
+                  "isAuthorParticipating",
+                  "numComments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "link",
+                "namespace": "ai-papers",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://huggingface.co/papers/2609.30199"
+    },
+    {
+      "id": "cfb73e189edb4330203f",
+      "title": "Training Object Permanence in World Models",
+      "content_text": "Object permanence and solidity are hallmarks of human cognitive priors. Recent studies show that video generation models, a paradigmatic class of current world models, have begun to show emerged reasoning abilities, making them ideal candidates for building human-like physical intelligence. Do video models have emerged object permanence in them? If not, could we train them with a core-cognition inspired dataset? We introduce WROP (World Reasoning with Object Permanence), a data infrastructure…",
+      "date_published": "2026-09-25T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "cfb73e189edb4330203f",
+          "source": "web",
+          "type": "change",
+          "key": "https://huggingface.co/api/daily_papers#https://huggingface.co/papers/2609.28654",
+          "source_url": "https://huggingface.co/api/daily_papers",
+          "timestamp": null,
+          "observed_at": "2026-09-25T06:45:54Z",
+          "data": {
+            "change": "added",
+            "label": "Training Object Permanence in World Models",
+            "item_type": "record",
+            "summary": "added: Training Object Permanence in World Models",
+            "after": {
+              "title": "Training Object Permanence in World Models",
+              "summary": "Object permanence and solidity are hallmarks of human cognitive priors. Recent studies show that video generation models, a paradigmatic class of current world models, have begun to show emerged reasoning abilities, making them ideal candidates for building human-like physical intelligence. Do video models have emerged object permanence in them? If not, could we train them with a core-cognition inspired dataset? We introduce WROP (World Reasoning with Object Permanence), a data infrastructure of 150 hand-designed cognitive science inspired tasks, divided into six cognitive categories. We build Blender generators that randomize speed, lighting, camera angle, and other nuisance parameters while preserving each task's cognitive structure, yielding 10,000+ samples per task. We release a 1.5M-sample training corpus and a 300-question exam. On this exam we evaluate 14 video models: 3 reference-to-video, 7 edit, and 4 continuation, among which PWM-WROP, our 16B world model. In a blind pairwise Elo study, PWM-WROP ranks first among continuation models and third overall, behind only a statistical tie between two reference-to-video models. We release the data, exam, model answers, scores, weights, and PWM, our native-PyTorch training stack on AWS Trainium2.",
+              "link": "https://huggingface.co/papers/2609.28654",
+              "published_at": "2026-09-25T00:00:00.000Z",
+              "upvotes": 56
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://huggingface.co/api/daily_papers",
+            "content_type": "application/json",
+            "elapsed_ms": 130,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "link=\"https://huggingface.co/papers/\" + paper.id",
+                  "published_at=paper.submittedOnDailyAt",
+                  "upvotes=paper.upvotes"
+                ],
+                "drop": [
+                  "paper",
+                  "publishedAt",
+                  "thumbnail",
+                  "submittedBy",
+                  "isAuthorParticipating",
+                  "numComments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "link",
+                "namespace": "ai-papers",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://huggingface.co/papers/2609.28654"
+    },
+    {
+      "id": "0170c28b1afecb9f0112",
+      "title": "Agent-Editing World Model: Rethinking World Modeling for LLM Agents",
+      "content_text": "Recent advances in large language models (LLMs) have enabled agents to tackle long-horizon tasks across diverse environments. To further improve agent performance, existing language world models typically predict environment observations, yet reconstructing high-entropy, execution-dependent tool responses offers limited value when real feedback is available. Meanwhile, agents suffer from task-state contamination, where unsupported assumptions and outdated plans persist in history and distort…",
+      "date_published": "2026-09-25T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "0170c28b1afecb9f0112",
+          "source": "web",
+          "type": "change",
+          "key": "https://huggingface.co/api/daily_papers#https://huggingface.co/papers/2609.28416",
+          "source_url": "https://huggingface.co/api/daily_papers",
+          "timestamp": null,
+          "observed_at": "2026-09-25T06:45:54Z",
+          "data": {
+            "change": "added",
+            "label": "Agent-Editing World Model: Rethinking World Modeling for LLM Agents",
+            "item_type": "record",
+            "summary": "added: Agent-Editing World Model: Rethinking World Modeling for LLM Agents",
+            "after": {
+              "title": "Agent-Editing World Model: Rethinking World Modeling for LLM Agents",
+              "summary": "Recent advances in large language models (LLMs) have enabled agents to tackle long-horizon tasks across diverse environments. To further improve agent performance, existing language world models typically predict environment observations, yet reconstructing high-entropy, execution-dependent tool responses offers limited value when real feedback is available. Meanwhile, agents suffer from task-state contamination, where unsupported assumptions and outdated plans persist in history and distort subsequent decisions. We propose the Agent-Editing World Model (AEWM), which models how reasoning and actions shape future task progress rather than simulating tool responses. AEWM combines Action Judge to distinguish Critical, Exploratory, and Noisy decisions with State Revision to edit noisy reasoning--action continuations from the same observed history. EditAct integrates these capabilities with real execution, directly changing the state underlying subsequent decisions rather than merely providing critiques. We train AEWM across Search, Terminal, and Software Engineering through mid-training and supervised fine-tuning. AEWM achieves 70.5\\% macro-F1 on our Action Judge benchmark, exceeding the strongest frontier baseline by 10.6 points. Across six benchmarks and three agent backbones, EditAct improves average scores by 3.2--6.7 points over the strongest baseline. Furthermore, rejection sampling fine-tuning on verified EditAct trajectories, termed AEWM-RFT, improves over Self-RFT by 2.2--2.6 points across three domains without online AEWM guidance.",
+              "organization": {
+                "_id": "622177ac43826d6f261f8208",
+                "name": "RUC",
+                "fullname": "Renmin University of China",
+                "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/61ac8f8a00d01045fca0ad2f/670IAX9A2-BflqA5MiSBW.jpeg"
+              },
+              "link": "https://huggingface.co/papers/2609.28416",
+              "published_at": "2026-09-25T00:00:00.000Z",
+              "upvotes": 13
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://huggingface.co/api/daily_papers",
+            "content_type": "application/json",
+            "elapsed_ms": 130,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "link=\"https://huggingface.co/papers/\" + paper.id",
+                  "published_at=paper.submittedOnDailyAt",
+                  "upvotes=paper.upvotes"
+                ],
+                "drop": [
+                  "paper",
+                  "publishedAt",
+                  "thumbnail",
+                  "submittedBy",
+                  "isAuthorParticipating",
+                  "numComments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "link",
+                "namespace": "ai-papers",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://huggingface.co/papers/2609.28416"
+    },
+    {
+      "id": "5bd31be98f963cb9c22d",
+      "title": "Rate-distortion optimization for full-reference image quality metrics via stochastic Hessian estimates",
+      "content_text": "Block-based video codecs select coding parameters based on the input by optimizing a rate-distortion trade-off. The conventional distortion choice, the sum of squared errors (SSE), simplifies parameter selection: the SSE is the sum of block-wise SSEs, so rate-distortion optimization (RDO) can treat blocks independently. Alternatively, full-reference image quality assessment (FR-IQA) metrics such as MS-SSIM or LPIPS often align better with the human visual system than SSE, but they cannot be…",
+      "date_published": "2026-09-25T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "5bd31be98f963cb9c22d",
+          "source": "web",
+          "type": "change",
+          "key": "https://huggingface.co/api/daily_papers#https://huggingface.co/papers/2609.30077",
+          "source_url": "https://huggingface.co/api/daily_papers",
+          "timestamp": null,
+          "observed_at": "2026-09-25T06:45:54Z",
+          "data": {
+            "change": "added",
+            "label": "Rate-distortion optimization for full-reference image quality metrics via stochastic Hessian estimates",
+            "item_type": "record",
+            "summary": "added: Rate-distortion optimization for full-reference image quality metrics via stochastic Hessian estimates",
+            "after": {
+              "title": "Rate-distortion optimization for full-reference image quality metrics via stochastic Hessian estimates",
+              "summary": "Block-based video codecs select coding parameters based on the input by optimizing a rate-distortion trade-off. The conventional distortion choice, the sum of squared errors (SSE), simplifies parameter selection: the SSE is the sum of block-wise SSEs, so rate-distortion optimization (RDO) can treat blocks independently. Alternatively, full-reference image quality assessment (FR-IQA) metrics such as MS-SSIM or LPIPS often align better with the human visual system than SSE, but they cannot be used in-loop: they do not decompose block-wise and typically require the fully decoded image as input. Building on existing results in metric quadratization, we approximate a broad class of FR-IQA metrics by an input-dependent quadratic distortion (IDQD), whose quadratic form matrix is derived from the Hessian of the metric evaluated at the source video. To make the distortion computable block-wise, we propose two approximations of the Hessian matrix: 1) keeping the block-diagonal, and 2) keeping only its diagonal. We propose estimators for both that require only matrix-vector products with the Hessian obtained by automatic differentiation. Across five metrics for Kodak and CLIC in VVC, IDQD-RDO achieves 14.2-36.7 % BD-rate savings under the target metric with no decoder changes and incurs 10-30 % encoding complexity overhead.",
+              "organization": {
+                "_id": "66a403d0dcb5bbc6e98bb7d0",
+                "name": "UniversityofSouthernCalifornia",
+                "fullname": "University of Southern California",
+                "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/66a403728069e3c30e0d8524/tkYCfeIJfF1FxtYiRZ8bf.png"
+              },
+              "link": "https://huggingface.co/papers/2609.30077",
+              "published_at": "2026-09-25T00:00:00.000Z",
+              "upvotes": 1
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://huggingface.co/api/daily_papers",
+            "content_type": "application/json",
+            "elapsed_ms": 130,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "link=\"https://huggingface.co/papers/\" + paper.id",
+                  "published_at=paper.submittedOnDailyAt",
+                  "upvotes=paper.upvotes"
+                ],
+                "drop": [
+                  "paper",
+                  "publishedAt",
+                  "thumbnail",
+                  "submittedBy",
+                  "isAuthorParticipating",
+                  "numComments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "link",
+                "namespace": "ai-papers",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://huggingface.co/papers/2609.30077"
+    },
+    {
+      "id": "d824a5b9fbb097ff5fc4",
+      "title": "Qwen-Planner-Agent: A Closed-Loop AI-for-AI Framework for Real-World Mobile Planner Agents",
+      "content_text": "The rapid progression of large language models is extending AI from passive content generation into the active workflows of engineering and scientific discovery. This shift raises a compelling question: can AI be both the object of development and an active participant in building next-generation AI systems? We explore this question by building Qwen-Planner-Agent within a closed-loop AI-for-AI framework for scalable development and iterative improvement. Mobile planning offers a demanding test…",
+      "date_published": "2026-09-25T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d824a5b9fbb097ff5fc4",
+          "source": "web",
+          "type": "change",
+          "key": "https://huggingface.co/api/daily_papers#https://huggingface.co/papers/2609.29892",
+          "source_url": "https://huggingface.co/api/daily_papers",
+          "timestamp": null,
+          "observed_at": "2026-09-25T06:45:54Z",
+          "data": {
+            "change": "added",
+            "label": "Qwen-Planner-Agent: A Closed-Loop AI-for-AI Framework for Real-World Mobile Planner Agents",
+            "item_type": "record",
+            "summary": "added: Qwen-Planner-Agent: A Closed-Loop AI-for-AI Framework for Real-World Mobile Planner Agents",
+            "after": {
+              "title": "Qwen-Planner-Agent: A Closed-Loop AI-for-AI Framework for Real-World Mobile Planner Agents",
+              "summary": "The rapid progression of large language models is extending AI from passive content generation into the active workflows of engineering and scientific discovery. This shift raises a compelling question: can AI be both the object of development and an active participant in building next-generation AI systems? We explore this question by building Qwen-Planner-Agent within a closed-loop AI-for-AI framework for scalable development and iterative improvement. Mobile planning offers a demanding test of this approach: complex, long-horizon tasks challenge agent reliability, while costly real-device interaction limits development scalability. The framework connects data production, model training, and deployment through a shared action-feedback-verification contract. (i) AI for Data builds a human-gated agentic data flywheel in which specialized agents construct tasks, collect interaction trajectories, curate and balance training data, and use training feedback to guide subsequent data generation. (ii) AI for Training combines a supervised planning cold start with hybrid-environment online agentic reinforcement learning, where we introduce Competence-Aware Reward-and-Advantage Engineering (CARE) to reduce reasoning and tool-use costs while preserving task performance. (iii) AI drives model--harness co-evolution through an execution-evidence-driven loop that orchestrates memory, skills, and tools at runtime and feeds structured action feedback and preserved failure traces back into coordinated model and harness adaptation. Qwen-Planner-Agent achieves the best overall performance among all evaluated models and systems on MobilePA-Bench, improving over its base model across tool use, memory, skills, and sub-agent coordination. Further evaluations of our model show improvements across non-mobile agentic benchmarks while largely preserving general capabilities.",
+              "organization": {
+                "_id": "6925b20fed452d1567c012d3",
+                "name": "Tongyi-MAI",
+                "fullname": "Tongyi-MAI",
+                "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/64379d79fac5ea753f1c10f3/fxHO6QoYjdv9_LTyiUD3g.jpeg"
+              },
+              "link": "https://huggingface.co/papers/2609.29892",
+              "published_at": "2026-09-25T00:00:00.000Z",
+              "upvotes": 7
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://huggingface.co/api/daily_papers",
+            "content_type": "application/json",
+            "elapsed_ms": 130,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "link=\"https://huggingface.co/papers/\" + paper.id",
+                  "published_at=paper.submittedOnDailyAt",
+                  "upvotes=paper.upvotes"
+                ],
+                "drop": [
+                  "paper",
+                  "publishedAt",
+                  "thumbnail",
+                  "submittedBy",
+                  "isAuthorParticipating",
+                  "numComments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "link",
+                "namespace": "ai-papers",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://huggingface.co/papers/2609.29892"
+    },
     {
       "id": "a9f2bd64f31f0f7df193",
       "title": "Self-Organizing Agent Teams Learn to Reason Together",
