@@ -1,0 +1,18 @@
+name: us-new-rules
+description: Significant new US federal rules as they are published in the Federal Register, with the agency behind each.
+sources:
+  - type: web
+    url: "https://www.federalregister.gov/api/v1/documents.json?conditions%5Btype%5D%5B%5D=RULE&conditions%5Bsignificant%5D=1&order=newest&per_page=50"
+    records: results
+operators:
+  - type: map
+    assign:
+      - 'title=agencies.0.name + ": " + title'
+      - "link=html_url"
+      - "summary=abstract"
+      - "published_at=publication_date"
+    drop: [excerpts, pdf_url, public_inspection_pdf_url]
+  - {type: diff, key: document_number, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/us-new-rules.xml, title: Significant new US federal rules, link: "https://www.federalregister.gov/"}
+  - {type: feed, path: ../public/us-new-rules.json, title: Significant new US federal rules, link: "https://www.federalregister.gov/"}

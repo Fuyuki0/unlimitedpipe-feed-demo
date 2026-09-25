@@ -1,0 +1,19 @@
+name: sec-cyber-incidents
+description: Public companies disclosing a material cybersecurity incident to the SEC (8-K Item 1.05), as soon as they file.
+sources:
+  - type: rss
+    url:
+      - "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom"
+      - "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&start=100&output=atom"
+    user_agent: "UnlimitedPipe ${SEC_CONTACT}"
+operators:
+  - {type: filter, expr: 'summary contains "Item 1.05:"'}
+  - type: map
+    assign:
+      - 'title=replace(title, "^8-K(/A)? - (.*?) \\(\\d+\\) \\(Filer\\)$", "\\2") + " disclosed a cybersecurity incident"'
+      - 'summary=replace(summary, "^Filed: \\S+ AccNo: \\S+ Size: \\S+ \\S+\\s*", "")'
+  - {type: dedupe, by: [link]}
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/sec-cyber-incidents.xml, title: Cybersecurity incidents disclosed to the SEC, link: "https://www.sec.gov/edgar/search/"}
+  - {type: feed, path: ../public/sec-cyber-incidents.json, title: Cybersecurity incidents disclosed to the SEC, link: "https://www.sec.gov/edgar/search/"}

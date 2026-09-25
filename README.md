@@ -1,6 +1,6 @@
 # UnlimitedPipe feeds
 
-20 free feeds, updated every hour by a GitHub Actions workflow and served by GitHub Pages.
+26 free feeds, updated every hour by a GitHub Actions workflow and served by GitHub Pages.
 No server, no database, no account. Each feed is one short YAML file, built with
 [UnlimitedPipe](https://pypi.org/project/unlimitedpipe/).
 
@@ -37,6 +37,17 @@ on it: `unlimited rss https://fuyuki0.github.io/unlimitedpipe-feed-demo/ai-news.
 | --- | --- |
 | [exploited-vulnerabilities](https://fuyuki0.github.io/unlimitedpipe-feed-demo/exploited-vulnerabilities.xml) | Vulnerabilities newly added to CISA's Known Exploited list |
 | [security-news](https://fuyuki0.github.io/unlimitedpipe-feed-demo/security-news.xml) | Krebs on Security, BleepingComputer, The Hacker News, Schneier on Security |
+| [sec-cyber-incidents](https://fuyuki0.github.io/unlimitedpipe-feed-demo/sec-cyber-incidents.xml) | Public companies disclosing a material cybersecurity incident to the SEC (8-K Item 1.05) |
+
+### Money and government
+
+| Feed | What it follows |
+| --- | --- |
+| [sec-company-events](https://fuyuki0.github.io/unlimitedpipe-feed-demo/sec-company-events.xml) | Bankruptcies, completed acquisitions, layoffs, delistings, auditor changes and restatements from SEC 8-K filings |
+| [sec-ipo-filings](https://fuyuki0.github.io/unlimitedpipe-feed-demo/sec-ipo-filings.xml) | Companies filing to go public in the US (SEC S-1 and F-1) |
+| [lobbying-big-spenders](https://fuyuki0.github.io/unlimitedpipe-feed-demo/lobbying-big-spenders.xml) | US lobbying reports of $1 million or more, as filed with Congress |
+| [sanctions-actions](https://fuyuki0.github.io/unlimitedpipe-feed-demo/sanctions-actions.xml) | New US sanctions actions from the Treasury (OFAC): designations, removals, licenses |
+| [us-new-rules](https://fuyuki0.github.io/unlimitedpipe-feed-demo/us-new-rules.xml) | Significant new US federal rules from the Federal Register |
 
 ### News
 

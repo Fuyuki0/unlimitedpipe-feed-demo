@@ -1,0 +1,18 @@
+name: sec-ipo-filings
+description: Companies filing to go public in the US (new SEC S-1 and F-1 registrations, amendments left out).
+sources:
+  - type: rss
+    url:
+      - "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=S-1&count=100&output=atom"
+      - "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=F-1&count=100&output=atom"
+    user_agent: "UnlimitedPipe ${SEC_CONTACT}"
+operators:
+  - {type: filter, expr: 'title matches "^[SF]-1 - "'}
+  - type: map
+    assign:
+      - 'title=replace(title, "^([SF]-1) - (.*?) \\(\\d+\\) \\(Filer\\)$", "\\2 filed to go public (\\1)")'
+      - 'summary=replace(summary, "^Filed: (\\S+) AccNo: \\S+ Size: (\\S+ \\S+).*$", "Registration statement filed \\1 (\\2)")'
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/sec-ipo-filings.xml, title: IPO filings (SEC S-1 and F-1), link: "https://www.sec.gov/edgar/search/"}
+  - {type: feed, path: ../public/sec-ipo-filings.json, title: IPO filings (SEC S-1 and F-1), link: "https://www.sec.gov/edgar/search/"}

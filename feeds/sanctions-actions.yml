@@ -1,0 +1,20 @@
+name: sanctions-actions
+description: New US sanctions actions from the Treasury's Office of Foreign Assets Control (OFAC) - designations, removals and general licenses.
+sources:
+  - type: web
+    url: https://ofac.treasury.gov/recent-actions
+    each: .views-row
+    field:
+      - title=.text-no-underline a
+      - link=.text-no-underline a@href
+      - meta=.font-sans-2xs
+operators:
+  - type: map
+    assign:
+      - 'published_at=replace(link, "^.*/(\\d{4})(\\d\\d)(\\d\\d)$", "\\1-\\2-\\3")'
+      - 'summary=replace(meta, "^.*?\\d{4}\\s*-\\s*", "")'
+    drop: [meta]
+  - {type: diff, key: link, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/sanctions-actions.xml, title: US sanctions actions (OFAC), link: "https://ofac.treasury.gov/recent-actions"}
+  - {type: feed, path: ../public/sanctions-actions.json, title: US sanctions actions (OFAC), link: "https://ofac.treasury.gov/recent-actions"}
