@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Blockchain client releases</title>
+    <link>https://github.com/</link>
+    <description>Events collected by UnlimitedPipe 0.3.2</description>
+    <generator>UnlimitedPipe 0.3.2</generator>
+    <lastBuildDate>Fri, 25 Sep 2026 23:17:48 +0000</lastBuildDate>
+    <item>
+      <title>ethereum/go-ethereum v1.17.6: Inorganic Lubricant (v1.17.6)</title>
+      <link>https://github.com/ethereum/go-ethereum/releases/tag/v1.17.6</link>
+      <guid isPermaLink="false">e237eb3000d826fd04c9</guid>
+      <pubDate>Wed, 23 Sep 2026 02:21:47 +0000</pubDate>
+      <description>This is a maintenance release with a number of performance improvements to block processing and initial sync, and is recommended for all users.
+A few things worth highlighting:
+The Amsterdam hardfork is scheduled on the Sepolia testnet at timestamp 1791294816 (Oct 6, 2026, 13:53:36 UTC). Sepolia node operators must upgrade before that time.
+The Holesky testnet has been removed, as the network reached end-of-life.
+Go 1.24 is no longer supported. Release binaries and Docker images are now built…</description>
+    </item>
+    <item>
+      <title>anza-xyz/agave v4.3.0: Release v4.3.0</title>
+      <link>https://github.com/anza-xyz/agave/releases/tag/v4.3.0</link>
+      <guid isPermaLink="false">cad05f24e42f8a15382f</guid>
+      <pubDate>Fri, 18 Sep 2026 12:15:17 +0000</pubDate>
+      <description>This a stable release suitable for Testnet, Devnet and Mainnet Beta.
+https://github.com/anza-xyz/agave/blob/v4.3/CHANGELOG.md
+What's Changed
+v4.3: cli: add vote-update-commission-bps command (backport of #15075) by @mergify[bot] in https://github.com/anza-xyz/agave/pull/15144
+v4.3: cli: add vote-update-commission-collector command (backport of #15074) by @mergify[bot] in https://github.com/anza-xyz/agave/pull/15146
+v4.3: Ignore rustls RUSTSEC-2026-0285 in cargo audit by @cfkelly18 in…</description>
+    </item>
+    <item>
+      <title>sigp/lighthouse v8.2.2: Mr. Meeseeks</title>
+      <link>https://github.com/sigp/lighthouse/releases/tag/v8.2.2</link>
+      <guid isPermaLink="false">34808b64830ba670cf90</guid>
+      <pubDate>Tue, 18 Aug 2026 00:53:15 +0000</pubDate>
+      <description>Summary
+:warning: Lighthouse v8.2.2 is a high-priority release containing fixes for several security vulnerabilities.
+All mainnet beacon node users should upgrade as soon as practical to receive the security fixes in this release.
+Upgrade Notes
+No special action is required beyond upgrading. This release does not contain a database schema migration or any breaking CLI changes.
+If upgrading from a release prior to v8.2.1, please see release notes for v8.2.1 and…</description>
+    </item>
+    <item>
+      <title>ethereum/go-ethereum v1.17.5: Grav-Torque Pad (v1.17.5)</title>
+      <link>https://github.com/ethereum/go-ethereum/releases/tag/v1.17.5</link>
+      <guid isPermaLink="false">619b0b767e584a8483a9</guid>
+      <pubDate>Mon, 27 Jul 2026 08:17:40 +0000</pubDate>
+      <description>This is a maintenance release with accumulated bug fixes and improvements, and is recommended for all users. It continues the implementation work for the upcoming Amsterdam hardfork.
+A few things worth highlighting:
+The default GOGC has changed from 20 to 50, trading a higher memory peak for less GC overhead. Set --gogc=20 to keep the old behavior.
+Pebble v2 is now supported as a key-value store backend. Pebble v2 is used when Geth is bootstrapped from scratch, and falls back to Pebble v1 for a…</description>
+    </item>
+    <item>
+      <title>sigp/lighthouse v8.2.1: Mrs. Pancakes</title>
+      <link>https://github.com/sigp/lighthouse/releases/tag/v8.2.1</link>
+      <guid isPermaLink="false">34d8c05ac4b8f0b2b151</guid>
+      <pubDate>Tue, 21 Jul 2026 04:50:09 +0000</pubDate>
+      <description>Summary
+:warning: Lighthouse v8.2.1 is a high-priority release containing fixes for several security vulnerabilities, as well as fixes and optimisations.
+All mainnet beacon node users should upgrade as soon as practical to receive the security fixes in this release.
+This release also fixes several bugs relating to partial data columns, which are enabled by default on the Hoodi and Sepolia testnets.
+Upgrade Notes
+No special action is required beyond upgrading. This release does not contain a…</description>
+    </item>
+    <item>
+      <title>bitcoin/bitcoin v29.4: Bitcoin Core 29.4</title>
+      <link>https://github.com/bitcoin/bitcoin/releases/tag/v29.4</link>
+      <guid isPermaLink="false">b1faf41aef19ce218181</guid>
+      <pubDate>Fri, 10 Jul 2026 14:25:37 +0000</pubDate>
+      <description>Bitcoin Core version 29.4 is now available from:
+https://bitcoincore.org/bin/bitcoin-core-29.4/
+For the release notes please see the git repository:
+https://github.com/bitcoin/bitcoin/blob/master/doc/release-notes/release-notes-29.4.md
+Do not use the links provided by GitHub, rather use the above download links, they are guaranteed to be generated deterministically and signed.</description>
+    </item>
+    <item>
+      <title>bitcoin/bitcoin v30.3: Bitcoin Core 30.3</title>
+      <link>https://github.com/bitcoin/bitcoin/releases/tag/v30.3</link>
+      <guid isPermaLink="false">d5b5b8911f0d15744c43</guid>
+      <pubDate>Fri, 10 Jul 2026 09:34:59 +0000</pubDate>
+      <description>Bitcoin Core version 30.3 is now available from:
+https://bitcoincore.org/bin/bitcoin-core-30.3/
+For the release notes please see the git repository:
+https://github.com/bitcoin/bitcoin/blob/master/doc/release-notes/release-notes-30.3.md
+Do not use the links provided by GitHub, rather use the above download links, they are guaranteed to be generated deterministically and signed.</description>
+    </item>
+    <item>
+      <title>bitcoin/bitcoin v31.1: Bitcoin Core 31.1</title>
+      <link>https://github.com/bitcoin/bitcoin/releases/tag/v31.1</link>
+      <guid isPermaLink="false">a9518153932d6ccb7bfe</guid>
+      <pubDate>Wed, 08 Jul 2026 09:14:15 +0000</pubDate>
+      <description>Bitcoin Core version 31.1 is now available from:
+https://bitcoincore.org/bin/bitcoin-core-31.1/
+For the release notes please see the git repository:
+https://github.com/bitcoin/bitcoin/blob/master/doc/release-notes/release-notes-31.1.md
+Do not use the links provided by GitHub. Use the above download links instead, as they are guaranteed to be generated deterministically and signed.</description>
+    </item>
+    <item>
+      <title>sigp/lighthouse v8.2.0: Mr. Goldenfold</title>
+      <link>https://github.com/sigp/lighthouse/releases/tag/v8.2.0</link>
+      <guid isPermaLink="false">4fe3d3404dcf3c000356</guid>
+      <pubDate>Mon, 22 Jun 2026 11:41:59 +0000</pubDate>
+      <description>Summary
+:warning: Lighthouse v8.2.0 is a high-priority release containing fixes for several security vulnerabilities, as well as optimisations and new features.
+All beacon node users should upgrade as soon as practical. Validator client users should review the fee-recipient and graffiti changes below before upgrading.
+This release also contains substantial Gloas preparation, Fulu data-availability networking improvements, and new standard API support.
+Upgrade Notes
+Mandatory fee recipient…</description>
+    </item>
+    <item>
+      <title>ethereum/go-ethereum v1.17.4: Flexible Polymer Casing (v1.17.4)</title>
+      <link>https://github.com/ethereum/go-ethereum/releases/tag/v1.17.4</link>
+      <guid isPermaLink="false">2540d600282c2384bab5</guid>
+      <pubDate>Mon, 22 Jun 2026 07:47:09 +0000</pubDate>
+      <description>This is a maintenance release with accumulated bug fixes and improvements, and is recommended for all users. It also continues the implementation work for the upcoming Amsterdam hardfork.
+One thing worth highlighting:
+Clef has been removed. The standalone clef signer has moved to (#35097).
+Fork Implementation (Amsterdam)
+EIP-7928: Block-Level Access Lists: the block access list is now constructed and verified during block execution, with the serving side of the eth/71 BAL messages implemented…</description>
+    </item>
+    <item>
+      <title>ethereum/go-ethereum v1.17.3: Enzymatic Injector (v1.17.3)</title>
+      <link>https://github.com/ethereum/go-ethereum/releases/tag/v1.17.3</link>
+      <guid isPermaLink="false">9e46fcbf2dd3a48fc37c</guid>
+      <pubDate>Mon, 11 May 2026 15:23:41 +0000</pubDate>
+      <description>This is a maintenance release with continued progress on the Amsterdam fork implementation. It also introduces ETH/70, which is now live on the network.
+Breaking change for tracing APIs (debugtrace), specifically the structLog (opcode) tracer. The following response fields now follow the newly established client-wide spec (ethereum/execution-apis#762) and reexec has been removed from the tracing config:
+memory: words are 0x-prefixed and padded to 32 bytes
+storage: keys and values are…</description>
+    </item>
+    <item>
+      <title>bitcoin/bitcoin v31.0: Bitcoin Core 31.0</title>
+      <link>https://github.com/bitcoin/bitcoin/releases/tag/v31.0</link>
+      <guid isPermaLink="false">d2c8f7f0e66a35df4316</guid>
+      <pubDate>Mon, 20 Apr 2026 13:21:17 +0000</pubDate>
+      <description>Bitcoin Core version 31.0 is now available from:
+https://bitcoincore.org/bin/bitcoin-core-31.0/
+For the release notes please see the git repository:
+https://github.com/bitcoin/bitcoin/blob/master/doc/release-notes/release-notes-31.0.md
+Do not use the links provided by GitHub. Use the above download links instead, as they are guaranteed to be generated deterministically and signed.</description>
+    </item>
+    <item>
+      <title>bitcoin/bitcoin v28.4: Bitcoin Core 28.4</title>
+      <link>https://github.com/bitcoin/bitcoin/releases/tag/v28.4</link>
+      <guid isPermaLink="false">b9d776b9b0bf381af1e7</guid>
+      <pubDate>Mon, 06 Apr 2026 06:37:17 +0000</pubDate>
+      <description>Bitcoin Core version 28.4 is now available from:
+https://bitcoincore.org/bin/bitcoin-core-28.4/
+For the release notes please see the git repository:
+https://github.com/bitcoin/bitcoin/blob/master/doc/release-notes/release-notes-28.4.md
+Do not use the links provided by GitHub. Use the above download links instead, as they are guaranteed to be generated deterministically and signed.</description>
+    </item>
+    <item>
+      <title>ethereum/go-ethereum v1.17.2: EMF Suppressor (v1.17.2)</title>
+      <link>https://github.com/ethereum/go-ethereum/releases/tag/v1.17.2</link>
+      <guid isPermaLink="false">9b9b0b3966bf81303dcc</guid>
+      <pubDate>Mon, 30 Mar 2026 11:24:52 +0000</pubDate>
+      <description>This is a maintenance release with several important bug fixes. Notably, a critical issue in debugexecutionWitness could previously corrupt node data, users relying on this RPC endpoint are strongly advised to upgrade.
+Geth now also supports syncing with chains where pre-Prague history has been pruned, and allows explicitly removing it via geth prune-history --history.chain postprague.
+Geth
+Set default cache size to 4GB across all networks (#33836, #33975)
+Added support for pruning chain…</description>
+    </item>
+    <item>
+      <title>sigp/lighthouse v8.1.3: Noob-Noob</title>
+      <link>https://github.com/sigp/lighthouse/releases/tag/v8.1.3</link>
+      <guid isPermaLink="false">ec4aaf414d261132d166</guid>
+      <pubDate>Thu, 26 Mar 2026 03:47:34 +0000</pubDate>
+      <description>Summary
+:warning: Lighthouse v8.1.3 is a high-priority patch release with further security-critical fixes atop v8.1.2.
+This is a mandatory upgrade for all users running any prior version. All prior Lighthouse releases including v8.1.2 are affected by vulnerabilities. All Lighthouse beacon nodes should be upgraded as soon as possible. The vulnerabilities patched in this release are now publicly disclosed, see the Security Advisories section later in these release notes.
+We greatly appreciate…</description>
+    </item>
+    <item>
+      <title>sigp/lighthouse v8.1.2: Krombopulos Michael</title>
+      <link>https://github.com/sigp/lighthouse/releases/tag/v8.1.2</link>
+      <guid isPermaLink="false">630417b052d73108f1e8</guid>
+      <pubDate>Mon, 09 Mar 2026 09:53:50 +0000</pubDate>
+      <description>Summary
+:warning: Lighthouse v8.1.2 is a high-priority patch release with further security-critical fixes atop v8.1.1.
+This is a mandatory upgrade for all users running any prior version. All prior Lighthouse releases including v8.1.1 are affected by vulnerabilities. All Lighthouse beacon nodes should be upgraded as soon as possible. There will be CVEs announced for these vulnerabilities in the coming days.
+We greatly appreciate your diligence in keeping Ethereum secure, and your…</description>
+    </item>
+  </channel>
+</rss>
