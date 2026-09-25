@@ -2,10 +2,17 @@
 <rss version="2.0">
   <channel>
     <title>AI lab announcements</title>
-    <link>https://deepmind.google/blog/rss.xml</link>
-    <description>Events collected by UnlimitedPipe 0.3.1</description>
-    <generator>UnlimitedPipe 0.3.1</generator>
-    <lastBuildDate>Thu, 24 Sep 2026 17:25:58 +0000</lastBuildDate>
+    <link>https://openai.com/news/rss.xml</link>
+    <description>Events collected by UnlimitedPipe 0.3.2</description>
+    <generator>UnlimitedPipe 0.3.2</generator>
+    <lastBuildDate>Fri, 25 Sep 2026 17:36:21 +0000</lastBuildDate>
+    <item>
+      <title>Proaction boosts sales 60% and saves 75+ hours with Codex</title>
+      <link>https://openai.com/index/proaction</link>
+      <guid isPermaLink="false">9032e0061b2f6835bc45</guid>
+      <pubDate>Fri, 25 Sep 2026 19:00:00 +0000</pubDate>
+      <description>With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.</description>
+    </item>
     <item>
       <title>Introducing Gemini 3.8 Live with Live Avatar</title>
       <link>https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/</link>
@@ -734,14 +741,6 @@
       <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
       <description>OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.</description>
       <category>Product</category>
-    </item>
-    <item>
-      <title>The Hugging Face incident and the road ahead</title>
-      <link>https://openai.com/index/hugging-face-incident-and-the-road-ahead</link>
-      <guid isPermaLink="false">d4b1dd7edd3a58517e13</guid>
-      <pubDate>Thu, 24 Sep 2026 10:05:22 +0000</pubDate>
-      <description>OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.</description>
-      <category>Security</category>
     </item>
   </channel>
 </rss>

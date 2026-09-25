@@ -2,12 +2,86 @@
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Python news and PEPs",
   "home_page_url": "https://www.python.org/",
-  "description": "Events collected by UnlimitedPipe 0.3.0",
+  "description": "Events collected by UnlimitedPipe 0.3.2",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.3.0"
+    "generator": "UnlimitedPipe 0.3.2"
   },
   "items": [
+    {
+      "id": "ef262a6496ec0470bc4d",
+      "title": "PEP 848: Generational Incremental Garbage Collection",
+      "content_text": "This PEP proposes adding a new cyclic garbage collector to CPython. The new collector will be both generational and incremental. Collections will alternate: a young collection, then an (incremental) old collection, then a young collection, and so on.",
+      "date_published": "2026-09-16T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ef262a6496ec0470bc4d",
+          "source": "rss",
+          "type": "change",
+          "key": "https://peps.python.org/pep-0848/",
+          "source_url": "https://peps.python.org/peps.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-25T17:36:47Z",
+          "data": {
+            "change": "added",
+            "label": "PEP 848: Generational Incremental Garbage Collection",
+            "item_type": "entry",
+            "summary": "added: PEP 848: Generational Incremental Garbage Collection",
+            "after": {
+              "title": "PEP 848: Generational Incremental Garbage Collection",
+              "link": "https://peps.python.org/pep-0848/",
+              "id": "https://peps.python.org/pep-0848/",
+              "author": "Mark Shannon (Mark.Shannon@arm.com)",
+              "published_at": "2026-09-16T00:00:00Z",
+              "updated_at": "2026-09-16T00:00:00Z",
+              "summary": "This PEP proposes adding a new cyclic garbage collector to CPython. The new collector will be both generational and incremental. Collections will alternate: a young collection, then an (incremental) old collection, then a young collection, and so on.",
+              "categories": [],
+              "feed": {
+                "title": "Newest Python PEPs",
+                "url": "https://peps.python.org/",
+                "feed_url": "https://peps.python.org/peps.rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://peps.python.org/peps.rss",
+            "elapsed_ms": 47,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "python-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://peps.python.org/pep-0848/"
+    },
     {
       "id": "231a139fa8ad4577c95e",
       "title": "The Python documentation is now available in Persian",

@@ -9,6 +9,87 @@
   },
   "items": [
     {
+      "id": "d612f3609c0073ffb6b4",
+      "title": "Puripol wins Thailand’s first Asian Games 100m gold in 48 years",
+      "content_text": "NAGOYA, Japan — Thailand’s sprint star Puripol Boonson won the men’s 100m gold medal at the 2026 Asian Games on 25 September, clocking 9.90 seconds and breaking the Asian Games record for the second time in one day. Puripol had set a new Asian Games record of 9.91 seconds in the semi-finals earlier in the […]\nThe post Puripol wins Thailand’s first Asian Games 100m gold in 48 years appeared first on Khaosod English .",
+      "date_published": "2026-09-25T13:38:30Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d612f3609c0073ffb6b4",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.khaosodenglish.com/?p=1464955963",
+          "source_url": "https://www.khaosodenglish.com/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-25T17:36:56Z",
+          "data": {
+            "change": "added",
+            "label": "Puripol wins Thailand’s first Asian Games 100m gold in 48 years",
+            "item_type": "entry",
+            "summary": "added: Puripol wins Thailand’s first Asian Games 100m gold in 48 years",
+            "after": {
+              "title": "Puripol wins Thailand’s first Asian Games 100m gold in 48 years",
+              "link": "https://www.khaosodenglish.com/featured/2026/09/25/puripol-wins-thailands-first-asian-games-100m-gold-in-48-years/",
+              "id": "https://www.khaosodenglish.com/?p=1464955963",
+              "author": "Khaosod English",
+              "published_at": "2026-09-25T13:38:30Z",
+              "updated_at": "2026-09-25T13:38:30Z",
+              "summary": "NAGOYA, Japan — Thailand’s sprint star Puripol Boonson won the men’s 100m gold medal at the 2026 Asian Games on 25 September, clocking 9.90 seconds and breaking the Asian Games record for the second time in one day. Puripol had set a new Asian Games record of 9.91 seconds in the semi-finals earlier in the […]\nThe post Puripol wins Thailand’s first Asian Games 100m gold in 48 years appeared first on Khaosod English .",
+              "categories": [
+                "Featured",
+                "Asian Games"
+              ],
+              "feed": {
+                "title": "Khaosod English",
+                "url": "https://www.khaosodenglish.com",
+                "feed_url": "https://www.khaosodenglish.com/feed/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.khaosodenglish.com/feed/",
+            "elapsed_ms": 1447,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "thailand-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.khaosodenglish.com/featured/2026/09/25/puripol-wins-thailands-first-asian-games-100m-gold-in-48-years/",
+      "tags": [
+        "Featured",
+        "Asian Games"
+      ]
+    },
+    {
       "id": "4574648878b2db7e1417",
       "title": "Thai court upholds life sentence for Spanish actor’s son over Colombian surgeon’s murder",
       "content_text": "SURAT THANI — Thailand’s Court of Appeals Region 8 has upheld a life sentence for Spanish chef Daniel Sancho Bronchalo over the premeditated murder and dismemberment of Colombian plastic surgeon Edwin Arrieta Arteaga on Koh Phangan in 2023. The court read its ruling at Koh Samui Provincial Court on 25 September, rejecting appeals by both […]\nThe post Thai court upholds life sentence for Spanish actor’s son over Colombian surgeon’s murder appeared first on Khaosod English .",

@@ -9,6 +9,252 @@
   },
   "items": [
     {
+      "id": "7a083a92d7b5c3242f7d",
+      "title": "Opus 5.5 is good at explainer videos",
+      "content_text": "hn https://news.ycombinator.com/item?id=49836374 · published_at 2026-09-24T20:28:47Z · points 367 · num_comments 200",
+      "date_published": "2026-09-24T20:28:47Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "7a083a92d7b5c3242f7d",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50#https://news.ycombinator.com/item?id=49836374",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-25T17:36:46Z",
+          "data": {
+            "change": "added",
+            "label": "Opus 5.5 is good at explainer videos",
+            "item_type": "record",
+            "summary": "added: Opus 5.5 is good at explainer videos",
+            "after": {
+              "title": "Opus 5.5 is good at explainer videos",
+              "link": "https://launchvideo.io",
+              "hn": "https://news.ycombinator.com/item?id=49836374",
+              "published_at": "2026-09-24T20:28:47Z",
+              "points": 367,
+              "num_comments": 200
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 317,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.2",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "hn",
+                "namespace": "hn-top",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://launchvideo.io"
+    },
+    {
+      "id": "05be7b43417ba7715911",
+      "title": "Owners mourn spoiled food after firmware update bricks Samsung smart fridges",
+      "content_text": "hn https://news.ycombinator.com/item?id=49829960 · published_at 2026-09-24T12:58:08Z · points 307 · num_comments 320",
+      "date_published": "2026-09-24T12:58:08Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "05be7b43417ba7715911",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50#https://news.ycombinator.com/item?id=49829960",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-25T17:36:46Z",
+          "data": {
+            "change": "added",
+            "label": "Owners mourn spoiled food after firmware update bricks Samsung smart fridges",
+            "item_type": "record",
+            "summary": "added: Owners mourn spoiled food after firmware update bricks Samsung smart fridges",
+            "after": {
+              "title": "Owners mourn spoiled food after firmware update bricks Samsung smart fridges",
+              "link": "https://arstechnica.com/gadgets/2026/09/owners-mourn-spoiled-food-after-firmware-update-bricks-samsung-smart-fridges/",
+              "hn": "https://news.ycombinator.com/item?id=49829960",
+              "published_at": "2026-09-24T12:58:08Z",
+              "points": 307,
+              "num_comments": 320
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 317,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.2",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "hn",
+                "namespace": "hn-top",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://arstechnica.com/gadgets/2026/09/owners-mourn-spoiled-food-after-firmware-update-bricks-samsung-smart-fridges/"
+    },
+    {
+      "id": "0f31c6909a12b0d5079a",
+      "title": "2DWillNeverDie",
+      "content_text": "hn https://news.ycombinator.com/item?id=49801436 · published_at 2026-09-22T14:00:08Z · points 302 · num_comments 76",
+      "date_published": "2026-09-22T14:00:08Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "0f31c6909a12b0d5079a",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50#https://news.ycombinator.com/item?id=49801436",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-25T17:36:46Z",
+          "data": {
+            "change": "added",
+            "label": "2DWillNeverDie",
+            "item_type": "record",
+            "summary": "added: 2DWillNeverDie",
+            "after": {
+              "title": "2DWillNeverDie",
+              "link": "https://2dwillneverdie.com/",
+              "hn": "https://news.ycombinator.com/item?id=49801436",
+              "published_at": "2026-09-22T14:00:08Z",
+              "points": 302,
+              "num_comments": 76
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 317,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.2",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "hn",
+                "namespace": "hn-top",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://2dwillneverdie.com/"
+    },
+    {
       "id": "63938de2b51d45c507c3",
       "title": "Dutch governments builds alternative for Microsoft based on NixOS",
       "content_text": "hn https://news.ycombinator.com/item?id=49841563 · published_at 2026-09-25T08:06:49Z · points 384 · num_comments 172",

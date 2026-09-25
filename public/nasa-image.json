@@ -2,12 +2,79 @@
   "version": "https://jsonfeed.org/version/1.1",
   "title": "NASA Image of the Day",
   "home_page_url": "https://www.nasa.gov/image-of-the-day/",
-  "description": "Events collected by UnlimitedPipe 0.3.1",
+  "description": "Events collected by UnlimitedPipe 0.3.2",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.3.1"
+    "generator": "UnlimitedPipe 0.3.2"
   },
   "items": [
+    {
+      "id": "ccd9af6555ca69b4ffd6",
+      "title": "Hubble Spots Chaotic Secret in Galaxy",
+      "content_text": "Though the spiral galaxy in this ESA/Hubble Picture of the Month seems serene, it hides a chaotic secret.",
+      "date_published": "2026-09-25T15:54:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ccd9af6555ca69b4ffd6",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.nasa.gov/image-detail/a-galaxy-spinning-out-of-sync/",
+          "source_url": "https://www.nasa.gov/feeds/iotd-feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-25T17:36:46Z",
+          "data": {
+            "change": "added",
+            "label": "Hubble Spots Chaotic Secret in Galaxy",
+            "item_type": "entry",
+            "summary": "added: Hubble Spots Chaotic Secret in Galaxy",
+            "after": {
+              "title": "Hubble Spots Chaotic Secret in Galaxy",
+              "link": "https://www.nasa.gov/image-detail/a-galaxy-spinning-out-of-sync/",
+              "id": "https://www.nasa.gov/image-detail/a-galaxy-spinning-out-of-sync/",
+              "author": null,
+              "published_at": "2026-09-25T15:54:00Z",
+              "updated_at": "2026-09-25T15:54:00Z",
+              "summary": "Though the spiral galaxy in this ESA/Hubble Picture of the Month seems serene, it hides a chaotic secret.",
+              "categories": [],
+              "feed": {
+                "title": "NASA Image of the Day",
+                "url": "https://www.nasa.gov/image-of-the-day/",
+                "feed_url": "https://www.nasa.gov/feeds/iotd-feed/"
+              },
+              "enclosures": [
+                "https://www.nasa.gov/wp-content/uploads/2026/09/55534741297-34e5a9d414-o.jpg"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.nasa.gov/feeds/iotd-feed/",
+            "elapsed_ms": 45,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "nasa-image",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.nasa.gov/image-detail/a-galaxy-spinning-out-of-sync/"
+    },
     {
       "id": "fb54d2a78e3cbe70d0d7",
       "title": "Practicing for Safe Landings on the Moon and Beyond",

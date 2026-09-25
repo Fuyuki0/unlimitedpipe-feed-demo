@@ -9,6 +9,249 @@
   },
   "items": [
     {
+      "id": "b6ee30b54f202470963e",
+      "title": "RGBD20K: A Large-Scale Benchmark for RGB-D Semantic Segmentation",
+      "content_text": "In this paper, we propose RGBD20K, a novel dataset for facilitating the development of more robust and general RGB-D semantic segmentation by encompassing abundant categories and high-quality annotations. RGBD20K possesses several attractive properties: (1) Expanded Semantic Space. In particular, it covers 160 fine-grained categories, largely surpassing the category diversity of existing popular RGB-D benchmarks (e.g., NYUv2 with 40 classes and SUN RGB-D with 37 classes). With such enriched…",
+      "date_published": "2026-09-25T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "b6ee30b54f202470963e",
+          "source": "web",
+          "type": "change",
+          "key": "https://huggingface.co/api/daily_papers#https://huggingface.co/papers/2609.29028",
+          "source_url": "https://huggingface.co/api/daily_papers",
+          "timestamp": null,
+          "observed_at": "2026-09-25T17:36:23Z",
+          "data": {
+            "change": "added",
+            "label": "RGBD20K: A Large-Scale Benchmark for RGB-D Semantic Segmentation",
+            "item_type": "record",
+            "summary": "added: RGBD20K: A Large-Scale Benchmark for RGB-D Semantic Segmentation",
+            "after": {
+              "title": "RGBD20K: A Large-Scale Benchmark for RGB-D Semantic Segmentation",
+              "summary": "In this paper, we propose RGBD20K, a novel dataset for facilitating the development of more robust and general RGB-D semantic segmentation by encompassing abundant categories and high-quality annotations. RGBD20K possesses several attractive properties: (1) Expanded Semantic Space. In particular, it covers 160 fine-grained categories, largely surpassing the category diversity of existing popular RGB-D benchmarks (e.g., NYUv2 with 40 classes and SUN RGB-D with 37 classes). With such enriched semantic coverage, we expect to promote the learning of more generalizable segmentation models. (2) Larger Scale. Compared with current benchmarks, RGBD20K offers 20,000 RGB-D image pairs, providing a substantially larger training resource that benefits the development of more powerful deep models. (3) High-Fidelity Annotation. We perform rigorous re-evaluation and correction of existing labels to resolve long-standing annotation noise, resulting in a clean and reliable ground-truth foundation. Furthermore, we propose a novel score-purified fusion (SPF) method, which achieves state-of-the-art performance across all evaluated benchmarks, demonstrating the effectiveness of our approach in leveraging high-quality multimodal information for RGB-D semantic segmentation. The dataset is here: https://github.com/ShaohuaDong2021/RGBD20K/.",
+              "organization": {
+                "_id": "63ac8af59fc40b145608940c",
+                "name": "UNT",
+                "fullname": "University of North Texas",
+                "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/GgPpQytlMV5cIUIHSldbL.png"
+              },
+              "link": "https://huggingface.co/papers/2609.29028",
+              "published_at": "2026-09-25T00:00:00.000Z",
+              "upvotes": 5
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://huggingface.co/api/daily_papers",
+            "content_type": "application/json",
+            "elapsed_ms": 47,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "link=\"https://huggingface.co/papers/\" + paper.id",
+                  "published_at=paper.submittedOnDailyAt",
+                  "upvotes=paper.upvotes"
+                ],
+                "drop": [
+                  "paper",
+                  "publishedAt",
+                  "thumbnail",
+                  "submittedBy",
+                  "isAuthorParticipating",
+                  "numComments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "link",
+                "namespace": "ai-papers",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://huggingface.co/papers/2609.29028"
+    },
+    {
+      "id": "032a5a544348d58ce99c",
+      "title": "AV-GRPO: Modality-Anchored Decoupling Diffusion Reinforcement Learning for Joint Audio-Video Generation",
+      "content_text": "Recent years have witnessed major progress in joint audio-video generation. Existing models still suffer from limited per-modality fidelity, insufficient text-modality alignment and weak cross-modal synchronization. While reinforcement-learning post-training offers a promising remedy, directly adapting it to joint audio-video generation is challenging. Heterogeneous multimodal rewards entangle learning signals and complicate credit assignment. Joint optimization of two modality towers is…",
+      "date_published": "2026-09-25T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "032a5a544348d58ce99c",
+          "source": "web",
+          "type": "change",
+          "key": "https://huggingface.co/api/daily_papers#https://huggingface.co/papers/2609.29816",
+          "source_url": "https://huggingface.co/api/daily_papers",
+          "timestamp": null,
+          "observed_at": "2026-09-25T17:36:23Z",
+          "data": {
+            "change": "added",
+            "label": "AV-GRPO: Modality-Anchored Decoupling Diffusion Reinforcement Learning for Joint Audio-Video Generation",
+            "item_type": "record",
+            "summary": "added: AV-GRPO: Modality-Anchored Decoupling Diffusion Reinforcement Learning for Joint Audio-Video Generation",
+            "after": {
+              "title": "AV-GRPO: Modality-Anchored Decoupling Diffusion Reinforcement Learning for Joint Audio-Video Generation",
+              "summary": "Recent years have witnessed major progress in joint audio-video generation. Existing models still suffer from limited per-modality fidelity, insufficient text-modality alignment and weak cross-modal synchronization. While reinforcement-learning post-training offers a promising remedy, directly adapting it to joint audio-video generation is challenging. Heterogeneous multimodal rewards entangle learning signals and complicate credit assignment. Joint optimization of two modality towers is computationally expensive given their divergent dynamics. Moreover, synchronization evaluation difficulty depends on paired samples, preventing fair reward comparisons. We propose AV-GRPO, a modality-anchored online diffusion RL framework, and 5DAV, a decoupled, difficulty-controllable training dataset. AV-GRPO includes three key modules: (1) modality-anchored rollouts to disentangle learning signals and stabilize difficulty; (2) trajectory-locked frozen-tower optimization to reduce cost and reassign credit; (3) adaptive objectives and perturbation strengths tailored to modality-specific dynamics. This converts coupled multimodal preference learning into unimodal subproblems for precise reward attribution and better synchronization. Our 5DAV dataset decouples samples across five dimensions for systematic training. Experiments on JavisBench and VABench demonstrate AV-GRPO outperforms LTX-2.3 in generation quality, semantic alignment and cross-modal synchronization under LoRA and full fine-tuning. Ablations confirm our designs. Code and data: https://github.com/zhiyuxu03/AV-GRPO",
+              "organization": {
+                "_id": "6a4fb75a1c66dbf208e7ddb6",
+                "name": "Shanghai-AI-Laboratory",
+                "fullname": "Shanghai AI Laboratory",
+                "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/65cd955637be1841d0b75397/Rao_Kq6NMtTVfSqLUIR4k.webp"
+              },
+              "link": "https://huggingface.co/papers/2609.29816",
+              "published_at": "2026-09-25T00:00:00.000Z",
+              "upvotes": 2
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://huggingface.co/api/daily_papers",
+            "content_type": "application/json",
+            "elapsed_ms": 47,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "link=\"https://huggingface.co/papers/\" + paper.id",
+                  "published_at=paper.submittedOnDailyAt",
+                  "upvotes=paper.upvotes"
+                ],
+                "drop": [
+                  "paper",
+                  "publishedAt",
+                  "thumbnail",
+                  "submittedBy",
+                  "isAuthorParticipating",
+                  "numComments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "link",
+                "namespace": "ai-papers",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://huggingface.co/papers/2609.29816"
+    },
+    {
+      "id": "8f2af8f1b01d8527e3be",
+      "title": "Your Transformer Can Hold Two Thoughts at Once: Evidence of Linear Superposition in LLMs",
+      "content_text": "While Large Language Models (LLMs) rely on highly non-linear components, in this work we demonstrate that they exhibit fundamental linearity: when inputs from distinct text streams are linearly combined, the model outputs a superposition of the individual next-token distributions. We term this the Superposition Linearity Hypothesis. We provide evidence that superposition is an intrinsic property of the Transformer architecture rather than an emergent consequence of training; in fact, we observe…",
+      "date_published": "2026-09-25T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "8f2af8f1b01d8527e3be",
+          "source": "web",
+          "type": "change",
+          "key": "https://huggingface.co/api/daily_papers#https://huggingface.co/papers/2609.29845",
+          "source_url": "https://huggingface.co/api/daily_papers",
+          "timestamp": null,
+          "observed_at": "2026-09-25T17:36:23Z",
+          "data": {
+            "change": "added",
+            "label": "Your Transformer Can Hold Two Thoughts at Once: Evidence of Linear Superposition in LLMs",
+            "item_type": "record",
+            "summary": "added: Your Transformer Can Hold Two Thoughts at Once: Evidence of Linear Superposition in LLMs",
+            "after": {
+              "title": "Your Transformer Can Hold Two Thoughts at Once: Evidence of Linear Superposition in LLMs",
+              "summary": "While Large Language Models (LLMs) rely on highly non-linear components, in this work we demonstrate that they exhibit fundamental linearity: when inputs from distinct text streams are linearly combined, the model outputs a superposition of the individual next-token distributions. We term this the Superposition Linearity Hypothesis. We provide evidence that superposition is an intrinsic property of the Transformer architecture rather than an emergent consequence of training; in fact, we observe that it tends to diminish as pretraining progresses. However, we demonstrate that linearity can be substantially restored through lightweight fine-tuning, significantly reducing the divergence between the predicted next-token distribution and the average of the individual next-token distributions. Finally, we introduce a guided decoding procedure that disentangles superposed outputs, enabling the simultaneous generation of two coherent continuations from a single forward pass.",
+              "link": "https://huggingface.co/papers/2609.29845",
+              "published_at": "2026-09-25T00:00:00.000Z",
+              "upvotes": 46
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://huggingface.co/api/daily_papers",
+            "content_type": "application/json",
+            "elapsed_ms": 47,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "link=\"https://huggingface.co/papers/\" + paper.id",
+                  "published_at=paper.submittedOnDailyAt",
+                  "upvotes=paper.upvotes"
+                ],
+                "drop": [
+                  "paper",
+                  "publishedAt",
+                  "thumbnail",
+                  "submittedBy",
+                  "isAuthorParticipating",
+                  "numComments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "link",
+                "namespace": "ai-papers",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://huggingface.co/papers/2609.29845"
+    },
+    {
       "id": "cc48c8076557fd66094b",
       "title": "Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures",
       "content_text": "Detectors of alignment failures screen deployed language models and score alignment benchmarks. Most are generative judges that spend a decoding pass on every criterion, and classifiers that read token probabilities, such as Llama Guard, still score one fixed label per call. Jev, a model trained with reinforcement learning for calibrated decisions (RLCD), answers many typed questions about one input with calibrated probabilities in a single call. Whether it detects alignment failures has not…",

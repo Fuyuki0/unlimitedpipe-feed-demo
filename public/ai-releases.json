@@ -9,6 +9,88 @@
   },
   "items": [
     {
+      "id": "97f95731a6c871f9797e",
+      "title": "langchain-ai/langchain langchain-fireworks==1.6.3",
+      "content_text": "Changes since langchain-fireworks==1.6.2\nrelease(fireworks): 1.6.3 (#40834)\nfix(fireworks): declare native PDF inputs unsupported (#40814)\nfix(fireworks): preserve malformed tool arguments as diagnostic JSON (#40818)\nchore(model-profiles): refresh model profile data (#40804)",
+      "date_published": "2026-09-25T12:57:38Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "97f95731a6c871f9797e",
+          "source": "github",
+          "type": "change",
+          "key": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.6.3",
+          "source_url": "https://api.github.com/repos/langchain-ai/langchain/releases",
+          "timestamp": null,
+          "observed_at": "2026-09-25T17:36:30Z",
+          "data": {
+            "change": "added",
+            "label": "langchain-ai/langchain langchain-fireworks==1.6.3",
+            "item_type": "release",
+            "summary": "added: langchain-ai/langchain langchain-fireworks==1.6.3",
+            "after": {
+              "repo": "langchain-ai/langchain",
+              "title": "langchain-ai/langchain langchain-fireworks==1.6.3",
+              "tag": "langchain-fireworks==1.6.3",
+              "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.6.3",
+              "published_at": "2026-09-25T12:57:38Z",
+              "prerelease": false,
+              "author": "github-actions[bot]",
+              "summary": "Changes since langchain-fireworks==1.6.2\nrelease(fireworks): 1.6.3 (#40834)\nfix(fireworks): declare native PDF inputs unsupported (#40814)\nfix(fireworks): preserve malformed tool arguments as diagnostic JSON (#40818)\nchore(model-profiles): refresh model profile data (#40804)",
+              "assets": 2
+            }
+          },
+          "metadata": {
+            "method": "github-api"
+          },
+          "provenance": [
+            {
+              "step": "github",
+              "version": "0.3.2"
+            },
+            {
+              "step": "filter",
+              "version": "0.3.2",
+              "args": {
+                "expr": "not (tag matches \"^b[0-9]+$\")"
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "title=repo + \" \" + title"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "ai-releases",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.6.3"
+    },
+    {
       "id": "ce754497d07217e7abab",
       "title": "ollama/ollama v0.40.0",
       "content_text": "What's Changed\nModels run on MLX on Apple Silicon by default\nIn this release, model architectures supported by the MLX runner will run by default on Apple Silicon devices.\nollama pull qwen3.8\nollama run qwen3.8\nDuring the RC we will be testing and enabling additional models.\nFull Changelog: https://github.com/ollama/ollama/compare/v0.34.4...v0.40.0-rc0",

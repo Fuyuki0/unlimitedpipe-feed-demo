@@ -1,13 +1,1473 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Crypto news (CoinDesk, Cointelegraph, Decrypt)",
-  "home_page_url": "https://decrypt.co/feed",
+  "home_page_url": "https://cointelegraph.com/rss",
   "description": "Events collected by UnlimitedPipe 0.3.2",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
     "generator": "UnlimitedPipe 0.3.2"
   },
   "items": [
+    {
+      "id": "7da9eb26d21cbec09503",
+      "title": "Bitget clarifies $388M in assets affected by security breach",
+      "content_text": "The Bitget breach announced on Thursday affected about $35 million more than previously reported, based on an analysis of assets on Zcash and TRON.",
+      "date_published": "2026-09-25T17:17:45Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "7da9eb26d21cbec09503",
+          "source": "rss",
+          "type": "change",
+          "key": "https://cointelegraph.com/news/bitget-clarifies-assets-affected-security-breach",
+          "source_url": "https://cointelegraph.com/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-25T17:36:34Z",
+          "data": {
+            "change": "added",
+            "label": "Bitget clarifies $388M in assets affected by security breach",
+            "item_type": "entry",
+            "summary": "added: Bitget clarifies $388M in assets affected by security breach",
+            "after": {
+              "title": "Bitget clarifies $388M in assets affected by security breach",
+              "link": "https://cointelegraph.com/news/bitget-clarifies-assets-affected-security-breach?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+              "id": "https://cointelegraph.com/news/bitget-clarifies-assets-affected-security-breach",
+              "author": "Cointelegraph by Turner Wright",
+              "published_at": "2026-09-25T17:17:45Z",
+              "updated_at": "2026-09-25T17:20:01Z",
+              "summary": "The Bitget breach announced on Thursday affected about $35 million more than previously reported, based on an analysis of assets on Zcash and TRON.",
+              "categories": [
+                "Latest News"
+              ],
+              "feed": {
+                "title": "Cointelegraph.com News",
+                "url": "https://cointelegraph.com",
+                "feed_url": "https://cointelegraph.com/rss"
+              },
+              "enclosures": [
+                "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3CQDGGFK82WPW7Q372S69XX/hi-why-spot-the-typo-is-no-longer-enough-for-crypto-security.jpg"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://cointelegraph.com/rss",
+            "elapsed_ms": 119,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://cointelegraph.com/news/bitget-clarifies-assets-affected-security-breach?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "tags": [
+        "Latest News"
+      ]
+    },
+    {
+      "id": "18be41f8ed80e20e1bb5",
+      "title": "Bitget Hack Losses Climb to $387M: Here’s What Happened, and Why North Korea Is a Suspect",
+      "content_text": "An attacker faked internal transfer requests to drain $387.5 million from Bitget's hot and warm wallets, and the exchange's CEO says the fingerprints look like Pyongyang's.",
+      "date_published": "2026-09-25T17:08:57Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "18be41f8ed80e20e1bb5",
+          "source": "rss",
+          "type": "change",
+          "key": "https://decrypt.co/?p=379350",
+          "source_url": "https://decrypt.co/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-25T17:36:34Z",
+          "data": {
+            "change": "added",
+            "label": "Bitget Hack Losses Climb to $387M: Here’s What Happened, and Why North Korea Is a Suspect",
+            "item_type": "entry",
+            "summary": "added: Bitget Hack Losses Climb to $387M: Here’s What Happened, and Why North Korea Is a Suspect",
+            "after": {
+              "title": "Bitget Hack Losses Climb to $387M: Here’s What Happened, and Why North Korea Is a Suspect",
+              "link": "https://decrypt.co/379350/bitget-hack-387m-what-happened-why-north-korea-suspect",
+              "id": "https://decrypt.co/?p=379350",
+              "author": "Jose Antonio Lanz",
+              "published_at": "2026-09-25T17:08:57Z",
+              "updated_at": "2026-09-25T17:08:57Z",
+              "summary": "An attacker faked internal transfer requests to drain $387.5 million from Bitget's hot and warm wallets, and the exchange's CEO says the fingerprints look like Pyongyang's.",
+              "categories": [
+                "Business"
+              ],
+              "feed": {
+                "title": "Decrypt",
+                "url": "https://decrypt.co/feed",
+                "feed_url": "https://decrypt.co/feed"
+              },
+              "enclosures": [
+                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/02/dprk-north-korea-hacker-decrypt-style-gID_7.jpg@png"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://decrypt.co/feed",
+            "elapsed_ms": 32,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://decrypt.co/379350/bitget-hack-387m-what-happened-why-north-korea-suspect",
+      "tags": [
+        "Business"
+      ]
+    },
+    {
+      "id": "db5af9e00e8870bc2e41",
+      "title": "Strategy seeks shareholder approval for daily preferred stock dividends",
+      "content_text": "Strategy’s proposal would move STRC and its three other preferred stocks to daily dividend payments, following a similar move by Bitcoin treasury firm Strive.",
+      "date_published": "2026-09-25T16:34:16Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "db5af9e00e8870bc2e41",
+          "source": "rss",
+          "type": "change",
+          "key": "https://cointelegraph.com/news/strategy-seeks-shareholder-approval-daily-preferred-stock-dividends",
+          "source_url": "https://cointelegraph.com/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-25T17:36:34Z",
+          "data": {
+            "change": "added",
+            "label": "Strategy seeks shareholder approval for daily preferred stock dividends",
+            "item_type": "entry",
+            "summary": "added: Strategy seeks shareholder approval for daily preferred stock dividends",
+            "after": {
+              "title": "Strategy seeks shareholder approval for daily preferred stock dividends",
+              "link": "https://cointelegraph.com/news/strategy-seeks-shareholder-approval-daily-preferred-stock-dividends?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+              "id": "https://cointelegraph.com/news/strategy-seeks-shareholder-approval-daily-preferred-stock-dividends",
+              "author": "Cointelegraph by Nate Kostar",
+              "published_at": "2026-09-25T16:34:16Z",
+              "updated_at": "2026-09-25T16:38:16Z",
+              "summary": "Strategy’s proposal would move STRC and its three other preferred stocks to daily dividend payments, following a similar move by Bitcoin treasury firm Strive.",
+              "categories": [
+                "Latest News"
+              ],
+              "feed": {
+                "title": "Cointelegraph.com News",
+                "url": "https://cointelegraph.com",
+                "feed_url": "https://cointelegraph.com/rss"
+              },
+              "enclosures": [
+                "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3CNP9TAS87YZRJ48GX2N99M/hi-strategyb.png"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://cointelegraph.com/rss",
+            "elapsed_ms": 119,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://cointelegraph.com/news/strategy-seeks-shareholder-approval-daily-preferred-stock-dividends?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "tags": [
+        "Latest News"
+      ]
+    },
+    {
+      "id": "a354fc80dd79ac3ac91c",
+      "title": "Magic Eden Warns Old Ethereum NFT Listings Are Exposed to Payment Processor Exploit",
+      "content_text": "A flaw in Limit Break's Payment Processor V2 put old Magic Eden Ethereum listings at risk, prompting a whitehat rescue of more than 23,000 NFTs.",
+      "date_published": "2026-09-25T16:17:19Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "a354fc80dd79ac3ac91c",
+          "source": "rss",
+          "type": "change",
+          "key": "https://decrypt.co/?p=379342",
+          "source_url": "https://decrypt.co/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-25T17:36:34Z",
+          "data": {
+            "change": "added",
+            "label": "Magic Eden Warns Old Ethereum NFT Listings Are Exposed to Payment Processor Exploit",
+            "item_type": "entry",
+            "summary": "added: Magic Eden Warns Old Ethereum NFT Listings Are Exposed to Payment Processor Exploit",
+            "after": {
+              "title": "Magic Eden Warns Old Ethereum NFT Listings Are Exposed to Payment Processor Exploit",
+              "link": "https://decrypt.co/379342/magic-eden-old-ethereum-nft-listings-exposed-exploit",
+              "id": "https://decrypt.co/?p=379342",
+              "author": "Decrypt Staff",
+              "published_at": "2026-09-25T16:17:19Z",
+              "updated_at": "2026-09-25T16:17:19Z",
+              "summary": "A flaw in Limit Break's Payment Processor V2 put old Magic Eden Ethereum listings at risk, prompting a whitehat rescue of more than 23,000 NFTs.",
+              "categories": [
+                "NFTs"
+              ],
+              "feed": {
+                "title": "Decrypt",
+                "url": "https://decrypt.co/feed",
+                "feed_url": "https://decrypt.co/feed"
+              },
+              "enclosures": [
+                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/01/decrypt-style-nft-art-gID_7.png@png"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://decrypt.co/feed",
+            "elapsed_ms": 32,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://decrypt.co/379342/magic-eden-old-ethereum-nft-listings-exposed-exploit",
+      "tags": [
+        "NFTs"
+      ]
+    },
+    {
+      "id": "6d2049cfb08cbaa0eb44",
+      "title": "Bitcoin Rally Slows as $15.6 Billion Options Expiry Hits—XRP and Solana Keep Climbing",
+      "content_text": "Pullback or reversal? Here's what the charts suggest for BTC.",
+      "date_published": "2026-09-25T16:06:23Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "6d2049cfb08cbaa0eb44",
+          "source": "rss",
+          "type": "change",
+          "key": "https://decrypt.co/?p=379319",
+          "source_url": "https://decrypt.co/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-25T17:36:34Z",
+          "data": {
+            "change": "added",
+            "label": "Bitcoin Rally Slows as $15.6 Billion Options Expiry Hits—XRP and Solana Keep Climbing",
+            "item_type": "entry",
+            "summary": "added: Bitcoin Rally Slows as $15.6 Billion Options Expiry Hits—XRP and Solana Keep Climbing",
+            "after": {
+              "title": "Bitcoin Rally Slows as $15.6 Billion Options Expiry Hits—XRP and Solana Keep Climbing",
+              "link": "https://decrypt.co/379319/bitcoin-slows-billion-options-expiry-xrp-solana",
+              "id": "https://decrypt.co/?p=379319",
+              "author": "Jose Antonio Lanz",
+              "published_at": "2026-09-25T16:06:23Z",
+              "updated_at": "2026-09-25T16:06:23Z",
+              "summary": "Pullback or reversal? Here's what the charts suggest for BTC.",
+              "categories": [
+                "Markets"
+              ],
+              "feed": {
+                "title": "Decrypt",
+                "url": "https://decrypt.co/feed",
+                "feed_url": "https://decrypt.co/feed"
+              },
+              "enclosures": [
+                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/07/Bitcoin-decrypt-style-23-gID_7.jpg@png"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://decrypt.co/feed",
+            "elapsed_ms": 32,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://decrypt.co/379319/bitcoin-slows-billion-options-expiry-xrp-solana",
+      "tags": [
+        "Markets"
+      ]
+    },
+    {
+      "id": "fab8dfa898c47688b8fb",
+      "title": "Crypto Biz: Wall Street and crypto fight for the same turf",
+      "content_text": "Stablecoins and tokenized assets are pushing banks, exchanges and crypto companies into the same markets, from payments to stocks and ETFs.",
+      "date_published": "2026-09-25T15:49:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "fab8dfa898c47688b8fb",
+          "source": "rss",
+          "type": "change",
+          "key": "https://cointelegraph.com/news/crypto-biz-crypto-tradfi-stablecoins-tokenized-assets",
+          "source_url": "https://cointelegraph.com/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-25T17:36:34Z",
+          "data": {
+            "change": "added",
+            "label": "Crypto Biz: Wall Street and crypto fight for the same turf",
+            "item_type": "entry",
+            "summary": "added: Crypto Biz: Wall Street and crypto fight for the same turf",
+            "after": {
+              "title": "Crypto Biz: Wall Street and crypto fight for the same turf",
+              "link": "https://cointelegraph.com/news/crypto-biz-crypto-tradfi-stablecoins-tokenized-assets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+              "id": "https://cointelegraph.com/news/crypto-biz-crypto-tradfi-stablecoins-tokenized-assets",
+              "author": "Cointelegraph by Sam Bourgi",
+              "published_at": "2026-09-25T15:49:34Z",
+              "updated_at": "2026-09-25T15:55:03Z",
+              "summary": "Stablecoins and tokenized assets are pushing banks, exchanges and crypto companies into the same markets, from payments to stocks and ETFs.",
+              "categories": [
+                "Latest News"
+              ],
+              "feed": {
+                "title": "Cointelegraph.com News",
+                "url": "https://cointelegraph.com",
+                "feed_url": "https://cointelegraph.com/rss"
+              },
+              "enclosures": [
+                "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3CM3GXTXZWWRNTY7Y5MXRMC/hi-how-bitcoins-legal-victory-turned-it-into-wall-streets-favorite-crypto-1.jpg"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://cointelegraph.com/rss",
+            "elapsed_ms": 119,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://cointelegraph.com/news/crypto-biz-crypto-tradfi-stablecoins-tokenized-assets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "tags": [
+        "Latest News"
+      ]
+    },
+    {
+      "id": "bb5d11fcf975e969118a",
+      "title": "Circle and Tether step in to freeze hacker wallet after massive Bitget crypto heist",
+      "content_text": "Circle and Tether step in to freeze hacker wallet after massive Bitget crypto heist",
+      "date_published": "2026-09-25T14:41:53Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "bb5d11fcf975e969118a",
+          "source": "rss",
+          "type": "change",
+          "key": "a0b4a6ba-5569-4fef-940c-e402f9698d89",
+          "source_url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+          "timestamp": null,
+          "observed_at": "2026-09-25T17:36:34Z",
+          "data": {
+            "change": "added",
+            "label": "Circle and Tether step in to freeze hacker wallet after massive Bitget crypto heist",
+            "item_type": "entry",
+            "summary": "added: Circle and Tether step in to freeze hacker wallet after massive Bitget crypto heist",
+            "after": {
+              "title": "Circle and Tether step in to freeze hacker wallet after massive Bitget crypto heist",
+              "link": "https://www.coindesk.com/markets/2026/09/25/circle-and-tether-step-in-to-freeze-hacker-wallet-after-massive-bitget-crypto-heist",
+              "id": "a0b4a6ba-5569-4fef-940c-e402f9698d89",
+              "author": "Oliver Knight",
+              "published_at": "2026-09-25T14:41:53Z",
+              "updated_at": "2026-09-25T14:41:53Z",
+              "summary": null,
+              "categories": [
+                "Markets",
+                "Circle",
+                "Tether",
+                "News"
+              ],
+              "feed": {
+                "title": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+                "url": "https://www.coindesk.com/",
+                "feed_url": "https://www.coindesk.com/arc/outboundfeeds/rss/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.coindesk.com/arc/outboundfeeds/rss",
+            "elapsed_ms": 96,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.coindesk.com/markets/2026/09/25/circle-and-tether-step-in-to-freeze-hacker-wallet-after-massive-bitget-crypto-heist",
+      "tags": [
+        "Markets",
+        "Circle",
+        "Tether",
+        "News"
+      ]
+    },
+    {
+      "id": "ac515980cbbd6c4a1ca3",
+      "title": "Tokenization is moving faster than Washington",
+      "content_text": "Tokenization is moving faster than Washington",
+      "date_published": "2026-09-25T14:37:32Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ac515980cbbd6c4a1ca3",
+          "source": "rss",
+          "type": "change",
+          "key": "4b1641e9-2454-46f5-841d-56cf7c985a35",
+          "source_url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+          "timestamp": null,
+          "observed_at": "2026-09-25T17:36:34Z",
+          "data": {
+            "change": "added",
+            "label": "Tokenization is moving faster than Washington",
+            "item_type": "entry",
+            "summary": "added: Tokenization is moving faster than Washington",
+            "after": {
+              "title": "Tokenization is moving faster than Washington",
+              "link": "https://www.coindesk.com/opinion/2026/09/25/tokenization-is-moving-faster-than-washington",
+              "id": "4b1641e9-2454-46f5-841d-56cf7c985a35",
+              "author": "Andrew Cuomo",
+              "published_at": "2026-09-25T14:37:32Z",
+              "updated_at": "2026-09-25T14:37:32Z",
+              "summary": null,
+              "categories": [
+                "Opinion",
+                "Opinion"
+              ],
+              "feed": {
+                "title": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+                "url": "https://www.coindesk.com/",
+                "feed_url": "https://www.coindesk.com/arc/outboundfeeds/rss/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.coindesk.com/arc/outboundfeeds/rss",
+            "elapsed_ms": 96,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.coindesk.com/opinion/2026/09/25/tokenization-is-moving-faster-than-washington",
+      "tags": [
+        "Opinion",
+        "Opinion"
+      ]
+    },
+    {
+      "id": "8b50690dcd55c880caec",
+      "title": "Tether confirms minimal EQIBank exposure following $89M US asset seizure",
+      "content_text": "Tether confirms minimal EQIBank exposure following $89M US asset seizure",
+      "date_published": "2026-09-25T14:32:48Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "8b50690dcd55c880caec",
+          "source": "rss",
+          "type": "change",
+          "key": "8c72534c-d321-4ff2-a9db-0d3ee8cc1a04",
+          "source_url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+          "timestamp": null,
+          "observed_at": "2026-09-25T17:36:34Z",
+          "data": {
+            "change": "added",
+            "label": "Tether confirms minimal EQIBank exposure following $89M US asset seizure",
+            "item_type": "entry",
+            "summary": "added: Tether confirms minimal EQIBank exposure following $89M US asset seizure",
+            "after": {
+              "title": "Tether confirms minimal EQIBank exposure following $89M US asset seizure",
+              "link": "https://www.coindesk.com/policy/2026/09/25/tether-confirms-minimal-eqibank-exposure-following-usd89m-us-asset-seizure",
+              "id": "8c72534c-d321-4ff2-a9db-0d3ee8cc1a04",
+              "author": "Olivier Acuna",
+              "published_at": "2026-09-25T14:32:48Z",
+              "updated_at": "2026-09-25T14:32:48Z",
+              "summary": null,
+              "categories": [
+                "Policy",
+                "Tether",
+                "News"
+              ],
+              "feed": {
+                "title": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+                "url": "https://www.coindesk.com/",
+                "feed_url": "https://www.coindesk.com/arc/outboundfeeds/rss/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.coindesk.com/arc/outboundfeeds/rss",
+            "elapsed_ms": 96,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.coindesk.com/policy/2026/09/25/tether-confirms-minimal-eqibank-exposure-following-usd89m-us-asset-seizure",
+      "tags": [
+        "Policy",
+        "Tether",
+        "News"
+      ]
+    },
+    {
+      "id": "3f3b7e11f394048e82da",
+      "title": "Strategy proposes daily dividends to bring STRC back toward $100",
+      "content_text": "Strategy proposes daily dividends to bring STRC back toward $100",
+      "date_published": "2026-09-25T14:22:07Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "3f3b7e11f394048e82da",
+          "source": "rss",
+          "type": "change",
+          "key": "40a7a32a-4dde-407f-aa04-c9fee2ae7ad4",
+          "source_url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+          "timestamp": null,
+          "observed_at": "2026-09-25T17:36:34Z",
+          "data": {
+            "change": "added",
+            "label": "Strategy proposes daily dividends to bring STRC back toward $100",
+            "item_type": "entry",
+            "summary": "added: Strategy proposes daily dividends to bring STRC back toward $100",
+            "after": {
+              "title": "Strategy proposes daily dividends to bring STRC back toward $100",
+              "link": "https://www.coindesk.com/markets/2026/09/25/strategy-proposes-daily-dividends-to-bring-strc-back-toward-usd100",
+              "id": "40a7a32a-4dde-407f-aa04-c9fee2ae7ad4",
+              "author": "James Van Straten",
+              "published_at": "2026-09-25T14:22:07Z",
+              "updated_at": "2026-09-25T14:22:07Z",
+              "summary": null,
+              "categories": [
+                "Markets",
+                "Bitcoin News",
+                "News"
+              ],
+              "feed": {
+                "title": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+                "url": "https://www.coindesk.com/",
+                "feed_url": "https://www.coindesk.com/arc/outboundfeeds/rss/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.coindesk.com/arc/outboundfeeds/rss",
+            "elapsed_ms": 96,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.coindesk.com/markets/2026/09/25/strategy-proposes-daily-dividends-to-bring-strc-back-toward-usd100",
+      "tags": [
+        "Markets",
+        "Bitcoin News",
+        "News"
+      ]
+    },
+    {
+      "id": "4e8a18d65250688428c4",
+      "title": "Exchanges reporting crypto gains to IRS becomes tax nightmare",
+      "content_text": "The IRS can now see your crypto gains, but has no idea about the cost-basis. That’s proving to be a big headache for some cryptocurrency investors.",
+      "date_published": "2026-09-25T13:30:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "4e8a18d65250688428c4",
+          "source": "rss",
+          "type": "change",
+          "key": "https://cointelegraph.com/magazine/exchanges-reporting-crypto-gains-to-irs-becomes-tax-nightmare",
+          "source_url": "https://cointelegraph.com/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-25T17:36:34Z",
+          "data": {
+            "change": "added",
+            "label": "Exchanges reporting crypto gains to IRS becomes tax nightmare",
+            "item_type": "entry",
+            "summary": "added: Exchanges reporting crypto gains to IRS becomes tax nightmare",
+            "after": {
+              "title": "Exchanges reporting crypto gains to IRS becomes tax nightmare",
+              "link": "https://cointelegraph.com/magazine/exchanges-reporting-crypto-gains-to-irs-becomes-tax-nightmare?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+              "id": "https://cointelegraph.com/magazine/exchanges-reporting-crypto-gains-to-irs-becomes-tax-nightmare",
+              "author": "Cointelegraph by Christina Comben",
+              "published_at": "2026-09-25T13:30:00Z",
+              "updated_at": "2026-09-25T00:07:53Z",
+              "summary": "The IRS can now see your crypto gains, but has no idea about the cost-basis. That’s proving to be a big headache for some cryptocurrency investors.",
+              "categories": [
+                "Magazine"
+              ],
+              "feed": {
+                "title": "Cointelegraph.com News",
+                "url": "https://cointelegraph.com",
+                "feed_url": "https://cointelegraph.com/rss"
+              },
+              "enclosures": [
+                "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M393217ZWENYSM5H2H2MBNDK/magazine-crypto-taxes.jpg"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://cointelegraph.com/rss",
+            "elapsed_ms": 119,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://cointelegraph.com/magazine/exchanges-reporting-crypto-gains-to-irs-becomes-tax-nightmare?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "tags": [
+        "Magazine"
+      ]
+    },
+    {
+      "id": "9f54225673259f0a2603",
+      "title": "Strategy Wants Its Preferred Stock Dividends to Accrue 365 Days a Year",
+      "content_text": "STRF, STRC, STRK and STRD would accrue dividends on weekends and holidays, in a move Strategy says will dampen volatility.",
+      "date_published": "2026-09-25T13:22:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "9f54225673259f0a2603",
+          "source": "rss",
+          "type": "change",
+          "key": "https://decrypt.co/?p=379309",
+          "source_url": "https://decrypt.co/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-25T17:36:34Z",
+          "data": {
+            "change": "added",
+            "label": "Strategy Wants Its Preferred Stock Dividends to Accrue 365 Days a Year",
+            "item_type": "entry",
+            "summary": "added: Strategy Wants Its Preferred Stock Dividends to Accrue 365 Days a Year",
+            "after": {
+              "title": "Strategy Wants Its Preferred Stock Dividends to Accrue 365 Days a Year",
+              "link": "https://decrypt.co/379309/strategy-wants-its-preferred-stock-dividends-to-accrue-365-days-a-year",
+              "id": "https://decrypt.co/?p=379309",
+              "author": "Decrypt Agent",
+              "published_at": "2026-09-25T13:22:00Z",
+              "updated_at": "2026-09-25T13:22:00Z",
+              "summary": "STRF, STRC, STRK and STRD would accrue dividends on weekends and holidays, in a move Strategy says will dampen volatility.",
+              "categories": [
+                "Coins"
+              ],
+              "feed": {
+                "title": "Decrypt",
+                "url": "https://decrypt.co/feed",
+                "feed_url": "https://decrypt.co/feed"
+              },
+              "enclosures": [
+                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/03/decrypt-style-strategy-saylor-le-gID_7.png@png"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://decrypt.co/feed",
+            "elapsed_ms": 32,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://decrypt.co/379309/strategy-wants-its-preferred-stock-dividends-to-accrue-365-days-a-year",
+      "tags": [
+        "Coins"
+      ]
+    },
+    {
+      "id": "ece46b3ad78451ed2fe3",
+      "title": "Morgan Stanley Joins NEXTPredict as Prediction Markets Bet on 'More Institutional' Play",
+      "content_text": "The bulk of prediction market trades are still sports bets, while valuations are predicated on rising institutional interest.",
+      "date_published": "2026-09-25T13:16:03Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ece46b3ad78451ed2fe3",
+          "source": "rss",
+          "type": "change",
+          "key": "https://decrypt.co/?p=379218",
+          "source_url": "https://decrypt.co/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-25T17:36:34Z",
+          "data": {
+            "change": "added",
+            "label": "Morgan Stanley Joins NEXTPredict as Prediction Markets Bet on 'More Institutional' Play",
+            "item_type": "entry",
+            "summary": "added: Morgan Stanley Joins NEXTPredict as Prediction Markets Bet on 'More Institutional' Play",
+            "after": {
+              "title": "Morgan Stanley Joins NEXTPredict as Prediction Markets Bet on 'More Institutional' Play",
+              "link": "https://decrypt.co/379218/morgan-stanley-joins-nextpredict-as-prediction-markets-bet-on-more-institutional-play",
+              "id": "https://decrypt.co/?p=379218",
+              "author": "Decrypt Agent",
+              "published_at": "2026-09-25T13:16:03Z",
+              "updated_at": "2026-09-25T13:16:03Z",
+              "summary": "The bulk of prediction market trades are still sports bets, while valuations are predicated on rising institutional interest.",
+              "categories": [
+                "Business"
+              ],
+              "feed": {
+                "title": "Decrypt",
+                "url": "https://decrypt.co/feed",
+                "feed_url": "https://decrypt.co/feed"
+              },
+              "enclosures": [
+                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/02/decrypt-style-morgan-stanley-gID_7.png@png"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://decrypt.co/feed",
+            "elapsed_ms": 32,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://decrypt.co/379218/morgan-stanley-joins-nextpredict-as-prediction-markets-bet-on-more-institutional-play",
+      "tags": [
+        "Business"
+      ]
+    },
+    {
+      "id": "4f6cd8692aab7ee18d06",
+      "title": "Morning Minute: BlackRock Leans Deeper Into Tokenization with Ondo",
+      "content_text": "The biggest financial institutions in the world are bringing more products onchain, and the pace is accelerating.",
+      "date_published": "2026-09-25T13:04:06Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "4f6cd8692aab7ee18d06",
+          "source": "rss",
+          "type": "change",
+          "key": "https://decrypt.co/?p=379292",
+          "source_url": "https://decrypt.co/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-25T17:36:34Z",
+          "data": {
+            "change": "added",
+            "label": "Morning Minute: BlackRock Leans Deeper Into Tokenization with Ondo",
+            "item_type": "entry",
+            "summary": "added: Morning Minute: BlackRock Leans Deeper Into Tokenization with Ondo",
+            "after": {
+              "title": "Morning Minute: BlackRock Leans Deeper Into Tokenization with Ondo",
+              "link": "https://decrypt.co/379292/morning-minute-blackrock-leans-deeper-into-tokenization-with-ondo",
+              "id": "https://decrypt.co/?p=379292",
+              "author": "Tyler Warner",
+              "published_at": "2026-09-25T13:04:06Z",
+              "updated_at": "2026-09-25T13:04:06Z",
+              "summary": "The biggest financial institutions in the world are bringing more products onchain, and the pace is accelerating.",
+              "categories": [
+                "Opinion"
+              ],
+              "feed": {
+                "title": "Decrypt",
+                "url": "https://decrypt.co/feed",
+                "feed_url": "https://decrypt.co/feed"
+              },
+              "enclosures": [
+                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/10/larry-fink-blackrock-decrypt-style-03-gID_7.jpg@png"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://decrypt.co/feed",
+            "elapsed_ms": 32,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://decrypt.co/379292/morning-minute-blackrock-leans-deeper-into-tokenization-with-ondo",
+      "tags": [
+        "Opinion"
+      ]
+    },
+    {
+      "id": "f181ceeac6857b471fd3",
+      "title": "CoinMarketCap buys CoinGlass to expand crypto derivatives data",
+      "content_text": "CoinGlass will retain its brand and team, while its website, app, free tools, API and pricing will remain unchanged following the acquisition.",
+      "date_published": "2026-09-25T12:44:30Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "f181ceeac6857b471fd3",
+          "source": "rss",
+          "type": "change",
+          "key": "https://cointelegraph.com/news/coinmarketcap-coinglass-expand-crypto-derivatives-data",
+          "source_url": "https://cointelegraph.com/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-25T17:36:34Z",
+          "data": {
+            "change": "added",
+            "label": "CoinMarketCap buys CoinGlass to expand crypto derivatives data",
+            "item_type": "entry",
+            "summary": "added: CoinMarketCap buys CoinGlass to expand crypto derivatives data",
+            "after": {
+              "title": "CoinMarketCap buys CoinGlass to expand crypto derivatives data",
+              "link": "https://cointelegraph.com/news/coinmarketcap-coinglass-expand-crypto-derivatives-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+              "id": "https://cointelegraph.com/news/coinmarketcap-coinglass-expand-crypto-derivatives-data",
+              "author": "Cointelegraph by Yohan Yun",
+              "published_at": "2026-09-25T12:44:30Z",
+              "updated_at": "2026-09-25T12:46:45Z",
+              "summary": "CoinGlass will retain its brand and team, while its website, app, free tools, API and pricing will remain unchanged following the acquisition.",
+              "categories": [
+                "Latest News"
+              ],
+              "feed": {
+                "title": "Cointelegraph.com News",
+                "url": "https://cointelegraph.com",
+                "feed_url": "https://cointelegraph.com/rss"
+              },
+              "enclosures": [
+                "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3C95VNCWEKXAFT14D52K8ZQ/crypto-market-trading2.jpg"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://cointelegraph.com/rss",
+            "elapsed_ms": 119,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://cointelegraph.com/news/coinmarketcap-coinglass-expand-crypto-derivatives-data?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "tags": [
+        "Latest News"
+      ]
+    },
+    {
+      "id": "822c9c2ca4d0e9159b1f",
+      "title": "SlowMist has yet to confirm crypto theft from iPhone Safari attack",
+      "content_text": "The analyzed Safari sample targets iOS 18.4–18.6.2 using previously patched flaws, while its effectiveness on iOS 26.5 remains unverified.",
+      "date_published": "2026-09-25T12:19:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "822c9c2ca4d0e9159b1f",
+          "source": "rss",
+          "type": "change",
+          "key": "https://cointelegraph.com/news/no-confirmed-crypto-theft-iphone-safari-attack-slowmist",
+          "source_url": "https://cointelegraph.com/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-25T17:36:34Z",
+          "data": {
+            "change": "added",
+            "label": "SlowMist has yet to confirm crypto theft from iPhone Safari attack",
+            "item_type": "entry",
+            "summary": "added: SlowMist has yet to confirm crypto theft from iPhone Safari attack",
+            "after": {
+              "title": "SlowMist has yet to confirm crypto theft from iPhone Safari attack",
+              "link": "https://cointelegraph.com/news/no-confirmed-crypto-theft-iphone-safari-attack-slowmist?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+              "id": "https://cointelegraph.com/news/no-confirmed-crypto-theft-iphone-safari-attack-slowmist",
+              "author": "Cointelegraph by Helen Partz",
+              "published_at": "2026-09-25T12:19:34Z",
+              "updated_at": "2026-09-25T12:31:35Z",
+              "summary": "The analyzed Safari sample targets iOS 18.4–18.6.2 using previously patched flaws, while its effectiveness on iOS 26.5 remains unverified.",
+              "categories": [
+                "Latest News"
+              ],
+              "feed": {
+                "title": "Cointelegraph.com News",
+                "url": "https://cointelegraph.com",
+                "feed_url": "https://cointelegraph.com/rss"
+              },
+              "enclosures": [
+                "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3BTS7FTRRJXR7DWT1DQ8993/hi-browser-for-ios1.jpg"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://cointelegraph.com/rss",
+            "elapsed_ms": 119,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://cointelegraph.com/news/no-confirmed-crypto-theft-iphone-safari-attack-slowmist?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "tags": [
+        "Latest News"
+      ]
+    },
     {
       "id": "05827c0d83c227776e67",
       "title": "Defense Secretary Pete Hegseth Holds Bitcoin in a Coinbase Wallet, Filing Shows",
@@ -12189,1374 +13649,6 @@
       "url": "https://cointelegraph.com/news/esma-to-focus-eu-wide-supervision-on-ai-and-tokenization-from-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "tags": [
         "Latest News"
-      ]
-    },
-    {
-      "id": "f8a7d0807b3fdab74443",
-      "title": "Winners and losers of the SEC’s new tokenized stocks rules",
-      "content_text": "The SEC has opened a five-year path for tokenized stocks, but only some products and venues fit the model. Will Uniswap, Robinhood, Coinbase or Kraken come out on top?",
-      "date_published": "2026-09-23T13:30:00Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "f8a7d0807b3fdab74443",
-          "source": "rss",
-          "type": "change",
-          "key": "https://cointelegraph.com/magazine/winners-and-losers-of-the-secs-new-tokenized-stocks-rules",
-          "source_url": "https://cointelegraph.com/rss",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:12Z",
-          "data": {
-            "change": "added",
-            "label": "Winners and losers of the SEC’s new tokenized stocks rules",
-            "item_type": "entry",
-            "summary": "added: Winners and losers of the SEC’s new tokenized stocks rules",
-            "after": {
-              "title": "Winners and losers of the SEC’s new tokenized stocks rules",
-              "link": "https://cointelegraph.com/magazine/winners-and-losers-of-the-secs-new-tokenized-stocks-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-              "id": "https://cointelegraph.com/magazine/winners-and-losers-of-the-secs-new-tokenized-stocks-rules",
-              "author": "Cointelegraph by Christina Comben",
-              "published_at": "2026-09-23T13:30:00Z",
-              "updated_at": "2026-09-23T06:12:00Z",
-              "summary": "The SEC has opened a five-year path for tokenized stocks, but only some products and venues fit the model. Will Uniswap, Robinhood, Coinbase or Kraken come out on top?",
-              "categories": [
-                "Magazine"
-              ],
-              "feed": {
-                "title": "Cointelegraph.com News",
-                "url": "https://cointelegraph.com",
-                "feed_url": "https://cointelegraph.com/rss"
-              },
-              "enclosures": [
-                "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M34K2P2TV319V36C0BE6PVPR/magazine-the-fundamentals-of-token-economics.jpg"
-              ]
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://cointelegraph.com/rss",
-            "elapsed_ms": 184,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "crypto-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://cointelegraph.com/magazine/winners-and-losers-of-the-secs-new-tokenized-stocks-rules?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "tags": [
-        "Magazine"
-      ]
-    },
-    {
-      "id": "11c8da21922d25884ab9",
-      "title": "Bitcoin's $16 billion quarterly options settlement arrives with a 'call-heavy' book",
-      "content_text": "Bitcoin's $16 billion quarterly options settlement arrives with a 'call-heavy' book",
-      "date_published": "2026-09-23T13:02:43Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "11c8da21922d25884ab9",
-          "source": "rss",
-          "type": "change",
-          "key": "f15c7e2f-08d3-47d4-97b8-0e7f97147256",
-          "source_url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:12Z",
-          "data": {
-            "change": "added",
-            "label": "Bitcoin's $16 billion quarterly options settlement arrives with a 'call-heavy' book",
-            "item_type": "entry",
-            "summary": "added: Bitcoin's $16 billion quarterly options settlement arrives with a 'call-heavy' book",
-            "after": {
-              "title": "Bitcoin's $16 billion quarterly options settlement arrives with a 'call-heavy' book",
-              "link": "https://www.coindesk.com/markets/2026/09/23/bitcoin-s-usd16-billion-quarterly-options-settlement-arrives-with-a-call-heavy-book",
-              "id": "f15c7e2f-08d3-47d4-97b8-0e7f97147256",
-              "author": "Omkar Godbole",
-              "published_at": "2026-09-23T13:02:43Z",
-              "updated_at": "2026-09-23T13:02:43Z",
-              "summary": null,
-              "categories": [
-                "Markets",
-                "Bitcoin News",
-                "News"
-              ],
-              "feed": {
-                "title": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-                "url": "https://www.coindesk.com/",
-                "feed_url": "https://www.coindesk.com/arc/outboundfeeds/rss/"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.coindesk.com/arc/outboundfeeds/rss",
-            "elapsed_ms": 198,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "crypto-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.coindesk.com/markets/2026/09/23/bitcoin-s-usd16-billion-quarterly-options-settlement-arrives-with-a-call-heavy-book",
-      "tags": [
-        "Markets",
-        "Bitcoin News",
-        "News"
-      ]
-    },
-    {
-      "id": "e13e93c1d921aa88e6a8",
-      "title": "MoonPay to buy North Capital in all-stock deal worth over $60M",
-      "content_text": "MoonPay’s North Capital acquisition adds US broker-dealer, trading and investment infrastructure as it expands into tokenized securities.",
-      "date_published": "2026-09-23T13:00:00Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "e13e93c1d921aa88e6a8",
-          "source": "rss",
-          "type": "change",
-          "key": "https://cointelegraph.com/news/moonpay-north-capital-acquisition",
-          "source_url": "https://cointelegraph.com/rss",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:12Z",
-          "data": {
-            "change": "added",
-            "label": "MoonPay to buy North Capital in all-stock deal worth over $60M",
-            "item_type": "entry",
-            "summary": "added: MoonPay to buy North Capital in all-stock deal worth over $60M",
-            "after": {
-              "title": "MoonPay to buy North Capital in all-stock deal worth over $60M",
-              "link": "https://cointelegraph.com/news/moonpay-north-capital-acquisition?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-              "id": "https://cointelegraph.com/news/moonpay-north-capital-acquisition",
-              "author": "Cointelegraph by Helen Partz",
-              "published_at": "2026-09-23T13:00:00Z",
-              "updated_at": "2026-09-23T11:53:19Z",
-              "summary": "MoonPay’s North Capital acquisition adds US broker-dealer, trading and investment infrastructure as it expands into tokenized securities.",
-              "categories": [
-                "Latest News"
-              ],
-              "feed": {
-                "title": "Cointelegraph.com News",
-                "url": "https://cointelegraph.com",
-                "feed_url": "https://cointelegraph.com/rss"
-              },
-              "enclosures": [
-                "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M36YQ1M46J195MVAMWMNQ22D/digital-wallet-moonpay-1.jpg"
-              ]
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://cointelegraph.com/rss",
-            "elapsed_ms": 184,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "crypto-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://cointelegraph.com/news/moonpay-north-capital-acquisition?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "tags": [
-        "Latest News"
-      ]
-    },
-    {
-      "id": "ed3257b65080b51637fd",
-      "title": "Stablecoin cross-border flows surge 78%, defying crypto bear market",
-      "content_text": "Cross-border stablecoin transfers surged as the wider crypto market shrank 37%, with Chainalysis pointing to growing use for trade, remittances and savings.",
-      "date_published": "2026-09-23T13:00:00Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "ed3257b65080b51637fd",
-          "source": "rss",
-          "type": "change",
-          "key": "https://cointelegraph.com/news/stablecoin-cross-border-flows-surge-78-defying-crypto-bear-market",
-          "source_url": "https://cointelegraph.com/rss",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:12Z",
-          "data": {
-            "change": "added",
-            "label": "Stablecoin cross-border flows surge 78%, defying crypto bear market",
-            "item_type": "entry",
-            "summary": "added: Stablecoin cross-border flows surge 78%, defying crypto bear market",
-            "after": {
-              "title": "Stablecoin cross-border flows surge 78%, defying crypto bear market",
-              "link": "https://cointelegraph.com/news/stablecoin-cross-border-flows-surge-78-defying-crypto-bear-market?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-              "id": "https://cointelegraph.com/news/stablecoin-cross-border-flows-surge-78-defying-crypto-bear-market",
-              "author": "Cointelegraph by Felix Ng",
-              "published_at": "2026-09-23T13:00:00Z",
-              "updated_at": "2026-09-23T06:32:14Z",
-              "summary": "Cross-border stablecoin transfers surged as the wider crypto market shrank 37%, with Chainalysis pointing to growing use for trade, remittances and savings.",
-              "categories": [
-                "Latest News"
-              ],
-              "feed": {
-                "title": "Cointelegraph.com News",
-                "url": "https://cointelegraph.com",
-                "feed_url": "https://cointelegraph.com/rss"
-              },
-              "enclosures": [
-                "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M35XTWCZDYM99J0YR24QM5JZ/stablecoin.jpg"
-              ]
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://cointelegraph.com/rss",
-            "elapsed_ms": 184,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "crypto-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://cointelegraph.com/news/stablecoin-cross-border-flows-surge-78-defying-crypto-bear-market?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "tags": [
-        "Latest News"
-      ]
-    },
-    {
-      "id": "fca23c3360323a4150a5",
-      "title": "Morning Minute: Bitcoin Hits $86,000 as Oil Slides and ETFs Bid",
-      "content_text": "Crypto majors continue their climb while alt leaders hit new ATHs. What’s driving the recent run up?",
-      "date_published": "2026-09-23T12:26:07Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "fca23c3360323a4150a5",
-          "source": "rss",
-          "type": "change",
-          "key": "https://decrypt.co/?p=379033",
-          "source_url": "https://decrypt.co/feed",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:12Z",
-          "data": {
-            "change": "added",
-            "label": "Morning Minute: Bitcoin Hits $86,000 as Oil Slides and ETFs Bid",
-            "item_type": "entry",
-            "summary": "added: Morning Minute: Bitcoin Hits $86,000 as Oil Slides and ETFs Bid",
-            "after": {
-              "title": "Morning Minute: Bitcoin Hits $86,000 as Oil Slides and ETFs Bid",
-              "link": "https://decrypt.co/379033/morning-minute-bitcoin-hits-86000-as-oil-slides-and-etfs-bid",
-              "id": "https://decrypt.co/?p=379033",
-              "author": "Tyler Warner",
-              "published_at": "2026-09-23T12:26:07Z",
-              "updated_at": "2026-09-23T12:26:07Z",
-              "summary": "Crypto majors continue their climb while alt leaders hit new ATHs. What’s driving the recent run up?",
-              "categories": [
-                "Opinion"
-              ],
-              "feed": {
-                "title": "Decrypt",
-                "url": "https://decrypt.co/feed",
-                "feed_url": "https://decrypt.co/feed"
-              },
-              "enclosures": [
-                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/07/Bitcoin_bull-gID_7.png@png"
-              ]
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://decrypt.co/feed",
-            "elapsed_ms": 99,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "crypto-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://decrypt.co/379033/morning-minute-bitcoin-hits-86000-as-oil-slides-and-etfs-bid",
-      "tags": [
-        "Opinion"
-      ]
-    },
-    {
-      "id": "4500b04a3f9afc64a79a",
-      "title": "North Korea's Fake Job Interviews Drained $11M From 7,000 Crypto Wallets",
-      "content_text": "A seven-agency advisory ties the WaterPlum hacking crew and Pyongyang's remote IT worker scheme to the same bureau.",
-      "date_published": "2026-09-23T12:15:18Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "4500b04a3f9afc64a79a",
-          "source": "rss",
-          "type": "change",
-          "key": "https://decrypt.co/?p=379032",
-          "source_url": "https://decrypt.co/feed",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:12Z",
-          "data": {
-            "change": "added",
-            "label": "North Korea's Fake Job Interviews Drained $11M From 7,000 Crypto Wallets",
-            "item_type": "entry",
-            "summary": "added: North Korea's Fake Job Interviews Drained $11M From 7,000 Crypto Wallets",
-            "after": {
-              "title": "North Korea's Fake Job Interviews Drained $11M From 7,000 Crypto Wallets",
-              "link": "https://decrypt.co/379032/north-koreas-fake-job-interviews-drained-11m-from-7000-crypto-wallets",
-              "id": "https://decrypt.co/?p=379032",
-              "author": "Decrypt Agent",
-              "published_at": "2026-09-23T12:15:18Z",
-              "updated_at": "2026-09-23T12:15:18Z",
-              "summary": "A seven-agency advisory ties the WaterPlum hacking crew and Pyongyang's remote IT worker scheme to the same bureau.",
-              "categories": [
-                "Law and Order"
-              ],
-              "feed": {
-                "title": "Decrypt",
-                "url": "https://decrypt.co/feed",
-                "feed_url": "https://decrypt.co/feed"
-              },
-              "enclosures": [
-                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/02/dprk-north-korea-hacker-decrypt-style-gID_7.jpg@png"
-              ]
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://decrypt.co/feed",
-            "elapsed_ms": 99,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "crypto-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://decrypt.co/379032/north-koreas-fake-job-interviews-drained-11m-from-7000-crypto-wallets",
-      "tags": [
-        "Law and Order"
-      ]
-    },
-    {
-      "id": "c4641df540f1eeaccc05",
-      "title": "CFTC Staff Advisory Says Prediction Market 'Mention' Contracts Invite Manipulation",
-      "content_text": "Three weeks after fining a teleprompter operator who traded on speeches he had already read, regulators set out what exchanges must show.",
-      "date_published": "2026-09-23T10:43:46Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "c4641df540f1eeaccc05",
-          "source": "rss",
-          "type": "change",
-          "key": "https://decrypt.co/?p=379030",
-          "source_url": "https://decrypt.co/feed",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:12Z",
-          "data": {
-            "change": "added",
-            "label": "CFTC Staff Advisory Says Prediction Market 'Mention' Contracts Invite Manipulation",
-            "item_type": "entry",
-            "summary": "added: CFTC Staff Advisory Says Prediction Market 'Mention' Contracts Invite Manipulation",
-            "after": {
-              "title": "CFTC Staff Advisory Says Prediction Market 'Mention' Contracts Invite Manipulation",
-              "link": "https://decrypt.co/379030/cftc-staff-advisory-says-prediction-market-mention-contracts-invite-manipulation",
-              "id": "https://decrypt.co/?p=379030",
-              "author": "Decrypt Agent",
-              "published_at": "2026-09-23T10:43:46Z",
-              "updated_at": "2026-09-23T10:43:46Z",
-              "summary": "Three weeks after fining a teleprompter operator who traded on speeches he had already read, regulators set out what exchanges must show.",
-              "categories": [
-                "Law and Order"
-              ],
-              "feed": {
-                "title": "Decrypt",
-                "url": "https://decrypt.co/feed",
-                "feed_url": "https://decrypt.co/feed"
-              },
-              "enclosures": [
-                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/cftc-decrypt-style-01-gID_7.jpg@png"
-              ]
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://decrypt.co/feed",
-            "elapsed_ms": 99,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "crypto-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://decrypt.co/379030/cftc-staff-advisory-says-prediction-market-mention-contracts-invite-manipulation",
-      "tags": [
-        "Law and Order"
-      ]
-    },
-    {
-      "id": "2477fa51a6a45a1ac194",
-      "title": "Former Polish Police Officer Charged as Zondacrypto Probe Searches Fuel Depot",
-      "content_text": "Investigators are combing the site where the exchange's founder was last seen in 2022, using experts and forensic equipment.",
-      "date_published": "2026-09-23T09:53:07Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "2477fa51a6a45a1ac194",
-          "source": "rss",
-          "type": "change",
-          "key": "https://decrypt.co/?p=379021",
-          "source_url": "https://decrypt.co/feed",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:12Z",
-          "data": {
-            "change": "added",
-            "label": "Former Polish Police Officer Charged as Zondacrypto Probe Searches Fuel Depot",
-            "item_type": "entry",
-            "summary": "added: Former Polish Police Officer Charged as Zondacrypto Probe Searches Fuel Depot",
-            "after": {
-              "title": "Former Polish Police Officer Charged as Zondacrypto Probe Searches Fuel Depot",
-              "link": "https://decrypt.co/379021/former-polish-police-officer-charged-as-zondacrypto-probe-searches-fuel-depot",
-              "id": "https://decrypt.co/?p=379021",
-              "author": "Decrypt Agent",
-              "published_at": "2026-09-23T09:53:07Z",
-              "updated_at": "2026-09-23T09:53:07Z",
-              "summary": "Investigators are combing the site where the exchange's founder was last seen in 2022, using experts and forensic equipment.",
-              "categories": [
-                "Law and Order"
-              ],
-              "feed": {
-                "title": "Decrypt",
-                "url": "https://decrypt.co/feed",
-                "feed_url": "https://decrypt.co/feed"
-              },
-              "enclosures": [
-                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Judge-decrypt-style-2-gID_7.png@png"
-              ]
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://decrypt.co/feed",
-            "elapsed_ms": 99,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "crypto-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://decrypt.co/379021/former-polish-police-officer-charged-as-zondacrypto-probe-searches-fuel-depot",
-      "tags": [
-        "Law and Order"
-      ]
-    },
-    {
-      "id": "534a1dd7cae1d3c84d99",
-      "title": "UN Security Council Will Get Advice on AI Risks From Tech Giants Building It",
-      "content_text": "DeepSeek will address the UN Security Council on AI risks this week, sharing a stage with Dario Amodei—who has spent a year calling China's government the industry's biggest threat.",
-      "date_published": "2026-09-22T22:16:03Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "534a1dd7cae1d3c84d99",
-          "source": "rss",
-          "type": "change",
-          "key": "https://decrypt.co/?p=379008",
-          "source_url": "https://decrypt.co/feed",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:12Z",
-          "data": {
-            "change": "added",
-            "label": "UN Security Council Will Get Advice on AI Risks From Tech Giants Building It",
-            "item_type": "entry",
-            "summary": "added: UN Security Council Will Get Advice on AI Risks From Tech Giants Building It",
-            "after": {
-              "title": "UN Security Council Will Get Advice on AI Risks From Tech Giants Building It",
-              "link": "https://decrypt.co/379008/un-security-council-ai-risks-anthropic-openai-deepseek",
-              "id": "https://decrypt.co/?p=379008",
-              "author": "Jose Antonio Lanz",
-              "published_at": "2026-09-22T22:16:03Z",
-              "updated_at": "2026-09-22T22:16:03Z",
-              "summary": "DeepSeek will address the UN Security Council on AI risks this week, sharing a stage with Dario Amodei—who has spent a year calling China's government the industry's biggest threat.",
-              "categories": [
-                "Artificial Intelligence"
-              ],
-              "feed": {
-                "title": "Decrypt",
-                "url": "https://decrypt.co/feed",
-                "feed_url": "https://decrypt.co/feed"
-              },
-              "enclosures": [
-                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2020/09/Webp.net-resizeimage-60-gID_4.jpg@png"
-              ]
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://decrypt.co/feed",
-            "elapsed_ms": 99,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "crypto-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://decrypt.co/379008/un-security-council-ai-risks-anthropic-openai-deepseek",
-      "tags": [
-        "Artificial Intelligence"
-      ]
-    },
-    {
-      "id": "a2d23104d6258344c19e",
-      "title": "$161 Million in Decade-Old Bitcoin Has Moved in Just Two Weeks",
-      "content_text": "Four ancient wallets moved 1,971 BTC between Sept. 6 and Sept. 22, including a 600 BTC transfer worth $51.9 million just hours ago, with three of the four carrying \"Noah Doe\" lawsuit tags.",
-      "date_published": "2026-09-22T21:16:03Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "a2d23104d6258344c19e",
-          "source": "rss",
-          "type": "change",
-          "key": "https://decrypt.co/?p=379006",
-          "source_url": "https://decrypt.co/feed",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:12Z",
-          "data": {
-            "change": "added",
-            "label": "$161 Million in Decade-Old Bitcoin Has Moved in Just Two Weeks",
-            "item_type": "entry",
-            "summary": "added: $161 Million in Decade-Old Bitcoin Has Moved in Just Two Weeks",
-            "after": {
-              "title": "$161 Million in Decade-Old Bitcoin Has Moved in Just Two Weeks",
-              "link": "https://decrypt.co/379006/161-million-decade-old-bitcoin-moves-two-weeks",
-              "id": "https://decrypt.co/?p=379006",
-              "author": "Decrypt Staff",
-              "published_at": "2026-09-22T21:16:03Z",
-              "updated_at": "2026-09-22T21:16:03Z",
-              "summary": "Four ancient wallets moved 1,971 BTC between Sept. 6 and Sept. 22, including a 600 BTC transfer worth $51.9 million just hours ago, with three of the four carrying \"Noah Doe\" lawsuit tags.",
-              "categories": [
-                "Coins"
-              ],
-              "feed": {
-                "title": "Decrypt",
-                "url": "https://decrypt.co/feed",
-                "feed_url": "https://decrypt.co/feed"
-              },
-              "enclosures": [
-                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/09/bitcoin-whale-decrypt-style-02-gID_7.jpg@png"
-              ]
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://decrypt.co/feed",
-            "elapsed_ms": 99,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "crypto-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://decrypt.co/379006/161-million-decade-old-bitcoin-moves-two-weeks",
-      "tags": [
-        "Coins"
-      ]
-    },
-    {
-      "id": "ba1e2f022a2e8fd5ece1",
-      "title": "CME Expands Crypto Futures Lineup With Bitcoin Cash and Uniswap",
-      "content_text": "The exchange operator is adding standard and micro contracts for BCH and UNI, extending a pattern of altcoin rollouts that already covers Cardano, Chainlink, Stellar, Avalanche, and Sui.",
-      "date_published": "2026-09-22T20:46:03Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "ba1e2f022a2e8fd5ece1",
-          "source": "rss",
-          "type": "change",
-          "key": "https://decrypt.co/?p=379004",
-          "source_url": "https://decrypt.co/feed",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:12Z",
-          "data": {
-            "change": "added",
-            "label": "CME Expands Crypto Futures Lineup With Bitcoin Cash and Uniswap",
-            "item_type": "entry",
-            "summary": "added: CME Expands Crypto Futures Lineup With Bitcoin Cash and Uniswap",
-            "after": {
-              "title": "CME Expands Crypto Futures Lineup With Bitcoin Cash and Uniswap",
-              "link": "https://decrypt.co/379004/cme-crypto-bitcoin-cash-uniswap-futures",
-              "id": "https://decrypt.co/?p=379004",
-              "author": "Jose Antonio Lanz",
-              "published_at": "2026-09-22T20:46:03Z",
-              "updated_at": "2026-09-22T20:46:03Z",
-              "summary": "The exchange operator is adding standard and micro contracts for BCH and UNI, extending a pattern of altcoin rollouts that already covers Cardano, Chainlink, Stellar, Avalanche, and Sui.",
-              "categories": [
-                "uniswap",
-                "Coins"
-              ],
-              "feed": {
-                "title": "Decrypt",
-                "url": "https://decrypt.co/feed",
-                "feed_url": "https://decrypt.co/feed"
-              },
-              "enclosures": [
-                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/02/decrypt-style-cme-group-gID_7.jpg@png"
-              ]
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://decrypt.co/feed",
-            "elapsed_ms": 99,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "crypto-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://decrypt.co/379004/cme-crypto-bitcoin-cash-uniswap-futures",
-      "tags": [
-        "uniswap",
-        "Coins"
-      ]
-    },
-    {
-      "id": "cc90dd28c176c863cccb",
-      "title": "Inside Coinbase’s $250 Billion Playbook for Post-Quantum Bitcoin Custody",
-      "content_text": "Head of cryptography Yehuda Lindell says the exchange is designing custody that can adapt to whatever post-quantum signing scheme Bitcoin adopts.",
-      "date_published": "2026-09-22T20:01:03Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "cc90dd28c176c863cccb",
-          "source": "rss",
-          "type": "change",
-          "key": "https://decrypt.co/?p=379000",
-          "source_url": "https://decrypt.co/feed",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:12Z",
-          "data": {
-            "change": "added",
-            "label": "Inside Coinbase’s $250 Billion Playbook for Post-Quantum Bitcoin Custody",
-            "item_type": "entry",
-            "summary": "added: Inside Coinbase’s $250 Billion Playbook for Post-Quantum Bitcoin Custody",
-            "after": {
-              "title": "Inside Coinbase’s $250 Billion Playbook for Post-Quantum Bitcoin Custody",
-              "link": "https://decrypt.co/379000/coinbase-playbook-post-quantum-bitcoin-custody",
-              "id": "https://decrypt.co/?p=379000",
-              "author": "André Beganski",
-              "published_at": "2026-09-22T20:01:03Z",
-              "updated_at": "2026-09-22T20:01:03Z",
-              "summary": "Head of cryptography Yehuda Lindell says the exchange is designing custody that can adapt to whatever post-quantum signing scheme Bitcoin adopts.",
-              "categories": [
-                "Business"
-              ],
-              "feed": {
-                "title": "Decrypt",
-                "url": "https://decrypt.co/feed",
-                "feed_url": "https://decrypt.co/feed"
-              },
-              "enclosures": [
-                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Coinbase_logo-nft-nyc-decrypt-style-scaled-gID_7.jpg@png"
-              ]
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://decrypt.co/feed",
-            "elapsed_ms": 99,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "crypto-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://decrypt.co/379000/coinbase-playbook-post-quantum-bitcoin-custody",
-      "tags": [
-        "Business"
-      ]
-    },
-    {
-      "id": "cdb16e4cd5d9a3b108b4",
-      "title": "White-Hat Hackers Route Coldcard Exploit Bitcoin Into 'Recovery Trust'",
-      "content_text": "Galaxy Research says white-hat actors consolidated coins tied to the exploit into a fresh address tagged for a \"Crypto Recovery Trust,\" though the funds represent just 2.8% of the total haul.",
-      "date_published": "2026-09-22T19:31:03Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "cdb16e4cd5d9a3b108b4",
-          "source": "rss",
-          "type": "change",
-          "key": "https://decrypt.co/?p=378978",
-          "source_url": "https://decrypt.co/feed",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:12Z",
-          "data": {
-            "change": "added",
-            "label": "White-Hat Hackers Route Coldcard Exploit Bitcoin Into 'Recovery Trust'",
-            "item_type": "entry",
-            "summary": "added: White-Hat Hackers Route Coldcard Exploit Bitcoin Into 'Recovery Trust'",
-            "after": {
-              "title": "White-Hat Hackers Route Coldcard Exploit Bitcoin Into 'Recovery Trust'",
-              "link": "https://decrypt.co/378978/white-hat-hackers-coldcard-exploit-bitcoin-recovery-trust",
-              "id": "https://decrypt.co/?p=378978",
-              "author": "Decrypt Staff",
-              "published_at": "2026-09-22T19:31:03Z",
-              "updated_at": "2026-09-22T19:31:03Z",
-              "summary": "Galaxy Research says white-hat actors consolidated coins tied to the exploit into a fresh address tagged for a \"Crypto Recovery Trust,\" though the funds represent just 2.8% of the total haul.",
-              "categories": [
-                "Coins"
-              ],
-              "feed": {
-                "title": "Decrypt",
-                "url": "https://decrypt.co/feed",
-                "feed_url": "https://decrypt.co/feed"
-              },
-              "enclosures": [
-                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-04-gID_7.png@png"
-              ]
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://decrypt.co/feed",
-            "elapsed_ms": 99,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "crypto-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://decrypt.co/378978/white-hat-hackers-coldcard-exploit-bitcoin-recovery-trust",
-      "tags": [
-        "Coins"
-      ]
-    },
-    {
-      "id": "c924f1a1fab425023ff7",
-      "title": "OpenAI Launches GPT-6 Sol and Luna Minutes After Anthropic Drops Claude Opus 5.5",
-      "content_text": "OpenAI cut prices 50% on its mid-tier models the same day Anthropic shipped a cheaper flagship, escalating a rivalry now measured in minutes.",
-      "date_published": "2026-09-22T19:00:38Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "c924f1a1fab425023ff7",
-          "source": "rss",
-          "type": "change",
-          "key": "https://decrypt.co/?p=378986",
-          "source_url": "https://decrypt.co/feed",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:12Z",
-          "data": {
-            "change": "added",
-            "label": "OpenAI Launches GPT-6 Sol and Luna Minutes After Anthropic Drops Claude Opus 5.5",
-            "item_type": "entry",
-            "summary": "added: OpenAI Launches GPT-6 Sol and Luna Minutes After Anthropic Drops Claude Opus 5.5",
-            "after": {
-              "title": "OpenAI Launches GPT-6 Sol and Luna Minutes After Anthropic Drops Claude Opus 5.5",
-              "link": "https://decrypt.co/378986/openai-launches-gpt-6-sol-luna-anthropic-claude-opus-5-5",
-              "id": "https://decrypt.co/?p=378986",
-              "author": "Jose Antonio Lanz",
-              "published_at": "2026-09-22T19:00:38Z",
-              "updated_at": "2026-09-22T19:00:38Z",
-              "summary": "OpenAI cut prices 50% on its mid-tier models the same day Anthropic shipped a cheaper flagship, escalating a rivalry now measured in minutes.",
-              "categories": [
-                "Artificial Intelligence"
-              ],
-              "feed": {
-                "title": "Decrypt",
-                "url": "https://decrypt.co/feed",
-                "feed_url": "https://decrypt.co/feed"
-              },
-              "enclosures": [
-                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/07/ChatGPT-gID_7.jpg@png"
-              ]
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://decrypt.co/feed",
-            "elapsed_ms": 99,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "crypto-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://decrypt.co/378986/openai-launches-gpt-6-sol-luna-anthropic-claude-opus-5-5",
-      "tags": [
-        "Artificial Intelligence"
-      ]
-    },
-    {
-      "id": "d47d52e9c9edb8b09811",
-      "title": "Bitcoin Breaks Out as Nasdaq Hits Records and Oil Slides on Iran Hopes",
-      "content_text": "A stretched but firmly bullish Bitcoin chart is riding the same tailwind lifting stocks: falling oil, a record Nasdaq, and a Fed that hiked rates while quietly pumping liquidity into the system.",
-      "date_published": "2026-09-22T18:46:03Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "d47d52e9c9edb8b09811",
-          "source": "rss",
-          "type": "change",
-          "key": "https://decrypt.co/?p=378972",
-          "source_url": "https://decrypt.co/feed",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:12Z",
-          "data": {
-            "change": "added",
-            "label": "Bitcoin Breaks Out as Nasdaq Hits Records and Oil Slides on Iran Hopes",
-            "item_type": "entry",
-            "summary": "added: Bitcoin Breaks Out as Nasdaq Hits Records and Oil Slides on Iran Hopes",
-            "after": {
-              "title": "Bitcoin Breaks Out as Nasdaq Hits Records and Oil Slides on Iran Hopes",
-              "link": "https://decrypt.co/378972/bitcoin-breaks-out-nasdaq-hits-records-oil-slides",
-              "id": "https://decrypt.co/?p=378972",
-              "author": "Jose Antonio Lanz",
-              "published_at": "2026-09-22T18:46:03Z",
-              "updated_at": "2026-09-22T18:46:03Z",
-              "summary": "A stretched but firmly bullish Bitcoin chart is riding the same tailwind lifting stocks: falling oil, a record Nasdaq, and a Fed that hiked rates while quietly pumping liquidity into the system.",
-              "categories": [
-                "Markets"
-              ],
-              "feed": {
-                "title": "Decrypt",
-                "url": "https://decrypt.co/feed",
-                "feed_url": "https://decrypt.co/feed"
-              },
-              "enclosures": [
-                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-13-gID_7.png@png"
-              ]
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://decrypt.co/feed",
-            "elapsed_ms": 99,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "crypto-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://decrypt.co/378972/bitcoin-breaks-out-nasdaq-hits-records-oil-slides",
-      "tags": [
-        "Markets"
       ]
     }
   ]

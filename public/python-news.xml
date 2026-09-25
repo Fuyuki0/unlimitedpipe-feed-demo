@@ -3,9 +3,16 @@
   <channel>
     <title>Python news and PEPs</title>
     <link>https://www.python.org/</link>
-    <description>Events collected by UnlimitedPipe 0.3.0</description>
-    <generator>UnlimitedPipe 0.3.0</generator>
-    <lastBuildDate>Thu, 24 Sep 2026 10:05:26 +0000</lastBuildDate>
+    <description>Events collected by UnlimitedPipe 0.3.2</description>
+    <generator>UnlimitedPipe 0.3.2</generator>
+    <lastBuildDate>Fri, 25 Sep 2026 17:36:47 +0000</lastBuildDate>
+    <item>
+      <title>PEP 848: Generational Incremental Garbage Collection</title>
+      <link>https://peps.python.org/pep-0848/</link>
+      <guid isPermaLink="false">ef262a6496ec0470bc4d</guid>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+      <description>This PEP proposes adding a new cyclic garbage collector to CPython. The new collector will be both generational and incremental. Collections will alternate: a young collection, then an (incremental) old collection, then a young collection, and so on.</description>
+    </item>
     <item>
       <title>The Python documentation is now available in Persian</title>
       <link>https://blog.python.org/2026/09/the-python-documentation-is-now-available-in-persian/</link>

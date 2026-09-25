@@ -5,7 +5,28 @@
     <link>https://huggingface.co/papers</link>
     <description>Events collected by UnlimitedPipe 0.3.2</description>
     <generator>UnlimitedPipe 0.3.2</generator>
-    <lastBuildDate>Fri, 25 Sep 2026 12:22:30 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 17:36:23 +0000</lastBuildDate>
+    <item>
+      <title>RGBD20K: A Large-Scale Benchmark for RGB-D Semantic Segmentation</title>
+      <link>https://huggingface.co/papers/2609.29028</link>
+      <guid isPermaLink="false">b6ee30b54f202470963e</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <description>In this paper, we propose RGBD20K, a novel dataset for facilitating the development of more robust and general RGB-D semantic segmentation by encompassing abundant categories and high-quality annotations. RGBD20K possesses several attractive properties: (1) Expanded Semantic Space. In particular, it covers 160 fine-grained categories, largely surpassing the category diversity of existing popular RGB-D benchmarks (e.g., NYUv2 with 40 classes and SUN RGB-D with 37 classes). With such enriched…</description>
+    </item>
+    <item>
+      <title>AV-GRPO: Modality-Anchored Decoupling Diffusion Reinforcement Learning for Joint Audio-Video Generation</title>
+      <link>https://huggingface.co/papers/2609.29816</link>
+      <guid isPermaLink="false">032a5a544348d58ce99c</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Recent years have witnessed major progress in joint audio-video generation. Existing models still suffer from limited per-modality fidelity, insufficient text-modality alignment and weak cross-modal synchronization. While reinforcement-learning post-training offers a promising remedy, directly adapting it to joint audio-video generation is challenging. Heterogeneous multimodal rewards entangle learning signals and complicate credit assignment. Joint optimization of two modality towers is…</description>
+    </item>
+    <item>
+      <title>Your Transformer Can Hold Two Thoughts at Once: Evidence of Linear Superposition in LLMs</title>
+      <link>https://huggingface.co/papers/2609.29845</link>
+      <guid isPermaLink="false">8f2af8f1b01d8527e3be</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <description>While Large Language Models (LLMs) rely on highly non-linear components, in this work we demonstrate that they exhibit fundamental linearity: when inputs from distinct text streams are linearly combined, the model outputs a superposition of the individual next-token distributions. We term this the Superposition Linearity Hypothesis. We provide evidence that superposition is an intrinsic property of the Transformer architecture rather than an emergent consequence of training; in fact, we observe…</description>
+    </item>
     <item>
       <title>Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures</title>
       <link>https://huggingface.co/papers/2609.29429</link>
