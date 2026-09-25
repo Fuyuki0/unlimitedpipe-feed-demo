@@ -2,10 +2,59 @@
 <rss version="2.0">
   <channel>
     <title>Security news</title>
-    <link>https://www.bleepingcomputer.com/feed/</link>
+    <link>https://krebsonsecurity.com/feed/</link>
     <description>Events collected by UnlimitedPipe 0.3.2</description>
     <generator>UnlimitedPipe 0.3.2</generator>
-    <lastBuildDate>Fri, 25 Sep 2026 20:48:28 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 23:10:21 +0000</lastBuildDate>
+    <item>
+      <title>U.S. Soldier Gets 70 Months in Prison for AT&amp;T, Verizon Extortions</title>
+      <link>https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/</link>
+      <guid isPermaLink="false">094391b406d1f02caeb8</guid>
+      <pubDate>Fri, 25 Sep 2026 21:44:40 +0000</pubDate>
+      <description>A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&amp;T customers in 2024 was sentenced to 70 months in federal prison today and ordered to pay nearly $300,000 in restitution to victims.</description>
+      <category>DDoS-for-Hire</category>
+      <category>Ne'er-Do-Well News</category>
+      <category>Ransomware</category>
+      <category>AT&amp;T</category>
+      <category>Bureau of Prisons</category>
+      <category>Cameron John Wagenius</category>
+      <category>Connor Riley Moucka</category>
+      <category>CVE-2023-45208</category>
+      <category>Defense Criminal Investigative Service</category>
+      <category>Judische</category>
+      <category>Kenneth Schuchman</category>
+      <category>Kiberphant0m</category>
+      <category>Paul Russell</category>
+      <category>Verizon</category>
+    </item>
+    <item>
+      <title>Kiteworks urges 6-hour server shutdown over potential zero-day attacks</title>
+      <link>https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/</link>
+      <guid isPermaLink="false">01ffce2f4b7070d816e8</guid>
+      <pubDate>Fri, 25 Sep 2026 21:41:07 +0000</pubDate>
+      <description>Secure file-sharing software company Kiteworks is urging customers worldwide to temporarily shut down their servers on Saturday for a six-hour window after receiving threat intelligence warning of a potentially imminent cyberattack. [...]</description>
+      <category>Security</category>
+    </item>
+    <item>
+      <title>Friday Squid Blogging: Participatory Squid Dissection in October in Tennessee</title>
+      <link>https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-participatory-squid-dissection-in-october-in-tennessee.html</link>
+      <guid isPermaLink="false">1cf918086649b1ccb3cd</guid>
+      <pubDate>Fri, 25 Sep 2026 21:08:14 +0000</pubDate>
+      <description>I feel like someone who reads this blog will want to go to this :
+Families are invited to dive into the fascinating world of marine biology during an exciting, hands-on Family Squid Dissection at the Hands-On Science Center. Designed for curious learners of all ages, this unique experience combines an interactive lesson with the opportunity to explore the anatomy and adaptations of real ocean life.
+[…]
+During the guided squid dissection, each family will work together to examine a squid up…</description>
+      <category>Uncategorized</category>
+      <category>squid</category>
+    </item>
+    <item>
+      <title>ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw</title>
+      <link>https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/</link>
+      <guid isPermaLink="false">de80708e5218b5f561a6</guid>
+      <pubDate>Fri, 25 Sep 2026 20:57:55 +0000</pubDate>
+      <description>The Clop ransomware gang has moved its data leak site to a new Tor address after confirming its previous server was compromised and defaced through an unpatched Grav CMS flaw that BleepingComputer has learned is an unauthenticated path traversal vulnerability. [...]</description>
+      <category>Security</category>
+    </item>
     <item>
       <title>Elementor WordPress flaw lets attackers create admin accounts</title>
       <link>https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/</link>

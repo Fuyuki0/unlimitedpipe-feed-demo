@@ -1,13 +1,1059 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "World headlines (BBC, NPR, Al Jazeera)",
-  "home_page_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+  "home_page_url": "https://www.aljazeera.com/xml/rss/all.xml",
   "description": "Events collected by UnlimitedPipe 0.3.2",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
     "generator": "UnlimitedPipe 0.3.2"
   },
   "items": [
+    {
+      "id": "f5b1d2ca1465e0c7cce2",
+      "title": "Iran to reopen Strait of Hormuz within a week if US agrees to plan",
+      "content_text": "Iran says it has given the US a seven-day plan to reopen the Strait of Hormuz, with the choice to accept now up to them",
+      "date_published": "2026-09-25T22:33:27Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "f5b1d2ca1465e0c7cce2",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790375266",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:10:30Z",
+          "data": {
+            "change": "added",
+            "label": "Iran to reopen Strait of Hormuz within a week if US agrees to plan",
+            "item_type": "entry",
+            "summary": "added: Iran to reopen Strait of Hormuz within a week if US agrees to plan",
+            "after": {
+              "title": "Iran to reopen Strait of Hormuz within a week if US agrees to plan",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/iran-to-reopen-strait-of-hormuz-within-a-week-if-us-agrees-to-plan?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790375266",
+              "author": null,
+              "published_at": "2026-09-25T22:33:27Z",
+              "updated_at": "2026-09-25T22:33:27Z",
+              "summary": "Iran says it has given the US a seven-day plan to reopen the Strait of Hormuz, with the choice to accept now up to them",
+              "categories": [
+                "Show Types"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 67,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/25/iran-to-reopen-strait-of-hormuz-within-a-week-if-us-agrees-to-plan?traffic_source=rss",
+      "tags": [
+        "Show Types"
+      ]
+    },
+    {
+      "id": "1d986a4d6388369f4cf3",
+      "title": "DR Congo’s Ebola outbreak spreads to two new health zones, WHO says",
+      "content_text": "Health workers struggle as new Ebola cases are found in border regions of South Ubangi and Haut-Uele.",
+      "date_published": "2026-09-25T22:16:35Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "1d986a4d6388369f4cf3",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790363985",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:10:30Z",
+          "data": {
+            "change": "added",
+            "label": "DR Congo’s Ebola outbreak spreads to two new health zones, WHO says",
+            "item_type": "entry",
+            "summary": "added: DR Congo’s Ebola outbreak spreads to two new health zones, WHO says",
+            "after": {
+              "title": "DR Congo’s Ebola outbreak spreads to two new health zones, WHO says",
+              "link": "https://www.aljazeera.com/news/2026/9/25/dr-congos-ebola-outbreak-spreads-to-two-new-health-zones-who-says?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790363985",
+              "author": null,
+              "published_at": "2026-09-25T22:16:35Z",
+              "updated_at": "2026-09-25T22:16:35Z",
+              "summary": "Health workers struggle as new Ebola cases are found in border regions of South Ubangi and Haut-Uele.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 67,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/news/2026/9/25/dr-congos-ebola-outbreak-spreads-to-two-new-health-zones-who-says?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "3c3b319ee0dd21b5d2af",
+      "title": "Supreme Court blocks Trump-backed Missouri congressional map",
+      "content_text": "The ruling is a defeat for Republicans seeking to give their party an edge in the midterm elections for control of the House. It means voters will face a different map than the one used in the primary elections.",
+      "date_published": "2026-09-25T22:06:16Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "3c3b319ee0dd21b5d2af",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.npr.org/2026/09/25/nx-s1-5978875/midterms-redistricting-trump-missouri",
+          "source_url": "https://feeds.npr.org/1001/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:10:30Z",
+          "data": {
+            "change": "added",
+            "label": "Supreme Court blocks Trump-backed Missouri congressional map",
+            "item_type": "entry",
+            "summary": "added: Supreme Court blocks Trump-backed Missouri congressional map",
+            "after": {
+              "title": "Supreme Court blocks Trump-backed Missouri congressional map",
+              "link": "https://www.npr.org/2026/09/25/nx-s1-5978875/midterms-redistricting-trump-missouri",
+              "id": "https://www.npr.org/2026/09/25/nx-s1-5978875/midterms-redistricting-trump-missouri",
+              "author": "Jason Rosenbaum",
+              "published_at": "2026-09-25T22:06:16Z",
+              "updated_at": "2026-09-25T22:06:16Z",
+              "summary": "The ruling is a defeat for Republicans seeking to give their party an edge in the midterm elections for control of the House. It means voters will face a different map than the one used in the primary elections.",
+              "categories": [],
+              "feed": {
+                "title": "NPR Topics: News",
+                "url": "https://www.npr.org/templates/story/story.php?storyId=1001",
+                "feed_url": "https://feeds.npr.org/1001/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.npr.org/1001/rss.xml",
+            "elapsed_ms": 34,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.npr.org/2026/09/25/nx-s1-5978875/midterms-redistricting-trump-missouri"
+    },
+    {
+      "id": "987966128b41a60496b3",
+      "title": "Netanyahu calls Al Jazeera a ‘toxic media outlet’",
+      "content_text": "Israeli Prime Minister Benjamin Netanyahu called Al Jazeera a “toxic media outlet.”",
+      "date_published": "2026-09-25T21:37:35Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "987966128b41a60496b3",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790371437",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:10:30Z",
+          "data": {
+            "change": "added",
+            "label": "Netanyahu calls Al Jazeera a ‘toxic media outlet’",
+            "item_type": "entry",
+            "summary": "added: Netanyahu calls Al Jazeera a ‘toxic media outlet’",
+            "after": {
+              "title": "Netanyahu calls Al Jazeera a ‘toxic media outlet’",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/netanyahu-calls-al-jazeera-a-toxic-media?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790371437",
+              "author": null,
+              "published_at": "2026-09-25T21:37:35Z",
+              "updated_at": "2026-09-25T21:37:35Z",
+              "summary": "Israeli Prime Minister Benjamin Netanyahu called Al Jazeera a “toxic media outlet.”",
+              "categories": [
+                "Show Types"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 67,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/25/netanyahu-calls-al-jazeera-a-toxic-media?traffic_source=rss",
+      "tags": [
+        "Show Types"
+      ]
+    },
+    {
+      "id": "11f6b588a0504bf8f8ff",
+      "title": "Mbappe goal overshadowed by knee injury to mar Zidane debut France win",
+      "content_text": "Kylian Mbappe scores the only goal of France's win in Turkiye, but Real Madrid striker immediately forced off by injury.",
+      "date_published": "2026-09-25T21:32:43Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "11f6b588a0504bf8f8ff",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790370670",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:10:30Z",
+          "data": {
+            "change": "added",
+            "label": "Mbappe goal overshadowed by knee injury to mar Zidane debut France win",
+            "item_type": "entry",
+            "summary": "added: Mbappe goal overshadowed by knee injury to mar Zidane debut France win",
+            "after": {
+              "title": "Mbappe goal overshadowed by knee injury to mar Zidane debut France win",
+              "link": "https://www.aljazeera.com/sports/2026/9/25/mbappe-goal-overshadowed-by-knee-injury-to-mar-zidane-debut-france-win?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790370670",
+              "author": null,
+              "published_at": "2026-09-25T21:32:43Z",
+              "updated_at": "2026-09-25T21:32:43Z",
+              "summary": "Kylian Mbappe scores the only goal of France's win in Turkiye, but Real Madrid striker immediately forced off by injury.",
+              "categories": [
+                "Sport"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 67,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/sports/2026/9/25/mbappe-goal-overshadowed-by-knee-injury-to-mar-zidane-debut-france-win?traffic_source=rss",
+      "tags": [
+        "Sport"
+      ]
+    },
+    {
+      "id": "7dedee3d53488c688fc0",
+      "title": "What would a US diesel export ban mean for global fuel prices?",
+      "content_text": "Energy experts warn US diesel export ban could increase fuel costs domestically and internationally.",
+      "date_published": "2026-09-25T21:28:56Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "7dedee3d53488c688fc0",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790360200",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:10:30Z",
+          "data": {
+            "change": "added",
+            "label": "What would a US diesel export ban mean for global fuel prices?",
+            "item_type": "entry",
+            "summary": "added: What would a US diesel export ban mean for global fuel prices?",
+            "after": {
+              "title": "What would a US diesel export ban mean for global fuel prices?",
+              "link": "https://www.aljazeera.com/economy/2026/9/25/what-would-a-us-diesel-export-ban-mean-for-global-fuel-prices?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790360200",
+              "author": null,
+              "published_at": "2026-09-25T21:28:56Z",
+              "updated_at": "2026-09-25T21:28:56Z",
+              "summary": "Energy experts warn US diesel export ban could increase fuel costs domestically and internationally.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 67,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/economy/2026/9/25/what-would-a-us-diesel-export-ban-mean-for-global-fuel-prices?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "d04e405dc1cde8ce81ba",
+      "title": "Italy crisis deepens as Belgium’s win stalls World Cup rebuild in Rome",
+      "content_text": "Belgium win 2-0 in Italy as Nations League opener is played out in front of nearly half empty Stadio Olimpico.",
+      "date_published": "2026-09-25T21:20:05Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d04e405dc1cde8ce81ba",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790369508",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:10:30Z",
+          "data": {
+            "change": "added",
+            "label": "Italy crisis deepens as Belgium’s win stalls World Cup rebuild in Rome",
+            "item_type": "entry",
+            "summary": "added: Italy crisis deepens as Belgium’s win stalls World Cup rebuild in Rome",
+            "after": {
+              "title": "Italy crisis deepens as Belgium’s win stalls World Cup rebuild in Rome",
+              "link": "https://www.aljazeera.com/sports/2026/9/25/belgium-win-deepens-italy-crisis-as-latest-world-cup-rebuild-begins?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790369508",
+              "author": null,
+              "published_at": "2026-09-25T21:20:05Z",
+              "updated_at": "2026-09-25T21:20:05Z",
+              "summary": "Belgium win 2-0 in Italy as Nations League opener is played out in front of nearly half empty Stadio Olimpico.",
+              "categories": [
+                "Sport"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 67,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/sports/2026/9/25/belgium-win-deepens-italy-crisis-as-latest-world-cup-rebuild-begins?traffic_source=rss",
+      "tags": [
+        "Sport"
+      ]
+    },
+    {
+      "id": "266efa4d3c2c04c58b1b",
+      "title": "Houthi attack on Mecca, Medina would cross ‘red line’, Pakistan PM tells UN",
+      "content_text": "Shehbaz Sharif speaks as Islamabad, Riyadh and Ankara army chiefs meet to discuss Mecca pact, closer military ties.",
+      "date_published": "2026-09-25T20:59:43Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "266efa4d3c2c04c58b1b",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790361739",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:10:30Z",
+          "data": {
+            "change": "added",
+            "label": "Houthi attack on Mecca, Medina would cross ‘red line’, Pakistan PM tells UN",
+            "item_type": "entry",
+            "summary": "added: Houthi attack on Mecca, Medina would cross ‘red line’, Pakistan PM tells UN",
+            "after": {
+              "title": "Houthi attack on Mecca, Medina would cross ‘red line’, Pakistan PM tells UN",
+              "link": "https://www.aljazeera.com/news/2026/9/25/houthi-attack-on-mecca-medina-would-cross-red-line-pakistan-pm-tells-un?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790361739",
+              "author": null,
+              "published_at": "2026-09-25T20:59:43Z",
+              "updated_at": "2026-09-25T20:59:43Z",
+              "summary": "Shehbaz Sharif speaks as Islamabad, Riyadh and Ankara army chiefs meet to discuss Mecca pact, closer military ties.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 67,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/news/2026/9/25/houthi-attack-on-mecca-medina-would-cross-red-line-pakistan-pm-tells-un?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "53797833a06b5907e68b",
+      "title": "Manchester City reportedly found guilty of almost 115 financial charges",
+      "content_text": "Manchester City have reportedly been found guilty of almost all 115 financial misconduct charges they were facing.",
+      "date_published": "2026-09-25T20:56:20Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "53797833a06b5907e68b",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790369495",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:10:30Z",
+          "data": {
+            "change": "added",
+            "label": "Manchester City reportedly found guilty of almost 115 financial charges",
+            "item_type": "entry",
+            "summary": "added: Manchester City reportedly found guilty of almost 115 financial charges",
+            "after": {
+              "title": "Manchester City reportedly found guilty of almost 115 financial charges",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/09-25-man-city-verdict-sv?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790369495",
+              "author": null,
+              "published_at": "2026-09-25T20:56:20Z",
+              "updated_at": "2026-09-25T20:56:20Z",
+              "summary": "Manchester City have reportedly been found guilty of almost all 115 financial misconduct charges they were facing.",
+              "categories": [
+                "Show Types"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 67,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/25/09-25-man-city-verdict-sv?traffic_source=rss",
+      "tags": [
+        "Show Types"
+      ]
+    },
+    {
+      "id": "cdf69c44ec294c14463f",
+      "title": "Huge fire on vehicle ferry off Mykonos prompts mass evacuation",
+      "content_text": "A fire erupted aboard the vehicle ferry Blue Carrier 2 north of the Greek island of Mykonos, prompting a major emergency",
+      "date_published": "2026-09-25T20:46:15Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "cdf69c44ec294c14463f",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790368247",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:10:30Z",
+          "data": {
+            "change": "added",
+            "label": "Huge fire on vehicle ferry off Mykonos prompts mass evacuation",
+            "item_type": "entry",
+            "summary": "added: Huge fire on vehicle ferry off Mykonos prompts mass evacuation",
+            "after": {
+              "title": "Huge fire on vehicle ferry off Mykonos prompts mass evacuation",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/huge-fire-on-vehicle-ferry-off-mykonos-prompts-mass-evacuation?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790368247",
+              "author": null,
+              "published_at": "2026-09-25T20:46:15Z",
+              "updated_at": "2026-09-25T20:46:15Z",
+              "summary": "A fire erupted aboard the vehicle ferry Blue Carrier 2 north of the Greek island of Mykonos, prompting a major emergency",
+              "categories": [
+                "Show Types"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 67,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/25/huge-fire-on-vehicle-ferry-off-mykonos-prompts-mass-evacuation?traffic_source=rss",
+      "tags": [
+        "Show Types"
+      ]
+    },
+    {
+      "id": "7c8d822be5d0502dbb16",
+      "title": "Afghan taxi drivers defy the Taliban’s music ban",
+      "content_text": "Afghan taxi drivers are playing music in their cars despite it being banned by the Taliban.",
+      "date_published": "2026-09-25T20:42:47Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "7c8d822be5d0502dbb16",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790365564",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:10:30Z",
+          "data": {
+            "change": "added",
+            "label": "Afghan taxi drivers defy the Taliban’s music ban",
+            "item_type": "entry",
+            "summary": "added: Afghan taxi drivers defy the Taliban’s music ban",
+            "after": {
+              "title": "Afghan taxi drivers defy the Taliban’s music ban",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/afghan-taxi-drivers-defy-the-talibans-music-ban?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790365564",
+              "author": null,
+              "published_at": "2026-09-25T20:42:47Z",
+              "updated_at": "2026-09-25T20:42:47Z",
+              "summary": "Afghan taxi drivers are playing music in their cars despite it being banned by the Taliban.",
+              "categories": [
+                "Show Types"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 67,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/25/afghan-taxi-drivers-defy-the-talibans-music-ban?traffic_source=rss",
+      "tags": [
+        "Show Types"
+      ]
+    },
+    {
+      "id": "3550faaec4c5fa62201f",
+      "title": "The Pacific is churning with hurricanes. The Atlantic is quiet. Blame El Niño",
+      "content_text": "The Pacific Ocean has had an unusual number of storms this year, while the Atlantic hasn't recorded a single full-blown hurricane. Scientists point to an exceptionally strong El Niño.",
+      "date_published": "2026-09-25T20:08:40Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "3550faaec4c5fa62201f",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.npr.org/2026/09/25/nx-s1-5980351/hurricane-nolo-pacific-el-nino",
+          "source_url": "https://feeds.npr.org/1001/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:10:30Z",
+          "data": {
+            "change": "added",
+            "label": "The Pacific is churning with hurricanes. The Atlantic is quiet. Blame El Niño",
+            "item_type": "entry",
+            "summary": "added: The Pacific is churning with hurricanes. The Atlantic is quiet. Blame El Niño",
+            "after": {
+              "title": "The Pacific is churning with hurricanes. The Atlantic is quiet. Blame El Niño",
+              "link": "https://www.npr.org/2026/09/25/nx-s1-5980351/hurricane-nolo-pacific-el-nino",
+              "id": "https://www.npr.org/2026/09/25/nx-s1-5980351/hurricane-nolo-pacific-el-nino",
+              "author": "Ava Berger",
+              "published_at": "2026-09-25T20:08:40Z",
+              "updated_at": "2026-09-25T20:08:40Z",
+              "summary": "The Pacific Ocean has had an unusual number of storms this year, while the Atlantic hasn't recorded a single full-blown hurricane. Scientists point to an exceptionally strong El Niño.",
+              "categories": [],
+              "feed": {
+                "title": "NPR Topics: News",
+                "url": "https://www.npr.org/templates/story/story.php?storyId=1001",
+                "feed_url": "https://feeds.npr.org/1001/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.npr.org/1001/rss.xml",
+            "elapsed_ms": 34,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.npr.org/2026/09/25/nx-s1-5980351/hurricane-nolo-pacific-el-nino"
+    },
     {
       "id": "5286b4863526f5d17e72",
       "title": "Russia targeting 'ordinary life' with attacks on Ukraine's data centres, Zelensky says",
@@ -11910,1022 +12956,6 @@
       "url": "https://www.aljazeera.com/video/inside-story/2026/9/24/whats-triggered-the-latest-violence-in-ethiopia?traffic_source=rss",
       "tags": [
         "TV Shows"
-      ]
-    },
-    {
-      "id": "cc591eaa3c56235ea40a",
-      "title": "Italy ministers agree to ban burqa and niqab in school and cap foreigners in class",
-      "content_text": "Prime Minister Giorgia Meloni described the measures as \"common-sense tools that do not divide but really help to integrate\".",
-      "date_published": "2026-09-24T19:32:59Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "cc591eaa3c56235ea40a",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.bbc.co.uk/news/articles/cw99d8g48873o#0",
-          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T22:46:33Z",
-          "data": {
-            "change": "added",
-            "label": "Italy ministers agree to ban burqa and niqab in school and cap foreigners in class",
-            "item_type": "entry",
-            "summary": "added: Italy ministers agree to ban burqa and niqab in school and cap foreigners in class",
-            "after": {
-              "title": "Italy ministers agree to ban burqa and niqab in school and cap foreigners in class",
-              "link": "https://www.bbc.co.uk/news/articles/cw99d8g48873o?at_medium=RSS&at_campaign=rss",
-              "id": "https://www.bbc.co.uk/news/articles/cw99d8g48873o#0",
-              "author": null,
-              "published_at": "2026-09-24T19:32:59Z",
-              "updated_at": "2026-09-24T19:32:59Z",
-              "summary": "Prime Minister Giorgia Meloni described the measures as \"common-sense tools that do not divide but really help to integrate\".",
-              "categories": [],
-              "feed": {
-                "title": "BBC News",
-                "url": "https://www.bbc.co.uk/news/world",
-                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-            "elapsed_ms": 333,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.bbc.co.uk/news/articles/cw99d8g48873o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "id": "c5428d69836f945ab885",
-      "title": "US rapper Macklemore announces Free Palestine tour after Ed Sheeran fallout",
-      "content_text": "Macklemore says 'being apolitical during a genocide doesn’t work', promises to donate proceeds to Palestinian causes.",
-      "date_published": "2026-09-24T19:22:27Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "c5428d69836f945ab885",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790264766",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T22:46:33Z",
-          "data": {
-            "change": "added",
-            "label": "US rapper Macklemore announces Free Palestine tour after Ed Sheeran fallout",
-            "item_type": "entry",
-            "summary": "added: US rapper Macklemore announces Free Palestine tour after Ed Sheeran fallout",
-            "after": {
-              "title": "US rapper Macklemore announces Free Palestine tour after Ed Sheeran fallout",
-              "link": "https://www.aljazeera.com/news/2026/9/24/us-rapper-macklemore-announces-free-palestine-tour-after-ed-sheeran-fallout?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790264766",
-              "author": null,
-              "published_at": "2026-09-24T19:22:27Z",
-              "updated_at": "2026-09-24T19:22:27Z",
-              "summary": "Macklemore says 'being apolitical during a genocide doesn’t work', promises to donate proceeds to Palestinian causes.",
-              "categories": [
-                "News"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 172,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/news/2026/9/24/us-rapper-macklemore-announces-free-palestine-tour-after-ed-sheeran-fallout?traffic_source=rss",
-      "tags": [
-        "News"
-      ]
-    },
-    {
-      "id": "fa37778ba2bd661955e1",
-      "title": "Delegates walk out of Netanyahu’s UN speech",
-      "content_text": "Dozens of delegates walked out of the assembly hall as Israeli Prime Minister Benjamin Netanyahu began his UN speech.",
-      "date_published": "2026-09-24T19:18:29Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "fa37778ba2bd661955e1",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790274335",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T22:46:33Z",
-          "data": {
-            "change": "added",
-            "label": "Delegates walk out of Netanyahu’s UN speech",
-            "item_type": "entry",
-            "summary": "added: Delegates walk out of Netanyahu’s UN speech",
-            "after": {
-              "title": "Delegates walk out of Netanyahu’s UN speech",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/24/delegates-walk-out-of-netanyahus-un-speech?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790274335",
-              "author": null,
-              "published_at": "2026-09-24T19:18:29Z",
-              "updated_at": "2026-09-24T19:18:29Z",
-              "summary": "Dozens of delegates walked out of the assembly hall as Israeli Prime Minister Benjamin Netanyahu began his UN speech.",
-              "categories": [
-                "Show Types"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 172,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/delegates-walk-out-of-netanyahus-un-speech?traffic_source=rss",
-      "tags": [
-        "Show Types"
-      ]
-    },
-    {
-      "id": "177f6b69091d4151969e",
-      "title": "Why Australia chose the world's biggest political stage to reveal OpenAI hack",
-      "content_text": "Australia, which has strict social media restrictions and has proposed controls on algorithms and smart glasses, announced the breach at the UN.",
-      "date_published": "2026-09-24T18:06:40Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "177f6b69091d4151969e",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.bbc.co.uk/news/articles/cr3eqk15ld14o#0",
-          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T22:46:33Z",
-          "data": {
-            "change": "added",
-            "label": "Why Australia chose the world's biggest political stage to reveal OpenAI hack",
-            "item_type": "entry",
-            "summary": "added: Why Australia chose the world's biggest political stage to reveal OpenAI hack",
-            "after": {
-              "title": "Why Australia chose the world's biggest political stage to reveal OpenAI hack",
-              "link": "https://www.bbc.co.uk/news/articles/cr3eqk15ld14o?at_medium=RSS&at_campaign=rss",
-              "id": "https://www.bbc.co.uk/news/articles/cr3eqk15ld14o#0",
-              "author": null,
-              "published_at": "2026-09-24T18:06:40Z",
-              "updated_at": "2026-09-24T18:06:40Z",
-              "summary": "Australia, which has strict social media restrictions and has proposed controls on algorithms and smart glasses, announced the breach at the UN.",
-              "categories": [],
-              "feed": {
-                "title": "BBC News",
-                "url": "https://www.bbc.co.uk/news/world",
-                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-            "elapsed_ms": 333,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.bbc.co.uk/news/articles/cr3eqk15ld14o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "id": "16ab374fb77439294837",
-      "title": "Rapper Macklemore announces 'Free Palestine' tour after Ed Sheeran fallout",
-      "content_text": "Proceeds from the tour, which begins in Dublin next month, will go to organisations supporting Palestinians, he says.",
-      "date_published": "2026-09-24T17:55:44Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "16ab374fb77439294837",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.bbc.co.uk/news/articles/cqzjzlve8jg7o#1",
-          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T22:46:33Z",
-          "data": {
-            "change": "added",
-            "label": "Rapper Macklemore announces 'Free Palestine' tour after Ed Sheeran fallout",
-            "item_type": "entry",
-            "summary": "added: Rapper Macklemore announces 'Free Palestine' tour after Ed Sheeran fallout",
-            "after": {
-              "title": "Rapper Macklemore announces 'Free Palestine' tour after Ed Sheeran fallout",
-              "link": "https://www.bbc.co.uk/news/articles/cqzjzlve8jg7o?at_medium=RSS&at_campaign=rss",
-              "id": "https://www.bbc.co.uk/news/articles/cqzjzlve8jg7o#1",
-              "author": null,
-              "published_at": "2026-09-24T17:55:44Z",
-              "updated_at": "2026-09-24T17:55:44Z",
-              "summary": "Proceeds from the tour, which begins in Dublin next month, will go to organisations supporting Palestinians, he says.",
-              "categories": [],
-              "feed": {
-                "title": "BBC News",
-                "url": "https://www.bbc.co.uk/news/world",
-                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-            "elapsed_ms": 333,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.bbc.co.uk/news/articles/cqzjzlve8jg7o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "id": "930a4d7f29ae5b940b8a",
-      "title": "Rogue OpenAI agent 'infiltrated' Australian government website in world first",
-      "content_text": "Australia criticised OpenAI for taking \"too long\" to tell them about the breach which happened in June.",
-      "date_published": "2026-09-24T15:42:07Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "930a4d7f29ae5b940b8a",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.bbc.co.uk/news/articles/c6vgy0333dppo#1",
-          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T22:46:33Z",
-          "data": {
-            "change": "added",
-            "label": "Rogue OpenAI agent 'infiltrated' Australian government website in world first",
-            "item_type": "entry",
-            "summary": "added: Rogue OpenAI agent 'infiltrated' Australian government website in world first",
-            "after": {
-              "title": "Rogue OpenAI agent 'infiltrated' Australian government website in world first",
-              "link": "https://www.bbc.co.uk/news/articles/c6vgy0333dppo?at_medium=RSS&at_campaign=rss",
-              "id": "https://www.bbc.co.uk/news/articles/c6vgy0333dppo#1",
-              "author": null,
-              "published_at": "2026-09-24T15:42:07Z",
-              "updated_at": "2026-09-24T15:42:07Z",
-              "summary": "Australia criticised OpenAI for taking \"too long\" to tell them about the breach which happened in June.",
-              "categories": [],
-              "feed": {
-                "title": "BBC News",
-                "url": "https://www.bbc.co.uk/news/world",
-                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-            "elapsed_ms": 333,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.bbc.co.uk/news/articles/c6vgy0333dppo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "id": "3648662c090dbb736115",
-      "title": "Ethiopia's army says it has repelled attacks in first comment on fresh fighting",
-      "content_text": "The military says its soldiers inflicted casualties as fears grow of a resumption of a full-blown civil war.",
-      "date_published": "2026-09-24T15:37:45Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "3648662c090dbb736115",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.bbc.co.uk/news/articles/cqevwm09w4xmo#1",
-          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T22:46:33Z",
-          "data": {
-            "change": "added",
-            "label": "Ethiopia's army says it has repelled attacks in first comment on fresh fighting",
-            "item_type": "entry",
-            "summary": "added: Ethiopia's army says it has repelled attacks in first comment on fresh fighting",
-            "after": {
-              "title": "Ethiopia's army says it has repelled attacks in first comment on fresh fighting",
-              "link": "https://www.bbc.co.uk/news/articles/cqevwm09w4xmo?at_medium=RSS&at_campaign=rss",
-              "id": "https://www.bbc.co.uk/news/articles/cqevwm09w4xmo#1",
-              "author": null,
-              "published_at": "2026-09-24T15:37:45Z",
-              "updated_at": "2026-09-24T15:37:45Z",
-              "summary": "The military says its soldiers inflicted casualties as fears grow of a resumption of a full-blown civil war.",
-              "categories": [],
-              "feed": {
-                "title": "BBC News",
-                "url": "https://www.bbc.co.uk/news/world",
-                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-            "elapsed_ms": 333,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.bbc.co.uk/news/articles/cqevwm09w4xmo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "id": "aa37978998c424b97cd6",
-      "title": "Priest killed and four injured in knife attack at Polish abbey",
-      "content_text": "A male suspect from Ukraine was arrested after the stabbings in the town of Jarosław, police say.",
-      "date_published": "2026-09-24T19:18:12Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "aa37978998c424b97cd6",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.bbc.co.uk/news/articles/c607lrvm41l3o#0",
-          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T19:33:33Z",
-          "data": {
-            "change": "added",
-            "label": "Priest killed and four injured in knife attack at Polish abbey",
-            "item_type": "entry",
-            "summary": "added: Priest killed and four injured in knife attack at Polish abbey",
-            "after": {
-              "title": "Priest killed and four injured in knife attack at Polish abbey",
-              "link": "https://www.bbc.co.uk/news/articles/c607lrvm41l3o?at_medium=RSS&at_campaign=rss",
-              "id": "https://www.bbc.co.uk/news/articles/c607lrvm41l3o#0",
-              "author": null,
-              "published_at": "2026-09-24T19:18:12Z",
-              "updated_at": "2026-09-24T19:18:12Z",
-              "summary": "A male suspect from Ukraine was arrested after the stabbings in the town of Jarosław, police say.",
-              "categories": [],
-              "feed": {
-                "title": "BBC News",
-                "url": "https://www.bbc.co.uk/news/world",
-                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-            "elapsed_ms": 65,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.bbc.co.uk/news/articles/c607lrvm41l3o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "id": "44b79216b8e1ae0cf27e",
-      "title": "Israel’s policies threaten ‘very existence’ of Palestinians, Abbas tells UN",
-      "content_text": "Mahmoud Abbas says saving two-state solution begins with preserving Palestinian land, protecting those who live on it.",
-      "date_published": "2026-09-24T19:02:50Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "44b79216b8e1ae0cf27e",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790260927",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T19:33:33Z",
-          "data": {
-            "change": "added",
-            "label": "Israel’s policies threaten ‘very existence’ of Palestinians, Abbas tells UN",
-            "item_type": "entry",
-            "summary": "added: Israel’s policies threaten ‘very existence’ of Palestinians, Abbas tells UN",
-            "after": {
-              "title": "Israel’s policies threaten ‘very existence’ of Palestinians, Abbas tells UN",
-              "link": "https://www.aljazeera.com/news/2026/9/24/israels-policies-threaten-very-existence-of-palestinians-abbas-tells-un?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790260927",
-              "author": null,
-              "published_at": "2026-09-24T19:02:50Z",
-              "updated_at": "2026-09-24T19:02:50Z",
-              "summary": "Mahmoud Abbas says saving two-state solution begins with preserving Palestinian land, protecting those who live on it.",
-              "categories": [
-                "News"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 73,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/news/2026/9/24/israels-policies-threaten-very-existence-of-palestinians-abbas-tells-un?traffic_source=rss",
-      "tags": [
-        "News"
-      ]
-    },
-    {
-      "id": "3da0d712597d2130ece0",
-      "title": "Four civilians killed in Pakistani strikes in Afghanistan, Taliban says",
-      "content_text": "Pakistan says it struck 10 targets, adding the strikes were \"strictly limited to identified military objectives\".",
-      "date_published": "2026-09-24T19:02:36Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "3da0d712597d2130ece0",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.bbc.co.uk/news/articles/cm86xn0nnw58o#0",
-          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T19:33:33Z",
-          "data": {
-            "change": "added",
-            "label": "Four civilians killed in Pakistani strikes in Afghanistan, Taliban says",
-            "item_type": "entry",
-            "summary": "added: Four civilians killed in Pakistani strikes in Afghanistan, Taliban says",
-            "after": {
-              "title": "Four civilians killed in Pakistani strikes in Afghanistan, Taliban says",
-              "link": "https://www.bbc.co.uk/news/articles/cm86xn0nnw58o?at_medium=RSS&at_campaign=rss",
-              "id": "https://www.bbc.co.uk/news/articles/cm86xn0nnw58o#0",
-              "author": null,
-              "published_at": "2026-09-24T19:02:36Z",
-              "updated_at": "2026-09-24T19:02:36Z",
-              "summary": "Pakistan says it struck 10 targets, adding the strikes were \"strictly limited to identified military objectives\".",
-              "categories": [],
-              "feed": {
-                "title": "BBC News",
-                "url": "https://www.bbc.co.uk/news/world",
-                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-            "elapsed_ms": 65,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.bbc.co.uk/news/articles/cm86xn0nnw58o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "id": "61097b73daba95f49916",
-      "title": "Watch: UN delegates walk out of Netanyahu speech",
-      "content_text": "The Israeli delegation could be be seen cheering in support during Netanyahu's speech.",
-      "date_published": "2026-09-24T18:29:29Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "61097b73daba95f49916",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.bbc.co.uk/news/videos/cqwyzmpm3pgdo#3",
-          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T19:33:33Z",
-          "data": {
-            "change": "added",
-            "label": "Watch: UN delegates walk out of Netanyahu speech",
-            "item_type": "entry",
-            "summary": "added: Watch: UN delegates walk out of Netanyahu speech",
-            "after": {
-              "title": "Watch: UN delegates walk out of Netanyahu speech",
-              "link": "https://www.bbc.co.uk/news/videos/cqwyzmpm3pgdo?at_medium=RSS&at_campaign=rss",
-              "id": "https://www.bbc.co.uk/news/videos/cqwyzmpm3pgdo#3",
-              "author": null,
-              "published_at": "2026-09-24T18:29:29Z",
-              "updated_at": "2026-09-24T18:29:29Z",
-              "summary": "The Israeli delegation could be be seen cheering in support during Netanyahu's speech.",
-              "categories": [],
-              "feed": {
-                "title": "BBC News",
-                "url": "https://www.bbc.co.uk/news/world",
-                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-            "elapsed_ms": 65,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.bbc.co.uk/news/videos/cqwyzmpm3pgdo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "id": "634e327209139cb40905",
-      "title": "Ethiopian army says 272 Tigrayan fighters killed in Amhara",
-      "content_text": "Tigray People’s Liberation Front says in a 'situation of full-blown war' with Ethiopia's government.",
-      "date_published": "2026-09-24T18:19:03Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "634e327209139cb40905",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790266341",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T19:33:33Z",
-          "data": {
-            "change": "added",
-            "label": "Ethiopian army says 272 Tigrayan fighters killed in Amhara",
-            "item_type": "entry",
-            "summary": "added: Ethiopian army says 272 Tigrayan fighters killed in Amhara",
-            "after": {
-              "title": "Ethiopian army says 272 Tigrayan fighters killed in Amhara",
-              "link": "https://www.aljazeera.com/news/2026/9/24/ethiopian-army-says-272-tigrayan-fighters-killed-as-conflict-escalates?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790266341",
-              "author": null,
-              "published_at": "2026-09-24T18:19:03Z",
-              "updated_at": "2026-09-24T18:19:03Z",
-              "summary": "Tigray People’s Liberation Front says in a 'situation of full-blown war' with Ethiopia's government.",
-              "categories": [
-                "News"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 73,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/news/2026/9/24/ethiopian-army-says-272-tigrayan-fighters-killed-as-conflict-escalates?traffic_source=rss",
-      "tags": [
-        "News"
       ]
     }
   ]

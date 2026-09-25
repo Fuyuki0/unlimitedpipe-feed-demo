@@ -9,6 +9,81 @@
   },
   "items": [
     {
+      "id": "8f5ff0ba1220a2acfbd3",
+      "title": "M 6.6 - 80 km ENE of Tadine, New Caledonia",
+      "content_text": "Magnitude 6.6, 80 km ENE of Tadine, New Caledonia",
+      "date_published": "2026-09-25T21:23:03Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "8f5ff0ba1220a2acfbd3",
+          "source": "web",
+          "type": "change",
+          "key": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.geojson#us6000txpi",
+          "source_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.geojson",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:09:16Z",
+          "data": {
+            "change": "added",
+            "label": "M 6.6 - 80 km ENE of Tadine, New Caledonia",
+            "item_type": "record",
+            "summary": "added: M 6.6 - 80 km ENE of Tadine, New Caledonia",
+            "after": {
+              "id": "us6000txpi",
+              "title": "M 6.6 - 80 km ENE of Tadine, New Caledonia",
+              "link": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txpi",
+              "summary": "Magnitude 6.6, 80 km ENE of Tadine, New Caledonia",
+              "published_at": "2026-09-25T21:23:03Z"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.geojson",
+            "content_type": "application/json",
+            "elapsed_ms": 227,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "title=properties.title",
+                  "link=properties.url",
+                  "summary=\"Magnitude \" + properties.mag + \", \" + properties.place",
+                  "published_at=date(properties.time)"
+                ],
+                "drop": [
+                  "geometry",
+                  "properties",
+                  "type"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "id",
+                "namespace": "earthquakes",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000txpi"
+    },
+    {
       "id": "8b6993c3d1517de68dc5",
       "title": "M 6.4 - 49 km NNE of Kainantu, Papua New Guinea",
       "content_text": "Magnitude 6.4, 49 km NNE of Kainantu, Papua New Guinea",

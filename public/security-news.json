@@ -1,13 +1,393 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Security news",
-  "home_page_url": "https://www.bleepingcomputer.com/feed/",
+  "home_page_url": "https://krebsonsecurity.com/feed/",
   "description": "Events collected by UnlimitedPipe 0.3.2",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
     "generator": "UnlimitedPipe 0.3.2"
   },
   "items": [
+    {
+      "id": "094391b406d1f02caeb8",
+      "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
+      "content_text": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&T customers in 2024 was sentenced to 70 months in federal prison today and ordered to pay nearly $300,000 in restitution to victims.",
+      "date_published": "2026-09-25T21:44:40Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "094391b406d1f02caeb8",
+          "source": "rss",
+          "type": "change",
+          "key": "https://krebsonsecurity.com/?p=74335",
+          "source_url": "https://krebsonsecurity.com/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:10:21Z",
+          "data": {
+            "change": "added",
+            "label": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
+            "item_type": "entry",
+            "summary": "added: U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
+            "after": {
+              "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",
+              "link": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
+              "id": "https://krebsonsecurity.com/?p=74335",
+              "author": "BrianKrebs",
+              "published_at": "2026-09-25T21:44:40Z",
+              "updated_at": "2026-09-25T21:44:40Z",
+              "summary": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&T customers in 2024 was sentenced to 70 months in federal prison today and ordered to pay nearly $300,000 in restitution to victims.",
+              "categories": [
+                "DDoS-for-Hire",
+                "Ne'er-Do-Well News",
+                "Ransomware",
+                "AT&T",
+                "Bureau of Prisons",
+                "Cameron John Wagenius",
+                "Connor Riley Moucka",
+                "CVE-2023-45208",
+                "Defense Criminal Investigative Service",
+                "Judische",
+                "Kenneth Schuchman",
+                "Kiberphant0m",
+                "Paul Russell",
+                "Verizon"
+              ],
+              "feed": {
+                "title": "Krebs on Security",
+                "url": "https://krebsonsecurity.com",
+                "feed_url": "https://krebsonsecurity.com/feed/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://krebsonsecurity.com/feed/",
+            "elapsed_ms": 153,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "security-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
+      "tags": [
+        "DDoS-for-Hire",
+        "Ne'er-Do-Well News",
+        "Ransomware",
+        "AT&T",
+        "Bureau of Prisons",
+        "Cameron John Wagenius",
+        "Connor Riley Moucka",
+        "CVE-2023-45208",
+        "Defense Criminal Investigative Service",
+        "Judische",
+        "Kenneth Schuchman",
+        "Kiberphant0m",
+        "Paul Russell",
+        "Verizon"
+      ]
+    },
+    {
+      "id": "01ffce2f4b7070d816e8",
+      "title": "Kiteworks urges 6-hour server shutdown over potential zero-day attacks",
+      "content_text": "Secure file-sharing software company Kiteworks is urging customers worldwide to temporarily shut down their servers on Saturday for a six-hour window after receiving threat intelligence warning of a potentially imminent cyberattack. [...]",
+      "date_published": "2026-09-25T21:41:07Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "01ffce2f4b7070d816e8",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/",
+          "source_url": "https://www.bleepingcomputer.com/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:10:21Z",
+          "data": {
+            "change": "added",
+            "label": "Kiteworks urges 6-hour server shutdown over potential zero-day attacks",
+            "item_type": "entry",
+            "summary": "added: Kiteworks urges 6-hour server shutdown over potential zero-day attacks",
+            "after": {
+              "title": "Kiteworks urges 6-hour server shutdown over potential zero-day attacks",
+              "link": "https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/",
+              "id": "https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/",
+              "author": "Lawrence Abrams",
+              "published_at": "2026-09-25T21:41:07Z",
+              "updated_at": "2026-09-25T21:41:07Z",
+              "summary": "Secure file-sharing software company Kiteworks is urging customers worldwide to temporarily shut down their servers on Saturday for a six-hour window after receiving threat intelligence warning of a potentially imminent cyberattack. [...]",
+              "categories": [
+                "Security"
+              ],
+              "feed": {
+                "title": "BleepingComputer",
+                "url": "https://www.bleepingcomputer.com/",
+                "feed_url": "https://www.bleepingcomputer.com/feed/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.bleepingcomputer.com/feed/",
+            "elapsed_ms": 94,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "security-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/",
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "id": "1cf918086649b1ccb3cd",
+      "title": "Friday Squid Blogging: Participatory Squid Dissection in October in Tennessee",
+      "content_text": "I feel like someone who reads this blog will want to go to this :\nFamilies are invited to dive into the fascinating world of marine biology during an exciting, hands-on Family Squid Dissection at the Hands-On Science Center. Designed for curious learners of all ages, this unique experience combines an interactive lesson with the opportunity to explore the anatomy and adaptations of real ocean life.\n[…]\nDuring the guided squid dissection, each family will work together to examine a squid up…",
+      "date_published": "2026-09-25T21:08:14Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "1cf918086649b1ccb3cd",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.schneier.com/?p=72684",
+          "source_url": "https://www.schneier.com/feed/atom/",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:10:21Z",
+          "data": {
+            "change": "added",
+            "label": "Friday Squid Blogging: Participatory Squid Dissection in October in Tennessee",
+            "item_type": "entry",
+            "summary": "added: Friday Squid Blogging: Participatory Squid Dissection in October in Tennessee",
+            "after": {
+              "title": "Friday Squid Blogging: Participatory Squid Dissection in October in Tennessee",
+              "link": "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-participatory-squid-dissection-in-october-in-tennessee.html",
+              "id": "https://www.schneier.com/?p=72684",
+              "author": "Bruce Schneier",
+              "published_at": "2026-09-25T21:08:14Z",
+              "updated_at": "2026-09-25T21:08:35Z",
+              "summary": "I feel like someone who reads this blog will want to go to this :\nFamilies are invited to dive into the fascinating world of marine biology during an exciting, hands-on Family Squid Dissection at the Hands-On Science Center. Designed for curious learners of all ages, this unique experience combines an interactive lesson with the opportunity to explore the anatomy and adaptations of real ocean life.\n[…]\nDuring the guided squid dissection, each family will work together to examine a squid up close, exploring its organs, structures, and specialized features. The experience provides a memorable opportunity for children and adults to see firsthand how the anatomy of a squid helps it survive in its underwater environment...",
+              "categories": [
+                "Uncategorized",
+                "squid"
+              ],
+              "feed": {
+                "title": "Schneier on Security",
+                "url": "https://www.schneier.com/",
+                "feed_url": "https://www.schneier.com/feed/atom/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.schneier.com/feed/atom/",
+            "elapsed_ms": 59,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "security-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.schneier.com/blog/archives/2026/09/friday-squid-blogging-participatory-squid-dissection-in-october-in-tennessee.html",
+      "tags": [
+        "Uncategorized",
+        "squid"
+      ]
+    },
+    {
+      "id": "de80708e5218b5f561a6",
+      "title": "ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw",
+      "content_text": "The Clop ransomware gang has moved its data leak site to a new Tor address after confirming its previous server was compromised and defaced through an unpatched Grav CMS flaw that BleepingComputer has learned is an unauthenticated path traversal vulnerability. [...]",
+      "date_published": "2026-09-25T20:57:55Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "de80708e5218b5f561a6",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
+          "source_url": "https://www.bleepingcomputer.com/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:10:21Z",
+          "data": {
+            "change": "added",
+            "label": "ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw",
+            "item_type": "entry",
+            "summary": "added: ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw",
+            "after": {
+              "title": "ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw",
+              "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
+              "id": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
+              "author": "Lawrence Abrams",
+              "published_at": "2026-09-25T20:57:55Z",
+              "updated_at": "2026-09-25T20:57:55Z",
+              "summary": "The Clop ransomware gang has moved its data leak site to a new Tor address after confirming its previous server was compromised and defaced through an unpatched Grav CMS flaw that BleepingComputer has learned is an unauthenticated path traversal vulnerability. [...]",
+              "categories": [
+                "Security"
+              ],
+              "feed": {
+                "title": "BleepingComputer",
+                "url": "https://www.bleepingcomputer.com/",
+                "feed_url": "https://www.bleepingcomputer.com/feed/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.bleepingcomputer.com/feed/",
+            "elapsed_ms": 94,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "security-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
+      "tags": [
+        "Security"
+      ]
+    },
     {
       "id": "d26fd42694cde41a7f60",
       "title": "Elementor WordPress flaw lets attackers create admin accounts",

@@ -9,6 +9,96 @@
   },
   "items": [
     {
+      "id": "d1a5bbc9a6da12c336c1",
+      "title": "OpenAI: Issues with Codex",
+      "content_text": "Status: Identified\nWe have identified that users are experiencing elevated errors for the impacted services.\nWe are working on implementing a mitigation.\nAffected components\nCodex Web (Full outage)\nCLI (Full outage)\nVS Code extension (Full outage)\nCodex API (Full outage)",
+      "date_published": "2026-09-25T23:03:04Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d1a5bbc9a6da12c336c1",
+          "source": "rss",
+          "type": "change",
+          "key": "https://status.openai.com//incidents/01M3DCNWMW57HYK8FJ5FBFPA39",
+          "source_url": "https://status.openai.com/history.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:09:07Z",
+          "data": {
+            "change": "added",
+            "label": "OpenAI: Issues with Codex",
+            "item_type": "entry",
+            "summary": "added: OpenAI: Issues with Codex",
+            "after": {
+              "title": "OpenAI: Issues with Codex",
+              "link": "https://status.openai.com//incidents/01M3DCNWMW57HYK8FJ5FBFPA39",
+              "id": "https://status.openai.com//incidents/01M3DCNWMW57HYK8FJ5FBFPA39",
+              "author": null,
+              "published_at": "2026-09-25T23:03:04Z",
+              "updated_at": "2026-09-25T23:03:04Z",
+              "summary": "Status: Identified\nWe have identified that users are experiencing elevated errors for the impacted services.\nWe are working on implementing a mitigation.\nAffected components\nCodex Web (Full outage)\nCLI (Full outage)\nVS Code extension (Full outage)\nCodex API (Full outage)",
+              "categories": [],
+              "feed": {
+                "title": "OpenAI status",
+                "url": "https://status.openai.com/",
+                "feed_url": "https://status.openai.com/history.rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://status.openai.com/history.rss",
+            "elapsed_ms": 38,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "filter",
+              "version": "0.3.2",
+              "args": {
+                "expr": "not (summary contains \"scheduled maintenance\")"
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "title=replace(feed.title, \"(?i)\\\\s*(status|service health)\\\\b.*$\", \"\") + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "cloud-status",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://status.openai.com//incidents/01M3DCNWMW57HYK8FJ5FBFPA39"
+    },
+    {
       "id": "95825c4b0997a3482a45",
       "title": "OpenAI: Elevated Error Rates on GPT-6 Astra Pro",
       "content_text": "Status: Monitoring\nWe have applied the mitigation and are monitoring the recovery.",
@@ -8917,96 +9007,6 @@
         }
       },
       "url": "https://status.openai.com//incidents/01KZRJHTR75WDXCMC0ZERX6YJC"
-    },
-    {
-      "id": "595b590011a20f45938c",
-      "title": "OpenAI: Increased error rates",
-      "content_text": "Status: Resolved\nAll impacted services have now fully recovered.\nAffected components\nConversations (Operational)",
-      "date_published": "2026-08-11T02:48:20Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "595b590011a20f45938c",
-          "source": "rss",
-          "type": "change",
-          "key": "https://status.openai.com//incidents/01KZNZTPWMV06Z6TQNMY1R1QDR",
-          "source_url": "https://status.openai.com/history.rss",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:11Z",
-          "data": {
-            "change": "added",
-            "label": "OpenAI: Increased error rates",
-            "item_type": "entry",
-            "summary": "added: OpenAI: Increased error rates",
-            "after": {
-              "title": "OpenAI: Increased error rates",
-              "link": "https://status.openai.com//incidents/01KZNZTPWMV06Z6TQNMY1R1QDR",
-              "id": "https://status.openai.com//incidents/01KZNZTPWMV06Z6TQNMY1R1QDR",
-              "author": null,
-              "published_at": "2026-08-11T02:48:20Z",
-              "updated_at": "2026-08-11T02:48:20Z",
-              "summary": "Status: Resolved\nAll impacted services have now fully recovered.\nAffected components\nConversations (Operational)",
-              "categories": [],
-              "feed": {
-                "title": "OpenAI status",
-                "url": "https://status.openai.com/",
-                "feed_url": "https://status.openai.com/history.rss"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://status.openai.com/history.rss",
-            "elapsed_ms": 92,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "filter",
-              "version": "0.3.1",
-              "args": {
-                "expr": "not (summary contains \"scheduled maintenance\")"
-              }
-            },
-            {
-              "step": "map",
-              "version": "0.3.1",
-              "args": {
-                "assign": [
-                  "title=replace(feed.title, \"(?i)\\\\s*(status|service health)\\\\b.*$\", \"\") + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "cloud-status",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://status.openai.com//incidents/01KZNZTPWMV06Z6TQNMY1R1QDR"
     }
   ]
 }

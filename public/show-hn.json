@@ -9,6 +9,88 @@
   },
   "items": [
     {
+      "id": "b8d04d7f12a3aaa59312",
+      "title": "Show HN: Jev Plays Pokémon Red",
+      "content_text": "hn https://news.ycombinator.com/item?id=49845172 · published_at 2026-09-25T14:28:07Z · points 109 · num_comments 55",
+      "date_published": "2026-09-25T14:28:07Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "b8d04d7f12a3aaa59312",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50#https://news.ycombinator.com/item?id=49845172",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:10:22Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: Jev Plays Pokémon Red",
+            "item_type": "record",
+            "summary": "added: Show HN: Jev Plays Pokémon Red",
+            "after": {
+              "title": "Show HN: Jev Plays Pokémon Red",
+              "link": "https://jev-pokemon.vercel.app/",
+              "hn": "https://news.ycombinator.com/item?id=49845172",
+              "published_at": "2026-09-25T14:28:07Z",
+              "points": 109,
+              "num_comments": 55
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=points%3E100&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 399,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.2",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "hn",
+                "namespace": "show-hn",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://jev-pokemon.vercel.app/"
+    },
+    {
       "id": "ca59f603f92f9b218d47",
       "title": "Show HN: Koi.rest – watch some fish and regain your balance",
       "content_text": "hn https://news.ycombinator.com/item?id=49837006 · published_at 2026-09-24T21:33:03Z · points 115 · num_comments 27",

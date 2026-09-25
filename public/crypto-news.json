@@ -1,13 +1,290 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Crypto news (CoinDesk, Cointelegraph, Decrypt)",
-  "home_page_url": "https://cointelegraph.com/rss",
+  "home_page_url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
   "description": "Events collected by UnlimitedPipe 0.3.2",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
     "generator": "UnlimitedPipe 0.3.2"
   },
   "items": [
+    {
+      "id": "85a1f88121bff3c8196b",
+      "title": "U.S. SEC's steadiest crypto advocate, Hester Peirce, to depart next week",
+      "content_text": "U.S. SEC's steadiest crypto advocate, Hester Peirce, to depart next week",
+      "date_published": "2026-09-25T22:17:38Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "85a1f88121bff3c8196b",
+          "source": "rss",
+          "type": "change",
+          "key": "fe3908e5-a758-4fce-b2a9-c1e7c6073eb9",
+          "source_url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:09:07Z",
+          "data": {
+            "change": "added",
+            "label": "U.S. SEC's steadiest crypto advocate, Hester Peirce, to depart next week",
+            "item_type": "entry",
+            "summary": "added: U.S. SEC's steadiest crypto advocate, Hester Peirce, to depart next week",
+            "after": {
+              "title": "U.S. SEC's steadiest crypto advocate, Hester Peirce, to depart next week",
+              "link": "https://www.coindesk.com/policy/2026/09/25/u-s-sec-s-steadiest-crypto-advocate-hester-peirce-to-depart-next-week",
+              "id": "fe3908e5-a758-4fce-b2a9-c1e7c6073eb9",
+              "author": "Jesse Hamilton",
+              "published_at": "2026-09-25T22:17:38Z",
+              "updated_at": "2026-09-25T22:17:38Z",
+              "summary": null,
+              "categories": [
+                "Policy",
+                "Regulation",
+                "News"
+              ],
+              "feed": {
+                "title": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+                "url": "https://www.coindesk.com/",
+                "feed_url": "https://www.coindesk.com/arc/outboundfeeds/rss/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.coindesk.com/arc/outboundfeeds/rss",
+            "elapsed_ms": 112,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.coindesk.com/policy/2026/09/25/u-s-sec-s-steadiest-crypto-advocate-hester-peirce-to-depart-next-week",
+      "tags": [
+        "Policy",
+        "Regulation",
+        "News"
+      ]
+    },
+    {
+      "id": "9ead09a1e3e6465c2124",
+      "title": "US Prosecutors Want $84.2 Million From a Bank Tied to Tether",
+      "content_text": "Federal prosecutors are targeting a Montana payments firm and a Caribbean bank accused of moving money without a license.",
+      "date_published": "2026-09-25T21:25:35Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "9ead09a1e3e6465c2124",
+          "source": "rss",
+          "type": "change",
+          "key": "https://decrypt.co/?p=379380",
+          "source_url": "https://decrypt.co/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:09:07Z",
+          "data": {
+            "change": "added",
+            "label": "US Prosecutors Want $84.2 Million From a Bank Tied to Tether",
+            "item_type": "entry",
+            "summary": "added: US Prosecutors Want $84.2 Million From a Bank Tied to Tether",
+            "after": {
+              "title": "US Prosecutors Want $84.2 Million From a Bank Tied to Tether",
+              "link": "https://decrypt.co/379380/us-prosecutors-84-million-bank-tether-and-bitfinex",
+              "id": "https://decrypt.co/?p=379380",
+              "author": "Jose Antonio Lanz",
+              "published_at": "2026-09-25T21:25:35Z",
+              "updated_at": "2026-09-25T21:25:35Z",
+              "summary": "Federal prosecutors are targeting a Montana payments firm and a Caribbean bank accused of moving money without a license.",
+              "categories": [
+                "Law and Order"
+              ],
+              "feed": {
+                "title": "Decrypt",
+                "url": "https://decrypt.co/feed",
+                "feed_url": "https://decrypt.co/feed"
+              },
+              "enclosures": [
+                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Judge-decrypt-style-2-gID_7.png@png"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://decrypt.co/feed",
+            "elapsed_ms": 33,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://decrypt.co/379380/us-prosecutors-84-million-bank-tether-and-bitfinex",
+      "tags": [
+        "Law and Order"
+      ]
+    },
+    {
+      "id": "3aeee9e4ac7c108a0db9",
+      "title": "Another appeals court rules against prediction market provider Kalshi, says sports contracts are subject to state regulations",
+      "content_text": "Another appeals court rules against prediction market provider Kalshi, says sports contracts are subject to state regulations",
+      "date_published": "2026-09-25T21:17:30Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "3aeee9e4ac7c108a0db9",
+          "source": "rss",
+          "type": "change",
+          "key": "f04f9116-d717-4489-970c-c6f36b34e6d7",
+          "source_url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:09:07Z",
+          "data": {
+            "change": "added",
+            "label": "Another appeals court rules against prediction market provider Kalshi, says sports contracts are subject to state regulations",
+            "item_type": "entry",
+            "summary": "added: Another appeals court rules against prediction market provider Kalshi, says sports contracts are subject to state regulations",
+            "after": {
+              "title": "Another appeals court rules against prediction market provider Kalshi, says sports contracts are subject to state regulations",
+              "link": "https://www.coindesk.com/policy/2026/09/25/another-appeals-court-rules-against-prediction-market-provider-kalshi-says-sports-contracts-are-subject-to-state-regulations",
+              "id": "f04f9116-d717-4489-970c-c6f36b34e6d7",
+              "author": "Nikhilesh De",
+              "published_at": "2026-09-25T21:17:30Z",
+              "updated_at": "2026-09-25T21:17:30Z",
+              "summary": null,
+              "categories": [
+                "Policy",
+                "Kalshi",
+                "Prediction Markets",
+                "News"
+              ],
+              "feed": {
+                "title": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+                "url": "https://www.coindesk.com/",
+                "feed_url": "https://www.coindesk.com/arc/outboundfeeds/rss/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.coindesk.com/arc/outboundfeeds/rss",
+            "elapsed_ms": 112,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.coindesk.com/policy/2026/09/25/another-appeals-court-rules-against-prediction-market-provider-kalshi-says-sports-contracts-are-subject-to-state-regulations",
+      "tags": [
+        "Policy",
+        "Kalshi",
+        "Prediction Markets",
+        "News"
+      ]
+    },
     {
       "id": "9cffd889d6e2dc8a8a7f",
       "title": "OG.com seeks CFTC approval for single-stock perpetual futures",
@@ -13367,279 +13644,6 @@
       "url": "https://decrypt.co/379089/crypto-exchange-that-invented-100x-leverage-is-no-more-heres-what-bitmex-users-need-to-know",
       "tags": [
         "Business"
-      ]
-    },
-    {
-      "id": "30dfb740d05588fedb40",
-      "title": "Canada's Six Biggest Banks Team Up on a Shared Digital-Dollar Network",
-      "content_text": "RBC, TD, BMO, Scotiabank, CIBC and National Bank are jointly exploring a Canadian-dollar tokenized deposit system, starting with transfers between the banks themselves.",
-      "date_published": "2026-09-23T17:01:03Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "30dfb740d05588fedb40",
-          "source": "rss",
-          "type": "change",
-          "key": "https://decrypt.co/?p=379081",
-          "source_url": "https://decrypt.co/feed",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:12Z",
-          "data": {
-            "change": "added",
-            "label": "Canada's Six Biggest Banks Team Up on a Shared Digital-Dollar Network",
-            "item_type": "entry",
-            "summary": "added: Canada's Six Biggest Banks Team Up on a Shared Digital-Dollar Network",
-            "after": {
-              "title": "Canada's Six Biggest Banks Team Up on a Shared Digital-Dollar Network",
-              "link": "https://decrypt.co/379081/canada-six-biggest-banks-shared-digital-dollar-network",
-              "id": "https://decrypt.co/?p=379081",
-              "author": "Jose Antonio Lanz",
-              "published_at": "2026-09-23T17:01:03Z",
-              "updated_at": "2026-09-23T17:01:03Z",
-              "summary": "RBC, TD, BMO, Scotiabank, CIBC and National Bank are jointly exploring a Canadian-dollar tokenized deposit system, starting with transfers between the banks themselves.",
-              "categories": [
-                "Coins"
-              ],
-              "feed": {
-                "title": "Decrypt",
-                "url": "https://decrypt.co/feed",
-                "feed_url": "https://decrypt.co/feed"
-              },
-              "enclosures": [
-                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/08/blockchain-decrypt-style-gID_7.jpg@png"
-              ]
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://decrypt.co/feed",
-            "elapsed_ms": 99,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "crypto-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://decrypt.co/379081/canada-six-biggest-banks-shared-digital-dollar-network",
-      "tags": [
-        "Coins"
-      ]
-    },
-    {
-      "id": "1b65712216f06570bd44",
-      "title": "NYSE Taps Blockchain.com to Reach Crypto Investors With Tokenized Stocks",
-      "content_text": "Blockchain.com and NYSE Group signed a preliminary agreement to give the crypto exchange's users access to tokenized U.S. stocks and ETFs, pending regulatory approval.",
-      "date_published": "2026-09-23T16:36:03Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "1b65712216f06570bd44",
-          "source": "rss",
-          "type": "change",
-          "key": "https://decrypt.co/?p=379080",
-          "source_url": "https://decrypt.co/feed",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:12Z",
-          "data": {
-            "change": "added",
-            "label": "NYSE Taps Blockchain.com to Reach Crypto Investors With Tokenized Stocks",
-            "item_type": "entry",
-            "summary": "added: NYSE Taps Blockchain.com to Reach Crypto Investors With Tokenized Stocks",
-            "after": {
-              "title": "NYSE Taps Blockchain.com to Reach Crypto Investors With Tokenized Stocks",
-              "link": "https://decrypt.co/379080/nyse-taps-blockchain-com-to-reach-crypto-investors-with-tokenized-stocks-etfs",
-              "id": "https://decrypt.co/?p=379080",
-              "author": "Decrypt Staff",
-              "published_at": "2026-09-23T16:36:03Z",
-              "updated_at": "2026-09-23T16:36:03Z",
-              "summary": "Blockchain.com and NYSE Group signed a preliminary agreement to give the crypto exchange's users access to tokenized U.S. stocks and ETFs, pending regulatory approval.",
-              "categories": [
-                "Business"
-              ],
-              "feed": {
-                "title": "Decrypt",
-                "url": "https://decrypt.co/feed",
-                "feed_url": "https://decrypt.co/feed"
-              },
-              "enclosures": [
-                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/01/crypto-trading-gen-z-decrypt-style-gID_7.jpg@png"
-              ]
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://decrypt.co/feed",
-            "elapsed_ms": 99,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "crypto-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://decrypt.co/379080/nyse-taps-blockchain-com-to-reach-crypto-investors-with-tokenized-stocks-etfs",
-      "tags": [
-        "Business"
-      ]
-    },
-    {
-      "id": "d78544913de5820dc997",
-      "title": "Bitwise launches first Lighter ETP amid Hyperliquid rivalry",
-      "content_text": "The product gives European investors brokerage access to the LIT token as Bitwise expands its lineup of products tied to decentralized derivatives platforms.",
-      "date_published": "2026-09-23T16:34:27Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "d78544913de5820dc997",
-          "source": "rss",
-          "type": "change",
-          "key": "https://cointelegraph.com/news/bitwise-lighter-lit-etp-europe-xetra",
-          "source_url": "https://cointelegraph.com/rss",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:12Z",
-          "data": {
-            "change": "added",
-            "label": "Bitwise launches first Lighter ETP amid Hyperliquid rivalry",
-            "item_type": "entry",
-            "summary": "added: Bitwise launches first Lighter ETP amid Hyperliquid rivalry",
-            "after": {
-              "title": "Bitwise launches first Lighter ETP amid Hyperliquid rivalry",
-              "link": "https://cointelegraph.com/news/bitwise-lighter-lit-etp-europe-xetra?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-              "id": "https://cointelegraph.com/news/bitwise-lighter-lit-etp-europe-xetra",
-              "author": "Cointelegraph by Sam Bourgi",
-              "published_at": "2026-09-23T16:34:27Z",
-              "updated_at": "2026-09-24T03:00:19Z",
-              "summary": "The product gives European investors brokerage access to the LIT token as Bitwise expands its lineup of products tied to decentralized derivatives platforms.",
-              "categories": [
-                "Latest News"
-              ],
-              "feed": {
-                "title": "Cointelegraph.com News",
-                "url": "https://cointelegraph.com",
-                "feed_url": "https://cointelegraph.com/rss"
-              },
-              "enclosures": [
-                "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M37DHCMTV7JXT1KJHVV2D4BM/hi-dexs-closing-down-or-re-launching2.jpg"
-              ]
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://cointelegraph.com/rss",
-            "elapsed_ms": 184,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "crypto-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://cointelegraph.com/news/bitwise-lighter-lit-etp-europe-xetra?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "tags": [
-        "Latest News"
       ]
     }
   ]

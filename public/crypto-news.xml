@@ -2,10 +2,37 @@
 <rss version="2.0">
   <channel>
     <title>Crypto news (CoinDesk, Cointelegraph, Decrypt)</title>
-    <link>https://cointelegraph.com/rss</link>
+    <link>https://www.coindesk.com/arc/outboundfeeds/rss/</link>
     <description>Events collected by UnlimitedPipe 0.3.2</description>
     <generator>UnlimitedPipe 0.3.2</generator>
-    <lastBuildDate>Fri, 25 Sep 2026 20:48:14 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 23:09:07 +0000</lastBuildDate>
+    <item>
+      <title>U.S. SEC's steadiest crypto advocate, Hester Peirce, to depart next week</title>
+      <link>https://www.coindesk.com/policy/2026/09/25/u-s-sec-s-steadiest-crypto-advocate-hester-peirce-to-depart-next-week</link>
+      <guid isPermaLink="false">85a1f88121bff3c8196b</guid>
+      <pubDate>Fri, 25 Sep 2026 22:17:38 +0000</pubDate>
+      <category>Policy</category>
+      <category>Regulation</category>
+      <category>News</category>
+    </item>
+    <item>
+      <title>US Prosecutors Want $84.2 Million From a Bank Tied to Tether</title>
+      <link>https://decrypt.co/379380/us-prosecutors-84-million-bank-tether-and-bitfinex</link>
+      <guid isPermaLink="false">9ead09a1e3e6465c2124</guid>
+      <pubDate>Fri, 25 Sep 2026 21:25:35 +0000</pubDate>
+      <description>Federal prosecutors are targeting a Montana payments firm and a Caribbean bank accused of moving money without a license.</description>
+      <category>Law and Order</category>
+    </item>
+    <item>
+      <title>Another appeals court rules against prediction market provider Kalshi, says sports contracts are subject to state regulations</title>
+      <link>https://www.coindesk.com/policy/2026/09/25/another-appeals-court-rules-against-prediction-market-provider-kalshi-says-sports-contracts-are-subject-to-state-regulations</link>
+      <guid isPermaLink="false">3aeee9e4ac7c108a0db9</guid>
+      <pubDate>Fri, 25 Sep 2026 21:17:30 +0000</pubDate>
+      <category>Policy</category>
+      <category>Kalshi</category>
+      <category>Prediction Markets</category>
+      <category>News</category>
+    </item>
     <item>
       <title>OG.com seeks CFTC approval for single-stock perpetual futures</title>
       <link>https://cointelegraph.com/news/og-com-seeks-cftc-approval-single-stock-perpetual-futures?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound</link>
@@ -1226,30 +1253,6 @@ RENDER (+18%), SUI (+18%) and LIT (+15%) led top movers. Bank of America formall
       <pubDate>Wed, 23 Sep 2026 17:31:03 +0000</pubDate>
       <description>BitMEX ended trading at 04:00 UTC Wednesday and is urging users to withdraw their remaining funds, as fees now apply to balances left on the exchange.</description>
       <category>Business</category>
-    </item>
-    <item>
-      <title>Canada's Six Biggest Banks Team Up on a Shared Digital-Dollar Network</title>
-      <link>https://decrypt.co/379081/canada-six-biggest-banks-shared-digital-dollar-network</link>
-      <guid isPermaLink="false">30dfb740d05588fedb40</guid>
-      <pubDate>Wed, 23 Sep 2026 17:01:03 +0000</pubDate>
-      <description>RBC, TD, BMO, Scotiabank, CIBC and National Bank are jointly exploring a Canadian-dollar tokenized deposit system, starting with transfers between the banks themselves.</description>
-      <category>Coins</category>
-    </item>
-    <item>
-      <title>NYSE Taps Blockchain.com to Reach Crypto Investors With Tokenized Stocks</title>
-      <link>https://decrypt.co/379080/nyse-taps-blockchain-com-to-reach-crypto-investors-with-tokenized-stocks-etfs</link>
-      <guid isPermaLink="false">1b65712216f06570bd44</guid>
-      <pubDate>Wed, 23 Sep 2026 16:36:03 +0000</pubDate>
-      <description>Blockchain.com and NYSE Group signed a preliminary agreement to give the crypto exchange's users access to tokenized U.S. stocks and ETFs, pending regulatory approval.</description>
-      <category>Business</category>
-    </item>
-    <item>
-      <title>Bitwise launches first Lighter ETP amid Hyperliquid rivalry</title>
-      <link>https://cointelegraph.com/news/bitwise-lighter-lit-etp-europe-xetra?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound</link>
-      <guid isPermaLink="false">d78544913de5820dc997</guid>
-      <pubDate>Wed, 23 Sep 2026 16:34:27 +0000</pubDate>
-      <description>The product gives European investors brokerage access to the LIT token as Bitwise expands its lineup of products tied to decentralized derivatives platforms.</description>
-      <category>Latest News</category>
     </item>
   </channel>
 </rss>

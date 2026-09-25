@@ -5,7 +5,21 @@
     <link>https://www.githubstatus.com/</link>
     <description>Events collected by UnlimitedPipe 0.3.2</description>
     <generator>UnlimitedPipe 0.3.2</generator>
-    <lastBuildDate>Thu, 24 Sep 2026 19:33:10 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 23:09:07 +0000</lastBuildDate>
+    <item>
+      <title>OpenAI: Issues with Codex</title>
+      <link>https://status.openai.com//incidents/01M3DCNWMW57HYK8FJ5FBFPA39</link>
+      <guid isPermaLink="false">d1a5bbc9a6da12c336c1</guid>
+      <pubDate>Fri, 25 Sep 2026 23:03:04 +0000</pubDate>
+      <description>Status: Identified
+We have identified that users are experiencing elevated errors for the impacted services.
+We are working on implementing a mitigation.
+Affected components
+Codex Web (Full outage)
+CLI (Full outage)
+VS Code extension (Full outage)
+Codex API (Full outage)</description>
+    </item>
     <item>
       <title>OpenAI: Elevated Error Rates on GPT-6 Astra Pro</title>
       <link>https://status.openai.com//incidents/01M3ACKDE4GYY67FXXNRRSC0CE</link>
@@ -1052,16 +1066,6 @@ ChatGPT Work (Operational)</description>
       <link>https://status.openai.com//incidents/01KZRJHTR75WDXCMC0ZERX6YJC</link>
       <guid isPermaLink="false">3e76f516296ea5acffc5</guid>
       <pubDate>Tue, 11 Aug 2026 14:20:28 +0000</pubDate>
-      <description>Status: Resolved
-All impacted services have now fully recovered.
-Affected components
-Conversations (Operational)</description>
-    </item>
-    <item>
-      <title>OpenAI: Increased error rates</title>
-      <link>https://status.openai.com//incidents/01KZNZTPWMV06Z6TQNMY1R1QDR</link>
-      <guid isPermaLink="false">595b590011a20f45938c</guid>
-      <pubDate>Tue, 11 Aug 2026 02:48:20 +0000</pubDate>
       <description>Status: Resolved
 All impacted services have now fully recovered.
 Affected components

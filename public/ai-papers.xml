@@ -5,7 +5,14 @@
     <link>https://huggingface.co/papers</link>
     <description>Events collected by UnlimitedPipe 0.3.2</description>
     <generator>UnlimitedPipe 0.3.2</generator>
-    <lastBuildDate>Fri, 25 Sep 2026 17:36:23 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 23:08:56 +0000</lastBuildDate>
+    <item>
+      <title>Learning to Discover Interesting Mathematics</title>
+      <link>https://huggingface.co/papers/2609.28603</link>
+      <guid isPermaLink="false">9d166491f174f2b92a63</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Recently, Large Language Models (LLMs) have been increasingly able to solve advanced mathematical problems, including many that have been open for decades. This opens the door to expansion of mathematical knowledge at unprecedented scale. Yet, while LLMs may be able to conjecture and prove more and more theorems, it remains open whether this new mathematical knowledge is interesting or useful. We define intrinsic interestingness of a theorem as the ratio between the length of its proof and the…</description>
+    </item>
     <item>
       <title>RGBD20K: A Large-Scale Benchmark for RGB-D Semantic Segmentation</title>
       <link>https://huggingface.co/papers/2609.29028</link>

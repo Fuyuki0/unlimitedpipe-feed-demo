@@ -9,6 +9,88 @@
   },
   "items": [
     {
+      "id": "6eddb2491c06cca8d8f9",
+      "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
+      "content_text": "hn https://news.ycombinator.com/item?id=49845977 · published_at 2026-09-25T15:29:25Z · points 344 · num_comments 628",
+      "date_published": "2026-09-25T15:29:25Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "6eddb2491c06cca8d8f9",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50#https://news.ycombinator.com/item?id=49845977",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:09:20Z",
+          "data": {
+            "change": "added",
+            "label": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
+            "item_type": "record",
+            "summary": "added: U.S. appeals court upholds designation of Anthropic as supply chain risk",
+            "after": {
+              "title": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
+              "link": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
+              "hn": "https://news.ycombinator.com/item?id=49845977",
+              "published_at": "2026-09-25T15:29:25Z",
+              "points": 344,
+              "num_comments": 628
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 281,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.2",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "hn",
+                "namespace": "hn-top",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html"
+    },
+    {
       "id": "f9f41eb7b3e41ccd1d5b",
       "title": "Platform-independent SIMD in Go",
       "content_text": "hn https://news.ycombinator.com/item?id=49843269 · published_at 2026-09-25T11:47:06Z · points 315 · num_comments 120",
