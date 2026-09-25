@@ -1,0 +1,22 @@
+name: world-leaders
+description: Official announcements of the White House, the Kremlin and the European Commission, labeled by source.
+sources:
+  - type: rss
+    url:
+      - https://www.whitehouse.gov/news/feed/
+      - http://en.kremlin.ru/events/president/news/feed
+      - https://ec.europa.eu/commission/presscorner/api/rss?language=en
+operators:
+  - type: map
+    assign:
+      - 'outlet=replace(source_url, "^https?://(?:www\\d?\\.)?([^/]+).*$", "\\1")'
+      - 'outlet=replace(outlet, "^whitehouse\\.gov$", "White House")'
+      - 'outlet=replace(outlet, "^en\\.kremlin\\.ru$", "Kremlin")'
+      - 'outlet=replace(outlet, "^ec\\.europa\\.eu$", "European Commission")'
+      - 'title=outlet + ": " + title'
+  - {type: dedupe, by: [link]}
+  - {type: sort, by: [published_at], reverse: true}
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/world-leaders.xml, title: "World leaders' announcements (White House, Kremlin, European Commission)", max_items: 150}
+  - {type: feed, path: ../public/world-leaders.json, title: "World leaders' announcements (White House, Kremlin, European Commission)", max_items: 150}

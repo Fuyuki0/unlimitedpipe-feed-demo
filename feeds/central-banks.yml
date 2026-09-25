@@ -1,0 +1,28 @@
+name: central-banks
+description: Press releases of the Federal Reserve, the European Central Bank, the Bank of Japan, the Bank of England and the Reserve Bank of India, without routine market operations.
+sources:
+  - type: rss
+    url:
+      - https://www.federalreserve.gov/feeds/press_all.xml
+      - https://www.ecb.europa.eu/rss/press.html
+      - https://www.boj.or.jp/en/rss/whatsnew.xml
+      - https://www.bankofengland.co.uk/rss/news
+      - https://www.rbi.org.in/pressreleases_rss.xml
+operators:
+  - type: filter
+    expr: 'not (title matches "(?i)^(conduct of|results of|outright purchase|amount outstanding|money market operation|statement of accounts|money stock|monetary base|weekly statistical|auction|japanese government bonds held)")'
+  - type: map
+    assign:
+      - 'outlet=replace(source_url, "^https?://(?:www\\d?\\.)?([^/]+).*$", "\\1")'
+      - 'outlet=replace(outlet, "^federalreserve\\.gov$", "Federal Reserve")'
+      - 'outlet=replace(outlet, "^ecb\\.europa\\.eu$", "ECB")'
+      - 'outlet=replace(outlet, "^boj\\.or\\.jp$", "Bank of Japan")'
+      - 'outlet=replace(outlet, "^bankofengland\\.co\\.uk$", "Bank of England")'
+      - 'outlet=replace(outlet, "^rbi\\.org\\.in$", "Reserve Bank of India")'
+      - 'title=outlet + ": " + title'
+  - {type: dedupe, by: [link]}
+  - {type: sort, by: [published_at], reverse: true}
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/central-banks.xml, title: "Central banks (Fed, ECB, BoJ, BoE, RBI)", max_items: 150}
+  - {type: feed, path: ../public/central-banks.json, title: "Central banks (Fed, ECB, BoJ, BoE, RBI)", max_items: 150}

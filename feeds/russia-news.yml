@@ -1,0 +1,22 @@
+name: russia-news
+description: Russia news in English from TASS (Russian state media), Meduza and The Moscow Times (independent, in exile), labeled by outlet.
+sources:
+  - type: rss
+    url:
+      - https://tass.com/rss/v2.xml
+      - https://meduza.io/rss/en/all
+      - https://www.themoscowtimes.com/rss/news
+operators:
+  - type: map
+    assign:
+      - 'outlet=replace(source_url, "^https?://(?:www\\d?\\.)?([^/]+).*$", "\\1")'
+      - 'outlet=replace(outlet, "^tass\\.com$", "TASS (Russian state media)")'
+      - 'outlet=replace(outlet, "^meduza\\.io$", "Meduza")'
+      - 'outlet=replace(outlet, "^themoscowtimes\\.com$", "The Moscow Times")'
+      - 'title=outlet + ": " + title'
+  - {type: dedupe, by: [link]}
+  - {type: sort, by: [published_at], reverse: true}
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/russia-news.xml, title: "Russia news (TASS, Meduza, Moscow Times)", max_items: 150}
+  - {type: feed, path: ../public/russia-news.json, title: "Russia news (TASS, Meduza, Moscow Times)", max_items: 150}

@@ -1,0 +1,22 @@
+name: japan-news
+description: Japan news in English from The Japan Times, The Mainichi and Japan Today, merged, newest first.
+sources:
+  - type: rss
+    url:
+      - https://www.japantimes.co.jp/feed/
+      - https://mainichi.jp/rss/etc/english_latest.rss
+      - https://japantoday.com/feed
+operators:
+  - type: map
+    assign:
+      - 'outlet=replace(source_url, "^https?://(?:www\\d?\\.)?([^/]+).*$", "\\1")'
+      - 'outlet=replace(outlet, "^japantimes\\.co\\.jp$", "The Japan Times")'
+      - 'outlet=replace(outlet, "^mainichi\\.jp$", "The Mainichi")'
+      - 'outlet=replace(outlet, "^japantoday\\.com$", "Japan Today")'
+      - 'title=outlet + ": " + title'
+  - {type: dedupe, by: [link]}
+  - {type: sort, by: [published_at], reverse: true}
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/japan-news.xml, title: "Japan news (Japan Times, Mainichi, Japan Today)", max_items: 150}
+  - {type: feed, path: ../public/japan-news.json, title: "Japan news (Japan Times, Mainichi, Japan Today)", max_items: 150}

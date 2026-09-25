@@ -1,0 +1,20 @@
+name: thailand-news-th
+description: ข่าวไทยจากมติชนออนไลน์และประชาชาติธุรกิจ เรียงข่าวล่าสุดก่อน (Thai-language news from Matichon and Prachachat).
+sources:
+  - type: rss
+    url:
+      - https://www.matichon.co.th/feed
+      - https://www.prachachat.net/feed
+operators:
+  - type: map
+    assign:
+      - 'outlet=replace(source_url, "^https?://(?:www\\d?\\.)?([^/]+).*$", "\\1")'
+      - 'outlet=replace(outlet, "^matichon\\.co\\.th$", "มติชน")'
+      - 'outlet=replace(outlet, "^prachachat\\.net$", "ประชาชาติธุรกิจ")'
+      - 'title=outlet + ": " + title'
+  - {type: dedupe, by: [link]}
+  - {type: sort, by: [published_at], reverse: true}
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/thailand-news-th.xml, title: "ข่าวไทย (มติชน, ประชาชาติธุรกิจ)", max_items: 150}
+  - {type: feed, path: ../public/thailand-news-th.json, title: "ข่าวไทย (มติชน, ประชาชาติธุรกิจ)", max_items: 150}

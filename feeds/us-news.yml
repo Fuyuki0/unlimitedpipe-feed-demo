@@ -1,0 +1,20 @@
+name: us-news
+description: US politics and national news from NPR and PBS NewsHour, merged, newest first.
+sources:
+  - type: rss
+    url:
+      - https://feeds.npr.org/1014/rss.xml
+      - https://www.pbs.org/newshour/feeds/rss/headlines
+operators:
+  - type: map
+    assign:
+      - 'outlet=replace(source_url, "^https?://(?:www\\d?\\.)?([^/]+).*$", "\\1")'
+      - 'outlet=replace(outlet, "^feeds\\.npr\\.org$", "NPR")'
+      - 'outlet=replace(outlet, "^pbs\\.org$", "PBS NewsHour")'
+      - 'title=outlet + ": " + title'
+  - {type: dedupe, by: [link]}
+  - {type: sort, by: [published_at], reverse: true}
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/us-news.xml, title: "US news (NPR, PBS NewsHour)", max_items: 150}
+  - {type: feed, path: ../public/us-news.json, title: "US news (NPR, PBS NewsHour)", max_items: 150}

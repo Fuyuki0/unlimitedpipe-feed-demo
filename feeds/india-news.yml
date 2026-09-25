@@ -1,0 +1,20 @@
+name: india-news
+description: India news in English from The Hindu and NDTV, merged, newest first.
+sources:
+  - type: rss
+    url:
+      - https://www.thehindu.com/news/national/feeder/default.rss
+      - https://feeds.feedburner.com/ndtvnews-top-stories
+operators:
+  - type: map
+    assign:
+      - 'outlet=replace(source_url, "^https?://(?:www\\d?\\.)?([^/]+).*$", "\\1")'
+      - 'outlet=replace(outlet, "^thehindu\\.com$", "The Hindu")'
+      - 'outlet=replace(outlet, "^feeds\\.feedburner\\.com$", "NDTV")'
+      - 'title=outlet + ": " + title'
+  - {type: dedupe, by: [link]}
+  - {type: sort, by: [published_at], reverse: true}
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/india-news.xml, title: "India news (The Hindu, NDTV)", max_items: 150}
+  - {type: feed, path: ../public/india-news.json, title: "India news (The Hindu, NDTV)", max_items: 150}

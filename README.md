@@ -1,6 +1,6 @@
 # UnlimitedPipe feeds
 
-29 free feeds, updated every hour by a GitHub Actions workflow and served by GitHub Pages.
+39 free feeds, updated every hour by a GitHub Actions workflow and served by GitHub Pages.
 No server, no database, no account. Each feed is one short YAML file, built with
 [UnlimitedPipe](https://pypi.org/project/unlimitedpipe/).
 
@@ -39,7 +39,7 @@ on it: `unlimited rss https://fuyuki0.github.io/unlimitedpipe-feeds/ai-news.json
 | [security-news](https://fuyuki0.github.io/unlimitedpipe-feeds/security-news.xml) | Krebs on Security, BleepingComputer, The Hacker News, Schneier on Security |
 | [sec-cyber-incidents](https://fuyuki0.github.io/unlimitedpipe-feeds/sec-cyber-incidents.xml) | Public companies disclosing a material cybersecurity incident to the SEC (8-K Item 1.05) |
 
-### Money and government
+### Money, economy and government
 
 | Feed | What it follows |
 | --- | --- |
@@ -48,6 +48,9 @@ on it: `unlimited rss https://fuyuki0.github.io/unlimitedpipe-feeds/ai-news.json
 | [lobbying-big-spenders](https://fuyuki0.github.io/unlimitedpipe-feeds/lobbying-big-spenders.xml) | US lobbying reports of $1 million or more, as filed with Congress |
 | [sanctions-actions](https://fuyuki0.github.io/unlimitedpipe-feeds/sanctions-actions.xml) | New US sanctions actions from the Treasury (OFAC): designations, removals, licenses |
 | [us-new-rules](https://fuyuki0.github.io/unlimitedpipe-feeds/us-new-rules.xml) | Significant new US federal rules from the Federal Register |
+| [central-banks](https://fuyuki0.github.io/unlimitedpipe-feeds/central-banks.xml) | Press releases of the Fed, ECB, Bank of Japan, Bank of England and Reserve Bank of India, without routine operations |
+| [world-leaders](https://fuyuki0.github.io/unlimitedpipe-feeds/world-leaders.xml) | Official announcements of the White House, the Kremlin and the European Commission |
+| [usd-rates](https://fuyuki0.github.io/unlimitedpipe-feeds/usd-rates.xml) | The US dollar against the baht, yen, yuan, rupee and euro, daily (ECB reference rates) |
 
 ### Crypto
 
@@ -60,13 +63,27 @@ Data, not investment advice.
 | [crypto-releases](https://fuyuki0.github.io/unlimitedpipe-feeds/crypto-releases.xml) | Stable releases of Bitcoin Core, lnd, Geth, Lighthouse and Solana's Agave |
 | [crypto-news](https://fuyuki0.github.io/unlimitedpipe-feeds/crypto-news.xml) | CoinDesk, Cointelegraph and Decrypt, merged |
 
+### Countries
+
+Each feed labels items by outlet; state media is marked as such.
+
+| Feed | What it follows |
+| --- | --- |
+| [thailand-news](https://fuyuki0.github.io/unlimitedpipe-feeds/thailand-news.xml) | Thailand news in English (Khaosod English, Thai Enquirer) |
+| [thailand-news-th](https://fuyuki0.github.io/unlimitedpipe-feeds/thailand-news-th.xml) | ข่าวไทย: Thai-language news from Matichon and Prachachat |
+| [japan-news](https://fuyuki0.github.io/unlimitedpipe-feeds/japan-news.xml) | The Japan Times, The Mainichi and Japan Today |
+| [china-news](https://fuyuki0.github.io/unlimitedpipe-feeds/china-news.xml) | South China Morning Post and CGTN (Chinese state media) |
+| [russia-news](https://fuyuki0.github.io/unlimitedpipe-feeds/russia-news.xml) | TASS (Russian state media), Meduza and The Moscow Times |
+| [india-news](https://fuyuki0.github.io/unlimitedpipe-feeds/india-news.xml) | The Hindu and NDTV |
+| [europe-news](https://fuyuki0.github.io/unlimitedpipe-feeds/europe-news.xml) | POLITICO Europe and Euronews |
+| [us-news](https://fuyuki0.github.io/unlimitedpipe-feeds/us-news.xml) | NPR politics and PBS NewsHour |
+
 ### News
 
 | Feed | What it follows |
 | --- | --- |
 | [world-headlines](https://fuyuki0.github.io/unlimitedpipe-feeds/world-headlines.xml) | BBC, NPR and Al Jazeera headlines, merged |
 | [climate-news](https://fuyuki0.github.io/unlimitedpipe-feeds/climate-news.xml) | Climate and energy stories |
-| [thailand-news](https://fuyuki0.github.io/unlimitedpipe-feeds/thailand-news.xml) | Thailand news in English (Khaosod English, Thai Enquirer) |
 
 ### Science and space
 

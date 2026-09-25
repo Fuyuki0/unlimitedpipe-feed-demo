@@ -1,0 +1,20 @@
+name: europe-news
+description: European news from POLITICO Europe and Euronews, merged, newest first.
+sources:
+  - type: rss
+    url:
+      - https://www.politico.eu/feed/
+      - https://www.euronews.com/rss
+operators:
+  - type: map
+    assign:
+      - 'outlet=replace(source_url, "^https?://(?:www\\d?\\.)?([^/]+).*$", "\\1")'
+      - 'outlet=replace(outlet, "^politico\\.eu$", "POLITICO Europe")'
+      - 'outlet=replace(outlet, "^euronews\\.com$", "Euronews")'
+      - 'title=outlet + ": " + title'
+  - {type: dedupe, by: [link]}
+  - {type: sort, by: [published_at], reverse: true}
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/europe-news.xml, title: "Europe news (POLITICO Europe, Euronews)", max_items: 150}
+  - {type: feed, path: ../public/europe-news.json, title: "Europe news (POLITICO Europe, Euronews)", max_items: 150}

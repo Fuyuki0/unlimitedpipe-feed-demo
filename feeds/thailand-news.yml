@@ -1,8 +1,8 @@
 name: thailand-news
-description: English-language Thailand news from Khaosod English and Thai Enquirer.
+description: English-language Thailand news from Khaosod English, Thai Enquirer and Prachatai English.
 sources:
   - type: rss
-    url: [https://www.khaosodenglish.com/feed/, https://www.thaienquirer.com/feed/]
+    url: [https://www.khaosodenglish.com/feed/, https://www.thaienquirer.com/feed/, https://prachataienglish.com/rss.xml]
 operators:
   - {type: sort, by: [published_at], reverse: true}
   - {type: diff, only: [added], emit_initial: true}

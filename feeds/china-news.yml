@@ -1,0 +1,20 @@
+name: china-news
+description: China news in English from the South China Morning Post (Hong Kong) and CGTN (Chinese state media), labeled by outlet.
+sources:
+  - type: rss
+    url:
+      - https://www.scmp.com/rss/4/feed
+      - https://www.cgtn.com/subscribe/rss/section/china.xml
+operators:
+  - type: map
+    assign:
+      - 'outlet=replace(source_url, "^https?://(?:www\\d?\\.)?([^/]+).*$", "\\1")'
+      - 'outlet=replace(outlet, "^scmp\\.com$", "SCMP")'
+      - 'outlet=replace(outlet, "^cgtn\\.com$", "CGTN (Chinese state media)")'
+      - 'title=outlet + ": " + title'
+  - {type: dedupe, by: [link]}
+  - {type: sort, by: [published_at], reverse: true}
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/china-news.xml, title: "China news (SCMP, CGTN)", max_items: 150}
+  - {type: feed, path: ../public/china-news.json, title: "China news (SCMP, CGTN)", max_items: 150}
