@@ -9,6 +9,94 @@
   },
   "items": [
     {
+      "id": "1c619b31587e7b37d63b",
+      "title": "Pope Leo XIV warns AI could undermine humanity during France visit",
+      "content_text": "Thousands gather in Paris as the pope warns against a 'paradise of machines' at the Elysee Palace.",
+      "date_published": "2026-09-25T23:21:52Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "1c619b31587e7b37d63b",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790373856",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:43:16Z",
+          "data": {
+            "change": "added",
+            "label": "Pope Leo XIV warns AI could undermine humanity during France visit",
+            "item_type": "entry",
+            "summary": "added: Pope Leo XIV warns AI could undermine humanity during France visit",
+            "after": {
+              "title": "Pope Leo XIV warns AI could undermine humanity during France visit",
+              "link": "https://www.aljazeera.com/news/2026/9/25/pope-leo-xiv-warns-ai-could-undermine-humanity-during-france-visit?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790373856",
+              "author": null,
+              "published_at": "2026-09-25T23:21:52Z",
+              "updated_at": "2026-09-25T23:21:52Z",
+              "summary": "Thousands gather in Paris as the pope warns against a 'paradise of machines' at the Elysee Palace.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 221,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/news/2026/9/25/pope-leo-xiv-warns-ai-could-undermine-humanity-during-france-visit?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
       "id": "f5b1d2ca1465e0c7cce2",
       "title": "Iran to reopen Strait of Hormuz within a week if US agrees to plan",
       "content_text": "Iran says it has given the US a seven-day plan to reopen the Strait of Hormuz, with the choice to accept now up to them",
@@ -12869,94 +12957,6 @@
         }
       },
       "url": "https://www.npr.org/2026/09/24/nx-s1-5980318/senate-iran-war-powers-vote"
-    },
-    {
-      "id": "42a2be58346f520b4f67",
-      "title": "What’s triggered the latest violence in Ethiopia?",
-      "content_text": "Tigrayan forces say they are in a 'full-blown war' with the army.",
-      "date_published": "2026-09-24T19:34:53Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "42a2be58346f520b4f67",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790272231",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T22:46:33Z",
-          "data": {
-            "change": "added",
-            "label": "What’s triggered the latest violence in Ethiopia?",
-            "item_type": "entry",
-            "summary": "added: What’s triggered the latest violence in Ethiopia?",
-            "after": {
-              "title": "What’s triggered the latest violence in Ethiopia?",
-              "link": "https://www.aljazeera.com/video/inside-story/2026/9/24/whats-triggered-the-latest-violence-in-ethiopia?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790272231",
-              "author": null,
-              "published_at": "2026-09-24T19:34:53Z",
-              "updated_at": "2026-09-24T19:34:53Z",
-              "summary": "Tigrayan forces say they are in a 'full-blown war' with the army.",
-              "categories": [
-                "TV Shows"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 172,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/video/inside-story/2026/9/24/whats-triggered-the-latest-violence-in-ethiopia?traffic_source=rss",
-      "tags": [
-        "TV Shows"
-      ]
     }
   ]
 }

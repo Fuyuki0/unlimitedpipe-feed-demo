@@ -9,6 +9,111 @@
   },
   "items": [
     {
+      "id": "cf1e1bc9608950292336",
+      "title": "How to keep enjoying programming in a world of LLMs",
+      "content_text": "How to keep enjoying programming in a world of LLMs",
+      "date_published": "2026-09-25T23:22:27Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "cf1e1bc9608950292336",
+          "source": "rss",
+          "type": "change",
+          "key": "https://lobste.rs/s/ekbatu",
+          "source_url": "https://lobste.rs/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:39:56Z",
+          "data": {
+            "change": "added",
+            "label": "How to keep enjoying programming in a world of LLMs",
+            "item_type": "entry",
+            "summary": "added: How to keep enjoying programming in a world of LLMs",
+            "after": {
+              "title": "How to keep enjoying programming in a world of LLMs",
+              "link": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
+              "id": "https://lobste.rs/s/ekbatu",
+              "author": "discourse.haskell.org via eatonphil",
+              "published_at": "2026-09-25T23:22:27Z",
+              "updated_at": "2026-09-25T23:22:27Z",
+              "categories": [
+                "vibecoding"
+              ],
+              "feed": {
+                "title": "Lobsters",
+                "url": "https://lobste.rs/",
+                "feed_url": "https://lobste.rs/rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://lobste.rs/rss",
+            "elapsed_ms": 149,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "grep",
+              "version": "0.3.2",
+              "args": {
+                "patterns": [
+                  "AI",
+                  "LLM",
+                  "LLMs",
+                  "GPT",
+                  "Claude",
+                  "Gemini",
+                  "language model",
+                  "machine learning"
+                ],
+                "field": [
+                  "title"
+                ]
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "drop": [
+                  "summary"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "ai-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://discourse.haskell.org/t/how-to-keep-enjoying-programming-in-a-world-of-llms/14705",
+      "tags": [
+        "vibecoding"
+      ]
+    },
+    {
       "id": "16fe90266a03e6b7b455",
       "title": "Show HN: Doom or Bloom, map your AI worldview",
       "content_text": "Show HN: Doom or Bloom, map your AI worldview",

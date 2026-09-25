@@ -7,5 +7,1950 @@
     "schema": "unlimitedpipe.event/1",
     "generator": "UnlimitedPipe 0.3.2"
   },
-  "items": []
+  "items": [
+    {
+      "id": "3a8a64725ae32780d79f",
+      "title": "Southland Holdings, Inc.: delisting notice or listing transfer",
+      "content_text": "Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing\nItem 9.01: Financial Statements and Exhibits",
+      "date_published": "2026-09-25T21:28:51Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "3a8a64725ae32780d79f",
+          "source": "rss",
+          "type": "change",
+          "key": "urn:tag:sec.gov,2008:accession-number=0001829126-26-010433",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:41:11Z",
+          "data": {
+            "change": "added",
+            "label": "Southland Holdings, Inc.: delisting notice or listing transfer",
+            "item_type": "entry",
+            "summary": "added: Southland Holdings, Inc.: delisting notice or listing transfer",
+            "after": {
+              "title": "Southland Holdings, Inc.: delisting notice or listing transfer",
+              "link": "https://www.sec.gov/Archives/edgar/data/1883814/000182912626010433/0001829126-26-010433-index.htm",
+              "id": "urn:tag:sec.gov,2008:accession-number=0001829126-26-010433",
+              "author": null,
+              "published_at": "2026-09-25T21:28:51Z",
+              "updated_at": "2026-09-25T21:28:51Z",
+              "summary": "Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing\nItem 9.01: Financial Statements and Exhibits",
+              "categories": [
+                "8-K"
+              ],
+              "feed": {
+                "title": "Latest Filings - Fri, 25 Sep 2026 19:36:15 EDT",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent",
+                "feed_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom"
+              },
+              "company": "Southland Holdings, Inc.",
+              "event": "delisting notice or listing transfer"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom",
+            "elapsed_ms": 12096,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "filter",
+              "version": "0.3.2",
+              "args": {
+                "expr": "summary matches \"Item (1\\\\.03|1\\\\.05|2\\\\.01|2\\\\.05|2\\\\.06|3\\\\.01|4\\\\.01|4\\\\.02|5\\\\.01):\""
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "company=replace(title, \"^8-K(/A)? - (.*?) \\\\(\\\\d+\\\\) \\\\(Filer\\\\)$\", \"\\\\2\")",
+                  "event=replace(summary, \"(?s)^.*?Item (1\\\\.03|1\\\\.05|2\\\\.01|2\\\\.05|2\\\\.06|3\\\\.01|4\\\\.01|4\\\\.02|5\\\\.01):.*$\", \"\\\\1\")",
+                  "event=replace(event, \"^1\\\\.03$\", \"bankruptcy or receivership\")",
+                  "event=replace(event, \"^1\\\\.05$\", \"cybersecurity incident\")",
+                  "event=replace(event, \"^2\\\\.01$\", \"completed an acquisition or sale of assets\")",
+                  "event=replace(event, \"^2\\\\.05$\", \"layoffs or exit costs\")",
+                  "event=replace(event, \"^2\\\\.06$\", \"material impairment\")",
+                  "event=replace(event, \"^3\\\\.01$\", \"delisting notice or listing transfer\")",
+                  "event=replace(event, \"^4\\\\.01$\", \"auditor change\")",
+                  "event=replace(event, \"^4\\\\.02$\", \"past financial statements can no longer be relied on\")",
+                  "event=replace(event, \"^5\\\\.01$\", \"change in control\")",
+                  "title=company + \": \" + event",
+                  "summary=replace(summary, \"^Filed: \\\\S+ AccNo: \\\\S+ Size: \\\\S+ \\\\S+\\\\s*\", \"\")"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "sec-company-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/Archives/edgar/data/1883814/000182912626010433/0001829126-26-010433-index.htm",
+      "tags": [
+        "8-K"
+      ]
+    },
+    {
+      "id": "9178818f747204657f56",
+      "title": "DYADIC INTERNATIONAL INC: delisting notice or listing transfer",
+      "content_text": "Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing",
+      "date_published": "2026-09-25T21:27:22Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "9178818f747204657f56",
+          "source": "rss",
+          "type": "change",
+          "key": "urn:tag:sec.gov,2008:accession-number=0001493152-26-044398",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:41:11Z",
+          "data": {
+            "change": "added",
+            "label": "DYADIC INTERNATIONAL INC: delisting notice or listing transfer",
+            "item_type": "entry",
+            "summary": "added: DYADIC INTERNATIONAL INC: delisting notice or listing transfer",
+            "after": {
+              "title": "DYADIC INTERNATIONAL INC: delisting notice or listing transfer",
+              "link": "https://www.sec.gov/Archives/edgar/data/1213809/000149315226044398/0001493152-26-044398-index.htm",
+              "id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-044398",
+              "author": null,
+              "published_at": "2026-09-25T21:27:22Z",
+              "updated_at": "2026-09-25T21:27:22Z",
+              "summary": "Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing",
+              "categories": [
+                "8-K"
+              ],
+              "feed": {
+                "title": "Latest Filings - Fri, 25 Sep 2026 19:36:15 EDT",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent",
+                "feed_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom"
+              },
+              "company": "DYADIC INTERNATIONAL INC",
+              "event": "delisting notice or listing transfer"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom",
+            "elapsed_ms": 12096,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "filter",
+              "version": "0.3.2",
+              "args": {
+                "expr": "summary matches \"Item (1\\\\.03|1\\\\.05|2\\\\.01|2\\\\.05|2\\\\.06|3\\\\.01|4\\\\.01|4\\\\.02|5\\\\.01):\""
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "company=replace(title, \"^8-K(/A)? - (.*?) \\\\(\\\\d+\\\\) \\\\(Filer\\\\)$\", \"\\\\2\")",
+                  "event=replace(summary, \"(?s)^.*?Item (1\\\\.03|1\\\\.05|2\\\\.01|2\\\\.05|2\\\\.06|3\\\\.01|4\\\\.01|4\\\\.02|5\\\\.01):.*$\", \"\\\\1\")",
+                  "event=replace(event, \"^1\\\\.03$\", \"bankruptcy or receivership\")",
+                  "event=replace(event, \"^1\\\\.05$\", \"cybersecurity incident\")",
+                  "event=replace(event, \"^2\\\\.01$\", \"completed an acquisition or sale of assets\")",
+                  "event=replace(event, \"^2\\\\.05$\", \"layoffs or exit costs\")",
+                  "event=replace(event, \"^2\\\\.06$\", \"material impairment\")",
+                  "event=replace(event, \"^3\\\\.01$\", \"delisting notice or listing transfer\")",
+                  "event=replace(event, \"^4\\\\.01$\", \"auditor change\")",
+                  "event=replace(event, \"^4\\\\.02$\", \"past financial statements can no longer be relied on\")",
+                  "event=replace(event, \"^5\\\\.01$\", \"change in control\")",
+                  "title=company + \": \" + event",
+                  "summary=replace(summary, \"^Filed: \\\\S+ AccNo: \\\\S+ Size: \\\\S+ \\\\S+\\\\s*\", \"\")"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "sec-company-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/Archives/edgar/data/1213809/000149315226044398/0001493152-26-044398-index.htm",
+      "tags": [
+        "8-K"
+      ]
+    },
+    {
+      "id": "ad69ddeff2d93539584c",
+      "title": "Fusemachines Inc.: delisting notice or listing transfer",
+      "content_text": "Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing\nItem 9.01: Financial Statements and Exhibits",
+      "date_published": "2026-09-25T21:25:13Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ad69ddeff2d93539584c",
+          "source": "rss",
+          "type": "change",
+          "key": "urn:tag:sec.gov,2008:accession-number=0001493152-26-044394",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:41:11Z",
+          "data": {
+            "change": "added",
+            "label": "Fusemachines Inc.: delisting notice or listing transfer",
+            "item_type": "entry",
+            "summary": "added: Fusemachines Inc.: delisting notice or listing transfer",
+            "after": {
+              "title": "Fusemachines Inc.: delisting notice or listing transfer",
+              "link": "https://www.sec.gov/Archives/edgar/data/2033383/000149315226044394/0001493152-26-044394-index.htm",
+              "id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-044394",
+              "author": null,
+              "published_at": "2026-09-25T21:25:13Z",
+              "updated_at": "2026-09-25T21:25:13Z",
+              "summary": "Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing\nItem 9.01: Financial Statements and Exhibits",
+              "categories": [
+                "8-K"
+              ],
+              "feed": {
+                "title": "Latest Filings - Fri, 25 Sep 2026 19:36:15 EDT",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent",
+                "feed_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom"
+              },
+              "company": "Fusemachines Inc.",
+              "event": "delisting notice or listing transfer"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom",
+            "elapsed_ms": 12096,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "filter",
+              "version": "0.3.2",
+              "args": {
+                "expr": "summary matches \"Item (1\\\\.03|1\\\\.05|2\\\\.01|2\\\\.05|2\\\\.06|3\\\\.01|4\\\\.01|4\\\\.02|5\\\\.01):\""
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "company=replace(title, \"^8-K(/A)? - (.*?) \\\\(\\\\d+\\\\) \\\\(Filer\\\\)$\", \"\\\\2\")",
+                  "event=replace(summary, \"(?s)^.*?Item (1\\\\.03|1\\\\.05|2\\\\.01|2\\\\.05|2\\\\.06|3\\\\.01|4\\\\.01|4\\\\.02|5\\\\.01):.*$\", \"\\\\1\")",
+                  "event=replace(event, \"^1\\\\.03$\", \"bankruptcy or receivership\")",
+                  "event=replace(event, \"^1\\\\.05$\", \"cybersecurity incident\")",
+                  "event=replace(event, \"^2\\\\.01$\", \"completed an acquisition or sale of assets\")",
+                  "event=replace(event, \"^2\\\\.05$\", \"layoffs or exit costs\")",
+                  "event=replace(event, \"^2\\\\.06$\", \"material impairment\")",
+                  "event=replace(event, \"^3\\\\.01$\", \"delisting notice or listing transfer\")",
+                  "event=replace(event, \"^4\\\\.01$\", \"auditor change\")",
+                  "event=replace(event, \"^4\\\\.02$\", \"past financial statements can no longer be relied on\")",
+                  "event=replace(event, \"^5\\\\.01$\", \"change in control\")",
+                  "title=company + \": \" + event",
+                  "summary=replace(summary, \"^Filed: \\\\S+ AccNo: \\\\S+ Size: \\\\S+ \\\\S+\\\\s*\", \"\")"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "sec-company-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/Archives/edgar/data/2033383/000149315226044394/0001493152-26-044394-index.htm",
+      "tags": [
+        "8-K"
+      ]
+    },
+    {
+      "id": "e807f698e0248ed4f37c",
+      "title": "SilverBox Corp IV: delisting notice or listing transfer",
+      "content_text": "Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing",
+      "date_published": "2026-09-25T21:16:31Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "e807f698e0248ed4f37c",
+          "source": "rss",
+          "type": "change",
+          "key": "urn:tag:sec.gov,2008:accession-number=0001104659-26-111044",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:41:11Z",
+          "data": {
+            "change": "added",
+            "label": "SilverBox Corp IV: delisting notice or listing transfer",
+            "item_type": "entry",
+            "summary": "added: SilverBox Corp IV: delisting notice or listing transfer",
+            "after": {
+              "title": "SilverBox Corp IV: delisting notice or listing transfer",
+              "link": "https://www.sec.gov/Archives/edgar/data/2015947/000110465926111044/0001104659-26-111044-index.htm",
+              "id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-111044",
+              "author": null,
+              "published_at": "2026-09-25T21:16:31Z",
+              "updated_at": "2026-09-25T21:16:31Z",
+              "summary": "Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing",
+              "categories": [
+                "8-K"
+              ],
+              "feed": {
+                "title": "Latest Filings - Fri, 25 Sep 2026 19:36:15 EDT",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent",
+                "feed_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom"
+              },
+              "company": "SilverBox Corp IV",
+              "event": "delisting notice or listing transfer"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom",
+            "elapsed_ms": 12096,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "filter",
+              "version": "0.3.2",
+              "args": {
+                "expr": "summary matches \"Item (1\\\\.03|1\\\\.05|2\\\\.01|2\\\\.05|2\\\\.06|3\\\\.01|4\\\\.01|4\\\\.02|5\\\\.01):\""
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "company=replace(title, \"^8-K(/A)? - (.*?) \\\\(\\\\d+\\\\) \\\\(Filer\\\\)$\", \"\\\\2\")",
+                  "event=replace(summary, \"(?s)^.*?Item (1\\\\.03|1\\\\.05|2\\\\.01|2\\\\.05|2\\\\.06|3\\\\.01|4\\\\.01|4\\\\.02|5\\\\.01):.*$\", \"\\\\1\")",
+                  "event=replace(event, \"^1\\\\.03$\", \"bankruptcy or receivership\")",
+                  "event=replace(event, \"^1\\\\.05$\", \"cybersecurity incident\")",
+                  "event=replace(event, \"^2\\\\.01$\", \"completed an acquisition or sale of assets\")",
+                  "event=replace(event, \"^2\\\\.05$\", \"layoffs or exit costs\")",
+                  "event=replace(event, \"^2\\\\.06$\", \"material impairment\")",
+                  "event=replace(event, \"^3\\\\.01$\", \"delisting notice or listing transfer\")",
+                  "event=replace(event, \"^4\\\\.01$\", \"auditor change\")",
+                  "event=replace(event, \"^4\\\\.02$\", \"past financial statements can no longer be relied on\")",
+                  "event=replace(event, \"^5\\\\.01$\", \"change in control\")",
+                  "title=company + \": \" + event",
+                  "summary=replace(summary, \"^Filed: \\\\S+ AccNo: \\\\S+ Size: \\\\S+ \\\\S+\\\\s*\", \"\")"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "sec-company-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/Archives/edgar/data/2015947/000110465926111044/0001104659-26-111044-index.htm",
+      "tags": [
+        "8-K"
+      ]
+    },
+    {
+      "id": "9560ef61d0e29a55d311",
+      "title": "Calidi Biotherapeutics, Inc.: delisting notice or listing transfer",
+      "content_text": "Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing\nItem 8.01: Other Events\nItem 9.01: Financial Statements and Exhibits",
+      "date_published": "2026-09-25T21:15:39Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "9560ef61d0e29a55d311",
+          "source": "rss",
+          "type": "change",
+          "key": "urn:tag:sec.gov,2008:accession-number=0001493152-26-044381",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:41:11Z",
+          "data": {
+            "change": "added",
+            "label": "Calidi Biotherapeutics, Inc.: delisting notice or listing transfer",
+            "item_type": "entry",
+            "summary": "added: Calidi Biotherapeutics, Inc.: delisting notice or listing transfer",
+            "after": {
+              "title": "Calidi Biotherapeutics, Inc.: delisting notice or listing transfer",
+              "link": "https://www.sec.gov/Archives/edgar/data/1855485/000149315226044381/0001493152-26-044381-index.htm",
+              "id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-044381",
+              "author": null,
+              "published_at": "2026-09-25T21:15:39Z",
+              "updated_at": "2026-09-25T21:15:39Z",
+              "summary": "Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing\nItem 8.01: Other Events\nItem 9.01: Financial Statements and Exhibits",
+              "categories": [
+                "8-K"
+              ],
+              "feed": {
+                "title": "Latest Filings - Fri, 25 Sep 2026 19:36:15 EDT",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent",
+                "feed_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom"
+              },
+              "company": "Calidi Biotherapeutics, Inc.",
+              "event": "delisting notice or listing transfer"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom",
+            "elapsed_ms": 12096,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "filter",
+              "version": "0.3.2",
+              "args": {
+                "expr": "summary matches \"Item (1\\\\.03|1\\\\.05|2\\\\.01|2\\\\.05|2\\\\.06|3\\\\.01|4\\\\.01|4\\\\.02|5\\\\.01):\""
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "company=replace(title, \"^8-K(/A)? - (.*?) \\\\(\\\\d+\\\\) \\\\(Filer\\\\)$\", \"\\\\2\")",
+                  "event=replace(summary, \"(?s)^.*?Item (1\\\\.03|1\\\\.05|2\\\\.01|2\\\\.05|2\\\\.06|3\\\\.01|4\\\\.01|4\\\\.02|5\\\\.01):.*$\", \"\\\\1\")",
+                  "event=replace(event, \"^1\\\\.03$\", \"bankruptcy or receivership\")",
+                  "event=replace(event, \"^1\\\\.05$\", \"cybersecurity incident\")",
+                  "event=replace(event, \"^2\\\\.01$\", \"completed an acquisition or sale of assets\")",
+                  "event=replace(event, \"^2\\\\.05$\", \"layoffs or exit costs\")",
+                  "event=replace(event, \"^2\\\\.06$\", \"material impairment\")",
+                  "event=replace(event, \"^3\\\\.01$\", \"delisting notice or listing transfer\")",
+                  "event=replace(event, \"^4\\\\.01$\", \"auditor change\")",
+                  "event=replace(event, \"^4\\\\.02$\", \"past financial statements can no longer be relied on\")",
+                  "event=replace(event, \"^5\\\\.01$\", \"change in control\")",
+                  "title=company + \": \" + event",
+                  "summary=replace(summary, \"^Filed: \\\\S+ AccNo: \\\\S+ Size: \\\\S+ \\\\S+\\\\s*\", \"\")"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "sec-company-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/Archives/edgar/data/1855485/000149315226044381/0001493152-26-044381-index.htm",
+      "tags": [
+        "8-K"
+      ]
+    },
+    {
+      "id": "ed05613a8a2a732ddf19",
+      "title": "Paramount Skydance Corp: delisting notice or listing transfer",
+      "content_text": "Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing\nItem 7.01: Regulation FD Disclosure\nItem 9.01: Financial Statements and Exhibits",
+      "date_published": "2026-09-25T21:06:45Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ed05613a8a2a732ddf19",
+          "source": "rss",
+          "type": "change",
+          "key": "urn:tag:sec.gov,2008:accession-number=0001104659-26-111034",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:41:11Z",
+          "data": {
+            "change": "added",
+            "label": "Paramount Skydance Corp: delisting notice or listing transfer",
+            "item_type": "entry",
+            "summary": "added: Paramount Skydance Corp: delisting notice or listing transfer",
+            "after": {
+              "title": "Paramount Skydance Corp: delisting notice or listing transfer",
+              "link": "https://www.sec.gov/Archives/edgar/data/2041610/000110465926111034/0001104659-26-111034-index.htm",
+              "id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-111034",
+              "author": null,
+              "published_at": "2026-09-25T21:06:45Z",
+              "updated_at": "2026-09-25T21:06:45Z",
+              "summary": "Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing\nItem 7.01: Regulation FD Disclosure\nItem 9.01: Financial Statements and Exhibits",
+              "categories": [
+                "8-K"
+              ],
+              "feed": {
+                "title": "Latest Filings - Fri, 25 Sep 2026 19:36:15 EDT",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent",
+                "feed_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom"
+              },
+              "company": "Paramount Skydance Corp",
+              "event": "delisting notice or listing transfer"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom",
+            "elapsed_ms": 12096,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "filter",
+              "version": "0.3.2",
+              "args": {
+                "expr": "summary matches \"Item (1\\\\.03|1\\\\.05|2\\\\.01|2\\\\.05|2\\\\.06|3\\\\.01|4\\\\.01|4\\\\.02|5\\\\.01):\""
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "company=replace(title, \"^8-K(/A)? - (.*?) \\\\(\\\\d+\\\\) \\\\(Filer\\\\)$\", \"\\\\2\")",
+                  "event=replace(summary, \"(?s)^.*?Item (1\\\\.03|1\\\\.05|2\\\\.01|2\\\\.05|2\\\\.06|3\\\\.01|4\\\\.01|4\\\\.02|5\\\\.01):.*$\", \"\\\\1\")",
+                  "event=replace(event, \"^1\\\\.03$\", \"bankruptcy or receivership\")",
+                  "event=replace(event, \"^1\\\\.05$\", \"cybersecurity incident\")",
+                  "event=replace(event, \"^2\\\\.01$\", \"completed an acquisition or sale of assets\")",
+                  "event=replace(event, \"^2\\\\.05$\", \"layoffs or exit costs\")",
+                  "event=replace(event, \"^2\\\\.06$\", \"material impairment\")",
+                  "event=replace(event, \"^3\\\\.01$\", \"delisting notice or listing transfer\")",
+                  "event=replace(event, \"^4\\\\.01$\", \"auditor change\")",
+                  "event=replace(event, \"^4\\\\.02$\", \"past financial statements can no longer be relied on\")",
+                  "event=replace(event, \"^5\\\\.01$\", \"change in control\")",
+                  "title=company + \": \" + event",
+                  "summary=replace(summary, \"^Filed: \\\\S+ AccNo: \\\\S+ Size: \\\\S+ \\\\S+\\\\s*\", \"\")"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "sec-company-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/Archives/edgar/data/2041610/000110465926111034/0001104659-26-111034-index.htm",
+      "tags": [
+        "8-K"
+      ]
+    },
+    {
+      "id": "d9f62e2729da1b4f9745",
+      "title": "Janus International Group, Inc.: layoffs or exit costs",
+      "content_text": "Item 2.05: Cost Associated with Exit or Disposal Activities\nItem 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers\nItem 9.01: Financial Statements and Exhibits",
+      "date_published": "2026-09-25T21:05:19Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d9f62e2729da1b4f9745",
+          "source": "rss",
+          "type": "change",
+          "key": "urn:tag:sec.gov,2008:accession-number=0001104659-26-111032",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:41:11Z",
+          "data": {
+            "change": "added",
+            "label": "Janus International Group, Inc.: layoffs or exit costs",
+            "item_type": "entry",
+            "summary": "added: Janus International Group, Inc.: layoffs or exit costs",
+            "after": {
+              "title": "Janus International Group, Inc.: layoffs or exit costs",
+              "link": "https://www.sec.gov/Archives/edgar/data/1839839/000110465926111032/0001104659-26-111032-index.htm",
+              "id": "urn:tag:sec.gov,2008:accession-number=0001104659-26-111032",
+              "author": null,
+              "published_at": "2026-09-25T21:05:19Z",
+              "updated_at": "2026-09-25T21:05:19Z",
+              "summary": "Item 2.05: Cost Associated with Exit or Disposal Activities\nItem 5.02: Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers: Compensatory Arrangements of Certain Officers\nItem 9.01: Financial Statements and Exhibits",
+              "categories": [
+                "8-K"
+              ],
+              "feed": {
+                "title": "Latest Filings - Fri, 25 Sep 2026 19:36:15 EDT",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent",
+                "feed_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom"
+              },
+              "company": "Janus International Group, Inc.",
+              "event": "layoffs or exit costs"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom",
+            "elapsed_ms": 12096,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "filter",
+              "version": "0.3.2",
+              "args": {
+                "expr": "summary matches \"Item (1\\\\.03|1\\\\.05|2\\\\.01|2\\\\.05|2\\\\.06|3\\\\.01|4\\\\.01|4\\\\.02|5\\\\.01):\""
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "company=replace(title, \"^8-K(/A)? - (.*?) \\\\(\\\\d+\\\\) \\\\(Filer\\\\)$\", \"\\\\2\")",
+                  "event=replace(summary, \"(?s)^.*?Item (1\\\\.03|1\\\\.05|2\\\\.01|2\\\\.05|2\\\\.06|3\\\\.01|4\\\\.01|4\\\\.02|5\\\\.01):.*$\", \"\\\\1\")",
+                  "event=replace(event, \"^1\\\\.03$\", \"bankruptcy or receivership\")",
+                  "event=replace(event, \"^1\\\\.05$\", \"cybersecurity incident\")",
+                  "event=replace(event, \"^2\\\\.01$\", \"completed an acquisition or sale of assets\")",
+                  "event=replace(event, \"^2\\\\.05$\", \"layoffs or exit costs\")",
+                  "event=replace(event, \"^2\\\\.06$\", \"material impairment\")",
+                  "event=replace(event, \"^3\\\\.01$\", \"delisting notice or listing transfer\")",
+                  "event=replace(event, \"^4\\\\.01$\", \"auditor change\")",
+                  "event=replace(event, \"^4\\\\.02$\", \"past financial statements can no longer be relied on\")",
+                  "event=replace(event, \"^5\\\\.01$\", \"change in control\")",
+                  "title=company + \": \" + event",
+                  "summary=replace(summary, \"^Filed: \\\\S+ AccNo: \\\\S+ Size: \\\\S+ \\\\S+\\\\s*\", \"\")"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "sec-company-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/Archives/edgar/data/1839839/000110465926111032/0001104659-26-111032-index.htm",
+      "tags": [
+        "8-K"
+      ]
+    },
+    {
+      "id": "446ac3241c6195f94d33",
+      "title": "Sadot Group Inc.: auditor change",
+      "content_text": "Item 4.01: Changes in Registrant's Certifying Accountant\nItem 9.01: Financial Statements and Exhibits",
+      "date_published": "2026-09-25T21:01:15Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "446ac3241c6195f94d33",
+          "source": "rss",
+          "type": "change",
+          "key": "urn:tag:sec.gov,2008:accession-number=0001731122-26-001287",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:41:11Z",
+          "data": {
+            "change": "added",
+            "label": "Sadot Group Inc.: auditor change",
+            "item_type": "entry",
+            "summary": "added: Sadot Group Inc.: auditor change",
+            "after": {
+              "title": "Sadot Group Inc.: auditor change",
+              "link": "https://www.sec.gov/Archives/edgar/data/1701756/000173112226001287/0001731122-26-001287-index.htm",
+              "id": "urn:tag:sec.gov,2008:accession-number=0001731122-26-001287",
+              "author": null,
+              "published_at": "2026-09-25T21:01:15Z",
+              "updated_at": "2026-09-25T21:01:15Z",
+              "summary": "Item 4.01: Changes in Registrant's Certifying Accountant\nItem 9.01: Financial Statements and Exhibits",
+              "categories": [
+                "8-K"
+              ],
+              "feed": {
+                "title": "Latest Filings - Fri, 25 Sep 2026 19:36:15 EDT",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent",
+                "feed_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom"
+              },
+              "company": "Sadot Group Inc.",
+              "event": "auditor change"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom",
+            "elapsed_ms": 12096,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "filter",
+              "version": "0.3.2",
+              "args": {
+                "expr": "summary matches \"Item (1\\\\.03|1\\\\.05|2\\\\.01|2\\\\.05|2\\\\.06|3\\\\.01|4\\\\.01|4\\\\.02|5\\\\.01):\""
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "company=replace(title, \"^8-K(/A)? - (.*?) \\\\(\\\\d+\\\\) \\\\(Filer\\\\)$\", \"\\\\2\")",
+                  "event=replace(summary, \"(?s)^.*?Item (1\\\\.03|1\\\\.05|2\\\\.01|2\\\\.05|2\\\\.06|3\\\\.01|4\\\\.01|4\\\\.02|5\\\\.01):.*$\", \"\\\\1\")",
+                  "event=replace(event, \"^1\\\\.03$\", \"bankruptcy or receivership\")",
+                  "event=replace(event, \"^1\\\\.05$\", \"cybersecurity incident\")",
+                  "event=replace(event, \"^2\\\\.01$\", \"completed an acquisition or sale of assets\")",
+                  "event=replace(event, \"^2\\\\.05$\", \"layoffs or exit costs\")",
+                  "event=replace(event, \"^2\\\\.06$\", \"material impairment\")",
+                  "event=replace(event, \"^3\\\\.01$\", \"delisting notice or listing transfer\")",
+                  "event=replace(event, \"^4\\\\.01$\", \"auditor change\")",
+                  "event=replace(event, \"^4\\\\.02$\", \"past financial statements can no longer be relied on\")",
+                  "event=replace(event, \"^5\\\\.01$\", \"change in control\")",
+                  "title=company + \": \" + event",
+                  "summary=replace(summary, \"^Filed: \\\\S+ AccNo: \\\\S+ Size: \\\\S+ \\\\S+\\\\s*\", \"\")"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "sec-company-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/Archives/edgar/data/1701756/000173112226001287/0001731122-26-001287-index.htm",
+      "tags": [
+        "8-K"
+      ]
+    },
+    {
+      "id": "faeffa7f60c3c4b4da3e",
+      "title": "Future Money Acquisition Corp: delisting notice or listing transfer",
+      "content_text": "Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing\nItem 7.01: Regulation FD Disclosure\nItem 9.01: Financial Statements and Exhibits",
+      "date_published": "2026-09-25T21:00:30Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "faeffa7f60c3c4b4da3e",
+          "source": "rss",
+          "type": "change",
+          "key": "urn:tag:sec.gov,2008:accession-number=0001493152-26-044364",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:41:11Z",
+          "data": {
+            "change": "added",
+            "label": "Future Money Acquisition Corp: delisting notice or listing transfer",
+            "item_type": "entry",
+            "summary": "added: Future Money Acquisition Corp: delisting notice or listing transfer",
+            "after": {
+              "title": "Future Money Acquisition Corp: delisting notice or listing transfer",
+              "link": "https://www.sec.gov/Archives/edgar/data/2099232/000149315226044364/0001493152-26-044364-index.htm",
+              "id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-044364",
+              "author": null,
+              "published_at": "2026-09-25T21:00:30Z",
+              "updated_at": "2026-09-25T21:00:30Z",
+              "summary": "Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing\nItem 7.01: Regulation FD Disclosure\nItem 9.01: Financial Statements and Exhibits",
+              "categories": [
+                "8-K"
+              ],
+              "feed": {
+                "title": "Latest Filings - Fri, 25 Sep 2026 19:36:15 EDT",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent",
+                "feed_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom"
+              },
+              "company": "Future Money Acquisition Corp",
+              "event": "delisting notice or listing transfer"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom",
+            "elapsed_ms": 12096,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "filter",
+              "version": "0.3.2",
+              "args": {
+                "expr": "summary matches \"Item (1\\\\.03|1\\\\.05|2\\\\.01|2\\\\.05|2\\\\.06|3\\\\.01|4\\\\.01|4\\\\.02|5\\\\.01):\""
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "company=replace(title, \"^8-K(/A)? - (.*?) \\\\(\\\\d+\\\\) \\\\(Filer\\\\)$\", \"\\\\2\")",
+                  "event=replace(summary, \"(?s)^.*?Item (1\\\\.03|1\\\\.05|2\\\\.01|2\\\\.05|2\\\\.06|3\\\\.01|4\\\\.01|4\\\\.02|5\\\\.01):.*$\", \"\\\\1\")",
+                  "event=replace(event, \"^1\\\\.03$\", \"bankruptcy or receivership\")",
+                  "event=replace(event, \"^1\\\\.05$\", \"cybersecurity incident\")",
+                  "event=replace(event, \"^2\\\\.01$\", \"completed an acquisition or sale of assets\")",
+                  "event=replace(event, \"^2\\\\.05$\", \"layoffs or exit costs\")",
+                  "event=replace(event, \"^2\\\\.06$\", \"material impairment\")",
+                  "event=replace(event, \"^3\\\\.01$\", \"delisting notice or listing transfer\")",
+                  "event=replace(event, \"^4\\\\.01$\", \"auditor change\")",
+                  "event=replace(event, \"^4\\\\.02$\", \"past financial statements can no longer be relied on\")",
+                  "event=replace(event, \"^5\\\\.01$\", \"change in control\")",
+                  "title=company + \": \" + event",
+                  "summary=replace(summary, \"^Filed: \\\\S+ AccNo: \\\\S+ Size: \\\\S+ \\\\S+\\\\s*\", \"\")"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "sec-company-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/Archives/edgar/data/2099232/000149315226044364/0001493152-26-044364-index.htm",
+      "tags": [
+        "8-K"
+      ]
+    },
+    {
+      "id": "daca4aa02f1992240d38",
+      "title": "Netcapital Inc.: delisting notice or listing transfer",
+      "content_text": "Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing\nItem 9.01: Financial Statements and Exhibits",
+      "date_published": "2026-09-25T21:00:29Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "daca4aa02f1992240d38",
+          "source": "rss",
+          "type": "change",
+          "key": "urn:tag:sec.gov,2008:accession-number=0001493152-26-044363",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:41:11Z",
+          "data": {
+            "change": "added",
+            "label": "Netcapital Inc.: delisting notice or listing transfer",
+            "item_type": "entry",
+            "summary": "added: Netcapital Inc.: delisting notice or listing transfer",
+            "after": {
+              "title": "Netcapital Inc.: delisting notice or listing transfer",
+              "link": "https://www.sec.gov/Archives/edgar/data/1414767/000149315226044363/0001493152-26-044363-index.htm",
+              "id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-044363",
+              "author": null,
+              "published_at": "2026-09-25T21:00:29Z",
+              "updated_at": "2026-09-25T21:00:29Z",
+              "summary": "Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing\nItem 9.01: Financial Statements and Exhibits",
+              "categories": [
+                "8-K"
+              ],
+              "feed": {
+                "title": "Latest Filings - Fri, 25 Sep 2026 19:36:15 EDT",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent",
+                "feed_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom"
+              },
+              "company": "Netcapital Inc.",
+              "event": "delisting notice or listing transfer"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom",
+            "elapsed_ms": 12096,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "filter",
+              "version": "0.3.2",
+              "args": {
+                "expr": "summary matches \"Item (1\\\\.03|1\\\\.05|2\\\\.01|2\\\\.05|2\\\\.06|3\\\\.01|4\\\\.01|4\\\\.02|5\\\\.01):\""
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "company=replace(title, \"^8-K(/A)? - (.*?) \\\\(\\\\d+\\\\) \\\\(Filer\\\\)$\", \"\\\\2\")",
+                  "event=replace(summary, \"(?s)^.*?Item (1\\\\.03|1\\\\.05|2\\\\.01|2\\\\.05|2\\\\.06|3\\\\.01|4\\\\.01|4\\\\.02|5\\\\.01):.*$\", \"\\\\1\")",
+                  "event=replace(event, \"^1\\\\.03$\", \"bankruptcy or receivership\")",
+                  "event=replace(event, \"^1\\\\.05$\", \"cybersecurity incident\")",
+                  "event=replace(event, \"^2\\\\.01$\", \"completed an acquisition or sale of assets\")",
+                  "event=replace(event, \"^2\\\\.05$\", \"layoffs or exit costs\")",
+                  "event=replace(event, \"^2\\\\.06$\", \"material impairment\")",
+                  "event=replace(event, \"^3\\\\.01$\", \"delisting notice or listing transfer\")",
+                  "event=replace(event, \"^4\\\\.01$\", \"auditor change\")",
+                  "event=replace(event, \"^4\\\\.02$\", \"past financial statements can no longer be relied on\")",
+                  "event=replace(event, \"^5\\\\.01$\", \"change in control\")",
+                  "title=company + \": \" + event",
+                  "summary=replace(summary, \"^Filed: \\\\S+ AccNo: \\\\S+ Size: \\\\S+ \\\\S+\\\\s*\", \"\")"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "sec-company-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/Archives/edgar/data/1414767/000149315226044363/0001493152-26-044363-index.htm",
+      "tags": [
+        "8-K"
+      ]
+    },
+    {
+      "id": "2c4cacba1d9f12515fd8",
+      "title": "Dragonfly Energy Holdings Corp.: auditor change",
+      "content_text": "Item 4.01: Changes in Registrant's Certifying Accountant\nItem 9.01: Financial Statements and Exhibits",
+      "date_published": "2026-09-25T20:40:09Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "2c4cacba1d9f12515fd8",
+          "source": "rss",
+          "type": "change",
+          "key": "urn:tag:sec.gov,2008:accession-number=0001493152-26-044337",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:41:11Z",
+          "data": {
+            "change": "added",
+            "label": "Dragonfly Energy Holdings Corp.: auditor change",
+            "item_type": "entry",
+            "summary": "added: Dragonfly Energy Holdings Corp.: auditor change",
+            "after": {
+              "title": "Dragonfly Energy Holdings Corp.: auditor change",
+              "link": "https://www.sec.gov/Archives/edgar/data/1847986/000149315226044337/0001493152-26-044337-index.htm",
+              "id": "urn:tag:sec.gov,2008:accession-number=0001493152-26-044337",
+              "author": null,
+              "published_at": "2026-09-25T20:40:09Z",
+              "updated_at": "2026-09-25T20:40:09Z",
+              "summary": "Item 4.01: Changes in Registrant's Certifying Accountant\nItem 9.01: Financial Statements and Exhibits",
+              "categories": [
+                "8-K"
+              ],
+              "feed": {
+                "title": "Latest Filings - Fri, 25 Sep 2026 19:36:15 EDT",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent",
+                "feed_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom"
+              },
+              "company": "Dragonfly Energy Holdings Corp.",
+              "event": "auditor change"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom",
+            "elapsed_ms": 12096,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "filter",
+              "version": "0.3.2",
+              "args": {
+                "expr": "summary matches \"Item (1\\\\.03|1\\\\.05|2\\\\.01|2\\\\.05|2\\\\.06|3\\\\.01|4\\\\.01|4\\\\.02|5\\\\.01):\""
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "company=replace(title, \"^8-K(/A)? - (.*?) \\\\(\\\\d+\\\\) \\\\(Filer\\\\)$\", \"\\\\2\")",
+                  "event=replace(summary, \"(?s)^.*?Item (1\\\\.03|1\\\\.05|2\\\\.01|2\\\\.05|2\\\\.06|3\\\\.01|4\\\\.01|4\\\\.02|5\\\\.01):.*$\", \"\\\\1\")",
+                  "event=replace(event, \"^1\\\\.03$\", \"bankruptcy or receivership\")",
+                  "event=replace(event, \"^1\\\\.05$\", \"cybersecurity incident\")",
+                  "event=replace(event, \"^2\\\\.01$\", \"completed an acquisition or sale of assets\")",
+                  "event=replace(event, \"^2\\\\.05$\", \"layoffs or exit costs\")",
+                  "event=replace(event, \"^2\\\\.06$\", \"material impairment\")",
+                  "event=replace(event, \"^3\\\\.01$\", \"delisting notice or listing transfer\")",
+                  "event=replace(event, \"^4\\\\.01$\", \"auditor change\")",
+                  "event=replace(event, \"^4\\\\.02$\", \"past financial statements can no longer be relied on\")",
+                  "event=replace(event, \"^5\\\\.01$\", \"change in control\")",
+                  "title=company + \": \" + event",
+                  "summary=replace(summary, \"^Filed: \\\\S+ AccNo: \\\\S+ Size: \\\\S+ \\\\S+\\\\s*\", \"\")"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "sec-company-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/Archives/edgar/data/1847986/000149315226044337/0001493152-26-044337-index.htm",
+      "tags": [
+        "8-K"
+      ]
+    },
+    {
+      "id": "690c71f6443b081f53f5",
+      "title": "SANUWAVE Health, Inc.: delisting notice or listing transfer",
+      "content_text": "Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing",
+      "date_published": "2026-09-25T20:38:50Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "690c71f6443b081f53f5",
+          "source": "rss",
+          "type": "change",
+          "key": "urn:tag:sec.gov,2008:accession-number=0001628280-26-063594",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:41:11Z",
+          "data": {
+            "change": "added",
+            "label": "SANUWAVE Health, Inc.: delisting notice or listing transfer",
+            "item_type": "entry",
+            "summary": "added: SANUWAVE Health, Inc.: delisting notice or listing transfer",
+            "after": {
+              "title": "SANUWAVE Health, Inc.: delisting notice or listing transfer",
+              "link": "https://www.sec.gov/Archives/edgar/data/1417663/000162828026063594/0001628280-26-063594-index.htm",
+              "id": "urn:tag:sec.gov,2008:accession-number=0001628280-26-063594",
+              "author": null,
+              "published_at": "2026-09-25T20:38:50Z",
+              "updated_at": "2026-09-25T20:38:50Z",
+              "summary": "Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing",
+              "categories": [
+                "8-K"
+              ],
+              "feed": {
+                "title": "Latest Filings - Fri, 25 Sep 2026 19:36:15 EDT",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent",
+                "feed_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom"
+              },
+              "company": "SANUWAVE Health, Inc.",
+              "event": "delisting notice or listing transfer"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom",
+            "elapsed_ms": 12096,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "filter",
+              "version": "0.3.2",
+              "args": {
+                "expr": "summary matches \"Item (1\\\\.03|1\\\\.05|2\\\\.01|2\\\\.05|2\\\\.06|3\\\\.01|4\\\\.01|4\\\\.02|5\\\\.01):\""
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "company=replace(title, \"^8-K(/A)? - (.*?) \\\\(\\\\d+\\\\) \\\\(Filer\\\\)$\", \"\\\\2\")",
+                  "event=replace(summary, \"(?s)^.*?Item (1\\\\.03|1\\\\.05|2\\\\.01|2\\\\.05|2\\\\.06|3\\\\.01|4\\\\.01|4\\\\.02|5\\\\.01):.*$\", \"\\\\1\")",
+                  "event=replace(event, \"^1\\\\.03$\", \"bankruptcy or receivership\")",
+                  "event=replace(event, \"^1\\\\.05$\", \"cybersecurity incident\")",
+                  "event=replace(event, \"^2\\\\.01$\", \"completed an acquisition or sale of assets\")",
+                  "event=replace(event, \"^2\\\\.05$\", \"layoffs or exit costs\")",
+                  "event=replace(event, \"^2\\\\.06$\", \"material impairment\")",
+                  "event=replace(event, \"^3\\\\.01$\", \"delisting notice or listing transfer\")",
+                  "event=replace(event, \"^4\\\\.01$\", \"auditor change\")",
+                  "event=replace(event, \"^4\\\\.02$\", \"past financial statements can no longer be relied on\")",
+                  "event=replace(event, \"^5\\\\.01$\", \"change in control\")",
+                  "title=company + \": \" + event",
+                  "summary=replace(summary, \"^Filed: \\\\S+ AccNo: \\\\S+ Size: \\\\S+ \\\\S+\\\\s*\", \"\")"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "sec-company-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/Archives/edgar/data/1417663/000162828026063594/0001628280-26-063594-index.htm",
+      "tags": [
+        "8-K"
+      ]
+    },
+    {
+      "id": "a2c338c7dedced1df61d",
+      "title": "Feel The World, Inc.: past financial statements can no longer be relied on",
+      "content_text": "Item 4.02: Non-Reliance on Previously Issued Financial Statements or a Related Audit Report or Completed Interim Review\nItem 9.01: Financial Statements and Exhibits",
+      "date_published": "2026-09-25T20:28:16Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "a2c338c7dedced1df61d",
+          "source": "rss",
+          "type": "change",
+          "key": "urn:tag:sec.gov,2008:accession-number=0001079973-26-001283",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:41:11Z",
+          "data": {
+            "change": "added",
+            "label": "Feel The World, Inc.: past financial statements can no longer be relied on",
+            "item_type": "entry",
+            "summary": "added: Feel The World, Inc.: past financial statements can no longer be relied on",
+            "after": {
+              "title": "Feel The World, Inc.: past financial statements can no longer be relied on",
+              "link": "https://www.sec.gov/Archives/edgar/data/1690455/000107997326001283/0001079973-26-001283-index.htm",
+              "id": "urn:tag:sec.gov,2008:accession-number=0001079973-26-001283",
+              "author": null,
+              "published_at": "2026-09-25T20:28:16Z",
+              "updated_at": "2026-09-25T20:28:16Z",
+              "summary": "Item 4.02: Non-Reliance on Previously Issued Financial Statements or a Related Audit Report or Completed Interim Review\nItem 9.01: Financial Statements and Exhibits",
+              "categories": [
+                "8-K"
+              ],
+              "feed": {
+                "title": "Latest Filings - Fri, 25 Sep 2026 19:36:15 EDT",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent",
+                "feed_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom"
+              },
+              "company": "Feel The World, Inc.",
+              "event": "past financial statements can no longer be relied on"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom",
+            "elapsed_ms": 12096,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "filter",
+              "version": "0.3.2",
+              "args": {
+                "expr": "summary matches \"Item (1\\\\.03|1\\\\.05|2\\\\.01|2\\\\.05|2\\\\.06|3\\\\.01|4\\\\.01|4\\\\.02|5\\\\.01):\""
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "company=replace(title, \"^8-K(/A)? - (.*?) \\\\(\\\\d+\\\\) \\\\(Filer\\\\)$\", \"\\\\2\")",
+                  "event=replace(summary, \"(?s)^.*?Item (1\\\\.03|1\\\\.05|2\\\\.01|2\\\\.05|2\\\\.06|3\\\\.01|4\\\\.01|4\\\\.02|5\\\\.01):.*$\", \"\\\\1\")",
+                  "event=replace(event, \"^1\\\\.03$\", \"bankruptcy or receivership\")",
+                  "event=replace(event, \"^1\\\\.05$\", \"cybersecurity incident\")",
+                  "event=replace(event, \"^2\\\\.01$\", \"completed an acquisition or sale of assets\")",
+                  "event=replace(event, \"^2\\\\.05$\", \"layoffs or exit costs\")",
+                  "event=replace(event, \"^2\\\\.06$\", \"material impairment\")",
+                  "event=replace(event, \"^3\\\\.01$\", \"delisting notice or listing transfer\")",
+                  "event=replace(event, \"^4\\\\.01$\", \"auditor change\")",
+                  "event=replace(event, \"^4\\\\.02$\", \"past financial statements can no longer be relied on\")",
+                  "event=replace(event, \"^5\\\\.01$\", \"change in control\")",
+                  "title=company + \": \" + event",
+                  "summary=replace(summary, \"^Filed: \\\\S+ AccNo: \\\\S+ Size: \\\\S+ \\\\S+\\\\s*\", \"\")"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "sec-company-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/Archives/edgar/data/1690455/000107997326001283/0001079973-26-001283-index.htm",
+      "tags": [
+        "8-K"
+      ]
+    },
+    {
+      "id": "8c15c2be3f0d7251f24e",
+      "title": "WhiteHawk Minerals Corp.: completed an acquisition or sale of assets",
+      "content_text": "Item 1.01: Entry into a Material Definitive Agreement\nItem 2.01: Completion of Acquisition or Disposition of Assets\nItem 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant\nItem 3.02: Unregistered Sales of Equity Securities\nItem 5.03: Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year\nItem 7.01: Regulation FD Disclosure\nItem 9.01: Financial Statements and Exhibits",
+      "date_published": "2026-09-25T20:15:39Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "8c15c2be3f0d7251f24e",
+          "source": "rss",
+          "type": "change",
+          "key": "urn:tag:sec.gov,2008:accession-number=0001193125-26-402855",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:41:11Z",
+          "data": {
+            "change": "added",
+            "label": "WhiteHawk Minerals Corp.: completed an acquisition or sale of assets",
+            "item_type": "entry",
+            "summary": "added: WhiteHawk Minerals Corp.: completed an acquisition or sale of assets",
+            "after": {
+              "title": "WhiteHawk Minerals Corp.: completed an acquisition or sale of assets",
+              "link": "https://www.sec.gov/Archives/edgar/data/1921603/000119312526402855/0001193125-26-402855-index.htm",
+              "id": "urn:tag:sec.gov,2008:accession-number=0001193125-26-402855",
+              "author": null,
+              "published_at": "2026-09-25T20:15:39Z",
+              "updated_at": "2026-09-25T20:15:39Z",
+              "summary": "Item 1.01: Entry into a Material Definitive Agreement\nItem 2.01: Completion of Acquisition or Disposition of Assets\nItem 2.03: Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant\nItem 3.02: Unregistered Sales of Equity Securities\nItem 5.03: Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year\nItem 7.01: Regulation FD Disclosure\nItem 9.01: Financial Statements and Exhibits",
+              "categories": [
+                "8-K/A"
+              ],
+              "feed": {
+                "title": "Latest Filings - Fri, 25 Sep 2026 19:36:15 EDT",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent",
+                "feed_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom"
+              },
+              "company": "WhiteHawk Minerals Corp.",
+              "event": "completed an acquisition or sale of assets"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom",
+            "elapsed_ms": 12096,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "filter",
+              "version": "0.3.2",
+              "args": {
+                "expr": "summary matches \"Item (1\\\\.03|1\\\\.05|2\\\\.01|2\\\\.05|2\\\\.06|3\\\\.01|4\\\\.01|4\\\\.02|5\\\\.01):\""
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "company=replace(title, \"^8-K(/A)? - (.*?) \\\\(\\\\d+\\\\) \\\\(Filer\\\\)$\", \"\\\\2\")",
+                  "event=replace(summary, \"(?s)^.*?Item (1\\\\.03|1\\\\.05|2\\\\.01|2\\\\.05|2\\\\.06|3\\\\.01|4\\\\.01|4\\\\.02|5\\\\.01):.*$\", \"\\\\1\")",
+                  "event=replace(event, \"^1\\\\.03$\", \"bankruptcy or receivership\")",
+                  "event=replace(event, \"^1\\\\.05$\", \"cybersecurity incident\")",
+                  "event=replace(event, \"^2\\\\.01$\", \"completed an acquisition or sale of assets\")",
+                  "event=replace(event, \"^2\\\\.05$\", \"layoffs or exit costs\")",
+                  "event=replace(event, \"^2\\\\.06$\", \"material impairment\")",
+                  "event=replace(event, \"^3\\\\.01$\", \"delisting notice or listing transfer\")",
+                  "event=replace(event, \"^4\\\\.01$\", \"auditor change\")",
+                  "event=replace(event, \"^4\\\\.02$\", \"past financial statements can no longer be relied on\")",
+                  "event=replace(event, \"^5\\\\.01$\", \"change in control\")",
+                  "title=company + \": \" + event",
+                  "summary=replace(summary, \"^Filed: \\\\S+ AccNo: \\\\S+ Size: \\\\S+ \\\\S+\\\\s*\", \"\")"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "sec-company-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/Archives/edgar/data/1921603/000119312526402855/0001193125-26-402855-index.htm",
+      "tags": [
+        "8-K/A"
+      ]
+    },
+    {
+      "id": "9b92e34aee835aeb7eda",
+      "title": "Silexion Therapeutics Corp: delisting notice or listing transfer",
+      "content_text": "Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing",
+      "date_published": "2026-09-25T20:15:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "9b92e34aee835aeb7eda",
+          "source": "rss",
+          "type": "change",
+          "key": "urn:tag:sec.gov,2008:accession-number=0001178913-26-004609",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:41:11Z",
+          "data": {
+            "change": "added",
+            "label": "Silexion Therapeutics Corp: delisting notice or listing transfer",
+            "item_type": "entry",
+            "summary": "added: Silexion Therapeutics Corp: delisting notice or listing transfer",
+            "after": {
+              "title": "Silexion Therapeutics Corp: delisting notice or listing transfer",
+              "link": "https://www.sec.gov/Archives/edgar/data/2022416/000117891326004609/0001178913-26-004609-index.htm",
+              "id": "urn:tag:sec.gov,2008:accession-number=0001178913-26-004609",
+              "author": null,
+              "published_at": "2026-09-25T20:15:34Z",
+              "updated_at": "2026-09-25T20:15:34Z",
+              "summary": "Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing",
+              "categories": [
+                "8-K"
+              ],
+              "feed": {
+                "title": "Latest Filings - Fri, 25 Sep 2026 19:36:15 EDT",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent",
+                "feed_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom"
+              },
+              "company": "Silexion Therapeutics Corp",
+              "event": "delisting notice or listing transfer"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom",
+            "elapsed_ms": 12096,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "filter",
+              "version": "0.3.2",
+              "args": {
+                "expr": "summary matches \"Item (1\\\\.03|1\\\\.05|2\\\\.01|2\\\\.05|2\\\\.06|3\\\\.01|4\\\\.01|4\\\\.02|5\\\\.01):\""
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "company=replace(title, \"^8-K(/A)? - (.*?) \\\\(\\\\d+\\\\) \\\\(Filer\\\\)$\", \"\\\\2\")",
+                  "event=replace(summary, \"(?s)^.*?Item (1\\\\.03|1\\\\.05|2\\\\.01|2\\\\.05|2\\\\.06|3\\\\.01|4\\\\.01|4\\\\.02|5\\\\.01):.*$\", \"\\\\1\")",
+                  "event=replace(event, \"^1\\\\.03$\", \"bankruptcy or receivership\")",
+                  "event=replace(event, \"^1\\\\.05$\", \"cybersecurity incident\")",
+                  "event=replace(event, \"^2\\\\.01$\", \"completed an acquisition or sale of assets\")",
+                  "event=replace(event, \"^2\\\\.05$\", \"layoffs or exit costs\")",
+                  "event=replace(event, \"^2\\\\.06$\", \"material impairment\")",
+                  "event=replace(event, \"^3\\\\.01$\", \"delisting notice or listing transfer\")",
+                  "event=replace(event, \"^4\\\\.01$\", \"auditor change\")",
+                  "event=replace(event, \"^4\\\\.02$\", \"past financial statements can no longer be relied on\")",
+                  "event=replace(event, \"^5\\\\.01$\", \"change in control\")",
+                  "title=company + \": \" + event",
+                  "summary=replace(summary, \"^Filed: \\\\S+ AccNo: \\\\S+ Size: \\\\S+ \\\\S+\\\\s*\", \"\")"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "sec-company-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/Archives/edgar/data/2022416/000117891326004609/0001178913-26-004609-index.htm",
+      "tags": [
+        "8-K"
+      ]
+    },
+    {
+      "id": "ca70606ed0b6efc2491e",
+      "title": "DraftKings Inc.: auditor change",
+      "content_text": "Item 4.01: Changes in Registrant's Certifying Accountant\nItem 9.01: Financial Statements and Exhibits",
+      "date_published": "2026-09-25T20:07:21Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ca70606ed0b6efc2491e",
+          "source": "rss",
+          "type": "change",
+          "key": "urn:tag:sec.gov,2008:accession-number=0001883685-26-000034",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:41:11Z",
+          "data": {
+            "change": "added",
+            "label": "DraftKings Inc.: auditor change",
+            "item_type": "entry",
+            "summary": "added: DraftKings Inc.: auditor change",
+            "after": {
+              "title": "DraftKings Inc.: auditor change",
+              "link": "https://www.sec.gov/Archives/edgar/data/1883685/000188368526000034/0001883685-26-000034-index.htm",
+              "id": "urn:tag:sec.gov,2008:accession-number=0001883685-26-000034",
+              "author": null,
+              "published_at": "2026-09-25T20:07:21Z",
+              "updated_at": "2026-09-25T20:07:21Z",
+              "summary": "Item 4.01: Changes in Registrant's Certifying Accountant\nItem 9.01: Financial Statements and Exhibits",
+              "categories": [
+                "8-K"
+              ],
+              "feed": {
+                "title": "Latest Filings - Fri, 25 Sep 2026 19:36:15 EDT",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent",
+                "feed_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom"
+              },
+              "company": "DraftKings Inc.",
+              "event": "auditor change"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&output=atom",
+            "elapsed_ms": 12096,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "filter",
+              "version": "0.3.2",
+              "args": {
+                "expr": "summary matches \"Item (1\\\\.03|1\\\\.05|2\\\\.01|2\\\\.05|2\\\\.06|3\\\\.01|4\\\\.01|4\\\\.02|5\\\\.01):\""
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "company=replace(title, \"^8-K(/A)? - (.*?) \\\\(\\\\d+\\\\) \\\\(Filer\\\\)$\", \"\\\\2\")",
+                  "event=replace(summary, \"(?s)^.*?Item (1\\\\.03|1\\\\.05|2\\\\.01|2\\\\.05|2\\\\.06|3\\\\.01|4\\\\.01|4\\\\.02|5\\\\.01):.*$\", \"\\\\1\")",
+                  "event=replace(event, \"^1\\\\.03$\", \"bankruptcy or receivership\")",
+                  "event=replace(event, \"^1\\\\.05$\", \"cybersecurity incident\")",
+                  "event=replace(event, \"^2\\\\.01$\", \"completed an acquisition or sale of assets\")",
+                  "event=replace(event, \"^2\\\\.05$\", \"layoffs or exit costs\")",
+                  "event=replace(event, \"^2\\\\.06$\", \"material impairment\")",
+                  "event=replace(event, \"^3\\\\.01$\", \"delisting notice or listing transfer\")",
+                  "event=replace(event, \"^4\\\\.01$\", \"auditor change\")",
+                  "event=replace(event, \"^4\\\\.02$\", \"past financial statements can no longer be relied on\")",
+                  "event=replace(event, \"^5\\\\.01$\", \"change in control\")",
+                  "title=company + \": \" + event",
+                  "summary=replace(summary, \"^Filed: \\\\S+ AccNo: \\\\S+ Size: \\\\S+ \\\\S+\\\\s*\", \"\")"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "sec-company-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/Archives/edgar/data/1883685/000188368526000034/0001883685-26-000034-index.htm",
+      "tags": [
+        "8-K"
+      ]
+    },
+    {
+      "id": "c40f704a52300442dc98",
+      "title": "CIM Opportunity Zone Fund, L.P.: auditor change",
+      "content_text": "Item 4.01: Changes in Registrant's Certifying Accountant\nItem 9.01: Financial Statements and Exhibits",
+      "date_published": "2026-09-25T19:47:42Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c40f704a52300442dc98",
+          "source": "rss",
+          "type": "change",
+          "key": "urn:tag:sec.gov,2008:accession-number=0001765107-26-000028",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&start=100&output=atom",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:41:20Z",
+          "data": {
+            "change": "added",
+            "label": "CIM Opportunity Zone Fund, L.P.: auditor change",
+            "item_type": "entry",
+            "summary": "added: CIM Opportunity Zone Fund, L.P.: auditor change",
+            "after": {
+              "title": "CIM Opportunity Zone Fund, L.P.: auditor change",
+              "link": "https://www.sec.gov/Archives/edgar/data/1765107/000176510726000028/0001765107-26-000028-index.htm",
+              "id": "urn:tag:sec.gov,2008:accession-number=0001765107-26-000028",
+              "author": null,
+              "published_at": "2026-09-25T19:47:42Z",
+              "updated_at": "2026-09-25T19:47:42Z",
+              "summary": "Item 4.01: Changes in Registrant's Certifying Accountant\nItem 9.01: Financial Statements and Exhibits",
+              "categories": [
+                "8-K"
+              ],
+              "feed": {
+                "title": "Latest Filings - Fri, 25 Sep 2026 19:23:15 EDT",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent",
+                "feed_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&start=100&output=atom"
+              },
+              "company": "CIM Opportunity Zone Fund, L.P.",
+              "event": "auditor change"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&start=100&output=atom",
+            "elapsed_ms": 8349,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "filter",
+              "version": "0.3.2",
+              "args": {
+                "expr": "summary matches \"Item (1\\\\.03|1\\\\.05|2\\\\.01|2\\\\.05|2\\\\.06|3\\\\.01|4\\\\.01|4\\\\.02|5\\\\.01):\""
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "company=replace(title, \"^8-K(/A)? - (.*?) \\\\(\\\\d+\\\\) \\\\(Filer\\\\)$\", \"\\\\2\")",
+                  "event=replace(summary, \"(?s)^.*?Item (1\\\\.03|1\\\\.05|2\\\\.01|2\\\\.05|2\\\\.06|3\\\\.01|4\\\\.01|4\\\\.02|5\\\\.01):.*$\", \"\\\\1\")",
+                  "event=replace(event, \"^1\\\\.03$\", \"bankruptcy or receivership\")",
+                  "event=replace(event, \"^1\\\\.05$\", \"cybersecurity incident\")",
+                  "event=replace(event, \"^2\\\\.01$\", \"completed an acquisition or sale of assets\")",
+                  "event=replace(event, \"^2\\\\.05$\", \"layoffs or exit costs\")",
+                  "event=replace(event, \"^2\\\\.06$\", \"material impairment\")",
+                  "event=replace(event, \"^3\\\\.01$\", \"delisting notice or listing transfer\")",
+                  "event=replace(event, \"^4\\\\.01$\", \"auditor change\")",
+                  "event=replace(event, \"^4\\\\.02$\", \"past financial statements can no longer be relied on\")",
+                  "event=replace(event, \"^5\\\\.01$\", \"change in control\")",
+                  "title=company + \": \" + event",
+                  "summary=replace(summary, \"^Filed: \\\\S+ AccNo: \\\\S+ Size: \\\\S+ \\\\S+\\\\s*\", \"\")"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "sec-company-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/Archives/edgar/data/1765107/000176510726000028/0001765107-26-000028-index.htm",
+      "tags": [
+        "8-K"
+      ]
+    },
+    {
+      "id": "98e20f3d06f7612b4949",
+      "title": "Lumen Technologies, Inc.: delisting notice or listing transfer",
+      "content_text": "Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing\nItem 7.01: Regulation FD Disclosure\nItem 9.01: Financial Statements and Exhibits",
+      "date_published": "2026-09-25T12:39:06Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "98e20f3d06f7612b4949",
+          "source": "rss",
+          "type": "change",
+          "key": "urn:tag:sec.gov,2008:accession-number=0000947871-26-000891",
+          "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&start=100&output=atom",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:41:20Z",
+          "data": {
+            "change": "added",
+            "label": "Lumen Technologies, Inc.: delisting notice or listing transfer",
+            "item_type": "entry",
+            "summary": "added: Lumen Technologies, Inc.: delisting notice or listing transfer",
+            "after": {
+              "title": "Lumen Technologies, Inc.: delisting notice or listing transfer",
+              "link": "https://www.sec.gov/Archives/edgar/data/18926/000094787126000891/0000947871-26-000891-index.htm",
+              "id": "urn:tag:sec.gov,2008:accession-number=0000947871-26-000891",
+              "author": null,
+              "published_at": "2026-09-25T12:39:06Z",
+              "updated_at": "2026-09-25T12:39:06Z",
+              "summary": "Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing\nItem 7.01: Regulation FD Disclosure\nItem 9.01: Financial Statements and Exhibits",
+              "categories": [
+                "8-K"
+              ],
+              "feed": {
+                "title": "Latest Filings - Fri, 25 Sep 2026 19:23:15 EDT",
+                "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent",
+                "feed_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&start=100&output=atom"
+              },
+              "company": "Lumen Technologies, Inc.",
+              "event": "delisting notice or listing transfer"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent&type=8-K&count=100&start=100&output=atom",
+            "elapsed_ms": 8349,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "filter",
+              "version": "0.3.2",
+              "args": {
+                "expr": "summary matches \"Item (1\\\\.03|1\\\\.05|2\\\\.01|2\\\\.05|2\\\\.06|3\\\\.01|4\\\\.01|4\\\\.02|5\\\\.01):\""
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "company=replace(title, \"^8-K(/A)? - (.*?) \\\\(\\\\d+\\\\) \\\\(Filer\\\\)$\", \"\\\\2\")",
+                  "event=replace(summary, \"(?s)^.*?Item (1\\\\.03|1\\\\.05|2\\\\.01|2\\\\.05|2\\\\.06|3\\\\.01|4\\\\.01|4\\\\.02|5\\\\.01):.*$\", \"\\\\1\")",
+                  "event=replace(event, \"^1\\\\.03$\", \"bankruptcy or receivership\")",
+                  "event=replace(event, \"^1\\\\.05$\", \"cybersecurity incident\")",
+                  "event=replace(event, \"^2\\\\.01$\", \"completed an acquisition or sale of assets\")",
+                  "event=replace(event, \"^2\\\\.05$\", \"layoffs or exit costs\")",
+                  "event=replace(event, \"^2\\\\.06$\", \"material impairment\")",
+                  "event=replace(event, \"^3\\\\.01$\", \"delisting notice or listing transfer\")",
+                  "event=replace(event, \"^4\\\\.01$\", \"auditor change\")",
+                  "event=replace(event, \"^4\\\\.02$\", \"past financial statements can no longer be relied on\")",
+                  "event=replace(event, \"^5\\\\.01$\", \"change in control\")",
+                  "title=company + \": \" + event",
+                  "summary=replace(summary, \"^Filed: \\\\S+ AccNo: \\\\S+ Size: \\\\S+ \\\\S+\\\\s*\", \"\")"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "sec-company-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/Archives/edgar/data/18926/000094787126000891/0000947871-26-000891-index.htm",
+      "tags": [
+        "8-K"
+      ]
+    }
+  ]
 }
