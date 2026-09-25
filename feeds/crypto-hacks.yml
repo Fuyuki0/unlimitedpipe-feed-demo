@@ -1,0 +1,23 @@
+name: crypto-hacks
+description: Crypto hacks and exploits with the amount lost, how it happened and the chains involved, from DefiLlama's public hacks database.
+sources:
+  - type: web
+    url: https://api.llama.fi/hacks
+operators:
+  - {type: sort, by: [date], reverse: true}
+  - {type: limit, count: 50}
+  - type: map
+    assign:
+      - 'lost=replace(replace("" + amount, "^(\\d+)(\\d)\\d{5}(\\.\\d+)?$", "$\\1.\\2M"), "^(\\d+)\\d{3}(\\.\\d+)?$", "$\\1K")'
+      - 'title=name + ": " + lost + " lost (" + lower(classification) + ")"'
+      - 'untold=name + ": hacked, amount not disclosed (" + lower(classification) + ")"'
+      - 'summary=technique + ". Target: " + targetType + "."'
+      - "published_at=date(date)"
+      - 'link=replace(source, "^$", "https://defillama.com/hacks")'
+      - 'id=name + " " + date'
+  - type: select
+    fields: [title=title|untold, summary, published_at, link, id, chain, amount]
+  - {type: diff, key: id, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/crypto-hacks.xml, title: Crypto hacks and exploits, link: "https://defillama.com/hacks"}
+  - {type: feed, path: ../public/crypto-hacks.json, title: Crypto hacks and exploits, link: "https://defillama.com/hacks"}

@@ -1,6 +1,6 @@
 # UnlimitedPipe feeds
 
-26 free feeds, updated every hour by a GitHub Actions workflow and served by GitHub Pages.
+29 free feeds, updated every hour by a GitHub Actions workflow and served by GitHub Pages.
 No server, no database, no account. Each feed is one short YAML file, built with
 [UnlimitedPipe](https://pypi.org/project/unlimitedpipe/).
 
@@ -49,6 +49,17 @@ on it: `unlimited rss https://fuyuki0.github.io/unlimitedpipe-feeds/ai-news.json
 | [sanctions-actions](https://fuyuki0.github.io/unlimitedpipe-feeds/sanctions-actions.xml) | New US sanctions actions from the Treasury (OFAC): designations, removals, licenses |
 | [us-new-rules](https://fuyuki0.github.io/unlimitedpipe-feeds/us-new-rules.xml) | Significant new US federal rules from the Federal Register |
 
+### Crypto
+
+Data, not investment advice.
+
+| Feed | What it follows |
+| --- | --- |
+| [exchange-listings](https://fuyuki0.github.io/unlimitedpipe-feeds/exchange-listings.xml) | New and removed trading pairs on Coinbase, Binance, OKX and Upbit, from each exchange's official market list |
+| [crypto-hacks](https://fuyuki0.github.io/unlimitedpipe-feeds/crypto-hacks.xml) | Hacks and exploits with the amount lost and how it happened (DefiLlama) |
+| [crypto-releases](https://fuyuki0.github.io/unlimitedpipe-feeds/crypto-releases.xml) | Stable releases of Bitcoin Core, lnd, Geth, Lighthouse and Solana's Agave |
+| [crypto-news](https://fuyuki0.github.io/unlimitedpipe-feeds/crypto-news.xml) | CoinDesk, Cointelegraph and Decrypt, merged |
+
 ### News
 
 | Feed | What it follows |
@@ -56,7 +67,6 @@ on it: `unlimited rss https://fuyuki0.github.io/unlimitedpipe-feeds/ai-news.json
 | [world-headlines](https://fuyuki0.github.io/unlimitedpipe-feeds/world-headlines.xml) | BBC, NPR and Al Jazeera headlines, merged |
 | [climate-news](https://fuyuki0.github.io/unlimitedpipe-feeds/climate-news.xml) | Climate and energy stories |
 | [thailand-news](https://fuyuki0.github.io/unlimitedpipe-feeds/thailand-news.xml) | Thailand news in English (Khaosod English, Thai Enquirer) |
-| [crypto-news](https://fuyuki0.github.io/unlimitedpipe-feeds/crypto-news.xml) | CoinDesk, Cointelegraph and Decrypt, merged |
 
 ### Science and space
 
