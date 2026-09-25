@@ -9,6 +9,94 @@
   },
   "items": [
     {
+      "id": "d26fd42694cde41a7f60",
+      "title": "Elementor WordPress flaw lets attackers create admin accounts",
+      "content_text": "A cross-site request forgery (CSRF) vulnerability in the Elementor plugin for WordPress could allow an unauthenticated attacker to create administrator accounts. [...]",
+      "date_published": "2026-09-25T18:13:33Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d26fd42694cde41a7f60",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/",
+          "source_url": "https://www.bleepingcomputer.com/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-25T20:48:28Z",
+          "data": {
+            "change": "added",
+            "label": "Elementor WordPress flaw lets attackers create admin accounts",
+            "item_type": "entry",
+            "summary": "added: Elementor WordPress flaw lets attackers create admin accounts",
+            "after": {
+              "title": "Elementor WordPress flaw lets attackers create admin accounts",
+              "link": "https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/",
+              "id": "https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/",
+              "author": "Bill Toulas",
+              "published_at": "2026-09-25T18:13:33Z",
+              "updated_at": "2026-09-25T18:13:33Z",
+              "summary": "A cross-site request forgery (CSRF) vulnerability in the Elementor plugin for WordPress could allow an unauthenticated attacker to create administrator accounts. [...]",
+              "categories": [
+                "Security"
+              ],
+              "feed": {
+                "title": "BleepingComputer",
+                "url": "https://www.bleepingcomputer.com/",
+                "feed_url": "https://www.bleepingcomputer.com/feed/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.bleepingcomputer.com/feed/",
+            "elapsed_ms": 47,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "security-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/",
+      "tags": [
+        "Security"
+      ]
+    },
+    {
       "id": "921fc620f7626ce73cef",
       "title": "CISA warns of Sharepoint, WSO2, Adobe Commerce flaws exploited in attacks",
       "content_text": "The Cybersecurity and Infrastructure Security Agency (CISA) warns that hackers are exploiting a critical authentication bypass vulnerability (CVE-2026-5430) affecting multiple products from enterprise software provider WSO2. [...]",

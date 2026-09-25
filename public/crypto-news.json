@@ -9,6 +9,828 @@
   },
   "items": [
     {
+      "id": "9cffd889d6e2dc8a8a7f",
+      "title": "OG.com seeks CFTC approval for single-stock perpetual futures",
+      "content_text": "OG.com, recently spun out of Crypto.com, joins Coinbase, Kalshi and Kraken parent Payward in seeking approval to bring perpetual futures to individual US stocks.",
+      "date_published": "2026-09-25T20:37:21Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "9cffd889d6e2dc8a8a7f",
+          "source": "rss",
+          "type": "change",
+          "key": "https://cointelegraph.com/news/og-com-seeks-cftc-approval-single-stock-perpetual-futures",
+          "source_url": "https://cointelegraph.com/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-25T20:48:14Z",
+          "data": {
+            "change": "added",
+            "label": "OG.com seeks CFTC approval for single-stock perpetual futures",
+            "item_type": "entry",
+            "summary": "added: OG.com seeks CFTC approval for single-stock perpetual futures",
+            "after": {
+              "title": "OG.com seeks CFTC approval for single-stock perpetual futures",
+              "link": "https://cointelegraph.com/news/og-com-seeks-cftc-approval-single-stock-perpetual-futures?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+              "id": "https://cointelegraph.com/news/og-com-seeks-cftc-approval-single-stock-perpetual-futures",
+              "author": "Cointelegraph by Nate Kostar",
+              "published_at": "2026-09-25T20:37:21Z",
+              "updated_at": "2026-09-25T20:38:42Z",
+              "summary": "OG.com, recently spun out of Crypto.com, joins Coinbase, Kalshi and Kraken parent Payward in seeking approval to bring perpetual futures to individual US stocks.",
+              "categories": [
+                "Latest News"
+              ],
+              "feed": {
+                "title": "Cointelegraph.com News",
+                "url": "https://cointelegraph.com",
+                "feed_url": "https://cointelegraph.com/rss"
+              },
+              "enclosures": [
+                "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3D0WG4ZAYJTG27YA8SJYJ5F/hi-the-biggest-challenge-for-crypto-exchanges-is-global-price-fragmentation-2-2.png"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://cointelegraph.com/rss",
+            "elapsed_ms": 36,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://cointelegraph.com/news/og-com-seeks-cftc-approval-single-stock-perpetual-futures?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "tags": [
+        "Latest News"
+      ]
+    },
+    {
+      "id": "9520823173faacc1e75a",
+      "title": "Ex-CFTC leader to leave Blockchain Association after CLARITY vote fails",
+      "content_text": "Former CFTC Commissioner Summer Mersinger joined the Blockchain Association in 2025 after resigning during her second term at the federal commodities regulator.",
+      "date_published": "2026-09-25T20:26:40Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "9520823173faacc1e75a",
+          "source": "rss",
+          "type": "change",
+          "key": "https://cointelegraph.com/news/cftc-commissioner-leaving-blockchain-association-ceo",
+          "source_url": "https://cointelegraph.com/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-25T20:48:14Z",
+          "data": {
+            "change": "added",
+            "label": "Ex-CFTC leader to leave Blockchain Association after CLARITY vote fails",
+            "item_type": "entry",
+            "summary": "added: Ex-CFTC leader to leave Blockchain Association after CLARITY vote fails",
+            "after": {
+              "title": "Ex-CFTC leader to leave Blockchain Association after CLARITY vote fails",
+              "link": "https://cointelegraph.com/news/cftc-commissioner-leaving-blockchain-association-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+              "id": "https://cointelegraph.com/news/cftc-commissioner-leaving-blockchain-association-ceo",
+              "author": "Cointelegraph by Turner Wright",
+              "published_at": "2026-09-25T20:26:40Z",
+              "updated_at": "2026-09-25T20:28:52Z",
+              "summary": "Former CFTC Commissioner Summer Mersinger joined the Blockchain Association in 2025 after resigning during her second term at the federal commodities regulator.",
+              "categories": [
+                "Latest News"
+              ],
+              "feed": {
+                "title": "Cointelegraph.com News",
+                "url": "https://cointelegraph.com",
+                "feed_url": "https://cointelegraph.com/rss"
+              },
+              "enclosures": [
+                "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3D2CSJVVHTXWXSFEBTMN9GF/leaving-the-company-plain-1.jpg"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://cointelegraph.com/rss",
+            "elapsed_ms": 36,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://cointelegraph.com/news/cftc-commissioner-leaving-blockchain-association-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "tags": [
+        "Latest News"
+      ]
+    },
+    {
+      "id": "bc35cdc27f7ebfa589fc",
+      "title": "Blockchain Association sees leadership shift shortly after crypto Clarity Act fizzles",
+      "content_text": "Blockchain Association sees leadership shift shortly after crypto Clarity Act fizzles",
+      "date_published": "2026-09-25T20:01:05Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "bc35cdc27f7ebfa589fc",
+          "source": "rss",
+          "type": "change",
+          "key": "818c011b-a4ae-45af-9d08-4f565e17aeec",
+          "source_url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+          "timestamp": null,
+          "observed_at": "2026-09-25T20:48:14Z",
+          "data": {
+            "change": "added",
+            "label": "Blockchain Association sees leadership shift shortly after crypto Clarity Act fizzles",
+            "item_type": "entry",
+            "summary": "added: Blockchain Association sees leadership shift shortly after crypto Clarity Act fizzles",
+            "after": {
+              "title": "Blockchain Association sees leadership shift shortly after crypto Clarity Act fizzles",
+              "link": "https://www.coindesk.com/policy/2026/09/25/blockchain-association-sees-leadership-shift-shortly-after-crypto-clarity-act-fizzles",
+              "id": "818c011b-a4ae-45af-9d08-4f565e17aeec",
+              "author": "Jesse Hamilton",
+              "published_at": "2026-09-25T20:01:05Z",
+              "updated_at": "2026-09-25T20:01:05Z",
+              "summary": null,
+              "categories": [
+                "Policy",
+                "Regulation",
+                "Clarity Act",
+                "News"
+              ],
+              "feed": {
+                "title": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+                "url": "https://www.coindesk.com/",
+                "feed_url": "https://www.coindesk.com/arc/outboundfeeds/rss/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.coindesk.com/arc/outboundfeeds/rss",
+            "elapsed_ms": 102,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.coindesk.com/policy/2026/09/25/blockchain-association-sees-leadership-shift-shortly-after-crypto-clarity-act-fizzles",
+      "tags": [
+        "Policy",
+        "Regulation",
+        "Clarity Act",
+        "News"
+      ]
+    },
+    {
+      "id": "7881ba2c5a72ee318704",
+      "title": "AI Agents Hacked Their Own Test Environment to Cheat, Cybersecurity Firm Finds",
+      "content_text": "Darktrace's new Signal Labs found AI agents hacking their own evaluation environment to fake a perfect score—and tricking coding assistants into running unauthorized network attacks.",
+      "date_published": "2026-09-25T19:45:39Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "7881ba2c5a72ee318704",
+          "source": "rss",
+          "type": "change",
+          "key": "https://decrypt.co/?p=379369",
+          "source_url": "https://decrypt.co/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-25T20:48:14Z",
+          "data": {
+            "change": "added",
+            "label": "AI Agents Hacked Their Own Test Environment to Cheat, Cybersecurity Firm Finds",
+            "item_type": "entry",
+            "summary": "added: AI Agents Hacked Their Own Test Environment to Cheat, Cybersecurity Firm Finds",
+            "after": {
+              "title": "AI Agents Hacked Their Own Test Environment to Cheat, Cybersecurity Firm Finds",
+              "link": "https://decrypt.co/379369/ai-agents-hacked-test-environment-cheat-darktrace",
+              "id": "https://decrypt.co/?p=379369",
+              "author": "Jose Antonio Lanz",
+              "published_at": "2026-09-25T19:45:39Z",
+              "updated_at": "2026-09-25T19:45:39Z",
+              "summary": "Darktrace's new Signal Labs found AI agents hacking their own evaluation environment to fake a perfect score—and tricking coding assistants into running unauthorized network attacks.",
+              "categories": [
+                "Artificial Intelligence"
+              ],
+              "feed": {
+                "title": "Decrypt",
+                "url": "https://decrypt.co/feed",
+                "feed_url": "https://decrypt.co/feed"
+              },
+              "enclosures": [
+                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/03/ai-agents-decrypt-style-gID_7.jpg@png"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://decrypt.co/feed",
+            "elapsed_ms": 25,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://decrypt.co/379369/ai-agents-hacked-test-environment-cheat-darktrace",
+      "tags": [
+        "Artificial Intelligence"
+      ]
+    },
+    {
+      "id": "c13ba5bd460673ab2f84",
+      "title": "Google Built an AI That Hunts Its Own Security Bugs",
+      "content_text": "Google's PageBreak agent autonomously finds and verifies real vulnerabilities in its own web apps, cutting through the flood of noisy AI-generated security reports.",
+      "date_published": "2026-09-25T19:16:04Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c13ba5bd460673ab2f84",
+          "source": "rss",
+          "type": "change",
+          "key": "https://decrypt.co/?p=379364",
+          "source_url": "https://decrypt.co/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-25T20:48:14Z",
+          "data": {
+            "change": "added",
+            "label": "Google Built an AI That Hunts Its Own Security Bugs",
+            "item_type": "entry",
+            "summary": "added: Google Built an AI That Hunts Its Own Security Bugs",
+            "after": {
+              "title": "Google Built an AI That Hunts Its Own Security Bugs",
+              "link": "https://decrypt.co/379364/google-built-ai-hunts-security-bugs",
+              "id": "https://decrypt.co/?p=379364",
+              "author": "Jose Antonio Lanz",
+              "published_at": "2026-09-25T19:16:04Z",
+              "updated_at": "2026-09-25T19:16:04Z",
+              "summary": "Google's PageBreak agent autonomously finds and verifies real vulnerabilities in its own web apps, cutting through the flood of noisy AI-generated security reports.",
+              "categories": [
+                "Artificial Intelligence"
+              ],
+              "feed": {
+                "title": "Decrypt",
+                "url": "https://decrypt.co/feed",
+                "feed_url": "https://decrypt.co/feed"
+              },
+              "enclosures": [
+                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/05/decrypt-style-google-3-gID_7.png@png"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://decrypt.co/feed",
+            "elapsed_ms": 25,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://decrypt.co/379364/google-built-ai-hunts-security-bugs",
+      "tags": [
+        "Artificial Intelligence"
+      ]
+    },
+    {
+      "id": "9be49f2ba752ec4c9590",
+      "title": "Tether says it had ‘limited’ exposure to bank linked to $84M US seizure",
+      "content_text": "US prosecutors alleged that a payments business illegally transferred hundreds of millions of dollars at the direction of EQIBank, where Tether holds some assets.",
+      "date_published": "2026-09-25T18:56:53Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "9be49f2ba752ec4c9590",
+          "source": "rss",
+          "type": "change",
+          "key": "https://cointelegraph.com/news/us-authorities-seize-accounts-tether-bitfinex",
+          "source_url": "https://cointelegraph.com/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-25T20:48:14Z",
+          "data": {
+            "change": "added",
+            "label": "Tether says it had ‘limited’ exposure to bank linked to $84M US seizure",
+            "item_type": "entry",
+            "summary": "added: Tether says it had ‘limited’ exposure to bank linked to $84M US seizure",
+            "after": {
+              "title": "Tether says it had ‘limited’ exposure to bank linked to $84M US seizure",
+              "link": "https://cointelegraph.com/news/us-authorities-seize-accounts-tether-bitfinex?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+              "id": "https://cointelegraph.com/news/us-authorities-seize-accounts-tether-bitfinex",
+              "author": "Cointelegraph by Turner Wright",
+              "published_at": "2026-09-25T18:56:53Z",
+              "updated_at": "2026-09-25T18:59:00Z",
+              "summary": "US prosecutors alleged that a payments business illegally transferred hundreds of millions of dollars at the direction of EQIBank, where Tether holds some assets.",
+              "categories": [
+                "Latest News"
+              ],
+              "feed": {
+                "title": "Cointelegraph.com News",
+                "url": "https://cointelegraph.com",
+                "feed_url": "https://cointelegraph.com/rss"
+              },
+              "enclosures": [
+                "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3CMJJSCGPAGYWMC5WQF9J64/hi-what-happens-to-seized-cryptocurrency-1.jpg"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://cointelegraph.com/rss",
+            "elapsed_ms": 36,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://cointelegraph.com/news/us-authorities-seize-accounts-tether-bitfinex?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "tags": [
+        "Latest News"
+      ]
+    },
+    {
+      "id": "615ee163f48fd6d54cfb",
+      "title": "Circle and Tether Freeze Stablecoins Tied to Bitget Hack—But Most Funds Slip Away",
+      "content_text": "The two stablecoin issuers blacklisted a wallet labeled \"Bitget Exploiter 8,\" locking about $318,000 in USDC and USDT—but the attacker swapped most funds into unfreezable ETH before they could act.",
+      "date_published": "2026-09-25T18:42:51Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "615ee163f48fd6d54cfb",
+          "source": "rss",
+          "type": "change",
+          "key": "https://decrypt.co/?p=379365",
+          "source_url": "https://decrypt.co/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-25T20:48:14Z",
+          "data": {
+            "change": "added",
+            "label": "Circle and Tether Freeze Stablecoins Tied to Bitget Hack—But Most Funds Slip Away",
+            "item_type": "entry",
+            "summary": "added: Circle and Tether Freeze Stablecoins Tied to Bitget Hack—But Most Funds Slip Away",
+            "after": {
+              "title": "Circle and Tether Freeze Stablecoins Tied to Bitget Hack—But Most Funds Slip Away",
+              "link": "https://decrypt.co/379365/circle-tether-freeze-stablecoins-bitget-hack",
+              "id": "https://decrypt.co/?p=379365",
+              "author": "Decrypt Agent",
+              "published_at": "2026-09-25T18:42:51Z",
+              "updated_at": "2026-09-25T18:42:51Z",
+              "summary": "The two stablecoin issuers blacklisted a wallet labeled \"Bitget Exploiter 8,\" locking about $318,000 in USDC and USDT—but the attacker swapped most funds into unfreezable ETH before they could act.",
+              "categories": [
+                "Coins"
+              ],
+              "feed": {
+                "title": "Decrypt",
+                "url": "https://decrypt.co/feed",
+                "feed_url": "https://decrypt.co/feed"
+              },
+              "enclosures": [
+                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/08/circle-usdc-tether-usdt-stablecoin-decrypt-style-gID_7.jpg@png"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://decrypt.co/feed",
+            "elapsed_ms": 25,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://decrypt.co/379365/circle-tether-freeze-stablecoins-bitget-hack",
+      "tags": [
+        "Coins"
+      ]
+    },
+    {
+      "id": "08116387953da17f1c5f",
+      "title": "Former Hack VC partner Hsin-Ju Chuang’s death ruled a suicide",
+      "content_text": "The crypto executive and Dystopia Labs founder previously held senior roles at Stellar and Solana before joining venture capital firm Hack VC.",
+      "date_published": "2026-09-25T18:33:49Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "08116387953da17f1c5f",
+          "source": "rss",
+          "type": "change",
+          "key": "https://cointelegraph.com/news/former-hack-vc-partner-hsin-ju-chuang-found-dead",
+          "source_url": "https://cointelegraph.com/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-25T20:48:14Z",
+          "data": {
+            "change": "added",
+            "label": "Former Hack VC partner Hsin-Ju Chuang’s death ruled a suicide",
+            "item_type": "entry",
+            "summary": "added: Former Hack VC partner Hsin-Ju Chuang’s death ruled a suicide",
+            "after": {
+              "title": "Former Hack VC partner Hsin-Ju Chuang’s death ruled a suicide",
+              "link": "https://cointelegraph.com/news/former-hack-vc-partner-hsin-ju-chuang-found-dead?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+              "id": "https://cointelegraph.com/news/former-hack-vc-partner-hsin-ju-chuang-found-dead",
+              "author": "Cointelegraph by Nate Kostar",
+              "published_at": "2026-09-25T18:33:49Z",
+              "updated_at": "2026-09-25T18:36:36Z",
+              "summary": "The crypto executive and Dystopia Labs founder previously held senior roles at Stellar and Solana before joining venture capital firm Hack VC.",
+              "categories": [
+                "Latest News"
+              ],
+              "feed": {
+                "title": "Cointelegraph.com News",
+                "url": "https://cointelegraph.com",
+                "feed_url": "https://cointelegraph.com/rss"
+              },
+              "enclosures": [
+                "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3805C8FH8HWMHMANF3VXJW2/investigation-search.png"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://cointelegraph.com/rss",
+            "elapsed_ms": 36,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://cointelegraph.com/news/former-hack-vc-partner-hsin-ju-chuang-found-dead?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "tags": [
+        "Latest News"
+      ]
+    },
+    {
+      "id": "c4785ccae70b328ba95e",
+      "title": "OpenAI Is Building a $500 per Month ChatGPT Pro Max Plan, Leaks Suggest",
+      "content_text": "Leaked code strings and screenshots point to a new tier that would cost 25 times more than ChatGPT Plus, aimed at people who need the bot to work faster, not just longer.",
+      "date_published": "2026-09-25T17:46:05Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c4785ccae70b328ba95e",
+          "source": "rss",
+          "type": "change",
+          "key": "https://decrypt.co/?p=379359",
+          "source_url": "https://decrypt.co/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-25T20:48:14Z",
+          "data": {
+            "change": "added",
+            "label": "OpenAI Is Building a $500 per Month ChatGPT Pro Max Plan, Leaks Suggest",
+            "item_type": "entry",
+            "summary": "added: OpenAI Is Building a $500 per Month ChatGPT Pro Max Plan, Leaks Suggest",
+            "after": {
+              "title": "OpenAI Is Building a $500 per Month ChatGPT Pro Max Plan, Leaks Suggest",
+              "link": "https://decrypt.co/379359/openai-500-per-month-chatgpt-pro-max-plan",
+              "id": "https://decrypt.co/?p=379359",
+              "author": "Jose Antonio Lanz",
+              "published_at": "2026-09-25T17:46:05Z",
+              "updated_at": "2026-09-25T17:46:05Z",
+              "summary": "Leaked code strings and screenshots point to a new tier that would cost 25 times more than ChatGPT Plus, aimed at people who need the bot to work faster, not just longer.",
+              "categories": [
+                "Artificial Intelligence"
+              ],
+              "feed": {
+                "title": "Decrypt",
+                "url": "https://decrypt.co/feed",
+                "feed_url": "https://decrypt.co/feed"
+              },
+              "enclosures": [
+                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/04/decrypt-style-openai-logo-2-gID_7.png@png"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://decrypt.co/feed",
+            "elapsed_ms": 25,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://decrypt.co/379359/openai-500-per-month-chatgpt-pro-max-plan",
+      "tags": [
+        "Artificial Intelligence"
+      ]
+    },
+    {
       "id": "7da9eb26d21cbec09503",
       "title": "Bitget clarifies $388M in assets affected by security breach",
       "content_text": "The Bitget breach announced on Thursday affected about $35 million more than previously reported, based on an analysis of assets on Zcash and TRON.",
@@ -12816,837 +13638,6 @@
         }
       },
       "url": "https://cointelegraph.com/news/bitwise-lighter-lit-etp-europe-xetra?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "tags": [
-        "Latest News"
-      ]
-    },
-    {
-      "id": "8f0cf120a60ca4fe7d52",
-      "title": "Americans Would Use Stablecoins—If They Came With Bank Protections, Visa Study Finds",
-      "content_text": "A Visa survey found U.S. willingness to use stablecoins for cross-border transfers rises from 36% to 56% when paired with hypothetical bank-level fraud protection and deposit insurance.",
-      "date_published": "2026-09-23T16:26:03Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "8f0cf120a60ca4fe7d52",
-          "source": "rss",
-          "type": "change",
-          "key": "https://decrypt.co/?p=379073",
-          "source_url": "https://decrypt.co/feed",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:12Z",
-          "data": {
-            "change": "added",
-            "label": "Americans Would Use Stablecoins—If They Came With Bank Protections, Visa Study Finds",
-            "item_type": "entry",
-            "summary": "added: Americans Would Use Stablecoins—If They Came With Bank Protections, Visa Study Finds",
-            "after": {
-              "title": "Americans Would Use Stablecoins—If They Came With Bank Protections, Visa Study Finds",
-              "link": "https://decrypt.co/379073/americans-stablecoins-bank-protections-visa",
-              "id": "https://decrypt.co/?p=379073",
-              "author": "Decrypt Agent",
-              "published_at": "2026-09-23T16:26:03Z",
-              "updated_at": "2026-09-23T16:26:03Z",
-              "summary": "A Visa survey found U.S. willingness to use stablecoins for cross-border transfers rises from 36% to 56% when paired with hypothetical bank-level fraud protection and deposit insurance.",
-              "categories": [
-                "Business"
-              ],
-              "feed": {
-                "title": "Decrypt",
-                "url": "https://decrypt.co/feed",
-                "feed_url": "https://decrypt.co/feed"
-              },
-              "enclosures": [
-                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/USDC-USDT-decrypt-style-01-gID_7.png@png"
-              ]
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://decrypt.co/feed",
-            "elapsed_ms": 99,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "crypto-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://decrypt.co/379073/americans-stablecoins-bank-protections-visa",
-      "tags": [
-        "Business"
-      ]
-    },
-    {
-      "id": "3b2eb87584e5a5148050",
-      "title": "NYSE, Blockchain.com in tie-up to bring tokenized US stocks to crypto users",
-      "content_text": "Blockchain.com users could gain access to tokenized US stocks and ETFs through NYSE’s planned digital trading platform under a new partnership, as bourses rush to deliver new trading.",
-      "date_published": "2026-09-23T15:56:20Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "3b2eb87584e5a5148050",
-          "source": "rss",
-          "type": "change",
-          "key": "https://cointelegraph.com/news/nyse-blockchaincom-team-up-to-bring-tokenized-us-stocks-to-crypto-users",
-          "source_url": "https://cointelegraph.com/rss",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:12Z",
-          "data": {
-            "change": "added",
-            "label": "NYSE, Blockchain.com in tie-up to bring tokenized US stocks to crypto users",
-            "item_type": "entry",
-            "summary": "added: NYSE, Blockchain.com in tie-up to bring tokenized US stocks to crypto users",
-            "after": {
-              "title": "NYSE, Blockchain.com in tie-up to bring tokenized US stocks to crypto users",
-              "link": "https://cointelegraph.com/news/nyse-blockchaincom-team-up-to-bring-tokenized-us-stocks-to-crypto-users?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-              "id": "https://cointelegraph.com/news/nyse-blockchaincom-team-up-to-bring-tokenized-us-stocks-to-crypto-users",
-              "author": "Cointelegraph by Nate Kostar",
-              "published_at": "2026-09-23T15:56:20Z",
-              "updated_at": "2026-09-23T16:00:27Z",
-              "summary": "Blockchain.com users could gain access to tokenized US stocks and ETFs through NYSE’s planned digital trading platform under a new partnership, as bourses rush to deliver new trading.",
-              "categories": [
-                "Latest News"
-              ],
-              "feed": {
-                "title": "Cointelegraph.com News",
-                "url": "https://cointelegraph.com",
-                "feed_url": "https://cointelegraph.com/rss"
-              },
-              "enclosures": [
-                "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M37EH0Z8ZWVTWRY7BAG5D2K4/new-york-stock-exchange-nyse.png"
-              ]
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://cointelegraph.com/rss",
-            "elapsed_ms": 184,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "crypto-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://cointelegraph.com/news/nyse-blockchaincom-team-up-to-bring-tokenized-us-stocks-to-crypto-users?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "tags": [
-        "Latest News"
-      ]
-    },
-    {
-      "id": "35a6bc98ec2b3785e9b4",
-      "title": "Bitcoin Dips, But Its Forks Are Flying Again",
-      "content_text": "A CME futures listing and a fresh Grayscale ETF filing sent Bitcoin's two biggest forks soaring, even as the flagship coin cooled off its seven-month high.",
-      "date_published": "2026-09-23T15:56:03Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "35a6bc98ec2b3785e9b4",
-          "source": "rss",
-          "type": "change",
-          "key": "https://decrypt.co/?p=379048",
-          "source_url": "https://decrypt.co/feed",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:12Z",
-          "data": {
-            "change": "added",
-            "label": "Bitcoin Dips, But Its Forks Are Flying Again",
-            "item_type": "entry",
-            "summary": "added: Bitcoin Dips, But Its Forks Are Flying Again",
-            "after": {
-              "title": "Bitcoin Dips, But Its Forks Are Flying Again",
-              "link": "https://decrypt.co/379048/bitcoin-dips-but-forks-are-flying-bch-bsv",
-              "id": "https://decrypt.co/?p=379048",
-              "author": "Jose Antonio Lanz",
-              "published_at": "2026-09-23T15:56:03Z",
-              "updated_at": "2026-09-23T15:56:03Z",
-              "summary": "A CME futures listing and a fresh Grayscale ETF filing sent Bitcoin's two biggest forks soaring, even as the flagship coin cooled off its seven-month high.",
-              "categories": [
-                "bitcoin-cash-sv",
-                "Markets"
-              ],
-              "feed": {
-                "title": "Decrypt",
-                "url": "https://decrypt.co/feed",
-                "feed_url": "https://decrypt.co/feed"
-              },
-              "enclosures": [
-                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/07/Bitcoin-decrypt-style-28-gID_7.png@png"
-              ]
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://decrypt.co/feed",
-            "elapsed_ms": 99,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "crypto-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://decrypt.co/379048/bitcoin-dips-but-forks-are-flying-bch-bsv",
-      "tags": [
-        "bitcoin-cash-sv",
-        "Markets"
-      ]
-    },
-    {
-      "id": "5687d1f1c27be1257e3b",
-      "title": "BlackRock: AI Agents Could Drive Crypto's Next Demand Wave",
-      "content_text": "The world's largest asset manager argues that autonomous AI agents buying data, paying for services, and renting computing power could quietly become one of the biggest forces pushing money into crypto.",
-      "date_published": "2026-09-23T15:41:46Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "5687d1f1c27be1257e3b",
-          "source": "rss",
-          "type": "change",
-          "key": "https://decrypt.co/?p=379070",
-          "source_url": "https://decrypt.co/feed",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:12Z",
-          "data": {
-            "change": "added",
-            "label": "BlackRock: AI Agents Could Drive Crypto's Next Demand Wave",
-            "item_type": "entry",
-            "summary": "added: BlackRock: AI Agents Could Drive Crypto's Next Demand Wave",
-            "after": {
-              "title": "BlackRock: AI Agents Could Drive Crypto's Next Demand Wave",
-              "link": "https://decrypt.co/379070/blackrock-ai-agents-crypto-next-demand-wave",
-              "id": "https://decrypt.co/?p=379070",
-              "author": "Jose Antonio Lanz",
-              "published_at": "2026-09-23T15:41:46Z",
-              "updated_at": "2026-09-23T15:41:46Z",
-              "summary": "The world's largest asset manager argues that autonomous AI agents buying data, paying for services, and renting computing power could quietly become one of the biggest forces pushing money into crypto.",
-              "categories": [
-                "Business"
-              ],
-              "feed": {
-                "title": "Decrypt",
-                "url": "https://decrypt.co/feed",
-                "feed_url": "https://decrypt.co/feed"
-              },
-              "enclosures": [
-                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/BlackRock-Larry-Fink-decrypt-style-02-gID_7.png@png"
-              ]
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://decrypt.co/feed",
-            "elapsed_ms": 99,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "crypto-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://decrypt.co/379070/blackrock-ai-agents-crypto-next-demand-wave",
-      "tags": [
-        "Business"
-      ]
-    },
-    {
-      "id": "9b6aa70d349ae5775ccd",
-      "title": "Inside the FBI’s little-known annual crypto crime gathering",
-      "content_text": "Inside the FBI’s little-known annual crypto crime gathering",
-      "date_published": "2026-09-23T15:26:35Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "9b6aa70d349ae5775ccd",
-          "source": "rss",
-          "type": "change",
-          "key": "7c14c777-a31e-4013-98fb-3e74ea43c4a0",
-          "source_url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:12Z",
-          "data": {
-            "change": "added",
-            "label": "Inside the FBI’s little-known annual crypto crime gathering",
-            "item_type": "entry",
-            "summary": "added: Inside the FBI’s little-known annual crypto crime gathering",
-            "after": {
-              "title": "Inside the FBI’s little-known annual crypto crime gathering",
-              "link": "https://www.coindesk.com/business/2026/09/23/inside-the-fbi-s-little-known-annual-crypto-crime-gathering",
-              "id": "7c14c777-a31e-4013-98fb-3e74ea43c4a0",
-              "author": "Will Canny",
-              "published_at": "2026-09-23T15:26:35Z",
-              "updated_at": "2026-09-23T15:26:35Z",
-              "summary": null,
-              "categories": [
-                "Finance",
-                "hacking",
-                "North Korea",
-                "Exclusive",
-                "Crypto News",
-                "Crime",
-                "News"
-              ],
-              "feed": {
-                "title": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-                "url": "https://www.coindesk.com/",
-                "feed_url": "https://www.coindesk.com/arc/outboundfeeds/rss/"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.coindesk.com/arc/outboundfeeds/rss",
-            "elapsed_ms": 198,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "crypto-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.coindesk.com/business/2026/09/23/inside-the-fbi-s-little-known-annual-crypto-crime-gathering",
-      "tags": [
-        "Finance",
-        "hacking",
-        "North Korea",
-        "Exclusive",
-        "Crypto News",
-        "Crime",
-        "News"
-      ]
-    },
-    {
-      "id": "5a951158789ab1bf1881",
-      "title": "Crypto Long & Short: Inside the chain settling $150 billion of stablecoins a week",
-      "content_text": "Crypto Long & Short: Inside the chain settling $150 billion of stablecoins a week",
-      "date_published": "2026-09-23T15:07:21Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "5a951158789ab1bf1881",
-          "source": "rss",
-          "type": "change",
-          "key": "1575f074-8f81-4463-a4c1-f0fde4598864",
-          "source_url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:12Z",
-          "data": {
-            "change": "added",
-            "label": "Crypto Long & Short: Inside the chain settling $150 billion of stablecoins a week",
-            "item_type": "entry",
-            "summary": "added: Crypto Long & Short: Inside the chain settling $150 billion of stablecoins a week",
-            "after": {
-              "title": "Crypto Long & Short: Inside the chain settling $150 billion of stablecoins a week",
-              "link": "https://www.coindesk.com/coindesk-indices/2026/09/23/crypto-long-and-short-inside-the-chain-settling-usd150-billion-of-stablecoins-a-week",
-              "id": "1575f074-8f81-4463-a4c1-f0fde4598864",
-              "author": "Josh Olszewicz",
-              "published_at": "2026-09-23T15:07:21Z",
-              "updated_at": "2026-09-23T15:07:21Z",
-              "summary": null,
-              "categories": [
-                "CoinDesk Indices",
-                "Crypto Long & Short",
-                "News"
-              ],
-              "feed": {
-                "title": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-                "url": "https://www.coindesk.com/",
-                "feed_url": "https://www.coindesk.com/arc/outboundfeeds/rss/"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.coindesk.com/arc/outboundfeeds/rss",
-            "elapsed_ms": 198,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "crypto-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.coindesk.com/coindesk-indices/2026/09/23/crypto-long-and-short-inside-the-chain-settling-usd150-billion-of-stablecoins-a-week",
-      "tags": [
-        "CoinDesk Indices",
-        "Crypto Long & Short",
-        "News"
-      ]
-    },
-    {
-      "id": "7f214b050b6605e887b8",
-      "title": "Bitcoin long liquidations hit $280M as BTC price dips under $84K",
-      "content_text": "Bitcoin long liquidations mounted as BTC/USD briefly traded below $84,000, while analysis flagged key support to hold.",
-      "date_published": "2026-09-23T14:52:11Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "7f214b050b6605e887b8",
-          "source": "rss",
-          "type": "change",
-          "key": "https://cointelegraph.com/markets/bitcoin-long-liquidations-hit-280m-as-btc-price-dips-under-84k",
-          "source_url": "https://cointelegraph.com/rss",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:12Z",
-          "data": {
-            "change": "added",
-            "label": "Bitcoin long liquidations hit $280M as BTC price dips under $84K",
-            "item_type": "entry",
-            "summary": "added: Bitcoin long liquidations hit $280M as BTC price dips under $84K",
-            "after": {
-              "title": "Bitcoin long liquidations hit $280M as BTC price dips under $84K",
-              "link": "https://cointelegraph.com/markets/bitcoin-long-liquidations-hit-280m-as-btc-price-dips-under-84k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-              "id": "https://cointelegraph.com/markets/bitcoin-long-liquidations-hit-280m-as-btc-price-dips-under-84k",
-              "author": "Cointelegraph by William Suberg",
-              "published_at": "2026-09-23T14:52:11Z",
-              "updated_at": "2026-09-24T03:11:35Z",
-              "summary": "Bitcoin long liquidations mounted as BTC/USD briefly traded below $84,000, while analysis flagged key support to hold.",
-              "categories": [
-                "Markets"
-              ],
-              "feed": {
-                "title": "Cointelegraph.com News",
-                "url": "https://cointelegraph.com",
-                "feed_url": "https://cointelegraph.com/rss"
-              },
-              "enclosures": [
-                "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1HEBC31STJ1V8Y61W60PS20/analytics-red-market-falling-drop-bitcoin-3.jpg"
-              ]
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://cointelegraph.com/rss",
-            "elapsed_ms": 184,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "crypto-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://cointelegraph.com/markets/bitcoin-long-liquidations-hit-280m-as-btc-price-dips-under-84k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "tags": [
-        "Markets"
-      ]
-    },
-    {
-      "id": "0c87fa16b120ab1b71b9",
-      "title": "Raiffeisen to offer crypto trading across 11 European markets via Bitpanda",
-      "content_text": "Bitpanda will provide crypto infrastructure to Raiffeisen network banks, potentially extending digital asset access to about 18 million customers.",
-      "date_published": "2026-09-23T14:28:50Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "0c87fa16b120ab1b71b9",
-          "source": "rss",
-          "type": "change",
-          "key": "https://cointelegraph.com/news/raiffeisen-crypto-11-european-markets-bitpanda",
-          "source_url": "https://cointelegraph.com/rss",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:12Z",
-          "data": {
-            "change": "added",
-            "label": "Raiffeisen to offer crypto trading across 11 European markets via Bitpanda",
-            "item_type": "entry",
-            "summary": "added: Raiffeisen to offer crypto trading across 11 European markets via Bitpanda",
-            "after": {
-              "title": "Raiffeisen to offer crypto trading across 11 European markets via Bitpanda",
-              "link": "https://cointelegraph.com/news/raiffeisen-crypto-11-european-markets-bitpanda?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-              "id": "https://cointelegraph.com/news/raiffeisen-crypto-11-european-markets-bitpanda",
-              "author": "Cointelegraph by Helen Partz",
-              "published_at": "2026-09-23T14:28:50Z",
-              "updated_at": "2026-09-23T14:33:12Z",
-              "summary": "Bitpanda will provide crypto infrastructure to Raiffeisen network banks, potentially extending digital asset access to about 18 million customers.",
-              "categories": [
-                "Latest News"
-              ],
-              "feed": {
-                "title": "Cointelegraph.com News",
-                "url": "https://cointelegraph.com",
-                "feed_url": "https://cointelegraph.com/rss"
-              },
-              "enclosures": [
-                "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1P74NCJ7VVQEWSD26T81DZH/digital-bank-2.jpg"
-              ]
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://cointelegraph.com/rss",
-            "elapsed_ms": 184,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "crypto-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://cointelegraph.com/news/raiffeisen-crypto-11-european-markets-bitpanda?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "tags": [
-        "Latest News"
-      ]
-    },
-    {
-      "id": "3cdcc40db6936c72401f",
-      "title": "ESMA to prioritize EU-wide AI and tokenization supervision in 2027",
-      "content_text": "National regulators will map client-facing uses of the technologies, check a subset of firms and develop common approaches to oversight.",
-      "date_published": "2026-09-23T13:40:00Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "3cdcc40db6936c72401f",
-          "source": "rss",
-          "type": "change",
-          "key": "https://cointelegraph.com/news/esma-to-focus-eu-wide-supervision-on-ai-and-tokenization-from-2027",
-          "source_url": "https://cointelegraph.com/rss",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:12Z",
-          "data": {
-            "change": "added",
-            "label": "ESMA to prioritize EU-wide AI and tokenization supervision in 2027",
-            "item_type": "entry",
-            "summary": "added: ESMA to prioritize EU-wide AI and tokenization supervision in 2027",
-            "after": {
-              "title": "ESMA to prioritize EU-wide AI and tokenization supervision in 2027",
-              "link": "https://cointelegraph.com/news/esma-to-focus-eu-wide-supervision-on-ai-and-tokenization-from-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-              "id": "https://cointelegraph.com/news/esma-to-focus-eu-wide-supervision-on-ai-and-tokenization-from-2027",
-              "author": "Cointelegraph by Yohan Yun",
-              "published_at": "2026-09-23T13:40:00Z",
-              "updated_at": "2026-09-23T13:45:25Z",
-              "summary": "National regulators will map client-facing uses of the technologies, check a subset of firms and develop common approaches to oversight.",
-              "categories": [
-                "Latest News"
-              ],
-              "feed": {
-                "title": "Cointelegraph.com News",
-                "url": "https://cointelegraph.com",
-                "feed_url": "https://cointelegraph.com/rss"
-              },
-              "enclosures": [
-                "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M376QJPE26SWHVGZ22MP3VXK/tokenization-gear-blockchain-european-union.png"
-              ]
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://cointelegraph.com/rss",
-            "elapsed_ms": 184,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "crypto-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://cointelegraph.com/news/esma-to-focus-eu-wide-supervision-on-ai-and-tokenization-from-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "tags": [
         "Latest News"
       ]

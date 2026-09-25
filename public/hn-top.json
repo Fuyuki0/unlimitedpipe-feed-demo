@@ -9,6 +9,170 @@
   },
   "items": [
     {
+      "id": "f9f41eb7b3e41ccd1d5b",
+      "title": "Platform-independent SIMD in Go",
+      "content_text": "hn https://news.ycombinator.com/item?id=49843269 · published_at 2026-09-25T11:47:06Z · points 315 · num_comments 120",
+      "date_published": "2026-09-25T11:47:06Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "f9f41eb7b3e41ccd1d5b",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50#https://news.ycombinator.com/item?id=49843269",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-25T20:48:26Z",
+          "data": {
+            "change": "added",
+            "label": "Platform-independent SIMD in Go",
+            "item_type": "record",
+            "summary": "added: Platform-independent SIMD in Go",
+            "after": {
+              "title": "Platform-independent SIMD in Go",
+              "link": "https://go.dev/blog/simd-experiment",
+              "hn": "https://news.ycombinator.com/item?id=49843269",
+              "published_at": "2026-09-25T11:47:06Z",
+              "points": 315,
+              "num_comments": 120
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 256,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.2",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "hn",
+                "namespace": "hn-top",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://go.dev/blog/simd-experiment"
+    },
+    {
+      "id": "5ede9838f32d45c0bfe5",
+      "title": "Fearless SIMD v1.0",
+      "content_text": "hn https://news.ycombinator.com/item?id=49800085 · published_at 2026-09-22T12:23:37Z · points 309 · num_comments 49",
+      "date_published": "2026-09-22T12:23:37Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "5ede9838f32d45c0bfe5",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50#https://news.ycombinator.com/item?id=49800085",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-25T20:48:26Z",
+          "data": {
+            "change": "added",
+            "label": "Fearless SIMD v1.0",
+            "item_type": "record",
+            "summary": "added: Fearless SIMD v1.0",
+            "after": {
+              "title": "Fearless SIMD v1.0",
+              "link": "https://linebender.org/blog/fearless-simd-1-0/",
+              "hn": "https://news.ycombinator.com/item?id=49800085",
+              "published_at": "2026-09-22T12:23:37Z",
+              "points": 309,
+              "num_comments": 49
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 256,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.2",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "hn",
+                "namespace": "hn-top",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://linebender.org/blog/fearless-simd-1-0/"
+    },
+    {
       "id": "7a083a92d7b5c3242f7d",
       "title": "Opus 5.5 is good at explainer videos",
       "content_text": "hn https://news.ycombinator.com/item?id=49836374 · published_at 2026-09-24T20:28:47Z · points 367 · num_comments 200",

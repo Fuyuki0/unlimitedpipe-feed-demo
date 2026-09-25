@@ -9,6 +9,1653 @@
   },
   "items": [
     {
+      "id": "5286b4863526f5d17e72",
+      "title": "Russia targeting 'ordinary life' with attacks on Ukraine's data centres, Zelensky says",
+      "content_text": "Such strikes aim to disrupt \"people's ability to stay connected, study, work\", says Ukraine's president.",
+      "date_published": "2026-09-25T20:47:49Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "5286b4863526f5d17e72",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/c84gkwgk7d06o#0",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-25T20:48:35Z",
+          "data": {
+            "change": "added",
+            "label": "Russia targeting 'ordinary life' with attacks on Ukraine's data centres, Zelensky says",
+            "item_type": "entry",
+            "summary": "added: Russia targeting 'ordinary life' with attacks on Ukraine's data centres, Zelensky says",
+            "after": {
+              "title": "Russia targeting 'ordinary life' with attacks on Ukraine's data centres, Zelensky says",
+              "link": "https://www.bbc.co.uk/news/articles/c84gkwgk7d06o?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/c84gkwgk7d06o#0",
+              "author": null,
+              "published_at": "2026-09-25T20:47:49Z",
+              "updated_at": "2026-09-25T20:47:49Z",
+              "summary": "Such strikes aim to disrupt \"people's ability to stay connected, study, work\", says Ukraine's president.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 49,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/c84gkwgk7d06o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "d2f93984199558ee7db4",
+      "title": "Which countries walked out of Netanyahu’s UNGA speech?",
+      "content_text": "Which countries walked out of Netanyahu’s UNGA speech?",
+      "date_published": "2026-09-25T19:50:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d2f93984199558ee7db4",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790365707",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-25T20:48:35Z",
+          "data": {
+            "change": "added",
+            "label": "Which countries walked out of Netanyahu’s UNGA speech?",
+            "item_type": "entry",
+            "summary": "added: Which countries walked out of Netanyahu’s UNGA speech?",
+            "after": {
+              "title": "Which countries walked out of Netanyahu’s UNGA speech?",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/which-countries-walked-out-of-netanyahus-unga-speech?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790365707",
+              "author": null,
+              "published_at": "2026-09-25T19:50:00Z",
+              "updated_at": "2026-09-25T19:50:00Z",
+              "summary": "Which countries walked out of Netanyahu’s UNGA speech?",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 94,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/25/which-countries-walked-out-of-netanyahus-unga-speech?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "a6d205fa5e418b043391",
+      "title": "Jerusalem Daily: What was Netanyahu’s UNGA speech really about?",
+      "content_text": "Dozens of countries’ delegations walked out of or were absent for Israeli PM Benjamin Netanyahu’s UNGA speech.",
+      "date_published": "2026-09-25T19:48:37Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "a6d205fa5e418b043391",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790363935",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-25T20:48:35Z",
+          "data": {
+            "change": "added",
+            "label": "Jerusalem Daily: What was Netanyahu’s UNGA speech really about?",
+            "item_type": "entry",
+            "summary": "added: Jerusalem Daily: What was Netanyahu’s UNGA speech really about?",
+            "after": {
+              "title": "Jerusalem Daily: What was Netanyahu’s UNGA speech really about?",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/jerusalem-daily-what-was-netanyahus-unga-speech-really-about?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790363935",
+              "author": null,
+              "published_at": "2026-09-25T19:48:37Z",
+              "updated_at": "2026-09-25T19:48:37Z",
+              "summary": "Dozens of countries’ delegations walked out of or were absent for Israeli PM Benjamin Netanyahu’s UNGA speech.",
+              "categories": [
+                "Show Types"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 94,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/25/jerusalem-daily-what-was-netanyahus-unga-speech-really-about?traffic_source=rss",
+      "tags": [
+        "Show Types"
+      ]
+    },
+    {
+      "id": "c33c0a0540c447a26012",
+      "title": "Pakistan PM calls Houthi threats to Saudi holy sites a ‘red line’",
+      "content_text": "Pakistan PM, a signatory to the Mecca Joint Defence Agreement, condemned Houthi attacks on Saudi Arabia at UNGA 81.",
+      "date_published": "2026-09-25T19:38:21Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c33c0a0540c447a26012",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790363561",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-25T20:48:35Z",
+          "data": {
+            "change": "added",
+            "label": "Pakistan PM calls Houthi threats to Saudi holy sites a ‘red line’",
+            "item_type": "entry",
+            "summary": "added: Pakistan PM calls Houthi threats to Saudi holy sites a ‘red line’",
+            "after": {
+              "title": "Pakistan PM calls Houthi threats to Saudi holy sites a ‘red line’",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/pakistan-pm-calls-houthi-threats-to-saudi-holy-sites-a-red?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790363561",
+              "author": null,
+              "published_at": "2026-09-25T19:38:21Z",
+              "updated_at": "2026-09-25T19:38:21Z",
+              "summary": "Pakistan PM, a signatory to the Mecca Joint Defence Agreement, condemned Houthi attacks on Saudi Arabia at UNGA 81.",
+              "categories": [
+                "Show Types"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 94,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/25/pakistan-pm-calls-houthi-threats-to-saudi-holy-sites-a-red?traffic_source=rss",
+      "tags": [
+        "Show Types"
+      ]
+    },
+    {
+      "id": "868629055815d3ea5582",
+      "title": "How Israel’s ‘Blue Line’ team seizes Palestinian land in the West Bank",
+      "content_text": "Little-known Israeli map team is redrawing land boundaries as Palestinians face growing illegal settlement expansion.",
+      "date_published": "2026-09-25T19:24:46Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "868629055815d3ea5582",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790346813",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-25T20:48:35Z",
+          "data": {
+            "change": "added",
+            "label": "How Israel’s ‘Blue Line’ team seizes Palestinian land in the West Bank",
+            "item_type": "entry",
+            "summary": "added: How Israel’s ‘Blue Line’ team seizes Palestinian land in the West Bank",
+            "after": {
+              "title": "How Israel’s ‘Blue Line’ team seizes Palestinian land in the West Bank",
+              "link": "https://www.aljazeera.com/features/2026/9/25/how-israels-blue-line-team-seizes-palestinian-land-in-the-west-bank?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790346813",
+              "author": null,
+              "published_at": "2026-09-25T19:24:46Z",
+              "updated_at": "2026-09-25T19:24:46Z",
+              "summary": "Little-known Israeli map team is redrawing land boundaries as Palestinians face growing illegal settlement expansion.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 94,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/features/2026/9/25/how-israels-blue-line-team-seizes-palestinian-land-in-the-west-bank?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "e34250075a1d2befafcd",
+      "title": "UN expands list of firms involved in illegal Israeli settlement activities",
+      "content_text": "With addition of 61 more companies, the list now includes 214 businesses in 11 countries, most of them Israeli.",
+      "date_published": "2026-09-25T19:21:57Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "e34250075a1d2befafcd",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790350021",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-25T20:48:35Z",
+          "data": {
+            "change": "added",
+            "label": "UN expands list of firms involved in illegal Israeli settlement activities",
+            "item_type": "entry",
+            "summary": "added: UN expands list of firms involved in illegal Israeli settlement activities",
+            "after": {
+              "title": "UN expands list of firms involved in illegal Israeli settlement activities",
+              "link": "https://www.aljazeera.com/news/2026/9/25/un-expands-list-of-firms-involved-in-illegal-israeli-settlement-activities?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790350021",
+              "author": null,
+              "published_at": "2026-09-25T19:21:57Z",
+              "updated_at": "2026-09-25T19:21:57Z",
+              "summary": "With addition of 61 more companies, the list now includes 214 businesses in 11 countries, most of them Israeli.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 94,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/news/2026/9/25/un-expands-list-of-firms-involved-in-illegal-israeli-settlement-activities?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "76c82be2289044639697",
+      "title": "Takeaways from the Trump-Xi state visit: Pageantry and pandas",
+      "content_text": "The visit comes at an important time for both men.",
+      "date_published": "2026-09-25T19:11:47Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "76c82be2289044639697",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.npr.org/2026/09/25/nx-s1-5981265/takeaways-trump-xi-state-visit-pageantry-pandas",
+          "source_url": "https://feeds.npr.org/1001/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-25T20:48:35Z",
+          "data": {
+            "change": "added",
+            "label": "Takeaways from the Trump-Xi state visit: Pageantry and pandas",
+            "item_type": "entry",
+            "summary": "added: Takeaways from the Trump-Xi state visit: Pageantry and pandas",
+            "after": {
+              "title": "Takeaways from the Trump-Xi state visit: Pageantry and pandas",
+              "link": "https://www.npr.org/2026/09/25/nx-s1-5981265/takeaways-trump-xi-state-visit-pageantry-pandas",
+              "id": "https://www.npr.org/2026/09/25/nx-s1-5981265/takeaways-trump-xi-state-visit-pageantry-pandas",
+              "author": "Emily Feng",
+              "published_at": "2026-09-25T19:11:47Z",
+              "updated_at": "2026-09-25T19:11:47Z",
+              "summary": "The visit comes at an important time for both men.",
+              "categories": [],
+              "feed": {
+                "title": "NPR Topics: News",
+                "url": "https://www.npr.org/templates/story/story.php?storyId=1001",
+                "feed_url": "https://feeds.npr.org/1001/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.npr.org/1001/rss.xml",
+            "elapsed_ms": 99,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.npr.org/2026/09/25/nx-s1-5981265/takeaways-trump-xi-state-visit-pageantry-pandas"
+    },
+    {
+      "id": "0d4772b3ed630af5ee61",
+      "title": "Iran threatens widespread disruption as Iraq halts Iran flights",
+      "content_text": "Iraq has suspended Iranian flights at all four airports where they operated",
+      "date_published": "2026-09-25T19:11:03Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "0d4772b3ed630af5ee61",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790360001",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-25T20:48:35Z",
+          "data": {
+            "change": "added",
+            "label": "Iran threatens widespread disruption as Iraq halts Iran flights",
+            "item_type": "entry",
+            "summary": "added: Iran threatens widespread disruption as Iraq halts Iran flights",
+            "after": {
+              "title": "Iran threatens widespread disruption as Iraq halts Iran flights",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/iran-threatens-widespread-disruption-as-iraq-halts-iran-flights?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790360001",
+              "author": null,
+              "published_at": "2026-09-25T19:11:03Z",
+              "updated_at": "2026-09-25T19:11:03Z",
+              "summary": "Iraq has suspended Iranian flights at all four airports where they operated",
+              "categories": [
+                "Show Types"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 94,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/25/iran-threatens-widespread-disruption-as-iraq-halts-iran-flights?traffic_source=rss",
+      "tags": [
+        "Show Types"
+      ]
+    },
+    {
+      "id": "568becffb3a4eb5a6f79",
+      "title": "Will Turkiye end its military presence in northern Iraq?",
+      "content_text": "Ankara agrees to gradually hand over a base in Sinjar.",
+      "date_published": "2026-09-25T19:06:54Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "568becffb3a4eb5a6f79",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790358864",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-25T20:48:35Z",
+          "data": {
+            "change": "added",
+            "label": "Will Turkiye end its military presence in northern Iraq?",
+            "item_type": "entry",
+            "summary": "added: Will Turkiye end its military presence in northern Iraq?",
+            "after": {
+              "title": "Will Turkiye end its military presence in northern Iraq?",
+              "link": "https://www.aljazeera.com/video/inside-story/2026/9/25/will-turkiye-end-its-military-presence-in-northern-iraq?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790358864",
+              "author": null,
+              "published_at": "2026-09-25T19:06:54Z",
+              "updated_at": "2026-09-25T19:06:54Z",
+              "summary": "Ankara agrees to gradually hand over a base in Sinjar.",
+              "categories": [
+                "TV Shows"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 94,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/video/inside-story/2026/9/25/will-turkiye-end-its-military-presence-in-northern-iraq?traffic_source=rss",
+      "tags": [
+        "TV Shows"
+      ]
+    },
+    {
+      "id": "81bd24a57d96db41eab9",
+      "title": "Iraqi airports halt Iranian flights after new US aviation sanctions",
+      "content_text": "Baghdad, Najaf, Erbil and Sulaimaniyah airports suspend flights as US ramps up pressure on Iran's aviation sector.",
+      "date_published": "2026-09-25T18:30:20Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "81bd24a57d96db41eab9",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790346802",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-25T20:48:35Z",
+          "data": {
+            "change": "added",
+            "label": "Iraqi airports halt Iranian flights after new US aviation sanctions",
+            "item_type": "entry",
+            "summary": "added: Iraqi airports halt Iranian flights after new US aviation sanctions",
+            "after": {
+              "title": "Iraqi airports halt Iranian flights after new US aviation sanctions",
+              "link": "https://www.aljazeera.com/news/2026/9/25/iraqi-airports-halt-iranian-flights-after-new-us-aviation-sanctions?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790346802",
+              "author": null,
+              "published_at": "2026-09-25T18:30:20Z",
+              "updated_at": "2026-09-25T18:30:20Z",
+              "summary": "Baghdad, Najaf, Erbil and Sulaimaniyah airports suspend flights as US ramps up pressure on Iran's aviation sector.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 94,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/news/2026/9/25/iraqi-airports-halt-iranian-flights-after-new-us-aviation-sanctions?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "070f34ac1d877e651f6c",
+      "title": "Trump's plans for massive arch move ahead",
+      "content_text": "Opposition to building the 250-foot arch, and using it for military purposes, is growing with one Democrat blasting Trump's plans as \"foolhardy\".",
+      "date_published": "2026-09-25T18:27:46Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "070f34ac1d877e651f6c",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/cq0lrr8kxy0lo#0",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-25T20:48:35Z",
+          "data": {
+            "change": "added",
+            "label": "Trump's plans for massive arch move ahead",
+            "item_type": "entry",
+            "summary": "added: Trump's plans for massive arch move ahead",
+            "after": {
+              "title": "Trump's plans for massive arch move ahead",
+              "link": "https://www.bbc.co.uk/news/articles/cq0lrr8kxy0lo?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/cq0lrr8kxy0lo#0",
+              "author": null,
+              "published_at": "2026-09-25T18:27:46Z",
+              "updated_at": "2026-09-25T18:27:46Z",
+              "summary": "Opposition to building the 250-foot arch, and using it for military purposes, is growing with one Democrat blasting Trump's plans as \"foolhardy\".",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 49,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/cq0lrr8kxy0lo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "a233726f3fbc277d286a",
+      "title": "India’s Cockroach movement joins opposition push to oust election chief",
+      "content_text": "India’s youth-led Cockroach Janta Party has joined opposition calls for election chief Gyanesh Kumar to resign.",
+      "date_published": "2026-09-25T18:16:47Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "a233726f3fbc277d286a",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790359948",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-25T20:48:35Z",
+          "data": {
+            "change": "added",
+            "label": "India’s Cockroach movement joins opposition push to oust election chief",
+            "item_type": "entry",
+            "summary": "added: India’s Cockroach movement joins opposition push to oust election chief",
+            "after": {
+              "title": "India’s Cockroach movement joins opposition push to oust election chief",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/09-25-india-election-chief-protests-sv?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790359948",
+              "author": null,
+              "published_at": "2026-09-25T18:16:47Z",
+              "updated_at": "2026-09-25T18:16:47Z",
+              "summary": "India’s youth-led Cockroach Janta Party has joined opposition calls for election chief Gyanesh Kumar to resign.",
+              "categories": [
+                "Show Types"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 94,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/25/09-25-india-election-chief-protests-sv?traffic_source=rss",
+      "tags": [
+        "Show Types"
+      ]
+    },
+    {
+      "id": "4e77eb96270009a6013f",
+      "title": "Families fleeing Yemen’s war face displacement, hunger and water shortages",
+      "content_text": "Fighting between Houthi and government-aligned forces forces families out of their homes in Yemen.",
+      "date_published": "2026-09-25T18:15:43Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "4e77eb96270009a6013f",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790358290",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-25T20:48:35Z",
+          "data": {
+            "change": "added",
+            "label": "Families fleeing Yemen’s war face displacement, hunger and water shortages",
+            "item_type": "entry",
+            "summary": "added: Families fleeing Yemen’s war face displacement, hunger and water shortages",
+            "after": {
+              "title": "Families fleeing Yemen’s war face displacement, hunger and water shortages",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/families-fleeing-yemens-war-face-displacement-hunger-and-water-shortages?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790358290",
+              "author": null,
+              "published_at": "2026-09-25T18:15:43Z",
+              "updated_at": "2026-09-25T18:15:43Z",
+              "summary": "Fighting between Houthi and government-aligned forces forces families out of their homes in Yemen.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 94,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/25/families-fleeing-yemens-war-face-displacement-hunger-and-water-shortages?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "00532e3202ac800550f6",
+      "title": "Poland boosts air defence after ‘Russian provocations’ amid Ukraine war",
+      "content_text": "Alleged incursions put NATO nations on alert as Ukraine launches strikes on Russia during parliamentary voting.",
+      "date_published": "2026-09-25T18:05:32Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "00532e3202ac800550f6",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790348471",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-25T20:48:35Z",
+          "data": {
+            "change": "added",
+            "label": "Poland boosts air defence after ‘Russian provocations’ amid Ukraine war",
+            "item_type": "entry",
+            "summary": "added: Poland boosts air defence after ‘Russian provocations’ amid Ukraine war",
+            "after": {
+              "title": "Poland boosts air defence after ‘Russian provocations’ amid Ukraine war",
+              "link": "https://www.aljazeera.com/news/2026/9/25/poland-boosts-air-defence-after-russian-provocations-amid-ukraine-war?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790348471",
+              "author": null,
+              "published_at": "2026-09-25T18:05:32Z",
+              "updated_at": "2026-09-25T18:05:32Z",
+              "summary": "Alleged incursions put NATO nations on alert as Ukraine launches strikes on Russia during parliamentary voting.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 94,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/news/2026/9/25/poland-boosts-air-defence-after-russian-provocations-amid-ukraine-war?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "52c38b67097bbee7d032",
+      "title": "US top court allows Trump to use controversial voter verification system",
+      "content_text": "Voting rights groups have warned system may falsely identify voters as non-citizens, leading to disenfranchisement.",
+      "date_published": "2026-09-25T17:45:24Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "52c38b67097bbee7d032",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790352620",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-25T20:48:35Z",
+          "data": {
+            "change": "added",
+            "label": "US top court allows Trump to use controversial voter verification system",
+            "item_type": "entry",
+            "summary": "added: US top court allows Trump to use controversial voter verification system",
+            "after": {
+              "title": "US top court allows Trump to use controversial voter verification system",
+              "link": "https://www.aljazeera.com/news/2026/9/25/us-top-court-allows-trump-to-use-controversial-voter-verification-system?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790352620",
+              "author": null,
+              "published_at": "2026-09-25T17:45:24Z",
+              "updated_at": "2026-09-25T17:45:24Z",
+              "summary": "Voting rights groups have warned system may falsely identify voters as non-citizens, leading to disenfranchisement.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 94,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/news/2026/9/25/us-top-court-allows-trump-to-use-controversial-voter-verification-system?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "c7e88e1ac146c966e81a",
+      "title": "Lebanese in Brazil, Brazilian in Lebanon",
+      "content_text": "Their families left Lebanon generations ago. For some Lebanese Brazilians, Lebanon’s pull never disappeared.",
+      "date_published": "2026-09-25T17:44:39Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c7e88e1ac146c966e81a",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790331184",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-25T20:48:35Z",
+          "data": {
+            "change": "added",
+            "label": "Lebanese in Brazil, Brazilian in Lebanon",
+            "item_type": "entry",
+            "summary": "added: Lebanese in Brazil, Brazilian in Lebanon",
+            "after": {
+              "title": "Lebanese in Brazil, Brazilian in Lebanon",
+              "link": "https://www.aljazeera.com/features/longform/2026/9/25/lebanese-in-brazil-brazilian-in-lebanon?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790331184",
+              "author": null,
+              "published_at": "2026-09-25T17:44:39Z",
+              "updated_at": "2026-09-25T17:44:39Z",
+              "summary": "Their families left Lebanon generations ago. For some Lebanese Brazilians, Lebanon’s pull never disappeared.",
+              "categories": [
+                "Features"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 94,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/features/longform/2026/9/25/lebanese-in-brazil-brazilian-in-lebanon?traffic_source=rss",
+      "tags": [
+        "Features"
+      ]
+    },
+    {
+      "id": "b90faecb98223368254e",
+      "title": "Al Jazeera rejects Netanyahu’s attack on journalists in UN speech",
+      "content_text": "Israeli PM's criticism of Al Jazeera during UNGA address threatens safety of journalists, the media network says.",
+      "date_published": "2026-09-25T17:34:16Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "b90faecb98223368254e",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790352229",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-25T20:48:35Z",
+          "data": {
+            "change": "added",
+            "label": "Al Jazeera rejects Netanyahu’s attack on journalists in UN speech",
+            "item_type": "entry",
+            "summary": "added: Al Jazeera rejects Netanyahu’s attack on journalists in UN speech",
+            "after": {
+              "title": "Al Jazeera rejects Netanyahu’s attack on journalists in UN speech",
+              "link": "https://www.aljazeera.com/news/2026/9/25/al-jazeera-rejects-netanyahus-attack-on-journalists-in-un-speech?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790352229",
+              "author": null,
+              "published_at": "2026-09-25T17:34:16Z",
+              "updated_at": "2026-09-25T17:34:16Z",
+              "summary": "Israeli PM's criticism of Al Jazeera during UNGA address threatens safety of journalists, the media network says.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 94,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/news/2026/9/25/al-jazeera-rejects-netanyahus-attack-on-journalists-in-un-speech?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "304a107f15d0cd2c4caa",
+      "title": "Senior Kazakh officials detained after 14 service members swept out to sea",
+      "content_text": "Seventeen service members were swept out to the Caspian Sea during military exercises.",
+      "date_published": "2026-09-25T15:29:48Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "304a107f15d0cd2c4caa",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/cm0reew1591zo#1",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-25T20:48:35Z",
+          "data": {
+            "change": "added",
+            "label": "Senior Kazakh officials detained after 14 service members swept out to sea",
+            "item_type": "entry",
+            "summary": "added: Senior Kazakh officials detained after 14 service members swept out to sea",
+            "after": {
+              "title": "Senior Kazakh officials detained after 14 service members swept out to sea",
+              "link": "https://www.bbc.co.uk/news/articles/cm0reew1591zo?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/cm0reew1591zo#1",
+              "author": null,
+              "published_at": "2026-09-25T15:29:48Z",
+              "updated_at": "2026-09-25T15:29:48Z",
+              "summary": "Seventeen service members were swept out to the Caspian Sea during military exercises.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 49,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/cm0reew1591zo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "100795465ffe6923a45b",
+      "title": "Xi got Trump's red carpet welcome - but not everything he wanted",
+      "content_text": "China wanted progress on trade, technology and Taiwan - but hasn't got as much as it would have hoped for.",
+      "date_published": "2026-09-25T03:57:09Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "100795465ffe6923a45b",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/cr93e4x7kdjjo#1",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-25T20:48:35Z",
+          "data": {
+            "change": "added",
+            "label": "Xi got Trump's red carpet welcome - but not everything he wanted",
+            "item_type": "entry",
+            "summary": "added: Xi got Trump's red carpet welcome - but not everything he wanted",
+            "after": {
+              "title": "Xi got Trump's red carpet welcome - but not everything he wanted",
+              "link": "https://www.bbc.co.uk/news/articles/cr93e4x7kdjjo?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/cr93e4x7kdjjo#1",
+              "author": null,
+              "published_at": "2026-09-25T03:57:09Z",
+              "updated_at": "2026-09-25T03:57:09Z",
+              "summary": "China wanted progress on trade, technology and Taiwan - but hasn't got as much as it would have hoped for.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 49,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/cr93e4x7kdjjo?at_medium=RSS&at_campaign=rss"
+    },
+    {
       "id": "17e40459d59ca6d1f990",
       "title": "Supreme Court allows Trump to use controversial database to check voter citizenship",
       "content_text": "Critics have questioned the reliability of the data, warning it could result in US citizens being wrongly removed from electoral rolls.",
@@ -11279,1643 +12926,6 @@
       "url": "https://www.aljazeera.com/news/2026/9/24/ethiopian-army-says-272-tigrayan-fighters-killed-as-conflict-escalates?traffic_source=rss",
       "tags": [
         "News"
-      ]
-    },
-    {
-      "id": "6567dca65058b379826b",
-      "title": "US and China presidents discuss cooperation, trade and AI risks",
-      "content_text": "Donald Trump and Xi Jinping discussed trade tensions, technology and AI risks at the White House",
-      "date_published": "2026-09-24T18:19:01Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "6567dca65058b379826b",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790269355",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T19:33:33Z",
-          "data": {
-            "change": "added",
-            "label": "US and China presidents discuss cooperation, trade and AI risks",
-            "item_type": "entry",
-            "summary": "added: US and China presidents discuss cooperation, trade and AI risks",
-            "after": {
-              "title": "US and China presidents discuss cooperation, trade and AI risks",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/24/us-and-china-presidents-discuss-cooperation-trade-and-ai-risks?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790269355",
-              "author": null,
-              "published_at": "2026-09-24T18:19:01Z",
-              "updated_at": "2026-09-24T18:19:01Z",
-              "summary": "Donald Trump and Xi Jinping discussed trade tensions, technology and AI risks at the White House",
-              "categories": [
-                "Show Types"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 73,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/us-and-china-presidents-discuss-cooperation-trade-and-ai-risks?traffic_source=rss",
-      "tags": [
-        "Show Types"
-      ]
-    },
-    {
-      "id": "3c7a88683374f86c810d",
-      "title": "Nigeria vs: Madagascar AFCON 2027 qualifier – preview, teams, prediction",
-      "content_text": "Madagascar will attempt to emulate their last shock win over the Super Eagles - a 2-0 victory at AFCON 2019.",
-      "date_published": "2026-09-24T18:13:32Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "3c7a88683374f86c810d",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790255013",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T19:33:33Z",
-          "data": {
-            "change": "added",
-            "label": "Nigeria vs: Madagascar AFCON 2027 qualifier – preview, teams, prediction",
-            "item_type": "entry",
-            "summary": "added: Nigeria vs: Madagascar AFCON 2027 qualifier – preview, teams, prediction",
-            "after": {
-              "title": "Nigeria vs: Madagascar AFCON 2027 qualifier – preview, teams, prediction",
-              "link": "https://www.aljazeera.com/sports/2026/9/24/nigeria-vs-madagascar-afcon-2027-qualifier-preview-teams?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790255013",
-              "author": null,
-              "published_at": "2026-09-24T18:13:32Z",
-              "updated_at": "2026-09-24T18:13:32Z",
-              "summary": "Madagascar will attempt to emulate their last shock win over the Super Eagles - a 2-0 victory at AFCON 2019.",
-              "categories": [
-                "Sport"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 73,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/sports/2026/9/24/nigeria-vs-madagascar-afcon-2027-qualifier-preview-teams?traffic_source=rss",
-      "tags": [
-        "Sport"
-      ]
-    },
-    {
-      "id": "be6dc0472343847ff28c",
-      "title": "Why Australia chose the world's biggest political stage to reveal OpenAI hack",
-      "content_text": "Australia, which has strict social media restrictions and has proposed controls on algorithms and smart glasses, announced the breach at the UN.",
-      "date_published": "2026-09-24T18:06:40Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "be6dc0472343847ff28c",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.bbc.co.uk/news/articles/cr3eqk15ld14o#1",
-          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T19:33:33Z",
-          "data": {
-            "change": "added",
-            "label": "Why Australia chose the world's biggest political stage to reveal OpenAI hack",
-            "item_type": "entry",
-            "summary": "added: Why Australia chose the world's biggest political stage to reveal OpenAI hack",
-            "after": {
-              "title": "Why Australia chose the world's biggest political stage to reveal OpenAI hack",
-              "link": "https://www.bbc.co.uk/news/articles/cr3eqk15ld14o?at_medium=RSS&at_campaign=rss",
-              "id": "https://www.bbc.co.uk/news/articles/cr3eqk15ld14o#1",
-              "author": null,
-              "published_at": "2026-09-24T18:06:40Z",
-              "updated_at": "2026-09-24T18:06:40Z",
-              "summary": "Australia, which has strict social media restrictions and has proposed controls on algorithms and smart glasses, announced the breach at the UN.",
-              "categories": [],
-              "feed": {
-                "title": "BBC News",
-                "url": "https://www.bbc.co.uk/news/world",
-                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-            "elapsed_ms": 65,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.bbc.co.uk/news/articles/cr3eqk15ld14o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "id": "81b4b22e048516df3692",
-      "title": "Rapper Macklemore announces 'Free Palestine' tour after Ed Sheeran fallout",
-      "content_text": "Proceeds from the tour, which begins in Dublin next month, will go to organisations supporting Palestinians, he says.",
-      "date_published": "2026-09-24T17:55:44Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "81b4b22e048516df3692",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.bbc.co.uk/news/articles/cqzjzlve8jg7o#0",
-          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T19:33:33Z",
-          "data": {
-            "change": "added",
-            "label": "Rapper Macklemore announces 'Free Palestine' tour after Ed Sheeran fallout",
-            "item_type": "entry",
-            "summary": "added: Rapper Macklemore announces 'Free Palestine' tour after Ed Sheeran fallout",
-            "after": {
-              "title": "Rapper Macklemore announces 'Free Palestine' tour after Ed Sheeran fallout",
-              "link": "https://www.bbc.co.uk/news/articles/cqzjzlve8jg7o?at_medium=RSS&at_campaign=rss",
-              "id": "https://www.bbc.co.uk/news/articles/cqzjzlve8jg7o#0",
-              "author": null,
-              "published_at": "2026-09-24T17:55:44Z",
-              "updated_at": "2026-09-24T17:55:44Z",
-              "summary": "Proceeds from the tour, which begins in Dublin next month, will go to organisations supporting Palestinians, he says.",
-              "categories": [],
-              "feed": {
-                "title": "BBC News",
-                "url": "https://www.bbc.co.uk/news/world",
-                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-            "elapsed_ms": 65,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.bbc.co.uk/news/articles/cqzjzlve8jg7o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "id": "d71882acbd59f2b1f2a6",
-      "title": "RFK Jr.'s ethics filing reveals book deals worth millions of dollars",
-      "content_text": "Health Secretary Robert F. Kennedy Jr.'s annual financial disclosure reveals he has received two lucrative book advances and free flights from a friend while in office.",
-      "date_published": "2026-09-24T17:51:40Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "d71882acbd59f2b1f2a6",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.npr.org/2026/09/24/nx-s1-5979867/rfk-ethics-book-deals",
-          "source_url": "https://feeds.npr.org/1001/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T19:33:33Z",
-          "data": {
-            "change": "added",
-            "label": "RFK Jr.'s ethics filing reveals book deals worth millions of dollars",
-            "item_type": "entry",
-            "summary": "added: RFK Jr.'s ethics filing reveals book deals worth millions of dollars",
-            "after": {
-              "title": "RFK Jr.'s ethics filing reveals book deals worth millions of dollars",
-              "link": "https://www.npr.org/2026/09/24/nx-s1-5979867/rfk-ethics-book-deals",
-              "id": "https://www.npr.org/2026/09/24/nx-s1-5979867/rfk-ethics-book-deals",
-              "author": "Sydney Lupkin",
-              "published_at": "2026-09-24T17:51:40Z",
-              "updated_at": "2026-09-24T17:51:40Z",
-              "summary": "Health Secretary Robert F. Kennedy Jr.'s annual financial disclosure reveals he has received two lucrative book advances and free flights from a friend while in office.",
-              "categories": [],
-              "feed": {
-                "title": "NPR Topics: News",
-                "url": "https://www.npr.org/templates/story/story.php?storyId=1001",
-                "feed_url": "https://feeds.npr.org/1001/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.npr.org/1001/rss.xml",
-            "elapsed_ms": 85,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.npr.org/2026/09/24/nx-s1-5979867/rfk-ethics-book-deals"
-    },
-    {
-      "id": "d3fb83c4cc7132bc4046",
-      "title": "Iranian-American group sues Trump over war",
-      "content_text": "Plaintiffs have families in Iran who have been harmed by the US war, they say.",
-      "date_published": "2026-09-24T17:45:52Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "d3fb83c4cc7132bc4046",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790266600",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T19:33:33Z",
-          "data": {
-            "change": "added",
-            "label": "Iranian-American group sues Trump over war",
-            "item_type": "entry",
-            "summary": "added: Iranian-American group sues Trump over war",
-            "after": {
-              "title": "Iranian-American group sues Trump over war",
-              "link": "https://www.aljazeera.com/news/2026/9/24/iranian-american-group-sues-trump-over-war?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790266600",
-              "author": null,
-              "published_at": "2026-09-24T17:45:52Z",
-              "updated_at": "2026-09-24T17:45:52Z",
-              "summary": "Plaintiffs have families in Iran who have been harmed by the US war, they say.",
-              "categories": [
-                "News"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 73,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/news/2026/9/24/iranian-american-group-sues-trump-over-war?traffic_source=rss",
-      "tags": [
-        "News"
-      ]
-    },
-    {
-      "id": "548933b8ef0807c06378",
-      "title": "Poland says fire at Starlink station is sabotage as Denmark warns of rising Russian threat",
-      "content_text": "The satellite station is used in part to provide internet coverage to neighbouring Ukraine, the government says.",
-      "date_published": "2026-09-24T16:00:29Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "548933b8ef0807c06378",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.bbc.co.uk/news/articles/cmp30r1klk37o#1",
-          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T19:33:33Z",
-          "data": {
-            "change": "added",
-            "label": "Poland says fire at Starlink station is sabotage as Denmark warns of rising Russian threat",
-            "item_type": "entry",
-            "summary": "added: Poland says fire at Starlink station is sabotage as Denmark warns of rising Russian threat",
-            "after": {
-              "title": "Poland says fire at Starlink station is sabotage as Denmark warns of rising Russian threat",
-              "link": "https://www.bbc.co.uk/news/articles/cmp30r1klk37o?at_medium=RSS&at_campaign=rss",
-              "id": "https://www.bbc.co.uk/news/articles/cmp30r1klk37o#1",
-              "author": null,
-              "published_at": "2026-09-24T16:00:29Z",
-              "updated_at": "2026-09-24T16:00:29Z",
-              "summary": "The satellite station is used in part to provide internet coverage to neighbouring Ukraine, the government says.",
-              "categories": [],
-              "feed": {
-                "title": "BBC News",
-                "url": "https://www.bbc.co.uk/news/world",
-                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-            "elapsed_ms": 65,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.bbc.co.uk/news/articles/cmp30r1klk37o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "id": "887f02aa2d4c4638ccc6",
-      "title": "105-year-old investigated for crimes at Nazi PoW camp in Germany",
-      "content_text": "The suspect is alleged to have been an accessory to murder at the Stalag 326 camp, where tens of thousands of Soviet PoWs died.",
-      "date_published": "2026-09-24T14:37:34Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "887f02aa2d4c4638ccc6",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.bbc.co.uk/news/articles/cwzrzjy3pynvo#1",
-          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T19:33:33Z",
-          "data": {
-            "change": "added",
-            "label": "105-year-old investigated for crimes at Nazi PoW camp in Germany",
-            "item_type": "entry",
-            "summary": "added: 105-year-old investigated for crimes at Nazi PoW camp in Germany",
-            "after": {
-              "title": "105-year-old investigated for crimes at Nazi PoW camp in Germany",
-              "link": "https://www.bbc.co.uk/news/articles/cwzrzjy3pynvo?at_medium=RSS&at_campaign=rss",
-              "id": "https://www.bbc.co.uk/news/articles/cwzrzjy3pynvo#1",
-              "author": null,
-              "published_at": "2026-09-24T14:37:34Z",
-              "updated_at": "2026-09-24T14:37:34Z",
-              "summary": "The suspect is alleged to have been an accessory to murder at the Stalag 326 camp, where tens of thousands of Soviet PoWs died.",
-              "categories": [],
-              "feed": {
-                "title": "BBC News",
-                "url": "https://www.bbc.co.uk/news/world",
-                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-            "elapsed_ms": 65,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.bbc.co.uk/news/articles/cwzrzjy3pynvo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "id": "9b391a5216f9d4a81a28",
-      "title": "Why did an OpenAI system hack Australia's health system - and can it be stopped in the future?",
-      "content_text": "News that an automated AI agent hacked a government IT system raises big questions about regulating the tech.",
-      "date_published": "2026-09-24T14:08:38Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "9b391a5216f9d4a81a28",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.bbc.co.uk/news/articles/cw24jm9rryy3o#2",
-          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T19:33:33Z",
-          "data": {
-            "change": "added",
-            "label": "Why did an OpenAI system hack Australia's health system - and can it be stopped in the future?",
-            "item_type": "entry",
-            "summary": "added: Why did an OpenAI system hack Australia's health system - and can it be stopped in the future?",
-            "after": {
-              "title": "Why did an OpenAI system hack Australia's health system - and can it be stopped in the future?",
-              "link": "https://www.bbc.co.uk/news/articles/cw24jm9rryy3o?at_medium=RSS&at_campaign=rss",
-              "id": "https://www.bbc.co.uk/news/articles/cw24jm9rryy3o#2",
-              "author": null,
-              "published_at": "2026-09-24T14:08:38Z",
-              "updated_at": "2026-09-24T14:08:38Z",
-              "summary": "News that an automated AI agent hacked a government IT system raises big questions about regulating the tech.",
-              "categories": [],
-              "feed": {
-                "title": "BBC News",
-                "url": "https://www.bbc.co.uk/news/world",
-                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-            "elapsed_ms": 65,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.bbc.co.uk/news/articles/cw24jm9rryy3o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "id": "70045fad67cfc5d4c95c",
-      "title": "Ukrainian knifeman kills one, wounds four at abbey in Poland",
-      "content_text": "Ukraine's President Zelenskyy denounces 'horrific crime' after 31-year-old attacks clergy, worshippers in border town.",
-      "date_published": "2026-09-24T17:15:31Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "70045fad67cfc5d4c95c",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790266412",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:38Z",
-          "data": {
-            "change": "added",
-            "label": "Ukrainian knifeman kills one, wounds four at abbey in Poland",
-            "item_type": "entry",
-            "summary": "added: Ukrainian knifeman kills one, wounds four at abbey in Poland",
-            "after": {
-              "title": "Ukrainian knifeman kills one, wounds four at abbey in Poland",
-              "link": "https://www.aljazeera.com/news/2026/9/24/ukrainian-knifeman-kills-one-wounds-four-at-abbey-in-poland?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790266412",
-              "author": null,
-              "published_at": "2026-09-24T17:15:31Z",
-              "updated_at": "2026-09-24T17:15:31Z",
-              "summary": "Ukraine's President Zelenskyy denounces 'horrific crime' after 31-year-old attacks clergy, worshippers in border town.",
-              "categories": [
-                "News"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 143,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/news/2026/9/24/ukrainian-knifeman-kills-one-wounds-four-at-abbey-in-poland?traffic_source=rss",
-      "tags": [
-        "News"
-      ]
-    },
-    {
-      "id": "1140897845d268d4aa51",
-      "title": "Jerusalem Daily: Ben-Gvir sets out bid to become defence minister",
-      "content_text": "In October elections, Israel’s national security minister Itamar Ben-Gvir is hoping to become defence minister.",
-      "date_published": "2026-09-24T17:08:50Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "1140897845d268d4aa51",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790269458",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:38Z",
-          "data": {
-            "change": "added",
-            "label": "Jerusalem Daily: Ben-Gvir sets out bid to become defence minister",
-            "item_type": "entry",
-            "summary": "added: Jerusalem Daily: Ben-Gvir sets out bid to become defence minister",
-            "after": {
-              "title": "Jerusalem Daily: Ben-Gvir sets out bid to become defence minister",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/24/jerusalem-daily-ben-gvir-sets-out-bid-to-become-defence-minister?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790269458",
-              "author": null,
-              "published_at": "2026-09-24T17:08:50Z",
-              "updated_at": "2026-09-24T17:08:50Z",
-              "summary": "In October elections, Israel’s national security minister Itamar Ben-Gvir is hoping to become defence minister.",
-              "categories": [
-                "Show Types"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 143,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/jerusalem-daily-ben-gvir-sets-out-bid-to-become-defence-minister?traffic_source=rss",
-      "tags": [
-        "Show Types"
-      ]
-    },
-    {
-      "id": "258a0a8a3d0d4e068dd6",
-      "title": "Collapsing currency and inflation leave families struggling in Sudan",
-      "content_text": "Rising bread, sugar and meat prices strain Sudanese households already grappling with war and economic instability.",
-      "date_published": "2026-09-24T17:03:55Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "258a0a8a3d0d4e068dd6",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1789652809",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:38Z",
-          "data": {
-            "change": "added",
-            "label": "Collapsing currency and inflation leave families struggling in Sudan",
-            "item_type": "entry",
-            "summary": "added: Collapsing currency and inflation leave families struggling in Sudan",
-            "after": {
-              "title": "Collapsing currency and inflation leave families struggling in Sudan",
-              "link": "https://www.aljazeera.com/features/2026/9/24/collapsing-currency-and-inflation-leave-families-struggling-in-sudan?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1789652809",
-              "author": null,
-              "published_at": "2026-09-24T17:03:55Z",
-              "updated_at": "2026-09-24T17:03:55Z",
-              "summary": "Rising bread, sugar and meat prices strain Sudanese households already grappling with war and economic instability.",
-              "categories": [
-                "News"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 143,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/features/2026/9/24/collapsing-currency-and-inflation-leave-families-struggling-in-sudan?traffic_source=rss",
-      "tags": [
-        "News"
-      ]
-    },
-    {
-      "id": "c39cbacfe218700f9a29",
-      "title": "Gaza’s recovery needs reach $71.5bn amid ‘most severe economic crisis’: UN",
-      "content_text": "UN trade body report says consequences of Israeli occupation have 'skyrocketed' with 90% unemployed in Gaza.",
-      "date_published": "2026-09-24T17:03:31Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "c39cbacfe218700f9a29",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790260688",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:38Z",
-          "data": {
-            "change": "added",
-            "label": "Gaza’s recovery needs reach $71.5bn amid ‘most severe economic crisis’: UN",
-            "item_type": "entry",
-            "summary": "added: Gaza’s recovery needs reach $71.5bn amid ‘most severe economic crisis’: UN",
-            "after": {
-              "title": "Gaza’s recovery needs reach $71.5bn amid ‘most severe economic crisis’: UN",
-              "link": "https://www.aljazeera.com/news/2026/9/24/gazas-recovery-needs-reach-71-5bn-amid-most-severe-economic-crisis-un?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790260688",
-              "author": null,
-              "published_at": "2026-09-24T17:03:31Z",
-              "updated_at": "2026-09-24T17:03:31Z",
-              "summary": "UN trade body report says consequences of Israeli occupation have 'skyrocketed' with 90% unemployed in Gaza.",
-              "categories": [
-                "News"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 143,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/news/2026/9/24/gazas-recovery-needs-reach-71-5bn-amid-most-severe-economic-crisis-un?traffic_source=rss",
-      "tags": [
-        "News"
-      ]
-    },
-    {
-      "id": "b57b08114328d07da9c6",
-      "title": "Africa’s bid for a seat on the Security Council",
-      "content_text": "Africa has 54 countries at the United Nations, but not one has a permanent seat on the powerful UN Security Council.",
-      "date_published": "2026-09-24T16:58:49Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "b57b08114328d07da9c6",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790268782",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:38Z",
-          "data": {
-            "change": "added",
-            "label": "Africa’s bid for a seat on the Security Council",
-            "item_type": "entry",
-            "summary": "added: Africa’s bid for a seat on the Security Council",
-            "after": {
-              "title": "Africa’s bid for a seat on the Security Council",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/24/africas-bid-for-a-seat-on-the-security-council?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790268782",
-              "author": null,
-              "published_at": "2026-09-24T16:58:49Z",
-              "updated_at": "2026-09-24T16:58:49Z",
-              "summary": "Africa has 54 countries at the United Nations, but not one has a permanent seat on the powerful UN Security Council.",
-              "categories": [
-                "Show Types"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 143,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/africas-bid-for-a-seat-on-the-security-council?traffic_source=rss",
-      "tags": [
-        "Show Types"
-      ]
-    },
-    {
-      "id": "89854d42d7b8762285b6",
-      "title": "‘Hostile, but hooked’: What’s behind the US-China trade truce extension?",
-      "content_text": "Some analysts say extending the truce is pure optics - others say it's a useful step towards a more durable deal.",
-      "date_published": "2026-09-24T16:53:29Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "89854d42d7b8762285b6",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790256752",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:38Z",
-          "data": {
-            "change": "added",
-            "label": "‘Hostile, but hooked’: What’s behind the US-China trade truce extension?",
-            "item_type": "entry",
-            "summary": "added: ‘Hostile, but hooked’: What’s behind the US-China trade truce extension?",
-            "after": {
-              "title": "‘Hostile, but hooked’: What’s behind the US-China trade truce extension?",
-              "link": "https://www.aljazeera.com/news-analysis/2026/9/24/hostile-but-hooked-whats-behind-the-us-china-trade-truce-extension?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790256752",
-              "author": null,
-              "published_at": "2026-09-24T16:53:29Z",
-              "updated_at": "2026-09-24T16:53:29Z",
-              "summary": "Some analysts say extending the truce is pure optics - others say it's a useful step towards a more durable deal.",
-              "categories": [
-                "News Analysis"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 143,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/news-analysis/2026/9/24/hostile-but-hooked-whats-behind-the-us-china-trade-truce-extension?traffic_source=rss",
-      "tags": [
-        "News Analysis"
-      ]
-    },
-    {
-      "id": "8cfbf71ee5d642b8acf6",
-      "title": "Four civilians killed in Pakistani airstrikes in Afghanistan",
-      "content_text": "Four civilians have been killed in the latest Pakistani airstrikes in Afghanistan.",
-      "date_published": "2026-09-24T16:51:30Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "8cfbf71ee5d642b8acf6",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790267896",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:38Z",
-          "data": {
-            "change": "added",
-            "label": "Four civilians killed in Pakistani airstrikes in Afghanistan",
-            "item_type": "entry",
-            "summary": "added: Four civilians killed in Pakistani airstrikes in Afghanistan",
-            "after": {
-              "title": "Four civilians killed in Pakistani airstrikes in Afghanistan",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/24/four-civilians-killed-in-pakistani-airstrikes-in-afghanistan?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790267896",
-              "author": null,
-              "published_at": "2026-09-24T16:51:30Z",
-              "updated_at": "2026-09-24T16:51:30Z",
-              "summary": "Four civilians have been killed in the latest Pakistani airstrikes in Afghanistan.",
-              "categories": [
-                "Show Types"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 143,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/four-civilians-killed-in-pakistani-airstrikes-in-afghanistan?traffic_source=rss",
-      "tags": [
-        "Show Types"
-      ]
-    },
-    {
-      "id": "f0c29bdeafcf94895d16",
-      "title": "Media outlets access to White House restored after a chaotic few hours",
-      "content_text": "A US federal judge had ordered the White House to 'immediately return, reinstate and restore' the three outlets' access.",
-      "date_published": "2026-09-24T16:45:39Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "f0c29bdeafcf94895d16",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790263868",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:38Z",
-          "data": {
-            "change": "added",
-            "label": "Media outlets access to White House restored after a chaotic few hours",
-            "item_type": "entry",
-            "summary": "added: Media outlets access to White House restored after a chaotic few hours",
-            "after": {
-              "title": "Media outlets access to White House restored after a chaotic few hours",
-              "link": "https://www.aljazeera.com/economy/2026/9/24/media-outlets-still-denied-access-to-white-house-despite-judges-order?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790263868",
-              "author": null,
-              "published_at": "2026-09-24T16:45:39Z",
-              "updated_at": "2026-09-24T16:45:39Z",
-              "summary": "A US federal judge had ordered the White House to 'immediately return, reinstate and restore' the three outlets' access.",
-              "categories": [
-                "News"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 143,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/economy/2026/9/24/media-outlets-still-denied-access-to-white-house-despite-judges-order?traffic_source=rss",
-      "tags": [
-        "News"
-      ]
-    },
-    {
-      "id": "c3ee1d67b4bada57417f",
-      "title": "Greek PM urges UK PM to return Elgin Marbles permanently",
-      "content_text": "Andy Burnham said in 2023 the sculptures should be returned to Greece with \"no strings attached\".",
-      "date_published": "2026-09-24T16:36:33Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "c3ee1d67b4bada57417f",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.bbc.co.uk/news/articles/cqm2mgk6mlddo#1",
-          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:38Z",
-          "data": {
-            "change": "added",
-            "label": "Greek PM urges UK PM to return Elgin Marbles permanently",
-            "item_type": "entry",
-            "summary": "added: Greek PM urges UK PM to return Elgin Marbles permanently",
-            "after": {
-              "title": "Greek PM urges UK PM to return Elgin Marbles permanently",
-              "link": "https://www.bbc.co.uk/news/articles/cqm2mgk6mlddo?at_medium=RSS&at_campaign=rss",
-              "id": "https://www.bbc.co.uk/news/articles/cqm2mgk6mlddo#1",
-              "author": null,
-              "published_at": "2026-09-24T16:36:33Z",
-              "updated_at": "2026-09-24T16:36:33Z",
-              "summary": "Andy Burnham said in 2023 the sculptures should be returned to Greece with \"no strings attached\".",
-              "categories": [],
-              "feed": {
-                "title": "BBC News",
-                "url": "https://www.bbc.co.uk/news/world",
-                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-            "elapsed_ms": 139,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.bbc.co.uk/news/articles/cqm2mgk6mlddo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "id": "589d81bd7da364c67ede",
-      "title": "Mahmoud Abbas: What will it take to ‘protect’ Palestine?",
-      "content_text": "Palestinian President Mahmoud Abbas questioned how long the world would “remain silent” on Israel's actions.",
-      "date_published": "2026-09-24T16:35:16Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "589d81bd7da364c67ede",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790267075",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:38Z",
-          "data": {
-            "change": "added",
-            "label": "Mahmoud Abbas: What will it take to ‘protect’ Palestine?",
-            "item_type": "entry",
-            "summary": "added: Mahmoud Abbas: What will it take to ‘protect’ Palestine?",
-            "after": {
-              "title": "Mahmoud Abbas: What will it take to ‘protect’ Palestine?",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/24/mahmoud-abbas-what-will-it-take-to-protect-palestine?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790267075",
-              "author": null,
-              "published_at": "2026-09-24T16:35:16Z",
-              "updated_at": "2026-09-24T16:35:16Z",
-              "summary": "Palestinian President Mahmoud Abbas questioned how long the world would “remain silent” on Israel's actions.",
-              "categories": [
-                "Show Types"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 143,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/mahmoud-abbas-what-will-it-take-to-protect-palestine?traffic_source=rss",
-      "tags": [
-        "Show Types"
       ]
     }
   ]
