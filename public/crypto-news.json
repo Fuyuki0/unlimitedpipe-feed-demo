@@ -1,13 +1,1299 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Crypto news (CoinDesk, Cointelegraph, Decrypt)",
-  "home_page_url": "https://cointelegraph.com/rss",
+  "home_page_url": "https://decrypt.co/feed",
   "description": "Events collected by UnlimitedPipe 0.3.2",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
     "generator": "UnlimitedPipe 0.3.2"
   },
   "items": [
+    {
+      "id": "05827c0d83c227776e67",
+      "title": "Defense Secretary Pete Hegseth Holds Bitcoin in a Coinbase Wallet, Filing Shows",
+      "content_text": "Two entries in his annual disclosure put the holding somewhere between $16,000 and $65,000, alongside more than $1 million in cash.",
+      "date_published": "2026-09-25T12:01:15Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "05827c0d83c227776e67",
+          "source": "rss",
+          "type": "change",
+          "key": "https://decrypt.co/?p=379290",
+          "source_url": "https://decrypt.co/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-25T12:22:43Z",
+          "data": {
+            "change": "added",
+            "label": "Defense Secretary Pete Hegseth Holds Bitcoin in a Coinbase Wallet, Filing Shows",
+            "item_type": "entry",
+            "summary": "added: Defense Secretary Pete Hegseth Holds Bitcoin in a Coinbase Wallet, Filing Shows",
+            "after": {
+              "title": "Defense Secretary Pete Hegseth Holds Bitcoin in a Coinbase Wallet, Filing Shows",
+              "link": "https://decrypt.co/379290/defense-secretary-pete-hegseth-holds-bitcoin-in-a-coinbase-wallet-filing-shows",
+              "id": "https://decrypt.co/?p=379290",
+              "author": "Decrypt Agent",
+              "published_at": "2026-09-25T12:01:15Z",
+              "updated_at": "2026-09-25T12:01:15Z",
+              "summary": "Two entries in his annual disclosure put the holding somewhere between $16,000 and $65,000, alongside more than $1 million in cash.",
+              "categories": [
+                "Business"
+              ],
+              "feed": {
+                "title": "Decrypt",
+                "url": "https://decrypt.co/feed",
+                "feed_url": "https://decrypt.co/feed"
+              },
+              "enclosures": [
+                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/09/pete-hegseth-decrypt-style-gID_7.jpg@png"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://decrypt.co/feed",
+            "elapsed_ms": 130,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://decrypt.co/379290/defense-secretary-pete-hegseth-holds-bitcoin-in-a-coinbase-wallet-filing-shows",
+      "tags": [
+        "Business"
+      ]
+    },
+    {
+      "id": "1c5e7c24e34a1416fdc2",
+      "title": "Bond volatility surges while bitcoin and Wall Street stay calm",
+      "content_text": "Bond volatility surges while bitcoin and Wall Street stay calm",
+      "date_published": "2026-09-25T11:54:28Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "1c5e7c24e34a1416fdc2",
+          "source": "rss",
+          "type": "change",
+          "key": "abfa70b3-385c-498f-b0db-a1c64c721268",
+          "source_url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+          "timestamp": null,
+          "observed_at": "2026-09-25T12:22:43Z",
+          "data": {
+            "change": "added",
+            "label": "Bond volatility surges while bitcoin and Wall Street stay calm",
+            "item_type": "entry",
+            "summary": "added: Bond volatility surges while bitcoin and Wall Street stay calm",
+            "after": {
+              "title": "Bond volatility surges while bitcoin and Wall Street stay calm",
+              "link": "https://www.coindesk.com/markets/2026/09/25/bond-volatility-surges-while-bitcoin-and-wall-street-stay-calm",
+              "id": "abfa70b3-385c-498f-b0db-a1c64c721268",
+              "author": "James Van Straten",
+              "published_at": "2026-09-25T11:54:28Z",
+              "updated_at": "2026-09-25T11:54:28Z",
+              "summary": null,
+              "categories": [
+                "Markets",
+                "Bitcoin News",
+                "News"
+              ],
+              "feed": {
+                "title": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+                "url": "https://www.coindesk.com/",
+                "feed_url": "https://www.coindesk.com/arc/outboundfeeds/rss/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.coindesk.com/arc/outboundfeeds/rss",
+            "elapsed_ms": 298,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.coindesk.com/markets/2026/09/25/bond-volatility-surges-while-bitcoin-and-wall-street-stay-calm",
+      "tags": [
+        "Markets",
+        "Bitcoin News",
+        "News"
+      ]
+    },
+    {
+      "id": "d57c1057db0c8c060d44",
+      "title": "Bitcoin holders are cashing out, just not the way they did at prior market tops",
+      "content_text": "Bitcoin holders are cashing out, just not the way they did at prior market tops",
+      "date_published": "2026-09-25T11:29:04Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d57c1057db0c8c060d44",
+          "source": "rss",
+          "type": "change",
+          "key": "36dd3e4f-3ef0-47ae-8722-03380d23dbc8",
+          "source_url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+          "timestamp": null,
+          "observed_at": "2026-09-25T12:22:43Z",
+          "data": {
+            "change": "added",
+            "label": "Bitcoin holders are cashing out, just not the way they did at prior market tops",
+            "item_type": "entry",
+            "summary": "added: Bitcoin holders are cashing out, just not the way they did at prior market tops",
+            "after": {
+              "title": "Bitcoin holders are cashing out, just not the way they did at prior market tops",
+              "link": "https://www.coindesk.com/daybook-us/2026/09/25/bitcoin-holders-are-cashing-out-just-not-the-way-they-did-at-prior-market-tops",
+              "id": "36dd3e4f-3ef0-47ae-8722-03380d23dbc8",
+              "author": "Omkar Godbole",
+              "published_at": "2026-09-25T11:29:04Z",
+              "updated_at": "2026-09-25T11:29:04Z",
+              "summary": null,
+              "categories": [
+                "Crypto Daybook Americas",
+                "Crypto Daybook Americas",
+                "News"
+              ],
+              "feed": {
+                "title": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+                "url": "https://www.coindesk.com/",
+                "feed_url": "https://www.coindesk.com/arc/outboundfeeds/rss/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.coindesk.com/arc/outboundfeeds/rss",
+            "elapsed_ms": 298,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.coindesk.com/daybook-us/2026/09/25/bitcoin-holders-are-cashing-out-just-not-the-way-they-did-at-prior-market-tops",
+      "tags": [
+        "Crypto Daybook Americas",
+        "Crypto Daybook Americas",
+        "News"
+      ]
+    },
+    {
+      "id": "266118ee0451268b4e50",
+      "title": "IBIT options price trading more calmly after Bitcoin rebound",
+      "content_text": "IBIT’s expected volatility sits near the bottom of its 12-month range, according to Saxo Bank’s analysis of options data from Sept. 23.",
+      "date_published": "2026-09-25T11:11:33Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "266118ee0451268b4e50",
+          "source": "rss",
+          "type": "change",
+          "key": "https://cointelegraph.com/markets/ibit-options-trading-bitcoins-rebound",
+          "source_url": "https://cointelegraph.com/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-25T12:22:43Z",
+          "data": {
+            "change": "added",
+            "label": "IBIT options price trading more calmly after Bitcoin rebound",
+            "item_type": "entry",
+            "summary": "added: IBIT options price trading more calmly after Bitcoin rebound",
+            "after": {
+              "title": "IBIT options price trading more calmly after Bitcoin rebound",
+              "link": "https://cointelegraph.com/markets/ibit-options-trading-bitcoins-rebound?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+              "id": "https://cointelegraph.com/markets/ibit-options-trading-bitcoins-rebound",
+              "author": "Cointelegraph by Yohan Yun",
+              "published_at": "2026-09-25T11:11:33Z",
+              "updated_at": "2026-09-25T11:14:34Z",
+              "summary": "IBIT’s expected volatility sits near the bottom of its 12-month range, according to Saxo Bank’s analysis of options data from Sept. 23.",
+              "categories": [
+                "Markets"
+              ],
+              "feed": {
+                "title": "Cointelegraph.com News",
+                "url": "https://cointelegraph.com",
+                "feed_url": "https://cointelegraph.com/rss"
+              },
+              "enclosures": [
+                "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3C3R15QFYWE2PDN137SVSFY/hi-protecting-your-bitcoin-investment-blackrock.jpg"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://cointelegraph.com/rss",
+            "elapsed_ms": 108,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://cointelegraph.com/markets/ibit-options-trading-bitcoins-rebound?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "tags": [
+        "Markets"
+      ]
+    },
+    {
+      "id": "8c0a184b8ca2782afff0",
+      "title": "KelpDAO Developer Sues LayerZero Over $292M Bridge Exploit",
+      "content_text": "Evercrest says LayerZero approved the single-verifier configuration in writing multiple times, then warned a different developer about it.",
+      "date_published": "2026-09-25T11:09:52Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "8c0a184b8ca2782afff0",
+          "source": "rss",
+          "type": "change",
+          "key": "https://decrypt.co/?p=379288",
+          "source_url": "https://decrypt.co/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-25T12:22:43Z",
+          "data": {
+            "change": "added",
+            "label": "KelpDAO Developer Sues LayerZero Over $292M Bridge Exploit",
+            "item_type": "entry",
+            "summary": "added: KelpDAO Developer Sues LayerZero Over $292M Bridge Exploit",
+            "after": {
+              "title": "KelpDAO Developer Sues LayerZero Over $292M Bridge Exploit",
+              "link": "https://decrypt.co/379288/kelpdao-developer-sues-layerzero-over-292m-bridge-exploit",
+              "id": "https://decrypt.co/?p=379288",
+              "author": "Decrypt Agent",
+              "published_at": "2026-09-25T11:09:52Z",
+              "updated_at": "2026-09-25T11:09:52Z",
+              "summary": "Evercrest says LayerZero approved the single-verifier configuration in writing multiple times, then warned a different developer about it.",
+              "categories": [
+                "Law and Order"
+              ],
+              "feed": {
+                "title": "Decrypt",
+                "url": "https://decrypt.co/feed",
+                "feed_url": "https://decrypt.co/feed"
+              },
+              "enclosures": [
+                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Judge-decrypt-style-2-gID_7.png@png"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://decrypt.co/feed",
+            "elapsed_ms": 130,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://decrypt.co/379288/kelpdao-developer-sues-layerzero-over-292m-bridge-exploit",
+      "tags": [
+        "Law and Order"
+      ]
+    },
+    {
+      "id": "aaf5e3a9365d93c023b9",
+      "title": "Altcoins rally across the board as bitcoin consolidates near $84,000",
+      "content_text": "Altcoins rally across the board as bitcoin consolidates near $84,000",
+      "date_published": "2026-09-25T09:59:45Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "aaf5e3a9365d93c023b9",
+          "source": "rss",
+          "type": "change",
+          "key": "5b41c565-bbfd-4841-976b-123c6a86f980",
+          "source_url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+          "timestamp": null,
+          "observed_at": "2026-09-25T12:22:43Z",
+          "data": {
+            "change": "added",
+            "label": "Altcoins rally across the board as bitcoin consolidates near $84,000",
+            "item_type": "entry",
+            "summary": "added: Altcoins rally across the board as bitcoin consolidates near $84,000",
+            "after": {
+              "title": "Altcoins rally across the board as bitcoin consolidates near $84,000",
+              "link": "https://www.coindesk.com/markets/2026/09/25/altcoins-rally-across-the-board-as-bitcoin-consolidates-near-usd84-000",
+              "id": "5b41c565-bbfd-4841-976b-123c6a86f980",
+              "author": "Omkar Godbole",
+              "published_at": "2026-09-25T09:59:45Z",
+              "updated_at": "2026-09-25T09:59:45Z",
+              "summary": null,
+              "categories": [
+                "Markets",
+                "Crypto Markets Today",
+                "News"
+              ],
+              "feed": {
+                "title": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+                "url": "https://www.coindesk.com/",
+                "feed_url": "https://www.coindesk.com/arc/outboundfeeds/rss/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.coindesk.com/arc/outboundfeeds/rss",
+            "elapsed_ms": 298,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.coindesk.com/markets/2026/09/25/altcoins-rally-across-the-board-as-bitcoin-consolidates-near-usd84-000",
+      "tags": [
+        "Markets",
+        "Crypto Markets Today",
+        "News"
+      ]
+    },
+    {
+      "id": "7fbb6fa365f1793911ed",
+      "title": "Researchers Publish 'Zcash-Style' Design for Private Bitcoin Transfers",
+      "content_text": "The Shielded Bitcoin spec hides senders, receivers and amounts, but leaves how BTC enters and exits the system to a later paper.",
+      "date_published": "2026-09-25T09:50:01Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "7fbb6fa365f1793911ed",
+          "source": "rss",
+          "type": "change",
+          "key": "https://decrypt.co/?p=379280",
+          "source_url": "https://decrypt.co/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-25T12:22:43Z",
+          "data": {
+            "change": "added",
+            "label": "Researchers Publish 'Zcash-Style' Design for Private Bitcoin Transfers",
+            "item_type": "entry",
+            "summary": "added: Researchers Publish 'Zcash-Style' Design for Private Bitcoin Transfers",
+            "after": {
+              "title": "Researchers Publish 'Zcash-Style' Design for Private Bitcoin Transfers",
+              "link": "https://decrypt.co/379280/researchers-publish-zcash-style-design-for-private-bitcoin-transfers",
+              "id": "https://decrypt.co/?p=379280",
+              "author": "Decrypt Agent",
+              "published_at": "2026-09-25T09:50:01Z",
+              "updated_at": "2026-09-25T09:50:01Z",
+              "summary": "The Shielded Bitcoin spec hides senders, receivers and amounts, but leaves how BTC enters and exits the system to a later paper.",
+              "categories": [
+                "zcash",
+                "Technology"
+              ],
+              "feed": {
+                "title": "Decrypt",
+                "url": "https://decrypt.co/feed",
+                "feed_url": "https://decrypt.co/feed"
+              },
+              "enclosures": [
+                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/09/Bitcoin-decrypt-style-23-gID_7.jpg@png"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://decrypt.co/feed",
+            "elapsed_ms": 130,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://decrypt.co/379280/researchers-publish-zcash-style-design-for-private-bitcoin-transfers",
+      "tags": [
+        "zcash",
+        "Technology"
+      ]
+    },
+    {
+      "id": "f97029537977c439c044",
+      "title": "Magic Eden scare puts 3,832 NFTs in whitehat protective custody",
+      "content_text": "Yuga Labs’ 0xQuit said the NFTs are safe and will be returned once the risk passes, while holders were urged to revoke NFT permissions.",
+      "date_published": "2026-09-25T09:48:53Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "f97029537977c439c044",
+          "source": "rss",
+          "type": "change",
+          "key": "https://cointelegraph.com/news/magic-eden-nft-whitehat-vulnerability",
+          "source_url": "https://cointelegraph.com/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-25T12:22:43Z",
+          "data": {
+            "change": "added",
+            "label": "Magic Eden scare puts 3,832 NFTs in whitehat protective custody",
+            "item_type": "entry",
+            "summary": "added: Magic Eden scare puts 3,832 NFTs in whitehat protective custody",
+            "after": {
+              "title": "Magic Eden scare puts 3,832 NFTs in whitehat protective custody",
+              "link": "https://cointelegraph.com/news/magic-eden-nft-whitehat-vulnerability?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+              "id": "https://cointelegraph.com/news/magic-eden-nft-whitehat-vulnerability",
+              "author": "Cointelegraph by Ezra Reguerra",
+              "published_at": "2026-09-25T09:48:53Z",
+              "updated_at": "2026-09-25T09:51:57Z",
+              "summary": "Yuga Labs’ 0xQuit said the NFTs are safe and will be returned once the risk passes, while holders were urged to revoke NFT permissions.",
+              "categories": [
+                "Latest News"
+              ],
+              "feed": {
+                "title": "Cointelegraph.com News",
+                "url": "https://cointelegraph.com",
+                "feed_url": "https://cointelegraph.com/rss"
+              },
+              "enclosures": [
+                "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3BXKEGSARVJTVQV05A2NDRW/buy-internet-online-shop-nft.jpg"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://cointelegraph.com/rss",
+            "elapsed_ms": 108,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://cointelegraph.com/news/magic-eden-nft-whitehat-vulnerability?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "tags": [
+        "Latest News"
+      ]
+    },
+    {
+      "id": "dc86bd4dafc204a12003",
+      "title": "Bitcoin ETFs have erased a $5.8 billion hole",
+      "content_text": "Bitcoin ETFs have erased a $5.8 billion hole",
+      "date_published": "2026-09-25T09:13:01Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "dc86bd4dafc204a12003",
+          "source": "rss",
+          "type": "change",
+          "key": "156010f1-b751-4734-918a-a7bd754bdab6",
+          "source_url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+          "timestamp": null,
+          "observed_at": "2026-09-25T12:22:43Z",
+          "data": {
+            "change": "added",
+            "label": "Bitcoin ETFs have erased a $5.8 billion hole",
+            "item_type": "entry",
+            "summary": "added: Bitcoin ETFs have erased a $5.8 billion hole",
+            "after": {
+              "title": "Bitcoin ETFs have erased a $5.8 billion hole",
+              "link": "https://www.coindesk.com/markets/2026/09/25/bitcoin-etfs-have-erased-a-usd5-8-billion-hole",
+              "id": "156010f1-b751-4734-918a-a7bd754bdab6",
+              "author": "Omkar Godbole",
+              "published_at": "2026-09-25T09:13:01Z",
+              "updated_at": "2026-09-25T09:13:01Z",
+              "summary": null,
+              "categories": [
+                "Markets",
+                "Bitcoin News",
+                "ETFs",
+                "News"
+              ],
+              "feed": {
+                "title": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+                "url": "https://www.coindesk.com/",
+                "feed_url": "https://www.coindesk.com/arc/outboundfeeds/rss/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.coindesk.com/arc/outboundfeeds/rss",
+            "elapsed_ms": 298,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.coindesk.com/markets/2026/09/25/bitcoin-etfs-have-erased-a-usd5-8-billion-hole",
+      "tags": [
+        "Markets",
+        "Bitcoin News",
+        "ETFs",
+        "News"
+      ]
+    },
+    {
+      "id": "04677bc9976ada293080",
+      "title": "KelpDAO sues LayerZero for the largest exploit 2026 has seen so far",
+      "content_text": "KelpDAO sues LayerZero for the largest exploit 2026 has seen so far",
+      "date_published": "2026-09-25T08:58:03Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "04677bc9976ada293080",
+          "source": "rss",
+          "type": "change",
+          "key": "ab157ac9-ca60-44da-89bc-0e6b92ff9e7b",
+          "source_url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+          "timestamp": null,
+          "observed_at": "2026-09-25T12:22:43Z",
+          "data": {
+            "change": "added",
+            "label": "KelpDAO sues LayerZero for the largest exploit 2026 has seen so far",
+            "item_type": "entry",
+            "summary": "added: KelpDAO sues LayerZero for the largest exploit 2026 has seen so far",
+            "after": {
+              "title": "KelpDAO sues LayerZero for the largest exploit 2026 has seen so far",
+              "link": "https://www.coindesk.com/business/2026/09/25/kelpdao-sues-layerzero-for-the-largest-exploit-2026-has-seen-so-far",
+              "id": "ab157ac9-ca60-44da-89bc-0e6b92ff9e7b",
+              "author": "Olivier Acuna",
+              "published_at": "2026-09-25T08:58:03Z",
+              "updated_at": "2026-09-25T08:58:03Z",
+              "summary": null,
+              "categories": [
+                "Finance",
+                "Hack",
+                "DeFi",
+                "News"
+              ],
+              "feed": {
+                "title": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+                "url": "https://www.coindesk.com/",
+                "feed_url": "https://www.coindesk.com/arc/outboundfeeds/rss/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.coindesk.com/arc/outboundfeeds/rss",
+            "elapsed_ms": 298,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.coindesk.com/business/2026/09/25/kelpdao-sues-layerzero-for-the-largest-exploit-2026-has-seen-so-far",
+      "tags": [
+        "Finance",
+        "Hack",
+        "DeFi",
+        "News"
+      ]
+    },
+    {
+      "id": "e3e25063f87b908a32d8",
+      "title": "KelpDAO sues LayerZero, CEO over $292M rsETH bridge exploit",
+      "content_text": "KelpDAO says LayerZero endorsed its bridge setup before the attack, while CEO Bryan Pellegrino has dismissed the lawsuit as meritless.",
+      "date_published": "2026-09-25T08:51:17Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "e3e25063f87b908a32d8",
+          "source": "rss",
+          "type": "change",
+          "key": "https://cointelegraph.com/news/kelpdao-layerzero-lawsuit-rseth-exploit",
+          "source_url": "https://cointelegraph.com/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-25T12:22:43Z",
+          "data": {
+            "change": "added",
+            "label": "KelpDAO sues LayerZero, CEO over $292M rsETH bridge exploit",
+            "item_type": "entry",
+            "summary": "added: KelpDAO sues LayerZero, CEO over $292M rsETH bridge exploit",
+            "after": {
+              "title": "KelpDAO sues LayerZero, CEO over $292M rsETH bridge exploit",
+              "link": "https://cointelegraph.com/news/kelpdao-layerzero-lawsuit-rseth-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+              "id": "https://cointelegraph.com/news/kelpdao-layerzero-lawsuit-rseth-exploit",
+              "author": "Cointelegraph by Ezra Reguerra",
+              "published_at": "2026-09-25T08:51:17Z",
+              "updated_at": "2026-09-25T08:55:16Z",
+              "summary": "KelpDAO says LayerZero endorsed its bridge setup before the attack, while CEO Bryan Pellegrino has dismissed the lawsuit as meritless.",
+              "categories": [
+                "Latest News"
+              ],
+              "feed": {
+                "title": "Cointelegraph.com News",
+                "url": "https://cointelegraph.com",
+                "feed_url": "https://cointelegraph.com/rss"
+              },
+              "enclosures": [
+                "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3BTYE66WC2EVFA55YV4CN26/canadia.png"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://cointelegraph.com/rss",
+            "elapsed_ms": 108,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://cointelegraph.com/news/kelpdao-layerzero-lawsuit-rseth-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "tags": [
+        "Latest News"
+      ]
+    },
+    {
+      "id": "b00d24ac9ed3b3a1a298",
+      "title": "Bitcoin ETF inflows slow to $191M as six-day streak reaches $2.8B",
+      "content_text": "US spot Bitcoin ETFs drew $191 million Thursday as daily inflows slowed for a third day, lifting year-to-date net flows to $787 million.",
+      "date_published": "2026-09-25T07:41:36Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "b00d24ac9ed3b3a1a298",
+          "source": "rss",
+          "type": "change",
+          "key": "https://cointelegraph.com/markets/bitcoin-etf-six-day-streak-2-8-billion",
+          "source_url": "https://cointelegraph.com/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-25T12:22:43Z",
+          "data": {
+            "change": "added",
+            "label": "Bitcoin ETF inflows slow to $191M as six-day streak reaches $2.8B",
+            "item_type": "entry",
+            "summary": "added: Bitcoin ETF inflows slow to $191M as six-day streak reaches $2.8B",
+            "after": {
+              "title": "Bitcoin ETF inflows slow to $191M as six-day streak reaches $2.8B",
+              "link": "https://cointelegraph.com/markets/bitcoin-etf-six-day-streak-2-8-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+              "id": "https://cointelegraph.com/markets/bitcoin-etf-six-day-streak-2-8-billion",
+              "author": "Cointelegraph by Helen Partz",
+              "published_at": "2026-09-25T07:41:36Z",
+              "updated_at": "2026-09-25T07:44:49Z",
+              "summary": "US spot Bitcoin ETFs drew $191 million Thursday as daily inflows slowed for a third day, lifting year-to-date net flows to $787 million.",
+              "categories": [
+                "Markets"
+              ],
+              "feed": {
+                "title": "Cointelegraph.com News",
+                "url": "https://cointelegraph.com",
+                "feed_url": "https://cointelegraph.com/rss"
+              },
+              "enclosures": [
+                "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3BNHNN1HMXCX6AA83T10V84/bitcoin-etf-5.jpg"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://cointelegraph.com/rss",
+            "elapsed_ms": 108,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://cointelegraph.com/markets/bitcoin-etf-six-day-streak-2-8-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "tags": [
+        "Markets"
+      ]
+    },
+    {
+      "id": "cf6573a59b7c81c529af",
+      "title": "Samourai Wallet co-founder faces transfer after 30-day jail ordeal",
+      "content_text": "Keonne Rodriguez says he and 70 others face another move after their treatment program was deactivated. His previous transfer took 30 days.",
+      "date_published": "2026-09-25T07:28:18Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "cf6573a59b7c81c529af",
+          "source": "rss",
+          "type": "change",
+          "key": "https://cointelegraph.com/news/samourai-wallet-co-founder-30-day-prison-transfer",
+          "source_url": "https://cointelegraph.com/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-25T12:22:43Z",
+          "data": {
+            "change": "added",
+            "label": "Samourai Wallet co-founder faces transfer after 30-day jail ordeal",
+            "item_type": "entry",
+            "summary": "added: Samourai Wallet co-founder faces transfer after 30-day jail ordeal",
+            "after": {
+              "title": "Samourai Wallet co-founder faces transfer after 30-day jail ordeal",
+              "link": "https://cointelegraph.com/news/samourai-wallet-co-founder-30-day-prison-transfer?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+              "id": "https://cointelegraph.com/news/samourai-wallet-co-founder-30-day-prison-transfer",
+              "author": "Cointelegraph by Ezra Reguerra",
+              "published_at": "2026-09-25T07:28:18Z",
+              "updated_at": "2026-09-25T10:42:08Z",
+              "summary": "Keonne Rodriguez says he and 70 others face another move after their treatment program was deactivated. His previous transfer took 30 days.",
+              "categories": [
+                "Latest News"
+              ],
+              "feed": {
+                "title": "Cointelegraph.com News",
+                "url": "https://cointelegraph.com",
+                "feed_url": "https://cointelegraph.com/rss"
+              },
+              "enclosures": [
+                "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3BM3DN348KFGP7858XFMCWJ/prison.png"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://cointelegraph.com/rss",
+            "elapsed_ms": 108,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://cointelegraph.com/news/samourai-wallet-co-founder-30-day-prison-transfer?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "tags": [
+        "Latest News"
+      ]
+    },
+    {
+      "id": "6bcc6c8a87c73319bef4",
+      "title": "Live updates: Bitcoin steadies below $85,000 as bond selloff pauses",
+      "content_text": "Live updates: Bitcoin steadies below $85,000 as bond selloff pauses",
+      "date_published": "2026-09-25T07:09:11Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "6bcc6c8a87c73319bef4",
+          "source": "rss",
+          "type": "change",
+          "key": "cf83a51a-bd24-4e7e-8e66-dfc83264e971",
+          "source_url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+          "timestamp": null,
+          "observed_at": "2026-09-25T12:22:43Z",
+          "data": {
+            "change": "added",
+            "label": "Live updates: Bitcoin steadies below $85,000 as bond selloff pauses",
+            "item_type": "entry",
+            "summary": "added: Live updates: Bitcoin steadies below $85,000 as bond selloff pauses",
+            "after": {
+              "title": "Live updates: Bitcoin steadies below $85,000 as bond selloff pauses",
+              "link": "https://www.coindesk.com/markets/2026/09/25/live-updates-bitcoin-steadies-near-usd84-000-as-the-bond-selloff-pauses",
+              "id": "cf83a51a-bd24-4e7e-8e66-dfc83264e971",
+              "author": "James Van Straten",
+              "published_at": "2026-09-25T07:09:11Z",
+              "updated_at": "2026-09-25T07:09:11Z",
+              "summary": null,
+              "categories": [
+                "Markets",
+                "Live News",
+                "live_news"
+              ],
+              "feed": {
+                "title": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+                "url": "https://www.coindesk.com/",
+                "feed_url": "https://www.coindesk.com/arc/outboundfeeds/rss/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.coindesk.com/arc/outboundfeeds/rss",
+            "elapsed_ms": 298,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.coindesk.com/markets/2026/09/25/live-updates-bitcoin-steadies-near-usd84-000-as-the-bond-selloff-pauses",
+      "tags": [
+        "Markets",
+        "Live News",
+        "live_news"
+      ]
+    },
     {
       "id": "79fbac52be2a371881f2",
       "title": "Australian PM warns of AI’s ‘furious pace’ after agent breached government site",

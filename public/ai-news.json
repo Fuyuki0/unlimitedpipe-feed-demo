@@ -9,6 +9,111 @@
   },
   "items": [
     {
+      "id": "89b5dfb6d831b1d515bf",
+      "title": "AI is not “just a tool”",
+      "content_text": "AI is not “just a tool”",
+      "date_published": "2026-09-25T11:12:22Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "89b5dfb6d831b1d515bf",
+          "source": "rss",
+          "type": "change",
+          "key": "https://lobste.rs/s/1ub0m3",
+          "source_url": "https://lobste.rs/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-25T12:22:29Z",
+          "data": {
+            "change": "added",
+            "label": "AI is not “just a tool”",
+            "item_type": "entry",
+            "summary": "added: AI is not “just a tool”",
+            "after": {
+              "title": "AI is not “just a tool”",
+              "link": "https://brettcodes.com/ai-is-not-just-a-tool/",
+              "id": "https://lobste.rs/s/1ub0m3",
+              "author": "brettcodes.com via FedericoSchonborn",
+              "published_at": "2026-09-25T11:12:22Z",
+              "updated_at": "2026-09-25T11:12:22Z",
+              "categories": [
+                "vibecoding"
+              ],
+              "feed": {
+                "title": "Lobsters",
+                "url": "https://lobste.rs/",
+                "feed_url": "https://lobste.rs/rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://lobste.rs/rss",
+            "elapsed_ms": 302,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "grep",
+              "version": "0.3.2",
+              "args": {
+                "patterns": [
+                  "AI",
+                  "LLM",
+                  "LLMs",
+                  "GPT",
+                  "Claude",
+                  "Gemini",
+                  "language model",
+                  "machine learning"
+                ],
+                "field": [
+                  "title"
+                ]
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "drop": [
+                  "summary"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "ai-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://brettcodes.com/ai-is-not-just-a-tool/",
+      "tags": [
+        "vibecoding"
+      ]
+    },
+    {
       "id": "81055c424caddaf19bb9",
       "title": "Lobsters: Rename vibecoding to llms (Greasemonkey script)",
       "content_text": "Lobsters: Rename vibecoding to llms (Greasemonkey script)",

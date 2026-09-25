@@ -9,6 +9,334 @@
   },
   "items": [
     {
+      "id": "63938de2b51d45c507c3",
+      "title": "Dutch governments builds alternative for Microsoft based on NixOS",
+      "content_text": "hn https://news.ycombinator.com/item?id=49841563 · published_at 2026-09-25T08:06:49Z · points 384 · num_comments 172",
+      "date_published": "2026-09-25T08:06:49Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "63938de2b51d45c507c3",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50#https://news.ycombinator.com/item?id=49841563",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-25T12:22:55Z",
+          "data": {
+            "change": "added",
+            "label": "Dutch governments builds alternative for Microsoft based on NixOS",
+            "item_type": "record",
+            "summary": "added: Dutch governments builds alternative for Microsoft based on NixOS",
+            "after": {
+              "title": "Dutch governments builds alternative for Microsoft based on NixOS",
+              "link": "https://www.dawo.community/en/",
+              "hn": "https://news.ycombinator.com/item?id=49841563",
+              "published_at": "2026-09-25T08:06:49Z",
+              "points": 384,
+              "num_comments": 172
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 268,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.2",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "hn",
+                "namespace": "hn-top",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.dawo.community/en/"
+    },
+    {
+      "id": "e566ec4db58f31a224c6",
+      "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
+      "content_text": "hn https://news.ycombinator.com/item?id=49833867 · published_at 2026-09-24T17:21:36Z · points 332 · num_comments 120",
+      "date_published": "2026-09-24T17:21:36Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "e566ec4db58f31a224c6",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50#https://news.ycombinator.com/item?id=49833867",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-25T12:22:55Z",
+          "data": {
+            "change": "added",
+            "label": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
+            "item_type": "record",
+            "summary": "added: Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
+            "after": {
+              "title": "Show HN: Whiteboard (YC W26) – An open-source IDE for thoughtful software design",
+              "link": "https://github.com/devdotfast/whiteboard",
+              "hn": "https://news.ycombinator.com/item?id=49833867",
+              "published_at": "2026-09-24T17:21:36Z",
+              "points": 332,
+              "num_comments": 120
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 268,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.2",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "hn",
+                "namespace": "hn-top",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://github.com/devdotfast/whiteboard"
+    },
+    {
+      "id": "df09cac91ba258e34f1a",
+      "title": "Toyota is taking the Corolla electric",
+      "content_text": "hn https://news.ycombinator.com/item?id=49823568 · published_at 2026-09-23T22:37:28Z · points 353 · num_comments 627",
+      "date_published": "2026-09-23T22:37:28Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "df09cac91ba258e34f1a",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50#https://news.ycombinator.com/item?id=49823568",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-25T12:22:55Z",
+          "data": {
+            "change": "added",
+            "label": "Toyota is taking the Corolla electric",
+            "item_type": "record",
+            "summary": "added: Toyota is taking the Corolla electric",
+            "after": {
+              "title": "Toyota is taking the Corolla electric",
+              "link": "https://electrek.co/2026/09/23/toyota-best-selling-corolla-electric/",
+              "hn": "https://news.ycombinator.com/item?id=49823568",
+              "published_at": "2026-09-23T22:37:28Z",
+              "points": 353,
+              "num_comments": 627
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 268,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.2",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "hn",
+                "namespace": "hn-top",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://electrek.co/2026/09/23/toyota-best-selling-corolla-electric/"
+    },
+    {
+      "id": "ac62796fe4cc0ea41868",
+      "title": "My weird new hobby: Wandering around Tokyo on Google Maps",
+      "content_text": "hn https://news.ycombinator.com/item?id=49805344 · published_at 2026-09-22T17:49:46Z · points 351 · num_comments 162",
+      "date_published": "2026-09-22T17:49:46Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ac62796fe4cc0ea41868",
+          "source": "web",
+          "type": "change",
+          "key": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50#https://news.ycombinator.com/item?id=49805344",
+          "source_url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50",
+          "timestamp": null,
+          "observed_at": "2026-09-25T12:22:55Z",
+          "data": {
+            "change": "added",
+            "label": "My weird new hobby: Wandering around Tokyo on Google Maps",
+            "item_type": "record",
+            "summary": "added: My weird new hobby: Wandering around Tokyo on Google Maps",
+            "after": {
+              "title": "My weird new hobby: Wandering around Tokyo on Google Maps",
+              "link": "https://ahmedhossamdev.com/writing/my-weird-new-hobby-wandering-around-tokyo/",
+              "hn": "https://news.ycombinator.com/item?id=49805344",
+              "published_at": "2026-09-22T17:49:46Z",
+              "points": 351,
+              "num_comments": 162
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hn.algolia.com/api/v1/search_by_date?tags=story&numericFilters=points%3E300&hitsPerPage=50",
+            "content_type": "application/json",
+            "elapsed_ms": 268,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "hn=\"https://news.ycombinator.com/item?id=\" + objectID"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.3.2",
+              "args": {
+                "fields": [
+                  "title",
+                  "link=url|hn",
+                  "hn",
+                  "published_at=created_at",
+                  "points",
+                  "num_comments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "hn",
+                "namespace": "hn-top",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://ahmedhossamdev.com/writing/my-weird-new-hobby-wandering-around-tokyo/"
+    },
+    {
       "id": "c5b3b2eb77fc895a7108",
       "title": "Why is the liver so weirdly regenerative?",
       "content_text": "hn https://news.ycombinator.com/item?id=49832938 · published_at 2026-09-24T16:23:00Z · points 360 · num_comments 185",

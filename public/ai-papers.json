@@ -9,6 +9,254 @@
   },
   "items": [
     {
+      "id": "cc48c8076557fd66094b",
+      "title": "Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures",
+      "content_text": "Detectors of alignment failures screen deployed language models and score alignment benchmarks. Most are generative judges that spend a decoding pass on every criterion, and classifiers that read token probabilities, such as Llama Guard, still score one fixed label per call. Jev, a model trained with reinforcement learning for calibrated decisions (RLCD), answers many typed questions about one input with calibrated probabilities in a single call. Whether it detects alignment failures has not…",
+      "date_published": "2026-09-25T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "cc48c8076557fd66094b",
+          "source": "web",
+          "type": "change",
+          "key": "https://huggingface.co/api/daily_papers#https://huggingface.co/papers/2609.29429",
+          "source_url": "https://huggingface.co/api/daily_papers",
+          "timestamp": null,
+          "observed_at": "2026-09-25T12:22:30Z",
+          "data": {
+            "change": "added",
+            "label": "Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures",
+            "item_type": "record",
+            "summary": "added: Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures",
+            "after": {
+              "title": "Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures",
+              "summary": "Detectors of alignment failures screen deployed language models and score alignment benchmarks. Most are generative judges that spend a decoding pass on every criterion, and classifiers that read token probabilities, such as Llama Guard, still score one fixed label per call. Jev, a model trained with reinforcement learning for calibrated decisions (RLCD), answers many typed questions about one input with calibrated probabilities in a single call. Whether it detects alignment failures has not been measured. We present RLCDAlignBench, which benchmarks Jev on ten alignment failures: sycophancy, jailbreaks, deception, prompt injection, hallucination, privacy violation, social bias, reward hacking, concealing uncertainty, and power seeking. It spans 44 benchmarks and five target models, labelled by each benchmark's scorer and, on two, by humans. Many of these failures are relational, defined against a reference, such as the user's belief or an injected instruction, that the response alone does not reveal. Our key idea is therefore to vary what Jev is asked separately from what it sees: the question's wording and answer type on one side, the fields of the input on the other. A single generic question reaches a median AUROC of 0.886 zero-shot and beats supervised baselines on most benchmarks. Question wording matters little, while context matters more, mostly through fields that encode the label. Jev matches the reference scorer's agreement with human labels, surfaces label defects in existing benchmarks, and costs 63x less than LLM-judge scorers. Code and data: https://github.com/sumleo/RLCDAlignBench.",
+              "link": "https://huggingface.co/papers/2609.29429",
+              "published_at": "2026-09-25T00:00:00.000Z",
+              "upvotes": 1
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://huggingface.co/api/daily_papers",
+            "content_type": "application/json",
+            "elapsed_ms": 105,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "link=\"https://huggingface.co/papers/\" + paper.id",
+                  "published_at=paper.submittedOnDailyAt",
+                  "upvotes=paper.upvotes"
+                ],
+                "drop": [
+                  "paper",
+                  "publishedAt",
+                  "thumbnail",
+                  "submittedBy",
+                  "isAuthorParticipating",
+                  "numComments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "link",
+                "namespace": "ai-papers",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://huggingface.co/papers/2609.29429"
+    },
+    {
+      "id": "5becf82bd8587a48f916",
+      "title": "Parts-of-Speech as Emergent Categories in SAE Latent Space",
+      "content_text": "Sparse AutoEncoders (SAEs) offer a promising way to inspect language model representations, but it is still unclear what kind of linguistic structure their latents expose. We use part-of-speech (PoS) categories as a controlled test case to study whether morpho-syntactic information is encoded by individual latents or by structured groups of features. We find that PoS distinctions are highly recoverable from SAE activations, but do not align with one-to-one latent / category mappings. This…",
+      "date_published": "2026-09-25T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "5becf82bd8587a48f916",
+          "source": "web",
+          "type": "change",
+          "key": "https://huggingface.co/api/daily_papers#https://huggingface.co/papers/2609.29362",
+          "source_url": "https://huggingface.co/api/daily_papers",
+          "timestamp": null,
+          "observed_at": "2026-09-25T12:22:30Z",
+          "data": {
+            "change": "added",
+            "label": "Parts-of-Speech as Emergent Categories in SAE Latent Space",
+            "item_type": "record",
+            "summary": "added: Parts-of-Speech as Emergent Categories in SAE Latent Space",
+            "after": {
+              "title": "Parts-of-Speech as Emergent Categories in SAE Latent Space",
+              "summary": "Sparse AutoEncoders (SAEs) offer a promising way to inspect language model representations, but it is still unclear what kind of linguistic structure their latents expose. We use part-of-speech (PoS) categories as a controlled test case to study whether morpho-syntactic information is encoded by individual latents or by structured groups of features. We find that PoS distinctions are highly recoverable from SAE activations, but do not align with one-to-one latent / category mappings. This recoverability is not reducible to lexical memorisation, and Open and Closed PoS classes differ substantially. Categories are supported by compact groups of sparse latents, with substantial variation across tags. These groups remain stable on held-out data, while also showing overlap between related categories. Our results show that SAEs localise morpho-syntactic information in a distributed and category-dependent form rather than through atomic grammatical features.",
+              "organization": {
+                "_id": "6373a8d83e96500368863eb3",
+                "name": "colinglab",
+                "fullname": "CoLingLab | Computational Linguistics Laboratory - University of Pisa",
+                "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/noauth/qmaSjMxJjx2BMdyxmJeA3.png"
+              },
+              "link": "https://huggingface.co/papers/2609.29362",
+              "published_at": "2026-09-25T00:00:00.000Z",
+              "upvotes": 9
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://huggingface.co/api/daily_papers",
+            "content_type": "application/json",
+            "elapsed_ms": 105,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "link=\"https://huggingface.co/papers/\" + paper.id",
+                  "published_at=paper.submittedOnDailyAt",
+                  "upvotes=paper.upvotes"
+                ],
+                "drop": [
+                  "paper",
+                  "publishedAt",
+                  "thumbnail",
+                  "submittedBy",
+                  "isAuthorParticipating",
+                  "numComments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "link",
+                "namespace": "ai-papers",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://huggingface.co/papers/2609.29362"
+    },
+    {
+      "id": "fbd975529d3a29c89d83",
+      "title": "Coding Agents for Generalized Task and Motion Planning Problems",
+      "content_text": "Task and motion planning (TAMP) problems remain difficult even with full observability and object-centric states because discrete decisions are tightly coupled to geometric, kinematic, and dynamic constraints. Generalized TAMP addresses this difficulty by exploiting regularities across problem instances to reduce planning effort on new instances. However, existing methods require substantial TAMP-specific engineering. We investigate whether coding agents can automate this process by…",
+      "date_published": "2026-09-25T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "fbd975529d3a29c89d83",
+          "source": "web",
+          "type": "change",
+          "key": "https://huggingface.co/api/daily_papers#https://huggingface.co/papers/2609.30233",
+          "source_url": "https://huggingface.co/api/daily_papers",
+          "timestamp": null,
+          "observed_at": "2026-09-25T12:22:30Z",
+          "data": {
+            "change": "added",
+            "label": "Coding Agents for Generalized Task and Motion Planning Problems",
+            "item_type": "record",
+            "summary": "added: Coding Agents for Generalized Task and Motion Planning Problems",
+            "after": {
+              "title": "Coding Agents for Generalized Task and Motion Planning Problems",
+              "summary": "Task and motion planning (TAMP) problems remain difficult even with full observability and object-centric states because discrete decisions are tightly coupled to geometric, kinematic, and dynamic constraints. Generalized TAMP addresses this difficulty by exploiting regularities across problem instances to reduce planning effort on new instances. However, existing methods require substantial TAMP-specific engineering. We investigate whether coding agents can automate this process by synthesizing programs that generalize across instances. Given a task description and simulator access, each agent chooses how to interact with the environment while developing a program within a fixed synthesis budget. The program is then frozen and evaluated on unseen instances. We evaluate Claude Code (Opus 5) and Codex (GPT-5.6 Sol and GPT-6 Astra) on 28 simulated environments from KinDER and PDDLStream, with object counts beyond those evaluated in the original benchmark. Across all program synthesis methods, we evaluate 980 generated programs on 100 held-out instances each, 98,000 evaluation episodes in total. Overall, we find that coding agents are surprisingly effective at generalized TAMP: all three agent configurations outperform hand-engineered planners, one-shot generation, and an LLM-based generalized planning baseline in mean success (56% to 95% versus 47% for the planners, on the 16 environments where a planner is available). As object counts grow, the agents' programs maintain higher success than the planner, using an order of magnitude less computation per instance on average. Logs show agents using interaction to calibrate physical models, test edge cases, and refine strategies. We release all code, including the full prompts given to the agents. These findings suggest that coding agents are a strong baseline for generalized TAMP.",
+              "mediaUrls": [
+                "https://cdn-uploads.huggingface.co/production/uploads/644555c72d91b15b4c7ebd1c/26aPHNZQMtlc_TXL9vnF4.mp4",
+                "https://cdn-uploads.huggingface.co/production/uploads/644555c72d91b15b4c7ebd1c/lX0AiTuNNdl2fzN1KZbew.png",
+                "https://cdn-uploads.huggingface.co/production/uploads/644555c72d91b15b4c7ebd1c/yTDczcRugnNdSn0G0Ameh.png"
+              ],
+              "organization": {
+                "_id": "66a22aec04ab5290ec35feb1",
+                "name": "FBK-NLP",
+                "fullname": "Fondazione Bruno Kessler - NLP Unit",
+                "avatar": "https://cdn-avatars.huggingface.co/v1/production/uploads/66a22a4327fd84b81d90d9e6/5fOL4Mo7SjL7e1tpGENRs.png"
+              },
+              "link": "https://huggingface.co/papers/2609.30233",
+              "published_at": "2026-09-25T00:00:00.000Z",
+              "upvotes": 5
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://huggingface.co/api/daily_papers",
+            "content_type": "application/json",
+            "elapsed_ms": 105,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "link=\"https://huggingface.co/papers/\" + paper.id",
+                  "published_at=paper.submittedOnDailyAt",
+                  "upvotes=paper.upvotes"
+                ],
+                "drop": [
+                  "paper",
+                  "publishedAt",
+                  "thumbnail",
+                  "submittedBy",
+                  "isAuthorParticipating",
+                  "numComments"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "link",
+                "namespace": "ai-papers",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://huggingface.co/papers/2609.30233"
+    },
+    {
       "id": "137ad8f726b168fcd24d",
       "title": "DeltaWAM: Delta World Action Models for Bimanual Manipulation",
       "content_text": "World-action models (WAMs) transfer visual and motion priors from pretrained video generators to robot control by jointly modeling visual dynamics and actions. Existing WAMs, however, predict dense future frames during training, repeatedly modeling largely unchanged content and coupling action-conditioned dynamics to nuisance appearance variations. At inference, processing each complete observation with the heavy video expert bottlenecks few-step action generation. Accordingly, we propose…",
