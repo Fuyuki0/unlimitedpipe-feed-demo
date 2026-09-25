@@ -7,5 +7,706 @@
     "schema": "unlimitedpipe.event/1",
     "generator": "UnlimitedPipe 0.3.2"
   },
-  "items": []
+  "items": [
+    {
+      "id": "bc7c0145699363f7db6b",
+      "title": "Publication of Regulatory Amendments; Publication of Report for Licensing Activities Undertaken Pursuant to the Trade Sanctions Reform and Export Enhancement Act (TSRA)",
+      "content_text": "Regulations and Guidance",
+      "date_published": "2026-09-24T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "bc7c0145699363f7db6b",
+          "source": "web",
+          "type": "change",
+          "key": "https://ofac.treasury.gov/recent-actions#https://ofac.treasury.gov/recent-actions/20260924",
+          "source_url": "https://ofac.treasury.gov/recent-actions",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:15:22Z",
+          "data": {
+            "change": "added",
+            "label": "Publication of Regulatory Amendments; Publication of Report for Licensing Activities Undertaken Pursuant to the Trade Sanctions Reform and Export Enhancement Act (TSRA)",
+            "item_type": "record",
+            "summary": "added: Publication of Regulatory Amendments; Publication of Report for Licensing Activities Undertaken Pursuant to the Trade Sanctions Reform and Export Enhancement Act (TSRA)",
+            "after": {
+              "title": "Publication of Regulatory Amendments; Publication of Report for Licensing Activities Undertaken Pursuant to the Trade Sanctions Reform and Export Enhancement Act (TSRA)",
+              "link": "https://ofac.treasury.gov/recent-actions/20260924",
+              "published_at": "2026-09-24",
+              "summary": "Regulations and Guidance"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ofac.treasury.gov/recent-actions",
+            "content_type": "text/html",
+            "elapsed_ms": 9015,
+            "not_modified": false,
+            "method": "css"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "published_at=replace(link, \"^.*/(\\\\d{4})(\\\\d\\\\d)(\\\\d\\\\d)$\", \"\\\\1-\\\\2-\\\\3\")",
+                  "summary=replace(meta, \"^.*?\\\\d{4}\\\\s*-\\\\s*\", \"\")"
+                ],
+                "drop": [
+                  "meta"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "link",
+                "namespace": "sanctions-actions",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://ofac.treasury.gov/recent-actions/20260924"
+    },
+    {
+      "id": "4fc7ba5d324f2122baca",
+      "title": "Democratic Republic of the Congo-related Designations Removals",
+      "content_text": "Sanctions List Updates",
+      "date_published": "2026-09-23T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "4fc7ba5d324f2122baca",
+          "source": "web",
+          "type": "change",
+          "key": "https://ofac.treasury.gov/recent-actions#https://ofac.treasury.gov/recent-actions/20260923",
+          "source_url": "https://ofac.treasury.gov/recent-actions",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:15:22Z",
+          "data": {
+            "change": "added",
+            "label": "Democratic Republic of the Congo-related Designations Removals",
+            "item_type": "record",
+            "summary": "added: Democratic Republic of the Congo-related Designations Removals",
+            "after": {
+              "title": "Democratic Republic of the Congo-related Designations Removals",
+              "link": "https://ofac.treasury.gov/recent-actions/20260923",
+              "published_at": "2026-09-23",
+              "summary": "Sanctions List Updates"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ofac.treasury.gov/recent-actions",
+            "content_type": "text/html",
+            "elapsed_ms": 9015,
+            "not_modified": false,
+            "method": "css"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "published_at=replace(link, \"^.*/(\\\\d{4})(\\\\d\\\\d)(\\\\d\\\\d)$\", \"\\\\1-\\\\2-\\\\3\")",
+                  "summary=replace(meta, \"^.*?\\\\d{4}\\\\s*-\\\\s*\", \"\")"
+                ],
+                "drop": [
+                  "meta"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "link",
+                "namespace": "sanctions-actions",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://ofac.treasury.gov/recent-actions/20260923"
+    },
+    {
+      "id": "8798c1da2a15d66c1565",
+      "title": "Expiration of Emergency With Respect to the Situation in Ethiopia; Ethiopia-related Designations Removals; Issuance of Amended Russia-related General License and Associated Frequently Asked Questions",
+      "content_text": "Sanctions List Updates",
+      "date_published": "2026-09-18T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "8798c1da2a15d66c1565",
+          "source": "web",
+          "type": "change",
+          "key": "https://ofac.treasury.gov/recent-actions#https://ofac.treasury.gov/recent-actions/20260918",
+          "source_url": "https://ofac.treasury.gov/recent-actions",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:15:22Z",
+          "data": {
+            "change": "added",
+            "label": "Expiration of Emergency With Respect to the Situation in Ethiopia; Ethiopia-related Designations Removals; Issuance of Amended Russia-related General License and Associated Frequently Asked Questions",
+            "item_type": "record",
+            "summary": "added: Expiration of Emergency With Respect to the Situation in Ethiopia; Ethiopia-related Designations Removals; Issuance of Amended Russia-related General License and Associated Frequently Asked Questions",
+            "after": {
+              "title": "Expiration of Emergency With Respect to the Situation in Ethiopia; Ethiopia-related Designations Removals; Issuance of Amended Russia-related General License and Associated Frequently Asked Questions",
+              "link": "https://ofac.treasury.gov/recent-actions/20260918",
+              "published_at": "2026-09-18",
+              "summary": "Sanctions List Updates"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ofac.treasury.gov/recent-actions",
+            "content_type": "text/html",
+            "elapsed_ms": 9015,
+            "not_modified": false,
+            "method": "css"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "published_at=replace(link, \"^.*/(\\\\d{4})(\\\\d\\\\d)(\\\\d\\\\d)$\", \"\\\\1-\\\\2-\\\\3\")",
+                  "summary=replace(meta, \"^.*?\\\\d{4}\\\\s*-\\\\s*\", \"\")"
+                ],
+                "drop": [
+                  "meta"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "link",
+                "namespace": "sanctions-actions",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://ofac.treasury.gov/recent-actions/20260918"
+    },
+    {
+      "id": "ca2f0a11edfe213e3782",
+      "title": "Iran-related Designations; Cuba Designations; Belarus-related Designations Removals",
+      "content_text": "Sanctions List Updates",
+      "date_published": "2026-09-17T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ca2f0a11edfe213e3782",
+          "source": "web",
+          "type": "change",
+          "key": "https://ofac.treasury.gov/recent-actions#https://ofac.treasury.gov/recent-actions/20260917",
+          "source_url": "https://ofac.treasury.gov/recent-actions",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:15:22Z",
+          "data": {
+            "change": "added",
+            "label": "Iran-related Designations; Cuba Designations; Belarus-related Designations Removals",
+            "item_type": "record",
+            "summary": "added: Iran-related Designations; Cuba Designations; Belarus-related Designations Removals",
+            "after": {
+              "title": "Iran-related Designations; Cuba Designations; Belarus-related Designations Removals",
+              "link": "https://ofac.treasury.gov/recent-actions/20260917",
+              "published_at": "2026-09-17",
+              "summary": "Sanctions List Updates"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ofac.treasury.gov/recent-actions",
+            "content_type": "text/html",
+            "elapsed_ms": 9015,
+            "not_modified": false,
+            "method": "css"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "published_at=replace(link, \"^.*/(\\\\d{4})(\\\\d\\\\d)(\\\\d\\\\d)$\", \"\\\\1-\\\\2-\\\\3\")",
+                  "summary=replace(meta, \"^.*?\\\\d{4}\\\\s*-\\\\s*\", \"\")"
+                ],
+                "drop": [
+                  "meta"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "link",
+                "namespace": "sanctions-actions",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://ofac.treasury.gov/recent-actions/20260917"
+    },
+    {
+      "id": "23164964bd2858e9fd23",
+      "title": "Russia-related Designations Removals; Counter Narcotics Designation Removal; Issuance of Amended Venezuela General License and Frequently Asked Question",
+      "content_text": "Sanctions List Updates",
+      "date_published": "2026-09-16T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "23164964bd2858e9fd23",
+          "source": "web",
+          "type": "change",
+          "key": "https://ofac.treasury.gov/recent-actions#https://ofac.treasury.gov/recent-actions/20260916",
+          "source_url": "https://ofac.treasury.gov/recent-actions",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:15:22Z",
+          "data": {
+            "change": "added",
+            "label": "Russia-related Designations Removals; Counter Narcotics Designation Removal; Issuance of Amended Venezuela General License and Frequently Asked Question",
+            "item_type": "record",
+            "summary": "added: Russia-related Designations Removals; Counter Narcotics Designation Removal; Issuance of Amended Venezuela General License and Frequently Asked Question",
+            "after": {
+              "title": "Russia-related Designations Removals; Counter Narcotics Designation Removal; Issuance of Amended Venezuela General License and Frequently Asked Question",
+              "link": "https://ofac.treasury.gov/recent-actions/20260916",
+              "published_at": "2026-09-16",
+              "summary": "Sanctions List Updates"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ofac.treasury.gov/recent-actions",
+            "content_type": "text/html",
+            "elapsed_ms": 9015,
+            "not_modified": false,
+            "method": "css"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "published_at=replace(link, \"^.*/(\\\\d{4})(\\\\d\\\\d)(\\\\d\\\\d)$\", \"\\\\1-\\\\2-\\\\3\")",
+                  "summary=replace(meta, \"^.*?\\\\d{4}\\\\s*-\\\\s*\", \"\")"
+                ],
+                "drop": [
+                  "meta"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "link",
+                "namespace": "sanctions-actions",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://ofac.treasury.gov/recent-actions/20260916"
+    },
+    {
+      "id": "c7c539b0c62b68b280a5",
+      "title": "Iran-related Designation; Issuance of Amended Venezuela-related General License and Frequently Asked Question",
+      "content_text": "Sanctions List Updates",
+      "date_published": "2026-09-14T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c7c539b0c62b68b280a5",
+          "source": "web",
+          "type": "change",
+          "key": "https://ofac.treasury.gov/recent-actions#https://ofac.treasury.gov/recent-actions/20260914",
+          "source_url": "https://ofac.treasury.gov/recent-actions",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:15:22Z",
+          "data": {
+            "change": "added",
+            "label": "Iran-related Designation; Issuance of Amended Venezuela-related General License and Frequently Asked Question",
+            "item_type": "record",
+            "summary": "added: Iran-related Designation; Issuance of Amended Venezuela-related General License and Frequently Asked Question",
+            "after": {
+              "title": "Iran-related Designation; Issuance of Amended Venezuela-related General License and Frequently Asked Question",
+              "link": "https://ofac.treasury.gov/recent-actions/20260914",
+              "published_at": "2026-09-14",
+              "summary": "Sanctions List Updates"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ofac.treasury.gov/recent-actions",
+            "content_type": "text/html",
+            "elapsed_ms": 9015,
+            "not_modified": false,
+            "method": "css"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "published_at=replace(link, \"^.*/(\\\\d{4})(\\\\d\\\\d)(\\\\d\\\\d)$\", \"\\\\1-\\\\2-\\\\3\")",
+                  "summary=replace(meta, \"^.*?\\\\d{4}\\\\s*-\\\\s*\", \"\")"
+                ],
+                "drop": [
+                  "meta"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "link",
+                "namespace": "sanctions-actions",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://ofac.treasury.gov/recent-actions/20260914"
+    },
+    {
+      "id": "5321a1048b50b57f3cc3",
+      "title": "Iran-related and Counter Terrorism Designations; Licensing Policy Update under Operation Economic Outcast; Settlement Agreement between OFAC and an Individual",
+      "content_text": "Sanctions List Updates",
+      "date_published": "2026-09-10T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "5321a1048b50b57f3cc3",
+          "source": "web",
+          "type": "change",
+          "key": "https://ofac.treasury.gov/recent-actions#https://ofac.treasury.gov/recent-actions/20260910",
+          "source_url": "https://ofac.treasury.gov/recent-actions",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:15:22Z",
+          "data": {
+            "change": "added",
+            "label": "Iran-related and Counter Terrorism Designations; Licensing Policy Update under Operation Economic Outcast; Settlement Agreement between OFAC and an Individual",
+            "item_type": "record",
+            "summary": "added: Iran-related and Counter Terrorism Designations; Licensing Policy Update under Operation Economic Outcast; Settlement Agreement between OFAC and an Individual",
+            "after": {
+              "title": "Iran-related and Counter Terrorism Designations; Licensing Policy Update under Operation Economic Outcast; Settlement Agreement between OFAC and an Individual",
+              "link": "https://ofac.treasury.gov/recent-actions/20260910",
+              "published_at": "2026-09-10",
+              "summary": "Sanctions List Updates"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ofac.treasury.gov/recent-actions",
+            "content_type": "text/html",
+            "elapsed_ms": 9015,
+            "not_modified": false,
+            "method": "css"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "published_at=replace(link, \"^.*/(\\\\d{4})(\\\\d\\\\d)(\\\\d\\\\d)$\", \"\\\\1-\\\\2-\\\\3\")",
+                  "summary=replace(meta, \"^.*?\\\\d{4}\\\\s*-\\\\s*\", \"\")"
+                ],
+                "drop": [
+                  "meta"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "link",
+                "namespace": "sanctions-actions",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://ofac.treasury.gov/recent-actions/20260910"
+    },
+    {
+      "id": "1507fb4f004785eb39dd",
+      "title": "Transnational Criminal Organizations Designations; Counter Terrorism Designation; Issuance of New and Amended Frequently Asked Questions",
+      "content_text": "Sanctions List Updates",
+      "date_published": "2026-09-09T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "1507fb4f004785eb39dd",
+          "source": "web",
+          "type": "change",
+          "key": "https://ofac.treasury.gov/recent-actions#https://ofac.treasury.gov/recent-actions/20260909",
+          "source_url": "https://ofac.treasury.gov/recent-actions",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:15:22Z",
+          "data": {
+            "change": "added",
+            "label": "Transnational Criminal Organizations Designations; Counter Terrorism Designation; Issuance of New and Amended Frequently Asked Questions",
+            "item_type": "record",
+            "summary": "added: Transnational Criminal Organizations Designations; Counter Terrorism Designation; Issuance of New and Amended Frequently Asked Questions",
+            "after": {
+              "title": "Transnational Criminal Organizations Designations; Counter Terrorism Designation; Issuance of New and Amended Frequently Asked Questions",
+              "link": "https://ofac.treasury.gov/recent-actions/20260909",
+              "published_at": "2026-09-09",
+              "summary": "Sanctions List Updates"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ofac.treasury.gov/recent-actions",
+            "content_type": "text/html",
+            "elapsed_ms": 9015,
+            "not_modified": false,
+            "method": "css"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "published_at=replace(link, \"^.*/(\\\\d{4})(\\\\d\\\\d)(\\\\d\\\\d)$\", \"\\\\1-\\\\2-\\\\3\")",
+                  "summary=replace(meta, \"^.*?\\\\d{4}\\\\s*-\\\\s*\", \"\")"
+                ],
+                "drop": [
+                  "meta"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "link",
+                "namespace": "sanctions-actions",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://ofac.treasury.gov/recent-actions/20260909"
+    },
+    {
+      "id": "e9901cd09192f7d2c14e",
+      "title": "Iran-related Designations; Counter Terrorism Designations; Updates to Iran-related General Licenses; Issuance of Counter Terrorism General License",
+      "content_text": "Sanctions List Updates",
+      "date_published": "2026-09-08T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "e9901cd09192f7d2c14e",
+          "source": "web",
+          "type": "change",
+          "key": "https://ofac.treasury.gov/recent-actions#https://ofac.treasury.gov/recent-actions/20260908",
+          "source_url": "https://ofac.treasury.gov/recent-actions",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:15:22Z",
+          "data": {
+            "change": "added",
+            "label": "Iran-related Designations; Counter Terrorism Designations; Updates to Iran-related General Licenses; Issuance of Counter Terrorism General License",
+            "item_type": "record",
+            "summary": "added: Iran-related Designations; Counter Terrorism Designations; Updates to Iran-related General Licenses; Issuance of Counter Terrorism General License",
+            "after": {
+              "title": "Iran-related Designations; Counter Terrorism Designations; Updates to Iran-related General Licenses; Issuance of Counter Terrorism General License",
+              "link": "https://ofac.treasury.gov/recent-actions/20260908",
+              "published_at": "2026-09-08",
+              "summary": "Sanctions List Updates"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ofac.treasury.gov/recent-actions",
+            "content_type": "text/html",
+            "elapsed_ms": 9015,
+            "not_modified": false,
+            "method": "css"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "published_at=replace(link, \"^.*/(\\\\d{4})(\\\\d\\\\d)(\\\\d\\\\d)$\", \"\\\\1-\\\\2-\\\\3\")",
+                  "summary=replace(meta, \"^.*?\\\\d{4}\\\\s*-\\\\s*\", \"\")"
+                ],
+                "drop": [
+                  "meta"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "link",
+                "namespace": "sanctions-actions",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://ofac.treasury.gov/recent-actions/20260908"
+    },
+    {
+      "id": "fb98346a7fa2855de645",
+      "title": "Iran-related Designations; Issuance of Iran-related General License",
+      "content_text": "Sanctions List Updates",
+      "date_published": "2026-09-04T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "fb98346a7fa2855de645",
+          "source": "web",
+          "type": "change",
+          "key": "https://ofac.treasury.gov/recent-actions#https://ofac.treasury.gov/recent-actions/20260904",
+          "source_url": "https://ofac.treasury.gov/recent-actions",
+          "timestamp": null,
+          "observed_at": "2026-09-25T23:15:22Z",
+          "data": {
+            "change": "added",
+            "label": "Iran-related Designations; Issuance of Iran-related General License",
+            "item_type": "record",
+            "summary": "added: Iran-related Designations; Issuance of Iran-related General License",
+            "after": {
+              "title": "Iran-related Designations; Issuance of Iran-related General License",
+              "link": "https://ofac.treasury.gov/recent-actions/20260904",
+              "published_at": "2026-09-04",
+              "summary": "Sanctions List Updates"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ofac.treasury.gov/recent-actions",
+            "content_type": "text/html",
+            "elapsed_ms": 9015,
+            "not_modified": false,
+            "method": "css"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "published_at=replace(link, \"^.*/(\\\\d{4})(\\\\d\\\\d)(\\\\d\\\\d)$\", \"\\\\1-\\\\2-\\\\3\")",
+                  "summary=replace(meta, \"^.*?\\\\d{4}\\\\s*-\\\\s*\", \"\")"
+                ],
+                "drop": [
+                  "meta"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "link",
+                "namespace": "sanctions-actions",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://ofac.treasury.gov/recent-actions/20260904"
+    }
+  ]
 }
