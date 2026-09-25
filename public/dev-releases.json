@@ -9,6 +9,88 @@
   },
   "items": [
     {
+      "id": "414be532765e4fa3f229",
+      "title": "astral-sh/uv 0.12.19",
+      "content_text": "Release Notes\nReleased on 2026-09-24.\nPython\nAdd PyPy 3.11.16 and 3.12.14 (#21847)\nUpdate GraalPy 3.13.0 to build 25.4.4 (#21847)\nEnhancements\nFormat upload URLs with backticks in uv publish errors (#21934)\nPreview features\nRun build-backend hooks with lazy imports on CPython 3.15 and later using the build-lazy-imports preview feature (#21967)\nOmit unused resolution settings from uv.lock and ignore changes to them when checking lockfile freshness with the resolution-inputs preview feature…",
+      "date_published": "2026-09-25T00:33:02Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "414be532765e4fa3f229",
+          "source": "github",
+          "type": "change",
+          "key": "https://github.com/astral-sh/uv/releases/tag/0.12.19",
+          "source_url": "https://api.github.com/repos/astral-sh/uv/releases",
+          "timestamp": null,
+          "observed_at": "2026-09-25T00:58:14Z",
+          "data": {
+            "change": "added",
+            "label": "astral-sh/uv 0.12.19",
+            "item_type": "release",
+            "summary": "added: astral-sh/uv 0.12.19",
+            "after": {
+              "repo": "astral-sh/uv",
+              "title": "astral-sh/uv 0.12.19",
+              "tag": "0.12.19",
+              "url": "https://github.com/astral-sh/uv/releases/tag/0.12.19",
+              "published_at": "2026-09-25T00:33:02Z",
+              "prerelease": false,
+              "author": "astral-releases-bot[bot]",
+              "summary": "Release Notes\nReleased on 2026-09-24.\nPython\nAdd PyPy 3.11.16 and 3.12.14 (#21847)\nUpdate GraalPy 3.13.0 to build 25.4.4 (#21847)\nEnhancements\nFormat upload URLs with backticks in uv publish errors (#21934)\nPreview features\nRun build-backend hooks with lazy imports on CPython 3.15 and later using the build-lazy-imports preview feature (#21967)\nOmit unused resolution settings from uv.lock and ignore changes to them when checking lockfile freshness with the resolution-inputs preview feature (#21913)\nBug fixes\nPreserve signed and encoded query parameters in direct-URL metadata to avoid reinstalling unchanged packages (#21971)\nRecognize 1.0.0 as satisfying ===1 during installed-package checks, matching resolution (#21931)\nAvoid collisions between Git checkout readiness markers and .ok files in dependencies (#21891)\nPreserve always-false pythonversion markers when parsing their serialized form (#21939)\nRust API\nRestore the public FlatDistributions export and its BTreeMap conversion for downstream resolvers (#21965)\nDocumentation\nMake individual preview-feature reference entries linkable by name (#21950)\nInstall uv 0.12.19\nInstall prebuilt binaries via shell script\nsh\ncurl --proto '=https' --tlsv1.2 -LsSf https://releases.astral.sh/github/uv/releases/download/0.12.19/uv-installer.sh | sh\nInstall prebuilt binaries via powershell script\nsh\npowershell -ExecutionPolicy Bypass -c \"irm https://releases.astral.sh/github/uv/releases/download/0.12.19/uv-installer.ps1 | iex\"\nDownload uv 0.12.19\n| File | Platform | Checksum |\n|--------|----------|----------|\n| uv-aarch64-apple-darwin.tar.gz | Apple Silicon macOS | checksum |\n| uv-x8664-apple-darwin.tar.gz | Intel macOS | checksum |\n| uv-aarch64-pc-windows-msvc.zip | ARM64 Windows | checksum |\n| uv-i686-pc-windows-msvc.zip | x86 Windows | checksum |\n| uv-x8664-pc-windows-msvc.zip | x64 Windows | checksum |\n| uv-aarch64-unknown-linux-gnu.tar.gz | ARM64 Linux | checksum |\n| uv-i686-unknown-linux-gnu.tar.gz | x86 Linux | checksum |\n| uv",
+              "assets": 42
+            }
+          },
+          "metadata": {
+            "method": "github-api"
+          },
+          "provenance": [
+            {
+              "step": "github",
+              "version": "0.3.2"
+            },
+            {
+              "step": "filter",
+              "version": "0.3.2",
+              "args": {
+                "expr": "not (tag matches \"^b[0-9]+$\")"
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "title=repo + \" \" + title"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "dev-releases",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.12.19"
+    },
+    {
       "id": "32422492451c382ac653",
       "title": "astral-sh/ruff 0.16.9",
       "content_text": "Release Notes\nReleased on 2026-09-24.\nPreview features\n[ruff] Avoid false positives for overloaded division (RUF069) (#28309)\nBug fixes\n[flake8-bugbear] Avoid false positives for calls with keyword arguments (B009, B010, B043) (#28776)\n[flake8-tidy-imports] Allow lazy imports to be used in deferred annotations (TID255) (#28767)\nRule changes\nUpdate LibCST-based fixes for Python 3.15 (#28616)\n[flake8-pyi] Mention stubs in the diagnostic message (PYI002) (#28542)\nDocumentation\nFix horizontal…",

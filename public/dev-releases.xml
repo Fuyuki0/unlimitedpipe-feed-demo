@@ -5,7 +5,23 @@
     <link>https://github.com/</link>
     <description>Events collected by UnlimitedPipe 0.3.2</description>
     <generator>UnlimitedPipe 0.3.2</generator>
-    <lastBuildDate>Thu, 24 Sep 2026 22:46:17 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 00:58:14 +0000</lastBuildDate>
+    <item>
+      <title>astral-sh/uv 0.12.19</title>
+      <link>https://github.com/astral-sh/uv/releases/tag/0.12.19</link>
+      <guid isPermaLink="false">414be532765e4fa3f229</guid>
+      <pubDate>Fri, 25 Sep 2026 00:33:02 +0000</pubDate>
+      <description>Release Notes
+Released on 2026-09-24.
+Python
+Add PyPy 3.11.16 and 3.12.14 (#21847)
+Update GraalPy 3.13.0 to build 25.4.4 (#21847)
+Enhancements
+Format upload URLs with backticks in uv publish errors (#21934)
+Preview features
+Run build-backend hooks with lazy imports on CPython 3.15 and later using the build-lazy-imports preview feature (#21967)
+Omit unused resolution settings from uv.lock and ignore changes to them when checking lockfile freshness with the resolution-inputs preview feature…</description>
+    </item>
     <item>
       <title>astral-sh/ruff 0.16.9</title>
       <link>https://github.com/astral-sh/ruff/releases/tag/0.16.9</link>

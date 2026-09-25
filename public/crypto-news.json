@@ -1,13 +1,195 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Crypto news (CoinDesk, Cointelegraph, Decrypt)",
-  "home_page_url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+  "home_page_url": "https://cointelegraph.com/rss",
   "description": "Events collected by UnlimitedPipe 0.3.2",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
     "generator": "UnlimitedPipe 0.3.2"
   },
   "items": [
+    {
+      "id": "149e06411d7a48865a0f",
+      "title": "Bitget CEO suspects North Korea behind $352M hack, citing IP clues",
+      "content_text": "Bitget CEO Gracy Chen said a preliminary investigation found IP addresses matching VPN choices associated with a DPRK hacking group.",
+      "date_published": "2026-09-25T00:32:46Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "149e06411d7a48865a0f",
+          "source": "rss",
+          "type": "change",
+          "key": "https://cointelegraph.com/news/bitget-ceo-suspects-north-korea-behind-352m-hack-citing-ip-clues",
+          "source_url": "https://cointelegraph.com/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-25T00:58:06Z",
+          "data": {
+            "change": "added",
+            "label": "Bitget CEO suspects North Korea behind $352M hack, citing IP clues",
+            "item_type": "entry",
+            "summary": "added: Bitget CEO suspects North Korea behind $352M hack, citing IP clues",
+            "after": {
+              "title": "Bitget CEO suspects North Korea behind $352M hack, citing IP clues",
+              "link": "https://cointelegraph.com/news/bitget-ceo-suspects-north-korea-behind-352m-hack-citing-ip-clues?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+              "id": "https://cointelegraph.com/news/bitget-ceo-suspects-north-korea-behind-352m-hack-citing-ip-clues",
+              "author": "Cointelegraph by Felix Ng",
+              "published_at": "2026-09-25T00:32:46Z",
+              "updated_at": "2026-09-25T00:35:29Z",
+              "summary": "Bitget CEO Gracy Chen said a preliminary investigation found IP addresses matching VPN choices associated with a DPRK hacking group.",
+              "categories": [
+                "Latest News"
+              ],
+              "feed": {
+                "title": "Cointelegraph.com News",
+                "url": "https://cointelegraph.com",
+                "feed_url": "https://cointelegraph.com/rss"
+              },
+              "enclosures": [
+                "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3AZF88B8P5GKQ5R22PR2YMN/hack-1.jpg"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://cointelegraph.com/rss",
+            "elapsed_ms": 120,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://cointelegraph.com/news/bitget-ceo-suspects-north-korea-behind-352m-hack-citing-ip-clues?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "tags": [
+        "Latest News"
+      ]
+    },
+    {
+      "id": "d605d76c048ec5e1867e",
+      "title": "Asia dominates Crypto Adoption Index, Bitget’s $351M hack: Asia Express",
+      "content_text": "The APAC region accounts for half of the Global Crypto Adoption Index. Bitget suffers massive $351M loss and OpenAI forgets to mention its agents hacked the Australian Government.",
+      "date_published": "2026-09-24T23:27:17Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d605d76c048ec5e1867e",
+          "source": "rss",
+          "type": "change",
+          "key": "https://cointelegraph.com/magazine/asia-dominates-crypto-adoption-index-bitgets-356m-hack-asia-express",
+          "source_url": "https://cointelegraph.com/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-25T00:58:06Z",
+          "data": {
+            "change": "added",
+            "label": "Asia dominates Crypto Adoption Index, Bitget’s $351M hack: Asia Express",
+            "item_type": "entry",
+            "summary": "added: Asia dominates Crypto Adoption Index, Bitget’s $351M hack: Asia Express",
+            "after": {
+              "title": "Asia dominates Crypto Adoption Index, Bitget’s $351M hack: Asia Express",
+              "link": "https://cointelegraph.com/magazine/asia-dominates-crypto-adoption-index-bitgets-356m-hack-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+              "id": "https://cointelegraph.com/magazine/asia-dominates-crypto-adoption-index-bitgets-356m-hack-asia-express",
+              "author": "Cointelegraph by Andrew Fenton",
+              "published_at": "2026-09-24T23:27:17Z",
+              "updated_at": "2026-09-24T23:35:31Z",
+              "summary": "The APAC region accounts for half of the Global Crypto Adoption Index. Bitget suffers massive $351M loss and OpenAI forgets to mention its agents hacked the Australian Government.",
+              "categories": [
+                "Magazine"
+              ],
+              "feed": {
+                "title": "Cointelegraph.com News",
+                "url": "https://cointelegraph.com",
+                "feed_url": "https://cointelegraph.com/rss"
+              },
+              "enclosures": [
+                "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M2RR0R87D4ZNY7FB45GN96P2/magazineasia-expressriver.jpg"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://cointelegraph.com/rss",
+            "elapsed_ms": 120,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://cointelegraph.com/magazine/asia-dominates-crypto-adoption-index-bitgets-356m-hack-asia-express?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "tags": [
+        "Magazine"
+      ]
+    },
     {
       "id": "879edb9a9c8410dd26b6",
       "title": "New York sues Polymarket, alleging it is running an illegal gambling operation",
