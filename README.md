@@ -1,6 +1,6 @@
 # UnlimitedPipe feeds
 
-39 free feeds, updated every hour by a GitHub Actions workflow and served by GitHub Pages.
+50 free feeds, updated every hour by a GitHub Actions workflow and served by GitHub Pages.
 No server, no database, no account. Each feed is one short YAML file, built with
 [UnlimitedPipe](https://pypi.org/project/unlimitedpipe/).
 
@@ -37,6 +37,8 @@ on it: `unlimited rss https://feeds.daemonfill.dev/ai-news.json`.
 | --- | --- |
 | [exploited-vulnerabilities](https://feeds.daemonfill.dev/exploited-vulnerabilities.xml) | Vulnerabilities newly added to CISA's Known Exploited list |
 | [security-news](https://feeds.daemonfill.dev/security-news.xml) | Krebs on Security, BleepingComputer, The Hacker News, Schneier on Security |
+| [security-advisories](https://feeds.daemonfill.dev/security-advisories.xml) | CISA cybersecurity and industrial control system advisories |
+| [data-breaches](https://feeds.daemonfill.dev/data-breaches.xml) | Data breaches added to Have I Been Pwned, with accounts and data exposed (CC BY 4.0) |
 | [sec-cyber-incidents](https://feeds.daemonfill.dev/sec-cyber-incidents.xml) | Public companies disclosing a material cybersecurity incident to the SEC (8-K Item 1.05) |
 
 ### Money, economy and government
@@ -71,6 +73,8 @@ Each feed labels items by outlet; state media is marked as such.
 | --- | --- |
 | [thailand-news](https://feeds.daemonfill.dev/thailand-news.xml) | Thailand news in English (Khaosod English, Thai Enquirer) |
 | [thailand-news-th](https://feeds.daemonfill.dev/thailand-news-th.xml) | ข่าวไทย: Thai-language news from Matichon and Prachachat |
+| [thailand-disasters](https://feeds.daemonfill.dev/thailand-disasters.xml) | GDACS alerts for Thailand, Myanmar, Laos, Cambodia and Malaysia, any level |
+| [thailand-earthquakes](https://feeds.daemonfill.dev/thailand-earthquakes.xml) | Earthquakes in and around Thailand (Thai Meteorological Department) |
 | [japan-news](https://feeds.daemonfill.dev/japan-news.xml) | The Japan Times, The Mainichi and Japan Today |
 | [china-news](https://feeds.daemonfill.dev/china-news.xml) | South China Morning Post and CGTN (Chinese state media) |
 | [russia-news](https://feeds.daemonfill.dev/russia-news.xml) | TASS (Russian state media), Meduza and The Moscow Times |
@@ -85,11 +89,23 @@ Each feed labels items by outlet; state media is marked as such.
 | [world-headlines](https://feeds.daemonfill.dev/world-headlines.xml) | BBC, NPR and Al Jazeera headlines, merged |
 | [climate-news](https://feeds.daemonfill.dev/climate-news.xml) | Climate and energy stories |
 
-### Science and space
+### Disasters and health
 
 | Feed | What it follows |
 | --- | --- |
 | [earthquakes](https://feeds.daemonfill.dev/earthquakes.xml) | Significant earthquakes worldwide (USGS) |
+| [disaster-alerts](https://feeds.daemonfill.dev/disaster-alerts.xml) | Orange and red GDACS alerts: earthquakes, cyclones, floods, volcanoes, droughts, wildfires |
+| [hurricanes](https://feeds.daemonfill.dev/hurricanes.xml) | Atlantic and eastern Pacific hurricanes, each new National Hurricane Center advisory |
+| [typhoons](https://feeds.daemonfill.dev/typhoons.xml) | Western Pacific and Indian Ocean typhoon warnings (Joint Typhoon Warning Center) |
+| [tsunami-alerts](https://feeds.daemonfill.dev/tsunami-alerts.xml) | Tsunami bulletins and warnings from the US Tsunami Warning Centers |
+| [volcanoes](https://feeds.daemonfill.dev/volcanoes.xml) | Weekly volcanic activity reports (Smithsonian Global Volcanism Program) |
+| [disease-outbreaks](https://feeds.daemonfill.dev/disease-outbreaks.xml) | WHO Disease Outbreak News: Ebola, cholera, avian flu, mpox and more |
+| [food-drug-recalls](https://feeds.daemonfill.dev/food-drug-recalls.xml) | US food, drug and medical device recalls (FDA) |
+
+### Space
+
+| Feed | What it follows |
+| --- | --- |
 | [space-launches](https://feeds.daemonfill.dev/space-launches.xml) | Rocket launches worldwide as soon as they are scheduled (Launch Library 2) |
 | [nasa-image](https://feeds.daemonfill.dev/nasa-image.xml) | NASA Image of the Day |
 

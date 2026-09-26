@@ -1,0 +1,12 @@
+name: disaster-alerts
+description: Orange and red alerts from GDACS, the UN and EU Global Disaster Alert and Coordination System - earthquakes, cyclones, floods, volcanoes, droughts and wildfires with a significant expected impact.
+sources:
+  - type: rss
+    url: https://www.gdacs.org/xml/rss.xml
+operators:
+  - {type: filter, expr: 'title matches "^(Orange|Red) "'}
+  - {type: sort, by: [published_at], reverse: true}
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/disaster-alerts.xml, title: "Disaster alerts, orange and red (GDACS)", link: "https://www.gdacs.org/"}
+  - {type: feed, path: ../public/disaster-alerts.json, title: "Disaster alerts, orange and red (GDACS)", link: "https://www.gdacs.org/"}

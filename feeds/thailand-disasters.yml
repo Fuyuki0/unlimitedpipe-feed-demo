@@ -1,0 +1,14 @@
+name: thailand-disasters
+description: Every GDACS disaster alert (any level) that mentions Thailand or its neighbours Myanmar, Laos, Cambodia and Malaysia - floods, storms and earthquakes.
+sources:
+  - type: rss
+    url: https://www.gdacs.org/xml/rss.xml
+operators:
+  - type: grep
+    patterns: [Thailand, Myanmar, Laos, Cambodia, Malaysia]
+    field: [title, summary]
+  - {type: sort, by: [published_at], reverse: true}
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/thailand-disasters.xml, title: Disaster alerts for Thailand and neighbours (GDACS), link: "https://www.gdacs.org/"}
+  - {type: feed, path: ../public/thailand-disasters.json, title: Disaster alerts for Thailand and neighbours (GDACS), link: "https://www.gdacs.org/"}

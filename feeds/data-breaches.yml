@@ -1,0 +1,21 @@
+name: data-breaches
+description: Data breaches as they are added to Have I Been Pwned, with how many accounts and what data leaked (verified breaches only; data from haveibeenpwned.com, CC BY 4.0).
+sources:
+  - type: web
+    url: https://haveibeenpwned.com/api/v3/breaches
+operators:
+  - {type: filter, expr: 'IsVerified and not IsFabricated and not IsSpamList'}
+  - {type: sort, by: [AddedDate], reverse: true}
+  - {type: limit, count: 30}
+  - type: map
+    assign:
+      - 'accounts=replace(replace("" + PwnCount, "^(\\d+)(\\d)\\d{5}$", "\\1.\\2M"), "^(\\d+)\\d{3}$", "\\1K")'
+      - 'title=Title + ": " + accounts + " accounts breached"'
+      - 'summary=replace(Description, "<[^>]+>", "")'
+      - "published_at=AddedDate"
+      - 'link="https://haveibeenpwned.com/Breach/" + Name'
+    drop: [Description, LogoPath, Title]
+  - {type: diff, key: Name, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/data-breaches.xml, title: Data breaches (Have I Been Pwned), link: "https://haveibeenpwned.com/PwnedWebsites"}
+  - {type: feed, path: ../public/data-breaches.json, title: Data breaches (Have I Been Pwned), link: "https://haveibeenpwned.com/PwnedWebsites"}

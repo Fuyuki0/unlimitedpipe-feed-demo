@@ -1,0 +1,16 @@
+name: typhoons
+description: Typhoon and tropical cyclone warnings for the western Pacific, Indian Ocean and southern hemisphere from the Joint Typhoon Warning Center - each new warning.
+sources:
+  - type: rss
+    url: https://www.metoc.navy.mil/jtwc/rss/jtwc.rss
+operators:
+  - {type: filter, expr: 'summary matches "Warning #\\d+"'}
+  - type: map
+    assign:
+      - 'region=replace(title, "^Current (.+?) Tropical Systems$", "\\1")'
+      - 'warning=replace(summary, "(?s)^\\s*([^\\n]*?Warning #\\d+).*$", "\\1")'
+      - 'title=warning + " (" + region + ")"'
+  - {type: diff, key: warning, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/typhoons.xml, title: Typhoon warnings (JTWC), link: "https://www.metoc.navy.mil/jtwc/jtwc.html"}
+  - {type: feed, path: ../public/typhoons.json, title: Typhoon warnings (JTWC), link: "https://www.metoc.navy.mil/jtwc/jtwc.html"}

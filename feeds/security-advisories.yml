@@ -1,0 +1,10 @@
+name: security-advisories
+description: Cybersecurity advisories and alerts from CISA, the US Cybersecurity and Infrastructure Security Agency, including industrial control systems.
+sources:
+  - type: rss
+    url: https://www.cisa.gov/cybersecurity-advisories/all.xml
+operators:
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/security-advisories.xml, title: Cybersecurity advisories (CISA), link: "https://www.cisa.gov/news-events/cybersecurity-advisories"}
+  - {type: feed, path: ../public/security-advisories.json, title: Cybersecurity advisories (CISA), link: "https://www.cisa.gov/news-events/cybersecurity-advisories"}

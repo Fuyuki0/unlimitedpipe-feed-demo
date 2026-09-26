@@ -1,0 +1,17 @@
+name: tsunami-alerts
+description: Tsunami messages from the US Tsunami Warning Centers (Pacific and Alaska), from information bulletins to warnings, with the earthquake behind each.
+sources:
+  - type: rss
+    url: [https://www.tsunami.gov/events/xml/PHEBAtom.xml, https://www.tsunami.gov/events/xml/PAAQAtom.xml]
+operators:
+  - type: map
+    assign:
+      - 'category=replace(summary, "(?s)^.*?Category:\\s*(.+?)\\s+Issue Time.*$", "\\1")'
+      - 'category=replace(category, "\\s+", " ")'
+      - 'magnitude=replace(summary, "(?s)^.*?Preliminary Magnitude:\\s*([\\d.]+).*$", "\\1")'
+      - 'title="Tsunami " + lower(category) + ": M" + magnitude + " " + title'
+  - {type: sort, by: [published_at], reverse: true}
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/tsunami-alerts.xml, title: Tsunami messages (US Tsunami Warning Centers), link: "https://www.tsunami.gov/"}
+  - {type: feed, path: ../public/tsunami-alerts.json, title: Tsunami messages (US Tsunami Warning Centers), link: "https://www.tsunami.gov/"}
