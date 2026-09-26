@@ -37,7 +37,7 @@ on it: `unlimited rss https://feeds.daemonfill.dev/ai-news.json`.
 | --- | --- |
 | [exploited-vulnerabilities](https://feeds.daemonfill.dev/exploited-vulnerabilities.xml) | Vulnerabilities newly added to CISA's Known Exploited list |
 | [security-news](https://feeds.daemonfill.dev/security-news.xml) | Krebs on Security, BleepingComputer, The Hacker News, Schneier on Security |
-| [security-advisories](https://feeds.daemonfill.dev/security-advisories.xml) | CISA cybersecurity and industrial control system advisories |
+| [security-advisories](https://feeds.daemonfill.dev/security-advisories.xml) | Critical advisories and alerts from CERT-EU, JPCERT/CC (Japan) and the Canadian Centre for Cyber Security |
 | [data-breaches](https://feeds.daemonfill.dev/data-breaches.xml) | Data breaches added to Have I Been Pwned, with accounts and data exposed (CC BY 4.0) |
 | [sec-cyber-incidents](https://feeds.daemonfill.dev/sec-cyber-incidents.xml) | Public companies disclosing a material cybersecurity incident to the SEC (8-K Item 1.05) |
 

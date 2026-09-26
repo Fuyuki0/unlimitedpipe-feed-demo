@@ -1,10 +1,20 @@
 name: security-advisories
-description: Cybersecurity advisories and alerts from CISA, the US Cybersecurity and Infrastructure Security Agency, including industrial control systems.
+description: Critical security advisories and alerts from CERT-EU, JPCERT/CC (Japan) and the Canadian Centre for Cyber Security, labeled by agency; routine vendor patch notices left out.
 sources:
   - type: rss
-    url: https://www.cisa.gov/cybersecurity-advisories/all.xml
+    url:
+      - https://cert.europa.eu/publications/security-advisories-rss
+      - https://www.jpcert.or.jp/english/rss/jpcert-en.rdf
+      - "https://www.cyber.gc.ca/api/cccs/rss/v1/get?feed=alerts_advisories&lang=en"
 operators:
+  - {type: filter, expr: 'not (title matches "security advisory \\(AV\\d+")'}
+  - type: map
+    assign:
+      - 'agency=replace(source_url, "^https?://(?:www\\.)?([^/]+).*$", "\\1")'
+      - 'agency=replace(replace(replace(agency, "^cert\\.europa\\.eu$", "CERT-EU"), "^jpcert\\.or\\.jp$", "JPCERT/CC"), "^cyber\\.gc\\.ca$", "Canadian Centre for Cyber Security")'
+      - 'title=agency + ": " + title'
+  - {type: sort, by: [published_at], reverse: true}
   - {type: diff, only: [added], emit_initial: true}
 outputs:
-  - {type: feed, path: ../public/security-advisories.xml, title: Cybersecurity advisories (CISA), link: "https://www.cisa.gov/news-events/cybersecurity-advisories"}
-  - {type: feed, path: ../public/security-advisories.json, title: Cybersecurity advisories (CISA), link: "https://www.cisa.gov/news-events/cybersecurity-advisories"}
+  - {type: feed, path: ../public/security-advisories.xml, title: "Security advisories (CERT-EU, JPCERT/CC, Canada)"}
+  - {type: feed, path: ../public/security-advisories.json, title: "Security advisories (CERT-EU, JPCERT/CC, Canada)"}
