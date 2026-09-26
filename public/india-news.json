@@ -1,13 +1,215 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "India news (The Hindu, NDTV)",
-  "home_page_url": "https://feeds.feedburner.com/ndtvnews-top-stories",
+  "home_page_url": "https://www.thehindu.com/news/national/feeder/default.rss",
   "description": "Events collected by UnlimitedPipe 0.9.1",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
     "generator": "UnlimitedPipe 0.9.1"
   },
   "items": [
+    {
+      "id": "355775954ff4e78ed273",
+      "title": "The Hindu: Food Safety department shuts down 25 eateries for violations",
+      "content_text": "Simultaneous inspections cover 70 hotels, restaurants and other eateries in all 28 districts; finds several serious violations, including unhygienic kitchens, improper storage of food, use of unauthorised artificial colours and flavour enhancers, and prolonged storage of cooked food in poorly maintained freezers",
+      "date_published": "2026-09-26T17:35:05Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "355775954ff4e78ed273",
+          "source": "rss",
+          "type": "change",
+          "key": "article-71513897",
+          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:41:29Z",
+          "data": {
+            "change": "added",
+            "label": "The Hindu: Food Safety department shuts down 25 eateries for violations",
+            "item_type": "entry",
+            "summary": "added: The Hindu: Food Safety department shuts down 25 eateries for violations",
+            "after": {
+              "title": "The Hindu: Food Safety department shuts down 25 eateries for violations",
+              "link": "https://www.thehindu.com/news/national/andhra-pradesh/food-safety-department-shuts-down-25-eateries-for-violations/article71513897.ece",
+              "id": "article-71513897",
+              "author": null,
+              "published_at": "2026-09-26T17:35:05Z",
+              "updated_at": "2026-09-26T17:35:05Z",
+              "summary": "Simultaneous inspections cover 70 hotels, restaurants and other eateries in all 28 districts; finds several serious violations, including unhygienic kitchens, improper storage of food, use of unauthorised artificial colours and flavour enhancers, and prolonged storage of cooked food in poorly maintained freezers",
+              "categories": [
+                "Andhra Pradesh"
+              ],
+              "feed": {
+                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+                "url": "https://www.thehindu.com/news/national/",
+                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+              },
+              "outlet": "The Hindu"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+            "elapsed_ms": 263,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/food-safety-department-shuts-down-25-eateries-for-violations/article71513897.ece",
+      "tags": [
+        "Andhra Pradesh"
+      ]
+    },
+    {
+      "id": "6d5d3ae18e86a51e23c8",
+      "title": "The Hindu: Muslim marriage cannot override POCSO law: Delhi High Court",
+      "content_text": "The court holds ‘personal law may determine whether a marriage has been contracted’, but cannot create an exception to a criminal law where Parliament has provided none, dismissing a petition seeking the quashing of an FIR registered against a man for rape under the BNS and the POCSO Act",
+      "date_published": "2026-09-26T17:28:50Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "6d5d3ae18e86a51e23c8",
+          "source": "rss",
+          "type": "change",
+          "key": "article-71513415",
+          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:41:29Z",
+          "data": {
+            "change": "added",
+            "label": "The Hindu: Muslim marriage cannot override POCSO law: Delhi High Court",
+            "item_type": "entry",
+            "summary": "added: The Hindu: Muslim marriage cannot override POCSO law: Delhi High Court",
+            "after": {
+              "title": "The Hindu: Muslim marriage cannot override POCSO law: Delhi High Court",
+              "link": "https://www.thehindu.com/news/cities/Delhi/muslim-marriage-cannot-override-pocso-law-delhi-high-court/article71513415.ece",
+              "id": "article-71513415",
+              "author": null,
+              "published_at": "2026-09-26T17:28:50Z",
+              "updated_at": "2026-09-26T17:28:50Z",
+              "summary": "The court holds ‘personal law may determine whether a marriage has been contracted’, but cannot create an exception to a criminal law where Parliament has provided none, dismissing a petition seeking the quashing of an FIR registered against a man for rape under the BNS and the POCSO Act",
+              "categories": [
+                "Delhi"
+              ],
+              "feed": {
+                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+                "url": "https://www.thehindu.com/news/national/",
+                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+              },
+              "outlet": "The Hindu"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+            "elapsed_ms": 263,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.thehindu.com/news/cities/Delhi/muslim-marriage-cannot-override-pocso-law-delhi-high-court/article71513415.ece",
+      "tags": [
+        "Delhi"
+      ]
+    },
     {
       "id": "1add6bd6c07cd6841e4f",
       "title": "NDTV: 'Bigg Boss' Contestant Hits Pune Doctor With Sticks, Utensils To Extort Money",
@@ -14765,198 +14967,6 @@
         }
       },
       "url": "https://www.ndtv.com/india-news/13-year-old-gang-raped-beaten-in-jharkhand-found-unconscious-outside-home-12100871#publisher=newsstand"
-    },
-    {
-      "id": "e7ba3c1f17b76519c7f7",
-      "title": "NDTV: Brij Bhushan's Acquittal Appeal Hearing Adjourned To September 28",
-      "content_text": "In August, a Delhi court acquitted Brij Bhushan Sharan Singh in a sexual harassment case.",
-      "date_published": "2026-09-26T07:57:41Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "e7ba3c1f17b76519c7f7",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.ndtv.com/india-news/brij-bhushans-acquittal-appeal-hearing-adjourned-to-september-28-12100734#publisher=newsstand",
-          "source_url": "https://feeds.feedburner.com/ndtvnews-top-stories",
-          "timestamp": null,
-          "observed_at": "2026-09-26T12:12:59Z",
-          "data": {
-            "change": "added",
-            "label": "NDTV: Brij Bhushan's Acquittal Appeal Hearing Adjourned To September 28",
-            "item_type": "entry",
-            "summary": "added: NDTV: Brij Bhushan's Acquittal Appeal Hearing Adjourned To September 28",
-            "after": {
-              "title": "NDTV: Brij Bhushan's Acquittal Appeal Hearing Adjourned To September 28",
-              "link": "https://www.ndtv.com/india-news/brij-bhushans-acquittal-appeal-hearing-adjourned-to-september-28-12100734#publisher=newsstand",
-              "id": "https://www.ndtv.com/india-news/brij-bhushans-acquittal-appeal-hearing-adjourned-to-september-28-12100734#publisher=newsstand",
-              "author": null,
-              "published_at": "2026-09-26T07:57:41Z",
-              "updated_at": "2026-09-26T07:57:41Z",
-              "summary": "In August, a Delhi court acquitted Brij Bhushan Sharan Singh in a sexual harassment case.",
-              "categories": [],
-              "feed": {
-                "title": "NDTV News Search Records Found 1000",
-                "url": "https://www.ndtv.com/",
-                "feed_url": "https://feeds.feedburner.com/ndtvnews-top-stories"
-              },
-              "outlet": "NDTV"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.feedburner.com/ndtvnews-top-stories",
-            "elapsed_ms": 281,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.8.0"
-            },
-            {
-              "step": "map",
-              "version": "0.8.0",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
-                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.8.0",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.8.0",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.8.0",
-              "args": {
-                "namespace": "india-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.ndtv.com/india-news/brij-bhushans-acquittal-appeal-hearing-adjourned-to-september-28-12100734#publisher=newsstand"
-    },
-    {
-      "id": "9965030b6aef52f484fa",
-      "title": "NDTV: Bihar 'Cop' Throws Man Off Train Over Rs 20,000 'Fine' For Smoking",
-      "content_text": "Rohit Tiwari, 25, has been arrested for kidnapping and throwing a passenger off the train.",
-      "date_published": "2026-09-26T07:53:46Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "9965030b6aef52f484fa",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.ndtv.com/india-news/bihar-man-poses-as-cop-fines-passenger-for-smoking-throws-him-off-train-12100917#publisher=newsstand",
-          "source_url": "https://feeds.feedburner.com/ndtvnews-top-stories",
-          "timestamp": null,
-          "observed_at": "2026-09-26T12:12:59Z",
-          "data": {
-            "change": "added",
-            "label": "NDTV: Bihar 'Cop' Throws Man Off Train Over Rs 20,000 'Fine' For Smoking",
-            "item_type": "entry",
-            "summary": "added: NDTV: Bihar 'Cop' Throws Man Off Train Over Rs 20,000 'Fine' For Smoking",
-            "after": {
-              "title": "NDTV: Bihar 'Cop' Throws Man Off Train Over Rs 20,000 'Fine' For Smoking",
-              "link": "https://www.ndtv.com/india-news/bihar-man-poses-as-cop-fines-passenger-for-smoking-throws-him-off-train-12100917#publisher=newsstand",
-              "id": "https://www.ndtv.com/india-news/bihar-man-poses-as-cop-fines-passenger-for-smoking-throws-him-off-train-12100917#publisher=newsstand",
-              "author": null,
-              "published_at": "2026-09-26T07:53:46Z",
-              "updated_at": "2026-09-26T07:53:46Z",
-              "summary": "Rohit Tiwari, 25, has been arrested for kidnapping and throwing a passenger off the train.",
-              "categories": [],
-              "feed": {
-                "title": "NDTV News Search Records Found 1000",
-                "url": "https://www.ndtv.com/",
-                "feed_url": "https://feeds.feedburner.com/ndtvnews-top-stories"
-              },
-              "outlet": "NDTV"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.feedburner.com/ndtvnews-top-stories",
-            "elapsed_ms": 281,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.8.0"
-            },
-            {
-              "step": "map",
-              "version": "0.8.0",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
-                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.8.0",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.8.0",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.8.0",
-              "args": {
-                "namespace": "india-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.ndtv.com/india-news/bihar-man-poses-as-cop-fines-passenger-for-smoking-throws-him-off-train-12100917#publisher=newsstand"
     }
   ]
 }
