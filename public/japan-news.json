@@ -2,12 +2,910 @@
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Japan news (Japan Times, Mainichi, Japan Today)",
   "home_page_url": "https://mainichi.jp/rss/etc/english_latest.rss",
-  "description": "Events collected by UnlimitedPipe 0.4.0",
+  "description": "Events collected by UnlimitedPipe 0.5.1",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.4.0"
+    "generator": "UnlimitedPipe 0.5.1"
   },
   "items": [
+    {
+      "id": "2fc21b44418787b4240f",
+      "title": "The Mainichi: Iran proposes a deal to reopen the Strait of Hormuz in 7 days if the US meets its conditions",
+      "content_text": "UNITED NATIONS (AP) -- Iran has offered to reopen the Strait of Hormuz and resume talks on its nuclear program in seven days if the United States lift",
+      "date_published": "2026-09-26T03:30:04Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "2fc21b44418787b4240f",
+          "source": "rss",
+          "type": "change",
+          "key": "https://mainichi.jp/english/articles/20260926/p2g/00m/0in/008000c",
+          "source_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:35:31Z",
+          "data": {
+            "change": "added",
+            "label": "The Mainichi: Iran proposes a deal to reopen the Strait of Hormuz in 7 days if the US meets its conditions",
+            "item_type": "entry",
+            "summary": "added: The Mainichi: Iran proposes a deal to reopen the Strait of Hormuz in 7 days if the US meets its conditions",
+            "after": {
+              "title": "The Mainichi: Iran proposes a deal to reopen the Strait of Hormuz in 7 days if the US meets its conditions",
+              "link": "https://mainichi.jp/english/articles/20260926/p2g/00m/0in/008000c",
+              "id": "https://mainichi.jp/english/articles/20260926/p2g/00m/0in/008000c",
+              "author": null,
+              "published_at": "2026-09-26T03:30:04Z",
+              "updated_at": "2026-09-26T03:30:04Z",
+              "summary": "UNITED NATIONS (AP) -- Iran has offered to reopen the Strait of Hormuz and resume talks on its nuclear program in seven days if the United States lift",
+              "categories": [],
+              "feed": {
+                "title": "The Mainichi",
+                "url": "https://mainichi.jp/english/",
+                "feed_url": "https://mainichi.jp/rss/etc/english_latest.rss"
+              },
+              "outlet": "The Mainichi"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "map",
+              "version": "0.5.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://mainichi.jp/english/articles/20260926/p2g/00m/0in/008000c"
+    },
+    {
+      "id": "8a9a83b45a647824da7b",
+      "title": "The Japan Times: Japan wary China could use Trump-Xi summit to bolster narrative against Tokyo",
+      "content_text": "Prime Minister Sanae Takaichi is believed to be seeking a call with U.S. President Donald Trump to dispel Tokyo's concerns.",
+      "date_published": "2026-09-26T03:25:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "8a9a83b45a647824da7b",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.japantimes.co.jp/article/647028/",
+          "source_url": "https://www.japantimes.co.jp/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:35:31Z",
+          "data": {
+            "change": "added",
+            "label": "The Japan Times: Japan wary China could use Trump-Xi summit to bolster narrative against Tokyo",
+            "item_type": "entry",
+            "summary": "added: The Japan Times: Japan wary China could use Trump-Xi summit to bolster narrative against Tokyo",
+            "after": {
+              "title": "The Japan Times: Japan wary China could use Trump-Xi summit to bolster narrative against Tokyo",
+              "link": "https://www.japantimes.co.jp/news/2026/09/26/japan/politics/japan-trump-xi-summit/",
+              "id": "https://www.japantimes.co.jp/article/647028/",
+              "author": null,
+              "published_at": "2026-09-26T03:25:00Z",
+              "updated_at": "2026-09-26T03:25:00Z",
+              "summary": "Prime Minister Sanae Takaichi is believed to be seeking a call with U.S. President Donald Trump to dispel Tokyo's concerns.",
+              "categories": [
+                "JAPAN"
+              ],
+              "feed": {
+                "title": "Latest articles - The Japan Times",
+                "url": "https://www.japantimes.co.jp/",
+                "feed_url": "https://www.japantimes.co.jp/feed/"
+              },
+              "outlet": "The Japan Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.japantimes.co.jp/feed/",
+            "elapsed_ms": 754,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "map",
+              "version": "0.5.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.japantimes.co.jp/news/2026/09/26/japan/politics/japan-trump-xi-summit/",
+      "tags": [
+        "JAPAN"
+      ]
+    },
+    {
+      "id": "c587041b9c33aad1201b",
+      "title": "The Mainichi: Father held for throwing 2 kids off 6th-floor balcony in central Japan",
+      "content_text": "GIFU (Kyodo) -- A 25-year-old man was arrested on the spot on Saturday for allegedly throwing his two daughters off the balcony of his sixth-floor apa",
+      "date_published": "2026-09-26T03:08:17Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c587041b9c33aad1201b",
+          "source": "rss",
+          "type": "change",
+          "key": "https://mainichi.jp/english/articles/20260926/p2g/00m/0na/016000c",
+          "source_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:35:31Z",
+          "data": {
+            "change": "added",
+            "label": "The Mainichi: Father held for throwing 2 kids off 6th-floor balcony in central Japan",
+            "item_type": "entry",
+            "summary": "added: The Mainichi: Father held for throwing 2 kids off 6th-floor balcony in central Japan",
+            "after": {
+              "title": "The Mainichi: Father held for throwing 2 kids off 6th-floor balcony in central Japan",
+              "link": "https://mainichi.jp/english/articles/20260926/p2g/00m/0na/016000c",
+              "id": "https://mainichi.jp/english/articles/20260926/p2g/00m/0na/016000c",
+              "author": null,
+              "published_at": "2026-09-26T03:08:17Z",
+              "updated_at": "2026-09-26T03:08:17Z",
+              "summary": "GIFU (Kyodo) -- A 25-year-old man was arrested on the spot on Saturday for allegedly throwing his two daughters off the balcony of his sixth-floor apa",
+              "categories": [],
+              "feed": {
+                "title": "The Mainichi",
+                "url": "https://mainichi.jp/english/",
+                "feed_url": "https://mainichi.jp/rss/etc/english_latest.rss"
+              },
+              "outlet": "The Mainichi"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "map",
+              "version": "0.5.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://mainichi.jp/english/articles/20260926/p2g/00m/0na/016000c"
+    },
+    {
+      "id": "876a53c70d226fa41a38",
+      "title": "The Mainichi: The Mainichi News Quiz: What are the Aichi-Nagoya Asian Games organizers so sorry for?",
+      "content_text": "How closely have you been following events in Japan? Try The Mainichi News Quiz for Sept. 26 to test your news knowledge. Ready?What did the Aichi-Nag",
+      "date_published": "2026-09-26T03:01:31Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "876a53c70d226fa41a38",
+          "source": "rss",
+          "type": "change",
+          "key": "https://mainichi.jp/english/articles/20260926/p2a/00m/0et/001000c",
+          "source_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:35:31Z",
+          "data": {
+            "change": "added",
+            "label": "The Mainichi: The Mainichi News Quiz: What are the Aichi-Nagoya Asian Games organizers so sorry for?",
+            "item_type": "entry",
+            "summary": "added: The Mainichi: The Mainichi News Quiz: What are the Aichi-Nagoya Asian Games organizers so sorry for?",
+            "after": {
+              "title": "The Mainichi: The Mainichi News Quiz: What are the Aichi-Nagoya Asian Games organizers so sorry for?",
+              "link": "https://mainichi.jp/english/articles/20260926/p2a/00m/0et/001000c",
+              "id": "https://mainichi.jp/english/articles/20260926/p2a/00m/0et/001000c",
+              "author": null,
+              "published_at": "2026-09-26T03:01:31Z",
+              "updated_at": "2026-09-26T03:01:31Z",
+              "summary": "How closely have you been following events in Japan? Try The Mainichi News Quiz for Sept. 26 to test your news knowledge. Ready?What did the Aichi-Nag",
+              "categories": [],
+              "feed": {
+                "title": "The Mainichi",
+                "url": "https://mainichi.jp/english/",
+                "feed_url": "https://mainichi.jp/rss/etc/english_latest.rss"
+              },
+              "outlet": "The Mainichi"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+            "elapsed_ms": 319,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "map",
+              "version": "0.5.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://mainichi.jp/english/articles/20260926/p2a/00m/0et/001000c"
+    },
+    {
+      "id": "83089d3d6aef2a8b1be9",
+      "title": "Japan Today: Supreme Court rejects Trump-backed Missouri congressional map for the third time",
+      "content_text": "The Supreme Court on Friday turned away an attempt to use a new Missouri congressional map backed by President Donald Trump, putting an end to a long-running legal…",
+      "date_published": "2026-09-26T02:53:51Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "83089d3d6aef2a8b1be9",
+          "source": "rss",
+          "type": "change",
+          "key": "https://japantoday.com/category/world/supreme-court-rejects-a-trump-backed-missouri-congressional-map-for-the-third-time1",
+          "source_url": "https://japantoday.com/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:35:31Z",
+          "data": {
+            "change": "added",
+            "label": "Japan Today: Supreme Court rejects Trump-backed Missouri congressional map for the third time",
+            "item_type": "entry",
+            "summary": "added: Japan Today: Supreme Court rejects Trump-backed Missouri congressional map for the third time",
+            "after": {
+              "title": "Japan Today: Supreme Court rejects Trump-backed Missouri congressional map for the third time",
+              "link": "https://japantoday.com/category/world/supreme-court-rejects-a-trump-backed-missouri-congressional-map-for-the-third-time1",
+              "id": "https://japantoday.com/category/world/supreme-court-rejects-a-trump-backed-missouri-congressional-map-for-the-third-time1",
+              "author": null,
+              "published_at": "2026-09-26T02:53:51Z",
+              "updated_at": "2026-09-26T02:53:51Z",
+              "summary": "The Supreme Court on Friday turned away an attempt to use a new Missouri congressional map backed by President Donald Trump, putting an end to a long-running legal…",
+              "categories": [],
+              "feed": {
+                "title": "Japan Today",
+                "url": "https://japantoday.com/",
+                "feed_url": "https://japantoday.com/feed"
+              },
+              "outlet": "Japan Today"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://japantoday.com/feed",
+            "elapsed_ms": 813,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "map",
+              "version": "0.5.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://japantoday.com/category/world/supreme-court-rejects-a-trump-backed-missouri-congressional-map-for-the-third-time1"
+    },
+    {
+      "id": "8792868dd76e36d18f74",
+      "title": "The Japan Times: When infinity becomes finite: How will Yayoi Kusama’s death influence the art market?",
+      "content_text": "There will be no new Kusamas, but rarity is another matter. Her death exposes the very different kinds of scarcity within her vast body of work.",
+      "date_published": "2026-09-26T02:45:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "8792868dd76e36d18f74",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.japantimes.co.jp/article/647026/",
+          "source_url": "https://www.japantimes.co.jp/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:35:31Z",
+          "data": {
+            "change": "added",
+            "label": "The Japan Times: When infinity becomes finite: How will Yayoi Kusama’s death influence the art market?",
+            "item_type": "entry",
+            "summary": "added: The Japan Times: When infinity becomes finite: How will Yayoi Kusama’s death influence the art market?",
+            "after": {
+              "title": "The Japan Times: When infinity becomes finite: How will Yayoi Kusama’s death influence the art market?",
+              "link": "https://www.japantimes.co.jp/culture/2026/09/26/art/yayoi-kusama-posthumous-exhibition-value/",
+              "id": "https://www.japantimes.co.jp/article/647026/",
+              "author": null,
+              "published_at": "2026-09-26T02:45:00Z",
+              "updated_at": "2026-09-26T02:45:00Z",
+              "summary": "There will be no new Kusamas, but rarity is another matter. Her death exposes the very different kinds of scarcity within her vast body of work.",
+              "categories": [
+                "CULTURE"
+              ],
+              "feed": {
+                "title": "Latest articles - The Japan Times",
+                "url": "https://www.japantimes.co.jp/",
+                "feed_url": "https://www.japantimes.co.jp/feed/"
+              },
+              "outlet": "The Japan Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.japantimes.co.jp/feed/",
+            "elapsed_ms": 754,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "map",
+              "version": "0.5.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.japantimes.co.jp/culture/2026/09/26/art/yayoi-kusama-posthumous-exhibition-value/",
+      "tags": [
+        "CULTURE"
+      ]
+    },
+    {
+      "id": "4dbaaf85393c4d1ceb66",
+      "title": "The Japan Times: How firms linked to sanctioned Chinese cotton giant sell clothes to U.S.",
+      "content_text": "Since Esquel's blacklisting, three garment makers in Vietnam have continued to source much of its cotton while also selling products to the U.S.",
+      "date_published": "2026-09-26T00:47:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "4dbaaf85393c4d1ceb66",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.japantimes.co.jp/article/647024/",
+          "source_url": "https://www.japantimes.co.jp/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:35:31Z",
+          "data": {
+            "change": "added",
+            "label": "The Japan Times: How firms linked to sanctioned Chinese cotton giant sell clothes to U.S.",
+            "item_type": "entry",
+            "summary": "added: The Japan Times: How firms linked to sanctioned Chinese cotton giant sell clothes to U.S.",
+            "after": {
+              "title": "The Japan Times: How firms linked to sanctioned Chinese cotton giant sell clothes to U.S.",
+              "link": "https://www.japantimes.co.jp/news/2026/09/26/asia-pacific/sanctioned-chinese-cotton-clothes-us/",
+              "id": "https://www.japantimes.co.jp/article/647024/",
+              "author": null,
+              "published_at": "2026-09-26T00:47:00Z",
+              "updated_at": "2026-09-26T00:47:00Z",
+              "summary": "Since Esquel's blacklisting, three garment makers in Vietnam have continued to source much of its cotton while also selling products to the U.S.",
+              "categories": [
+                "ASIA PACIFIC"
+              ],
+              "feed": {
+                "title": "Latest articles - The Japan Times",
+                "url": "https://www.japantimes.co.jp/",
+                "feed_url": "https://www.japantimes.co.jp/feed/"
+              },
+              "outlet": "The Japan Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.japantimes.co.jp/feed/",
+            "elapsed_ms": 754,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "map",
+              "version": "0.5.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.japantimes.co.jp/news/2026/09/26/asia-pacific/sanctioned-chinese-cotton-clothes-us/",
+      "tags": [
+        "ASIA PACIFIC"
+      ]
+    },
+    {
+      "id": "6e686ee3f7ae7c655cc6",
+      "title": "The Japan Times: Trump administration to meet Ukraine assistance deadline",
+      "content_text": "As of early this week, $307 million of the $400 million of the Ukraine Security Assistance Initiative funding had been obligated, sources said.",
+      "date_published": "2026-09-26T00:46:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "6e686ee3f7ae7c655cc6",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.japantimes.co.jp/article/647025/",
+          "source_url": "https://www.japantimes.co.jp/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:35:31Z",
+          "data": {
+            "change": "added",
+            "label": "The Japan Times: Trump administration to meet Ukraine assistance deadline",
+            "item_type": "entry",
+            "summary": "added: The Japan Times: Trump administration to meet Ukraine assistance deadline",
+            "after": {
+              "title": "The Japan Times: Trump administration to meet Ukraine assistance deadline",
+              "link": "https://www.japantimes.co.jp/news/2026/09/26/world/politics/trump-meet-ukraine-assistance-deadline/",
+              "id": "https://www.japantimes.co.jp/article/647025/",
+              "author": null,
+              "published_at": "2026-09-26T00:46:00Z",
+              "updated_at": "2026-09-26T00:46:00Z",
+              "summary": "As of early this week, $307 million of the $400 million of the Ukraine Security Assistance Initiative funding had been obligated, sources said.",
+              "categories": [
+                "WORLD"
+              ],
+              "feed": {
+                "title": "Latest articles - The Japan Times",
+                "url": "https://www.japantimes.co.jp/",
+                "feed_url": "https://www.japantimes.co.jp/feed/"
+              },
+              "outlet": "The Japan Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.japantimes.co.jp/feed/",
+            "elapsed_ms": 754,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "map",
+              "version": "0.5.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.japantimes.co.jp/news/2026/09/26/world/politics/trump-meet-ukraine-assistance-deadline/",
+      "tags": [
+        "WORLD"
+      ]
+    },
+    {
+      "id": "e03126f910ec97104853",
+      "title": "The Japan Times: Japan to expand disaster preparedness with new national agency",
+      "content_text": "The National Disaster Management Agency will be launched on Nov. 2 and serve as the government's command center for disaster preparedness.",
+      "date_published": "2026-09-25T09:29:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "e03126f910ec97104853",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.japantimes.co.jp/article/647027/",
+          "source_url": "https://www.japantimes.co.jp/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:35:31Z",
+          "data": {
+            "change": "added",
+            "label": "The Japan Times: Japan to expand disaster preparedness with new national agency",
+            "item_type": "entry",
+            "summary": "added: The Japan Times: Japan to expand disaster preparedness with new national agency",
+            "after": {
+              "title": "The Japan Times: Japan to expand disaster preparedness with new national agency",
+              "link": "https://www.japantimes.co.jp/news/2026/09/25/japan/national-disaster-management-agency/",
+              "id": "https://www.japantimes.co.jp/article/647027/",
+              "author": null,
+              "published_at": "2026-09-25T09:29:00Z",
+              "updated_at": "2026-09-25T09:29:00Z",
+              "summary": "The National Disaster Management Agency will be launched on Nov. 2 and serve as the government's command center for disaster preparedness.",
+              "categories": [
+                "JAPAN"
+              ],
+              "feed": {
+                "title": "Latest articles - The Japan Times",
+                "url": "https://www.japantimes.co.jp/",
+                "feed_url": "https://www.japantimes.co.jp/feed/"
+              },
+              "outlet": "The Japan Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.japantimes.co.jp/feed/",
+            "elapsed_ms": 754,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "map",
+              "version": "0.5.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.japantimes.co.jp/news/2026/09/25/japan/national-disaster-management-agency/",
+      "tags": [
+        "JAPAN"
+      ]
+    },
     {
       "id": "dafb57a4f1231e679779",
       "title": "The Mainichi: False claims alleging theft by foreigners in Japan spread on social media",

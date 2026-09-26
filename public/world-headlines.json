@@ -2,12 +2,364 @@
   "version": "https://jsonfeed.org/version/1.1",
   "title": "World headlines (BBC, NPR, Al Jazeera)",
   "home_page_url": "https://www.aljazeera.com/xml/rss/all.xml",
-  "description": "Events collected by UnlimitedPipe 0.4.0",
+  "description": "Events collected by UnlimitedPipe 0.5.1",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.4.0"
+    "generator": "UnlimitedPipe 0.5.1"
   },
   "items": [
+    {
+      "id": "30e53296b2d75fd17f0b",
+      "title": "Yemeni leader urges public to enlist, offers amnesty to Houthi defectors",
+      "content_text": "Rashad al-Alimi pledges amnesty for Houthi defectors in first speech since losing ground on the western Red Sea coast.",
+      "date_published": "2026-09-26T03:10:43Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "30e53296b2d75fd17f0b",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790388055",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:37:31Z",
+          "data": {
+            "change": "added",
+            "label": "Yemeni leader urges public to enlist, offers amnesty to Houthi defectors",
+            "item_type": "entry",
+            "summary": "added: Yemeni leader urges public to enlist, offers amnesty to Houthi defectors",
+            "after": {
+              "title": "Yemeni leader urges public to enlist, offers amnesty to Houthi defectors",
+              "link": "https://www.aljazeera.com/news/2026/9/26/yemeni-leader-urges-public-to-enlist-offers-amnesty-to-houthi-defectors?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790388055",
+              "author": null,
+              "published_at": "2026-09-26T03:10:43Z",
+              "updated_at": "2026-09-26T03:10:43Z",
+              "summary": "Rashad al-Alimi pledges amnesty for Houthi defectors in first speech since losing ground on the western Red Sea coast.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 237,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/news/2026/9/26/yemeni-leader-urges-public-to-enlist-offers-amnesty-to-houthi-defectors?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "3036db7e7bb85c50ac06",
+      "title": "UNGA81: Why has Africa’s Security Council reform push remained unresolved?",
+      "content_text": "Africa wants permanent seats and veto power, but agreement remains elusive.",
+      "date_published": "2026-09-26T03:07:55Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "3036db7e7bb85c50ac06",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790344253",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:37:31Z",
+          "data": {
+            "change": "added",
+            "label": "UNGA81: Why has Africa’s Security Council reform push remained unresolved?",
+            "item_type": "entry",
+            "summary": "added: UNGA81: Why has Africa’s Security Council reform push remained unresolved?",
+            "after": {
+              "title": "UNGA81: Why has Africa’s Security Council reform push remained unresolved?",
+              "link": "https://www.aljazeera.com/news/2026/9/26/unga81-why-has-africas-security-council-reform-push-remained-unresolved?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790344253",
+              "author": null,
+              "published_at": "2026-09-26T03:07:55Z",
+              "updated_at": "2026-09-26T03:07:55Z",
+              "summary": "Africa wants permanent seats and veto power, but agreement remains elusive.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 237,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/news/2026/9/26/unga81-why-has-africas-security-council-reform-push-remained-unresolved?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "e32990f19239d63dc10e",
+      "title": "Pope Leo XIV makes first official Papal visit in France in nearly 20",
+      "content_text": "Pope Leo XIV drew huge crowds on the first Papal visit to France in 18 years.",
+      "date_published": "2026-09-26T02:18:09Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "e32990f19239d63dc10e",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790388973",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:37:31Z",
+          "data": {
+            "change": "added",
+            "label": "Pope Leo XIV makes first official Papal visit in France in nearly 20",
+            "item_type": "entry",
+            "summary": "added: Pope Leo XIV makes first official Papal visit in France in nearly 20",
+            "after": {
+              "title": "Pope Leo XIV makes first official Papal visit in France in nearly 20",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/pope-leo-xiv-makes-first-official-papal-visit-in-france-in-nearly-20?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790388973",
+              "author": null,
+              "published_at": "2026-09-26T02:18:09Z",
+              "updated_at": "2026-09-26T02:18:09Z",
+              "summary": "Pope Leo XIV drew huge crowds on the first Papal visit to France in 18 years.",
+              "categories": [
+                "Show Types"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 237,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/pope-leo-xiv-makes-first-official-papal-visit-in-france-in-nearly-20?traffic_source=rss",
+      "tags": [
+        "Show Types"
+      ]
+    },
+    {
+      "id": "56863d9eb47c345132bd",
+      "title": "TikTok to pay $100 million to Alabama in teen addiction settlement",
+      "content_text": "TikTok has settled and agreed to pay the US state of Alabama at least $100 million dollars days before trial.",
+      "date_published": "2026-09-26T02:09:10Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "56863d9eb47c345132bd",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790385810",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:37:31Z",
+          "data": {
+            "change": "added",
+            "label": "TikTok to pay $100 million to Alabama in teen addiction settlement",
+            "item_type": "entry",
+            "summary": "added: TikTok to pay $100 million to Alabama in teen addiction settlement",
+            "after": {
+              "title": "TikTok to pay $100 million to Alabama in teen addiction settlement",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/tiktok-to-pay-100-million-to-alabama-in-teen-addiction-settlement?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790385810",
+              "author": null,
+              "published_at": "2026-09-26T02:09:10Z",
+              "updated_at": "2026-09-26T02:09:10Z",
+              "summary": "TikTok has settled and agreed to pay the US state of Alabama at least $100 million dollars days before trial.",
+              "categories": [
+                "Show Types"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 237,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/tiktok-to-pay-100-million-to-alabama-in-teen-addiction-settlement?traffic_source=rss",
+      "tags": [
+        "Show Types"
+      ]
+    },
     {
       "id": "7955993d6b212a5d9e9b",
       "title": "Plane crash in DR Congo kills more than a dozen",
@@ -12562,358 +12914,6 @@
         }
       },
       "url": "https://www.aljazeera.com/news/2026/9/25/at-least-41-die-as-boat-capsizes-in-drcs-lake-tanganyika?traffic_source=rss",
-      "tags": [
-        "News"
-      ]
-    },
-    {
-      "id": "cb35c2e94ade4686574e",
-      "title": "Brazil’s Lula and Flavio Bolsonaro still essentially tied in new poll",
-      "content_text": "Luiz Inacio Lula da Silva is up two points, but that's still within the poll's margin of error.",
-      "date_published": "2026-09-25T00:35:51Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "cb35c2e94ade4686574e",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790294389",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T00:58:30Z",
-          "data": {
-            "change": "added",
-            "label": "Brazil’s Lula and Flavio Bolsonaro still essentially tied in new poll",
-            "item_type": "entry",
-            "summary": "added: Brazil’s Lula and Flavio Bolsonaro still essentially tied in new poll",
-            "after": {
-              "title": "Brazil’s Lula and Flavio Bolsonaro still essentially tied in new poll",
-              "link": "https://www.aljazeera.com/news/2026/9/25/brazils-lula-and-flavio-bolsonaro-still-essentially-tied-in-new-poll?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790294389",
-              "author": null,
-              "published_at": "2026-09-25T00:35:51Z",
-              "updated_at": "2026-09-25T00:35:51Z",
-              "summary": "Luiz Inacio Lula da Silva is up two points, but that's still within the poll's margin of error.",
-              "categories": [
-                "News"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 223,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/news/2026/9/25/brazils-lula-and-flavio-bolsonaro-still-essentially-tied-in-new-poll?traffic_source=rss",
-      "tags": [
-        "News"
-      ]
-    },
-    {
-      "id": "3ae43a6624f5dc786c47",
-      "title": "UAE bars Iranian airlines as US sanctions squeeze Iran’s aviation sector",
-      "content_text": "UAE joins Oman, Iraq, Azerbaijan, Georgia and Turkmenistan in restricting access to Iranian airlines.",
-      "date_published": "2026-09-25T00:24:47Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "3ae43a6624f5dc786c47",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790288381",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T00:58:30Z",
-          "data": {
-            "change": "added",
-            "label": "UAE bars Iranian airlines as US sanctions squeeze Iran’s aviation sector",
-            "item_type": "entry",
-            "summary": "added: UAE bars Iranian airlines as US sanctions squeeze Iran’s aviation sector",
-            "after": {
-              "title": "UAE bars Iranian airlines as US sanctions squeeze Iran’s aviation sector",
-              "link": "https://www.aljazeera.com/economy/2026/9/25/uae-bars-iranian-airlines-as-us-sanctions-squeeze-irans-aviation-sector?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790288381",
-              "author": null,
-              "published_at": "2026-09-25T00:24:47Z",
-              "updated_at": "2026-09-25T00:24:47Z",
-              "summary": "UAE joins Oman, Iraq, Azerbaijan, Georgia and Turkmenistan in restricting access to Iranian airlines.",
-              "categories": [
-                "News"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 223,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/economy/2026/9/25/uae-bars-iranian-airlines-as-us-sanctions-squeeze-irans-aviation-sector?traffic_source=rss",
-      "tags": [
-        "News"
-      ]
-    },
-    {
-      "id": "0990284b6cb64a3db271",
-      "title": "Argentina’s poverty rises to 32 percent under Milei with more pain forecast",
-      "content_text": "A 4.1-percentage-point rise in poverty in the first half of 2026 could be bad news for Milei's re-election bid.",
-      "date_published": "2026-09-25T00:23:24Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "0990284b6cb64a3db271",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790287096",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T00:58:30Z",
-          "data": {
-            "change": "added",
-            "label": "Argentina’s poverty rises to 32 percent under Milei with more pain forecast",
-            "item_type": "entry",
-            "summary": "added: Argentina’s poverty rises to 32 percent under Milei with more pain forecast",
-            "after": {
-              "title": "Argentina’s poverty rises to 32 percent under Milei with more pain forecast",
-              "link": "https://www.aljazeera.com/news/2026/9/25/argentinas-poverty-rises-to-32-percent-under-milei-with-more-pain-forecast?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790287096",
-              "author": null,
-              "published_at": "2026-09-25T00:23:24Z",
-              "updated_at": "2026-09-25T00:23:24Z",
-              "summary": "A 4.1-percentage-point rise in poverty in the first half of 2026 could be bad news for Milei's re-election bid.",
-              "categories": [
-                "News Analysis"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 223,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/news/2026/9/25/argentinas-poverty-rises-to-32-percent-under-milei-with-more-pain-forecast?traffic_source=rss",
-      "tags": [
-        "News Analysis"
-      ]
-    },
-    {
-      "id": "da9c18b6c52a9536c339",
-      "title": "Iran war live: Tehran wants Washington to re-enter MoU before US midterms",
-      "content_text": "Iranian President Masoud Pezeshkian says Iran wants the US to return to the MoU by early November.",
-      "date_published": "2026-09-25T00:00:00Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "da9c18b6c52a9536c339",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790287378",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T00:58:30Z",
-          "data": {
-            "change": "added",
-            "label": "Iran war live: Tehran wants Washington to re-enter MoU before US midterms",
-            "item_type": "entry",
-            "summary": "added: Iran war live: Tehran wants Washington to re-enter MoU before US midterms",
-            "after": {
-              "title": "Iran war live: Tehran wants Washington to re-enter MoU before US midterms",
-              "link": "https://www.aljazeera.com/news/liveblog/2026/9/25/iran-war-live-tehran-wants-washington-to-re-enter-mou-before-us-midterms?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790287378",
-              "author": null,
-              "published_at": "2026-09-25T00:00:00Z",
-              "updated_at": "2026-09-25T00:00:00Z",
-              "summary": "Iranian President Masoud Pezeshkian says Iran wants the US to return to the MoU by early November.",
-              "categories": [
-                "News"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 223,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/news/liveblog/2026/9/25/iran-war-live-tehran-wants-washington-to-re-enter-mou-before-us-midterms?traffic_source=rss",
       "tags": [
         "News"
       ]

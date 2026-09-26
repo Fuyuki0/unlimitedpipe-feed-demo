@@ -8,7 +8,12 @@
    "files": [
     "ai-labs.xml",
     "ai-labs.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-25T19:00:00Z"
+   }
   },
   {
    "name": "ai-news",
@@ -16,7 +21,12 @@
    "files": [
     "ai-news.xml",
     "ai-news.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-25T23:22:27Z"
+   }
   },
   {
    "name": "ai-papers",
@@ -24,7 +34,12 @@
    "files": [
     "ai-papers.xml",
     "ai-papers.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-25T00:00:00Z"
+   }
   },
   {
    "name": "ai-releases",
@@ -32,7 +47,12 @@
    "files": [
     "ai-releases.xml",
     "ai-releases.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-25T12:57:38Z"
+   }
   },
   {
    "name": "arxiv-llm",
@@ -40,7 +60,12 @@
    "files": [
     "arxiv-llm.xml",
     "arxiv-llm.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-25T04:00:00Z"
+   }
   },
   {
    "name": "central-banks",
@@ -48,7 +73,12 @@
    "files": [
     "central-banks.xml",
     "central-banks.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-25T23:49:21Z"
+   }
   },
   {
    "name": "china-news",
@@ -56,7 +86,12 @@
    "files": [
     "china-news.xml",
     "china-news.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-26T03:00:10Z"
+   }
   },
   {
    "name": "climate-news",
@@ -64,7 +99,12 @@
    "files": [
     "climate-news.xml",
     "climate-news.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-25T22:12:48Z"
+   }
   },
   {
    "name": "cloud-status",
@@ -72,7 +112,12 @@
    "files": [
     "cloud-status.xml",
     "cloud-status.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-25T23:03:04Z"
+   }
   },
   {
    "name": "crypto-hacks",
@@ -80,7 +125,12 @@
    "files": [
     "crypto-hacks.xml",
     "crypto-hacks.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-24T00:00:00Z"
+   }
   },
   {
    "name": "crypto-news",
@@ -88,7 +138,12 @@
    "files": [
     "crypto-news.xml",
     "crypto-news.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-25T22:17:38Z"
+   }
   },
   {
    "name": "crypto-releases",
@@ -96,7 +151,12 @@
    "files": [
     "crypto-releases.xml",
     "crypto-releases.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-23T02:21:47Z"
+   }
   },
   {
    "name": "data-breaches",
@@ -104,7 +164,12 @@
    "files": [
     "data-breaches.xml",
     "data-breaches.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-22T08:02:37Z"
+   }
   },
   {
    "name": "dev-releases",
@@ -112,7 +177,12 @@
    "files": [
     "dev-releases.xml",
     "dev-releases.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-25T09:58:03Z"
+   }
   },
   {
    "name": "disaster-alerts",
@@ -120,7 +190,12 @@
    "files": [
     "disaster-alerts.xml",
     "disaster-alerts.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-22T20:06:51Z"
+   }
   },
   {
    "name": "disease-outbreaks",
@@ -128,7 +203,12 @@
    "files": [
     "disease-outbreaks.xml",
     "disease-outbreaks.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-25T15:30:18Z"
+   }
   },
   {
    "name": "earthquakes",
@@ -136,7 +216,12 @@
    "files": [
     "earthquakes.xml",
     "earthquakes.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-25T21:23:03Z"
+   }
   },
   {
    "name": "europe-news",
@@ -144,7 +229,12 @@
    "files": [
     "europe-news.xml",
     "europe-news.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-25T21:00:14Z"
+   }
   },
   {
    "name": "exchange-listings",
@@ -152,7 +242,12 @@
    "files": [
     "exchange-listings.xml",
     "exchange-listings.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": null
+   }
   },
   {
    "name": "exploited-vulnerabilities",
@@ -160,7 +255,12 @@
    "files": [
     "exploited-vulnerabilities.xml",
     "exploited-vulnerabilities.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-25T00:00:00Z"
+   }
   },
   {
    "name": "food-drug-recalls",
@@ -168,7 +268,12 @@
    "files": [
     "food-drug-recalls.xml",
     "food-drug-recalls.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-24T21:05:00Z"
+   }
   },
   {
    "name": "hn-top",
@@ -176,7 +281,12 @@
    "files": [
     "hn-top.xml",
     "hn-top.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-25T18:33:50Z"
+   }
   },
   {
    "name": "hurricanes",
@@ -184,7 +294,12 @@
    "files": [
     "hurricanes.xml",
     "hurricanes.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-26T02:58:50Z"
+   }
   },
   {
    "name": "india-news",
@@ -192,7 +307,12 @@
    "files": [
     "india-news.xml",
     "india-news.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-26T02:54:54Z"
+   }
   },
   {
    "name": "insider-trades",
@@ -200,7 +320,12 @@
    "files": [
     "insider-trades.xml",
     "insider-trades.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-26T02:08:07Z"
+   }
   },
   {
    "name": "japan-news",
@@ -208,7 +333,12 @@
    "files": [
     "japan-news.xml",
     "japan-news.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-26T03:30:04Z"
+   }
   },
   {
    "name": "lobbying-big-spenders",
@@ -216,7 +346,12 @@
    "files": [
     "lobbying-big-spenders.xml",
     "lobbying-big-spenders.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-14T09:42:02Z"
+   }
   },
   {
    "name": "nasa-image",
@@ -224,7 +359,12 @@
    "files": [
     "nasa-image.xml",
     "nasa-image.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-25T15:54:00Z"
+   }
   },
   {
    "name": "python-news",
@@ -232,7 +372,12 @@
    "files": [
     "python-news.xml",
     "python-news.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-24T10:05:26Z"
+   }
   },
   {
    "name": "russia-news",
@@ -240,7 +385,12 @@
    "files": [
     "russia-news.xml",
     "russia-news.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-26T02:51:25Z"
+   }
   },
   {
    "name": "rust-news",
@@ -248,7 +398,12 @@
    "files": [
     "rust-news.xml",
     "rust-news.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-24T10:05:27Z"
+   }
   },
   {
    "name": "sanctions-actions",
@@ -256,7 +411,12 @@
    "files": [
     "sanctions-actions.xml",
     "sanctions-actions.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-24T00:00:00Z"
+   }
   },
   {
    "name": "sec-company-events",
@@ -264,7 +424,12 @@
    "files": [
     "sec-company-events.xml",
     "sec-company-events.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-25T21:28:51Z"
+   }
   },
   {
    "name": "sec-cyber-incidents",
@@ -272,7 +437,12 @@
    "files": [
     "sec-cyber-incidents.xml",
     "sec-cyber-incidents.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": null
+   }
   },
   {
    "name": "sec-ipo-filings",
@@ -280,7 +450,12 @@
    "files": [
     "sec-ipo-filings.xml",
     "sec-ipo-filings.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-25T21:17:48Z"
+   }
   },
   {
    "name": "security-advisories",
@@ -288,7 +463,12 @@
    "files": [
     "security-advisories.xml",
     "security-advisories.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-24T17:12:45Z"
+   }
   },
   {
    "name": "security-news",
@@ -296,7 +476,12 @@
    "files": [
     "security-news.xml",
     "security-news.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-25T21:44:40Z"
+   }
   },
   {
    "name": "show-hn",
@@ -304,7 +489,12 @@
    "files": [
     "show-hn.xml",
     "show-hn.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-25T14:28:07Z"
+   }
   },
   {
    "name": "space-launches",
@@ -312,7 +502,12 @@
    "files": [
     "space-launches.xml",
     "space-launches.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-25T12:23:03Z"
+   }
   },
   {
    "name": "stablecoin-supply",
@@ -320,7 +515,12 @@
    "files": [
     "stablecoin-supply.xml",
     "stablecoin-supply.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-26T03:37:07Z"
+   }
   },
   {
    "name": "thailand-disasters",
@@ -328,7 +528,12 @@
    "files": [
     "thailand-disasters.xml",
     "thailand-disasters.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-22T07:36:54Z"
+   }
   },
   {
    "name": "thailand-earthquakes",
@@ -336,7 +541,12 @@
    "files": [
     "thailand-earthquakes.xml",
     "thailand-earthquakes.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-25T22:18:46Z"
+   }
   },
   {
    "name": "thailand-news-th",
@@ -344,7 +554,12 @@
    "files": [
     "thailand-news-th.xml",
     "thailand-news-th.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-26T03:34:41Z"
+   }
   },
   {
    "name": "thailand-news",
@@ -352,7 +567,12 @@
    "files": [
     "thailand-news.xml",
     "thailand-news.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-25T13:38:30Z"
+   }
   },
   {
    "name": "thailand-weather",
@@ -360,7 +580,12 @@
    "files": [
     "thailand-weather.xml",
     "thailand-weather.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-26T01:17:36Z"
+   }
   },
   {
    "name": "tsunami-alerts",
@@ -368,7 +593,12 @@
    "files": [
     "tsunami-alerts.xml",
     "tsunami-alerts.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-25T21:44:05Z"
+   }
   },
   {
    "name": "typhoons",
@@ -376,7 +606,12 @@
    "files": [
     "typhoons.xml",
     "typhoons.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-26T03:36:01Z"
+   }
   },
   {
    "name": "us-new-rules",
@@ -384,7 +619,12 @@
    "files": [
     "us-new-rules.xml",
     "us-new-rules.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-25T00:00:00Z"
+   }
   },
   {
    "name": "us-news",
@@ -392,7 +632,12 @@
    "files": [
     "us-news.xml",
     "us-news.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-25T23:02:57Z"
+   }
   },
   {
    "name": "usd-rates",
@@ -400,7 +645,12 @@
    "files": [
     "usd-rates.xml",
     "usd-rates.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-25T00:00:00Z"
+   }
   },
   {
    "name": "volcanoes",
@@ -408,7 +658,12 @@
    "files": [
     "volcanoes.xml",
     "volcanoes.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-17T05:20:04Z"
+   }
   },
   {
    "name": "world-headlines",
@@ -416,7 +671,12 @@
    "files": [
     "world-headlines.xml",
     "world-headlines.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-26T03:10:43Z"
+   }
   },
   {
    "name": "world-leaders",
@@ -424,16 +684,371 @@
    "files": [
     "world-leaders.xml",
     "world-leaders.json"
-   ]
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T03:37:34Z",
+    "latest": "2026-09-25T20:10:42Z"
+   }
   }
  ],
  "items": [
+  {
+   "feed": "stablecoin-supply",
+   "title": "USDC supply -$990.1M in a day, now $75.4B",
+   "summary": "USD Coin (USDC): -$990.1M in 24 hours; week before: $74.4B.",
+   "link": "https://defillama.com/stablecoin/usd-coin",
+   "date": "2026-09-26T03:37:07Z"
+  },
+  {
+   "feed": "stablecoin-supply",
+   "title": "USDS supply +$105.2M in a day, now $6.6B",
+   "summary": "Sky Dollar (USDS): +$105.2M in 24 hours; week before: $6.5B.",
+   "link": "https://defillama.com/stablecoin/usds",
+   "date": "2026-09-26T03:37:07Z"
+  },
+  {
+   "feed": "typhoons",
+   "title": "Hurricane 17E (Polo) Warning #22 (Central/Eastern Pacific)",
+   "summary": "Hurricane 17E (Polo) Warning #22\nIssued at 26/0400Z\nTC Warning Text\nTC Warning Graphic\nJMV 3.0 Data\nGoogle Earth Overlay\nIR Satellite Imagery\nTropical Cyclone Formation Alert WTPN21\nIssued at 26/0100Z\nTCFA Text\nTCFA Graphic\nJMV 3.0 Data\nGoogle Earth Overlay\nIR Satellite Imagery\nHurricane 16E (Odalys",
+   "link": "https://s3.amazonaws.com/www.metoc.navy.mil/jtwc/jtwc.html",
+   "date": "2026-09-26T03:36:01Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: แอร์เอเชีย เปิดให้ผู้โดยสารเที่ยวบินเข้า-ออก กทม. ที่ได้รับผลกระทบ เปลี่ยนเที่ยวบินได้",
+   "summary": "แอร์เอเชีย เปิดให้ผู้โดยสารเที่ยวบินเข้า-ออก กทม. ที่ได […]",
+   "link": "https://www.matichon.co.th/economy/news_5905849",
+   "date": "2026-09-26T03:34:41Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: สระแก้วอ่วม! ฝนตกหนัก น้ำท่วมเส้นทางเข้าเมือง รถทุกชนิดผ่านไม่ได้",
+   "summary": "สระแก้วอ่วม! ฝนตกหนัก น้ำท่วมเส้นทางเข้าเมือง รถทุกชนิด […]",
+   "link": "https://www.matichon.co.th/region/news_5905842",
+   "date": "2026-09-26T03:34:30Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: มีบางคนยังไม่อยากให้ “ผู้กอง” ร่วมรัฐบาล ? I อ่านให้ขาด",
+   "summary": "รายการอ่านให้ขาด EP.29 อ๊อก เอกภัทร์ และบก.อาร์ม มติชนส […]",
+   "link": "https://www.matichon.co.th/matichon-tv/news_5905696",
+   "date": "2026-09-26T03:33:27Z"
+  },
+  {
+   "feed": "japan-news",
+   "title": "The Mainichi: Iran proposes a deal to reopen the Strait of Hormuz in 7 days if the US meets its conditions",
+   "summary": "UNITED NATIONS (AP) -- Iran has offered to reopen the Strait of Hormuz and resume talks on its nuclear program in seven days if the United States lift",
+   "link": "https://mainichi.jp/english/articles/20260926/p2g/00m/0in/008000c",
+   "date": "2026-09-26T03:30:04Z"
+  },
+  {
+   "feed": "japan-news",
+   "title": "The Japan Times: Japan wary China could use Trump-Xi summit to bolster narrative against Tokyo",
+   "summary": "Prime Minister Sanae Takaichi is believed to be seeking a call with U.S. President Donald Trump to dispel Tokyo's concerns.",
+   "link": "https://www.japantimes.co.jp/news/2026/09/26/japan/politics/japan-trump-xi-summit/",
+   "date": "2026-09-26T03:25:00Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: ด่วน! ชัชชาติ ลงนามแล้ว ประกาศ กทม. เป็นพื้นที่ประสบสาธารณภัย ครอบคลุมทั้ง 50 เขต",
+   "summary": "ชัชชาติ ลงนาม ประกาศ พื้นที่ประสบสาธารณภัย ครอบคลุมทั้ง […]",
+   "link": "https://www.matichon.co.th/local/news_5905829",
+   "date": "2026-09-26T03:16:07Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: ฝนตกก็ไม่มีปัญหา! บิว ภูริพล เข้าที่ 1 ฮีตแรก ลอยลำฉลุยรอบรองฯ วิ่ง 200 เมตรชาย",
+   "summary": "ฝนตกก็ไม่มีปัญหา! บิว ภูริพล เข้าที่ 1 ฮีตแรก ลอยลำฉลุย […]",
+   "link": "https://www.matichon.co.th/sport/thai-sport/news_5905822",
+   "date": "2026-09-26T03:14:42Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: ปชป.ห่วงฝนหนัก เตือนจุดเสี่ยงยกของหนีน้ำ จี้ ‘เจเศรษฐ์’ เร่งยิง Cell Broadcast เตือนภัยด่วน",
+   "summary": "พศิน สส.ระยอง ปชป.ห่วงฝนถล่มบูรพาจม ส่งสัญญาณเตือนจุดเส […]",
+   "link": "https://www.matichon.co.th/politics/news_5905815",
+   "date": "2026-09-26T03:12:51Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: เช็กที่นี่ รฟม. เปิดให้จอดรถฟรี 9 สถานี กรุงเทพฯ-ปริมณฑล ตั้งแต่วันนี้-2 ตุลาคม",
+   "summary": "เช็กที่นี่ รฟม. เปิดให้จอดรถฟรี 9 สถานี กรุงเทพฯ-ปริมณฑ […]",
+   "link": "https://www.matichon.co.th/local/news_5905817",
+   "date": "2026-09-26T03:10:48Z"
+  },
+  {
+   "feed": "world-headlines",
+   "title": "Yemeni leader urges public to enlist, offers amnesty to Houthi defectors",
+   "summary": "Rashad al-Alimi pledges amnesty for Houthi defectors in first speech since losing ground on the western Red Sea coast.",
+   "link": "https://www.aljazeera.com/news/2026/9/26/yemeni-leader-urges-public-to-enlist-offers-amnesty-to-houthi-defectors?traffic_source=rss",
+   "date": "2026-09-26T03:10:43Z"
+  },
+  {
+   "feed": "japan-news",
+   "title": "The Mainichi: Father held for throwing 2 kids off 6th-floor balcony in central Japan",
+   "summary": "GIFU (Kyodo) -- A 25-year-old man was arrested on the spot on Saturday for allegedly throwing his two daughters off the balcony of his sixth-floor apa",
+   "link": "https://mainichi.jp/english/articles/20260926/p2g/00m/0na/016000c",
+   "date": "2026-09-26T03:08:17Z"
+  },
+  {
+   "feed": "world-headlines",
+   "title": "UNGA81: Why has Africa’s Security Council reform push remained unresolved?",
+   "summary": "Africa wants permanent seats and veto power, but agreement remains elusive.",
+   "link": "https://www.aljazeera.com/news/2026/9/26/unga81-why-has-africas-security-council-reform-push-remained-unresolved?traffic_source=rss",
+   "date": "2026-09-26T03:07:55Z"
+  },
+  {
+   "feed": "japan-news",
+   "title": "The Mainichi: The Mainichi News Quiz: What are the Aichi-Nagoya Asian Games organizers so sorry for?",
+   "summary": "How closely have you been following events in Japan? Try The Mainichi News Quiz for Sept. 26 to test your news knowledge. Ready?What did the Aichi-Nag",
+   "link": "https://mainichi.jp/english/articles/20260926/p2a/00m/0et/001000c",
+   "date": "2026-09-26T03:01:31Z"
+  },
+  {
+   "feed": "china-news",
+   "title": "SCMP: Will the Trump-Xi wartime ally nostalgia prompt a Japanese rethink on China ties?",
+   "summary": "Japanese Prime Minister Sanae Takaichi is reportedly trying to arrange a phone call with Donald Trump following the US president’s nostalgic invocation of the alliance with China during World War II, references that sent shock waves through Tokyo.\nTrump made the references as he welcomed Chinese Pre",
+   "link": "https://www.scmp.com/news/china/diplomacy/article/3368878/will-trump-xi-wartime-ally-nostalgia-prompt-japanese-rethink-china-ties?utm_source=rss_feed",
+   "date": "2026-09-26T03:00:10Z"
+  },
+  {
+   "feed": "hurricanes",
+   "title": "Tropical Storm Fay (AT1), advisory 26/0258Z",
+   "summary": "FAY CONTINUES TO WEAKEN OVER THE ATLANTIC OCEAN. As of 3:00 AM GMT Sat Sep 26 the center of Fay was located near 29.9, -43.4 with movement WSW at 7 mph. The minimum central pressure was 1006 mb with maximum sustained winds of about 40 mph.",
+   "link": "https://www.nhc.noaa.gov/text/refresh/MIATCPAT1+shtml/260258.shtml",
+   "date": "2026-09-26T02:58:50Z"
+  },
+  {
+   "feed": "hurricanes",
+   "title": "Hurricane Polo (EP2), advisory 26/0255Z",
+   "summary": "POLO REMAINS A POWERFUL CATEGORY 5 HURRICANE. ...HURRICANE WATCH ISSUED FOR PORTIONS OF BAJA CALIFORNIA SUR... As of 8:00 PM MST Fri Sep 25 the center of Polo was located near 17.4, -110.1 with movement WNW at 10 mph. The minimum central pressure was 911 mb with maximum sustained winds of about 175 ",
+   "link": "https://www.nhc.noaa.gov/text/refresh/MIATCPEP2+shtml/260255.shtml",
+   "date": "2026-09-26T02:55:19Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "The Hindu: Telangana SIR: Over 60% SIR notices issued in Hyderabad periphery, below 35% in Hyderabad district",
+   "summary": "According to the report, the reason recorded for the largest share of notices was “Unmapped with Last SIR”, which accounted for 34.9% of all notices",
+   "link": "https://www.thehindu.com/news/national/telangana/telangana-sir-over-60-sir-notices-issued-in-hyderabad-periphery-below-35-in-hyderabad-district/article71508405.ece",
+   "date": "2026-09-26T02:54:54Z"
+  },
+  {
+   "feed": "china-news",
+   "title": "CGTN (Chinese state media): China's Kubuqi renewable energy base hits key milestone",
+   "summary": "China's Kubuqi renewable energy base hits key milestone",
+   "link": "https://news.cgtn.com/news/2026-09-26/China-s-Kubuqi-renewable-energy-base-hits-key-milestone-1QKlWEM7LXO/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China",
+   "date": "2026-09-26T02:54:28Z"
+  },
+  {
+   "feed": "japan-news",
+   "title": "Japan Today: Supreme Court rejects Trump-backed Missouri congressional map for the third time",
+   "summary": "The Supreme Court on Friday turned away an attempt to use a new Missouri congressional map backed by President Donald Trump, putting an end to a long-running legal…",
+   "link": "https://japantoday.com/category/world/supreme-court-rejects-a-trump-backed-missouri-congressional-map-for-the-third-time1",
+   "date": "2026-09-26T02:53:51Z"
+  },
+  {
+   "feed": "hurricanes",
+   "title": "Hurricane Odalys (EP1), advisory 26/0252Z",
+   "summary": "ODALYS STILL A MAJOR HURRICANE AS IT MOVES SLOWLY NORTHWARD. As of 8:00 PM PDT Fri Sep 25 the center of Odalys was located near 18.8, -123.6 with movement N at 5 mph. The minimum central pressure was 952 mb with maximum sustained winds of about 120 mph.",
+   "link": "https://www.nhc.noaa.gov/text/refresh/MIATCPEP1+shtml/260252.shtml",
+   "date": "2026-09-26T02:52:16Z"
+  },
+  {
+   "feed": "russia-news",
+   "title": "TASS (Russian state media): Hormuz blockade to threaten to least 45 million people with food shortages — UN",
+   "summary": "Under-Secretary-General and Director of the UN Office for Project Services Jorge Moreira da Silva stressed that a humanitarian crisis can be avoided if at least five or seven ships carrying fertilizers pass through this strait per day",
+   "link": "https://tass.com/society/2193195",
+   "date": "2026-09-26T02:51:25Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: ลุ้นตำแหน่ง",
+   "summary": "ลุ้นตำแหน่ง ช่วงนี้ใครผ่านแถวกระทรวงดีอี อาจเห็นบรรยากา […]",
+   "link": "https://www.matichon.co.th/economy/coffee-break/news_5905346",
+   "date": "2026-09-26T02:46:30Z"
+  },
+  {
+   "feed": "japan-news",
+   "title": "The Japan Times: When infinity becomes finite: How will Yayoi Kusama’s death influence the art market?",
+   "summary": "There will be no new Kusamas, but rarity is another matter. Her death exposes the very different kinds of scarcity within her vast body of work.",
+   "link": "https://www.japantimes.co.jp/culture/2026/09/26/art/yayoi-kusama-posthumous-exhibition-value/",
+   "date": "2026-09-26T02:45:00Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: ศุภจี สั่ง พณ.รับมือฝนหนัก ดูแลสินค้าไม่ขาด–ราคาไม่แพง",
+   "summary": "ศุภจี สั่ง พณ.รับมือฝนหนัก ดูแลสินค้าไม่ขาด–ราคาไม่แพง […]",
+   "link": "https://www.matichon.co.th/economy/news_5905798",
+   "date": "2026-09-26T02:44:54Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: กทม. สั่งด่วน 7 ข้อ เร่งช่วยเหลือปชช.ทั่วกรุงฯ จัด ‘จุดจอด’ รถรับ-ส่ง ศูนย์พักพิงในร.ร.",
+   "summary": "ชัชชาติ สั่งการ 7 ข้อ เร่งช่วยเหลือปชช.ทุกเขต จัดรถรับ- […]",
+   "link": "https://www.matichon.co.th/local/news_5905805",
+   "date": "2026-09-26T02:43:53Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "ประชาชาติธุรกิจ: กทม.เปิดเว็บ เช็คถนนน้ำท่วม แบบเรียลไทม์",
+   "summary": "กทม. ใช้ claude.ai สร้างเว็บไซต์เช็คเส้นทางน้ำท่วมแบบเรียลไทม์ กรุงเทพมหานคร เปิด เว็บไซต์รายงานสถานการณ์น้ำท่วมถนนทั่วกรุงเทพแบบเรียลไทม์ ด้วยการใช้ claude.ai ดึงข้อมูลจาก Google Maps โดยผู้ใช้สามารถค้นหาจากชื่อเขต ชื่อถนน รวมถึงเลือกดูในพื้นที่ต่าง …\nอ่านข่าวต้นฉบับ: กทม.เปิดเว็บ เช็คถนนน้ำท่วม แบ",
+   "link": "https://www.prachachat.net/tech/news-2071993",
+   "date": "2026-09-26T02:40:27Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "ประชาชาติธุรกิจ: ศุภจี สั่งรับมือฝนหนัก คุมของไม่ขาด-ราคาไม่พุ่ง เร่งส่งสินค้าช่วยพื้นที่น้ำท่วม",
+   "summary": "รมว.พาณิชย์ เกาะติดสถานการณ์ฝนหนักและน้ำท่วมทั่วประเทศ กำชับสินค้าจำเป็นต้องไม่ขาดแคลนและราคาไม่แพง เร่งเช็กปริมาณสินค้า ราคาและความต้องการในพื้นที่ ประสานห้างค้าส่ง ค้าปลีก และผู้ประกอบการเติมสต๊อกและจัดส่งของจำเป็นเข้าพื้นที่ได้รับผลกระทบ หากพบกักต …\nอ่านข่าวต้นฉบับ: ศุภจี สั่งรับมือฝนหนัก คุมของไ",
+   "link": "https://www.prachachat.net/economic/news-2071994",
+   "date": "2026-09-26T02:40:04Z"
+  },
+  {
+   "feed": "china-news",
+   "title": "CGTN (Chinese state media): Shanghai audiovisual arts carnival spotlights tech fusion",
+   "summary": "The 2026 International Audio-Visual Arts Carnival is taking place at the Shanghai Exhibition Center and across Jing'an District, bringing interactive audiovisual experiences directly into urban public spaces and commercial hubs.",
+   "link": "https://news.cgtn.com/news/2026-09-26/Shanghai-audiovisual-arts-carnival-spotlights-tech-fusion-1QKkp0btYt2/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China",
+   "date": "2026-09-26T02:38:12Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: พระมหานภันต์ เผยถูกเครือโรงแรมดังปฏิเสธเข้าพัก หลังตกเครื่องเพราะดีเลย์ อ้าง เจ้าของเคร่งศาสนา",
+   "summary": "พระมหานภันต์ เผยถูกเครือโรงแรมดังปฏิเสธเข้าพัก หลังตกเค […]",
+   "link": "https://www.matichon.co.th/local/religious/news_5905797",
+   "date": "2026-09-26T02:34:50Z"
+  },
+  {
+   "feed": "russia-news",
+   "title": "TASS (Russian state media): Number of victims of Japan’s typhoon rises to 12",
+   "summary": "Most of them became victims of landslides; some drowned in their submerged vehicles, which got trapped in low-lying areas",
+   "link": "https://tass.com/emergencies/2193193",
+   "date": "2026-09-26T02:34:46Z"
+  },
+  {
+   "feed": "hurricanes",
+   "title": "Tropical Storm Gonzalo (AT2), advisory 26/0232Z",
+   "summary": "GONZALO WEAKENS AS IT CONTINUES NORTHWARD. As of 2:00 AM CVT Sat Sep 26 the center of Gonzalo was located near 16.9, -22.5 with movement N at 9 mph. The minimum central pressure was 1002 mb with maximum sustained winds of about 45 mph.",
+   "link": "https://www.nhc.noaa.gov/text/refresh/MIATCPAT2+shtml/260232.shtml",
+   "date": "2026-09-26T02:32:46Z"
+  },
+  {
+   "feed": "china-news",
+   "title": "CGTN (Chinese state media): China wins 100th gold at Aichi-Nagoya Asian Games",
+   "summary": "China wins 100th gold at Aichi-Nagoya Asian Games",
+   "link": "https://news.cgtn.com/news/2026-09-26/China-wins-100th-gold-at-Aichi-Nagoya-Asian-Games-1QKnfDbYZxu/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China",
+   "date": "2026-09-26T02:31:50Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "The Hindu: Asian Games 2026 India’s medallists: Full list of winners",
+   "summary": "Here’s the full list of Indian medallists at the Aichi-Nagoya Asian Games 2026 categorised by sport",
+   "link": "https://www.thehindu.com/sport/asian-games-2026-india-medalists-full-list-of-winners-aichi-nagoya-japan/article71491065.ece",
+   "date": "2026-09-26T02:28:19Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: ฝันร้ายของชาวพุทธ หยุดกันได้หรือยัง?",
+   "summary": "ฝันร้ายของชาวพุทธ หยุดกันได้หรือยัง? กลายเป็นข่าวร้ายแล […]",
+   "link": "https://www.matichon.co.th/article/news_5904829",
+   "date": "2026-09-26T02:27:29Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "ประชาชาติธุรกิจ: แฟชั่นไอส์แลนด์-เดอะ พรอมานาด ปิดชั่วคราว 26 ก.ย.",
+   "summary": "ศูนย์การค้า Fashionisland และ The Promenade แจ้งปิดให้บริการชั่วคราวเสาร์ที่ 26 กันยายน 2569 เนื่องจากน้ำท่วมลกระทบต่อเส้นทางสัญจรเข้าศูนย์การค้าฯ ศูนย์การค้าF ashionisland และ The Promenade แจ้งผ่านเฟสบุ๊ค Fashionisland & The Promenade เมื่อเวลา …\nอ่านข่าวต้นฉบับ: แฟชั่นไอส์แลนด์-เดอะ พรอมานาด ปิดช",
+   "link": "https://www.prachachat.net/business/news-2071988",
+   "date": "2026-09-26T02:23:58Z"
+  },
+  {
+   "feed": "russia-news",
+   "title": "TASS (Russian state media): EU’s reaction to corruption in Ukraine shows Europeans involved in it — envoy",
+   "summary": "Rodion Miroshnik stressed that even the heads of European states are involved in these corruption schemes",
+   "link": "https://tass.com/politics/2193191",
+   "date": "2026-09-26T02:22:56Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: น้ำป่าทะลักโคราช ท่วมใต้สะพานกลับรถคลองน้ำขาว สีคิ้ว เตือนรถเล็กฝ่าน้ำไม่ได้",
+   "summary": "น้ำป่าทะลักโคราช ท่วมใต้สะพานกลับรถคลองน้ำขาว สีคิ้ว เต […]",
+   "link": "https://www.matichon.co.th/region/news_5905788",
+   "date": "2026-09-26T02:21:44Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: จักรทิพย์ชมโค้ชจีคนที่ใช่ ยกระดับบิว พร้อมต่อสัญญาถ้าอยากร่วมงานต่อ",
+   "summary": "จักรทิพย์ชมโค้ชจีคนที่ใช่ ยกระดับบิว พร้อมต่อสัญญาถ้าอย […]",
+   "link": "https://www.matichon.co.th/sport/thai-sport/news_5905816",
+   "date": "2026-09-26T02:20:40Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "ประชาชาติธุรกิจ: ปฏิรูปประเทศใหม่ทั้งหมด คิกออฟจ่าย 7 พันล้าน-ดันข้าราชการออก",
+   "summary": "นายปกรณ์ นิลประพันธ์ รองนายกรัฐมนตรี มือกฎหมายของรัฐบาล สร้างผลงานจาก “ปฏิรูปราชการ” รื้อ-สางกฎหมายเศรษฐกิจ-ธุรกิจที่ล้าหลังยุคสงครามโลกครั้งที่ 2 ขึ้นปาฐกถาพิเศษในหัวข้อ “Do’s and Don’ts: ประเทศไทยในเกมโลก” จัดโดยสำนักข่าวออนไลน์ไทยพับลิก้า ตอ …\nอ่านข่าวต้นฉบับ: ปฏิรูปประเทศใหม่ทั้งหมด คิกออฟจ่าย 7",
+   "link": "https://www.prachachat.net/politics/news-2071834",
+   "date": "2026-09-26T02:19:29Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "ประชาชาติธุรกิจ: รายได้รัฐ 11 เดือนเกินเป้า ‘2 กรมภาษี’ แป้กกู้ โปะขาดดุล 8 แสนล้าน",
+   "summary": "กระทรวงการคลังเพิ่งรายงานผลการจัดเก็บรายได้รัฐบาล ช่วง 11 เดือนแรกของปีงบประมาณ 2569 (ต.ค. 68-ส.ค. 69) พบว่า รัฐเก็บรายได้สุทธิ 2,606,845 ล้านบาท สูงกว่าประมาณการ 57,498 ล้านบาท หรือสูงกว่าเป้า 2.3% และสูงกว่าช่วงเดียวกันปีก่อน 4% ทั้งนี้ หลัก ๆ มาจา …\nอ่านข่าวต้นฉบับ: รายได้รัฐ 11 เดือนเกินเป้า ‘2 ",
+   "link": "https://www.prachachat.net/finance/news-2071696",
+   "date": "2026-09-26T02:18:48Z"
+  },
+  {
+   "feed": "world-headlines",
+   "title": "Pope Leo XIV makes first official Papal visit in France in nearly 20",
+   "summary": "Pope Leo XIV drew huge crowds on the first Papal visit to France in 18 years.",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/pope-leo-xiv-makes-first-official-papal-visit-in-france-in-nearly-20?traffic_source=rss",
+   "date": "2026-09-26T02:18:09Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "The Hindu: New U.K. Deputy High Commissioner appointed",
+   "summary": "Harshbir Sangha will also serve as the U.K.’s Deputy Trade Commissioner for Investment in South Asia",
+   "link": "https://www.thehindu.com/news/cities/bangalore/new-uk-deputy-high-commissioner-appointed/article71510215.ece",
+   "date": "2026-09-26T02:17:28Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "ประชาชาติธุรกิจ: พิพัฒน์ แม่ทัพกลางเกม 2 น. เพื่อไทย-ภูมิใจไทย สมการรัฐบาล 3 สี",
+   "summary": "โกเกี๊ยะ “พิพัฒน์ รัชกิจประการ” รองนายกรัฐมนตรี และ รมว.คมนาคม ขุนพลคนสำคัญของพรรคภูมิใจไทย จากอดีตที่เคยอยู่แนวหลังการเมือง แต่เมื่อภรรยาของเขา “นาที รัชกิจประการ” ถูกศาลฎีกาแผนกคดีอาญาของผู้ดำรงตำแหน่งทางการเมือง ตัดสินห้ามเล่นการเมืองตลอดไป …\nอ่านข่าวต้นฉบับ: พิพัฒน์ แม่ทัพกลางเกม 2 น. เพื่อไทย-ภ",
+   "link": "https://www.prachachat.net/politics/news-2071342",
+   "date": "2026-09-26T02:15:31Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "The Hindu: The rebranding of Ahmedabad’s food scene",
+   "summary": "Long known for its thalis and street food, Ahmedabad is developing an experimental, ambitious dining culture. With no cocktails to anchor the business, restaurateurs are getting inventive — with sprawling restaurants, specialised cuisines and mixologists creating sophisticated zero-proof drinks. Her",
+   "link": "https://www.thehindu.com/food/dining/the-rebranding-of-ahmedabads-food-scene/article70646153.ece",
+   "date": "2026-09-26T02:15:02Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: ชัชชาติ ชี้สถานการณ์ ‘ยังไม่ดีขึ้น’ ฝนหมุนวน ทำน้ำเต็มแล้วทุกคลอง รองฯแนะ 17 เส้นทางหลีกเลี่ยง",
+   "summary": "ชัชชาติ ชี้ สถานการณ์เช้านี้ ‘ยังไม่ดีขึ้น’ […]",
+   "link": "https://www.matichon.co.th/local/quality-life/news_5905785",
+   "date": "2026-09-26T02:13:48Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "ประชาชาติธุรกิจ: น้ำท่วม ‘วิกฤตกรุงเทพ’ ตลาดหลักทรัพย์ฯ เลื่อนจัดงาน-กทม.วอนงดเดินทาง",
+   "summary": "น้ำท่วม กรุงเทพ วิกฤต ตลาดหลักทรัพย์ฯ เลื่อนจัดงาน-กทม.วอนงดเดินทาง สถานการณ์น้ำท่วมในพื้นที่กรุงเทพฯ ปริมณฑลเช้านี้ (26 ก.ย.) วิกฤตหลายพื้นที่ ถนนวิภาวดีรังสิตขาเข้าอ่วม “ศูนย์ป้องกันน้ำท่วม” วอนประชาชนงดเดินทาง ด้าน “ตลาดหลักทรัพย …\nอ่านข่าวต้นฉบับ: น้ำท่วม ‘วิกฤตกรุงเทพ’ ตลาดหลักทรัพย์ฯ เลื่อนจัด",
+   "link": "https://www.prachachat.net/finance/news-2071985",
+   "date": "2026-09-26T02:13:21Z"
+  },
   {
    "feed": "japan-news",
    "title": "The Mainichi: False claims alleging theft by foreigners in Japan spread on social media",
    "summary": "TOKYO (Kyodo) -- Videos falsely portraying foreigners as stealing metal from railway tracks in Japan have spread widely on the country's social media,",
    "link": "https://mainichi.jp/english/articles/20260926/p2g/00m/0na/012000c",
    "date": "2026-09-26T02:13:00Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "The Hindu: Sustainable tourism in Visakhapatnam: Travel beyond the checklist",
+   "summary": "Ahead of World Tourism Day, a look at how four initiatives from Visakhapatnam and the Eastern Ghats are reshaping travel around Nature, communities and low-impact experiences",
+   "link": "https://www.thehindu.com/life-and-style/travel/sustainable-tourism-in-visakhapatnam-travel-beyond-the-checklist/article71502986.ece",
+   "date": "2026-09-26T02:11:27Z"
   },
   {
    "feed": "typhoons",
@@ -448,6 +1063,20 @@
    "summary": "อินทรีคุมฟ้า มังกรพ่นไฟ อ่านธีมลงทุนจีนหลัง ทรัมป์ พบ ส […]",
    "link": "https://www.matichon.co.th/economy/news_5905381",
    "date": "2026-09-26T02:09:28Z"
+  },
+  {
+   "feed": "china-news",
+   "title": "CGTN (Chinese state media): Try your hand at Shanghai's WorldSkills Expo",
+   "summary": "Try your hand at Shanghai's WorldSkills Expo",
+   "link": "https://news.cgtn.com/news/2026-09-26/Try-your-hand-at-Shanghai-s-WorldSkills-Expo-1QJszE7qaqI/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China",
+   "date": "2026-09-26T02:09:19Z"
+  },
+  {
+   "feed": "world-headlines",
+   "title": "TikTok to pay $100 million to Alabama in teen addiction settlement",
+   "summary": "TikTok has settled and agreed to pay the US state of Alabama at least $100 million dollars days before trial.",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/tiktok-to-pay-100-million-to-alabama-in-teen-addiction-settlement?traffic_source=rss",
+   "date": "2026-09-26T02:09:10Z"
   },
   {
    "feed": "insider-trades",
@@ -471,13 +1100,6 @@
    "date": "2026-09-26T02:00:37Z"
   },
   {
-   "feed": "china-news",
-   "title": "SCMP: Offshore wind farm could create radar blind spots and ‘ghost’ targets, Chinese study warns",
-   "summary": "Offshore wind farms can reduce the coverage of shore-based radar systems and create areas where targets become harder to detect, according to a new study.\nThe researchers found that at a range of 5km (3 miles), effective radar coverage fell by 6.9 per cent while blind spots increased by 14.9 per cen",
-   "link": "https://www.scmp.com/news/china/science/article/3368851/offshore-wind-farm-could-create-radar-blind-spots-and-ghost-targets-chinese-study-warns?utm_source=rss_feed",
-   "date": "2026-09-26T02:00:18Z"
-  },
-  {
    "feed": "thailand-news-th",
    "title": "มติชน: ย้อนอดีตบนรอยร้าว สัมพันธ์วัฒนธรรมไทย–กัมพูชา",
    "summary": "ย้อนอดีตบนรอยร้าว สัมพันธ์วัฒนธรรมไทย–กัมพูชา หากพิจารณ […]",
@@ -490,6 +1112,13 @@
    "summary": "FUJIKAWAGUCHIKO, Yamanashi -- Erina Honda, 11, passed Grade 1 of the Eiken English test. It is a very hard test. The level is like advanced university",
    "link": "https://mainichi.jp/english/articles/20260924/p2a/00m/0na/028000c",
    "date": "2026-09-26T02:00:09Z"
+  },
+  {
+   "feed": "russia-news",
+   "title": "TASS (Russian state media): Europe to gain from resuming dialogue with Russia before special military operation ends",
+   "summary": "A member of the State Duma Defense Committee Andrey Kolesnik also recalled the Latin saying \"woe to the vanquished\"",
+   "link": "https://tass.com/politics/2193189",
+   "date": "2026-09-26T02:00:01Z"
   },
   {
    "feed": "india-news",
@@ -688,27 +1317,6 @@
    "date": "2026-09-26T01:26:21Z"
   },
   {
-   "feed": "thailand-news-th",
-   "title": "ประชาชาติธุรกิจ: กทม.เตรียมประกาศพื้นที่ประสบสาธารณภัย 50 เขต ‘ชัชชาติ’ สั่งเปิดศูนย์พักพิง–เร่งระบายน้ำ",
-   "summary": "กทม.เร่ง 7 มาตรการรับมืออุทกภัย ‘ผู้ว่าฯ ชัชชาติ’ สั่งดูแลประชาชน–เปิดศูนย์พักพิง–เร่งระบายน้ำ เตรียมประกาศพื้นที่ประสบสาธารณภัยครอบคลุม 50 เขต วันที่ 26 ก.ย. เวลา 05.00 น. นายชัชชาติ สิทธิพันธุ์ ผู้ว่าราชการกรุงเทพมหานคร เป็นประธานการประ …\nอ่านข่าวต้นฉบับ: กทม.เตรียมประกาศพื้นที่ประสบสาธารณภัย 50 เ",
-   "link": "https://www.prachachat.net/politics/news-2071981",
-   "date": "2026-09-26T01:24:46Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "มติชน: ชัชชาติ จ่อประกาศ พื้นที่ประสบภัยทั้งกทม. รองผู้ว่าฯ กำลังร่าง – เพิ่มกระสอบทรายแจก 1 ล้านใบ",
-   "summary": "ชัชชาติ ‘กังวลผู้ป่วยติดเตียง’ ชี้ใครมีปัญหาโทรแจ้ง 166 […]",
-   "link": "https://www.matichon.co.th/local/news_5905753",
-   "date": "2026-09-26T01:24:44Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "มติชน: GLOBAL MUAY THAI SONGKHLA FESTIVAL ตั้งเป้าดึงผู้ร่วมงาน 10,000 คน สร้างเงินหมุนเวียนทางเศรษฐกิจในสงขลา 100 ล้าน",
-   "summary": "GLOBAL MUAY THAI SONGKHLA FESTIVAL ตั้งเป้าดึงผู้ร่วมงา […]",
-   "link": "https://www.matichon.co.th/sport/boxing/news_5905752",
-   "date": "2026-09-26T01:23:15Z"
-  },
-  {
    "feed": "thailand-weather",
    "title": "Pattaya: heavy rain, 27°C now",
    "summary": "Next 6 hours: 26–27°C, 13.8 mm of rain, humidity 81%. Forecast by MET Norway.",
@@ -751,46 +1359,11 @@
    "date": "2026-09-26T01:17:10Z"
   },
   {
-   "feed": "thailand-news-th",
-   "title": "มติชน: รมว.แรงงาน ยันเอง เลือกตั้งประกันสังคม จดเลขใส่มือ-กระดาษได้ ไม่ผิด ย้ำเป็นกติกาเดิม ไม่มีเอื้อประโยชน์ใคร",
-   "summary": "รมว.แรงงาน ยันเอง เลือกตั้งประกันสังคม จดเลขใส่มือ-กระด […]",
-   "link": "https://www.matichon.co.th/politics/news_5905748",
-   "date": "2026-09-26T01:07:56Z"
-  },
-  {
    "feed": "russia-news",
    "title": "TASS (Russian state media): West raised terrorists in Kiev capable of making bombs from children's toys — DPR head",
    "summary": "According to Denis Pushilin, the West’s tacit approval of terrorism is accompanied by support for such technical means, against which there is no full·fledged \"antidote\"",
    "link": "https://tass.com/politics/2193181",
    "date": "2026-09-26T01:07:00Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "ประชาชาติธุรกิจ: “เนเน่” Rockstar สร้างประวัติศาสตร์ ภูเก็ต-ประเทศไทย",
-   "summary": "“เนเน่” คือเพชรเม็ดงามที่เกิดโดยธรรมชาติ และได้รับการเจียระไนให้เป็น “เพชรนํ้าหนึ่ง” อย่างถูกที่ถูกเวลา ด้วยพรสวรรค์และวินัยที่แข็งกล้าทำให้เธอคว้าแชมป์ America’s Got Talent 2026 (AGT) ได้สำเร็จในฐานะคนไทยคนแรก ครอบครัวหนุน-ชื่อดังทั่วโลก ประวัติศาสต …\nอ่านข่าวต้นฉบับ: “เนเน่” Rockstar สร้างประวัติศ",
-   "link": "https://www.prachachat.net/biz-movement/news-2071817",
-   "date": "2026-09-26T01:02:00Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "มติชน: งบประชาสัมพันธ์ 35 ล้านบาท เพียงพอสร้างการรับรู้ ‘เลือกตั้งบอร์ดประกันสังคม’ หรือไม่?",
-   "summary": "งบประชาสัมพันธ์ 35 ล้านบาท เพียงพอสร้างการรับรู้ ‘ […]",
-   "link": "https://www.matichon.co.th/local/quality-life/news_5905393",
-   "date": "2026-09-26T01:00:38Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "มติชน: เกิดน้อย เสี่ยงมาก เด็กไทยในวงล้อมปัจจัยอบายมุข",
-   "summary": "เกิดน้อย เสี่ยงมาก เด็กไทยในวงล้อมปัจจัยอบายมุข ประเทศไ […]",
-   "link": "https://www.matichon.co.th/local/quality-life/news_5901038",
-   "date": "2026-09-26T01:00:21Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "ประชาชาติธุรกิจ: เบนซ์หนุนรัฐบาลปรับภาษีอีวี ชี้ต้องเป็นธรรม-ช่วยพัฒนาอุตสาหกรรม",
-   "summary": "เบนซ์เผยไทยยังเป็นฐานผลิตหลัก และเป็นตลาดสำคัญ หลังเตรียมส่งรถยนต์อีวี รุ่นใหม่ The All-New Electric GLC จากโรงงานธนบุรีฯ ทำตลาด ประกาศชัดพร้อมหนุนรัฐบาลเดินหน้าปรับโครงสร้างภาษีใหม่ เชื่อส่งผลดีต่ออุตสาหกรรม นายคริสเตียน เชลล์ ประธานบริหารและกรรมก …\nอ่านข่าวต้นฉบับ: เบนซ์หนุนรัฐบาลปรับภาษีอีวี ชี้ต",
-   "link": "https://www.prachachat.net/automotive/news-2071228",
-   "date": "2026-09-26T00:59:00Z"
   },
   {
    "feed": "japan-news",
@@ -800,13 +1373,6 @@
    "date": "2026-09-26T00:56:00Z"
   },
   {
-   "feed": "thailand-news-th",
-   "title": "มติชน: เขื่อนเจ้าพระยา ระบายน้ำเพิ่มเป็น 1,850 ลบ.ม./วินาที แนะชาวอยุธยา 6 อำเภอ ยกของสูง",
-   "summary": "เขื่อนเจ้าพระยา ระบายน้ำเพิ่มเป็น 1,850 ลบ.ม./วินาที แน […]",
-   "link": "https://www.matichon.co.th/region/news_5905744",
-   "date": "2026-09-26T00:52:42Z"
-  },
-  {
    "feed": "russia-news",
    "title": "TASS (Russian state media): Ukrainian drone attack on southern Russia kills people, wounds one person",
    "summary": "Kuban Governor Veniamin Kondratyev said that drone debris damaged a residential building and fires broke out on the premises of two enterprises",
@@ -814,11 +1380,18 @@
    "date": "2026-09-26T00:50:01Z"
   },
   {
-   "feed": "thailand-news-th",
-   "title": "มติชน: เท้ง แนะ กทม. เร่งระดมเครื่องสูบน้ำ ปภ. เสริมกำลัง ประกาศเส้นทางวิกฤต-ให้เวิร์กฟอร์มโฮม",
-   "summary": "‘ณัฐพงษ์’ ชง 4 มาตรการเร่งด่วนแก้น้ำท่วม กทม. จี้ระดมเค […]",
-   "link": "https://www.matichon.co.th/politics/news_5905739",
-   "date": "2026-09-26T00:42:03Z"
+   "feed": "japan-news",
+   "title": "The Japan Times: How firms linked to sanctioned Chinese cotton giant sell clothes to U.S.",
+   "summary": "Since Esquel's blacklisting, three garment makers in Vietnam have continued to source much of its cotton while also selling products to the U.S.",
+   "link": "https://www.japantimes.co.jp/news/2026/09/26/asia-pacific/sanctioned-chinese-cotton-clothes-us/",
+   "date": "2026-09-26T00:47:00Z"
+  },
+  {
+   "feed": "japan-news",
+   "title": "The Japan Times: Trump administration to meet Ukraine assistance deadline",
+   "summary": "As of early this week, $307 million of the $400 million of the Ukraine Security Assistance Initiative funding had been obligated, sources said.",
+   "link": "https://www.japantimes.co.jp/news/2026/09/26/world/politics/trump-meet-ukraine-assistance-deadline/",
+   "date": "2026-09-26T00:46:00Z"
   },
   {
    "feed": "world-headlines",
@@ -833,13 +1406,6 @@
    "summary": "Claims that a Canadian-Haitian writer used AI tools to write his best-selling debut novel are posing questions about how AI can be detected.",
    "link": "https://www.japantimes.co.jp/news/2026/09/26/world/spotting-ai-writing-focus/",
    "date": "2026-09-26T00:37:00Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "มติชน: เปิดภาพภายใน สถานีดินแดง รอรับหัวเจาะ อุโมงค์รถไฟฟ้าใต้ดินสายสีส้ม",
-   "summary": "เปิดภาพภายใน รฟฟ.สายสีส้ม สถานีดินแดง รอรับหัวเจาะอุโมง […]",
-   "link": "https://www.matichon.co.th/economy/news_5905568",
-   "date": "2026-09-26T00:35:53Z"
   },
   {
    "feed": "russia-news",
@@ -863,13 +1429,6 @@
    "date": "2026-09-26T00:29:00Z"
   },
   {
-   "feed": "thailand-news-th",
-   "title": "มติชน: เตือน7ถนนกรุงท่วมหนัก รถเล็กห้ามผ่าน แจ้งวัฒนะ-ราม-ลาดกระบัง",
-   "summary": "เตือน7ถนนกรุงท่วมหนัก รถเล็กห้ามผ่าน แจ้งวัฒนะ-ราม-ลาดก […]",
-   "link": "https://www.matichon.co.th/local/news_5905735",
-   "date": "2026-09-26T00:28:23Z"
-  },
-  {
    "feed": "typhoons",
    "title": "Tropical Storm 25W (Surigae) Warning #11 (Northwest Pacific/North Indian Ocean*)",
    "summary": "Tropical Storm 25W (Surigae) Warning #11\nIssued at 25/2100Z\nTC Warning Text\nTC Warning Graphic\nPrognostic Reasoning\nJMV 3.0 Data\nGoogle Earth Overlay\nIR Satellite Imagery\nSatellite Fix Bulletin\n* Includes Bay of Bengal and Arabian Sea",
@@ -885,10 +1444,10 @@
   },
   {
    "feed": "thailand-news-th",
-   "title": "มติชน: อุตุฯ เตือน กรุงเทพฯ มีฝนตกหนักมากหลายพื้นที่ ลมแปรปรวน ความเร็ว 10-25 กม./ชม.",
-   "summary": "อุตุฯ เตือน กรุงเทพฯ มีฝนตกหนักมากหลายพื้นที่ ลมแปรปรวน […]",
-   "link": "https://www.matichon.co.th/local/news_5905729",
-   "date": "2026-09-26T00:18:39Z"
+   "title": "มติชน: โปรพราวประเดิมรั้งที่ 3 ร่วม รอบแรก สะวิง วอลมาร์ท เอ็นดับเบิลยู อาร์คันซอว์",
+   "summary": "โปรพราวประเดิมรั้งที่ 3 ร่วม รอบแรก สะวิง วอลมาร์ท เอ็น […]",
+   "link": "https://www.matichon.co.th/sport/golf/news_5905845",
+   "date": "2026-09-26T00:23:58Z"
   },
   {
    "feed": "russia-news",
@@ -905,39 +1464,11 @@
    "date": "2026-09-26T00:09:45Z"
   },
   {
-   "feed": "thailand-news-th",
-   "title": "มติชน: ผู้ว่ากทม. ประกาศ 3 เขต หนองจอก-สวนหลวง-คันนายาว พื้นที่ภัยพิบัติอุทกภัย",
-   "summary": "ผู้ว่ากทม. ประกาศ 3 เขต หนองจอก-สวนหลวง-คันนายาว พื้นที […]",
-   "link": "https://www.matichon.co.th/local/news_5905725",
-   "date": "2026-09-26T00:08:37Z"
-  },
-  {
    "feed": "india-news",
    "title": "The Hindu: 2020 Delhi riots case: Supreme Court relaxes specific bail condition for about-to-be-married accused",
    "summary": "Bench reduces Meeran Haider’s mandatory police station appearances from twice a week to once weekly",
    "link": "https://www.thehindu.com/news/cities/Delhi/2020-delhi-riots-case-supreme-court-relaxes-specific-bail-condition-for-about-to-be-married-accused/article71509648.ece",
    "date": "2026-09-26T00:08:01Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "ประชาชาติธุรกิจ: รับมือวิกฤต “น้ำมันแพง” 2 ปี ถกคลังคํ้าเงินกู้แสนล้านโปะกองทุน",
-   "summary": "ประเทศไทยเตรียมรับวิกฤตน้ำมันรอบใหม่สาหัส ครม.อนุมัติแผนรับมือยาว 3 ปี จนถึงปี’72 ขีดเส้นกองทุนน้ำมันฯ อุ้ม 3 กรณี “ราคาพุ่ง-ผันผวน-ขาดแคลน” พร้อมขยายกรอบผันผวนจาก 5 ดอลลาร์ต่อบาร์เรล เป็น 10 ดอลลาร์ภายใน 1 สัปดาห์ สนพ.เผยกองทุนน้ำมันฯ หลังแอ่น ติดลบ …\nอ่านข่าวต้นฉบับ: รับมือวิกฤต “น้ำมันแพง” 2 ปี ถ",
-   "link": "https://www.prachachat.net/economic/news-2071831",
-   "date": "2026-09-26T00:05:00Z"
-  },
-  {
-   "feed": "china-news",
-   "title": "SCMP: Xi-Trump atmospherics welcomed but mask structural rifts: analysts",
-   "summary": "During their three-day summit that ended on Friday, US President Donald Trump and Chinese President Xi Jinping worked overtime to underscore their increasingly close relationship even as the meeting produced few concrete deliverables.\nBut the fact that the two economic and military giants are talkin",
-   "link": "https://www.scmp.com/news/china/diplomacy/article/3368875/xi-trump-atmospherics-welcomed-mask-structural-rifts-analysts?utm_source=rss_feed",
-   "date": "2026-09-26T00:02:27Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "มติชน: มันชินี่พาอิตาลีพ่ายเบลเยียม 0-2 ซีดานนำฝรั่งเศสบุกชนะตุรกี 1-0 ศึกเนชั่นส์ลีก",
-   "summary": "มันชินี่พาอิตาลีพ่ายเบลเยียม 0-2 ซีดานนำฝรั่งเศสบุกชนะต […]",
-   "link": "https://www.matichon.co.th/sport/footballinter/news_5905768",
-   "date": "2026-09-26T00:00:54Z"
   },
   {
    "feed": "japan-news",
@@ -1010,13 +1541,6 @@
    "date": "2026-09-25T23:42:39Z"
   },
   {
-   "feed": "thailand-news-th",
-   "title": "มติชน: ศาลปกครอง ยกคำร้อง สรณ ชี้ขาดคุณสมบัติ กสทช.เจ้าตัวเตรียมยื่นอุทธรณ์",
-   "summary": "ศาลปกครอง ยกคำร้อง ‘สรณ’ ชี้ขาดคุณสมบัติ กส […]",
-   "link": "https://www.matichon.co.th/economy/news_5905671",
-   "date": "2026-09-25T23:40:58Z"
-  },
-  {
    "feed": "japan-news",
    "title": "Japan Today: Former far-right group member found guilty of murdering Argentina rugby star",
    "summary": "A former member of a violent far-right group was found guilty on ‌Friday of murdering former Argentina rugby international Federico Aramburu four years ago in Paris, following an altercation…",
@@ -1052,25 +1576,11 @@
    "date": "2026-09-25T23:38:28Z"
   },
   {
-   "feed": "thailand-news-th",
-   "title": "ประชาชาติธุรกิจ: ราคาบิตคอยน์วันนี้ (26 ก.ย.) ปรับลง 0.19% อยู่ที่ 84,077 เหรียญสหรัฐ",
-   "summary": "ราคาบิตคอยน์ประจำวันนี้ (26 ก.ย. 69) ปรับลง -0.19% ในช่วงเวลา 24 ชั่วโมง มาอยู่ที่ 84,077 เหรียญสหรัฐ หรือราว 2,806,068.64 บาท เปลี่ยนแปลง 3.63% ในช่วงเวลา 7 วัน ตามข้อมูลอัพเดต เมื่อเวลา 6.18 น. ของวันนี้ สำหรับความเคลื่อนไหวของราคาเหรียญดิจิทัลคริป …\nอ่านข่าวต้นฉบับ: ราคาบิตคอยน์วันนี้ (26 ก.ย.) ป",
-   "link": "https://www.prachachat.net/finance/news-2071977",
-   "date": "2026-09-25T23:38:18Z"
-  },
-  {
    "feed": "hurricanes",
    "title": "Tropical Storm Gonzalo (AT2), advisory 25/2336Z",
    "summary": "GONZALO MOVING NORTHWARD NEAR THE NORTHEASTERN CABO VERDE ISLANDS. As of 11:00 PM CVT Fri Sep 25 the center of Gonzalo was located near 16.4, -22.5 with movement N at 9 mph. The minimum central pressure was 1000 mb with maximum sustained winds of about 50 mph.",
    "link": "https://www.nhc.noaa.gov/text/refresh/MIATCPAT2+shtml/252336.shtml",
    "date": "2026-09-25T23:36:17Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "ประชาชาติธุรกิจ: อนุทินโรดโชว์ตลาดหุ้น “นิวยอร์ก” ดึงบิ๊กธุรกิจสหรัฐลงทุนไทย",
-   "summary": "อนุทิน ชาญวีรกูล นายกรัฐมนตรี และ รมว.มหาดไทย ขึ้นเวทียูเอ็นชูจุดยืน สันติภาพไม่ใช่แค่ปราศจากสงคราม ต้องร่วมมือกันอย่างสร้างสรรค์ย้ำแก้ปัญหาไทย-กัมพูชาต้องใช้เวทีทวิภาคี บุกตลาดหุ้นนิวยอร์กลั่นระฆังเปิดการซื้อขาย พร้อมชวนนักธุรกิจแดนพญาอินทรีลงทุนไทย …\nอ่านข่าวต้นฉบับ: อนุทินโรดโชว์ตลาดหุ้น “นิวยอร์",
-   "link": "https://www.prachachat.net/finance/news-2071823",
-   "date": "2026-09-25T23:35:00Z"
   },
   {
    "feed": "japan-news",
@@ -1101,13 +1611,6 @@
    "date": "2026-09-25T23:32:10Z"
   },
   {
-   "feed": "china-news",
-   "title": "SCMP: What Donald Trump and Xi Jinping revealed in the body language with their wives",
-   "summary": "As Chinese leader Xi Jinping and US President Donald Trump wrapped up their three-day state visit on Friday, a stark contrast in the two presidential couples’ hand-holding dynamics was on display, body language experts said.\nThe exchanges between Xi and his wife, Peng Liyuan, and Trump and first lad",
-   "link": "https://www.scmp.com/news/china/diplomacy/article/3368874/what-donald-trump-and-xi-jinping-revealed-body-language-their-wives?utm_source=rss_feed",
-   "date": "2026-09-25T23:29:47Z"
-  },
-  {
    "feed": "japan-news",
    "title": "The Japan Times: Japan’s bond ‘falling knife’ stalls repatriation rush",
    "summary": "Major investors remain reluctant to commit heavily to domestic bonds while yields are still climbing and few clues about how much rates must rise.",
@@ -1120,13 +1623,6 @@
    "summary": "The currency strengthened as much as 1.2%, the most since Sept. 7, to ¥156.94 per dollar on Friday, outperforming all of its Group-of-10 peers.",
    "link": "https://www.japantimes.co.jp/business/2026/09/26/markets/japan-yen-rises-us/",
    "date": "2026-09-25T23:29:00Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "ประชาชาติธุรกิจ: ราคาน้ำมันวันนี้ (26 ก.ย.) เช็กราคาดีเซล-แก๊สโซฮอล์ล่าสุด",
-   "summary": "ราคาน้ำมันประจำวันนี้ (26 ก.ย.) อ้างอิงข้อมูลปั๊มน้ำมันบางจาก แก๊สโซฮอล์ 95 จำหน่ายที่ราคาลิตรละ 39.94 บาท ส่วนแก๊สโซฮอล์ 91 จำหน่ายที่ราคาลิตรละ 39.57 บาท ด้านราคาดีเซลวันนี้ ดีเซล B7 มีราคา ณ จุดจำหน่ายที่ 41.44 บาท ขณะที่ดีเซล B20 อยู่ที่ลิตรละ 36 …\nอ่านข่าวต้นฉบับ: ราคาน้ำมันวันนี้ (26 ก.ย.) เช็",
-   "link": "https://www.prachachat.net/economic/news-2071974",
-   "date": "2026-09-25T23:23:08Z"
   },
   {
    "feed": "ai-news",
@@ -1150,25 +1646,11 @@
    "date": "2026-09-25T23:20:48Z"
   },
   {
-   "feed": "thailand-news-th",
-   "title": "มติชน: ฝนถล่ม12จว.อ่วม กทม.จม67จุด อยุธยา-สุพรรณฯท่วมหนัก สระบุรี แจ้งเตรียมอพยพ",
-   "summary": "อุตุเตือน’สีแดง’ขั้นสุดถึง 27ก.ย. ฝนถล่ม12จ […]",
-   "link": "https://www.matichon.co.th/local/news_5905659",
-   "date": "2026-09-25T23:20:21Z"
-  },
-  {
    "feed": "russia-news",
    "title": "TASS (Russian state media): US not to include Patriot system missiles in $400 million aid package for Kiev — Reuters",
    "summary": "According to the news agency, this military aid is to be sent to Kiev by October 2029 and will consist of weapons, including parts for armored vehicles",
    "link": "https://tass.com/world/2193163",
    "date": "2026-09-25T23:17:09Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "ประชาชาติธุรกิจ: พยากรณ์อากาศ (26 ก.ย.) เกือบทุกภาคฝนตกหนัก 70-80% กทม.ฝนฟ้าคะนองเกือบทั่ว",
-   "summary": "กรมอุตุฯ พยากรณ์อากาศ (26 ก.ย.) เกือบทั่วทุกภาคมีฝนตกหนักหลายพื้นที่ “ภาคอีสาน กลาง ตะวันออก” ฝน 70-80% กรุงเทพและปริมณฑล ฝนฟ้าคะนองเกือบทั่วไป กรมอุตุนิยมวิทยา พยากรณ์อากาศวันนี้ (26 ก.ย. 69) ภาคเหนือ ภาคตะวันออกเฉียงเหนือ ภาคกลาง รวมทั้ …\nอ่านข่าวต้นฉบับ: พยากรณ์อากาศ (26 ก.ย.) เกือบทุกภาคฝนตกหนัก",
-   "link": "https://www.prachachat.net/uncategorized/news-2071971",
-   "date": "2026-09-25T23:15:34Z"
   },
   {
    "feed": "india-news",
@@ -1213,18 +1695,25 @@
    "date": "2026-09-25T23:02:57Z"
   },
   {
+   "feed": "china-news",
+   "title": "CGTN (Chinese state media): Sourabh Gupta: “China and US are partners, not rivals”",
+   "summary": "Sourabh Gupta: “China and US are partners, not rivals”",
+   "link": "https://newsus.cgtn.com/news/2026-09-26/Sourabh-Gupta-China-and-US-are-partners-not-rivals--1QK5JexfUAg/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China",
+   "date": "2026-09-25T23:02:00Z"
+  },
+  {
+   "feed": "china-news",
+   "title": "CGTN (Chinese state media): Largest soybean producers vie for China’s massive market",
+   "summary": "Largest soybean producers vie for China’s massive market",
+   "link": "https://newsus.cgtn.com/news/2026-09-26/Largest-soybean-producers-vie-for-China-s-massive-market-1QK8cA3fkLm/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China",
+   "date": "2026-09-25T23:01:47Z"
+  },
+  {
    "feed": "russia-news",
    "title": "TASS (Russian state media): Earthquake with magnitude of 6.6 hits off coast of New Caledonia",
    "summary": "There is no information about casualties or damage",
    "link": "https://tass.com/emergencies/2193161",
    "date": "2026-09-25T23:01:02Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "มติชน: อนุทินโชว์วิชั่นเวทียูเอ็น ชูสันติ-รับมือโลกเปลี่ยน เท้ง ยื่นปปช.ฟัน ตั้งคณะไต่สวน กกต.",
-   "summary": "เท้ง ยื่นปปช.ฟัน ตั้งคณะไต่สวน กกต. คดีสว. ลั่นมีหลักฐา […]",
-   "link": "https://www.matichon.co.th/politics/news_5905643",
-   "date": "2026-09-25T23:00:55Z"
   },
   {
    "feed": "japan-news",
@@ -1430,6 +1919,20 @@
    "date": "2026-09-25T22:12:01Z"
   },
   {
+   "feed": "china-news",
+   "title": "CGTN (Chinese state media): Former state senator praises Oregon-China friendship",
+   "summary": "Former state senator praises Oregon-China friendship",
+   "link": "https://newsus.cgtn.com/news/2026-09-26/Former-state-senator-praises-Oregon-China-friendship-1QK0l1wUVUI/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China",
+   "date": "2026-09-25T22:11:40Z"
+  },
+  {
+   "feed": "china-news",
+   "title": "CGTN (Chinese state media): China's market importance to US tech giants",
+   "summary": "China's market importance to US tech giants",
+   "link": "https://newsus.cgtn.com/news/2026-09-26/China-s-market-importance-to-US-tech-giants-1QK3Y0vjp04/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China",
+   "date": "2026-09-25T22:11:25Z"
+  },
+  {
    "feed": "us-news",
    "title": "NPR: Supreme Court blocks Trump-backed Missouri congressional map",
    "summary": "The ruling is a defeat for Republicans seeking to give their party an edge in the midterm elections for control of the House. It means voters will face a different map than the one used in the primary elections.",
@@ -1535,20 +2038,6 @@
    "date": "2026-09-25T21:32:43Z"
   },
   {
-   "feed": "china-news",
-   "title": "SCMP: China and the US can make nice, if not peace",
-   "summary": "Washington and Beijing have spent nearly a decade trading tariffs, export controls and blacklists, with each round threatening rupture. Yet they keep recovering from the brink.\nTensions soared before summits and plunged immediately after. For example, in 2019 at Osaka, Trump walked back threats to i",
-   "link": "https://www.scmp.com/opinion/china-opinion/article/3368480/china-and-us-can-make-nice-if-not-peace?utm_source=rss_feed",
-   "date": "2026-09-25T21:30:10Z"
-  },
-  {
-   "feed": "world-headlines",
-   "title": "What would a US diesel export ban mean for global fuel prices?",
-   "summary": "Energy experts warn US diesel export ban could increase fuel costs domestically and internationally.",
-   "link": "https://www.aljazeera.com/economy/2026/9/25/what-would-a-us-diesel-export-ban-mean-for-global-fuel-prices?traffic_source=rss",
-   "date": "2026-09-25T21:28:56Z"
-  },
-  {
    "feed": "sec-company-events",
    "title": "Southland Holdings, Inc.: delisting notice or listing transfer",
    "summary": "Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing\nItem 9.01: Financial Statements and Exhibits",
@@ -1561,20 +2050,6 @@
    "summary": "Item 3.01: Notice of Delisting or Failure to Satisfy a Continued Listing Rule or Standard; Transfer of Listing",
    "link": "https://www.sec.gov/Archives/edgar/data/1213809/000149315226044398/0001493152-26-044398-index.htm",
    "date": "2026-09-25T21:27:22Z"
-  },
-  {
-   "feed": "japan-news",
-   "title": "Japan Today: Lady Gaga, FamilyMart team up for convenience store work video",
-   "summary": "FamilyMart has been making a big push to establish itself as the fashionable choice within the Japanese convenience store space. Sometimes in the literal sense of having its…",
-   "link": "https://japantoday.com/category/entertainment/lady-gaga-and-familymart-team-up-for-a-japanese-convenience-store-work-video",
-   "date": "2026-09-25T21:27:12Z"
-  },
-  {
-   "feed": "japan-news",
-   "title": "Japan Today: Welcome aboard the Costa Serena, the Asian Games floating hotel",
-   "summary": "Mongolian athletes dig into a buffet including mozzarella made by an expert, an aroma steam bath awaits its next visitor and competitors saunter across the carpeted floor.\nWelcome…",
-   "link": "https://japantoday.com/category/sports/welcome-aboard-the-costa-serena-the-asian-games-floating-hotel",
-   "date": "2026-09-25T21:26:27Z"
   },
   {
    "feed": "crypto-news",
@@ -1598,48 +2073,6 @@
    "date": "2026-09-25T21:24:57Z"
   },
   {
-   "feed": "japan-news",
-   "title": "Japan Today: Nakashima beats Mensik to even up Laver Cup at 1-1 after opening session. Alcaraz to play doubles",
-   "summary": "Brandon Nakashima made the most of his Laver Cup debut, beating Jakub Mensik 6-1, 3-6, 10-7 to pull Team World level with Team Europe at 1-1 after the…",
-   "link": "https://japantoday.com/category/sports/nakashima-beats-mensik-to-even-up-laver-cup-at-1-1-after-opening-session.-alcaraz-to-play-doubles",
-   "date": "2026-09-25T21:24:51Z"
-  },
-  {
-   "feed": "japan-news",
-   "title": "Japan Today: Man City ready to fight Premier League after reports that club guilty of almost all charges",
-   "summary": "Manchester City plans to fight the Premier League for months if found guilty of alleged financial breaches in potentially the biggest scandal in English soccer history.\nReports Friday…",
-   "link": "https://japantoday.com/category/sports/man-city-responds-to-reports-it%27s-guilty-of-almost-all-charges-accused-by-premier-league",
-   "date": "2026-09-25T21:24:42Z"
-  },
-  {
-   "feed": "japan-news",
-   "title": "Japan Today: World No.1 Sinner delays return with China Open withdrawal",
-   "summary": "World No.1 Jannik Sinner delayed his return to the courts when he withdrew from next week's China Open in Beijing on Friday having been out of action since…",
-   "link": "https://japantoday.com/category/sports/world-no.1-sinner-delays-return-with-china-open-withdrawal",
-   "date": "2026-09-25T21:24:34Z"
-  },
-  {
-   "feed": "japan-news",
-   "title": "Japan Today: Chinese swimmer Zhang Zhanshuo completes sweep of seven gold medals at the Asian Games",
-   "summary": "Chinese freestyler Zhang Zhanshuo completed his sweep of seven gold medals at the Asian Games, taking the 400-meter freestyle in 3 minutes, 41.28 seconds on Friday on the…",
-   "link": "https://japantoday.com/category/sports/chinese-swimmer-zhang-zhanshuo-completes-sweep-of-seven-gold-medals-at-the-asian-games",
-   "date": "2026-09-25T21:24:25Z"
-  },
-  {
-   "feed": "japan-news",
-   "title": "Japan Today: August supermarket, duty-free department store sales remain on upward trend",
-   "summary": "Duty-free sales at Japan's department stores in August rose 4.6 percent from a year earlier, marking the sixth consecutive month of growth, while nationwide supermarket sales inched up…",
-   "link": "https://japantoday.com/category/business/August-supermarket-duty-free-department-store-sales-remain-on-upward-trend",
-   "date": "2026-09-25T21:23:35Z"
-  },
-  {
-   "feed": "japan-news",
-   "title": "Japan Today: Defense Ministry to launch new system for incorporating startup tech",
-   "summary": "The Japanese Defense Ministry will open applications next week for its new procurement system, aiming to incorporate startups' advanced technologies into equipment, Defense Minister Shinjiro Koizumi said Friday.…",
-   "link": "https://japantoday.com/category/politics/update1-japan-defense-ministry-to-launch-new-system-for-incorporating-startup-tech",
-   "date": "2026-09-25T21:23:17Z"
-  },
-  {
    "feed": "earthquakes",
    "title": "M 6.6 - 80 km ENE of Tadine, New Caledonia",
    "summary": "Magnitude 6.6, 80 km ENE of Tadine, New Caledonia",
@@ -1647,25 +2080,11 @@
    "date": "2026-09-25T21:23:03Z"
   },
   {
-   "feed": "japan-news",
-   "title": "Japan Today: Osaka may name a district after expo mascot Myaku-Myaku",
-   "summary": "For quite a while now, the ruling political party in Osaka Prefecture, the Japan Innovation Party (Ishin no Kai), has been wanting to change Osaka into a metropolis…",
-   "link": "https://japantoday.com/category/national/osaka-may-name-a-district-after-expo-mascot-myaku-myaku",
-   "date": "2026-09-25T21:22:20Z"
-  },
-  {
    "feed": "india-news",
    "title": "The Hindu: Congress legislators flash banners demanding CEC Gyanesh Kumar’s resignation inside Jammu and Kashmir assembly",
    "summary": "During the Question Hour, several Congress legislators stood up and trooped into the well of the house with banners and disrupted the proceedings",
    "link": "https://www.thehindu.com/news/national/jammu-and-kashmir/congress-legislators-flash-banners-demanding-cec-gyanesh-kumars-resignation-inside-jammu-and-kashmir-assembly/article71509469.ece",
    "date": "2026-09-25T21:21:50Z"
-  },
-  {
-   "feed": "world-headlines",
-   "title": "Italy crisis deepens as Belgium’s win stalls World Cup rebuild in Rome",
-   "summary": "Belgium win 2-0 in Italy as Nations League opener is played out in front of nearly half empty Stadio Olimpico.",
-   "link": "https://www.aljazeera.com/sports/2026/9/25/belgium-win-deepens-italy-crisis-as-latest-world-cup-rebuild-begins?traffic_source=rss",
-   "date": "2026-09-25T21:20:05Z"
   },
   {
    "feed": "sec-ipo-filings",
@@ -1794,25 +2213,11 @@
    "date": "2026-09-25T21:00:01Z"
   },
   {
-   "feed": "world-headlines",
-   "title": "Houthi attack on Mecca, Medina would cross ‘red line’, Pakistan PM tells UN",
-   "summary": "Shehbaz Sharif speaks as Islamabad, Riyadh and Ankara army chiefs meet to discuss Mecca pact, closer military ties.",
-   "link": "https://www.aljazeera.com/news/2026/9/25/houthi-attack-on-mecca-medina-would-cross-red-line-pakistan-pm-tells-un?traffic_source=rss",
-   "date": "2026-09-25T20:59:43Z"
-  },
-  {
    "feed": "security-news",
    "title": "ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw",
    "summary": "The Clop ransomware gang has moved its data leak site to a new Tor address after confirming its previous server was compromised and defaced through an unpatched Grav CMS flaw that BleepingComputer has learned is an unauthenticated path traversal vulnerability. [...]",
    "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
    "date": "2026-09-25T20:57:55Z"
-  },
-  {
-   "feed": "world-headlines",
-   "title": "Manchester City reportedly found guilty of almost 115 financial charges",
-   "summary": "Manchester City have reportedly been found guilty of almost all 115 financial misconduct charges they were facing.",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/09-25-man-city-verdict-sv?traffic_source=rss",
-   "date": "2026-09-25T20:56:20Z"
   },
   {
    "feed": "india-news",
@@ -1841,13 +2246,6 @@
    "summary": "While organizers insist the rallies are in locations with media markets that span state lines and they will help bolster broader turnout, Trump's itinerary is yet another sign of the uphill fight that his party faces.",
    "link": "https://www.pbs.org/newshour/politics/trump-promised-to-campaign-in-midterm-battlegrounds-hes-starting-in-deep-red-states-instead",
    "date": "2026-09-25T20:44:58Z"
-  },
-  {
-   "feed": "india-news",
-   "title": "The Hindu: FIR lodged against Bihar CMO staff for posting Jamui victim’s photo on X",
-   "summary": "Earlier, the Leader of Opposition Tejashwi Yadav had accused the Bihar CM of revealing the identity of the victim, calling it a violation of the Protection of Children from Sexual Offences (POCSO) Act, 2012",
-   "link": "https://www.thehindu.com/news/national/bihar/fir-lodged-against-bihar-cmo-staff-for-posting-jamui-victims-photo-on-x/article71510152.ece",
-   "date": "2026-09-25T20:40:58Z"
   },
   {
    "feed": "sec-company-events",
@@ -1885,32 +2283,11 @@
    "date": "2026-09-25T20:35:14Z"
   },
   {
-   "feed": "india-news",
-   "title": "The Hindu: Greater Noida bus fire: booking manager arrested for negligence",
-   "summary": "Police said passengers had called Vikas Kumar about smoke and fire before the blaze but he did not act; three more victims were identified on Friday",
-   "link": "https://www.thehindu.com/news/national/uttar-pradesh/greater-noida-bus-fire-booking-manager-arrested-for-negligence/article71509263.ece",
-   "date": "2026-09-25T20:34:24Z"
-  },
-  {
-   "feed": "india-news",
-   "title": "The Hindu: Former IAS officer appointed on Maha UCC panel",
-   "summary": "The appointment was after the chairperson of the committee, Ranjana Desai, retired Supreme Court judge, moved a proposal to include him in the panel",
-   "link": "https://www.thehindu.com/news/national/maharashtra/former-ias-officer-appointed-on-maha-ucc-panel/article71509943.ece",
-   "date": "2026-09-25T20:33:22Z"
-  },
-  {
    "feed": "hurricanes",
    "title": "Tropical Storm Fay (AT1), advisory 25/2033Z",
    "summary": "FAY WEAKENS OVER THE ATLANTIC OCEAN. As of 9:00 PM GMT Fri Sep 25 the center of Fay was located near 29.8, -43.0 with movement WSW at 5 mph. The minimum central pressure was 1004 mb with maximum sustained winds of about 50 mph.",
    "link": "https://www.nhc.noaa.gov/text/refresh/MIATCPAT1+shtml/252033.shtml",
    "date": "2026-09-25T20:33:14Z"
-  },
-  {
-   "feed": "india-news",
-   "title": "The Hindu: Congress hopes for calm in Punjab unit but storm clouds remain ahead of 2027 Assembly election",
-   "summary": null,
-   "link": "https://www.thehindu.com/news/national/punjab/congress-hopes-for-calm-in-punjab-unit-but-storm-clouds-remain-ahead-of-2027-assembly-election/article71509096.ece",
-   "date": "2026-09-25T20:32:39Z"
   },
   {
    "feed": "sec-ipo-filings",
@@ -1925,13 +2302,6 @@
    "summary": "Registration statement filed 2026-09-25 (507 KB)",
    "link": "https://www.sec.gov/Archives/edgar/data/1498403/000117891326004612/0001178913-26-004612-index.htm",
    "date": "2026-09-25T20:31:01Z"
-  },
-  {
-   "feed": "russia-news",
-   "title": "TASS (Russian state media): Grossi calls meeting with Lavrov important, timely",
-   "summary": "International Atomic Energy Agency Director General gave no further details of the talks",
-   "link": "https://tass.com/world/2193111",
-   "date": "2026-09-25T20:31:00Z"
   },
   {
    "feed": "central-banks",
@@ -1962,32 +2332,32 @@
    "date": "2026-09-25T20:26:40Z"
   },
   {
-   "feed": "russia-news",
-   "title": "Meduza: EU defense agency says Europe is rearming too slowly to be ready to defend against Russia by 2030",
-   "summary": "The EU is not rearming quickly or effectively enough to be ready to defend itself against Russia by 2030, according to a summary of a report prepared by the European Defense Agency for the bloc’s leaders and seen by Reuters.",
-   "link": "https://meduza.io/en/feature/2026/09/25/eu-defense-agency-says-europe-is-rearming-too-slowly-to-be-ready-to-defend-against-russia-by-2030",
-   "date": "2026-09-25T20:26:05Z"
+   "feed": "china-news",
+   "title": "CGTN (Chinese state media): Trade expert: US-China cooperation can help businesses",
+   "summary": "Trade expert: US-China cooperation can help businesses",
+   "link": "https://newsus.cgtn.com/news/2026-09-26/Trade-expert-US-China-cooperation-can-help-businesses--1QJRD8Xk6zu/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China",
+   "date": "2026-09-25T20:24:37Z"
   },
   {
-   "feed": "india-news",
-   "title": "The Hindu: M.M. Joshi condemns music concert at Badrinath, urges Centre and Uttarakhand government to ban such events",
-   "summary": "The Himalayas are divine, the abode of Lord Shiva and the origin of Mother Ganga. Turning this sacred land into a dance venue is a deep blow to the faith of crores of Indians, said M.M. Joshi",
-   "link": "https://www.thehindu.com/news/national/mm-joshi-condemns-music-concert-at-badrinath-urges-centre-and-uttarakhand-government-to-ban-such-events/article71509818.ece",
-   "date": "2026-09-25T20:24:23Z"
+   "feed": "china-news",
+   "title": "CGTN (Chinese state media): Economists weigh China-US trade tensions amid Xi-Trump talks",
+   "summary": "Economists weigh China-US trade tensions amid Xi-Trump talks",
+   "link": "https://newsus.cgtn.com/news/2026-09-26/Economists-weigh-China-US-trade-tensions-amid-Xi-Trump-talks-1QJWh3lZ3DW/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China",
+   "date": "2026-09-25T20:24:14Z"
   },
   {
-   "feed": "russia-news",
-   "title": "TASS (Russian state media): Xi’s state visit to US ends in success — Chinese state TV",
-   "summary": "A 21-gun salute was fired in President Xi Jinping’s honor at the airport",
-   "link": "https://tass.com/world/2193109",
-   "date": "2026-09-25T20:22:01Z"
+   "feed": "china-news",
+   "title": "CGTN (Chinese state media): George Lucas opens museum celebrating the art of storytelling",
+   "summary": "George Lucas opens museum celebrating the art of storytelling",
+   "link": "https://newsus.cgtn.com/news/2026-09-26/George-Lucas-opens-museum-celebrating-the-art-of-storytelling-1QJWP51lle0/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China",
+   "date": "2026-09-25T20:24:01Z"
   },
   {
-   "feed": "russia-news",
-   "title": "TASS (Russian state media): Russian tennis player withdraws from Singapore tournament semifinal",
-   "summary": "Tatiana Prozorova, 22, is ranked 180th by the WTA",
-   "link": "https://tass.com/sports/2193107",
-   "date": "2026-09-25T20:18:00Z"
+   "feed": "china-news",
+   "title": "CGTN (Chinese state media): UN eyes Xi-Trump talks for breakthrough on global crises",
+   "summary": "UN eyes Xi-Trump talks for breakthrough on global crises",
+   "link": "https://newsus.cgtn.com/news/2026-09-26/UN-eyes-Xi-Trump-talks-for-breakthrough-on-global-crises-1QJW0LdQiUo/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China",
+   "date": "2026-09-25T20:23:47Z"
   },
   {
    "feed": "sec-company-events",
@@ -2023,6 +2393,13 @@
    "summary": "President Trump and Chinese leader Xi Jinping wrap up their two-day summit. What did we learn beyond the pageantry?",
    "link": "https://www.npr.org/2026/09/25/nx-s1-5976948/what-did-we-learn-from-the-trump-xi-summit",
    "date": "2026-09-25T20:08:36Z"
+  },
+  {
+   "feed": "china-news",
+   "title": "CGTN (Chinese state media): Xi sends letter to high-level dialogue marking 5th anniversary of GDI",
+   "summary": "Xi sends letter to high-level dialogue marking 5th anniversary of GDI",
+   "link": "https://news.cgtn.com/news/2026-09-26/Xi-sends-letter-to-high-level-dialogue-marking-5th-anniversary-of-GDI-1QJT41jp1Oo/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China",
+   "date": "2026-09-25T20:07:30Z"
   },
   {
    "feed": "sec-company-events",
@@ -2065,13 +2442,6 @@
    "summary": "BY THE PRESIDENT OF THE UNITED STATES OF AMERICA A PROCLAMATION America is free, strong, secure, and prosperous due to the courage of the heroes in uniform who are willing to lay down their lives in the defense of our Republic. The supreme sacrifice paid by every fallen warrior is borne in perpetual",
    "link": "https://www.whitehouse.gov/presidential-actions/2026/09/gold-star-mothers-and-familys-day-2026/",
    "date": "2026-09-25T19:47:32Z"
-  },
-  {
-   "feed": "china-news",
-   "title": "SCMP: Trade deliverables, Taiwan push and ‘strategic stability’: key Xi-Trump takeaways overall",
-   "summary": "Chinese President Xi Jinping has completed a whirlwind 43-hour trip to the United States, his first state visit to the country in more than a decade, with US President Donald Trump pulling out all the stops to make it a grand affair.\nThe two leaders met several times during the visit, including at a",
-   "link": "https://www.scmp.com/news/china/diplomacy/article/3368870/trade-deliverables-taiwan-push-and-strategic-stability-key-xi-trump-takeaways-overall?utm_source=rss_feed",
-   "date": "2026-09-25T19:47:09Z"
   },
   {
    "feed": "crypto-news",
@@ -2214,6 +2584,13 @@
    "date": "2026-09-25T18:13:57Z"
   },
   {
+   "feed": "china-news",
+   "title": "CGTN (Chinese state media): After the China-US talks: What Gen Z in America is saying",
+   "summary": "After the China-US talks: What Gen Z in America is saying",
+   "link": "https://news.cgtn.com/news/2026-09-26/After-the-China-US-talks-What-Gen-Z-in-America-is-saying-1QJlLX72bYc/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China",
+   "date": "2026-09-25T18:13:41Z"
+  },
+  {
    "feed": "security-news",
    "title": "Elementor WordPress flaw lets attackers create admin accounts",
    "summary": "A cross-site request forgery (CSRF) vulnerability in the Elementor plugin for WordPress could allow an unauthenticated attacker to create administrator accounts. [...]",
@@ -2226,6 +2603,13 @@
    "summary": "The city has seen a string of incidents in which people have climbed out of manholes late at night.",
    "link": "https://www.bbc.co.uk/news/articles/cwddvv44091vo?at_medium=RSS&at_campaign=rss",
    "date": "2026-09-25T17:59:03Z"
+  },
+  {
+   "feed": "china-news",
+   "title": "CGTN (Chinese state media): China's mooncakes get a fresh twist",
+   "summary": "China's mooncakes get a fresh twist",
+   "link": "https://news.cgtn.com/news/2026-09-26/China-s-mooncakes-get-a-fresh-twist-1QJK1Omh5T2/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China",
+   "date": "2026-09-25T17:53:01Z"
   },
   {
    "feed": "europe-news",
@@ -2256,13 +2640,6 @@
    "date": "2026-09-25T17:24:20Z"
   },
   {
-   "feed": "china-news",
-   "title": "SCMP: China set to decide if Costa Rican or Guyanese diplomat becomes first woman UN chief",
-   "summary": "China is poised to decide which of two Latin American women becomes the first to lead the United Nations, after three rounds of informal voting in the Security Council failed to produce a favourite.\nSeveral UN delegations that spoke to the South China Morning Post over the past three days said Beiji",
-   "link": "https://www.scmp.com/news/china/article/3368869/china-set-decide-if-costa-rican-or-guyanese-diplomat-becomes-first-woman-un-chief?utm_source=rss_feed",
-   "date": "2026-09-25T17:09:32Z"
-  },
-  {
    "feed": "ai-news",
    "title": "The cheap new AI model taking aim at OpenAI and Anthropic",
    "summary": null,
@@ -2270,11 +2647,25 @@
    "date": "2026-09-25T17:06:48Z"
   },
   {
+   "feed": "china-news",
+   "title": "CGTN (Chinese state media): Chinese President Xi concludes state visit to US",
+   "summary": "Chinese President Xi concludes state visit to US",
+   "link": "https://news.cgtn.com/news/2026-09-26/Chinese-President-Xi-concludes-state-visit-to-US-1QJEgYTBdcs/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China",
+   "date": "2026-09-25T16:59:12Z"
+  },
+  {
    "feed": "us-news",
    "title": "PBS NewsHour: Pope Leo XIV affirms need for media to cover public figures when asked about Trump ban",
    "summary": "Pope Leo XIV told journalists they were welcome to report on him, as he responded to the Trump administration's attempt to bar U.S. media from the White House and affirmed the importance of journalists covering public figures.",
    "link": "https://www.pbs.org/newshour/world/pope-leo-xiv-affirms-need-for-media-to-cover-public-figures-when-asked-about-trump-ban",
    "date": "2026-09-25T16:58:09Z"
+  },
+  {
+   "feed": "china-news",
+   "title": "CGTN (Chinese state media): Watch: Xi, Trump visit US National Archives",
+   "summary": "Watch: Xi, Trump visit US National Archives",
+   "link": "https://news.cgtn.com/news/2026-09-26/Watch-Xi-Trump-visit-US-National-Archives-1QJIfgZGCBO/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China",
+   "date": "2026-09-25T16:58:01Z"
   },
   {
    "feed": "ai-news",
@@ -2289,6 +2680,20 @@
    "summary": "Marking 13 years since the murder of Greek rapper Pavlos Fyssas by a member of the neo-Nazi Golden Dawn party, MEPs at the European Parliament in Brussels were invited to a performance to pay tribute to the musician's life.",
    "link": "https://www.euronews.com/2026/09/25/death-of-a-rapper-european-parliament-pays-tribute-to-murdered-greek-musician-pavlos-fyssa",
    "date": "2026-09-25T16:49:47Z"
+  },
+  {
+   "feed": "china-news",
+   "title": "CGTN (Chinese state media): US health experts call for stronger cooperation with China",
+   "summary": "US health experts call for stronger cooperation with China",
+   "link": "https://news.cgtn.com/news/2026-09-26/US-health-experts-call-for-stronger-cooperation-with-China-1QJuy51yxYk/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China",
+   "date": "2026-09-25T16:44:36Z"
+  },
+  {
+   "feed": "china-news",
+   "title": "CGTN (Chinese state media): Watch: Xi, Trump have tea chat at White House",
+   "summary": "Watch: Xi, Trump have tea chat at White House",
+   "link": "https://news.cgtn.com/news/2026-09-26/Watch-Xi-Trump-have-tea-chat-at-White-House-1QJGJiZWEKY/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China",
+   "date": "2026-09-25T16:36:48Z"
   },
   {
    "feed": "world-leaders",
@@ -2331,6 +2736,13 @@
    "summary": "Though the spiral galaxy in this ESA/Hubble Picture of the Month seems serene, it hides a chaotic secret.",
    "link": "https://www.nasa.gov/image-detail/a-galaxy-spinning-out-of-sync/",
    "date": "2026-09-25T15:54:00Z"
+  },
+  {
+   "feed": "china-news",
+   "title": "CGTN (Chinese state media): Xi, Peng Liyuan visit US National Archives with Trump and his wife",
+   "summary": "Chinese President Xi Jinping and his wife, Peng Liyuan, visited the US National Archives in Washington, D.C. on Friday, accompanied by US President Donald Trump and his wife, Melania Trump.",
+   "link": "https://news.cgtn.com/news/2026-09-25/Xi-Trump-visit-US-National-Archives-1QJoZswwZdC/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China",
+   "date": "2026-09-25T15:52:44Z"
   },
   {
    "feed": "world-headlines",
@@ -2382,6 +2794,13 @@
    "date": "2026-09-25T15:27:35Z"
   },
   {
+   "feed": "china-news",
+   "title": "CGTN (Chinese state media): Watch: Trump welcomes Xi at White House for tea chat",
+   "summary": "Watch: Trump welcomes Xi at White House for tea chat",
+   "link": "https://news.cgtn.com/news/2026-09-25/Watch-Trump-welcomes-Xi-at-White-House-for-tea-chat--1QJBatZ9nvW/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China",
+   "date": "2026-09-25T15:18:58Z"
+  },
+  {
    "feed": "europe-news",
    "title": "POLITICO Europe: Burnham’s AI agenda is already in disarray thanks to Trump",
    "summary": "Key pillars of Andy Burnham’s AI plans got smashed by the Trump administration this week.",
@@ -2422,6 +2841,20 @@
    "summary": "Pope Leo XIV has warned against losing humanity in a “paradise of machines” as artificial intelligence increasingly shapes daily life. During his first papal visit to France, he called for greater ethical discernment and for keeping human beings at the centre of AI discussions.",
    "link": "https://www.euronews.com/video/2026/09/25/watch-pope-leo-xiv-warns-ai-could-threaten-humanity-in-paradise-of-machines",
    "date": "2026-09-25T14:48:09Z"
+  },
+  {
+   "feed": "china-news",
+   "title": "CGTN (Chinese state media): Xi, Peng Liyuan have tea chat with Trump and his wife",
+   "summary": "Chinese President Xi Jinping and US President Donald Trump on Friday agreed to build a constructive relationship of strategic stability based on respect, fairness and reciprocity.",
+   "link": "https://news.cgtn.com/news/2026-09-25/Xi-Trump-have-tea-chat-at-White-House-1QJoEhV5xTy/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China",
+   "date": "2026-09-25T14:47:18Z"
+  },
+  {
+   "feed": "china-news",
+   "title": "CGTN (Chinese state media): Trump welcomes Xi at White House for tea chat",
+   "summary": "Trump welcomes Xi at White House for tea chat",
+   "link": "https://news.cgtn.com/news/2026-09-25/Trump-welcomes-Xi-at-White-House-for-tea-chat-1QJouTInLYk/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China",
+   "date": "2026-09-25T14:46:36Z"
   },
   {
    "feed": "security-news",
@@ -2473,6 +2906,13 @@
    "date": "2026-09-25T14:07:08Z"
   },
   {
+   "feed": "china-news",
+   "title": "CGTN (Chinese state media): Xi, Trump to have tea chat at White House",
+   "summary": "Xi, Trump to have tea chat at White House",
+   "link": "https://news.cgtn.com/news/2026-09-25/Xi-Trump-to-have-tea-chat-at-White-House-1QJo9qVLdba/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China",
+   "date": "2026-09-25T14:00:48Z"
+  },
+  {
    "feed": "world-leaders",
    "title": "Kremlin: United Cultures Forum",
    "summary": "The President addressed\nthe 12 th St Petersburg International United Cultures Forum.",
@@ -2481,10 +2921,17 @@
   },
   {
    "feed": "china-news",
-   "title": "SCMP: US TV blackout and midterms turmoil overshadow Xi-Trump red-carpet treatment",
-   "summary": "Domestic US political turmoil and Donald Trump’s feud with the media overshadowed a summit that Beijing hoped would project an image of China on equal footing and help stabilise ties with the United States.\nTrump rolled out the full red-carpet treatment for Chinese President Xi Jinping as he paid hi",
-   "link": "https://www.scmp.com/news/china/diplomacy/article/3368860/what-summit-us-tv-blackout-and-midterms-turmoil-overshadow-red-carpet-treatment?utm_source=rss_feed",
-   "date": "2026-09-25T13:54:34Z"
+   "title": "CGTN (Chinese state media): IOMed launches Global Series in Hong Kong on dispute resolution",
+   "summary": "The International Organization for Mediation (IOMed) hosted its inaugural \"IOMed Global Series\" Fireside Chat at its Wan Chai headquarters in Hong Kong on September 24, bringing together three generations of the city's legal leadership – Teresa Cheng, Rimsky Yuen, and Secretary for Justice Paul Lam.",
+   "link": "https://news.cgtn.com/news/2026-09-25/IOMed-launches-Global-Series-in-Hong-Kong-on-dispute-resolution-1QJqvlgYDXq/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China",
+   "date": "2026-09-25T13:59:51Z"
+  },
+  {
+   "feed": "china-news",
+   "title": "CGTN (Chinese state media): Ya'an: A Model of Ecological Restoration",
+   "summary": "Opened in 2003, the Ya'an Bifengxia Base under the China Conservation and Research Center for the Giant Panda, is today home to the world's largest panda population in captivity. Its numbers were boosted in 2008 when, in the wake of the Wenchuan earthquake, it received pandas evacuated from Wolong.",
+   "link": "https://news.cgtn.com/news/2026-09-25/Ya-an-A-Model-of-Ecological-Restoration-1QJcQsxKtXy/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China",
+   "date": "2026-09-25T13:51:38Z"
   },
   {
    "feed": "europe-news",
@@ -2495,10 +2942,10 @@
   },
   {
    "feed": "china-news",
-   "title": "SCMP: Xi ends 3-day Trump visit with promise to meet again in November in China – as it happened",
-   "summary": "This live article is freely available to our registered users. Please log in or create an account.\nUnrivalled Xi-Trump summit analysis: get real-time updates and exclusive boots-on-the-ground reporting from our US and China bureaus all year round. Subscribe now with great savings to stay ahead.\nAfte",
-   "link": "https://www.scmp.com/news/china/diplomacy/article/3368858/last-day-xis-us-visit-begins-trump-white-house-tea?utm_source=rss_feed",
-   "date": "2026-09-25T13:49:31Z"
+   "title": "CGTN (Chinese state media): Angola's Caculo Cabaça Hydropower Station",
+   "summary": "Angola's Caculo Cabaça Hydropower Station",
+   "link": "https://news.cgtn.com/news/2026-09-25/Angola-s-Caculo-Caba-a-Hydropower-Station-1QJdLkyn37q/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China",
+   "date": "2026-09-25T13:49:39Z"
   },
   {
    "feed": "thailand-news",
@@ -2634,6 +3081,13 @@
    "date": "2026-09-25T12:39:06Z"
   },
   {
+   "feed": "china-news",
+   "title": "CGTN (Chinese state media): Billie Jean King hails global growth of namesake tennis competition",
+   "summary": "Billie Jean King hails global growth of namesake tennis competition",
+   "link": "https://news.cgtn.com/news/2026-09-25/Billie-Jean-King-hails-global-growth-of-namesake-tennis-competition-1QIKGT87qjm/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China",
+   "date": "2026-09-25T12:32:38Z"
+  },
+  {
    "feed": "europe-news",
    "title": "Euronews: Turkish forces to withdraw from strategic military base in northern Iraq",
    "summary": "Turkey will gradually hand over the Bashiqa-Zilkan camp, where it has had troops since 2015, to the Iraqi government.",
@@ -2655,25 +3109,11 @@
    "date": "2026-09-25T12:30:15Z"
   },
   {
-   "feed": "china-news",
-   "title": "SCMP: In a US-China world, Asean must do more than avoid choosing sides",
-   "summary": "The good news is, when US President Donald Trump and Chinese President Xi Jinping met in Washington this week, neither chose confrontation. Amid the high pomp and ceremony, what China has called “constructive strategic stability” continues.\nEven an uneasy truce in great power relations can be useful",
-   "link": "https://www.scmp.com/opinion/asia-opinion/article/3368638/us-china-world-asean-must-do-more-avoid-choosing-sides?utm_source=rss_feed",
-   "date": "2026-09-25T12:30:12Z"
-  },
-  {
    "feed": "europe-news",
    "title": "POLITICO Europe: Burnham plans first Berlin visit for talks with Merz",
    "summary": "The U.K. and Germany have built up closer ties — especially in defense — over the last two years.",
    "link": "https://www.politico.eu/article/burnham-plans-first-berlin-visit-for-talks-with-merz/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
    "date": "2026-09-25T12:28:04Z"
-  },
-  {
-   "feed": "china-news",
-   "title": "SCMP: Chinese aesthetics abound at Washington summit, from Mao suits to peony trousers",
-   "summary": "Throughout President Xi Jinping’s state visit to Washington, Chinese aesthetics were not confined to first lady Peng Liyuan, long an ambassador of Chinese fashion, but also appeared in the outfits of other senior Chinese officials and even members of the US delegation.\nAt the state dinner in the Whi",
-   "link": "https://www.scmp.com/news/china/diplomacy/article/3368846/chinese-aesthetics-abound-washington-summit-mao-suits-peony-trousers?utm_source=rss_feed",
-   "date": "2026-09-25T12:27:16Z"
   },
   {
    "feed": "europe-news",
@@ -2691,17 +3131,10 @@
   },
   {
    "feed": "china-news",
-   "title": "SCMP: Xi-Trump banquet: from flasks to US tech titans in attendance, here’s everything you missed",
-   "summary": "We have put together stories from our coverage of the White House state dinner. If you would like to see more of our reporting, please consider subscribing.\n1. Xi-Trump dinner puts US tech titans in spotlight – what does it mean for ties?\nIf the American guests seated at the head table with Presiden",
-   "link": "https://www.scmp.com/news/china/diplomacy/article/3368845/xi-trump-banquet-flasks-us-tech-titans-attendance-heres-everything-you-missed?utm_source=rss_feed",
-   "date": "2026-09-25T12:09:32Z"
-  },
-  {
-   "feed": "china-news",
-   "title": "SCMP: Trump hails WWII ‘ally’ China as Xi tells of bonds ‘forged in blood and fire’",
-   "summary": "In a surprise nod to shared history, US President Donald Trump called China a World War II ally as he welcomed Xi Jinping to the White House on Thursday ahead of summit talks.\nBut the historical reference was far from one-sided, with both leaders repeatedly referring to the joint fight against Japan",
-   "link": "https://www.scmp.com/news/china/diplomacy/article/3368844/trump-hails-wwii-ally-china-xi-tells-bonds-forged-blood-and-fire?utm_source=rss_feed",
-   "date": "2026-09-25T12:06:23Z"
+   "title": "CGTN (Chinese state media): China urges Philippines to stop provocations in South China Sea",
+   "summary": "China on Friday urged the Philippines to immediately stop all acts of provocation and trouble-making, warning that the China Coast Guard (CCG) will resolutely safeguard the country's territorial sovereignty and maritime rights and interests.",
+   "link": "https://news.cgtn.com/news/2026-09-25/China-urges-Philippines-to-stop-provocations-in-South-China-Sea-1QJezJMNWMw/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China",
+   "date": "2026-09-25T12:11:46Z"
   },
   {
    "feed": "thailand-news",
@@ -2709,13 +3142,6 @@
    "summary": "SURAT THANI — Thailand’s Court of Appeals Region 8 has upheld a life sentence for Spanish chef Daniel Sancho Bronchalo over the premeditated murder and dismemberment of Colombian plastic surgeon Edwin Arrieta Arteaga on Koh Phangan in 2023. The court read its ruling at Koh Samui Provincial Court on ",
    "link": "https://www.khaosodenglish.com/featured/2026/09/25/thai-court-upholds-life-sentence-for-spanish-actors-son-over-colombian-surgeons-murder/",
    "date": "2026-09-25T12:03:12Z"
-  },
-  {
-   "feed": "china-news",
-   "title": "SCMP: Xi presses Trump to take the next step on Taiwan: oppose independence",
-   "summary": "Chinese President Xi Jinping pressed his US counterpart Donald Trump to explicitly oppose Taiwan independence – a call that would require a shift in Washington’s long-standing position and further restraint on American arms sales to the island, according to analysts.\nDuring the meeting between the t",
-   "link": "https://www.scmp.com/news/china/military/article/3368829/xi-presses-trump-take-next-step-taiwan-oppose-independence?utm_source=rss_feed",
-   "date": "2026-09-25T12:00:06Z"
   },
   {
    "feed": "hn-top",
@@ -2746,20 +3172,6 @@
    "date": "2026-09-25T11:30:00Z"
   },
   {
-   "feed": "china-news",
-   "title": "SCMP: Trump’s warm welcome for Xi met with caution and uncertainty in Taiwan",
-   "summary": "Taiwanese officials and observers have reacted cautiously to the Washington summit between Donald Trump and Xi Jinping, with uncertainty lingering over what the two leaders discussed about the island.\nThe only public mention of Taiwan after Thursday’s closed-door talks between the pair came from Bei",
-   "link": "https://www.scmp.com/news/china/politics/article/3368839/trumps-warm-welcome-xi-met-caution-and-uncertainty-taiwan?utm_source=rss_feed",
-   "date": "2026-09-25T11:26:13Z"
-  },
-  {
-   "feed": "china-news",
-   "title": "SCMP: Xi Jinping marks second Mid-Autumn Festival in US during state visit",
-   "summary": "Chinese President Xi Jinping has not only made history as the first Chinese leader to undertake two formal state visits to the United States, he is also the only Chinese leader to be spending two Mid-Autumn Festivals on American soil.\nXi offered festive greetings during his toast at Thursday’s state",
-   "link": "https://www.scmp.com/news/china/diplomacy/article/3368838/xi-jinping-marks-second-mid-autumn-festival-us-during-state-visit?utm_source=rss_feed",
-   "date": "2026-09-25T11:20:13Z"
-  },
-  {
    "feed": "thailand-earthquakes",
    "title": "M2.3 ประเทศเมียนมา (Myanmar)",
    "summary": "แผ่นดินไหว ประเทศเมียนมา\n2026-09-25 17:36:37 น.\nLat. 14.650 , Long. 98.345\nขนาด 2.3",
@@ -2781,25 +3193,11 @@
    "date": "2026-09-25T11:07:22Z"
   },
   {
-   "feed": "china-news",
-   "title": "SCMP: Why did Xi and China’s first lady bring their own flasks to White House banquet?",
-   "summary": "Amid the polished silverware and fine crystal stemware on display at the state dinner in the White House on Thursday sat the vacuum flasks brought by Chinese President Xi Jinping and first lady Peng Liyuan.\nThe couple’s flasks, black for Xi and white for Peng, were spotted on their table during the ",
-   "link": "https://www.scmp.com/news/china/politics/article/3368835/why-did-xi-and-chinas-first-lady-bring-their-own-flasks-white-house-banquet?utm_source=rss_feed",
-   "date": "2026-09-25T10:49:27Z"
-  },
-  {
    "feed": "us-news",
    "title": "NPR: Trump and China's Xi discuss AI, trade and Iran war during state visit",
    "summary": "U.S. President Trump and Chinese leader Xi Jinping met for the second time this year to much fanfare but little in the way of grand bargains.",
    "link": "https://www.npr.org/2026/09/25/nx-s1-5976940/trump-and-chinas-xi-discuss-ai-trade-and-iran-war-during-state-visit",
    "date": "2026-09-25T10:48:42Z"
-  },
-  {
-   "feed": "china-news",
-   "title": "SCMP: The Chinese roots of ‘gung-ho’ as Trump and Xi look to shared history",
-   "summary": "Chinese viewers watching Donald Trump welcome Xi Jinping to the White House on Thursday may have been puzzled by the US president’s reference to the “Chinese phrase” gung-ho. Turning to Baidu – or increasingly, Doubao, the country’s most popular AI chatbot – they may well have asked: what Chinese ex",
-   "link": "https://www.scmp.com/news/china/military/article/3368832/chinese-roots-gung-ho-trump-and-xi-look-shared-history?utm_source=rss_feed",
-   "date": "2026-09-25T10:38:11Z"
   },
   {
    "feed": "security-news",
@@ -2872,25 +3270,18 @@
    "date": "2026-09-25T09:30:00Z"
   },
   {
+   "feed": "japan-news",
+   "title": "The Japan Times: Japan to expand disaster preparedness with new national agency",
+   "summary": "The National Disaster Management Agency will be launched on Nov. 2 and serve as the government's command center for disaster preparedness.",
+   "link": "https://www.japantimes.co.jp/news/2026/09/25/japan/national-disaster-management-agency/",
+   "date": "2026-09-25T09:29:00Z"
+  },
+  {
    "feed": "climate-news",
    "title": "Nepal PM says global order is broken in fighting climate crisis",
    "summary": "Nepal’s Prime Minister Balendra Shah was applauded at the UN General Assembly after his speech on climate crisis.",
    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/25-09-sv-nepal-balendra-shah-climate-justice-speech-np?traffic_source=rss",
    "date": "2026-09-25T09:11:52Z"
-  },
-  {
-   "feed": "china-news",
-   "title": "SCMP: Xi at White House, trade-war truce extension, Golden Week travel",
-   "summary": "Chinese President Xi Jinping and US President Donald Trump discussed artificial intelligence (AI) and Taiwan at the White House on Thursday as part of a state visit dominated by pageantry.\nOn AI, Xi said that “the right thing to do is to draw on each other’s strengths, not guard against each other”,",
-   "link": "https://www.scmp.com/plus/news/china/diplomacy/article/3368799/xi-white-house-trade-war-truce-extension-golden-week-travel?utm_source=rss_feed",
-   "date": "2026-09-25T09:00:10Z"
-  },
-  {
-   "feed": "china-news",
-   "title": "SCMP: Why is the National Archives the last stop on Xi and Trump’s summit itinerary?",
-   "summary": "Chinese President Xi Jinping’s trip to the US will conclude not at the diplomatic negotiating table, but in front of America’s founding documents.\nAfter morning tea in the White House Red Room, US President Donald Trump and his wife Melania will take Xi and his wife Peng Liyuan on a tour of the Nati",
-   "link": "https://www.scmp.com/news/china/diplomacy/article/3368793/xi-and-trump-cap-summit-tour-through-shared-us-and-chinese-history?utm_source=rss_feed",
-   "date": "2026-09-25T09:00:06Z"
   },
   {
    "feed": "us-news",
@@ -2963,25 +3354,11 @@
    "date": "2026-09-25T08:06:49Z"
   },
   {
-   "feed": "china-news",
-   "title": "SCMP: Trump gives Xi a tour of his pet White House building projects, including the ballroom",
-   "summary": "Property developer-turned-president Donald Trump appeared to relish showing off the White House’s latest building works to Xi Jinping on Thursday, eager to give his Chinese counterpart a glimpse of his construction ambitions since they last met in China.\nIn May, Trump was hosted at Beijing’s Great H",
-   "link": "https://www.scmp.com/news/china/diplomacy/article/3368792/trump-gives-xi-tour-his-pet-white-house-building-projects-including-ballroom?utm_source=rss_feed",
-   "date": "2026-09-25T08:05:54Z"
-  },
-  {
    "feed": "thailand-news",
    "title": "Thai floral garlands become latest viral fashion trend",
    "summary": "BANGKOK — From religious offerings to fashionable hair accessories, traditional Thai flower garlands are getting a contemporary makeover as the latest viral beauty trend sweeps across social media. Known as “Malai Rad Klao”, the trend involves wrapping fresh flower garlands around a traditional hair",
    "link": "https://www.khaosodenglish.com/news/bangkok/2026/09/25/thai-floral-garlands-become-latest-viral-fashion-trend/",
    "date": "2026-09-25T07:59:27Z"
-  },
-  {
-   "feed": "china-news",
-   "title": "SCMP: Xi’s security chief among cohort of rising officials at White House banquet",
-   "summary": "Zhou Hongxu, the official who oversees President Xi Jinping’s security, made an appearance at the White House state banquet on Thursday night, alongside a cohort of other rising Chinese officials.\nThe banquet’s guest list described the 55-year-old People’s Liberation Army (PLA) major general as both",
-   "link": "https://www.scmp.com/news/china/diplomacy/article/3368782/xis-security-chief-among-cohort-rising-officials-white-house-banquet?utm_source=rss_feed",
-   "date": "2026-09-25T07:19:14Z"
   },
   {
    "feed": "climate-news",
@@ -3017,20 +3394,6 @@
    "summary": "NEW YORK, United State — 25 September 2026, Israeli Prime Minister Benjamin Netanyahu delivered a combative speech at the 81st United Nations General Assembly on 24 September, defending Israel’s actions in the region as dozens of delegates walked out of the chamber in protest. The speech came as Net",
    "link": "https://www.khaosodenglish.com/politics/2026/09/25/un-delegates-walk-out-as-netanyahu-defends-israels-actions/",
    "date": "2026-09-25T06:11:57Z"
-  },
-  {
-   "feed": "china-news",
-   "title": "SCMP: AI war, Taiwan and translation: SCMP answers your questions from Xi-Trump summit",
-   "summary": "This live article is freely available to our registered users. Please log in or create an account.\nXi’s US summit: Access real-time updates, geopolitical risk analysis, and exclusive reporting from an Asian perspective. Subscribe now with our limited-time offer to stay ahead.\nChinese President Xi Ji",
-   "link": "https://www.scmp.com/news/china/diplomacy/article/3368493/live-qa-scmp-answers-your-questions-about-washington-xi-trump-summit?utm_source=rss_feed",
-   "date": "2026-09-25T05:55:06Z"
-  },
-  {
-   "feed": "china-news",
-   "title": "SCMP: From wine to ping-pong, Trump and Xi’s state dinner is heavy on historic symbolism",
-   "summary": "When US President Donald Trump hosted Chinese President Xi Jinping in the East Room, every detail of the state dinner was steeped in symbolism, with sparkling wine served as a nod to a pivotal moment in Sino-US relations and references to “ping-pong diplomacy”.\nThe meal opened with a toast of Schram",
-   "link": "https://www.scmp.com/news/china/diplomacy/article/3368762/wine-ping-pong-trump-and-xis-state-dinner-heavy-historic-symbolism?utm_source=rss_feed",
-   "date": "2026-09-25T05:48:05Z"
   },
   {
    "feed": "ai-news",
@@ -3080,13 +3443,6 @@
    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added two critical security flaws impacting WSO2 and Adobe Commerce and Magento to its Known Exploited Vulnerabilities (KEV) catalog, based on evidence of active exploitation.\nThe vulnerabilities are listed below -\nCVE-20",
    "link": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html",
    "date": "2026-09-25T04:46:34Z"
-  },
-  {
-   "feed": "china-news",
-   "title": "SCMP: Pitch perfect cultural diplomacy wins heart of China’s first lady Peng Liyuan",
-   "summary": "While their husbands held talks at the White House, Melania Trump hosted Peng Liyuan at the Smithsonian National Museum of Asian Art on Thursday, where the famed Chinese soprano softly hummed along to a youth choir’s performance of a familiar classic.\nFootage shows the Hope Chinese School youth choi",
-   "link": "https://www.scmp.com/news/china/diplomacy/article/3368757/pitch-perfect-cultural-diplomacy-wins-heart-chinas-first-lady-peng-liyuan?utm_source=rss_feed",
-   "date": "2026-09-25T04:43:09Z"
   },
   {
    "feed": "thailand-news",
@@ -3320,13 +3676,6 @@
    "date": "2026-09-25T03:31:52Z"
   },
   {
-   "feed": "china-news",
-   "title": "SCMP: Trump autopen joke at Biden’s expense draws rare laugh from China’s Xi",
-   "summary": "Chinese President Xi Jinping broke into rare laughter as his US counterpart Donald Trump showed him a framed “autopen” displayed in place of the former American leader Joe Biden’s portrait during a White House tour.\nThe viral moment stood out against the Chinese leader’s otherwise restrained demeano",
-   "link": "https://www.scmp.com/news/china/diplomacy/article/3368744/chinas-xi-shares-rare-laugh-white-house-tour-trumps-biden-autopen-joke?utm_source=rss_feed",
-   "date": "2026-09-25T03:13:32Z"
-  },
-  {
    "feed": "thailand-news",
    "title": "GISTDA’s Satellite images show high flood risks across Thailand",
    "summary": "BANGKOK — 25 September 2026, Thailand’s Geo-Informatics and Space Technology Development Agency (GISTDA) has released satellite imagery showing widespread high-risk flood areas across several provinces following continued heavy rain, urging residents in areas marked red to closely monitor the situat",
@@ -3341,20 +3690,6 @@
    "date": "2026-09-25T02:50:16Z"
   },
   {
-   "feed": "china-news",
-   "title": "SCMP: Ivanka Trump takes front-row seat to welcome Xi in dress by Chinese designer Guo Pei",
-   "summary": "The US president’s eldest daughter Ivanka Trump had a front-row seat at a White House welcome ceremony for President Xi Jinping and his wife Peng Liyuan on Thursday, wearing a dress by Chinese fashion designer Guo Pei.\nTrump, in a robin’s egg blue dress and matching jacket, and her 15-year-old daugh",
-   "link": "https://www.scmp.com/news/asia/diplomacy/article/3368740/ivanka-trump-takes-front-row-seat-welcome-xi-dress-chinese-designer-guo-pei?utm_source=rss_feed",
-   "date": "2026-09-25T02:44:14Z"
-  },
-  {
-   "feed": "china-news",
-   "title": "CGTN (Chinese state media): 'Peace Train-2026' aims to enhance China-Laos joint rescue",
-   "summary": "'Peace Train-2026' aims to enhance China-Laos joint rescue",
-   "link": "https://news.cgtn.com/news/2026-09-25/-Peace-Train-2026-aims-to-enhance-China-Laos-joint-rescue-1QI5R7k4WXe/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China",
-   "date": "2026-09-25T02:33:23Z"
-  },
-  {
    "feed": "thailand-earthquakes",
    "title": "M3.7 ประเทศเมียนมา (Myanmar)",
    "summary": "แผ่นดินไหว ประเทศเมียนมา\n2026-09-25 09:13:57 น.\nLat. 21.876 , Long. 94.893\nขนาด 3.7",
@@ -3362,32 +3697,11 @@
    "date": "2026-09-25T02:25:58Z"
   },
   {
-   "feed": "china-news",
-   "title": "SCMP: China tested a handheld submarine detector. It tracked a subway train underground",
-   "summary": "Chinese researchers have showed a handheld quantum magnetometer built for hunting submarines in a striking real-world test: it tracked a subway train rumbling beneath a city street.\nThe device, developed by Peng Xinhua and colleagues at the University of Science and Technology of China, is described",
-   "link": "https://www.scmp.com/news/china/science/article/3367965/china-tested-handheld-submarine-detector-it-tracked-subway-train-underground?utm_source=rss_feed",
-   "date": "2026-09-25T02:00:18Z"
-  },
-  {
    "feed": "thailand-news",
    "title": "Thai Enquirer News Summary – September 25, 2026",
    "summary": "September 25, 2026 Political news Sondhi and his protest movement start their sage today Today a nationalist coalition led by former yellow-shirt figure Sondhi Limthongkul, Nitithorn Lamluea, Panthep Puapongpan, and Pichit Chaimongkol plans to rally at the Election Commission’s office in Bangkok on ",
    "link": "https://www.thaienquirer.com/74582/thai-enquirer-news-summary-september-25-2026/",
    "date": "2026-09-25T01:58:05Z"
-  },
-  {
-   "feed": "china-news",
-   "title": "SCMP: From ping-pong to pickleball: China’s unofficial approach to diplomatic messaging",
-   "summary": "Before setting off for Washington on Wednesday, Chinese President Xi Jinping had some correspondence to attend to.\nDozens of students from 10 US universities, including Harvard, had written to Xi about their experiences on an exchange trip to China this year.\nAccording to the State Council, Xi respo",
-   "link": "https://www.scmp.com/news/china/diplomacy/article/3368733/ping-pong-pickleball-chinas-unofficial-approach-diplomatic-messaging?utm_source=rss_feed",
-   "date": "2026-09-25T01:30:39Z"
-  },
-  {
-   "feed": "china-news",
-   "title": "SCMP: How was dinner? Takeaways from Xi and Trump’s evening at the White House",
-   "summary": "Presidents Xi Jinping and Donald Trump addressed top American business executives and officials in the White House’s East Room on Thursday evening, ahead of a state dinner.\nThe dinner capped a tightly scheduled day for the two leaders, who delivered speeches in the morning hailing close ties and urg",
-   "link": "https://www.scmp.com/news/china/diplomacy/article/3368731/how-was-dinner-takeaways-xi-and-trumps-evening-white-house?utm_source=rss_feed",
-   "date": "2026-09-25T01:13:56Z"
   },
   {
    "feed": "central-banks",

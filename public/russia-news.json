@@ -2,12 +2,424 @@
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Russia news (TASS, Meduza, Moscow Times)",
   "home_page_url": "https://tass.com/rss/v2.xml",
-  "description": "Events collected by UnlimitedPipe 0.4.0",
+  "description": "Events collected by UnlimitedPipe 0.5.1",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.4.0"
+    "generator": "UnlimitedPipe 0.5.1"
   },
   "items": [
+    {
+      "id": "80d7eb5e1b13b68039d3",
+      "title": "TASS (Russian state media): Hormuz blockade to threaten to least 45 million people with food shortages — UN",
+      "content_text": "Under-Secretary-General and Director of the UN Office for Project Services Jorge Moreira da Silva stressed that a humanitarian crisis can be avoided if at least five or seven ships carrying fertilizers pass through this strait per day",
+      "date_published": "2026-09-26T02:51:25Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "80d7eb5e1b13b68039d3",
+          "source": "rss",
+          "type": "change",
+          "key": "https://tass.com/society/2193195",
+          "source_url": "https://tass.com/rss/v2.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:36:08Z",
+          "data": {
+            "change": "added",
+            "label": "TASS (Russian state media): Hormuz blockade to threaten to least 45 million people with food shortages — UN",
+            "item_type": "entry",
+            "summary": "added: TASS (Russian state media): Hormuz blockade to threaten to least 45 million people with food shortages — UN",
+            "after": {
+              "title": "TASS (Russian state media): Hormuz blockade to threaten to least 45 million people with food shortages — UN",
+              "link": "https://tass.com/society/2193195",
+              "id": "https://tass.com/society/2193195",
+              "author": null,
+              "published_at": "2026-09-26T02:51:25Z",
+              "updated_at": "2026-09-26T02:51:25Z",
+              "summary": "Under-Secretary-General and Director of the UN Office for Project Services Jorge Moreira da Silva stressed that a humanitarian crisis can be avoided if at least five or seven ships carrying fertilizers pass through this strait per day",
+              "categories": [
+                "Society & Culture"
+              ],
+              "feed": {
+                "title": "TASS",
+                "url": "https://tass.com",
+                "feed_url": "https://tass.com/rss/v2.xml"
+              },
+              "outlet": "TASS (Russian state media)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://tass.com/rss/v2.xml",
+            "elapsed_ms": 1040,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "map",
+              "version": "0.5.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^tass\\\\.com$\", \"TASS (Russian state media)\")",
+                  "outlet=replace(outlet, \"^meduza\\\\.io$\", \"Meduza\")",
+                  "outlet=replace(outlet, \"^themoscowtimes\\\\.com$\", \"The Moscow Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "russia-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://tass.com/society/2193195",
+      "tags": [
+        "Society & Culture"
+      ]
+    },
+    {
+      "id": "7990f90e5972561ae8eb",
+      "title": "TASS (Russian state media): Number of victims of Japan’s typhoon rises to 12",
+      "content_text": "Most of them became victims of landslides; some drowned in their submerged vehicles, which got trapped in low-lying areas",
+      "date_published": "2026-09-26T02:34:46Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "7990f90e5972561ae8eb",
+          "source": "rss",
+          "type": "change",
+          "key": "https://tass.com/emergencies/2193193",
+          "source_url": "https://tass.com/rss/v2.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:36:08Z",
+          "data": {
+            "change": "added",
+            "label": "TASS (Russian state media): Number of victims of Japan’s typhoon rises to 12",
+            "item_type": "entry",
+            "summary": "added: TASS (Russian state media): Number of victims of Japan’s typhoon rises to 12",
+            "after": {
+              "title": "TASS (Russian state media): Number of victims of Japan’s typhoon rises to 12",
+              "link": "https://tass.com/emergencies/2193193",
+              "id": "https://tass.com/emergencies/2193193",
+              "author": null,
+              "published_at": "2026-09-26T02:34:46Z",
+              "updated_at": "2026-09-26T02:34:46Z",
+              "summary": "Most of them became victims of landslides; some drowned in their submerged vehicles, which got trapped in low-lying areas",
+              "categories": [
+                "Emergencies"
+              ],
+              "feed": {
+                "title": "TASS",
+                "url": "https://tass.com",
+                "feed_url": "https://tass.com/rss/v2.xml"
+              },
+              "outlet": "TASS (Russian state media)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://tass.com/rss/v2.xml",
+            "elapsed_ms": 1040,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "map",
+              "version": "0.5.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^tass\\\\.com$\", \"TASS (Russian state media)\")",
+                  "outlet=replace(outlet, \"^meduza\\\\.io$\", \"Meduza\")",
+                  "outlet=replace(outlet, \"^themoscowtimes\\\\.com$\", \"The Moscow Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "russia-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://tass.com/emergencies/2193193",
+      "tags": [
+        "Emergencies"
+      ]
+    },
+    {
+      "id": "e439968d99b9aa890be0",
+      "title": "TASS (Russian state media): EU’s reaction to corruption in Ukraine shows Europeans involved in it — envoy",
+      "content_text": "Rodion Miroshnik stressed that even the heads of European states are involved in these corruption schemes",
+      "date_published": "2026-09-26T02:22:56Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "e439968d99b9aa890be0",
+          "source": "rss",
+          "type": "change",
+          "key": "https://tass.com/politics/2193191",
+          "source_url": "https://tass.com/rss/v2.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:36:08Z",
+          "data": {
+            "change": "added",
+            "label": "TASS (Russian state media): EU’s reaction to corruption in Ukraine shows Europeans involved in it — envoy",
+            "item_type": "entry",
+            "summary": "added: TASS (Russian state media): EU’s reaction to corruption in Ukraine shows Europeans involved in it — envoy",
+            "after": {
+              "title": "TASS (Russian state media): EU’s reaction to corruption in Ukraine shows Europeans involved in it — envoy",
+              "link": "https://tass.com/politics/2193191",
+              "id": "https://tass.com/politics/2193191",
+              "author": null,
+              "published_at": "2026-09-26T02:22:56Z",
+              "updated_at": "2026-09-26T02:22:56Z",
+              "summary": "Rodion Miroshnik stressed that even the heads of European states are involved in these corruption schemes",
+              "categories": [
+                "FOREIGN POLICY",
+                "Russian Politics & Diplomacy"
+              ],
+              "feed": {
+                "title": "TASS",
+                "url": "https://tass.com",
+                "feed_url": "https://tass.com/rss/v2.xml"
+              },
+              "outlet": "TASS (Russian state media)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://tass.com/rss/v2.xml",
+            "elapsed_ms": 1040,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "map",
+              "version": "0.5.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^tass\\\\.com$\", \"TASS (Russian state media)\")",
+                  "outlet=replace(outlet, \"^meduza\\\\.io$\", \"Meduza\")",
+                  "outlet=replace(outlet, \"^themoscowtimes\\\\.com$\", \"The Moscow Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "russia-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://tass.com/politics/2193191",
+      "tags": [
+        "FOREIGN POLICY",
+        "Russian Politics & Diplomacy"
+      ]
+    },
+    {
+      "id": "046e58fc047edf39e9b0",
+      "title": "TASS (Russian state media): Europe to gain from resuming dialogue with Russia before special military operation ends",
+      "content_text": "A member of the State Duma Defense Committee Andrey Kolesnik also recalled the Latin saying \"woe to the vanquished\"",
+      "date_published": "2026-09-26T02:00:01Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "046e58fc047edf39e9b0",
+          "source": "rss",
+          "type": "change",
+          "key": "https://tass.com/politics/2193189",
+          "source_url": "https://tass.com/rss/v2.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:36:08Z",
+          "data": {
+            "change": "added",
+            "label": "TASS (Russian state media): Europe to gain from resuming dialogue with Russia before special military operation ends",
+            "item_type": "entry",
+            "summary": "added: TASS (Russian state media): Europe to gain from resuming dialogue with Russia before special military operation ends",
+            "after": {
+              "title": "TASS (Russian state media): Europe to gain from resuming dialogue with Russia before special military operation ends",
+              "link": "https://tass.com/politics/2193189",
+              "id": "https://tass.com/politics/2193189",
+              "author": null,
+              "published_at": "2026-09-26T02:00:01Z",
+              "updated_at": "2026-09-26T02:00:01Z",
+              "summary": "A member of the State Duma Defense Committee Andrey Kolesnik also recalled the Latin saying \"woe to the vanquished\"",
+              "categories": [
+                "FOREIGN POLICY",
+                "Russian Politics & Diplomacy"
+              ],
+              "feed": {
+                "title": "TASS",
+                "url": "https://tass.com",
+                "feed_url": "https://tass.com/rss/v2.xml"
+              },
+              "outlet": "TASS (Russian state media)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://tass.com/rss/v2.xml",
+            "elapsed_ms": 1040,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "map",
+              "version": "0.5.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^tass\\\\.com$\", \"TASS (Russian state media)\")",
+                  "outlet=replace(outlet, \"^meduza\\\\.io$\", \"Meduza\")",
+                  "outlet=replace(outlet, \"^themoscowtimes\\\\.com$\", \"The Moscow Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "russia-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://tass.com/politics/2193189",
+      "tags": [
+        "FOREIGN POLICY",
+        "Russian Politics & Diplomacy"
+      ]
+    },
     {
       "id": "e53ef1eaefdd24cb8669",
       "title": "TASS (Russian state media): Trump tells aides strikes against Iran may resume after November midterms — WSJ",
@@ -15023,394 +15435,6 @@
         }
       },
       "url": "https://www.themoscowtimes.com/2026/09/24/finance-ministry-unveils-2027-budget-draft-with-fresh-tax-hikes-to-fund-war-deficit-a93788"
-    },
-    {
-      "id": "98012f8d01c7e7d76244",
-      "title": "The Moscow Times: Krasnodar Region Declares State of Emergency as Ukrainian Strikes Cripple Grain Exports",
-      "content_text": "Authorities said many farmers in the region have been unable to sell their grain due to disruptions to export infrastructure.",
-      "date_published": "2026-09-24T11:24:00Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "98012f8d01c7e7d76244",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.themoscowtimes.com/2026/09/24/krasnodar-region-declares-state-of-emergency-as-ukrainian-strikes-cripple-grain-exports-a93786",
-          "source_url": "https://www.themoscowtimes.com/rss/news",
-          "timestamp": null,
-          "observed_at": "2026-09-25T23:50:03Z",
-          "data": {
-            "change": "added",
-            "label": "The Moscow Times: Krasnodar Region Declares State of Emergency as Ukrainian Strikes Cripple Grain Exports",
-            "item_type": "entry",
-            "summary": "added: The Moscow Times: Krasnodar Region Declares State of Emergency as Ukrainian Strikes Cripple Grain Exports",
-            "after": {
-              "title": "The Moscow Times: Krasnodar Region Declares State of Emergency as Ukrainian Strikes Cripple Grain Exports",
-              "link": "https://www.themoscowtimes.com/2026/09/24/krasnodar-region-declares-state-of-emergency-as-ukrainian-strikes-cripple-grain-exports-a93786",
-              "id": "https://www.themoscowtimes.com/2026/09/24/krasnodar-region-declares-state-of-emergency-as-ukrainian-strikes-cripple-grain-exports-a93786",
-              "author": null,
-              "published_at": "2026-09-24T11:24:00Z",
-              "updated_at": "2026-09-24T11:24:00Z",
-              "summary": "Authorities said many farmers in the region have been unable to sell their grain due to disruptions to export infrastructure.",
-              "categories": [],
-              "feed": {
-                "title": "The Moscow Times - Independent News From Russia",
-                "url": "https://www.themoscowtimes.com/news",
-                "feed_url": "https://www.themoscowtimes.com/rss/news"
-              },
-              "outlet": "The Moscow Times"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.themoscowtimes.com/rss/news",
-            "elapsed_ms": 154,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "map",
-              "version": "0.3.2",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^tass\\\\.com$\", \"TASS (Russian state media)\")",
-                  "outlet=replace(outlet, \"^meduza\\\\.io$\", \"Meduza\")",
-                  "outlet=replace(outlet, \"^themoscowtimes\\\\.com$\", \"The Moscow Times\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "russia-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.themoscowtimes.com/2026/09/24/krasnodar-region-declares-state-of-emergency-as-ukrainian-strikes-cripple-grain-exports-a93786"
-    },
-    {
-      "id": "7e70080ded1e51c24440",
-      "title": "The Moscow Times: Belarus Claims It Foiled ‘Sabotage’ Plot Targeting Russia",
-      "content_text": "The KGB security service of Belarus said the alleged sabotage operation was coordinated from neighboring Ukraine.",
-      "date_published": "2026-09-24T08:36:49Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "7e70080ded1e51c24440",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.themoscowtimes.com/2026/09/24/belarus-claims-it-foiled-sabotage-plot-targeting-russia-a93785",
-          "source_url": "https://www.themoscowtimes.com/rss/news",
-          "timestamp": null,
-          "observed_at": "2026-09-25T23:50:03Z",
-          "data": {
-            "change": "added",
-            "label": "The Moscow Times: Belarus Claims It Foiled ‘Sabotage’ Plot Targeting Russia",
-            "item_type": "entry",
-            "summary": "added: The Moscow Times: Belarus Claims It Foiled ‘Sabotage’ Plot Targeting Russia",
-            "after": {
-              "title": "The Moscow Times: Belarus Claims It Foiled ‘Sabotage’ Plot Targeting Russia",
-              "link": "https://www.themoscowtimes.com/2026/09/24/belarus-claims-it-foiled-sabotage-plot-targeting-russia-a93785",
-              "id": "https://www.themoscowtimes.com/2026/09/24/belarus-claims-it-foiled-sabotage-plot-targeting-russia-a93785",
-              "author": null,
-              "published_at": "2026-09-24T08:36:49Z",
-              "updated_at": "2026-09-24T08:36:49Z",
-              "summary": "The KGB security service of Belarus said the alleged sabotage operation was coordinated from neighboring Ukraine.",
-              "categories": [],
-              "feed": {
-                "title": "The Moscow Times - Independent News From Russia",
-                "url": "https://www.themoscowtimes.com/news",
-                "feed_url": "https://www.themoscowtimes.com/rss/news"
-              },
-              "outlet": "The Moscow Times"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.themoscowtimes.com/rss/news",
-            "elapsed_ms": 154,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "map",
-              "version": "0.3.2",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^tass\\\\.com$\", \"TASS (Russian state media)\")",
-                  "outlet=replace(outlet, \"^meduza\\\\.io$\", \"Meduza\")",
-                  "outlet=replace(outlet, \"^themoscowtimes\\\\.com$\", \"The Moscow Times\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "russia-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.themoscowtimes.com/2026/09/24/belarus-claims-it-foiled-sabotage-plot-targeting-russia-a93785"
-    },
-    {
-      "id": "9303eeeae532582cf5a2",
-      "title": "The Moscow Times: Kremlin Weighs U.S. Invitation for Putin to Attend G20 Summit in Miami",
-      "content_text": "Kremlin spokesman Dmitry Peskov said that Russia was “grateful for and appreciative of this invitation.”",
-      "date_published": "2026-09-24T07:47:31Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "9303eeeae532582cf5a2",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.themoscowtimes.com/2026/09/24/kremlin-weighs-us-invitation-for-putin-to-attend-g20-summit-in-miami-a93784",
-          "source_url": "https://www.themoscowtimes.com/rss/news",
-          "timestamp": null,
-          "observed_at": "2026-09-25T23:50:03Z",
-          "data": {
-            "change": "added",
-            "label": "The Moscow Times: Kremlin Weighs U.S. Invitation for Putin to Attend G20 Summit in Miami",
-            "item_type": "entry",
-            "summary": "added: The Moscow Times: Kremlin Weighs U.S. Invitation for Putin to Attend G20 Summit in Miami",
-            "after": {
-              "title": "The Moscow Times: Kremlin Weighs U.S. Invitation for Putin to Attend G20 Summit in Miami",
-              "link": "https://www.themoscowtimes.com/2026/09/24/kremlin-weighs-us-invitation-for-putin-to-attend-g20-summit-in-miami-a93784",
-              "id": "https://www.themoscowtimes.com/2026/09/24/kremlin-weighs-us-invitation-for-putin-to-attend-g20-summit-in-miami-a93784",
-              "author": null,
-              "published_at": "2026-09-24T07:47:31Z",
-              "updated_at": "2026-09-24T07:47:31Z",
-              "summary": "Kremlin spokesman Dmitry Peskov said that Russia was “grateful for and appreciative of this invitation.”",
-              "categories": [],
-              "feed": {
-                "title": "The Moscow Times - Independent News From Russia",
-                "url": "https://www.themoscowtimes.com/news",
-                "feed_url": "https://www.themoscowtimes.com/rss/news"
-              },
-              "outlet": "The Moscow Times"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.themoscowtimes.com/rss/news",
-            "elapsed_ms": 154,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "map",
-              "version": "0.3.2",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^tass\\\\.com$\", \"TASS (Russian state media)\")",
-                  "outlet=replace(outlet, \"^meduza\\\\.io$\", \"Meduza\")",
-                  "outlet=replace(outlet, \"^themoscowtimes\\\\.com$\", \"The Moscow Times\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "russia-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.themoscowtimes.com/2026/09/24/kremlin-weighs-us-invitation-for-putin-to-attend-g20-summit-in-miami-a93784"
-    },
-    {
-      "id": "c3b1189676478cca329b",
-      "title": "The Moscow Times: Firms Linked to Putin Classmate Win $1.5Bln in Moscow School Meal Contracts, Report Says",
-      "content_text": "The lucrative school catering business was once held by companies owned by late Wagner mercenary group founder Yevgeny Prigozhin.",
-      "date_published": "2026-09-23T15:13:22Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "c3b1189676478cca329b",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.themoscowtimes.com/2026/09/23/firms-linked-to-putin-classmate-win-15bln-in-moscow-school-meal-contracts-report-says-a93783",
-          "source_url": "https://www.themoscowtimes.com/rss/news",
-          "timestamp": null,
-          "observed_at": "2026-09-25T23:50:03Z",
-          "data": {
-            "change": "added",
-            "label": "The Moscow Times: Firms Linked to Putin Classmate Win $1.5Bln in Moscow School Meal Contracts, Report Says",
-            "item_type": "entry",
-            "summary": "added: The Moscow Times: Firms Linked to Putin Classmate Win $1.5Bln in Moscow School Meal Contracts, Report Says",
-            "after": {
-              "title": "The Moscow Times: Firms Linked to Putin Classmate Win $1.5Bln in Moscow School Meal Contracts, Report Says",
-              "link": "https://www.themoscowtimes.com/2026/09/23/firms-linked-to-putin-classmate-win-15bln-in-moscow-school-meal-contracts-report-says-a93783",
-              "id": "https://www.themoscowtimes.com/2026/09/23/firms-linked-to-putin-classmate-win-15bln-in-moscow-school-meal-contracts-report-says-a93783",
-              "author": null,
-              "published_at": "2026-09-23T15:13:22Z",
-              "updated_at": "2026-09-23T15:13:22Z",
-              "summary": "The lucrative school catering business was once held by companies owned by late Wagner mercenary group founder Yevgeny Prigozhin.",
-              "categories": [],
-              "feed": {
-                "title": "The Moscow Times - Independent News From Russia",
-                "url": "https://www.themoscowtimes.com/news",
-                "feed_url": "https://www.themoscowtimes.com/rss/news"
-              },
-              "outlet": "The Moscow Times"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.themoscowtimes.com/rss/news",
-            "elapsed_ms": 154,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "map",
-              "version": "0.3.2",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^tass\\\\.com$\", \"TASS (Russian state media)\")",
-                  "outlet=replace(outlet, \"^meduza\\\\.io$\", \"Meduza\")",
-                  "outlet=replace(outlet, \"^themoscowtimes\\\\.com$\", \"The Moscow Times\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "russia-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.themoscowtimes.com/2026/09/23/firms-linked-to-putin-classmate-win-15bln-in-moscow-school-meal-contracts-report-says-a93783"
     }
   ]
 }

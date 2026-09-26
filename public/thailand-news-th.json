@@ -2,12 +2,2459 @@
   "version": "https://jsonfeed.org/version/1.1",
   "title": "ข่าวไทย (มติชน, ประชาชาติธุรกิจ)",
   "home_page_url": "https://www.matichon.co.th/feed",
-  "description": "Events collected by UnlimitedPipe 0.4.0",
+  "description": "Events collected by UnlimitedPipe 0.5.1",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.4.0"
+    "generator": "UnlimitedPipe 0.5.1"
   },
   "items": [
+    {
+      "id": "fed4881b11307a3f59f1",
+      "title": "มติชน: แอร์เอเชีย เปิดให้ผู้โดยสารเที่ยวบินเข้า-ออก กทม. ที่ได้รับผลกระทบ เปลี่ยนเที่ยวบินได้",
+      "content_text": "แอร์เอเชีย เปิดให้ผู้โดยสารเที่ยวบินเข้า-ออก กทม. ที่ได […]",
+      "date_published": "2026-09-26T03:34:41Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "fed4881b11307a3f59f1",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.matichon.co.th/?p=5905849",
+          "source_url": "https://www.matichon.co.th/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:37:13Z",
+          "data": {
+            "change": "added",
+            "label": "มติชน: แอร์เอเชีย เปิดให้ผู้โดยสารเที่ยวบินเข้า-ออก กทม. ที่ได้รับผลกระทบ เปลี่ยนเที่ยวบินได้",
+            "item_type": "entry",
+            "summary": "added: มติชน: แอร์เอเชีย เปิดให้ผู้โดยสารเที่ยวบินเข้า-ออก กทม. ที่ได้รับผลกระทบ เปลี่ยนเที่ยวบินได้",
+            "after": {
+              "title": "มติชน: แอร์เอเชีย เปิดให้ผู้โดยสารเที่ยวบินเข้า-ออก กทม. ที่ได้รับผลกระทบ เปลี่ยนเที่ยวบินได้",
+              "link": "https://www.matichon.co.th/economy/news_5905849",
+              "id": "https://www.matichon.co.th/?p=5905849",
+              "author": "Chanan",
+              "published_at": "2026-09-26T03:34:41Z",
+              "updated_at": "2026-09-26T03:34:41Z",
+              "summary": "แอร์เอเชีย เปิดให้ผู้โดยสารเที่ยวบินเข้า-ออก กทม. ที่ได […]",
+              "categories": [
+                "เศรษฐกิจ",
+                "เด่นวันนี้",
+                "แอร์เอเชีย"
+              ],
+              "feed": {
+                "title": "มติชนออนไลน์",
+                "url": "https://www.matichon.co.th",
+                "feed_url": "https://www.matichon.co.th/feed"
+              },
+              "outlet": "มติชน"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.matichon.co.th/feed",
+            "elapsed_ms": 730,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "map",
+              "version": "0.5.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^matichon\\\\.co\\\\.th$\", \"มติชน\")",
+                  "outlet=replace(outlet, \"^prachachat\\\\.net$\", \"ประชาชาติธุรกิจ\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "thailand-news-th",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.matichon.co.th/economy/news_5905849",
+      "tags": [
+        "เศรษฐกิจ",
+        "เด่นวันนี้",
+        "แอร์เอเชีย"
+      ]
+    },
+    {
+      "id": "7d5e84ae6852ad48190f",
+      "title": "มติชน: สระแก้วอ่วม! ฝนตกหนัก น้ำท่วมเส้นทางเข้าเมือง รถทุกชนิดผ่านไม่ได้",
+      "content_text": "สระแก้วอ่วม! ฝนตกหนัก น้ำท่วมเส้นทางเข้าเมือง รถทุกชนิด […]",
+      "date_published": "2026-09-26T03:34:30Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "7d5e84ae6852ad48190f",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.matichon.co.th/?p=5905842",
+          "source_url": "https://www.matichon.co.th/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:37:13Z",
+          "data": {
+            "change": "added",
+            "label": "มติชน: สระแก้วอ่วม! ฝนตกหนัก น้ำท่วมเส้นทางเข้าเมือง รถทุกชนิดผ่านไม่ได้",
+            "item_type": "entry",
+            "summary": "added: มติชน: สระแก้วอ่วม! ฝนตกหนัก น้ำท่วมเส้นทางเข้าเมือง รถทุกชนิดผ่านไม่ได้",
+            "after": {
+              "title": "มติชน: สระแก้วอ่วม! ฝนตกหนัก น้ำท่วมเส้นทางเข้าเมือง รถทุกชนิดผ่านไม่ได้",
+              "link": "https://www.matichon.co.th/region/news_5905842",
+              "id": "https://www.matichon.co.th/?p=5905842",
+              "author": "kk",
+              "published_at": "2026-09-26T03:34:30Z",
+              "updated_at": "2026-09-26T03:34:30Z",
+              "summary": "สระแก้วอ่วม! ฝนตกหนัก น้ำท่วมเส้นทางเข้าเมือง รถทุกชนิด […]",
+              "categories": [
+                "ภูมิภาค",
+                "น้ำท่วม",
+                "สระแก้ว",
+                "ฝนตก"
+              ],
+              "feed": {
+                "title": "มติชนออนไลน์",
+                "url": "https://www.matichon.co.th",
+                "feed_url": "https://www.matichon.co.th/feed"
+              },
+              "outlet": "มติชน"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.matichon.co.th/feed",
+            "elapsed_ms": 730,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "map",
+              "version": "0.5.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^matichon\\\\.co\\\\.th$\", \"มติชน\")",
+                  "outlet=replace(outlet, \"^prachachat\\\\.net$\", \"ประชาชาติธุรกิจ\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "thailand-news-th",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.matichon.co.th/region/news_5905842",
+      "tags": [
+        "ภูมิภาค",
+        "น้ำท่วม",
+        "สระแก้ว",
+        "ฝนตก"
+      ]
+    },
+    {
+      "id": "cc96f9c027257a19cfd7",
+      "title": "มติชน: มีบางคนยังไม่อยากให้ “ผู้กอง” ร่วมรัฐบาล ? I อ่านให้ขาด",
+      "content_text": "รายการอ่านให้ขาด EP.29 อ๊อก เอกภัทร์ และบก.อาร์ม มติชนส […]",
+      "date_published": "2026-09-26T03:33:27Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "cc96f9c027257a19cfd7",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.matichon.co.th/?p=5905696",
+          "source_url": "https://www.matichon.co.th/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:37:13Z",
+          "data": {
+            "change": "added",
+            "label": "มติชน: มีบางคนยังไม่อยากให้ “ผู้กอง” ร่วมรัฐบาล ? I อ่านให้ขาด",
+            "item_type": "entry",
+            "summary": "added: มติชน: มีบางคนยังไม่อยากให้ “ผู้กอง” ร่วมรัฐบาล ? I อ่านให้ขาด",
+            "after": {
+              "title": "มติชน: มีบางคนยังไม่อยากให้ “ผู้กอง” ร่วมรัฐบาล ? I อ่านให้ขาด",
+              "link": "https://www.matichon.co.th/matichon-tv/news_5905696",
+              "id": "https://www.matichon.co.th/?p=5905696",
+              "author": "อดินันท์ เหมือนยัง",
+              "published_at": "2026-09-26T03:33:27Z",
+              "updated_at": "2026-09-26T03:33:27Z",
+              "summary": "รายการอ่านให้ขาด EP.29 อ๊อก เอกภัทร์ และบก.อาร์ม มติชนส […]",
+              "categories": [
+                "มติชนทีวี",
+                "อ่านให้ขาด"
+              ],
+              "feed": {
+                "title": "มติชนออนไลน์",
+                "url": "https://www.matichon.co.th",
+                "feed_url": "https://www.matichon.co.th/feed"
+              },
+              "outlet": "มติชน"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.matichon.co.th/feed",
+            "elapsed_ms": 730,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "map",
+              "version": "0.5.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^matichon\\\\.co\\\\.th$\", \"มติชน\")",
+                  "outlet=replace(outlet, \"^prachachat\\\\.net$\", \"ประชาชาติธุรกิจ\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "thailand-news-th",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.matichon.co.th/matichon-tv/news_5905696",
+      "tags": [
+        "มติชนทีวี",
+        "อ่านให้ขาด"
+      ]
+    },
+    {
+      "id": "5c97848c49e445e826f4",
+      "title": "มติชน: ด่วน! ชัชชาติ ลงนามแล้ว ประกาศ กทม. เป็นพื้นที่ประสบสาธารณภัย ครอบคลุมทั้ง 50 เขต",
+      "content_text": "ชัชชาติ ลงนาม ประกาศ พื้นที่ประสบสาธารณภัย ครอบคลุมทั้ง […]",
+      "date_published": "2026-09-26T03:16:07Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "5c97848c49e445e826f4",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.matichon.co.th/?p=5905829",
+          "source_url": "https://www.matichon.co.th/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:37:13Z",
+          "data": {
+            "change": "added",
+            "label": "มติชน: ด่วน! ชัชชาติ ลงนามแล้ว ประกาศ กทม. เป็นพื้นที่ประสบสาธารณภัย ครอบคลุมทั้ง 50 เขต",
+            "item_type": "entry",
+            "summary": "added: มติชน: ด่วน! ชัชชาติ ลงนามแล้ว ประกาศ กทม. เป็นพื้นที่ประสบสาธารณภัย ครอบคลุมทั้ง 50 เขต",
+            "after": {
+              "title": "มติชน: ด่วน! ชัชชาติ ลงนามแล้ว ประกาศ กทม. เป็นพื้นที่ประสบสาธารณภัย ครอบคลุมทั้ง 50 เขต",
+              "link": "https://www.matichon.co.th/local/news_5905829",
+              "id": "https://www.matichon.co.th/?p=5905829",
+              "author": "Chanan",
+              "published_at": "2026-09-26T03:16:07Z",
+              "updated_at": "2026-09-26T03:16:07Z",
+              "summary": "ชัชชาติ ลงนาม ประกาศ พื้นที่ประสบสาธารณภัย ครอบคลุมทั้ง […]",
+              "categories": [
+                "ในประเทศ",
+                "ภาพนำ",
+                "น้ำท่วม",
+                "น้ำท่วมกทม."
+              ],
+              "feed": {
+                "title": "มติชนออนไลน์",
+                "url": "https://www.matichon.co.th",
+                "feed_url": "https://www.matichon.co.th/feed"
+              },
+              "outlet": "มติชน"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.matichon.co.th/feed",
+            "elapsed_ms": 730,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "map",
+              "version": "0.5.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^matichon\\\\.co\\\\.th$\", \"มติชน\")",
+                  "outlet=replace(outlet, \"^prachachat\\\\.net$\", \"ประชาชาติธุรกิจ\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "thailand-news-th",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.matichon.co.th/local/news_5905829",
+      "tags": [
+        "ในประเทศ",
+        "ภาพนำ",
+        "น้ำท่วม",
+        "น้ำท่วมกทม."
+      ]
+    },
+    {
+      "id": "be5193b00f202480af74",
+      "title": "มติชน: ฝนตกก็ไม่มีปัญหา! บิว ภูริพล เข้าที่ 1 ฮีตแรก ลอยลำฉลุยรอบรองฯ วิ่ง 200 เมตรชาย",
+      "content_text": "ฝนตกก็ไม่มีปัญหา! บิว ภูริพล เข้าที่ 1 ฮีตแรก ลอยลำฉลุย […]",
+      "date_published": "2026-09-26T03:14:42Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "be5193b00f202480af74",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.matichon.co.th/?p=5905822",
+          "source_url": "https://www.matichon.co.th/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:37:13Z",
+          "data": {
+            "change": "added",
+            "label": "มติชน: ฝนตกก็ไม่มีปัญหา! บิว ภูริพล เข้าที่ 1 ฮีตแรก ลอยลำฉลุยรอบรองฯ วิ่ง 200 เมตรชาย",
+            "item_type": "entry",
+            "summary": "added: มติชน: ฝนตกก็ไม่มีปัญหา! บิว ภูริพล เข้าที่ 1 ฮีตแรก ลอยลำฉลุยรอบรองฯ วิ่ง 200 เมตรชาย",
+            "after": {
+              "title": "มติชน: ฝนตกก็ไม่มีปัญหา! บิว ภูริพล เข้าที่ 1 ฮีตแรก ลอยลำฉลุยรอบรองฯ วิ่ง 200 เมตรชาย",
+              "link": "https://www.matichon.co.th/sport/thai-sport/news_5905822",
+              "id": "https://www.matichon.co.th/?p=5905822",
+              "author": "แอม ชูรัตน์",
+              "published_at": "2026-09-26T03:14:42Z",
+              "updated_at": "2026-09-26T03:14:42Z",
+              "summary": "ฝนตกก็ไม่มีปัญหา! บิว ภูริพล เข้าที่ 1 ฮีตแรก ลอยลำฉลุย […]",
+              "categories": [
+                "กีฬาในประเทศ",
+                "กีฬา",
+                "Sport Slide",
+                "\"บิว\" ภูริพล บุญสอน",
+                "เอเชี่ยนเกมส์ ครั้งที่ 20",
+                "วิ่ง 200 เมตรชาย"
+              ],
+              "feed": {
+                "title": "มติชนออนไลน์",
+                "url": "https://www.matichon.co.th",
+                "feed_url": "https://www.matichon.co.th/feed"
+              },
+              "outlet": "มติชน"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.matichon.co.th/feed",
+            "elapsed_ms": 730,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "map",
+              "version": "0.5.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^matichon\\\\.co\\\\.th$\", \"มติชน\")",
+                  "outlet=replace(outlet, \"^prachachat\\\\.net$\", \"ประชาชาติธุรกิจ\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "thailand-news-th",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.matichon.co.th/sport/thai-sport/news_5905822",
+      "tags": [
+        "กีฬาในประเทศ",
+        "กีฬา",
+        "Sport Slide",
+        "\"บิว\" ภูริพล บุญสอน",
+        "เอเชี่ยนเกมส์ ครั้งที่ 20",
+        "วิ่ง 200 เมตรชาย"
+      ]
+    },
+    {
+      "id": "069a30a957bb5281a15d",
+      "title": "มติชน: ปชป.ห่วงฝนหนัก เตือนจุดเสี่ยงยกของหนีน้ำ จี้ ‘เจเศรษฐ์’ เร่งยิง Cell Broadcast เตือนภัยด่วน",
+      "content_text": "พศิน สส.ระยอง ปชป.ห่วงฝนถล่มบูรพาจม ส่งสัญญาณเตือนจุดเส […]",
+      "date_published": "2026-09-26T03:12:51Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "069a30a957bb5281a15d",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.matichon.co.th/?p=5905815",
+          "source_url": "https://www.matichon.co.th/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:37:13Z",
+          "data": {
+            "change": "added",
+            "label": "มติชน: ปชป.ห่วงฝนหนัก เตือนจุดเสี่ยงยกของหนีน้ำ จี้ ‘เจเศรษฐ์’ เร่งยิง Cell Broadcast เตือนภัยด่วน",
+            "item_type": "entry",
+            "summary": "added: มติชน: ปชป.ห่วงฝนหนัก เตือนจุดเสี่ยงยกของหนีน้ำ จี้ ‘เจเศรษฐ์’ เร่งยิง Cell Broadcast เตือนภัยด่วน",
+            "after": {
+              "title": "มติชน: ปชป.ห่วงฝนหนัก เตือนจุดเสี่ยงยกของหนีน้ำ จี้ ‘เจเศรษฐ์’ เร่งยิง Cell Broadcast เตือนภัยด่วน",
+              "link": "https://www.matichon.co.th/politics/news_5905815",
+              "id": "https://www.matichon.co.th/?p=5905815",
+              "author": "kk",
+              "published_at": "2026-09-26T03:12:51Z",
+              "updated_at": "2026-09-26T03:12:51Z",
+              "summary": "พศิน สส.ระยอง ปชป.ห่วงฝนถล่มบูรพาจม ส่งสัญญาณเตือนจุดเส […]",
+              "categories": [
+                "การเมือง",
+                "ประชาธิปัตย์",
+                "ปชป.",
+                "น้ำท่วม",
+                "ฝนตกหนัก",
+                "พศิน ปิตุเตชะ"
+              ],
+              "feed": {
+                "title": "มติชนออนไลน์",
+                "url": "https://www.matichon.co.th",
+                "feed_url": "https://www.matichon.co.th/feed"
+              },
+              "outlet": "มติชน"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.matichon.co.th/feed",
+            "elapsed_ms": 730,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "map",
+              "version": "0.5.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^matichon\\\\.co\\\\.th$\", \"มติชน\")",
+                  "outlet=replace(outlet, \"^prachachat\\\\.net$\", \"ประชาชาติธุรกิจ\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "thailand-news-th",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.matichon.co.th/politics/news_5905815",
+      "tags": [
+        "การเมือง",
+        "ประชาธิปัตย์",
+        "ปชป.",
+        "น้ำท่วม",
+        "ฝนตกหนัก",
+        "พศิน ปิตุเตชะ"
+      ]
+    },
+    {
+      "id": "d0e64407046a369b9e19",
+      "title": "มติชน: เช็กที่นี่ รฟม. เปิดให้จอดรถฟรี 9 สถานี กรุงเทพฯ-ปริมณฑล ตั้งแต่วันนี้-2 ตุลาคม",
+      "content_text": "เช็กที่นี่ รฟม. เปิดให้จอดรถฟรี 9 สถานี กรุงเทพฯ-ปริมณฑ […]",
+      "date_published": "2026-09-26T03:10:48Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d0e64407046a369b9e19",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.matichon.co.th/?p=5905817",
+          "source_url": "https://www.matichon.co.th/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:37:13Z",
+          "data": {
+            "change": "added",
+            "label": "มติชน: เช็กที่นี่ รฟม. เปิดให้จอดรถฟรี 9 สถานี กรุงเทพฯ-ปริมณฑล ตั้งแต่วันนี้-2 ตุลาคม",
+            "item_type": "entry",
+            "summary": "added: มติชน: เช็กที่นี่ รฟม. เปิดให้จอดรถฟรี 9 สถานี กรุงเทพฯ-ปริมณฑล ตั้งแต่วันนี้-2 ตุลาคม",
+            "after": {
+              "title": "มติชน: เช็กที่นี่ รฟม. เปิดให้จอดรถฟรี 9 สถานี กรุงเทพฯ-ปริมณฑล ตั้งแต่วันนี้-2 ตุลาคม",
+              "link": "https://www.matichon.co.th/local/news_5905817",
+              "id": "https://www.matichon.co.th/?p=5905817",
+              "author": "Chanan",
+              "published_at": "2026-09-26T03:10:48Z",
+              "updated_at": "2026-09-26T03:10:48Z",
+              "summary": "เช็กที่นี่ รฟม. เปิดให้จอดรถฟรี 9 สถานี กรุงเทพฯ-ปริมณฑ […]",
+              "categories": [
+                "ในประเทศ"
+              ],
+              "feed": {
+                "title": "มติชนออนไลน์",
+                "url": "https://www.matichon.co.th",
+                "feed_url": "https://www.matichon.co.th/feed"
+              },
+              "outlet": "มติชน"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.matichon.co.th/feed",
+            "elapsed_ms": 730,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "map",
+              "version": "0.5.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^matichon\\\\.co\\\\.th$\", \"มติชน\")",
+                  "outlet=replace(outlet, \"^prachachat\\\\.net$\", \"ประชาชาติธุรกิจ\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "thailand-news-th",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.matichon.co.th/local/news_5905817",
+      "tags": [
+        "ในประเทศ"
+      ]
+    },
+    {
+      "id": "b19dc59fc0592c8e9d6d",
+      "title": "มติชน: ลุ้นตำแหน่ง",
+      "content_text": "ลุ้นตำแหน่ง ช่วงนี้ใครผ่านแถวกระทรวงดีอี อาจเห็นบรรยากา […]",
+      "date_published": "2026-09-26T02:46:30Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "b19dc59fc0592c8e9d6d",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.matichon.co.th/?p=5905346",
+          "source_url": "https://www.matichon.co.th/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:37:13Z",
+          "data": {
+            "change": "added",
+            "label": "มติชน: ลุ้นตำแหน่ง",
+            "item_type": "entry",
+            "summary": "added: มติชน: ลุ้นตำแหน่ง",
+            "after": {
+              "title": "มติชน: ลุ้นตำแหน่ง",
+              "link": "https://www.matichon.co.th/economy/coffee-break/news_5905346",
+              "id": "https://www.matichon.co.th/?p=5905346",
+              "author": "ชัยยุทธ กาญจนสงคราม",
+              "published_at": "2026-09-26T02:46:30Z",
+              "updated_at": "2026-09-26T02:46:30Z",
+              "summary": "ลุ้นตำแหน่ง ช่วงนี้ใครผ่านแถวกระทรวงดีอี อาจเห็นบรรยากา […]",
+              "categories": [
+                "คอฟฟี่เบรก",
+                "ไชยชนก ชิดชอบ",
+                "ลุ้นตำแหน่ง"
+              ],
+              "feed": {
+                "title": "มติชนออนไลน์",
+                "url": "https://www.matichon.co.th",
+                "feed_url": "https://www.matichon.co.th/feed"
+              },
+              "outlet": "มติชน"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.matichon.co.th/feed",
+            "elapsed_ms": 730,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "map",
+              "version": "0.5.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^matichon\\\\.co\\\\.th$\", \"มติชน\")",
+                  "outlet=replace(outlet, \"^prachachat\\\\.net$\", \"ประชาชาติธุรกิจ\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "thailand-news-th",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.matichon.co.th/economy/coffee-break/news_5905346",
+      "tags": [
+        "คอฟฟี่เบรก",
+        "ไชยชนก ชิดชอบ",
+        "ลุ้นตำแหน่ง"
+      ]
+    },
+    {
+      "id": "4b64b0ee47827b084a8c",
+      "title": "มติชน: ศุภจี สั่ง พณ.รับมือฝนหนัก ดูแลสินค้าไม่ขาด–ราคาไม่แพง",
+      "content_text": "ศุภจี สั่ง พณ.รับมือฝนหนัก ดูแลสินค้าไม่ขาด–ราคาไม่แพง […]",
+      "date_published": "2026-09-26T02:44:54Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "4b64b0ee47827b084a8c",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.matichon.co.th/?p=5905798",
+          "source_url": "https://www.matichon.co.th/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:37:13Z",
+          "data": {
+            "change": "added",
+            "label": "มติชน: ศุภจี สั่ง พณ.รับมือฝนหนัก ดูแลสินค้าไม่ขาด–ราคาไม่แพง",
+            "item_type": "entry",
+            "summary": "added: มติชน: ศุภจี สั่ง พณ.รับมือฝนหนัก ดูแลสินค้าไม่ขาด–ราคาไม่แพง",
+            "after": {
+              "title": "มติชน: ศุภจี สั่ง พณ.รับมือฝนหนัก ดูแลสินค้าไม่ขาด–ราคาไม่แพง",
+              "link": "https://www.matichon.co.th/economy/news_5905798",
+              "id": "https://www.matichon.co.th/?p=5905798",
+              "author": "kk",
+              "published_at": "2026-09-26T02:44:54Z",
+              "updated_at": "2026-09-26T02:44:54Z",
+              "summary": "ศุภจี สั่ง พณ.รับมือฝนหนัก ดูแลสินค้าไม่ขาด–ราคาไม่แพง […]",
+              "categories": [
+                "เศรษฐกิจ",
+                "ฝนตกหนัก",
+                "ศุภจี สุธรรมพันธุ์"
+              ],
+              "feed": {
+                "title": "มติชนออนไลน์",
+                "url": "https://www.matichon.co.th",
+                "feed_url": "https://www.matichon.co.th/feed"
+              },
+              "outlet": "มติชน"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.matichon.co.th/feed",
+            "elapsed_ms": 730,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "map",
+              "version": "0.5.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^matichon\\\\.co\\\\.th$\", \"มติชน\")",
+                  "outlet=replace(outlet, \"^prachachat\\\\.net$\", \"ประชาชาติธุรกิจ\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "thailand-news-th",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.matichon.co.th/economy/news_5905798",
+      "tags": [
+        "เศรษฐกิจ",
+        "ฝนตกหนัก",
+        "ศุภจี สุธรรมพันธุ์"
+      ]
+    },
+    {
+      "id": "f3bf5b5314aa0f4ced97",
+      "title": "มติชน: กทม. สั่งด่วน 7 ข้อ เร่งช่วยเหลือปชช.ทั่วกรุงฯ จัด ‘จุดจอด’ รถรับ-ส่ง ศูนย์พักพิงในร.ร.",
+      "content_text": "ชัชชาติ สั่งการ 7 ข้อ เร่งช่วยเหลือปชช.ทุกเขต จัดรถรับ- […]",
+      "date_published": "2026-09-26T02:43:53Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "f3bf5b5314aa0f4ced97",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.matichon.co.th/?p=5905805",
+          "source_url": "https://www.matichon.co.th/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:37:13Z",
+          "data": {
+            "change": "added",
+            "label": "มติชน: กทม. สั่งด่วน 7 ข้อ เร่งช่วยเหลือปชช.ทั่วกรุงฯ จัด ‘จุดจอด’ รถรับ-ส่ง ศูนย์พักพิงในร.ร.",
+            "item_type": "entry",
+            "summary": "added: มติชน: กทม. สั่งด่วน 7 ข้อ เร่งช่วยเหลือปชช.ทั่วกรุงฯ จัด ‘จุดจอด’ รถรับ-ส่ง ศูนย์พักพิงในร.ร.",
+            "after": {
+              "title": "มติชน: กทม. สั่งด่วน 7 ข้อ เร่งช่วยเหลือปชช.ทั่วกรุงฯ จัด ‘จุดจอด’ รถรับ-ส่ง ศูนย์พักพิงในร.ร.",
+              "link": "https://www.matichon.co.th/local/news_5905805",
+              "id": "https://www.matichon.co.th/?p=5905805",
+              "author": "Chanan",
+              "published_at": "2026-09-26T02:43:53Z",
+              "updated_at": "2026-09-26T02:43:53Z",
+              "summary": "ชัชชาติ สั่งการ 7 ข้อ เร่งช่วยเหลือปชช.ทุกเขต จัดรถรับ- […]",
+              "categories": [
+                "ในประเทศ",
+                "น้ำท่วม",
+                "น้ำท่วมกทม."
+              ],
+              "feed": {
+                "title": "มติชนออนไลน์",
+                "url": "https://www.matichon.co.th",
+                "feed_url": "https://www.matichon.co.th/feed"
+              },
+              "outlet": "มติชน"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.matichon.co.th/feed",
+            "elapsed_ms": 730,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "map",
+              "version": "0.5.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^matichon\\\\.co\\\\.th$\", \"มติชน\")",
+                  "outlet=replace(outlet, \"^prachachat\\\\.net$\", \"ประชาชาติธุรกิจ\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "thailand-news-th",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.matichon.co.th/local/news_5905805",
+      "tags": [
+        "ในประเทศ",
+        "น้ำท่วม",
+        "น้ำท่วมกทม."
+      ]
+    },
+    {
+      "id": "23c9632421c5d3c33b16",
+      "title": "ประชาชาติธุรกิจ: กทม.เปิดเว็บ เช็คถนนน้ำท่วม แบบเรียลไทม์",
+      "content_text": "กทม. ใช้ claude.ai สร้างเว็บไซต์เช็คเส้นทางน้ำท่วมแบบเรียลไทม์ กรุงเทพมหานคร เปิด เว็บไซต์รายงานสถานการณ์น้ำท่วมถนนทั่วกรุงเทพแบบเรียลไทม์ ด้วยการใช้ claude.ai ดึงข้อมูลจาก Google Maps โดยผู้ใช้สามารถค้นหาจากชื่อเขต ชื่อถนน รวมถึงเลือกดูในพื้นที่ต่าง …\nอ่านข่าวต้นฉบับ: กทม.เปิดเว็บ เช็คถนนน้ำท่วม แบบเรียลไทม์",
+      "date_published": "2026-09-26T02:40:27Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "23c9632421c5d3c33b16",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.prachachat.net/?p=2071993",
+          "source_url": "https://www.prachachat.net/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:37:13Z",
+          "data": {
+            "change": "added",
+            "label": "ประชาชาติธุรกิจ: กทม.เปิดเว็บ เช็คถนนน้ำท่วม แบบเรียลไทม์",
+            "item_type": "entry",
+            "summary": "added: ประชาชาติธุรกิจ: กทม.เปิดเว็บ เช็คถนนน้ำท่วม แบบเรียลไทม์",
+            "after": {
+              "title": "ประชาชาติธุรกิจ: กทม.เปิดเว็บ เช็คถนนน้ำท่วม แบบเรียลไทม์",
+              "link": "https://www.prachachat.net/tech/news-2071993",
+              "id": "https://www.prachachat.net/?p=2071993",
+              "author": "การตลาด ประชาชาติ",
+              "published_at": "2026-09-26T02:40:27Z",
+              "updated_at": "2026-09-26T02:40:27Z",
+              "summary": "กทม. ใช้ claude.ai สร้างเว็บไซต์เช็คเส้นทางน้ำท่วมแบบเรียลไทม์ กรุงเทพมหานคร เปิด เว็บไซต์รายงานสถานการณ์น้ำท่วมถนนทั่วกรุงเทพแบบเรียลไทม์ ด้วยการใช้ claude.ai ดึงข้อมูลจาก Google Maps โดยผู้ใช้สามารถค้นหาจากชื่อเขต ชื่อถนน รวมถึงเลือกดูในพื้นที่ต่าง …\nอ่านข่าวต้นฉบับ: กทม.เปิดเว็บ เช็คถนนน้ำท่วม แบบเรียลไทม์",
+              "categories": [
+                "Tech"
+              ],
+              "feed": {
+                "title": "ประชาชาติธุรกิจ",
+                "url": "https://www.prachachat.net",
+                "feed_url": "https://www.prachachat.net/feed"
+              },
+              "outlet": "ประชาชาติธุรกิจ"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.prachachat.net/feed",
+            "elapsed_ms": 300,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "map",
+              "version": "0.5.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^matichon\\\\.co\\\\.th$\", \"มติชน\")",
+                  "outlet=replace(outlet, \"^prachachat\\\\.net$\", \"ประชาชาติธุรกิจ\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "thailand-news-th",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.prachachat.net/tech/news-2071993",
+      "tags": [
+        "Tech"
+      ]
+    },
+    {
+      "id": "f8916e3463e209c76b7d",
+      "title": "ประชาชาติธุรกิจ: ศุภจี สั่งรับมือฝนหนัก คุมของไม่ขาด-ราคาไม่พุ่ง เร่งส่งสินค้าช่วยพื้นที่น้ำท่วม",
+      "content_text": "รมว.พาณิชย์ เกาะติดสถานการณ์ฝนหนักและน้ำท่วมทั่วประเทศ กำชับสินค้าจำเป็นต้องไม่ขาดแคลนและราคาไม่แพง เร่งเช็กปริมาณสินค้า ราคาและความต้องการในพื้นที่ ประสานห้างค้าส่ง ค้าปลีก และผู้ประกอบการเติมสต๊อกและจัดส่งของจำเป็นเข้าพื้นที่ได้รับผลกระทบ หากพบกักต …\nอ่านข่าวต้นฉบับ: ศุภจี สั่งรับมือฝนหนัก คุมของไม่ขาด-ราคาไม่พุ่ง เร่งส่งสินค้าช่วยพื้นที่น้ำท่วม",
+      "date_published": "2026-09-26T02:40:04Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "f8916e3463e209c76b7d",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.prachachat.net/?p=2071994",
+          "source_url": "https://www.prachachat.net/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:37:13Z",
+          "data": {
+            "change": "added",
+            "label": "ประชาชาติธุรกิจ: ศุภจี สั่งรับมือฝนหนัก คุมของไม่ขาด-ราคาไม่พุ่ง เร่งส่งสินค้าช่วยพื้นที่น้ำท่วม",
+            "item_type": "entry",
+            "summary": "added: ประชาชาติธุรกิจ: ศุภจี สั่งรับมือฝนหนัก คุมของไม่ขาด-ราคาไม่พุ่ง เร่งส่งสินค้าช่วยพื้นที่น้ำท่วม",
+            "after": {
+              "title": "ประชาชาติธุรกิจ: ศุภจี สั่งรับมือฝนหนัก คุมของไม่ขาด-ราคาไม่พุ่ง เร่งส่งสินค้าช่วยพื้นที่น้ำท่วม",
+              "link": "https://www.prachachat.net/economic/news-2071994",
+              "id": "https://www.prachachat.net/?p=2071994",
+              "author": "Viravin Politics Online",
+              "published_at": "2026-09-26T02:40:04Z",
+              "updated_at": "2026-09-26T02:40:04Z",
+              "summary": "รมว.พาณิชย์ เกาะติดสถานการณ์ฝนหนักและน้ำท่วมทั่วประเทศ กำชับสินค้าจำเป็นต้องไม่ขาดแคลนและราคาไม่แพง เร่งเช็กปริมาณสินค้า ราคาและความต้องการในพื้นที่ ประสานห้างค้าส่ง ค้าปลีก และผู้ประกอบการเติมสต๊อกและจัดส่งของจำเป็นเข้าพื้นที่ได้รับผลกระทบ หากพบกักต …\nอ่านข่าวต้นฉบับ: ศุภจี สั่งรับมือฝนหนัก คุมของไม่ขาด-ราคาไม่พุ่ง เร่งส่งสินค้าช่วยพื้นที่น้ำท่วม",
+              "categories": [
+                "Economic",
+                "ศุภจี"
+              ],
+              "feed": {
+                "title": "ประชาชาติธุรกิจ",
+                "url": "https://www.prachachat.net",
+                "feed_url": "https://www.prachachat.net/feed"
+              },
+              "outlet": "ประชาชาติธุรกิจ"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.prachachat.net/feed",
+            "elapsed_ms": 300,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "map",
+              "version": "0.5.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^matichon\\\\.co\\\\.th$\", \"มติชน\")",
+                  "outlet=replace(outlet, \"^prachachat\\\\.net$\", \"ประชาชาติธุรกิจ\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "thailand-news-th",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.prachachat.net/economic/news-2071994",
+      "tags": [
+        "Economic",
+        "ศุภจี"
+      ]
+    },
+    {
+      "id": "6f33f23fbac5c5c309cd",
+      "title": "มติชน: พระมหานภันต์ เผยถูกเครือโรงแรมดังปฏิเสธเข้าพัก หลังตกเครื่องเพราะดีเลย์ อ้าง เจ้าของเคร่งศาสนา",
+      "content_text": "พระมหานภันต์ เผยถูกเครือโรงแรมดังปฏิเสธเข้าพัก หลังตกเค […]",
+      "date_published": "2026-09-26T02:34:50Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "6f33f23fbac5c5c309cd",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.matichon.co.th/?p=5905797",
+          "source_url": "https://www.matichon.co.th/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:37:13Z",
+          "data": {
+            "change": "added",
+            "label": "มติชน: พระมหานภันต์ เผยถูกเครือโรงแรมดังปฏิเสธเข้าพัก หลังตกเครื่องเพราะดีเลย์ อ้าง เจ้าของเคร่งศาสนา",
+            "item_type": "entry",
+            "summary": "added: มติชน: พระมหานภันต์ เผยถูกเครือโรงแรมดังปฏิเสธเข้าพัก หลังตกเครื่องเพราะดีเลย์ อ้าง เจ้าของเคร่งศาสนา",
+            "after": {
+              "title": "มติชน: พระมหานภันต์ เผยถูกเครือโรงแรมดังปฏิเสธเข้าพัก หลังตกเครื่องเพราะดีเลย์ อ้าง เจ้าของเคร่งศาสนา",
+              "link": "https://www.matichon.co.th/local/religious/news_5905797",
+              "id": "https://www.matichon.co.th/?p=5905797",
+              "author": "Chanan",
+              "published_at": "2026-09-26T02:34:50Z",
+              "updated_at": "2026-09-26T02:34:50Z",
+              "summary": "พระมหานภันต์ เผยถูกเครือโรงแรมดังปฏิเสธเข้าพัก หลังตกเค […]",
+              "categories": [
+                "ศาสนา",
+                "เกาะกระแสโซเชียล",
+                "พระมหานภันต์"
+              ],
+              "feed": {
+                "title": "มติชนออนไลน์",
+                "url": "https://www.matichon.co.th",
+                "feed_url": "https://www.matichon.co.th/feed"
+              },
+              "outlet": "มติชน"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.matichon.co.th/feed",
+            "elapsed_ms": 730,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "map",
+              "version": "0.5.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^matichon\\\\.co\\\\.th$\", \"มติชน\")",
+                  "outlet=replace(outlet, \"^prachachat\\\\.net$\", \"ประชาชาติธุรกิจ\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "thailand-news-th",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.matichon.co.th/local/religious/news_5905797",
+      "tags": [
+        "ศาสนา",
+        "เกาะกระแสโซเชียล",
+        "พระมหานภันต์"
+      ]
+    },
+    {
+      "id": "7d3f82d6eb0ff7d3306f",
+      "title": "มติชน: ฝันร้ายของชาวพุทธ หยุดกันได้หรือยัง?",
+      "content_text": "ฝันร้ายของชาวพุทธ หยุดกันได้หรือยัง? กลายเป็นข่าวร้ายแล […]",
+      "date_published": "2026-09-26T02:27:29Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "7d3f82d6eb0ff7d3306f",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.matichon.co.th/?p=5904829",
+          "source_url": "https://www.matichon.co.th/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:37:13Z",
+          "data": {
+            "change": "added",
+            "label": "มติชน: ฝันร้ายของชาวพุทธ หยุดกันได้หรือยัง?",
+            "item_type": "entry",
+            "summary": "added: มติชน: ฝันร้ายของชาวพุทธ หยุดกันได้หรือยัง?",
+            "after": {
+              "title": "มติชน: ฝันร้ายของชาวพุทธ หยุดกันได้หรือยัง?",
+              "link": "https://www.matichon.co.th/article/news_5904829",
+              "id": "https://www.matichon.co.th/?p=5904829",
+              "author": "ศรีสุดา ศิริพรนพคุณ",
+              "published_at": "2026-09-26T02:27:29Z",
+              "updated_at": "2026-09-26T02:27:29Z",
+              "summary": "ฝันร้ายของชาวพุทธ หยุดกันได้หรือยัง? กลายเป็นข่าวร้ายแล […]",
+              "categories": [
+                "บทความ",
+                "พระธรรมวินัย",
+                "พระพุทธศาสนา",
+                "ฝันร้ายของชาวพุทธ",
+                "พระกับสีกา",
+                "หลักธรรมคำสอน"
+              ],
+              "feed": {
+                "title": "มติชนออนไลน์",
+                "url": "https://www.matichon.co.th",
+                "feed_url": "https://www.matichon.co.th/feed"
+              },
+              "outlet": "มติชน"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.matichon.co.th/feed",
+            "elapsed_ms": 730,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "map",
+              "version": "0.5.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^matichon\\\\.co\\\\.th$\", \"มติชน\")",
+                  "outlet=replace(outlet, \"^prachachat\\\\.net$\", \"ประชาชาติธุรกิจ\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "thailand-news-th",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.matichon.co.th/article/news_5904829",
+      "tags": [
+        "บทความ",
+        "พระธรรมวินัย",
+        "พระพุทธศาสนา",
+        "ฝันร้ายของชาวพุทธ",
+        "พระกับสีกา",
+        "หลักธรรมคำสอน"
+      ]
+    },
+    {
+      "id": "4a74916647f1343dae5e",
+      "title": "ประชาชาติธุรกิจ: แฟชั่นไอส์แลนด์-เดอะ พรอมานาด ปิดชั่วคราว 26 ก.ย.",
+      "content_text": "ศูนย์การค้า Fashionisland และ The Promenade แจ้งปิดให้บริการชั่วคราวเสาร์ที่ 26 กันยายน 2569 เนื่องจากน้ำท่วมลกระทบต่อเส้นทางสัญจรเข้าศูนย์การค้าฯ ศูนย์การค้าF ashionisland และ The Promenade แจ้งผ่านเฟสบุ๊ค Fashionisland & The Promenade เมื่อเวลา …\nอ่านข่าวต้นฉบับ: แฟชั่นไอส์แลนด์-เดอะ พรอมานาด ปิดชั่วคราว 26 ก.ย.",
+      "date_published": "2026-09-26T02:23:58Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "4a74916647f1343dae5e",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.prachachat.net/?p=2071988",
+          "source_url": "https://www.prachachat.net/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:37:13Z",
+          "data": {
+            "change": "added",
+            "label": "ประชาชาติธุรกิจ: แฟชั่นไอส์แลนด์-เดอะ พรอมานาด ปิดชั่วคราว 26 ก.ย.",
+            "item_type": "entry",
+            "summary": "added: ประชาชาติธุรกิจ: แฟชั่นไอส์แลนด์-เดอะ พรอมานาด ปิดชั่วคราว 26 ก.ย.",
+            "after": {
+              "title": "ประชาชาติธุรกิจ: แฟชั่นไอส์แลนด์-เดอะ พรอมานาด ปิดชั่วคราว 26 ก.ย.",
+              "link": "https://www.prachachat.net/business/news-2071988",
+              "id": "https://www.prachachat.net/?p=2071988",
+              "author": "การตลาด ประชาชาติ",
+              "published_at": "2026-09-26T02:23:58Z",
+              "updated_at": "2026-09-26T02:23:58Z",
+              "summary": "ศูนย์การค้า Fashionisland และ The Promenade แจ้งปิดให้บริการชั่วคราวเสาร์ที่ 26 กันยายน 2569 เนื่องจากน้ำท่วมลกระทบต่อเส้นทางสัญจรเข้าศูนย์การค้าฯ ศูนย์การค้าF ashionisland และ The Promenade แจ้งผ่านเฟสบุ๊ค Fashionisland & The Promenade เมื่อเวลา …\nอ่านข่าวต้นฉบับ: แฟชั่นไอส์แลนด์-เดอะ พรอมานาด ปิดชั่วคราว 26 ก.ย.",
+              "categories": [
+                "Business",
+                "ห้าง-ศูนย์การค้า"
+              ],
+              "feed": {
+                "title": "ประชาชาติธุรกิจ",
+                "url": "https://www.prachachat.net",
+                "feed_url": "https://www.prachachat.net/feed"
+              },
+              "outlet": "ประชาชาติธุรกิจ"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.prachachat.net/feed",
+            "elapsed_ms": 300,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "map",
+              "version": "0.5.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^matichon\\\\.co\\\\.th$\", \"มติชน\")",
+                  "outlet=replace(outlet, \"^prachachat\\\\.net$\", \"ประชาชาติธุรกิจ\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "thailand-news-th",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.prachachat.net/business/news-2071988",
+      "tags": [
+        "Business",
+        "ห้าง-ศูนย์การค้า"
+      ]
+    },
+    {
+      "id": "c6b51a1ab65f396053e2",
+      "title": "มติชน: น้ำป่าทะลักโคราช ท่วมใต้สะพานกลับรถคลองน้ำขาว สีคิ้ว เตือนรถเล็กฝ่าน้ำไม่ได้",
+      "content_text": "น้ำป่าทะลักโคราช ท่วมใต้สะพานกลับรถคลองน้ำขาว สีคิ้ว เต […]",
+      "date_published": "2026-09-26T02:21:44Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c6b51a1ab65f396053e2",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.matichon.co.th/?p=5905788",
+          "source_url": "https://www.matichon.co.th/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:37:13Z",
+          "data": {
+            "change": "added",
+            "label": "มติชน: น้ำป่าทะลักโคราช ท่วมใต้สะพานกลับรถคลองน้ำขาว สีคิ้ว เตือนรถเล็กฝ่าน้ำไม่ได้",
+            "item_type": "entry",
+            "summary": "added: มติชน: น้ำป่าทะลักโคราช ท่วมใต้สะพานกลับรถคลองน้ำขาว สีคิ้ว เตือนรถเล็กฝ่าน้ำไม่ได้",
+            "after": {
+              "title": "มติชน: น้ำป่าทะลักโคราช ท่วมใต้สะพานกลับรถคลองน้ำขาว สีคิ้ว เตือนรถเล็กฝ่าน้ำไม่ได้",
+              "link": "https://www.matichon.co.th/region/news_5905788",
+              "id": "https://www.matichon.co.th/?p=5905788",
+              "author": "Chanan",
+              "published_at": "2026-09-26T02:21:44Z",
+              "updated_at": "2026-09-26T02:21:44Z",
+              "summary": "น้ำป่าทะลักโคราช ท่วมใต้สะพานกลับรถคลองน้ำขาว สีคิ้ว เต […]",
+              "categories": [
+                "ภูมิภาค"
+              ],
+              "feed": {
+                "title": "มติชนออนไลน์",
+                "url": "https://www.matichon.co.th",
+                "feed_url": "https://www.matichon.co.th/feed"
+              },
+              "outlet": "มติชน"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.matichon.co.th/feed",
+            "elapsed_ms": 730,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "map",
+              "version": "0.5.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^matichon\\\\.co\\\\.th$\", \"มติชน\")",
+                  "outlet=replace(outlet, \"^prachachat\\\\.net$\", \"ประชาชาติธุรกิจ\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "thailand-news-th",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.matichon.co.th/region/news_5905788",
+      "tags": [
+        "ภูมิภาค"
+      ]
+    },
+    {
+      "id": "b458ffbdd6c7cd7c5491",
+      "title": "มติชน: จักรทิพย์ชมโค้ชจีคนที่ใช่ ยกระดับบิว พร้อมต่อสัญญาถ้าอยากร่วมงานต่อ",
+      "content_text": "จักรทิพย์ชมโค้ชจีคนที่ใช่ ยกระดับบิว พร้อมต่อสัญญาถ้าอย […]",
+      "date_published": "2026-09-26T02:20:40Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "b458ffbdd6c7cd7c5491",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.matichon.co.th/?p=5905816",
+          "source_url": "https://www.matichon.co.th/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:37:13Z",
+          "data": {
+            "change": "added",
+            "label": "มติชน: จักรทิพย์ชมโค้ชจีคนที่ใช่ ยกระดับบิว พร้อมต่อสัญญาถ้าอยากร่วมงานต่อ",
+            "item_type": "entry",
+            "summary": "added: มติชน: จักรทิพย์ชมโค้ชจีคนที่ใช่ ยกระดับบิว พร้อมต่อสัญญาถ้าอยากร่วมงานต่อ",
+            "after": {
+              "title": "มติชน: จักรทิพย์ชมโค้ชจีคนที่ใช่ ยกระดับบิว พร้อมต่อสัญญาถ้าอยากร่วมงานต่อ",
+              "link": "https://www.matichon.co.th/sport/thai-sport/news_5905816",
+              "id": "https://www.matichon.co.th/?p=5905816",
+              "author": "ศิริชัย ธนะเบญจผล",
+              "published_at": "2026-09-26T02:20:40Z",
+              "updated_at": "2026-09-26T02:20:40Z",
+              "summary": "จักรทิพย์ชมโค้ชจีคนที่ใช่ ยกระดับบิว พร้อมต่อสัญญาถ้าอย […]",
+              "categories": [
+                "กีฬาในประเทศ",
+                "กีฬา",
+                "Sport Slide",
+                "\"บิ๊กแป๊ะ\" พล.ต.อ.จักรทิพย์ ชัยจินดา",
+                "\"บิว\" ภูริพล บุญสอน",
+                "เจนทรี แบรดลี่ย์"
+              ],
+              "feed": {
+                "title": "มติชนออนไลน์",
+                "url": "https://www.matichon.co.th",
+                "feed_url": "https://www.matichon.co.th/feed"
+              },
+              "outlet": "มติชน"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.matichon.co.th/feed",
+            "elapsed_ms": 730,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "map",
+              "version": "0.5.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^matichon\\\\.co\\\\.th$\", \"มติชน\")",
+                  "outlet=replace(outlet, \"^prachachat\\\\.net$\", \"ประชาชาติธุรกิจ\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "thailand-news-th",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.matichon.co.th/sport/thai-sport/news_5905816",
+      "tags": [
+        "กีฬาในประเทศ",
+        "กีฬา",
+        "Sport Slide",
+        "\"บิ๊กแป๊ะ\" พล.ต.อ.จักรทิพย์ ชัยจินดา",
+        "\"บิว\" ภูริพล บุญสอน",
+        "เจนทรี แบรดลี่ย์"
+      ]
+    },
+    {
+      "id": "c3e71a387508f20b8ff5",
+      "title": "ประชาชาติธุรกิจ: ปฏิรูปประเทศใหม่ทั้งหมด คิกออฟจ่าย 7 พันล้าน-ดันข้าราชการออก",
+      "content_text": "นายปกรณ์ นิลประพันธ์ รองนายกรัฐมนตรี มือกฎหมายของรัฐบาล สร้างผลงานจาก “ปฏิรูปราชการ” รื้อ-สางกฎหมายเศรษฐกิจ-ธุรกิจที่ล้าหลังยุคสงครามโลกครั้งที่ 2 ขึ้นปาฐกถาพิเศษในหัวข้อ “Do’s and Don’ts: ประเทศไทยในเกมโลก” จัดโดยสำนักข่าวออนไลน์ไทยพับลิก้า ตอ …\nอ่านข่าวต้นฉบับ: ปฏิรูปประเทศใหม่ทั้งหมด คิกออฟจ่าย 7 พันล้าน-ดันข้าราชการออก",
+      "date_published": "2026-09-26T02:19:29Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c3e71a387508f20b8ff5",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.prachachat.net/?p=2071834",
+          "source_url": "https://www.prachachat.net/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:37:13Z",
+          "data": {
+            "change": "added",
+            "label": "ประชาชาติธุรกิจ: ปฏิรูปประเทศใหม่ทั้งหมด คิกออฟจ่าย 7 พันล้าน-ดันข้าราชการออก",
+            "item_type": "entry",
+            "summary": "added: ประชาชาติธุรกิจ: ปฏิรูปประเทศใหม่ทั้งหมด คิกออฟจ่าย 7 พันล้าน-ดันข้าราชการออก",
+            "after": {
+              "title": "ประชาชาติธุรกิจ: ปฏิรูปประเทศใหม่ทั้งหมด คิกออฟจ่าย 7 พันล้าน-ดันข้าราชการออก",
+              "link": "https://www.prachachat.net/politics/news-2071834",
+              "id": "https://www.prachachat.net/?p=2071834",
+              "author": "SUB_Polla",
+              "published_at": "2026-09-26T02:19:29Z",
+              "updated_at": "2026-09-26T02:19:29Z",
+              "summary": "นายปกรณ์ นิลประพันธ์ รองนายกรัฐมนตรี มือกฎหมายของรัฐบาล สร้างผลงานจาก “ปฏิรูปราชการ” รื้อ-สางกฎหมายเศรษฐกิจ-ธุรกิจที่ล้าหลังยุคสงครามโลกครั้งที่ 2 ขึ้นปาฐกถาพิเศษในหัวข้อ “Do’s and Don’ts: ประเทศไทยในเกมโลก” จัดโดยสำนักข่าวออนไลน์ไทยพับลิก้า ตอ …\nอ่านข่าวต้นฉบับ: ปฏิรูปประเทศใหม่ทั้งหมด คิกออฟจ่าย 7 พันล้าน-ดันข้าราชการออก",
+              "categories": [
+                "Politics",
+                "ข้าราชการ",
+                "ปฏิรูป"
+              ],
+              "feed": {
+                "title": "ประชาชาติธุรกิจ",
+                "url": "https://www.prachachat.net",
+                "feed_url": "https://www.prachachat.net/feed"
+              },
+              "outlet": "ประชาชาติธุรกิจ"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.prachachat.net/feed",
+            "elapsed_ms": 300,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "map",
+              "version": "0.5.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^matichon\\\\.co\\\\.th$\", \"มติชน\")",
+                  "outlet=replace(outlet, \"^prachachat\\\\.net$\", \"ประชาชาติธุรกิจ\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "thailand-news-th",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.prachachat.net/politics/news-2071834",
+      "tags": [
+        "Politics",
+        "ข้าราชการ",
+        "ปฏิรูป"
+      ]
+    },
+    {
+      "id": "a5f2274d5b9c63d6c809",
+      "title": "ประชาชาติธุรกิจ: รายได้รัฐ 11 เดือนเกินเป้า ‘2 กรมภาษี’ แป้กกู้ โปะขาดดุล 8 แสนล้าน",
+      "content_text": "กระทรวงการคลังเพิ่งรายงานผลการจัดเก็บรายได้รัฐบาล ช่วง 11 เดือนแรกของปีงบประมาณ 2569 (ต.ค. 68-ส.ค. 69) พบว่า รัฐเก็บรายได้สุทธิ 2,606,845 ล้านบาท สูงกว่าประมาณการ 57,498 ล้านบาท หรือสูงกว่าเป้า 2.3% และสูงกว่าช่วงเดียวกันปีก่อน 4% ทั้งนี้ หลัก ๆ มาจา …\nอ่านข่าวต้นฉบับ: รายได้รัฐ 11 เดือนเกินเป้า ‘2 กรมภาษี’ แป้กกู้ โปะขาดดุล 8 แสนล้าน",
+      "date_published": "2026-09-26T02:18:48Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "a5f2274d5b9c63d6c809",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.prachachat.net/?p=2071696",
+          "source_url": "https://www.prachachat.net/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:37:13Z",
+          "data": {
+            "change": "added",
+            "label": "ประชาชาติธุรกิจ: รายได้รัฐ 11 เดือนเกินเป้า ‘2 กรมภาษี’ แป้กกู้ โปะขาดดุล 8 แสนล้าน",
+            "item_type": "entry",
+            "summary": "added: ประชาชาติธุรกิจ: รายได้รัฐ 11 เดือนเกินเป้า ‘2 กรมภาษี’ แป้กกู้ โปะขาดดุล 8 แสนล้าน",
+            "after": {
+              "title": "ประชาชาติธุรกิจ: รายได้รัฐ 11 เดือนเกินเป้า ‘2 กรมภาษี’ แป้กกู้ โปะขาดดุล 8 แสนล้าน",
+              "link": "https://www.prachachat.net/finance/news-2071696",
+              "id": "https://www.prachachat.net/?p=2071696",
+              "author": "SUB_BUA",
+              "published_at": "2026-09-26T02:18:48Z",
+              "updated_at": "2026-09-26T02:18:48Z",
+              "summary": "กระทรวงการคลังเพิ่งรายงานผลการจัดเก็บรายได้รัฐบาล ช่วง 11 เดือนแรกของปีงบประมาณ 2569 (ต.ค. 68-ส.ค. 69) พบว่า รัฐเก็บรายได้สุทธิ 2,606,845 ล้านบาท สูงกว่าประมาณการ 57,498 ล้านบาท หรือสูงกว่าเป้า 2.3% และสูงกว่าช่วงเดียวกันปีก่อน 4% ทั้งนี้ หลัก ๆ มาจา …\nอ่านข่าวต้นฉบับ: รายได้รัฐ 11 เดือนเกินเป้า ‘2 กรมภาษี’ แป้กกู้ โปะขาดดุล 8 แสนล้าน",
+              "categories": [
+                "Finance",
+                "กระทรวงการคลัง",
+                "รายได้รัฐ"
+              ],
+              "feed": {
+                "title": "ประชาชาติธุรกิจ",
+                "url": "https://www.prachachat.net",
+                "feed_url": "https://www.prachachat.net/feed"
+              },
+              "outlet": "ประชาชาติธุรกิจ"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.prachachat.net/feed",
+            "elapsed_ms": 300,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "map",
+              "version": "0.5.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^matichon\\\\.co\\\\.th$\", \"มติชน\")",
+                  "outlet=replace(outlet, \"^prachachat\\\\.net$\", \"ประชาชาติธุรกิจ\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "thailand-news-th",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.prachachat.net/finance/news-2071696",
+      "tags": [
+        "Finance",
+        "กระทรวงการคลัง",
+        "รายได้รัฐ"
+      ]
+    },
+    {
+      "id": "66476d986326ad84f689",
+      "title": "ประชาชาติธุรกิจ: พิพัฒน์ แม่ทัพกลางเกม 2 น. เพื่อไทย-ภูมิใจไทย สมการรัฐบาล 3 สี",
+      "content_text": "โกเกี๊ยะ “พิพัฒน์ รัชกิจประการ” รองนายกรัฐมนตรี และ รมว.คมนาคม ขุนพลคนสำคัญของพรรคภูมิใจไทย จากอดีตที่เคยอยู่แนวหลังการเมือง แต่เมื่อภรรยาของเขา “นาที รัชกิจประการ” ถูกศาลฎีกาแผนกคดีอาญาของผู้ดำรงตำแหน่งทางการเมือง ตัดสินห้ามเล่นการเมืองตลอดไป …\nอ่านข่าวต้นฉบับ: พิพัฒน์ แม่ทัพกลางเกม 2 น. เพื่อไทย-ภูมิใจไทย สมการรัฐบาล 3 สี",
+      "date_published": "2026-09-26T02:15:31Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "66476d986326ad84f689",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.prachachat.net/?p=2071342",
+          "source_url": "https://www.prachachat.net/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:37:13Z",
+          "data": {
+            "change": "added",
+            "label": "ประชาชาติธุรกิจ: พิพัฒน์ แม่ทัพกลางเกม 2 น. เพื่อไทย-ภูมิใจไทย สมการรัฐบาล 3 สี",
+            "item_type": "entry",
+            "summary": "added: ประชาชาติธุรกิจ: พิพัฒน์ แม่ทัพกลางเกม 2 น. เพื่อไทย-ภูมิใจไทย สมการรัฐบาล 3 สี",
+            "after": {
+              "title": "ประชาชาติธุรกิจ: พิพัฒน์ แม่ทัพกลางเกม 2 น. เพื่อไทย-ภูมิใจไทย สมการรัฐบาล 3 สี",
+              "link": "https://www.prachachat.net/politics/news-2071342",
+              "id": "https://www.prachachat.net/?p=2071342",
+              "author": "SUB_Nui",
+              "published_at": "2026-09-26T02:15:31Z",
+              "updated_at": "2026-09-26T02:15:31Z",
+              "summary": "โกเกี๊ยะ “พิพัฒน์ รัชกิจประการ” รองนายกรัฐมนตรี และ รมว.คมนาคม ขุนพลคนสำคัญของพรรคภูมิใจไทย จากอดีตที่เคยอยู่แนวหลังการเมือง แต่เมื่อภรรยาของเขา “นาที รัชกิจประการ” ถูกศาลฎีกาแผนกคดีอาญาของผู้ดำรงตำแหน่งทางการเมือง ตัดสินห้ามเล่นการเมืองตลอดไป …\nอ่านข่าวต้นฉบับ: พิพัฒน์ แม่ทัพกลางเกม 2 น. เพื่อไทย-ภูมิใจไทย สมการรัฐบาล 3 สี",
+              "categories": [
+                "Politics",
+                "ไฮไลท์ประชาชาติ",
+                "พรรคภูมิใจไทย",
+                "พรรคเพื่อไทย",
+                "พิพัฒน์ รัชกิจประการ"
+              ],
+              "feed": {
+                "title": "ประชาชาติธุรกิจ",
+                "url": "https://www.prachachat.net",
+                "feed_url": "https://www.prachachat.net/feed"
+              },
+              "outlet": "ประชาชาติธุรกิจ"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.prachachat.net/feed",
+            "elapsed_ms": 300,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "map",
+              "version": "0.5.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^matichon\\\\.co\\\\.th$\", \"มติชน\")",
+                  "outlet=replace(outlet, \"^prachachat\\\\.net$\", \"ประชาชาติธุรกิจ\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "thailand-news-th",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.prachachat.net/politics/news-2071342",
+      "tags": [
+        "Politics",
+        "ไฮไลท์ประชาชาติ",
+        "พรรคภูมิใจไทย",
+        "พรรคเพื่อไทย",
+        "พิพัฒน์ รัชกิจประการ"
+      ]
+    },
+    {
+      "id": "8cbc9226730cfbc3051e",
+      "title": "มติชน: ชัชชาติ ชี้สถานการณ์ ‘ยังไม่ดีขึ้น’ ฝนหมุนวน ทำน้ำเต็มแล้วทุกคลอง รองฯแนะ 17 เส้นทางหลีกเลี่ยง",
+      "content_text": "ชัชชาติ ชี้ สถานการณ์เช้านี้ ‘ยังไม่ดีขึ้น’ […]",
+      "date_published": "2026-09-26T02:13:48Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "8cbc9226730cfbc3051e",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.matichon.co.th/?p=5905785",
+          "source_url": "https://www.matichon.co.th/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:37:13Z",
+          "data": {
+            "change": "added",
+            "label": "มติชน: ชัชชาติ ชี้สถานการณ์ ‘ยังไม่ดีขึ้น’ ฝนหมุนวน ทำน้ำเต็มแล้วทุกคลอง รองฯแนะ 17 เส้นทางหลีกเลี่ยง",
+            "item_type": "entry",
+            "summary": "added: มติชน: ชัชชาติ ชี้สถานการณ์ ‘ยังไม่ดีขึ้น’ ฝนหมุนวน ทำน้ำเต็มแล้วทุกคลอง รองฯแนะ 17 เส้นทางหลีกเลี่ยง",
+            "after": {
+              "title": "มติชน: ชัชชาติ ชี้สถานการณ์ ‘ยังไม่ดีขึ้น’ ฝนหมุนวน ทำน้ำเต็มแล้วทุกคลอง รองฯแนะ 17 เส้นทางหลีกเลี่ยง",
+              "link": "https://www.matichon.co.th/local/quality-life/news_5905785",
+              "id": "https://www.matichon.co.th/?p=5905785",
+              "author": "kajorn",
+              "published_at": "2026-09-26T02:13:48Z",
+              "updated_at": "2026-09-26T02:13:48Z",
+              "summary": "ชัชชาติ ชี้ สถานการณ์เช้านี้ ‘ยังไม่ดีขึ้น’ […]",
+              "categories": [
+                "ชีวิตคุณภาพ",
+                "ภาพนำ",
+                "กทม.",
+                "น้ำท่วม",
+                "ฝนตก",
+                "ชัชชาติ สิทธิพันธุ์",
+                "ศานนท์ หวังสร้างบุญ"
+              ],
+              "feed": {
+                "title": "มติชนออนไลน์",
+                "url": "https://www.matichon.co.th",
+                "feed_url": "https://www.matichon.co.th/feed"
+              },
+              "outlet": "มติชน"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.matichon.co.th/feed",
+            "elapsed_ms": 730,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "map",
+              "version": "0.5.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^matichon\\\\.co\\\\.th$\", \"มติชน\")",
+                  "outlet=replace(outlet, \"^prachachat\\\\.net$\", \"ประชาชาติธุรกิจ\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "thailand-news-th",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.matichon.co.th/local/quality-life/news_5905785",
+      "tags": [
+        "ชีวิตคุณภาพ",
+        "ภาพนำ",
+        "กทม.",
+        "น้ำท่วม",
+        "ฝนตก",
+        "ชัชชาติ สิทธิพันธุ์",
+        "ศานนท์ หวังสร้างบุญ"
+      ]
+    },
+    {
+      "id": "b5e075cbde21bd8589fe",
+      "title": "ประชาชาติธุรกิจ: น้ำท่วม ‘วิกฤตกรุงเทพ’ ตลาดหลักทรัพย์ฯ เลื่อนจัดงาน-กทม.วอนงดเดินทาง",
+      "content_text": "น้ำท่วม กรุงเทพ วิกฤต ตลาดหลักทรัพย์ฯ เลื่อนจัดงาน-กทม.วอนงดเดินทาง สถานการณ์น้ำท่วมในพื้นที่กรุงเทพฯ ปริมณฑลเช้านี้ (26 ก.ย.) วิกฤตหลายพื้นที่ ถนนวิภาวดีรังสิตขาเข้าอ่วม “ศูนย์ป้องกันน้ำท่วม” วอนประชาชนงดเดินทาง ด้าน “ตลาดหลักทรัพย …\nอ่านข่าวต้นฉบับ: น้ำท่วม ‘วิกฤตกรุงเทพ’ ตลาดหลักทรัพย์ฯ เลื่อนจัดงาน-กทม.วอนงดเดินทาง",
+      "date_published": "2026-09-26T02:13:21Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "b5e075cbde21bd8589fe",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.prachachat.net/?p=2071985",
+          "source_url": "https://www.prachachat.net/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:37:13Z",
+          "data": {
+            "change": "added",
+            "label": "ประชาชาติธุรกิจ: น้ำท่วม ‘วิกฤตกรุงเทพ’ ตลาดหลักทรัพย์ฯ เลื่อนจัดงาน-กทม.วอนงดเดินทาง",
+            "item_type": "entry",
+            "summary": "added: ประชาชาติธุรกิจ: น้ำท่วม ‘วิกฤตกรุงเทพ’ ตลาดหลักทรัพย์ฯ เลื่อนจัดงาน-กทม.วอนงดเดินทาง",
+            "after": {
+              "title": "ประชาชาติธุรกิจ: น้ำท่วม ‘วิกฤตกรุงเทพ’ ตลาดหลักทรัพย์ฯ เลื่อนจัดงาน-กทม.วอนงดเดินทาง",
+              "link": "https://www.prachachat.net/finance/news-2071985",
+              "id": "https://www.prachachat.net/?p=2071985",
+              "author": "Viravin Politics Online",
+              "published_at": "2026-09-26T02:13:21Z",
+              "updated_at": "2026-09-26T02:13:21Z",
+              "summary": "น้ำท่วม กรุงเทพ วิกฤต ตลาดหลักทรัพย์ฯ เลื่อนจัดงาน-กทม.วอนงดเดินทาง สถานการณ์น้ำท่วมในพื้นที่กรุงเทพฯ ปริมณฑลเช้านี้ (26 ก.ย.) วิกฤตหลายพื้นที่ ถนนวิภาวดีรังสิตขาเข้าอ่วม “ศูนย์ป้องกันน้ำท่วม” วอนประชาชนงดเดินทาง ด้าน “ตลาดหลักทรัพย …\nอ่านข่าวต้นฉบับ: น้ำท่วม ‘วิกฤตกรุงเทพ’ ตลาดหลักทรัพย์ฯ เลื่อนจัดงาน-กทม.วอนงดเดินทาง",
+              "categories": [
+                "Finance",
+                "น้ำท่วม",
+                "น้ำท่วมกรุงเทพ"
+              ],
+              "feed": {
+                "title": "ประชาชาติธุรกิจ",
+                "url": "https://www.prachachat.net",
+                "feed_url": "https://www.prachachat.net/feed"
+              },
+              "outlet": "ประชาชาติธุรกิจ"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.prachachat.net/feed",
+            "elapsed_ms": 300,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "map",
+              "version": "0.5.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^matichon\\\\.co\\\\.th$\", \"มติชน\")",
+                  "outlet=replace(outlet, \"^prachachat\\\\.net$\", \"ประชาชาติธุรกิจ\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "thailand-news-th",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.prachachat.net/finance/news-2071985",
+      "tags": [
+        "Finance",
+        "น้ำท่วม",
+        "น้ำท่วมกรุงเทพ"
+      ]
+    },
+    {
+      "id": "7e87472bd2a67dac33d3",
+      "title": "มติชน: โปรพราวประเดิมรั้งที่ 3 ร่วม รอบแรก สะวิง วอลมาร์ท เอ็นดับเบิลยู อาร์คันซอว์",
+      "content_text": "โปรพราวประเดิมรั้งที่ 3 ร่วม รอบแรก สะวิง วอลมาร์ท เอ็น […]",
+      "date_published": "2026-09-26T00:23:58Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "7e87472bd2a67dac33d3",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.matichon.co.th/?p=5905845",
+          "source_url": "https://www.matichon.co.th/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T03:37:13Z",
+          "data": {
+            "change": "added",
+            "label": "มติชน: โปรพราวประเดิมรั้งที่ 3 ร่วม รอบแรก สะวิง วอลมาร์ท เอ็นดับเบิลยู อาร์คันซอว์",
+            "item_type": "entry",
+            "summary": "added: มติชน: โปรพราวประเดิมรั้งที่ 3 ร่วม รอบแรก สะวิง วอลมาร์ท เอ็นดับเบิลยู อาร์คันซอว์",
+            "after": {
+              "title": "มติชน: โปรพราวประเดิมรั้งที่ 3 ร่วม รอบแรก สะวิง วอลมาร์ท เอ็นดับเบิลยู อาร์คันซอว์",
+              "link": "https://www.matichon.co.th/sport/golf/news_5905845",
+              "id": "https://www.matichon.co.th/?p=5905845",
+              "author": "ศิริชัย ธนะเบญจผล",
+              "published_at": "2026-09-26T00:23:58Z",
+              "updated_at": "2026-09-26T00:23:58Z",
+              "summary": "โปรพราวประเดิมรั้งที่ 3 ร่วม รอบแรก สะวิง วอลมาร์ท เอ็น […]",
+              "categories": [
+                "กอล์ฟ",
+                "กีฬาต่างประเทศ",
+                "กีฬา",
+                "Sport Slide",
+                "แอลพีจีเอทัวร์",
+                "ชเนตตี วรรณแสน",
+                "ผลกอลืฟ",
+                "โปรพราว"
+              ],
+              "feed": {
+                "title": "มติชนออนไลน์",
+                "url": "https://www.matichon.co.th",
+                "feed_url": "https://www.matichon.co.th/feed"
+              },
+              "outlet": "มติชน"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.matichon.co.th/feed",
+            "elapsed_ms": 730,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.5.1"
+            },
+            {
+              "step": "map",
+              "version": "0.5.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^matichon\\\\.co\\\\.th$\", \"มติชน\")",
+                  "outlet=replace(outlet, \"^prachachat\\\\.net$\", \"ประชาชาติธุรกิจ\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.5.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.5.1",
+              "args": {
+                "namespace": "thailand-news-th",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.matichon.co.th/sport/golf/news_5905845",
+      "tags": [
+        "กอล์ฟ",
+        "กีฬาต่างประเทศ",
+        "กีฬา",
+        "Sport Slide",
+        "แอลพีจีเอทัวร์",
+        "ชเนตตี วรรณแสน",
+        "ผลกอลืฟ",
+        "โปรพราว"
+      ]
+    },
     {
       "id": "fdb49401c736c617a95d",
       "title": "มติชน: อินทรีคุมฟ้า มังกรพ่นไฟ อ่านธีมลงทุนจีนหลัง ทรัมป์ พบ สี",
