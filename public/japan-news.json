@@ -2,12 +2,706 @@
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Japan news (Japan Times, Mainichi, Japan Today)",
   "home_page_url": "https://mainichi.jp/rss/etc/english_latest.rss",
-  "description": "Events collected by UnlimitedPipe 0.6.0",
+  "description": "Events collected by UnlimitedPipe 0.8.0",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.6.0"
+    "generator": "UnlimitedPipe 0.8.0"
   },
   "items": [
+    {
+      "id": "c4f66dc28bfdc115b57e",
+      "title": "The Mainichi: Sumo: Onosato beaten again as Aonishiki wins to set up grand finale",
+      "content_text": "TOKYO (Kyodo) -- Yokozuna Onosato was beaten for the second straight day Saturday while ozeki Aonishiki won to set up a fascinating finale to the Autu",
+      "date_published": "2026-09-26T11:21:30Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c4f66dc28bfdc115b57e",
+          "source": "rss",
+          "type": "change",
+          "key": "https://mainichi.jp/english/articles/20260926/p2g/00m/0sp/030000c",
+          "source_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:14:24Z",
+          "data": {
+            "change": "added",
+            "label": "The Mainichi: Sumo: Onosato beaten again as Aonishiki wins to set up grand finale",
+            "item_type": "entry",
+            "summary": "added: The Mainichi: Sumo: Onosato beaten again as Aonishiki wins to set up grand finale",
+            "after": {
+              "title": "The Mainichi: Sumo: Onosato beaten again as Aonishiki wins to set up grand finale",
+              "link": "https://mainichi.jp/english/articles/20260926/p2g/00m/0sp/030000c",
+              "id": "https://mainichi.jp/english/articles/20260926/p2g/00m/0sp/030000c",
+              "author": null,
+              "published_at": "2026-09-26T11:21:30Z",
+              "updated_at": "2026-09-26T11:21:30Z",
+              "summary": "TOKYO (Kyodo) -- Yokozuna Onosato was beaten for the second straight day Saturday while ozeki Aonishiki won to set up a fascinating finale to the Autu",
+              "categories": [],
+              "feed": {
+                "title": "The Mainichi",
+                "url": "https://mainichi.jp/english/",
+                "feed_url": "https://mainichi.jp/rss/etc/english_latest.rss"
+              },
+              "outlet": "The Mainichi"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+            "elapsed_ms": 387,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://mainichi.jp/english/articles/20260926/p2g/00m/0sp/030000c"
+    },
+    {
+      "id": "262f2535af364856e9cb",
+      "title": "The Mainichi: Asian Games: 11-year-old Japanese Kurihara wins puzzle gold in esports",
+      "content_text": "NAGOYA (Kyodo) -- Japan's 11-year-old Yuki Kurihara, the youngest member of the national delegation, won the Aichi-Nagoya Asian Games puzzle final on",
+      "date_published": "2026-09-26T10:00:04Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "262f2535af364856e9cb",
+          "source": "rss",
+          "type": "change",
+          "key": "https://mainichi.jp/english/articles/20260926/p2g/00m/0sp/026000c",
+          "source_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:14:24Z",
+          "data": {
+            "change": "added",
+            "label": "The Mainichi: Asian Games: 11-year-old Japanese Kurihara wins puzzle gold in esports",
+            "item_type": "entry",
+            "summary": "added: The Mainichi: Asian Games: 11-year-old Japanese Kurihara wins puzzle gold in esports",
+            "after": {
+              "title": "The Mainichi: Asian Games: 11-year-old Japanese Kurihara wins puzzle gold in esports",
+              "link": "https://mainichi.jp/english/articles/20260926/p2g/00m/0sp/026000c",
+              "id": "https://mainichi.jp/english/articles/20260926/p2g/00m/0sp/026000c",
+              "author": null,
+              "published_at": "2026-09-26T10:00:04Z",
+              "updated_at": "2026-09-26T10:00:04Z",
+              "summary": "NAGOYA (Kyodo) -- Japan's 11-year-old Yuki Kurihara, the youngest member of the national delegation, won the Aichi-Nagoya Asian Games puzzle final on",
+              "categories": [],
+              "feed": {
+                "title": "The Mainichi",
+                "url": "https://mainichi.jp/english/",
+                "feed_url": "https://mainichi.jp/rss/etc/english_latest.rss"
+              },
+              "outlet": "The Mainichi"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+            "elapsed_ms": 387,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://mainichi.jp/english/articles/20260926/p2g/00m/0sp/026000c"
+    },
+    {
+      "id": "f9093e40ad4f92cf6850",
+      "title": "The Mainichi: Baseball: Murakami homers twice as White Sox beat Rockies",
+      "content_text": "CHICAGO (Kyodo) -- Munetaka Murakami homered twice, raising his rookie-season total to a team-high 35, as the Chicago White Sox beat the Colorado Rock",
+      "date_published": "2026-09-26T09:03:10Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "f9093e40ad4f92cf6850",
+          "source": "rss",
+          "type": "change",
+          "key": "https://mainichi.jp/english/articles/20260926/p2g/00m/0sp/028000c",
+          "source_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:14:24Z",
+          "data": {
+            "change": "added",
+            "label": "The Mainichi: Baseball: Murakami homers twice as White Sox beat Rockies",
+            "item_type": "entry",
+            "summary": "added: The Mainichi: Baseball: Murakami homers twice as White Sox beat Rockies",
+            "after": {
+              "title": "The Mainichi: Baseball: Murakami homers twice as White Sox beat Rockies",
+              "link": "https://mainichi.jp/english/articles/20260926/p2g/00m/0sp/028000c",
+              "id": "https://mainichi.jp/english/articles/20260926/p2g/00m/0sp/028000c",
+              "author": null,
+              "published_at": "2026-09-26T09:03:10Z",
+              "updated_at": "2026-09-26T09:03:10Z",
+              "summary": "CHICAGO (Kyodo) -- Munetaka Murakami homered twice, raising his rookie-season total to a team-high 35, as the Chicago White Sox beat the Colorado Rock",
+              "categories": [],
+              "feed": {
+                "title": "The Mainichi",
+                "url": "https://mainichi.jp/english/",
+                "feed_url": "https://mainichi.jp/rss/etc/english_latest.rss"
+              },
+              "outlet": "The Mainichi"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+            "elapsed_ms": 387,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://mainichi.jp/english/articles/20260926/p2g/00m/0sp/028000c"
+    },
+    {
+      "id": "c801520c2e28005b17b9",
+      "title": "The Mainichi: Japan's NYK Line to launch hydrogen fuel cell ship for Tokyo Bay tour",
+      "content_text": "TOKYO (Kyodo) -- Major Japanese shipping company Nippon Yusen K.K. plans to introduce its first ship powered by a hydrogen fuel cell system around May",
+      "date_published": "2026-09-26T09:00:06Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c801520c2e28005b17b9",
+          "source": "rss",
+          "type": "change",
+          "key": "https://mainichi.jp/english/articles/20260926/p2g/00m/0bu/020000c",
+          "source_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:14:24Z",
+          "data": {
+            "change": "added",
+            "label": "The Mainichi: Japan's NYK Line to launch hydrogen fuel cell ship for Tokyo Bay tour",
+            "item_type": "entry",
+            "summary": "added: The Mainichi: Japan's NYK Line to launch hydrogen fuel cell ship for Tokyo Bay tour",
+            "after": {
+              "title": "The Mainichi: Japan's NYK Line to launch hydrogen fuel cell ship for Tokyo Bay tour",
+              "link": "https://mainichi.jp/english/articles/20260926/p2g/00m/0bu/020000c",
+              "id": "https://mainichi.jp/english/articles/20260926/p2g/00m/0bu/020000c",
+              "author": null,
+              "published_at": "2026-09-26T09:00:06Z",
+              "updated_at": "2026-09-26T09:00:06Z",
+              "summary": "TOKYO (Kyodo) -- Major Japanese shipping company Nippon Yusen K.K. plans to introduce its first ship powered by a hydrogen fuel cell system around May",
+              "categories": [],
+              "feed": {
+                "title": "The Mainichi",
+                "url": "https://mainichi.jp/english/",
+                "feed_url": "https://mainichi.jp/rss/etc/english_latest.rss"
+              },
+              "outlet": "The Mainichi"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+            "elapsed_ms": 387,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://mainichi.jp/english/articles/20260926/p2g/00m/0bu/020000c"
+    },
+    {
+      "id": "eb427698d30538476ebf",
+      "title": "The Japan Times: 11-year-old esports prodigy claims gold at Asian Games",
+      "content_text": "Yuki Kurihara is the youngest athlete in Japan's Asian Games history.",
+      "date_published": "2026-09-26T08:35:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "eb427698d30538476ebf",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.japantimes.co.jp/article/647032/",
+          "source_url": "https://www.japantimes.co.jp/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:14:24Z",
+          "data": {
+            "change": "added",
+            "label": "The Japan Times: 11-year-old esports prodigy claims gold at Asian Games",
+            "item_type": "entry",
+            "summary": "added: The Japan Times: 11-year-old esports prodigy claims gold at Asian Games",
+            "after": {
+              "title": "The Japan Times: 11-year-old esports prodigy claims gold at Asian Games",
+              "link": "https://www.japantimes.co.jp/sports/2026/09/26/asian-games/japan-esports-prodigy-asian-games/",
+              "id": "https://www.japantimes.co.jp/article/647032/",
+              "author": null,
+              "published_at": "2026-09-26T08:35:00Z",
+              "updated_at": "2026-09-26T08:35:00Z",
+              "summary": "Yuki Kurihara is the youngest athlete in Japan's Asian Games history.",
+              "categories": [
+                "Asian Games"
+              ],
+              "feed": {
+                "title": "Latest articles - The Japan Times",
+                "url": "https://www.japantimes.co.jp/",
+                "feed_url": "https://www.japantimes.co.jp/feed/"
+              },
+              "outlet": "The Japan Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.japantimes.co.jp/feed/",
+            "elapsed_ms": 616,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.japantimes.co.jp/sports/2026/09/26/asian-games/japan-esports-prodigy-asian-games/",
+      "tags": [
+        "Asian Games"
+      ]
+    },
+    {
+      "id": "cd2f7741d6f99e73fa82",
+      "title": "The Japan Times: Organizers ‘not satisfied’ by rows of empty seats at Asian Games",
+      "content_text": "The 100-meter sprints are one of the highlights of any Games, but the 30,000-capacity Mizuho Park Athletic Stadium appeared to be only about one-quarter full on Friday night.",
+      "date_published": "2026-09-26T08:18:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "cd2f7741d6f99e73fa82",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.japantimes.co.jp/article/647031/",
+          "source_url": "https://www.japantimes.co.jp/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:14:24Z",
+          "data": {
+            "change": "added",
+            "label": "The Japan Times: Organizers ‘not satisfied’ by rows of empty seats at Asian Games",
+            "item_type": "entry",
+            "summary": "added: The Japan Times: Organizers ‘not satisfied’ by rows of empty seats at Asian Games",
+            "after": {
+              "title": "The Japan Times: Organizers ‘not satisfied’ by rows of empty seats at Asian Games",
+              "link": "https://www.japantimes.co.jp/sports/2026/09/26/asian-games/asian-games-organizers-seats/",
+              "id": "https://www.japantimes.co.jp/article/647031/",
+              "author": null,
+              "published_at": "2026-09-26T08:18:00Z",
+              "updated_at": "2026-09-26T08:18:00Z",
+              "summary": "The 100-meter sprints are one of the highlights of any Games, but the 30,000-capacity Mizuho Park Athletic Stadium appeared to be only about one-quarter full on Friday night.",
+              "categories": [
+                "Asian Games"
+              ],
+              "feed": {
+                "title": "Latest articles - The Japan Times",
+                "url": "https://www.japantimes.co.jp/",
+                "feed_url": "https://www.japantimes.co.jp/feed/"
+              },
+              "outlet": "The Japan Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.japantimes.co.jp/feed/",
+            "elapsed_ms": 616,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.japantimes.co.jp/sports/2026/09/26/asian-games/asian-games-organizers-seats/",
+      "tags": [
+        "Asian Games"
+      ]
+    },
+    {
+      "id": "0296b8aa97c8ce153095",
+      "title": "The Japan Times: Junglia theme park in Okinawa logs ¥17 billion loss in first year",
+      "content_text": "The ¥70 billion park opened last July to high expectations that it would help extend tourist stays and boost the local economy.",
+      "date_published": "2026-09-26T08:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "0296b8aa97c8ce153095",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.japantimes.co.jp/article/647030/",
+          "source_url": "https://www.japantimes.co.jp/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:14:24Z",
+          "data": {
+            "change": "added",
+            "label": "The Japan Times: Junglia theme park in Okinawa logs ¥17 billion loss in first year",
+            "item_type": "entry",
+            "summary": "added: The Japan Times: Junglia theme park in Okinawa logs ¥17 billion loss in first year",
+            "after": {
+              "title": "The Japan Times: Junglia theme park in Okinawa logs ¥17 billion loss in first year",
+              "link": "https://www.japantimes.co.jp/business/2026/09/26/junglia-okinawa-first-year-loss/",
+              "id": "https://www.japantimes.co.jp/article/647030/",
+              "author": null,
+              "published_at": "2026-09-26T08:00:00Z",
+              "updated_at": "2026-09-26T08:00:00Z",
+              "summary": "The ¥70 billion park opened last July to high expectations that it would help extend tourist stays and boost the local economy.",
+              "categories": [
+                "BUSINESS"
+              ],
+              "feed": {
+                "title": "Latest articles - The Japan Times",
+                "url": "https://www.japantimes.co.jp/",
+                "feed_url": "https://www.japantimes.co.jp/feed/"
+              },
+              "outlet": "The Japan Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.japantimes.co.jp/feed/",
+            "elapsed_ms": 616,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.japantimes.co.jp/business/2026/09/26/junglia-okinawa-first-year-loss/",
+      "tags": [
+        "BUSINESS"
+      ]
+    },
     {
       "id": "e1bcf2a599aefaca4399",
       "title": "The Mainichi: From Gaza to Sudan to Nepal, more than 500 million children are in desperate need of education",

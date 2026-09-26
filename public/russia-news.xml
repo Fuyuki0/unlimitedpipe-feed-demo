@@ -3,9 +3,49 @@
   <channel>
     <title>Russia news (TASS, Meduza, Moscow Times)</title>
     <link>https://tass.com/rss/v2.xml</link>
-    <description>Events collected by UnlimitedPipe 0.6.0</description>
-    <generator>UnlimitedPipe 0.6.0</generator>
-    <lastBuildDate>Sat, 26 Sep 2026 08:05:39 +0000</lastBuildDate>
+    <description>Events collected by UnlimitedPipe 0.8.0</description>
+    <generator>UnlimitedPipe 0.8.0</generator>
+    <lastBuildDate>Sat, 26 Sep 2026 12:14:38 +0000</lastBuildDate>
+    <item>
+      <title>TASS (Russian state media): Ukrainian troops encircled in Kharkov Region lose over 50 soldiers</title>
+      <link>https://tass.com/defense/2193281</link>
+      <guid isPermaLink="false">05011df07de75997ea11</guid>
+      <pubDate>Sat, 26 Sep 2026 10:53:29 +0000</pubDate>
+      <description>"The Ukrainian army’s also losses an armored combat vehicle, two cars, an ATV, and a multiple rocket system launcher, the Russian Defense Ministry reported</description>
+      <category>Military &amp; Defense</category>
+    </item>
+    <item>
+      <title>TASS (Russian state media): Leaders of China, US agree to provide mutual support for hosting APEC, G20 summits</title>
+      <link>https://tass.com/world/2193269</link>
+      <guid isPermaLink="false">c8977da3620362efc935</guid>
+      <pubDate>Sat, 26 Sep 2026 10:16:38 +0000</pubDate>
+      <description>Еhe heads of state expressed their intention to participate in the events organized by the other side, Xinhua news agency reported</description>
+      <category>World</category>
+    </item>
+    <item>
+      <title>TASS (Russian state media): Timur Turlov of Kazakhstan elected World Chess Federation president</title>
+      <link>https://tass.com/sports/2193271</link>
+      <guid isPermaLink="false">4321e6224b6b704bd77e</guid>
+      <pubDate>Sat, 26 Sep 2026 10:15:18 +0000</pubDate>
+      <description>A total of 110 delegates voted for him</description>
+      <category>Sports</category>
+    </item>
+    <item>
+      <title>TASS (Russian state media): Trump advocates for trilateral arms control talks between US, Russia, China</title>
+      <link>https://tass.com/world/2193241</link>
+      <guid isPermaLink="false">93f32b7f526d0f0b9983</guid>
+      <pubDate>Sat, 26 Sep 2026 08:20:34 +0000</pubDate>
+      <description>US leader and Chinese President Xi Jinping also discussed "on-going global concerns," including those concerning Russia, North Korea, and Iran</description>
+      <category>World</category>
+    </item>
+    <item>
+      <title>TASS (Russian state media): Euractiv columnist questions need for extra funding for Ukraine</title>
+      <link>https://tass.com/economy/2193239</link>
+      <guid isPermaLink="false">2d43b450b4e887b13eee</guid>
+      <pubDate>Sat, 26 Sep 2026 08:18:55 +0000</pubDate>
+      <description>Claims were already made earlier this year that Ukraine would run out of money in April, yet this did not happen, Thomas Moller-Nielsen said</description>
+      <category>Business &amp; Economy</category>
+    </item>
     <item>
       <title>TASS (Russian state media): Explosion occurres during welding works at Elga deposit in Yakutia causing fatalities</title>
       <link>https://tass.com/emergencies/2193237</link>
@@ -1256,45 +1296,6 @@
       <category>DOMESTIC POLICY</category>
       <category>Russian Politics &amp; Diplomacy</category>
       <category>Single Voting Day</category>
-    </item>
-    <item>
-      <title>Meduza: After Ukraine’s overnight attack, Novoshakhtinsk oil refinery — one of southern Russia’s biggest fuel suppliers — halts operations</title>
-      <link>https://meduza.io/en/news/2026/09/25/after-ukraine-s-overnight-attack-novoshakhtinsk-oil-refinery-one-of-southern-russia-s-biggest-fuel-suppliers-halts-operations</link>
-      <guid isPermaLink="false">d8c9b0a4d6c3822e3eb4</guid>
-      <pubDate>Fri, 25 Sep 2026 11:51:28 +0000</pubDate>
-      <description>The Novoshakhtinsk oil refinery in the Rostov region halted operations after an attack by Ukrainian drones, Rostov Governor Yuri Slyusar said.</description>
-    </item>
-    <item>
-      <title>TASS (Russian state media): Russia’s Prozorova advances to semifinals of 2026 WTA Singapore Open</title>
-      <link>https://tass.com/sports/2192781</link>
-      <guid isPermaLink="false">d617bbf0f1ff6eddca13</guid>
-      <pubDate>Fri, 25 Sep 2026 11:46:57 +0000</pubDate>
-      <description>Tatyana Prozorova is now set to play in the semifinals round against the winner of the match between unseeded Talia Gibson from Australia and Greek 7th-seeded Maria Sakkari</description>
-      <category>Sports</category>
-    </item>
-    <item>
-      <title>TASS (Russian state media): Demand for UAV technicians training exceeds need for operators — expert</title>
-      <link>https://tass.com/defense/2192783</link>
-      <guid isPermaLink="false">9c3ca37dc3bf03003725</guid>
-      <pubDate>Fri, 25 Sep 2026 11:44:07 +0000</pubDate>
-      <description>"The development of technical capabilities is driven by the fact that every unit is now organizing its own UAV technical workshop," Mikhail Filippov said</description>
-      <category>Military &amp; Defense</category>
-    </item>
-    <item>
-      <title>TASS (Russian state media): AfD parliamentary group calls for blocking Ukraine’s EU, NATO accession</title>
-      <link>https://tass.com/world/2192779</link>
-      <guid isPermaLink="false">4bcf9211c9061e5bced4</guid>
-      <pubDate>Fri, 25 Sep 2026 11:39:57 +0000</pubDate>
-      <description>The Alternative for Germany said that extending the provision on assistance under Article 42 of the Treaty on European Union to Ukraine would risk involving Germany in a conflict with Russia</description>
-      <category>World</category>
-      <category>Ukraine crisis</category>
-    </item>
-    <item>
-      <title>Meduza: United Russia won 349 of 450 seats in Russia’s new State Duma. Parliament will include 46 war participants.</title>
-      <link>https://meduza.io/en/news/2026/09/25/united-russia-won-349-of-450-seats-in-russia-s-new-state-duma-parliament-will-include-46-war-participants</link>
-      <guid isPermaLink="false">7bbcaaaa69fdbe72ed97</guid>
-      <pubDate>Fri, 25 Sep 2026 11:39:35 +0000</pubDate>
-      <description>The head of the Central Election Commission, Ella Pamfilova, announced the results of the State Duma elections, held September 18–20.</description>
     </item>
   </channel>
 </rss>

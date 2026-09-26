@@ -1,13 +1,2075 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "World headlines (BBC, NPR, Al Jazeera)",
-  "home_page_url": "https://www.aljazeera.com/xml/rss/all.xml",
-  "description": "Events collected by UnlimitedPipe 0.6.0",
+  "home_page_url": "https://feeds.npr.org/1001/rss.xml",
+  "description": "Events collected by UnlimitedPipe 0.8.0",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.6.0"
+    "generator": "UnlimitedPipe 0.8.0"
   },
   "items": [
+    {
+      "id": "c746532697752879b8ce",
+      "title": "OPINION: Trump's U.N. speech, a stark contrast with past presidents",
+      "content_text": "President Donald Trump mused openly before the United Nations about whether he should annihilate Iran. It's a stark contrast to how his predecessors have spoken about wielding US military power.",
+      "date_published": "2026-09-26T12:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c746532697752879b8ce",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.npr.org/2026/09/26/nx-s1-5974096/essay-09-26-26",
+          "source_url": "https://feeds.npr.org/1001/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:15:46Z",
+          "data": {
+            "change": "added",
+            "label": "OPINION: Trump's U.N. speech, a stark contrast with past presidents",
+            "item_type": "entry",
+            "summary": "added: OPINION: Trump's U.N. speech, a stark contrast with past presidents",
+            "after": {
+              "title": "OPINION: Trump's U.N. speech, a stark contrast with past presidents",
+              "link": "https://www.npr.org/2026/09/26/nx-s1-5974096/essay-09-26-26",
+              "id": "https://www.npr.org/2026/09/26/nx-s1-5974096/essay-09-26-26",
+              "author": "Scott Simon",
+              "published_at": "2026-09-26T12:00:00Z",
+              "updated_at": "2026-09-26T12:00:00Z",
+              "summary": "President Donald Trump mused openly before the United Nations about whether he should annihilate Iran. It's a stark contrast to how his predecessors have spoken about wielding US military power.",
+              "categories": [],
+              "feed": {
+                "title": "NPR Topics: News",
+                "url": "https://www.npr.org/templates/story/story.php?storyId=1001",
+                "feed_url": "https://feeds.npr.org/1001/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.npr.org/1001/rss.xml",
+            "elapsed_ms": 51,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.npr.org/2026/09/26/nx-s1-5974096/essay-09-26-26"
+    },
+    {
+      "id": "c304597d0c0a686be669",
+      "title": "Pressure to boycott Israel game grows as Ireland preparations stall",
+      "content_text": "Ireland are due to play Israel in the Nations League in Hungary on Sunday, but boycott pressure mounts on and off-field.",
+      "date_published": "2026-09-26T11:48:08Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c304597d0c0a686be669",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790421891",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:15:46Z",
+          "data": {
+            "change": "added",
+            "label": "Pressure to boycott Israel game grows as Ireland preparations stall",
+            "item_type": "entry",
+            "summary": "added: Pressure to boycott Israel game grows as Ireland preparations stall",
+            "after": {
+              "title": "Pressure to boycott Israel game grows as Ireland preparations stall",
+              "link": "https://www.aljazeera.com/sports/2026/9/26/pressure-to-boycott-israel-game-grows-as-ireland-preparations-stall?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790421891",
+              "author": null,
+              "published_at": "2026-09-26T11:48:08Z",
+              "updated_at": "2026-09-26T11:48:08Z",
+              "summary": "Ireland are due to play Israel in the Nations League in Hungary on Sunday, but boycott pressure mounts on and off-field.",
+              "categories": [
+                "Sport"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 241,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/sports/2026/9/26/pressure-to-boycott-israel-game-grows-as-ireland-preparations-stall?traffic_source=rss",
+      "tags": [
+        "Sport"
+      ]
+    },
+    {
+      "id": "6c29c73184a6e0e34fa4",
+      "title": "Blast in Pakistan’s Dera Ismail Khan kills several people",
+      "content_text": "Tehreek-e-Taliban Pakistan (Pakistan Taliban or TTP) claims responsibility for attack in Khyber Pakhtunkhwa province.",
+      "date_published": "2026-09-26T11:33:42Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "6c29c73184a6e0e34fa4",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790422025",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:15:46Z",
+          "data": {
+            "change": "added",
+            "label": "Blast in Pakistan’s Dera Ismail Khan kills several people",
+            "item_type": "entry",
+            "summary": "added: Blast in Pakistan’s Dera Ismail Khan kills several people",
+            "after": {
+              "title": "Blast in Pakistan’s Dera Ismail Khan kills several people",
+              "link": "https://www.aljazeera.com/news/2026/9/26/blast-in-pakistans-dera-ismail-khan-kills-several-people?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790422025",
+              "author": null,
+              "published_at": "2026-09-26T11:33:42Z",
+              "updated_at": "2026-09-26T11:33:42Z",
+              "summary": "Tehreek-e-Taliban Pakistan (Pakistan Taliban or TTP) claims responsibility for attack in Khyber Pakhtunkhwa province.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 241,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/news/2026/9/26/blast-in-pakistans-dera-ismail-khan-kills-several-people?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "4e2f1ebf173204a217d6",
+      "title": "Meth is a key driver in Fiji's fast-growing HIV epidemic: 1 in 60 adults are affected",
+      "content_text": "In mid-September, Fiji's government declared a national emergency because of a startling rise in HIV infections. The country's crystal meth epidemic is a strong contributing factor.",
+      "date_published": "2026-09-26T11:31:18Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "4e2f1ebf173204a217d6",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.npr.org/2026/09/26/g-s1-144667/hiv-crystal-meth-epidemic-fiji",
+          "source_url": "https://feeds.npr.org/1001/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:15:46Z",
+          "data": {
+            "change": "added",
+            "label": "Meth is a key driver in Fiji's fast-growing HIV epidemic: 1 in 60 adults are affected",
+            "item_type": "entry",
+            "summary": "added: Meth is a key driver in Fiji's fast-growing HIV epidemic: 1 in 60 adults are affected",
+            "after": {
+              "title": "Meth is a key driver in Fiji's fast-growing HIV epidemic: 1 in 60 adults are affected",
+              "link": "https://www.npr.org/2026/09/26/g-s1-144667/hiv-crystal-meth-epidemic-fiji",
+              "id": "https://www.npr.org/2026/09/26/g-s1-144667/hiv-crystal-meth-epidemic-fiji",
+              "author": "David Cox",
+              "published_at": "2026-09-26T11:31:18Z",
+              "updated_at": "2026-09-26T11:31:18Z",
+              "summary": "In mid-September, Fiji's government declared a national emergency because of a startling rise in HIV infections. The country's crystal meth epidemic is a strong contributing factor.",
+              "categories": [],
+              "feed": {
+                "title": "NPR Topics: News",
+                "url": "https://www.npr.org/templates/story/story.php?storyId=1001",
+                "feed_url": "https://feeds.npr.org/1001/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.npr.org/1001/rss.xml",
+            "elapsed_ms": 51,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.npr.org/2026/09/26/g-s1-144667/hiv-crystal-meth-epidemic-fiji"
+    },
+    {
+      "id": "07c3fc4486ae58d28d38",
+      "title": "Pezeshkian says Iran ‘no longer trusts talks with Washington’",
+      "content_text": "In an interview with Al Jazeera, the Iranian president says Qatar and Pakistan are relaying Tehran's messages to the US.",
+      "date_published": "2026-09-26T11:06:28Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "07c3fc4486ae58d28d38",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790411450",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:15:46Z",
+          "data": {
+            "change": "added",
+            "label": "Pezeshkian says Iran ‘no longer trusts talks with Washington’",
+            "item_type": "entry",
+            "summary": "added: Pezeshkian says Iran ‘no longer trusts talks with Washington’",
+            "after": {
+              "title": "Pezeshkian says Iran ‘no longer trusts talks with Washington’",
+              "link": "https://www.aljazeera.com/news/2026/9/26/pezeshkian-says-iran-no-longer-trusts-talks-with-washington?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790411450",
+              "author": null,
+              "published_at": "2026-09-26T11:06:28Z",
+              "updated_at": "2026-09-26T11:06:28Z",
+              "summary": "In an interview with Al Jazeera, the Iranian president says Qatar and Pakistan are relaying Tehran's messages to the US.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 241,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/news/2026/9/26/pezeshkian-says-iran-no-longer-trusts-talks-with-washington?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "143f9d5c798dda9dc91a",
+      "title": "Ebola spreads in DR Congo, putting neighbouring nations at risk",
+      "content_text": "The Ebola outbreak has spread to new areas in the Democratic Republic of the Congo, with 10 countries at high risk.",
+      "date_published": "2026-09-26T10:56:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "143f9d5c798dda9dc91a",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790420028",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:15:46Z",
+          "data": {
+            "change": "added",
+            "label": "Ebola spreads in DR Congo, putting neighbouring nations at risk",
+            "item_type": "entry",
+            "summary": "added: Ebola spreads in DR Congo, putting neighbouring nations at risk",
+            "after": {
+              "title": "Ebola spreads in DR Congo, putting neighbouring nations at risk",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/26-09-sv-ebola-spreading-borders-drc-dr?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790420028",
+              "author": null,
+              "published_at": "2026-09-26T10:56:00Z",
+              "updated_at": "2026-09-26T10:56:00Z",
+              "summary": "The Ebola outbreak has spread to new areas in the Democratic Republic of the Congo, with 10 countries at high risk.",
+              "categories": [
+                "Show Types"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 241,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/26-09-sv-ebola-spreading-borders-drc-dr?traffic_source=rss",
+      "tags": [
+        "Show Types"
+      ]
+    },
+    {
+      "id": "bda1a82d745b9e9abe05",
+      "title": "An unexpected welcome: Syrian Kurds return to their homes in Afrin",
+      "content_text": "Syrian Kurds are beginning to return to their homes in Afrin after years in exile, but have different experiences.",
+      "date_published": "2026-09-26T10:52:03Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "bda1a82d745b9e9abe05",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790414278",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:15:46Z",
+          "data": {
+            "change": "added",
+            "label": "An unexpected welcome: Syrian Kurds return to their homes in Afrin",
+            "item_type": "entry",
+            "summary": "added: An unexpected welcome: Syrian Kurds return to their homes in Afrin",
+            "after": {
+              "title": "An unexpected welcome: Syrian Kurds return to their homes in Afrin",
+              "link": "https://www.aljazeera.com/features/2026/9/26/an-unexpected-welcome-syrian-kurds-return-to-their-homes-in-afrin?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790414278",
+              "author": null,
+              "published_at": "2026-09-26T10:52:03Z",
+              "updated_at": "2026-09-26T10:52:03Z",
+              "summary": "Syrian Kurds are beginning to return to their homes in Afrin after years in exile, but have different experiences.",
+              "categories": [
+                "News Analysis"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 241,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/features/2026/9/26/an-unexpected-welcome-syrian-kurds-return-to-their-homes-in-afrin?traffic_source=rss",
+      "tags": [
+        "News Analysis"
+      ]
+    },
+    {
+      "id": "4d45b1fdfba2b2e13d7f",
+      "title": "Republic of Ireland news conference delayed before controversial Israel game",
+      "content_text": "The Republic of Ireland delay the pre-match news conference planned for Sunday's Uefa Nations League game against Israel in Hungary - a fixture campaigners have called on them to boycott.",
+      "date_published": "2026-09-26T10:44:37Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "4d45b1fdfba2b2e13d7f",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/sport/football/articles/c962jjl18g3ro#1",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:15:46Z",
+          "data": {
+            "change": "added",
+            "label": "Republic of Ireland news conference delayed before controversial Israel game",
+            "item_type": "entry",
+            "summary": "added: Republic of Ireland news conference delayed before controversial Israel game",
+            "after": {
+              "title": "Republic of Ireland news conference delayed before controversial Israel game",
+              "link": "https://www.bbc.co.uk/sport/football/articles/c962jjl18g3ro?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/sport/football/articles/c962jjl18g3ro#1",
+              "author": null,
+              "published_at": "2026-09-26T10:44:37Z",
+              "updated_at": "2026-09-26T10:44:37Z",
+              "summary": "The Republic of Ireland delay the pre-match news conference planned for Sunday's Uefa Nations League game against Israel in Hungary - a fixture campaigners have called on them to boycott.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 236,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/sport/football/articles/c962jjl18g3ro?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "f9143563a285e5f1df1f",
+      "title": "Israel bans Arab parties from election: Who they are, why it matters",
+      "content_text": "Israeli politicians subject to ICC arrest warrants or international sanctions remain eligible to run.",
+      "date_published": "2026-09-26T10:27:11Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "f9143563a285e5f1df1f",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790413915",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:15:46Z",
+          "data": {
+            "change": "added",
+            "label": "Israel bans Arab parties from election: Who they are, why it matters",
+            "item_type": "entry",
+            "summary": "added: Israel bans Arab parties from election: Who they are, why it matters",
+            "after": {
+              "title": "Israel bans Arab parties from election: Who they are, why it matters",
+              "link": "https://www.aljazeera.com/news/2026/9/26/israel-bans-arab-parties-from-election-who-they-are-why-it-matters?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790413915",
+              "author": null,
+              "published_at": "2026-09-26T10:27:11Z",
+              "updated_at": "2026-09-26T10:27:11Z",
+              "summary": "Israeli politicians subject to ICC arrest warrants or international sanctions remain eligible to run.",
+              "categories": [
+                "News Analysis"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 241,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/news/2026/9/26/israel-bans-arab-parties-from-election-who-they-are-why-it-matters?traffic_source=rss",
+      "tags": [
+        "News Analysis"
+      ]
+    },
+    {
+      "id": "922b1dce2c0136a0fb07",
+      "title": "At least two dead after explosion destroys building close to Acropolis in Athens",
+      "content_text": "Local media report the property included a holiday rental, with US tourists and a UK national among the missing.",
+      "date_published": "2026-09-26T10:18:51Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "922b1dce2c0136a0fb07",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/c6p3kk78l4l1o#0",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:15:46Z",
+          "data": {
+            "change": "added",
+            "label": "At least two dead after explosion destroys building close to Acropolis in Athens",
+            "item_type": "entry",
+            "summary": "added: At least two dead after explosion destroys building close to Acropolis in Athens",
+            "after": {
+              "title": "At least two dead after explosion destroys building close to Acropolis in Athens",
+              "link": "https://www.bbc.co.uk/news/articles/c6p3kk78l4l1o?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/c6p3kk78l4l1o#0",
+              "author": null,
+              "published_at": "2026-09-26T10:18:51Z",
+              "updated_at": "2026-09-26T10:18:51Z",
+              "summary": "Local media report the property included a holiday rental, with US tourists and a UK national among the missing.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 236,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/c6p3kk78l4l1o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "5536fa0d44543ffd5f70",
+      "title": "Virat Kohli says he will retire from India cricket after 2027 World Cup",
+      "content_text": "The leading century-maker in ODI cricket, Virat Kohli, announces 2027 World Cup will be his swansong for India.",
+      "date_published": "2026-09-26T10:16:21Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "5536fa0d44543ffd5f70",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790415085",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:15:46Z",
+          "data": {
+            "change": "added",
+            "label": "Virat Kohli says he will retire from India cricket after 2027 World Cup",
+            "item_type": "entry",
+            "summary": "added: Virat Kohli says he will retire from India cricket after 2027 World Cup",
+            "after": {
+              "title": "Virat Kohli says he will retire from India cricket after 2027 World Cup",
+              "link": "https://www.aljazeera.com/sports/2026/9/26/india-cricket-great-virat-kohli-says-2027-world-cup-will-be-his-last?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790415085",
+              "author": null,
+              "published_at": "2026-09-26T10:16:21Z",
+              "updated_at": "2026-09-26T10:16:21Z",
+              "summary": "The leading century-maker in ODI cricket, Virat Kohli, announces 2027 World Cup will be his swansong for India.",
+              "categories": [
+                "Sport"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 241,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/sports/2026/9/26/india-cricket-great-virat-kohli-says-2027-world-cup-will-be-his-last?traffic_source=rss",
+      "tags": [
+        "Sport"
+      ]
+    },
+    {
+      "id": "3708b014fa9b36c49bff",
+      "title": "England vs Spain: UEFA Nations League – Predictions, teams, head-to-head",
+      "content_text": "World champions Spain meet heavyweights England in a rematch of the UEFA Euro 2024 final.",
+      "date_published": "2026-09-26T09:51:04Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "3708b014fa9b36c49bff",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790406271",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:15:46Z",
+          "data": {
+            "change": "added",
+            "label": "England vs Spain: UEFA Nations League – Predictions, teams, head-to-head",
+            "item_type": "entry",
+            "summary": "added: England vs Spain: UEFA Nations League – Predictions, teams, head-to-head",
+            "after": {
+              "title": "England vs Spain: UEFA Nations League – Predictions, teams, head-to-head",
+              "link": "https://www.aljazeera.com/sports/2026/9/26/england-vs-spain-uefa-nations-league-prediction-team-news-head-to-head?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790406271",
+              "author": null,
+              "published_at": "2026-09-26T09:51:04Z",
+              "updated_at": "2026-09-26T09:51:04Z",
+              "summary": "World champions Spain meet heavyweights England in a rematch of the UEFA Euro 2024 final.",
+              "categories": [
+                "Sport"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 241,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/sports/2026/9/26/england-vs-spain-uefa-nations-league-prediction-team-news-head-to-head?traffic_source=rss",
+      "tags": [
+        "Sport"
+      ]
+    },
+    {
+      "id": "5079d76eb2c9673048be",
+      "title": "Trump ‘rejects’ Iran’s seven-day ceasefire proposal. What’s next?",
+      "content_text": "Analysts say Trump may opt to resume attacks on Iran after November midterm elections.",
+      "date_published": "2026-09-26T09:28:19Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "5079d76eb2c9673048be",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790411134",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:15:46Z",
+          "data": {
+            "change": "added",
+            "label": "Trump ‘rejects’ Iran’s seven-day ceasefire proposal. What’s next?",
+            "item_type": "entry",
+            "summary": "added: Trump ‘rejects’ Iran’s seven-day ceasefire proposal. What’s next?",
+            "after": {
+              "title": "Trump ‘rejects’ Iran’s seven-day ceasefire proposal. What’s next?",
+              "link": "https://www.aljazeera.com/news/2026/9/26/trump-reportedly-rejects-irans-seven-day-ceasefire-proposal-whats-next?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790411134",
+              "author": null,
+              "published_at": "2026-09-26T09:28:19Z",
+              "updated_at": "2026-09-26T09:28:19Z",
+              "summary": "Analysts say Trump may opt to resume attacks on Iran after November midterm elections.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 241,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/news/2026/9/26/trump-reportedly-rejects-irans-seven-day-ceasefire-proposal-whats-next?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "e8d61d1ee205d1841892",
+      "title": "Senegal draw in Vieira debut, Nigeria survive scare, but Cape Verde crash",
+      "content_text": "Senegal draw with Mozambique, Nigeria edge past Madagascar, but Cape Verde beaten by Mali in AFCON qualifying openers.",
+      "date_published": "2026-09-26T09:02:55Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "e8d61d1ee205d1841892",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790411591",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:15:46Z",
+          "data": {
+            "change": "added",
+            "label": "Senegal draw in Vieira debut, Nigeria survive scare, but Cape Verde crash",
+            "item_type": "entry",
+            "summary": "added: Senegal draw in Vieira debut, Nigeria survive scare, but Cape Verde crash",
+            "after": {
+              "title": "Senegal draw in Vieira debut, Nigeria survive scare, but Cape Verde crash",
+              "link": "https://www.aljazeera.com/sports/2026/9/26/senegal-draw-in-vieira-debut-nigeria-survive-scare-but-cape-verde-crash?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790411591",
+              "author": null,
+              "published_at": "2026-09-26T09:02:55Z",
+              "updated_at": "2026-09-26T09:02:55Z",
+              "summary": "Senegal draw with Mozambique, Nigeria edge past Madagascar, but Cape Verde beaten by Mali in AFCON qualifying openers.",
+              "categories": [
+                "Sport"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 241,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/sports/2026/9/26/senegal-draw-in-vieira-debut-nigeria-survive-scare-but-cape-verde-crash?traffic_source=rss",
+      "tags": [
+        "Sport"
+      ]
+    },
+    {
+      "id": "4eec543d8cc12b90416a",
+      "title": "China, US to open AI ‘communication channel’ after summit, White House says",
+      "content_text": "White House says the two countries agreed to open a 'bilateral communication channel' for AI incidents.",
+      "date_published": "2026-09-26T09:02:10Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "4eec543d8cc12b90416a",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790405683",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:15:46Z",
+          "data": {
+            "change": "added",
+            "label": "China, US to open AI ‘communication channel’ after summit, White House says",
+            "item_type": "entry",
+            "summary": "added: China, US to open AI ‘communication channel’ after summit, White House says",
+            "after": {
+              "title": "China, US to open AI ‘communication channel’ after summit, White House says",
+              "link": "https://www.aljazeera.com/news/2026/9/26/china-us-to-open-ai-communication-channel-after-summit-white-house-says?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790405683",
+              "author": null,
+              "published_at": "2026-09-26T09:02:10Z",
+              "updated_at": "2026-09-26T09:02:10Z",
+              "summary": "White House says the two countries agreed to open a 'bilateral communication channel' for AI incidents.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 241,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/news/2026/9/26/china-us-to-open-ai-communication-channel-after-summit-white-house-says?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "7f2904f182eee19a6c5b",
+      "title": "The AI safety debate is confusing. Here's our guide to the different factions",
+      "content_text": "The battle over AI's promise and perils is not a clash between two opposing sides, but a debate among a range of competing voices and ideologies. Here is a guide to who's who in that debate.",
+      "date_published": "2026-09-26T09:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "7f2904f182eee19a6c5b",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.npr.org/2026/09/26/nx-s1-5979085/the-ai-safety-debate-is-confusing-heres-our-guide-to-the-different-factions",
+          "source_url": "https://feeds.npr.org/1001/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:15:46Z",
+          "data": {
+            "change": "added",
+            "label": "The AI safety debate is confusing. Here's our guide to the different factions",
+            "item_type": "entry",
+            "summary": "added: The AI safety debate is confusing. Here's our guide to the different factions",
+            "after": {
+              "title": "The AI safety debate is confusing. Here's our guide to the different factions",
+              "link": "https://www.npr.org/2026/09/26/nx-s1-5979085/the-ai-safety-debate-is-confusing-heres-our-guide-to-the-different-factions",
+              "id": "https://www.npr.org/2026/09/26/nx-s1-5979085/the-ai-safety-debate-is-confusing-heres-our-guide-to-the-different-factions",
+              "author": "Katie McQue",
+              "published_at": "2026-09-26T09:00:00Z",
+              "updated_at": "2026-09-26T09:00:00Z",
+              "summary": "The battle over AI's promise and perils is not a clash between two opposing sides, but a debate among a range of competing voices and ideologies. Here is a guide to who's who in that debate.",
+              "categories": [],
+              "feed": {
+                "title": "NPR Topics: News",
+                "url": "https://www.npr.org/templates/story/story.php?storyId=1001",
+                "feed_url": "https://feeds.npr.org/1001/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.npr.org/1001/rss.xml",
+            "elapsed_ms": 51,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.npr.org/2026/09/26/nx-s1-5979085/the-ai-safety-debate-is-confusing-heres-our-guide-to-the-different-factions"
+    },
+    {
+      "id": "c6baa5e7c2ffa88d0bbd",
+      "title": "The U.S. has more thalidomide survivors than the government admits",
+      "content_text": "In the 1950s and 1960s, doctors gave the drug thalidomide to pregnant patients without telling them — and without FDA approval. Now those patients' children want recognition.",
+      "date_published": "2026-09-26T09:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c6baa5e7c2ffa88d0bbd",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.npr.org/2026/09/26/nx-s1-5979047/us-thalidomide-survivors-want-recognition-government",
+          "source_url": "https://feeds.npr.org/1001/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:15:46Z",
+          "data": {
+            "change": "added",
+            "label": "The U.S. has more thalidomide survivors than the government admits",
+            "item_type": "entry",
+            "summary": "added: The U.S. has more thalidomide survivors than the government admits",
+            "after": {
+              "title": "The U.S. has more thalidomide survivors than the government admits",
+              "link": "https://www.npr.org/2026/09/26/nx-s1-5979047/us-thalidomide-survivors-want-recognition-government",
+              "id": "https://www.npr.org/2026/09/26/nx-s1-5979047/us-thalidomide-survivors-want-recognition-government",
+              "author": "Tana Weingartner",
+              "published_at": "2026-09-26T09:00:00Z",
+              "updated_at": "2026-09-26T09:00:00Z",
+              "summary": "In the 1950s and 1960s, doctors gave the drug thalidomide to pregnant patients without telling them — and without FDA approval. Now those patients' children want recognition.",
+              "categories": [],
+              "feed": {
+                "title": "NPR Topics: News",
+                "url": "https://www.npr.org/templates/story/story.php?storyId=1001",
+                "feed_url": "https://feeds.npr.org/1001/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.npr.org/1001/rss.xml",
+            "elapsed_ms": 51,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.npr.org/2026/09/26/nx-s1-5979047/us-thalidomide-survivors-want-recognition-government"
+    },
+    {
+      "id": "d78caa37e1bd6330bddc",
+      "title": "Meal deliveries can save money and improve health. Will they survive Medicaid cuts?",
+      "content_text": "Some states deliver meals to Medicaid patients that address their dietary needs. Evidence shows it aids recovery and saves healthcare costs, but federal budget cuts may lead some states to cancel it.",
+      "date_published": "2026-09-26T09:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d78caa37e1bd6330bddc",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.npr.org/2026/09/26/nx-s1-5946434/medically-tailored-meal-deliveries-medicaid-cuts",
+          "source_url": "https://feeds.npr.org/1001/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:15:46Z",
+          "data": {
+            "change": "added",
+            "label": "Meal deliveries can save money and improve health. Will they survive Medicaid cuts?",
+            "item_type": "entry",
+            "summary": "added: Meal deliveries can save money and improve health. Will they survive Medicaid cuts?",
+            "after": {
+              "title": "Meal deliveries can save money and improve health. Will they survive Medicaid cuts?",
+              "link": "https://www.npr.org/2026/09/26/nx-s1-5946434/medically-tailored-meal-deliveries-medicaid-cuts",
+              "id": "https://www.npr.org/2026/09/26/nx-s1-5946434/medically-tailored-meal-deliveries-medicaid-cuts",
+              "author": "Priyanka D McCluskey",
+              "published_at": "2026-09-26T09:00:00Z",
+              "updated_at": "2026-09-26T09:00:00Z",
+              "summary": "Some states deliver meals to Medicaid patients that address their dietary needs. Evidence shows it aids recovery and saves healthcare costs, but federal budget cuts may lead some states to cancel it.",
+              "categories": [],
+              "feed": {
+                "title": "NPR Topics: News",
+                "url": "https://www.npr.org/templates/story/story.php?storyId=1001",
+                "feed_url": "https://feeds.npr.org/1001/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.npr.org/1001/rss.xml",
+            "elapsed_ms": 51,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.npr.org/2026/09/26/nx-s1-5946434/medically-tailored-meal-deliveries-medicaid-cuts"
+    },
+    {
+      "id": "3790ea17194b3497bef5",
+      "title": "Pro-Palestine Action group to rally at Labour conference led by Burnham",
+      "content_text": "Defend Our Juries say Sunday's action is an 'integrity test' for the UK's new premier.",
+      "date_published": "2026-09-26T08:24:05Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "3790ea17194b3497bef5",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790339238",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:15:46Z",
+          "data": {
+            "change": "added",
+            "label": "Pro-Palestine Action group to rally at Labour conference led by Burnham",
+            "item_type": "entry",
+            "summary": "added: Pro-Palestine Action group to rally at Labour conference led by Burnham",
+            "after": {
+              "title": "Pro-Palestine Action group to rally at Labour conference led by Burnham",
+              "link": "https://www.aljazeera.com/news/2026/9/26/palestine-action-protest-labour-conference?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790339238",
+              "author": null,
+              "published_at": "2026-09-26T08:24:05Z",
+              "updated_at": "2026-09-26T08:24:05Z",
+              "summary": "Defend Our Juries say Sunday's action is an 'integrity test' for the UK's new premier.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 241,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/news/2026/9/26/palestine-action-protest-labour-conference?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "74fdac16881fdd516601",
+      "title": "Pochettino regrets limited role in Balogun red card decision at World Cup",
+      "content_text": "Mauricio Pochettino says controversial Folarin Balogun appeal 'changed the energy' around US team at World Cup 2026.",
+      "date_published": "2026-09-26T08:16:23Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "74fdac16881fdd516601",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790406927",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:15:46Z",
+          "data": {
+            "change": "added",
+            "label": "Pochettino regrets limited role in Balogun red card decision at World Cup",
+            "item_type": "entry",
+            "summary": "added: Pochettino regrets limited role in Balogun red card decision at World Cup",
+            "after": {
+              "title": "Pochettino regrets limited role in Balogun red card decision at World Cup",
+              "link": "https://www.aljazeera.com/sports/2026/9/26/pochettino-regrets-limited-role-in-balogun-red-card-decision-at-world-cup?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790406927",
+              "author": null,
+              "published_at": "2026-09-26T08:16:23Z",
+              "updated_at": "2026-09-26T08:16:23Z",
+              "summary": "Mauricio Pochettino says controversial Folarin Balogun appeal 'changed the energy' around US team at World Cup 2026.",
+              "categories": [
+                "Sport"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 241,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/sports/2026/9/26/pochettino-regrets-limited-role-in-balogun-red-card-decision-at-world-cup?traffic_source=rss",
+      "tags": [
+        "Sport"
+      ]
+    },
+    {
+      "id": "fe2f50693c42b5fadde1",
+      "title": "Iran war squeezes Iraq’s economy as oil revenues fall and prices rise",
+      "content_text": "Disrupted oil exports, costlier imports, and a weaker dinar expose Iraq's economic dependence on oil, foreign goods.",
+      "date_published": "2026-09-26T08:13:06Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "fe2f50693c42b5fadde1",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790282942",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:15:46Z",
+          "data": {
+            "change": "added",
+            "label": "Iran war squeezes Iraq’s economy as oil revenues fall and prices rise",
+            "item_type": "entry",
+            "summary": "added: Iran war squeezes Iraq’s economy as oil revenues fall and prices rise",
+            "after": {
+              "title": "Iran war squeezes Iraq’s economy as oil revenues fall and prices rise",
+              "link": "https://www.aljazeera.com/news/2026/9/26/iran-war-squeezes-iraqs-economy-as-oil-revenues-fall-and-prices-rise?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790282942",
+              "author": null,
+              "published_at": "2026-09-26T08:13:06Z",
+              "updated_at": "2026-09-26T08:13:06Z",
+              "summary": "Disrupted oil exports, costlier imports, and a weaker dinar expose Iraq's economic dependence on oil, foreign goods.",
+              "categories": [
+                "News Analysis"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 241,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/news/2026/9/26/iran-war-squeezes-iraqs-economy-as-oil-revenues-fall-and-prices-rise?traffic_source=rss",
+      "tags": [
+        "News Analysis"
+      ]
+    },
+    {
+      "id": "4e8a20e57f857143ca51",
+      "title": "White House bars CNN from travelling with Trump on Air Force One",
+      "content_text": "CNN was scheduled to fly with US President Donald Trump for his trip to Tennessee on Saturday.",
+      "date_published": "2026-09-26T05:09:09Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "4e8a20e57f857143ca51",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/cxq633770y16o#1",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:15:46Z",
+          "data": {
+            "change": "added",
+            "label": "White House bars CNN from travelling with Trump on Air Force One",
+            "item_type": "entry",
+            "summary": "added: White House bars CNN from travelling with Trump on Air Force One",
+            "after": {
+              "title": "White House bars CNN from travelling with Trump on Air Force One",
+              "link": "https://www.bbc.co.uk/news/articles/cxq633770y16o?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/cxq633770y16o#1",
+              "author": null,
+              "published_at": "2026-09-26T05:09:09Z",
+              "updated_at": "2026-09-26T05:09:09Z",
+              "summary": "CNN was scheduled to fly with US President Donald Trump for his trip to Tennessee on Saturday.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 236,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/cxq633770y16o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "d5e149efd2b52cf773ee",
+      "title": "Brazil's Lula bans online gambling ahead of presidential election",
+      "content_text": "Lula, who is currently in a tight presidential race against Flávio Bolsonaro, said the industry was a \"cancer\" that he must \"remove\".",
+      "date_published": "2026-09-26T03:22:17Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d5e149efd2b52cf773ee",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/c914ddj21rzlo#1",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:15:46Z",
+          "data": {
+            "change": "added",
+            "label": "Brazil's Lula bans online gambling ahead of presidential election",
+            "item_type": "entry",
+            "summary": "added: Brazil's Lula bans online gambling ahead of presidential election",
+            "after": {
+              "title": "Brazil's Lula bans online gambling ahead of presidential election",
+              "link": "https://www.bbc.co.uk/news/articles/c914ddj21rzlo?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/c914ddj21rzlo#1",
+              "author": null,
+              "published_at": "2026-09-26T03:22:17Z",
+              "updated_at": "2026-09-26T03:22:17Z",
+              "summary": "Lula, who is currently in a tight presidential race against Flávio Bolsonaro, said the industry was a \"cancer\" that he must \"remove\".",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 236,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/c914ddj21rzlo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "387214d2bf4eaf738d83",
+      "title": "What is kratom, the 'gas station heroin' alarming officials in the US?",
+      "content_text": "Kratom, found during an investigation into the deaths of two college students, has been sold in the US for around a decade.",
+      "date_published": "2026-09-25T20:06:39Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "387214d2bf4eaf738d83",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/cjn5ddzekwnro#2",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:15:46Z",
+          "data": {
+            "change": "added",
+            "label": "What is kratom, the 'gas station heroin' alarming officials in the US?",
+            "item_type": "entry",
+            "summary": "added: What is kratom, the 'gas station heroin' alarming officials in the US?",
+            "after": {
+              "title": "What is kratom, the 'gas station heroin' alarming officials in the US?",
+              "link": "https://www.bbc.co.uk/news/articles/cjn5ddzekwnro?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/cjn5ddzekwnro#2",
+              "author": null,
+              "published_at": "2026-09-25T20:06:39Z",
+              "updated_at": "2026-09-25T20:06:39Z",
+              "summary": "Kratom, found during an investigation into the deaths of two college students, has been sold in the US for around a decade.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 236,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/cjn5ddzekwnro?at_medium=RSS&at_campaign=rss"
+    },
     {
       "id": "c1a854b4c7588279826c",
       "title": "Disaster zone declared across Bangkok as heavy rain triggers flooding",
@@ -10845,2063 +12907,6 @@
         }
       },
       "url": "https://www.bbc.co.uk/news/articles/cm4g53547wygo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "id": "085fd295507cbb1dcff9",
-      "title": "What’s in Iran’s seven-day plan to reopen the Strait of Hormuz?",
-      "content_text": "Tehran’s offer comes as high fuel prices put pressure on Trump ahead of the US midterm elections.",
-      "date_published": "2026-09-25T10:49:48Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "085fd295507cbb1dcff9",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790328445",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T12:23:08Z",
-          "data": {
-            "change": "added",
-            "label": "What’s in Iran’s seven-day plan to reopen the Strait of Hormuz?",
-            "item_type": "entry",
-            "summary": "added: What’s in Iran’s seven-day plan to reopen the Strait of Hormuz?",
-            "after": {
-              "title": "What’s in Iran’s seven-day plan to reopen the Strait of Hormuz?",
-              "link": "https://www.aljazeera.com/news/2026/9/25/whats-in-irans-seven-day-plan-to-reopen-the-strait-of-hormuz?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790328445",
-              "author": null,
-              "published_at": "2026-09-25T10:49:48Z",
-              "updated_at": "2026-09-25T10:49:48Z",
-              "summary": "Tehran’s offer comes as high fuel prices put pressure on Trump ahead of the US midterm elections.",
-              "categories": [
-                "News"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 115,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/news/2026/9/25/whats-in-irans-seven-day-plan-to-reopen-the-strait-of-hormuz?traffic_source=rss",
-      "tags": [
-        "News"
-      ]
-    },
-    {
-      "id": "653a09a6a07128fbc49f",
-      "title": "Netanyahu rages against critics, including Mamdani, at the U.N. General Assembly",
-      "content_text": "Middle East crises in focus as U.N. General Assembly hears from Israel, the Palestinian Authority and Yemen.",
-      "date_published": "2026-09-25T10:25:03Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "653a09a6a07128fbc49f",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.npr.org/2026/09/25/nx-s1-5979852/israels-prime-minister-addresses-u-n-general-assembly",
-          "source_url": "https://feeds.npr.org/1001/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T12:23:08Z",
-          "data": {
-            "change": "added",
-            "label": "Netanyahu rages against critics, including Mamdani, at the U.N. General Assembly",
-            "item_type": "entry",
-            "summary": "added: Netanyahu rages against critics, including Mamdani, at the U.N. General Assembly",
-            "after": {
-              "title": "Netanyahu rages against critics, including Mamdani, at the U.N. General Assembly",
-              "link": "https://www.npr.org/2026/09/25/nx-s1-5979852/israels-prime-minister-addresses-u-n-general-assembly",
-              "id": "https://www.npr.org/2026/09/25/nx-s1-5979852/israels-prime-minister-addresses-u-n-general-assembly",
-              "author": "Kat Lonsdorf",
-              "published_at": "2026-09-25T10:25:03Z",
-              "updated_at": "2026-09-25T10:25:03Z",
-              "summary": "Middle East crises in focus as U.N. General Assembly hears from Israel, the Palestinian Authority and Yemen.",
-              "categories": [],
-              "feed": {
-                "title": "NPR Topics: News",
-                "url": "https://www.npr.org/templates/story/story.php?storyId=1001",
-                "feed_url": "https://feeds.npr.org/1001/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.npr.org/1001/rss.xml",
-            "elapsed_ms": 269,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.npr.org/2026/09/25/nx-s1-5979852/israels-prime-minister-addresses-u-n-general-assembly"
-    },
-    {
-      "id": "3875f0033231fc0a4463",
-      "title": "Rising malnutrition in Nigeria as US war on Iran raises food costs",
-      "content_text": "The war on Iran is raising the cost of living in Nigeria.",
-      "date_published": "2026-09-25T10:10:33Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "3875f0033231fc0a4463",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790330738",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T12:23:08Z",
-          "data": {
-            "change": "added",
-            "label": "Rising malnutrition in Nigeria as US war on Iran raises food costs",
-            "item_type": "entry",
-            "summary": "added: Rising malnutrition in Nigeria as US war on Iran raises food costs",
-            "after": {
-              "title": "Rising malnutrition in Nigeria as US war on Iran raises food costs",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/rising-malnutrition-in-nigeria-as-us-war-on-iran-raises-food-costs?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790330738",
-              "author": null,
-              "published_at": "2026-09-25T10:10:33Z",
-              "updated_at": "2026-09-25T10:10:33Z",
-              "summary": "The war on Iran is raising the cost of living in Nigeria.",
-              "categories": [
-                "Show Types"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 115,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/25/rising-malnutrition-in-nigeria-as-us-war-on-iran-raises-food-costs?traffic_source=rss",
-      "tags": [
-        "Show Types"
-      ]
-    },
-    {
-      "id": "8c835ff088cd06f82d87",
-      "title": "Premier League and La Liga lead FIFA reform calls after ‘exploitative’ plan",
-      "content_text": "Europe's top leagues, from England, Spain, Italy and Germany, add pressure on Gianni Infantino after World Cup plan.",
-      "date_published": "2026-09-25T10:00:17Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "8c835ff088cd06f82d87",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790327375",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T12:23:08Z",
-          "data": {
-            "change": "added",
-            "label": "Premier League and La Liga lead FIFA reform calls after ‘exploitative’ plan",
-            "item_type": "entry",
-            "summary": "added: Premier League and La Liga lead FIFA reform calls after ‘exploitative’ plan",
-            "after": {
-              "title": "Premier League and La Liga lead FIFA reform calls after ‘exploitative’ plan",
-              "link": "https://www.aljazeera.com/sports/2026/9/25/premier-league-and-la-liga-lead-fifa-reform-calls-after-infantino-plan?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790327375",
-              "author": null,
-              "published_at": "2026-09-25T10:00:17Z",
-              "updated_at": "2026-09-25T10:00:17Z",
-              "summary": "Europe's top leagues, from England, Spain, Italy and Germany, add pressure on Gianni Infantino after World Cup plan.",
-              "categories": [
-                "Sport"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 115,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/sports/2026/9/25/premier-league-and-la-liga-lead-fifa-reform-calls-after-infantino-plan?traffic_source=rss",
-      "tags": [
-        "Sport"
-      ]
-    },
-    {
-      "id": "3af8817b64edbafd9d37",
-      "title": "Iran pitches seven-day roadmap to end conflict with US",
-      "content_text": "Tehran seeks rapid implementation failed ceasefire deal, offering to open Hormuz if regional conflicts halted.",
-      "date_published": "2026-09-25T09:54:40Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "3af8817b64edbafd9d37",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790319637",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T12:23:08Z",
-          "data": {
-            "change": "added",
-            "label": "Iran pitches seven-day roadmap to end conflict with US",
-            "item_type": "entry",
-            "summary": "added: Iran pitches seven-day roadmap to end conflict with US",
-            "after": {
-              "title": "Iran pitches seven-day roadmap to end conflict with US",
-              "link": "https://www.aljazeera.com/news/2026/9/25/iran-pitches-seven-day-roadmap-to-end-conflict-with-us?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790319637",
-              "author": null,
-              "published_at": "2026-09-25T09:54:40Z",
-              "updated_at": "2026-09-25T09:54:40Z",
-              "summary": "Tehran seeks rapid implementation failed ceasefire deal, offering to open Hormuz if regional conflicts halted.",
-              "categories": [
-                "News"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 115,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/news/2026/9/25/iran-pitches-seven-day-roadmap-to-end-conflict-with-us?traffic_source=rss",
-      "tags": [
-        "News"
-      ]
-    },
-    {
-      "id": "97d3faf04a2587fb46ca",
-      "title": "From ‘cheats’ to ‘great friendship’: How Trump’s rhetoric on China changed",
-      "content_text": "Warmth on display in Washington contrasts significantly with the language Trump has used to characterise Beijing and Xi.",
-      "date_published": "2026-09-25T09:46:18Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "97d3faf04a2587fb46ca",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790323508",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T12:23:08Z",
-          "data": {
-            "change": "added",
-            "label": "From ‘cheats’ to ‘great friendship’: How Trump’s rhetoric on China changed",
-            "item_type": "entry",
-            "summary": "added: From ‘cheats’ to ‘great friendship’: How Trump’s rhetoric on China changed",
-            "after": {
-              "title": "From ‘cheats’ to ‘great friendship’: How Trump’s rhetoric on China changed",
-              "link": "https://www.aljazeera.com/news/2026/9/25/from-cheats-to-great-friendship-how-trumps-rhetoric-on-china-changed?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790323508",
-              "author": null,
-              "published_at": "2026-09-25T09:46:18Z",
-              "updated_at": "2026-09-25T09:46:18Z",
-              "summary": "Warmth on display in Washington contrasts significantly with the language Trump has used to characterise Beijing and Xi.",
-              "categories": [
-                "News"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 115,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/news/2026/9/25/from-cheats-to-great-friendship-how-trumps-rhetoric-on-china-changed?traffic_source=rss",
-      "tags": [
-        "News"
-      ]
-    },
-    {
-      "id": "e78c4a3ea1db9a3eada5",
-      "title": "Switzerland’s neutrality vote is asking the wrong question",
-      "content_text": "The real question is what neutrality can still do for Switzerland.",
-      "date_published": "2026-09-25T09:32:58Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "e78c4a3ea1db9a3eada5",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790245488",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T12:23:08Z",
-          "data": {
-            "change": "added",
-            "label": "Switzerland’s neutrality vote is asking the wrong question",
-            "item_type": "entry",
-            "summary": "added: Switzerland’s neutrality vote is asking the wrong question",
-            "after": {
-              "title": "Switzerland’s neutrality vote is asking the wrong question",
-              "link": "https://www.aljazeera.com/opinions/2026/9/25/switzerlands-neutrality-vote-is-asking-the-wrong-question?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790245488",
-              "author": null,
-              "published_at": "2026-09-25T09:32:58Z",
-              "updated_at": "2026-09-25T09:32:58Z",
-              "summary": "The real question is what neutrality can still do for Switzerland.",
-              "categories": [
-                "Opinions"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 115,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/opinions/2026/9/25/switzerlands-neutrality-vote-is-asking-the-wrong-question?traffic_source=rss",
-      "tags": [
-        "Opinions"
-      ]
-    },
-    {
-      "id": "96ef0be632f853604e3d",
-      "title": "Robbie Williams' surprise singalong after Peru gig cancelled",
-      "content_text": "Robbie Williams gave an impromptu performance outside a hotel in Lima after his stadium concert was cancelled.",
-      "date_published": "2026-09-25T09:20:04Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "96ef0be632f853604e3d",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.bbc.co.uk/news/videos/c3qjkxk58y02o#3",
-          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T12:23:08Z",
-          "data": {
-            "change": "added",
-            "label": "Robbie Williams' surprise singalong after Peru gig cancelled",
-            "item_type": "entry",
-            "summary": "added: Robbie Williams' surprise singalong after Peru gig cancelled",
-            "after": {
-              "title": "Robbie Williams' surprise singalong after Peru gig cancelled",
-              "link": "https://www.bbc.co.uk/news/videos/c3qjkxk58y02o?at_medium=RSS&at_campaign=rss",
-              "id": "https://www.bbc.co.uk/news/videos/c3qjkxk58y02o#3",
-              "author": null,
-              "published_at": "2026-09-25T09:20:04Z",
-              "updated_at": "2026-09-25T09:20:04Z",
-              "summary": "Robbie Williams gave an impromptu performance outside a hotel in Lima after his stadium concert was cancelled.",
-              "categories": [],
-              "feed": {
-                "title": "BBC News",
-                "url": "https://www.bbc.co.uk/news/world",
-                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-            "elapsed_ms": 272,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.bbc.co.uk/news/videos/c3qjkxk58y02o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "id": "a67e1373eb8d4b3cab7c",
-      "title": "Nepal PM says global order is broken in fighting climate crisis",
-      "content_text": "Nepal’s Prime Minister Balendra Shah was applauded at the UN General Assembly after his speech on climate crisis.",
-      "date_published": "2026-09-25T09:11:52Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "a67e1373eb8d4b3cab7c",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790327355",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T12:23:08Z",
-          "data": {
-            "change": "added",
-            "label": "Nepal PM says global order is broken in fighting climate crisis",
-            "item_type": "entry",
-            "summary": "added: Nepal PM says global order is broken in fighting climate crisis",
-            "after": {
-              "title": "Nepal PM says global order is broken in fighting climate crisis",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/25-09-sv-nepal-balendra-shah-climate-justice-speech-np?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790327355",
-              "author": null,
-              "published_at": "2026-09-25T09:11:52Z",
-              "updated_at": "2026-09-25T09:11:52Z",
-              "summary": "Nepal’s Prime Minister Balendra Shah was applauded at the UN General Assembly after his speech on climate crisis.",
-              "categories": [
-                "Show Types"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 115,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/25/25-09-sv-nepal-balendra-shah-climate-justice-speech-np?traffic_source=rss",
-      "tags": [
-        "Show Types"
-      ]
-    },
-    {
-      "id": "cb334c1a337941ca7b85",
-      "title": "Fill in the blank in the quiz: Trump's says his triumphal arch will include _____",
-      "content_text": "Plus: It's a very special week! But which one?",
-      "date_published": "2026-09-25T09:01:00Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "cb334c1a337941ca7b85",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.npr.org/2026/09/25/g-s1-144665/trump-arch-fat-bear-media-ai-news-quiz",
-          "source_url": "https://feeds.npr.org/1001/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T12:23:08Z",
-          "data": {
-            "change": "added",
-            "label": "Fill in the blank in the quiz: Trump's says his triumphal arch will include _____",
-            "item_type": "entry",
-            "summary": "added: Fill in the blank in the quiz: Trump's says his triumphal arch will include _____",
-            "after": {
-              "title": "Fill in the blank in the quiz: Trump's says his triumphal arch will include _____",
-              "link": "https://www.npr.org/2026/09/25/g-s1-144665/trump-arch-fat-bear-media-ai-news-quiz",
-              "id": "https://www.npr.org/2026/09/25/g-s1-144665/trump-arch-fat-bear-media-ai-news-quiz",
-              "author": "Holly J. Morris",
-              "published_at": "2026-09-25T09:01:00Z",
-              "updated_at": "2026-09-25T09:01:00Z",
-              "summary": "Plus: It's a very special week! But which one?",
-              "categories": [],
-              "feed": {
-                "title": "NPR Topics: News",
-                "url": "https://www.npr.org/templates/story/story.php?storyId=1001",
-                "feed_url": "https://feeds.npr.org/1001/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.npr.org/1001/rss.xml",
-            "elapsed_ms": 269,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.npr.org/2026/09/25/g-s1-144665/trump-arch-fat-bear-media-ai-news-quiz"
-    },
-    {
-      "id": "5723162c972185277e22",
-      "title": "Mom! Mom! MOM! 3 ways to stay calm in stressful parenting moments",
-      "content_text": "Parenthood can be overwhelming. A therapist and mom of three shares techniques to help calibrate your emotions — so you can show up better for yourself and your family.",
-      "date_published": "2026-09-25T09:01:00Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "5723162c972185277e22",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.npr.org/2026/09/25/nx-s1-5978936/how-to-manage-mom-rage",
-          "source_url": "https://feeds.npr.org/1001/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T12:23:08Z",
-          "data": {
-            "change": "added",
-            "label": "Mom! Mom! MOM! 3 ways to stay calm in stressful parenting moments",
-            "item_type": "entry",
-            "summary": "added: Mom! Mom! MOM! 3 ways to stay calm in stressful parenting moments",
-            "after": {
-              "title": "Mom! Mom! MOM! 3 ways to stay calm in stressful parenting moments",
-              "link": "https://www.npr.org/2026/09/25/nx-s1-5978936/how-to-manage-mom-rage",
-              "id": "https://www.npr.org/2026/09/25/nx-s1-5978936/how-to-manage-mom-rage",
-              "author": "Andee Tagle",
-              "published_at": "2026-09-25T09:01:00Z",
-              "updated_at": "2026-09-25T09:01:00Z",
-              "summary": "Parenthood can be overwhelming. A therapist and mom of three shares techniques to help calibrate your emotions — so you can show up better for yourself and your family.",
-              "categories": [],
-              "feed": {
-                "title": "NPR Topics: News",
-                "url": "https://www.npr.org/templates/story/story.php?storyId=1001",
-                "feed_url": "https://feeds.npr.org/1001/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.npr.org/1001/rss.xml",
-            "elapsed_ms": 269,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.npr.org/2026/09/25/nx-s1-5978936/how-to-manage-mom-rage"
-    },
-    {
-      "id": "e8ff1c4df50e49c6d386",
-      "title": "Americans are confused and worried about elections. Will that impact turnout?",
-      "content_text": "New polling shows many voters are concerned about the midterms. But prior elections show no clear link between voter concerns and fewer voters actually casting ballots.",
-      "date_published": "2026-09-25T09:00:00Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "e8ff1c4df50e49c6d386",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.npr.org/2026/09/25/nx-s1-5946736/voting-confusion-turnout",
-          "source_url": "https://feeds.npr.org/1001/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T12:23:08Z",
-          "data": {
-            "change": "added",
-            "label": "Americans are confused and worried about elections. Will that impact turnout?",
-            "item_type": "entry",
-            "summary": "added: Americans are confused and worried about elections. Will that impact turnout?",
-            "after": {
-              "title": "Americans are confused and worried about elections. Will that impact turnout?",
-              "link": "https://www.npr.org/2026/09/25/nx-s1-5946736/voting-confusion-turnout",
-              "id": "https://www.npr.org/2026/09/25/nx-s1-5946736/voting-confusion-turnout",
-              "author": "Miles Parks",
-              "published_at": "2026-09-25T09:00:00Z",
-              "updated_at": "2026-09-25T09:00:00Z",
-              "summary": "New polling shows many voters are concerned about the midterms. But prior elections show no clear link between voter concerns and fewer voters actually casting ballots.",
-              "categories": [],
-              "feed": {
-                "title": "NPR Topics: News",
-                "url": "https://www.npr.org/templates/story/story.php?storyId=1001",
-                "feed_url": "https://feeds.npr.org/1001/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.npr.org/1001/rss.xml",
-            "elapsed_ms": 269,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.npr.org/2026/09/25/nx-s1-5946736/voting-confusion-turnout"
-    },
-    {
-      "id": "0eb99c85ce98fbf7d01d",
-      "title": "Years after storms, clean-up crews meticulously separate the sentimental from the wreckage",
-      "content_text": "Across the country, lost-and-found networks seek to reunite objects with disaster survivors. The work can take years. In some cases, it's impossible to pick up all the pieces.",
-      "date_published": "2026-09-25T09:00:00Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "0eb99c85ce98fbf7d01d",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.npr.org/2026/09/25/nx-s1-5844641/hurricane-debris-north-carolina-texas-flood",
-          "source_url": "https://feeds.npr.org/1001/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T12:23:08Z",
-          "data": {
-            "change": "added",
-            "label": "Years after storms, clean-up crews meticulously separate the sentimental from the wreckage",
-            "item_type": "entry",
-            "summary": "added: Years after storms, clean-up crews meticulously separate the sentimental from the wreckage",
-            "after": {
-              "title": "Years after storms, clean-up crews meticulously separate the sentimental from the wreckage",
-              "link": "https://www.npr.org/2026/09/25/nx-s1-5844641/hurricane-debris-north-carolina-texas-flood",
-              "id": "https://www.npr.org/2026/09/25/nx-s1-5844641/hurricane-debris-north-carolina-texas-flood",
-              "author": "Laura Hackett",
-              "published_at": "2026-09-25T09:00:00Z",
-              "updated_at": "2026-09-25T09:00:00Z",
-              "summary": "Across the country, lost-and-found networks seek to reunite objects with disaster survivors. The work can take years. In some cases, it's impossible to pick up all the pieces.",
-              "categories": [],
-              "feed": {
-                "title": "NPR Topics: News",
-                "url": "https://www.npr.org/templates/story/story.php?storyId=1001",
-                "feed_url": "https://feeds.npr.org/1001/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.npr.org/1001/rss.xml",
-            "elapsed_ms": 269,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.npr.org/2026/09/25/nx-s1-5844641/hurricane-debris-north-carolina-texas-flood"
-    },
-    {
-      "id": "1bd2bff8b7ec5b4cea37",
-      "title": "The U.S. Strategic Petroleum Reserve is low. Here's why you should care",
-      "content_text": "The U.S. has tapped into its strategic oil reserve to help drive down rising gasoline prices in the wake of the war with Iran. Can oil from Venezuela help fill it back up?",
-      "date_published": "2026-09-25T09:00:00Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "1bd2bff8b7ec5b4cea37",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.npr.org/2026/09/25/nx-s1-5965797/strategic-petroleum-reserve-low-level-venezuela",
-          "source_url": "https://feeds.npr.org/1001/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T12:23:08Z",
-          "data": {
-            "change": "added",
-            "label": "The U.S. Strategic Petroleum Reserve is low. Here's why you should care",
-            "item_type": "entry",
-            "summary": "added: The U.S. Strategic Petroleum Reserve is low. Here's why you should care",
-            "after": {
-              "title": "The U.S. Strategic Petroleum Reserve is low. Here's why you should care",
-              "link": "https://www.npr.org/2026/09/25/nx-s1-5965797/strategic-petroleum-reserve-low-level-venezuela",
-              "id": "https://www.npr.org/2026/09/25/nx-s1-5965797/strategic-petroleum-reserve-low-level-venezuela",
-              "author": "Willa Rubin",
-              "published_at": "2026-09-25T09:00:00Z",
-              "updated_at": "2026-09-25T09:00:00Z",
-              "summary": "The U.S. has tapped into its strategic oil reserve to help drive down rising gasoline prices in the wake of the war with Iran. Can oil from Venezuela help fill it back up?",
-              "categories": [],
-              "feed": {
-                "title": "NPR Topics: News",
-                "url": "https://www.npr.org/templates/story/story.php?storyId=1001",
-                "feed_url": "https://feeds.npr.org/1001/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.npr.org/1001/rss.xml",
-            "elapsed_ms": 269,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.npr.org/2026/09/25/nx-s1-5965797/strategic-petroleum-reserve-low-level-venezuela"
-    },
-    {
-      "id": "04ae19af6f6abbf40d37",
-      "title": "American farmers are hurting -- and worried about their futures",
-      "content_text": "Farmers who grow soybeans, corn, cotton and other crops are facing another year of losses as soaring fuel and fertilizer costs offset higher revenues.",
-      "date_published": "2026-09-25T09:00:00Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "04ae19af6f6abbf40d37",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.npr.org/2026/09/25/nx-s1-5979886/farmers-crops-economy-diesel-fertilizer",
-          "source_url": "https://feeds.npr.org/1001/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T12:23:08Z",
-          "data": {
-            "change": "added",
-            "label": "American farmers are hurting -- and worried about their futures",
-            "item_type": "entry",
-            "summary": "added: American farmers are hurting -- and worried about their futures",
-            "after": {
-              "title": "American farmers are hurting -- and worried about their futures",
-              "link": "https://www.npr.org/2026/09/25/nx-s1-5979886/farmers-crops-economy-diesel-fertilizer",
-              "id": "https://www.npr.org/2026/09/25/nx-s1-5979886/farmers-crops-economy-diesel-fertilizer",
-              "author": "Scott Horsley",
-              "published_at": "2026-09-25T09:00:00Z",
-              "updated_at": "2026-09-25T09:00:00Z",
-              "summary": "Farmers who grow soybeans, corn, cotton and other crops are facing another year of losses as soaring fuel and fertilizer costs offset higher revenues.",
-              "categories": [],
-              "feed": {
-                "title": "NPR Topics: News",
-                "url": "https://www.npr.org/templates/story/story.php?storyId=1001",
-                "feed_url": "https://feeds.npr.org/1001/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.npr.org/1001/rss.xml",
-            "elapsed_ms": 269,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.npr.org/2026/09/25/nx-s1-5979886/farmers-crops-economy-diesel-fertilizer"
-    },
-    {
-      "id": "dc868fa48e5e89c64d0e",
-      "title": "Is Switzerland's neutrality at a crossroads?",
-      "content_text": "Switzerland is voting on whether to tighten its famous neutrality — a move that could reshape its response to Russia and future conflicts.",
-      "date_published": "2026-09-25T09:00:00Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "dc868fa48e5e89c64d0e",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.npr.org/2026/09/25/nx-s1-5978905/swiss-referendum-neutrality-russia",
-          "source_url": "https://feeds.npr.org/1001/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T12:23:08Z",
-          "data": {
-            "change": "added",
-            "label": "Is Switzerland's neutrality at a crossroads?",
-            "item_type": "entry",
-            "summary": "added: Is Switzerland's neutrality at a crossroads?",
-            "after": {
-              "title": "Is Switzerland's neutrality at a crossroads?",
-              "link": "https://www.npr.org/2026/09/25/nx-s1-5978905/swiss-referendum-neutrality-russia",
-              "id": "https://www.npr.org/2026/09/25/nx-s1-5978905/swiss-referendum-neutrality-russia",
-              "author": "Imogen Foulkes",
-              "published_at": "2026-09-25T09:00:00Z",
-              "updated_at": "2026-09-25T09:00:00Z",
-              "summary": "Switzerland is voting on whether to tighten its famous neutrality — a move that could reshape its response to Russia and future conflicts.",
-              "categories": [],
-              "feed": {
-                "title": "NPR Topics: News",
-                "url": "https://www.npr.org/templates/story/story.php?storyId=1001",
-                "feed_url": "https://feeds.npr.org/1001/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.npr.org/1001/rss.xml",
-            "elapsed_ms": 269,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.npr.org/2026/09/25/nx-s1-5978905/swiss-referendum-neutrality-russia"
-    },
-    {
-      "id": "a0d74d368cf96b9acab6",
-      "title": "Saudi Arabia allies line up support as Houthi attacks mount",
-      "content_text": "France is sending military to protect key Yanbu oil terminal; Pakistan and Turkiye to hold military talks with Riyadh.",
-      "date_published": "2026-09-25T08:32:48Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "a0d74d368cf96b9acab6",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790316415",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T12:23:08Z",
-          "data": {
-            "change": "added",
-            "label": "Saudi Arabia allies line up support as Houthi attacks mount",
-            "item_type": "entry",
-            "summary": "added: Saudi Arabia allies line up support as Houthi attacks mount",
-            "after": {
-              "title": "Saudi Arabia allies line up support as Houthi attacks mount",
-              "link": "https://www.aljazeera.com/news/2026/9/25/saudi-arabia-allies-line-up-support-as-houthi-attacks-mount?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790316415",
-              "author": null,
-              "published_at": "2026-09-25T08:32:48Z",
-              "updated_at": "2026-09-25T08:32:48Z",
-              "summary": "France is sending military to protect key Yanbu oil terminal; Pakistan and Turkiye to hold military talks with Riyadh.",
-              "categories": [
-                "News"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 115,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/news/2026/9/25/saudi-arabia-allies-line-up-support-as-houthi-attacks-mount?traffic_source=rss",
-      "tags": [
-        "News"
-      ]
-    },
-    {
-      "id": "013b2e516b86d5dd67fc",
-      "title": "Mamdani plants olive tree with Gaza families",
-      "content_text": "New York Mayor Zohran Mamdani posted a video of himself planting an olive tree alongside Palestinian families from Gaza.",
-      "date_published": "2026-09-25T07:55:41Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "013b2e516b86d5dd67fc",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790322769",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T12:23:08Z",
-          "data": {
-            "change": "added",
-            "label": "Mamdani plants olive tree with Gaza families",
-            "item_type": "entry",
-            "summary": "added: Mamdani plants olive tree with Gaza families",
-            "after": {
-              "title": "Mamdani plants olive tree with Gaza families",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/mamdani-plants-olive-tree-with-gaza-families?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790322769",
-              "author": null,
-              "published_at": "2026-09-25T07:55:41Z",
-              "updated_at": "2026-09-25T07:55:41Z",
-              "summary": "New York Mayor Zohran Mamdani posted a video of himself planting an olive tree alongside Palestinian families from Gaza.",
-              "categories": [
-                "Show Types"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 115,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/25/mamdani-plants-olive-tree-with-gaza-families?traffic_source=rss",
-      "tags": [
-        "Show Types"
-      ]
-    },
-    {
-      "id": "3a0eabc20773bf48aaaa",
-      "title": "Pope Leo heads to France amid assisted dying, abuse debates",
-      "content_text": "First papal state visit to country in 18 years comes as church confronts contentious issues.",
-      "date_published": "2026-09-25T07:41:24Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "3a0eabc20773bf48aaaa",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790311579",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T12:23:08Z",
-          "data": {
-            "change": "added",
-            "label": "Pope Leo heads to France amid assisted dying, abuse debates",
-            "item_type": "entry",
-            "summary": "added: Pope Leo heads to France amid assisted dying, abuse debates",
-            "after": {
-              "title": "Pope Leo heads to France amid assisted dying, abuse debates",
-              "link": "https://www.aljazeera.com/news/2026/9/25/pope-leo-heads-to-france-amid-assisted-dying-abuse-debates?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790311579",
-              "author": null,
-              "published_at": "2026-09-25T07:41:24Z",
-              "updated_at": "2026-09-25T07:41:24Z",
-              "summary": "First papal state visit to country in 18 years comes as church confronts contentious issues.",
-              "categories": [
-                "News"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 115,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/news/2026/9/25/pope-leo-heads-to-france-amid-assisted-dying-abuse-debates?traffic_source=rss",
-      "tags": [
-        "News"
-      ]
-    },
-    {
-      "id": "993dfd126b4aa44bb479",
-      "title": "Nepal’s leader labels devastating flood a ‘warning to the world’",
-      "content_text": "Prime Minister Balendra Shah says world leaders must act on climate change.",
-      "date_published": "2026-09-25T06:56:51Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "993dfd126b4aa44bb479",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790310014",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T12:23:08Z",
-          "data": {
-            "change": "added",
-            "label": "Nepal’s leader labels devastating flood a ‘warning to the world’",
-            "item_type": "entry",
-            "summary": "added: Nepal’s leader labels devastating flood a ‘warning to the world’",
-            "after": {
-              "title": "Nepal’s leader labels devastating flood a ‘warning to the world’",
-              "link": "https://www.aljazeera.com/news/2026/9/25/nepals-leader-labels-devastating-flood-a-warning-to-the-world?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790310014",
-              "author": null,
-              "published_at": "2026-09-25T06:56:51Z",
-              "updated_at": "2026-09-25T06:56:51Z",
-              "summary": "Prime Minister Balendra Shah says world leaders must act on climate change.",
-              "categories": [
-                "News"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 115,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/news/2026/9/25/nepals-leader-labels-devastating-flood-a-warning-to-the-world?traffic_source=rss",
-      "tags": [
-        "News"
-      ]
-    },
-    {
-      "id": "1d9c5669be3183952646",
-      "title": "Africa's richest man helps fund $660m fuel pipeline between Ethiopia and Djibouti",
-      "content_text": "The pipeline would strengthen energy security in landlocked Ethiopia, while creating jobs at Djibouti's port.",
-      "date_published": "2026-09-25T06:48:07Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "1d9c5669be3183952646",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.bbc.co.uk/news/articles/c6z9z7lv41wgo#1",
-          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T12:23:08Z",
-          "data": {
-            "change": "added",
-            "label": "Africa's richest man helps fund $660m fuel pipeline between Ethiopia and Djibouti",
-            "item_type": "entry",
-            "summary": "added: Africa's richest man helps fund $660m fuel pipeline between Ethiopia and Djibouti",
-            "after": {
-              "title": "Africa's richest man helps fund $660m fuel pipeline between Ethiopia and Djibouti",
-              "link": "https://www.bbc.co.uk/news/articles/c6z9z7lv41wgo?at_medium=RSS&at_campaign=rss",
-              "id": "https://www.bbc.co.uk/news/articles/c6z9z7lv41wgo#1",
-              "author": null,
-              "published_at": "2026-09-25T06:48:07Z",
-              "updated_at": "2026-09-25T06:48:07Z",
-              "summary": "The pipeline would strengthen energy security in landlocked Ethiopia, while creating jobs at Djibouti's port.",
-              "categories": [],
-              "feed": {
-                "title": "BBC News",
-                "url": "https://www.bbc.co.uk/news/world",
-                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-            "elapsed_ms": 272,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.bbc.co.uk/news/articles/c6z9z7lv41wgo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "id": "74fe840d0a8ca44b5399",
-      "title": "Israel’s Abu Farchi sent off for gun celebration in Nations League match",
-      "content_text": "Israel footballer Sayed Abu Farchi was sent off for goal celebration mimicking shooting a gun in match against Austria.",
-      "date_published": "2026-09-25T06:44:31Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "74fe840d0a8ca44b5399",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790316681",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T12:23:08Z",
-          "data": {
-            "change": "added",
-            "label": "Israel’s Abu Farchi sent off for gun celebration in Nations League match",
-            "item_type": "entry",
-            "summary": "added: Israel’s Abu Farchi sent off for gun celebration in Nations League match",
-            "after": {
-              "title": "Israel’s Abu Farchi sent off for gun celebration in Nations League match",
-              "link": "https://www.aljazeera.com/sports/2026/9/25/israels-abu-farchi-sent-off-for-gun-celebration-in-nations-league-match?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790316681",
-              "author": null,
-              "published_at": "2026-09-25T06:44:31Z",
-              "updated_at": "2026-09-25T06:44:31Z",
-              "summary": "Israel footballer Sayed Abu Farchi was sent off for goal celebration mimicking shooting a gun in match against Austria.",
-              "categories": [
-                "Sport"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 115,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/sports/2026/9/25/israels-abu-farchi-sent-off-for-gun-celebration-in-nations-league-match?traffic_source=rss",
-      "tags": [
-        "Sport"
-      ]
-    },
-    {
-      "id": "f8751279f404f25e0d21",
-      "title": "Converging crises, chaos and walkouts dominate UNGA Day Three",
-      "content_text": "Dozens of delegates walked out on Netanyahu, Yemen’s government pleaded for help, and Kuwait riled against threats.",
-      "date_published": "2026-09-25T06:28:00Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "f8751279f404f25e0d21",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790317587",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T12:23:08Z",
-          "data": {
-            "change": "added",
-            "label": "Converging crises, chaos and walkouts dominate UNGA Day Three",
-            "item_type": "entry",
-            "summary": "added: Converging crises, chaos and walkouts dominate UNGA Day Three",
-            "after": {
-              "title": "Converging crises, chaos and walkouts dominate UNGA Day Three",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/converging-crises-chaos-and-walkouts-dominate-unga-day-three?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790317587",
-              "author": null,
-              "published_at": "2026-09-25T06:28:00Z",
-              "updated_at": "2026-09-25T06:28:00Z",
-              "summary": "Dozens of delegates walked out on Netanyahu, Yemen’s government pleaded for help, and Kuwait riled against threats.",
-              "categories": [
-                "Show Types"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 115,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/25/converging-crises-chaos-and-walkouts-dominate-unga-day-three?traffic_source=rss",
-      "tags": [
-        "Show Types"
-      ]
-    },
-    {
-      "id": "033a1d6aeb99e261ec38",
-      "title": "Four civilians killed in Pakistani strikes in Afghanistan, Taliban says",
-      "content_text": "Pakistan says it struck 10 targets, adding the strikes were \"strictly limited to identified military objectives\".",
-      "date_published": "2026-09-24T19:02:36Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "033a1d6aeb99e261ec38",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.bbc.co.uk/news/articles/cm86xn0nnw58o#1",
-          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T12:23:08Z",
-          "data": {
-            "change": "added",
-            "label": "Four civilians killed in Pakistani strikes in Afghanistan, Taliban says",
-            "item_type": "entry",
-            "summary": "added: Four civilians killed in Pakistani strikes in Afghanistan, Taliban says",
-            "after": {
-              "title": "Four civilians killed in Pakistani strikes in Afghanistan, Taliban says",
-              "link": "https://www.bbc.co.uk/news/articles/cm86xn0nnw58o?at_medium=RSS&at_campaign=rss",
-              "id": "https://www.bbc.co.uk/news/articles/cm86xn0nnw58o#1",
-              "author": null,
-              "published_at": "2026-09-24T19:02:36Z",
-              "updated_at": "2026-09-24T19:02:36Z",
-              "summary": "Pakistan says it struck 10 targets, adding the strikes were \"strictly limited to identified military objectives\".",
-              "categories": [],
-              "feed": {
-                "title": "BBC News",
-                "url": "https://www.bbc.co.uk/news/world",
-                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-            "elapsed_ms": 272,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.bbc.co.uk/news/articles/cm86xn0nnw58o?at_medium=RSS&at_campaign=rss"
     }
   ]
 }

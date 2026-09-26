@@ -2,12 +2,248 @@
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Thailand news in English",
   "home_page_url": "https://www.khaosodenglish.com/feed/",
-  "description": "Events collected by UnlimitedPipe 0.6.0",
+  "description": "Events collected by UnlimitedPipe 0.8.0",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.6.0"
+    "generator": "UnlimitedPipe 0.8.0"
   },
   "items": [
+    {
+      "id": "6187b9b1a0c329c2403c",
+      "title": "Red Line suspends services on both routes after electrical fault",
+      "content_text": "BANGKOK — 26 September 2026, Bangkok’s Red Line commuter rail temporarily suspended services on both routes on Saturday after an electrical fault affected the signalling system, forcing all 13 stations to close. At 16:00, the RED Line SRTET Facebook page announced that services on both the Krung Thep Aphiwat Central Terminal–Rangsit and Krung Thep Aphiwat […]\nThe post Red Line suspends services on both routes after electrical fault appeared first on Khaosod English .",
+      "date_published": "2026-09-26T10:50:55Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "6187b9b1a0c329c2403c",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.khaosodenglish.com/?p=1464955990",
+          "source_url": "https://www.khaosodenglish.com/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:15:32Z",
+          "data": {
+            "change": "added",
+            "label": "Red Line suspends services on both routes after electrical fault",
+            "item_type": "entry",
+            "summary": "added: Red Line suspends services on both routes after electrical fault",
+            "after": {
+              "title": "Red Line suspends services on both routes after electrical fault",
+              "link": "https://www.khaosodenglish.com/news/transpo/2026/09/26/red-line-suspends-services-on-both-routes-after-electrical-fault/",
+              "id": "https://www.khaosodenglish.com/?p=1464955990",
+              "author": "Khaosod English",
+              "published_at": "2026-09-26T10:50:55Z",
+              "updated_at": "2026-09-26T10:50:55Z",
+              "summary": "BANGKOK — 26 September 2026, Bangkok’s Red Line commuter rail temporarily suspended services on both routes on Saturday after an electrical fault affected the signalling system, forcing all 13 stations to close. At 16:00, the RED Line SRTET Facebook page announced that services on both the Krung Thep Aphiwat Central Terminal–Rangsit and Krung Thep Aphiwat […]\nThe post Red Line suspends services on both routes after electrical fault appeared first on Khaosod English .",
+              "categories": [
+                "Bangkok",
+                "Transportation",
+                "Red Line Rail"
+              ],
+              "feed": {
+                "title": "Khaosod English",
+                "url": "https://www.khaosodenglish.com",
+                "feed_url": "https://www.khaosodenglish.com/feed/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.khaosodenglish.com/feed/",
+            "elapsed_ms": 11091,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "thailand-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.khaosodenglish.com/news/transpo/2026/09/26/red-line-suspends-services-on-both-routes-after-electrical-fault/",
+      "tags": [
+        "Bangkok",
+        "Transportation",
+        "Red Line Rail"
+      ]
+    },
+    {
+      "id": "67cc70732ef481e4584f",
+      "title": "Rajamangala Stadium surrounded by floodwater, cars nearly submerged to their roofs",
+      "content_text": "BANGKOK — 26 September 2026, Rajamangala National Stadium has been surrounded by floodwater, with widespread flooding across the surrounding area and several parked cars almost submerged to their roofs. The flooding has also affected Thai national athletes. Continuous heavy rain has caused flooding across Thailand, with Bangkok particularly badly affected. Wuttichai “M” Masuk, a former […]\nThe post Rajamangala Stadium surrounded by floodwater, cars nearly submerged to their roofs appeared first…",
+      "date_published": "2026-09-26T10:11:22Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "67cc70732ef481e4584f",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.khaosodenglish.com/?p=1464955987",
+          "source_url": "https://www.khaosodenglish.com/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:15:32Z",
+          "data": {
+            "change": "added",
+            "label": "Rajamangala Stadium surrounded by floodwater, cars nearly submerged to their roofs",
+            "item_type": "entry",
+            "summary": "added: Rajamangala Stadium surrounded by floodwater, cars nearly submerged to their roofs",
+            "after": {
+              "title": "Rajamangala Stadium surrounded by floodwater, cars nearly submerged to their roofs",
+              "link": "https://www.khaosodenglish.com/news/2026/09/26/rajamangala-stadium-surrounded-by-floodwater-cars-nearly-submerged-to-their-roofs/",
+              "id": "https://www.khaosodenglish.com/?p=1464955987",
+              "author": "Khaosod English",
+              "published_at": "2026-09-26T10:11:22Z",
+              "updated_at": "2026-09-26T10:11:22Z",
+              "summary": "BANGKOK — 26 September 2026, Rajamangala National Stadium has been surrounded by floodwater, with widespread flooding across the surrounding area and several parked cars almost submerged to their roofs. The flooding has also affected Thai national athletes. Continuous heavy rain has caused flooding across Thailand, with Bangkok particularly badly affected. Wuttichai “M” Masuk, a former […]\nThe post Rajamangala Stadium surrounded by floodwater, cars nearly submerged to their roofs appeared first on Khaosod English .",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Khaosod English",
+                "url": "https://www.khaosodenglish.com",
+                "feed_url": "https://www.khaosodenglish.com/feed/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.khaosodenglish.com/feed/",
+            "elapsed_ms": 11091,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "thailand-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.khaosodenglish.com/news/2026/09/26/rajamangala-stadium-surrounded-by-floodwater-cars-nearly-submerged-to-their-roofs/",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "5ba92127f3fbf9422e04",
+      "title": "Bangkok declared public disaster zone after sustained rainfall, flooding",
+      "content_text": "Bangkok declared public disaster zone after sustained rainfall, flooding\nAll 50 districts of Bangkok have been declared a public disaster zones after sustained rainfall caused widespread flooding across the city.\nThe Bangkok Metropolitan Administration (BMA) announced this morning (26 September) that the declaration, which previously covered three districts, has been extended to cover all of Bangkok to enable relevant agencies to promptly and systematically respond to the situation.\nSeveral…",
+      "date_published": "2026-09-26T09:04:55Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "5ba92127f3fbf9422e04",
+          "source": "rss",
+          "type": "change",
+          "key": "12046 at https://prachataienglish.com",
+          "source_url": "https://prachataienglish.com/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:15:32Z",
+          "data": {
+            "change": "added",
+            "label": "Bangkok declared public disaster zone after sustained rainfall, flooding",
+            "item_type": "entry",
+            "summary": "added: Bangkok declared public disaster zone after sustained rainfall, flooding",
+            "after": {
+              "title": "Bangkok declared public disaster zone after sustained rainfall, flooding",
+              "link": "https://prachataienglish.com/node/12046",
+              "id": "12046 at https://prachataienglish.com",
+              "author": "eng editor 1",
+              "published_at": "2026-09-26T09:04:55Z",
+              "updated_at": "2026-09-26T09:04:55Z",
+              "summary": "Bangkok declared public disaster zone after sustained rainfall, flooding\nAll 50 districts of Bangkok have been declared a public disaster zones after sustained rainfall caused widespread flooding across the city.\nThe Bangkok Metropolitan Administration (BMA) announced this morning (26 September) that the declaration, which previously covered three districts, has been extended to cover all of Bangkok to enable relevant agencies to promptly and systematically respond to the situation.\nSeveral main roads have been flooded, with some impassable, including stretches of Vibhavadi Road, Ratchadapisek Road, Phattanakan Road, Chaeng Wattana Road, Phaholyothin Road, and New Phetchaburi Road, as well as side streets in Lat Phrao and Ramkhamhaeng. Small cars are advised to avoid heavily flooded locations due to safety concerns.\nResidents can check which locations are flooded on the BMA’s flood alert website before travel. Meanwhile, those living near canals have been advised to move cars and belongings to high grounds.\nNearly 48 hours of continuous rains have caused widespread flooding in several areas of the city, especially in the eastern districts, said Bangkok governor Chadchart Sittipunt on Saturday morning (26 September). Several districts, including Min Buri and Klong Sam Wa, experienced almost 300 milimetres of accumulated rainfall, while more water is coming down from Pathumthani and Nontaburi. The BMA is working to reduce water levels in main canals, provide assistance to vulnerable population, and open temporary shelters. Residents are advised to stay home due to flooding on main roads.\nOn social media, netizens reported convenience stores and supermarkets being emptied as residents stock up on essentials in case the flood worsens.\nMeanwhile, the Thai Meteorological Department has issued a heavy rain warning until 27 September, with continuous rainfall and isolated heavy to very heavy rain likely in the central region including Bangkok and its vicinity.\nFloodings hav",
+              "categories": [],
+              "feed": {
+                "title": "Prachatai English",
+                "url": "https://prachataienglish.com/",
+                "feed_url": "https://prachataienglish.com/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://prachataienglish.com/rss.xml",
+            "elapsed_ms": 1148,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "thailand-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://prachataienglish.com/node/12046"
+    },
     {
       "id": "86c1577eb98085d57fc0",
       "title": "Closed schools and work from home on Monday as Bangkok battles floods",

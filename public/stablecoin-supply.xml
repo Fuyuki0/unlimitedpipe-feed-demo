@@ -3,9 +3,23 @@
   <channel>
     <title>Stablecoin supply moves (DefiLlama)</title>
     <link>https://defillama.com/stablecoins</link>
-    <description>Events collected by UnlimitedPipe 0.6.0</description>
-    <generator>UnlimitedPipe 0.6.0</generator>
-    <lastBuildDate>Sat, 26 Sep 2026 08:06:10 +0000</lastBuildDate>
+    <description>Events collected by UnlimitedPipe 0.8.0</description>
+    <generator>UnlimitedPipe 0.8.0</generator>
+    <lastBuildDate>Sat, 26 Sep 2026 12:15:10 +0000</lastBuildDate>
+    <item>
+      <title>USDC supply +$205.9M in a day, now $76.6B</title>
+      <link>https://defillama.com/stablecoin/usd-coin</link>
+      <guid isPermaLink="false">eeb2cddc82e2ff738261</guid>
+      <pubDate>Sat, 26 Sep 2026 12:15:10 +0000</pubDate>
+      <description>USD Coin (USDC): +$205.9M in 24 hours; week before: $74.4B.</description>
+    </item>
+    <item>
+      <title>USDS supply +$101.6M in a day, now $6.6B</title>
+      <link>https://defillama.com/stablecoin/usds</link>
+      <guid isPermaLink="false">eec47835ca5fc9e0a210</guid>
+      <pubDate>Sat, 26 Sep 2026 12:15:10 +0000</pubDate>
+      <description>Sky Dollar (USDS): +$101.6M in 24 hours; week before: $6.5B.</description>
+    </item>
     <item>
       <title>USDC supply -$864.7M in a day, now $75.6B</title>
       <link>https://defillama.com/stablecoin/usd-coin</link>

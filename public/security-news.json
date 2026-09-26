@@ -1,13 +1,271 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Security news",
-  "home_page_url": "https://krebsonsecurity.com/feed/",
-  "description": "Events collected by UnlimitedPipe 0.3.2",
+  "home_page_url": "https://feeds.feedburner.com/TheHackersNews",
+  "description": "Events collected by UnlimitedPipe 0.8.0",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.3.2"
+    "generator": "UnlimitedPipe 0.8.0"
   },
   "items": [
+    {
+      "id": "753326b1f057b450fe67",
+      "title": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
+      "content_text": "Details have emerged about a high-severity security flaw in the Elementor Website Builder WordPress plugin that could be exploited by an unauthenticated attacker to create rogue administrator accounts and take control of a site.\nThe cross-site request forgery (CSRF) vulnerability, which has yet to be assigned a CVE identifier, carries a CVSS score of 8.8 out of 10.0. It only affects versions",
+      "date_published": "2026-09-26T09:55:22Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "753326b1f057b450fe67",
+          "source": "rss",
+          "type": "change",
+          "key": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
+          "source_url": "https://feeds.feedburner.com/TheHackersNews",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:15:06Z",
+          "data": {
+            "change": "added",
+            "label": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
+            "item_type": "entry",
+            "summary": "added: Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
+            "after": {
+              "title": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
+              "link": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
+              "id": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
+              "author": "info@thehackernews.com (The Hacker News)",
+              "published_at": "2026-09-26T09:55:22Z",
+              "updated_at": "2026-09-26T09:55:22Z",
+              "summary": "Details have emerged about a high-severity security flaw in the Elementor Website Builder WordPress plugin that could be exploited by an unauthenticated attacker to create rogue administrator accounts and take control of a site.\nThe cross-site request forgery (CSRF) vulnerability, which has yet to be assigned a CVE identifier, carries a CVSS score of 8.8 out of 10.0. It only affects versions",
+              "categories": [],
+              "feed": {
+                "title": "The Hacker News",
+                "url": "https://thehackernews.com",
+                "feed_url": "https://feeds.feedburner.com/TheHackersNews"
+              },
+              "enclosures": [
+                "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoCsmpn_im_gimeko6yEdebgucFfzjRrTH0Hmvl1triNXT64w_JdoBIqCrFEApRZ9mmKBYfJQ1fqgfubPH3ZRaWW7SJ2HSr18mBsjSdFE6AwVl362SwcdzHp0EtlL2qoVuYARkSKmOqQaORUjjYVAM-PCT9Itvvkgb69lyVLttezAFtAuCw86RpPu3lAo4/s1600/wordpress-ele.jpg"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.feedburner.com/TheHackersNews",
+            "elapsed_ms": 148,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "security-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html"
+    },
+    {
+      "id": "49f939a1547e5c226270",
+      "title": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
+      "content_text": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Microsoft SharePoint and Mikrotik RouterOS to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\nThe vulnerabilities in question are as follows -\nCVE-2026-65660 (CVSS score: 8.8) - A code injection vulnerability in Microsoft Office SharePoint",
+      "date_published": "2026-09-26T08:49:53Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "49f939a1547e5c226270",
+          "source": "rss",
+          "type": "change",
+          "key": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
+          "source_url": "https://feeds.feedburner.com/TheHackersNews",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:15:06Z",
+          "data": {
+            "change": "added",
+            "label": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
+            "item_type": "entry",
+            "summary": "added: SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
+            "after": {
+              "title": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
+              "link": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
+              "id": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
+              "author": "info@thehackernews.com (The Hacker News)",
+              "published_at": "2026-09-26T08:49:53Z",
+              "updated_at": "2026-09-26T08:49:53Z",
+              "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Microsoft SharePoint and Mikrotik RouterOS to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\nThe vulnerabilities in question are as follows -\nCVE-2026-65660 (CVSS score: 8.8) - A code injection vulnerability in Microsoft Office SharePoint",
+              "categories": [],
+              "feed": {
+                "title": "The Hacker News",
+                "url": "https://thehackernews.com",
+                "feed_url": "https://feeds.feedburner.com/TheHackersNews"
+              },
+              "enclosures": [
+                "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHEPamtRBBEzltsUWnj-F8umrMf4eUUhTmGUJdhHlrvWZamHWpBtXcrpQKDArTziRiiIWv8psX4DTZyN9kLBtcAyLOPJma9_M7sYKgYz6WBISbOhJrRlfByfCKfTTMdBqaYUp-0nskrt2ndt3poUFLDGegEFJojS0EzEvwAqzaUNtvX26jZopYE4zA4S3K/s1600/share-kev.jpg"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.feedburner.com/TheHackersNews",
+            "elapsed_ms": 148,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "security-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html"
+    },
+    {
+      "id": "18d65bd0ca84dda6b65b",
+      "title": "Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
+      "content_text": "Kiteworks (formerly Accellion) is urging customers to shut down their systems as a precautionary measure for nine hours over the weekend after it received threat intelligence about an imminent cyber attack.\n\"Kiteworks received credible threat intelligence from federal intelligence authorities indicating that a threat actor may attempt to target some Kiteworks systems,\" said Frank Balonis, Chief",
+      "date_published": "2026-09-26T07:48:33Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "18d65bd0ca84dda6b65b",
+          "source": "rss",
+          "type": "change",
+          "key": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
+          "source_url": "https://feeds.feedburner.com/TheHackersNews",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:15:06Z",
+          "data": {
+            "change": "added",
+            "label": "Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
+            "item_type": "entry",
+            "summary": "added: Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
+            "after": {
+              "title": "Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
+              "link": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
+              "id": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
+              "author": "info@thehackernews.com (The Hacker News)",
+              "published_at": "2026-09-26T07:48:33Z",
+              "updated_at": "2026-09-26T07:48:33Z",
+              "summary": "Kiteworks (formerly Accellion) is urging customers to shut down their systems as a precautionary measure for nine hours over the weekend after it received threat intelligence about an imminent cyber attack.\n\"Kiteworks received credible threat intelligence from federal intelligence authorities indicating that a threat actor may attempt to target some Kiteworks systems,\" said Frank Balonis, Chief",
+              "categories": [],
+              "feed": {
+                "title": "The Hacker News",
+                "url": "https://thehackernews.com",
+                "feed_url": "https://feeds.feedburner.com/TheHackersNews"
+              },
+              "enclosures": [
+                "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjv53vaJYNeZNicsGcrBICKzTEXfHanPN-VR6-pTFsSJEV2IGpJn2MainwfMgqV2k96VN_ocXYLbmykTSVpwTPZr16tauFV37hU3g-lA4X31aqJQFYIsdwlHwNUIhNn9euB8SddL8d7wRKa7Ira2vNi51WNHyJivZ2Z3kkRDcAZtCQfSyvZHNLrZbqbF7jr/s1600/kite.jpg"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.feedburner.com/TheHackersNews",
+            "elapsed_ms": 148,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "security-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html"
+    },
     {
       "id": "094391b406d1f02caeb8",
       "title": "U.S. Soldier Gets 70 Months in Prison for AT&T, Verizon Extortions",

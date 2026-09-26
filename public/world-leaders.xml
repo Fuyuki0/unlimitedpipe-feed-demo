@@ -2,10 +2,35 @@
 <rss version="2.0">
   <channel>
     <title>World leaders' announcements (White House, Kremlin, European Commission)</title>
-    <link>https://www.whitehouse.gov/news/feed/</link>
-    <description>Events collected by UnlimitedPipe 0.6.0</description>
-    <generator>UnlimitedPipe 0.6.0</generator>
-    <lastBuildDate>Sat, 26 Sep 2026 04:05:55 +0000</lastBuildDate>
+    <link>https://ec.europa.eu/commission/presscorner/api/rss?language=en</link>
+    <description>Events collected by UnlimitedPipe 0.8.0</description>
+    <generator>UnlimitedPipe 0.8.0</generator>
+    <lastBuildDate>Sat, 26 Sep 2026 12:15:49 +0000</lastBuildDate>
+    <item>
+      <title>European Commission: Wystąpienie komisarza Piotra Serafina podczas XXVI Międzynarodowej Konferencji „Rola chrześcijan w procesie integracji europejskiej” pt. „Europa skazana na podział czy zjednoczenie?”</title>
+      <link>https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1989</link>
+      <guid isPermaLink="false">d9c9d1fc69901c1f9c25</guid>
+      <pubDate>Sat, 26 Sep 2026 11:51:24 +0000</pubDate>
+      <description>European Commission Speech Krakow, 26 Sep 2026 Szanowni Państwo,
+Pytacie Państwo czy „Europa jest skazana na podział czy na jedność?”.
+Chce udzielić na to pytanie optymistycznej i prawdziwej odpowiedzi: przy...</description>
+      <category>POLICY_AREA=BUDFINPROG</category>
+    </item>
+    <item>
+      <title>Kremlin: Telephone conversation with President of Serbia Aleksandar Vucic</title>
+      <link>http://en.kremlin.ru/events/president/news/80843</link>
+      <guid isPermaLink="false">f468a6818d4c6e61c108</guid>
+      <pubDate>Sat, 26 Sep 2026 09:05:00 +0000</pubDate>
+      <description>Vladimir
+Putin held a telephone conversation with President of Serbia Aleksandar Vucic
+at the initiative of the Serbian side.</description>
+    </item>
+    <item>
+      <title>Kremlin: Answers to media questions</title>
+      <link>http://en.kremlin.ru/events/president/news/80839</link>
+      <guid isPermaLink="false">f6f3e8dda3e3f40a22a0</guid>
+      <pubDate>Fri, 25 Sep 2026 16:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>White House: Fact Sheet: President Donald J. Trump Advances a Fair and Reciprocal Relationship with China While Hosting Historic State Visit</title>
       <link>https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-advances-a-fair-and-reciprocal-relationship-with-china-while-hosting-historic-state-visit/</link>

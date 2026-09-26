@@ -1,13 +1,493 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "US news (NPR, PBS NewsHour)",
-  "home_page_url": "https://www.pbs.org/newshour/feeds/rss/headlines",
-  "description": "Events collected by UnlimitedPipe 0.3.2",
+  "home_page_url": "https://feeds.npr.org/1014/rss.xml",
+  "description": "Events collected by UnlimitedPipe 0.8.0",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.3.2"
+    "generator": "UnlimitedPipe 0.8.0"
   },
   "items": [
+    {
+      "id": "86a1210aafac9e268f3d",
+      "title": "NPR: Press pool dispute escalates as White House cuts CNN from Air Force One travel",
+      "content_text": "The White House has barred CNN from traveling on Air Force One this weekend. It's another chapter in President Trump's fight with the press, and it appears there will be no TV pool coverage today.",
+      "date_published": "2026-09-26T11:38:03Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "86a1210aafac9e268f3d",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.npr.org/2026/09/26/nx-s1-5981494/press-pool-dispute-escalates-as-white-house-cuts-cnn-from-air-force-one-travel",
+          "source_url": "https://feeds.npr.org/1014/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:15:43Z",
+          "data": {
+            "change": "added",
+            "label": "NPR: Press pool dispute escalates as White House cuts CNN from Air Force One travel",
+            "item_type": "entry",
+            "summary": "added: NPR: Press pool dispute escalates as White House cuts CNN from Air Force One travel",
+            "after": {
+              "title": "NPR: Press pool dispute escalates as White House cuts CNN from Air Force One travel",
+              "link": "https://www.npr.org/2026/09/26/nx-s1-5981494/press-pool-dispute-escalates-as-white-house-cuts-cnn-from-air-force-one-travel",
+              "id": "https://www.npr.org/2026/09/26/nx-s1-5981494/press-pool-dispute-escalates-as-white-house-cuts-cnn-from-air-force-one-travel",
+              "author": "Scott Simon",
+              "published_at": "2026-09-26T11:38:03Z",
+              "updated_at": "2026-09-26T11:38:03Z",
+              "summary": "The White House has barred CNN from traveling on Air Force One this weekend. It's another chapter in President Trump's fight with the press, and it appears there will be no TV pool coverage today.",
+              "categories": [],
+              "feed": {
+                "title": "NPR Topics: Politics",
+                "url": "https://www.npr.org/templates/story/story.php?storyId=1014",
+                "feed_url": "https://feeds.npr.org/1014/rss.xml"
+              },
+              "outlet": "NPR"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.npr.org/1014/rss.xml",
+            "elapsed_ms": 343,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.npr\\\\.org$\", \"NPR\")",
+                  "outlet=replace(outlet, \"^pbs\\\\.org$\", \"PBS NewsHour\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "us-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.npr.org/2026/09/26/nx-s1-5981494/press-pool-dispute-escalates-as-white-house-cuts-cnn-from-air-force-one-travel"
+    },
+    {
+      "id": "d77edfa5a042433a9068",
+      "title": "NPR: Supreme Court rejects GOP-backed Missouri map, preserving key seat for Democrats",
+      "content_text": "The U.S. Supreme Court rejected a Republican attempt at redistricting congressional seats in Missouri - possibly giving Democrats a boost in their effort to win the House in the midterm elections.",
+      "date_published": "2026-09-26T11:38:02Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d77edfa5a042433a9068",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.npr.org/2026/09/26/nx-s1-5981449/supreme-court-rejects-gop-backed-missouri-map-preserving-key-seat-for-democrats",
+          "source_url": "https://feeds.npr.org/1014/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:15:43Z",
+          "data": {
+            "change": "added",
+            "label": "NPR: Supreme Court rejects GOP-backed Missouri map, preserving key seat for Democrats",
+            "item_type": "entry",
+            "summary": "added: NPR: Supreme Court rejects GOP-backed Missouri map, preserving key seat for Democrats",
+            "after": {
+              "title": "NPR: Supreme Court rejects GOP-backed Missouri map, preserving key seat for Democrats",
+              "link": "https://www.npr.org/2026/09/26/nx-s1-5981449/supreme-court-rejects-gop-backed-missouri-map-preserving-key-seat-for-democrats",
+              "id": "https://www.npr.org/2026/09/26/nx-s1-5981449/supreme-court-rejects-gop-backed-missouri-map-preserving-key-seat-for-democrats",
+              "author": "Jason Rosenbaum",
+              "published_at": "2026-09-26T11:38:02Z",
+              "updated_at": "2026-09-26T11:38:02Z",
+              "summary": "The U.S. Supreme Court rejected a Republican attempt at redistricting congressional seats in Missouri - possibly giving Democrats a boost in their effort to win the House in the midterm elections.",
+              "categories": [],
+              "feed": {
+                "title": "NPR Topics: Politics",
+                "url": "https://www.npr.org/templates/story/story.php?storyId=1014",
+                "feed_url": "https://feeds.npr.org/1014/rss.xml"
+              },
+              "outlet": "NPR"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.npr.org/1014/rss.xml",
+            "elapsed_ms": 343,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.npr\\\\.org$\", \"NPR\")",
+                  "outlet=replace(outlet, \"^pbs\\\\.org$\", \"PBS NewsHour\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "us-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.npr.org/2026/09/26/nx-s1-5981449/supreme-court-rejects-gop-backed-missouri-map-preserving-key-seat-for-democrats"
+    },
+    {
+      "id": "c7af37ac9e6db66ff4af",
+      "title": "NPR: Week in Politics: Trump faces Republican defections; U.S.-China summit; press feud",
+      "content_text": "Some GOP candidates are stepping back from unpopular Trump administration policies. Meanwhile, a U.S.-China summit at the White House and tensions with the press corps.",
+      "date_published": "2026-09-26T11:37:54Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c7af37ac9e6db66ff4af",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.npr.org/2026/09/26/nx-s1-5979806/week-in-politics-trump-faces-republican-defections-u-s-china-summit-press-feud",
+          "source_url": "https://feeds.npr.org/1014/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:15:43Z",
+          "data": {
+            "change": "added",
+            "label": "NPR: Week in Politics: Trump faces Republican defections; U.S.-China summit; press feud",
+            "item_type": "entry",
+            "summary": "added: NPR: Week in Politics: Trump faces Republican defections; U.S.-China summit; press feud",
+            "after": {
+              "title": "NPR: Week in Politics: Trump faces Republican defections; U.S.-China summit; press feud",
+              "link": "https://www.npr.org/2026/09/26/nx-s1-5979806/week-in-politics-trump-faces-republican-defections-u-s-china-summit-press-feud",
+              "id": "https://www.npr.org/2026/09/26/nx-s1-5979806/week-in-politics-trump-faces-republican-defections-u-s-china-summit-press-feud",
+              "author": "Scott Simon",
+              "published_at": "2026-09-26T11:37:54Z",
+              "updated_at": "2026-09-26T11:37:54Z",
+              "summary": "Some GOP candidates are stepping back from unpopular Trump administration policies. Meanwhile, a U.S.-China summit at the White House and tensions with the press corps.",
+              "categories": [],
+              "feed": {
+                "title": "NPR Topics: Politics",
+                "url": "https://www.npr.org/templates/story/story.php?storyId=1014",
+                "feed_url": "https://feeds.npr.org/1014/rss.xml"
+              },
+              "outlet": "NPR"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.npr.org/1014/rss.xml",
+            "elapsed_ms": 343,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.npr\\\\.org$\", \"NPR\")",
+                  "outlet=replace(outlet, \"^pbs\\\\.org$\", \"PBS NewsHour\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "us-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.npr.org/2026/09/26/nx-s1-5979806/week-in-politics-trump-faces-republican-defections-u-s-china-summit-press-feud"
+    },
+    {
+      "id": "8f95015cdc3402ecd42d",
+      "title": "NPR: Battle for the Lehigh Valley: Can GOP hold its razor-thin margin?",
+      "content_text": "Both parties target the Lehigh Valley for House control. While the GOP made inroads with Latinos, Dems argue Trump's immigration stance hurts them. Can Republicans hold this 1% margin swing seat?",
+      "date_published": "2026-09-26T11:37:51Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "8f95015cdc3402ecd42d",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.npr.org/2026/09/26/nx-s1-5947225/battle-for-the-lehigh-valley-can-gop-hold-its-razor-thin-margin",
+          "source_url": "https://feeds.npr.org/1014/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:15:43Z",
+          "data": {
+            "change": "added",
+            "label": "NPR: Battle for the Lehigh Valley: Can GOP hold its razor-thin margin?",
+            "item_type": "entry",
+            "summary": "added: NPR: Battle for the Lehigh Valley: Can GOP hold its razor-thin margin?",
+            "after": {
+              "title": "NPR: Battle for the Lehigh Valley: Can GOP hold its razor-thin margin?",
+              "link": "https://www.npr.org/2026/09/26/nx-s1-5947225/battle-for-the-lehigh-valley-can-gop-hold-its-razor-thin-margin",
+              "id": "https://www.npr.org/2026/09/26/nx-s1-5947225/battle-for-the-lehigh-valley-can-gop-hold-its-razor-thin-margin",
+              "author": "Barbara Sprunt",
+              "published_at": "2026-09-26T11:37:51Z",
+              "updated_at": "2026-09-26T11:37:51Z",
+              "summary": "Both parties target the Lehigh Valley for House control. While the GOP made inroads with Latinos, Dems argue Trump's immigration stance hurts them. Can Republicans hold this 1% margin swing seat?",
+              "categories": [],
+              "feed": {
+                "title": "NPR Topics: Politics",
+                "url": "https://www.npr.org/templates/story/story.php?storyId=1014",
+                "feed_url": "https://feeds.npr.org/1014/rss.xml"
+              },
+              "outlet": "NPR"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.npr.org/1014/rss.xml",
+            "elapsed_ms": 343,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.npr\\\\.org$\", \"NPR\")",
+                  "outlet=replace(outlet, \"^pbs\\\\.org$\", \"PBS NewsHour\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "us-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.npr.org/2026/09/26/nx-s1-5947225/battle-for-the-lehigh-valley-can-gop-hold-its-razor-thin-margin"
+    },
+    {
+      "id": "4d132aece160e7e15176",
+      "title": "NPR: The U.S. has more thalidomide survivors than the government admits",
+      "content_text": "In the 1950s and 1960s, doctors gave the drug thalidomide to pregnant patients without telling them — and without FDA approval. Now those patients' children want recognition.",
+      "date_published": "2026-09-26T09:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "4d132aece160e7e15176",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.npr.org/2026/09/26/nx-s1-5979047/us-thalidomide-survivors-want-recognition-government",
+          "source_url": "https://feeds.npr.org/1014/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:15:43Z",
+          "data": {
+            "change": "added",
+            "label": "NPR: The U.S. has more thalidomide survivors than the government admits",
+            "item_type": "entry",
+            "summary": "added: NPR: The U.S. has more thalidomide survivors than the government admits",
+            "after": {
+              "title": "NPR: The U.S. has more thalidomide survivors than the government admits",
+              "link": "https://www.npr.org/2026/09/26/nx-s1-5979047/us-thalidomide-survivors-want-recognition-government",
+              "id": "https://www.npr.org/2026/09/26/nx-s1-5979047/us-thalidomide-survivors-want-recognition-government",
+              "author": "Tana Weingartner",
+              "published_at": "2026-09-26T09:00:00Z",
+              "updated_at": "2026-09-26T09:00:00Z",
+              "summary": "In the 1950s and 1960s, doctors gave the drug thalidomide to pregnant patients without telling them — and without FDA approval. Now those patients' children want recognition.",
+              "categories": [],
+              "feed": {
+                "title": "NPR Topics: Politics",
+                "url": "https://www.npr.org/templates/story/story.php?storyId=1014",
+                "feed_url": "https://feeds.npr.org/1014/rss.xml"
+              },
+              "outlet": "NPR"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.npr.org/1014/rss.xml",
+            "elapsed_ms": 343,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.npr\\\\.org$\", \"NPR\")",
+                  "outlet=replace(outlet, \"^pbs\\\\.org$\", \"PBS NewsHour\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "us-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.npr.org/2026/09/26/nx-s1-5979047/us-thalidomide-survivors-want-recognition-government"
+    },
     {
       "id": "6e1f228794b94e7ffe76",
       "title": "PBS NewsHour: Hacks by autonomous AI agents raise thorny questions of legal accountability",

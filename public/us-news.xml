@@ -2,10 +2,45 @@
 <rss version="2.0">
   <channel>
     <title>US news (NPR, PBS NewsHour)</title>
-    <link>https://www.pbs.org/newshour/feeds/rss/headlines</link>
-    <description>Events collected by UnlimitedPipe 0.3.2</description>
-    <generator>UnlimitedPipe 0.3.2</generator>
-    <lastBuildDate>Fri, 25 Sep 2026 23:51:30 +0000</lastBuildDate>
+    <link>https://feeds.npr.org/1014/rss.xml</link>
+    <description>Events collected by UnlimitedPipe 0.8.0</description>
+    <generator>UnlimitedPipe 0.8.0</generator>
+    <lastBuildDate>Sat, 26 Sep 2026 12:15:43 +0000</lastBuildDate>
+    <item>
+      <title>NPR: Press pool dispute escalates as White House cuts CNN from Air Force One travel</title>
+      <link>https://www.npr.org/2026/09/26/nx-s1-5981494/press-pool-dispute-escalates-as-white-house-cuts-cnn-from-air-force-one-travel</link>
+      <guid isPermaLink="false">86a1210aafac9e268f3d</guid>
+      <pubDate>Sat, 26 Sep 2026 11:38:03 +0000</pubDate>
+      <description>The White House has barred CNN from traveling on Air Force One this weekend. It's another chapter in President Trump's fight with the press, and it appears there will be no TV pool coverage today.</description>
+    </item>
+    <item>
+      <title>NPR: Supreme Court rejects GOP-backed Missouri map, preserving key seat for Democrats</title>
+      <link>https://www.npr.org/2026/09/26/nx-s1-5981449/supreme-court-rejects-gop-backed-missouri-map-preserving-key-seat-for-democrats</link>
+      <guid isPermaLink="false">d77edfa5a042433a9068</guid>
+      <pubDate>Sat, 26 Sep 2026 11:38:02 +0000</pubDate>
+      <description>The U.S. Supreme Court rejected a Republican attempt at redistricting congressional seats in Missouri - possibly giving Democrats a boost in their effort to win the House in the midterm elections.</description>
+    </item>
+    <item>
+      <title>NPR: Week in Politics: Trump faces Republican defections; U.S.-China summit; press feud</title>
+      <link>https://www.npr.org/2026/09/26/nx-s1-5979806/week-in-politics-trump-faces-republican-defections-u-s-china-summit-press-feud</link>
+      <guid isPermaLink="false">c7af37ac9e6db66ff4af</guid>
+      <pubDate>Sat, 26 Sep 2026 11:37:54 +0000</pubDate>
+      <description>Some GOP candidates are stepping back from unpopular Trump administration policies. Meanwhile, a U.S.-China summit at the White House and tensions with the press corps.</description>
+    </item>
+    <item>
+      <title>NPR: Battle for the Lehigh Valley: Can GOP hold its razor-thin margin?</title>
+      <link>https://www.npr.org/2026/09/26/nx-s1-5947225/battle-for-the-lehigh-valley-can-gop-hold-its-razor-thin-margin</link>
+      <guid isPermaLink="false">8f95015cdc3402ecd42d</guid>
+      <pubDate>Sat, 26 Sep 2026 11:37:51 +0000</pubDate>
+      <description>Both parties target the Lehigh Valley for House control. While the GOP made inroads with Latinos, Dems argue Trump's immigration stance hurts them. Can Republicans hold this 1% margin swing seat?</description>
+    </item>
+    <item>
+      <title>NPR: The U.S. has more thalidomide survivors than the government admits</title>
+      <link>https://www.npr.org/2026/09/26/nx-s1-5979047/us-thalidomide-survivors-want-recognition-government</link>
+      <guid isPermaLink="false">4d132aece160e7e15176</guid>
+      <pubDate>Sat, 26 Sep 2026 09:00:00 +0000</pubDate>
+      <description>In the 1950s and 1960s, doctors gave the drug thalidomide to pregnant patients without telling them — and without FDA approval. Now those patients' children want recognition.</description>
+    </item>
     <item>
       <title>PBS NewsHour: Hacks by autonomous AI agents raise thorny questions of legal accountability</title>
       <link>https://www.pbs.org/newshour/science/hacks-by-autonomous-ai-agents-raise-thorny-questions-of-legal-accountability</link>

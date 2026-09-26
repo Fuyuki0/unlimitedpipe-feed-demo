@@ -1,6 +1,7 @@
 {
  "schema": "unlimitedpipe.catalog/1",
  "title": "feeds",
+ "archive": "archive/index.json",
  "feeds": [
   {
    "name": "ai-labs",
@@ -25,7 +26,7 @@
    "health": {
     "status": "ok",
     "since": "2026-09-26T03:37:34Z",
-    "latest": "2026-09-26T04:20:58Z"
+    "latest": "2026-09-26T10:08:21Z"
    }
   },
   {
@@ -103,7 +104,7 @@
    "health": {
     "status": "ok",
     "since": "2026-09-26T03:37:34Z",
-    "latest": "2026-09-26T05:00:12Z"
+    "latest": "2026-09-26T12:00:56Z"
    }
   },
   {
@@ -155,7 +156,7 @@
    "health": {
     "status": "ok",
     "since": "2026-09-26T03:37:34Z",
-    "latest": "2026-09-26T06:59:29Z"
+    "latest": "2026-09-26T11:59:46Z"
    }
   },
   {
@@ -246,7 +247,7 @@
    "health": {
     "status": "ok",
     "since": "2026-09-26T03:37:34Z",
-    "latest": "2026-09-26T08:02:51Z"
+    "latest": "2026-09-26T11:17:08Z"
    }
   },
   {
@@ -311,7 +312,7 @@
    "health": {
     "status": "ok",
     "since": "2026-09-26T03:37:34Z",
-    "latest": "2026-09-26T05:53:49Z"
+    "latest": "2026-09-26T11:53:25Z"
    }
   },
   {
@@ -324,7 +325,7 @@
    "health": {
     "status": "ok",
     "since": "2026-09-26T03:37:34Z",
-    "latest": "2026-09-26T07:57:51Z"
+    "latest": "2026-09-26T11:46:01Z"
    }
   },
   {
@@ -350,7 +351,7 @@
    "health": {
     "status": "ok",
     "since": "2026-09-26T03:37:34Z",
-    "latest": "2026-09-26T08:00:05Z"
+    "latest": "2026-09-26T11:21:30Z"
    }
   },
   {
@@ -402,7 +403,7 @@
    "health": {
     "status": "ok",
     "since": "2026-09-26T03:37:34Z",
-    "latest": "2026-09-26T07:26:56Z"
+    "latest": "2026-09-26T10:53:29Z"
    }
   },
   {
@@ -493,7 +494,7 @@
    "health": {
     "status": "ok",
     "since": "2026-09-26T03:37:34Z",
-    "latest": "2026-09-25T21:44:40Z"
+    "latest": "2026-09-26T09:55:22Z"
    }
   },
   {
@@ -532,7 +533,7 @@
    "health": {
     "status": "ok",
     "since": "2026-09-26T03:37:34Z",
-    "latest": "2026-09-26T08:06:10Z"
+    "latest": "2026-09-26T12:15:10Z"
    }
   },
   {
@@ -558,7 +559,7 @@
    "health": {
     "status": "ok",
     "since": "2026-09-26T03:37:34Z",
-    "latest": "2026-09-25T22:18:46Z"
+    "latest": "2026-09-26T08:11:52Z"
    }
   },
   {
@@ -571,7 +572,7 @@
    "health": {
     "status": "ok",
     "since": "2026-09-26T03:37:34Z",
-    "latest": "2026-09-26T08:01:05Z"
+    "latest": "2026-09-26T12:10:43Z"
    }
   },
   {
@@ -584,7 +585,7 @@
    "health": {
     "status": "ok",
     "since": "2026-09-26T03:37:34Z",
-    "latest": "2026-09-26T08:05:40Z"
+    "latest": "2026-09-26T10:50:55Z"
    }
   },
   {
@@ -597,7 +598,7 @@
    "health": {
     "status": "ok",
     "since": "2026-09-26T03:37:34Z",
-    "latest": "2026-09-26T01:17:36Z"
+    "latest": "2026-09-26T11:18:11Z"
    }
   },
   {
@@ -623,7 +624,7 @@
    "health": {
     "status": "ok",
     "since": "2026-09-26T03:37:34Z",
-    "latest": "2026-09-26T08:06:04Z"
+    "latest": "2026-09-26T12:14:02Z"
    }
   },
   {
@@ -649,7 +650,7 @@
    "health": {
     "status": "ok",
     "since": "2026-09-26T03:37:34Z",
-    "latest": "2026-09-25T23:02:57Z"
+    "latest": "2026-09-26T11:38:03Z"
    }
   },
   {
@@ -688,7 +689,7 @@
    "health": {
     "status": "ok",
     "since": "2026-09-26T03:37:34Z",
-    "latest": "2026-09-26T07:47:29Z"
+    "latest": "2026-09-26T12:00:00Z"
    }
   },
   {
@@ -701,11 +702,956 @@
    "health": {
     "status": "ok",
     "since": "2026-09-26T03:37:34Z",
-    "latest": "2026-09-26T03:29:32Z"
+    "latest": "2026-09-26T11:51:24Z"
    }
   }
  ],
  "items": [
+  {
+   "feed": "stablecoin-supply",
+   "title": "USDC supply +$205.9M in a day, now $76.6B",
+   "summary": "USD Coin (USDC): +$205.9M in 24 hours; week before: $74.4B.",
+   "link": "https://defillama.com/stablecoin/usd-coin",
+   "date": "2026-09-26T12:15:10Z"
+  },
+  {
+   "feed": "stablecoin-supply",
+   "title": "USDS supply +$101.6M in a day, now $6.6B",
+   "summary": "Sky Dollar (USDS): +$101.6M in 24 hours; week before: $6.5B.",
+   "link": "https://defillama.com/stablecoin/usds",
+   "date": "2026-09-26T12:15:10Z"
+  },
+  {
+   "feed": "typhoons",
+   "title": "Hurricane 17E (Polo) Warning #23 (Central/Eastern Pacific)",
+   "summary": "Hurricane 17E (Polo) Warning #23\nIssued at 26/1000Z\nTC Warning Text\nTC Warning Graphic\nJMV 3.0 Data\nGoogle Earth Overlay\nIR Satellite Imagery\nTropical Cyclone Formation Alert WTPN21\nIssued at 26/0100Z\nTCFA Text\nTCFA Graphic\nJMV 3.0 Data\nGoogle Earth Overlay\nIR Satellite Imagery\nHurricane 16E (Odalys",
+   "link": "https://s3.amazonaws.com/www.metoc.navy.mil/jtwc/jtwc.html",
+   "date": "2026-09-26T12:14:02Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: สลด น้ำท่วมสระแก้ว ดับแล้ว 4 ราย ส่งทีมดูแลสภาพจิตใจ-ประเมินความเครียด",
+   "summary": "สสจ.สระแก้ว เร่งอพยพกลุ่มเปราะบางในชุมชน ริมน้ำ พร้อมส่ […]",
+   "link": "https://www.matichon.co.th/region/news_5906654",
+   "date": "2026-09-26T12:10:43Z"
+  },
+  {
+   "feed": "china-news",
+   "title": "SCMP: Why Xi’s flight from China to the US was hours faster than Trump’s in May",
+   "summary": "Over a private tea session in the White House’s Red Room to mark the end of Xi Jinping’s state visit, US President Donald Trump struck a relaxed tone, marvelling across the table at how fast the Chinese leader had made the trip to America.\n“It’s a very fast plane … the fastest plane,” Trump said, in",
+   "link": "https://www.scmp.com/news/china/diplomacy/article/3368906/why-xis-flight-path-china-us-was-hours-faster-trumps-may?utm_source=rss_feed",
+   "date": "2026-09-26T12:00:56Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: คลอดโปรแกรมเทนนิสเอเชี่ยนเกมส์ ปรัชญา-แม็กซิมัส นำนักหวดไทยประเดิม",
+   "summary": "คลอดโปรแกรมเทนนิสเอเชี่ยนเกมส์ ปรัชญา-แม็กซิมัส นำนักหว […]",
+   "link": "https://www.matichon.co.th/sport/thai-sport/news_5906313",
+   "date": "2026-09-26T12:00:09Z"
+  },
+  {
+   "feed": "china-news",
+   "title": "SCMP: Why US deal on Greenland could narrow China’s Arctic engagement",
+   "summary": "The new US-Denmark-Greenland security agreement could narrow China’s room to engage in the Arctic – particularly in resource-rich Greenland – and potentially push Beijing closer to Russia, Chinese experts on the matter said.\nAccording to observers, the deal – signed on Tuesday – could have the broad",
+   "link": "https://www.scmp.com/news/china/diplomacy/article/3368889/why-us-deal-greenland-could-narrow-chinas-arctic-engagement?utm_source=rss_feed",
+   "date": "2026-09-26T12:00:06Z"
+  },
+  {
+   "feed": "world-headlines",
+   "title": "OPINION: Trump's U.N. speech, a stark contrast with past presidents",
+   "summary": "President Donald Trump mused openly before the United Nations about whether he should annihilate Iran. It's a stark contrast to how his predecessors have spoken about wielding US military power.",
+   "link": "https://www.npr.org/2026/09/26/nx-s1-5974096/essay-09-26-26",
+   "date": "2026-09-26T12:00:00Z"
+  },
+  {
+   "feed": "crypto-news",
+   "title": "Fed requests comment on two proposals for stablecoin issuers under GENIUS Act",
+   "summary": "US regulatory agencies missed a rule-making deadline under the GENIUS Act, a year after the law was signed.",
+   "link": "https://cointelegraph.com/news/fed-requests-comment-on-two-proposals-for-stablecoin-issuers-under-genius-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "date": "2026-09-26T11:59:46Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: ศุภมาส สั่งกรมประชาสัมพันธ์ ยกระดับแจ้งเตือนน้ำท่วม ทั้งก่อนและหลังเกิดภัย",
+   "summary": "ศุภมาส สั่งกรมประชาสัมพันธ์ ยกระดับแจ้งเตือนน้ำท่วม เชื […]",
+   "link": "https://www.matichon.co.th/politics/news_5906637",
+   "date": "2026-09-26T11:58:58Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: อย่างโหด! บิว ภูริพล เข้าที่1 วิ่ง 200 เมตรชาย ทำสถติ 20.10 วิ ลิ่วเข้ารอบชิงฯ พรุ่งนี้",
+   "summary": "อย่างโหด! บิว ภูริพล เข้าที่1 วิ่ง 200 เมตรชาย ทำสถติ 2 […]",
+   "link": "https://www.matichon.co.th/sport/thai-sport/news_5906642",
+   "date": "2026-09-26T11:55:05Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: ชัชชาติ สรุป น้ำท่วมกรุงฯ กระทบแล้ว 5.2 หมื่นครัวเรือน อพยพ 4,200 คน เข้าศูนย์พักพิง",
+   "summary": "ชัชชาติ สรุป น้ำท่วมกรุงฯ กระทบแล้ว 5.2 หมื่นครัวเรือน […]",
+   "link": "https://www.matichon.co.th/local/news_5906641",
+   "date": "2026-09-26T11:53:54Z"
+  },
+  {
+   "feed": "hurricanes",
+   "title": "Hurricane Polo (EP2), advisory 26/1153Z",
+   "summary": "POLO MOVING WEST-NORTHWESTWARD AS AN EXTREMELY DANGEROUS CATEGORY 5 HURRICANE. ...EXPECTED TO MAKE LANDFALL IN BAJA CALIFORNIA SUR ON MONDAY AS A POWERFUL HURRICANE... As of 5:00 AM MST Sat Sep 26 the center of Polo was located near 17.7, -111.5 with movement WNW at 10 mph. The minimum central press",
+   "link": "https://www.nhc.noaa.gov/text/refresh/MIATCPEP2+shtml/261153.shtml",
+   "date": "2026-09-26T11:53:25Z"
+  },
+  {
+   "feed": "world-leaders",
+   "title": "European Commission: Wystąpienie komisarza Piotra Serafina podczas XXVI Międzynarodowej Konferencji „Rola chrześcijan w procesie integracji europejskiej” pt. „Europa skazana na podział czy zjednoczenie?”",
+   "summary": "European Commission Speech Krakow, 26 Sep 2026 Szanowni Państwo,\nPytacie Państwo czy „Europa jest skazana na podział czy na jedność?”.\nChce udzielić na to pytanie optymistycznej i prawdziwej odpowiedzi: przy...",
+   "link": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1989",
+   "date": "2026-09-26T11:51:24Z"
+  },
+  {
+   "feed": "world-headlines",
+   "title": "Pressure to boycott Israel game grows as Ireland preparations stall",
+   "summary": "Ireland are due to play Israel in the Nations League in Hungary on Sunday, but boycott pressure mounts on and off-field.",
+   "link": "https://www.aljazeera.com/sports/2026/9/26/pressure-to-boycott-israel-game-grows-as-ireland-preparations-stall?traffic_source=rss",
+   "date": "2026-09-26T11:48:08Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: พิพัฒน์ ตั้งวอร์รูม รับมือน้ำท่วม 24 ชม. ย้ำห้ามปชช.ถูกตัดขาดจากระบบขนส่ง เร่งเปิดทางน้ำวิภาวดี 3 จุด หนุนระบาย",
+   "summary": "พิพัฒน์ ตั้งวอร์รูม ศอฉ.คค. รับมือน้ำท่วม 24 ชั่วโมง ย้ […]",
+   "link": "https://www.matichon.co.th/economy/news_5906622",
+   "date": "2026-09-26T11:46:19Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "The Hindu: IDSFFK 2026: ‘Viraamam’ by Malavika VN dwells on the world of film projectionists",
+   "summary": "Viraamam was screened at the 18th International Documentary and Short Film Festival of Kerala in the short documentary competition section",
+   "link": "https://www.thehindu.com/entertainment/movies/malavika-vn-documentary-viraamam-idsffk-2026/article71512468.ece",
+   "date": "2026-09-26T11:46:01Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: วิกฤตน้ำท่วม! ทัพบอคเซียไทยเร่งอพยพหนีน้ำท่วมสูงถึงหน้าอกภายในศูนย์ฝึก สนามราชมังฯ หัวหมาก",
+   "summary": "วิกฤตน้ำท่วม! ทัพบอคเซียไทยเร่งอพยพหนีน้ำท่วมสูงถึงหน้า […]",
+   "link": "https://www.matichon.co.th/sport/thai-sport/news_5906619",
+   "date": "2026-09-26T11:45:28Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "The Hindu: ‘Gem Granites’ Veeramani POCSO case in Tamil Nadu: a compilation",
+   "summary": "This is a collection of stories done by The Hindu on ‘Gem Granites’ Veeramani POCSO case",
+   "link": "https://www.thehindu.com/news/national/tamil-nadu/gem-granites-veeramani-pocso-case-in-tamil-nadu-a-compilation/article71507647.ece",
+   "date": "2026-09-26T11:43:28Z"
+  },
+  {
+   "feed": "us-news",
+   "title": "NPR: Press pool dispute escalates as White House cuts CNN from Air Force One travel",
+   "summary": "The White House has barred CNN from traveling on Air Force One this weekend. It's another chapter in President Trump's fight with the press, and it appears there will be no TV pool coverage today.",
+   "link": "https://www.npr.org/2026/09/26/nx-s1-5981494/press-pool-dispute-escalates-as-white-house-cuts-cnn-from-air-force-one-travel",
+   "date": "2026-09-26T11:38:03Z"
+  },
+  {
+   "feed": "us-news",
+   "title": "NPR: Supreme Court rejects GOP-backed Missouri map, preserving key seat for Democrats",
+   "summary": "The U.S. Supreme Court rejected a Republican attempt at redistricting congressional seats in Missouri - possibly giving Democrats a boost in their effort to win the House in the midterm elections.",
+   "link": "https://www.npr.org/2026/09/26/nx-s1-5981449/supreme-court-rejects-gop-backed-missouri-map-preserving-key-seat-for-democrats",
+   "date": "2026-09-26T11:38:02Z"
+  },
+  {
+   "feed": "us-news",
+   "title": "NPR: Week in Politics: Trump faces Republican defections; U.S.-China summit; press feud",
+   "summary": "Some GOP candidates are stepping back from unpopular Trump administration policies. Meanwhile, a U.S.-China summit at the White House and tensions with the press corps.",
+   "link": "https://www.npr.org/2026/09/26/nx-s1-5979806/week-in-politics-trump-faces-republican-defections-u-s-china-summit-press-feud",
+   "date": "2026-09-26T11:37:54Z"
+  },
+  {
+   "feed": "us-news",
+   "title": "NPR: Battle for the Lehigh Valley: Can GOP hold its razor-thin margin?",
+   "summary": "Both parties target the Lehigh Valley for House control. While the GOP made inroads with Latinos, Dems argue Trump's immigration stance hurts them. Can Republicans hold this 1% margin swing seat?",
+   "link": "https://www.npr.org/2026/09/26/nx-s1-5947225/battle-for-the-lehigh-valley-can-gop-hold-its-razor-thin-margin",
+   "date": "2026-09-26T11:37:51Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: ลานจอดบน.6 กลายเป็นสนามบินน้ำ! ดอนเมืองไม่รอด เขตเพิ่มจุดรับทราย ทหารหนุนรถรับ-ส่ง",
+   "summary": "ลานจอดบน.6 กลายเป็นสนามบินน้ำ! ดอนเมืองไม่รอด เขตเพิ่มจ […]",
+   "link": "https://www.matichon.co.th/local/news_5906601",
+   "date": "2026-09-26T11:37:09Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: โรม อัด รมต.ภาพสวย แต่ไร้แผนแก้อุทกภัย จ่อจัดหนักอภิปรายไม่ไว้วางใจ",
+   "summary": "โรม อัด รมต.ภาพสวยแต่ไร้แผนแก้อุทกภัย จวก ใช้อำนาจได้อย […]",
+   "link": "https://www.matichon.co.th/politics/news_5906572",
+   "date": "2026-09-26T11:36:54Z"
+  },
+  {
+   "feed": "world-headlines",
+   "title": "Blast in Pakistan’s Dera Ismail Khan kills several people",
+   "summary": "Tehreek-e-Taliban Pakistan (Pakistan Taliban or TTP) claims responsibility for attack in Khyber Pakhtunkhwa province.",
+   "link": "https://www.aljazeera.com/news/2026/9/26/blast-in-pakistans-dera-ismail-khan-kills-several-people?traffic_source=rss",
+   "date": "2026-09-26T11:33:42Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "The Hindu: Kunal Ghosh attacked in Bengal; Mamata alleges attempts to disrupt her party’s public meetings",
+   "summary": "‘If you (the BJP) have genuinely won in the elections, then why are you not allowing Opposition parties to hold rallies?’ former West Bengal Chief Minister Mamata Banerjee asks",
+   "link": "https://www.thehindu.com/news/national/west-bengal/kunal-ghosh-attacked-in-bengal-mamata-alleges-attempts-to-disrupt-her-partys-public-meetings/article71512398.ece",
+   "date": "2026-09-26T11:33:30Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "The Hindu: Tamil Nadu Assembly election 2026 | interviews with political leaders: a compilation",
+   "summary": "Find all our exclusive interviews with political leaders here.",
+   "link": "https://www.thehindu.com/elections/tamil-nadu-assembly/tamil-nadu-assembly-election-2026-interviews-with-political-leaders-a-compilation/article70782589.ece",
+   "date": "2026-09-26T11:33:25Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "ประชาชาติธุรกิจ: “ชัชชาติ” ประชุมออนไลน์ “นายกฯ” ติดตามน้ำท่วม สั่งจัดงบแก้ปัญหา ช่วยเหลือประชาชน",
+   "summary": "ผู้ว่าฯ กทม. ประชุมออนไลน์ร่วมกับ“นายกฯ ” ติดตามน้ำท่วม ฝนสะสมกว่า 300 มม. อพยพแล้ว 4,200 คน เปิดศูนย์พักพิง 233 แห่ง เมื่อวันที่ 26 กันยายน 2569 เวลา 16.15 น. นายอนุทิน ชาญวีรกูล นายกรัฐมนตรี เป็นประธานการประชุมออนไลน์จากกรุงลอนดอน ประเทศอังกฤษ เพื่ …\nอ่านข่าวต้นฉบับ: “ชัชชาติ” ประชุมออนไลน์ “นายกฯ",
+   "link": "https://www.prachachat.net/news/news-2072178",
+   "date": "2026-09-26T11:32:02Z"
+  },
+  {
+   "feed": "world-headlines",
+   "title": "Meth is a key driver in Fiji's fast-growing HIV epidemic: 1 in 60 adults are affected",
+   "summary": "In mid-September, Fiji's government declared a national emergency because of a startling rise in HIV infections. The country's crystal meth epidemic is a strong contributing factor.",
+   "link": "https://www.npr.org/2026/09/26/g-s1-144667/hiv-crystal-meth-epidemic-fiji",
+   "date": "2026-09-26T11:31:18Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "The Hindu: Justice Nagarathna advises wider use of mediation to ease burden on family courts",
+   "summary": "Supreme Court judge backs alternative dispute resolution in family litigation, arguing that mediation and conciliation can deliver faster, more private and less adversarial outcomes than prolonged court battles",
+   "link": "https://www.thehindu.com/news/national/justice-nagarathna-advises-wider-use-of-mediation-to-ease-burden-on-family-courts/article71512184.ece",
+   "date": "2026-09-26T11:26:30Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: น้องเบล แรงไม่ตก เข้าที่ 2 ฮีตแรก ลิ่วรอบชิงฯ วิ่ง 200 เมตรหญิง อชก.",
+   "summary": "น้องเบล แรงไม่ตก เข้าที่ 2 ฮีตแรก ลิ่วรอบชิงฯ วิ่ง 200 […]",
+   "link": "https://www.matichon.co.th/sport/thai-sport/news_5906594",
+   "date": "2026-09-26T11:24:17Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: จุลพันธ์ เผย 3 เหตุผลสำคัญ ทำไม เลื่อนเลือกตั้งประกันสังคม ไป 11 ต.ค.",
+   "summary": "จุลพันธ์ เผย 3 เหตุผลสำคัญ ทำไม เลื่อนเลือกตั้งประกันสั […]",
+   "link": "https://www.matichon.co.th/local/quality-life/news_5906582",
+   "date": "2026-09-26T11:23:23Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "The Hindu: Actual aid decision for drought-hit farmers after ground-level assessment: Sunetra Pawar",
+   "summary": "Sunetra Pawar said the 12 relief measures for drought-affected areas include concessions in students' educational fees and the starting of employment guarantee works",
+   "link": "https://www.thehindu.com/news/national/maharashtra/actual-aid-decision-for-drought-hit-farmers-after-ground-level-assessment-sunetra-pawar/article71512296.ece",
+   "date": "2026-09-26T11:23:06Z"
+  },
+  {
+   "feed": "japan-news",
+   "title": "The Mainichi: Sumo: Onosato beaten again as Aonishiki wins to set up grand finale",
+   "summary": "TOKYO (Kyodo) -- Yokozuna Onosato was beaten for the second straight day Saturday while ozeki Aonishiki won to set up a fascinating finale to the Autu",
+   "link": "https://mainichi.jp/english/articles/20260926/p2g/00m/0sp/030000c",
+   "date": "2026-09-26T11:21:30Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "The Hindu: Police register FIR after man complains minor daughter gang-raped",
+   "summary": "A FIR was registered at the Palkot police station based on the father’s complaint on September 25, 2026; the girl is under specialised medical care",
+   "link": "https://www.thehindu.com/news/national/jharkhand/13-year-old-girl-gang-raped-in-jharkhands-gumla-district/article71512299.ece",
+   "date": "2026-09-26T11:21:07Z"
+  },
+  {
+   "feed": "thailand-weather",
+   "title": "Bangkok: heavy rain, 25°C now",
+   "summary": "Next 6 hours: 25–25°C, 10.0 mm of rain, humidity 93%. Forecast by MET Norway.",
+   "link": "https://www.yr.no/en/forecast/daily-table/13.75,100.50",
+   "date": "2026-09-26T11:18:11Z"
+  },
+  {
+   "feed": "thailand-weather",
+   "title": "Chiang Mai: light rain showers, 28°C now",
+   "summary": "Next 6 hours: 23–26°C, 1.9 mm of rain, humidity 77%. Forecast by MET Norway.",
+   "link": "https://www.yr.no/en/forecast/daily-table/18.79,98.98",
+   "date": "2026-09-26T11:18:11Z"
+  },
+  {
+   "feed": "thailand-weather",
+   "title": "Phuket: rain, 25°C now",
+   "summary": "Next 6 hours: 26–27°C, 1.7 mm of rain, humidity 95%. Forecast by MET Norway.",
+   "link": "https://www.yr.no/en/forecast/daily-table/7.88,98.39",
+   "date": "2026-09-26T11:18:11Z"
+  },
+  {
+   "feed": "thailand-weather",
+   "title": "Khon Kaen: rain, 25°C now",
+   "summary": "Next 6 hours: 24–25°C, 1.4 mm of rain, humidity 94%. Forecast by MET Norway.",
+   "link": "https://www.yr.no/en/forecast/daily-table/16.43,102.83",
+   "date": "2026-09-26T11:18:11Z"
+  },
+  {
+   "feed": "thailand-weather",
+   "title": "Hat Yai: cloudy, 26°C now",
+   "summary": "Next 6 hours: 24–26°C, 0.1 mm of rain, humidity 96%. Forecast by MET Norway.",
+   "link": "https://www.yr.no/en/forecast/daily-table/7.01,100.47",
+   "date": "2026-09-26T11:18:11Z"
+  },
+  {
+   "feed": "thailand-weather",
+   "title": "Pattaya: heavy rain, 27°C now",
+   "summary": "Next 6 hours: 26–27°C, 10.1 mm of rain, humidity 85%. Forecast by MET Norway.",
+   "link": "https://www.yr.no/en/forecast/daily-table/12.93,100.88",
+   "date": "2026-09-26T11:17:51Z"
+  },
+  {
+   "feed": "europe-news",
+   "title": "Euronews: Pope Leo XIV draws huge crowds in Paris as 600,000 await Mass",
+   "summary": "On Saturday, Pope Leo XIV continues his visit to France with a large outdoor Mass at Paris's Place de la Concorde, followed by prayers with the faithful in Lourdes.",
+   "link": "https://www.euronews.com/2026/09/26/pope-leo-xiv-draws-huge-crowds-in-paris-as-600000-await-mass",
+   "date": "2026-09-26T11:17:08Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: 20 กระทรวง เปิดแผนรับมือสถานการณ์น้ำท่วม ณ 26 กันยายน",
+   "summary": "20 กระทรวง เปิดแผนรับมือสถานการณ์น้ำท่วม ณ 26 กันยายน & […]",
+   "link": "https://www.matichon.co.th/local/news_5906581",
+   "date": "2026-09-26T11:12:36Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: ‘มหิดล’ ประกาศผล รางวัลมหาวิทยาลัยมหิดล จงเจตน์เมธีวิชญ์ ประจำปี 2569",
+   "summary": "‘มหิดล’ ประกาศผล รางวัลมหาวิทยาลัยมหิดล จงเจตน์เมธีวิชญ […]",
+   "link": "https://www.matichon.co.th/local/education/news_5906569",
+   "date": "2026-09-26T11:12:24Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: ช้างศึก ฟอร์มหรูไล่ถล่ม ปากีสถาน 4-0 ประเดิมนัดแรก ฟีฟ่า อาเซียน คัพ 2026",
+   "summary": "ช้างศึก ฟอร์มหรูไล่ถล่ม ปากีสถาน 4-0 ประเดิมนัดแรก ฟีฟ่ […]",
+   "link": "https://www.matichon.co.th/sport/footballlocal/news_5906576",
+   "date": "2026-09-26T11:08:50Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "The Hindu: Several former AIADMK Ministers who joined TVK get party posts",
+   "summary": "Some other former AIADMK Ministers and former MLAs who had joined the TVK, including C. Vijayabaskar and M.R. Vijayabaskar, had already been given party posts",
+   "link": "https://www.thehindu.com/news/national/tamil-nadu/several-former-aiadmk-ministers-who-joined-tvk-get-party-posts/article71509303.ece",
+   "date": "2026-09-26T11:08:35Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: บัณฑิต จันทร์โรจนกิจ I ความรุนแรงสั่งสมก่อน 6 ตุลา ปลุกให้ฆ่า เป็นคนดี เป็นคนพุทธ",
+   "summary": "รายการประชาธิปไตยสองสี ตอนที่ 129 อธึกกิต แสวงสุข (ใบตอ […]",
+   "link": "https://www.matichon.co.th/matichon-tv/news_5905427",
+   "date": "2026-09-26T11:08:32Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "ประชาชาติธุรกิจ: ทรงศักดิ์ รับคุมฝนยาก จาก ‘เอาอยู่’ กลายเป็น ‘เอาไม่อยู่’ – ยันไม่ถึงขั้น ‘มหาวาตภัย’",
+   "summary": "‘ทรงศักดิ์’ รับฝนตกเกินคาด คลองเต็มระบายไม่ทัน จาก ‘เอาอยู่’ กลายเป็น ‘เอาไม่อยู่’ เร่งสูบน้ำชั้นในลงทะเล ยันหน่วยงานเตรียมมาตรการรับมือไว้แล้ว วันที่ 26 ก.ย.2569 นายทรงศักดิ์ ทองศรี รองนายกรัฐมนตรี พร้อมด้วยนายศุภมิตร ชิณศรี ผวจ.สมุทรปราการ เดินทางล …\nอ่านข่าวต้นฉบับ: ทรงศักดิ์ รับคุมฝนยาก จาก ‘เอา",
+   "link": "https://www.prachachat.net/economic/news-2072174",
+   "date": "2026-09-26T11:07:38Z"
+  },
+  {
+   "feed": "world-headlines",
+   "title": "Pezeshkian says Iran ‘no longer trusts talks with Washington’",
+   "summary": "In an interview with Al Jazeera, the Iranian president says Qatar and Pakistan are relaying Tehran's messages to the US.",
+   "link": "https://www.aljazeera.com/news/2026/9/26/pezeshkian-says-iran-no-longer-trusts-talks-with-washington?traffic_source=rss",
+   "date": "2026-09-26T11:06:28Z"
+  },
+  {
+   "feed": "europe-news",
+   "title": "Euronews: Can this German company help end Europe's lithium dependence on China?",
+   "summary": "China produces up to 70% of the battery-grade lithium chemicals used in Europe. A German recycling firm hopes its new plant can help reduce that dependence, but significant obstacles remain.",
+   "link": "https://www.euronews.com/2026/09/26/can-this-german-company-help-end-europes-lithium-dependence-on-china",
+   "date": "2026-09-26T11:03:59Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: ฮอกกี้ชายไทยเฉือนชนะโอมาน 1-0 ประตูชัยมาในช่วง​ 3​ นาทีสุดท้าย",
+   "summary": "ฮอกกี้ชายไทยเฉือนชนะโอมาน 1-0 ประตูชัยมาในช่วง​ 3​ นาที […]",
+   "link": "https://www.matichon.co.th/sport/thai-sport/news_5906121",
+   "date": "2026-09-26T11:00:36Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: หญิง-ทิพย์ ปราบเกาหลีใต้ เข้าตัดเชือกปิงปองหญิงคู่ การันตีทองแดง ศึกเอเชี่ยนเกมส์",
+   "summary": "หญิง-ทิพย์ ปราบเกาหลีใต้ เข้าตัดเชือกปิงปองหญิงคู่ การั […]",
+   "link": "https://www.matichon.co.th/sport/thai-sport/news_5906563",
+   "date": "2026-09-26T11:00:14Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: กรังปี-จักรพงศ์ 2นักชก โชว์ฟอร์มเยี่ยมผ่านเข้ารอบ 8 คนสุดท้าย เอเชี่ยนเกมส์",
+   "summary": "กรังปี-จักรพงศ์ 2นักชก โชว์ฟอร์มเยี่ยมผ่านเข้ารอบ 8 คนส […]",
+   "link": "https://www.matichon.co.th/sport/boxing/news_5906554",
+   "date": "2026-09-26T10:57:38Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "The Hindu: Assam-made Chinese pu’er tea cakes auctioned at ₹12,000 a kg",
+   "summary": "Five kilograms of the specialty tea were sold at the Guwahati Tea Auction Centre, paving the way for varieties such as the Singpho community’s phalap",
+   "link": "https://www.thehindu.com/news/national/assam/assam-made-chinese-puer-tea-cakes-auctioned-at-12000-a-kg/article71512397.ece",
+   "date": "2026-09-26T10:56:44Z"
+  },
+  {
+   "feed": "world-headlines",
+   "title": "Ebola spreads in DR Congo, putting neighbouring nations at risk",
+   "summary": "The Ebola outbreak has spread to new areas in the Democratic Republic of the Congo, with 10 countries at high risk.",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/26-09-sv-ebola-spreading-borders-drc-dr?traffic_source=rss",
+   "date": "2026-09-26T10:56:00Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "The Hindu: Kolkata college students allege pressure to participate in 'Namo Seva' play; Principal denies charge",
+   "summary": "State-run higher educational institutions have been asked by the West Bengal government to stage the play and organise drawing and elocution competitions for students as part of the Seva Sankalp Abhiyan",
+   "link": "https://www.thehindu.com/news/national/west-bengal/kolkata-college-students-allege-pressure-to-participate-in-namo-seva-play-principal-denies-charge/article71512474.ece",
+   "date": "2026-09-26T10:55:58Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "ประชาชาติธุรกิจ: น้ำท่วมเทศบาลเมืองอรัญฯ ประชาชนเดือดร้อนกว่า 7 พันคน คาดกระทบต่อเนื่อง 5 วัน",
+   "summary": "น้ำท่วมเทศบาลเมืองอรัญประเทศ คาดกระทบประชาชนกว่า 7,000–8,000 คน คาดว่าสถานการณ์อาจทรงตัวและส่งผลกระทบต่อเนื่องไม่น้อยกว่า 5 วัน รายงานข่าวจากจังหวัดสระแก้ว จากฝนที่ตกต่อเนื่องทำให้ระดับน้ำในพื้นที่เทศบาลเมืองอรัญประเทศ จ.สระแก้ว เพิ่มสูงขึ้น โดยตั้งแ …\nอ่านข่าวต้นฉบับ: น้ำท่วมเทศบาลเมืองอรัญฯ ประชาช",
+   "link": "https://www.prachachat.net/economic/local-economy/news-2072157",
+   "date": "2026-09-26T10:54:58Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "ประชาชาติธุรกิจ: “สยามรวมใจ ไทยช่วยไทย” เปิดพื้นที่จอดรถฟรี ตึก ICS ตรงข้ามไอคอนสยาม",
+   "summary": "กลุ่มบริษัทสยามพิวรรธน์ เปิดพื้นที่จอดรถฟรี ณ อาคารจอดรถ ICS ตรงข้ามไอคอนสยาม ชวนช่วยเหลือผู้ได้รับผลกระทบจากอุทกภัยผ่านสภากาชาดไทย กลุ่มบริษัทสยามพิวรรธน์ ผู้พัฒนาอสังหาริมทรัพย์และธุรกิจค้าปลีกชั้นนำ ผนึกกำลังพันธมิตรทางธุรกิจ ผู้เช่า พนักงานลูกค้า …\nอ่านข่าวต้นฉบับ: “สยามรวมใจ ไทยช่วยไทย” เปิดพื้",
+   "link": "https://www.prachachat.net/biz-movement/news-2072164",
+   "date": "2026-09-26T10:54:13Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: พาณิชย์ ตั้ง Single Command รับมือสถานการณ์น้ำท่วมทั่วประเทศ ติดตาม-ประเมิน-แก้ปัญหา เร่งกระจายสินค้า",
+   "summary": "พาณิชย์ ตั้ง Single Command รับมือสถานการณ์น้ำท่วมทั่วป […]",
+   "link": "https://www.matichon.co.th/economy/news_5906555",
+   "date": "2026-09-26T10:54:05Z"
+  },
+  {
+   "feed": "russia-news",
+   "title": "TASS (Russian state media): Ukrainian troops encircled in Kharkov Region lose over 50 soldiers",
+   "summary": "\"The Ukrainian army’s also losses an armored combat vehicle, two cars, an ATV, and a multiple rocket system launcher, the Russian Defense Ministry reported",
+   "link": "https://tass.com/defense/2193281",
+   "date": "2026-09-26T10:53:29Z"
+  },
+  {
+   "feed": "world-headlines",
+   "title": "An unexpected welcome: Syrian Kurds return to their homes in Afrin",
+   "summary": "Syrian Kurds are beginning to return to their homes in Afrin after years in exile, but have different experiences.",
+   "link": "https://www.aljazeera.com/features/2026/9/26/an-unexpected-welcome-syrian-kurds-return-to-their-homes-in-afrin?traffic_source=rss",
+   "date": "2026-09-26T10:52:03Z"
+  },
+  {
+   "feed": "thailand-news",
+   "title": "Red Line suspends services on both routes after electrical fault",
+   "summary": "BANGKOK — 26 September 2026, Bangkok’s Red Line commuter rail temporarily suspended services on both routes on Saturday after an electrical fault affected the signalling system, forcing all 13 stations to close. At 16:00, the RED Line SRTET Facebook page announced that services on both the Krung The",
+   "link": "https://www.khaosodenglish.com/news/transpo/2026/09/26/red-line-suspends-services-on-both-routes-after-electrical-fault/",
+   "date": "2026-09-26T10:50:55Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "ประชาชาติธุรกิจ: เซเว่นฯ เร่งส่ง-เติมสินค้า อำนวยความสะดวกลูกค้ารับมือน้ำท่วม",
+   "summary": "เซเว่น อีเลฟเว่น เร่งจัดส่งสินค้าเข้าสาขาต่าง ๆ ย้ำอำนวยความสะดวกลูกค้าให้เข้าถึงสิ่งของที่จำเป็น ซีพีออล์ (CPALL) ผู้บริหารร้านสะดวกซื้อเซเว่น อีเลฟเว่น โพสเฟสบุ๊ค CPALL ประกาศว่า ขณะนี้ร้านเซเว่น อีเลฟเว่น กำลังเร่งจัดส่งสินค้า เพื่ออำนวยความสะดวกใ …\nอ่านข่าวต้นฉบับ: เซเว่นฯ เร่งส่ง-เติมสินค้า อำน",
+   "link": "https://www.prachachat.net/business/news-2072153",
+   "date": "2026-09-26T10:45:01Z"
+  },
+  {
+   "feed": "world-headlines",
+   "title": "Republic of Ireland news conference delayed before controversial Israel game",
+   "summary": "The Republic of Ireland delay the pre-match news conference planned for Sunday's Uefa Nations League game against Israel in Hungary - a fixture campaigners have called on them to boycott.",
+   "link": "https://www.bbc.co.uk/sport/football/articles/c962jjl18g3ro?at_medium=RSS&at_campaign=rss",
+   "date": "2026-09-26T10:44:37Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: ธอส. ออก 7 มาตรการ ช่วยผู้ประสบภัยน้ำท่วม พักชำระหนี้ – ลดเงินงวด – ลดดอกเบี้ย – เคลมสินไหมเร่งด่วน",
+   "summary": "ธอส. ออก 7 มาตรการ ช่วยผู้ประสบภัยน้ำท่วม พักชำระหนี้ & […]",
+   "link": "https://www.matichon.co.th/economy/news_5906540",
+   "date": "2026-09-26T10:34:36Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: ศูนย์กีฬากองทัพบก มวยไทยลุมพินี เปิดพื้นที่ให้จอดรถฟรี ช่วงน้ำท่วม",
+   "summary": "ศูนย์กีฬากองทัพบก มวยไทยลุมพินี เปิดพื้นที่ให้จอดรถฟรี […]",
+   "link": "https://www.matichon.co.th/sport/news_5906539",
+   "date": "2026-09-26T10:33:50Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "ประชาชาติธุรกิจ: ฝนถล่มนครปฐม ‘อุโมงค์หน้าวัดพระงาม-ถนนเทศา ซอย7’ น้ำท่วมสูง ไม่สามารถสัญจรได้",
+   "summary": "สถานการณ์น้ำท่วมขังในหลายพื้นที่ของเขตเมืองนครปฐม โดยเฉพาะบริเวณถนนสายหลัก ถนนเทศา ซอย 7 ถนนขวาพระ บริเวณหน้ากองบัญชาการตำรวจภูธรภาค 7 และสถานีตำรวจภูธรเมืองนครปฐม หลายจุดยังคงมีน้ำท่วมสูง ไม่สามารถสัญจรได้ รายงานข่าวจากจังหวัดนครปฐม สถานการณ์น้ำท่วม …\nอ่านข่าวต้นฉบับ: ฝนถล่มนครปฐม ‘อุโมงค์หน้าวัดพร",
+   "link": "https://www.prachachat.net/economic/local-economy/news-2072133",
+   "date": "2026-09-26T10:32:42Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "The Hindu: Police gag media from asking questions to CM Satheesan in Kochi, ACP cites security aspect",
+   "summary": "In a video aired on TV channels, the officer is heard saying that the Chief Minister is someone in the Z Plus security category",
+   "link": "https://www.thehindu.com/news/national/kerala/police-gag-media-from-asking-questions-to-cm-satheesan-in-kochi-acp-cites-security-aspect/article71511968.ece",
+   "date": "2026-09-26T10:32:05Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: ศิษย์เก่าอุเทน ลั่นไม่ย้ายไปไหนแน่ ชี้คำสั่งอ.เชน มิชอบ จ่อยกระดับปักหลักหน้าอว.",
+   "summary": "ศิษย์เก่าอุเทน ลั่นไม่ย้ายไปไหนแน่ ชี้คำสั่งอ.เชน มิชอบ […]",
+   "link": "https://www.matichon.co.th/local/education/news_5906355",
+   "date": "2026-09-26T10:28:16Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: ทรงศักดิ์ รับฝนตกเกินคาด เคยพูด ‘เอาอยู่’ แต่สถานการณ์จริงตอนนี้ ‘เอาไม่อยู่’ แล้ว",
+   "summary": "ทรงศักดิ์ รับฝนตกเกินคาด เคยพูด ‘เอาอยู่’ แต่สถานการณ์ […]",
+   "link": "https://www.matichon.co.th/politics/news_5906531",
+   "date": "2026-09-26T10:27:43Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: อนุทิน สั่งการจากลอนดอน ต้องทำงานเป็นทีม ช่วยปชช.น้ำท่วม บินกลับถึงไทยพรุ่งนี้เช้า",
+   "summary": "อนุทิน ประชุมด่วนทางไกลจากลอนดอน เกาะติดน้ำท่วม สั่งทุก […]",
+   "link": "https://www.matichon.co.th/politics/news_5906484",
+   "date": "2026-09-26T10:27:24Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "The Hindu: Char Dham Yatra suspended for September 26, 27 due to bad weather",
+   "summary": "Garhwal Commissioner Anand Swaroop’s letter mentioned that the Yatra will resume once the weather conditions normalise",
+   "link": "https://www.thehindu.com/news/national/uttarakhand/char-dham-yatra-suspended-for-september-26-27-due-to-bad-weather/article71512419.ece",
+   "date": "2026-09-26T10:27:14Z"
+  },
+  {
+   "feed": "world-headlines",
+   "title": "Israel bans Arab parties from election: Who they are, why it matters",
+   "summary": "Israeli politicians subject to ICC arrest warrants or international sanctions remain eligible to run.",
+   "link": "https://www.aljazeera.com/news/2026/9/26/israel-bans-arab-parties-from-election-who-they-are-why-it-matters?traffic_source=rss",
+   "date": "2026-09-26T10:27:11Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "The Hindu: CREDAI Chennai and Port City Colombo explore business opportunities",
+   "summary": null,
+   "link": "https://www.thehindu.com/news/national/tamil-nadu/credai-chennai-and-port-city-colombo-explore-business-opportunities/article71509339.ece",
+   "date": "2026-09-26T10:25:08Z"
+  },
+  {
+   "feed": "europe-news",
+   "title": "Euronews: Thousands of protesters take to the streets in Madrid over Ceuta migrant crisis",
+   "summary": "Almost two months after the mass arrival of tens of thousands of migrants in Ceuta, the situation in the autonomous city remains unresolved.",
+   "link": "https://www.euronews.com/2026/09/26/thousands-of-protesters-take-to-the-streets-in-madrid-over-ceuta-migrant-crisis",
+   "date": "2026-09-26T10:21:12Z"
+  },
+  {
+   "feed": "europe-news",
+   "title": "Euronews: New study reveals surprising origins of bats dating back 65 million years",
+   "summary": "A genomic study of 103 species and 44 fossils places the origin of bats in Europe 65 million years ago and dates the birth of flight and echolocation, in a Nature paper with CSIC participation.",
+   "link": "https://www.euronews.com/2026/09/26/forget-asia-and-africa-bats-originated-in-europe-65-million-years-ago",
+   "date": "2026-09-26T10:19:22Z"
+  },
+  {
+   "feed": "world-headlines",
+   "title": "At least two dead after explosion destroys building close to Acropolis in Athens",
+   "summary": "Local media report the property included a holiday rental, with US tourists and a UK national among the missing.",
+   "link": "https://www.bbc.co.uk/news/articles/c6p3kk78l4l1o?at_medium=RSS&at_campaign=rss",
+   "date": "2026-09-26T10:18:51Z"
+  },
+  {
+   "feed": "russia-news",
+   "title": "TASS (Russian state media): Leaders of China, US agree to provide mutual support for hosting APEC, G20 summits",
+   "summary": "Еhe heads of state expressed their intention to participate in the events organized by the other side, Xinhua news agency reported",
+   "link": "https://tass.com/world/2193269",
+   "date": "2026-09-26T10:16:38Z"
+  },
+  {
+   "feed": "world-headlines",
+   "title": "Virat Kohli says he will retire from India cricket after 2027 World Cup",
+   "summary": "The leading century-maker in ODI cricket, Virat Kohli, announces 2027 World Cup will be his swansong for India.",
+   "link": "https://www.aljazeera.com/sports/2026/9/26/india-cricket-great-virat-kohli-says-2027-world-cup-will-be-his-last?traffic_source=rss",
+   "date": "2026-09-26T10:16:21Z"
+  },
+  {
+   "feed": "russia-news",
+   "title": "TASS (Russian state media): Timur Turlov of Kazakhstan elected World Chess Federation president",
+   "summary": "A total of 110 delegates voted for him",
+   "link": "https://tass.com/sports/2193271",
+   "date": "2026-09-26T10:15:18Z"
+  },
+  {
+   "feed": "thailand-news",
+   "title": "Rajamangala Stadium surrounded by floodwater, cars nearly submerged to their roofs",
+   "summary": "BANGKOK — 26 September 2026, Rajamangala National Stadium has been surrounded by floodwater, with widespread flooding across the surrounding area and several parked cars almost submerged to their roofs. The flooding has also affected Thai national athletes. Continuous heavy rain has caused flooding ",
+   "link": "https://www.khaosodenglish.com/news/2026/09/26/rajamangala-stadium-surrounded-by-floodwater-cars-nearly-submerged-to-their-roofs/",
+   "date": "2026-09-26T10:11:22Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "The Hindu: Court reserves order in Anto Augustine’s anticipatory bail plea",
+   "summary": "Augustine moved the application, anticipating an imminent move to arrest him after the Special Investigation Team (SIT) probing the case related to the Messi row carried out search operations at ocations linked to him and his brothers",
+   "link": "https://www.thehindu.com/news/national/kerala/court-reserves-order-in-anto-augustines-anticipatory-bail-plea/article71512308.ece",
+   "date": "2026-09-26T10:10:48Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "The Hindu: Union I&B clears 23 of the 31 films at IDSFFK which were earlier denied censor exemption",
+   "summary": "The Kerala High Court had issued a notice to the Ministry following legal action initiated by the Kerala State Chalachitra Academy, which demanded screening permission for all 31 films",
+   "link": "https://www.thehindu.com/news/national/kerala/union-ib-clears-23-of-the-31-films-at-idsffk-which-were-earlier-denied-censor-exemption/article71512155.ece",
+   "date": "2026-09-26T10:10:16Z"
+  },
+  {
+   "feed": "ai-news",
+   "title": "One Month Without AI",
+   "summary": null,
+   "link": "https://blog.bustikiller.com/2026/09/25/one-month-without-ai.html",
+   "date": "2026-09-26T10:08:21Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "The Hindu: Bihar on alert amid heavy rain forecast",
+   "summary": "District Magistrates were directed to ensure the continuous monitoring of river water levels, low-lying areas, embankments, riverside villages, bridges and culverts, and connecting roads",
+   "link": "https://www.thehindu.com/news/national/bihar/alert-sounded-in-bihar-amid-heavy-rain-forecast/article71512133.ece",
+   "date": "2026-09-26T10:04:36Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "The Hindu: Tushar Gandhi ‘disappointed’ with Keralam government over IDSFFK row",
+   "summary": "Mahatma Gandhi’s great-grandson says the government did not show the courage to fight the dictatorial decision of the Centre to deny permission to 31 films selected for the festival",
+   "link": "https://www.thehindu.com/news/national/kerala/tushar-gandhi-disappointed-with-keralam-government-over-idsffk-row/article71512323.ece",
+   "date": "2026-09-26T10:04:06Z"
+  },
+  {
+   "feed": "europe-news",
+   "title": "Euronews: Latest news bulletin | September 26th, 2026 – Midday",
+   "summary": "Catch up with the most important stories from around Europe and beyond this September 26th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+   "link": "https://www.euronews.com/video/2026/09/26/latest-news-bulletin-september-26th-2026-midday",
+   "date": "2026-09-26T10:00:16Z"
+  },
+  {
+   "feed": "china-news",
+   "title": "SCMP: Houthi attacks on Saudi Arabia test limits of Mecca regional security pact",
+   "summary": "Just a month after Saudi Arabia signed a regional mutual defence deal with Pakistan and Turkey, attacks by Yemen’s Houthis against the kingdom’s energy infrastructure and military sites are testing the pact’s limits.\nAt a hastily convened meeting of the Mecca Joint Defence Agreement in Riyadh on Fri",
+   "link": "https://www.scmp.com/news/china/diplomacy/article/3368857/houthi-attacks-saudi-arabia-test-limits-mecca-regional-security-pact?utm_source=rss_feed",
+   "date": "2026-09-26T10:00:06Z"
+  },
+  {
+   "feed": "japan-news",
+   "title": "The Mainichi: Asian Games: 11-year-old Japanese Kurihara wins puzzle gold in esports",
+   "summary": "NAGOYA (Kyodo) -- Japan's 11-year-old Yuki Kurihara, the youngest member of the national delegation, won the Aichi-Nagoya Asian Games puzzle final on",
+   "link": "https://mainichi.jp/english/articles/20260926/p2g/00m/0sp/026000c",
+   "date": "2026-09-26T10:00:04Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "The Hindu: Tamil Nadu | How the Museum of Chettinad keeps a community’s memory alive",
+   "summary": "As part of the Chettinad Heritage and Cultural Festival which kicks off this weekend, visitors will get a peek into the museum, which officially opens in November",
+   "link": "https://www.thehindu.com/life-and-style/tamil-nadu-museum-of-chettinad-visalakshi-ramaswamy-chettiar-heritage/article71467554.ece",
+   "date": "2026-09-26T09:56:59Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "The Hindu: Fresh case registered over alleged cheating by Kochi-based immigration firm as CEO’s interrogation concludes",
+   "summary": "A fresh case has been registered against Parvathy Maya Shaji, the founder and CEO of Amster Overseas, and two others based on a complaint lodged by a youth from Ponnani in Malappuram",
+   "link": "https://www.thehindu.com/news/cities/Kochi/fresh-case-registered-over-alleged-cheating-by-kochi-based-immigration-firm-as-ceos-interrogation-concludes/article71512203.ece",
+   "date": "2026-09-26T09:56:40Z"
+  },
+  {
+   "feed": "security-news",
+   "title": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
+   "summary": "Details have emerged about a high-severity security flaw in the Elementor Website Builder WordPress plugin that could be exploited by an unauthenticated attacker to create rogue administrator accounts and take control of a site.\nThe cross-site request forgery (CSRF) vulnerability, which has yet to b",
+   "link": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
+   "date": "2026-09-26T09:55:22Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "The Hindu: Indian non-profits lag on digital maturity, AI adoption: report",
+   "summary": "The Digital for Nonprofits (D4NP) report, released in New Delhi, finds non-profits scoring below 50% on digital maturity and largely failing to tap free online advertising grants—despite growing interest in large language models to aid reports and marketing",
+   "link": "https://www.thehindu.com/sci-tech/technology/indian-non-profits-lag-on-digital-maturity-ai-adoption-report/article71512189.ece",
+   "date": "2026-09-26T09:53:11Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "The Hindu: Supreme Court orders sealing of over 16,000 properties, demolition of illegal structures in Meerut",
+   "summary": "A Bench of Justices J.B. Pardiwala and K.V. Viswanathan also formed a judicial commission, led by former Supreme Court judge Justice Sudhanshu Dhulia, to conduct a thorough inquiry in Uldepur, on the outskirts of Meerut, regarding the nature of land where these illegal residential colonies have deve",
+   "link": "https://www.thehindu.com/news/national/supreme-court-orders-sealing-of-over-16000-properties-demolition-of-illegal-structures-in-meerut/article71512123.ece",
+   "date": "2026-09-26T09:51:34Z"
+  },
+  {
+   "feed": "world-headlines",
+   "title": "England vs Spain: UEFA Nations League – Predictions, teams, head-to-head",
+   "summary": "World champions Spain meet heavyweights England in a rematch of the UEFA Euro 2024 final.",
+   "link": "https://www.aljazeera.com/sports/2026/9/26/england-vs-spain-uefa-nations-league-prediction-team-news-head-to-head?traffic_source=rss",
+   "date": "2026-09-26T09:51:04Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "The Hindu: Two days of rain halve Andhra Pradesh’s monsoon deficit from 43% to 22%",
+   "summary": "After the deep depression over the Bay of Bengal, Visakhapatnam district’s shortfall falls from 53.2% to 3.6%",
+   "link": "https://www.thehindu.com/news/national/andhra-pradesh/two-days-of-rain-halve-andhra-pradeshs-monsoon-deficit-from-43-to-22/article71512094.ece",
+   "date": "2026-09-26T09:46:36Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "NDTV: Odisha Man Kills Wife, Dumps Body In Vacant Plot In Bengaluru",
+   "summary": "Sagar Chandra Rawat (L) allegedly killed his wife (R) following an argument over a financial dispute.",
+   "link": "https://www.ndtv.com/india-news/odisha-man-kills-wife-dumps-body-in-vacant-plot-in-bengaluru-sagar-chandra-rawat-kills-anusuya-12100689#publisher=newsstand",
+   "date": "2026-09-26T09:40:09Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "The Hindu: Illegal riverbed mining inviting catastrophe: Assam tribal students’ body",
+   "summary": "The All Dimasa Students’ Union has lodged a complaint with Dima Hasao district’s Chief Conservator of Forests",
+   "link": "https://www.thehindu.com/news/national/other-states/illegal-riverbed-mining-inviting-catastrophe-assam-tribal-students-body/article71512277.ece",
+   "date": "2026-09-26T09:39:05Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "NDTV: 'Heard Screams From Girls Hostel': 'Ghost' Rumour Triggers Massive Protests At Punjab University",
+   "summary": "The Chitkara University students seen damaging a police patrol vehicle",
+   "link": "https://www.ndtv.com/india-news/ghost-rumour-triggers-massive-protests-at-chitkara-university-in-patiala-heard-screams-from-girls-hostel-12101303#publisher=newsstand",
+   "date": "2026-09-26T09:38:12Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "NDTV: Special Camps In Delhi On Sunday For Eligible Voters Left Out Of Draft Rolls",
+   "summary": "The special camp on September 27 will be held at all polling station locations across Delhi.",
+   "link": "https://www.ndtv.com/delhi-news/special-camps-in-delhi-on-sunday-for-eligible-voters-left-out-of-draft-rolls-12100212#publisher=newsstand",
+   "date": "2026-09-26T09:35:25Z"
+  },
+  {
+   "feed": "europe-news",
+   "title": "POLITICO Europe: Iran says Strait of Hormuz could reopen within seven days if US accepts deal",
+   "summary": "U.S. President Donald Trump reportedly rejected the plan pitched by Tehran.",
+   "link": "https://www.politico.eu/article/iran-strait-of-hormuz-reopen-us-accepts-deal/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+   "date": "2026-09-26T09:31:17Z"
+  },
+  {
+   "feed": "europe-news",
+   "title": "Euronews: Russia strikes Ukraine as Putin denies plans to attack Europe amid growing tensions",
+   "summary": "On Saturday, Ukrainian Foreign Minister Andrii Sybiha said Russia had also carried out a \"double strike\" attack on a logistics facility serving fast-food chain McDonald’s.",
+   "link": "https://www.euronews.com/2026/09/26/at-least-six-people-killed-in-russian-strikes-on-ukraine-over-last-24-hours",
+   "date": "2026-09-26T09:28:45Z"
+  },
+  {
+   "feed": "world-headlines",
+   "title": "Trump ‘rejects’ Iran’s seven-day ceasefire proposal. What’s next?",
+   "summary": "Analysts say Trump may opt to resume attacks on Iran after November midterm elections.",
+   "link": "https://www.aljazeera.com/news/2026/9/26/trump-reportedly-rejects-irans-seven-day-ceasefire-proposal-whats-next?traffic_source=rss",
+   "date": "2026-09-26T09:28:19Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "The Hindu: Congress asks the Supreme Court to take suo motu notice against Gyanesh over Form 6 changes",
+   "summary": "The Congress’s intervention came after the Election Commission directed officials to organise special enrolment camps for young voters and give them wide publicity through social media",
+   "link": "https://www.thehindu.com/news/national/congress-asks-the-supreme-court-to-take-suo-motu-notice-against-gyanesh-over-form-6-changes/article71512229.ece",
+   "date": "2026-09-26T09:27:11Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "NDTV: Maharashtra Declares Drought In 74% Of State, 265 Of 358 Talukas Affected",
+   "summary": "Maharashtra government has announced a series of relief measures for drought-affected regions.",
+   "link": "https://www.ndtv.com/india-news/maharashtra-declares-drought-in-74-of-state-265-of-358-talukas-affected-12101284#publisher=newsstand",
+   "date": "2026-09-26T09:25:55Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "The Hindu: Ticket no. TL 360615. wins ₹30 crore first prize of Keralam government’s Thiruvonam bumper lottery",
+   "summary": "The Thiruvonam Bumper Lottery, priced at ₹500 per ticket, had seen record sales this year",
+   "link": "https://www.thehindu.com/news/national/kerala/ticket-no-tl-360615-wins-30-crore-first-prize-of-keralam-governments-thiruvonam-bumper-lottery/article71512269.ece",
+   "date": "2026-09-26T09:22:12Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "NDTV: AI Scam Call Costs Italy's Top Bank Rs 10,34,00,00,000. Half Amount Recovered",
+   "summary": "More than half the funds were later recovered, but some \"36 million remains missing.",
+   "link": "https://www.ndtv.com/world-news/ai-scam-call-costs-italy-bank-intesa-sanpaolo-rs-10-34-00-00-000-half-amount-recovered-12100978#publisher=newsstand",
+   "date": "2026-09-26T09:17:46Z"
+  },
+  {
+   "feed": "europe-news",
+   "title": "Euronews: Baku's week of F1 racing, global security, and record investments",
+   "summary": "Baku has completed a week of octane-fuelled racing, high-level security facilitation and secured record investments in one of its most dynamic events-filled weeks of the year.",
+   "link": "https://www.euronews.com/2026/09/26/bakus-week-of-f1-racing-global-security-and-record-investments",
+   "date": "2026-09-26T09:11:45Z"
+  },
+  {
+   "feed": "europe-news",
+   "title": "POLITICO Europe: Trump’s G20 invite to Putin is an ‘opportunity,’ German foreign minister says",
+   "summary": "Johann Wadephul’s remarks diverged from the German government’s official line.",
+   "link": "https://www.politico.eu/article/valdimir-putin-g20-opportunity-says-germany-johann-wadephul/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+   "date": "2026-09-26T09:08:55Z"
+  },
+  {
+   "feed": "world-leaders",
+   "title": "Kremlin: Telephone conversation with President of Serbia Aleksandar Vucic",
+   "summary": "Vladimir\nPutin held a telephone conversation with President of Serbia Aleksandar Vucic\nat the initiative of the Serbian side.",
+   "link": "http://en.kremlin.ru/events/president/news/80843",
+   "date": "2026-09-26T09:05:00Z"
+  },
+  {
+   "feed": "thailand-news",
+   "title": "Bangkok declared public disaster zone after sustained rainfall, flooding",
+   "summary": "Bangkok declared public disaster zone after sustained rainfall, flooding\nAll 50 districts of Bangkok have been declared a public disaster zones after sustained rainfall caused widespread flooding across the city.\nThe Bangkok Metropolitan Administration (BMA) announced this morning (26 September) tha",
+   "link": "https://prachataienglish.com/node/12046",
+   "date": "2026-09-26T09:04:55Z"
+  },
+  {
+   "feed": "japan-news",
+   "title": "The Mainichi: Baseball: Murakami homers twice as White Sox beat Rockies",
+   "summary": "CHICAGO (Kyodo) -- Munetaka Murakami homered twice, raising his rookie-season total to a team-high 35, as the Chicago White Sox beat the Colorado Rock",
+   "link": "https://mainichi.jp/english/articles/20260926/p2g/00m/0sp/028000c",
+   "date": "2026-09-26T09:03:10Z"
+  },
+  {
+   "feed": "world-headlines",
+   "title": "Senegal draw in Vieira debut, Nigeria survive scare, but Cape Verde crash",
+   "summary": "Senegal draw with Mozambique, Nigeria edge past Madagascar, but Cape Verde beaten by Mali in AFCON qualifying openers.",
+   "link": "https://www.aljazeera.com/sports/2026/9/26/senegal-draw-in-vieira-debut-nigeria-survive-scare-but-cape-verde-crash?traffic_source=rss",
+   "date": "2026-09-26T09:02:55Z"
+  },
+  {
+   "feed": "crypto-news",
+   "title": "SEC Commissioner Hester Peirce to leave post on Oct. 2",
+   "summary": "Peirce, known as “Crypto Mom,” served on the SEC for about eight years, including as director of the Crypto Task Force.",
+   "link": "https://cointelegraph.com/news/sec-commissioner-hester-peirce-to-leave-post-on-oct-2?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+   "date": "2026-09-26T09:02:22Z"
+  },
+  {
+   "feed": "world-headlines",
+   "title": "China, US to open AI ‘communication channel’ after summit, White House says",
+   "summary": "White House says the two countries agreed to open a 'bilateral communication channel' for AI incidents.",
+   "link": "https://www.aljazeera.com/news/2026/9/26/china-us-to-open-ai-communication-channel-after-summit-white-house-says?traffic_source=rss",
+   "date": "2026-09-26T09:02:10Z"
+  },
+  {
+   "feed": "japan-news",
+   "title": "The Mainichi: Japan's NYK Line to launch hydrogen fuel cell ship for Tokyo Bay tour",
+   "summary": "TOKYO (Kyodo) -- Major Japanese shipping company Nippon Yusen K.K. plans to introduce its first ship powered by a hydrogen fuel cell system around May",
+   "link": "https://mainichi.jp/english/articles/20260926/p2g/00m/0bu/020000c",
+   "date": "2026-09-26T09:00:06Z"
+  },
+  {
+   "feed": "us-news",
+   "title": "NPR: The U.S. has more thalidomide survivors than the government admits",
+   "summary": "In the 1950s and 1960s, doctors gave the drug thalidomide to pregnant patients without telling them — and without FDA approval. Now those patients' children want recognition.",
+   "link": "https://www.npr.org/2026/09/26/nx-s1-5979047/us-thalidomide-survivors-want-recognition-government",
+   "date": "2026-09-26T09:00:00Z"
+  },
+  {
+   "feed": "world-headlines",
+   "title": "The AI safety debate is confusing. Here's our guide to the different factions",
+   "summary": "The battle over AI's promise and perils is not a clash between two opposing sides, but a debate among a range of competing voices and ideologies. Here is a guide to who's who in that debate.",
+   "link": "https://www.npr.org/2026/09/26/nx-s1-5979085/the-ai-safety-debate-is-confusing-heres-our-guide-to-the-different-factions",
+   "date": "2026-09-26T09:00:00Z"
+  },
+  {
+   "feed": "world-headlines",
+   "title": "The U.S. has more thalidomide survivors than the government admits",
+   "summary": "In the 1950s and 1960s, doctors gave the drug thalidomide to pregnant patients without telling them — and without FDA approval. Now those patients' children want recognition.",
+   "link": "https://www.npr.org/2026/09/26/nx-s1-5979047/us-thalidomide-survivors-want-recognition-government",
+   "date": "2026-09-26T09:00:00Z"
+  },
+  {
+   "feed": "world-headlines",
+   "title": "Meal deliveries can save money and improve health. Will they survive Medicaid cuts?",
+   "summary": "Some states deliver meals to Medicaid patients that address their dietary needs. Evidence shows it aids recovery and saves healthcare costs, but federal budget cuts may lead some states to cancel it.",
+   "link": "https://www.npr.org/2026/09/26/nx-s1-5946434/medically-tailored-meal-deliveries-medicaid-cuts",
+   "date": "2026-09-26T09:00:00Z"
+  },
+  {
+   "feed": "china-news",
+   "title": "SCMP: How Peng Liyuan and Melania Trump opened a parallel track in US-China diplomacy",
+   "summary": "First ladies Peng Liyuan and Melania Trump opened a new front in US-China exchanges this week, with their unusually frequent and spontaneous interactions putting a more personal face on ties during the presidential summit in Washington.\nThe pair charted a parallel path of soft power diplomacy – shar",
+   "link": "https://www.scmp.com/news/china/diplomacy/article/3368897/how-peng-liyuan-and-melania-trump-opened-parallel-track-us-china-diplomacy?utm_source=rss_feed",
+   "date": "2026-09-26T08:59:30Z"
+  },
+  {
+   "feed": "security-news",
+   "title": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
+   "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Microsoft SharePoint and Mikrotik RouterOS to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation.\nThe vulnerabilities in question are as follows -\nCVE-",
+   "link": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
+   "date": "2026-09-26T08:49:53Z"
+  },
+  {
+   "feed": "hurricanes",
+   "title": "Tropical Storm Gonzalo (AT2), advisory 26/0847Z",
+   "summary": "GONZALO STILL A TROPICAL STORM AS IT MOVES AWAY FROM THE CABO VERDE ISLANDS. As of 8:00 AM CVT Sat Sep 26 the center of Gonzalo was located near 17.6, -23.0 with movement N at 9 mph. The minimum central pressure was 1002 mb with maximum sustained winds of about 45 mph.",
+   "link": "https://www.nhc.noaa.gov/text/refresh/MIATCPAT2+shtml/260847.shtml",
+   "date": "2026-09-26T08:47:54Z"
+  },
+  {
+   "feed": "hurricanes",
+   "title": "Hurricane Odalys (EP1), advisory 26/0838Z",
+   "summary": "ODALYS BEGINS WEAKENING AS IT CONTINUES TRACKING NORTHWARD. As of 2:00 AM PDT Sat Sep 26 the center of Odalys was located near 19.1, -123.7 with movement N at 5 mph. The minimum central pressure was 951 mb with maximum sustained winds of about 115 mph.",
+   "link": "https://www.nhc.noaa.gov/text/refresh/MIATCPEP1+shtml/260838.shtml",
+   "date": "2026-09-26T08:38:23Z"
+  },
+  {
+   "feed": "hurricanes",
+   "title": "Tropical Depression Fay (AT1), advisory 26/0838Z",
+   "summary": "FAY WEAKENS TO A TROPICAL DEPRESSION ONCE AGAIN. As of 9:00 AM GMT Sat Sep 26 the center of Fay was located near 29.7, -43.7 with movement WSW at 3 mph. The minimum central pressure was 1009 mb with maximum sustained winds of about 35 mph.",
+   "link": "https://www.nhc.noaa.gov/text/refresh/MIATCPAT1+shtml/260838.shtml",
+   "date": "2026-09-26T08:38:20Z"
+  },
+  {
+   "feed": "japan-news",
+   "title": "The Japan Times: 11-year-old esports prodigy claims gold at Asian Games",
+   "summary": "Yuki Kurihara is the youngest athlete in Japan's Asian Games history.",
+   "link": "https://www.japantimes.co.jp/sports/2026/09/26/asian-games/japan-esports-prodigy-asian-games/",
+   "date": "2026-09-26T08:35:00Z"
+  },
+  {
+   "feed": "world-headlines",
+   "title": "Pro-Palestine Action group to rally at Labour conference led by Burnham",
+   "summary": "Defend Our Juries say Sunday's action is an 'integrity test' for the UK's new premier.",
+   "link": "https://www.aljazeera.com/news/2026/9/26/palestine-action-protest-labour-conference?traffic_source=rss",
+   "date": "2026-09-26T08:24:05Z"
+  },
+  {
+   "feed": "russia-news",
+   "title": "TASS (Russian state media): Trump advocates for trilateral arms control talks between US, Russia, China",
+   "summary": "US leader and Chinese President Xi Jinping also discussed \"on-going global concerns,\" including those concerning Russia, North Korea, and Iran",
+   "link": "https://tass.com/world/2193241",
+   "date": "2026-09-26T08:20:34Z"
+  },
+  {
+   "feed": "russia-news",
+   "title": "TASS (Russian state media): Euractiv columnist questions need for extra funding for Ukraine",
+   "summary": "Claims were already made earlier this year that Ukraine would run out of money in April, yet this did not happen, Thomas Moller-Nielsen said",
+   "link": "https://tass.com/economy/2193239",
+   "date": "2026-09-26T08:18:55Z"
+  },
+  {
+   "feed": "japan-news",
+   "title": "The Japan Times: Organizers ‘not satisfied’ by rows of empty seats at Asian Games",
+   "summary": "The 100-meter sprints are one of the highlights of any Games, but the 30,000-capacity Mizuho Park Athletic Stadium appeared to be only about one-quarter full on Friday night.",
+   "link": "https://www.japantimes.co.jp/sports/2026/09/26/asian-games/asian-games-organizers-seats/",
+   "date": "2026-09-26T08:18:00Z"
+  },
+  {
+   "feed": "world-headlines",
+   "title": "Pochettino regrets limited role in Balogun red card decision at World Cup",
+   "summary": "Mauricio Pochettino says controversial Folarin Balogun appeal 'changed the energy' around US team at World Cup 2026.",
+   "link": "https://www.aljazeera.com/sports/2026/9/26/pochettino-regrets-limited-role-in-balogun-red-card-decision-at-world-cup?traffic_source=rss",
+   "date": "2026-09-26T08:16:23Z"
+  },
+  {
+   "feed": "world-headlines",
+   "title": "Iran war squeezes Iraq’s economy as oil revenues fall and prices rise",
+   "summary": "Disrupted oil exports, costlier imports, and a weaker dinar expose Iraq's economic dependence on oil, foreign goods.",
+   "link": "https://www.aljazeera.com/news/2026/9/26/iran-war-squeezes-iraqs-economy-as-oil-revenues-fall-and-prices-rise?traffic_source=rss",
+   "date": "2026-09-26T08:13:06Z"
+  },
+  {
+   "feed": "thailand-earthquakes",
+   "title": "M2.4 ประเทศเมียนมา (Myanmar)",
+   "summary": "แผ่นดินไหว ประเทศเมียนมา\n2026-09-26 14:25:44 น.\nLat. 21.143 , Long. 99.943\nขนาด 2.4",
+   "link": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17134",
+   "date": "2026-09-26T08:11:52Z"
+  },
+  {
+   "feed": "thailand-earthquakes",
+   "title": "M3.6 ประเทศเวียดนาม (Vietnam)",
+   "summary": "แผ่นดินไหว ประเทศเวียดนาม\n2026-09-26 14:55:19 น.\nLat. 15.120 , Long. 107.905\nขนาด 3.6",
+   "link": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17133",
+   "date": "2026-09-26T08:06:11Z"
+  },
   {
    "feed": "stablecoin-supply",
    "title": "USDC supply -$864.7M in a day, now $75.6B",
@@ -735,13 +1681,6 @@
    "date": "2026-09-26T08:02:51Z"
   },
   {
-   "feed": "thailand-news-th",
-   "title": "มติชน: แฟชั่นไอส์แลนด์ ประกาศปิดชั่วคราว หลังน้ำทะลัก ท่วมพื้นที่โดยรอบ",
-   "summary": "แฟชั่นไอส์แลนด์ ประกาศปิดชั่วคราว หลังน้ำทะลัก ท่วมพื้น […]",
-   "link": "https://www.matichon.co.th/economy/news_5906232",
-   "date": "2026-09-26T08:01:05Z"
-  },
-  {
    "feed": "japan-news",
    "title": "The Mainichi: From Gaza to Sudan to Nepal, more than 500 million children are in desperate need of education",
    "summary": "UNITED NATIONS (AP) -- In a stifling sixth grade classroom in war-torn Sudan, a very motivated teacher was giving a lesson to 120 very committed child",
@@ -756,88 +1695,18 @@
    "date": "2026-09-26T08:00:00Z"
   },
   {
-   "feed": "thailand-news-th",
-   "title": "มติชน: นครสวรรค์ เปิดตัว “องค์สมมติเจ้าแม่กวนอิม” เตรียมความพร้อมตรุษจีนปากน้ำโพ ปี 70",
-   "summary": "นครสวรรค์ เปิดตัว “องค์สมมติเจ้าแม่กวนอิม” เตรียมความพร […]",
-   "link": "https://www.matichon.co.th/region/news_5906218",
-   "date": "2026-09-26T07:58:49Z"
+   "feed": "japan-news",
+   "title": "The Japan Times: Junglia theme park in Okinawa logs ¥17 billion loss in first year",
+   "summary": "The ¥70 billion park opened last July to high expectations that it would help extend tourist stays and boost the local economy.",
+   "link": "https://www.japantimes.co.jp/business/2026/09/26/junglia-okinawa-first-year-loss/",
+   "date": "2026-09-26T08:00:00Z"
   },
   {
-   "feed": "india-news",
-   "title": "The Hindu: VIT conducts Run Fest marathon during Gravitas 2026",
-   "summary": "The marathon was inaugurated by VIT registrar T. Jayabharathi in the presence of Gravitas convenor Sudhakar and physical education director Mangeyrkarasi Arun",
-   "link": "https://www.thehindu.com/news/national/tamil-nadu/vit-conducts-run-fest-marathon-during-gravitas-2026/article71512108.ece",
-   "date": "2026-09-26T07:57:51Z"
-  },
-  {
-   "feed": "india-news",
-   "title": "The Hindu: Maintain constant vigil, step up intelligence-led ops in J-K: Army chief General Seth",
-   "summary": "General Seth also underscored the importance of seamless synergy and close coordination with all stakeholders to enhance situational awareness and strengthen the overall counter-terror response",
-   "link": "https://www.thehindu.com/news/national/jammu-and-kashmir/maintain-constant-vigil-step-up-intelligence-led-ops-in-j-k-army-chief-general-seth/article71512051.ece",
-   "date": "2026-09-26T07:56:40Z"
-  },
-  {
-   "feed": "india-news",
-   "title": "The Hindu: Stray dog bites 10 people in Angamaly",
-   "summary": "According to municipality Vice-Chairperson Wilson Mundadan, the dog has been caught and is being kept in captivity under observation",
-   "link": "https://www.thehindu.com/news/national/kerala/stray-dog-bites-10-people-in-angamaly/article71512007.ece",
-   "date": "2026-09-26T07:54:28Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "มติชน: ยศชนัน ลุยกำกับสถานีสูบน้ำปากคลองรังสิต เร่งเซฟพื้นที่ สั่งกรมชลฯ รับมือฝนหนัก 1-2 วันนี้",
-   "summary": "ยศชนัน ลงพื้นที่สถานีสูบน้ำปากคลองรังสิต บูรณาการกรมชลฯ […]",
-   "link": "https://www.matichon.co.th/local/quality-life/news_5906197",
-   "date": "2026-09-26T07:53:57Z"
-  },
-  {
-   "feed": "india-news",
-   "title": "The Hindu: Four PFI members get life imprisonment for 2016 murder of Hindu Munnani leader C. Sasikumar",
-   "summary": "On September 22, 2016, Sasikumar was hacked to death in Coimbatore",
-   "link": "https://www.thehindu.com/news/cities/chennai/four-pfi-members-get-life-imprisonment-for-2016-murder-of-hindu-munnani-leader-c-sasikumar/article71511969.ece",
-   "date": "2026-09-26T07:53:12Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "มติชน: ช้างศึก สู้ไม่ไหว พ่ายแข้งจีน 0-3 ตกรอบ เอเชี่ยนเกมส์ 2026",
-   "summary": "ช้างศึก สู้ไม่ไหว พ่ายแข้งจีน 0-3 ตกรอบ เอเชี่ยนเกมส์ 2 […]",
-   "link": "https://www.matichon.co.th/sport/footballlocal/news_5906235",
-   "date": "2026-09-26T07:53:00Z"
-  },
-  {
-   "feed": "india-news",
-   "title": "The Hindu: Weather updates: Red alert for Uttar Pradesh, Uttarakhand districts today; yellow alert in Delhi | LIVE",
-   "summary": "IMD has warned of intensifying rains in Uttar Pradesh over the weekend; a red alert has been issued for several districts across the State",
-   "link": "https://www.thehindu.com/news/national/india-weather-live-updates-rains-imd-delhi-uttar-pradesh-uttarakhand-andhra-pradesh-september-26-2026/article71511749.ece",
-   "date": "2026-09-26T07:51:30Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "มติชน: ‘วราวุธ’ สั่งอุตสาหกรรมจังหวัด-นิคมฯ เร่งช่วยโรงงาน กับประชาชนที่เดือดร้อน",
-   "summary": "‘วราวุธ’ สั่งอุตสาหกรรมจังหวัด-นิคมฯ เร่งช่วยโรงงาน กับ […]",
-   "link": "https://www.matichon.co.th/politics/news_5906224",
-   "date": "2026-09-26T07:49:39Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "มติชน: ฝนถล่มท่วมวิภาวดีรังสิตขาเข้า สูง 40 เซนติเมตร ตร.จราจรเร่งเปิดช่องทางพิเศษระบายรถ",
-   "summary": "ฝนถล่มท่วมวิภาวดีรังสิตขาเข้า สูง 40 เซนติเมตร ตร.จราจร […]",
-   "link": "https://www.matichon.co.th/local/news_5906209",
-   "date": "2026-09-26T07:49:29Z"
-  },
-  {
-   "feed": "india-news",
-   "title": "The Hindu: Maharashtra declares drought in 265 talukas, covering 74% of State",
-   "summary": "Overall, the State recorded an 18.8% rainfall deficit, receiving actual rainfall of 755.9 mm from June to September 18",
-   "link": "https://www.thehindu.com/news/national/maharashtra/maharashtra-declares-drought-in-265-talukas-covering-74-of-state/article71511967.ece",
-   "date": "2026-09-26T07:49:16Z"
-  },
-  {
-   "feed": "india-news",
-   "title": "The Hindu: Woman dies after childbirth in cut-off tribal village in Andhra’s ASR district; floods blocked road to health centre",
-   "summary": "Lavanya of Gangavaram in G.K. Veedhi mandal could not be taken to the Darakonda health centre, just 6 km after streams overflowed and a bridge washed away",
-   "link": "https://www.thehindu.com/news/national/andhra-pradesh/woman-dies-after-childbirth-in-cut-off-tribal-village-in-andhras-asr-district-floods-blocked-road-to-health-centre/article71511809.ece",
-   "date": "2026-09-26T07:48:27Z"
+   "feed": "security-news",
+   "title": "Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
+   "summary": "Kiteworks (formerly Accellion) is urging customers to shut down their systems as a precautionary measure for nine hours over the weekend after it received threat intelligence about an imminent cyber attack.\n\"Kiteworks received credible threat intelligence from federal intelligence authorities indica",
+   "link": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
+   "date": "2026-09-26T07:48:33Z"
   },
   {
    "feed": "world-headlines",
@@ -854,13 +1723,6 @@
    "date": "2026-09-26T07:46:45Z"
   },
   {
-   "feed": "india-news",
-   "title": "The Hindu: Non-recovery of train ticket from deceased passenger can't defeat compensation claim: Supreme Court",
-   "summary": "The Bench noted that after the parents of the deceased filed the claim application before the tribunal, the authorities prepared the investigation report",
-   "link": "https://www.thehindu.com/news/national/non-recovery-of-train-ticket-from-deceased-passenger-cant-defeat-compensation-claim-supreme-court/article71511853.ece",
-   "date": "2026-09-26T07:46:00Z"
-  },
-  {
    "feed": "world-headlines",
    "title": "Manchester City found guilty? What we know; what could the punishment be?",
    "summary": "The fallout begins as football and lawyers prepare for the next phase of 115 Premier League charges against Man City.",
@@ -873,41 +1735,6 @@
    "summary": "An innovative modular construction system and 24 tonnes of structural adhesive have dramatically accelerated work on Gaudí's Sagrada Familia. More than 140 years after construction began, the Barcelona basilica is reaching one of the defining milestones in its extraordinary history.",
    "link": "https://www.euronews.com/2026/09/26/the-secret-behind-the-sagrada-familias-final-towers-stone-steel-and-21st-century-glue",
    "date": "2026-09-26T07:40:22Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "มติชน: โรงแรม B2 แจงแล้ว หลัง พระมหานภันต์ ถูกปฏิเสธเข้าพัก ยันตลอด 20 ปี ไม่เคยแบ่งแยก",
-   "summary": "โรงแรม B2 แจงแล้ว หลัง พระมหานภันต์ ถูกปฏิเสธเข้าพัก ยั […]",
-   "link": "https://www.matichon.co.th/local/religious/news_5906203",
-   "date": "2026-09-26T07:38:34Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "ประชาชาติธุรกิจ: ‘ก.พ.’ ขอให้ส่วนราชการ WFH 100% ช่วง 28-29 ก.ย.นี้",
-   "summary": "สำนักงาน ก.พ. ขอความร่วมมือส่วนราชการพิจารณา Work From Home 100% ช่วง 28-29 ก.ย. เหตุฝนตกหนักอาจมีน้ำท่วม ประกาศสำนักงานคณะกรรมการข้าราชการพลเรือน (ก.พ.) แจ้งว่า ด้วยเหตุสถานการณ์ฝนตกน้ำท่วมขณะนี้ซึ่งจะมีผลไปถึงต้นสัปดาห์หน้า ดังนั้น หากไม่มีภา …\nอ่านข่าวต้นฉบับ: ‘ก.พ.’ ขอให้ส่วนราชการ WFH 100% ช่วง",
-   "link": "https://www.prachachat.net/politics/news-2072083",
-   "date": "2026-09-26T07:37:45Z"
-  },
-  {
-   "feed": "india-news",
-   "title": "The Hindu: Belagavi youth drowns during Ganesh idol immersion",
-   "summary": "The 20-year-old B.Sc student had entered the tank along with his friends for the immersion.",
-   "link": "https://www.thehindu.com/news/national/karnataka/belagavi-youth-drowns-during-ganesh-idol-immersion/article71511981.ece",
-   "date": "2026-09-26T07:35:08Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "มติชน: กองทัพไทย โดยหน่วยบัญชาการทหารพัฒนา เตรียมพร้อมศูนย์พักพิงชั่วคราว บรรเทาความเดือดร้อนประชาชนจากน้ำท่วม",
-   "summary": "กองทัพไทย โดยหน่วยบัญชาการทหารพัฒนา เตรียมพร้อมศูนย์พัก […]",
-   "link": "https://www.matichon.co.th/local/news_5906192",
-   "date": "2026-09-26T07:35:04Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "มติชน: เอสเอ็มอีห่วงฝนแช่ กระทบศก.จากการเคลื่อนที่ แนะรัฐเร่งเยียวยา-ฟื้นฟู",
-   "summary": "เอสเอ็มอี ห่วงฝนแช่ กระทบเศรษฐกิจจากการเคลื่อนที่ แนะเร […]",
-   "link": "https://www.matichon.co.th/economy/news_5906122",
-   "date": "2026-09-26T07:33:36Z"
   },
   {
    "feed": "world-headlines",
@@ -924,67 +1751,11 @@
    "date": "2026-09-26T07:31:05Z"
   },
   {
-   "feed": "thailand-news-th",
-   "title": "ประชาชาติธุรกิจ: อนุทิน เร่งกลับจากอังกฤษ จ่อลงพื้นที่น้ำท่วมทันที",
-   "summary": "นายกฯ เร่งเดินทางกลับจากอังกฤษ ถึงไทย 8 โมงพรุ่งนี้ เตรียมลงปฏิบัติภารกิจบัญชาการเหตุการณ์น้ำท่วมทันที นายเอกภพ เพียรพิเศษ โฆษกประจำสำนักนายกรัฐมนตรี เปิดเผยว่า นายอนุทิน ชาญวีรกูล นายกรัฐมนตรี เลื่อนกำหนดการเดินทางกลับประเทศไทยให้เร็วขึ้น โดยจะออกเด …\nอ่านข่าวต้นฉบับ: อนุทิน เร่งกลับจากอังกฤษ จ่อลง",
-   "link": "https://www.prachachat.net/politics/news-2072080",
-   "date": "2026-09-26T07:30:05Z"
-  },
-  {
-   "feed": "india-news",
-   "title": "The Hindu: India criticises Pakistan’s ‘falsehoods’ and ‘deceit’ at UN; warns terrorism will have consequences",
-   "summary": "India used its Right of Reply after Pakistan Prime Minister Shehbaz Sharif credited U.S. President Donald Trump for a ‘timely intervention’ in the 2025 conflict and raised the Kashmir issue",
-   "link": "https://www.thehindu.com/news/national/india-criticises-pakistans-falsehoods-and-deceit-at-un-warns-terrorism-will-have-consequences/article71511829.ece",
-   "date": "2026-09-26T07:29:00Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "มติชน: ยอดเข้าใช้ ‘เช็คน้ำ’ GISTDA พุ่ง 28 ล้านครั้งในวันเดียว จับตาฝนหนักซ้ำพรุ่งนี้ 27 ก.ย.",
-   "summary": "ยอดเข้าใช้ ‘เช็คน้ำ’ GISTDA พุ่ง 28 ล้านครั้งในวันเดียว […]",
-   "link": "https://www.matichon.co.th/local/quality-life/news_5906151",
-   "date": "2026-09-26T07:28:05Z"
-  },
-  {
    "feed": "russia-news",
    "title": "TASS (Russian state media): Explosion occurres during welding works at Elga deposit in Yakutia causing fatalities",
    "summary": "According to preliminary information, an explosion occurred on September 26 during welding operations at the backup pumping station, the press service of the regional prosecutor’s office reported",
    "link": "https://tass.com/emergencies/2193237",
    "date": "2026-09-26T07:26:56Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "มติชน: เอกนิติ นำทีม วราวุธ-ภราดร ตรวจน้ำท่วมอยุธยา ยันไม่เหมือนปี 54 แต่ไม่ประมาท จับตาเข้มปริมาณฝน อีก 2 วัน",
-   "summary": "”วราวุธ” ร่วมคณะ “เอกนิติ-ภราดร“ ลงพื้นที่อยุธยา ติดตาม […]",
-   "link": "https://www.matichon.co.th/politics/news_5906168",
-   "date": "2026-09-26T07:24:05Z"
-  },
-  {
-   "feed": "india-news",
-   "title": "The Hindu: PM Modi pays homage to ex-PM Manmohan Singh on birth anniversary",
-   "summary": "Manmohan Singh assumed charge as India's 14th Prime Minister on May 22, 2004 and for the second consecutive term on May 22, 2009",
-   "link": "https://www.thehindu.com/news/national/pm-modi-pays-homage-to-ex-pm-manmohan-singh-on-birth-anniversary/article71512009.ece",
-   "date": "2026-09-26T07:24:02Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "มติชน: ชัชชาติคาดช่วงค่ำดีขึ้น ‘ตอนนี้ ทรงตัว’ ลุ้นฝนไม่เข้ามาเติม สั่งปิดร.ร.- WFH จันทร์นี้",
-   "summary": "ชัชชาติ ชี้ ตอนนี้ทรงตัว ลุ้นฝนไม่เข้ามาเติม คาดช่วงเย็ […]",
-   "link": "https://www.matichon.co.th/local/quality-life/news_5906148",
-   "date": "2026-09-26T07:23:29Z"
-  },
-  {
-   "feed": "india-news",
-   "title": "The Hindu: Harish Rawat appears before ED for questioning in 2016 recruitment case",
-   "summary": "On September 12, Mr. Rawat announced his decision to step down from all party posts after the Enforcement Directorate recovered cash and jewellery from his personal assistant's house",
-   "link": "https://www.thehindu.com/news/national/uttarakhand/harish-rawat-appears-before-ed-for-questioning-in-2016-recruitment-case/article71512001.ece",
-   "date": "2026-09-26T07:23:16Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "ประชาชาติธุรกิจ: ‘ยศชนัน’ ตรวจปากคลองรังสิต สั่งเร่งตัดยอดน้ำเซฟ “ปทุมฯ – ตอนเหนือ กทม.”",
-   "summary": "‘ยศชนัน’ ลงพื้นที่สถานีสูบน้ำปากคลองรังสิต บูรณาการกรมชลฯ-กทม. เร่งตัดยอดน้ำเซฟพื้นที่ “ปทุมฯ-ตอนเหนือ กทม.” สั่งทุกหน่วยงานในภาคเหนือ เตรียมพร้อมรับมือฝนหนักช่วง 1-2 วันนี้ นายยศชนัน วงศ์สวัสดิ์ รองนายกรัฐมนตรี รมว.การอุดมศึก …\nอ่านข่าวต้นฉบับ: ‘ยศชนัน’ ตรวจปากคลองรังสิต สั่งเร่งตัดยอดน้ำเซฟ “ปทุมฯ",
-   "link": "https://www.prachachat.net/politics/news-2072073",
-   "date": "2026-09-26T07:22:47Z"
   },
   {
    "feed": "europe-news",
@@ -1008,53 +1779,11 @@
    "date": "2026-09-26T07:21:30Z"
   },
   {
-   "feed": "thailand-news-th",
-   "title": "มติชน: ชาวบ้านโอด Cell Broadcast เตือนช้า! ตั้งตัวไม่ทัน 7-Eleven ก็ท่วม บางสาขาของหมดจ่อปิด",
-   "summary": "ชาวบ้านโอด Cell Broadcast เตือนช้า! ตั้งตัวไม่ทัน 7-Ele […]",
-   "link": "https://www.matichon.co.th/local/news_5906169",
-   "date": "2026-09-26T07:20:17Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "มติชน: แอ๊ด คาราบาว เผยภาพ น้ำท่วมเข้าบ้าน รับ ไม่เคยหนักอย่างนี้ พาให้นึกถึงพี่น้องใกล้เขาหัวโล้น",
-   "summary": "แอ๊ด คาราบาว เผยภาพ น้ำท่วมเข้าบ้าน รับ ไม่เคยหนักอย่าง […]",
-   "link": "https://www.matichon.co.th/entertainment/news_5906155",
-   "date": "2026-09-26T07:18:46Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "ประชาชาติธุรกิจ: เอกนิติ สั่งท้ายเขื่อนเจ้าพระยา เร่งผันน้ำออกข้าง-ใช้ทุ่งรับตามเหมาะสม",
-   "summary": "‘เอกนิติ’ ลงพื้นที่อยุธยา สั่งบริหารน้ำเชิงรุกผันน้ำออกด้านข้าง ใช้พื้นที่ทุ่งรับ พร้อมเสริมแนวป้องกันพื้นที่สำคัญ ดูแลประชาชนกลุ่มเปราะบาง นายเอกนิติ นิติทัณฑ์ประภาศ รองนายกรัฐมนตรี และรัฐมนตรีว่าการกระทรวงการคลัง ในฐานะประธานกรรมการป้อง …\nอ่านข่าวต้นฉบับ: เอกนิติ สั่งท้ายเขื่อนเจ้าพระยา เร่งผันน้ำ",
-   "link": "https://www.prachachat.net/politics/news-2072064",
-   "date": "2026-09-26T07:17:51Z"
-  },
-  {
    "feed": "europe-news",
    "title": "Euronews: Israeli settlers seizing natural springs in the West Bank",
    "summary": "Earlier this month, 12 countries announced new trade sanctions on Israeli settlements in the occupied West Bank amid what they called a \"rapidly deteriorating\" situation marked by increasing settler attacks on Palestinians.",
    "link": "https://www.euronews.com/2026/09/26/israeli-settlers-seizing-natural-springs-in-the-west-bank",
    "date": "2026-09-26T07:10:40Z"
-  },
-  {
-   "feed": "india-news",
-   "title": "The Hindu: Unverified claims of suicide by two students spark protests at Patiala private university",
-   "summary": "It also said the local administration and police authorities are working closely to address the unsubstantiated claims of some students",
-   "link": "https://www.thehindu.com/news/national/punjab/unverified-claims-of-suicide-by-two-students-spark-protests-at-patiala-private-university/article71511868.ece",
-   "date": "2026-09-26T07:10:18Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "ประชาชาติธุรกิจ: ก.เกษตรฯ ยังระบายน้ำอยู่ในกรอบ ประเมินที่นครสวรรค์ ยังไม่น่ากังวล",
-   "summary": "สุริยะ เรียกประชุมตรวจสถานการณ์น้ำลุ่มเจ้าพระยา อธิบดีกรมชลฯ รายงานปรับเพิ่มการระบายน้ำท้ายเขื่อนเจ้าพระยาเป็น 1,850 ลูกบาศก์เมตรต่อวินาที หลังมีฝนตกสะสมในพื้นที่ช่วงนครสวรรค์-ชัยนาท ยืนยันการระบายน้ำยังอยู่ในกรอบความปลอดภัย ที่ กรมชลประทาน (ถนนสามเส …\nอ่านข่าวต้นฉบับ: ก.เกษตรฯ ยังระบายน้ำอยู่ในกรอบ",
-   "link": "https://www.prachachat.net/uncategorized/news-2072056",
-   "date": "2026-09-26T07:09:07Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "มติชน: ทูเคิลบ่นพาลเมอร์ถอนตัวบ่อยเกินไป ทำพลาดโอกาสดีๆ ในทีมชาติอังกฤษ",
-   "summary": "ทูเคิลบ่นพาลเมอร์ถอนตัวบ่อยเกินไป ทำพลาดโอกาสดีๆ ในทีมช […]",
-   "link": "https://www.matichon.co.th/sport/footballinter/news_5906079",
-   "date": "2026-09-26T07:08:50Z"
   },
   {
    "feed": "japan-news",
@@ -1092,32 +1821,11 @@
    "date": "2026-09-26T07:05:20Z"
   },
   {
-   "feed": "thailand-news-th",
-   "title": "ประชาชาติธุรกิจ: TEAMG เตือน กทม.-ปริมณฑล ฝน 100-150 มม./วัน น้ำล้นคลอง-ถนนท่วมถึง 27 ก.ย.",
-   "summary": "TEAMG ประเมิน กทม.-ปริมณฑลยังมีฝนต่อเนื่อง 100-150 มิลลิเมตรต่อวันในวันที่ 26-27 กันยายน สูงกว่าขีดความสามารถระบบระบายน้ำที่ออกแบบรองรับราว 60 มิลลิเมตรต่อวัน ส่งผลให้น้ำค้างในคลองหลายสายและบางจุดเริ่มล้นตลิ่ง พื้นที่ลุ่มต่ำใกล้คลองอาจมีน้ำบนถนน 10-2 …\nอ่านข่าวต้นฉบับ: TEAMG เตือน กทม.-ปริมณฑล ฝน 10",
-   "link": "https://www.prachachat.net/economic/news-2072057",
-   "date": "2026-09-26T07:03:24Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "มติชน: ปทุมธานี-รังสิต วิกฤตหนัก ผู้ว่าฯ จ่อประกาศ ‘พื้นที่ภัยพิบัติ’ แห่จอดรถหนีน้ำบนโทลล์เวย์ วอนรัฐอนุโลม",
-   "summary": "ปทุมธานี-รังสิต วิกฤตหนัก ผู้ว่าฯ เตรียมประกาศ ‘พ […]",
-   "link": "https://www.matichon.co.th/local/news_5906115",
-   "date": "2026-09-26T07:03:09Z"
-  },
-  {
    "feed": "japan-news",
    "title": "Japan Today: Japanese 11-year-old wins Asian Games eSports gold",
    "summary": "Japan's 11-year-old eSports prodigy Yuki Kurihara won Asian Games gold on Saturday in style after thrashing a series of opponents up to three times his age.\nThe bespectacled…",
    "link": "https://japantoday.com/category/sports/japanese-11-year-old-wins-asian-games-esports-gold",
    "date": "2026-09-26T07:02:51Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "ประชาชาติธุรกิจ: อัพเดตธนาคาร ประกาศปิดสาขาชั่วคราว 26 ก.ย. 69 จากสถานการณ์น้ำท่วม",
-   "summary": "จากสถานการณ์น้ำท่วมที่กำลังเกิดขึ้นในพื้นที่กรุงเทพและปริมณฑล รวมถึงในต่างจังหวัดบางพื้นที่ ทำให้ธนาคารและสถาบันการเงิน ประกาศปิดให้บริการบางสาขาชั่วคราวจากสถานการณ์ดังกล่าว โดยแต่ละธนาคารประกาศปิดสาขา ดังนี้ ธนาคารออมสิน ธนาคารออมสิน ระบุว่า จากสถาน …\nอ่านข่าวต้นฉบับ: อัพเดตธนาคาร ประกาศปิดสาขาชั่ว",
-   "link": "https://www.prachachat.net/finance/news-2072039",
-   "date": "2026-09-26T07:01:00Z"
   },
   {
    "feed": "japan-news",
@@ -1141,116 +1849,11 @@
    "date": "2026-09-26T06:59:29Z"
   },
   {
-   "feed": "thailand-news-th",
-   "title": "มติชน: การค้าชายแดน-ผ่านแดน 8 เดือนทะลุ 1.5 ล้านล้าน เมียนมา พลิกบวกแล้ว ยอดส.ค.ส่งไปปท.ที่สามโต 42.1%",
-   "summary": "การค้าชายแดน-ผ่านแดน 8 เดือนทะลุ 1.5 ล้านล้าน เมียนมา พ […]",
-   "link": "https://www.matichon.co.th/economy/news_5906129",
-   "date": "2026-09-26T06:56:43Z"
-  },
-  {
-   "feed": "india-news",
-   "title": "The Hindu: Woman accused in MDMA case stabbed near police station at Vadakara",
-   "summary": "Her partner was taken into custody as part of the continuing investigation into the incident",
-   "link": "https://www.thehindu.com/news/national/kerala/woman-accused-in-mdma-case-stabbed-near-police-station-at-vadakara/article71511854.ece",
-   "date": "2026-09-26T06:55:46Z"
-  },
-  {
-   "feed": "india-news",
-   "title": "The Hindu: LED hoarding, jaywalking, and traffic violations pose safety concerns near Tirusulam",
-   "summary": "Motorists say the sharp brightness from the large LED screen can distract them, particularly while approaching the signal",
-   "link": "https://www.thehindu.com/news/cities/chennai/led-hoarding-jaywalking-and-traffic-violations-pose-safety-concerns-near-tirusulam/article71511842.ece",
-   "date": "2026-09-26T06:52:49Z"
-  },
-  {
-   "feed": "india-news",
-   "title": "The Hindu: IAS officer Mandeep Bhandari appointed chairperson of CBSE",
-   "summary": "The 2001-batch IAS officer from the AGMUT cadre has held key leadership and administrative roles across Jammu & Kashmir and Central government departments",
-   "link": "https://www.thehindu.com/news/national/ias-officer-mandeep-bhandari-appointed-chairperson-of-cbse/article71510066.ece",
-   "date": "2026-09-26T06:51:57Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "มติชน: เดชรัต ห่วงภาคตะวันออก แนวโน้มมีฝนซ้ำ ด้านปธ.กมธ.ทหาร ประสานกองทัพ อพยพกลุ่มเปราะบาง กทม.",
-   "summary": "‘เดชรัต’ ห่วงภาคตะวันออกเตือนฝนตกซ้ำอีก 2 วัน สถานการณ์ […]",
-   "link": "https://www.matichon.co.th/politics/news_5906113",
-   "date": "2026-09-26T06:51:10Z"
-  },
-  {
-   "feed": "india-news",
-   "title": "The Hindu: Vijay accuses DMK of covering up POCSO Act case against Veeramani, questions AIADMK’s silence",
-   "summary": "At a campaign meeting held in Madurantanakam for the Assembly byelection, the Chief Minister says the accused was ruining the lives of young girls for years. The case was registered during DMK rule, but it was covered up",
-   "link": "https://www.thehindu.com/news/national/tamil-nadu/vijay-accuses-dmk-of-covering-up-pocso-act-case-against-veeramani-questions-aiadmks-silence/article71508920.ece",
-   "date": "2026-09-26T06:50:20Z"
-  },
-  {
-   "feed": "india-news",
-   "title": "The Hindu: Temple priest arrested for alleged derogatory remarks against Sree Narayana Guru",
-   "summary": "He was booked after receiving a complaint about a YouTube video in which the accused allegedly made derogatory remarks earlier this month",
-   "link": "https://www.thehindu.com/news/national/kerala/temple-priest-arrested-for-alleged-derogatory-remarks-against-sree-narayana-guru/article71511900.ece",
-   "date": "2026-09-26T06:43:07Z"
-  },
-  {
    "feed": "europe-news",
    "title": "Euronews: Behind the scenes: How the C8 summit and an oil deal exposed fragile Hungary-Ukraine ties",
    "summary": "A dispute over Hungary’s role in Ukraine’s Carpathian Eight summit and the disclosure of an oil-storage deal between MOL and Naftogaz have further strained ties between Budapest and Kyiv, as a separate row over minority rights continues to hold up Ukraine’s EU accession talks.",
    "link": "https://www.euronews.com/2026/09/26/behind-the-scenes-how-the-c8-summit-and-an-oil-deal-exposed-fragile-hungary-ukraine-ties",
    "date": "2026-09-26T06:42:04Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "ประชาชาติธุรกิจ: เดอะมอลล์ เปิดจอดรถฟรี 5 สาขา ช่วยประชาชนน้ำท่วม 26-27 ก.ย. 69",
-   "summary": "เดอะมอลล์ กรุ๊ป เปิดพื้นที่จอดรถยนต์ฟรีที่เดอะมอลล์ ไลฟ์สโตร์ทุกสาขา และเดอะมอลล์ โคราช เพื่ออำนวยความสะดวกประชาชนที่ได้รับผลกระทบจากน้ำท่วม ระหว่างวันที่ 26-27 กันยายน 2569 ผู้สื่อข่าวรายงานว่า เดอะมอลล์ กรุ๊ป แจ้งผ่านเฟซบุ๊ก ประชาสัมพันธ์พื้นที่จอด …\nอ่านข่าวต้นฉบับ: เดอะมอลล์ เปิดจอดรถฟรี 5 สาขา ",
-   "link": "https://www.prachachat.net/news/news-2072052",
-   "date": "2026-09-26T06:40:01Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "มติชน: อิหร่านเสนอเปิดช่องแคบฮอร์มุซ แลกสหรัฐเจรจานิวเคลียร์ภายใน 7 วัน",
-   "summary": "อิหร่านเสนอเปิดช่องแคบฮอร์มุซ แลกสหรัฐเจรจานิวเคลียร์ภา […]",
-   "link": "https://www.matichon.co.th/foreign/news_5906114",
-   "date": "2026-09-26T06:38:49Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "มติชน: สกร. ทำสถิติใหม่คะแนน N-NET เฉลี่ยระดับประเทศพุ่ง 49.04 อุดรฯ แชมป์",
-   "summary": "สกร. ทำสถิติใหม่คะแนน N-NET เฉลี่ยระดับประเทศพุ่ง 49.04 […]",
-   "link": "https://www.matichon.co.th/local/education/news_5906096",
-   "date": "2026-09-26T06:30:36Z"
-  },
-  {
-   "feed": "world-headlines",
-   "title": "Bangkok declares disaster as heavy rains spark flooding",
-   "summary": "Days of near continuous downpours have caused widespread flooding in the Thai capital.",
-   "link": "https://www.bbc.co.uk/news/videos/ck9800jdj1q0o?at_medium=RSS&at_campaign=rss",
-   "date": "2026-09-26T06:28:58Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "ประชาชาติธุรกิจ: ชงเลื่อน ไทยเที่ยวไทยพลัส อัดงบฯ กรีนซีซั่น หนีฝุ่น PM2.5",
-   "summary": "จากกรณีที่กระทรวงการท่องเที่ยวและกีฬาประกาศปรับเปลี่ยนช่วงเวลาดำเนินโครงการไทยเที่ยวไทยพลัส วงเงิน 4,000 ล้านบาท จำนวน 1 ล้านสิทธิ เดิมมีแผนจะเปิดตัวในช่วงปลายปี 2569 ขยับออกไปเป็นเดือน เม.ย. 2570 เพื่อกระตุ้นการท่องเที่ยวในช่วงโลว์ซีซั่น (Low Season …\nอ่านข่าวต้นฉบับ: ชงเลื่อน ไทยเที่ยวไทยพลัส อัดง",
-   "link": "https://www.prachachat.net/economic/news-2071274",
-   "date": "2026-09-26T06:27:55Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "มติชน: สุริยะ ถกด่วนติดตามน้ำ ปรับเพิ่มระบายเขื่อนเจ้าพระยาเป็น 1,850 ลบ.ม./วินาที",
-   "summary": "สุริยะ ถกด่วน ติดตามสถานการณ์น้ำลุ่มเจ้าพระยาใกล้ชิด ขณ […]",
-   "link": "https://www.matichon.co.th/politics/news_5906072",
-   "date": "2026-09-26T06:26:54Z"
-  },
-  {
-   "feed": "india-news",
-   "title": "The Hindu: Meghalaya delegation identifies three World War 1 graves of Garo men in Malta",
-   "summary": "Till now, the grave of Khew Marak, who died on June 15, 1918, was understood to be the only known grave of a Garo member of the 69th Garo Labour Company at the cemetery",
-   "link": "https://www.thehindu.com/news/national/meghalaya/meghalaya-delegation-identifies-three-world-war-1-graves-of-garo-men-in-malta/article71511851.ece",
-   "date": "2026-09-26T06:26:48Z"
-  },
-  {
-   "feed": "india-news",
-   "title": "The Hindu: Odisha Police cracks theft case, secures conviction in just 17 days",
-   "summary": "The investigation was completed expeditiously; the charge-sheet was submitted on September 19, and charges were framed on September 21.",
-   "link": "https://www.thehindu.com/news/national/odisha/odisha-police-cracks-theft-case-secures-conviction-in-just-17-days/article71511898.ece",
-   "date": "2026-09-26T06:23:08Z"
   },
   {
    "feed": "thailand-news",
@@ -1260,53 +1863,11 @@
    "date": "2026-09-26T06:15:37Z"
   },
   {
-   "feed": "india-news",
-   "title": "The Hindu: Yamuna Expressway Tragedy: 9 Killed In Sleeper Bus Fire",
-   "summary": "Yamuna Expressway bus fire, Jewar bus fire, Greater Noida bus fire, nine killed bus fire, sleeper bus fire, Yamuna Expressway accident, Jewar accident, Delhi Mahoba bus, Greater Noida news, Uttar Pradesh news, bus fire today, bus accident today, driver conductor arrested, bus fire investigation, roa",
-   "link": "https://www.thehindu.com/news/national/yamuna-expressway-tragedy-9-killed-in-sleeper-bus-fire/article71503880.ece",
-   "date": "2026-09-26T06:15:25Z"
-  },
-  {
-   "feed": "india-news",
-   "title": "The Hindu: Deep rot: On the Election Commission of India’s functioning during its SIR",
-   "summary": "Two Election Commissioners objected on record 14 times in ten months — many decisions made without their knowledge. We break down the Indian Express investigation into ECI’s Special Intensive Revision, the Form 6 dispute, the ERONet centralisation row, and what it means for West Bengal’s 27 lakh del",
-   "link": "https://www.thehindu.com/news/national/deep-rot-on-the-election-commission-of-indias-functioning-during-its-sir/article71503423.ece",
-   "date": "2026-09-26T06:15:05Z"
-  },
-  {
-   "feed": "india-news",
-   "title": "The Hindu: Uddhav Thackeray seeks sacking and imprisonment of Gyanesh Kumar; re-election for Maharashtra, TN, West Bengal",
-   "summary": "‘These elections should be held on ballot paper; Gyanesh Kumar should be jailed immediately; all the wrong decisions of the Election Commission should be revoked,’ said Uddhav Thackeray",
-   "link": "https://www.thehindu.com/news/national/maharashtra/uddhav-thackeray-seeks-sacking-and-imprisonment-of-gyanesh-kumar-re-election-for-maharashtra-tn-west-bengal/article71500918.ece",
-   "date": "2026-09-26T06:13:47Z"
-  },
-  {
    "feed": "russia-news",
    "title": "TASS (Russian state media): Air defenses down 645 drones over Russian regions, Black Sea, Sea of Azov overnight",
    "summary": "Ukrainian fixed-wing unmanned aerial vehicles were destroyed over the territories of the Astrakhan, Belgorod, Bryansk, Voronezh, Kaluga, Kursk, Oryol, Rostov, Ryazan, Tula, Moscow, Krasnodar, Stavropol Regions, the Republic of Crimea",
    "link": "https://tass.com/defense/2193231",
    "date": "2026-09-26T06:13:00Z"
-  },
-  {
-   "feed": "india-news",
-   "title": "The Hindu: Five youths assault girl in Bihar’s Kishanganj; SIT arrests one",
-   "summary": "This is the fifth case within a week after incidents of harassment and molestation of minor girls have been reported from Jamui, Banka and Samastipur districts.",
-   "link": "https://www.thehindu.com/news/national/bihar/girl-assaulted-by-five-youths-in-bihars-kishanganj-sit-arrests/article71511804.ece",
-   "date": "2026-09-26T06:11:35Z"
-  },
-  {
-   "feed": "india-news",
-   "title": "The Hindu: Ganesh idol immersions continue on September 26 in Hyderabad as long truck queues clog Tank Bund stretch",
-   "summary": "The heavy movement of trucks carrying idols, along with a large turnout of devotees and vehicles, particularly families arriving in large numbers, slowed traffic movement and contributed to delays in the immersion process",
-   "link": "https://www.thehindu.com/news/cities/Hyderabad/ganesh-idol-immersions-continue-on-september-26-in-hyderabad-as-long-truck-queues-clog-tank-bund-stretch/article71511609.ece",
-   "date": "2026-09-26T06:07:25Z"
-  },
-  {
-   "feed": "india-news",
-   "title": "NDTV: \"Give Him Chance\": Bihar Harassment Accused's Mother Alleges Encounter Staged",
-   "summary": "The woman claimed that her son was innocent and urged the government to give him another opportunity.",
-   "link": "https://www.ndtv.com/india-news/bihar-harassment-accuseds-mother-alleges-encounter-staged-give-him-chance-12100498#publisher=newsstand",
-   "date": "2026-09-26T06:07:04Z"
   },
   {
    "feed": "japan-news",
@@ -1344,25 +1905,11 @@
    "date": "2026-09-26T05:57:23Z"
   },
   {
-   "feed": "india-news",
-   "title": "NDTV: 19 Dead After Drinking Poisonous Liquor In Nagaland",
-   "summary": "Samples have been sent for forensic examination to ascertain the cause of deaths. (Representational)",
-   "link": "https://www.ndtv.com/india-news/19-dead-after-drinking-poisonous-liquor-in-nagaland-12100539#publisher=newsstand",
-   "date": "2026-09-26T05:56:08Z"
-  },
-  {
    "feed": "hurricanes",
    "title": "Hurricane Polo (EP2), advisory 26/0553Z",
    "summary": "POLO REMAINS AN EXTREMELY DANGEROUS CATEGORY 5 HURRICANE. ...EXPECTED TO MAKE LANDFALL IN BAJA CALIFORNIA SUR ON MONDAY AS A POWERFUL HURRICANE... As of 11:00 PM MST Fri Sep 25 the center of Polo was located near 17.5, -110.5 with movement WNW at 10 mph. The minimum central pressure was 911 mb with ",
    "link": "https://www.nhc.noaa.gov/text/refresh/MIATCPEP2+shtml/260553.shtml",
    "date": "2026-09-26T05:53:49Z"
-  },
-  {
-   "feed": "india-news",
-   "title": "The Hindu: Jaishankar meets Iranian, Russian Foreign Ministers on UNGA margins",
-   "summary": "External Affairs Minister S. Jaishankar met his counterparts from Iran and Russia, with discussions ranging from bilateral issues, cooperation in the BRICS grouping and the Gulf conflict",
-   "link": "https://www.thehindu.com/news/national/jaishankar-meets-iranian-russian-foreign-ministers-on-unga-margins/article71511817.ece",
-   "date": "2026-09-26T05:46:12Z"
   },
   {
    "feed": "thailand-news",
@@ -1379,20 +1926,6 @@
    "date": "2026-09-26T05:43:38Z"
   },
   {
-   "feed": "world-headlines",
-   "title": "Roads flood in New Jersey, inundate some homes, as first major signs of nor'easter take shape",
-   "summary": "Thousands are without power on the U.S. East Coast, while roads are flooding in some coastal New Jersey communities.",
-   "link": "https://www.npr.org/2026/09/26/g-s1-145146/roads-flood-in-new-jersey",
-   "date": "2026-09-26T05:43:38Z"
-  },
-  {
-   "feed": "india-news",
-   "title": "NDTV: Jagan Reddy Once Backed Law On Poll Body Chief's Selection, Now Calls To 'Revisit' It",
-   "summary": "Reddy said the public needed clarity rather than an exchange of allegations (File)",
-   "link": "https://www.ndtv.com/india-news/jagan-reddy-once-backed-law-on-poll-body-chiefs-selection-now-calls-to-revisit-it-amid-gyanesh-kumar-sir-row-12100614#publisher=newsstand",
-   "date": "2026-09-26T05:42:30Z"
-  },
-  {
    "feed": "russia-news",
    "title": "TASS (Russian state media): Russian Armed Forces hit Cosmonova data center in Kiev",
    "summary": "It provided the operation of mobile internet and supported the Starlink satellite communication system in the interests of the Ukrainian army, the Russian Defense Ministry reported",
@@ -1400,32 +1933,11 @@
    "date": "2026-09-26T05:42:21Z"
   },
   {
-   "feed": "india-news",
-   "title": "The Hindu: Chhattisgarh government declares school holiday amid heavy rain, flood-like situation",
-   "summary": "Chief Minister Vishnu Deo Sai ordered relief and rescue operations across the State after incessant rain inundated low-lying areas and cut off villages in the Bastar region",
-   "link": "https://www.thehindu.com/news/national/chhattisgarh/chhattisgarh-government-declares-school-holiday-amid-heavy-rain-flood-like-situation/article71511704.ece",
-   "date": "2026-09-26T05:37:33Z"
-  },
-  {
    "feed": "europe-news",
    "title": "Euronews: How Russia recruits Belarusians for war in Ukraine: Methods and consequences",
    "summary": "Russia's recruitment drive targeting Belarusians has become a key tool to boost manpower on the battlefield and exploits economic hardship and isolation.",
    "link": "https://www.euronews.com/2026/09/26/how-russia-recruits-belarusians-for-war-in-ukraine-methods-and-consequences",
    "date": "2026-09-26T05:30:38Z"
-  },
-  {
-   "feed": "world-headlines",
-   "title": "‘Nowhere else to go’: Gaza families shelter in buildings that may collapse",
-   "summary": "Three years of Israel's war has left families in Gaza living in damaged buildings, with few safe alternatives available.",
-   "link": "https://www.aljazeera.com/features/2026/9/26/nowhere-else-to-go-gaza-families-shelter-in-buildings-that-may-collapse?traffic_source=rss",
-   "date": "2026-09-26T05:25:23Z"
-  },
-  {
-   "feed": "world-headlines",
-   "title": "Huckabee blames ‘biblical illiteracy’ for waning support for Israel in US",
-   "summary": "A Pew Research poll in April indicated 60 percent of the US adult population held an unfavourable view of Israel.",
-   "link": "https://www.aljazeera.com/news/2026/9/26/huckabee-blames-biblical-illiteracy-for-declining-us-support-for-israel?traffic_source=rss",
-   "date": "2026-09-26T05:23:09Z"
   },
   {
    "feed": "world-headlines",
@@ -1512,32 +2024,11 @@
    "date": "2026-09-26T04:49:50Z"
   },
   {
-   "feed": "world-headlines",
-   "title": "‘Shaken faith’: Why are India’s elections under unprecedented scrutiny?",
-   "summary": "India has long held up its elections as evidence of its democratic credentials. Now their legitimacy is under question.",
-   "link": "https://www.aljazeera.com/news/2026/9/26/shaken-faith-why-are-indias-elections-under-unprecedented-scrutiny?traffic_source=rss",
-   "date": "2026-09-26T04:48:41Z"
-  },
-  {
    "feed": "climate-news",
    "title": "Bangkok on red alert as massive floods hit the city",
    "summary": "Persistent heavy downpours over a 48-hour period have triggered widespread flooding in Bangkok.",
    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/bangkok-on-red-alert-as-massive-floods-hit-the-city?traffic_source=rss",
    "date": "2026-09-26T04:43:39Z"
-  },
-  {
-   "feed": "world-headlines",
-   "title": "Bangkok on red alert as massive floods hit the city",
-   "summary": "Persistent heavy downpours over a 48-hour period have triggered widespread flooding in Bangkok.",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/bangkok-on-red-alert-as-massive-floods-hit-the-city?traffic_source=rss",
-   "date": "2026-09-26T04:43:39Z"
-  },
-  {
-   "feed": "world-headlines",
-   "title": "CNN left off Air Force One for Trump's upcoming trip, White House signals in new media restriction",
-   "summary": "The White House has signaled that CNN will be left off Air Force One for President Donald Trump's Saturday trip in the latest media restriction in an ongoing dispute with First Amendment implications.",
-   "link": "https://www.npr.org/2026/09/26/g-s1-145142/cnn-left-off-air-force-one",
-   "date": "2026-09-26T04:42:17Z"
   },
   {
    "feed": "japan-news",
@@ -1554,13 +2045,6 @@
    "date": "2026-09-26T04:40:00Z"
   },
   {
-   "feed": "world-headlines",
-   "title": "US official claims Trump holds all the cards in Iran talks",
-   "summary": "US State Department Spokesman Tommy Pigott says President Donald Trump ‘holds all of the cards’ in talks with Tehran.",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/us-official-claims-trump-holds-all-the-cards-in-iran-talks?traffic_source=rss",
-   "date": "2026-09-26T04:37:22Z"
-  },
-  {
    "feed": "china-news",
    "title": "SCMP: China’s first lady Peng Liyuan shines during Xi-Trump summit: everything you missed",
    "summary": "We have put together stories from our coverage of Peng Liyuan during the Xi-Trump summit. If you would like to see more of our reporting, please consider subscribing.\n1. China’s first lady Peng Liyuan projects glamour and soft power on world stage\nChina’s first lady Peng Liyuan is again stepping int",
@@ -1575,20 +2059,6 @@
    "date": "2026-09-26T04:30:00Z"
   },
   {
-   "feed": "world-headlines",
-   "title": "Iran pitches US a seven-day end to the war at UNGA",
-   "summary": "Iran has pitched a proposal to open the Strait of Hormuz in seven days - if the US meets its conditions.",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/iran-pitches-us-a-seven-day-end-to-the-war-at-unga?traffic_source=rss",
-   "date": "2026-09-26T04:28:58Z"
-  },
-  {
-   "feed": "world-headlines",
-   "title": "White House bars CNN from Air Force One for Trump’s upcoming trip",
-   "summary": "Real America's Voice News replaces CNN on Air Force One amid escalating tensions between President Trump and US media.",
-   "link": "https://www.aljazeera.com/news/2026/9/26/white-house-bars-cnn-from-air-force-one-for-trumps-upcoming-trip?traffic_source=rss",
-   "date": "2026-09-26T04:27:07Z"
-  },
-  {
    "feed": "russia-news",
    "title": "TASS (Russian state media): Hormuz should be open in accordance with US-Iran memorandum — Pezeshkian",
    "summary": "Masoud Pezeshkian noted that Iran is still committed to this memorandum of understanding and willing to implement it",
@@ -1601,20 +2071,6 @@
    "summary": null,
    "link": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
    "date": "2026-09-26T04:20:58Z"
-  },
-  {
-   "feed": "world-headlines",
-   "title": "PAM wins big in Morocco parliament elections but falls short of majority",
-   "summary": "The next government will steer Morocco's 2030 World Cup preparations amid public frustration over local economy.",
-   "link": "https://www.aljazeera.com/news/2026/9/26/pam-wins-big-in-morocco-parliament-elections-but-falls-short-of-majority?traffic_source=rss",
-   "date": "2026-09-26T04:19:11Z"
-  },
-  {
-   "feed": "world-headlines",
-   "title": "Yemen’s government offers amnesty to Houthi defectors",
-   "summary": "Yemen’s president called on citizens to join the armed forces, and offered amnesty to Iran-backed Houthi rebels.",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/yemens-government-offers-amnesty-to-houthi-defectors?traffic_source=rss",
-   "date": "2026-09-26T04:06:49Z"
   },
   {
    "feed": "crypto-news",
@@ -1680,13 +2136,6 @@
    "date": "2026-09-26T03:36:01Z"
   },
   {
-   "feed": "world-headlines",
-   "title": "The bombs are still falling. Does diplomacy even work?",
-   "summary": "Al Jazeera’s Emma Withrow asked Al Anoud Al Thani what diplomacy can achieve.",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/the-bombs-are-still-falling-does-diplomacy-even-work?traffic_source=rss",
-   "date": "2026-09-26T03:34:23Z"
-  },
-  {
    "feed": "japan-news",
    "title": "The Mainichi: Iran proposes a deal to reopen the Strait of Hormuz in 7 days if the US meets its conditions",
    "summary": "UNITED NATIONS (AP) -- Iran has offered to reopen the Strait of Hormuz and resume talks on its nuclear program in seven days if the United States lift",
@@ -1708,6 +2157,13 @@
    "date": "2026-09-26T03:25:00Z"
   },
   {
+   "feed": "world-headlines",
+   "title": "Brazil's Lula bans online gambling ahead of presidential election",
+   "summary": "Lula, who is currently in a tight presidential race against Flávio Bolsonaro, said the industry was a \"cancer\" that he must \"remove\".",
+   "link": "https://www.bbc.co.uk/news/articles/c914ddj21rzlo?at_medium=RSS&at_campaign=rss",
+   "date": "2026-09-26T03:22:17Z"
+  },
+  {
    "feed": "russia-news",
    "title": "TASS (Russian state media): Four Italian troops injured during NATO drills in Latvia — Italian Defense Ministry",
    "summary": "The injured were evacuated from the training ground and taken to a hospital in Riga",
@@ -1715,25 +2171,11 @@
    "date": "2026-09-26T03:15:01Z"
   },
   {
-   "feed": "world-headlines",
-   "title": "Yemeni leader urges public to enlist, offers amnesty to Houthi defectors",
-   "summary": "Rashad al-Alimi pledges amnesty for Houthi defectors in first speech since losing ground on the western Red Sea coast.",
-   "link": "https://www.aljazeera.com/news/2026/9/26/yemeni-leader-urges-public-to-enlist-offers-amnesty-to-houthi-defectors?traffic_source=rss",
-   "date": "2026-09-26T03:10:43Z"
-  },
-  {
    "feed": "japan-news",
    "title": "The Mainichi: Father held for throwing 2 kids off 6th-floor balcony in central Japan",
    "summary": "GIFU (Kyodo) -- A 25-year-old man was arrested on the spot on Saturday for allegedly throwing his two daughters off the balcony of his sixth-floor apa",
    "link": "https://mainichi.jp/english/articles/20260926/p2g/00m/0na/016000c",
    "date": "2026-09-26T03:08:17Z"
-  },
-  {
-   "feed": "world-headlines",
-   "title": "UNGA81: Why has Africa’s Security Council reform push remained unresolved?",
-   "summary": "Africa wants permanent seats and veto power, but agreement remains elusive.",
-   "link": "https://www.aljazeera.com/news/2026/9/26/unga81-why-has-africas-security-council-reform-push-remained-unresolved?traffic_source=rss",
-   "date": "2026-09-26T03:07:55Z"
   },
   {
    "feed": "russia-news",
@@ -1841,20 +2283,6 @@
    "date": "2026-09-26T02:22:56Z"
   },
   {
-   "feed": "world-headlines",
-   "title": "Pope Leo XIV makes first official Papal visit in France in nearly 20",
-   "summary": "Pope Leo XIV drew huge crowds on the first Papal visit to France in 18 years.",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/pope-leo-xiv-makes-first-official-papal-visit-in-france-in-nearly-20?traffic_source=rss",
-   "date": "2026-09-26T02:18:09Z"
-  },
-  {
-   "feed": "japan-news",
-   "title": "The Mainichi: False claims alleging theft by foreigners in Japan spread on social media",
-   "summary": "TOKYO (Kyodo) -- Videos falsely portraying foreigners as stealing metal from railway tracks in Japan have spread widely on the country's social media,",
-   "link": "https://mainichi.jp/english/articles/20260926/p2g/00m/0na/012000c",
-   "date": "2026-09-26T02:13:00Z"
-  },
-  {
    "feed": "typhoons",
    "title": "Tropical Storm 25W (Surigae) Warning #12 (Northwest Pacific/North Indian Ocean*)",
    "summary": "Tropical Storm 25W (Surigae) Warning #12\nIssued at 26/0300Z\nTC Warning Text\nTC Warning Graphic\nPrognostic Reasoning\nJMV 3.0 Data\nGoogle Earth Overlay\nIR Satellite Imagery\nSatellite Fix Bulletin\n* Includes Bay of Bengal and Arabian Sea",
@@ -1869,25 +2297,11 @@
    "date": "2026-09-26T02:09:19Z"
   },
   {
-   "feed": "world-headlines",
-   "title": "TikTok to pay $100 million to Alabama in teen addiction settlement",
-   "summary": "TikTok has settled and agreed to pay the US state of Alabama at least $100 million dollars days before trial.",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/tiktok-to-pay-100-million-to-alabama-in-teen-addiction-settlement?traffic_source=rss",
-   "date": "2026-09-26T02:09:10Z"
-  },
-  {
    "feed": "insider-trades",
    "title": "GigaCloud Technology Inc (GCT): Marshall Bernes (Head of Brand Center, director) sold 18,297 shares at $54.13 ($990.4K)",
    "summary": "Traded 2026-09-24.",
    "link": "https://www.sec.gov/Archives/edgar/data/2045034/000204503426000009/0002045034-26-000009-index.htm",
    "date": "2026-09-26T02:08:07Z"
-  },
-  {
-   "feed": "japan-news",
-   "title": "The Mainichi: News in Easy English: Girl in Yamanashi Pref. passes hardest Eiken test",
-   "summary": "FUJIKAWAGUCHIKO, Yamanashi -- Erina Honda, 11, passed Grade 1 of the Eiken English test. It is a very hard test. The level is like advanced university",
-   "link": "https://mainichi.jp/english/articles/20260924/p2a/00m/0na/028000c",
-   "date": "2026-09-26T02:00:09Z"
   },
   {
    "feed": "russia-news",
@@ -2002,25 +2416,11 @@
    "date": "2026-09-26T01:47:13Z"
   },
   {
-   "feed": "world-headlines",
-   "title": "Plane crash in DR Congo kills more than a dozen",
-   "summary": "Civilians and senior military officials among 14 dead after an army plane crashes into a residential area in the DRC.",
-   "link": "https://www.aljazeera.com/news/2026/9/26/plane-crash-in-dr-congo-kills-more-than-a-dozen?traffic_source=rss",
-   "date": "2026-09-26T01:32:36Z"
-  },
-  {
    "feed": "russia-news",
    "title": "TASS (Russian state media): Trump tells aides strikes against Iran may resume after November midterms — WSJ",
    "summary": "The US President is skeptical Iran would meet his demands and has told his staff that he sees a renewed bombing campaign as likely, the newspaper said",
    "link": "https://tass.com/world/2193183",
    "date": "2026-09-26T01:30:00Z"
-  },
-  {
-   "feed": "world-headlines",
-   "title": "Facebook found liable as TikTok settles for $100m over user safety",
-   "summary": "Facebook found liable in New Mexico for deceptive actions; TikTok settles $100m lawsuit with Alabama over safety claims.",
-   "link": "https://www.aljazeera.com/news/2026/9/26/facebook-found-liable-as-tiktok-settles-for-100m-over-user-safety?traffic_source=rss",
-   "date": "2026-09-26T01:26:21Z"
   },
   {
    "feed": "thailand-weather",
@@ -2072,13 +2472,6 @@
    "date": "2026-09-26T01:07:00Z"
   },
   {
-   "feed": "world-headlines",
-   "title": "Watch: Karaoke and butterflies - US cities celebrate Dolly Parton Day",
-   "summary": "The day is observed on 25 September, or 9/25, as a nod to the late Queen of Country's hit song 9 to 5.",
-   "link": "https://www.bbc.co.uk/news/videos/crvgyye2w772o?at_medium=RSS&at_campaign=rss",
-   "date": "2026-09-26T01:06:33Z"
-  },
-  {
    "feed": "russia-news",
    "title": "TASS (Russian state media): Ukrainian drone attack on southern Russia kills people, wounds one person",
    "summary": "Kuban Governor Veniamin Kondratyev said that drone debris damaged a residential building and fires broke out on the premises of two enterprises",
@@ -2086,39 +2479,11 @@
    "date": "2026-09-26T00:50:01Z"
   },
   {
-   "feed": "japan-news",
-   "title": "The Japan Times: How firms linked to sanctioned Chinese cotton giant sell clothes to U.S.",
-   "summary": "Since Esquel's blacklisting, three garment makers in Vietnam have continued to source much of its cotton while also selling products to the U.S.",
-   "link": "https://www.japantimes.co.jp/news/2026/09/26/asia-pacific/sanctioned-chinese-cotton-clothes-us/",
-   "date": "2026-09-26T00:47:00Z"
-  },
-  {
-   "feed": "japan-news",
-   "title": "The Japan Times: Trump administration to meet Ukraine assistance deadline",
-   "summary": "As of early this week, $307 million of the $400 million of the Ukraine Security Assistance Initiative funding had been obligated, sources said.",
-   "link": "https://www.japantimes.co.jp/news/2026/09/26/world/politics/trump-meet-ukraine-assistance-deadline/",
-   "date": "2026-09-26T00:46:00Z"
-  },
-  {
-   "feed": "japan-news",
-   "title": "The Japan Times: Spotting AI writing: how reliable are the detectors?",
-   "summary": "Claims that a Canadian-Haitian writer used AI tools to write his best-selling debut novel are posing questions about how AI can be detected.",
-   "link": "https://www.japantimes.co.jp/news/2026/09/26/world/spotting-ai-writing-focus/",
-   "date": "2026-09-26T00:37:00Z"
-  },
-  {
    "feed": "russia-news",
    "title": "TASS (Russian state media): Ukraine cannot make up for losses in Druzhkovka because of Russian pressure — expert",
    "summary": "Andrey Marochko stressed that almost all the routes leading to Druzhkovka are under tight fire control of the Russian military",
    "link": "https://tass.com/politics/2193177",
    "date": "2026-09-26T00:30:00Z"
-  },
-  {
-   "feed": "japan-news",
-   "title": "The Japan Times: OpenAI’s models accessed public U.S. Census and SEC data",
-   "summary": "The company's agentic AI systems interacted with public U.S. Census and SEC data, people familiar with the situation said.",
-   "link": "https://www.japantimes.co.jp/business/2026/09/26/tech/openai-us-census-sec-data/",
-   "date": "2026-09-26T00:29:00Z"
   },
   {
    "feed": "typhoons",
@@ -2191,13 +2556,6 @@
    "date": "2026-09-25T23:17:09Z"
   },
   {
-   "feed": "world-headlines",
-   "title": "Inside the FBI hack: Agents fearful and angry after 'dangerous' data breach",
-   "summary": "Current and former agents speak to the BBC about the devastating impact of the FBI hack.",
-   "link": "https://www.bbc.co.uk/news/articles/cm4gjjlgzdjgo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-09-25T23:05:40Z"
-  },
-  {
    "feed": "cloud-status",
    "title": "OpenAI: Issues with Codex",
    "summary": "Status: Identified\nWe have identified that users are experiencing elevated errors for the impacted services.\nWe are working on implementing a mitigation.\nAffected components\nCodex Web (Full outage)\nCLI (Full outage)\nVS Code extension (Full outage)\nCodex API (Full outage)",
@@ -2247,25 +2605,11 @@
    "date": "2026-09-25T22:45:24Z"
   },
   {
-   "feed": "russia-news",
-   "title": "TASS (Russian state media): Lavrov and Moroccan foreign minister discuss bilateral relations and regional crises",
-   "summary": "Priority tasks for further strengthening the traditionally friendly Russian·Moroccan relations were discussed",
-   "link": "https://tass.com/politics/2193157",
-   "date": "2026-09-25T22:42:01Z"
-  },
-  {
    "feed": "us-news",
    "title": "PBS NewsHour: Mexico's foreign secretary on Trump, cartel violence and U.S. trade talks",
    "summary": "President Trump struck the United States-Mexico-Canada Agreement in his first term, but threw out that trade agreement after retaking office last year. He imposed steep tariffs on both neighbors and even started a trade war with Canada. To discuss trade talks between the countries, Amna Nawaz spoke ",
    "link": "https://www.pbs.org/newshour/show/mexicos-foreign-secretary-on-trump-cartel-violence-and-u-s-trade-talks",
    "date": "2026-09-25T22:40:01Z"
-  },
-  {
-   "feed": "russia-news",
-   "title": "TASS (Russian state media): Russia ready to help developing countries strengthen sovereignty — Foreign Ministry",
-   "summary": "Deputy Foreign Minister Alexander Pankin pointed to the current global fundamental transformations, under which a more just and balanced system of international relations is taking shape and the role of the states of the Global Majority is increasing",
-   "link": "https://tass.com/politics/2193155",
-   "date": "2026-09-25T22:37:26Z"
   },
   {
    "feed": "us-news",
@@ -2287,13 +2631,6 @@
    "summary": "This week marks two years that Iranian American journalist Reza Valizadeh has been detained in Iran. For a decade, he worked for Radio Farda — an independent, but U.S.-funded Farsi-language news service. During a trip to Iran to visit family, Valizadeh was arrested and sentenced to ten years in pris",
    "link": "https://www.pbs.org/newshour/show/wrongfully-detained-iranian-american-journalist-remains-jailed-in-iran-after-2-years",
    "date": "2026-09-25T22:30:50Z"
-  },
-  {
-   "feed": "russia-news",
-   "title": "TASS (Russian state media): Israel kills 4,386 Lebanese since start of escalation — Health Ministry",
-   "summary": "The number of wounded has reached 12,413",
-   "link": "https://tass.com/world/2193153",
-   "date": "2026-09-25T22:30:00Z"
   },
   {
    "feed": "us-news",
@@ -2331,13 +2668,6 @@
    "date": "2026-09-25T22:17:38Z"
   },
   {
-   "feed": "russia-news",
-   "title": "TASS (Russian state media): Lavrov and Barbados PM discuss cooperation at UN and regional stability",
-   "summary": "\"During the conversation, which took place in a frank and friendly atmosphere, topical issues of bilateral cooperation and the international agenda were discussed,\" the Russian Foreign Ministry said",
-   "link": "https://tass.com/politics/2193151",
-   "date": "2026-09-25T22:16:00Z"
-  },
-  {
    "feed": "us-news",
    "title": "PBS NewsHour: Syrian dancer reflects on escaping ISIS and finding freedom through ballet",
    "summary": "Ahmad Joudeh is a ballet dancer of unusual grace and grit. He was born stateless in a Palestinian refugee camp in Damascus, Syria. He has traveled far on the power of his dreams and the elegance of his dance. He survived a traumatic childhood, much of Syria's civil war and constant threats of execut",
@@ -2364,13 +2694,6 @@
    "summary": "Climate change is transforming Papua's snowy peaks, which hold scientific value and spiritual significance.",
    "link": "https://www.bbc.co.uk/news/articles/cm5ydvww0erdo?at_medium=RSS&at_campaign=rss",
    "date": "2026-09-25T22:12:48Z"
-  },
-  {
-   "feed": "russia-news",
-   "title": "TASS (Russian state media): Lavrov, Uruguay’s foreign minister discuss EAEU’s ties with Latin American associations",
-   "summary": "The ministers also exchanged views on the current international situation",
-   "link": "https://tass.com/politics/2193149",
-   "date": "2026-09-25T22:12:01Z"
   },
   {
    "feed": "china-news",
@@ -2625,13 +2948,6 @@
    "date": "2026-09-25T20:28:16Z"
   },
   {
-   "feed": "crypto-news",
-   "title": "Ex-CFTC leader to leave Blockchain Association after CLARITY vote fails",
-   "summary": "Former CFTC Commissioner Summer Mersinger joined the Blockchain Association in 2025 after resigning during her second term at the federal commodities regulator.",
-   "link": "https://cointelegraph.com/news/cftc-commissioner-leaving-blockchain-association-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "date": "2026-09-25T20:26:40Z"
-  },
-  {
    "feed": "china-news",
    "title": "CGTN (Chinese state media): Trade expert: US-China cooperation can help businesses",
    "summary": "Trade expert: US-China cooperation can help businesses",
@@ -2709,11 +3025,11 @@
    "date": "2026-09-25T20:07:21Z"
   },
   {
-   "feed": "crypto-news",
-   "title": "Blockchain Association sees leadership shift shortly after crypto Clarity Act fizzles",
-   "summary": null,
-   "link": "https://www.coindesk.com/policy/2026/09/25/blockchain-association-sees-leadership-shift-shortly-after-crypto-clarity-act-fizzles",
-   "date": "2026-09-25T20:01:05Z"
+   "feed": "world-headlines",
+   "title": "What is kratom, the 'gas station heroin' alarming officials in the US?",
+   "summary": "Kratom, found during an investigation into the deaths of two college students, has been sold in the US for around a decade.",
+   "link": "https://www.bbc.co.uk/news/articles/cjn5ddzekwnro?at_medium=RSS&at_campaign=rss",
+   "date": "2026-09-25T20:06:39Z"
   },
   {
    "feed": "world-leaders",
@@ -2791,13 +3107,6 @@
    "summary": "Residents on Hawaii's Big Island were bracing Friday for potentially life-threatening and catastrophic flooding from Hurricane Nolo, while Mexico was still under the threat of Hurricane Polo as it headed toward the Baja Peninsula after bringing storm conditions to the southwestern coast.",
    "link": "https://www.pbs.org/newshour/nation/hurricane-nolo-threatening-hawaii-with-heavy-rain-as-polo-churns-near-mexico",
    "date": "2026-09-25T18:41:42Z"
-  },
-  {
-   "feed": "world-headlines",
-   "title": "Why an international arrest warrant didn't stop Netanyahu's US trip",
-   "summary": "The BBC's Nada Tawfik explains why Israel's Benjamin Netanyahu was not arrested after speaking at the UN, despite an ICC arrest warrant.",
-   "link": "https://www.bbc.co.uk/news/videos/ckq633lm11jeo?at_medium=RSS&at_campaign=rss",
-   "date": "2026-09-25T18:41:13Z"
   },
   {
    "feed": "hn-top",
@@ -2947,17 +3256,17 @@
    "date": "2026-09-25T16:04:04Z"
   },
   {
-   "feed": "europe-news",
-   "title": "Euronews: Latest news bulletin | September 25th, 2026 – Evening",
-   "summary": "Catch up with the most important stories from around Europe and beyond this September 25th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
-   "link": "https://www.euronews.com/video/2026/09/25/latest-news-bulletin-september-25th-2026-evening",
-   "date": "2026-09-25T16:00:29Z"
-  },
-  {
    "feed": "security-news",
    "title": "Anthropic rolls out up to $250 in free Claude Code credits, but only for cloud sessions",
    "summary": "Anthropic now allows you to run Claude Code via cloud sessions without signing up for the research preview, and it's offering up to $250 in free usage credits, so more users can give it a try. [...]",
    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-up-to-250-in-free-claude-code-credits-but-only-for-cloud-sessions/",
+   "date": "2026-09-25T16:00:00Z"
+  },
+  {
+   "feed": "world-leaders",
+   "title": "Kremlin: Answers to media questions",
+   "summary": null,
+   "link": "http://en.kremlin.ru/events/president/news/80839",
    "date": "2026-09-25T16:00:00Z"
   },
   {
@@ -2980,13 +3289,6 @@
    "summary": "The Supreme Court is allowing use of a data system that Trump officials overhauled. The system has erroneously flagged U.S. citizens and a lower court found it violated federal privacy protections.",
    "link": "https://www.npr.org/2026/09/25/nx-s1-5976804/supreme-court-trump-save-noncitizen-voting",
    "date": "2026-09-25T15:40:57Z"
-  },
-  {
-   "feed": "europe-news",
-   "title": "Euronews: Emmanuel Macron and Pope Leo XIV set out clashing world views at first meeting in France",
-   "summary": "Speaking at the Elysée, the pontiff set the tone for his first visit to France; dialogue with the Republic, warnings over AI and a call for peace, while acknowledging ongoing disagreements.",
-   "link": "https://www.euronews.com/2026/09/25/emmanuel-macron-and-pope-leo-xiv-set-out-clashing-world-views-at-first-meeting-in-france",
-   "date": "2026-09-25T15:40:08Z"
   },
   {
    "feed": "disease-outbreaks",
@@ -3017,27 +3319,6 @@
    "date": "2026-09-25T15:18:58Z"
   },
   {
-   "feed": "europe-news",
-   "title": "POLITICO Europe: Burnham’s AI agenda is already in disarray thanks to Trump",
-   "summary": "Key pillars of Andy Burnham’s AI plans got smashed by the Trump administration this week.",
-   "link": "https://www.politico.eu/article/burnhams-ai-agenda-is-already-in-disarray-thanks-to-trump/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-   "date": "2026-09-25T15:14:38Z"
-  },
-  {
-   "feed": "world-headlines",
-   "title": "Pope warns against 'losing humanity' to AI machines",
-   "summary": "The pontiff delivered the warning on the first day of his trip to France on Friday.",
-   "link": "https://www.bbc.co.uk/news/articles/cmq8j904212po?at_medium=RSS&at_campaign=rss",
-   "date": "2026-09-25T15:06:41Z"
-  },
-  {
-   "feed": "europe-news",
-   "title": "POLITICO Europe: Dutch opposition party votes to join European Socialist family",
-   "summary": "Progressive Netherlands members had to choose between center-left and green.",
-   "link": "https://www.politico.eu/article/dutch-opposition-party-progressive-netherlands-votes-to-join-european-socialist-family/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-   "date": "2026-09-25T14:55:32Z"
-  },
-  {
    "feed": "security-news",
    "title": "OpenAI is preparing a $500 ChatGPT Pro Max plan with faster Codex",
    "summary": "OpenAI appears to be preparing a new ChatGPT Pro Max subscription that could cost $500 per month, but it's unclear when it'll begin rolling out. [...]",
@@ -3059,13 +3340,6 @@
    "date": "2026-09-25T14:49:36Z"
   },
   {
-   "feed": "europe-news",
-   "title": "Euronews: Watch: Pope Leo XIV warns AI could threaten humanity in ‘paradise of machines’",
-   "summary": "Pope Leo XIV has warned against losing humanity in a “paradise of machines” as artificial intelligence increasingly shapes daily life. During his first papal visit to France, he called for greater ethical discernment and for keeping human beings at the centre of AI discussions.",
-   "link": "https://www.euronews.com/video/2026/09/25/watch-pope-leo-xiv-warns-ai-could-threaten-humanity-in-paradise-of-machines",
-   "date": "2026-09-25T14:48:09Z"
-  },
-  {
    "feed": "china-news",
    "title": "CGTN (Chinese state media): Xi, Peng Liyuan have tea chat with Trump and his wife",
    "summary": "Chinese President Xi Jinping and US President Donald Trump on Friday agreed to build a constructive relationship of strategic stability based on respect, fairness and reciprocity.",
@@ -3073,25 +3347,11 @@
    "date": "2026-09-25T14:47:18Z"
   },
   {
-   "feed": "china-news",
-   "title": "CGTN (Chinese state media): Trump welcomes Xi at White House for tea chat",
-   "summary": "Trump welcomes Xi at White House for tea chat",
-   "link": "https://news.cgtn.com/news/2026-09-25/Trump-welcomes-Xi-at-White-House-for-tea-chat-1QJouTInLYk/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China",
-   "date": "2026-09-25T14:46:36Z"
-  },
-  {
    "feed": "security-news",
    "title": "Compromised GitHub Actions Came Back Online and Resumed Executing Mini Shai-Hulud Malware",
    "summary": "Two actions-cool GitHub Actions have been disabled for a second time after the repositories became accessible last week, months after they were compromised during the May 2026 Mini Shai-Hulud campaign.\nThe affected GitHub Actions are listed below -\nactions-cool/issues-helper\nactions-cool/maintain-on",
    "link": "https://thehackernews.com/2026/09/compromised-github-actions-came-back.html",
    "date": "2026-09-25T14:44:41Z"
-  },
-  {
-   "feed": "europe-news",
-   "title": "Euronews: Four suspects arrested over murder of Dominican merengue singer's wife",
-   "summary": "The artist was seriously injured and his wife, 60-year-old Zeneida Socorro Castillo, was killed. According to investigators, she was tortured for six hours in her home in Santo Domingo.",
-   "link": "https://www.euronews.com/2026/09/25/four-suspects-arrested-over-murder-of-dominican-merengue-singers-wife",
-   "date": "2026-09-25T14:40:07Z"
   },
   {
    "feed": "show-hn",
@@ -3108,13 +3368,6 @@
    "date": "2026-09-25T14:24:42Z"
   },
   {
-   "feed": "europe-news",
-   "title": "Euronews: Deep mining for memories: Greece opens digital archive to preserve Serifos ironworks history",
-   "summary": "\"The Living History of the Serifos Mines\", a project by the Friends of Serifos funded by Cycladic Identity, has created a digital archive of Greek mineworkers' history and memories.",
-   "link": "https://www.euronews.com/2026/09/25/deep-mining-for-memories-greece-opens-digital-archive-to-preserve-serifos-ironworks-histor",
-   "date": "2026-09-25T14:07:57Z"
-  },
-  {
    "feed": "ai-news",
    "title": "Microsoft abandons personal AI chatbot race with Copilot reboot",
    "summary": null,
@@ -3129,13 +3382,6 @@
    "date": "2026-09-25T14:07:08Z"
   },
   {
-   "feed": "china-news",
-   "title": "CGTN (Chinese state media): Xi, Trump to have tea chat at White House",
-   "summary": "Xi, Trump to have tea chat at White House",
-   "link": "https://news.cgtn.com/news/2026-09-25/Xi-Trump-to-have-tea-chat-at-White-House-1QJo9qVLdba/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China",
-   "date": "2026-09-25T14:00:48Z"
-  },
-  {
    "feed": "world-leaders",
    "title": "Kremlin: United Cultures Forum",
    "summary": "The President addressed\nthe 12 th St Petersburg International United Cultures Forum.",
@@ -3143,39 +3389,11 @@
    "date": "2026-09-25T14:00:00Z"
   },
   {
-   "feed": "china-news",
-   "title": "CGTN (Chinese state media): IOMed launches Global Series in Hong Kong on dispute resolution",
-   "summary": "The International Organization for Mediation (IOMed) hosted its inaugural \"IOMed Global Series\" Fireside Chat at its Wan Chai headquarters in Hong Kong on September 24, bringing together three generations of the city's legal leadership – Teresa Cheng, Rimsky Yuen, and Secretary for Justice Paul Lam.",
-   "link": "https://news.cgtn.com/news/2026-09-25/IOMed-launches-Global-Series-in-Hong-Kong-on-dispute-resolution-1QJqvlgYDXq/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China",
-   "date": "2026-09-25T13:59:51Z"
-  },
-  {
-   "feed": "china-news",
-   "title": "CGTN (Chinese state media): Ya'an: A Model of Ecological Restoration",
-   "summary": "Opened in 2003, the Ya'an Bifengxia Base under the China Conservation and Research Center for the Giant Panda, is today home to the world's largest panda population in captivity. Its numbers were boosted in 2008 when, in the wake of the Wenchuan earthquake, it received pandas evacuated from Wolong.",
-   "link": "https://news.cgtn.com/news/2026-09-25/Ya-an-A-Model-of-Ecological-Restoration-1QJcQsxKtXy/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China",
-   "date": "2026-09-25T13:51:38Z"
-  },
-  {
-   "feed": "europe-news",
-   "title": "Euronews: Ukraine: Russian drone barrage on Kyiv kills teenage boy and wounds 20 residents",
-   "summary": "A 14-year-old boy was killed after a Russian drone tore into a 16-storey apartment block in Kyiv’s Pecherskyi district overnight on Friday 25 September 2026.",
-   "link": "https://www.euronews.com/video/2026/09/25/ukraine-russian-drone-barrage-on-kyiv-kills-teenage-boy-and-wounds-20-residents",
-   "date": "2026-09-25T13:50:33Z"
-  },
-  {
    "feed": "thailand-news",
    "title": "Puripol wins Thailand’s first Asian Games 100m gold in 48 years",
    "summary": "NAGOYA, Japan — Thailand’s sprint star Puripol Boonson won the men’s 100m gold medal at the 2026 Asian Games on 25 September, clocking 9.90 seconds and breaking the Asian Games record for the second time in one day. Puripol had set a new Asian Games record of 9.91 seconds in the semi-finals earlier ",
    "link": "https://www.khaosodenglish.com/featured/2026/09/25/puripol-wins-thailands-first-asian-games-100m-gold-in-48-years/",
    "date": "2026-09-25T13:38:30Z"
-  },
-  {
-   "feed": "europe-news",
-   "title": "POLITICO Europe: Pope Leo calls for dialogue as France’s populist forces eye power",
-   "summary": "At the Élysée, the pope defended freedom of conscience without naming the far right, as front-runner Marine Le Pen revives a proposed headscarf ban.",
-   "link": "https://www.politico.eu/article/pope-leo-urges-urgent-dialogue-in-warning-to-populist-forces-in-france/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-   "date": "2026-09-25T13:36:18Z"
   },
   {
    "feed": "world-leaders",
@@ -3367,32 +3585,11 @@
    "date": "2026-09-25T09:30:00Z"
   },
   {
-   "feed": "japan-news",
-   "title": "The Japan Times: Japan to expand disaster preparedness with new national agency",
-   "summary": "The National Disaster Management Agency will be launched on Nov. 2 and serve as the government's command center for disaster preparedness.",
-   "link": "https://www.japantimes.co.jp/news/2026/09/25/japan/national-disaster-management-agency/",
-   "date": "2026-09-25T09:29:00Z"
-  },
-  {
    "feed": "climate-news",
    "title": "Nepal PM says global order is broken in fighting climate crisis",
    "summary": "Nepal’s Prime Minister Balendra Shah was applauded at the UN General Assembly after his speech on climate crisis.",
    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/25-09-sv-nepal-balendra-shah-climate-justice-speech-np?traffic_source=rss",
    "date": "2026-09-25T09:11:52Z"
-  },
-  {
-   "feed": "us-news",
-   "title": "NPR: Americans are confused and worried about elections. Will that impact turnout?",
-   "summary": "New polling shows many voters are concerned about the midterms. But prior elections show no clear link between voter concerns and fewer voters actually casting ballots.",
-   "link": "https://www.npr.org/2026/09/25/nx-s1-5946736/voting-confusion-turnout",
-   "date": "2026-09-25T09:00:00Z"
-  },
-  {
-   "feed": "us-news",
-   "title": "NPR: As election enters its final stretch, some Republicans are distancing from Trump",
-   "summary": "With less than six weeks until Election Day, a growing number of Republicans are breaking from Trump on key issues. It comes as the party is scrambling to hold onto a slim majority in Congress.",
-   "link": "https://www.npr.org/2026/09/25/nx-s1-5978096/republicans-trump-midterm-elections",
-   "date": "2026-09-25T09:00:00Z"
   },
   {
    "feed": "world-leaders",
@@ -3407,13 +3604,6 @@
    "summary": "NAGOYA, Japan — 25 September 2026, Thailand’s Suraswadee Yodsarn won the silver medal in the women’s 57kg weightlifting event at the 20th Asian Games in Nagoya on Friday. Competing at the Nagoya City Trade & Industry Center, Suraswadee produced a clean sweep in the snatch, successfully lifting 92kg,",
    "link": "https://www.khaosodenglish.com/news/2026/09/25/thailands-suraswadee-wins-weightlifting-silver-at-asian-games/",
    "date": "2026-09-25T08:51:00Z"
-  },
-  {
-   "feed": "us-news",
-   "title": "NPR: Congress passed $100 million for teen pregnancy prevention. Most of it is untouched",
-   "summary": "With days left to go in the 2026 fiscal year, lawmakers push the health department to spend the money Congress allocated to prevent teen pregnancy. An NPR exclusive.",
-   "link": "https://www.npr.org/2026/09/24/nx-s1-5974336/teen-pregnancy-prevention-unspent-funding",
-   "date": "2026-09-25T08:40:30Z"
   },
   {
    "feed": "security-news",
@@ -3477,13 +3667,6 @@
    "summary": "The Market Participants Group (MPG) is a senior-level forum for financial market participants to share their views on relevant themes and narratives in financial markets with members of the Bank of England’s Monetary Policy Committee.",
    "link": "https://www.bankofengland.co.uk/minutes/2026/september/market-participants-group-meeting-25-september-2026",
    "date": "2026-09-25T06:30:00Z"
-  },
-  {
-   "feed": "us-news",
-   "title": "NPR: Trump's state dinner for Xi features sea bass and a long list of tech titans",
-   "summary": "A tech-heavy guest list, the fashion choices of those on it, who sat where and what was on the menu marked the softer — often and glitzier — details of diplomacy as Donald Trump threw a Thursday night state dinner honoring China's leader Xi Jinping.",
-   "link": "https://www.npr.org/2026/09/25/g-s1-144973/trump-state-dinner-xi",
-   "date": "2026-09-25T06:18:59Z"
   },
   {
    "feed": "thailand-news",
@@ -3766,6 +3949,13 @@
    "date": "2026-09-25T04:00:00Z"
   },
   {
+   "feed": "hn-top",
+   "title": "Plan mode is dead",
+   "summary": "hn https://news.ycombinator.com/item?id=49840054 · published_at 2026-09-25T03:59:11Z · points 368 · num_comments 333",
+   "link": "https://www.aymannadeem.com/artificial/intelligence,/developer/tools/2026/09/24/plan-mode-is-dead.html",
+   "date": "2026-09-25T03:59:11Z"
+  },
+  {
    "feed": "ai-releases",
    "title": "ollama/ollama v0.40.0",
    "summary": "What's Changed\nModels run on MLX on Apple Silicon by default\nIn this release, model architectures supported by the MLX runner will run by default on Apple Silicon devices.\nollama pull qwen3.8\nollama run qwen3.8\nDuring the RC we will be testing and enabling additional models.\nFull Changelog: https://",
@@ -4044,13 +4234,6 @@
    "summary": "แผ่นดินไหว ประเทศเวียดนาม\n2026-09-25 05:35:13 น.\nLat. 14.997 , Long. 107.789\nขนาด 3.9",
    "link": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17122",
    "date": "2026-09-24T22:43:54Z"
-  },
-  {
-   "feed": "us-news",
-   "title": "NPR: Long agenda, short meeting: Trump and Xi meet",
-   "summary": "All Things Considered host Mary Louise Kelly talks with White House correspondent Emily Feng about the Trump/Xi summit.",
-   "link": "https://www.npr.org/2026/09/24/nx-s1-5973112/long-agenda-short-meeting-trump-and-xi-meet",
-   "date": "2026-09-24T22:10:00Z"
   },
   {
    "feed": "world-leaders",
@@ -4501,13 +4684,6 @@
    "date": "2026-09-24T15:00:00Z"
   },
   {
-   "feed": "security-news",
-   "title": "Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer",
-   "summary": "An active ClickFix campaign has been observed compromising legitimate Ukrainian business websites to inject bogus Cloudflare verification pages and trick victims into downloading a previously undocumented information stealer called Psychedelic.\n\"When a visitor interacts with the page, the lure copie",
-   "link": "https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html",
-   "date": "2026-09-24T14:29:06Z"
-  },
-  {
    "feed": "ai-news",
    "title": "Best LLM for every budget, updated daily",
    "summary": null,
@@ -4522,25 +4698,11 @@
    "date": "2026-09-24T14:08:57Z"
   },
   {
-   "feed": "security-news",
-   "title": "FedRAMP VDR & VER: Daily Scans Are Only the Beginning",
-   "summary": "FedRAMP's new VDR and VER requirements make vulnerability management more continuous, with faster scanning, tighter remediation deadlines, and stronger evidence requirements. Anecdotes explains why the December 7 deadline is just the beginning of a broader shift toward continuous, automated complian",
-   "link": "https://www.bleepingcomputer.com/news/security/fedramp-vdr-and-ver-daily-scans-are-only-the-beginning/",
-   "date": "2026-09-24T14:02:12Z"
-  },
-  {
    "feed": "world-leaders",
    "title": "White House: Presidential Message on the Beatification of Archbishop Fulton J. Sheen",
    "summary": "Melania and I join all those celebrating the life and legacy of Archbishop Fulton J. Sheen—the Catholic priest who pioneered the use of media to speak the truth, preach the Gospel, and bring many souls closer to Christ. Today, Archbishop Sheen will become the first-ever American-born bishop to be be",
    "link": "https://www.whitehouse.gov/briefings-statements/2026/09/presidential-message-on-the-beatification-of-archbishop-fulton-j-sheen/",
    "date": "2026-09-24T14:00:00Z"
-  },
-  {
-   "feed": "security-news",
-   "title": "Hackers now exploit critical Roundcube flaw in code injection attacks",
-   "summary": "A high-severity Roundcube Webmail vulnerability patched in May is now being actively exploited in attacks, according to the Canadian Centre for Cyber Security. [...]",
-   "link": "https://www.bleepingcomputer.com/news/security/critical-roundcube-flaw-now-actively-exploited-in-code-injection-attacks/",
-   "date": "2026-09-24T13:27:57Z"
   },
   {
    "feed": "ai-news",
@@ -4599,13 +4761,6 @@
    "date": "2026-09-24T12:21:19Z"
   },
   {
-   "feed": "thailand-news",
-   "title": "​Thailand and Cambodia Don’t Need a Culture War on Top of Their Border War",
-   "summary": "​Last year, Thailand and Cambodia could not agree on where their common border lay without resorting to war and killings. This week, they cannot even agree on which traditional costumes belong to Thailand or Cambodia, or which constitute shared heritage, without hurling insults and looking down on e",
-   "link": "https://www.khaosodenglish.com/opinion/2026/09/24/thailand-and-cambodia-dont-need-a-culture-war-on-top-of-their-border-war/",
-   "date": "2026-09-24T12:14:23Z"
-  },
-  {
    "feed": "central-banks",
    "title": "ECB: ECB Executive Board member Isabel Schnabel to resign to take senior role at IMF",
    "summary": null,
@@ -4620,13 +4775,6 @@
    "date": "2026-09-24T11:54:38Z"
   },
   {
-   "feed": "thailand-news",
-   "title": "Puripol storms into Asian Games 100m semis with 9.95",
-   "summary": "NAGOYA, Japan — Thailand’s Puripol Boonson clocked a season-best 9.95 seconds to win his heat and advance to the men’s 100-metre semifinals at the 20th Asian Games in Nagoya on Thursday. The 20-year-old sprinter got off to a strong start and led from the outset in Heat 1 at Nagoya City Mizuho Park A",
-   "link": "https://www.khaosodenglish.com/featured/2026/09/24/puripol-storms-into-asian-games-100m-semis-with-9-95/",
-   "date": "2026-09-24T11:39:31Z"
-  },
-  {
    "feed": "ai-releases",
    "title": "langchain-ai/langchain langchain-openai==1.6.6",
    "summary": "Changes since langchain-openai==1.6.5\nrelease(openai): 1.6.6 (#40800)\nfix(openai): raise on error events in stream path (#40791)",
@@ -4639,13 +4787,6 @@
    "summary": "hn https://news.ycombinator.com/item?id=49828731 · published_at 2026-09-24T10:39:19Z · points 310 · num_comments 314",
    "link": "https://macanorak.com/two-tier-encryption-in-the-uk/",
    "date": "2026-09-24T10:39:19Z"
-  },
-  {
-   "feed": "thailand-news",
-   "title": "Chinese man arrested with gun, meth after 586-day overstay in Thailand",
-   "summary": "BANGKOK — A 50-year-old Chinese man has been arrested in Bangkok after police found a revolver and 4.8 grammes of crystal methamphetamine in his possession, while immigration records showed he had overstayed his permission to remain in Thailand by 586 days. Police from Wang Thonglang Police Station ",
-   "link": "https://www.khaosodenglish.com/news/crimecourtscalamity/2026/09/24/chinese-man-arrested-with-gun-meth-after-586-day-overstay-in-thailand/",
-   "date": "2026-09-24T10:31:44Z"
   },
   {
    "feed": "rust-news",
@@ -5670,25 +5811,11 @@
    "date": "2026-09-23T20:03:32Z"
   },
   {
-   "feed": "ai-news",
-   "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
-   "summary": null,
-   "link": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
-   "date": "2026-09-23T20:03:32Z"
-  },
-  {
    "feed": "hn-top",
    "title": "DoorDash Spent $1.4M Trying to Stop Mamdani from Becoming Mayor. Now We Know Why",
    "summary": "hn https://news.ycombinator.com/item?id=49821608 · published_at 2026-09-23T19:55:14Z · points 326 · num_comments 175",
    "link": "https://theintercept.com/2026/09/23/doordash-delivery-nyc-mamdani-wage-theft-settlement/",
    "date": "2026-09-23T19:55:14Z"
-  },
-  {
-   "feed": "world-leaders",
-   "title": "White House: White House App Hits No. 1 in News and Cracks App Store Top 20 as Americans Tune Out Fake News",
-   "summary": "As of September 22, 2026, the official White House mobile app reached No. 1 in the News category on the App Store and climbed into the Top 20 among all apps. The app previously hit No. 1 in News and, at launch, soared as high as No. 4 across the entire App Store. More and […]\nThe post White House Ap",
-   "link": "https://www.whitehouse.gov/releases/2026/09/white-house-app-hits-no-1-in-news-and-cracks-app-store-top-20-as-americans-tune-out-fake-news/",
-   "date": "2026-09-23T19:07:52Z"
   },
   {
    "feed": "dev-releases",
@@ -5710,13 +5837,6 @@
    "summary": "Changes since langchain-anthropic==1.7.3\nchore(anthropic): fix integration test cassette (#40790)\nrelease(anthropic): 1.7.4 (#40786)\nfix(anthropic): add Opus 5.5 and GPT-6 profile augmentations (#40785)\nfeat(anthropic,openai): mid-conversation tool changes on SystemMessage (#40758)",
    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.4",
    "date": "2026-09-23T17:56:03Z"
-  },
-  {
-   "feed": "hn-top",
-   "title": "Italian parliament votes for return to nuclear energy",
-   "summary": "hn https://news.ycombinator.com/item?id=49819221 · published_at 2026-09-23T17:06:16Z · points 855 · num_comments 734",
-   "link": "https://apnews.com/article/italy-nuclear-chernobyl-4891b6b7c7791ae84db6b0bf0f7cf567",
-   "date": "2026-09-23T17:06:16Z"
   },
   {
    "feed": "central-banks",
@@ -5745,20 +5865,6 @@
    "summary": "Changes since langchain-openai==1.6.4\nrelease(openai): 1.6.5 (#40787)\nfix(anthropic): add Opus 5.5 and GPT-6 profile augmentations (#40785)\nfeat(anthropic,openai): mid-conversation tool changes on SystemMessage (#40758)",
    "link": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.5",
    "date": "2026-09-23T15:31:52Z"
-  },
-  {
-   "feed": "world-leaders",
-   "title": "White House: President Trump Delivers Powerful America First Message to the United Nations",
-   "summary": "In his address to the United Nations, President Donald J. Trump touted his record of historic results that have reshaped world order for America’s benefit and made our nation safer and more prosperous. President Donald J. Trump is ensuring America is respected on the world stage again and holding th",
-   "link": "https://www.whitehouse.gov/releases/2026/09/president-trump-delivers-powerful-america-first-message-to-the-united-nations/",
-   "date": "2026-09-23T14:02:11Z"
-  },
-  {
-   "feed": "world-leaders",
-   "title": "Kremlin: Meeting with Government members",
-   "summary": "Vladimir Putin held a videoconference meeting with Government members.",
-   "link": "http://en.kremlin.ru/events/president/news/80824",
-   "date": "2026-09-23T12:30:00Z"
   },
   {
    "feed": "dev-releases",

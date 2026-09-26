@@ -1,0 +1,55 @@
+{
+ "schema": "unlimitedpipe.archive/1",
+ "months": [
+  {
+   "month": "2026-09",
+   "file": "2026-09.jsonl",
+   "items": 918
+  },
+  {
+   "month": "2026-08",
+   "file": "2026-08.jsonl",
+   "items": 62
+  },
+  {
+   "month": "2026-07",
+   "file": "2026-07.jsonl",
+   "items": 34
+  },
+  {
+   "month": "2026-06",
+   "file": "2026-06.jsonl",
+   "items": 17
+  },
+  {
+   "month": "2026-05",
+   "file": "2026-05.jsonl",
+   "items": 9
+  },
+  {
+   "month": "2026-04",
+   "file": "2026-04.jsonl",
+   "items": 6
+  },
+  {
+   "month": "2026-03",
+   "file": "2026-03.jsonl",
+   "items": 5
+  },
+  {
+   "month": "2026-02",
+   "file": "2026-02.jsonl",
+   "items": 2
+  },
+  {
+   "month": "2026-01",
+   "file": "2026-01.jsonl",
+   "items": 20
+  },
+  {
+   "month": "2025-12",
+   "file": "2025-12.jsonl",
+   "items": 5
+  }
+ ]
+}

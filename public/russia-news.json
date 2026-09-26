@@ -2,12 +2,522 @@
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Russia news (TASS, Meduza, Moscow Times)",
   "home_page_url": "https://tass.com/rss/v2.xml",
-  "description": "Events collected by UnlimitedPipe 0.6.0",
+  "description": "Events collected by UnlimitedPipe 0.8.0",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.6.0"
+    "generator": "UnlimitedPipe 0.8.0"
   },
   "items": [
+    {
+      "id": "05011df07de75997ea11",
+      "title": "TASS (Russian state media): Ukrainian troops encircled in Kharkov Region lose over 50 soldiers",
+      "content_text": "\"The Ukrainian army’s also losses an armored combat vehicle, two cars, an ATV, and a multiple rocket system launcher, the Russian Defense Ministry reported",
+      "date_published": "2026-09-26T10:53:29Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "05011df07de75997ea11",
+          "source": "rss",
+          "type": "change",
+          "key": "https://tass.com/defense/2193281",
+          "source_url": "https://tass.com/rss/v2.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:14:38Z",
+          "data": {
+            "change": "added",
+            "label": "TASS (Russian state media): Ukrainian troops encircled in Kharkov Region lose over 50 soldiers",
+            "item_type": "entry",
+            "summary": "added: TASS (Russian state media): Ukrainian troops encircled in Kharkov Region lose over 50 soldiers",
+            "after": {
+              "title": "TASS (Russian state media): Ukrainian troops encircled in Kharkov Region lose over 50 soldiers",
+              "link": "https://tass.com/defense/2193281",
+              "id": "https://tass.com/defense/2193281",
+              "author": null,
+              "published_at": "2026-09-26T10:53:29Z",
+              "updated_at": "2026-09-26T10:53:29Z",
+              "summary": "\"The Ukrainian army’s also losses an armored combat vehicle, two cars, an ATV, and a multiple rocket system launcher, the Russian Defense Ministry reported",
+              "categories": [
+                "Military & Defense"
+              ],
+              "feed": {
+                "title": "TASS",
+                "url": "https://tass.com",
+                "feed_url": "https://tass.com/rss/v2.xml"
+              },
+              "outlet": "TASS (Russian state media)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://tass.com/rss/v2.xml",
+            "elapsed_ms": 908,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^tass\\\\.com$\", \"TASS (Russian state media)\")",
+                  "outlet=replace(outlet, \"^meduza\\\\.io$\", \"Meduza\")",
+                  "outlet=replace(outlet, \"^themoscowtimes\\\\.com$\", \"The Moscow Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "russia-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://tass.com/defense/2193281",
+      "tags": [
+        "Military & Defense"
+      ]
+    },
+    {
+      "id": "c8977da3620362efc935",
+      "title": "TASS (Russian state media): Leaders of China, US agree to provide mutual support for hosting APEC, G20 summits",
+      "content_text": "Еhe heads of state expressed their intention to participate in the events organized by the other side, Xinhua news agency reported",
+      "date_published": "2026-09-26T10:16:38Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c8977da3620362efc935",
+          "source": "rss",
+          "type": "change",
+          "key": "https://tass.com/world/2193269",
+          "source_url": "https://tass.com/rss/v2.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:14:38Z",
+          "data": {
+            "change": "added",
+            "label": "TASS (Russian state media): Leaders of China, US agree to provide mutual support for hosting APEC, G20 summits",
+            "item_type": "entry",
+            "summary": "added: TASS (Russian state media): Leaders of China, US agree to provide mutual support for hosting APEC, G20 summits",
+            "after": {
+              "title": "TASS (Russian state media): Leaders of China, US agree to provide mutual support for hosting APEC, G20 summits",
+              "link": "https://tass.com/world/2193269",
+              "id": "https://tass.com/world/2193269",
+              "author": null,
+              "published_at": "2026-09-26T10:16:38Z",
+              "updated_at": "2026-09-26T10:16:38Z",
+              "summary": "Еhe heads of state expressed their intention to participate in the events organized by the other side, Xinhua news agency reported",
+              "categories": [
+                "World"
+              ],
+              "feed": {
+                "title": "TASS",
+                "url": "https://tass.com",
+                "feed_url": "https://tass.com/rss/v2.xml"
+              },
+              "outlet": "TASS (Russian state media)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://tass.com/rss/v2.xml",
+            "elapsed_ms": 908,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^tass\\\\.com$\", \"TASS (Russian state media)\")",
+                  "outlet=replace(outlet, \"^meduza\\\\.io$\", \"Meduza\")",
+                  "outlet=replace(outlet, \"^themoscowtimes\\\\.com$\", \"The Moscow Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "russia-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://tass.com/world/2193269",
+      "tags": [
+        "World"
+      ]
+    },
+    {
+      "id": "4321e6224b6b704bd77e",
+      "title": "TASS (Russian state media): Timur Turlov of Kazakhstan elected World Chess Federation president",
+      "content_text": "A total of 110 delegates voted for him",
+      "date_published": "2026-09-26T10:15:18Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "4321e6224b6b704bd77e",
+          "source": "rss",
+          "type": "change",
+          "key": "https://tass.com/sports/2193271",
+          "source_url": "https://tass.com/rss/v2.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:14:38Z",
+          "data": {
+            "change": "added",
+            "label": "TASS (Russian state media): Timur Turlov of Kazakhstan elected World Chess Federation president",
+            "item_type": "entry",
+            "summary": "added: TASS (Russian state media): Timur Turlov of Kazakhstan elected World Chess Federation president",
+            "after": {
+              "title": "TASS (Russian state media): Timur Turlov of Kazakhstan elected World Chess Federation president",
+              "link": "https://tass.com/sports/2193271",
+              "id": "https://tass.com/sports/2193271",
+              "author": null,
+              "published_at": "2026-09-26T10:15:18Z",
+              "updated_at": "2026-09-26T10:15:18Z",
+              "summary": "A total of 110 delegates voted for him",
+              "categories": [
+                "Sports"
+              ],
+              "feed": {
+                "title": "TASS",
+                "url": "https://tass.com",
+                "feed_url": "https://tass.com/rss/v2.xml"
+              },
+              "outlet": "TASS (Russian state media)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://tass.com/rss/v2.xml",
+            "elapsed_ms": 908,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^tass\\\\.com$\", \"TASS (Russian state media)\")",
+                  "outlet=replace(outlet, \"^meduza\\\\.io$\", \"Meduza\")",
+                  "outlet=replace(outlet, \"^themoscowtimes\\\\.com$\", \"The Moscow Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "russia-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://tass.com/sports/2193271",
+      "tags": [
+        "Sports"
+      ]
+    },
+    {
+      "id": "93f32b7f526d0f0b9983",
+      "title": "TASS (Russian state media): Trump advocates for trilateral arms control talks between US, Russia, China",
+      "content_text": "US leader and Chinese President Xi Jinping also discussed \"on-going global concerns,\" including those concerning Russia, North Korea, and Iran",
+      "date_published": "2026-09-26T08:20:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "93f32b7f526d0f0b9983",
+          "source": "rss",
+          "type": "change",
+          "key": "https://tass.com/world/2193241",
+          "source_url": "https://tass.com/rss/v2.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:14:38Z",
+          "data": {
+            "change": "added",
+            "label": "TASS (Russian state media): Trump advocates for trilateral arms control talks between US, Russia, China",
+            "item_type": "entry",
+            "summary": "added: TASS (Russian state media): Trump advocates for trilateral arms control talks between US, Russia, China",
+            "after": {
+              "title": "TASS (Russian state media): Trump advocates for trilateral arms control talks between US, Russia, China",
+              "link": "https://tass.com/world/2193241",
+              "id": "https://tass.com/world/2193241",
+              "author": null,
+              "published_at": "2026-09-26T08:20:34Z",
+              "updated_at": "2026-09-26T08:20:34Z",
+              "summary": "US leader and Chinese President Xi Jinping also discussed \"on-going global concerns,\" including those concerning Russia, North Korea, and Iran",
+              "categories": [
+                "World"
+              ],
+              "feed": {
+                "title": "TASS",
+                "url": "https://tass.com",
+                "feed_url": "https://tass.com/rss/v2.xml"
+              },
+              "outlet": "TASS (Russian state media)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://tass.com/rss/v2.xml",
+            "elapsed_ms": 908,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^tass\\\\.com$\", \"TASS (Russian state media)\")",
+                  "outlet=replace(outlet, \"^meduza\\\\.io$\", \"Meduza\")",
+                  "outlet=replace(outlet, \"^themoscowtimes\\\\.com$\", \"The Moscow Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "russia-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://tass.com/world/2193241",
+      "tags": [
+        "World"
+      ]
+    },
+    {
+      "id": "2d43b450b4e887b13eee",
+      "title": "TASS (Russian state media): Euractiv columnist questions need for extra funding for Ukraine",
+      "content_text": "Claims were already made earlier this year that Ukraine would run out of money in April, yet this did not happen, Thomas Moller-Nielsen said",
+      "date_published": "2026-09-26T08:18:55Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "2d43b450b4e887b13eee",
+          "source": "rss",
+          "type": "change",
+          "key": "https://tass.com/economy/2193239",
+          "source_url": "https://tass.com/rss/v2.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:14:38Z",
+          "data": {
+            "change": "added",
+            "label": "TASS (Russian state media): Euractiv columnist questions need for extra funding for Ukraine",
+            "item_type": "entry",
+            "summary": "added: TASS (Russian state media): Euractiv columnist questions need for extra funding for Ukraine",
+            "after": {
+              "title": "TASS (Russian state media): Euractiv columnist questions need for extra funding for Ukraine",
+              "link": "https://tass.com/economy/2193239",
+              "id": "https://tass.com/economy/2193239",
+              "author": null,
+              "published_at": "2026-09-26T08:18:55Z",
+              "updated_at": "2026-09-26T08:18:55Z",
+              "summary": "Claims were already made earlier this year that Ukraine would run out of money in April, yet this did not happen, Thomas Moller-Nielsen said",
+              "categories": [
+                "Business & Economy"
+              ],
+              "feed": {
+                "title": "TASS",
+                "url": "https://tass.com",
+                "feed_url": "https://tass.com/rss/v2.xml"
+              },
+              "outlet": "TASS (Russian state media)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://tass.com/rss/v2.xml",
+            "elapsed_ms": 908,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^tass\\\\.com$\", \"TASS (Russian state media)\")",
+                  "outlet=replace(outlet, \"^meduza\\\\.io$\", \"Meduza\")",
+                  "outlet=replace(outlet, \"^themoscowtimes\\\\.com$\", \"The Moscow Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "russia-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://tass.com/economy/2193239",
+      "tags": [
+        "Business & Economy"
+      ]
+    },
     {
       "id": "507ad7629b18a6f6381f",
       "title": "TASS (Russian state media): Explosion occurres during welding works at Elga deposit in Yakutia causing fatalities",
@@ -14966,514 +15476,6 @@
         "Russian Politics & Diplomacy",
         "Single Voting Day"
       ]
-    },
-    {
-      "id": "d8c9b0a4d6c3822e3eb4",
-      "title": "Meduza: After Ukraine’s overnight attack, Novoshakhtinsk oil refinery — one of southern Russia’s biggest fuel suppliers — halts operations",
-      "content_text": "The Novoshakhtinsk oil refinery in the Rostov region halted operations after an attack by Ukrainian drones, Rostov Governor Yuri Slyusar said.",
-      "date_published": "2026-09-25T11:51:28Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "d8c9b0a4d6c3822e3eb4",
-          "source": "rss",
-          "type": "change",
-          "key": "https://meduza.io/en/news/2026/09/25/after-ukraine-s-overnight-attack-novoshakhtinsk-oil-refinery-one-of-southern-russia-s-biggest-fuel-suppliers-halts-operations",
-          "source_url": "https://meduza.io/rss/en/all",
-          "timestamp": null,
-          "observed_at": "2026-09-25T23:50:03Z",
-          "data": {
-            "change": "added",
-            "label": "Meduza: After Ukraine’s overnight attack, Novoshakhtinsk oil refinery — one of southern Russia’s biggest fuel suppliers — halts operations",
-            "item_type": "entry",
-            "summary": "added: Meduza: After Ukraine’s overnight attack, Novoshakhtinsk oil refinery — one of southern Russia’s biggest fuel suppliers — halts operations",
-            "after": {
-              "title": "Meduza: After Ukraine’s overnight attack, Novoshakhtinsk oil refinery — one of southern Russia’s biggest fuel suppliers — halts operations",
-              "link": "https://meduza.io/en/news/2026/09/25/after-ukraine-s-overnight-attack-novoshakhtinsk-oil-refinery-one-of-southern-russia-s-biggest-fuel-suppliers-halts-operations",
-              "id": "https://meduza.io/en/news/2026/09/25/after-ukraine-s-overnight-attack-novoshakhtinsk-oil-refinery-one-of-southern-russia-s-biggest-fuel-suppliers-halts-operations",
-              "author": null,
-              "published_at": "2026-09-25T11:51:28Z",
-              "updated_at": "2026-09-25T11:51:28Z",
-              "summary": "The Novoshakhtinsk oil refinery in the Rostov region halted operations after an attack by Ukrainian drones, Rostov Governor Yuri Slyusar said.",
-              "categories": [],
-              "feed": {
-                "title": "Meduza.io",
-                "url": "https://meduza.io",
-                "feed_url": "https://meduza.io/rss/en/all"
-              },
-              "enclosures": [
-                "https://meduza.io/imgly/share/1790337088/en/news/2026/09/25/after-ukraine-s-overnight-attack-novoshakhtinsk-oil-refinery-one-of-southern-russia-s-biggest-fuel-suppliers-halts-operations"
-              ],
-              "outlet": "Meduza"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://meduza.io/rss/en/all",
-            "elapsed_ms": 255,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "map",
-              "version": "0.3.2",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^tass\\\\.com$\", \"TASS (Russian state media)\")",
-                  "outlet=replace(outlet, \"^meduza\\\\.io$\", \"Meduza\")",
-                  "outlet=replace(outlet, \"^themoscowtimes\\\\.com$\", \"The Moscow Times\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "russia-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://meduza.io/en/news/2026/09/25/after-ukraine-s-overnight-attack-novoshakhtinsk-oil-refinery-one-of-southern-russia-s-biggest-fuel-suppliers-halts-operations"
-    },
-    {
-      "id": "d617bbf0f1ff6eddca13",
-      "title": "TASS (Russian state media): Russia’s Prozorova advances to semifinals of 2026 WTA Singapore Open",
-      "content_text": "Tatyana Prozorova is now set to play in the semifinals round against the winner of the match between unseeded Talia Gibson from Australia and Greek 7th-seeded Maria Sakkari",
-      "date_published": "2026-09-25T11:46:57Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "d617bbf0f1ff6eddca13",
-          "source": "rss",
-          "type": "change",
-          "key": "https://tass.com/sports/2192781",
-          "source_url": "https://tass.com/rss/v2.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T23:50:03Z",
-          "data": {
-            "change": "added",
-            "label": "TASS (Russian state media): Russia’s Prozorova advances to semifinals of 2026 WTA Singapore Open",
-            "item_type": "entry",
-            "summary": "added: TASS (Russian state media): Russia’s Prozorova advances to semifinals of 2026 WTA Singapore Open",
-            "after": {
-              "title": "TASS (Russian state media): Russia’s Prozorova advances to semifinals of 2026 WTA Singapore Open",
-              "link": "https://tass.com/sports/2192781",
-              "id": "https://tass.com/sports/2192781",
-              "author": null,
-              "published_at": "2026-09-25T11:46:57Z",
-              "updated_at": "2026-09-25T11:46:57Z",
-              "summary": "Tatyana Prozorova is now set to play in the semifinals round against the winner of the match between unseeded Talia Gibson from Australia and Greek 7th-seeded Maria Sakkari",
-              "categories": [
-                "Sports"
-              ],
-              "feed": {
-                "title": "TASS",
-                "url": "https://tass.com",
-                "feed_url": "https://tass.com/rss/v2.xml"
-              },
-              "outlet": "TASS (Russian state media)"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://tass.com/rss/v2.xml",
-            "elapsed_ms": 1209,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "map",
-              "version": "0.3.2",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^tass\\\\.com$\", \"TASS (Russian state media)\")",
-                  "outlet=replace(outlet, \"^meduza\\\\.io$\", \"Meduza\")",
-                  "outlet=replace(outlet, \"^themoscowtimes\\\\.com$\", \"The Moscow Times\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "russia-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://tass.com/sports/2192781",
-      "tags": [
-        "Sports"
-      ]
-    },
-    {
-      "id": "9c3ca37dc3bf03003725",
-      "title": "TASS (Russian state media): Demand for UAV technicians training exceeds need for operators — expert",
-      "content_text": "\"The development of technical capabilities is driven by the fact that every unit is now organizing its own UAV technical workshop,\" Mikhail Filippov said",
-      "date_published": "2026-09-25T11:44:07Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "9c3ca37dc3bf03003725",
-          "source": "rss",
-          "type": "change",
-          "key": "https://tass.com/defense/2192783",
-          "source_url": "https://tass.com/rss/v2.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T23:50:03Z",
-          "data": {
-            "change": "added",
-            "label": "TASS (Russian state media): Demand for UAV technicians training exceeds need for operators — expert",
-            "item_type": "entry",
-            "summary": "added: TASS (Russian state media): Demand for UAV technicians training exceeds need for operators — expert",
-            "after": {
-              "title": "TASS (Russian state media): Demand for UAV technicians training exceeds need for operators — expert",
-              "link": "https://tass.com/defense/2192783",
-              "id": "https://tass.com/defense/2192783",
-              "author": null,
-              "published_at": "2026-09-25T11:44:07Z",
-              "updated_at": "2026-09-25T11:44:07Z",
-              "summary": "\"The development of technical capabilities is driven by the fact that every unit is now organizing its own UAV technical workshop,\" Mikhail Filippov said",
-              "categories": [
-                "Military & Defense"
-              ],
-              "feed": {
-                "title": "TASS",
-                "url": "https://tass.com",
-                "feed_url": "https://tass.com/rss/v2.xml"
-              },
-              "outlet": "TASS (Russian state media)"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://tass.com/rss/v2.xml",
-            "elapsed_ms": 1209,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "map",
-              "version": "0.3.2",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^tass\\\\.com$\", \"TASS (Russian state media)\")",
-                  "outlet=replace(outlet, \"^meduza\\\\.io$\", \"Meduza\")",
-                  "outlet=replace(outlet, \"^themoscowtimes\\\\.com$\", \"The Moscow Times\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "russia-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://tass.com/defense/2192783",
-      "tags": [
-        "Military & Defense"
-      ]
-    },
-    {
-      "id": "4bcf9211c9061e5bced4",
-      "title": "TASS (Russian state media): AfD parliamentary group calls for blocking Ukraine’s EU, NATO accession",
-      "content_text": "The Alternative for Germany said that extending the provision on assistance under Article 42 of the Treaty on European Union to Ukraine would risk involving Germany in a conflict with Russia",
-      "date_published": "2026-09-25T11:39:57Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "4bcf9211c9061e5bced4",
-          "source": "rss",
-          "type": "change",
-          "key": "https://tass.com/world/2192779",
-          "source_url": "https://tass.com/rss/v2.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T23:50:03Z",
-          "data": {
-            "change": "added",
-            "label": "TASS (Russian state media): AfD parliamentary group calls for blocking Ukraine’s EU, NATO accession",
-            "item_type": "entry",
-            "summary": "added: TASS (Russian state media): AfD parliamentary group calls for blocking Ukraine’s EU, NATO accession",
-            "after": {
-              "title": "TASS (Russian state media): AfD parliamentary group calls for blocking Ukraine’s EU, NATO accession",
-              "link": "https://tass.com/world/2192779",
-              "id": "https://tass.com/world/2192779",
-              "author": null,
-              "published_at": "2026-09-25T11:39:57Z",
-              "updated_at": "2026-09-25T11:39:57Z",
-              "summary": "The Alternative for Germany said that extending the provision on assistance under Article 42 of the Treaty on European Union to Ukraine would risk involving Germany in a conflict with Russia",
-              "categories": [
-                "World",
-                "Ukraine crisis"
-              ],
-              "feed": {
-                "title": "TASS",
-                "url": "https://tass.com",
-                "feed_url": "https://tass.com/rss/v2.xml"
-              },
-              "outlet": "TASS (Russian state media)"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://tass.com/rss/v2.xml",
-            "elapsed_ms": 1209,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "map",
-              "version": "0.3.2",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^tass\\\\.com$\", \"TASS (Russian state media)\")",
-                  "outlet=replace(outlet, \"^meduza\\\\.io$\", \"Meduza\")",
-                  "outlet=replace(outlet, \"^themoscowtimes\\\\.com$\", \"The Moscow Times\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "russia-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://tass.com/world/2192779",
-      "tags": [
-        "World",
-        "Ukraine crisis"
-      ]
-    },
-    {
-      "id": "7bbcaaaa69fdbe72ed97",
-      "title": "Meduza: United Russia won 349 of 450 seats in Russia’s new State Duma. Parliament will include 46 war participants.",
-      "content_text": "The head of the Central Election Commission, Ella Pamfilova, announced the results of the State Duma elections, held September 18–20.",
-      "date_published": "2026-09-25T11:39:35Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "7bbcaaaa69fdbe72ed97",
-          "source": "rss",
-          "type": "change",
-          "key": "https://meduza.io/en/news/2026/09/25/united-russia-won-349-of-450-seats-in-russia-s-new-state-duma-parliament-will-include-46-war-participants",
-          "source_url": "https://meduza.io/rss/en/all",
-          "timestamp": null,
-          "observed_at": "2026-09-25T23:50:03Z",
-          "data": {
-            "change": "added",
-            "label": "Meduza: United Russia won 349 of 450 seats in Russia’s new State Duma. Parliament will include 46 war participants.",
-            "item_type": "entry",
-            "summary": "added: Meduza: United Russia won 349 of 450 seats in Russia’s new State Duma. Parliament will include 46 war participants.",
-            "after": {
-              "title": "Meduza: United Russia won 349 of 450 seats in Russia’s new State Duma. Parliament will include 46 war participants.",
-              "link": "https://meduza.io/en/news/2026/09/25/united-russia-won-349-of-450-seats-in-russia-s-new-state-duma-parliament-will-include-46-war-participants",
-              "id": "https://meduza.io/en/news/2026/09/25/united-russia-won-349-of-450-seats-in-russia-s-new-state-duma-parliament-will-include-46-war-participants",
-              "author": null,
-              "published_at": "2026-09-25T11:39:35Z",
-              "updated_at": "2026-09-25T11:39:35Z",
-              "summary": "The head of the Central Election Commission, Ella Pamfilova, announced the results of the State Duma elections, held September 18–20.",
-              "categories": [],
-              "feed": {
-                "title": "Meduza.io",
-                "url": "https://meduza.io",
-                "feed_url": "https://meduza.io/rss/en/all"
-              },
-              "enclosures": [
-                "https://meduza.io/imgly/share/1790336375/en/news/2026/09/25/united-russia-won-349-of-450-seats-in-russia-s-new-state-duma-parliament-will-include-46-war-participants"
-              ],
-              "outlet": "Meduza"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://meduza.io/rss/en/all",
-            "elapsed_ms": 255,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "map",
-              "version": "0.3.2",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^tass\\\\.com$\", \"TASS (Russian state media)\")",
-                  "outlet=replace(outlet, \"^meduza\\\\.io$\", \"Meduza\")",
-                  "outlet=replace(outlet, \"^themoscowtimes\\\\.com$\", \"The Moscow Times\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "russia-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://meduza.io/en/news/2026/09/25/united-russia-won-349-of-450-seats-in-russia-s-new-state-duma-parliament-will-include-46-war-participants"
     }
   ]
 }

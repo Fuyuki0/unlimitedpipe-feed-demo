@@ -2,12 +2,902 @@
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Europe news (POLITICO Europe, Euronews)",
   "home_page_url": "https://www.euronews.com/rss",
-  "description": "Events collected by UnlimitedPipe 0.6.0",
+  "description": "Events collected by UnlimitedPipe 0.8.0",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.6.0"
+    "generator": "UnlimitedPipe 0.8.0"
   },
   "items": [
+    {
+      "id": "9330b7859f7eb2c33b86",
+      "title": "Euronews: Pope Leo XIV draws huge crowds in Paris as 600,000 await Mass",
+      "content_text": "On Saturday, Pope Leo XIV continues his visit to France with a large outdoor Mass at Paris's Place de la Concorde, followed by prayers with the faithful in Lourdes.",
+      "date_published": "2026-09-26T11:17:08Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "9330b7859f7eb2c33b86",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.euronews.com/2026/09/26/pope-leo-xiv-draws-huge-crowds-in-paris-as-600000-await-mass",
+          "source_url": "https://www.euronews.com/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:12:51Z",
+          "data": {
+            "change": "added",
+            "label": "Euronews: Pope Leo XIV draws huge crowds in Paris as 600,000 await Mass",
+            "item_type": "entry",
+            "summary": "added: Euronews: Pope Leo XIV draws huge crowds in Paris as 600,000 await Mass",
+            "after": {
+              "title": "Euronews: Pope Leo XIV draws huge crowds in Paris as 600,000 await Mass",
+              "link": "https://www.euronews.com/2026/09/26/pope-leo-xiv-draws-huge-crowds-in-paris-as-600000-await-mass",
+              "id": "https://www.euronews.com/2026/09/26/pope-leo-xiv-draws-huge-crowds-in-paris-as-600000-await-mass",
+              "author": null,
+              "published_at": "2026-09-26T11:17:08Z",
+              "updated_at": "2026-09-26T11:17:08Z",
+              "summary": "On Saturday, Pope Leo XIV continues his visit to France with a large outdoor Mass at Paris's Place de la Concorde, followed by prayers with the faithful in Lourdes.",
+              "categories": [],
+              "feed": {
+                "title": "Latest News From Euronews | Euronews RSS",
+                "url": "https://www.euronews.com",
+                "feed_url": "https://www.euronews.com/rss"
+              },
+              "outlet": "Euronews"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.euronews.com/rss",
+            "elapsed_ms": 221,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^politico\\\\.eu$\", \"POLITICO Europe\")",
+                  "outlet=replace(outlet, \"^euronews\\\\.com$\", \"Euronews\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "europe-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.euronews.com/2026/09/26/pope-leo-xiv-draws-huge-crowds-in-paris-as-600000-await-mass"
+    },
+    {
+      "id": "bfb27ef045380635d1f0",
+      "title": "Euronews: Can this German company help end Europe's lithium dependence on China?",
+      "content_text": "China produces up to 70% of the battery-grade lithium chemicals used in Europe. A German recycling firm hopes its new plant can help reduce that dependence, but significant obstacles remain.",
+      "date_published": "2026-09-26T11:03:59Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "bfb27ef045380635d1f0",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.euronews.com/2026/09/26/can-this-german-company-help-end-europes-lithium-dependence-on-china",
+          "source_url": "https://www.euronews.com/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:12:51Z",
+          "data": {
+            "change": "added",
+            "label": "Euronews: Can this German company help end Europe's lithium dependence on China?",
+            "item_type": "entry",
+            "summary": "added: Euronews: Can this German company help end Europe's lithium dependence on China?",
+            "after": {
+              "title": "Euronews: Can this German company help end Europe's lithium dependence on China?",
+              "link": "https://www.euronews.com/2026/09/26/can-this-german-company-help-end-europes-lithium-dependence-on-china",
+              "id": "https://www.euronews.com/2026/09/26/can-this-german-company-help-end-europes-lithium-dependence-on-china",
+              "author": null,
+              "published_at": "2026-09-26T11:03:59Z",
+              "updated_at": "2026-09-26T11:03:59Z",
+              "summary": "China produces up to 70% of the battery-grade lithium chemicals used in Europe. A German recycling firm hopes its new plant can help reduce that dependence, but significant obstacles remain.",
+              "categories": [],
+              "feed": {
+                "title": "Latest News From Euronews | Euronews RSS",
+                "url": "https://www.euronews.com",
+                "feed_url": "https://www.euronews.com/rss"
+              },
+              "outlet": "Euronews"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.euronews.com/rss",
+            "elapsed_ms": 221,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^politico\\\\.eu$\", \"POLITICO Europe\")",
+                  "outlet=replace(outlet, \"^euronews\\\\.com$\", \"Euronews\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "europe-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.euronews.com/2026/09/26/can-this-german-company-help-end-europes-lithium-dependence-on-china"
+    },
+    {
+      "id": "30ee4dd665f07420c473",
+      "title": "Euronews: Thousands of protesters take to the streets in Madrid over Ceuta migrant crisis",
+      "content_text": "Almost two months after the mass arrival of tens of thousands of migrants in Ceuta, the situation in the autonomous city remains unresolved.",
+      "date_published": "2026-09-26T10:21:12Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "30ee4dd665f07420c473",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.euronews.com/2026/09/26/thousands-of-protesters-take-to-the-streets-in-madrid-over-ceuta-migrant-crisis",
+          "source_url": "https://www.euronews.com/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:12:51Z",
+          "data": {
+            "change": "added",
+            "label": "Euronews: Thousands of protesters take to the streets in Madrid over Ceuta migrant crisis",
+            "item_type": "entry",
+            "summary": "added: Euronews: Thousands of protesters take to the streets in Madrid over Ceuta migrant crisis",
+            "after": {
+              "title": "Euronews: Thousands of protesters take to the streets in Madrid over Ceuta migrant crisis",
+              "link": "https://www.euronews.com/2026/09/26/thousands-of-protesters-take-to-the-streets-in-madrid-over-ceuta-migrant-crisis",
+              "id": "https://www.euronews.com/2026/09/26/thousands-of-protesters-take-to-the-streets-in-madrid-over-ceuta-migrant-crisis",
+              "author": null,
+              "published_at": "2026-09-26T10:21:12Z",
+              "updated_at": "2026-09-26T10:21:12Z",
+              "summary": "Almost two months after the mass arrival of tens of thousands of migrants in Ceuta, the situation in the autonomous city remains unresolved.",
+              "categories": [],
+              "feed": {
+                "title": "Latest News From Euronews | Euronews RSS",
+                "url": "https://www.euronews.com",
+                "feed_url": "https://www.euronews.com/rss"
+              },
+              "outlet": "Euronews"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.euronews.com/rss",
+            "elapsed_ms": 221,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^politico\\\\.eu$\", \"POLITICO Europe\")",
+                  "outlet=replace(outlet, \"^euronews\\\\.com$\", \"Euronews\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "europe-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.euronews.com/2026/09/26/thousands-of-protesters-take-to-the-streets-in-madrid-over-ceuta-migrant-crisis"
+    },
+    {
+      "id": "427e9ae11f57069de9df",
+      "title": "Euronews: New study reveals surprising origins of bats dating back 65 million years",
+      "content_text": "A genomic study of 103 species and 44 fossils places the origin of bats in Europe 65 million years ago and dates the birth of flight and echolocation, in a Nature paper with CSIC participation.",
+      "date_published": "2026-09-26T10:19:22Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "427e9ae11f57069de9df",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.euronews.com/2026/09/26/forget-asia-and-africa-bats-originated-in-europe-65-million-years-ago",
+          "source_url": "https://www.euronews.com/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:12:51Z",
+          "data": {
+            "change": "added",
+            "label": "Euronews: New study reveals surprising origins of bats dating back 65 million years",
+            "item_type": "entry",
+            "summary": "added: Euronews: New study reveals surprising origins of bats dating back 65 million years",
+            "after": {
+              "title": "Euronews: New study reveals surprising origins of bats dating back 65 million years",
+              "link": "https://www.euronews.com/2026/09/26/forget-asia-and-africa-bats-originated-in-europe-65-million-years-ago",
+              "id": "https://www.euronews.com/2026/09/26/forget-asia-and-africa-bats-originated-in-europe-65-million-years-ago",
+              "author": null,
+              "published_at": "2026-09-26T10:19:22Z",
+              "updated_at": "2026-09-26T10:19:22Z",
+              "summary": "A genomic study of 103 species and 44 fossils places the origin of bats in Europe 65 million years ago and dates the birth of flight and echolocation, in a Nature paper with CSIC participation.",
+              "categories": [],
+              "feed": {
+                "title": "Latest News From Euronews | Euronews RSS",
+                "url": "https://www.euronews.com",
+                "feed_url": "https://www.euronews.com/rss"
+              },
+              "outlet": "Euronews"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.euronews.com/rss",
+            "elapsed_ms": 221,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^politico\\\\.eu$\", \"POLITICO Europe\")",
+                  "outlet=replace(outlet, \"^euronews\\\\.com$\", \"Euronews\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "europe-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.euronews.com/2026/09/26/forget-asia-and-africa-bats-originated-in-europe-65-million-years-ago"
+    },
+    {
+      "id": "84b3185a131f204b05e1",
+      "title": "Euronews: Latest news bulletin | September 26th, 2026 – Midday",
+      "content_text": "Catch up with the most important stories from around Europe and beyond this September 26th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "date_published": "2026-09-26T10:00:16Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "84b3185a131f204b05e1",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.euronews.com/video/2026/09/26/latest-news-bulletin-september-26th-2026-midday",
+          "source_url": "https://www.euronews.com/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:12:51Z",
+          "data": {
+            "change": "added",
+            "label": "Euronews: Latest news bulletin | September 26th, 2026 – Midday",
+            "item_type": "entry",
+            "summary": "added: Euronews: Latest news bulletin | September 26th, 2026 – Midday",
+            "after": {
+              "title": "Euronews: Latest news bulletin | September 26th, 2026 – Midday",
+              "link": "https://www.euronews.com/video/2026/09/26/latest-news-bulletin-september-26th-2026-midday",
+              "id": "https://www.euronews.com/video/2026/09/26/latest-news-bulletin-september-26th-2026-midday",
+              "author": null,
+              "published_at": "2026-09-26T10:00:16Z",
+              "updated_at": "2026-09-26T10:00:16Z",
+              "summary": "Catch up with the most important stories from around Europe and beyond this September 26th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+              "categories": [],
+              "feed": {
+                "title": "Latest News From Euronews | Euronews RSS",
+                "url": "https://www.euronews.com",
+                "feed_url": "https://www.euronews.com/rss"
+              },
+              "outlet": "Euronews"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.euronews.com/rss",
+            "elapsed_ms": 221,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^politico\\\\.eu$\", \"POLITICO Europe\")",
+                  "outlet=replace(outlet, \"^euronews\\\\.com$\", \"Euronews\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "europe-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.euronews.com/video/2026/09/26/latest-news-bulletin-september-26th-2026-midday"
+    },
+    {
+      "id": "2819ca85039ca70b9fa0",
+      "title": "POLITICO Europe: Iran says Strait of Hormuz could reopen within seven days if US accepts deal",
+      "content_text": "U.S. President Donald Trump reportedly rejected the plan pitched by Tehran.",
+      "date_published": "2026-09-26T09:31:17Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "2819ca85039ca70b9fa0",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.politico.eu/?post_type=article&p=9064682",
+          "source_url": "https://www.politico.eu/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:12:51Z",
+          "data": {
+            "change": "added",
+            "label": "POLITICO Europe: Iran says Strait of Hormuz could reopen within seven days if US accepts deal",
+            "item_type": "entry",
+            "summary": "added: POLITICO Europe: Iran says Strait of Hormuz could reopen within seven days if US accepts deal",
+            "after": {
+              "title": "POLITICO Europe: Iran says Strait of Hormuz could reopen within seven days if US accepts deal",
+              "link": "https://www.politico.eu/article/iran-strait-of-hormuz-reopen-us-accepts-deal/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+              "id": "https://www.politico.eu/?post_type=article&p=9064682",
+              "author": "Nette Nöstlinger",
+              "published_at": "2026-09-26T09:31:17Z",
+              "updated_at": "2026-09-26T09:31:17Z",
+              "summary": "U.S. President Donald Trump reportedly rejected the plan pitched by Tehran.",
+              "categories": [
+                "Elections",
+                "Natural gas",
+                "Oil",
+                "Ports",
+                "Sanctions",
+                "War",
+                "Politics"
+              ],
+              "feed": {
+                "title": "POLITICO",
+                "url": "https://www.politico.eu",
+                "feed_url": "https://www.politico.eu/feed/"
+              },
+              "outlet": "POLITICO Europe"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.politico.eu/feed/",
+            "elapsed_ms": 230,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^politico\\\\.eu$\", \"POLITICO Europe\")",
+                  "outlet=replace(outlet, \"^euronews\\\\.com$\", \"Euronews\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "europe-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.politico.eu/article/iran-strait-of-hormuz-reopen-us-accepts-deal/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "tags": [
+        "Elections",
+        "Natural gas",
+        "Oil",
+        "Ports",
+        "Sanctions",
+        "War",
+        "Politics"
+      ]
+    },
+    {
+      "id": "29300161da008826a912",
+      "title": "Euronews: Russia strikes Ukraine as Putin denies plans to attack Europe amid growing tensions",
+      "content_text": "On Saturday, Ukrainian Foreign Minister Andrii Sybiha said Russia had also carried out a \"double strike\" attack on a logistics facility serving fast-food chain McDonald’s.",
+      "date_published": "2026-09-26T09:28:45Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "29300161da008826a912",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.euronews.com/2026/09/26/at-least-six-people-killed-in-russian-strikes-on-ukraine-over-last-24-hours",
+          "source_url": "https://www.euronews.com/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:12:51Z",
+          "data": {
+            "change": "added",
+            "label": "Euronews: Russia strikes Ukraine as Putin denies plans to attack Europe amid growing tensions",
+            "item_type": "entry",
+            "summary": "added: Euronews: Russia strikes Ukraine as Putin denies plans to attack Europe amid growing tensions",
+            "after": {
+              "title": "Euronews: Russia strikes Ukraine as Putin denies plans to attack Europe amid growing tensions",
+              "link": "https://www.euronews.com/2026/09/26/at-least-six-people-killed-in-russian-strikes-on-ukraine-over-last-24-hours",
+              "id": "https://www.euronews.com/2026/09/26/at-least-six-people-killed-in-russian-strikes-on-ukraine-over-last-24-hours",
+              "author": null,
+              "published_at": "2026-09-26T09:28:45Z",
+              "updated_at": "2026-09-26T09:28:45Z",
+              "summary": "On Saturday, Ukrainian Foreign Minister Andrii Sybiha said Russia had also carried out a \"double strike\" attack on a logistics facility serving fast-food chain McDonald’s.",
+              "categories": [],
+              "feed": {
+                "title": "Latest News From Euronews | Euronews RSS",
+                "url": "https://www.euronews.com",
+                "feed_url": "https://www.euronews.com/rss"
+              },
+              "outlet": "Euronews"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.euronews.com/rss",
+            "elapsed_ms": 221,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^politico\\\\.eu$\", \"POLITICO Europe\")",
+                  "outlet=replace(outlet, \"^euronews\\\\.com$\", \"Euronews\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "europe-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.euronews.com/2026/09/26/at-least-six-people-killed-in-russian-strikes-on-ukraine-over-last-24-hours"
+    },
+    {
+      "id": "0d63fd0b6ed356cedbf1",
+      "title": "Euronews: Baku's week of F1 racing, global security, and record investments",
+      "content_text": "Baku has completed a week of octane-fuelled racing, high-level security facilitation and secured record investments in one of its most dynamic events-filled weeks of the year.",
+      "date_published": "2026-09-26T09:11:45Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "0d63fd0b6ed356cedbf1",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.euronews.com/2026/09/26/bakus-week-of-f1-racing-global-security-and-record-investments",
+          "source_url": "https://www.euronews.com/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:12:51Z",
+          "data": {
+            "change": "added",
+            "label": "Euronews: Baku's week of F1 racing, global security, and record investments",
+            "item_type": "entry",
+            "summary": "added: Euronews: Baku's week of F1 racing, global security, and record investments",
+            "after": {
+              "title": "Euronews: Baku's week of F1 racing, global security, and record investments",
+              "link": "https://www.euronews.com/2026/09/26/bakus-week-of-f1-racing-global-security-and-record-investments",
+              "id": "https://www.euronews.com/2026/09/26/bakus-week-of-f1-racing-global-security-and-record-investments",
+              "author": null,
+              "published_at": "2026-09-26T09:11:45Z",
+              "updated_at": "2026-09-26T09:11:45Z",
+              "summary": "Baku has completed a week of octane-fuelled racing, high-level security facilitation and secured record investments in one of its most dynamic events-filled weeks of the year.",
+              "categories": [],
+              "feed": {
+                "title": "Latest News From Euronews | Euronews RSS",
+                "url": "https://www.euronews.com",
+                "feed_url": "https://www.euronews.com/rss"
+              },
+              "outlet": "Euronews"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.euronews.com/rss",
+            "elapsed_ms": 221,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^politico\\\\.eu$\", \"POLITICO Europe\")",
+                  "outlet=replace(outlet, \"^euronews\\\\.com$\", \"Euronews\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "europe-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.euronews.com/2026/09/26/bakus-week-of-f1-racing-global-security-and-record-investments"
+    },
+    {
+      "id": "9f3176c63d96cd51d6d2",
+      "title": "POLITICO Europe: Trump’s G20 invite to Putin is an ‘opportunity,’ German foreign minister says",
+      "content_text": "Johann Wadephul’s remarks diverged from the German government’s official line.",
+      "date_published": "2026-09-26T09:08:55Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "9f3176c63d96cd51d6d2",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.politico.eu/?post_type=article&p=9064637",
+          "source_url": "https://www.politico.eu/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T12:12:51Z",
+          "data": {
+            "change": "added",
+            "label": "POLITICO Europe: Trump’s G20 invite to Putin is an ‘opportunity,’ German foreign minister says",
+            "item_type": "entry",
+            "summary": "added: POLITICO Europe: Trump’s G20 invite to Putin is an ‘opportunity,’ German foreign minister says",
+            "after": {
+              "title": "POLITICO Europe: Trump’s G20 invite to Putin is an ‘opportunity,’ German foreign minister says",
+              "link": "https://www.politico.eu/article/valdimir-putin-g20-opportunity-says-germany-johann-wadephul/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+              "id": "https://www.politico.eu/?post_type=article&p=9064637",
+              "author": "Nette Nöstlinger",
+              "published_at": "2026-09-26T09:08:55Z",
+              "updated_at": "2026-09-26T09:08:55Z",
+              "summary": "Johann Wadephul’s remarks diverged from the German government’s official line.",
+              "categories": [
+                "Diplomacy",
+                "Negotiations",
+                "Politics"
+              ],
+              "feed": {
+                "title": "POLITICO",
+                "url": "https://www.politico.eu",
+                "feed_url": "https://www.politico.eu/feed/"
+              },
+              "outlet": "POLITICO Europe"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.politico.eu/feed/",
+            "elapsed_ms": 230,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^politico\\\\.eu$\", \"POLITICO Europe\")",
+                  "outlet=replace(outlet, \"^euronews\\\\.com$\", \"Euronews\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "europe-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.politico.eu/article/valdimir-putin-g20-opportunity-says-germany-johann-wadephul/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "tags": [
+        "Diplomacy",
+        "Negotiations",
+        "Politics"
+      ]
+    },
     {
       "id": "3f401b24457290a72140",
       "title": "Euronews: Lourdes: Everything you need to know about Pope Leo XIV's visit",
