@@ -1,0 +1,41 @@
+name: Request a feed
+description: Suggest a public source this catalog should follow.
+title: "Feed request: "
+labels: ["feed request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks! The catalog only uses **public** sources through the front door: official feeds
+        and APIs, or public pages that allow automated reading in their robots.txt. It never
+        tracks private individuals and never works around logins, paywalls or blocks.
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: The feed, API or page URL (the official one if there is one).
+      placeholder: https://example.gov/news/rss.xml
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What should the feed follow?
+      description: Which items, and anything to leave out.
+      placeholder: New recalls of food products, without routine updates.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Who is it useful for?
+      placeholder: People in Thailand who want flood warnings as they are issued.
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: Public data only
+      options:
+        - label: The source is public and does not need a login or a paid account.
+          required: true
+        - label: The feed is not about tracking a private person.
+          required: true

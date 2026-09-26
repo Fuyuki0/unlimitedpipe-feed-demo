@@ -139,7 +139,14 @@ summaries come from the sources' own feeds.
 3. Run `unlimited publish feeds/*.yml --force` to regenerate the workflow and index page.
 4. In your fork's Settings, enable Actions and set Pages to deploy from GitHub Actions.
 
-## Suggest a feed
+## Suggest or add a feed
 
-Open an issue with a source (an RSS feed, an official API or a public page) and what to follow
-in it.
+[Request a feed](https://github.com/Fuyuki0/unlimitedpipe-feeds/issues/new?template=feed-request.yml)
+with the source and what to follow, or add one yourself: [CONTRIBUTING.md](CONTRIBUTING.md)
+explains how, in four steps.
+
+## Health
+
+Every run records whether each feed worked. The [index page](https://feeds.daemonfill.dev/)
+marks a feed whose sources are failing, and `feeds.json` carries each feed's status, since
+when, and its newest item.
