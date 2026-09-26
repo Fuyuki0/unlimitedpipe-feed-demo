@@ -9,6 +9,103 @@
   },
   "items": [
     {
+      "id": "dafb57a4f1231e679779",
+      "title": "The Mainichi: False claims alleging theft by foreigners in Japan spread on social media",
+      "content_text": "TOKYO (Kyodo) -- Videos falsely portraying foreigners as stealing metal from railway tracks in Japan have spread widely on the country's social media,",
+      "date_published": "2026-09-26T02:13:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "dafb57a4f1231e679779",
+          "source": "rss",
+          "type": "change",
+          "key": "https://mainichi.jp/english/articles/20260926/p2g/00m/0na/012000c",
+          "source_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T02:14:24Z",
+          "data": {
+            "change": "added",
+            "label": "The Mainichi: False claims alleging theft by foreigners in Japan spread on social media",
+            "item_type": "entry",
+            "summary": "added: The Mainichi: False claims alleging theft by foreigners in Japan spread on social media",
+            "after": {
+              "title": "The Mainichi: False claims alleging theft by foreigners in Japan spread on social media",
+              "link": "https://mainichi.jp/english/articles/20260926/p2g/00m/0na/012000c",
+              "id": "https://mainichi.jp/english/articles/20260926/p2g/00m/0na/012000c",
+              "author": null,
+              "published_at": "2026-09-26T02:13:00Z",
+              "updated_at": "2026-09-26T02:13:00Z",
+              "summary": "TOKYO (Kyodo) -- Videos falsely portraying foreigners as stealing metal from railway tracks in Japan have spread widely on the country's social media,",
+              "categories": [],
+              "feed": {
+                "title": "The Mainichi",
+                "url": "https://mainichi.jp/english/",
+                "feed_url": "https://mainichi.jp/rss/etc/english_latest.rss"
+              },
+              "outlet": "The Mainichi"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+            "elapsed_ms": 435,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.4.0"
+            },
+            {
+              "step": "map",
+              "version": "0.4.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.4.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.4.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.4.0",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://mainichi.jp/english/articles/20260926/p2g/00m/0na/012000c"
+    },
+    {
       "id": "4ca074460c225b5170da",
       "title": "The Mainichi: News in Easy English: Girl in Yamanashi Pref. passes hardest Eiken test",
       "content_text": "FUJIKAWAGUCHIKO, Yamanashi -- Erina Honda, 11, passed Grade 1 of the Eiken English test. It is a very hard test. The level is like advanced university",
