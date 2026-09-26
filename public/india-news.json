@@ -9,6 +9,2228 @@
   },
   "items": [
     {
+      "id": "bfbef36883b1d2b90419",
+      "title": "The Hindu: TGSPDCL supplied free energy worth ₹17.8 crore to over 51,200 Ganesh pandals, says CMD Jitesh V. Patil",
+      "content_text": "The Hindu: TGSPDCL supplied free energy worth ₹17.8 crore to over 51,200 Ganesh pandals, says CMD Jitesh V. Patil",
+      "date_published": "2026-09-26T13:21:16Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "bfbef36883b1d2b90419",
+          "source": "rss",
+          "type": "change",
+          "key": "article-71512748",
+          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T13:27:58Z",
+          "data": {
+            "change": "added",
+            "label": "The Hindu: TGSPDCL supplied free energy worth ₹17.8 crore to over 51,200 Ganesh pandals, says CMD Jitesh V. Patil",
+            "item_type": "entry",
+            "summary": "added: The Hindu: TGSPDCL supplied free energy worth ₹17.8 crore to over 51,200 Ganesh pandals, says CMD Jitesh V. Patil",
+            "after": {
+              "title": "The Hindu: TGSPDCL supplied free energy worth ₹17.8 crore to over 51,200 Ganesh pandals, says CMD Jitesh V. Patil",
+              "link": "https://www.thehindu.com/news/national/telangana/tgspdcl-supplied-free-energy-worth-178-crore-to-over-51200-ganesh-pandals-says-cmd-jitesh-v-patil/article71512748.ece",
+              "id": "article-71512748",
+              "author": null,
+              "published_at": "2026-09-26T13:21:16Z",
+              "updated_at": "2026-09-26T13:21:16Z",
+              "summary": null,
+              "categories": [
+                "Telangana"
+              ],
+              "feed": {
+                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+                "url": "https://www.thehindu.com/news/national/",
+                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+              },
+              "outlet": "The Hindu"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+            "elapsed_ms": 92,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.thehindu.com/news/national/telangana/tgspdcl-supplied-free-energy-worth-178-crore-to-over-51200-ganesh-pandals-says-cmd-jitesh-v-patil/article71512748.ece",
+      "tags": [
+        "Telangana"
+      ]
+    },
+    {
+      "id": "6c05de9dac03b2c95e9f",
+      "title": "The Hindu: DMK says police arrested ‘Gem Granites’ Veermani because of court direction",
+      "content_text": "DMK MP Constantine Ravindran claimed the TVK government had sought to cover up the case four times on the ground that there was no prima facie case",
+      "date_published": "2026-09-26T13:20:58Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "6c05de9dac03b2c95e9f",
+          "source": "rss",
+          "type": "change",
+          "key": "article-71512659",
+          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T13:27:58Z",
+          "data": {
+            "change": "added",
+            "label": "The Hindu: DMK says police arrested ‘Gem Granites’ Veermani because of court direction",
+            "item_type": "entry",
+            "summary": "added: The Hindu: DMK says police arrested ‘Gem Granites’ Veermani because of court direction",
+            "after": {
+              "title": "The Hindu: DMK says police arrested ‘Gem Granites’ Veermani because of court direction",
+              "link": "https://www.thehindu.com/news/national/tamil-nadu/dmk-says-police-arrested-gem-granites-veermani-because-of-court-direction/article71512659.ece",
+              "id": "article-71512659",
+              "author": null,
+              "published_at": "2026-09-26T13:20:58Z",
+              "updated_at": "2026-09-26T13:20:58Z",
+              "summary": "DMK MP Constantine Ravindran claimed the TVK government had sought to cover up the case four times on the ground that there was no prima facie case",
+              "categories": [
+                "Tamil Nadu"
+              ],
+              "feed": {
+                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+                "url": "https://www.thehindu.com/news/national/",
+                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+              },
+              "outlet": "The Hindu"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+            "elapsed_ms": 92,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.thehindu.com/news/national/tamil-nadu/dmk-says-police-arrested-gem-granites-veermani-because-of-court-direction/article71512659.ece",
+      "tags": [
+        "Tamil Nadu"
+      ]
+    },
+    {
+      "id": "f0896fd87b648d4a6d81",
+      "title": "The Hindu: Karnataka plans district-level action to eliminate preventable maternal deaths",
+      "content_text": "A dedicated State-level unit for the prevention of maternal deaths, headed by a designated officer, will also be established, Khader says",
+      "date_published": "2026-09-26T13:20:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "f0896fd87b648d4a6d81",
+          "source": "rss",
+          "type": "change",
+          "key": "article-71509063",
+          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T13:27:58Z",
+          "data": {
+            "change": "added",
+            "label": "The Hindu: Karnataka plans district-level action to eliminate preventable maternal deaths",
+            "item_type": "entry",
+            "summary": "added: The Hindu: Karnataka plans district-level action to eliminate preventable maternal deaths",
+            "after": {
+              "title": "The Hindu: Karnataka plans district-level action to eliminate preventable maternal deaths",
+              "link": "https://www.thehindu.com/news/national/karnataka/karnataka-plans-district-level-action-to-eliminate-preventable-maternal-deaths/article71509063.ece",
+              "id": "article-71509063",
+              "author": null,
+              "published_at": "2026-09-26T13:20:00Z",
+              "updated_at": "2026-09-26T13:20:00Z",
+              "summary": "A dedicated State-level unit for the prevention of maternal deaths, headed by a designated officer, will also be established, Khader says",
+              "categories": [
+                "Karnataka"
+              ],
+              "feed": {
+                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+                "url": "https://www.thehindu.com/news/national/",
+                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+              },
+              "outlet": "The Hindu"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+            "elapsed_ms": 92,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.thehindu.com/news/national/karnataka/karnataka-plans-district-level-action-to-eliminate-preventable-maternal-deaths/article71509063.ece",
+      "tags": [
+        "Karnataka"
+      ]
+    },
+    {
+      "id": "204ef509877c7e22a6cb",
+      "title": "The Hindu: Governor urges VTU graduates to become job creators, focus on innovation",
+      "content_text": "Thaawarchand Gehlot, who is also the Chancellor of the university, calls upon students to dream big, set ambitious goals and work continuously towards achieving them.",
+      "date_published": "2026-09-26T13:19:09Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "204ef509877c7e22a6cb",
+          "source": "rss",
+          "type": "change",
+          "key": "article-71512529",
+          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T13:27:58Z",
+          "data": {
+            "change": "added",
+            "label": "The Hindu: Governor urges VTU graduates to become job creators, focus on innovation",
+            "item_type": "entry",
+            "summary": "added: The Hindu: Governor urges VTU graduates to become job creators, focus on innovation",
+            "after": {
+              "title": "The Hindu: Governor urges VTU graduates to become job creators, focus on innovation",
+              "link": "https://www.thehindu.com/news/national/karnataka/governor-urges-vtu-graduates-to-become-job-creators-focus-on-innovation/article71512529.ece",
+              "id": "article-71512529",
+              "author": null,
+              "published_at": "2026-09-26T13:19:09Z",
+              "updated_at": "2026-09-26T13:19:09Z",
+              "summary": "Thaawarchand Gehlot, who is also the Chancellor of the university, calls upon students to dream big, set ambitious goals and work continuously towards achieving them.",
+              "categories": [
+                "Karnataka"
+              ],
+              "feed": {
+                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+                "url": "https://www.thehindu.com/news/national/",
+                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+              },
+              "outlet": "The Hindu"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+            "elapsed_ms": 92,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.thehindu.com/news/national/karnataka/governor-urges-vtu-graduates-to-become-job-creators-focus-on-innovation/article71512529.ece",
+      "tags": [
+        "Karnataka"
+      ]
+    },
+    {
+      "id": "4b8d63afbb1080fb078b",
+      "title": "The Hindu: Candidates challenge 27 UPSC Prelims questions in tribunal over “incorrect” answers, “ambiguity”",
+      "content_text": "They challenge questions on Grand Slam rules, Zero FIR and Rigvedic agriculture; two petitions before CAT",
+      "date_published": "2026-09-26T13:18:33Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "4b8d63afbb1080fb078b",
+          "source": "rss",
+          "type": "change",
+          "key": "article-71512389",
+          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T13:27:58Z",
+          "data": {
+            "change": "added",
+            "label": "The Hindu: Candidates challenge 27 UPSC Prelims questions in tribunal over “incorrect” answers, “ambiguity”",
+            "item_type": "entry",
+            "summary": "added: The Hindu: Candidates challenge 27 UPSC Prelims questions in tribunal over “incorrect” answers, “ambiguity”",
+            "after": {
+              "title": "The Hindu: Candidates challenge 27 UPSC Prelims questions in tribunal over “incorrect” answers, “ambiguity”",
+              "link": "https://www.thehindu.com/news/national/rigvedic-period-to-zero-fir-aspirants-flag-ambiguity-incorrect-answers-in-27-upsc-prelims-questions/article71512389.ece",
+              "id": "article-71512389",
+              "author": null,
+              "published_at": "2026-09-26T13:18:33Z",
+              "updated_at": "2026-09-26T13:18:33Z",
+              "summary": "They challenge questions on Grand Slam rules, Zero FIR and Rigvedic agriculture; two petitions before CAT",
+              "categories": [
+                "India"
+              ],
+              "feed": {
+                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+                "url": "https://www.thehindu.com/news/national/",
+                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+              },
+              "outlet": "The Hindu"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+            "elapsed_ms": 92,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.thehindu.com/news/national/rigvedic-period-to-zero-fir-aspirants-flag-ambiguity-incorrect-answers-in-27-upsc-prelims-questions/article71512389.ece",
+      "tags": [
+        "India"
+      ]
+    },
+    {
+      "id": "548025e21d1ce8f35247",
+      "title": "The Hindu: Left parties stage protest against CEC in Hassan, demand his removal",
+      "content_text": "The Hindu: Left parties stage protest against CEC in Hassan, demand his removal",
+      "date_published": "2026-09-26T13:17:08Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "548025e21d1ce8f35247",
+          "source": "rss",
+          "type": "change",
+          "key": "article-71512437",
+          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T13:27:58Z",
+          "data": {
+            "change": "added",
+            "label": "The Hindu: Left parties stage protest against CEC in Hassan, demand his removal",
+            "item_type": "entry",
+            "summary": "added: The Hindu: Left parties stage protest against CEC in Hassan, demand his removal",
+            "after": {
+              "title": "The Hindu: Left parties stage protest against CEC in Hassan, demand his removal",
+              "link": "https://www.thehindu.com/news/national/karnataka/left-parties-stage-protest-against-cec-in-hassan-demand-his-removal/article71512437.ece",
+              "id": "article-71512437",
+              "author": null,
+              "published_at": "2026-09-26T13:17:08Z",
+              "updated_at": "2026-09-26T13:17:08Z",
+              "summary": null,
+              "categories": [
+                "Karnataka"
+              ],
+              "feed": {
+                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+                "url": "https://www.thehindu.com/news/national/",
+                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+              },
+              "outlet": "The Hindu"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+            "elapsed_ms": 92,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.thehindu.com/news/national/karnataka/left-parties-stage-protest-against-cec-in-hassan-demand-his-removal/article71512437.ece",
+      "tags": [
+        "Karnataka"
+      ]
+    },
+    {
+      "id": "5fce7ff8b6927172b5c0",
+      "title": "The Hindu: Chief Minister Chandrababu Naidu orders urgent relief measures in flood-hit areas",
+      "content_text": "The Chief Minister directs officials to expedite the process of restoration of power supply, distribute 50 kg of rice to each fisherfolk family, and evolve plans to construct two barrages, one upstream and another downstream of Prakasam Barrage, to impound local floodwaters",
+      "date_published": "2026-09-26T13:14:38Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "5fce7ff8b6927172b5c0",
+          "source": "rss",
+          "type": "change",
+          "key": "article-71511827",
+          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T13:27:58Z",
+          "data": {
+            "change": "added",
+            "label": "The Hindu: Chief Minister Chandrababu Naidu orders urgent relief measures in flood-hit areas",
+            "item_type": "entry",
+            "summary": "added: The Hindu: Chief Minister Chandrababu Naidu orders urgent relief measures in flood-hit areas",
+            "after": {
+              "title": "The Hindu: Chief Minister Chandrababu Naidu orders urgent relief measures in flood-hit areas",
+              "link": "https://www.thehindu.com/news/national/andhra-pradesh/chief-minister-chandrababu-naidu-orders-urgent-relief-measures-in-flood-hit-areas/article71511827.ece",
+              "id": "article-71511827",
+              "author": null,
+              "published_at": "2026-09-26T13:14:38Z",
+              "updated_at": "2026-09-26T13:14:38Z",
+              "summary": "The Chief Minister directs officials to expedite the process of restoration of power supply, distribute 50 kg of rice to each fisherfolk family, and evolve plans to construct two barrages, one upstream and another downstream of Prakasam Barrage, to impound local floodwaters",
+              "categories": [
+                "Andhra Pradesh"
+              ],
+              "feed": {
+                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+                "url": "https://www.thehindu.com/news/national/",
+                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+              },
+              "outlet": "The Hindu"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+            "elapsed_ms": 92,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/chief-minister-chandrababu-naidu-orders-urgent-relief-measures-in-flood-hit-areas/article71511827.ece",
+      "tags": [
+        "Andhra Pradesh"
+      ]
+    },
+    {
+      "id": "20956733da7af040f438",
+      "title": "The Hindu: Centralised kitchen inaugurated in Medak to serve breakfast to 29,183 students",
+      "content_text": "The Hindu: Centralised kitchen inaugurated in Medak to serve breakfast to 29,183 students",
+      "date_published": "2026-09-26T13:08:52Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "20956733da7af040f438",
+          "source": "rss",
+          "type": "change",
+          "key": "article-71512798",
+          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T13:27:58Z",
+          "data": {
+            "change": "added",
+            "label": "The Hindu: Centralised kitchen inaugurated in Medak to serve breakfast to 29,183 students",
+            "item_type": "entry",
+            "summary": "added: The Hindu: Centralised kitchen inaugurated in Medak to serve breakfast to 29,183 students",
+            "after": {
+              "title": "The Hindu: Centralised kitchen inaugurated in Medak to serve breakfast to 29,183 students",
+              "link": "https://www.thehindu.com/news/national/telangana/centralised-kitchen-inaugurated-in-medak-to-serve-breakfast-to-29183-students/article71512798.ece",
+              "id": "article-71512798",
+              "author": null,
+              "published_at": "2026-09-26T13:08:52Z",
+              "updated_at": "2026-09-26T13:08:52Z",
+              "summary": null,
+              "categories": [
+                "Telangana"
+              ],
+              "feed": {
+                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+                "url": "https://www.thehindu.com/news/national/",
+                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+              },
+              "outlet": "The Hindu"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+            "elapsed_ms": 92,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.thehindu.com/news/national/telangana/centralised-kitchen-inaugurated-in-medak-to-serve-breakfast-to-29183-students/article71512798.ece",
+      "tags": [
+        "Telangana"
+      ]
+    },
+    {
+      "id": "9f7ae2a5c9835b1dbd4f",
+      "title": "The Hindu: Full version of Vande Mataram sung at VTU convocation",
+      "content_text": "The Hindu: Full version of Vande Mataram sung at VTU convocation",
+      "date_published": "2026-09-26T13:08:41Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "9f7ae2a5c9835b1dbd4f",
+          "source": "rss",
+          "type": "change",
+          "key": "article-71512773",
+          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T13:27:58Z",
+          "data": {
+            "change": "added",
+            "label": "The Hindu: Full version of Vande Mataram sung at VTU convocation",
+            "item_type": "entry",
+            "summary": "added: The Hindu: Full version of Vande Mataram sung at VTU convocation",
+            "after": {
+              "title": "The Hindu: Full version of Vande Mataram sung at VTU convocation",
+              "link": "https://www.thehindu.com/news/national/karnataka/full-version-of-vande-mataram-sung-at-vtu-convocation/article71512773.ece",
+              "id": "article-71512773",
+              "author": null,
+              "published_at": "2026-09-26T13:08:41Z",
+              "updated_at": "2026-09-26T13:08:41Z",
+              "summary": null,
+              "categories": [
+                "Karnataka"
+              ],
+              "feed": {
+                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+                "url": "https://www.thehindu.com/news/national/",
+                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+              },
+              "outlet": "The Hindu"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+            "elapsed_ms": 92,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.thehindu.com/news/national/karnataka/full-version-of-vande-mataram-sung-at-vtu-convocation/article71512773.ece",
+      "tags": [
+        "Karnataka"
+      ]
+    },
+    {
+      "id": "c2b6293615cc1e0abd2b",
+      "title": "The Hindu: CMRL-Exalogic payoff case: ED affirms offence found during probe under PMLA Act warrants investigation by State police",
+      "content_text": "The court observed that the ED and the petitioner were unified on the stand that a preliminary enquiry was not required to register an FIR for the investigation of an alleged predicate offence, revealed during the ED probe under the PMLA Act",
+      "date_published": "2026-09-26T13:07:10Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c2b6293615cc1e0abd2b",
+          "source": "rss",
+          "type": "change",
+          "key": "article-71512425",
+          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T13:27:58Z",
+          "data": {
+            "change": "added",
+            "label": "The Hindu: CMRL-Exalogic payoff case: ED affirms offence found during probe under PMLA Act warrants investigation by State police",
+            "item_type": "entry",
+            "summary": "added: The Hindu: CMRL-Exalogic payoff case: ED affirms offence found during probe under PMLA Act warrants investigation by State police",
+            "after": {
+              "title": "The Hindu: CMRL-Exalogic payoff case: ED affirms offence found during probe under PMLA Act warrants investigation by State police",
+              "link": "https://www.thehindu.com/news/national/kerala/cmrl-exalogic-payoff-case-ed-affirms-offence-found-during-probe-under-pmla-act-warrants-investigation-by-state-police/article71512425.ece",
+              "id": "article-71512425",
+              "author": null,
+              "published_at": "2026-09-26T13:07:10Z",
+              "updated_at": "2026-09-26T13:07:10Z",
+              "summary": "The court observed that the ED and the petitioner were unified on the stand that a preliminary enquiry was not required to register an FIR for the investigation of an alleged predicate offence, revealed during the ED probe under the PMLA Act",
+              "categories": [
+                "Keralam"
+              ],
+              "feed": {
+                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+                "url": "https://www.thehindu.com/news/national/",
+                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+              },
+              "outlet": "The Hindu"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+            "elapsed_ms": 92,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.thehindu.com/news/national/kerala/cmrl-exalogic-payoff-case-ed-affirms-offence-found-during-probe-under-pmla-act-warrants-investigation-by-state-police/article71512425.ece",
+      "tags": [
+        "Keralam"
+      ]
+    },
+    {
+      "id": "856079cad9e60ae9b857",
+      "title": "The Hindu: Missing youth found dead in Belagavi district",
+      "content_text": "The exact cause of death is expected to be established after the postmortem examination and further investigation.",
+      "date_published": "2026-09-26T13:03:42Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "856079cad9e60ae9b857",
+          "source": "rss",
+          "type": "change",
+          "key": "article-71512238",
+          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T13:27:58Z",
+          "data": {
+            "change": "added",
+            "label": "The Hindu: Missing youth found dead in Belagavi district",
+            "item_type": "entry",
+            "summary": "added: The Hindu: Missing youth found dead in Belagavi district",
+            "after": {
+              "title": "The Hindu: Missing youth found dead in Belagavi district",
+              "link": "https://www.thehindu.com/news/national/karnataka/missing-youth-found-dead-in-belagavi-district/article71512238.ece",
+              "id": "article-71512238",
+              "author": null,
+              "published_at": "2026-09-26T13:03:42Z",
+              "updated_at": "2026-09-26T13:03:42Z",
+              "summary": "The exact cause of death is expected to be established after the postmortem examination and further investigation.",
+              "categories": [
+                "Karnataka"
+              ],
+              "feed": {
+                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+                "url": "https://www.thehindu.com/news/national/",
+                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+              },
+              "outlet": "The Hindu"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+            "elapsed_ms": 92,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.thehindu.com/news/national/karnataka/missing-youth-found-dead-in-belagavi-district/article71512238.ece",
+      "tags": [
+        "Karnataka"
+      ]
+    },
+    {
+      "id": "b54f80ef7199d21daa1c",
+      "title": "The Hindu: India-West Indies ODI: Free drinking water, curbs on prices for snacks at stadium",
+      "content_text": "The Hindu: India-West Indies ODI: Free drinking water, curbs on prices for snacks at stadium",
+      "date_published": "2026-09-26T13:03:21Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "b54f80ef7199d21daa1c",
+          "source": "rss",
+          "type": "change",
+          "key": "article-71512775",
+          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T13:27:58Z",
+          "data": {
+            "change": "added",
+            "label": "The Hindu: India-West Indies ODI: Free drinking water, curbs on prices for snacks at stadium",
+            "item_type": "entry",
+            "summary": "added: The Hindu: India-West Indies ODI: Free drinking water, curbs on prices for snacks at stadium",
+            "after": {
+              "title": "The Hindu: India-West Indies ODI: Free drinking water, curbs on prices for snacks at stadium",
+              "link": "https://www.thehindu.com/news/national/kerala/india-west-indies-odi-free-drinking-water-curbs-on-prices-for-snacks-at-stadium/article71512775.ece",
+              "id": "article-71512775",
+              "author": null,
+              "published_at": "2026-09-26T13:03:21Z",
+              "updated_at": "2026-09-26T13:03:21Z",
+              "summary": null,
+              "categories": [
+                "Keralam"
+              ],
+              "feed": {
+                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+                "url": "https://www.thehindu.com/news/national/",
+                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+              },
+              "outlet": "The Hindu"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+            "elapsed_ms": 92,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.thehindu.com/news/national/kerala/india-west-indies-odi-free-drinking-water-curbs-on-prices-for-snacks-at-stadium/article71512775.ece",
+      "tags": [
+        "Keralam"
+      ]
+    },
+    {
+      "id": "aaa7e0ce6fbdafd32232",
+      "title": "The Hindu: Dental doctor dies after childbirth in Tiruvuru, kin stage protest",
+      "content_text": "The Hindu: Dental doctor dies after childbirth in Tiruvuru, kin stage protest",
+      "date_published": "2026-09-26T13:01:39Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "aaa7e0ce6fbdafd32232",
+          "source": "rss",
+          "type": "change",
+          "key": "article-71512197",
+          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T13:27:58Z",
+          "data": {
+            "change": "added",
+            "label": "The Hindu: Dental doctor dies after childbirth in Tiruvuru, kin stage protest",
+            "item_type": "entry",
+            "summary": "added: The Hindu: Dental doctor dies after childbirth in Tiruvuru, kin stage protest",
+            "after": {
+              "title": "The Hindu: Dental doctor dies after childbirth in Tiruvuru, kin stage protest",
+              "link": "https://www.thehindu.com/news/national/andhra-pradesh/dental-doctor-dies-after-childbirth-in-tiruvuru-kin-stage-protest/article71512197.ece",
+              "id": "article-71512197",
+              "author": null,
+              "published_at": "2026-09-26T13:01:39Z",
+              "updated_at": "2026-09-26T13:01:39Z",
+              "summary": null,
+              "categories": [
+                "Andhra Pradesh"
+              ],
+              "feed": {
+                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+                "url": "https://www.thehindu.com/news/national/",
+                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+              },
+              "outlet": "The Hindu"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+            "elapsed_ms": 92,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/dental-doctor-dies-after-childbirth-in-tiruvuru-kin-stage-protest/article71512197.ece",
+      "tags": [
+        "Andhra Pradesh"
+      ]
+    },
+    {
+      "id": "1fafd31a877cad296ff8",
+      "title": "The Hindu: 51-member Madhya Pradesh delegation to visit Karnataka under Yuva Sangam",
+      "content_text": "The reciprocal exchange would see a 53-member Karnataka delegation visit Bhopal in Madhya Pradesh from October 10 to 17 to explore the cultural heritage, traditions, tourism, educational institutions and developmental achievements",
+      "date_published": "2026-09-26T12:59:55Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "1fafd31a877cad296ff8",
+          "source": "rss",
+          "type": "change",
+          "key": "article-71512559",
+          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T13:27:58Z",
+          "data": {
+            "change": "added",
+            "label": "The Hindu: 51-member Madhya Pradesh delegation to visit Karnataka under Yuva Sangam",
+            "item_type": "entry",
+            "summary": "added: The Hindu: 51-member Madhya Pradesh delegation to visit Karnataka under Yuva Sangam",
+            "after": {
+              "title": "The Hindu: 51-member Madhya Pradesh delegation to visit Karnataka under Yuva Sangam",
+              "link": "https://www.thehindu.com/news/national/karnataka/51-member-madhya-pradesh-delegation-to-visit-karnataka-under-yuva-sangam/article71512559.ece",
+              "id": "article-71512559",
+              "author": null,
+              "published_at": "2026-09-26T12:59:55Z",
+              "updated_at": "2026-09-26T12:59:55Z",
+              "summary": "The reciprocal exchange would see a 53-member Karnataka delegation visit Bhopal in Madhya Pradesh from October 10 to 17 to explore the cultural heritage, traditions, tourism, educational institutions and developmental achievements",
+              "categories": [
+                "Karnataka"
+              ],
+              "feed": {
+                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+                "url": "https://www.thehindu.com/news/national/",
+                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+              },
+              "outlet": "The Hindu"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+            "elapsed_ms": 92,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.thehindu.com/news/national/karnataka/51-member-madhya-pradesh-delegation-to-visit-karnataka-under-yuva-sangam/article71512559.ece",
+      "tags": [
+        "Karnataka"
+      ]
+    },
+    {
+      "id": "dd01a8aa03fa2fdf936c",
+      "title": "The Hindu: Union Home Minister Amit Shah faces Youth Congress black-flag protest in Kollam",
+      "content_text": "Moments after the Home Minister’s helicopter landed, demonstrators surged toward the moving motorcade. Security personnel cleared the route. The protest also sparked a standoff between protesters and local BJP workers.",
+      "date_published": "2026-09-26T12:57:04Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "dd01a8aa03fa2fdf936c",
+          "source": "rss",
+          "type": "change",
+          "key": "article-71512525",
+          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T13:27:58Z",
+          "data": {
+            "change": "added",
+            "label": "The Hindu: Union Home Minister Amit Shah faces Youth Congress black-flag protest in Kollam",
+            "item_type": "entry",
+            "summary": "added: The Hindu: Union Home Minister Amit Shah faces Youth Congress black-flag protest in Kollam",
+            "after": {
+              "title": "The Hindu: Union Home Minister Amit Shah faces Youth Congress black-flag protest in Kollam",
+              "link": "https://www.thehindu.com/news/national/kerala/union-home-minister-amit-shah-faces-youth-congress-black-flag-protest-in-kollam/article71512525.ece",
+              "id": "article-71512525",
+              "author": null,
+              "published_at": "2026-09-26T12:57:04Z",
+              "updated_at": "2026-09-26T12:57:04Z",
+              "summary": "Moments after the Home Minister’s helicopter landed, demonstrators surged toward the moving motorcade. Security personnel cleared the route. The protest also sparked a standoff between protesters and local BJP workers.",
+              "categories": [
+                "Keralam"
+              ],
+              "feed": {
+                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+                "url": "https://www.thehindu.com/news/national/",
+                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+              },
+              "outlet": "The Hindu"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+            "elapsed_ms": 92,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.thehindu.com/news/national/kerala/union-home-minister-amit-shah-faces-youth-congress-black-flag-protest-in-kollam/article71512525.ece",
+      "tags": [
+        "Keralam"
+      ]
+    },
+    {
+      "id": "7efe06cd440b18bbfb3c",
+      "title": "The Hindu: Parameshwara urges graduates to use knowledge and innovation for the benefit of society; 74,763 students receive degrees at VTU convocation",
+      "content_text": "Dr. Parameshwara said emerging technologies such as artificial intelligence (AI), quantum computing, biotechnology and satellite development were transforming industries and creating new opportunities.",
+      "date_published": "2026-09-26T12:52:45Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "7efe06cd440b18bbfb3c",
+          "source": "rss",
+          "type": "change",
+          "key": "article-71512551",
+          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T13:27:58Z",
+          "data": {
+            "change": "added",
+            "label": "The Hindu: Parameshwara urges graduates to use knowledge and innovation for the benefit of society; 74,763 students receive degrees at VTU convocation",
+            "item_type": "entry",
+            "summary": "added: The Hindu: Parameshwara urges graduates to use knowledge and innovation for the benefit of society; 74,763 students receive degrees at VTU convocation",
+            "after": {
+              "title": "The Hindu: Parameshwara urges graduates to use knowledge and innovation for the benefit of society; 74,763 students receive degrees at VTU convocation",
+              "link": "https://www.thehindu.com/news/national/karnataka/parameshwara-urges-graduates-to-use-knowledge-and-innovation-for-the-benefit-of-society-74763-students-receive-degrees-at-vtu-convocation/article71512551.ece",
+              "id": "article-71512551",
+              "author": null,
+              "published_at": "2026-09-26T12:52:45Z",
+              "updated_at": "2026-09-26T12:52:45Z",
+              "summary": "Dr. Parameshwara said emerging technologies such as artificial intelligence (AI), quantum computing, biotechnology and satellite development were transforming industries and creating new opportunities.",
+              "categories": [
+                "Karnataka"
+              ],
+              "feed": {
+                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+                "url": "https://www.thehindu.com/news/national/",
+                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+              },
+              "outlet": "The Hindu"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+            "elapsed_ms": 92,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.thehindu.com/news/national/karnataka/parameshwara-urges-graduates-to-use-knowledge-and-innovation-for-the-benefit-of-society-74763-students-receive-degrees-at-vtu-convocation/article71512551.ece",
+      "tags": [
+        "Karnataka"
+      ]
+    },
+    {
+      "id": "09c2845db22fd9e727e9",
+      "title": "The Hindu: Foundation stone laid for ₹147.36-crore Gaddipadu ROB in Guntur",
+      "content_text": "Pemmasani says the overbridge will ease traffic congestion at a busy crossing used by 20,000 vehicles and crossed by 78 trains daily",
+      "date_published": "2026-09-26T12:44:49Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "09c2845db22fd9e727e9",
+          "source": "rss",
+          "type": "change",
+          "key": "article-71512532",
+          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T13:27:58Z",
+          "data": {
+            "change": "added",
+            "label": "The Hindu: Foundation stone laid for ₹147.36-crore Gaddipadu ROB in Guntur",
+            "item_type": "entry",
+            "summary": "added: The Hindu: Foundation stone laid for ₹147.36-crore Gaddipadu ROB in Guntur",
+            "after": {
+              "title": "The Hindu: Foundation stone laid for ₹147.36-crore Gaddipadu ROB in Guntur",
+              "link": "https://www.thehindu.com/news/national/andhra-pradesh/foundation-stone-laid-for-14736-crore-gaddipadu-rob-in-guntur/article71512532.ece",
+              "id": "article-71512532",
+              "author": null,
+              "published_at": "2026-09-26T12:44:49Z",
+              "updated_at": "2026-09-26T12:44:49Z",
+              "summary": "Pemmasani says the overbridge will ease traffic congestion at a busy crossing used by 20,000 vehicles and crossed by 78 trains daily",
+              "categories": [
+                "Andhra Pradesh"
+              ],
+              "feed": {
+                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+                "url": "https://www.thehindu.com/news/national/",
+                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+              },
+              "outlet": "The Hindu"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+            "elapsed_ms": 92,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/foundation-stone-laid-for-14736-crore-gaddipadu-rob-in-guntur/article71512532.ece",
+      "tags": [
+        "Andhra Pradesh"
+      ]
+    },
+    {
+      "id": "bac009540e182729f7f5",
+      "title": "The Hindu: Mehbooba Mufti appeals to 'secular-minded' people to join protest at Delhi's Jantar Mantar on September 29",
+      "content_text": "Mehbooba Mufti said the protest has been organised by the Monitoring Committee for Indian Muslims",
+      "date_published": "2026-09-26T12:41:35Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "bac009540e182729f7f5",
+          "source": "rss",
+          "type": "change",
+          "key": "article-71512684",
+          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T13:27:58Z",
+          "data": {
+            "change": "added",
+            "label": "The Hindu: Mehbooba Mufti appeals to 'secular-minded' people to join protest at Delhi's Jantar Mantar on September 29",
+            "item_type": "entry",
+            "summary": "added: The Hindu: Mehbooba Mufti appeals to 'secular-minded' people to join protest at Delhi's Jantar Mantar on September 29",
+            "after": {
+              "title": "The Hindu: Mehbooba Mufti appeals to 'secular-minded' people to join protest at Delhi's Jantar Mantar on September 29",
+              "link": "https://www.thehindu.com/news/national/jammu-and-kashmir/mehbooba-mufti-appeals-to-secular-minded-people-to-join-protest-at-delhis-jantar-mantar-on-september-29/article71512684.ece",
+              "id": "article-71512684",
+              "author": null,
+              "published_at": "2026-09-26T12:41:35Z",
+              "updated_at": "2026-09-26T12:41:35Z",
+              "summary": "Mehbooba Mufti said the protest has been organised by the Monitoring Committee for Indian Muslims",
+              "categories": [
+                "Jammu and Kashmir"
+              ],
+              "feed": {
+                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+                "url": "https://www.thehindu.com/news/national/",
+                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+              },
+              "outlet": "The Hindu"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+            "elapsed_ms": 92,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/mehbooba-mufti-appeals-to-secular-minded-people-to-join-protest-at-delhis-jantar-mantar-on-september-29/article71512684.ece",
+      "tags": [
+        "Jammu and Kashmir"
+      ]
+    },
+    {
+      "id": "6e5991463826e52907bb",
+      "title": "The Hindu: Remove caste names from roads, public places: Tamil Nadu SC/ST Commission directs Collectors",
+      "content_text": "In his letter, writer Imayam, who is the Chairperson-in-charge of the Commission, asked the district Collectors to submit a report within a month after removing and renaming the places bearing caste names",
+      "date_published": "2026-09-26T12:37:10Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "6e5991463826e52907bb",
+          "source": "rss",
+          "type": "change",
+          "key": "article-71512645",
+          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T13:27:58Z",
+          "data": {
+            "change": "added",
+            "label": "The Hindu: Remove caste names from roads, public places: Tamil Nadu SC/ST Commission directs Collectors",
+            "item_type": "entry",
+            "summary": "added: The Hindu: Remove caste names from roads, public places: Tamil Nadu SC/ST Commission directs Collectors",
+            "after": {
+              "title": "The Hindu: Remove caste names from roads, public places: Tamil Nadu SC/ST Commission directs Collectors",
+              "link": "https://www.thehindu.com/news/national/tamil-nadu/remove-caste-names-scst-commission-directs-collectors-in-tamil-nadu/article71512645.ece",
+              "id": "article-71512645",
+              "author": null,
+              "published_at": "2026-09-26T12:37:10Z",
+              "updated_at": "2026-09-26T12:37:10Z",
+              "summary": "In his letter, writer Imayam, who is the Chairperson-in-charge of the Commission, asked the district Collectors to submit a report within a month after removing and renaming the places bearing caste names",
+              "categories": [
+                "Tamil Nadu"
+              ],
+              "feed": {
+                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+                "url": "https://www.thehindu.com/news/national/",
+                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+              },
+              "outlet": "The Hindu"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+            "elapsed_ms": 92,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.thehindu.com/news/national/tamil-nadu/remove-caste-names-scst-commission-directs-collectors-in-tamil-nadu/article71512645.ece",
+      "tags": [
+        "Tamil Nadu"
+      ]
+    },
+    {
+      "id": "99dd7f859e22a52c5d41",
+      "title": "The Hindu: Election Commission announces a slew of SIR decisions; objections period extended in Delhi, Maharashtra",
+      "content_text": "Electors who are “unmapped” or flagged for logical discrepancies will not be issued notices for hearings; declaration with Form 6 will be required only during SIR, while the previous format governs fresh voter registrations",
+      "date_published": "2026-09-26T12:29:53Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "99dd7f859e22a52c5d41",
+          "source": "rss",
+          "type": "change",
+          "key": "article-71512646",
+          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T13:27:58Z",
+          "data": {
+            "change": "added",
+            "label": "The Hindu: Election Commission announces a slew of SIR decisions; objections period extended in Delhi, Maharashtra",
+            "item_type": "entry",
+            "summary": "added: The Hindu: Election Commission announces a slew of SIR decisions; objections period extended in Delhi, Maharashtra",
+            "after": {
+              "title": "The Hindu: Election Commission announces a slew of SIR decisions; objections period extended in Delhi, Maharashtra",
+              "link": "https://www.thehindu.com/news/national/election-commission-new-special-intensive-revision-rules/article71512646.ece",
+              "id": "article-71512646",
+              "author": null,
+              "published_at": "2026-09-26T12:29:53Z",
+              "updated_at": "2026-09-26T12:29:53Z",
+              "summary": "Electors who are “unmapped” or flagged for logical discrepancies will not be issued notices for hearings; declaration with Form 6 will be required only during SIR, while the previous format governs fresh voter registrations",
+              "categories": [
+                "India"
+              ],
+              "feed": {
+                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+                "url": "https://www.thehindu.com/news/national/",
+                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+              },
+              "outlet": "The Hindu"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+            "elapsed_ms": 92,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.thehindu.com/news/national/election-commission-new-special-intensive-revision-rules/article71512646.ece",
+      "tags": [
+        "India"
+      ]
+    },
+    {
+      "id": "24191aebb5b79d2912f5",
+      "title": "The Hindu: Manipur Naga body decides to lift highway blockades",
+      "content_text": "The decision follows a tripartite meeting with the Centre and Manipur government at the Border Security Force’s Frontier Headquarters in Guwahati; the decision to pause the blockade after more than three months is seen as a significant step toward easing the transportation and supply crisis in Manipur",
+      "date_published": "2026-09-26T12:24:22Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "24191aebb5b79d2912f5",
+          "source": "rss",
+          "type": "change",
+          "key": "article-71512644",
+          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T13:27:58Z",
+          "data": {
+            "change": "added",
+            "label": "The Hindu: Manipur Naga body decides to lift highway blockades",
+            "item_type": "entry",
+            "summary": "added: The Hindu: Manipur Naga body decides to lift highway blockades",
+            "after": {
+              "title": "The Hindu: Manipur Naga body decides to lift highway blockades",
+              "link": "https://www.thehindu.com/news/national/manipur/manipur-naga-body-decides-to-lift-highway-blockades/article71512644.ece",
+              "id": "article-71512644",
+              "author": null,
+              "published_at": "2026-09-26T12:24:22Z",
+              "updated_at": "2026-09-26T12:24:22Z",
+              "summary": "The decision follows a tripartite meeting with the Centre and Manipur government at the Border Security Force’s Frontier Headquarters in Guwahati; the decision to pause the blockade after more than three months is seen as a significant step toward easing the transportation and supply crisis in Manipur",
+              "categories": [
+                "Manipur"
+              ],
+              "feed": {
+                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+                "url": "https://www.thehindu.com/news/national/",
+                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+              },
+              "outlet": "The Hindu"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+            "elapsed_ms": 92,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.thehindu.com/news/national/manipur/manipur-naga-body-decides-to-lift-highway-blockades/article71512644.ece",
+      "tags": [
+        "Manipur"
+      ]
+    },
+    {
+      "id": "11127fbec85876da7764",
+      "title": "The Hindu: Election Commission must respond to SIR irregularity allegations, says Ram Madhav",
+      "content_text": "BJP leader says Opposition should not contest elections if it believes the electoral system is rigged",
+      "date_published": "2026-09-26T11:53:51Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "11127fbec85876da7764",
+          "source": "rss",
+          "type": "change",
+          "key": "article-71509917",
+          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T13:27:58Z",
+          "data": {
+            "change": "added",
+            "label": "The Hindu: Election Commission must respond to SIR irregularity allegations, says Ram Madhav",
+            "item_type": "entry",
+            "summary": "added: The Hindu: Election Commission must respond to SIR irregularity allegations, says Ram Madhav",
+            "after": {
+              "title": "The Hindu: Election Commission must respond to SIR irregularity allegations, says Ram Madhav",
+              "link": "https://www.thehindu.com/news/national/andhra-pradesh/election-commission-must-respond-to-sir-irregularity-allegations-says-ram-madhav/article71509917.ece",
+              "id": "article-71509917",
+              "author": null,
+              "published_at": "2026-09-26T11:53:51Z",
+              "updated_at": "2026-09-26T11:53:51Z",
+              "summary": "BJP leader says Opposition should not contest elections if it believes the electoral system is rigged",
+              "categories": [
+                "Andhra Pradesh"
+              ],
+              "feed": {
+                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+                "url": "https://www.thehindu.com/news/national/",
+                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+              },
+              "outlet": "The Hindu"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+            "elapsed_ms": 92,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.thehindu.com/news/national/andhra-pradesh/election-commission-must-respond-to-sir-irregularity-allegations-says-ram-madhav/article71509917.ece",
+      "tags": [
+        "Andhra Pradesh"
+      ]
+    },
+    {
       "id": "a34178e8a6a0adc629c5",
       "title": "The Hindu: IDSFFK 2026: ‘Viraamam’ by Malavika VN dwells on the world of film projectionists",
       "content_text": "Viraamam was screened at the 18th International Documentary and Short Film Festival of Kerala in the short documentary competition section",
@@ -12749,2223 +14971,6 @@
       "url": "https://www.thehindu.com/news/national/congress-leads-protests-demanding-cecs-resignation-arrest/article71509581.ece",
       "tags": [
         "India"
-      ]
-    },
-    {
-      "id": "35a84684e0351d445fb8",
-      "title": "The Hindu: Attacks on commercial shipping in Gulf, Red Sea simply indefensible: Jaishankar as India and Liberia announce ‘group of friends’",
-      "content_text": "A terrorist country is asking me that question, the External Affairs Minister said in strong response to Pakistani journalist at the UN",
-      "date_published": "2026-09-26T01:45:26Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "35a84684e0351d445fb8",
-          "source": "rss",
-          "type": "change",
-          "key": "article-71509676",
-          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-          "timestamp": null,
-          "observed_at": "2026-09-26T02:07:23Z",
-          "data": {
-            "change": "added",
-            "label": "The Hindu: Attacks on commercial shipping in Gulf, Red Sea simply indefensible: Jaishankar as India and Liberia announce ‘group of friends’",
-            "item_type": "entry",
-            "summary": "added: The Hindu: Attacks on commercial shipping in Gulf, Red Sea simply indefensible: Jaishankar as India and Liberia announce ‘group of friends’",
-            "after": {
-              "title": "The Hindu: Attacks on commercial shipping in Gulf, Red Sea simply indefensible: Jaishankar as India and Liberia announce ‘group of friends’",
-              "link": "https://www.thehindu.com/news/national/attacks-on-commercial-shipping-in-gulf-red-sea-simply-indefensible-jaishankar/article71509676.ece",
-              "id": "article-71509676",
-              "author": null,
-              "published_at": "2026-09-26T01:45:26Z",
-              "updated_at": "2026-09-26T01:45:26Z",
-              "summary": "A terrorist country is asking me that question, the External Affairs Minister said in strong response to Pakistani journalist at the UN",
-              "categories": [
-                "India"
-              ],
-              "feed": {
-                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-                "url": "https://www.thehindu.com/news/national/",
-                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
-              },
-              "outlet": "The Hindu"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-            "elapsed_ms": 173,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.4.0"
-            },
-            {
-              "step": "map",
-              "version": "0.4.0",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
-                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.4.0",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.4.0",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.4.0",
-              "args": {
-                "namespace": "india-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.thehindu.com/news/national/attacks-on-commercial-shipping-in-gulf-red-sea-simply-indefensible-jaishankar/article71509676.ece",
-      "tags": [
-        "India"
-      ]
-    },
-    {
-      "id": "04df0a241e9261ad4b2e",
-      "title": "The Hindu: IMD issues heavy rain alert for September 26–27 in Uttarakhand; CM Dhami directs officials to maintain vigilance",
-      "content_text": "The Chief Minister appealed to residents and tourists to exercise extreme caution and urged people to travel only if essential and after checking the latest weather and road conditions.",
-      "date_published": "2026-09-26T01:36:40Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "04df0a241e9261ad4b2e",
-          "source": "rss",
-          "type": "change",
-          "key": "article-71511460",
-          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-          "timestamp": null,
-          "observed_at": "2026-09-26T01:47:10Z",
-          "data": {
-            "change": "added",
-            "label": "The Hindu: IMD issues heavy rain alert for September 26–27 in Uttarakhand; CM Dhami directs officials to maintain vigilance",
-            "item_type": "entry",
-            "summary": "added: The Hindu: IMD issues heavy rain alert for September 26–27 in Uttarakhand; CM Dhami directs officials to maintain vigilance",
-            "after": {
-              "title": "The Hindu: IMD issues heavy rain alert for September 26–27 in Uttarakhand; CM Dhami directs officials to maintain vigilance",
-              "link": "https://www.thehindu.com/news/national/uttarakhand/imd-issues-heavy-rain-alert-for-september-2627-in-uttarakhand-cm-dhami-directs-officials-to-maintain-vigilance/article71511460.ece",
-              "id": "article-71511460",
-              "author": null,
-              "published_at": "2026-09-26T01:36:40Z",
-              "updated_at": "2026-09-26T01:36:40Z",
-              "summary": "The Chief Minister appealed to residents and tourists to exercise extreme caution and urged people to travel only if essential and after checking the latest weather and road conditions.",
-              "categories": [
-                "Uttarakhand"
-              ],
-              "feed": {
-                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-                "url": "https://www.thehindu.com/news/national/",
-                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
-              },
-              "outlet": "The Hindu"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-            "elapsed_ms": 81,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.4.0"
-            },
-            {
-              "step": "map",
-              "version": "0.4.0",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
-                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.4.0",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.4.0",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.4.0",
-              "args": {
-                "namespace": "india-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.thehindu.com/news/national/uttarakhand/imd-issues-heavy-rain-alert-for-september-2627-in-uttarakhand-cm-dhami-directs-officials-to-maintain-vigilance/article71511460.ece",
-      "tags": [
-        "Uttarakhand"
-      ]
-    },
-    {
-      "id": "99e4ec5affbe1467830d",
-      "title": "The Hindu: IIT-B student death case: Crime Branch records statements of 20 people",
-      "content_text": "National Commission for Scheduled Castes conducts an inquiry after allegations of caste-based harassment; Athwale visits institute, demands independent probe, says will write to Pralhad Joshi",
-      "date_published": "2026-09-25T19:54:19Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "99e4ec5affbe1467830d",
-          "source": "rss",
-          "type": "change",
-          "key": "article-71509236",
-          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-          "timestamp": null,
-          "observed_at": "2026-09-26T01:47:10Z",
-          "data": {
-            "change": "added",
-            "label": "The Hindu: IIT-B student death case: Crime Branch records statements of 20 people",
-            "item_type": "entry",
-            "summary": "added: The Hindu: IIT-B student death case: Crime Branch records statements of 20 people",
-            "after": {
-              "title": "The Hindu: IIT-B student death case: Crime Branch records statements of 20 people",
-              "link": "https://www.thehindu.com/news/cities/mumbai/iit-bstudent-death-case-crime-branch-records-statements-of-20-people/article71509236.ece",
-              "id": "article-71509236",
-              "author": null,
-              "published_at": "2026-09-25T19:54:19Z",
-              "updated_at": "2026-09-25T19:54:19Z",
-              "summary": "National Commission for Scheduled Castes conducts an inquiry after allegations of caste-based harassment; Athwale visits institute, demands independent probe, says will write to Pralhad Joshi",
-              "categories": [
-                "Mumbai"
-              ],
-              "feed": {
-                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-                "url": "https://www.thehindu.com/news/national/",
-                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
-              },
-              "outlet": "The Hindu"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-            "elapsed_ms": 81,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.4.0"
-            },
-            {
-              "step": "map",
-              "version": "0.4.0",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
-                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.4.0",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.4.0",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.4.0",
-              "args": {
-                "namespace": "india-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.thehindu.com/news/cities/mumbai/iit-bstudent-death-case-crime-branch-records-statements-of-20-people/article71509236.ece",
-      "tags": [
-        "Mumbai"
-      ]
-    },
-    {
-      "id": "a6ce9aad8e9a53be60e7",
-      "title": "The Hindu: Breaking barriers, Junais Sathar rides from Kannur to Ladakh",
-      "content_text": "Travelling alone in a specially adapted vehicle, the 33-year-old from Kannur covered around 3,700 km to reach Ladakh. He says the journey has given him new confidence and encouraged others with disabilities to consider travelling farther from home",
-      "date_published": "2026-09-25T18:21:35Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "a6ce9aad8e9a53be60e7",
-          "source": "rss",
-          "type": "change",
-          "key": "article-71507749",
-          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-          "timestamp": null,
-          "observed_at": "2026-09-26T01:47:10Z",
-          "data": {
-            "change": "added",
-            "label": "The Hindu: Breaking barriers, Junais Sathar rides from Kannur to Ladakh",
-            "item_type": "entry",
-            "summary": "added: The Hindu: Breaking barriers, Junais Sathar rides from Kannur to Ladakh",
-            "after": {
-              "title": "The Hindu: Breaking barriers, Junais Sathar rides from Kannur to Ladakh",
-              "link": "https://www.thehindu.com/news/national/kerala/breaking-barriers-junais-sathar-rides-from-kannur-to-ladakh/article71507749.ece",
-              "id": "article-71507749",
-              "author": null,
-              "published_at": "2026-09-25T18:21:35Z",
-              "updated_at": "2026-09-25T18:21:35Z",
-              "summary": "Travelling alone in a specially adapted vehicle, the 33-year-old from Kannur covered around 3,700 km to reach Ladakh. He says the journey has given him new confidence and encouraged others with disabilities to consider travelling farther from home",
-              "categories": [
-                "Keralam"
-              ],
-              "feed": {
-                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-                "url": "https://www.thehindu.com/news/national/",
-                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
-              },
-              "outlet": "The Hindu"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-            "elapsed_ms": 81,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.4.0"
-            },
-            {
-              "step": "map",
-              "version": "0.4.0",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
-                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.4.0",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.4.0",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.4.0",
-              "args": {
-                "namespace": "india-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.thehindu.com/news/national/kerala/breaking-barriers-junais-sathar-rides-from-kannur-to-ladakh/article71507749.ece",
-      "tags": [
-        "Keralam"
-      ]
-    },
-    {
-      "id": "459c8344297cf6fb5294",
-      "title": "The Hindu: 2020 Delhi riots case: Supreme Court relaxes specific bail condition for about-to-be-married accused",
-      "content_text": "Bench reduces Meeran Haider’s mandatory police station appearances from twice a week to once weekly",
-      "date_published": "2026-09-26T00:08:01Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "459c8344297cf6fb5294",
-          "source": "rss",
-          "type": "change",
-          "key": "article-71509648",
-          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-          "timestamp": null,
-          "observed_at": "2026-09-26T00:24:46Z",
-          "data": {
-            "change": "added",
-            "label": "The Hindu: 2020 Delhi riots case: Supreme Court relaxes specific bail condition for about-to-be-married accused",
-            "item_type": "entry",
-            "summary": "added: The Hindu: 2020 Delhi riots case: Supreme Court relaxes specific bail condition for about-to-be-married accused",
-            "after": {
-              "title": "The Hindu: 2020 Delhi riots case: Supreme Court relaxes specific bail condition for about-to-be-married accused",
-              "link": "https://www.thehindu.com/news/cities/Delhi/2020-delhi-riots-case-supreme-court-relaxes-specific-bail-condition-for-about-to-be-married-accused/article71509648.ece",
-              "id": "article-71509648",
-              "author": null,
-              "published_at": "2026-09-26T00:08:01Z",
-              "updated_at": "2026-09-26T00:08:01Z",
-              "summary": "Bench reduces Meeran Haider’s mandatory police station appearances from twice a week to once weekly",
-              "categories": [
-                "Delhi"
-              ],
-              "feed": {
-                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-                "url": "https://www.thehindu.com/news/national/",
-                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
-              },
-              "outlet": "The Hindu"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-            "elapsed_ms": 96,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "map",
-              "version": "0.3.2",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
-                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "india-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.thehindu.com/news/cities/Delhi/2020-delhi-riots-case-supreme-court-relaxes-specific-bail-condition-for-about-to-be-married-accused/article71509648.ece",
-      "tags": [
-        "Delhi"
-      ]
-    },
-    {
-      "id": "f4bb09d9600c3a0aa61e",
-      "title": "The Hindu: Odisha Pedestrian Safety Rules, 2026 proposes pedestrian path mandatory",
-      "content_text": "The rules prescribe action against road owning agency, contractor or consultant if a faulty design leads to death or disability or grievous injury of a pedestrians",
-      "date_published": "2026-09-25T23:47:00Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "f4bb09d9600c3a0aa61e",
-          "source": "rss",
-          "type": "change",
-          "key": "article-71509089",
-          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-          "timestamp": null,
-          "observed_at": "2026-09-26T00:24:46Z",
-          "data": {
-            "change": "added",
-            "label": "The Hindu: Odisha Pedestrian Safety Rules, 2026 proposes pedestrian path mandatory",
-            "item_type": "entry",
-            "summary": "added: The Hindu: Odisha Pedestrian Safety Rules, 2026 proposes pedestrian path mandatory",
-            "after": {
-              "title": "The Hindu: Odisha Pedestrian Safety Rules, 2026 proposes pedestrian path mandatory",
-              "link": "https://www.thehindu.com/news/national/odisha/odisha-pedestrian-safety-rules-2026-proposes-pedestrian-path-mandatory/article71509089.ece",
-              "id": "article-71509089",
-              "author": null,
-              "published_at": "2026-09-25T23:47:00Z",
-              "updated_at": "2026-09-25T23:47:00Z",
-              "summary": "The rules prescribe action against road owning agency, contractor or consultant if a faulty design leads to death or disability or grievous injury of a pedestrians",
-              "categories": [
-                "Odisha"
-              ],
-              "feed": {
-                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-                "url": "https://www.thehindu.com/news/national/",
-                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
-              },
-              "outlet": "The Hindu"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-            "elapsed_ms": 96,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "map",
-              "version": "0.3.2",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
-                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "india-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.thehindu.com/news/national/odisha/odisha-pedestrian-safety-rules-2026-proposes-pedestrian-path-mandatory/article71509089.ece",
-      "tags": [
-        "Odisha"
-      ]
-    },
-    {
-      "id": "79d368c96fa18ede665c",
-      "title": "The Hindu: Aaditya Thackeray seeks postponement of MPSC State Service Mains pending reform panel report",
-      "content_text": "In his September 25 letter, Mr. Thackeray said the examination should be deferred if the report of the State-appointed committee headed by Additional Chief Secretary V. Radha remains pending and held only after its recommendations are appropriately implemented",
-      "date_published": "2026-09-25T22:36:50Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "79d368c96fa18ede665c",
-          "source": "rss",
-          "type": "change",
-          "key": "article-71509822",
-          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-          "timestamp": null,
-          "observed_at": "2026-09-26T00:24:46Z",
-          "data": {
-            "change": "added",
-            "label": "The Hindu: Aaditya Thackeray seeks postponement of MPSC State Service Mains pending reform panel report",
-            "item_type": "entry",
-            "summary": "added: The Hindu: Aaditya Thackeray seeks postponement of MPSC State Service Mains pending reform panel report",
-            "after": {
-              "title": "The Hindu: Aaditya Thackeray seeks postponement of MPSC State Service Mains pending reform panel report",
-              "link": "https://www.thehindu.com/news/national/maharashtra/aaditya-thackeray-seeks-postponement-of-mpsc-state-service-mains-pending-reform-panel-report/article71509822.ece",
-              "id": "article-71509822",
-              "author": null,
-              "published_at": "2026-09-25T22:36:50Z",
-              "updated_at": "2026-09-25T22:36:50Z",
-              "summary": "In his September 25 letter, Mr. Thackeray said the examination should be deferred if the report of the State-appointed committee headed by Additional Chief Secretary V. Radha remains pending and held only after its recommendations are appropriately implemented",
-              "categories": [
-                "Maharashtra"
-              ],
-              "feed": {
-                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-                "url": "https://www.thehindu.com/news/national/",
-                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
-              },
-              "outlet": "The Hindu"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-            "elapsed_ms": 96,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "map",
-              "version": "0.3.2",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
-                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "india-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.thehindu.com/news/national/maharashtra/aaditya-thackeray-seeks-postponement-of-mpsc-state-service-mains-pending-reform-panel-report/article71509822.ece",
-      "tags": [
-        "Maharashtra"
-      ]
-    },
-    {
-      "id": "fa8f485817e004d1d51b",
-      "title": "The Hindu: U.P. focuses on high-yielding disease-resistant sugarcane varieties, scientific sugarcane cultivation practices and mechanization",
-      "content_text": "As land availability becomes increasingly constrained, the future of sugarcane growth depends less on expansion of area and more on gains in productivity, said",
-      "date_published": "2026-09-25T22:29:00Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "fa8f485817e004d1d51b",
-          "source": "rss",
-          "type": "change",
-          "key": "article-71509757",
-          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-          "timestamp": null,
-          "observed_at": "2026-09-26T00:24:46Z",
-          "data": {
-            "change": "added",
-            "label": "The Hindu: U.P. focuses on high-yielding disease-resistant sugarcane varieties, scientific sugarcane cultivation practices and mechanization",
-            "item_type": "entry",
-            "summary": "added: The Hindu: U.P. focuses on high-yielding disease-resistant sugarcane varieties, scientific sugarcane cultivation practices and mechanization",
-            "after": {
-              "title": "The Hindu: U.P. focuses on high-yielding disease-resistant sugarcane varieties, scientific sugarcane cultivation practices and mechanization",
-              "link": "https://www.thehindu.com/news/national/uttar-pradesh/up-focuses-on-high-yielding-disease-resistant-sugarcane-varieties-scientific-sugarcane-cultivation-practices-and-mechanization/article71509757.ece",
-              "id": "article-71509757",
-              "author": null,
-              "published_at": "2026-09-25T22:29:00Z",
-              "updated_at": "2026-09-25T22:29:00Z",
-              "summary": "As land availability becomes increasingly constrained, the future of sugarcane growth depends less on expansion of area and more on gains in productivity, said",
-              "categories": [
-                "Uttar Pradesh"
-              ],
-              "feed": {
-                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-                "url": "https://www.thehindu.com/news/national/",
-                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
-              },
-              "outlet": "The Hindu"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-            "elapsed_ms": 96,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "map",
-              "version": "0.3.2",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
-                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "india-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.thehindu.com/news/national/uttar-pradesh/up-focuses-on-high-yielding-disease-resistant-sugarcane-varieties-scientific-sugarcane-cultivation-practices-and-mechanization/article71509757.ece",
-      "tags": [
-        "Uttar Pradesh"
-      ]
-    },
-    {
-      "id": "84c19da7c5b17abcc9a5",
-      "title": "The Hindu: Trust earned through serving people is BJP’s strength: Nitin Nabin",
-      "content_text": "‘The Leader of Opposition has asked why the BJP governments keep returning to power; we are asked how we can make the claim of serving the people for the next 25 years with such confidence,’ said Nitin Nabin",
-      "date_published": "2026-09-25T22:21:05Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "84c19da7c5b17abcc9a5",
-          "source": "rss",
-          "type": "change",
-          "key": "article-71509585",
-          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-          "timestamp": null,
-          "observed_at": "2026-09-26T00:24:46Z",
-          "data": {
-            "change": "added",
-            "label": "The Hindu: Trust earned through serving people is BJP’s strength: Nitin Nabin",
-            "item_type": "entry",
-            "summary": "added: The Hindu: Trust earned through serving people is BJP’s strength: Nitin Nabin",
-            "after": {
-              "title": "The Hindu: Trust earned through serving people is BJP’s strength: Nitin Nabin",
-              "link": "https://www.thehindu.com/news/national/rajasthan/trust-earned-through-serving-people-is-bjps-strength-nitin-nabin/article71509585.ece",
-              "id": "article-71509585",
-              "author": null,
-              "published_at": "2026-09-25T22:21:05Z",
-              "updated_at": "2026-09-25T22:21:05Z",
-              "summary": "‘The Leader of Opposition has asked why the BJP governments keep returning to power; we are asked how we can make the claim of serving the people for the next 25 years with such confidence,’ said Nitin Nabin",
-              "categories": [
-                "Rajasthan"
-              ],
-              "feed": {
-                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-                "url": "https://www.thehindu.com/news/national/",
-                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
-              },
-              "outlet": "The Hindu"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-            "elapsed_ms": 96,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "map",
-              "version": "0.3.2",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
-                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "india-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.thehindu.com/news/national/rajasthan/trust-earned-through-serving-people-is-bjps-strength-nitin-nabin/article71509585.ece",
-      "tags": [
-        "Rajasthan"
-      ]
-    },
-    {
-      "id": "e5ea5ca45461a6b29856",
-      "title": "The Hindu: Philanthropist receives Sankara Ratna Award for contribution to eye care",
-      "content_text": "The award was presented in recognition of his contribution to expanding access to eye-care and surgical services",
-      "date_published": "2026-09-25T19:18:35Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "e5ea5ca45461a6b29856",
-          "source": "rss",
-          "type": "change",
-          "key": "article-71509335",
-          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-          "timestamp": null,
-          "observed_at": "2026-09-26T00:24:46Z",
-          "data": {
-            "change": "added",
-            "label": "The Hindu: Philanthropist receives Sankara Ratna Award for contribution to eye care",
-            "item_type": "entry",
-            "summary": "added: The Hindu: Philanthropist receives Sankara Ratna Award for contribution to eye care",
-            "after": {
-              "title": "The Hindu: Philanthropist receives Sankara Ratna Award for contribution to eye care",
-              "link": "https://www.thehindu.com/news/cities/chennai/philanthropist-receives-sankara-ratna-award-for-contribution-to-eye-care/article71509335.ece",
-              "id": "article-71509335",
-              "author": null,
-              "published_at": "2026-09-25T19:18:35Z",
-              "updated_at": "2026-09-25T19:18:35Z",
-              "summary": "The award was presented in recognition of his contribution to expanding access to eye-care and surgical services",
-              "categories": [
-                "Chennai"
-              ],
-              "feed": {
-                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-                "url": "https://www.thehindu.com/news/national/",
-                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
-              },
-              "outlet": "The Hindu"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-            "elapsed_ms": 96,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "map",
-              "version": "0.3.2",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
-                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "india-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.thehindu.com/news/cities/chennai/philanthropist-receives-sankara-ratna-award-for-contribution-to-eye-care/article71509335.ece",
-      "tags": [
-        "Chennai"
-      ]
-    },
-    {
-      "id": "91c2a3cb3cfdfde30183",
-      "title": "The Hindu: Minister assures support to transpersons at transpreneur summit in Madurai",
-      "content_text": "The Hindu: Minister assures support to transpersons at transpreneur summit in Madurai",
-      "date_published": "2026-09-25T18:53:46Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "91c2a3cb3cfdfde30183",
-          "source": "rss",
-          "type": "change",
-          "key": "article-71509554",
-          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-          "timestamp": null,
-          "observed_at": "2026-09-26T00:24:46Z",
-          "data": {
-            "change": "added",
-            "label": "The Hindu: Minister assures support to transpersons at transpreneur summit in Madurai",
-            "item_type": "entry",
-            "summary": "added: The Hindu: Minister assures support to transpersons at transpreneur summit in Madurai",
-            "after": {
-              "title": "The Hindu: Minister assures support to transpersons at transpreneur summit in Madurai",
-              "link": "https://www.thehindu.com/news/cities/Madurai/minister-assures-support-to-transpersons-at-transpreneur-summit-in-madurai/article71509554.ece",
-              "id": "article-71509554",
-              "author": null,
-              "published_at": "2026-09-25T18:53:46Z",
-              "updated_at": "2026-09-25T18:53:46Z",
-              "summary": null,
-              "categories": [
-                "Madurai"
-              ],
-              "feed": {
-                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-                "url": "https://www.thehindu.com/news/national/",
-                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
-              },
-              "outlet": "The Hindu"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-            "elapsed_ms": 96,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "map",
-              "version": "0.3.2",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
-                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "india-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.thehindu.com/news/cities/Madurai/minister-assures-support-to-transpersons-at-transpreneur-summit-in-madurai/article71509554.ece",
-      "tags": [
-        "Madurai"
-      ]
-    },
-    {
-      "id": "9c0c71261c2423632aec",
-      "title": "The Hindu: Asian Games 2026 LIVE | Men's Marathon final: Sawan Barwal and Kartik Karkera",
-      "content_text": "India won the semi-final match 48-24 and will face Iran or Chinese Taipei in Saturday’s final",
-      "date_published": "2026-09-25T23:47:14Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "9c0c71261c2423632aec",
-          "source": "rss",
-          "type": "change",
-          "key": "article-71510179",
-          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-          "timestamp": null,
-          "observed_at": "2026-09-25T23:49:49Z",
-          "data": {
-            "change": "added",
-            "label": "The Hindu: Asian Games 2026 LIVE | Men's Marathon final: Sawan Barwal and Kartik Karkera",
-            "item_type": "entry",
-            "summary": "added: The Hindu: Asian Games 2026 LIVE | Men's Marathon final: Sawan Barwal and Kartik Karkera",
-            "after": {
-              "title": "The Hindu: Asian Games 2026 LIVE | Men's Marathon final: Sawan Barwal and Kartik Karkera",
-              "link": "https://www.thehindu.com/sport/asian-games-2026-live-updates-on-september-26-2026/article71510179.ece",
-              "id": "article-71510179",
-              "author": null,
-              "published_at": "2026-09-25T23:47:14Z",
-              "updated_at": "2026-09-25T23:47:14Z",
-              "summary": "India won the semi-final match 48-24 and will face Iran or Chinese Taipei in Saturday’s final",
-              "categories": [
-                "Sport"
-              ],
-              "feed": {
-                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-                "url": "https://www.thehindu.com/news/national/",
-                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
-              },
-              "outlet": "The Hindu"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-            "elapsed_ms": 177,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "map",
-              "version": "0.3.2",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
-                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "india-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.thehindu.com/sport/asian-games-2026-live-updates-on-september-26-2026/article71510179.ece",
-      "tags": [
-        "Sport"
-      ]
-    },
-    {
-      "id": "29e9f62a6ac6213276bc",
-      "title": "The Hindu: BJP wins mayor elections at three municipal corporations in Rajasthan",
-      "content_text": "Prasanna Chand Mehta was elected Mayor of Jodhpur, while Anusuiya Goswami was elected to the position in Kota",
-      "date_published": "2026-09-25T23:09:39Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "29e9f62a6ac6213276bc",
-          "source": "rss",
-          "type": "change",
-          "key": "article-71509004",
-          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-          "timestamp": null,
-          "observed_at": "2026-09-25T23:49:49Z",
-          "data": {
-            "change": "added",
-            "label": "The Hindu: BJP wins mayor elections at three municipal corporations in Rajasthan",
-            "item_type": "entry",
-            "summary": "added: The Hindu: BJP wins mayor elections at three municipal corporations in Rajasthan",
-            "after": {
-              "title": "The Hindu: BJP wins mayor elections at three municipal corporations in Rajasthan",
-              "link": "https://www.thehindu.com/news/national/rajasthan/bjp-wins-mayor-elections-at-three-municipal-corporations-in-rajasthan/article71509004.ece",
-              "id": "article-71509004",
-              "author": null,
-              "published_at": "2026-09-25T23:09:39Z",
-              "updated_at": "2026-09-25T23:09:39Z",
-              "summary": "Prasanna Chand Mehta was elected Mayor of Jodhpur, while Anusuiya Goswami was elected to the position in Kota",
-              "categories": [
-                "Rajasthan"
-              ],
-              "feed": {
-                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-                "url": "https://www.thehindu.com/news/national/",
-                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
-              },
-              "outlet": "The Hindu"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-            "elapsed_ms": 177,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "map",
-              "version": "0.3.2",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
-                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "india-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.thehindu.com/news/national/rajasthan/bjp-wins-mayor-elections-at-three-municipal-corporations-in-rajasthan/article71509004.ece",
-      "tags": [
-        "Rajasthan"
-      ]
-    },
-    {
-      "id": "0584d8e1db83b1bef57a",
-      "title": "The Hindu: SPPU students suspend mess fee protest after V-C assurance; decision on hike on Sept 26",
-      "content_text": "If the circular withdrawing the fee hike is not issued on September 26, the thali march planned for 4 p.m. will go ahead, SFI said in a statement",
-      "date_published": "2026-09-25T22:49:11Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "0584d8e1db83b1bef57a",
-          "source": "rss",
-          "type": "change",
-          "key": "article-71508902",
-          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-          "timestamp": null,
-          "observed_at": "2026-09-25T23:49:49Z",
-          "data": {
-            "change": "added",
-            "label": "The Hindu: SPPU students suspend mess fee protest after V-C assurance; decision on hike on Sept 26",
-            "item_type": "entry",
-            "summary": "added: The Hindu: SPPU students suspend mess fee protest after V-C assurance; decision on hike on Sept 26",
-            "after": {
-              "title": "The Hindu: SPPU students suspend mess fee protest after V-C assurance; decision on hike on Sept 26",
-              "link": "https://www.thehindu.com/news/national/maharashtra/sppu-students-suspend-mess-fee-protest-after-v-c-assurance-decision-on-hike-on-sept-26/article71508902.ece",
-              "id": "article-71508902",
-              "author": null,
-              "published_at": "2026-09-25T22:49:11Z",
-              "updated_at": "2026-09-25T22:49:11Z",
-              "summary": "If the circular withdrawing the fee hike is not issued on September 26, the thali march planned for 4 p.m. will go ahead, SFI said in a statement",
-              "categories": [
-                "Maharashtra"
-              ],
-              "feed": {
-                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-                "url": "https://www.thehindu.com/news/national/",
-                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
-              },
-              "outlet": "The Hindu"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-            "elapsed_ms": 177,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "map",
-              "version": "0.3.2",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
-                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "india-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.thehindu.com/news/national/maharashtra/sppu-students-suspend-mess-fee-protest-after-v-c-assurance-decision-on-hike-on-sept-26/article71508902.ece",
-      "tags": [
-        "Maharashtra"
-      ]
-    },
-    {
-      "id": "a6bd73a56e23e3e3e86f",
-      "title": "The Hindu: MPSC Drug Inspector paper leak: 4 more arrested, total arrests rise to 11",
-      "content_text": "The four were arrested on September 24 by a special investigation team probing the alleged unauthorised circulation of the confidential question paper for financial gain, the Crime Branch said",
-      "date_published": "2026-09-25T22:42:53Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "a6bd73a56e23e3e3e86f",
-          "source": "rss",
-          "type": "change",
-          "key": "article-71508883",
-          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-          "timestamp": null,
-          "observed_at": "2026-09-25T23:49:49Z",
-          "data": {
-            "change": "added",
-            "label": "The Hindu: MPSC Drug Inspector paper leak: 4 more arrested, total arrests rise to 11",
-            "item_type": "entry",
-            "summary": "added: The Hindu: MPSC Drug Inspector paper leak: 4 more arrested, total arrests rise to 11",
-            "after": {
-              "title": "The Hindu: MPSC Drug Inspector paper leak: 4 more arrested, total arrests rise to 11",
-              "link": "https://www.thehindu.com/news/national/maharashtra/mpsc-drug-inspector-paper-leak-4-more-arrested-total-arrests-rise-to-11/article71508883.ece",
-              "id": "article-71508883",
-              "author": null,
-              "published_at": "2026-09-25T22:42:53Z",
-              "updated_at": "2026-09-25T22:42:53Z",
-              "summary": "The four were arrested on September 24 by a special investigation team probing the alleged unauthorised circulation of the confidential question paper for financial gain, the Crime Branch said",
-              "categories": [
-                "Maharashtra"
-              ],
-              "feed": {
-                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-                "url": "https://www.thehindu.com/news/national/",
-                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
-              },
-              "outlet": "The Hindu"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-            "elapsed_ms": 177,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "map",
-              "version": "0.3.2",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
-                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "india-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.thehindu.com/news/national/maharashtra/mpsc-drug-inspector-paper-leak-4-more-arrested-total-arrests-rise-to-11/article71508883.ece",
-      "tags": [
-        "Maharashtra"
-      ]
-    },
-    {
-      "id": "1d193d37af4adc339389",
-      "title": "The Hindu: After cousin Uddhav, Raj Thackeray seeks scrapping of SIR",
-      "content_text": "‘It has become evident how the Bharatiya Janata Party [BJP] leveraged individuals like Gyanesh Kumar to secure an endless grip on power,’ said Raj Thackeray",
-      "date_published": "2026-09-25T21:59:10Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "1d193d37af4adc339389",
-          "source": "rss",
-          "type": "change",
-          "key": "article-71509506",
-          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-          "timestamp": null,
-          "observed_at": "2026-09-25T23:49:49Z",
-          "data": {
-            "change": "added",
-            "label": "The Hindu: After cousin Uddhav, Raj Thackeray seeks scrapping of SIR",
-            "item_type": "entry",
-            "summary": "added: The Hindu: After cousin Uddhav, Raj Thackeray seeks scrapping of SIR",
-            "after": {
-              "title": "The Hindu: After cousin Uddhav, Raj Thackeray seeks scrapping of SIR",
-              "link": "https://www.thehindu.com/news/national/maharashtra/after-cousin-uddhav-raj-thackeray-seeks-scrapping-of-sir/article71509506.ece",
-              "id": "article-71509506",
-              "author": null,
-              "published_at": "2026-09-25T21:59:10Z",
-              "updated_at": "2026-09-25T21:59:10Z",
-              "summary": "‘It has become evident how the Bharatiya Janata Party [BJP] leveraged individuals like Gyanesh Kumar to secure an endless grip on power,’ said Raj Thackeray",
-              "categories": [
-                "Maharashtra"
-              ],
-              "feed": {
-                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-                "url": "https://www.thehindu.com/news/national/",
-                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
-              },
-              "outlet": "The Hindu"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-            "elapsed_ms": 177,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "map",
-              "version": "0.3.2",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
-                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "india-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.thehindu.com/news/national/maharashtra/after-cousin-uddhav-raj-thackeray-seeks-scrapping-of-sir/article71509506.ece",
-      "tags": [
-        "Maharashtra"
-      ]
-    },
-    {
-      "id": "2abad20502ebf06154ba",
-      "title": "The Hindu: U.P. Congress leaders clash with police, detained during protest against Chief Election Commissioner",
-      "content_text": "The Congress leaders, including State Congress chief Ajay Rai and party workers demanding the resignation of the CEC, were stopped and later detained while trying to march towards the Uttar Pradesh Assembly",
-      "date_published": "2026-09-25T21:48:11Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "2abad20502ebf06154ba",
-          "source": "rss",
-          "type": "change",
-          "key": "article-71509301",
-          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-          "timestamp": null,
-          "observed_at": "2026-09-25T23:49:49Z",
-          "data": {
-            "change": "added",
-            "label": "The Hindu: U.P. Congress leaders clash with police, detained during protest against Chief Election Commissioner",
-            "item_type": "entry",
-            "summary": "added: The Hindu: U.P. Congress leaders clash with police, detained during protest against Chief Election Commissioner",
-            "after": {
-              "title": "The Hindu: U.P. Congress leaders clash with police, detained during protest against Chief Election Commissioner",
-              "link": "https://www.thehindu.com/news/national/uttar-pradesh/up-congress-leaders-clash-with-police-detained-during-protest-against-chief-election-commissioner/article71509301.ece",
-              "id": "article-71509301",
-              "author": null,
-              "published_at": "2026-09-25T21:48:11Z",
-              "updated_at": "2026-09-25T21:48:11Z",
-              "summary": "The Congress leaders, including State Congress chief Ajay Rai and party workers demanding the resignation of the CEC, were stopped and later detained while trying to march towards the Uttar Pradesh Assembly",
-              "categories": [
-                "Uttar Pradesh"
-              ],
-              "feed": {
-                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-                "url": "https://www.thehindu.com/news/national/",
-                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
-              },
-              "outlet": "The Hindu"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-            "elapsed_ms": 177,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "map",
-              "version": "0.3.2",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
-                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "india-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.thehindu.com/news/national/uttar-pradesh/up-congress-leaders-clash-with-police-detained-during-protest-against-chief-election-commissioner/article71509301.ece",
-      "tags": [
-        "Uttar Pradesh"
-      ]
-    },
-    {
-      "id": "6e65c82eb0f0a5c53b4e",
-      "title": "NDTV: Chief Justice To Inaugurate India's 1st Victim Rights Centre Today In Patna",
-      "content_text": "Chief Justice of India Justice Surya Kant will inaugurate the facility today in Patna.",
-      "date_published": "2026-09-25T21:44:33Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "6e65c82eb0f0a5c53b4e",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.ndtv.com/india-news/chief-justice-surya-kant-to-inaugurate-indias-1st-victim-rights-centre-today-in-patna-12099765#publisher=newsstand",
-          "source_url": "https://feeds.feedburner.com/ndtvnews-top-stories",
-          "timestamp": null,
-          "observed_at": "2026-09-25T23:49:49Z",
-          "data": {
-            "change": "added",
-            "label": "NDTV: Chief Justice To Inaugurate India's 1st Victim Rights Centre Today In Patna",
-            "item_type": "entry",
-            "summary": "added: NDTV: Chief Justice To Inaugurate India's 1st Victim Rights Centre Today In Patna",
-            "after": {
-              "title": "NDTV: Chief Justice To Inaugurate India's 1st Victim Rights Centre Today In Patna",
-              "link": "https://www.ndtv.com/india-news/chief-justice-surya-kant-to-inaugurate-indias-1st-victim-rights-centre-today-in-patna-12099765#publisher=newsstand",
-              "id": "https://www.ndtv.com/india-news/chief-justice-surya-kant-to-inaugurate-indias-1st-victim-rights-centre-today-in-patna-12099765#publisher=newsstand",
-              "author": null,
-              "published_at": "2026-09-25T21:44:33Z",
-              "updated_at": "2026-09-25T21:44:33Z",
-              "summary": "Chief Justice of India Justice Surya Kant will inaugurate the facility today in Patna.",
-              "categories": [],
-              "feed": {
-                "title": "NDTV News Search Records Found 1000",
-                "url": "https://www.ndtv.com/",
-                "feed_url": "https://feeds.feedburner.com/ndtvnews-top-stories"
-              },
-              "outlet": "NDTV"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.feedburner.com/ndtvnews-top-stories",
-            "elapsed_ms": 225,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "map",
-              "version": "0.3.2",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
-                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "india-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.ndtv.com/india-news/chief-justice-surya-kant-to-inaugurate-indias-1st-victim-rights-centre-today-in-patna-12099765#publisher=newsstand"
-    },
-    {
-      "id": "6cb5f8a4d39fa01d5de9",
-      "title": "The Hindu: 2026 monsoon on its way to be wettest in Odisha since 2000",
-      "content_text": "As on September 25 of the current monsoon season, Odisha has already received 29% excess rainfall",
-      "date_published": "2026-09-25T21:33:03Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "6cb5f8a4d39fa01d5de9",
-          "source": "rss",
-          "type": "change",
-          "key": "article-71509530",
-          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-          "timestamp": null,
-          "observed_at": "2026-09-25T23:49:49Z",
-          "data": {
-            "change": "added",
-            "label": "The Hindu: 2026 monsoon on its way to be wettest in Odisha since 2000",
-            "item_type": "entry",
-            "summary": "added: The Hindu: 2026 monsoon on its way to be wettest in Odisha since 2000",
-            "after": {
-              "title": "The Hindu: 2026 monsoon on its way to be wettest in Odisha since 2000",
-              "link": "https://www.thehindu.com/news/national/odisha/2026-monsoon-on-its-way-to-be-wettest-in-odisha-since-2000/article71509530.ece",
-              "id": "article-71509530",
-              "author": null,
-              "published_at": "2026-09-25T21:33:03Z",
-              "updated_at": "2026-09-25T21:33:03Z",
-              "summary": "As on September 25 of the current monsoon season, Odisha has already received 29% excess rainfall",
-              "categories": [
-                "Odisha"
-              ],
-              "feed": {
-                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-                "url": "https://www.thehindu.com/news/national/",
-                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
-              },
-              "outlet": "The Hindu"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-            "elapsed_ms": 177,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "map",
-              "version": "0.3.2",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
-                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "india-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.thehindu.com/news/national/odisha/2026-monsoon-on-its-way-to-be-wettest-in-odisha-since-2000/article71509530.ece",
-      "tags": [
-        "Odisha"
-      ]
-    },
-    {
-      "id": "99d915ddc8e77de85557",
-      "title": "The Hindu: Congress legislators flash banners demanding CEC Gyanesh Kumar’s resignation inside Jammu and Kashmir assembly",
-      "content_text": "During the Question Hour, several Congress legislators stood up and trooped into the well of the house with banners and disrupted the proceedings",
-      "date_published": "2026-09-25T21:21:50Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "99d915ddc8e77de85557",
-          "source": "rss",
-          "type": "change",
-          "key": "article-71509469",
-          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-          "timestamp": null,
-          "observed_at": "2026-09-25T23:49:49Z",
-          "data": {
-            "change": "added",
-            "label": "The Hindu: Congress legislators flash banners demanding CEC Gyanesh Kumar’s resignation inside Jammu and Kashmir assembly",
-            "item_type": "entry",
-            "summary": "added: The Hindu: Congress legislators flash banners demanding CEC Gyanesh Kumar’s resignation inside Jammu and Kashmir assembly",
-            "after": {
-              "title": "The Hindu: Congress legislators flash banners demanding CEC Gyanesh Kumar’s resignation inside Jammu and Kashmir assembly",
-              "link": "https://www.thehindu.com/news/national/jammu-and-kashmir/congress-legislators-flash-banners-demanding-cec-gyanesh-kumars-resignation-inside-jammu-and-kashmir-assembly/article71509469.ece",
-              "id": "article-71509469",
-              "author": null,
-              "published_at": "2026-09-25T21:21:50Z",
-              "updated_at": "2026-09-25T21:21:50Z",
-              "summary": "During the Question Hour, several Congress legislators stood up and trooped into the well of the house with banners and disrupted the proceedings",
-              "categories": [
-                "Jammu and Kashmir"
-              ],
-              "feed": {
-                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-                "url": "https://www.thehindu.com/news/national/",
-                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
-              },
-              "outlet": "The Hindu"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-            "elapsed_ms": 177,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "map",
-              "version": "0.3.2",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
-                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "india-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/congress-legislators-flash-banners-demanding-cec-gyanesh-kumars-resignation-inside-jammu-and-kashmir-assembly/article71509469.ece",
-      "tags": [
-        "Jammu and Kashmir"
-      ]
-    },
-    {
-      "id": "67652ed6b8100f15ea8f",
-      "title": "The Hindu: BJP manufactured narrative and created religious divide ahead of West Bengal polls through YouTubers, says TMC spokesperson",
-      "content_text": "Trinamool MLA Kunal Ghosh cited an instance where a city-based YouTuber raised a hue and cry over beef served to him at a Kolkata restaurant; the YouTuber has been paid ₹2.5 lakh by the BJP; details of BJP election expenditure have been revealed",
-      "date_published": "2026-09-25T21:12:57Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "67652ed6b8100f15ea8f",
-          "source": "rss",
-          "type": "change",
-          "key": "article-71509269",
-          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-          "timestamp": null,
-          "observed_at": "2026-09-25T23:49:49Z",
-          "data": {
-            "change": "added",
-            "label": "The Hindu: BJP manufactured narrative and created religious divide ahead of West Bengal polls through YouTubers, says TMC spokesperson",
-            "item_type": "entry",
-            "summary": "added: The Hindu: BJP manufactured narrative and created religious divide ahead of West Bengal polls through YouTubers, says TMC spokesperson",
-            "after": {
-              "title": "The Hindu: BJP manufactured narrative and created religious divide ahead of West Bengal polls through YouTubers, says TMC spokesperson",
-              "link": "https://www.thehindu.com/news/national/west-bengal/bjp-manufactured-narrative-and-created-religious-divide-ahead-of-west-bengal-polls-through-youtubers-says-tmc-spokesperson/article71509269.ece",
-              "id": "article-71509269",
-              "author": null,
-              "published_at": "2026-09-25T21:12:57Z",
-              "updated_at": "2026-09-25T21:12:57Z",
-              "summary": "Trinamool MLA Kunal Ghosh cited an instance where a city-based YouTuber raised a hue and cry over beef served to him at a Kolkata restaurant; the YouTuber has been paid ₹2.5 lakh by the BJP; details of BJP election expenditure have been revealed",
-              "categories": [
-                "West Bengal"
-              ],
-              "feed": {
-                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-                "url": "https://www.thehindu.com/news/national/",
-                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
-              },
-              "outlet": "The Hindu"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-            "elapsed_ms": 177,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "map",
-              "version": "0.3.2",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
-                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "india-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.thehindu.com/news/national/west-bengal/bjp-manufactured-narrative-and-created-religious-divide-ahead-of-west-bengal-polls-through-youtubers-says-tmc-spokesperson/article71509269.ece",
-      "tags": [
-        "West Bengal"
-      ]
-    },
-    {
-      "id": "d2eb1ce4be70d4653a07",
-      "title": "The Hindu: Jammu and Kashmir High Court turns down ED plea to insert fresh charges against Farooq Abdullah in JKCA scam",
-      "content_text": "The prayer of the petitioner [the ED] seeking addition of charges under Sections 411 and 424 of the Ranbir Penal Code (RPC) does not merit acceptance on the basis of the material presently available and is, accordingly, rejected, held justice Sanjay Parihar, in his order",
-      "date_published": "2026-09-25T20:56:05Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "d2eb1ce4be70d4653a07",
-          "source": "rss",
-          "type": "change",
-          "key": "article-71509206",
-          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-          "timestamp": null,
-          "observed_at": "2026-09-25T23:49:49Z",
-          "data": {
-            "change": "added",
-            "label": "The Hindu: Jammu and Kashmir High Court turns down ED plea to insert fresh charges against Farooq Abdullah in JKCA scam",
-            "item_type": "entry",
-            "summary": "added: The Hindu: Jammu and Kashmir High Court turns down ED plea to insert fresh charges against Farooq Abdullah in JKCA scam",
-            "after": {
-              "title": "The Hindu: Jammu and Kashmir High Court turns down ED plea to insert fresh charges against Farooq Abdullah in JKCA scam",
-              "link": "https://www.thehindu.com/news/national/jammu-and-kashmir/jammu-and-kashmir-high-court-turns-down-ed-plea-to-insert-fresh-charges-against-farooq-abdullah-in-jkca-scam/article71509206.ece",
-              "id": "article-71509206",
-              "author": null,
-              "published_at": "2026-09-25T20:56:05Z",
-              "updated_at": "2026-09-25T20:56:05Z",
-              "summary": "The prayer of the petitioner [the ED] seeking addition of charges under Sections 411 and 424 of the Ranbir Penal Code (RPC) does not merit acceptance on the basis of the material presently available and is, accordingly, rejected, held justice Sanjay Parihar, in his order",
-              "categories": [
-                "Jammu and Kashmir"
-              ],
-              "feed": {
-                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-                "url": "https://www.thehindu.com/news/national/",
-                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
-              },
-              "outlet": "The Hindu"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-            "elapsed_ms": 177,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "map",
-              "version": "0.3.2",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
-                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "india-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/jammu-and-kashmir-high-court-turns-down-ed-plea-to-insert-fresh-charges-against-farooq-abdullah-in-jkca-scam/article71509206.ece",
-      "tags": [
-        "Jammu and Kashmir"
       ]
     }
   ]

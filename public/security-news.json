@@ -1,13 +1,103 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Security news",
-  "home_page_url": "https://feeds.feedburner.com/TheHackersNews",
+  "home_page_url": "https://www.bleepingcomputer.com/feed/",
   "description": "Events collected by UnlimitedPipe 0.8.0",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
     "generator": "UnlimitedPipe 0.8.0"
   },
   "items": [
+    {
+      "id": "b00e92c44d250495f278",
+      "title": "OpenAI's AI agents accidentally uploaded user-provided images to third-party sites",
+      "content_text": "OpenAI says its AI agents uploaded user-provided images to third-party image-hosting services while carrying out research and evaluation tasks. [...]",
+      "date_published": "2026-09-26T12:28:41Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "b00e92c44d250495f278",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/",
+          "source_url": "https://www.bleepingcomputer.com/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T13:30:07Z",
+          "data": {
+            "change": "added",
+            "label": "OpenAI's AI agents accidentally uploaded user-provided images to third-party sites",
+            "item_type": "entry",
+            "summary": "added: OpenAI's AI agents accidentally uploaded user-provided images to third-party sites",
+            "after": {
+              "title": "OpenAI's AI agents accidentally uploaded user-provided images to third-party sites",
+              "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/",
+              "id": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/",
+              "author": "Mayank Parmar",
+              "published_at": "2026-09-26T12:28:41Z",
+              "updated_at": "2026-09-26T12:28:41Z",
+              "summary": "OpenAI says its AI agents uploaded user-provided images to third-party image-hosting services while carrying out research and evaluation tasks. [...]",
+              "categories": [
+                "Artificial Intelligence",
+                "Security"
+              ],
+              "feed": {
+                "title": "BleepingComputer",
+                "url": "https://www.bleepingcomputer.com/",
+                "feed_url": "https://www.bleepingcomputer.com/feed/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.bleepingcomputer.com/feed/",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "security-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/",
+      "tags": [
+        "Artificial Intelligence",
+        "Security"
+      ]
+    },
     {
       "id": "753326b1f057b450fe67",
       "title": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",

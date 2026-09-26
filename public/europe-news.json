@@ -9,6 +9,311 @@
   },
   "items": [
     {
+      "id": "5f26498061a5f52fe220",
+      "title": "Euronews: Six dead after explosion causes building to collapse in central Athens",
+      "content_text": "The fire service, police, and medical crews remain at the scene, with a team from the Arson Crimes Division also investigating the incident.",
+      "date_published": "2026-09-26T12:59:08Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "5f26498061a5f52fe220",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.euronews.com/2026/09/26/six-dead-after-explosion-causes-building-to-collapse-in-central-athens",
+          "source_url": "https://www.euronews.com/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T13:27:50Z",
+          "data": {
+            "change": "added",
+            "label": "Euronews: Six dead after explosion causes building to collapse in central Athens",
+            "item_type": "entry",
+            "summary": "added: Euronews: Six dead after explosion causes building to collapse in central Athens",
+            "after": {
+              "title": "Euronews: Six dead after explosion causes building to collapse in central Athens",
+              "link": "https://www.euronews.com/2026/09/26/six-dead-after-explosion-causes-building-to-collapse-in-central-athens",
+              "id": "https://www.euronews.com/2026/09/26/six-dead-after-explosion-causes-building-to-collapse-in-central-athens",
+              "author": null,
+              "published_at": "2026-09-26T12:59:08Z",
+              "updated_at": "2026-09-26T12:59:08Z",
+              "summary": "The fire service, police, and medical crews remain at the scene, with a team from the Arson Crimes Division also investigating the incident.",
+              "categories": [],
+              "feed": {
+                "title": "Latest News From Euronews | Euronews RSS",
+                "url": "https://www.euronews.com",
+                "feed_url": "https://www.euronews.com/rss"
+              },
+              "outlet": "Euronews"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.euronews.com/rss",
+            "elapsed_ms": 102,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^politico\\\\.eu$\", \"POLITICO Europe\")",
+                  "outlet=replace(outlet, \"^euronews\\\\.com$\", \"Euronews\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "europe-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.euronews.com/2026/09/26/six-dead-after-explosion-causes-building-to-collapse-in-central-athens"
+    },
+    {
+      "id": "61544ec27ec6fa1d2c3e",
+      "title": "Euronews: At least 11 dead following suicide bomb attack in northwestern Pakistan",
+      "content_text": "The Tehreek-e-Taliban Pakistan (TTP) group, or Pakistani Taliban, has claimed responsibility for the bombing. The group, founded in late 2007, is allied with the Afghan Taliban.",
+      "date_published": "2026-09-26T12:19:02Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "61544ec27ec6fa1d2c3e",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.euronews.com/2026/09/26/at-least-11-dead-following-suicide-bomb-attack-in-northwestern-pakistan",
+          "source_url": "https://www.euronews.com/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T13:27:50Z",
+          "data": {
+            "change": "added",
+            "label": "Euronews: At least 11 dead following suicide bomb attack in northwestern Pakistan",
+            "item_type": "entry",
+            "summary": "added: Euronews: At least 11 dead following suicide bomb attack in northwestern Pakistan",
+            "after": {
+              "title": "Euronews: At least 11 dead following suicide bomb attack in northwestern Pakistan",
+              "link": "https://www.euronews.com/2026/09/26/at-least-11-dead-following-suicide-bomb-attack-in-northwestern-pakistan",
+              "id": "https://www.euronews.com/2026/09/26/at-least-11-dead-following-suicide-bomb-attack-in-northwestern-pakistan",
+              "author": null,
+              "published_at": "2026-09-26T12:19:02Z",
+              "updated_at": "2026-09-26T12:19:02Z",
+              "summary": "The Tehreek-e-Taliban Pakistan (TTP) group, or Pakistani Taliban, has claimed responsibility for the bombing. The group, founded in late 2007, is allied with the Afghan Taliban.",
+              "categories": [],
+              "feed": {
+                "title": "Latest News From Euronews | Euronews RSS",
+                "url": "https://www.euronews.com",
+                "feed_url": "https://www.euronews.com/rss"
+              },
+              "outlet": "Euronews"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.euronews.com/rss",
+            "elapsed_ms": 102,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^politico\\\\.eu$\", \"POLITICO Europe\")",
+                  "outlet=replace(outlet, \"^euronews\\\\.com$\", \"Euronews\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "europe-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.euronews.com/2026/09/26/at-least-11-dead-following-suicide-bomb-attack-in-northwestern-pakistan"
+    },
+    {
+      "id": "ef7a3433e42fdbee1502",
+      "title": "POLITICO Europe: Eleven charged with murder aggravated by speech against ‘white race’ in France",
+      "content_text": "Thomas Perotto's killing in 2023 was followed by mobilization from far-right groups.",
+      "date_published": "2026-09-26T12:16:48Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ef7a3433e42fdbee1502",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.politico.eu/?post_type=article&p=9063965",
+          "source_url": "https://www.politico.eu/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T13:27:50Z",
+          "data": {
+            "change": "added",
+            "label": "POLITICO Europe: Eleven charged with murder aggravated by speech against ‘white race’ in France",
+            "item_type": "entry",
+            "summary": "added: POLITICO Europe: Eleven charged with murder aggravated by speech against ‘white race’ in France",
+            "after": {
+              "title": "POLITICO Europe: Eleven charged with murder aggravated by speech against ‘white race’ in France",
+              "link": "https://www.politico.eu/article/france-crepol-thomas-perotto-11-defendants-trial-racial-aggravating-factor/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+              "id": "https://www.politico.eu/?post_type=article&p=9063965",
+              "author": "Milena Wälde, Jules Darmanin",
+              "published_at": "2026-09-26T12:16:48Z",
+              "updated_at": "2026-09-26T12:16:48Z",
+              "summary": "Thomas Perotto's killing in 2023 was followed by mobilization from far-right groups.",
+              "categories": [
+                "Courts",
+                "Defense",
+                "Far right",
+                "Media",
+                "Religion",
+                "Rule of Law",
+                "Politics"
+              ],
+              "feed": {
+                "title": "POLITICO",
+                "url": "https://www.politico.eu",
+                "feed_url": "https://www.politico.eu/feed/"
+              },
+              "outlet": "POLITICO Europe"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.politico.eu/feed/",
+            "elapsed_ms": 272,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^politico\\\\.eu$\", \"POLITICO Europe\")",
+                  "outlet=replace(outlet, \"^euronews\\\\.com$\", \"Euronews\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "europe-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.politico.eu/article/france-crepol-thomas-perotto-11-defendants-trial-racial-aggravating-factor/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "tags": [
+        "Courts",
+        "Defense",
+        "Far right",
+        "Media",
+        "Religion",
+        "Rule of Law",
+        "Politics"
+      ]
+    },
+    {
       "id": "9330b7859f7eb2c33b86",
       "title": "Euronews: Pope Leo XIV draws huge crowds in Paris as 600,000 await Mass",
       "content_text": "On Saturday, Pope Leo XIV continues his visit to France with a large outdoor Mass at Paris's Place de la Concorde, followed by prayers with the faithful in Lourdes.",

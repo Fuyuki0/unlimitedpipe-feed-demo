@@ -9,6 +9,376 @@
   },
   "items": [
     {
+      "id": "bf0e6902074d30f8bcec",
+      "title": "Kalshi loses appeal, setting up potential Supreme Court case",
+      "content_text": "The 6th US Circuit Court of Appeals ruled against prediction market Kalshi, siding with Ohio and Tennessee on regulating sports-event contracts under state laws.",
+      "date_published": "2026-09-26T13:21:12Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "bf0e6902074d30f8bcec",
+          "source": "rss",
+          "type": "change",
+          "key": "https://cointelegraph.com/news/kalshi-loses-appeal-setting-up-potential-supreme-court-case",
+          "source_url": "https://cointelegraph.com/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T13:27:29Z",
+          "data": {
+            "change": "added",
+            "label": "Kalshi loses appeal, setting up potential Supreme Court case",
+            "item_type": "entry",
+            "summary": "added: Kalshi loses appeal, setting up potential Supreme Court case",
+            "after": {
+              "title": "Kalshi loses appeal, setting up potential Supreme Court case",
+              "link": "https://cointelegraph.com/news/kalshi-loses-appeal-setting-up-potential-supreme-court-case?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+              "id": "https://cointelegraph.com/news/kalshi-loses-appeal-setting-up-potential-supreme-court-case",
+              "author": "Cointelegraph by Michael Millard",
+              "published_at": "2026-09-26T13:21:12Z",
+              "updated_at": "2026-09-26T13:24:00Z",
+              "summary": "The 6th US Circuit Court of Appeals ruled against prediction market Kalshi, siding with Ohio and Tennessee on regulating sports-event contracts under state laws.",
+              "categories": [
+                "Latest News"
+              ],
+              "feed": {
+                "title": "Cointelegraph.com News",
+                "url": "https://cointelegraph.com",
+                "feed_url": "https://cointelegraph.com/rss"
+              },
+              "enclosures": [
+                "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1M5NCSJSS1MAFGEDXXFPQN1/court-vs-kalshi-3.jpg"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://cointelegraph.com/rss",
+            "elapsed_ms": 59,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://cointelegraph.com/news/kalshi-loses-appeal-setting-up-potential-supreme-court-case?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+      "tags": [
+        "Latest News"
+      ]
+    },
+    {
+      "id": "f8009057b30d6d912e39",
+      "title": "Google Just Made Free 1080p AI Video Generation Available to Anyone",
+      "content_text": "Google Vids now lets any Google account holder generate free HD AI video using Gemini Omni 1.1 Flash, with new scene, timing, and watermark controls.",
+      "date_published": "2026-09-26T13:01:03Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "f8009057b30d6d912e39",
+          "source": "rss",
+          "type": "change",
+          "key": "https://decrypt.co/?p=379353",
+          "source_url": "https://decrypt.co/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T13:27:29Z",
+          "data": {
+            "change": "added",
+            "label": "Google Just Made Free 1080p AI Video Generation Available to Anyone",
+            "item_type": "entry",
+            "summary": "added: Google Just Made Free 1080p AI Video Generation Available to Anyone",
+            "after": {
+              "title": "Google Just Made Free 1080p AI Video Generation Available to Anyone",
+              "link": "https://decrypt.co/379353/google-free-1080p-ai-video-generation",
+              "id": "https://decrypt.co/?p=379353",
+              "author": "Jose Antonio Lanz",
+              "published_at": "2026-09-26T13:01:03Z",
+              "updated_at": "2026-09-26T13:01:03Z",
+              "summary": "Google Vids now lets any Google account holder generate free HD AI video using Gemini Omni 1.1 Flash, with new scene, timing, and watermark controls.",
+              "categories": [
+                "Artificial Intelligence"
+              ],
+              "feed": {
+                "title": "Decrypt",
+                "url": "https://decrypt.co/feed",
+                "feed_url": "https://decrypt.co/feed"
+              },
+              "enclosures": [
+                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/05/decrypt-style-google-3-gID_7.png@png"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://decrypt.co/feed",
+            "elapsed_ms": 35,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://decrypt.co/379353/google-free-1080p-ai-video-generation",
+      "tags": [
+        "Artificial Intelligence"
+      ]
+    },
+    {
+      "id": "aa29d3323a9e0064f279",
+      "title": "Binance deal gives Circle a boost in stablecoin race with Tether, analysts say",
+      "content_text": "Binance deal gives Circle a boost in stablecoin race with Tether, analysts say",
+      "date_published": "2026-09-26T13:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "aa29d3323a9e0064f279",
+          "source": "rss",
+          "type": "change",
+          "key": "105bfe76-3a32-4c8f-89ad-9052c33b9b04",
+          "source_url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T13:27:29Z",
+          "data": {
+            "change": "added",
+            "label": "Binance deal gives Circle a boost in stablecoin race with Tether, analysts say",
+            "item_type": "entry",
+            "summary": "added: Binance deal gives Circle a boost in stablecoin race with Tether, analysts say",
+            "after": {
+              "title": "Binance deal gives Circle a boost in stablecoin race with Tether, analysts say",
+              "link": "https://www.coindesk.com/business/2026/09/26/binance-deal-gives-circle-a-boost-in-stablecoin-race-with-tether-analysts-say",
+              "id": "105bfe76-3a32-4c8f-89ad-9052c33b9b04",
+              "author": "Krisztian Sandor",
+              "published_at": "2026-09-26T13:00:00Z",
+              "updated_at": "2026-09-26T13:00:00Z",
+              "summary": null,
+              "categories": [
+                "Finance",
+                "Stablecoins",
+                "Circle",
+                "Binance",
+                "Tether",
+                "News"
+              ],
+              "feed": {
+                "title": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+                "url": "https://www.coindesk.com/",
+                "feed_url": "https://www.coindesk.com/arc/outboundfeeds/rss/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.coindesk.com/arc/outboundfeeds/rss",
+            "elapsed_ms": 199,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.coindesk.com/business/2026/09/26/binance-deal-gives-circle-a-boost-in-stablecoin-race-with-tether-analysts-say",
+      "tags": [
+        "Finance",
+        "Stablecoins",
+        "Circle",
+        "Binance",
+        "Tether",
+        "News"
+      ]
+    },
+    {
+      "id": "40899037ab996ca4c683",
+      "title": "Bitget hacker moves $83 million in stolen XRP that Ripple cannot freeze",
+      "content_text": "Bitget hacker moves $83 million in stolen XRP that Ripple cannot freeze",
+      "date_published": "2026-09-26T12:56:41Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "40899037ab996ca4c683",
+          "source": "rss",
+          "type": "change",
+          "key": "009fc444-a057-4ac9-abbf-0be00e333f04",
+          "source_url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T13:27:29Z",
+          "data": {
+            "change": "added",
+            "label": "Bitget hacker moves $83 million in stolen XRP that Ripple cannot freeze",
+            "item_type": "entry",
+            "summary": "added: Bitget hacker moves $83 million in stolen XRP that Ripple cannot freeze",
+            "after": {
+              "title": "Bitget hacker moves $83 million in stolen XRP that Ripple cannot freeze",
+              "link": "https://www.coindesk.com/markets/2026/09/26/bitget-hacker-moves-usd83-million-in-stolen-xrp-that-ripple-cannot-freeze",
+              "id": "009fc444-a057-4ac9-abbf-0be00e333f04",
+              "author": "Shaurya Malwa",
+              "published_at": "2026-09-26T12:56:41Z",
+              "updated_at": "2026-09-26T12:56:41Z",
+              "summary": null,
+              "categories": [
+                "Markets",
+                "News"
+              ],
+              "feed": {
+                "title": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+                "url": "https://www.coindesk.com/",
+                "feed_url": "https://www.coindesk.com/arc/outboundfeeds/rss/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.coindesk.com/arc/outboundfeeds/rss",
+            "elapsed_ms": 199,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.coindesk.com/markets/2026/09/26/bitget-hacker-moves-usd83-million-in-stolen-xrp-that-ripple-cannot-freeze",
+      "tags": [
+        "Markets",
+        "News"
+      ]
+    },
+    {
       "id": "912038c9d116f6cbffd2",
       "title": "Fed requests comment on two proposals for stablecoin issuers under GENIUS Act",
       "content_text": "US regulatory agencies missed a rule-making deadline under the GENIUS Act, a year after the law was signed.",
@@ -13274,373 +13644,6 @@
       "url": "https://cointelegraph.com/news/former-hack-vc-partner-hsin-ju-chuang-found-dead?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
       "tags": [
         "Latest News"
-      ]
-    },
-    {
-      "id": "c64e38cc0e4a22470707",
-      "title": "US lawmakers from gaming states urge SCOTUS to take up Kalshi case",
-      "content_text": "The case between New Jersey authorities and a prediction market company, if accepted by the Supreme Court, could result in clarity for state and federal officials over sports bets.",
-      "date_published": "2026-09-23T20:28:34Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "c64e38cc0e4a22470707",
-          "source": "rss",
-          "type": "change",
-          "key": "https://cointelegraph.com/news/us-lawmakers-gaming-states-supreme-court-kalshi-prediction-markets",
-          "source_url": "https://cointelegraph.com/rss",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:12Z",
-          "data": {
-            "change": "added",
-            "label": "US lawmakers from gaming states urge SCOTUS to take up Kalshi case",
-            "item_type": "entry",
-            "summary": "added: US lawmakers from gaming states urge SCOTUS to take up Kalshi case",
-            "after": {
-              "title": "US lawmakers from gaming states urge SCOTUS to take up Kalshi case",
-              "link": "https://cointelegraph.com/news/us-lawmakers-gaming-states-supreme-court-kalshi-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-              "id": "https://cointelegraph.com/news/us-lawmakers-gaming-states-supreme-court-kalshi-prediction-markets",
-              "author": "Cointelegraph by Turner Wright",
-              "published_at": "2026-09-23T20:28:34Z",
-              "updated_at": "2026-09-24T07:24:11Z",
-              "summary": "The case between New Jersey authorities and a prediction market company, if accepted by the Supreme Court, could result in clarity for state and federal officials over sports bets.",
-              "categories": [
-                "Latest News"
-              ],
-              "feed": {
-                "title": "Cointelegraph.com News",
-                "url": "https://cointelegraph.com",
-                "feed_url": "https://cointelegraph.com/rss"
-              },
-              "enclosures": [
-                "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M37S1XC5MZ8AHXAWMABJV243/hi-a-supreme-court-case-kalshi.png"
-              ]
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://cointelegraph.com/rss",
-            "elapsed_ms": 184,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "crypto-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://cointelegraph.com/news/us-lawmakers-gaming-states-supreme-court-kalshi-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "tags": [
-        "Latest News"
-      ]
-    },
-    {
-      "id": "396fc0b16ab244a2cc38",
-      "title": "Zcash's Wall Street Moment Reaches Europe With Its First ETP Listing",
-      "content_text": "21Shares listed Europe's first Zcash exchange-traded product on Euronext Paris and Amsterdam this week as ZEC continues its banner year.",
-      "date_published": "2026-09-23T19:36:15Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "396fc0b16ab244a2cc38",
-          "source": "rss",
-          "type": "change",
-          "key": "https://decrypt.co/?p=379105",
-          "source_url": "https://decrypt.co/feed",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:12Z",
-          "data": {
-            "change": "added",
-            "label": "Zcash's Wall Street Moment Reaches Europe With Its First ETP Listing",
-            "item_type": "entry",
-            "summary": "added: Zcash's Wall Street Moment Reaches Europe With Its First ETP Listing",
-            "after": {
-              "title": "Zcash's Wall Street Moment Reaches Europe With Its First ETP Listing",
-              "link": "https://decrypt.co/379105/zcash-wall-street-europe-first-etp",
-              "id": "https://decrypt.co/?p=379105",
-              "author": "Jose Antonio Lanz",
-              "published_at": "2026-09-23T19:36:15Z",
-              "updated_at": "2026-09-23T19:36:15Z",
-              "summary": "21Shares listed Europe's first Zcash exchange-traded product on Euronext Paris and Amsterdam this week as ZEC continues its banner year.",
-              "categories": [
-                "zcash",
-                "Coins"
-              ],
-              "feed": {
-                "title": "Decrypt",
-                "url": "https://decrypt.co/feed",
-                "feed_url": "https://decrypt.co/feed"
-              },
-              "enclosures": [
-                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/10/zcash-gID_7.jpg@png"
-              ]
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://decrypt.co/feed",
-            "elapsed_ms": 99,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "crypto-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://decrypt.co/379105/zcash-wall-street-europe-first-etp",
-      "tags": [
-        "zcash",
-        "Coins"
-      ]
-    },
-    {
-      "id": "4c247ec9fbf355e2f5ea",
-      "title": "Trump reveals up to $100K Strategy stock purchase in ethics filing",
-      "content_text": "President Donald Trump disclosed a July purchase of Strategy shares as his administration continues to advance crypto policy through federal regulators and Congress.",
-      "date_published": "2026-09-23T19:05:14Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "4c247ec9fbf355e2f5ea",
-          "source": "rss",
-          "type": "change",
-          "key": "https://cointelegraph.com/news/trump-discloses-up-to-100k-strategy-stock-purchase",
-          "source_url": "https://cointelegraph.com/rss",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:12Z",
-          "data": {
-            "change": "added",
-            "label": "Trump reveals up to $100K Strategy stock purchase in ethics filing",
-            "item_type": "entry",
-            "summary": "added: Trump reveals up to $100K Strategy stock purchase in ethics filing",
-            "after": {
-              "title": "Trump reveals up to $100K Strategy stock purchase in ethics filing",
-              "link": "https://cointelegraph.com/news/trump-discloses-up-to-100k-strategy-stock-purchase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-              "id": "https://cointelegraph.com/news/trump-discloses-up-to-100k-strategy-stock-purchase",
-              "author": "Cointelegraph by Nate Kostar",
-              "published_at": "2026-09-23T19:05:14Z",
-              "updated_at": "2026-09-24T07:31:59Z",
-              "summary": "President Donald Trump disclosed a July purchase of Strategy shares as his administration continues to advance crypto policy through federal regulators and Congress.",
-              "categories": [
-                "Latest News"
-              ],
-              "feed": {
-                "title": "Cointelegraph.com News",
-                "url": "https://cointelegraph.com",
-                "feed_url": "https://cointelegraph.com/rss"
-              },
-              "enclosures": [
-                "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M37S20R41W4NRY3RF09G3JDY/white-house-crypto2.png"
-              ]
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://cointelegraph.com/rss",
-            "elapsed_ms": 184,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "crypto-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://cointelegraph.com/news/trump-discloses-up-to-100k-strategy-stock-purchase?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "tags": [
-        "Latest News"
-      ]
-    },
-    {
-      "id": "f549017bd34f00ecc398",
-      "title": "Kalshi says it is not being investigated by the CFTC over trading activity",
-      "content_text": "Kalshi says it is not being investigated by the CFTC over trading activity",
-      "date_published": "2026-09-23T19:04:52Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "f549017bd34f00ecc398",
-          "source": "rss",
-          "type": "change",
-          "key": "c976e4e9-74b4-4e0b-88d2-aac3fd42787b",
-          "source_url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:12Z",
-          "data": {
-            "change": "added",
-            "label": "Kalshi says it is not being investigated by the CFTC over trading activity",
-            "item_type": "entry",
-            "summary": "added: Kalshi says it is not being investigated by the CFTC over trading activity",
-            "after": {
-              "title": "Kalshi says it is not being investigated by the CFTC over trading activity",
-              "link": "https://www.coindesk.com/markets/2026/09/23/kalshi-says-it-is-not-being-investigated-by-the-cftc-over-trading-activity",
-              "id": "c976e4e9-74b4-4e0b-88d2-aac3fd42787b",
-              "author": "Helene Braun",
-              "published_at": "2026-09-23T19:04:52Z",
-              "updated_at": "2026-09-23T19:04:52Z",
-              "summary": null,
-              "categories": [
-                "Markets",
-                "Kalshi",
-                "News"
-              ],
-              "feed": {
-                "title": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
-                "url": "https://www.coindesk.com/",
-                "feed_url": "https://www.coindesk.com/arc/outboundfeeds/rss/"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.coindesk.com/arc/outboundfeeds/rss",
-            "elapsed_ms": 198,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "crypto-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.coindesk.com/markets/2026/09/23/kalshi-says-it-is-not-being-investigated-by-the-cftc-over-trading-activity",
-      "tags": [
-        "Markets",
-        "Kalshi",
-        "News"
       ]
     }
   ]

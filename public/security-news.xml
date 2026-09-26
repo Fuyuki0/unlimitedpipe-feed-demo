@@ -2,10 +2,19 @@
 <rss version="2.0">
   <channel>
     <title>Security news</title>
-    <link>https://feeds.feedburner.com/TheHackersNews</link>
+    <link>https://www.bleepingcomputer.com/feed/</link>
     <description>Events collected by UnlimitedPipe 0.8.0</description>
     <generator>UnlimitedPipe 0.8.0</generator>
-    <lastBuildDate>Sat, 26 Sep 2026 12:15:06 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 13:30:07 +0000</lastBuildDate>
+    <item>
+      <title>OpenAI's AI agents accidentally uploaded user-provided images to third-party sites</title>
+      <link>https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/</link>
+      <guid isPermaLink="false">b00e92c44d250495f278</guid>
+      <pubDate>Sat, 26 Sep 2026 12:28:41 +0000</pubDate>
+      <description>OpenAI says its AI agents uploaded user-provided images to third-party image-hosting services while carrying out research and evaluation tasks. [...]</description>
+      <category>Artificial Intelligence</category>
+      <category>Security</category>
+    </item>
     <item>
       <title>Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link</title>
       <link>https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html</link>

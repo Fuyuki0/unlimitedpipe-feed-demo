@@ -9,6 +9,108 @@
   },
   "items": [
     {
+      "id": "54f02cd44cbeaf5b791f",
+      "title": "TASS (Russian state media): Iran no longer trusts talks with US amid ongoing strikes, sanctions — president",
+      "content_text": "Mediators Qatar and Pakistan are conveying Iran’s messages to Washington, President of the Islamic Republic Masoud Pezeshkian noted",
+      "date_published": "2026-09-26T12:24:04Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "54f02cd44cbeaf5b791f",
+          "source": "rss",
+          "type": "change",
+          "key": "https://tass.com/world/2193301",
+          "source_url": "https://tass.com/rss/v2.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T13:29:37Z",
+          "data": {
+            "change": "added",
+            "label": "TASS (Russian state media): Iran no longer trusts talks with US amid ongoing strikes, sanctions — president",
+            "item_type": "entry",
+            "summary": "added: TASS (Russian state media): Iran no longer trusts talks with US amid ongoing strikes, sanctions — president",
+            "after": {
+              "title": "TASS (Russian state media): Iran no longer trusts talks with US amid ongoing strikes, sanctions — president",
+              "link": "https://tass.com/world/2193301",
+              "id": "https://tass.com/world/2193301",
+              "author": null,
+              "published_at": "2026-09-26T12:24:04Z",
+              "updated_at": "2026-09-26T12:24:04Z",
+              "summary": "Mediators Qatar and Pakistan are conveying Iran’s messages to Washington, President of the Islamic Republic Masoud Pezeshkian noted",
+              "categories": [
+                "World"
+              ],
+              "feed": {
+                "title": "TASS",
+                "url": "https://tass.com",
+                "feed_url": "https://tass.com/rss/v2.xml"
+              },
+              "outlet": "TASS (Russian state media)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://tass.com/rss/v2.xml",
+            "elapsed_ms": 893,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^tass\\\\.com$\", \"TASS (Russian state media)\")",
+                  "outlet=replace(outlet, \"^meduza\\\\.io$\", \"Meduza\")",
+                  "outlet=replace(outlet, \"^themoscowtimes\\\\.com$\", \"The Moscow Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.8.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "namespace": "russia-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://tass.com/world/2193301",
+      "tags": [
+        "World"
+      ]
+    },
+    {
       "id": "05011df07de75997ea11",
       "title": "TASS (Russian state media): Ukrainian troops encircled in Kharkov Region lose over 50 soldiers",
       "content_text": "\"The Ukrainian army’s also losses an armored combat vehicle, two cars, an ATV, and a multiple rocket system launcher, the Russian Defense Ministry reported",
@@ -15369,112 +15471,6 @@
       "tags": [
         "FOREIGN POLICY",
         "Russian Politics & Diplomacy"
-      ]
-    },
-    {
-      "id": "15239040f1b9e61bef0b",
-      "title": "TASS (Russian state media): First post-election Duma meeting slated for September 30 — presidential decree",
-      "content_text": "The election to the 9th Russian State Duma took place on September 18-20",
-      "date_published": "2026-09-25T11:51:52Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "15239040f1b9e61bef0b",
-          "source": "rss",
-          "type": "change",
-          "key": "https://tass.com/politics/2192785",
-          "source_url": "https://tass.com/rss/v2.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T23:50:03Z",
-          "data": {
-            "change": "added",
-            "label": "TASS (Russian state media): First post-election Duma meeting slated for September 30 — presidential decree",
-            "item_type": "entry",
-            "summary": "added: TASS (Russian state media): First post-election Duma meeting slated for September 30 — presidential decree",
-            "after": {
-              "title": "TASS (Russian state media): First post-election Duma meeting slated for September 30 — presidential decree",
-              "link": "https://tass.com/politics/2192785",
-              "id": "https://tass.com/politics/2192785",
-              "author": null,
-              "published_at": "2026-09-25T11:51:52Z",
-              "updated_at": "2026-09-25T11:51:52Z",
-              "summary": "The election to the 9th Russian State Duma took place on September 18-20",
-              "categories": [
-                "DOMESTIC POLICY",
-                "Russian Politics & Diplomacy",
-                "Single Voting Day"
-              ],
-              "feed": {
-                "title": "TASS",
-                "url": "https://tass.com",
-                "feed_url": "https://tass.com/rss/v2.xml"
-              },
-              "outlet": "TASS (Russian state media)"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://tass.com/rss/v2.xml",
-            "elapsed_ms": 1209,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "map",
-              "version": "0.3.2",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^tass\\\\.com$\", \"TASS (Russian state media)\")",
-                  "outlet=replace(outlet, \"^meduza\\\\.io$\", \"Meduza\")",
-                  "outlet=replace(outlet, \"^themoscowtimes\\\\.com$\", \"The Moscow Times\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "russia-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://tass.com/politics/2192785",
-      "tags": [
-        "DOMESTIC POLICY",
-        "Russian Politics & Diplomacy",
-        "Single Voting Day"
       ]
     }
   ]

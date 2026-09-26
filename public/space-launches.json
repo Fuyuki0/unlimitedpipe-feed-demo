@@ -2,12 +2,270 @@
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Rocket launches",
   "home_page_url": "https://thespacedevs.com/llapi",
-  "description": "Events collected by UnlimitedPipe 0.3.2",
+  "description": "Events collected by UnlimitedPipe 0.8.0",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.3.2"
+    "generator": "UnlimitedPipe 0.8.0"
   },
   "items": [
+    {
+      "id": "7d8b7b69f5e24193a1d9",
+      "title": "LVM-3 | Gaganyaan-1",
+      "content_text": "Launch window opens 2026-11-30 00:00 UTC (To Be Determined)",
+      "date_published": "2026-09-26T13:30:15Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "7d8b7b69f5e24193a1d9",
+          "source": "web",
+          "type": "change",
+          "key": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list#dfac5ab7-7017-454f-b6cf-eeed277a97b5",
+          "source_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+          "timestamp": null,
+          "observed_at": "2026-09-26T13:30:15Z",
+          "data": {
+            "change": "added",
+            "label": "LVM-3 | Gaganyaan-1",
+            "item_type": "record",
+            "summary": "added: LVM-3 | Gaganyaan-1",
+            "after": {
+              "id": "dfac5ab7-7017-454f-b6cf-eeed277a97b5",
+              "name": "LVM-3 | Gaganyaan-1",
+              "slug": "lvm-3-gaganyaan-1",
+              "launch_designator": null,
+              "status": {
+                "id": 2,
+                "name": "To Be Determined",
+                "abbrev": "TBD",
+                "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
+              },
+              "last_updated": "2026-09-26T12:24:36Z",
+              "net": "2026-11-30T00:00:00Z",
+              "window_end": "2026-11-30T00:00:00Z",
+              "window_start": "2026-11-30T00:00:00Z",
+              "link": "https://spacelaunchnow.app/launch/lvm-3-gaganyaan-1/",
+              "summary": "Launch window opens 2026-11-30 00:00 UTC (To Be Determined)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+            "content_type": "application/json",
+            "elapsed_ms": 534,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "link=\"https://spacelaunchnow.app/launch/\" + slug + \"/\"",
+                  "summary=\"Launch window opens \" + replace(net, \"T(\\\\d\\\\d:\\\\d\\\\d):\\\\d\\\\dZ$\", \" \\\\1 UTC\") + \" (\" + status.name + \")\""
+                ],
+                "drop": [
+                  "url",
+                  "response_mode",
+                  "image",
+                  "infographic",
+                  "net_precision"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "key": "id",
+                "namespace": "space-launches",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://spacelaunchnow.app/launch/lvm-3-gaganyaan-1/"
+    },
+    {
+      "id": "afea92f701be846b8330",
+      "title": "PSLV-XL | TDS-01",
+      "content_text": "Launch window opens 2026-11-30 00:00 UTC (To Be Determined)",
+      "date_published": "2026-09-26T13:30:15Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "afea92f701be846b8330",
+          "source": "web",
+          "type": "change",
+          "key": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list#b5a9bccb-30d7-4af6-8ad1-fabb563be53c",
+          "source_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+          "timestamp": null,
+          "observed_at": "2026-09-26T13:30:15Z",
+          "data": {
+            "change": "added",
+            "label": "PSLV-XL | TDS-01",
+            "item_type": "record",
+            "summary": "added: PSLV-XL | TDS-01",
+            "after": {
+              "id": "b5a9bccb-30d7-4af6-8ad1-fabb563be53c",
+              "name": "PSLV-XL | TDS-01",
+              "slug": "pslv-xl-tds-01",
+              "launch_designator": null,
+              "status": {
+                "id": 2,
+                "name": "To Be Determined",
+                "abbrev": "TBD",
+                "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
+              },
+              "last_updated": "2026-09-26T12:26:06Z",
+              "net": "2026-11-30T00:00:00Z",
+              "window_end": "2026-11-30T00:00:00Z",
+              "window_start": "2026-11-30T00:00:00Z",
+              "link": "https://spacelaunchnow.app/launch/pslv-xl-tds-01/",
+              "summary": "Launch window opens 2026-11-30 00:00 UTC (To Be Determined)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+            "content_type": "application/json",
+            "elapsed_ms": 534,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "link=\"https://spacelaunchnow.app/launch/\" + slug + \"/\"",
+                  "summary=\"Launch window opens \" + replace(net, \"T(\\\\d\\\\d:\\\\d\\\\d):\\\\d\\\\dZ$\", \" \\\\1 UTC\") + \" (\" + status.name + \")\""
+                ],
+                "drop": [
+                  "url",
+                  "response_mode",
+                  "image",
+                  "infographic",
+                  "net_precision"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "key": "id",
+                "namespace": "space-launches",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://spacelaunchnow.app/launch/pslv-xl-tds-01/"
+    },
+    {
+      "id": "7b3efbaf5497c5a50cd1",
+      "title": "LVM-3 | GSAT-32 (GSAT-N3)",
+      "content_text": "Launch window opens 2026-12-31 00:00 UTC (To Be Determined)",
+      "date_published": "2026-09-26T13:30:15Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "7b3efbaf5497c5a50cd1",
+          "source": "web",
+          "type": "change",
+          "key": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list#0cf92611-82a8-4095-a0b4-dda2e74b1fff",
+          "source_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+          "timestamp": null,
+          "observed_at": "2026-09-26T13:30:15Z",
+          "data": {
+            "change": "added",
+            "label": "LVM-3 | GSAT-32 (GSAT-N3)",
+            "item_type": "record",
+            "summary": "added: LVM-3 | GSAT-32 (GSAT-N3)",
+            "after": {
+              "id": "0cf92611-82a8-4095-a0b4-dda2e74b1fff",
+              "name": "LVM-3 | GSAT-32 (GSAT-N3)",
+              "slug": "lvm-3-gsat-32-gsat-n3",
+              "launch_designator": null,
+              "status": {
+                "id": 2,
+                "name": "To Be Determined",
+                "abbrev": "TBD",
+                "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
+              },
+              "last_updated": "2026-09-26T12:27:56Z",
+              "net": "2026-12-31T00:00:00Z",
+              "window_end": "2026-12-31T00:00:00Z",
+              "window_start": "2026-12-31T00:00:00Z",
+              "link": "https://spacelaunchnow.app/launch/lvm-3-gsat-32-gsat-n3/",
+              "summary": "Launch window opens 2026-12-31 00:00 UTC (To Be Determined)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+            "content_type": "application/json",
+            "elapsed_ms": 534,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.8.0"
+            },
+            {
+              "step": "map",
+              "version": "0.8.0",
+              "args": {
+                "assign": [
+                  "link=\"https://spacelaunchnow.app/launch/\" + slug + \"/\"",
+                  "summary=\"Launch window opens \" + replace(net, \"T(\\\\d\\\\d:\\\\d\\\\d):\\\\d\\\\dZ$\", \" \\\\1 UTC\") + \" (\" + status.name + \")\""
+                ],
+                "drop": [
+                  "url",
+                  "response_mode",
+                  "image",
+                  "infographic",
+                  "net_precision"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.8.0",
+              "args": {
+                "key": "id",
+                "namespace": "space-launches",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://spacelaunchnow.app/launch/lvm-3-gsat-32-gsat-n3/"
+    },
     {
       "id": "0f42e60ba374bdaa0479",
       "title": "Falcon 9 Block 5 | SDA Tranche 1 Tracking Layer C",
