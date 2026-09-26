@@ -1,0 +1,20 @@
+name: bank-of-thailand
+description: Press releases from the Bank of Thailand (ธนาคารแห่งประเทศไทย) - monetary policy, the economy, banknotes and financial rules. Its news list only appears with JavaScript, so this feed renders the page in a headless browser.
+sources:
+  - type: web
+    url: https://www.bot.or.th/en/news-and-media/news.html
+    browser: true   # the list is filled in by JavaScript
+    emit: links
+operators:
+  - {type: filter, expr: 'url matches "/news-and-media/news/news-\\d{8}\\.html$"'}
+  - type: map
+    assign:
+      - 'title=replace(trim(text), "\\s+\\d{1,2} [A-Z][a-z]{2} \\d{4}\\b.*$", "")'
+      - "link=url"
+      - 'published_at=replace(url, "^.*news-(\\d{4})(\\d\\d)(\\d\\d)\\.html$", "\\1-\\2-\\3")'
+  - {type: dedupe, by: [link]}
+  - {type: select, fields: [title, link, published_at]}
+  - {type: diff, key: link, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/bank-of-thailand.xml, title: Bank of Thailand press releases, link: "https://www.bot.or.th/en/news-and-media/news.html"}
+  - {type: feed, path: ../public/bank-of-thailand.json, title: Bank of Thailand press releases, link: "https://www.bot.or.th/en/news-and-media/news.html"}

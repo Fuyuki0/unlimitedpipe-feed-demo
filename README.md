@@ -1,6 +1,6 @@
 # UnlimitedPipe feeds
 
-53 free feeds, updated every hour by a GitHub Actions workflow and served by GitHub Pages.
+54 free feeds, updated every hour by a GitHub Actions workflow and served by GitHub Pages.
 No server, no database, no account. Each feed is one short YAML file, built with
 [UnlimitedPipe](https://pypi.org/project/unlimitedpipe/).
 
@@ -81,6 +81,7 @@ Each feed labels items by outlet; state media is marked as such.
 | [thailand-disasters](https://feeds.daemonfill.dev/thailand-disasters.xml) | GDACS alerts for Thailand, Myanmar, Laos, Cambodia and Malaysia, any level |
 | [thailand-earthquakes](https://feeds.daemonfill.dev/thailand-earthquakes.xml) | Earthquakes in and around Thailand (Thai Meteorological Department) |
 | [thailand-weather](https://feeds.daemonfill.dev/thailand-weather.xml) | Weather now and next 6 hours in Bangkok, Chiang Mai, Phuket, Pattaya, Khon Kaen and Hat Yai (MET Norway, CC BY 4.0) |
+| [bank-of-thailand](https://feeds.daemonfill.dev/bank-of-thailand.xml) | Bank of Thailand press releases: monetary policy, the economy, banknotes (read with a headless browser) |
 | [japan-news](https://feeds.daemonfill.dev/japan-news.xml) | The Japan Times, The Mainichi and Japan Today |
 | [china-news](https://feeds.daemonfill.dev/china-news.xml) | South China Morning Post and CGTN (Chinese state media) |
 | [russia-news](https://feeds.daemonfill.dev/russia-news.xml) | TASS (Russian state media), Meduza and The Moscow Times |
