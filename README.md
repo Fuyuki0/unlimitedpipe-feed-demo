@@ -146,6 +146,20 @@ summaries come from the sources' own feeds.
 with the source and what to follow, or add one yourself: [CONTRIBUTING.md](CONTRIBUTING.md)
 explains how, in four steps.
 
+## History and offline
+
+Every run also appends new items to a monthly archive (`archive/2026-09.jsonl`), so you can
+search further back than the latest items: `unlimited search sanctions --since 2026-08`.
+
+The whole catalog works without the internet too:
+
+```bash
+pip install unlimitedpipe
+unlimited mirror ~/feeds                 # download it (run again to refresh)
+unlimited search flood --catalog ~/feeds
+unlimited serve ~/feeds --lan            # share the search page on your Wi-Fi
+```
+
 ## Health
 
 Every run records whether each feed worked. The [index page](https://feeds.daemonfill.dev/)
