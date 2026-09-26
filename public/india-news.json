@@ -2,12 +2,315 @@
   "version": "https://jsonfeed.org/version/1.1",
   "title": "India news (The Hindu, NDTV)",
   "home_page_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-  "description": "Events collected by UnlimitedPipe 0.3.2",
+  "description": "Events collected by UnlimitedPipe 0.4.0",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.3.2"
+    "generator": "UnlimitedPipe 0.4.0"
   },
   "items": [
+    {
+      "id": "04df0a241e9261ad4b2e",
+      "title": "The Hindu: IMD issues heavy rain alert for September 26–27 in Uttarakhand; CM Dhami directs officials to maintain vigilance",
+      "content_text": "The Chief Minister appealed to residents and tourists to exercise extreme caution and urged people to travel only if essential and after checking the latest weather and road conditions.",
+      "date_published": "2026-09-26T01:36:40Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "04df0a241e9261ad4b2e",
+          "source": "rss",
+          "type": "change",
+          "key": "article-71511460",
+          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T01:47:10Z",
+          "data": {
+            "change": "added",
+            "label": "The Hindu: IMD issues heavy rain alert for September 26–27 in Uttarakhand; CM Dhami directs officials to maintain vigilance",
+            "item_type": "entry",
+            "summary": "added: The Hindu: IMD issues heavy rain alert for September 26–27 in Uttarakhand; CM Dhami directs officials to maintain vigilance",
+            "after": {
+              "title": "The Hindu: IMD issues heavy rain alert for September 26–27 in Uttarakhand; CM Dhami directs officials to maintain vigilance",
+              "link": "https://www.thehindu.com/news/national/uttarakhand/imd-issues-heavy-rain-alert-for-september-2627-in-uttarakhand-cm-dhami-directs-officials-to-maintain-vigilance/article71511460.ece",
+              "id": "article-71511460",
+              "author": null,
+              "published_at": "2026-09-26T01:36:40Z",
+              "updated_at": "2026-09-26T01:36:40Z",
+              "summary": "The Chief Minister appealed to residents and tourists to exercise extreme caution and urged people to travel only if essential and after checking the latest weather and road conditions.",
+              "categories": [
+                "Uttarakhand"
+              ],
+              "feed": {
+                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+                "url": "https://www.thehindu.com/news/national/",
+                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+              },
+              "outlet": "The Hindu"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+            "elapsed_ms": 81,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.4.0"
+            },
+            {
+              "step": "map",
+              "version": "0.4.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.4.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.4.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.4.0",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.thehindu.com/news/national/uttarakhand/imd-issues-heavy-rain-alert-for-september-2627-in-uttarakhand-cm-dhami-directs-officials-to-maintain-vigilance/article71511460.ece",
+      "tags": [
+        "Uttarakhand"
+      ]
+    },
+    {
+      "id": "99e4ec5affbe1467830d",
+      "title": "The Hindu: IIT-B student death case: Crime Branch records statements of 20 people",
+      "content_text": "National Commission for Scheduled Castes conducts an inquiry after allegations of caste-based harassment; Athwale visits institute, demands independent probe, says will write to Pralhad Joshi",
+      "date_published": "2026-09-25T19:54:19Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "99e4ec5affbe1467830d",
+          "source": "rss",
+          "type": "change",
+          "key": "article-71509236",
+          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T01:47:10Z",
+          "data": {
+            "change": "added",
+            "label": "The Hindu: IIT-B student death case: Crime Branch records statements of 20 people",
+            "item_type": "entry",
+            "summary": "added: The Hindu: IIT-B student death case: Crime Branch records statements of 20 people",
+            "after": {
+              "title": "The Hindu: IIT-B student death case: Crime Branch records statements of 20 people",
+              "link": "https://www.thehindu.com/news/cities/mumbai/iit-bstudent-death-case-crime-branch-records-statements-of-20-people/article71509236.ece",
+              "id": "article-71509236",
+              "author": null,
+              "published_at": "2026-09-25T19:54:19Z",
+              "updated_at": "2026-09-25T19:54:19Z",
+              "summary": "National Commission for Scheduled Castes conducts an inquiry after allegations of caste-based harassment; Athwale visits institute, demands independent probe, says will write to Pralhad Joshi",
+              "categories": [
+                "Mumbai"
+              ],
+              "feed": {
+                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+                "url": "https://www.thehindu.com/news/national/",
+                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+              },
+              "outlet": "The Hindu"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+            "elapsed_ms": 81,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.4.0"
+            },
+            {
+              "step": "map",
+              "version": "0.4.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.4.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.4.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.4.0",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.thehindu.com/news/cities/mumbai/iit-bstudent-death-case-crime-branch-records-statements-of-20-people/article71509236.ece",
+      "tags": [
+        "Mumbai"
+      ]
+    },
+    {
+      "id": "a6ce9aad8e9a53be60e7",
+      "title": "The Hindu: Breaking barriers, Junais Sathar rides from Kannur to Ladakh",
+      "content_text": "Travelling alone in a specially adapted vehicle, the 33-year-old from Kannur covered around 3,700 km to reach Ladakh. He says the journey has given him new confidence and encouraged others with disabilities to consider travelling farther from home",
+      "date_published": "2026-09-25T18:21:35Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "a6ce9aad8e9a53be60e7",
+          "source": "rss",
+          "type": "change",
+          "key": "article-71507749",
+          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T01:47:10Z",
+          "data": {
+            "change": "added",
+            "label": "The Hindu: Breaking barriers, Junais Sathar rides from Kannur to Ladakh",
+            "item_type": "entry",
+            "summary": "added: The Hindu: Breaking barriers, Junais Sathar rides from Kannur to Ladakh",
+            "after": {
+              "title": "The Hindu: Breaking barriers, Junais Sathar rides from Kannur to Ladakh",
+              "link": "https://www.thehindu.com/news/national/kerala/breaking-barriers-junais-sathar-rides-from-kannur-to-ladakh/article71507749.ece",
+              "id": "article-71507749",
+              "author": null,
+              "published_at": "2026-09-25T18:21:35Z",
+              "updated_at": "2026-09-25T18:21:35Z",
+              "summary": "Travelling alone in a specially adapted vehicle, the 33-year-old from Kannur covered around 3,700 km to reach Ladakh. He says the journey has given him new confidence and encouraged others with disabilities to consider travelling farther from home",
+              "categories": [
+                "Keralam"
+              ],
+              "feed": {
+                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+                "url": "https://www.thehindu.com/news/national/",
+                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+              },
+              "outlet": "The Hindu"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+            "elapsed_ms": 81,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.4.0"
+            },
+            {
+              "step": "map",
+              "version": "0.4.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.4.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.4.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.4.0",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.thehindu.com/news/national/kerala/breaking-barriers-junais-sathar-rides-from-kannur-to-ladakh/article71507749.ece",
+      "tags": [
+        "Keralam"
+      ]
+    },
     {
       "id": "459c8344297cf6fb5294",
       "title": "The Hindu: 2020 Delhi riots case: Supreme Court relaxes specific bail condition for about-to-be-married accused",

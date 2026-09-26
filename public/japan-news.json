@@ -2,12 +2,716 @@
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Japan news (Japan Times, Mainichi, Japan Today)",
   "home_page_url": "https://mainichi.jp/rss/etc/english_latest.rss",
-  "description": "Events collected by UnlimitedPipe 0.3.2",
+  "description": "Events collected by UnlimitedPipe 0.4.0",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.3.2"
+    "generator": "UnlimitedPipe 0.4.0"
   },
   "items": [
+    {
+      "id": "7ce27aa93170d47682a4",
+      "title": "The Mainichi: Takeaways from Trump-Xi summit: Lots of pomp and even more punting on tensions in US-China relations",
+      "content_text": "WASHINGTON (AP) -- Presidents Donald Trump and Xi Jinping have wrapped up a three-day Washington summit that was heavy on pomp but light on substance.",
+      "date_published": "2026-09-26T01:42:27Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "7ce27aa93170d47682a4",
+          "source": "rss",
+          "type": "change",
+          "key": "https://mainichi.jp/english/articles/20260926/p2g/00m/0in/004000c",
+          "source_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T01:48:35Z",
+          "data": {
+            "change": "added",
+            "label": "The Mainichi: Takeaways from Trump-Xi summit: Lots of pomp and even more punting on tensions in US-China relations",
+            "item_type": "entry",
+            "summary": "added: The Mainichi: Takeaways from Trump-Xi summit: Lots of pomp and even more punting on tensions in US-China relations",
+            "after": {
+              "title": "The Mainichi: Takeaways from Trump-Xi summit: Lots of pomp and even more punting on tensions in US-China relations",
+              "link": "https://mainichi.jp/english/articles/20260926/p2g/00m/0in/004000c",
+              "id": "https://mainichi.jp/english/articles/20260926/p2g/00m/0in/004000c",
+              "author": null,
+              "published_at": "2026-09-26T01:42:27Z",
+              "updated_at": "2026-09-26T01:42:27Z",
+              "summary": "WASHINGTON (AP) -- Presidents Donald Trump and Xi Jinping have wrapped up a three-day Washington summit that was heavy on pomp but light on substance.",
+              "categories": [],
+              "feed": {
+                "title": "The Mainichi",
+                "url": "https://mainichi.jp/english/",
+                "feed_url": "https://mainichi.jp/rss/etc/english_latest.rss"
+              },
+              "outlet": "The Mainichi"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+            "elapsed_ms": 228,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.4.0"
+            },
+            {
+              "step": "map",
+              "version": "0.4.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.4.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.4.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.4.0",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://mainichi.jp/english/articles/20260926/p2g/00m/0in/004000c"
+    },
+    {
+      "id": "43501182d19c28c737cf",
+      "title": "The Japan Times: Japan’s finance chief says Takaichi isn’t ‘reflationist’",
+      "content_text": "The finance minister also reiterated her readiness to again support the yen and played down jitters over the recent gains in bond yields.",
+      "date_published": "2026-09-26T01:40:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "43501182d19c28c737cf",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.japantimes.co.jp/article/647019/",
+          "source_url": "https://www.japantimes.co.jp/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T01:48:35Z",
+          "data": {
+            "change": "added",
+            "label": "The Japan Times: Japan’s finance chief says Takaichi isn’t ‘reflationist’",
+            "item_type": "entry",
+            "summary": "added: The Japan Times: Japan’s finance chief says Takaichi isn’t ‘reflationist’",
+            "after": {
+              "title": "The Japan Times: Japan’s finance chief says Takaichi isn’t ‘reflationist’",
+              "link": "https://www.japantimes.co.jp/business/2026/09/26/economy/japan-katayama-takaichi-reflationist/",
+              "id": "https://www.japantimes.co.jp/article/647019/",
+              "author": null,
+              "published_at": "2026-09-26T01:40:00Z",
+              "updated_at": "2026-09-26T01:40:00Z",
+              "summary": "The finance minister also reiterated her readiness to again support the yen and played down jitters over the recent gains in bond yields.",
+              "categories": [
+                "BUSINESS"
+              ],
+              "feed": {
+                "title": "Latest articles - The Japan Times",
+                "url": "https://www.japantimes.co.jp/",
+                "feed_url": "https://www.japantimes.co.jp/feed/"
+              },
+              "outlet": "The Japan Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.japantimes.co.jp/feed/",
+            "elapsed_ms": 288,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.4.0"
+            },
+            {
+              "step": "map",
+              "version": "0.4.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.4.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.4.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.4.0",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.japantimes.co.jp/business/2026/09/26/economy/japan-katayama-takaichi-reflationist/",
+      "tags": [
+        "BUSINESS"
+      ]
+    },
+    {
+      "id": "b40624da5e98fd750eef",
+      "title": "The Mainichi: Japan, US finance chiefs share concern over 'undervalued yen'",
+      "content_text": "TOKYO (Kyodo) -- Japanese Finance Minister Satsuki Katayama said Friday she held online talks with U.S. Treasury Secretary Scott Bessent, during which",
+      "date_published": "2026-09-26T01:33:12Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "b40624da5e98fd750eef",
+          "source": "rss",
+          "type": "change",
+          "key": "https://mainichi.jp/english/articles/20260926/p2g/00m/0bu/002000c",
+          "source_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T01:48:35Z",
+          "data": {
+            "change": "added",
+            "label": "The Mainichi: Japan, US finance chiefs share concern over 'undervalued yen'",
+            "item_type": "entry",
+            "summary": "added: The Mainichi: Japan, US finance chiefs share concern over 'undervalued yen'",
+            "after": {
+              "title": "The Mainichi: Japan, US finance chiefs share concern over 'undervalued yen'",
+              "link": "https://mainichi.jp/english/articles/20260926/p2g/00m/0bu/002000c",
+              "id": "https://mainichi.jp/english/articles/20260926/p2g/00m/0bu/002000c",
+              "author": null,
+              "published_at": "2026-09-26T01:33:12Z",
+              "updated_at": "2026-09-26T01:33:12Z",
+              "summary": "TOKYO (Kyodo) -- Japanese Finance Minister Satsuki Katayama said Friday she held online talks with U.S. Treasury Secretary Scott Bessent, during which",
+              "categories": [],
+              "feed": {
+                "title": "The Mainichi",
+                "url": "https://mainichi.jp/english/",
+                "feed_url": "https://mainichi.jp/rss/etc/english_latest.rss"
+              },
+              "outlet": "The Mainichi"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+            "elapsed_ms": 228,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.4.0"
+            },
+            {
+              "step": "map",
+              "version": "0.4.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.4.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.4.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.4.0",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://mainichi.jp/english/articles/20260926/p2g/00m/0bu/002000c"
+    },
+    {
+      "id": "39307df988dddc4b6ecd",
+      "title": "The Japan Times: Trump rejects Iranian peace proposal, report says",
+      "content_text": "U.S. President Donald Trump told aides he expects to resume bombing after November congressional elections.",
+      "date_published": "2026-09-26T00:56:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "39307df988dddc4b6ecd",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.japantimes.co.jp/article/647018/",
+          "source_url": "https://www.japantimes.co.jp/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T01:48:35Z",
+          "data": {
+            "change": "added",
+            "label": "The Japan Times: Trump rejects Iranian peace proposal, report says",
+            "item_type": "entry",
+            "summary": "added: The Japan Times: Trump rejects Iranian peace proposal, report says",
+            "after": {
+              "title": "The Japan Times: Trump rejects Iranian peace proposal, report says",
+              "link": "https://www.japantimes.co.jp/news/2026/09/26/world/politics/trump-rejects-iranian-peace-proposal/",
+              "id": "https://www.japantimes.co.jp/article/647018/",
+              "author": null,
+              "published_at": "2026-09-26T00:56:00Z",
+              "updated_at": "2026-09-26T00:56:00Z",
+              "summary": "U.S. President Donald Trump told aides he expects to resume bombing after November congressional elections.",
+              "categories": [
+                "WORLD"
+              ],
+              "feed": {
+                "title": "Latest articles - The Japan Times",
+                "url": "https://www.japantimes.co.jp/",
+                "feed_url": "https://www.japantimes.co.jp/feed/"
+              },
+              "outlet": "The Japan Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.japantimes.co.jp/feed/",
+            "elapsed_ms": 288,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.4.0"
+            },
+            {
+              "step": "map",
+              "version": "0.4.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.4.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.4.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.4.0",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.japantimes.co.jp/news/2026/09/26/world/politics/trump-rejects-iranian-peace-proposal/",
+      "tags": [
+        "WORLD"
+      ]
+    },
+    {
+      "id": "7cdaff13c23db7f35bb6",
+      "title": "The Japan Times: China pushes to fill Trump’s void across range of U.N. activities",
+      "content_text": "As U.S. President Donald Trump withholds millions of dollars in U.S. dues and pulls out of dozens of agencies, China is filling the gap.",
+      "date_published": "2026-09-25T23:34:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "7cdaff13c23db7f35bb6",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.japantimes.co.jp/article/647017/",
+          "source_url": "https://www.japantimes.co.jp/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T01:48:35Z",
+          "data": {
+            "change": "added",
+            "label": "The Japan Times: China pushes to fill Trump’s void across range of U.N. activities",
+            "item_type": "entry",
+            "summary": "added: The Japan Times: China pushes to fill Trump’s void across range of U.N. activities",
+            "after": {
+              "title": "The Japan Times: China pushes to fill Trump’s void across range of U.N. activities",
+              "link": "https://www.japantimes.co.jp/news/2026/09/26/asia-pacific/politics/china-trump-un-activities/",
+              "id": "https://www.japantimes.co.jp/article/647017/",
+              "author": null,
+              "published_at": "2026-09-25T23:34:00Z",
+              "updated_at": "2026-09-25T23:34:00Z",
+              "summary": "As U.S. President Donald Trump withholds millions of dollars in U.S. dues and pulls out of dozens of agencies, China is filling the gap.",
+              "categories": [
+                "ASIA PACIFIC"
+              ],
+              "feed": {
+                "title": "Latest articles - The Japan Times",
+                "url": "https://www.japantimes.co.jp/",
+                "feed_url": "https://www.japantimes.co.jp/feed/"
+              },
+              "outlet": "The Japan Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.japantimes.co.jp/feed/",
+            "elapsed_ms": 288,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.4.0"
+            },
+            {
+              "step": "map",
+              "version": "0.4.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.4.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.4.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.4.0",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.japantimes.co.jp/news/2026/09/26/asia-pacific/politics/china-trump-un-activities/",
+      "tags": [
+        "ASIA PACIFIC"
+      ]
+    },
+    {
+      "id": "a9e4c2cb91cc9d63b391",
+      "title": "The Japan Times: U.S. seeks to expand passport records access for voter checks",
+      "content_text": "State and local officials, as well as potentially some nonprofit organizations, may be given access to passport records to verify voters' citizenship.",
+      "date_published": "2026-09-25T23:34:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "a9e4c2cb91cc9d63b391",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.japantimes.co.jp/article/647016/",
+          "source_url": "https://www.japantimes.co.jp/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T01:48:35Z",
+          "data": {
+            "change": "added",
+            "label": "The Japan Times: U.S. seeks to expand passport records access for voter checks",
+            "item_type": "entry",
+            "summary": "added: The Japan Times: U.S. seeks to expand passport records access for voter checks",
+            "after": {
+              "title": "The Japan Times: U.S. seeks to expand passport records access for voter checks",
+              "link": "https://www.japantimes.co.jp/news/2026/09/26/world/politics/us-passports-voter-checks/",
+              "id": "https://www.japantimes.co.jp/article/647016/",
+              "author": null,
+              "published_at": "2026-09-25T23:34:00Z",
+              "updated_at": "2026-09-25T23:34:00Z",
+              "summary": "State and local officials, as well as potentially some nonprofit organizations, may be given access to passport records to verify voters' citizenship.",
+              "categories": [
+                "WORLD"
+              ],
+              "feed": {
+                "title": "Latest articles - The Japan Times",
+                "url": "https://www.japantimes.co.jp/",
+                "feed_url": "https://www.japantimes.co.jp/feed/"
+              },
+              "outlet": "The Japan Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.japantimes.co.jp/feed/",
+            "elapsed_ms": 288,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.4.0"
+            },
+            {
+              "step": "map",
+              "version": "0.4.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.4.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.4.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.4.0",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.japantimes.co.jp/news/2026/09/26/world/politics/us-passports-voter-checks/",
+      "tags": [
+        "WORLD"
+      ]
+    },
+    {
+      "id": "7961589a3332bd8a5203",
+      "title": "The Japan Times: Japan’s bond ‘falling knife’ stalls repatriation rush",
+      "content_text": "Major investors remain reluctant to commit heavily to domestic bonds while yields are still climbing and few clues about how much rates must rise.",
+      "date_published": "2026-09-25T23:29:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "7961589a3332bd8a5203",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.japantimes.co.jp/article/647020/",
+          "source_url": "https://www.japantimes.co.jp/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T01:48:35Z",
+          "data": {
+            "change": "added",
+            "label": "The Japan Times: Japan’s bond ‘falling knife’ stalls repatriation rush",
+            "item_type": "entry",
+            "summary": "added: The Japan Times: Japan’s bond ‘falling knife’ stalls repatriation rush",
+            "after": {
+              "title": "The Japan Times: Japan’s bond ‘falling knife’ stalls repatriation rush",
+              "link": "https://www.japantimes.co.jp/business/2026/09/26/markets/japan-bond-repatriation-rush-analysis/",
+              "id": "https://www.japantimes.co.jp/article/647020/",
+              "author": null,
+              "published_at": "2026-09-25T23:29:00Z",
+              "updated_at": "2026-09-25T23:29:00Z",
+              "summary": "Major investors remain reluctant to commit heavily to domestic bonds while yields are still climbing and few clues about how much rates must rise.",
+              "categories": [
+                "BUSINESS"
+              ],
+              "feed": {
+                "title": "Latest articles - The Japan Times",
+                "url": "https://www.japantimes.co.jp/",
+                "feed_url": "https://www.japantimes.co.jp/feed/"
+              },
+              "outlet": "The Japan Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.japantimes.co.jp/feed/",
+            "elapsed_ms": 288,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.4.0"
+            },
+            {
+              "step": "map",
+              "version": "0.4.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.4.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.4.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.4.0",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.japantimes.co.jp/business/2026/09/26/markets/japan-bond-repatriation-rush-analysis/",
+      "tags": [
+        "BUSINESS"
+      ]
+    },
     {
       "id": "5335d191f6ef81f9e293",
       "title": "The Mainichi: Japan municipal gov't to offer 100 yen a day for helping elderly, disabled take out trash",

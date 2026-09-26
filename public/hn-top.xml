@@ -3,9 +3,16 @@
   <channel>
     <title>Hacker News (300+ points)</title>
     <link>https://news.ycombinator.com/</link>
-    <description>Events collected by UnlimitedPipe 0.3.2</description>
-    <generator>UnlimitedPipe 0.3.2</generator>
-    <lastBuildDate>Sat, 26 Sep 2026 00:24:44 +0000</lastBuildDate>
+    <description>Events collected by UnlimitedPipe 0.4.0</description>
+    <generator>UnlimitedPipe 0.4.0</generator>
+    <lastBuildDate>Sat, 26 Sep 2026 01:47:08 +0000</lastBuildDate>
+    <item>
+      <title>Git-bug: Distributed, offline-first bug tracker embedded in Git</title>
+      <link>https://github.com/git-bug/git-bug</link>
+      <guid isPermaLink="false">4afb71ba1dfbf52c5dd6</guid>
+      <pubDate>Fri, 25 Sep 2026 11:38:31 +0000</pubDate>
+      <description>hn https://news.ycombinator.com/item?id=49843174 · published_at 2026-09-25T11:38:31Z · points 307 · num_comments 100</description>
+    </item>
     <item>
       <title>Ollaya – Ollama for open-source, Jev-style decision models</title>
       <link>https://ollaya.dev/</link>

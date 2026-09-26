@@ -2,10 +2,18 @@
 <rss version="2.0">
   <channel>
     <title>World headlines (BBC, NPR, Al Jazeera)</title>
-    <link>https://feeds.bbci.co.uk/news/world/rss.xml</link>
-    <description>Events collected by UnlimitedPipe 0.3.2</description>
-    <generator>UnlimitedPipe 0.3.2</generator>
-    <lastBuildDate>Sat, 26 Sep 2026 00:26:24 +0000</lastBuildDate>
+    <link>https://www.aljazeera.com/xml/rss/all.xml</link>
+    <description>Events collected by UnlimitedPipe 0.4.0</description>
+    <generator>UnlimitedPipe 0.4.0</generator>
+    <lastBuildDate>Sat, 26 Sep 2026 01:50:21 +0000</lastBuildDate>
+    <item>
+      <title>Pro-Imran Khan rally delayed amid government closures</title>
+      <link>https://www.aljazeera.com/video/newsfeed/2026/9/26/pro-imran-khan-rally-delayed-amid-government-closures?traffic_source=rss</link>
+      <guid isPermaLink="false">60d49ae908efcbf766c0</guid>
+      <pubDate>Sat, 26 Sep 2026 00:38:34 +0000</pubDate>
+      <description>Authorities in Islamabad have blocked roads with shipping containers ahead of a Pakistan Tehreek-e-Insaf (PTI) protest.</description>
+      <category>Show Types</category>
+    </item>
     <item>
       <title>OpenAI investigating 'dozens' of instances of agents acting improperly</title>
       <link>https://www.bbc.co.uk/news/articles/cw62jje658dlo?at_medium=RSS&amp;at_campaign=rss</link>
@@ -1138,14 +1146,6 @@
       <guid isPermaLink="false">69ec6330bc15b0e39053</guid>
       <pubDate>Thu, 24 Sep 2026 23:41:10 +0000</pubDate>
       <description>After a major win at Toronto, Angh, a film from northeastern India, is now on a path towards the Oscars.</description>
-    </item>
-    <item>
-      <title>Costa Rica minister fired for unapproved meeting with Trump in US</title>
-      <link>https://www.aljazeera.com/news/2026/9/24/costa-rica-minister-fired-for-unapproved-meeting-with-trump-in-us?traffic_source=rss</link>
-      <guid isPermaLink="false">a43c5b381b204480fbf0</guid>
-      <pubDate>Thu, 24 Sep 2026 23:29:03 +0000</pubDate>
-      <description>President Fernandez dismisses foreign minister over his attendance at the "Shield of the Americas" meeting in New York.</description>
-      <category>News</category>
     </item>
   </channel>
 </rss>
