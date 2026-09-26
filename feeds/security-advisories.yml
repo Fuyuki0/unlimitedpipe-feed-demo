@@ -7,7 +7,7 @@ sources:
       - https://www.jpcert.or.jp/english/rss/jpcert-en.rdf
       - "https://www.cyber.gc.ca/api/cccs/rss/v1/get?feed=alerts_advisories&lang=en"
 operators:
-  - {type: filter, expr: 'not (title matches "security advisory \\(AV\\d+")'}
+  - {type: filter, expr: 'not (title matches "\\(AV\\d+-\\d+\\)")'}   # routine vendor patch notices
   - type: map
     assign:
       - 'agency=replace(source_url, "^https?://(?:www\\.)?([^/]+).*$", "\\1")'
