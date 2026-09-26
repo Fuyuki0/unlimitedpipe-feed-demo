@@ -4,53 +4,53 @@
 No server, no database, no account. Each feed is one short YAML file, built with
 [UnlimitedPipe](https://pypi.org/project/unlimitedpipe/).
 
-**Browse and subscribe: https://fuyuki0.github.io/unlimitedpipe-feeds/**
+**Browse and subscribe: https://feeds.daemonfill.dev/**
 
 Paste any `.xml` link into a feed reader. Every feed also exists as a JSON Feed (same name,
 `.json`) that carries full UnlimitedPipe events with provenance, so other pipelines can build
-on it: `unlimited rss https://fuyuki0.github.io/unlimitedpipe-feeds/ai-news.json`.
+on it: `unlimited rss https://feeds.daemonfill.dev/ai-news.json`.
 
 ### AI
 
 | Feed | What it follows |
 | --- | --- |
-| [ai-news](https://fuyuki0.github.io/unlimitedpipe-feeds/ai-news.xml) | AI and LLM stories from Hacker News and Lobsters |
-| [ai-labs](https://fuyuki0.github.io/unlimitedpipe-feeds/ai-labs.xml) | OpenAI, Google DeepMind and Hugging Face announcements |
-| [ai-papers](https://fuyuki0.github.io/unlimitedpipe-feeds/ai-papers.xml) | Hugging Face Daily Papers: the research the community highlights each day |
-| [arxiv-llm](https://fuyuki0.github.io/unlimitedpipe-feeds/arxiv-llm.xml) | New arXiv papers on language models and agents |
-| [ai-releases](https://fuyuki0.github.io/unlimitedpipe-feeds/ai-releases.xml) | Releases of Ollama, llama.cpp, vLLM, Transformers, LangChain, ComfyUI, Open WebUI |
+| [ai-news](https://feeds.daemonfill.dev/ai-news.xml) | AI and LLM stories from Hacker News and Lobsters |
+| [ai-labs](https://feeds.daemonfill.dev/ai-labs.xml) | OpenAI, Google DeepMind and Hugging Face announcements |
+| [ai-papers](https://feeds.daemonfill.dev/ai-papers.xml) | Hugging Face Daily Papers: the research the community highlights each day |
+| [arxiv-llm](https://feeds.daemonfill.dev/arxiv-llm.xml) | New arXiv papers on language models and agents |
+| [ai-releases](https://feeds.daemonfill.dev/ai-releases.xml) | Releases of Ollama, llama.cpp, vLLM, Transformers, LangChain, ComfyUI, Open WebUI |
 
 ### Developers
 
 | Feed | What it follows |
 | --- | --- |
-| [dev-releases](https://fuyuki0.github.io/unlimitedpipe-feeds/dev-releases.xml) | Releases of uv, Ruff, Node.js, Deno, Bun, VS Code, Rust, TypeScript |
-| [cloud-status](https://fuyuki0.github.io/unlimitedpipe-feeds/cloud-status.xml) | New incidents at GitHub, Cloudflare, OpenAI, Anthropic and Google Cloud |
-| [hn-top](https://fuyuki0.github.io/unlimitedpipe-feeds/hn-top.xml) | Hacker News stories with 300+ points |
-| [show-hn](https://fuyuki0.github.io/unlimitedpipe-feeds/show-hn.xml) | Show HN projects with 100+ points |
-| [python-news](https://fuyuki0.github.io/unlimitedpipe-feeds/python-news.xml) | Python releases and new PEPs |
-| [rust-news](https://fuyuki0.github.io/unlimitedpipe-feeds/rust-news.xml) | The official Rust blog |
+| [dev-releases](https://feeds.daemonfill.dev/dev-releases.xml) | Releases of uv, Ruff, Node.js, Deno, Bun, VS Code, Rust, TypeScript |
+| [cloud-status](https://feeds.daemonfill.dev/cloud-status.xml) | New incidents at GitHub, Cloudflare, OpenAI, Anthropic and Google Cloud |
+| [hn-top](https://feeds.daemonfill.dev/hn-top.xml) | Hacker News stories with 300+ points |
+| [show-hn](https://feeds.daemonfill.dev/show-hn.xml) | Show HN projects with 100+ points |
+| [python-news](https://feeds.daemonfill.dev/python-news.xml) | Python releases and new PEPs |
+| [rust-news](https://feeds.daemonfill.dev/rust-news.xml) | The official Rust blog |
 
 ### Security
 
 | Feed | What it follows |
 | --- | --- |
-| [exploited-vulnerabilities](https://fuyuki0.github.io/unlimitedpipe-feeds/exploited-vulnerabilities.xml) | Vulnerabilities newly added to CISA's Known Exploited list |
-| [security-news](https://fuyuki0.github.io/unlimitedpipe-feeds/security-news.xml) | Krebs on Security, BleepingComputer, The Hacker News, Schneier on Security |
-| [sec-cyber-incidents](https://fuyuki0.github.io/unlimitedpipe-feeds/sec-cyber-incidents.xml) | Public companies disclosing a material cybersecurity incident to the SEC (8-K Item 1.05) |
+| [exploited-vulnerabilities](https://feeds.daemonfill.dev/exploited-vulnerabilities.xml) | Vulnerabilities newly added to CISA's Known Exploited list |
+| [security-news](https://feeds.daemonfill.dev/security-news.xml) | Krebs on Security, BleepingComputer, The Hacker News, Schneier on Security |
+| [sec-cyber-incidents](https://feeds.daemonfill.dev/sec-cyber-incidents.xml) | Public companies disclosing a material cybersecurity incident to the SEC (8-K Item 1.05) |
 
 ### Money, economy and government
 
 | Feed | What it follows |
 | --- | --- |
-| [sec-company-events](https://fuyuki0.github.io/unlimitedpipe-feeds/sec-company-events.xml) | Bankruptcies, completed acquisitions, layoffs, delistings, auditor changes and restatements from SEC 8-K filings |
-| [sec-ipo-filings](https://fuyuki0.github.io/unlimitedpipe-feeds/sec-ipo-filings.xml) | Companies filing to go public in the US (SEC S-1 and F-1) |
-| [lobbying-big-spenders](https://fuyuki0.github.io/unlimitedpipe-feeds/lobbying-big-spenders.xml) | US lobbying reports of $1 million or more, as filed with Congress |
-| [sanctions-actions](https://fuyuki0.github.io/unlimitedpipe-feeds/sanctions-actions.xml) | New US sanctions actions from the Treasury (OFAC): designations, removals, licenses |
-| [us-new-rules](https://fuyuki0.github.io/unlimitedpipe-feeds/us-new-rules.xml) | Significant new US federal rules from the Federal Register |
-| [central-banks](https://fuyuki0.github.io/unlimitedpipe-feeds/central-banks.xml) | Press releases of the Fed, ECB, Bank of Japan, Bank of England and Reserve Bank of India, without routine operations |
-| [world-leaders](https://fuyuki0.github.io/unlimitedpipe-feeds/world-leaders.xml) | Official announcements of the White House, the Kremlin and the European Commission |
-| [usd-rates](https://fuyuki0.github.io/unlimitedpipe-feeds/usd-rates.xml) | The US dollar against the baht, yen, yuan, rupee and euro, daily (ECB reference rates) |
+| [sec-company-events](https://feeds.daemonfill.dev/sec-company-events.xml) | Bankruptcies, completed acquisitions, layoffs, delistings, auditor changes and restatements from SEC 8-K filings |
+| [sec-ipo-filings](https://feeds.daemonfill.dev/sec-ipo-filings.xml) | Companies filing to go public in the US (SEC S-1 and F-1) |
+| [lobbying-big-spenders](https://feeds.daemonfill.dev/lobbying-big-spenders.xml) | US lobbying reports of $1 million or more, as filed with Congress |
+| [sanctions-actions](https://feeds.daemonfill.dev/sanctions-actions.xml) | New US sanctions actions from the Treasury (OFAC): designations, removals, licenses |
+| [us-new-rules](https://feeds.daemonfill.dev/us-new-rules.xml) | Significant new US federal rules from the Federal Register |
+| [central-banks](https://feeds.daemonfill.dev/central-banks.xml) | Press releases of the Fed, ECB, Bank of Japan, Bank of England and Reserve Bank of India, without routine operations |
+| [world-leaders](https://feeds.daemonfill.dev/world-leaders.xml) | Official announcements of the White House, the Kremlin and the European Commission |
+| [usd-rates](https://feeds.daemonfill.dev/usd-rates.xml) | The US dollar against the baht, yen, yuan, rupee and euro, daily (ECB reference rates) |
 
 ### Crypto
 
@@ -58,10 +58,10 @@ Data, not investment advice.
 
 | Feed | What it follows |
 | --- | --- |
-| [exchange-listings](https://fuyuki0.github.io/unlimitedpipe-feeds/exchange-listings.xml) | New and removed trading pairs on Coinbase, Binance, OKX and Upbit, from each exchange's official market list |
-| [crypto-hacks](https://fuyuki0.github.io/unlimitedpipe-feeds/crypto-hacks.xml) | Hacks and exploits with the amount lost and how it happened (DefiLlama) |
-| [crypto-releases](https://fuyuki0.github.io/unlimitedpipe-feeds/crypto-releases.xml) | Stable releases of Bitcoin Core, lnd, Geth, Lighthouse and Solana's Agave |
-| [crypto-news](https://fuyuki0.github.io/unlimitedpipe-feeds/crypto-news.xml) | CoinDesk, Cointelegraph and Decrypt, merged |
+| [exchange-listings](https://feeds.daemonfill.dev/exchange-listings.xml) | New and removed trading pairs on Coinbase, Binance, OKX and Upbit, from each exchange's official market list |
+| [crypto-hacks](https://feeds.daemonfill.dev/crypto-hacks.xml) | Hacks and exploits with the amount lost and how it happened (DefiLlama) |
+| [crypto-releases](https://feeds.daemonfill.dev/crypto-releases.xml) | Stable releases of Bitcoin Core, lnd, Geth, Lighthouse and Solana's Agave |
+| [crypto-news](https://feeds.daemonfill.dev/crypto-news.xml) | CoinDesk, Cointelegraph and Decrypt, merged |
 
 ### Countries
 
@@ -69,29 +69,29 @@ Each feed labels items by outlet; state media is marked as such.
 
 | Feed | What it follows |
 | --- | --- |
-| [thailand-news](https://fuyuki0.github.io/unlimitedpipe-feeds/thailand-news.xml) | Thailand news in English (Khaosod English, Thai Enquirer) |
-| [thailand-news-th](https://fuyuki0.github.io/unlimitedpipe-feeds/thailand-news-th.xml) | ข่าวไทย: Thai-language news from Matichon and Prachachat |
-| [japan-news](https://fuyuki0.github.io/unlimitedpipe-feeds/japan-news.xml) | The Japan Times, The Mainichi and Japan Today |
-| [china-news](https://fuyuki0.github.io/unlimitedpipe-feeds/china-news.xml) | South China Morning Post and CGTN (Chinese state media) |
-| [russia-news](https://fuyuki0.github.io/unlimitedpipe-feeds/russia-news.xml) | TASS (Russian state media), Meduza and The Moscow Times |
-| [india-news](https://fuyuki0.github.io/unlimitedpipe-feeds/india-news.xml) | The Hindu and NDTV |
-| [europe-news](https://fuyuki0.github.io/unlimitedpipe-feeds/europe-news.xml) | POLITICO Europe and Euronews |
-| [us-news](https://fuyuki0.github.io/unlimitedpipe-feeds/us-news.xml) | NPR politics and PBS NewsHour |
+| [thailand-news](https://feeds.daemonfill.dev/thailand-news.xml) | Thailand news in English (Khaosod English, Thai Enquirer) |
+| [thailand-news-th](https://feeds.daemonfill.dev/thailand-news-th.xml) | ข่าวไทย: Thai-language news from Matichon and Prachachat |
+| [japan-news](https://feeds.daemonfill.dev/japan-news.xml) | The Japan Times, The Mainichi and Japan Today |
+| [china-news](https://feeds.daemonfill.dev/china-news.xml) | South China Morning Post and CGTN (Chinese state media) |
+| [russia-news](https://feeds.daemonfill.dev/russia-news.xml) | TASS (Russian state media), Meduza and The Moscow Times |
+| [india-news](https://feeds.daemonfill.dev/india-news.xml) | The Hindu and NDTV |
+| [europe-news](https://feeds.daemonfill.dev/europe-news.xml) | POLITICO Europe and Euronews |
+| [us-news](https://feeds.daemonfill.dev/us-news.xml) | NPR politics and PBS NewsHour |
 
 ### News
 
 | Feed | What it follows |
 | --- | --- |
-| [world-headlines](https://fuyuki0.github.io/unlimitedpipe-feeds/world-headlines.xml) | BBC, NPR and Al Jazeera headlines, merged |
-| [climate-news](https://fuyuki0.github.io/unlimitedpipe-feeds/climate-news.xml) | Climate and energy stories |
+| [world-headlines](https://feeds.daemonfill.dev/world-headlines.xml) | BBC, NPR and Al Jazeera headlines, merged |
+| [climate-news](https://feeds.daemonfill.dev/climate-news.xml) | Climate and energy stories |
 
 ### Science and space
 
 | Feed | What it follows |
 | --- | --- |
-| [earthquakes](https://fuyuki0.github.io/unlimitedpipe-feeds/earthquakes.xml) | Significant earthquakes worldwide (USGS) |
-| [space-launches](https://fuyuki0.github.io/unlimitedpipe-feeds/space-launches.xml) | Rocket launches worldwide as soon as they are scheduled (Launch Library 2) |
-| [nasa-image](https://fuyuki0.github.io/unlimitedpipe-feeds/nasa-image.xml) | NASA Image of the Day |
+| [earthquakes](https://feeds.daemonfill.dev/earthquakes.xml) | Significant earthquakes worldwide (USGS) |
+| [space-launches](https://feeds.daemonfill.dev/space-launches.xml) | Rocket launches worldwide as soon as they are scheduled (Launch Library 2) |
+| [nasa-image](https://feeds.daemonfill.dev/nasa-image.xml) | NASA Image of the Day |
 
 ## How it works
 
