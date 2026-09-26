@@ -9,7 +9,7 @@ operators:
     fields: [client=client.name, registrant=registrant.name, amount=income|expenses, period=filing_period_display, year=filing_year, kind=filing_type_display, link=filing_document_url, published_at=dt_posted, filing_uuid]
   - type: map
     assign:
-      - 'title=client + ": $" + replace(amount, "^(\\d+)(\\d)\\d{5}\\.\\d\\d$", "\\1.\\2M") + " on lobbying, " + replace(period, " \\(.*\\)$", "") + " " + year'
+      - 'title=client + ": $" + short(amount) + " on lobbying, " + replace(period, " \\(.*\\)$", "") + " " + year'
       - 'summary=kind + " filed by " + registrant + "."'
   - {type: diff, key: filing_uuid, only: [added], emit_initial: true}
 outputs:

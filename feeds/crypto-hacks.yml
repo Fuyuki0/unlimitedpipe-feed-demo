@@ -8,7 +8,7 @@ operators:
   - {type: limit, count: 50}
   - type: map
     assign:
-      - 'lost=replace(replace("" + amount, "^(\\d+)(\\d)\\d{5}(\\.\\d+)?$", "$\\1.\\2M"), "^(\\d+)\\d{3}(\\.\\d+)?$", "$\\1K")'
+      - 'lost="$" + short(amount)'
       - 'title=name + ": " + lost + " lost (" + lower(classification) + ")"'
       - 'untold=name + ": hacked, amount not disclosed (" + lower(classification) + ")"'
       - 'summary=technique + ". Target: " + targetType + "."'

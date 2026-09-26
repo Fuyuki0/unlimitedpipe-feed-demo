@@ -1,0 +1,16 @@
+name: insider-trades
+description: Insider purchases and sales worth $100K or more at US public companies, as they are filed with the SEC (Form 4) - who, their role, shares, price and total value.
+sources:
+  - type: sec
+    resource: insider-trades
+    contact: ${SEC_CONTACT}   # the SEC asks automated readers for a contact email
+    min_value: 100000
+    limit: 150
+operators:
+  - type: map
+    assign:
+      - 'summary="Traded " + traded_on + "." + replace(replace("" + planned, "(?i)^true$", " A pre-planned trade (Rule 10b5-1)."), "(?i)^false$", "")'
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/insider-trades.xml, title: "Insider trades, $100K+ (SEC Form 4)", link: "https://www.sec.gov/edgar/search/"}
+  - {type: feed, path: ../public/insider-trades.json, title: "Insider trades, $100K+ (SEC Form 4)", link: "https://www.sec.gov/edgar/search/"}

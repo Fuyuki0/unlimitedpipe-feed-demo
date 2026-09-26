@@ -1,10 +1,13 @@
 # UnlimitedPipe feeds
 
-50 free feeds, updated every hour by a GitHub Actions workflow and served by GitHub Pages.
+52 free feeds, updated every hour by a GitHub Actions workflow and served by GitHub Pages.
 No server, no database, no account. Each feed is one short YAML file, built with
 [UnlimitedPipe](https://pypi.org/project/unlimitedpipe/).
 
 **Browse and subscribe: https://feeds.daemonfill.dev/**
+
+Search them all at once: `pip install unlimitedpipe`, then `unlimited search "cyber attack"`.
+[`feeds.json`](https://feeds.daemonfill.dev/feeds.json) lists every feed with its latest items.
 
 Paste any `.xml` link into a feed reader. Every feed also exists as a JSON Feed (same name,
 `.json`) that carries full UnlimitedPipe events with provenance, so other pipelines can build
@@ -45,6 +48,7 @@ on it: `unlimited rss https://feeds.daemonfill.dev/ai-news.json`.
 
 | Feed | What it follows |
 | --- | --- |
+| [insider-trades](https://feeds.daemonfill.dev/insider-trades.xml) | Insider purchases and sales worth $100K+ from SEC Form 4 filings: who, role, shares, price, value |
 | [sec-company-events](https://feeds.daemonfill.dev/sec-company-events.xml) | Bankruptcies, completed acquisitions, layoffs, delistings, auditor changes and restatements from SEC 8-K filings |
 | [sec-ipo-filings](https://feeds.daemonfill.dev/sec-ipo-filings.xml) | Companies filing to go public in the US (SEC S-1 and F-1) |
 | [lobbying-big-spenders](https://feeds.daemonfill.dev/lobbying-big-spenders.xml) | US lobbying reports of $1 million or more, as filed with Congress |
@@ -62,6 +66,7 @@ Data, not investment advice.
 | --- | --- |
 | [exchange-listings](https://feeds.daemonfill.dev/exchange-listings.xml) | New and removed trading pairs on Coinbase, Binance, OKX and Upbit, from each exchange's official market list |
 | [crypto-hacks](https://feeds.daemonfill.dev/crypto-hacks.xml) | Hacks and exploits with the amount lost and how it happened (DefiLlama) |
+| [stablecoin-supply](https://feeds.daemonfill.dev/stablecoin-supply.xml) | Daily moves of $100M+ in the supply of the largest stablecoins (DefiLlama) |
 | [crypto-releases](https://feeds.daemonfill.dev/crypto-releases.xml) | Stable releases of Bitcoin Core, lnd, Geth, Lighthouse and Solana's Agave |
 | [crypto-news](https://feeds.daemonfill.dev/crypto-news.xml) | CoinDesk, Cointelegraph and Decrypt, merged |
 

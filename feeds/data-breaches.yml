@@ -9,7 +9,7 @@ operators:
   - {type: limit, count: 30}
   - type: map
     assign:
-      - 'accounts=replace(replace("" + PwnCount, "^(\\d+)(\\d)\\d{5}$", "\\1.\\2M"), "^(\\d+)\\d{3}$", "\\1K")'
+      - 'accounts=short(PwnCount)'
       - 'title=Title + ": " + accounts + " accounts breached"'
       - 'summary=replace(Description, "<[^>]+>", "")'
       - "published_at=AddedDate"
