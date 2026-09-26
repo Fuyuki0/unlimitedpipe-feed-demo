@@ -9,6 +9,109 @@
   },
   "items": [
     {
+      "id": "abdcd47c33f892373671",
+      "title": "CNA (Singapore): Munich picked as Germany’s candidate to host Summer Games",
+      "content_text": "Munich beats Cologne/Rhine-Ruhr to become Germany’s Olympic candidate for the 2036, 2040 or 2044 Summer Games.",
+      "date_published": "2026-09-26T17:32:57Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "abdcd47c33f892373671",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.channelnewsasia.com/sport/munich-germanys-candidate-host-games-6412756",
+          "source_url": "https://www.channelnewsasia.com/rssfeeds/8395986",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:38:17Z",
+          "data": {
+            "change": "added",
+            "label": "CNA (Singapore): Munich picked as Germany’s candidate to host Summer Games",
+            "item_type": "entry",
+            "summary": "added: CNA (Singapore): Munich picked as Germany’s candidate to host Summer Games",
+            "after": {
+              "title": "CNA (Singapore): Munich picked as Germany’s candidate to host Summer Games",
+              "link": "https://www.channelnewsasia.com/sport/munich-germanys-candidate-host-games-6412756",
+              "id": "https://www.channelnewsasia.com/sport/munich-germanys-candidate-host-games-6412756",
+              "author": null,
+              "published_at": "2026-09-26T17:32:57Z",
+              "updated_at": "2026-09-26T17:32:57Z",
+              "summary": "Munich beats Cologne/Rhine-Ruhr to become Germany’s Olympic candidate for the 2036, 2040 or 2044 Summer Games.",
+              "categories": [
+                "Sport"
+              ],
+              "feed": {
+                "title": "Latest News",
+                "url": "https://www.channelnewsasia.com/",
+                "feed_url": "https://www.channelnewsasia.com/rssfeeds/8395986"
+              },
+              "outlet": "CNA (Singapore)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml",
+            "elapsed_ms": 177,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^vnexpress\\\\.net$\", \"VnExpress (Vietnam)\")",
+                  "outlet=replace(outlet, \"^rappler\\\\.com$\", \"Rappler (Philippines)\")",
+                  "outlet=replace(outlet, \"^channelnewsasia\\\\.com$\", \"CNA (Singapore)\")",
+                  "outlet=replace(outlet, \"^antaranews\\\\.com$\", \"Antara (Indonesia)\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "southeast-asia-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.channelnewsasia.com/sport/munich-germanys-candidate-host-games-6412756",
+      "tags": [
+        "Sport"
+      ]
+    },
+    {
       "id": "2e9d00c5e2a18ec9f224",
       "title": "CNA (Singapore): China pushes back against US on Iran and Cuba in UN speech",
       "content_text": "Respect for Gulf sovereignty and an end to pressure on Cuba dominate China’s UN speech, as Vice President Han Zheng pushes back without naming the US.",

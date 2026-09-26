@@ -1,13 +1,781 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "India news (The Hindu, NDTV)",
-  "home_page_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+  "home_page_url": "https://feeds.feedburner.com/ndtvnews-top-stories",
   "description": "Events collected by UnlimitedPipe 0.9.1",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
     "generator": "UnlimitedPipe 0.9.1"
   },
   "items": [
+    {
+      "id": "1add6bd6c07cd6841e4f",
+      "title": "NDTV: 'Bigg Boss' Contestant Hits Pune Doctor With Sticks, Utensils To Extort Money",
+      "content_text": "A complaint has been registered against Divya Shinde.",
+      "date_published": "2026-09-26T17:17:49Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "1add6bd6c07cd6841e4f",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.ndtv.com/india-news/bigg-boss-contestant-assaults-doctor-leaves-him-bleeding-for-rs-5-lakh-12102687#publisher=newsstand",
+          "source_url": "https://feeds.feedburner.com/ndtvnews-top-stories",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:35:48Z",
+          "data": {
+            "change": "added",
+            "label": "NDTV: 'Bigg Boss' Contestant Hits Pune Doctor With Sticks, Utensils To Extort Money",
+            "item_type": "entry",
+            "summary": "added: NDTV: 'Bigg Boss' Contestant Hits Pune Doctor With Sticks, Utensils To Extort Money",
+            "after": {
+              "title": "NDTV: 'Bigg Boss' Contestant Hits Pune Doctor With Sticks, Utensils To Extort Money",
+              "link": "https://www.ndtv.com/india-news/bigg-boss-contestant-assaults-doctor-leaves-him-bleeding-for-rs-5-lakh-12102687#publisher=newsstand",
+              "id": "https://www.ndtv.com/india-news/bigg-boss-contestant-assaults-doctor-leaves-him-bleeding-for-rs-5-lakh-12102687#publisher=newsstand",
+              "author": null,
+              "published_at": "2026-09-26T17:17:49Z",
+              "updated_at": "2026-09-26T17:17:49Z",
+              "summary": "A complaint has been registered against Divya Shinde.",
+              "categories": [],
+              "feed": {
+                "title": "NDTV News Search Records Found 1000",
+                "url": "https://www.ndtv.com/",
+                "feed_url": "https://feeds.feedburner.com/ndtvnews-top-stories"
+              },
+              "outlet": "NDTV"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.feedburner.com/ndtvnews-top-stories",
+            "elapsed_ms": 287,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.ndtv.com/india-news/bigg-boss-contestant-assaults-doctor-leaves-him-bleeding-for-rs-5-lakh-12102687#publisher=newsstand"
+    },
+    {
+      "id": "0d334b882c2a9d2aaf55",
+      "title": "NDTV: \"Thank You, Uncle\": Kidnappers On Getting Rs 50 Lakh Ransom For Businessman",
+      "content_text": "Police formed 10 teams and began tracking the accused using CCTV footage.",
+      "date_published": "2026-09-26T17:11:14Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "0d334b882c2a9d2aaf55",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.ndtv.com/india-news/thank-you-uncle-kidnappers-on-getting-rs-50-lakh-ransom-for-businessman-12102937#publisher=newsstand",
+          "source_url": "https://feeds.feedburner.com/ndtvnews-top-stories",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:35:48Z",
+          "data": {
+            "change": "added",
+            "label": "NDTV: \"Thank You, Uncle\": Kidnappers On Getting Rs 50 Lakh Ransom For Businessman",
+            "item_type": "entry",
+            "summary": "added: NDTV: \"Thank You, Uncle\": Kidnappers On Getting Rs 50 Lakh Ransom For Businessman",
+            "after": {
+              "title": "NDTV: \"Thank You, Uncle\": Kidnappers On Getting Rs 50 Lakh Ransom For Businessman",
+              "link": "https://www.ndtv.com/india-news/thank-you-uncle-kidnappers-on-getting-rs-50-lakh-ransom-for-businessman-12102937#publisher=newsstand",
+              "id": "https://www.ndtv.com/india-news/thank-you-uncle-kidnappers-on-getting-rs-50-lakh-ransom-for-businessman-12102937#publisher=newsstand",
+              "author": null,
+              "published_at": "2026-09-26T17:11:14Z",
+              "updated_at": "2026-09-26T17:11:14Z",
+              "summary": "Police formed 10 teams and began tracking the accused using CCTV footage.",
+              "categories": [],
+              "feed": {
+                "title": "NDTV News Search Records Found 1000",
+                "url": "https://www.ndtv.com/",
+                "feed_url": "https://feeds.feedburner.com/ndtvnews-top-stories"
+              },
+              "outlet": "NDTV"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.feedburner.com/ndtvnews-top-stories",
+            "elapsed_ms": 287,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.ndtv.com/india-news/thank-you-uncle-kidnappers-on-getting-rs-50-lakh-ransom-for-businessman-12102937#publisher=newsstand"
+    },
+    {
+      "id": "fedf895c5f8a31f4112e",
+      "title": "NDTV: When Two Akali Dals Faced Off At A Fair: Panthic Politics Dominates Chhapar Mela",
+      "content_text": "Sukhbir Badal slammed Manpreet Ayali, a senior MLA who left his party for Amritpal's.",
+      "date_published": "2026-09-26T16:43:02Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "fedf895c5f8a31f4112e",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.ndtv.com/india-news/chhapar-becomes-ground-zero-for-punjabs-panthic-vote-battle-12102704#publisher=newsstand",
+          "source_url": "https://feeds.feedburner.com/ndtvnews-top-stories",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:35:48Z",
+          "data": {
+            "change": "added",
+            "label": "NDTV: When Two Akali Dals Faced Off At A Fair: Panthic Politics Dominates Chhapar Mela",
+            "item_type": "entry",
+            "summary": "added: NDTV: When Two Akali Dals Faced Off At A Fair: Panthic Politics Dominates Chhapar Mela",
+            "after": {
+              "title": "NDTV: When Two Akali Dals Faced Off At A Fair: Panthic Politics Dominates Chhapar Mela",
+              "link": "https://www.ndtv.com/india-news/chhapar-becomes-ground-zero-for-punjabs-panthic-vote-battle-12102704#publisher=newsstand",
+              "id": "https://www.ndtv.com/india-news/chhapar-becomes-ground-zero-for-punjabs-panthic-vote-battle-12102704#publisher=newsstand",
+              "author": null,
+              "published_at": "2026-09-26T16:43:02Z",
+              "updated_at": "2026-09-26T16:43:02Z",
+              "summary": "Sukhbir Badal slammed Manpreet Ayali, a senior MLA who left his party for Amritpal's.",
+              "categories": [],
+              "feed": {
+                "title": "NDTV News Search Records Found 1000",
+                "url": "https://www.ndtv.com/",
+                "feed_url": "https://feeds.feedburner.com/ndtvnews-top-stories"
+              },
+              "outlet": "NDTV"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.feedburner.com/ndtvnews-top-stories",
+            "elapsed_ms": 287,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.ndtv.com/india-news/chhapar-becomes-ground-zero-for-punjabs-panthic-vote-battle-12102704#publisher=newsstand"
+    },
+    {
+      "id": "bb845d3a448240705ecf",
+      "title": "NDTV: Netanyahu Says October 7 Attack On Israel Is Like 9/11 Happening 16 Times",
+      "content_text": "Netanyahu sought to put the scale of the attack into perspective for an American audience",
+      "date_published": "2026-09-26T16:29:39Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "bb845d3a448240705ecf",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.ndtv.com/world-news/benjamin-netanyahu-says-october-7-attack-on-israel-is-like-9-11-happening-16-times-12102806#publisher=newsstand",
+          "source_url": "https://feeds.feedburner.com/ndtvnews-top-stories",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:35:48Z",
+          "data": {
+            "change": "added",
+            "label": "NDTV: Netanyahu Says October 7 Attack On Israel Is Like 9/11 Happening 16 Times",
+            "item_type": "entry",
+            "summary": "added: NDTV: Netanyahu Says October 7 Attack On Israel Is Like 9/11 Happening 16 Times",
+            "after": {
+              "title": "NDTV: Netanyahu Says October 7 Attack On Israel Is Like 9/11 Happening 16 Times",
+              "link": "https://www.ndtv.com/world-news/benjamin-netanyahu-says-october-7-attack-on-israel-is-like-9-11-happening-16-times-12102806#publisher=newsstand",
+              "id": "https://www.ndtv.com/world-news/benjamin-netanyahu-says-october-7-attack-on-israel-is-like-9-11-happening-16-times-12102806#publisher=newsstand",
+              "author": null,
+              "published_at": "2026-09-26T16:29:39Z",
+              "updated_at": "2026-09-26T16:29:39Z",
+              "summary": "Netanyahu sought to put the scale of the attack into perspective for an American audience",
+              "categories": [],
+              "feed": {
+                "title": "NDTV News Search Records Found 1000",
+                "url": "https://www.ndtv.com/",
+                "feed_url": "https://feeds.feedburner.com/ndtvnews-top-stories"
+              },
+              "outlet": "NDTV"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.feedburner.com/ndtvnews-top-stories",
+            "elapsed_ms": 287,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.ndtv.com/world-news/benjamin-netanyahu-says-october-7-attack-on-israel-is-like-9-11-happening-16-times-12102806#publisher=newsstand"
+    },
+    {
+      "id": "4c67054f523e66086832",
+      "title": "NDTV: 'They're Losing So Badly': Trump Rejects Iran Proposal To Open Hormuz",
+      "content_text": "The waterway is key to the world's energy supply",
+      "date_published": "2026-09-26T16:20:40Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "4c67054f523e66086832",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.ndtv.com/world-news/us-iran-war-theyre-losing-so-badly-donald-trump-rejects-iran-proposal-to-open-hormuz-12102783#publisher=newsstand",
+          "source_url": "https://feeds.feedburner.com/ndtvnews-top-stories",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:35:48Z",
+          "data": {
+            "change": "added",
+            "label": "NDTV: 'They're Losing So Badly': Trump Rejects Iran Proposal To Open Hormuz",
+            "item_type": "entry",
+            "summary": "added: NDTV: 'They're Losing So Badly': Trump Rejects Iran Proposal To Open Hormuz",
+            "after": {
+              "title": "NDTV: 'They're Losing So Badly': Trump Rejects Iran Proposal To Open Hormuz",
+              "link": "https://www.ndtv.com/world-news/us-iran-war-theyre-losing-so-badly-donald-trump-rejects-iran-proposal-to-open-hormuz-12102783#publisher=newsstand",
+              "id": "https://www.ndtv.com/world-news/us-iran-war-theyre-losing-so-badly-donald-trump-rejects-iran-proposal-to-open-hormuz-12102783#publisher=newsstand",
+              "author": null,
+              "published_at": "2026-09-26T16:20:40Z",
+              "updated_at": "2026-09-26T16:20:40Z",
+              "summary": "The waterway is key to the world's energy supply",
+              "categories": [],
+              "feed": {
+                "title": "NDTV News Search Records Found 1000",
+                "url": "https://www.ndtv.com/",
+                "feed_url": "https://feeds.feedburner.com/ndtvnews-top-stories"
+              },
+              "outlet": "NDTV"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.feedburner.com/ndtvnews-top-stories",
+            "elapsed_ms": 287,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.ndtv.com/world-news/us-iran-war-theyre-losing-so-badly-donald-trump-rejects-iran-proposal-to-open-hormuz-12102783#publisher=newsstand"
+    },
+    {
+      "id": "ed80ef4ad6dddc07e9f1",
+      "title": "NDTV: 'Your Guidance Gives Me Renewed Energy': Yogi Adityanath Meets PM Modi",
+      "content_text": "The meeting was described by officials as a courtesy call.",
+      "date_published": "2026-09-26T16:20:07Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ed80ef4ad6dddc07e9f1",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.ndtv.com/india-news/your-guidance-gives-me-renewed-energy-yogi-adityanath-meets-pm-modi-12102781#publisher=newsstand",
+          "source_url": "https://feeds.feedburner.com/ndtvnews-top-stories",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:35:48Z",
+          "data": {
+            "change": "added",
+            "label": "NDTV: 'Your Guidance Gives Me Renewed Energy': Yogi Adityanath Meets PM Modi",
+            "item_type": "entry",
+            "summary": "added: NDTV: 'Your Guidance Gives Me Renewed Energy': Yogi Adityanath Meets PM Modi",
+            "after": {
+              "title": "NDTV: 'Your Guidance Gives Me Renewed Energy': Yogi Adityanath Meets PM Modi",
+              "link": "https://www.ndtv.com/india-news/your-guidance-gives-me-renewed-energy-yogi-adityanath-meets-pm-modi-12102781#publisher=newsstand",
+              "id": "https://www.ndtv.com/india-news/your-guidance-gives-me-renewed-energy-yogi-adityanath-meets-pm-modi-12102781#publisher=newsstand",
+              "author": null,
+              "published_at": "2026-09-26T16:20:07Z",
+              "updated_at": "2026-09-26T16:20:07Z",
+              "summary": "The meeting was described by officials as a courtesy call.",
+              "categories": [],
+              "feed": {
+                "title": "NDTV News Search Records Found 1000",
+                "url": "https://www.ndtv.com/",
+                "feed_url": "https://feeds.feedburner.com/ndtvnews-top-stories"
+              },
+              "outlet": "NDTV"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.feedburner.com/ndtvnews-top-stories",
+            "elapsed_ms": 287,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.ndtv.com/india-news/your-guidance-gives-me-renewed-energy-yogi-adityanath-meets-pm-modi-12102781#publisher=newsstand"
+    },
+    {
+      "id": "e03ee6803a6112f9be28",
+      "title": "NDTV: Drunk Driver Rams SUV Into Parked Vehicles, Injures Dog In Delhi's CR Park",
+      "content_text": "Proceedings under Section 185 of the Motor Vehicles Act were initiated.",
+      "date_published": "2026-09-26T16:05:10Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "e03ee6803a6112f9be28",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.ndtv.com/india-news/drunk-driver-rams-suv-into-parked-vehicles-injures-dog-in-delhis-cr-park-12102721#publisher=newsstand",
+          "source_url": "https://feeds.feedburner.com/ndtvnews-top-stories",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:35:48Z",
+          "data": {
+            "change": "added",
+            "label": "NDTV: Drunk Driver Rams SUV Into Parked Vehicles, Injures Dog In Delhi's CR Park",
+            "item_type": "entry",
+            "summary": "added: NDTV: Drunk Driver Rams SUV Into Parked Vehicles, Injures Dog In Delhi's CR Park",
+            "after": {
+              "title": "NDTV: Drunk Driver Rams SUV Into Parked Vehicles, Injures Dog In Delhi's CR Park",
+              "link": "https://www.ndtv.com/india-news/drunk-driver-rams-suv-into-parked-vehicles-injures-dog-in-delhis-cr-park-12102721#publisher=newsstand",
+              "id": "https://www.ndtv.com/india-news/drunk-driver-rams-suv-into-parked-vehicles-injures-dog-in-delhis-cr-park-12102721#publisher=newsstand",
+              "author": null,
+              "published_at": "2026-09-26T16:05:10Z",
+              "updated_at": "2026-09-26T16:05:10Z",
+              "summary": "Proceedings under Section 185 of the Motor Vehicles Act were initiated.",
+              "categories": [],
+              "feed": {
+                "title": "NDTV News Search Records Found 1000",
+                "url": "https://www.ndtv.com/",
+                "feed_url": "https://feeds.feedburner.com/ndtvnews-top-stories"
+              },
+              "outlet": "NDTV"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.feedburner.com/ndtvnews-top-stories",
+            "elapsed_ms": 287,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.ndtv.com/india-news/drunk-driver-rams-suv-into-parked-vehicles-injures-dog-in-delhis-cr-park-12102721#publisher=newsstand"
+    },
+    {
+      "id": "2896539d71a36d29d4db",
+      "title": "NDTV: 4 Killed, 5 Injured As Container With Gelatin Sticks Explodes In Maharashtra",
+      "content_text": "The incident occurred in Maharashtra's Yavatmal district.",
+      "date_published": "2026-09-26T15:55:06Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "2896539d71a36d29d4db",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.ndtv.com/india-news/4-killed-5-injured-as-container-with-gelatin-sticks-explodes-in-maharashtra-12102690#publisher=newsstand",
+          "source_url": "https://feeds.feedburner.com/ndtvnews-top-stories",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:35:48Z",
+          "data": {
+            "change": "added",
+            "label": "NDTV: 4 Killed, 5 Injured As Container With Gelatin Sticks Explodes In Maharashtra",
+            "item_type": "entry",
+            "summary": "added: NDTV: 4 Killed, 5 Injured As Container With Gelatin Sticks Explodes In Maharashtra",
+            "after": {
+              "title": "NDTV: 4 Killed, 5 Injured As Container With Gelatin Sticks Explodes In Maharashtra",
+              "link": "https://www.ndtv.com/india-news/4-killed-5-injured-as-container-with-gelatin-sticks-explodes-in-maharashtra-12102690#publisher=newsstand",
+              "id": "https://www.ndtv.com/india-news/4-killed-5-injured-as-container-with-gelatin-sticks-explodes-in-maharashtra-12102690#publisher=newsstand",
+              "author": null,
+              "published_at": "2026-09-26T15:55:06Z",
+              "updated_at": "2026-09-26T15:55:06Z",
+              "summary": "The incident occurred in Maharashtra's Yavatmal district.",
+              "categories": [],
+              "feed": {
+                "title": "NDTV News Search Records Found 1000",
+                "url": "https://www.ndtv.com/",
+                "feed_url": "https://feeds.feedburner.com/ndtvnews-top-stories"
+              },
+              "outlet": "NDTV"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.feedburner.com/ndtvnews-top-stories",
+            "elapsed_ms": 287,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.ndtv.com/india-news/4-killed-5-injured-as-container-with-gelatin-sticks-explodes-in-maharashtra-12102690#publisher=newsstand"
+    },
     {
       "id": "bdb0e0d040e0d508080a",
       "title": "The Hindu: It's not BRICS or UN, BRICS is supportive of UN: Jaishankar",
@@ -14189,794 +14957,6 @@
         }
       },
       "url": "https://www.ndtv.com/india-news/bihar-man-poses-as-cop-fines-passenger-for-smoking-throws-him-off-train-12100917#publisher=newsstand"
-    },
-    {
-      "id": "9cc3898429fc2f20217a",
-      "title": "NDTV: Man, 22, Arrested For Raping Chennai Teen After Befriending Her On Instagram",
-      "content_text": "The girl suffered excessive bleeding following the alleged assault and is currently undergoing treatment.",
-      "date_published": "2026-09-26T07:40:08Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "9cc3898429fc2f20217a",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.ndtv.com/chennai-news/man-22-arrested-for-raping-chennai-teen-after-befriending-her-on-instagram-12100610#publisher=newsstand",
-          "source_url": "https://feeds.feedburner.com/ndtvnews-top-stories",
-          "timestamp": null,
-          "observed_at": "2026-09-26T12:12:59Z",
-          "data": {
-            "change": "added",
-            "label": "NDTV: Man, 22, Arrested For Raping Chennai Teen After Befriending Her On Instagram",
-            "item_type": "entry",
-            "summary": "added: NDTV: Man, 22, Arrested For Raping Chennai Teen After Befriending Her On Instagram",
-            "after": {
-              "title": "NDTV: Man, 22, Arrested For Raping Chennai Teen After Befriending Her On Instagram",
-              "link": "https://www.ndtv.com/chennai-news/man-22-arrested-for-raping-chennai-teen-after-befriending-her-on-instagram-12100610#publisher=newsstand",
-              "id": "https://www.ndtv.com/chennai-news/man-22-arrested-for-raping-chennai-teen-after-befriending-her-on-instagram-12100610#publisher=newsstand",
-              "author": null,
-              "published_at": "2026-09-26T07:40:08Z",
-              "updated_at": "2026-09-26T07:40:08Z",
-              "summary": "The girl suffered excessive bleeding following the alleged assault and is currently undergoing treatment.",
-              "categories": [],
-              "feed": {
-                "title": "NDTV News Search Records Found 1000",
-                "url": "https://www.ndtv.com/",
-                "feed_url": "https://feeds.feedburner.com/ndtvnews-top-stories"
-              },
-              "outlet": "NDTV"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.feedburner.com/ndtvnews-top-stories",
-            "elapsed_ms": 281,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.8.0"
-            },
-            {
-              "step": "map",
-              "version": "0.8.0",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
-                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.8.0",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.8.0",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.8.0",
-              "args": {
-                "namespace": "india-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.ndtv.com/chennai-news/man-22-arrested-for-raping-chennai-teen-after-befriending-her-on-instagram-12100610#publisher=newsstand"
-    },
-    {
-      "id": "a8bf1bc56ef10d1ffd51",
-      "title": "NDTV: Chandigarh Cop Shot Dead By Teen Son Had Told Him To Wait Till 21 To Marry Lover",
-      "content_text": "Armaan was putting pressure on his parents to marry his girlfriend",
-      "date_published": "2026-09-26T07:16:13Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "a8bf1bc56ef10d1ffd51",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.ndtv.com/chandigarh-news/chandigarh-cop-shot-dead-by-teen-son-had-told-him-to-wait-till-21-to-marry-lover-12100905#publisher=newsstand",
-          "source_url": "https://feeds.feedburner.com/ndtvnews-top-stories",
-          "timestamp": null,
-          "observed_at": "2026-09-26T12:12:59Z",
-          "data": {
-            "change": "added",
-            "label": "NDTV: Chandigarh Cop Shot Dead By Teen Son Had Told Him To Wait Till 21 To Marry Lover",
-            "item_type": "entry",
-            "summary": "added: NDTV: Chandigarh Cop Shot Dead By Teen Son Had Told Him To Wait Till 21 To Marry Lover",
-            "after": {
-              "title": "NDTV: Chandigarh Cop Shot Dead By Teen Son Had Told Him To Wait Till 21 To Marry Lover",
-              "link": "https://www.ndtv.com/chandigarh-news/chandigarh-cop-shot-dead-by-teen-son-had-told-him-to-wait-till-21-to-marry-lover-12100905#publisher=newsstand",
-              "id": "https://www.ndtv.com/chandigarh-news/chandigarh-cop-shot-dead-by-teen-son-had-told-him-to-wait-till-21-to-marry-lover-12100905#publisher=newsstand",
-              "author": null,
-              "published_at": "2026-09-26T07:16:13Z",
-              "updated_at": "2026-09-26T07:16:13Z",
-              "summary": "Armaan was putting pressure on his parents to marry his girlfriend",
-              "categories": [],
-              "feed": {
-                "title": "NDTV News Search Records Found 1000",
-                "url": "https://www.ndtv.com/",
-                "feed_url": "https://feeds.feedburner.com/ndtvnews-top-stories"
-              },
-              "outlet": "NDTV"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.feedburner.com/ndtvnews-top-stories",
-            "elapsed_ms": 281,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.8.0"
-            },
-            {
-              "step": "map",
-              "version": "0.8.0",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
-                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.8.0",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.8.0",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.8.0",
-              "args": {
-                "namespace": "india-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.ndtv.com/chandigarh-news/chandigarh-cop-shot-dead-by-teen-son-had-told-him-to-wait-till-21-to-marry-lover-12100905#publisher=newsstand"
-    },
-    {
-      "id": "dbe98ea1feec3ec2d659",
-      "title": "NDTV: Video: BMW Drifts On Gurugram Road In Front Of McLaren Supercars, Hunt On For Driver",
-      "content_text": "The incident is said to have occurred near a high-class society on Golf Course Road",
-      "date_published": "2026-09-26T06:42:09Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "dbe98ea1feec3ec2d659",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.ndtv.com/gurgaon-news/bmw-drifts-on-gurugram-road-in-front-of-mclaren-supercars-hunt-on-for-driver-12100730#publisher=newsstand",
-          "source_url": "https://feeds.feedburner.com/ndtvnews-top-stories",
-          "timestamp": null,
-          "observed_at": "2026-09-26T12:12:59Z",
-          "data": {
-            "change": "added",
-            "label": "NDTV: Video: BMW Drifts On Gurugram Road In Front Of McLaren Supercars, Hunt On For Driver",
-            "item_type": "entry",
-            "summary": "added: NDTV: Video: BMW Drifts On Gurugram Road In Front Of McLaren Supercars, Hunt On For Driver",
-            "after": {
-              "title": "NDTV: Video: BMW Drifts On Gurugram Road In Front Of McLaren Supercars, Hunt On For Driver",
-              "link": "https://www.ndtv.com/gurgaon-news/bmw-drifts-on-gurugram-road-in-front-of-mclaren-supercars-hunt-on-for-driver-12100730#publisher=newsstand",
-              "id": "https://www.ndtv.com/gurgaon-news/bmw-drifts-on-gurugram-road-in-front-of-mclaren-supercars-hunt-on-for-driver-12100730#publisher=newsstand",
-              "author": null,
-              "published_at": "2026-09-26T06:42:09Z",
-              "updated_at": "2026-09-26T06:42:09Z",
-              "summary": "The incident is said to have occurred near a high-class society on Golf Course Road",
-              "categories": [],
-              "feed": {
-                "title": "NDTV News Search Records Found 1000",
-                "url": "https://www.ndtv.com/",
-                "feed_url": "https://feeds.feedburner.com/ndtvnews-top-stories"
-              },
-              "outlet": "NDTV"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.feedburner.com/ndtvnews-top-stories",
-            "elapsed_ms": 281,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.8.0"
-            },
-            {
-              "step": "map",
-              "version": "0.8.0",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
-                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.8.0",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.8.0",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.8.0",
-              "args": {
-                "namespace": "india-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.ndtv.com/gurgaon-news/bmw-drifts-on-gurugram-road-in-front-of-mclaren-supercars-hunt-on-for-driver-12100730#publisher=newsstand"
-    },
-    {
-      "id": "dbaa56021388e662691a",
-      "title": "NDTV: 'No Basis': Ex-Attorney General Mukul Rohatgi To NDTV On Gyanesh Kumar Impeachment Move",
-      "content_text": "Gyanesh Kumar's decisions are not misconduct, says Mukul Rohatgi, former Attorney General of India.",
-      "date_published": "2026-09-26T06:33:58Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "dbaa56021388e662691a",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.ndtv.com/india-news/no-basis-ex-attorney-general-mukul-rohatgi-to-ndtv-on-gyanesh-kumar-impeachment-move-12099415#publisher=newsstand",
-          "source_url": "https://feeds.feedburner.com/ndtvnews-top-stories",
-          "timestamp": null,
-          "observed_at": "2026-09-26T12:12:59Z",
-          "data": {
-            "change": "added",
-            "label": "NDTV: 'No Basis': Ex-Attorney General Mukul Rohatgi To NDTV On Gyanesh Kumar Impeachment Move",
-            "item_type": "entry",
-            "summary": "added: NDTV: 'No Basis': Ex-Attorney General Mukul Rohatgi To NDTV On Gyanesh Kumar Impeachment Move",
-            "after": {
-              "title": "NDTV: 'No Basis': Ex-Attorney General Mukul Rohatgi To NDTV On Gyanesh Kumar Impeachment Move",
-              "link": "https://www.ndtv.com/india-news/no-basis-ex-attorney-general-mukul-rohatgi-to-ndtv-on-gyanesh-kumar-impeachment-move-12099415#publisher=newsstand",
-              "id": "https://www.ndtv.com/india-news/no-basis-ex-attorney-general-mukul-rohatgi-to-ndtv-on-gyanesh-kumar-impeachment-move-12099415#publisher=newsstand",
-              "author": null,
-              "published_at": "2026-09-26T06:33:58Z",
-              "updated_at": "2026-09-26T06:33:58Z",
-              "summary": "Gyanesh Kumar's decisions are not misconduct, says Mukul Rohatgi, former Attorney General of India.",
-              "categories": [],
-              "feed": {
-                "title": "NDTV News Search Records Found 1000",
-                "url": "https://www.ndtv.com/",
-                "feed_url": "https://feeds.feedburner.com/ndtvnews-top-stories"
-              },
-              "outlet": "NDTV"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.feedburner.com/ndtvnews-top-stories",
-            "elapsed_ms": 281,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.8.0"
-            },
-            {
-              "step": "map",
-              "version": "0.8.0",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
-                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.8.0",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.8.0",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.8.0",
-              "args": {
-                "namespace": "india-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.ndtv.com/india-news/no-basis-ex-attorney-general-mukul-rohatgi-to-ndtv-on-gyanesh-kumar-impeachment-move-12099415#publisher=newsstand"
-    },
-    {
-      "id": "8fdc549bc9d3ff81eaad",
-      "title": "The Hindu: VIT conducts Run Fest marathon during Gravitas 2026",
-      "content_text": "The marathon was inaugurated by VIT registrar T. Jayabharathi in the presence of Gravitas convenor Sudhakar and physical education director Mangeyrkarasi Arun",
-      "date_published": "2026-09-26T07:57:51Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "8fdc549bc9d3ff81eaad",
-          "source": "rss",
-          "type": "change",
-          "key": "article-71512108",
-          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-          "timestamp": null,
-          "observed_at": "2026-09-26T08:03:56Z",
-          "data": {
-            "change": "added",
-            "label": "The Hindu: VIT conducts Run Fest marathon during Gravitas 2026",
-            "item_type": "entry",
-            "summary": "added: The Hindu: VIT conducts Run Fest marathon during Gravitas 2026",
-            "after": {
-              "title": "The Hindu: VIT conducts Run Fest marathon during Gravitas 2026",
-              "link": "https://www.thehindu.com/news/national/tamil-nadu/vit-conducts-run-fest-marathon-during-gravitas-2026/article71512108.ece",
-              "id": "article-71512108",
-              "author": null,
-              "published_at": "2026-09-26T07:57:51Z",
-              "updated_at": "2026-09-26T07:57:51Z",
-              "summary": "The marathon was inaugurated by VIT registrar T. Jayabharathi in the presence of Gravitas convenor Sudhakar and physical education director Mangeyrkarasi Arun",
-              "categories": [
-                "Tamil Nadu"
-              ],
-              "feed": {
-                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-                "url": "https://www.thehindu.com/news/national/",
-                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
-              },
-              "outlet": "The Hindu"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-            "elapsed_ms": 150,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.6.0"
-            },
-            {
-              "step": "map",
-              "version": "0.6.0",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
-                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.6.0",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.6.0",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.6.0",
-              "args": {
-                "namespace": "india-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.thehindu.com/news/national/tamil-nadu/vit-conducts-run-fest-marathon-during-gravitas-2026/article71512108.ece",
-      "tags": [
-        "Tamil Nadu"
-      ]
-    },
-    {
-      "id": "83cecba02bdf92012a3e",
-      "title": "The Hindu: Maintain constant vigil, step up intelligence-led ops in J-K: Army chief General Seth",
-      "content_text": "General Seth also underscored the importance of seamless synergy and close coordination with all stakeholders to enhance situational awareness and strengthen the overall counter-terror response",
-      "date_published": "2026-09-26T07:56:40Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "83cecba02bdf92012a3e",
-          "source": "rss",
-          "type": "change",
-          "key": "article-71512051",
-          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-          "timestamp": null,
-          "observed_at": "2026-09-26T08:03:56Z",
-          "data": {
-            "change": "added",
-            "label": "The Hindu: Maintain constant vigil, step up intelligence-led ops in J-K: Army chief General Seth",
-            "item_type": "entry",
-            "summary": "added: The Hindu: Maintain constant vigil, step up intelligence-led ops in J-K: Army chief General Seth",
-            "after": {
-              "title": "The Hindu: Maintain constant vigil, step up intelligence-led ops in J-K: Army chief General Seth",
-              "link": "https://www.thehindu.com/news/national/jammu-and-kashmir/maintain-constant-vigil-step-up-intelligence-led-ops-in-j-k-army-chief-general-seth/article71512051.ece",
-              "id": "article-71512051",
-              "author": null,
-              "published_at": "2026-09-26T07:56:40Z",
-              "updated_at": "2026-09-26T07:56:40Z",
-              "summary": "General Seth also underscored the importance of seamless synergy and close coordination with all stakeholders to enhance situational awareness and strengthen the overall counter-terror response",
-              "categories": [
-                "Jammu and Kashmir"
-              ],
-              "feed": {
-                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-                "url": "https://www.thehindu.com/news/national/",
-                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
-              },
-              "outlet": "The Hindu"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-            "elapsed_ms": 150,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.6.0"
-            },
-            {
-              "step": "map",
-              "version": "0.6.0",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
-                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.6.0",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.6.0",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.6.0",
-              "args": {
-                "namespace": "india-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.thehindu.com/news/national/jammu-and-kashmir/maintain-constant-vigil-step-up-intelligence-led-ops-in-j-k-army-chief-general-seth/article71512051.ece",
-      "tags": [
-        "Jammu and Kashmir"
-      ]
-    },
-    {
-      "id": "f832b0c256b7bc1cc6ad",
-      "title": "The Hindu: Stray dog bites 10 people in Angamaly",
-      "content_text": "According to municipality Vice-Chairperson Wilson Mundadan, the dog has been caught and is being kept in captivity under observation",
-      "date_published": "2026-09-26T07:54:28Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "f832b0c256b7bc1cc6ad",
-          "source": "rss",
-          "type": "change",
-          "key": "article-71512007",
-          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-          "timestamp": null,
-          "observed_at": "2026-09-26T08:03:56Z",
-          "data": {
-            "change": "added",
-            "label": "The Hindu: Stray dog bites 10 people in Angamaly",
-            "item_type": "entry",
-            "summary": "added: The Hindu: Stray dog bites 10 people in Angamaly",
-            "after": {
-              "title": "The Hindu: Stray dog bites 10 people in Angamaly",
-              "link": "https://www.thehindu.com/news/national/kerala/stray-dog-bites-10-people-in-angamaly/article71512007.ece",
-              "id": "article-71512007",
-              "author": null,
-              "published_at": "2026-09-26T07:54:28Z",
-              "updated_at": "2026-09-26T07:54:28Z",
-              "summary": "According to municipality Vice-Chairperson Wilson Mundadan, the dog has been caught and is being kept in captivity under observation",
-              "categories": [
-                "Keralam"
-              ],
-              "feed": {
-                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-                "url": "https://www.thehindu.com/news/national/",
-                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
-              },
-              "outlet": "The Hindu"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-            "elapsed_ms": 150,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.6.0"
-            },
-            {
-              "step": "map",
-              "version": "0.6.0",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
-                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.6.0",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.6.0",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.6.0",
-              "args": {
-                "namespace": "india-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.thehindu.com/news/national/kerala/stray-dog-bites-10-people-in-angamaly/article71512007.ece",
-      "tags": [
-        "Keralam"
-      ]
-    },
-    {
-      "id": "4fb91760ab4f28949df6",
-      "title": "The Hindu: Four PFI members get life imprisonment for 2016 murder of Hindu Munnani leader C. Sasikumar",
-      "content_text": "On September 22, 2016, Sasikumar was hacked to death in Coimbatore",
-      "date_published": "2026-09-26T07:53:12Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "4fb91760ab4f28949df6",
-          "source": "rss",
-          "type": "change",
-          "key": "article-71511969",
-          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-          "timestamp": null,
-          "observed_at": "2026-09-26T08:03:56Z",
-          "data": {
-            "change": "added",
-            "label": "The Hindu: Four PFI members get life imprisonment for 2016 murder of Hindu Munnani leader C. Sasikumar",
-            "item_type": "entry",
-            "summary": "added: The Hindu: Four PFI members get life imprisonment for 2016 murder of Hindu Munnani leader C. Sasikumar",
-            "after": {
-              "title": "The Hindu: Four PFI members get life imprisonment for 2016 murder of Hindu Munnani leader C. Sasikumar",
-              "link": "https://www.thehindu.com/news/cities/chennai/four-pfi-members-get-life-imprisonment-for-2016-murder-of-hindu-munnani-leader-c-sasikumar/article71511969.ece",
-              "id": "article-71511969",
-              "author": null,
-              "published_at": "2026-09-26T07:53:12Z",
-              "updated_at": "2026-09-26T07:53:12Z",
-              "summary": "On September 22, 2016, Sasikumar was hacked to death in Coimbatore",
-              "categories": [
-                "Chennai"
-              ],
-              "feed": {
-                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
-                "url": "https://www.thehindu.com/news/national/",
-                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
-              },
-              "outlet": "The Hindu"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
-            "elapsed_ms": 150,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.6.0"
-            },
-            {
-              "step": "map",
-              "version": "0.6.0",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
-                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.6.0",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.6.0",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.6.0",
-              "args": {
-                "namespace": "india-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.thehindu.com/news/cities/chennai/four-pfi-members-get-life-imprisonment-for-2016-murder-of-hindu-munnani-leader-c-sasikumar/article71511969.ece",
-      "tags": [
-        "Chennai"
-      ]
     }
   ]
 }

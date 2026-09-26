@@ -590,15 +590,15 @@
   },
   {
    "name": "science-news",
-   "description": "Science news from Nature and Science, the two leading research journals: discoveries, research policy and the people behind them.",
+   "description": "Science news from Nature, New Scientist and ScienceDaily: discoveries, research policy and the people behind them.",
    "files": [
     "science-news.xml",
     "science-news.json"
    ],
    "health": {
-    "status": "partial",
-    "since": "2026-09-26T17:27:48Z",
-    "latest": "2026-09-25T00:00:00Z"
+    "status": "ok",
+    "since": "2026-09-26T17:38:59Z",
+    "latest": "2026-09-26T15:25:30Z"
    }
   },
   {
@@ -715,7 +715,7 @@
    "health": {
     "status": "ok",
     "since": "2026-09-26T17:27:48Z",
-    "latest": "2026-09-26T17:23:03Z"
+    "latest": "2026-09-26T17:32:57Z"
    }
   },
   {
@@ -845,7 +845,7 @@
    "health": {
     "status": "ok",
     "since": "2026-09-26T17:27:48Z",
-    "latest": "2026-09-26T07:59:13Z"
+    "latest": "2026-09-15T00:00:00Z"
    }
   },
   {
@@ -1217,6 +1217,13 @@
    "date": "2026-09-27T00:00:00Z"
   },
   {
+   "feed": "southeast-asia-news",
+   "title": "CNA (Singapore): Munich picked as Germany’s candidate to host Summer Games",
+   "summary": "Munich beats Cologne/Rhine-Ruhr to become Germany’s Olympic candidate for the 2036, 2040 or 2044 Summer Games.",
+   "link": "https://www.channelnewsasia.com/sport/munich-germanys-candidate-host-games-6412756",
+   "date": "2026-09-26T17:32:57Z"
+  },
+  {
    "feed": "stablecoin-supply",
    "title": "USDT supply +$199.8M in a day, now $183.9B",
    "summary": "Tether (USDT): +$199.8M in 24 hours; week before: $183.3B.",
@@ -1371,6 +1378,13 @@
    "date": "2026-09-26T17:18:00Z"
   },
   {
+   "feed": "india-news",
+   "title": "NDTV: 'Bigg Boss' Contestant Hits Pune Doctor With Sticks, Utensils To Extort Money",
+   "summary": "A complaint has been registered against Divya Shinde.",
+   "link": "https://www.ndtv.com/india-news/bigg-boss-contestant-assaults-doctor-leaves-him-bleeding-for-rs-5-lakh-12102687#publisher=newsstand",
+   "date": "2026-09-26T17:17:49Z"
+  },
+  {
    "feed": "world-headlines",
    "title": "Ethiopia’s Fano fighters claim capture of army vehicles and weapons",
    "summary": "Armed fighters from Ethiopia’s Fano movement claim to have seized military trucks and weapons in the Amhara region.",
@@ -1390,6 +1404,13 @@
    "summary": "The Ladakh administration is organising a music festival exactly a year after firing on a Statehood agitation caused the deaths of four Leh residents, with the anniversary being observed as Martyrs Month",
    "link": "https://www.thehindu.com/news/national/ladakh/dont-let-music-become-louder-than-unanswered-questionsgitanjali-angmo-on-ladakh-festival/article71513401.ece",
    "date": "2026-09-26T17:13:27Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "NDTV: \"Thank You, Uncle\": Kidnappers On Getting Rs 50 Lakh Ransom For Businessman",
+   "summary": "Police formed 10 teams and began tracking the accused using CCTV footage.",
+   "link": "https://www.ndtv.com/india-news/thank-you-uncle-kidnappers-on-getting-rs-50-lakh-ransom-for-businessman-12102937#publisher=newsstand",
+   "date": "2026-09-26T17:11:14Z"
   },
   {
    "feed": "world-headlines",
@@ -1497,6 +1518,13 @@
    "date": "2026-09-26T16:50:27Z"
   },
   {
+   "feed": "india-news",
+   "title": "NDTV: When Two Akali Dals Faced Off At A Fair: Panthic Politics Dominates Chhapar Mela",
+   "summary": "Sukhbir Badal slammed Manpreet Ayali, a senior MLA who left his party for Amritpal's.",
+   "link": "https://www.ndtv.com/india-news/chhapar-becomes-ground-zero-for-punjabs-panthic-vote-battle-12102704#publisher=newsstand",
+   "date": "2026-09-26T16:43:02Z"
+  },
+  {
    "feed": "world-headlines",
    "title": "Venezuelan government, opposition agree to work towards reform of top court",
    "summary": "The two sides appointed a committee to review selection of candidates for Supreme Court of Justice.",
@@ -1554,6 +1582,13 @@
   },
   {
    "feed": "india-news",
+   "title": "NDTV: Netanyahu Says October 7 Attack On Israel Is Like 9/11 Happening 16 Times",
+   "summary": "Netanyahu sought to put the scale of the attack into perspective for an American audience",
+   "link": "https://www.ndtv.com/world-news/benjamin-netanyahu-says-october-7-attack-on-israel-is-like-9-11-happening-16-times-12102806#publisher=newsstand",
+   "date": "2026-09-26T16:29:39Z"
+  },
+  {
+   "feed": "india-news",
    "title": "The Hindu: Mamata vows Opposition unity on demands for removal of CEC Gyanesh Kumar",
    "summary": "Former West Bengal CM says she has spoken to CPI(M) general secretary M.A. Baby and Congress leader Rahul Gandhi on the issue and will support any party that holds protests against CEC Gyanesh Kumar",
    "link": "https://www.thehindu.com/news/national/india-bloc-meeting-likely-to-be-held-in-delhi-on-sep-30-mamata-amid-sir-row/article71512839.ece",
@@ -1579,6 +1614,20 @@
    "summary": "As war and sexual violence rage in eastern DRC, women are joining pro-government Wazalendo fighters to defend themselves",
    "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/09-26-drc-women-fighters-sv-mp4?traffic_source=rss",
    "date": "2026-09-26T16:24:51Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "NDTV: 'They're Losing So Badly': Trump Rejects Iran Proposal To Open Hormuz",
+   "summary": "The waterway is key to the world's energy supply",
+   "link": "https://www.ndtv.com/world-news/us-iran-war-theyre-losing-so-badly-donald-trump-rejects-iran-proposal-to-open-hormuz-12102783#publisher=newsstand",
+   "date": "2026-09-26T16:20:40Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "NDTV: 'Your Guidance Gives Me Renewed Energy': Yogi Adityanath Meets PM Modi",
+   "summary": "The meeting was described by officials as a courtesy call.",
+   "link": "https://www.ndtv.com/india-news/your-guidance-gives-me-renewed-energy-yogi-adityanath-meets-pm-modi-12102781#publisher=newsstand",
+   "date": "2026-09-26T16:20:07Z"
   },
   {
    "feed": "india-news",
@@ -1635,6 +1684,13 @@
    "summary": "After the Clarity Act failed in the Senate, the SEC, CFTC, and the Fed moved within days to write crypto's rules themselves. Will it be enough?",
    "link": "https://decrypt.co/379383/how-crypto-stopped-waiting-congress-learned-love-regulators",
    "date": "2026-09-26T16:06:03Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "NDTV: Drunk Driver Rams SUV Into Parked Vehicles, Injures Dog In Delhi's CR Park",
+   "summary": "Proceedings under Section 185 of the Motor Vehicles Act were initiated.",
+   "link": "https://www.ndtv.com/india-news/drunk-driver-rams-suv-into-parked-vehicles-injures-dog-in-delhis-cr-park-12102721#publisher=newsstand",
+   "date": "2026-09-26T16:05:10Z"
   },
   {
    "feed": "southeast-asia-news",
@@ -1705,6 +1761,13 @@
    "summary": "Chief Minister Revanth Reddy unveils Manmohan Singh’s statue in Financial District in the city",
    "link": "https://www.thehindu.com/news/national/telangana/revanth-urges-centre-to-confer-bharat-ratna-on-manmohan-singh/article71513607.ece",
    "date": "2026-09-26T15:55:15Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "NDTV: 4 Killed, 5 Injured As Container With Gelatin Sticks Explodes In Maharashtra",
+   "summary": "The incident occurred in Maharashtra's Yavatmal district.",
+   "link": "https://www.ndtv.com/india-news/4-killed-5-injured-as-container-with-gelatin-sticks-explodes-in-maharashtra-12102690#publisher=newsstand",
+   "date": "2026-09-26T15:55:06Z"
   },
   {
    "feed": "india-news",
@@ -1784,13 +1847,6 @@
    "date": "2026-09-26T15:48:51Z"
   },
   {
-   "feed": "india-news",
-   "title": "The Hindu: PR&RD Minister directs officials to prepare for summer drinking water needs",
-   "summary": null,
-   "link": "https://www.thehindu.com/news/national/telangana/prrd-minister-directs-officials-to-prepare-for-summer-drinking-water-needs/article71513291.ece",
-   "date": "2026-09-26T15:48:05Z"
-  },
-  {
    "feed": "world-headlines",
    "title": "LIVE: England vs Spain – UEFA Nations League",
    "summary": "Follow the updates, with build-up, predictions, team news and lineups, from our live text commentary stream coverage.",
@@ -1798,60 +1854,11 @@
    "date": "2026-09-26T15:47:40Z"
   },
   {
-   "feed": "india-news",
-   "title": "The Hindu: Four killed, three injured after electrocution at Ganesh pandal in Madhya Pradesh",
-   "summary": "According to survivors, a short circuit in the music amplifier sent a live wire to the metal grill of the temple’s pandal, shocking seven people",
-   "link": "https://www.thehindu.com/news/national/madhya-pradesh/several-people-killed-and-injured-after-electrocution-at-ganesh-pandal-in-madhya-pradesh/article71512942.ece",
-   "date": "2026-09-26T15:45:59Z"
-  },
-  {
-   "feed": "india-news",
-   "title": "The Hindu: Improvement notices issued to three restaurants in Hyderabad; FSSAI licences of 11 eateries suspended",
-   "summary": null,
-   "link": "https://www.thehindu.com/news/cities/Hyderabad/improvement-notices-issued-to-three-restaurants-in-hyderabad-fssai-licences-of-11-eateries-suspended/article71513552.ece",
-   "date": "2026-09-26T15:45:51Z"
-  },
-  {
-   "feed": "india-news",
-   "title": "The Hindu: Minister launches sheep and goat insurance scheme in Karimnagar",
-   "summary": null,
-   "link": "https://www.thehindu.com/news/national/telangana/minister-launches-sheep-and-goat-insurance-scheme-in-karimnagar/article71513453.ece",
-   "date": "2026-09-26T15:44:48Z"
-  },
-  {
-   "feed": "india-news",
-   "title": "The Hindu: Despite AI, personalisation and human touch will remain central to tourism experiences, say speakers at KTM 2026",
-   "summary": "They pointed out that changing traveller behaviour, personalisation, artificial intelligence, and customer reviews are reshaping the hospitality and tourism industry",
-   "link": "https://www.thehindu.com/news/national/kerala/despite-ai-personalisation-and-human-touch-will-remain-central-to-tourism-experiences-say-speakers-at-ktm-2026/article71513382.ece",
-   "date": "2026-09-26T15:44:41Z"
-  },
-  {
-   "feed": "india-news",
-   "title": "The Hindu: Vigilance case registered over alleged irregularities in KINFRA land acquisition in Kannur",
-   "summary": "VACB alleges compensation was sanctioned for land held without valid documents and land tax was accepted for property already acquired by the government",
-   "link": "https://www.thehindu.com/news/national/kerala/vigilance-case-registered-over-alleged-irregularities-in-kinfra-land-acquisition-in-kannur/article71513142.ece",
-   "date": "2026-09-26T15:44:13Z"
-  },
-  {
-   "feed": "india-news",
-   "title": "The Hindu: 15 major junctions in Nellore to be upgraded at ₹5.26 crore",
-   "summary": null,
-   "link": "https://www.thehindu.com/news/national/andhra-pradesh/15-major-junctions-in-nellore-to-be-upgraded-at-526-crore/article71513191.ece",
-   "date": "2026-09-26T15:44:04Z"
-  },
-  {
    "feed": "world-headlines",
    "title": "Several hundred thousand people gather for Pope Leo’s mass in Paris",
    "summary": "Vatican estimates 700,000 people in attendance as the Catholic religious leader continues four-day tour of France.",
    "link": "https://www.aljazeera.com/news/2026/9/26/several-hundred-thousand-people-gather-for-pope-leos-mass-in-paris?traffic_source=rss",
    "date": "2026-09-26T15:43:11Z"
-  },
-  {
-   "feed": "india-news",
-   "title": "The Hindu: Madhya Pradesh gets government bus service after 21 years; 351 buses flagged off",
-   "summary": "The cities that will start operations under phase-1 are Indore, Bhopal, Jabalpur, Rewa, Dewas, Katni and Bhind with 231 intra-city and 120 inter-city buses",
-   "link": "https://www.thehindu.com/news/national/madhya-pradesh/mp-getsgovt-bus-service-after-21-years-351-buses-flagged-off/article71509637.ece",
-   "date": "2026-09-26T15:41:27Z"
   },
   {
    "feed": "southeast-asia-news",
@@ -1901,6 +1908,13 @@
    "summary": "Italian Foreign Minister Tajani sparked outrage after saying he prefers 'respectable' women in long skirts. Opposition women senators donned skirts in protest, and memes of the minister spread well beyond Italy on social networks.",
    "link": "https://www.euronews.com/2026/09/26/serious-women-in-long-skirts-tajani-under-fire-in-memes-and-international-media",
    "date": "2026-09-26T15:27:11Z"
+  },
+  {
+   "feed": "science-news",
+   "title": "ScienceDaily: A major risk of breast cancer screening may have been overestimated for decades",
+   "summary": "A new analysis suggests mammograms may lead to far less breast cancer overdiagnosis than some earlier studies indicated. Researchers reexamined all eight major randomized screening trials and accounted for differences in follow-up time, screening frequency, and screening after trials ended. Their re",
+   "link": "https://www.sciencedaily.com/releases/2026/09/260924020351.htm",
+   "date": "2026-09-26T15:25:30Z"
   },
   {
    "feed": "world-headlines",
@@ -2015,6 +2029,13 @@
    "date": "2026-09-26T14:51:08Z"
   },
   {
+   "feed": "science-news",
+   "title": "ScienceDaily: That fresh cleaning smell could be filling your home with nanoparticles",
+   "summary": "Researchers found that scented cleaners can react with ozone indoors to create billions or trillions of invisible nanoparticles that can penetrate deep into the lungs. The pollution forms within minutes and, in some cases, may produce an inhaled particle dose comparable to or greater than standing n",
+   "link": "https://www.sciencedaily.com/releases/2026/09/260925093152.htm",
+   "date": "2026-09-26T14:49:45Z"
+  },
+  {
    "feed": "world-headlines",
    "title": "Trump rejects Iran’s seven-day roadmap to reopen Strait of Hormuz",
    "summary": "Tehran submitted a proposal via Qatar to reopen the strait and resume nuclear talks within a week if Washington agreed.",
@@ -2069,6 +2090,13 @@
    "summary": "NAGOYA, Japan, Sept. 26 (Yonhap) -- Before her South Korean team faced Japan on ...",
    "link": "https://en.yna.co.kr/view/AEN20260926007900315",
    "date": "2026-09-26T14:38:35Z"
+  },
+  {
+   "feed": "science-news",
+   "title": "ScienceDaily: Scientists may have misread a 2-billion-year-old clue about Earth",
+   "summary": "Scientists have found that a famous 2-billion-year-old chemical signature, once thought to record a massive global change in Earth’s carbon cycle, may instead have been produced by local magma, hydrocarbons, and methane-eating microbes. The discovery raises new questions about what was really happen",
+   "link": "https://www.sciencedaily.com/releases/2026/09/260925093201.htm",
+   "date": "2026-09-26T14:38:02Z"
   },
   {
    "feed": "hurricanes",
@@ -2176,6 +2204,13 @@
    "date": "2026-09-26T14:10:20Z"
   },
   {
+   "feed": "science-news",
+   "title": "ScienceDaily: Scientists burned their own scrolls to unlock a 2,000-year-old mystery",
+   "summary": "Scientists discovered that tiny amounts of lead in ancient ink can make writing inside burned papyrus scrolls stand out dramatically in X-ray scans. The technique could help unlock lost Greek and Roman texts preserved by the eruption of Mount Vesuvius nearly 2,000 years ago.",
+   "link": "https://www.sciencedaily.com/releases/2026/09/260925005414.htm",
+   "date": "2026-09-26T14:04:56Z"
+  },
+  {
    "feed": "korea-news",
    "title": "Yonhap: (Asiad) medal standings",
    "summary": "NAGOYA, Japan, Sept. 26 (Yonhap) -- Below are the medal standings for the top 10...",
@@ -2258,6 +2293,13 @@
    "summary": "โฆษกรัฐบาลเผย ‘อนุทิน’ สั่งตั้งศูนย์แถลงข่า […]",
    "link": "https://www.matichon.co.th/politics/news_5906751",
    "date": "2026-09-26T13:50:42Z"
+  },
+  {
+   "feed": "science-news",
+   "title": "ScienceDaily: Quantum computer simulates matter “popping into existence”",
+   "summary": "Scientists recreated a particle-forming process linked to the extreme physics of the early universe using a 13-ion quantum simulator. The breakthrough suggests quantum computers could eventually help researchers investigate how matter formed and evolved after the Big Bang.",
+   "link": "https://www.sciencedaily.com/releases/2026/09/260925005416.htm",
+   "date": "2026-09-26T13:47:38Z"
   },
   {
    "feed": "thailand-news-th",
@@ -2412,6 +2454,13 @@
    "summary": "จอชชัว สุดโหด สับสปีดแซงช่วงท้าย คว้าเหรียญทอง วิ่ง 400 […]",
    "link": "https://www.matichon.co.th/sport/thai-sport/news_5906702",
    "date": "2026-09-26T13:21:59Z"
+  },
+  {
+   "feed": "science-news",
+   "title": "ScienceDaily: Two astronauts who flew farther than anyone before are taking new NASA roles",
+   "summary": "Artemis II astronauts Victor Glover and Reid Wiseman are transitioning to emeritus status at NASA after their historic journey around the Moon earlier this year. The pair will continue advising and mentoring NASA teams as preparations accelerate for Artemis III and future lunar missions. Their exper",
+   "link": "https://www.sciencedaily.com/releases/2026/09/260925005423.htm",
+   "date": "2026-09-26T13:21:58Z"
   },
   {
    "feed": "thailand-news-th",
@@ -2673,6 +2722,13 @@
    "date": "2026-09-26T12:31:09Z"
   },
   {
+   "feed": "science-news",
+   "title": "ScienceDaily: Zepbound and Mounjaro may turn on the body’s calorie-burning brown fat",
+   "summary": "Tirzepatide, sold as Mounjaro and Zepbound, activated calorie-burning brown fat in obese mice, revealing a potential metabolic effect beyond appetite suppression. If confirmed in humans, the finding could help explain the drug’s powerful benefits and inspire more comprehensive treatments for obesity",
+   "link": "https://www.sciencedaily.com/releases/2026/09/260925093210.htm",
+   "date": "2026-09-26T12:31:07Z"
+  },
+  {
    "feed": "security-news",
    "title": "OpenAI's AI agents accidentally uploaded user-provided images to third-party sites",
    "summary": "OpenAI says its AI agents uploaded user-provided images to third-party image-hosting services while carrying out research and evaluation tasks. [...]",
@@ -2755,13 +2811,6 @@
    "summary": "The eastern region entered the unhealthy range at midnight on Sunday, with a PSI reading of 103.",
    "link": "https://www.channelnewsasia.com/singapore/haze-air-quality-psi-central-unhealthy-range-sep-26-6412536",
    "date": "2026-09-26T12:06:00Z"
-  },
-  {
-   "feed": "southeast-asia-news",
-   "title": "Antara (Indonesia): Indonesia seeks to turn cultural wealth into national soft power",
-   "summary": "Culture Minister Fadli Zon said his ministry is pushing for Indonesia's cultural wealth, which he considers a ...",
-   "link": "https://en.antaranews.com/news/433001/indonesia-seeks-to-turn-cultural-wealth-into-national-soft-power",
-   "date": "2026-09-26T12:04:02Z"
   },
   {
    "feed": "china-news",
@@ -2881,6 +2930,13 @@
    "summary": "Most of those killed and wounded are security personnel, police say.",
    "link": "https://www.aljazeera.com/news/2026/9/26/blast-in-pakistans-dera-ismail-khan-kills-several-people?traffic_source=rss",
    "date": "2026-09-26T11:33:42Z"
+  },
+  {
+   "feed": "science-news",
+   "title": "ScienceDaily: REM sleep paradox: Dreaming may drain the brain’s energy even as fuel supply rises",
+   "summary": "Scientists discovered a surprising energy paradox in the brain during REM sleep, the stage most closely associated with dreaming. Blood supply to the brain begins increasing even before REM starts, but neurons’ immediately available energy, measured as ATP, then drops. The finding suggests that drea",
+   "link": "https://www.sciencedaily.com/releases/2026/09/260925093206.htm",
+   "date": "2026-09-26T11:30:49Z"
   },
   {
    "feed": "japan-news",
@@ -3576,13 +3632,6 @@
    "date": "2026-09-26T07:00:00Z"
   },
   {
-   "feed": "crypto-news",
-   "title": "CFTC sues Cash FX, alleges $950M crypto-linked forex scheme",
-   "summary": "The CFTC claimed that Cash FX engaged in minimal forex trading and misappropriated most of the participant funds.",
-   "link": "https://cointelegraph.com/news/cftc-sues-cash-fx-alleges-950m-crypto-linked-forex-scheme?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-   "date": "2026-09-26T06:59:29Z"
-  },
-  {
    "feed": "middle-east-news",
    "title": "Middle East Eye: Israeli military attacks southern Lebanon areas with artillery fire",
    "summary": "Israeli military attacks southern Lebanon areas with artillery fire\nIsraeli forces have shelled al-Mansouri and Majdal Zoun areas in southern Lebanon’s Tyre district and Wadi Hassan, a valley on the outskirts of Majdal Zoun, the National News Agency reported.\nThe forces also bombed the municipalitie",
@@ -3772,13 +3821,6 @@
    "date": "2026-09-26T05:00:00Z"
   },
   {
-   "feed": "crypto-news",
-   "title": "Solana’s 150-millisecond settlement upgrade reaches second public test network",
-   "summary": null,
-   "link": "https://www.coindesk.com/tech/2026/09/26/solana-s-150-millisecond-settlement-upgrade-reaches-second-public-test-network",
-   "date": "2026-09-26T05:00:00Z"
-  },
-  {
    "feed": "china-news",
    "title": "SCMP: Xi-Trump summit: China and US to open ‘super intelligence’ communications channel",
    "summary": "China and the United States have struck a new deal on coal and agreed to open a communication channel on “super intelligence” incidents, according to the White House.\nThe commitments were outlined in a fact sheet on Chinese President Xi Jinping’s visit to Washington this week.\nIt said China had agre",
@@ -3814,13 +3856,6 @@
    "date": "2026-09-26T04:30:07Z"
   },
   {
-   "feed": "crypto-news",
-   "title": "XRP Ledger’s Batch upgrade slips to Oct. 9 after validator support resets",
-   "summary": null,
-   "link": "https://www.coindesk.com/tech/2026/09/26/xrp-ledger-s-batch-upgrade-slips-to-oct-9-after-validator-support-resets",
-   "date": "2026-09-26T04:30:00Z"
-  },
-  {
    "feed": "russia-news",
    "title": "TASS (Russian state media): Hormuz should be open in accordance with US-Iran memorandum — Pezeshkian",
    "summary": "Masoud Pezeshkian noted that Iran is still committed to this memorandum of understanding and willing to implement it",
@@ -3840,13 +3875,6 @@
    "summary": "The founder of the world's most valuable AI company has the ear of Donald Trump when it comes to the risks and potential of the cutting-edge technology.",
    "link": "https://www.abc.net.au/news/2026-09-26/jensen-huang-ai-boss-trusted-by-trump/107197212",
    "date": "2026-09-26T04:10:47Z"
-  },
-  {
-   "feed": "crypto-news",
-   "title": "Bitcoin could soon get Zcash-style 'shielded' privacy without changing its rules",
-   "summary": null,
-   "link": "https://www.coindesk.com/tech/2026/09/25/bitcoin-could-soon-get-zcash-style-shielded-privacy-without-changing-its-rules",
-   "date": "2026-09-26T04:02:13Z"
   },
   {
    "feed": "japan-news",
@@ -4080,6 +4108,13 @@
    "date": "2026-09-26T02:31:50Z"
   },
   {
+   "feed": "science-news",
+   "title": "ScienceDaily: The secret to growing food on Mars could be fungi",
+   "summary": "Scientists think beneficial fungi could help transform nutrient-poor lunar and Martian regolith into a material capable of supporting crops. By helping plants access nutrients and withstand harsh conditions, these microbes could someday make self-sustaining space farming more realistic.",
+   "link": "https://www.sciencedaily.com/releases/2026/09/260924020400.htm",
+   "date": "2026-09-26T02:26:05Z"
+  },
+  {
    "feed": "russia-news",
    "title": "TASS (Russian state media): EU’s reaction to corruption in Ukraine shows Europeans involved in it — envoy",
    "summary": "Rodion Miroshnik stressed that even the heads of European states are involved in these corruption schemes",
@@ -4246,6 +4281,13 @@
    "summary": "hn https://news.ycombinator.com/item?id=49852302 · published_at 2026-09-26T01:36:50Z · points 356 · num_comments 94",
    "link": "https://www.cbsnews.com/news/facebook-liable-deceiving-users-cambridge-analytica/",
    "date": "2026-09-26T01:36:50Z"
+  },
+  {
+   "feed": "science-news",
+   "title": "ScienceDaily: Don’t toss cannabis leaves: They may contain rare compounds with medical potential",
+   "summary": "Scientists discovered rare flavoalkaloids in Cannabis leaves for the first time, along with dozens of other phenolic compounds that had never been reported in the plant. The findings suggest that Cannabis leaves, often discarded as waste, may contain a surprisingly rich source of potentially useful ",
+   "link": "https://www.sciencedaily.com/releases/2026/09/260924231711.htm",
+   "date": "2026-09-26T01:25:10Z"
   },
   {
    "feed": "world-headlines",
@@ -4519,6 +4561,13 @@
    "summary": "The ruling is a defeat for Republicans seeking to give their party an edge in the midterm elections for control of the House. It means voters will face a different map than the one used in the primary elections.",
    "link": "https://www.npr.org/2026/09/25/nx-s1-5978875/midterms-redistricting-trump-missouri",
    "date": "2026-09-25T22:06:16Z"
+  },
+  {
+   "feed": "science-news",
+   "title": "New Scientist: Virtual green spaces and classical music reduce blood pressure in hospital",
+   "summary": "Watching a river flow via a virtual-reality headset while listening to classical music seems to quickly bring people's blood pressure down from a dangerously high level in hospital",
+   "link": "https://www.newscientist.com/article/2590932-virtual-green-spaces-and-classical-music-reduce-blood-pressure-in-hospital/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+   "date": "2026-09-25T22:01:00Z"
   },
   {
    "feed": "security-news",
@@ -5221,6 +5270,13 @@
    "date": "2026-09-25T14:00:00Z"
   },
   {
+   "feed": "science-news",
+   "title": "ScienceDaily: Scientists discovered two bizarre new sea spiders that are “nightmare fuel”",
+   "summary": "Scientists discovered two strange new sea spider species in the Salish Sea, including a hairy-legged, red-eyed species that can groom itself with comb-like appendages. Another is frequently covered in tiny parasites, and researchers say many more undiscovered sea spiders may still be hiding in the r",
+   "link": "https://www.sciencedaily.com/releases/2026/09/260925005412.htm",
+   "date": "2026-09-25T13:56:06Z"
+  },
+  {
    "feed": "africa-news",
    "title": "Africanews: Ukraine: Russian drone barrage on Kyiv kills teenage boy and wounds 20 residents",
    "summary": "A 14-year-old boy was killed after a Russian drone tore into a 16-storey apartment block in Kyiv’s Pecherskyi district overnight on Friday 25 September 2026.",
@@ -5249,6 +5305,13 @@
    "date": "2026-09-25T13:37:22Z"
   },
   {
+   "feed": "science-news",
+   "title": "ScienceDaily: This “rare” autism-linked genetic disorder may be far more common than scientists thought",
+   "summary": "A major analysis suggests Phelan-McDermid syndrome, a genetic disorder closely linked to autism, may affect about 1 in 7,300 people and more than 45,000 Americans. Researchers warn that thousands of cases may remain hidden because genetic testing is often not performed, even as targeted treatments m",
+   "link": "https://www.sciencedaily.com/releases/2026/09/260924020405.htm",
+   "date": "2026-09-25T13:32:46Z"
+  },
+  {
    "feed": "world-leaders",
    "title": "European Commission: Speech by Commissioner Albuquerque at the Interparliamentary Conference on Stability, Economic Coordination and Governance in the EU",
    "summary": "European Commission Speech Dublin, 25 Sep 2026 Good morning, ladies and gentlemen.\nIt is a pleasure to join you today for this Interparliamentary Conference.\nNational parliaments have an essential role in sh...",
@@ -5263,6 +5326,13 @@
    "date": "2026-09-25T13:18:06Z"
   },
   {
+   "feed": "science-news",
+   "title": "ScienceDaily: CRISPR could help doctors attack blood cancer without destroying healthy cells",
+   "summary": "Researchers used CRISPR to remove CD33 from donor stem cells, potentially giving doctors a way to attack aggressive blood cancers without destroying the healthy cells patients need after a transplant. In a 30-patient trial, the edited cells successfully took hold and appeared to shield blood cells f",
+   "link": "https://www.sciencedaily.com/releases/2026/09/260924020408.htm",
+   "date": "2026-09-25T13:13:03Z"
+  },
+  {
    "feed": "uk-government",
    "title": "Oil and gas: OPRED communications, 2026",
    "summary": "OPRED communications issued to stakeholders in 2026.",
@@ -5275,6 +5345,13 @@
    "summary": "Funnyfuzzy Tech UK Co., Ltd sold pet supplies online – a previous company was wound up in 2024",
    "link": "https://www.gov.uk/government/news/online-retailer-shut-down-had-63-million-unexplained-transactions",
    "date": "2026-09-25T13:05:48Z"
+  },
+  {
+   "feed": "science-news",
+   "title": "ScienceDaily: CERN has begun disconnecting the Large Hadron Collider",
+   "summary": "CERN has started replacing some of the Large Hadron Collider’s most important magnets as part of its High-Luminosity upgrade. The new superconducting magnets will produce fields about 40% stronger, allowing particle beams to be squeezed more tightly before they collide. That should create far more c",
+   "link": "https://www.sciencedaily.com/releases/2026/09/260925005430.htm",
+   "date": "2026-09-25T13:01:20Z"
   },
   {
    "feed": "thailand-earthquakes",
@@ -5310,6 +5387,13 @@
    "summary": "A powerful explosion in Athens’ historic Plaka district brought down a two-storey building near the Acropolis on Friday 25 September 2026, injuring at least two people. The cause remains under investigation, although a gas leak is suspected.",
    "link": "http://www.africanews.com/2026/09/25/explosion-near-acropolis-collapses-building-in-athens-plaka-injuring-two/",
    "date": "2026-09-25T12:48:26Z"
+  },
+  {
+   "feed": "science-news",
+   "title": "ScienceDaily: Quantum computing’s “dark horse” just proved it can go universal",
+   "summary": "Researchers have shown that exotic quantum particles called non-Abelian anyons can perform the full range of operations needed for universal quantum computing. Using 54 qubits on Quantinuum’s H2 processor, they combined braiding and fusion to unlock capabilities that braiding alone could not provide",
+   "link": "https://www.sciencedaily.com/releases/2026/09/260924020403.htm",
+   "date": "2026-09-25T12:45:04Z"
   },
   {
    "feed": "security-news",
@@ -5354,6 +5438,13 @@
    "date": "2026-09-25T12:23:03Z"
   },
   {
+   "feed": "science-news",
+   "title": "ScienceDaily: Earth is tearing apart beneath the Pacific Northwest",
+   "summary": "Scientists have captured a subduction zone off Vancouver Island in the process of tearing itself apart, revealing that these massive tectonic systems may die piece by piece rather than all at once. The discovery could help explain ancient plate fragments, volcanic activity, and how hidden breaks ben",
+   "link": "https://www.sciencedaily.com/releases/2026/09/260924231343.htm",
+   "date": "2026-09-25T12:20:18Z"
+  },
+  {
    "feed": "africa-news",
    "title": "Africanews: Nigeria and US sign deal to increase mining investment",
    "summary": "Nigeria and the United States on Wednesday signed a framework agreement to \"deepen American investment\" in the West African's country mining sector. Nigeria says its mineral resources are worth $700 billion.",
@@ -5373,6 +5464,13 @@
    "summary": "SURAT THANI — Thailand’s Court of Appeals Region 8 has upheld a life sentence for Spanish chef Daniel Sancho Bronchalo over the premeditated murder and dismemberment of Colombian plastic surgeon Edwin Arrieta Arteaga on Koh Phangan in 2023. The court read its ruling at Koh Samui Provincial Court on ",
    "link": "https://www.khaosodenglish.com/featured/2026/09/25/thai-court-upholds-life-sentence-for-spanish-actors-son-over-colombian-surgeons-murder/",
    "date": "2026-09-25T12:03:12Z"
+  },
+  {
+   "feed": "science-news",
+   "title": "New Scientist: Is China catching up to the US and SpaceX on reusable rockets?",
+   "summary": "The next space race is not about making rockets faster, bigger or more capacious, but about reusing them reliably and cheaply. The US is well ahead, but can China catch up?",
+   "link": "https://www.newscientist.com/article/2589931-is-china-catching-up-to-the-us-and-spacex-on-reusable-rockets/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+   "date": "2026-09-25T12:00:00Z"
   },
   {
    "feed": "un-news",
@@ -5599,6 +5697,13 @@
    "date": "2026-09-25T11:07:22Z"
   },
   {
+   "feed": "science-news",
+   "title": "New Scientist: Anthropic’s discovery will, at best, be just another gene-editing tool",
+   "summary": "The AI company Anthropic has announced that its Claude large language model has discovered a system reminiscent of CRISPR, but that doesn’t mean the Nobel prizes will start rolling in, says Michael Le Page",
+   "link": "https://www.newscientist.com/article/2590769-has-anthropics-claude-really-made-a-discovery-comparable-to-crispr/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+   "date": "2026-09-25T11:04:53Z"
+  },
+  {
    "feed": "latin-america-news",
    "title": "MercoPress: “The UN has more reason to exist every day”, Uruguay's president said two days after Milei",
    "summary": "Uruguayan President Yamandú Orsi defended the United Nations' relevance and condemned the economic embargo on Cuba before the General Assembly on Thursday, in an address of just under twenty minutes that contrasted with that of his Argentine counterpart, Javier Milei, two days earlier from the same ",
@@ -5751,6 +5856,20 @@
    "summary": "Foundering of a fishing vessel approximately 190 nautical miles east of Port Stanley, Falkland Islands, with the loss of 13 lives.",
    "link": "https://www.gov.uk/government/news/argos-georgia-report-and-safety-flyer-published",
    "date": "2026-09-25T09:00:02Z"
+  },
+  {
+   "feed": "science-news",
+   "title": "New Scientist: Mathematician discovers rare eight-faced shape",
+   "summary": "It isn't easy to demonstrate that a new geometric shape can actually exist in the real world, but one researcher argues that the genus-3 polyhedron can",
+   "link": "https://www.newscientist.com/article/2590747-eight-face-shape-with-three-holes-is-new-to-science/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+   "date": "2026-09-25T09:00:00Z"
+  },
+  {
+   "feed": "science-news",
+   "title": "New Scientist: The first season of Heroes is almost perfect – here’s why",
+   "summary": "Starring the late Hayden Panettiere as the self-regenerating cheerleader who could save the world, science-fiction series Heroes first aired 20 years ago today. It might have gone downhill in subsequent seasons, but its first is still brilliant, says TV columnist Bethan Ackerley",
+   "link": "https://www.newscientist.com/article/2590275-the-first-season-of-heroes-is-almost-perfect-heres-why/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+   "date": "2026-09-25T09:00:00Z"
   },
   {
    "feed": "world-leaders",
@@ -6124,11 +6243,25 @@
    "date": "2026-09-25T03:59:11Z"
   },
   {
+   "feed": "science-news",
+   "title": "ScienceDaily: Scientists gave worms magnetic bacteria. They lived 43% longer",
+   "summary": "A magnet-producing bacterium extended the average lifespan of C. elegans worms by more than 43% while helping protect their neurological and intestinal health. Researchers traced much of the effect to suppression of ferroptosis, a damaging form of cell death linked to iron buildup and oxidative stre",
+   "link": "https://www.sciencedaily.com/releases/2026/09/260924020357.htm",
+   "date": "2026-09-25T03:52:22Z"
+  },
+  {
    "feed": "ai-releases",
    "title": "ollama/ollama v0.40.0",
    "summary": "What's Changed\nModels run on MLX on Apple Silicon by default\nIn this release, model architectures supported by the MLX runner will run by default on Apple Silicon devices.\nollama pull qwen3.8\nollama run qwen3.8\nDuring the RC we will be testing and enabling additional models.\nFull Changelog: https://",
    "link": "https://github.com/ollama/ollama/releases/tag/v0.40.0-rc0",
    "date": "2026-09-25T03:31:52Z"
+  },
+  {
+   "feed": "science-news",
+   "title": "ScienceDaily: “We found something never seen before” – A dead star is producing a shock wave that shouldn’t exist",
+   "summary": "A dead white dwarf with no detectable disk has somehow produced a powerful shock wave that appears to have persisted for at least 1,000 years. Its magnetic field may be partly responsible, but astronomers say an unexplained “mystery engine” may also be at work.",
+   "link": "https://www.sciencedaily.com/releases/2026/09/260924020410.htm",
+   "date": "2026-09-25T03:19:34Z"
   },
   {
    "feed": "thailand-news",
@@ -6152,6 +6285,13 @@
    "date": "2026-09-25T02:50:16Z"
   },
   {
+   "feed": "science-news",
+   "title": "ScienceDaily: Ancient meteorites reveal a powerful force that helped build the Solar System",
+   "summary": "Ancient grains inside one of the oldest known meteorites reveal that a surprisingly strong magnetic field existed during the solar system’s first 200,000 years. The discovery suggests magnetism worked alongside gravity to help transform a vast cloud of gas and dust into the sun and planetary disk.",
+   "link": "https://www.sciencedaily.com/releases/2026/09/260924020355.htm",
+   "date": "2026-09-25T02:45:24Z"
+  },
+  {
    "feed": "thailand-earthquakes",
    "title": "M3.7 ประเทศเมียนมา (Myanmar)",
    "summary": "แผ่นดินไหว ประเทศเมียนมา\n2026-09-25 09:13:57 น.\nLat. 21.876 , Long. 94.893\nขนาด 3.7",
@@ -6164,6 +6304,13 @@
    "summary": "September 25, 2026 Political news Sondhi and his protest movement start their sage today Today a nationalist coalition led by former yellow-shirt figure Sondhi Limthongkul, Nitithorn Lamluea, Panthep Puapongpan, and Pichit Chaimongkol plans to rally at the Election Commission’s office in Bangkok on ",
    "link": "https://www.thaienquirer.com/74582/thai-enquirer-news-summary-september-25-2026/",
    "date": "2026-09-25T01:58:05Z"
+  },
+  {
+   "feed": "science-news",
+   "title": "ScienceDaily: Scientists discover an “impossible” cellular survival pathway that could help fight cancer",
+   "summary": "Scientists discovered a surprising backup system that lets mammalian cells make the essential amino acid cysteine even when the pathways once considered indispensable are disabled. The same survival mechanism may help cancer cells resist treatment, raising the possibility that shutting it down could",
+   "link": "https://www.sciencedaily.com/releases/2026/09/260923035939.htm",
+   "date": "2026-09-25T01:55:32Z"
   },
   {
    "feed": "central-banks",
@@ -6366,62 +6513,6 @@
    "title": "CVE-2026-65660: Microsoft SharePoint Code Injection Vulnerability",
    "summary": "Microsoft SharePoint contains a code injection vulnerability which could allow an authorized attacker to execute code over a network.",
    "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-65660",
-   "date": "2026-09-25T00:00:00Z"
-  },
-  {
-   "feed": "science-news",
-   "title": "Nature: Briefing Chat: Why scientists made papyrus scrolls, then burnt them",
-   "summary": "Nature, Published online: 25 September 2026; doi:10.1038/d41586-026-03041-y\nNature staff discuss a technique that could help researchers read charred Herculaneum scrolls — plus, a biodegradeable, edible battery.",
-   "link": "https://www.nature.com/articles/d41586-026-03041-y",
-   "date": "2026-09-25T00:00:00Z"
-  },
-  {
-   "feed": "science-news",
-   "title": "Nature: Why science wouldn’t exist without alchemy, curiosity and great writing: Books in brief",
-   "summary": "Nature, Published online: 25 September 2026; doi:10.1038/d41586-026-03032-z\nAndrew Robinson reviews five of the best science picks.",
-   "link": "https://www.nature.com/articles/d41586-026-03032-z",
-   "date": "2026-09-25T00:00:00Z"
-  },
-  {
-   "feed": "science-news",
-   "title": "Nature: Anthropic’s AI biolab finds ‘CRISPR-like’ DNA in viruses. What’s next?",
-   "summary": "Nature, Published online: 25 September 2026; doi:10.1038/d41586-026-03039-6\nThe detection effort enlisted roughly 950 AI agents that spent more than 21 hours combing through DNA sequence databases.",
-   "link": "https://www.nature.com/articles/d41586-026-03039-6",
-   "date": "2026-09-25T00:00:00Z"
-  },
-  {
-   "feed": "science-news",
-   "title": "Nature: Chemists struggle to ditch hazardous solvents — even after decades of ‘green’ efforts",
-   "summary": "Nature, Published online: 25 September 2026; doi:10.1038/d41586-026-03023-0\nLaboratories are still using dangerous and carbon-intensive liquids much more often than environmentally friendly ones, according to a 40-year survey of patents.",
-   "link": "https://www.nature.com/articles/d41586-026-03023-0",
-   "date": "2026-09-25T00:00:00Z"
-  },
-  {
-   "feed": "science-news",
-   "title": "Nature: Nepal’s floods expose issues with climate-disaster funding — firmer policies are needed fast",
-   "summary": "Nature, Published online: 25 September 2026; doi:10.1038/d41586-026-03016-z\nThe UN’s climate loss and damage fund needs to consider how to make decisions about finance fairly and quickly, without disadvantaging low-resource nations.",
-   "link": "https://www.nature.com/articles/d41586-026-03016-z",
-   "date": "2026-09-25T00:00:00Z"
-  },
-  {
-   "feed": "science-news",
-   "title": "Nature: Exclusive: Sham scientific societies are misleading star researchers",
-   "summary": "Nature, Published online: 25 September 2026; doi:10.1038/d41586-026-02980-w\nA Nature investigation reveals a network of organizations that have been building their ranks through deceptive practices.",
-   "link": "https://www.nature.com/articles/d41586-026-02980-w",
-   "date": "2026-09-25T00:00:00Z"
-  },
-  {
-   "feed": "science-news",
-   "title": "Nature: OpenAI's research chief talks of ‘cultural reset’ after wild few weeks",
-   "summary": "Nature, Published online: 25 September 2026; doi:10.1038/d41586-026-03028-9\nMark Chen discusses how the Hugging Face cybersecurity incident prompted a pivot to safety — and giving AI models a sense of 'taste'.",
-   "link": "https://www.nature.com/articles/d41586-026-03028-9",
-   "date": "2026-09-25T00:00:00Z"
-  },
-  {
-   "feed": "science-news",
-   "title": "Nature: AI bots are flooding researchers with requests for money and time",
-   "summary": "Nature, Published online: 25 September 2026; doi:10.1038/d41586-026-03005-2\nMany scientists use artificial intelligence in their work, but agents are increasingly soliciting researchers for collaborations.",
-   "link": "https://www.nature.com/articles/d41586-026-03005-2",
    "date": "2026-09-25T00:00:00Z"
   },
   {
@@ -6838,6 +6929,20 @@
    "date": "2026-09-24T18:11:22Z"
   },
   {
+   "feed": "science-news",
+   "title": "New Scientist: Copying others can help young orangutans build a broad diet",
+   "summary": "Orangutans spend more than eight years learning how to cope on their own, and now we have a clearer idea of how they work out which foods to incorporate into their diet",
+   "link": "https://www.newscientist.com/article/2590803-copying-others-helps-young-orangutans-build-a-broad-diet/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+   "date": "2026-09-24T18:00:00Z"
+  },
+  {
+   "feed": "science-news",
+   "title": "New Scientist: Dogs pay more attention to consonants than vowels when we speak",
+   "summary": "Hooking up dogs to non-invasive EEG monitors has helped identify exactly which component of human speech the animals are most attuned to",
+   "link": "https://www.newscientist.com/article/2590694-dogs-pay-more-attention-to-consonants-than-vowels-when-we-speak/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+   "date": "2026-09-24T18:00:00Z"
+  },
+  {
    "feed": "ai-news",
    "title": "AI Workers' Inquiry 2026",
    "summary": null,
@@ -7118,6 +7223,13 @@
    "date": "2026-09-24T15:00:00Z"
   },
   {
+   "feed": "science-news",
+   "title": "New Scientist: Backpack massages muscles when it detects they’re fatigued",
+   "summary": "A backpack consisting of electrodes, cables and a soft massage head kneads muscles in the back when it picks up on them being fatigued",
+   "link": "https://www.newscientist.com/article/2590732-backpack-massages-muscles-when-it-detects-theyre-fatigued/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+   "date": "2026-09-24T15:00:00Z"
+  },
+  {
    "feed": "ai-news",
    "title": "Best LLM for every budget, updated daily",
    "summary": null,
@@ -7132,6 +7244,13 @@
    "date": "2026-09-24T14:08:57Z"
   },
   {
+   "feed": "science-news",
+   "title": "New Scientist: Taking HRT in perimenopause may ward off cardiovascular disease",
+   "summary": "Hormone replacement therapies may reduce the risk of heart attacks and stroke, but the timing of when they are started could be critical",
+   "link": "https://www.newscientist.com/article/2590688-taking-hrt-in-perimenopause-may-ward-off-cardiovascular-disease/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+   "date": "2026-09-24T14:00:00Z"
+  },
+  {
    "feed": "world-leaders",
    "title": "White House: Presidential Message on the Beatification of Archbishop Fulton J. Sheen",
    "summary": "Melania and I join all those celebrating the life and legacy of Archbishop Fulton J. Sheen—the Catholic priest who pioneered the use of media to speak the truth, preach the Gospel, and bring many souls closer to Christ. Today, Archbishop Sheen will become the first-ever American-born bishop to be be",
@@ -7144,6 +7263,13 @@
    "summary": "A rapid military advance down Yemen's Red Sea coast has put the spotlight on the Iran-backed group, amid growing concerns about the global energy market.",
    "link": "https://www.bbc.co.uk/news/articles/cqy7z228kee3o?at_medium=RSS&at_campaign=rss",
    "date": "2026-09-24T13:58:46Z"
+  },
+  {
+   "feed": "science-news",
+   "title": "ScienceDaily: When what you see doesn’t make sense, your brain does something remarkable",
+   "summary": "The brain may have a built-in way to quickly settle disagreements between regions processing the same scene. Researchers found that matching signals between two visual areas lasted longer, while conflicting signals rapidly faded away. This “consensus building” mechanism could help explain how the br",
+   "link": "https://www.sciencedaily.com/releases/2026/09/260923035929.htm",
+   "date": "2026-09-24T13:28:15Z"
   },
   {
    "feed": "ai-news",
@@ -8280,55 +8406,6 @@
    "date": "2026-09-24T00:00:00Z"
   },
   {
-   "feed": "science-news",
-   "title": "Nature: Bumblebees don’t mind a little plastic in their honeypots",
-   "summary": "Nature, Published online: 24 September 2026; doi:10.1038/d41586-026-02988-2\nInsects show off their adaptability by incorporating unfamiliar construction materials to build honey-storage vessels.",
-   "link": "https://www.nature.com/articles/d41586-026-02988-2",
-   "date": "2026-09-24T00:00:00Z"
-  },
-  {
-   "feed": "science-news",
-   "title": "Nature: Youthful fans of YouTube sports videos stick to the sofa",
-   "summary": "Nature, Published online: 24 September 2026; doi:10.1038/d41586-026-02989-1\nUniversity students who are highly motivated to watch sports online do not report higher participation in exercise.",
-   "link": "https://www.nature.com/articles/d41586-026-02989-1",
-   "date": "2026-09-24T00:00:00Z"
-  },
-  {
-   "feed": "science-news",
-   "title": "Nature: GLP-1 drugs fail to help some people lose weight — scientists are on a quest for answers",
-   "summary": "Nature, Published online: 24 September 2026; doi:10.1038/d41586-026-03020-3\nUnderstanding why some people see no benefits from potent anti-obesity medications could lead to new therapies and personalized weight-loss regimens.",
-   "link": "https://www.nature.com/articles/d41586-026-03020-3",
-   "date": "2026-09-24T00:00:00Z"
-  },
-  {
-   "feed": "science-news",
-   "title": "Nature: AI system helps lab devices ‘talk’ with each other — streamlining research",
-   "summary": "Nature, Published online: 24 September 2026; doi:10.1038/d41586-026-02990-8\nPlatform allows disparate machines to communicate and to be controlled by an artificial-intelligence agent.",
-   "link": "https://www.nature.com/articles/d41586-026-02990-8",
-   "date": "2026-09-24T00:00:00Z"
-  },
-  {
-   "feed": "science-news",
-   "title": "Nature: AI agent hacks government website for first time: why this breach matters",
-   "summary": "Nature, Published online: 24 September 2026; doi:10.1038/d41586-026-03024-z\nAn OpenAI agent accessed secure data on an Australian health-care website, but the incident wasn’t reported for months.",
-   "link": "https://www.nature.com/articles/d41586-026-03024-z",
-   "date": "2026-09-24T00:00:00Z"
-  },
-  {
-   "feed": "science-news",
-   "title": "Nature: Daily briefing: Will AI really be the death of us all?",
-   "summary": "Nature, Published online: 24 September 2026; doi:10.1038/d41586-026-03029-8\nNature unpacks why AI companies are calling for a slowdown. Plus, the best clock ever and a new, unusual phase of boron.",
-   "link": "https://www.nature.com/articles/d41586-026-03029-8",
-   "date": "2026-09-24T00:00:00Z"
-  },
-  {
-   "feed": "science-news",
-   "title": "Nature: AlphaFold ‘goes viral’: database adds protein complexes of common viruses",
-   "summary": "Nature, Published online: 24 September 2026; doi:10.1038/d41586-026-03022-1\nAI predictions could help with pandemic preparedness, but they will need experimental confirmation.",
-   "link": "https://www.nature.com/articles/d41586-026-03022-1",
-   "date": "2026-09-24T00:00:00Z"
-  },
-  {
    "feed": "central-banks",
    "title": "Bank of Japan: Statistics on Securities Financing Transactions in Japan",
    "summary": null,
@@ -8837,111 +8914,6 @@
    "title": "Democratic Republic of the Congo-related Designations Removals",
    "summary": "Sanctions List Updates",
    "link": "https://ofac.treasury.gov/recent-actions/20260923",
-   "date": "2026-09-23T00:00:00Z"
-  },
-  {
-   "feed": "science-news",
-   "title": "Nature: Author Correction: Large recoverable elastic energy in chiral metamaterials via twist buckling",
-   "summary": "Nature, Published online: 23 September 2026; doi:10.1038/s41586-026-11189-w\nAuthor Correction: Large recoverable elastic energy in chiral metamaterials via twist buckling",
-   "link": "https://www.nature.com/articles/s41586-026-11189-w",
-   "date": "2026-09-23T00:00:00Z"
-  },
-  {
-   "feed": "science-news",
-   "title": "Nature: Chiral oxazolidinones <i>via</i> biocatalytic aziridination of unactivated alkenes",
-   "summary": "Nature, Published online: 23 September 2026; doi:10.1038/s41586-026-11169-0\nChiral oxazolidinones via biocatalytic aziridination of unactivated alkenes",
-   "link": "https://www.nature.com/articles/s41586-026-11169-0",
-   "date": "2026-09-23T00:00:00Z"
-  },
-  {
-   "feed": "science-news",
-   "title": "Nature: Bank accounts reveal the fingerprints of abusive financial control",
-   "summary": "Nature, Published online: 23 September 2026; doi:10.1038/d41586-026-03021-2\nAnalysis of anonymized banking data could help inform strategies to support victim-survivors of financial abuse — plus, how opposing forces within the Earth can alter the length of a day.",
-   "link": "https://www.nature.com/articles/d41586-026-03021-2",
-   "date": "2026-09-23T00:00:00Z"
-  },
-  {
-   "feed": "science-news",
-   "title": "Nature: Competition heats up in the regenerative-medicine ranks",
-   "summary": "Nature, Published online: 23 September 2026; doi:10.1038/d41586-026-02856-z\nThe United States leads, but China poses strong competition, according to the latest Nature Index data.",
-   "link": "https://www.nature.com/articles/d41586-026-02856-z",
-   "date": "2026-09-23T00:00:00Z"
-  },
-  {
-   "feed": "science-news",
-   "title": "Nature: Huge hoard of metal bars hints at vast Iron Age trade",
-   "summary": "Nature, Published online: 23 September 2026; doi:10.1038/d41586-026-02986-4\nOne-tonne cache of iron is the largest ever found — and enough to make roughly 500 swords.",
-   "link": "https://www.nature.com/articles/d41586-026-02986-4",
-   "date": "2026-09-23T00:00:00Z"
-  },
-  {
-   "feed": "science-news",
-   "title": "Nature: The gene-regulatory evolution of the human skeleton",
-   "summary": "Nature, Published online: 23 September 2026; doi:10.1038/s41586-026-11053-x\nMassively parallel reporter assays and human–ape hybrid skeletal cells are used to study the evolution of human cis-regulatory elements (CREs), revealing how differences in CREs have shaped the composition of human skeletal ",
-   "link": "https://www.nature.com/articles/s41586-026-11053-x",
-   "date": "2026-09-23T00:00:00Z"
-  },
-  {
-   "feed": "science-news",
-   "title": "Nature: The anthropogenic fingerprint on emerging infectious diseases",
-   "summary": "Nature, Published online: 23 September 2026; doi:10.1038/s41586-026-11058-6\nEmerging infectious disease outbreak risks are ubiquitous worldwide, and highest in landscapes where people, livestock and fragmented natural ecosystems coexist, but detection and data on outbreaks are currently limited by i",
-   "link": "https://www.nature.com/articles/s41586-026-11058-6",
-   "date": "2026-09-23T00:00:00Z"
-  },
-  {
-   "feed": "science-news",
-   "title": "Nature: Gravitational torque drives multidecadal variations in length of day",
-   "summary": "Nature, Published online: 23 September 2026; doi:10.1038/s41586-026-10999-2\nMultidecadal fluctuations in Earth’s length of day are shown to be driven by gravitational torque and resisted by electromagnetic and topographic forces, improving our understanding of the material properties and dynamics of",
-   "link": "https://www.nature.com/articles/s41586-026-10999-2",
-   "date": "2026-09-23T00:00:00Z"
-  },
-  {
-   "feed": "science-news",
-   "title": "Nature: Single-nucleus transcriptome-wide association study of human brain disorders",
-   "summary": "Nature, Published online: 23 September 2026; doi:10.1038/s41586-026-10836-6\nSingle-nucleus transcriptomics across diverse populations is used to explore how genetic risk for brain disorders affects specific cell types, revealing previously hidden gene–trait associations and conserved, cell-type-spec",
-   "link": "https://www.nature.com/articles/s41586-026-10836-6",
-   "date": "2026-09-23T00:00:00Z"
-  },
-  {
-   "feed": "science-news",
-   "title": "Nature: Lu<sup>+</sup> optical frequency references with accuracy verified at the 19th digit",
-   "summary": "Nature, Published online: 23 September 2026; doi:10.1038/s41586-026-11072-8\nTwo independent 176Lu+ single-ion optical clocks achieve fractional frequency uncertainties near 10−19 and agree at 5.7 × 10−19, advancing precision timekeeping.",
-   "link": "https://www.nature.com/articles/s41586-026-11072-8",
-   "date": "2026-09-23T00:00:00Z"
-  },
-  {
-   "feed": "science-news",
-   "title": "Nature: Sequence-encoded hexagonal lattices in multichannel peptide nanofibrils",
-   "summary": "Nature, Published online: 23 September 2026; doi:10.1038/s41586-026-11016-2\nNine-residue peptides can encode discrete interaction motifs that direct the formation of hexagonal pores, which hierarchically tile into laterally expandable multichannel nanofibrils with defined topology.",
-   "link": "https://www.nature.com/articles/s41586-026-11016-2",
-   "date": "2026-09-23T00:00:00Z"
-  },
-  {
-   "feed": "science-news",
-   "title": "Nature: Banking records reveal characteristics of financial abuse",
-   "summary": "Nature, Published online: 23 September 2026; doi:10.1038/s41586-026-11049-7\nAn analysis of UK banking data reveals that people who reported being victim-survivors of financial abuse experience worse financial outcomes compared with a control group.",
-   "link": "https://www.nature.com/articles/s41586-026-11049-7",
-   "date": "2026-09-23T00:00:00Z"
-  },
-  {
-   "feed": "science-news",
-   "title": "Nature: Hepatocytes promote liver metastasis of pancreatic cancer by providing serine",
-   "summary": "Nature, Published online: 23 September 2026; doi:10.1038/s41586-026-11051-z\nMetastatic pancreatic ductal adenocarcinoma (PDAC) in the liver that lack the enzyme necessary to synthesize serine can reprogram hepatocytes to produce this amino acid, thus promoting tumour growth and survival.",
-   "link": "https://www.nature.com/articles/s41586-026-11051-z",
-   "date": "2026-09-23T00:00:00Z"
-  },
-  {
-   "feed": "science-news",
-   "title": "Nature: A design approach for bitopic kinase inhibitors",
-   "summary": "Nature, Published online: 23 September 2026; doi:10.1038/s41586-026-11056-8\nDetailed analyses of ligand choice, linkage vector and linker length enabled the development of bitopic inhibitors of ABL1 and EGFR kinases, including an ABL1 inhibitor with enhanced activity against resistance mutations and",
-   "link": "https://www.nature.com/articles/s41586-026-11056-8",
-   "date": "2026-09-23T00:00:00Z"
-  },
-  {
-   "feed": "science-news",
-   "title": "Nature: A methanogen hydrolase reveals the structure of archaeal peptidoglycan",
-   "summary": "Nature, Published online: 23 September 2026; doi:10.1038/s41586-026-11028-y\nArmA from Methanobrevibacter smithii, a dominant member of the human gut microbiome, is identified and characterized as a glycosyl hydrolase specific for cleaving the cell wall of methanogens, revealing an unsuspected chemic",
-   "link": "https://www.nature.com/articles/s41586-026-11028-y",
    "date": "2026-09-23T00:00:00Z"
   },
   {
@@ -10310,6 +10282,20 @@
    "date": "2026-09-15T00:00:00Z"
   },
   {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Saudi Arabia: Level 3: Reconsider Travel",
+   "summary": "Reconsider travel to Saudi Arabia due to risk of Iranian drone and missile targeting of American interests, armed conflict, terrorism, exit bans , and local laws regarding social media activity . Some areas have increased risk. Read the entire Travel Advisory.\nU.S. government employee travel restric",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.sau.html",
+   "date": "2026-09-15T00:00:00Z"
+  },
+  {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Cambodia: Level 2: Exercise Increased Caution",
+   "summary": "Exercise increased caution in Cambodia due to crime , unrest , and unexploded ordnance .\nExercise increased caution in Cambodia due to crime , unrest , and unexploded ordnance . Some areas have increased risk. Read the entire Travel Advisory.\nReview our Travel Guidance for Cambodia to learn how to p",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.khm.html",
+   "date": "2026-09-15T00:00:00Z"
+  },
+  {
    "feed": "us-new-rules",
    "title": "Personnel Management Office: Shared Certificates and Pooled Hiring Actions",
    "summary": "The U.S. Office of Personnel Management (OPM) is issuing an interim rule to improve hiring efficiency across federal agencies, modify provisions pertaining to how an appointing authority (i.e., the head of a Federal agency or department) may share a competitive certificate with one or more appointin",
@@ -10737,6 +10723,20 @@
    "date": "2026-09-10T00:00:00Z"
   },
   {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Italy: Level 2: Exercise Increased Caution",
+   "summary": "Exercise increased caution in Italy due to terrorism .\nThere is risk of terrorist violence, including terrorist attacks and other activity in Italy. Visit the U.S. Department of State's country reports on terrorism to learn more.\nPetty crime is common, especially in popular tourist locations and on ",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.ita.html",
+   "date": "2026-09-10T00:00:00Z"
+  },
+  {
+   "feed": "travel-advisories",
+   "title": "US travel advice for North Macedonia: Level 1: Exercise Normal Precautions",
+   "summary": "Exercise normal precaution in North Macedonia .\nNorth Macedonia is generally a safe destination for travelers.\nReview our Travel Guidance for North Macedonia to learn how to prepare for a safe trip.",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.mkd.html",
+   "date": "2026-09-10T00:00:00Z"
+  },
+  {
    "feed": "sec-enforcement",
    "title": "SEC lawsuit: Justin Chen",
    "summary": "The SEC filed a civil action in federal court against Justin Chen (litigation release LR-26634).",
@@ -10871,9 +10871,9 @@
   },
   {
    "feed": "travel-advisories",
-   "title": "US travel advice for Curaçao: Level 1: Exercise Normal Precautions",
-   "summary": "Exercise normal precaution in Curaçao.\nCuraçao is generally a safe destination for travelers.\nPetty crime is most likely to occur in popular tourist locations. Stay aware of your surroundings.\nMost crimes against foreigners are crimes of opportunity, such as theft of unsecured property or vehicle br",
-   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.cuw.html",
+   "title": "US travel advice for United Kingdom: Level 2: Exercise Increased Caution",
+   "summary": "Exercise increased caution in the United Kingdom due to terrorism .\nThere is risk of terrorist violence, including terrorist attacks and other activity in the United Kingdom. Visit the U.S. Department of State's country reports on terrorism to learn more.\nThere is also risk of isolated violence by d",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.gbr.html",
    "date": "2026-09-09T00:00:00Z"
   },
   {
@@ -10972,6 +10972,13 @@
    "title": "Iran-related Designations; Counter Terrorism Designations; Updates to Iran-related General Licenses; Issuance of Counter Terrorism General License",
    "summary": "Sanctions List Updates",
    "link": "https://ofac.treasury.gov/recent-actions/20260908",
+   "date": "2026-09-08T00:00:00Z"
+  },
+  {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Suriname: Level 1: Exercise Normal Precautions",
+   "summary": "Exercise normal precaution in Suriname .\nSuriname is generally a safe destination for travelers\nReview the Travel Guidance to learn how to prepare for a safe trip.",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.sur.html",
    "date": "2026-09-08T00:00:00Z"
   },
   {
@@ -11186,9 +11193,58 @@
   },
   {
    "feed": "travel-advisories",
-   "title": "US travel advice for Hong Kong: Level 2: Exercise Increased Caution",
-   "summary": "Exercise increased caution when traveling to the Hong Kong Special Administrative Region (SAR) due to the a rbitrary enforcement of local laws.\nExercise increased caution due to the arbitrary enforcement of local laws .\nHong Kong SAR authorities have passed laws that limit people’s civil liberties. ",
-   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.hkg.html",
+   "title": "US travel advice for São Tomé and Príncipe: Level 2: Exercise Increased Caution",
+   "summary": "Exercise increased caution in Sao Tome and Principe due to health risks.\nU.S. government employee travel restrictions\nAs of August 12, 2026, U.S. government employees working for the U.S. Mission to Angola and Sao Tome and Principe no longer need special permission to travel to Sao Tome and Principe",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.stp.html",
+   "date": "2026-09-04T00:00:00Z"
+  },
+  {
+   "feed": "travel-advisories",
+   "title": "US travel advice for China: Level 2: Exercise Increased Caution",
+   "summary": "Exercise increased caution in mainland China due to the arbitrary enforcement of local laws, the use of exit bans without a fair and transparent process under the law, and the risk of unjust arrest or detention . Some areas have increased risk. Read the entire Travel Advisory.\nExercise increased cau",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.chn.html",
+   "date": "2026-09-04T00:00:00Z"
+  },
+  {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Nepal: Level 2: Exercise Increased Caution",
+   "summary": "Exercise increased caution in Nepal due to natural disasters . Some areas have increased risk. Read the entire Travel Advisory.\nNepal regularly experiences earthquakes, floods, and landslides. Earthquakes can happen suddenly with little warning, including in the Kathmandu Valley.\nDuring the monsoon ",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.npl.html",
+   "date": "2026-09-04T00:00:00Z"
+  },
+  {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Morocco: Level 2: Exercise Increased Caution",
+   "summary": "Exercise increased caution in Morocco due to risk of terrorism . Some areas have increased risk. Read the entire Travel Advisory.\nTerrorism\nThere is risk of terrorist violence, including terrorist attacks and other activity in Morocco.\nVisit the U.S. Department of State's country reports on terroris",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.mar.html",
+   "date": "2026-09-04T00:00:00Z"
+  },
+  {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Peru: Level 2: Exercise Increased Caution",
+   "summary": "Exercise increased caution in Peru due to risk of crime, unrest, kidnapping , and terrorism . Some areas have increased risk. Read the entire Travel Advisory.\nU.S. government employees working in Peru need special authorization to travel to the Colombia-Peru border area in the Loreto Region due to s",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.per.html",
+   "date": "2026-09-04T00:00:00Z"
+  },
+  {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Tajikistan: Level 2: Exercise Increased Caution",
+   "summary": "Exercise increased caution in Tajikistan due to the risk of terrorism , unexploded landmines , and limited ability to assist U.S.-Tajik dual nationals . Some areas have increased risk. Read the entire Travel Advisory..\nTerrorism\nThere are terrorist organizations in the region. There is risk of terro",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.tjk.html",
+   "date": "2026-09-04T00:00:00Z"
+  },
+  {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Bhutan: Level 1: Exercise Normal Precautions",
+   "summary": "Exercise normal precaution in Bhutan .\nBhutan is generally a safe destination for travelers. Medical services for routine and emergency procedures are limited, specifically in rural areas. Read the Health section of the Travel Guidance on this page for more information.\nBhutan regularly experiences ",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.btn.html",
+   "date": "2026-09-04T00:00:00Z"
+  },
+  {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Macau: Level 3: Reconsider Travel",
+   "summary": "Reconsider travel to Macau SAR due to a limited ability to provide emergency consular services and a rbitrary enforcement of local law s.\nReconsider travel to Macau SAR due to a limited ability to provide emergency consular services and arbitrary enforcement of local laws .\nReconsider travel due to ",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.mac.html",
    "date": "2026-09-04T00:00:00Z"
   },
   {
@@ -11325,6 +11381,13 @@
    "date": "2026-09-01T04:49:35Z"
   },
   {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Philippines: Level 2: Exercise Increased Caution",
+   "summary": "Exercise increased caution in the Philippines due to crime , terrorism , unrest , and kidnapping . Some areas have increased risk. Read the entire Travel Advisory.\nExercise increased caution due to terrorism and unrest associated with ongoing insurgent activities in certain rural and remote regions ",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.phl.html",
+   "date": "2026-09-01T00:00:00Z"
+  },
+  {
    "feed": "us-new-rules",
    "title": "Transportation Department: National Environmental Policy Act Regulations",
    "summary": "FHWA, FRA, and FTA (collectively referred to as the \"Agencies\") are finalizing the interim final rule (IFR) published on July 3, 2025, which revised the Agencies' National Environmental Policy Act (NEPA) of 1969 implementing regulations in light of the removal of the Council on Environmental Quality",
@@ -11381,6 +11444,20 @@
    "date": "2026-08-31T00:00:00Z"
   },
   {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Brazil: Level 2: Exercise Increased Caution",
+   "summary": "Exercise increased caution in Brazil due to crime and kidnapping . Some areas have increased risk. Read the entire Travel Advisory.\nCrime\nViolent crime occurs in urban areas, day and night. Crimes include murder, armed robbery, and carjacking.\nGang activity and organized crime are widespread. and ar",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.bra.html",
+   "date": "2026-08-31T00:00:00Z"
+  },
+  {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Libya: Level 4: Do Not Travel",
+   "summary": "Do not travel to Libya for any reason due to crime , terrorism , health concerns , unrest , kidnapping , or landmines . Read entire Travel Advisory.\nDo not travel to Libya for any reason.\nRestrictions on U.S. Government Personnel Movement\nThere is currently no U.S. Embassy in Libya.\nThe U.S. governm",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.lby.html",
+   "date": "2026-08-31T00:00:00Z"
+  },
+  {
    "feed": "us-new-rules",
    "title": "Labor Department: Modifications to the Regulations Implementing the Vietnam Era Veterans' Readjustment Assistance Act of 1974, as Amended; Correction",
    "summary": "The U.S. Department of Labor published a final rule in the Federal Register on August 21, 2026, revising its implementing regulations for the Vietnam Era Veterans' Readjustment Assistance Act of 1974, as amended (VEVRAA). This document corrects amendatory instructions included in the final rule.",
@@ -11396,16 +11473,16 @@
   },
   {
    "feed": "travel-advisories",
-   "title": "US travel advice for Iraq: Level 4: Do Not Travel",
-   "summary": "Do not travel to Iraq due to terrorism, kidnapping, armed conflict, crime, health risks , and the U.S. government’s limited ability to provide emergency services to U.S. citizens in Iraq .\nDo not travel to Iraq for any reason. The U.S. government has limited ability to offer emergency services to U.",
-   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.irq.html",
-   "date": "2026-08-29T00:00:00Z"
+   "title": "US travel advice for Oman: Level 3: Reconsider Travel",
+   "summary": "Reconsider travel to Oman due to risk of armed conflict and terrorism . Some areas have increased risk. Read the entire Travel Advisory.\nAs of August 30, 2026, family members may join U.S. government employees who work in Oman.\nArmed Conflict\nFollowing the onset of hostilities between the United Sta",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.omn.html",
+   "date": "2026-08-30T00:00:00Z"
   },
   {
    "feed": "travel-advisories",
-   "title": "US travel advice for United Arab Emirates: Level 3: Reconsider Travel",
-   "summary": "Reconsider travel to the United Arab Emirates due to terrorism and armed conflict .\nU.S. government employees working in the UAE need special authorization to travel to military bases and critical energy infrastructure sites due to UAE government restrictions and potential security risks.\nAs of Augu",
-   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.are.html",
+   "title": "US travel advice for Jordan: Level 3: Reconsider Travel",
+   "summary": "Reconsider travel to Jordan due to terrorism and armed conflict . Some areas have increased risk. Read the entire Travel Advisory.\nAs of August 29, 2026, family members may join U.S. government employees who work in Jordan.\nArmed Conflict\nFollowing the onset of hostilities between the United States ",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.jor.html",
    "date": "2026-08-29T00:00:00Z"
   },
   {
@@ -11435,6 +11512,20 @@
    "summary": "2nd Quarter - Amendment filed by FRIENDS COMMITTEE ON NATIONAL LEGISLATION.",
    "link": "https://lda.gov/filings/public/filing/3fab6cea-8d98-4d11-889c-5c6b9dc18500/print/",
    "date": "2026-08-28T11:36:12Z"
+  },
+  {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Kuwait: Level 3: Reconsider Travel",
+   "summary": "Reconsider travel to Kuwait due to the threat of armed conflict , landmines , and crime .\nThe U.S. government has limited ability to offer services to U.S. citizens in Kuwait due to safety risks.\nU.S. government employee travel restrictions\nDue to safety risks, U.S. government employees need special",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.kwt.html",
+   "date": "2026-08-28T00:00:00Z"
+  },
+  {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Ukraine: Level 4: Do Not Travel",
+   "summary": "Do not travel to Ukraine for any reason due to the Russia-Ukraine war .\nU.S. embassy operations\nThe Embassy is open and operating in Kyiv; however, Embassy personnel are subject to movement, curfew, and activity restrictions, which may cause delays in provision of consular assistance to U.S. citizen",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.ukr.html",
+   "date": "2026-08-28T00:00:00Z"
   },
   {
    "feed": "us-new-rules",
@@ -11501,16 +11592,23 @@
   },
   {
    "feed": "travel-advisories",
-   "title": "US travel advice for Serbia: Level 2: Exercise Increased Caution",
-   "summary": "Exercise increased caution in Serbia due to crime .\nCrime can occur anywhere in Serbia. Police may take longer to respond than they do in the United States.\nCrime\nViolence associated with organized crime and high-profile sporting events is common.\nPetty crime is common, especially in popular tourist",
-   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.srb.html",
+   "title": "US travel advice for Bahrain: Level 3: Reconsider Travel",
+   "summary": "Reconsider travel to Bahrain due to terrorism and armed conflict .\nU.S. government employee travel restrictions\nDue to safety risks, U.S. government employees need special authorization to travel to Bahrain. Only family members 18 years of age or older may join U.S. government employees who work in ",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.bhr.html",
    "date": "2026-08-27T00:00:00Z"
   },
   {
    "feed": "travel-advisories",
-   "title": "US travel advice for Ethiopia: Level 3: Reconsider Travel",
-   "summary": "Reconsider travel to Ethiopia due to unrest, crime, kidnapping, terrorism, landmines, communications disruptions, and exit bans. Some areas have increased risk. Read the entire Travel Advisory.\nUnrest\nThe security situation in Addis Ababa is stable. However, there is sporadic violent, armed conflict",
-   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.eth.html",
+   "title": "US travel advice for Bosnia and Herzegovina: Level 2: Exercise Increased Caution",
+   "summary": "Exercise increased caution in Bosnia and Herzegovina due to risk of crime , landmines , and terrorism .\nRecent unrest has been politically related. While it has not impacted tourists or members of the international community, there is a risk that bystanders can be affected.\nReview our Travel Guidanc",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.bih.html",
+   "date": "2026-08-27T00:00:00Z"
+  },
+  {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Montenegro: Level 1: Exercise Normal Precautions",
+   "summary": "Exercise normal precaution in Montenegro .\nMontenegro is generally a safe destination for travelers.\nReview our Travel Guidance for Montenegro to learn how to prepare for a safe trip.",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.mne.html",
    "date": "2026-08-27T00:00:00Z"
   },
   {
@@ -11556,6 +11654,20 @@
    "date": "2026-08-26T00:00:00Z"
   },
   {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Guyana: Level 3: Reconsider Travel",
+   "summary": "Reconsider travel to Guyana due to crime .\nViolent crime is common, especially at night. Crimes include murder and armed robbery. Local police often lack the resources to respond effectively to serious criminal incidents.\nStabroek Market is off limits to U.S. Government employees at all times due to",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.guy.html",
+   "date": "2026-08-26T00:00:00Z"
+  },
+  {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Albania: Level 2: Exercise Increased Caution",
+   "summary": "Exercise increased caution in Albania due to crime .\nLaw enforcement’s ability to protect or help you is limited in some areas, especially in remote regions. There has been violent crime related to illicit drug networks and organized crime countrywide. Remain aware of your surroundings and identify ",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.alb.html",
+   "date": "2026-08-26T00:00:00Z"
+  },
+  {
    "feed": "us-new-rules",
    "title": "Homeland Security Department: Automated Commercial Environment (ACE) Electronic Export Manifest for Rail Cargo",
    "summary": "U.S. Customs and Border Protection (CBP) is revising its regulations pursuant to the Trade Act of 2002 requiring the transmission of export manifest data electronically in the Automated Commercial Environment (ACE) for cargo transported by rail for any train departing the United States. This rule ma",
@@ -11592,9 +11704,16 @@
   },
   {
    "feed": "travel-advisories",
-   "title": "US travel advice for Algeria: Level 2: Exercise Increased Caution",
-   "summary": "Exercise increased caution in Algeria due to terrorism and kidnapping . Some areas have increased risk. Read the entire Travel Advisory.\nTerrorism remains a possible threat in Algeria. Terrorist attacks have historically targeted Algerian security forces. Attacks are possible in both rural and urban",
-   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.dza.html",
+   "title": "US travel advice for Honduras: Level 3: Reconsider Travel",
+   "summary": "Reconsider travel to Honduras due to crime and terrorism . Some areas have an increased risk. Read the entire Travel Advisory.\nU.S. government travel restrictions\nU.S. government employees working in Honduras are not allowed to travel to Gracias a Dios department due to safety risks.\nU.S. government",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.hnd.html",
+   "date": "2026-08-25T00:00:00Z"
+  },
+  {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Kosovo: Level 2: Exercise Increased Caution",
+   "summary": "Exercise increased caution in Kosovo due to unrest and terrorism.\nUnrest\nDemonstrations related to the local political situation may occur with little notice. They may disrupt transportation and other essential services.\nTerrorism\nThere is risk of terrorist violence, including terrorist attacks and ",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.xks.html",
    "date": "2026-08-25T00:00:00Z"
   },
   {
@@ -11633,6 +11752,13 @@
    "date": "2026-08-25T00:00:00Z"
   },
   {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Sint Maarten: Level 1: Exercise Normal Precautions",
+   "summary": "Exercise normal precaution in Sint Maarten\nSint Maarten is generally a safe destination for travelers.\nPetty crime is most likely to occur in popular tourist locations. Stay aware of your surroundings.\nMost crimes against foreigners are crimes of opportunity, such as theft of unsecured property or v",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.sxm.html",
+   "date": "2026-08-24T00:00:00Z"
+  },
+  {
    "feed": "data-breaches",
    "title": "NIUS: 6K accounts breached",
    "summary": "In July 2025, the German news service NIUS suffered a data breach which was subsequently leaked publicly. The data included 6k unique email addresses along with names, physical addresses and payment details for purchases including either IBANs or partial credit card data (masked card number, type an",
@@ -11648,9 +11774,9 @@
   },
   {
    "feed": "travel-advisories",
-   "title": "US travel advice for Turkmenistan: Level 1: Exercise Normal Precautions",
-   "summary": "Exercise normal precaution in Turkmenistan .\nTurkmenistan is generally a safe destination for travelers.\nMedical services for routine and emergency procedures are limited.\nReview the Health section of the Travel Guidance on this page for more information.\nTurkmenistan is located in a seismically act",
-   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.tkm.html",
+   "title": "US travel advice for Lebanon: Level 4: Do Not Travel",
+   "summary": "Do not travel to Lebanon due to the risk of crime, terrorism, unrest, kidnapping, landmines , and armed conflict.\nDo not travel to Lebanon for any reason.\nThe U.S. government has limited ability to offer emergency services to U.S. citizens in Lebanon due to the safety risks.\nU.S. government employee",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.lbn.html",
    "date": "2026-08-21T00:00:00Z"
   },
   {
@@ -11710,41 +11836,6 @@
    "date": "2026-08-20T11:39:42Z"
   },
   {
-   "feed": "travel-advisories",
-   "title": "US travel advice for Guadeloupe: Level 1: Exercise Normal Precautions",
-   "summary": "Exercise normal precaution in Guadeloupe.\nGuadeloupe is generally a safe destination for travelers.\nGuadeloupe regularly experiences hurricanes. Review our information on Weather and Natural Disasters in Guadeloupe.\nReview our Travel Guidance for Guadeloupe to learn how to prepare for a safe trip.",
-   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.glp.html",
-   "date": "2026-08-20T00:00:00Z"
-  },
-  {
-   "feed": "travel-advisories",
-   "title": "US travel advice for Martinique: Level 1: Exercise Normal Precautions",
-   "summary": "Exercise normal precaution in Martinique.\nMartinique is generally a safe destination for travelers.\nMartinique regularly experiences hurricanes. Review our information on Weather and Natural Disasters in Martinique.\nReview our Travel Guidance for Martinique to learn how to prepare for a safe trip.",
-   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.mtq.html",
-   "date": "2026-08-20T00:00:00Z"
-  },
-  {
-   "feed": "travel-advisories",
-   "title": "US travel advice for Saint Barthelemy: Level 1: Exercise Normal Precautions",
-   "summary": "Exercise normal precaution in Saint Barthélemy.\nSaint Barthélemy is generally a safe destination for travelers.\nSaint Barthélemy regularly experiences hurricanes.\nReview our information on Weather and Natural Disasters in Saint Barthélemy.\nReview our Travel Guidance for Saint Barthélemy to learn how",
-   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.blm.html",
-   "date": "2026-08-20T00:00:00Z"
-  },
-  {
-   "feed": "travel-advisories",
-   "title": "US travel advice for Bonaire: Level 1: Exercise Normal Precautions",
-   "summary": "Exercise normal precaution in Bonaire .\nBonaire is generally a safe destination for travelers.\nPetty crime is most likely to occur in popular tourist locations. Stay aware of your surroundings.\nMost crimes against foreigners are crimes of opportunity, such as theft of unsecured property or vehicle b",
-   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.bes.html",
-   "date": "2026-08-20T00:00:00Z"
-  },
-  {
-   "feed": "travel-advisories",
-   "title": "US travel advice for Saba and Sint Eustatius: Level 1: Exercise Normal Precautions",
-   "summary": "Exercise normal precaution in Saba and Sint Eustatius .\nSaba and Sint Eustatius are generally safe destinations for travelers.\nPetty crime is most likely to occur in popular tourist locations. Stay aware of your surroundings.\nMost crimes against foreigners are crimes of opportunity, such as theft of",
-   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.xqx.html",
-   "date": "2026-08-20T00:00:00Z"
-  },
-  {
    "feed": "us-new-rules",
    "title": "Labor Department: Wagner-Peyser Act Employment Service Staffing",
    "summary": "The U.S. Department of Labor (DOL or the Department) is removing the requirement that States use State merit staff to provide Wagner-Peyser Employment Service (ES) services. This final rule allows States to use the staffing model that provides the required services with the most efficient and cost-e",
@@ -11801,20 +11892,6 @@
    "date": "2026-08-19T02:09:16Z"
   },
   {
-   "feed": "travel-advisories",
-   "title": "US travel advice for Panama: Level 2: Exercise Increased Caution",
-   "summary": "Exercise increased caution in Panama due to crime. Some areas have increased risk. Read the entire travel advisory.\nU.S. government employees working in Panama need special authorization to travel to the Mosquito Gulf and the Darién Region due to safety risks. The U.S. government has limited ability",
-   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.pan.html",
-   "date": "2026-08-19T00:00:00Z"
-  },
-  {
-   "feed": "travel-advisories",
-   "title": "US travel advice for Paraguay: Level 1: Exercise Normal Precautions",
-   "summary": "Exercise normal precaution in Paraguay due to crime.\nParaguay is generally a safe destination for travelers. Some areas have increased crime risk. U.S. government employees working in Paraguay need special authorization to travel to some areas. U.S. government employees are prohibited from using mun",
-   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.pry.html",
-   "date": "2026-08-19T00:00:00Z"
-  },
-  {
    "feed": "sec-press-releases",
    "title": "SEC Charges Former Executives With Fraud in Connection With $1.9 Billion Collapse of Subprime Auto Lender Tricolor",
    "summary": "The Securities and Exchange Commission today charged Daniel Chu, Jerome Kollar, and Ameryn Seibold, the former CEO, CFO, and Senior Director of Finance, respectively, at Texas-based Tricolor Holdings, LLC, for their roles in an alleged multi-year scheme…",
@@ -11841,13 +11918,6 @@
    "summary": "Summary\n:warning: Lighthouse v8.2.2 is a high-priority release containing fixes for several security vulnerabilities.\nAll mainnet beacon node users should upgrade as soon as practical to receive the security fixes in this release.\nUpgrade Notes\nNo special action is required beyond upgrading. This re",
    "link": "https://github.com/sigp/lighthouse/releases/tag/v8.2.2",
    "date": "2026-08-18T00:53:15Z"
-  },
-  {
-   "feed": "travel-advisories",
-   "title": "US travel advice for Mauritania: Level 3: Reconsider Travel",
-   "summary": "Reconsider travel to Mauritania due to terrorism, crime, and limited health infrastructure . Some areas have increased risk. Read the entire Travel Advisory.\nU.S. government employee travel restrictions\nThe U.S. government has limited ability to offer emergency services to American citizens in Mauri",
-   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.mrt.html",
-   "date": "2026-08-18T00:00:00Z"
   },
   {
    "feed": "sec-press-releases",
@@ -12081,20 +12151,6 @@
    "date": "2026-07-28T06:00:07Z"
   },
   {
-   "feed": "travel-advisories",
-   "title": "US travel advice for Uruguay: Level 2: Exercise Increased Caution",
-   "summary": "Exercise increased caution in Uruguay due to crime .\nExercise increased caution in Uruguay due to crime .\nCrime is most common in these departments:\nMontevideo\nCanelones\nMaldonado\nRivera\nViolent crime occurs across the country. Crimes include homicide, armed robbery, carjacking and theft. These crim",
-   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.ury.html",
-   "date": "2026-07-28T00:00:00Z"
-  },
-  {
-   "feed": "travel-advisories",
-   "title": "US travel advice for The Bahamas: Level 2: Exercise Increased Caution",
-   "summary": "Exercise increased caution in The Bahamas due to crime .\nCrime\nViolent crime, including armed robberies, burglaries, and sexual assaults, can occur anywhere in The Bahamas.\nMost crime occurs in Nassau and Freeport on New Providence and Grand Bahama islands. Stay alert in the “Over the Hill” area in ",
-   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.bhs.html",
-   "date": "2026-07-28T00:00:00Z"
-  },
-  {
    "feed": "sec-press-releases",
    "title": "Small Business Forum’s Report to Congress Highlights Recommendations to Improve Capital-Raising Policy",
    "summary": "The Securities and Exchange Commission released a report to Congress today highlighting policy recommendations from the SEC’s 45th Annual Government-Business Forum on Small Business Capital Formation. The report provides a summary of the forum…",
@@ -12277,13 +12333,6 @@
    "date": "2026-07-15T05:03:14Z"
   },
   {
-   "feed": "travel-advisories",
-   "title": "US travel advice for Democratic Republic of the Congo: Level 4: Do Not Travel",
-   "summary": "Do not travel to the Democratic Republic of the Congo (DRC) due to health , crime , unrest , terrorism , and kidnapping\nDue to the Ebola outbreak in the DRC, the Department of Homeland Security has implemented new restrictions under Title 49 of the U.S. Code which prevent U.S. citizens and nationals",
-   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.cod.html",
-   "date": "2026-07-15T00:00:00Z"
-  },
-  {
    "feed": "data-breaches",
    "title": "Glendale Community College: 793K accounts breached",
    "summary": "In June 2026, Glendale Community College was the target of a ShinyHunters \"pay or leak\" extortion campaign. Data allegedly obtained from Glendale was later published online and included almost 800k unique email addresses along with various other data fields, including names, addresses, phone numbers",
@@ -12305,39 +12354,11 @@
    "date": "2026-07-10T09:34:59Z"
   },
   {
-   "feed": "travel-advisories",
-   "title": "US travel advice for Saint Lucia: Level 2: Exercise Increased Caution",
-   "summary": "Exercise increased caution in Saint Lucia due to risk of crime .\nViolent crime can occur anywhere in Saint Lucia. U.S. citizens and other foreigners in Saint Lucia have been victims of armed robbery, assault, burglary, and rape. In some cases, U.S. citizens have been killed.\nCrime\nGuests at tourist ",
-   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.lca.html",
-   "date": "2026-07-10T00:00:00Z"
-  },
-  {
    "feed": "crypto-releases",
    "title": "bitcoin/bitcoin v31.1: Bitcoin Core 31.1",
    "summary": "Bitcoin Core version 31.1 is now available from:\nhttps://bitcoincore.org/bin/bitcoin-core-31.1/\nFor the release notes please see the git repository:\nhttps://github.com/bitcoin/bitcoin/blob/master/doc/release-notes/release-notes-31.1.md\nDo not use the links provided by GitHub. Use the above download ",
    "link": "https://github.com/bitcoin/bitcoin/releases/tag/v31.1",
    "date": "2026-07-08T09:14:15Z"
-  },
-  {
-   "feed": "travel-advisories",
-   "title": "US travel advice for Saint Kitts and Nevis: Level 1: Exercise Normal Precautions",
-   "summary": "Exercise normal precaution in Saint Kitts and Nevis.\nSaint Kitts and Nevis is generally a safe destination for travelers.\nSaint Kitts and Nevis regularly experiences hurricanes. Review our information on Weather and Natural Disasters in Saint Kitts and Nevis.\nReview our Travel Guidance for Saint Kit",
-   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.kn.html",
-   "date": "2026-07-07T00:00:00Z"
-  },
-  {
-   "feed": "travel-advisories",
-   "title": "US travel advice for Saint Vincent and the Grenadines: Level 1: Exercise Normal Precautions",
-   "summary": "Exercise normal precaution in Saint Vincent and the Grenadines .\nSaint Vincent and the Grenadines is generally a safe destination for travelers.\nSaint Vincent and the Grenadines regularly experiences hurricanes. Review our information on Weather and Natural Disasters in Saint Vincent and the Grenadi",
-   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.vct.html",
-   "date": "2026-07-07T00:00:00Z"
-  },
-  {
-   "feed": "travel-advisories",
-   "title": "US travel advice for Turks and Caicos Islands: Level 2: Exercise Increased Caution",
-   "summary": "Exercise increased caution in the Turks and Caicos Islands due to crime .\nCrime\nMost crime occurs in Providenciales. Police may have limited resources to investigate crimes.\nThere have been reports of sexual assaults in the Turks and Caicos Islands.\nPetty crime is common, especially in popular touri",
-   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.tca.html",
-   "date": "2026-07-07T00:00:00Z"
   },
   {
    "feed": "data-breaches",
@@ -12438,13 +12459,6 @@
    "date": "2026-06-18T20:08:06Z"
   },
   {
-   "feed": "travel-advisories",
-   "title": "US travel advice for Lesotho: Level 2: Exercise Increased Caution",
-   "summary": "Exercise increased caution in Lesotho due to crime and health .\nCrime\nCrime is common in Lesotho. Armed robberies and carjackings happen from time to time. Local police may not have enough resources to respond quickly when crimes occur.\nHealth\nLesotho’s health infrastructure is inadequate. Health fa",
-   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.lso.html",
-   "date": "2026-06-17T00:00:00Z"
-  },
-  {
    "feed": "disease-outbreaks",
    "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda",
    "summary": "The Bundibugyo virus disease (BVD) outbreak in the Democratic Republic of the Congo continues to evolve rapidly, with increasing case numbers and geographic spread. As of 10 June, a cumulative of 676 confirmed cases, including 136 deaths, have been reported from the Democratic Republic of the Congo.",
@@ -12508,25 +12522,11 @@
    "date": "2026-05-22T21:06:24Z"
   },
   {
-   "feed": "travel-advisories",
-   "title": "US travel advice for Antigua and Barbuda: Level 1: Exercise Normal Precautions",
-   "summary": "Exercise normal precaution in Antigua and Barbuda.\nAntigua and Barbuda is generally a safe destination for travelers.\nAntigua and Barbuda regularly experiences hurricanes. Review our information on Weather and Natural Disasters in Antigua and Barbuda.\nReview our Travel Guidance for Antigua and Barbu",
-   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.atg.html",
-   "date": "2026-05-20T00:00:00Z"
-  },
-  {
    "feed": "disease-outbreaks",
    "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda",
    "summary": "On 5 May 2026, the World Health Organization (WHO) was alerted of a high-mortality outbreak of unknown illness in Mongbwalu Health Zone, Ituri Province, Democratic Republic of the Congo (DRC), including deaths among health workers. \r\nOn 14 May 2026, the Institut national de recherche biomédicale (IN",
    "link": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON602",
    "date": "2026-05-17T09:35:15Z"
-  },
-  {
-   "feed": "travel-advisories",
-   "title": "US travel advice for South Sudan: Level 4: Do Not Travel",
-   "summary": "Do not travel to South Sudan due to risk of unrest , crime , kidnapping , landmines , and health risks .\nThe U.S. government has limited ability to provide emergency consular services to U.S. citizens in South Sudan due to the health and security situation\nFamily members cannot join U.S. government ",
-   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.ssd.html",
-   "date": "2026-05-17T00:00:00Z"
   },
   {
    "feed": "disease-outbreaks",
@@ -12578,20 +12578,6 @@
    "date": "2026-04-30T11:25:30Z"
   },
   {
-   "feed": "travel-advisories",
-   "title": "US travel advice for Lithuania: Level 1: Exercise Normal Precautions",
-   "summary": "Exercise normal precaution in Lithuania .\nLithuania is generally a safe destination for travelers.\nReview our Travel Guidance for Lithuania to learn how to prepare for a safe trip.",
-   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.ltu.html",
-   "date": "2026-04-28T00:00:00Z"
-  },
-  {
-   "feed": "travel-advisories",
-   "title": "US travel advice for Azerbaijan: Level 3: Reconsider Travel",
-   "summary": "Reconsider travel to Azerbaijan due to terrorism , armed conflict , and risk of landmines . Some areas have increased risk. Read the entire Travel Advisory.\nArmed Conflict\nFollowing the onset of hostilities between the United States and Iran on February 28, 2026, there has been an ongoing threat of ",
-   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.aze.html",
-   "date": "2026-04-28T00:00:00Z"
-  },
-  {
    "feed": "disease-outbreaks",
    "title": "Measles - Bangladesh",
    "summary": "On 4 April 2026, the National International Health Regulations (IHR) Focal Point for Bangladesh notified WHO of a nationwide increase in measles cases, geographically affecting 58 out of 64 districts across all eight divisions in Bangladesh. A total of 19 161 suspected measles cases and 2897 laborat",
@@ -12618,20 +12604,6 @@
    "summary": "Bitcoin Core version 28.4 is now available from:\nhttps://bitcoincore.org/bin/bitcoin-core-28.4/\nFor the release notes please see the git repository:\nhttps://github.com/bitcoin/bitcoin/blob/master/doc/release-notes/release-notes-28.4.md\nDo not use the links provided by GitHub. Use the above download ",
    "link": "https://github.com/bitcoin/bitcoin/releases/tag/v28.4",
    "date": "2026-04-06T06:37:17Z"
-  },
-  {
-   "feed": "travel-advisories",
-   "title": "US travel advice for Latvia: Level 1: Exercise Normal Precautions",
-   "summary": "Exercise normal precaution in Latvia .\nLatvia is generally a safe destination for travelers.\nReview our Travel Guidance for Latvia to learn how to prepare for a safe trip.",
-   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.lva.html",
-   "date": "2026-04-01T00:00:00Z"
-  },
-  {
-   "feed": "travel-advisories",
-   "title": "US travel advice for Estonia: Level 1: Exercise Normal Precautions",
-   "summary": "Exercise normal precaution in Estonia .\nEstonia is generally a safe destination for travelers.\nReview our travel guidance for Estonia to learn how to prepare for a safe trip.",
-   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.est.html",
-   "date": "2026-03-31T00:00:00Z"
   },
   {
    "feed": "crypto-releases",
@@ -12807,6 +12779,34 @@
    "summary": "The global crypto market cap pushed another 2% to $3.22T as majors continue to grind up; BTC +1% at $93,780; ETH +2% at $3,240, SOL +3% at $139; XRP led up 12% to $2.37\nRENDER (+18%), SUI (+18%) and LIT (+15%) led top movers. Bank of America formally launched its crypto recommendations for wealth cl",
    "link": "https://decrypt.co/videos/interviews/OS1PGiAq/global-crypto-mcap-up-to-322-trillion-xrp-up-12-japan-endorse-crypto-fear-greed-back-to-neutral",
    "date": "2026-01-06T16:13:32Z"
+  },
+  {
+   "feed": "crypto-news",
+   "title": "Crypto is Green! Up 6-9%! Memes outperform! Pepe up 67%! Infinex Founder Interview!",
+   "summary": "The global crypto market cap hit $3.16t (+1.5%) with majors trading higher; btc +2% at $93,000; eth +1% at $3,175, bnb +2.5% at $906, sol +1% at $135. Virtuals (+24%), render (_17%), btt (+11%) and fet (+11%) led top movers. The btc etfs saw $471m in net inflows on the first trading day of 2026, the",
+   "link": "https://decrypt.co/videos/interviews/EmmJkWJn/crypto-is-green-up-6-9-memes-outperform-pepe-up-67-infinex-founder-interview",
+   "date": "2026-01-05T16:28:36Z"
+  },
+  {
+   "feed": "crypto-news",
+   "title": "Crypto Wallets Can ‘Directly Compete With Neobanks'",
+   "summary": "Bitget Wallet CMO Jamie Elkaleh tells Decrypt how the platform is evolving from a crypto wallet to a everyday finance app that seamlessly integrates crypto with TradFi, building on its vision of \"Crypto for Everyone.\" - (Sponsored post by Bitget Wallet)",
+   "link": "https://decrypt.co/videos/interviews/WsvLVFlp/crypto-wallets-can-directly-compete-with-neobanks",
+   "date": "2026-01-05T13:44:47Z"
+  },
+  {
+   "feed": "crypto-news",
+   "title": "2026 Crypto Predictions! Tom Lee still buying ETH! Rekt tease WorldStar collab!",
+   "summary": "Btc: 87k (0%) | btc.D: 59.0% (0%). Eth: 2975 (1%) | bnb: 855 (+1%) | sol: 124 (0%). Tom Lee bought another $130M in ETH for Christmas, and still holds $1B in cash heading into the new year. REKT drinks and WorldStarHipHop tease collab. BlackRock’s BUIDL hits $100M million in dividends and passes $2 ",
+   "link": "https://decrypt.co/videos/interviews/dBDZqp65/2026-crypto-predictions-tom-lee-still-buying-eth-rekt-tease-worldstar-collab",
+   "date": "2025-12-30T16:29:12Z"
+  },
+  {
+   "feed": "crypto-news",
+   "title": "The White Whale up 10x in a week! Lighter TGE! Saylor buys $109M BTC!",
+   "summary": "Btc: 87k (-1%) | btc.D: 59.0% (0%). Eth: 2953 (-3%) | bnb: 853 (-1%) | sol: 124 (-3%). The White Whale goes almost 15x in a week, from $5m to $71m mcap. Lighter TGE rumours stirring. YouTuber Nick Shirley reveals mass fraud in Minnesota daycare system. Gold & Silver prices see huge dump",
+   "link": "https://decrypt.co/videos/interviews/50vopyFa/the-white-whale-up-10x-in-a-week-lighter-tge-saylor-buys-109m-btc",
+   "date": "2025-12-29T16:10:19Z"
   },
   {
    "feed": "disease-outbreaks",
