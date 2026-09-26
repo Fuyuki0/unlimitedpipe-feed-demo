@@ -1,0 +1,2337 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "SEC litigation releases",
+  "home_page_url": "https://www.sec.gov/enforcement-litigation/litigation-releases",
+  "description": "Events collected by UnlimitedPipe 0.9.1",
+  "_unlimitedpipe": {
+    "schema": "unlimitedpipe.event/1",
+    "generator": "UnlimitedPipe 0.9.1"
+  },
+  "items": [
+    {
+      "id": "48c89cfaf9c9cb032b55",
+      "title": "SEC lawsuit: Kristopher A. Lunsford; AKL Transport LLC; Southern Truck Leasing LLC",
+      "content_text": "The SEC filed a civil action in federal court against Kristopher A. Lunsford; AKL Transport LLC; Southern Truck Leasing LLC (litigation release LR-26648).",
+      "date_published": "2026-09-25T14:23:10Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "48c89cfaf9c9cb032b55",
+          "source": "rss",
+          "type": "change",
+          "key": "5429be99-f482-41a1-a5c1-80e3bfc07ccb",
+          "source_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:57Z",
+          "data": {
+            "change": "added",
+            "label": "SEC lawsuit: Kristopher A. Lunsford; AKL Transport LLC; Southern Truck Leasing LLC",
+            "item_type": "entry",
+            "summary": "added: SEC lawsuit: Kristopher A. Lunsford; AKL Transport LLC; Southern Truck Leasing LLC",
+            "after": {
+              "title": "SEC lawsuit: Kristopher A. Lunsford; AKL Transport LLC; Southern Truck Leasing LLC",
+              "link": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26648",
+              "id": "5429be99-f482-41a1-a5c1-80e3bfc07ccb",
+              "author": "LR-26648",
+              "published_at": "2026-09-25T14:23:10Z",
+              "updated_at": "2026-09-25T14:23:10Z",
+              "summary": "The SEC filed a civil action in federal court against Kristopher A. Lunsford; AKL Transport LLC; Southern Truck Leasing LLC (litigation release LR-26648).",
+              "categories": [],
+              "feed": {
+                "title": "Litigation Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+            "elapsed_ms": 86,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "summary=\"The SEC filed a civil action in federal court against \" + title + \" (litigation release \" + author + \").\"",
+                  "title=\"SEC lawsuit: \" + title"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-enforcement",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26648"
+    },
+    {
+      "id": "0b613eee885db9b152cd",
+      "title": "SEC lawsuit: Manish Lachwani",
+      "content_text": "The SEC filed a civil action in federal court against Manish Lachwani (litigation release LR-26647).",
+      "date_published": "2026-09-24T18:20:44Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "0b613eee885db9b152cd",
+          "source": "rss",
+          "type": "change",
+          "key": "ef4a22ab-dc72-431c-86fe-6981cc68c3d1",
+          "source_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:57Z",
+          "data": {
+            "change": "added",
+            "label": "SEC lawsuit: Manish Lachwani",
+            "item_type": "entry",
+            "summary": "added: SEC lawsuit: Manish Lachwani",
+            "after": {
+              "title": "SEC lawsuit: Manish Lachwani",
+              "link": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26647",
+              "id": "ef4a22ab-dc72-431c-86fe-6981cc68c3d1",
+              "author": "LR-26647",
+              "published_at": "2026-09-24T18:20:44Z",
+              "updated_at": "2026-09-24T18:20:44Z",
+              "summary": "The SEC filed a civil action in federal court against Manish Lachwani (litigation release LR-26647).",
+              "categories": [],
+              "feed": {
+                "title": "Litigation Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+            "elapsed_ms": 86,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "summary=\"The SEC filed a civil action in federal court against \" + title + \" (litigation release \" + author + \").\"",
+                  "title=\"SEC lawsuit: \" + title"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-enforcement",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26647"
+    },
+    {
+      "id": "4a51c57ceaffcf79250d",
+      "title": "SEC lawsuit: Michael D. Williams and CMI Capital, LLC",
+      "content_text": "The SEC filed a civil action in federal court against Michael D. Williams and CMI Capital, LLC (litigation release LR-26646).",
+      "date_published": "2026-09-23T20:01:48Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "4a51c57ceaffcf79250d",
+          "source": "rss",
+          "type": "change",
+          "key": "0e8af7b1-2e5e-4150-a40b-214798249a82",
+          "source_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:57Z",
+          "data": {
+            "change": "added",
+            "label": "SEC lawsuit: Michael D. Williams and CMI Capital, LLC",
+            "item_type": "entry",
+            "summary": "added: SEC lawsuit: Michael D. Williams and CMI Capital, LLC",
+            "after": {
+              "title": "SEC lawsuit: Michael D. Williams and CMI Capital, LLC",
+              "link": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26646",
+              "id": "0e8af7b1-2e5e-4150-a40b-214798249a82",
+              "author": "LR-26646",
+              "published_at": "2026-09-23T20:01:48Z",
+              "updated_at": "2026-09-23T20:01:48Z",
+              "summary": "The SEC filed a civil action in federal court against Michael D. Williams and CMI Capital, LLC (litigation release LR-26646).",
+              "categories": [],
+              "feed": {
+                "title": "Litigation Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+            "elapsed_ms": 86,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "summary=\"The SEC filed a civil action in federal court against \" + title + \" (litigation release \" + author + \").\"",
+                  "title=\"SEC lawsuit: \" + title"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-enforcement",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26646"
+    },
+    {
+      "id": "b21d173239a86946f15f",
+      "title": "SEC lawsuit: Lawrence Billimek and Alan Williams",
+      "content_text": "The SEC filed a civil action in federal court against Lawrence Billimek and Alan Williams (litigation release LR-26645).",
+      "date_published": "2026-09-22T22:37:52Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "b21d173239a86946f15f",
+          "source": "rss",
+          "type": "change",
+          "key": "7a1e4670-5195-4958-b49b-c6fe724a36bb",
+          "source_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:57Z",
+          "data": {
+            "change": "added",
+            "label": "SEC lawsuit: Lawrence Billimek and Alan Williams",
+            "item_type": "entry",
+            "summary": "added: SEC lawsuit: Lawrence Billimek and Alan Williams",
+            "after": {
+              "title": "SEC lawsuit: Lawrence Billimek and Alan Williams",
+              "link": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26645",
+              "id": "7a1e4670-5195-4958-b49b-c6fe724a36bb",
+              "author": "LR-26645",
+              "published_at": "2026-09-22T22:37:52Z",
+              "updated_at": "2026-09-22T22:37:52Z",
+              "summary": "The SEC filed a civil action in federal court against Lawrence Billimek and Alan Williams (litigation release LR-26645).",
+              "categories": [],
+              "feed": {
+                "title": "Litigation Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+            "elapsed_ms": 86,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "summary=\"The SEC filed a civil action in federal court against \" + title + \" (litigation release \" + author + \").\"",
+                  "title=\"SEC lawsuit: \" + title"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-enforcement",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26645"
+    },
+    {
+      "id": "4cc33382e625638656ea",
+      "title": "SEC lawsuit: Michael T. Christensen",
+      "content_text": "The SEC filed a civil action in federal court against Michael T. Christensen (litigation release LR-26644).",
+      "date_published": "2026-09-21T21:32:16Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "4cc33382e625638656ea",
+          "source": "rss",
+          "type": "change",
+          "key": "553abaf7-d77a-4175-92d6-9847a5230b6f",
+          "source_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:57Z",
+          "data": {
+            "change": "added",
+            "label": "SEC lawsuit: Michael T. Christensen",
+            "item_type": "entry",
+            "summary": "added: SEC lawsuit: Michael T. Christensen",
+            "after": {
+              "title": "SEC lawsuit: Michael T. Christensen",
+              "link": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26644",
+              "id": "553abaf7-d77a-4175-92d6-9847a5230b6f",
+              "author": "LR-26644",
+              "published_at": "2026-09-21T21:32:16Z",
+              "updated_at": "2026-09-21T21:32:16Z",
+              "summary": "The SEC filed a civil action in federal court against Michael T. Christensen (litigation release LR-26644).",
+              "categories": [],
+              "feed": {
+                "title": "Litigation Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+            "elapsed_ms": 86,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "summary=\"The SEC filed a civil action in federal court against \" + title + \" (litigation release \" + author + \").\"",
+                  "title=\"SEC lawsuit: \" + title"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-enforcement",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26644"
+    },
+    {
+      "id": "c417f50004c9f5379909",
+      "title": "SEC lawsuit: Michael Ayala; Wavemark Capital, LLC",
+      "content_text": "The SEC filed a civil action in federal court against Michael Ayala; Wavemark Capital, LLC (litigation release LR-26643).",
+      "date_published": "2026-09-21T21:27:18Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c417f50004c9f5379909",
+          "source": "rss",
+          "type": "change",
+          "key": "e57cbb2e-a450-455b-b66e-34f4a66c0a21",
+          "source_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:57Z",
+          "data": {
+            "change": "added",
+            "label": "SEC lawsuit: Michael Ayala; Wavemark Capital, LLC",
+            "item_type": "entry",
+            "summary": "added: SEC lawsuit: Michael Ayala; Wavemark Capital, LLC",
+            "after": {
+              "title": "SEC lawsuit: Michael Ayala; Wavemark Capital, LLC",
+              "link": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26643",
+              "id": "e57cbb2e-a450-455b-b66e-34f4a66c0a21",
+              "author": "LR-26643",
+              "published_at": "2026-09-21T21:27:18Z",
+              "updated_at": "2026-09-21T21:27:18Z",
+              "summary": "The SEC filed a civil action in federal court against Michael Ayala; Wavemark Capital, LLC (litigation release LR-26643).",
+              "categories": [],
+              "feed": {
+                "title": "Litigation Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+            "elapsed_ms": 86,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "summary=\"The SEC filed a civil action in federal court against \" + title + \" (litigation release \" + author + \").\"",
+                  "title=\"SEC lawsuit: \" + title"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-enforcement",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26643"
+    },
+    {
+      "id": "a0eb8dea704aab2402a2",
+      "title": "SEC lawsuit: Ellen Polcari",
+      "content_text": "The SEC filed a civil action in federal court against Ellen Polcari (litigation release LR-26642).",
+      "date_published": "2026-09-18T20:06:11Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "a0eb8dea704aab2402a2",
+          "source": "rss",
+          "type": "change",
+          "key": "810b6c3e-281f-4df6-bd06-178e09aaf1dc",
+          "source_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:57Z",
+          "data": {
+            "change": "added",
+            "label": "SEC lawsuit: Ellen Polcari",
+            "item_type": "entry",
+            "summary": "added: SEC lawsuit: Ellen Polcari",
+            "after": {
+              "title": "SEC lawsuit: Ellen Polcari",
+              "link": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26642",
+              "id": "810b6c3e-281f-4df6-bd06-178e09aaf1dc",
+              "author": "LR-26642",
+              "published_at": "2026-09-18T20:06:11Z",
+              "updated_at": "2026-09-18T20:06:11Z",
+              "summary": "The SEC filed a civil action in federal court against Ellen Polcari (litigation release LR-26642).",
+              "categories": [],
+              "feed": {
+                "title": "Litigation Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+            "elapsed_ms": 86,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "summary=\"The SEC filed a civil action in federal court against \" + title + \" (litigation release \" + author + \").\"",
+                  "title=\"SEC lawsuit: \" + title"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-enforcement",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26642"
+    },
+    {
+      "id": "0fb9fcd832d3a694650a",
+      "title": "SEC lawsuit: Jessica Richman and Zachary Apte",
+      "content_text": "The SEC filed a civil action in federal court against Jessica Richman and Zachary Apte (litigation release LR-26641).",
+      "date_published": "2026-09-16T22:01:05Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "0fb9fcd832d3a694650a",
+          "source": "rss",
+          "type": "change",
+          "key": "ae74be2b-20e4-42ab-9022-379829e71e2e",
+          "source_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:57Z",
+          "data": {
+            "change": "added",
+            "label": "SEC lawsuit: Jessica Richman and Zachary Apte",
+            "item_type": "entry",
+            "summary": "added: SEC lawsuit: Jessica Richman and Zachary Apte",
+            "after": {
+              "title": "SEC lawsuit: Jessica Richman and Zachary Apte",
+              "link": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26641",
+              "id": "ae74be2b-20e4-42ab-9022-379829e71e2e",
+              "author": "LR-26641",
+              "published_at": "2026-09-16T22:01:05Z",
+              "updated_at": "2026-09-16T22:01:05Z",
+              "summary": "The SEC filed a civil action in federal court against Jessica Richman and Zachary Apte (litigation release LR-26641).",
+              "categories": [],
+              "feed": {
+                "title": "Litigation Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+            "elapsed_ms": 86,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "summary=\"The SEC filed a civil action in federal court against \" + title + \" (litigation release \" + author + \").\"",
+                  "title=\"SEC lawsuit: \" + title"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-enforcement",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26641"
+    },
+    {
+      "id": "a6c7842125169004d3ab",
+      "title": "SEC lawsuit: Jon P. Kipp",
+      "content_text": "The SEC filed a civil action in federal court against Jon P. Kipp (litigation release LR-26640).",
+      "date_published": "2026-09-15T21:32:14Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "a6c7842125169004d3ab",
+          "source": "rss",
+          "type": "change",
+          "key": "e09737b4-0883-43eb-82c7-2c1da5d866ef",
+          "source_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:57Z",
+          "data": {
+            "change": "added",
+            "label": "SEC lawsuit: Jon P. Kipp",
+            "item_type": "entry",
+            "summary": "added: SEC lawsuit: Jon P. Kipp",
+            "after": {
+              "title": "SEC lawsuit: Jon P. Kipp",
+              "link": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26640",
+              "id": "e09737b4-0883-43eb-82c7-2c1da5d866ef",
+              "author": "LR-26640",
+              "published_at": "2026-09-15T21:32:14Z",
+              "updated_at": "2026-09-15T21:32:14Z",
+              "summary": "The SEC filed a civil action in federal court against Jon P. Kipp (litigation release LR-26640).",
+              "categories": [],
+              "feed": {
+                "title": "Litigation Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+            "elapsed_ms": 86,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "summary=\"The SEC filed a civil action in federal court against \" + title + \" (litigation release \" + author + \").\"",
+                  "title=\"SEC lawsuit: \" + title"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-enforcement",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26640"
+    },
+    {
+      "id": "e15c6309258789592547",
+      "title": "SEC lawsuit: Ernest Ossei Boateng, Intercontinental Wealth Network, LLC, and I Wealth Network LP",
+      "content_text": "The SEC filed a civil action in federal court against Ernest Ossei Boateng, Intercontinental Wealth Network, LLC, and I Wealth Network LP (litigation release LR-26639).",
+      "date_published": "2026-09-14T19:28:38Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "e15c6309258789592547",
+          "source": "rss",
+          "type": "change",
+          "key": "bd6c85ca-6994-45d7-864d-759291870263",
+          "source_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:57Z",
+          "data": {
+            "change": "added",
+            "label": "SEC lawsuit: Ernest Ossei Boateng, Intercontinental Wealth Network, LLC, and I Wealth Network LP",
+            "item_type": "entry",
+            "summary": "added: SEC lawsuit: Ernest Ossei Boateng, Intercontinental Wealth Network, LLC, and I Wealth Network LP",
+            "after": {
+              "title": "SEC lawsuit: Ernest Ossei Boateng, Intercontinental Wealth Network, LLC, and I Wealth Network LP",
+              "link": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26639",
+              "id": "bd6c85ca-6994-45d7-864d-759291870263",
+              "author": "LR-26639",
+              "published_at": "2026-09-14T19:28:38Z",
+              "updated_at": "2026-09-14T19:28:38Z",
+              "summary": "The SEC filed a civil action in federal court against Ernest Ossei Boateng, Intercontinental Wealth Network, LLC, and I Wealth Network LP (litigation release LR-26639).",
+              "categories": [],
+              "feed": {
+                "title": "Litigation Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+            "elapsed_ms": 86,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "summary=\"The SEC filed a civil action in federal court against \" + title + \" (litigation release \" + author + \").\"",
+                  "title=\"SEC lawsuit: \" + title"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-enforcement",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26639"
+    },
+    {
+      "id": "795d2c78ec945fc575c5",
+      "title": "SEC lawsuit: Paul Thomas Croft, Jonathan David Frost, Matthew William Dira",
+      "content_text": "The SEC filed a civil action in federal court against Paul Thomas Croft, Jonathan David Frost, Matthew William Dira (litigation release LR-26638).",
+      "date_published": "2026-09-14T19:15:44Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "795d2c78ec945fc575c5",
+          "source": "rss",
+          "type": "change",
+          "key": "efb78934-ecf4-4630-ab08-715588a9ed0d",
+          "source_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:57Z",
+          "data": {
+            "change": "added",
+            "label": "SEC lawsuit: Paul Thomas Croft, Jonathan David Frost, Matthew William Dira",
+            "item_type": "entry",
+            "summary": "added: SEC lawsuit: Paul Thomas Croft, Jonathan David Frost, Matthew William Dira",
+            "after": {
+              "title": "SEC lawsuit: Paul Thomas Croft, Jonathan David Frost, Matthew William Dira",
+              "link": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26638",
+              "id": "efb78934-ecf4-4630-ab08-715588a9ed0d",
+              "author": "LR-26638",
+              "published_at": "2026-09-14T19:15:44Z",
+              "updated_at": "2026-09-14T19:15:44Z",
+              "summary": "The SEC filed a civil action in federal court against Paul Thomas Croft, Jonathan David Frost, Matthew William Dira (litigation release LR-26638).",
+              "categories": [],
+              "feed": {
+                "title": "Litigation Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+            "elapsed_ms": 86,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "summary=\"The SEC filed a civil action in federal court against \" + title + \" (litigation release \" + author + \").\"",
+                  "title=\"SEC lawsuit: \" + title"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-enforcement",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26638"
+    },
+    {
+      "id": "3f8a791d86ea81b35cbf",
+      "title": "SEC lawsuit: Adam B. Rundle",
+      "content_text": "The SEC filed a civil action in federal court against Adam B. Rundle (litigation release LR-26637).",
+      "date_published": "2026-09-11T21:22:15Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "3f8a791d86ea81b35cbf",
+          "source": "rss",
+          "type": "change",
+          "key": "fc6b0b91-cbbc-4af2-8f6d-6cd4f4b40b1a",
+          "source_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:57Z",
+          "data": {
+            "change": "added",
+            "label": "SEC lawsuit: Adam B. Rundle",
+            "item_type": "entry",
+            "summary": "added: SEC lawsuit: Adam B. Rundle",
+            "after": {
+              "title": "SEC lawsuit: Adam B. Rundle",
+              "link": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26637",
+              "id": "fc6b0b91-cbbc-4af2-8f6d-6cd4f4b40b1a",
+              "author": "LR-26637",
+              "published_at": "2026-09-11T21:22:15Z",
+              "updated_at": "2026-09-11T21:22:15Z",
+              "summary": "The SEC filed a civil action in federal court against Adam B. Rundle (litigation release LR-26637).",
+              "categories": [],
+              "feed": {
+                "title": "Litigation Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+            "elapsed_ms": 86,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "summary=\"The SEC filed a civil action in federal court against \" + title + \" (litigation release \" + author + \").\"",
+                  "title=\"SEC lawsuit: \" + title"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-enforcement",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26637"
+    },
+    {
+      "id": "a147bbdb686cd6a5b301",
+      "title": "SEC lawsuit: Invesco Alpha Inc.",
+      "content_text": "The SEC filed a civil action in federal court against Invesco Alpha Inc. (litigation release LR-26636).",
+      "date_published": "2026-09-11T21:09:36Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "a147bbdb686cd6a5b301",
+          "source": "rss",
+          "type": "change",
+          "key": "39dfa7fc-a549-4fc1-bb92-1bf2bc580133",
+          "source_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:57Z",
+          "data": {
+            "change": "added",
+            "label": "SEC lawsuit: Invesco Alpha Inc.",
+            "item_type": "entry",
+            "summary": "added: SEC lawsuit: Invesco Alpha Inc.",
+            "after": {
+              "title": "SEC lawsuit: Invesco Alpha Inc.",
+              "link": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26636",
+              "id": "39dfa7fc-a549-4fc1-bb92-1bf2bc580133",
+              "author": "LR-26636",
+              "published_at": "2026-09-11T21:09:36Z",
+              "updated_at": "2026-09-11T21:09:36Z",
+              "summary": "The SEC filed a civil action in federal court against Invesco Alpha Inc. (litigation release LR-26636).",
+              "categories": [],
+              "feed": {
+                "title": "Litigation Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+            "elapsed_ms": 86,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "summary=\"The SEC filed a civil action in federal court against \" + title + \" (litigation release \" + author + \").\"",
+                  "title=\"SEC lawsuit: \" + title"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-enforcement",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26636"
+    },
+    {
+      "id": "be831f091670194d31af",
+      "title": "SEC lawsuit: Paul W. Jorgensen",
+      "content_text": "The SEC filed a civil action in federal court against Paul W. Jorgensen (litigation release LR-26635).",
+      "date_published": "2026-09-10T21:34:24Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "be831f091670194d31af",
+          "source": "rss",
+          "type": "change",
+          "key": "b6d136fa-9165-4480-a3d1-17c7fcac768d",
+          "source_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:57Z",
+          "data": {
+            "change": "added",
+            "label": "SEC lawsuit: Paul W. Jorgensen",
+            "item_type": "entry",
+            "summary": "added: SEC lawsuit: Paul W. Jorgensen",
+            "after": {
+              "title": "SEC lawsuit: Paul W. Jorgensen",
+              "link": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26635",
+              "id": "b6d136fa-9165-4480-a3d1-17c7fcac768d",
+              "author": "LR-26635",
+              "published_at": "2026-09-10T21:34:24Z",
+              "updated_at": "2026-09-10T21:34:24Z",
+              "summary": "The SEC filed a civil action in federal court against Paul W. Jorgensen (litigation release LR-26635).",
+              "categories": [],
+              "feed": {
+                "title": "Litigation Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+            "elapsed_ms": 86,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "summary=\"The SEC filed a civil action in federal court against \" + title + \" (litigation release \" + author + \").\"",
+                  "title=\"SEC lawsuit: \" + title"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-enforcement",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26635"
+    },
+    {
+      "id": "63b1274ad3f70d133b03",
+      "title": "SEC lawsuit: Justin Chen",
+      "content_text": "The SEC filed a civil action in federal court against Justin Chen (litigation release LR-26634).",
+      "date_published": "2026-09-09T21:50:09Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "63b1274ad3f70d133b03",
+          "source": "rss",
+          "type": "change",
+          "key": "eef9e58f-79d1-45d3-9c02-51ebcd521a90",
+          "source_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:57Z",
+          "data": {
+            "change": "added",
+            "label": "SEC lawsuit: Justin Chen",
+            "item_type": "entry",
+            "summary": "added: SEC lawsuit: Justin Chen",
+            "after": {
+              "title": "SEC lawsuit: Justin Chen",
+              "link": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26634",
+              "id": "eef9e58f-79d1-45d3-9c02-51ebcd521a90",
+              "author": "LR-26634",
+              "published_at": "2026-09-09T21:50:09Z",
+              "updated_at": "2026-09-09T21:50:09Z",
+              "summary": "The SEC filed a civil action in federal court against Justin Chen (litigation release LR-26634).",
+              "categories": [],
+              "feed": {
+                "title": "Litigation Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+            "elapsed_ms": 86,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "summary=\"The SEC filed a civil action in federal court against \" + title + \" (litigation release \" + author + \").\"",
+                  "title=\"SEC lawsuit: \" + title"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-enforcement",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26634"
+    },
+    {
+      "id": "f62790844d663632503e",
+      "title": "SEC lawsuit: Francisco Javier Sarabia",
+      "content_text": "The SEC filed a civil action in federal court against Francisco Javier Sarabia (litigation release LR-26633).",
+      "date_published": "2026-09-08T17:54:53Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "f62790844d663632503e",
+          "source": "rss",
+          "type": "change",
+          "key": "ff53cfe5-5e4d-4121-8ff0-72bc5e9e9f7f",
+          "source_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:57Z",
+          "data": {
+            "change": "added",
+            "label": "SEC lawsuit: Francisco Javier Sarabia",
+            "item_type": "entry",
+            "summary": "added: SEC lawsuit: Francisco Javier Sarabia",
+            "after": {
+              "title": "SEC lawsuit: Francisco Javier Sarabia",
+              "link": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26633",
+              "id": "ff53cfe5-5e4d-4121-8ff0-72bc5e9e9f7f",
+              "author": "LR-26633",
+              "published_at": "2026-09-08T17:54:53Z",
+              "updated_at": "2026-09-08T17:54:53Z",
+              "summary": "The SEC filed a civil action in federal court against Francisco Javier Sarabia (litigation release LR-26633).",
+              "categories": [],
+              "feed": {
+                "title": "Litigation Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+            "elapsed_ms": 86,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "summary=\"The SEC filed a civil action in federal court against \" + title + \" (litigation release \" + author + \").\"",
+                  "title=\"SEC lawsuit: \" + title"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-enforcement",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26633"
+    },
+    {
+      "id": "29a4e91f322c6cb5a42b",
+      "title": "SEC lawsuit: Institutional Shareholder Services, Inc.",
+      "content_text": "The SEC filed a civil action in federal court against Institutional Shareholder Services, Inc. (litigation release LR-26632).",
+      "date_published": "2026-09-04T23:58:52Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "29a4e91f322c6cb5a42b",
+          "source": "rss",
+          "type": "change",
+          "key": "c4ff6741-182d-43c1-b904-64c95b4c7792",
+          "source_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:57Z",
+          "data": {
+            "change": "added",
+            "label": "SEC lawsuit: Institutional Shareholder Services, Inc.",
+            "item_type": "entry",
+            "summary": "added: SEC lawsuit: Institutional Shareholder Services, Inc.",
+            "after": {
+              "title": "SEC lawsuit: Institutional Shareholder Services, Inc.",
+              "link": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26632",
+              "id": "c4ff6741-182d-43c1-b904-64c95b4c7792",
+              "author": "LR-26632",
+              "published_at": "2026-09-04T23:58:52Z",
+              "updated_at": "2026-09-04T23:58:52Z",
+              "summary": "The SEC filed a civil action in federal court against Institutional Shareholder Services, Inc. (litigation release LR-26632).",
+              "categories": [],
+              "feed": {
+                "title": "Litigation Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+            "elapsed_ms": 86,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "summary=\"The SEC filed a civil action in federal court against \" + title + \" (litigation release \" + author + \").\"",
+                  "title=\"SEC lawsuit: \" + title"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-enforcement",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26632"
+    },
+    {
+      "id": "b6140aeb909422642bdb",
+      "title": "SEC lawsuit: Parker Terrill Austin; Embarcadero Capital Advisors, Inc.",
+      "content_text": "The SEC filed a civil action in federal court against Parker Terrill Austin; Embarcadero Capital Advisors, Inc. (litigation release LR-26631).",
+      "date_published": "2026-09-04T17:11:31Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "b6140aeb909422642bdb",
+          "source": "rss",
+          "type": "change",
+          "key": "2660b25c-261a-4782-8bb8-fb80a520393c",
+          "source_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:57Z",
+          "data": {
+            "change": "added",
+            "label": "SEC lawsuit: Parker Terrill Austin; Embarcadero Capital Advisors, Inc.",
+            "item_type": "entry",
+            "summary": "added: SEC lawsuit: Parker Terrill Austin; Embarcadero Capital Advisors, Inc.",
+            "after": {
+              "title": "SEC lawsuit: Parker Terrill Austin; Embarcadero Capital Advisors, Inc.",
+              "link": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26631",
+              "id": "2660b25c-261a-4782-8bb8-fb80a520393c",
+              "author": "LR-26631",
+              "published_at": "2026-09-04T17:11:31Z",
+              "updated_at": "2026-09-04T17:11:31Z",
+              "summary": "The SEC filed a civil action in federal court against Parker Terrill Austin; Embarcadero Capital Advisors, Inc. (litigation release LR-26631).",
+              "categories": [],
+              "feed": {
+                "title": "Litigation Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+            "elapsed_ms": 86,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "summary=\"The SEC filed a civil action in federal court against \" + title + \" (litigation release \" + author + \").\"",
+                  "title=\"SEC lawsuit: \" + title"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-enforcement",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26631"
+    },
+    {
+      "id": "6792118a435ce7074d18",
+      "title": "SEC lawsuit: Omar Dario Chavez",
+      "content_text": "The SEC filed a civil action in federal court against Omar Dario Chavez (litigation release LR-26630).",
+      "date_published": "2026-09-04T16:31:08Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "6792118a435ce7074d18",
+          "source": "rss",
+          "type": "change",
+          "key": "2985d094-084b-411a-8d80-d43a6f56cf82",
+          "source_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:57Z",
+          "data": {
+            "change": "added",
+            "label": "SEC lawsuit: Omar Dario Chavez",
+            "item_type": "entry",
+            "summary": "added: SEC lawsuit: Omar Dario Chavez",
+            "after": {
+              "title": "SEC lawsuit: Omar Dario Chavez",
+              "link": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26630",
+              "id": "2985d094-084b-411a-8d80-d43a6f56cf82",
+              "author": "LR-26630",
+              "published_at": "2026-09-04T16:31:08Z",
+              "updated_at": "2026-09-04T16:31:08Z",
+              "summary": "The SEC filed a civil action in federal court against Omar Dario Chavez (litigation release LR-26630).",
+              "categories": [],
+              "feed": {
+                "title": "Litigation Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+            "elapsed_ms": 86,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "summary=\"The SEC filed a civil action in federal court against \" + title + \" (litigation release \" + author + \").\"",
+                  "title=\"SEC lawsuit: \" + title"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-enforcement",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26630"
+    },
+    {
+      "id": "7ff9bfc6566c842d62c3",
+      "title": "SEC lawsuit: Trijya Vakil and Neeraj Visen",
+      "content_text": "The SEC filed a civil action in federal court against Trijya Vakil and Neeraj Visen (litigation release LR-26629).",
+      "date_published": "2026-09-04T16:20:11Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "7ff9bfc6566c842d62c3",
+          "source": "rss",
+          "type": "change",
+          "key": "f5ac60e6-c743-4ddc-a28c-cca43ec43363",
+          "source_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:57Z",
+          "data": {
+            "change": "added",
+            "label": "SEC lawsuit: Trijya Vakil and Neeraj Visen",
+            "item_type": "entry",
+            "summary": "added: SEC lawsuit: Trijya Vakil and Neeraj Visen",
+            "after": {
+              "title": "SEC lawsuit: Trijya Vakil and Neeraj Visen",
+              "link": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26629",
+              "id": "f5ac60e6-c743-4ddc-a28c-cca43ec43363",
+              "author": "LR-26629",
+              "published_at": "2026-09-04T16:20:11Z",
+              "updated_at": "2026-09-04T16:20:11Z",
+              "summary": "The SEC filed a civil action in federal court against Trijya Vakil and Neeraj Visen (litigation release LR-26629).",
+              "categories": [],
+              "feed": {
+                "title": "Litigation Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+            "elapsed_ms": 86,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "summary=\"The SEC filed a civil action in federal court against \" + title + \" (litigation release \" + author + \").\"",
+                  "title=\"SEC lawsuit: \" + title"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-enforcement",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26629"
+    },
+    {
+      "id": "1cbccacac37dfe158797",
+      "title": "SEC lawsuit: Waldon Fenster",
+      "content_text": "The SEC filed a civil action in federal court against Waldon Fenster (litigation release LR-26628).",
+      "date_published": "2026-09-04T16:08:21Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "1cbccacac37dfe158797",
+          "source": "rss",
+          "type": "change",
+          "key": "41213db0-005b-45f3-979e-f0940dd9870c",
+          "source_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:57Z",
+          "data": {
+            "change": "added",
+            "label": "SEC lawsuit: Waldon Fenster",
+            "item_type": "entry",
+            "summary": "added: SEC lawsuit: Waldon Fenster",
+            "after": {
+              "title": "SEC lawsuit: Waldon Fenster",
+              "link": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26628",
+              "id": "41213db0-005b-45f3-979e-f0940dd9870c",
+              "author": "LR-26628",
+              "published_at": "2026-09-04T16:08:21Z",
+              "updated_at": "2026-09-04T16:08:21Z",
+              "summary": "The SEC filed a civil action in federal court against Waldon Fenster (litigation release LR-26628).",
+              "categories": [],
+              "feed": {
+                "title": "Litigation Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+            "elapsed_ms": 86,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "summary=\"The SEC filed a civil action in federal court against \" + title + \" (litigation release \" + author + \").\"",
+                  "title=\"SEC lawsuit: \" + title"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-enforcement",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26628"
+    },
+    {
+      "id": "8d5e33bccce7fca4a798",
+      "title": "SEC lawsuit: Mark D. Hanf and Hoai-Nam Chu Phan a/k/a Nam Phan",
+      "content_text": "The SEC filed a civil action in federal court against Mark D. Hanf and Hoai-Nam Chu Phan a/k/a Nam Phan (litigation release LR-26627).",
+      "date_published": "2026-09-04T15:10:09Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "8d5e33bccce7fca4a798",
+          "source": "rss",
+          "type": "change",
+          "key": "5626c1c3-a11b-40f4-bac8-5a1a5fceaa10",
+          "source_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:57Z",
+          "data": {
+            "change": "added",
+            "label": "SEC lawsuit: Mark D. Hanf and Hoai-Nam Chu Phan a/k/a Nam Phan",
+            "item_type": "entry",
+            "summary": "added: SEC lawsuit: Mark D. Hanf and Hoai-Nam Chu Phan a/k/a Nam Phan",
+            "after": {
+              "title": "SEC lawsuit: Mark D. Hanf and Hoai-Nam Chu Phan a/k/a Nam Phan",
+              "link": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26627",
+              "id": "5626c1c3-a11b-40f4-bac8-5a1a5fceaa10",
+              "author": "LR-26627",
+              "published_at": "2026-09-04T15:10:09Z",
+              "updated_at": "2026-09-04T15:10:09Z",
+              "summary": "The SEC filed a civil action in federal court against Mark D. Hanf and Hoai-Nam Chu Phan a/k/a Nam Phan (litigation release LR-26627).",
+              "categories": [],
+              "feed": {
+                "title": "Litigation Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+            "elapsed_ms": 86,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "summary=\"The SEC filed a civil action in federal court against \" + title + \" (litigation release \" + author + \").\"",
+                  "title=\"SEC lawsuit: \" + title"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-enforcement",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26627"
+    },
+    {
+      "id": "1e1c4cef78da5d9ce98a",
+      "title": "SEC lawsuit: Corey Ortiz",
+      "content_text": "The SEC filed a civil action in federal court against Corey Ortiz (litigation release LR-26626).",
+      "date_published": "2026-09-03T16:44:12Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "1e1c4cef78da5d9ce98a",
+          "source": "rss",
+          "type": "change",
+          "key": "9d3bbddb-7eb6-470b-8aa5-2f66a79e24c1",
+          "source_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:57Z",
+          "data": {
+            "change": "added",
+            "label": "SEC lawsuit: Corey Ortiz",
+            "item_type": "entry",
+            "summary": "added: SEC lawsuit: Corey Ortiz",
+            "after": {
+              "title": "SEC lawsuit: Corey Ortiz",
+              "link": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26626",
+              "id": "9d3bbddb-7eb6-470b-8aa5-2f66a79e24c1",
+              "author": "LR-26626",
+              "published_at": "2026-09-03T16:44:12Z",
+              "updated_at": "2026-09-03T16:44:12Z",
+              "summary": "The SEC filed a civil action in federal court against Corey Ortiz (litigation release LR-26626).",
+              "categories": [],
+              "feed": {
+                "title": "Litigation Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+            "elapsed_ms": 86,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "summary=\"The SEC filed a civil action in federal court against \" + title + \" (litigation release \" + author + \").\"",
+                  "title=\"SEC lawsuit: \" + title"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-enforcement",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26626"
+    },
+    {
+      "id": "9fb2ae50b61a6c561eec",
+      "title": "SEC lawsuit: Mordechai Haim Ferder and Simba IL Holdings LLC, Defendants; Mordechai Haim Ferder and Edit Fintzi Ferder in Their Capacities as Trustees of the Haim Family Trust, TF 2021 Irrevocable Trust, and RF 2021 Irrevocable Trust, Relief Defendants",
+      "content_text": "The SEC filed a civil action in federal court against Mordechai Haim Ferder and Simba IL Holdings LLC, Defendants; Mordechai Haim Ferder and Edit Fintzi Ferder in Their Capacities as Trustees of the Haim Family Trust, TF 2021 Irrevocable Trust, and RF 2021 Irrevocable Trust, Relief Defendants (litigation release LR-26625).",
+      "date_published": "2026-09-01T20:48:21Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "9fb2ae50b61a6c561eec",
+          "source": "rss",
+          "type": "change",
+          "key": "cf6c80af-af48-4b25-b015-619703ae7388",
+          "source_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:57Z",
+          "data": {
+            "change": "added",
+            "label": "SEC lawsuit: Mordechai Haim Ferder and Simba IL Holdings LLC, Defendants; Mordechai Haim Ferder and Edit Fintzi Ferder in Their Capacities as Trustees of the Haim Family Trust, TF 2021 Irrevocable Trust, and RF 2021 Irrevocable Trust, Relief Defendants",
+            "item_type": "entry",
+            "summary": "added: SEC lawsuit: Mordechai Haim Ferder and Simba IL Holdings LLC, Defendants; Mordechai Haim Ferder and Edit Fintzi Ferder in Their Capacities as Trustees of the Haim Family Trust, TF 2021 Irrevocable Trust, and RF 2021 Irrevocable Trust, Relief Defendants",
+            "after": {
+              "title": "SEC lawsuit: Mordechai Haim Ferder and Simba IL Holdings LLC, Defendants; Mordechai Haim Ferder and Edit Fintzi Ferder in Their Capacities as Trustees of the Haim Family Trust, TF 2021 Irrevocable Trust, and RF 2021 Irrevocable Trust, Relief Defendants",
+              "link": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26625",
+              "id": "cf6c80af-af48-4b25-b015-619703ae7388",
+              "author": "LR-26625",
+              "published_at": "2026-09-01T20:48:21Z",
+              "updated_at": "2026-09-01T20:48:21Z",
+              "summary": "The SEC filed a civil action in federal court against Mordechai Haim Ferder and Simba IL Holdings LLC, Defendants; Mordechai Haim Ferder and Edit Fintzi Ferder in Their Capacities as Trustees of the Haim Family Trust, TF 2021 Irrevocable Trust, and RF 2021 Irrevocable Trust, Relief Defendants (litigation release LR-26625).",
+              "categories": [],
+              "feed": {
+                "title": "Litigation Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+            "elapsed_ms": 86,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "summary=\"The SEC filed a civil action in federal court against \" + title + \" (litigation release \" + author + \").\"",
+                  "title=\"SEC lawsuit: \" + title"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-enforcement",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26625"
+    },
+    {
+      "id": "a173a1eb05502c46f3dc",
+      "title": "SEC lawsuit: David T. Gilchrist, Christopher Aaron Novinger, Rebecca Novinger",
+      "content_text": "The SEC filed a civil action in federal court against David T. Gilchrist, Christopher Aaron Novinger, Rebecca Novinger (litigation release LR-26624).",
+      "date_published": "2026-09-01T20:46:50Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "a173a1eb05502c46f3dc",
+          "source": "rss",
+          "type": "change",
+          "key": "749ec441-eb07-4779-a86f-eb91cd931ca9",
+          "source_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:57Z",
+          "data": {
+            "change": "added",
+            "label": "SEC lawsuit: David T. Gilchrist, Christopher Aaron Novinger, Rebecca Novinger",
+            "item_type": "entry",
+            "summary": "added: SEC lawsuit: David T. Gilchrist, Christopher Aaron Novinger, Rebecca Novinger",
+            "after": {
+              "title": "SEC lawsuit: David T. Gilchrist, Christopher Aaron Novinger, Rebecca Novinger",
+              "link": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26624",
+              "id": "749ec441-eb07-4779-a86f-eb91cd931ca9",
+              "author": "LR-26624",
+              "published_at": "2026-09-01T20:46:50Z",
+              "updated_at": "2026-09-01T20:46:50Z",
+              "summary": "The SEC filed a civil action in federal court against David T. Gilchrist, Christopher Aaron Novinger, Rebecca Novinger (litigation release LR-26624).",
+              "categories": [],
+              "feed": {
+                "title": "Litigation Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/enforcement-litigation/litigation-releases/rss",
+            "elapsed_ms": 86,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "summary=\"The SEC filed a civil action in federal court against \" + title + \" (litigation release \" + author + \").\"",
+                  "title=\"SEC lawsuit: \" + title"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-enforcement",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26624"
+    }
+  ]
+}

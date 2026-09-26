@@ -1,0 +1,4332 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Natural events now (NASA EONET)",
+  "home_page_url": "https://eonet.gsfc.nasa.gov/",
+  "description": "Events collected by UnlimitedPipe 0.9.1",
+  "_unlimitedpipe": {
+    "schema": "unlimitedpipe.event/1",
+    "generator": "UnlimitedPipe 0.9.1"
+  },
+  "items": [
+    {
+      "id": "08d2c2d6884a9ab555af",
+      "title": "Severe Storms: Tropical Storm Gonzalo",
+      "content_text": "Reported by NOAA_NHC, first seen 2026-09-25. Tracked by NASA EONET.",
+      "date_published": "2026-09-25T03:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "08d2c2d6884a9ab555af",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_24811",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Severe Storms: Tropical Storm Gonzalo",
+            "item_type": "record",
+            "summary": "added: Severe Storms: Tropical Storm Gonzalo",
+            "after": {
+              "title": "Severe Storms: Tropical Storm Gonzalo",
+              "summary": "Reported by NOAA_NHC, first seen 2026-09-25. Tracked by NASA EONET.",
+              "link": "https://www.nhc.noaa.gov/archive/2026/GONZALO.shtml",
+              "published_at": "2026-09-25T03:00:00Z",
+              "id": "EONET_24811",
+              "kind": "Severe Storms"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.nhc.noaa.gov/archive/2026/GONZALO.shtml"
+    },
+    {
+      "id": "9c18f3e5da3d8a539789",
+      "title": "Severe Storms: Hurricane Nolo",
+      "content_text": "Reported by JTWC, first seen 2026-09-24. Tracked by NASA EONET.",
+      "date_published": "2026-09-24T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "9c18f3e5da3d8a539789",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_24786",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Severe Storms: Hurricane Nolo",
+            "item_type": "record",
+            "summary": "added: Severe Storms: Hurricane Nolo",
+            "after": {
+              "title": "Severe Storms: Hurricane Nolo",
+              "summary": "Reported by JTWC, first seen 2026-09-24. Tracked by NASA EONET.",
+              "link": "https://www.metoc.navy.mil/jtwc/products/ep1526.tcw",
+              "published_at": "2026-09-24T00:00:00Z",
+              "id": "EONET_24786",
+              "kind": "Severe Storms"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.metoc.navy.mil/jtwc/products/ep1526.tcw"
+    },
+    {
+      "id": "aa9080bd7b7919efdeca",
+      "title": "Severe Storms: Typhoon Surigae",
+      "content_text": "Reported by JTWC, first seen 2026-09-23. Tracked by NASA EONET.",
+      "date_published": "2026-09-23T18:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "aa9080bd7b7919efdeca",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_24787",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Severe Storms: Typhoon Surigae",
+            "item_type": "record",
+            "summary": "added: Severe Storms: Typhoon Surigae",
+            "after": {
+              "title": "Severe Storms: Typhoon Surigae",
+              "summary": "Reported by JTWC, first seen 2026-09-23. Tracked by NASA EONET.",
+              "link": "https://www.metoc.navy.mil/jtwc/products/wp2526.tcw",
+              "published_at": "2026-09-23T18:00:00Z",
+              "id": "EONET_24787",
+              "kind": "Severe Storms"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.metoc.navy.mil/jtwc/products/wp2526.tcw"
+    },
+    {
+      "id": "d52026c6f7c687e5bc80",
+      "title": "Wildfires: Wildfire Merit Creek, Greene, Mississippi",
+      "content_text": "Reported by IRWIN, first seen 2026-09-23. Tracked by NASA EONET.",
+      "date_published": "2026-09-23T10:12:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d52026c6f7c687e5bc80",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_24809",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Wildfires: Wildfire Merit Creek, Greene, Mississippi",
+            "item_type": "record",
+            "summary": "added: Wildfires: Wildfire Merit Creek, Greene, Mississippi",
+            "after": {
+              "title": "Wildfires: Wildfire Merit Creek, Greene, Mississippi",
+              "summary": "Reported by IRWIN, first seen 2026-09-23. Tracked by NASA EONET.",
+              "link": "https://irwin.doi.gov/observer/incidents/2026-MSMNF-000578",
+              "published_at": "2026-09-23T10:12:00Z",
+              "id": "EONET_24809",
+              "kind": "Wildfires"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://irwin.doi.gov/observer/incidents/2026-MSMNF-000578"
+    },
+    {
+      "id": "80a047a42b000eb0c185",
+      "title": "Severe Storms: Tropical Cyclone 01B",
+      "content_text": "Reported by JTWC, first seen 2026-09-22. Tracked by NASA EONET.",
+      "date_published": "2026-09-22T06:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "80a047a42b000eb0c185",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_24785",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Severe Storms: Tropical Cyclone 01B",
+            "item_type": "record",
+            "summary": "added: Severe Storms: Tropical Cyclone 01B",
+            "after": {
+              "title": "Severe Storms: Tropical Cyclone 01B",
+              "summary": "Reported by JTWC, first seen 2026-09-22. Tracked by NASA EONET.",
+              "link": "https://www.metoc.navy.mil/jtwc/products/io0126.tcw",
+              "published_at": "2026-09-22T06:00:00Z",
+              "id": "EONET_24785",
+              "kind": "Severe Storms"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.metoc.navy.mil/jtwc/products/io0126.tcw"
+    },
+    {
+      "id": "8f4bbacdf065a6f38441",
+      "title": "Severe Storms: Hurricane Polo",
+      "content_text": "Reported by JTWC, first seen 2026-09-21. Tracked by NASA EONET.",
+      "date_published": "2026-09-21T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "8f4bbacdf065a6f38441",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_24721",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Severe Storms: Hurricane Polo",
+            "item_type": "record",
+            "summary": "added: Severe Storms: Hurricane Polo",
+            "after": {
+              "title": "Severe Storms: Hurricane Polo",
+              "summary": "Reported by JTWC, first seen 2026-09-21. Tracked by NASA EONET.",
+              "link": "https://www.metoc.navy.mil/jtwc/products/ep1726.tcw",
+              "published_at": "2026-09-21T00:00:00Z",
+              "id": "EONET_24721",
+              "kind": "Severe Storms"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.metoc.navy.mil/jtwc/products/ep1726.tcw"
+    },
+    {
+      "id": "d9d38cf9719368fabb9b",
+      "title": "Wildfires: Wildfire Round Prarie, Morehouse, Louisiana",
+      "content_text": "Reported by IRWIN, first seen 2026-09-20. Tracked by NASA EONET.",
+      "date_published": "2026-09-20T17:32:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d9d38cf9719368fabb9b",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_24710",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Wildfires: Wildfire Round Prarie, Morehouse, Louisiana",
+            "item_type": "record",
+            "summary": "added: Wildfires: Wildfire Round Prarie, Morehouse, Louisiana",
+            "after": {
+              "title": "Wildfires: Wildfire Round Prarie, Morehouse, Louisiana",
+              "summary": "Reported by IRWIN, first seen 2026-09-20. Tracked by NASA EONET.",
+              "link": "https://irwin.doi.gov/observer/incidents/2026-LALAS-000390",
+              "published_at": "2026-09-20T17:32:00Z",
+              "id": "EONET_24710",
+              "kind": "Wildfires"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://irwin.doi.gov/observer/incidents/2026-LALAS-000390"
+    },
+    {
+      "id": "b115e2b97a6cc4a30ba5",
+      "title": "Severe Storms: Tropical Storm Fay",
+      "content_text": "Reported by NOAA_NHC, first seen 2026-09-20. Tracked by NASA EONET.",
+      "date_published": "2026-09-20T09:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "b115e2b97a6cc4a30ba5",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_24722",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Severe Storms: Tropical Storm Fay",
+            "item_type": "record",
+            "summary": "added: Severe Storms: Tropical Storm Fay",
+            "after": {
+              "title": "Severe Storms: Tropical Storm Fay",
+              "summary": "Reported by NOAA_NHC, first seen 2026-09-20. Tracked by NASA EONET.",
+              "link": "https://www.nhc.noaa.gov/archive/2026/FAY.shtml",
+              "published_at": "2026-09-20T09:00:00Z",
+              "id": "EONET_24722",
+              "kind": "Severe Storms"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.nhc.noaa.gov/archive/2026/FAY.shtml"
+    },
+    {
+      "id": "742900595a601db24f2b",
+      "title": "Severe Storms: Hurricane Odalys",
+      "content_text": "Reported by JTWC, first seen 2026-09-20. Tracked by NASA EONET.",
+      "date_published": "2026-09-20T06:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "742900595a601db24f2b",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_24720",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Severe Storms: Hurricane Odalys",
+            "item_type": "record",
+            "summary": "added: Severe Storms: Hurricane Odalys",
+            "after": {
+              "title": "Severe Storms: Hurricane Odalys",
+              "summary": "Reported by JTWC, first seen 2026-09-20. Tracked by NASA EONET.",
+              "link": "https://www.metoc.navy.mil/jtwc/products/ep1626.tcw",
+              "published_at": "2026-09-20T06:00:00Z",
+              "id": "EONET_24720",
+              "kind": "Severe Storms"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.metoc.navy.mil/jtwc/products/ep1626.tcw"
+    },
+    {
+      "id": "7e00d352cfe2f96174bb",
+      "title": "Wildfires: Prescribed Fire CRAWFORD CORRAL RX, Tulare, California",
+      "content_text": "Reported by IRWIN, first seen 2026-09-19. Tracked by NASA EONET.",
+      "date_published": "2026-09-19T13:26:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "7e00d352cfe2f96174bb",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_24810",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Wildfires: Prescribed Fire CRAWFORD CORRAL RX, Tulare, California",
+            "item_type": "record",
+            "summary": "added: Wildfires: Prescribed Fire CRAWFORD CORRAL RX, Tulare, California",
+            "after": {
+              "title": "Wildfires: Prescribed Fire CRAWFORD CORRAL RX, Tulare, California",
+              "summary": "Reported by IRWIN, first seen 2026-09-19. Tracked by NASA EONET.",
+              "link": "https://irwin.doi.gov/observer/incidents/2026-CATUU-000092",
+              "published_at": "2026-09-19T13:26:00Z",
+              "id": "EONET_24810",
+              "kind": "Wildfires"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://irwin.doi.gov/observer/incidents/2026-CATUU-000092"
+    },
+    {
+      "id": "2d1910860a161cee450f",
+      "title": "Wildfires: Prescribed Fire D2 Dye RX, Coconino, Arizona",
+      "content_text": "Reported by IRWIN, first seen 2026-09-17. Tracked by NASA EONET.",
+      "date_published": "2026-09-17T17:44:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "2d1910860a161cee450f",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_24719",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Wildfires: Prescribed Fire D2 Dye RX, Coconino, Arizona",
+            "item_type": "record",
+            "summary": "added: Wildfires: Prescribed Fire D2 Dye RX, Coconino, Arizona",
+            "after": {
+              "title": "Wildfires: Prescribed Fire D2 Dye RX, Coconino, Arizona",
+              "summary": "Reported by IRWIN, first seen 2026-09-17. Tracked by NASA EONET.",
+              "link": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000955",
+              "published_at": "2026-09-17T17:44:00Z",
+              "id": "EONET_24719",
+              "kind": "Wildfires"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000955"
+    },
+    {
+      "id": "0d5310843cc078abcfd1",
+      "title": "Wildfires: Prescribed Fire D2 Vincent RX, Coconino, Arizona",
+      "content_text": "Reported by IRWIN, first seen 2026-09-17. Tracked by NASA EONET.",
+      "date_published": "2026-09-17T17:35:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "0d5310843cc078abcfd1",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_24718",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Wildfires: Prescribed Fire D2 Vincent RX, Coconino, Arizona",
+            "item_type": "record",
+            "summary": "added: Wildfires: Prescribed Fire D2 Vincent RX, Coconino, Arizona",
+            "after": {
+              "title": "Wildfires: Prescribed Fire D2 Vincent RX, Coconino, Arizona",
+              "summary": "Reported by IRWIN, first seen 2026-09-17. Tracked by NASA EONET.",
+              "link": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000953",
+              "published_at": "2026-09-17T17:35:00Z",
+              "id": "EONET_24718",
+              "kind": "Wildfires"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000953"
+    },
+    {
+      "id": "459e4be0f15924026901",
+      "title": "Wildfires: Wildfire Breezy, Starr, Texas",
+      "content_text": "Reported by IRWIN, first seen 2026-09-16. Tracked by NASA EONET.",
+      "date_published": "2026-09-16T20:17:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "459e4be0f15924026901",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_24483",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Wildfires: Wildfire Breezy, Starr, Texas",
+            "item_type": "record",
+            "summary": "added: Wildfires: Wildfire Breezy, Starr, Texas",
+            "after": {
+              "title": "Wildfires: Wildfire Breezy, Starr, Texas",
+              "summary": "Reported by IRWIN, first seen 2026-09-16. Tracked by NASA EONET.",
+              "link": "https://irwin.doi.gov/observer/incidents/2026-TXTXS-268653",
+              "published_at": "2026-09-16T20:17:00Z",
+              "id": "EONET_24483",
+              "kind": "Wildfires"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://irwin.doi.gov/observer/incidents/2026-TXTXS-268653"
+    },
+    {
+      "id": "fe3698fe76fb5fc4cb3a",
+      "title": "Wildfires: Wildfire FLORISTON, Nevada, California",
+      "content_text": "Reported by IRWIN, first seen 2026-09-16. Tracked by NASA EONET.",
+      "date_published": "2026-09-16T13:01:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "fe3698fe76fb5fc4cb3a",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_24488",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Wildfires: Wildfire FLORISTON, Nevada, California",
+            "item_type": "record",
+            "summary": "added: Wildfires: Wildfire FLORISTON, Nevada, California",
+            "after": {
+              "title": "Wildfires: Wildfire FLORISTON, Nevada, California",
+              "summary": "Reported by IRWIN, first seen 2026-09-16. Tracked by NASA EONET.",
+              "link": "https://irwin.doi.gov/observer/incidents/2026-CANEU-029037",
+              "published_at": "2026-09-16T13:01:00Z",
+              "id": "EONET_24488",
+              "kind": "Wildfires"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://irwin.doi.gov/observer/incidents/2026-CANEU-029037"
+    },
+    {
+      "id": "5de8183177ed4ee458c0",
+      "title": "Severe Storms: Typhoon Dujuan",
+      "content_text": "Reported by JTWC, first seen 2026-09-16. Tracked by NASA EONET.",
+      "date_published": "2026-09-16T12:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "5de8183177ed4ee458c0",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_24317",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Severe Storms: Typhoon Dujuan",
+            "item_type": "record",
+            "summary": "added: Severe Storms: Typhoon Dujuan",
+            "after": {
+              "title": "Severe Storms: Typhoon Dujuan",
+              "summary": "Reported by JTWC, first seen 2026-09-16. Tracked by NASA EONET.",
+              "link": "https://www.metoc.navy.mil/jtwc/products/wp2426.tcw",
+              "published_at": "2026-09-16T12:00:00Z",
+              "id": "EONET_24317",
+              "kind": "Severe Storms"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.metoc.navy.mil/jtwc/products/wp2426.tcw"
+    },
+    {
+      "id": "439f358c37679759f259",
+      "title": "Wildfires: Prescribed Fire RX CALV BU 104-108, Vernon, Louisiana",
+      "content_text": "Reported by IRWIN, first seen 2026-09-16. Tracked by NASA EONET.",
+      "date_published": "2026-09-16T09:08:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "439f358c37679759f259",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_24499",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Wildfires: Prescribed Fire RX CALV BU 104-108, Vernon, Louisiana",
+            "item_type": "record",
+            "summary": "added: Wildfires: Prescribed Fire RX CALV BU 104-108, Vernon, Louisiana",
+            "after": {
+              "title": "Wildfires: Prescribed Fire RX CALV BU 104-108, Vernon, Louisiana",
+              "summary": "Reported by IRWIN, first seen 2026-09-16. Tracked by NASA EONET.",
+              "link": "https://irwin.doi.gov/observer/incidents/2026-LAKIF-000378",
+              "published_at": "2026-09-16T09:08:00Z",
+              "id": "EONET_24499",
+              "kind": "Wildfires"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://irwin.doi.gov/observer/incidents/2026-LAKIF-000378"
+    },
+    {
+      "id": "6a59a0af3dafad5245dd",
+      "title": "Wildfires: Wildfire Clark, Edwards, Texas",
+      "content_text": "Reported by IRWIN, first seen 2026-09-16. Tracked by NASA EONET.",
+      "date_published": "2026-09-16T00:29:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "6a59a0af3dafad5245dd",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_24482",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Wildfires: Wildfire Clark, Edwards, Texas",
+            "item_type": "record",
+            "summary": "added: Wildfires: Wildfire Clark, Edwards, Texas",
+            "after": {
+              "title": "Wildfires: Wildfire Clark, Edwards, Texas",
+              "summary": "Reported by IRWIN, first seen 2026-09-16. Tracked by NASA EONET.",
+              "link": "https://irwin.doi.gov/observer/incidents/2026-TXTXS-268613",
+              "published_at": "2026-09-16T00:29:00Z",
+              "id": "EONET_24482",
+              "kind": "Wildfires"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://irwin.doi.gov/observer/incidents/2026-TXTXS-268613"
+    },
+    {
+      "id": "933003a1886507d4b8e8",
+      "title": "Wildfires: Wildfire Calvary Creek, Washita, Oklahoma",
+      "content_text": "Reported by IRWIN, first seen 2026-09-15. Tracked by NASA EONET.",
+      "date_published": "2026-09-15T17:09:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "933003a1886507d4b8e8",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_24476",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Wildfires: Wildfire Calvary Creek, Washita, Oklahoma",
+            "item_type": "record",
+            "summary": "added: Wildfires: Wildfire Calvary Creek, Washita, Oklahoma",
+            "after": {
+              "title": "Wildfires: Wildfire Calvary Creek, Washita, Oklahoma",
+              "summary": "Reported by IRWIN, first seen 2026-09-15. Tracked by NASA EONET.",
+              "link": "https://irwin.doi.gov/observer/incidents/2026-OKOKS-261109",
+              "published_at": "2026-09-15T17:09:00Z",
+              "id": "EONET_24476",
+              "kind": "Wildfires"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://irwin.doi.gov/observer/incidents/2026-OKOKS-261109"
+    },
+    {
+      "id": "bcccbc997c590b7648b7",
+      "title": "Wildfires: Wildfire Dry River, Sutton, Texas",
+      "content_text": "Reported by IRWIN, first seen 2026-09-15. Tracked by NASA EONET.",
+      "date_published": "2026-09-15T16:59:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "bcccbc997c590b7648b7",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_24481",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Wildfires: Wildfire Dry River, Sutton, Texas",
+            "item_type": "record",
+            "summary": "added: Wildfires: Wildfire Dry River, Sutton, Texas",
+            "after": {
+              "title": "Wildfires: Wildfire Dry River, Sutton, Texas",
+              "summary": "Reported by IRWIN, first seen 2026-09-15. Tracked by NASA EONET.",
+              "link": "https://irwin.doi.gov/observer/incidents/2026-TXTXS-268594",
+              "published_at": "2026-09-15T16:59:00Z",
+              "id": "EONET_24481",
+              "kind": "Wildfires"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://irwin.doi.gov/observer/incidents/2026-TXTXS-268594"
+    },
+    {
+      "id": "886f8dfc98aa1b731ea8",
+      "title": "Wildfires: Wildfire BLUE LAKE, Indian River, Florida",
+      "content_text": "Reported by IRWIN, first seen 2026-09-15. Tracked by NASA EONET.",
+      "date_published": "2026-09-15T16:38:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "886f8dfc98aa1b731ea8",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_24478",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Wildfires: Wildfire BLUE LAKE, Indian River, Florida",
+            "item_type": "record",
+            "summary": "added: Wildfires: Wildfire BLUE LAKE, Indian River, Florida",
+            "after": {
+              "title": "Wildfires: Wildfire BLUE LAKE, Indian River, Florida",
+              "summary": "Reported by IRWIN, first seen 2026-09-15. Tracked by NASA EONET.",
+              "link": "https://irwin.doi.gov/observer/incidents/2026-FLFLS-1600755",
+              "published_at": "2026-09-15T16:38:00Z",
+              "id": "EONET_24478",
+              "kind": "Wildfires"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://irwin.doi.gov/observer/incidents/2026-FLFLS-1600755"
+    },
+    {
+      "id": "c36f3043763686630c14",
+      "title": "Wildfires: Wildfire Lobo, Eastland, Texas",
+      "content_text": "Reported by IRWIN, first seen 2026-09-15. Tracked by NASA EONET.",
+      "date_published": "2026-09-15T14:12:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c36f3043763686630c14",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_24485",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Wildfires: Wildfire Lobo, Eastland, Texas",
+            "item_type": "record",
+            "summary": "added: Wildfires: Wildfire Lobo, Eastland, Texas",
+            "after": {
+              "title": "Wildfires: Wildfire Lobo, Eastland, Texas",
+              "summary": "Reported by IRWIN, first seen 2026-09-15. Tracked by NASA EONET.",
+              "link": "https://irwin.doi.gov/observer/incidents/2026-TXTXS-268583",
+              "published_at": "2026-09-15T14:12:00Z",
+              "id": "EONET_24485",
+              "kind": "Wildfires"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://irwin.doi.gov/observer/incidents/2026-TXTXS-268583"
+    },
+    {
+      "id": "8ab719aa66b419f22bc3",
+      "title": "Wildfires: Wildfire DOME, Mariposa, California",
+      "content_text": "Reported by IRWIN, first seen 2026-09-15. Tracked by NASA EONET.",
+      "date_published": "2026-09-15T11:29:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "8ab719aa66b419f22bc3",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_24484",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Wildfires: Wildfire DOME, Mariposa, California",
+            "item_type": "record",
+            "summary": "added: Wildfires: Wildfire DOME, Mariposa, California",
+            "after": {
+              "title": "Wildfires: Wildfire DOME, Mariposa, California",
+              "summary": "Reported by IRWIN, first seen 2026-09-15. Tracked by NASA EONET.",
+              "link": "https://irwin.doi.gov/observer/incidents/2026-CAYNP-000100",
+              "published_at": "2026-09-15T11:29:00Z",
+              "id": "EONET_24484",
+              "kind": "Wildfires"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://irwin.doi.gov/observer/incidents/2026-CAYNP-000100"
+    },
+    {
+      "id": "098646bf73a76676dca6",
+      "title": "Wildfires: Wildfire Bunker Fire, Calhoun, Arkansas",
+      "content_text": "Reported by IRWIN, first seen 2026-09-15. Tracked by NASA EONET.",
+      "date_published": "2026-09-15T02:47:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "098646bf73a76676dca6",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_24502",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Wildfires: Wildfire Bunker Fire, Calhoun, Arkansas",
+            "item_type": "record",
+            "summary": "added: Wildfires: Wildfire Bunker Fire, Calhoun, Arkansas",
+            "after": {
+              "title": "Wildfires: Wildfire Bunker Fire, Calhoun, Arkansas",
+              "summary": "Reported by IRWIN, first seen 2026-09-15. Tracked by NASA EONET.",
+              "link": "https://irwin.doi.gov/observer/incidents/2026-ARARS-000000",
+              "published_at": "2026-09-15T02:47:00Z",
+              "id": "EONET_24502",
+              "kind": "Wildfires"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://irwin.doi.gov/observer/incidents/2026-ARARS-000000"
+    },
+    {
+      "id": "3796d5ed5ac8131186a5",
+      "title": "Wildfires: Wildfire Hydra, Bosque, Texas",
+      "content_text": "Reported by IRWIN, first seen 2026-09-14. Tracked by NASA EONET.",
+      "date_published": "2026-09-14T18:19:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "3796d5ed5ac8131186a5",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_24473",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Wildfires: Wildfire Hydra, Bosque, Texas",
+            "item_type": "record",
+            "summary": "added: Wildfires: Wildfire Hydra, Bosque, Texas",
+            "after": {
+              "title": "Wildfires: Wildfire Hydra, Bosque, Texas",
+              "summary": "Reported by IRWIN, first seen 2026-09-14. Tracked by NASA EONET.",
+              "link": "https://irwin.doi.gov/observer/incidents/2026-TXTXS-268545",
+              "published_at": "2026-09-14T18:19:00Z",
+              "id": "EONET_24473",
+              "kind": "Wildfires"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://irwin.doi.gov/observer/incidents/2026-TXTXS-268545"
+    },
+    {
+      "id": "d6a36f7cc4f726f497fe",
+      "title": "Wildfires: Wildfire Atoka Lake, Atoka, Oklahoma",
+      "content_text": "Reported by IRWIN, first seen 2026-09-14. Tracked by NASA EONET.",
+      "date_published": "2026-09-14T17:55:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d6a36f7cc4f726f497fe",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_24474",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Wildfires: Wildfire Atoka Lake, Atoka, Oklahoma",
+            "item_type": "record",
+            "summary": "added: Wildfires: Wildfire Atoka Lake, Atoka, Oklahoma",
+            "after": {
+              "title": "Wildfires: Wildfire Atoka Lake, Atoka, Oklahoma",
+              "summary": "Reported by IRWIN, first seen 2026-09-14. Tracked by NASA EONET.",
+              "link": "https://irwin.doi.gov/observer/incidents/2026-OKOKS-261105",
+              "published_at": "2026-09-14T17:55:00Z",
+              "id": "EONET_24474",
+              "kind": "Wildfires"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://irwin.doi.gov/observer/incidents/2026-OKOKS-261105"
+    },
+    {
+      "id": "6676012c00c1258265ba",
+      "title": "Wildfires: Wildfire Tram Trail, Pushmataha, Oklahoma",
+      "content_text": "Reported by IRWIN, first seen 2026-09-14. Tracked by NASA EONET.",
+      "date_published": "2026-09-14T16:52:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "6676012c00c1258265ba",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_24475",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Wildfires: Wildfire Tram Trail, Pushmataha, Oklahoma",
+            "item_type": "record",
+            "summary": "added: Wildfires: Wildfire Tram Trail, Pushmataha, Oklahoma",
+            "after": {
+              "title": "Wildfires: Wildfire Tram Trail, Pushmataha, Oklahoma",
+              "summary": "Reported by IRWIN, first seen 2026-09-14. Tracked by NASA EONET.",
+              "link": "https://irwin.doi.gov/observer/incidents/2026-OKOKS-261089",
+              "published_at": "2026-09-14T16:52:00Z",
+              "id": "EONET_24475",
+              "kind": "Wildfires"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://irwin.doi.gov/observer/incidents/2026-OKOKS-261089"
+    },
+    {
+      "id": "561ebbbf2c9c670cb54f",
+      "title": "Wildfires: Wildfire Bunker Fire, Calhoun, Arkansas",
+      "content_text": "Reported by IRWIN, first seen 2026-09-14. Tracked by NASA EONET.",
+      "date_published": "2026-09-14T14:22:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "561ebbbf2c9c670cb54f",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_24490",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Wildfires: Wildfire Bunker Fire, Calhoun, Arkansas",
+            "item_type": "record",
+            "summary": "added: Wildfires: Wildfire Bunker Fire, Calhoun, Arkansas",
+            "after": {
+              "title": "Wildfires: Wildfire Bunker Fire, Calhoun, Arkansas",
+              "summary": "Reported by IRWIN, first seen 2026-09-14. Tracked by NASA EONET.",
+              "link": "https://irwin.doi.gov/observer/incidents/2026-ARARS-100236",
+              "published_at": "2026-09-14T14:22:00Z",
+              "id": "EONET_24490",
+              "kind": "Wildfires"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://irwin.doi.gov/observer/incidents/2026-ARARS-100236"
+    },
+    {
+      "id": "caf0bc6fdd032c703915",
+      "title": "Wildfires: Wildfire Black Kettle, Roger Mills, Oklahoma",
+      "content_text": "Reported by IRWIN, first seen 2026-09-14. Tracked by NASA EONET.",
+      "date_published": "2026-09-14T13:07:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "caf0bc6fdd032c703915",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_24477",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Wildfires: Wildfire Black Kettle, Roger Mills, Oklahoma",
+            "item_type": "record",
+            "summary": "added: Wildfires: Wildfire Black Kettle, Roger Mills, Oklahoma",
+            "after": {
+              "title": "Wildfires: Wildfire Black Kettle, Roger Mills, Oklahoma",
+              "summary": "Reported by IRWIN, first seen 2026-09-14. Tracked by NASA EONET.",
+              "link": "https://irwin.doi.gov/observer/incidents/2026-OKOKS-261103",
+              "published_at": "2026-09-14T13:07:00Z",
+              "id": "EONET_24477",
+              "kind": "Wildfires"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://irwin.doi.gov/observer/incidents/2026-OKOKS-261103"
+    },
+    {
+      "id": "c81b92da2c53129eb476",
+      "title": "Wildfires: Wildfire Davis Coulee, Big Horn, Montana",
+      "content_text": "Reported by IRWIN, first seen 2026-09-14. Tracked by NASA EONET.",
+      "date_published": "2026-09-14T11:43:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c81b92da2c53129eb476",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_24487",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Wildfires: Wildfire Davis Coulee, Big Horn, Montana",
+            "item_type": "record",
+            "summary": "added: Wildfires: Wildfire Davis Coulee, Big Horn, Montana",
+            "after": {
+              "title": "Wildfires: Wildfire Davis Coulee, Big Horn, Montana",
+              "summary": "Reported by IRWIN, first seen 2026-09-14. Tracked by NASA EONET.",
+              "link": "https://irwin.doi.gov/observer/incidents/2026-MTCRA-261393",
+              "published_at": "2026-09-14T11:43:00Z",
+              "id": "EONET_24487",
+              "kind": "Wildfires"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://irwin.doi.gov/observer/incidents/2026-MTCRA-261393"
+    },
+    {
+      "id": "ff38b230370520ff2a4f",
+      "title": "Wildfires: Prescribed Fire D7 Rhoton Seep RX, Apache, Arizona",
+      "content_text": "Reported by IRWIN, first seen 2026-09-14. Tracked by NASA EONET.",
+      "date_published": "2026-09-14T11:06:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ff38b230370520ff2a4f",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_24715",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Wildfires: Prescribed Fire D7 Rhoton Seep RX, Apache, Arizona",
+            "item_type": "record",
+            "summary": "added: Wildfires: Prescribed Fire D7 Rhoton Seep RX, Apache, Arizona",
+            "after": {
+              "title": "Wildfires: Prescribed Fire D7 Rhoton Seep RX, Apache, Arizona",
+              "summary": "Reported by IRWIN, first seen 2026-09-14. Tracked by NASA EONET.",
+              "link": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000947",
+              "published_at": "2026-09-14T11:06:00Z",
+              "id": "EONET_24715",
+              "kind": "Wildfires"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000947"
+    },
+    {
+      "id": "0bf579f7d5fb6c957a59",
+      "title": "Wildfires: Prescribed Fire D7 Morgan Unit 5 RX, Navajo, Arizona",
+      "content_text": "Reported by IRWIN, first seen 2026-09-14. Tracked by NASA EONET.",
+      "date_published": "2026-09-14T11:05:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "0bf579f7d5fb6c957a59",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_24711",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Wildfires: Prescribed Fire D7 Morgan Unit 5 RX, Navajo, Arizona",
+            "item_type": "record",
+            "summary": "added: Wildfires: Prescribed Fire D7 Morgan Unit 5 RX, Navajo, Arizona",
+            "after": {
+              "title": "Wildfires: Prescribed Fire D7 Morgan Unit 5 RX, Navajo, Arizona",
+              "summary": "Reported by IRWIN, first seen 2026-09-14. Tracked by NASA EONET.",
+              "link": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000946",
+              "published_at": "2026-09-14T11:05:00Z",
+              "id": "EONET_24711",
+              "kind": "Wildfires"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000946"
+    },
+    {
+      "id": "2fdd676249d0b9e3434f",
+      "title": "Wildfires: Prescribed Fire D7 Butler West RX, Apache, Arizona",
+      "content_text": "Reported by IRWIN, first seen 2026-09-14. Tracked by NASA EONET.",
+      "date_published": "2026-09-14T11:03:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "2fdd676249d0b9e3434f",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_24713",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Wildfires: Prescribed Fire D7 Butler West RX, Apache, Arizona",
+            "item_type": "record",
+            "summary": "added: Wildfires: Prescribed Fire D7 Butler West RX, Apache, Arizona",
+            "after": {
+              "title": "Wildfires: Prescribed Fire D7 Butler West RX, Apache, Arizona",
+              "summary": "Reported by IRWIN, first seen 2026-09-14. Tracked by NASA EONET.",
+              "link": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000945",
+              "published_at": "2026-09-14T11:03:00Z",
+              "id": "EONET_24713",
+              "kind": "Wildfires"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000945"
+    },
+    {
+      "id": "ff0bec521f7059fe5e30",
+      "title": "Wildfires: Prescribed Fire D7 Brushy Mtn South RX, Apache, Arizona",
+      "content_text": "Reported by IRWIN, first seen 2026-09-14. Tracked by NASA EONET.",
+      "date_published": "2026-09-14T11:01:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ff0bec521f7059fe5e30",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_24714",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Wildfires: Prescribed Fire D7 Brushy Mtn South RX, Apache, Arizona",
+            "item_type": "record",
+            "summary": "added: Wildfires: Prescribed Fire D7 Brushy Mtn South RX, Apache, Arizona",
+            "after": {
+              "title": "Wildfires: Prescribed Fire D7 Brushy Mtn South RX, Apache, Arizona",
+              "summary": "Reported by IRWIN, first seen 2026-09-14. Tracked by NASA EONET.",
+              "link": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000944",
+              "published_at": "2026-09-14T11:01:00Z",
+              "id": "EONET_24714",
+              "kind": "Wildfires"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000944"
+    },
+    {
+      "id": "9de220c2f341ffdb7c5e",
+      "title": "Wildfires: Prescribed Fire D7 Arab RX, Apache, Arizona",
+      "content_text": "Reported by IRWIN, first seen 2026-09-14. Tracked by NASA EONET.",
+      "date_published": "2026-09-14T10:57:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "9de220c2f341ffdb7c5e",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_24716",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Wildfires: Prescribed Fire D7 Arab RX, Apache, Arizona",
+            "item_type": "record",
+            "summary": "added: Wildfires: Prescribed Fire D7 Arab RX, Apache, Arizona",
+            "after": {
+              "title": "Wildfires: Prescribed Fire D7 Arab RX, Apache, Arizona",
+              "summary": "Reported by IRWIN, first seen 2026-09-14. Tracked by NASA EONET.",
+              "link": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000943",
+              "published_at": "2026-09-14T10:57:00Z",
+              "id": "EONET_24716",
+              "kind": "Wildfires"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000943"
+    },
+    {
+      "id": "07e7bb3e9b1aae33ed51",
+      "title": "Wildfires: Prescribed Fire D7 Apprentice RX, Apache, Arizona",
+      "content_text": "Reported by IRWIN, first seen 2026-09-14. Tracked by NASA EONET.",
+      "date_published": "2026-09-14T10:52:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "07e7bb3e9b1aae33ed51",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_24712",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Wildfires: Prescribed Fire D7 Apprentice RX, Apache, Arizona",
+            "item_type": "record",
+            "summary": "added: Wildfires: Prescribed Fire D7 Apprentice RX, Apache, Arizona",
+            "after": {
+              "title": "Wildfires: Prescribed Fire D7 Apprentice RX, Apache, Arizona",
+              "summary": "Reported by IRWIN, first seen 2026-09-14. Tracked by NASA EONET.",
+              "link": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000942",
+              "published_at": "2026-09-14T10:52:00Z",
+              "id": "EONET_24712",
+              "kind": "Wildfires"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000942"
+    },
+    {
+      "id": "ac8a1a62e21fa7619064",
+      "title": "Wildfires: Prescribed Fire D6 Wallow West Unit 6 RX, Apache, Arizona",
+      "content_text": "Reported by IRWIN, first seen 2026-09-13. Tracked by NASA EONET.",
+      "date_published": "2026-09-13T17:13:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ac8a1a62e21fa7619064",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_24717",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Wildfires: Prescribed Fire D6 Wallow West Unit 6 RX, Apache, Arizona",
+            "item_type": "record",
+            "summary": "added: Wildfires: Prescribed Fire D6 Wallow West Unit 6 RX, Apache, Arizona",
+            "after": {
+              "title": "Wildfires: Prescribed Fire D6 Wallow West Unit 6 RX, Apache, Arizona",
+              "summary": "Reported by IRWIN, first seen 2026-09-13. Tracked by NASA EONET.",
+              "link": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000940",
+              "published_at": "2026-09-13T17:13:00Z",
+              "id": "EONET_24717",
+              "kind": "Wildfires"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://irwin.doi.gov/observer/incidents/2026-AZASF-000940"
+    },
+    {
+      "id": "6d46b089643af50d1e7c",
+      "title": "Wildfires: Wildfire GRACEMONT, Caddo, Oklahoma",
+      "content_text": "Reported by IRWIN, first seen 2026-09-13. Tracked by NASA EONET.",
+      "date_published": "2026-09-13T15:33:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "6d46b089643af50d1e7c",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_24486",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Wildfires: Wildfire GRACEMONT, Caddo, Oklahoma",
+            "item_type": "record",
+            "summary": "added: Wildfires: Wildfire GRACEMONT, Caddo, Oklahoma",
+            "after": {
+              "title": "Wildfires: Wildfire GRACEMONT, Caddo, Oklahoma",
+              "summary": "Reported by IRWIN, first seen 2026-09-13. Tracked by NASA EONET.",
+              "link": "https://irwin.doi.gov/observer/incidents/2026-OKANA-002871",
+              "published_at": "2026-09-13T15:33:00Z",
+              "id": "EONET_24486",
+              "kind": "Wildfires"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://irwin.doi.gov/observer/incidents/2026-OKANA-002871"
+    },
+    {
+      "id": "95e07d3144b3d8b887b3",
+      "title": "Sea and Lake Ice: Iceberg A84",
+      "content_text": "Reported by NATICE, first seen 2025-01-31. Tracked by NASA EONET.",
+      "date_published": "2025-01-31T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "95e07d3144b3d8b887b3",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_12618",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Sea and Lake Ice: Iceberg A84",
+            "item_type": "record",
+            "summary": "added: Sea and Lake Ice: Iceberg A84",
+            "after": {
+              "title": "Sea and Lake Ice: Iceberg A84",
+              "summary": "Reported by NATICE, first seen 2025-01-31. Tracked by NASA EONET.",
+              "link": "https://usicecenter.gov/pub/Iceberg_Tabular.csv",
+              "published_at": "2025-01-31T00:00:00Z",
+              "id": "EONET_12618",
+              "kind": "Sea and Lake Ice"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://usicecenter.gov/pub/Iceberg_Tabular.csv"
+    },
+    {
+      "id": "cab852d7101e1abffdee",
+      "title": "Sea and Lake Ice: Iceberg B22F",
+      "content_text": "Reported by NATICE, first seen 2024-08-15. Tracked by NASA EONET.",
+      "date_published": "2024-08-15T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "cab852d7101e1abffdee",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_10212",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Sea and Lake Ice: Iceberg B22F",
+            "item_type": "record",
+            "summary": "added: Sea and Lake Ice: Iceberg B22F",
+            "after": {
+              "title": "Sea and Lake Ice: Iceberg B22F",
+              "summary": "Reported by NATICE, first seen 2024-08-15. Tracked by NASA EONET.",
+              "link": "https://usicecenter.gov/pub/Iceberg_Tabular.csv",
+              "published_at": "2024-08-15T00:00:00Z",
+              "id": "EONET_10212",
+              "kind": "Sea and Lake Ice"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://usicecenter.gov/pub/Iceberg_Tabular.csv"
+    },
+    {
+      "id": "968b839e2c1ea02c2aac",
+      "title": "Sea and Lake Ice: Iceberg A83",
+      "content_text": "Reported by EO, first seen 2024-05-24. Tracked by NASA EONET.",
+      "date_published": "2024-05-24T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "968b839e2c1ea02c2aac",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_6523",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Sea and Lake Ice: Iceberg A83",
+            "item_type": "record",
+            "summary": "added: Sea and Lake Ice: Iceberg A83",
+            "after": {
+              "title": "Sea and Lake Ice: Iceberg A83",
+              "summary": "Reported by EO, first seen 2024-05-24. Tracked by NASA EONET.",
+              "link": "https://earthobservatory.nasa.gov/images/152848/antarctic-ice-shelf-spawns-iceberg-a-83",
+              "published_at": "2024-05-24T00:00:00Z",
+              "id": "EONET_6523",
+              "kind": "Sea and Lake Ice"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://earthobservatory.nasa.gov/images/152848/antarctic-ice-shelf-spawns-iceberg-a-83"
+    },
+    {
+      "id": "1a3e298bd1c6d3dac29c",
+      "title": "Sea and Lake Ice: Iceberg D35",
+      "content_text": "Reported by NATICE, first seen 2024-01-11. Tracked by NASA EONET.",
+      "date_published": "2024-01-11T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "1a3e298bd1c6d3dac29c",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_6474",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Sea and Lake Ice: Iceberg D35",
+            "item_type": "record",
+            "summary": "added: Sea and Lake Ice: Iceberg D35",
+            "after": {
+              "title": "Sea and Lake Ice: Iceberg D35",
+              "summary": "Reported by NATICE, first seen 2024-01-11. Tracked by NASA EONET.",
+              "link": "https://usicecenter.gov/pub/Iceberg_Tabular.csv",
+              "published_at": "2024-01-11T00:00:00Z",
+              "id": "EONET_6474",
+              "kind": "Sea and Lake Ice"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://usicecenter.gov/pub/Iceberg_Tabular.csv"
+    },
+    {
+      "id": "17e1270cc8fa183747ea",
+      "title": "Sea and Lake Ice: Iceberg D33B",
+      "content_text": "Reported by NATICE, first seen 2023-09-08. Tracked by NASA EONET.",
+      "date_published": "2023-09-08T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "17e1270cc8fa183747ea",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_6424",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Sea and Lake Ice: Iceberg D33B",
+            "item_type": "record",
+            "summary": "added: Sea and Lake Ice: Iceberg D33B",
+            "after": {
+              "title": "Sea and Lake Ice: Iceberg D33B",
+              "summary": "Reported by NATICE, first seen 2023-09-08. Tracked by NASA EONET.",
+              "link": "https://usicecenter.gov/pub/Iceberg_Tabular.csv",
+              "published_at": "2023-09-08T00:00:00Z",
+              "id": "EONET_6424",
+              "kind": "Sea and Lake Ice"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://usicecenter.gov/pub/Iceberg_Tabular.csv"
+    },
+    {
+      "id": "60e932b155bfa133b394",
+      "title": "Sea and Lake Ice: Iceberg A81",
+      "content_text": "Reported by NATICE, first seen 2023-01-27. Tracked by NASA EONET.",
+      "date_published": "2023-01-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "60e932b155bfa133b394",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_6320",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Sea and Lake Ice: Iceberg A81",
+            "item_type": "record",
+            "summary": "added: Sea and Lake Ice: Iceberg A81",
+            "after": {
+              "title": "Sea and Lake Ice: Iceberg A81",
+              "summary": "Reported by NATICE, first seen 2023-01-27. Tracked by NASA EONET.",
+              "link": "https://usicecenter.gov/pub/Iceberg_Tabular.csv",
+              "published_at": "2023-01-27T00:00:00Z",
+              "id": "EONET_6320",
+              "kind": "Sea and Lake Ice"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://usicecenter.gov/pub/Iceberg_Tabular.csv"
+    },
+    {
+      "id": "ea111a93c11b1d16eb3a",
+      "title": "Sea and Lake Ice: Iceberg D32",
+      "content_text": "Reported by NATICE, first seen 2022-10-21. Tracked by NASA EONET.",
+      "date_published": "2022-10-21T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ea111a93c11b1d16eb3a",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_6288",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Sea and Lake Ice: Iceberg D32",
+            "item_type": "record",
+            "summary": "added: Sea and Lake Ice: Iceberg D32",
+            "after": {
+              "title": "Sea and Lake Ice: Iceberg D32",
+              "summary": "Reported by NATICE, first seen 2022-10-21. Tracked by NASA EONET.",
+              "link": "https://usicecenter.gov/pub/Iceberg_Tabular.csv",
+              "published_at": "2022-10-21T00:00:00Z",
+              "id": "EONET_6288",
+              "kind": "Sea and Lake Ice"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://usicecenter.gov/pub/Iceberg_Tabular.csv"
+    },
+    {
+      "id": "ad236f992072da749f8a",
+      "title": "Sea and Lake Ice: Iceberg A76C",
+      "content_text": "Reported by NATICE, first seen 2021-05-28. Tracked by NASA EONET.",
+      "date_published": "2021-05-28T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ad236f992072da749f8a",
+          "source": "web",
+          "type": "change",
+          "key": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14#EONET_5359",
+          "source_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:21Z",
+          "data": {
+            "change": "added",
+            "label": "Sea and Lake Ice: Iceberg A76C",
+            "item_type": "record",
+            "summary": "added: Sea and Lake Ice: Iceberg A76C",
+            "after": {
+              "title": "Sea and Lake Ice: Iceberg A76C",
+              "summary": "Reported by NATICE, first seen 2021-05-28. Tracked by NASA EONET.",
+              "link": "https://usicecenter.gov/Products/AntarcIcebergs",
+              "published_at": "2021-05-28T00:00:00Z",
+              "id": "EONET_5359",
+              "kind": "Sea and Lake Ice"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://eonet.gsfc.nasa.gov/api/v3/events?status=open&days=14",
+            "content_type": "application/rss+xml",
+            "elapsed_ms": 452,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "kind=categories.0.title",
+                  "title=kind + \": \" + title",
+                  "summary=\"Reported by \" + sources.0.id + \", first seen \" + replace(\"\" + geometry.0.date, \"T.*$\", \"\") + \". Tracked by NASA EONET.\"",
+                  "published_at=geometry.0.date",
+                  "link=sources.0.url"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "id",
+                  "kind"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "natural-events",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://usicecenter.gov/Products/AntarcIcebergs"
+    }
+  ]
+}

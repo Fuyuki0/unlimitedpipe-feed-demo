@@ -1,0 +1,2087 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "US Justice Department press releases",
+  "home_page_url": "https://www.justice.gov/news",
+  "description": "Events collected by UnlimitedPipe 0.9.1",
+  "_unlimitedpipe": {
+    "schema": "unlimitedpipe.event/1",
+    "generator": "UnlimitedPipe 0.9.1"
+  },
+  "items": [
+    {
+      "id": "048067fa74feeffd3267",
+      "title": "Las Vegas Woman Charged for Conspiracy to Distribute Fentanyl and Possession of Firearms",
+      "content_text": "A Las Vegas woman made her initial appearance in federal court on Wednesday for conspiracy to distribute fentanyl, a Schedule II controlled substance, and possession of two firearms in furtherance of a drug trafficking crime as a result of a Las Vegas Homeland Security Task Force investigation.",
+      "date_published": "2026-09-25T12:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "048067fa74feeffd3267",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.justice.gov/opa/pr/las-vegas-woman-charged-conspiracy-distribute-fentanyl-and-possession-firearms",
+          "source_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "Las Vegas Woman Charged for Conspiracy to Distribute Fentanyl and Possession of Firearms",
+            "item_type": "entry",
+            "summary": "added: Las Vegas Woman Charged for Conspiracy to Distribute Fentanyl and Possession of Firearms",
+            "after": {
+              "title": "Las Vegas Woman Charged for Conspiracy to Distribute Fentanyl and Possession of Firearms",
+              "link": "https://www.justice.gov/opa/pr/las-vegas-woman-charged-conspiracy-distribute-fentanyl-and-possession-firearms",
+              "id": "https://www.justice.gov/opa/pr/las-vegas-woman-charged-conspiracy-distribute-fentanyl-and-possession-firearms",
+              "author": "",
+              "published_at": "2026-09-25T12:00:00Z",
+              "updated_at": "2026-09-25T12:00:00Z",
+              "summary": "A Las Vegas woman made her initial appearance in federal court on Wednesday for conspiracy to distribute fentanyl, a Schedule II controlled substance, and possession of two firearms in furtherance of a drug trafficking crime as a result of a Las Vegas Homeland Security Task Force investigation.",
+              "categories": [],
+              "feed": {
+                "title": "Justice News",
+                "url": "https://www.justice.gov/",
+                "feed_url": "https://www.justice.gov/news/rss?type=press_release&m=1"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+            "elapsed_ms": 99,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "us-justice",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.justice.gov/opa/pr/las-vegas-woman-charged-conspiracy-distribute-fentanyl-and-possession-firearms"
+    },
+    {
+      "id": "01e474476b7feeb65fc9",
+      "title": "Former U.S. Soldier Sentenced for Hacking and Extortion Scheme That Exposed Sensitive Data of U.S. Government Official",
+      "content_text": "Cameron John Wagenius, 22, a former Army soldier who was most recently stationed in Texas, was sentenced today to 70 months in prison and ordered to pay $294,978 in restitution for conspiring to hack into telecommunications companies’ databases, access sensitive records, and extort the companies by threatening to release the stolen data unless ransoms were paid.",
+      "date_published": "2026-09-25T12:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "01e474476b7feeb65fc9",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.justice.gov/opa/pr/former-us-soldier-sentenced-hacking-and-extortion-scheme-exposed-sensitive-data-us",
+          "source_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "Former U.S. Soldier Sentenced for Hacking and Extortion Scheme That Exposed Sensitive Data of U.S. Government Official",
+            "item_type": "entry",
+            "summary": "added: Former U.S. Soldier Sentenced for Hacking and Extortion Scheme That Exposed Sensitive Data of U.S. Government Official",
+            "after": {
+              "title": "Former U.S. Soldier Sentenced for Hacking and Extortion Scheme That Exposed Sensitive Data of U.S. Government Official",
+              "link": "https://www.justice.gov/opa/pr/former-us-soldier-sentenced-hacking-and-extortion-scheme-exposed-sensitive-data-us",
+              "id": "https://www.justice.gov/opa/pr/former-us-soldier-sentenced-hacking-and-extortion-scheme-exposed-sensitive-data-us",
+              "author": "",
+              "published_at": "2026-09-25T12:00:00Z",
+              "updated_at": "2026-09-25T12:00:00Z",
+              "summary": "Cameron John Wagenius, 22, a former Army soldier who was most recently stationed in Texas, was sentenced today to 70 months in prison and ordered to pay $294,978 in restitution for conspiring to hack into telecommunications companies’ databases, access sensitive records, and extort the companies by threatening to release the stolen data unless ransoms were paid.",
+              "categories": [],
+              "feed": {
+                "title": "Justice News",
+                "url": "https://www.justice.gov/",
+                "feed_url": "https://www.justice.gov/news/rss?type=press_release&m=1"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+            "elapsed_ms": 99,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "us-justice",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.justice.gov/opa/pr/former-us-soldier-sentenced-hacking-and-extortion-scheme-exposed-sensitive-data-us"
+    },
+    {
+      "id": "ed8d54ccc4e0b194fd6a",
+      "title": "Justice Department Holds the First Attorney General’s Summit on Victims of Violent Crime",
+      "content_text": "On Thursday, the Attorney General gathered victims and survivor families together at the first Summit on Victims of Violent Crime ahead of National Day of Remembrance for Murder Victims on September 25.",
+      "date_published": "2026-09-25T12:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ed8d54ccc4e0b194fd6a",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.justice.gov/opa/pr/justice-department-holds-first-attorney-generals-summit-victims-violent-crime",
+          "source_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "Justice Department Holds the First Attorney General’s Summit on Victims of Violent Crime",
+            "item_type": "entry",
+            "summary": "added: Justice Department Holds the First Attorney General’s Summit on Victims of Violent Crime",
+            "after": {
+              "title": "Justice Department Holds the First Attorney General’s Summit on Victims of Violent Crime",
+              "link": "https://www.justice.gov/opa/pr/justice-department-holds-first-attorney-generals-summit-victims-violent-crime",
+              "id": "https://www.justice.gov/opa/pr/justice-department-holds-first-attorney-generals-summit-victims-violent-crime",
+              "author": "",
+              "published_at": "2026-09-25T12:00:00Z",
+              "updated_at": "2026-09-25T12:00:00Z",
+              "summary": "On Thursday, the Attorney General gathered victims and survivor families together at the first Summit on Victims of Violent Crime ahead of National Day of Remembrance for Murder Victims on September 25.",
+              "categories": [],
+              "feed": {
+                "title": "Justice News",
+                "url": "https://www.justice.gov/",
+                "feed_url": "https://www.justice.gov/news/rss?type=press_release&m=1"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+            "elapsed_ms": 99,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "us-justice",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.justice.gov/opa/pr/justice-department-holds-first-attorney-generals-summit-victims-violent-crime"
+    },
+    {
+      "id": "7acf137696f0bb12b5cf",
+      "title": "Cuban National Convicted for International Alien Smuggling and Money Laundering Conspiracy",
+      "content_text": "A federal jury in the Middle District of Florida convicted a Cuban National for his role in an international alien smuggling and money laundering conspiracy.",
+      "date_published": "2026-09-25T12:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "7acf137696f0bb12b5cf",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.justice.gov/opa/pr/cuban-national-convicted-international-alien-smuggling-and-money-laundering-conspiracy",
+          "source_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "Cuban National Convicted for International Alien Smuggling and Money Laundering Conspiracy",
+            "item_type": "entry",
+            "summary": "added: Cuban National Convicted for International Alien Smuggling and Money Laundering Conspiracy",
+            "after": {
+              "title": "Cuban National Convicted for International Alien Smuggling and Money Laundering Conspiracy",
+              "link": "https://www.justice.gov/opa/pr/cuban-national-convicted-international-alien-smuggling-and-money-laundering-conspiracy",
+              "id": "https://www.justice.gov/opa/pr/cuban-national-convicted-international-alien-smuggling-and-money-laundering-conspiracy",
+              "author": "",
+              "published_at": "2026-09-25T12:00:00Z",
+              "updated_at": "2026-09-25T12:00:00Z",
+              "summary": "A federal jury in the Middle District of Florida convicted a Cuban National for his role in an international alien smuggling and money laundering conspiracy.",
+              "categories": [],
+              "feed": {
+                "title": "Justice News",
+                "url": "https://www.justice.gov/",
+                "feed_url": "https://www.justice.gov/news/rss?type=press_release&m=1"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+            "elapsed_ms": 99,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "us-justice",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.justice.gov/opa/pr/cuban-national-convicted-international-alien-smuggling-and-money-laundering-conspiracy"
+    },
+    {
+      "id": "ad546f47855588c58aa9",
+      "title": "Texas Mental Health Clinic Owner Convicted in $26M Scheme to Defraud Military Health Benefits Program",
+      "content_text": "A federal jury in Fort Worth convicted a Texas licensed professional counselor yesterday for his role in a $26 million health care fraud, kickbacks, and money laundering scheme.",
+      "date_published": "2026-09-25T12:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ad546f47855588c58aa9",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.justice.gov/opa/pr/texas-mental-health-clinic-owner-convicted-26m-scheme-defraud-military-health-benefits",
+          "source_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "Texas Mental Health Clinic Owner Convicted in $26M Scheme to Defraud Military Health Benefits Program",
+            "item_type": "entry",
+            "summary": "added: Texas Mental Health Clinic Owner Convicted in $26M Scheme to Defraud Military Health Benefits Program",
+            "after": {
+              "title": "Texas Mental Health Clinic Owner Convicted in $26M Scheme to Defraud Military Health Benefits Program",
+              "link": "https://www.justice.gov/opa/pr/texas-mental-health-clinic-owner-convicted-26m-scheme-defraud-military-health-benefits",
+              "id": "https://www.justice.gov/opa/pr/texas-mental-health-clinic-owner-convicted-26m-scheme-defraud-military-health-benefits",
+              "author": "",
+              "published_at": "2026-09-25T12:00:00Z",
+              "updated_at": "2026-09-25T12:00:00Z",
+              "summary": "A federal jury in Fort Worth convicted a Texas licensed professional counselor yesterday for his role in a $26 million health care fraud, kickbacks, and money laundering scheme.",
+              "categories": [],
+              "feed": {
+                "title": "Justice News",
+                "url": "https://www.justice.gov/",
+                "feed_url": "https://www.justice.gov/news/rss?type=press_release&m=1"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+            "elapsed_ms": 99,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "us-justice",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.justice.gov/opa/pr/texas-mental-health-clinic-owner-convicted-26m-scheme-defraud-military-health-benefits"
+    },
+    {
+      "id": "17de928026b685e4e485",
+      "title": "Virginia Man is Sentenced to 40 Years in Prison for Exploiting More Than 40 Minor Girls on Snapchat",
+      "content_text": "Malachi Morgan Thomas, 24, of Virginia, was sentenced yesterday to 40 years in prison for sexual exploitation of children and possession of child sexual abuse material (CSAM).",
+      "date_published": "2026-09-25T12:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "17de928026b685e4e485",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.justice.gov/opa/pr/virginia-man-sentenced-40-years-prison-exploiting-more-40-minor-girls-snapchat",
+          "source_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "Virginia Man is Sentenced to 40 Years in Prison for Exploiting More Than 40 Minor Girls on Snapchat",
+            "item_type": "entry",
+            "summary": "added: Virginia Man is Sentenced to 40 Years in Prison for Exploiting More Than 40 Minor Girls on Snapchat",
+            "after": {
+              "title": "Virginia Man is Sentenced to 40 Years in Prison for Exploiting More Than 40 Minor Girls on Snapchat",
+              "link": "https://www.justice.gov/opa/pr/virginia-man-sentenced-40-years-prison-exploiting-more-40-minor-girls-snapchat",
+              "id": "https://www.justice.gov/opa/pr/virginia-man-sentenced-40-years-prison-exploiting-more-40-minor-girls-snapchat",
+              "author": "",
+              "published_at": "2026-09-25T12:00:00Z",
+              "updated_at": "2026-09-25T12:00:00Z",
+              "summary": "Malachi Morgan Thomas, 24, of Virginia, was sentenced yesterday to 40 years in prison for sexual exploitation of children and possession of child sexual abuse material (CSAM).",
+              "categories": [],
+              "feed": {
+                "title": "Justice News",
+                "url": "https://www.justice.gov/",
+                "feed_url": "https://www.justice.gov/news/rss?type=press_release&m=1"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+            "elapsed_ms": 99,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "us-justice",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.justice.gov/opa/pr/virginia-man-sentenced-40-years-prison-exploiting-more-40-minor-girls-snapchat"
+    },
+    {
+      "id": "9fb721203fd4b6b5b647",
+      "title": "Four Aliens Charged With Election Fraud",
+      "content_text": "Four aliens, including 2 illegal aliens, have been charged with election-related crimes, announced United States Attorney David Metcalf.",
+      "date_published": "2026-09-24T12:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "9fb721203fd4b6b5b647",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.justice.gov/opa/pr/four-aliens-charged-election-fraud",
+          "source_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "Four Aliens Charged With Election Fraud",
+            "item_type": "entry",
+            "summary": "added: Four Aliens Charged With Election Fraud",
+            "after": {
+              "title": "Four Aliens Charged With Election Fraud",
+              "link": "https://www.justice.gov/opa/pr/four-aliens-charged-election-fraud",
+              "id": "https://www.justice.gov/opa/pr/four-aliens-charged-election-fraud",
+              "author": "",
+              "published_at": "2026-09-24T12:00:00Z",
+              "updated_at": "2026-09-24T12:00:00Z",
+              "summary": "Four aliens, including 2 illegal aliens, have been charged with election-related crimes, announced United States Attorney David Metcalf.",
+              "categories": [],
+              "feed": {
+                "title": "Justice News",
+                "url": "https://www.justice.gov/",
+                "feed_url": "https://www.justice.gov/news/rss?type=press_release&m=1"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+            "elapsed_ms": 99,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "us-justice",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.justice.gov/opa/pr/four-aliens-charged-election-fraud"
+    },
+    {
+      "id": "299ae615cef51737d7b3",
+      "title": "Justice Department Sues Minnesota, St. Paul, and Minneapolis Over Firearm Purchase Waiting Period",
+      "content_text": "Today, the Justice Department filed suit against the State of Minnesota, the City of Minneapolis, and the City of St. Paul. As stated in the lawsuit, Minnesota’s permit to purchase and waiting period regulatory scheme violate the Second Amendment for law-abiding citizens who desire to acquire firearms for self-defense in their homes. For Minnesotans who do not intend to carry in public, state law imposes a thirty-day waiting period. The lawsuit also challenges waiting periods in St. Paul and…",
+      "date_published": "2026-09-24T12:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "299ae615cef51737d7b3",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.justice.gov/opa/pr/justice-department-sues-minnesota-st-paul-and-minneapolis-over-firearm-purchase-waiting",
+          "source_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "Justice Department Sues Minnesota, St. Paul, and Minneapolis Over Firearm Purchase Waiting Period",
+            "item_type": "entry",
+            "summary": "added: Justice Department Sues Minnesota, St. Paul, and Minneapolis Over Firearm Purchase Waiting Period",
+            "after": {
+              "title": "Justice Department Sues Minnesota, St. Paul, and Minneapolis Over Firearm Purchase Waiting Period",
+              "link": "https://www.justice.gov/opa/pr/justice-department-sues-minnesota-st-paul-and-minneapolis-over-firearm-purchase-waiting",
+              "id": "https://www.justice.gov/opa/pr/justice-department-sues-minnesota-st-paul-and-minneapolis-over-firearm-purchase-waiting",
+              "author": "",
+              "published_at": "2026-09-24T12:00:00Z",
+              "updated_at": "2026-09-24T12:00:00Z",
+              "summary": "Today, the Justice Department filed suit against the State of Minnesota, the City of Minneapolis, and the City of St. Paul. As stated in the lawsuit, Minnesota’s permit to purchase and waiting period regulatory scheme violate the Second Amendment for law-abiding citizens who desire to acquire firearms for self-defense in their homes. For Minnesotans who do not intend to carry in public, state law imposes a thirty-day waiting period. The lawsuit also challenges waiting periods in St. Paul and Minneapolis, where some citizens are forced to wait nearly 60 days.",
+              "categories": [],
+              "feed": {
+                "title": "Justice News",
+                "url": "https://www.justice.gov/",
+                "feed_url": "https://www.justice.gov/news/rss?type=press_release&m=1"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+            "elapsed_ms": 99,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "us-justice",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.justice.gov/opa/pr/justice-department-sues-minnesota-st-paul-and-minneapolis-over-firearm-purchase-waiting"
+    },
+    {
+      "id": "9ba424e3bc04f136b373",
+      "title": "United States Files Request to Intervene in Case Brought by X Corp. and Elon Musk Seeking to Annul Decision by European Commission",
+      "content_text": "The United States filed an application to intervene in the captioned cases, X Internet and X Holdings v. Commission , Case No. T-114/26 and Musk v. Commission, Case No. T-121/26, before the General Court of the Court of Justice of the European Union (GCEU) in Luxembourg in support of the applications to annul the Dec. 5, 2025, Decision of the European Commission that found them liable for violations of the European Union’s Digital Services Act (DSA) and imposed a fine of €120,000,000 jointly…",
+      "date_published": "2026-09-24T12:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "9ba424e3bc04f136b373",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.justice.gov/opa/pr/united-states-files-request-intervene-case-brought-x-corp-and-elon-musk-seeking-annul",
+          "source_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "United States Files Request to Intervene in Case Brought by X Corp. and Elon Musk Seeking to Annul Decision by European Commission",
+            "item_type": "entry",
+            "summary": "added: United States Files Request to Intervene in Case Brought by X Corp. and Elon Musk Seeking to Annul Decision by European Commission",
+            "after": {
+              "title": "United States Files Request to Intervene in Case Brought by X Corp. and Elon Musk Seeking to Annul Decision by European Commission",
+              "link": "https://www.justice.gov/opa/pr/united-states-files-request-intervene-case-brought-x-corp-and-elon-musk-seeking-annul",
+              "id": "https://www.justice.gov/opa/pr/united-states-files-request-intervene-case-brought-x-corp-and-elon-musk-seeking-annul",
+              "author": "",
+              "published_at": "2026-09-24T12:00:00Z",
+              "updated_at": "2026-09-24T12:00:00Z",
+              "summary": "The United States filed an application to intervene in the captioned cases, X Internet and X Holdings v. Commission , Case No. T-114/26 and Musk v. Commission, Case No. T-121/26, before the General Court of the Court of Justice of the European Union (GCEU) in Luxembourg in support of the applications to annul the Dec. 5, 2025, Decision of the European Commission that found them liable for violations of the European Union’s Digital Services Act (DSA) and imposed a fine of €120,000,000 jointly and severally, based on “the total worldwide annual turnover of the single economic unit ultimately controlled by Elon Musk or that of X Holdings Corp.”",
+              "categories": [],
+              "feed": {
+                "title": "Justice News",
+                "url": "https://www.justice.gov/",
+                "feed_url": "https://www.justice.gov/news/rss?type=press_release&m=1"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+            "elapsed_ms": 99,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "us-justice",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.justice.gov/opa/pr/united-states-files-request-intervene-case-brought-x-corp-and-elon-musk-seeking-annul"
+    },
+    {
+      "id": "e0535ba752a0caaf9ed9",
+      "title": "DOJ Announces $25M “Assisting Neighborhoods and Governments with Enforcement of Laws” (ANGEL) Grant Opportunity for Local Law Enforcement in Honor of Americans Killed by Illegal Aliens and Illicit Drugs",
+      "content_text": "Today, the Justice Department announced the “Assisting Neighborhoods and Governments with Enforcement of Laws” (ANGEL) Grant Program.This initiative seeks to protect American citizens from being victimized, harmed, or killed by violent criminal illegal aliens. No additional families should endure the trauma and life altering devastation experienced by victims of violent crime and Angel Families. This funding opportunity will support state, local, and tribal government’s activities to identify…",
+      "date_published": "2026-09-24T12:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "e0535ba752a0caaf9ed9",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.justice.gov/opa/pr/doj-announces-25m-assisting-neighborhoods-and-governments-enforcement-laws-angel-grant",
+          "source_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "DOJ Announces $25M “Assisting Neighborhoods and Governments with Enforcement of Laws” (ANGEL) Grant Opportunity for Local Law Enforcement in Honor of Americans Killed by Illegal Aliens and Illicit Drugs",
+            "item_type": "entry",
+            "summary": "added: DOJ Announces $25M “Assisting Neighborhoods and Governments with Enforcement of Laws” (ANGEL) Grant Opportunity for Local Law Enforcement in Honor of Americans Killed by Illegal Aliens and Illicit Drugs",
+            "after": {
+              "title": "DOJ Announces $25M “Assisting Neighborhoods and Governments with Enforcement of Laws” (ANGEL) Grant Opportunity for Local Law Enforcement in Honor of Americans Killed by Illegal Aliens and Illicit Drugs",
+              "link": "https://www.justice.gov/opa/pr/doj-announces-25m-assisting-neighborhoods-and-governments-enforcement-laws-angel-grant",
+              "id": "https://www.justice.gov/opa/pr/doj-announces-25m-assisting-neighborhoods-and-governments-enforcement-laws-angel-grant",
+              "author": "",
+              "published_at": "2026-09-24T12:00:00Z",
+              "updated_at": "2026-09-24T12:00:00Z",
+              "summary": "Today, the Justice Department announced the “Assisting Neighborhoods and Governments with Enforcement of Laws” (ANGEL) Grant Program.This initiative seeks to protect American citizens from being victimized, harmed, or killed by violent criminal illegal aliens. No additional families should endure the trauma and life altering devastation experienced by victims of violent crime and Angel Families. This funding opportunity will support state, local, and tribal government’s activities to identify, disrupt, and prevent violent crime and enhance public safety through coordinated, intelligence-led law enforcement operations.",
+              "categories": [],
+              "feed": {
+                "title": "Justice News",
+                "url": "https://www.justice.gov/",
+                "feed_url": "https://www.justice.gov/news/rss?type=press_release&m=1"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+            "elapsed_ms": 99,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "us-justice",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.justice.gov/opa/pr/doj-announces-25m-assisting-neighborhoods-and-governments-enforcement-laws-angel-grant"
+    },
+    {
+      "id": "508ac5cea8a1501c1dfc",
+      "title": "Justice Department Ends Over 50 Half-Century-Old Desegregation Cases Throughout the United States",
+      "content_text": "The Justice Department’s Civil Rights Division announced today the dismissal of more than fifty desegregation cases — from Waterbury, Connecticut, to Flagler County, Florida — ending matters that had remained on court dockets for more than half a century.",
+      "date_published": "2026-09-24T12:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "508ac5cea8a1501c1dfc",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.justice.gov/opa/pr/justice-department-ends-over-50-half-century-old-desegregation-cases-throughout-united",
+          "source_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "Justice Department Ends Over 50 Half-Century-Old Desegregation Cases Throughout the United States",
+            "item_type": "entry",
+            "summary": "added: Justice Department Ends Over 50 Half-Century-Old Desegregation Cases Throughout the United States",
+            "after": {
+              "title": "Justice Department Ends Over 50 Half-Century-Old Desegregation Cases Throughout the United States",
+              "link": "https://www.justice.gov/opa/pr/justice-department-ends-over-50-half-century-old-desegregation-cases-throughout-united",
+              "id": "https://www.justice.gov/opa/pr/justice-department-ends-over-50-half-century-old-desegregation-cases-throughout-united",
+              "author": "",
+              "published_at": "2026-09-24T12:00:00Z",
+              "updated_at": "2026-09-24T12:00:00Z",
+              "summary": "The Justice Department’s Civil Rights Division announced today the dismissal of more than fifty desegregation cases — from Waterbury, Connecticut, to Flagler County, Florida — ending matters that had remained on court dockets for more than half a century.",
+              "categories": [],
+              "feed": {
+                "title": "Justice News",
+                "url": "https://www.justice.gov/",
+                "feed_url": "https://www.justice.gov/news/rss?type=press_release&m=1"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+            "elapsed_ms": 99,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "us-justice",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.justice.gov/opa/pr/justice-department-ends-over-50-half-century-old-desegregation-cases-throughout-united"
+    },
+    {
+      "id": "7d94d911792ad04aafad",
+      "title": "Uzbek National Extradited to the United States to Face Charges for Providing Material Support to Foreign Terrorist Organizations",
+      "content_text": "Davud Ansariy, a citizen of Uzbekistan and naturalized citizen of the United States, also known as “Kozimjon Gafurov” and “Kozim,” will be arraigned in federal court in Brooklyn this afternoon before U.S. Magistrate Judge Lara K. Eshkenazi on an indictment charging him with one count of conspiring and one count of provision of material support to the Islamic State of Iraq and al-Sham (ISIS) and Al-Nusrah Front (ANF), both foreign terrorist organizations at the time of the charged conduct.",
+      "date_published": "2026-09-24T12:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "7d94d911792ad04aafad",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.justice.gov/opa/pr/uzbek-national-extradited-united-states-face-charges-providing-material-support-foreign",
+          "source_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "Uzbek National Extradited to the United States to Face Charges for Providing Material Support to Foreign Terrorist Organizations",
+            "item_type": "entry",
+            "summary": "added: Uzbek National Extradited to the United States to Face Charges for Providing Material Support to Foreign Terrorist Organizations",
+            "after": {
+              "title": "Uzbek National Extradited to the United States to Face Charges for Providing Material Support to Foreign Terrorist Organizations",
+              "link": "https://www.justice.gov/opa/pr/uzbek-national-extradited-united-states-face-charges-providing-material-support-foreign",
+              "id": "https://www.justice.gov/opa/pr/uzbek-national-extradited-united-states-face-charges-providing-material-support-foreign",
+              "author": "",
+              "published_at": "2026-09-24T12:00:00Z",
+              "updated_at": "2026-09-24T12:00:00Z",
+              "summary": "Davud Ansariy, a citizen of Uzbekistan and naturalized citizen of the United States, also known as “Kozimjon Gafurov” and “Kozim,” will be arraigned in federal court in Brooklyn this afternoon before U.S. Magistrate Judge Lara K. Eshkenazi on an indictment charging him with one count of conspiring and one count of provision of material support to the Islamic State of Iraq and al-Sham (ISIS) and Al-Nusrah Front (ANF), both foreign terrorist organizations at the time of the charged conduct.",
+              "categories": [],
+              "feed": {
+                "title": "Justice News",
+                "url": "https://www.justice.gov/",
+                "feed_url": "https://www.justice.gov/news/rss?type=press_release&m=1"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+            "elapsed_ms": 99,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "us-justice",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.justice.gov/opa/pr/uzbek-national-extradited-united-states-face-charges-providing-material-support-foreign"
+    },
+    {
+      "id": "4f373be0317b06ea4537",
+      "title": "Kosovar National Pleads Guilty to Operating Cybercrime Marketplace Offering Tools and Products to Cybercriminals",
+      "content_text": "Ardit Kutleshi, 28, a Kosovar national, pleaded guilty to charges related to his creation and operation of Rydox, an illicit website and marketplace for cybercriminals to buy, sell and trade stolen personal information, and to access devices and other tools for carrying out cybercrime and fraud.",
+      "date_published": "2026-09-24T12:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "4f373be0317b06ea4537",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.justice.gov/opa/pr/kosovar-national-pleads-guilty-operating-cybercrime-marketplace-offering-tools-and-products",
+          "source_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "Kosovar National Pleads Guilty to Operating Cybercrime Marketplace Offering Tools and Products to Cybercriminals",
+            "item_type": "entry",
+            "summary": "added: Kosovar National Pleads Guilty to Operating Cybercrime Marketplace Offering Tools and Products to Cybercriminals",
+            "after": {
+              "title": "Kosovar National Pleads Guilty to Operating Cybercrime Marketplace Offering Tools and Products to Cybercriminals",
+              "link": "https://www.justice.gov/opa/pr/kosovar-national-pleads-guilty-operating-cybercrime-marketplace-offering-tools-and-products",
+              "id": "https://www.justice.gov/opa/pr/kosovar-national-pleads-guilty-operating-cybercrime-marketplace-offering-tools-and-products",
+              "author": "",
+              "published_at": "2026-09-24T12:00:00Z",
+              "updated_at": "2026-09-24T12:00:00Z",
+              "summary": "Ardit Kutleshi, 28, a Kosovar national, pleaded guilty to charges related to his creation and operation of Rydox, an illicit website and marketplace for cybercriminals to buy, sell and trade stolen personal information, and to access devices and other tools for carrying out cybercrime and fraud.",
+              "categories": [],
+              "feed": {
+                "title": "Justice News",
+                "url": "https://www.justice.gov/",
+                "feed_url": "https://www.justice.gov/news/rss?type=press_release&m=1"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+            "elapsed_ms": 99,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "us-justice",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.justice.gov/opa/pr/kosovar-national-pleads-guilty-operating-cybercrime-marketplace-offering-tools-and-products"
+    },
+    {
+      "id": "e79e5f19e9c987a471b8",
+      "title": "Texas Man Convicted of Sex Trafficking in the District of Columbia",
+      "content_text": "A federal jury in the District of Columbia convicted Devontee Parker, 38, of Dallas, today for sex trafficking by force, fraud, or coercion, interstate transportation for purpose of prostitution, and interstate travel in aid of racketeering.",
+      "date_published": "2026-09-23T12:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "e79e5f19e9c987a471b8",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.justice.gov/opa/pr/texas-man-convicted-sex-trafficking-district-columbia",
+          "source_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "Texas Man Convicted of Sex Trafficking in the District of Columbia",
+            "item_type": "entry",
+            "summary": "added: Texas Man Convicted of Sex Trafficking in the District of Columbia",
+            "after": {
+              "title": "Texas Man Convicted of Sex Trafficking in the District of Columbia",
+              "link": "https://www.justice.gov/opa/pr/texas-man-convicted-sex-trafficking-district-columbia",
+              "id": "https://www.justice.gov/opa/pr/texas-man-convicted-sex-trafficking-district-columbia",
+              "author": "",
+              "published_at": "2026-09-23T12:00:00Z",
+              "updated_at": "2026-09-23T12:00:00Z",
+              "summary": "A federal jury in the District of Columbia convicted Devontee Parker, 38, of Dallas, today for sex trafficking by force, fraud, or coercion, interstate transportation for purpose of prostitution, and interstate travel in aid of racketeering.",
+              "categories": [],
+              "feed": {
+                "title": "Justice News",
+                "url": "https://www.justice.gov/",
+                "feed_url": "https://www.justice.gov/news/rss?type=press_release&m=1"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+            "elapsed_ms": 99,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "us-justice",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.justice.gov/opa/pr/texas-man-convicted-sex-trafficking-district-columbia"
+    },
+    {
+      "id": "631db86d65016937f5b9",
+      "title": "Justice Department Issues Statements on the U.S. District Court for the Western District of Michigan’s Decision in People of the State of Michigan vs. BP, P.L.C., et al.",
+      "content_text": "The Justice Department issued the following statements regarding the U.S. District Court for the Western District of Michigan’s decision in People of the State of Michigan vs. BP, P.L.C., et al., which was an antitrust lawsuit brought by the state against energy companies. The Justice Department’s Antitrust Division and Energy and Natural Resources Division (ENRD) had previously filed a statement of interest to inform the court of legal doctrines that limited the state’s claims.",
+      "date_published": "2026-09-23T12:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "631db86d65016937f5b9",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.justice.gov/opa/pr/justice-department-issues-statements-us-district-court-western-district-michigans-decision",
+          "source_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "Justice Department Issues Statements on the U.S. District Court for the Western District of Michigan’s Decision in People of the State of Michigan vs. BP, P.L.C., et al.",
+            "item_type": "entry",
+            "summary": "added: Justice Department Issues Statements on the U.S. District Court for the Western District of Michigan’s Decision in People of the State of Michigan vs. BP, P.L.C., et al.",
+            "after": {
+              "title": "Justice Department Issues Statements on the U.S. District Court for the Western District of Michigan’s Decision in People of the State of Michigan vs. BP, P.L.C., et al.",
+              "link": "https://www.justice.gov/opa/pr/justice-department-issues-statements-us-district-court-western-district-michigans-decision",
+              "id": "https://www.justice.gov/opa/pr/justice-department-issues-statements-us-district-court-western-district-michigans-decision",
+              "author": "",
+              "published_at": "2026-09-23T12:00:00Z",
+              "updated_at": "2026-09-23T12:00:00Z",
+              "summary": "The Justice Department issued the following statements regarding the U.S. District Court for the Western District of Michigan’s decision in People of the State of Michigan vs. BP, P.L.C., et al., which was an antitrust lawsuit brought by the state against energy companies. The Justice Department’s Antitrust Division and Energy and Natural Resources Division (ENRD) had previously filed a statement of interest to inform the court of legal doctrines that limited the state’s claims.",
+              "categories": [],
+              "feed": {
+                "title": "Justice News",
+                "url": "https://www.justice.gov/",
+                "feed_url": "https://www.justice.gov/news/rss?type=press_release&m=1"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+            "elapsed_ms": 99,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "us-justice",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.justice.gov/opa/pr/justice-department-issues-statements-us-district-court-western-district-michigans-decision"
+    },
+    {
+      "id": "f9b6d9e958301df35418",
+      "title": "Justice Department Finds UCSF Medical School Discriminates Based on Race in Admissions",
+      "content_text": "The Justice Department’s Civil Rights Division announced today its finding that the University of California, San Francisco School of Medicine (UCSF Medical School) discriminated based on race in granting and denying admission to its 2023-2025 incoming classes. UCSF Medical School’s discriminatory conduct violated Title VI of the Civil Rights Act of 1964, which prohibits discrimination on the basis of race, and the U.S. Supreme Court’s 2023 decision in Students for Fair Admissions v. Harvard (…",
+      "date_published": "2026-09-22T12:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "f9b6d9e958301df35418",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.justice.gov/opa/pr/justice-department-finds-ucsf-medical-school-discriminates-based-race-admissions",
+          "source_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "Justice Department Finds UCSF Medical School Discriminates Based on Race in Admissions",
+            "item_type": "entry",
+            "summary": "added: Justice Department Finds UCSF Medical School Discriminates Based on Race in Admissions",
+            "after": {
+              "title": "Justice Department Finds UCSF Medical School Discriminates Based on Race in Admissions",
+              "link": "https://www.justice.gov/opa/pr/justice-department-finds-ucsf-medical-school-discriminates-based-race-admissions",
+              "id": "https://www.justice.gov/opa/pr/justice-department-finds-ucsf-medical-school-discriminates-based-race-admissions",
+              "author": "",
+              "published_at": "2026-09-22T12:00:00Z",
+              "updated_at": "2026-09-22T12:00:00Z",
+              "summary": "The Justice Department’s Civil Rights Division announced today its finding that the University of California, San Francisco School of Medicine (UCSF Medical School) discriminated based on race in granting and denying admission to its 2023-2025 incoming classes. UCSF Medical School’s discriminatory conduct violated Title VI of the Civil Rights Act of 1964, which prohibits discrimination on the basis of race, and the U.S. Supreme Court’s 2023 decision in Students for Fair Admissions v. Harvard ( SFFA ), which banned race discrimination in higher education.",
+              "categories": [],
+              "feed": {
+                "title": "Justice News",
+                "url": "https://www.justice.gov/",
+                "feed_url": "https://www.justice.gov/news/rss?type=press_release&m=1"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+            "elapsed_ms": 99,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "us-justice",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.justice.gov/opa/pr/justice-department-finds-ucsf-medical-school-discriminates-based-race-admissions"
+    },
+    {
+      "id": "c2311540d0bc434e9433",
+      "title": "Former Postal Worker Indicted After Allegedly Disposing of Hundreds of Mail-In Ballots in Utah",
+      "content_text": "An indictment was unsealed today charging a former postman with the U.S. Postal Service (USPS) with unlawful secretion, destruction, and delay of mail after he allegedly unlawfully threw away mail that he was entrusted to deliver – including approximately 300 mail-in ballots to registered voters in Utah.",
+      "date_published": "2026-09-22T12:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c2311540d0bc434e9433",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.justice.gov/opa/pr/former-postal-worker-indicted-after-allegedly-disposing-hundreds-mail-ballots-utah",
+          "source_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "Former Postal Worker Indicted After Allegedly Disposing of Hundreds of Mail-In Ballots in Utah",
+            "item_type": "entry",
+            "summary": "added: Former Postal Worker Indicted After Allegedly Disposing of Hundreds of Mail-In Ballots in Utah",
+            "after": {
+              "title": "Former Postal Worker Indicted After Allegedly Disposing of Hundreds of Mail-In Ballots in Utah",
+              "link": "https://www.justice.gov/opa/pr/former-postal-worker-indicted-after-allegedly-disposing-hundreds-mail-ballots-utah",
+              "id": "https://www.justice.gov/opa/pr/former-postal-worker-indicted-after-allegedly-disposing-hundreds-mail-ballots-utah",
+              "author": "",
+              "published_at": "2026-09-22T12:00:00Z",
+              "updated_at": "2026-09-22T12:00:00Z",
+              "summary": "An indictment was unsealed today charging a former postman with the U.S. Postal Service (USPS) with unlawful secretion, destruction, and delay of mail after he allegedly unlawfully threw away mail that he was entrusted to deliver – including approximately 300 mail-in ballots to registered voters in Utah.",
+              "categories": [],
+              "feed": {
+                "title": "Justice News",
+                "url": "https://www.justice.gov/",
+                "feed_url": "https://www.justice.gov/news/rss?type=press_release&m=1"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+            "elapsed_ms": 99,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "us-justice",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.justice.gov/opa/pr/former-postal-worker-indicted-after-allegedly-disposing-hundreds-mail-ballots-utah"
+    },
+    {
+      "id": "9bf5230cc532f2c62f13",
+      "title": "Extradited Nigerian National Pleads Guilty to Money Laundering in Connection with Sextortion and Romance Scams",
+      "content_text": "Olamide Shanu, 35, a Nigerian national, pleaded guilty yesterday in the District of Idaho to charges related to his role in several cyber-enabled schemes that defrauded approximately 150 American victims and caused millions of dollars in losses. Shanu made more than $2,500,000 from these fraud schemes.",
+      "date_published": "2026-09-22T12:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "9bf5230cc532f2c62f13",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.justice.gov/opa/pr/extradited-nigerian-national-pleads-guilty-money-laundering-connection-sextortion-and",
+          "source_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "Extradited Nigerian National Pleads Guilty to Money Laundering in Connection with Sextortion and Romance Scams",
+            "item_type": "entry",
+            "summary": "added: Extradited Nigerian National Pleads Guilty to Money Laundering in Connection with Sextortion and Romance Scams",
+            "after": {
+              "title": "Extradited Nigerian National Pleads Guilty to Money Laundering in Connection with Sextortion and Romance Scams",
+              "link": "https://www.justice.gov/opa/pr/extradited-nigerian-national-pleads-guilty-money-laundering-connection-sextortion-and",
+              "id": "https://www.justice.gov/opa/pr/extradited-nigerian-national-pleads-guilty-money-laundering-connection-sextortion-and",
+              "author": "",
+              "published_at": "2026-09-22T12:00:00Z",
+              "updated_at": "2026-09-22T12:00:00Z",
+              "summary": "Olamide Shanu, 35, a Nigerian national, pleaded guilty yesterday in the District of Idaho to charges related to his role in several cyber-enabled schemes that defrauded approximately 150 American victims and caused millions of dollars in losses. Shanu made more than $2,500,000 from these fraud schemes.",
+              "categories": [],
+              "feed": {
+                "title": "Justice News",
+                "url": "https://www.justice.gov/",
+                "feed_url": "https://www.justice.gov/news/rss?type=press_release&m=1"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+            "elapsed_ms": 99,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "us-justice",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.justice.gov/opa/pr/extradited-nigerian-national-pleads-guilty-money-laundering-connection-sextortion-and"
+    },
+    {
+      "id": "28cbb5015d9f14d9e4ea",
+      "title": "Chicagoland Man Convicted of Sex Trafficking and Forced Labor",
+      "content_text": "A federal jury in the Northern District of Indiana convicted Anthony Mayers, 36, of Gary, Indiana, of four counts of trafficking by force, fraud, or coercion and other related charges.",
+      "date_published": "2026-09-22T12:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "28cbb5015d9f14d9e4ea",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.justice.gov/opa/pr/chicagoland-man-convicted-sex-trafficking-and-forced-labor",
+          "source_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "Chicagoland Man Convicted of Sex Trafficking and Forced Labor",
+            "item_type": "entry",
+            "summary": "added: Chicagoland Man Convicted of Sex Trafficking and Forced Labor",
+            "after": {
+              "title": "Chicagoland Man Convicted of Sex Trafficking and Forced Labor",
+              "link": "https://www.justice.gov/opa/pr/chicagoland-man-convicted-sex-trafficking-and-forced-labor",
+              "id": "https://www.justice.gov/opa/pr/chicagoland-man-convicted-sex-trafficking-and-forced-labor",
+              "author": "",
+              "published_at": "2026-09-22T12:00:00Z",
+              "updated_at": "2026-09-22T12:00:00Z",
+              "summary": "A federal jury in the Northern District of Indiana convicted Anthony Mayers, 36, of Gary, Indiana, of four counts of trafficking by force, fraud, or coercion and other related charges.",
+              "categories": [],
+              "feed": {
+                "title": "Justice News",
+                "url": "https://www.justice.gov/",
+                "feed_url": "https://www.justice.gov/news/rss?type=press_release&m=1"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+            "elapsed_ms": 99,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "us-justice",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.justice.gov/opa/pr/chicagoland-man-convicted-sex-trafficking-and-forced-labor"
+    },
+    {
+      "id": "4bfddd78d1592d5f6395",
+      "title": "Iowa Man Sentenced to Life in Prison for Sex Trafficking Three Women, Drug Distribution, and Obstruction",
+      "content_text": "Dave Shumpert III, 30, of Des Moines, Iowa, was sentenced today in the U.S. District Court for the Southern District of Iowa to life in prison after being found guilty by a jury on June 11 of charges related to sex trafficking, distribution of a controlled substance, and obstruction.",
+      "date_published": "2026-09-22T12:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "4bfddd78d1592d5f6395",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.justice.gov/opa/pr/iowa-man-sentenced-life-prison-sex-trafficking-three-women-drug-distribution-and-obstruction",
+          "source_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "Iowa Man Sentenced to Life in Prison for Sex Trafficking Three Women, Drug Distribution, and Obstruction",
+            "item_type": "entry",
+            "summary": "added: Iowa Man Sentenced to Life in Prison for Sex Trafficking Three Women, Drug Distribution, and Obstruction",
+            "after": {
+              "title": "Iowa Man Sentenced to Life in Prison for Sex Trafficking Three Women, Drug Distribution, and Obstruction",
+              "link": "https://www.justice.gov/opa/pr/iowa-man-sentenced-life-prison-sex-trafficking-three-women-drug-distribution-and-obstruction",
+              "id": "https://www.justice.gov/opa/pr/iowa-man-sentenced-life-prison-sex-trafficking-three-women-drug-distribution-and-obstruction",
+              "author": "",
+              "published_at": "2026-09-22T12:00:00Z",
+              "updated_at": "2026-09-22T12:00:00Z",
+              "summary": "Dave Shumpert III, 30, of Des Moines, Iowa, was sentenced today in the U.S. District Court for the Southern District of Iowa to life in prison after being found guilty by a jury on June 11 of charges related to sex trafficking, distribution of a controlled substance, and obstruction.",
+              "categories": [],
+              "feed": {
+                "title": "Justice News",
+                "url": "https://www.justice.gov/",
+                "feed_url": "https://www.justice.gov/news/rss?type=press_release&m=1"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+            "elapsed_ms": 99,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "us-justice",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.justice.gov/opa/pr/iowa-man-sentenced-life-prison-sex-trafficking-three-women-drug-distribution-and-obstruction"
+    },
+    {
+      "id": "5d40265c173ebdddce7a",
+      "title": "Medical Equipment Sterilizer Agrees to Limits on Destruction of Toxic Ethylene Oxide Emissions to Resolve Clean Air Act Violations in Puerto Rico",
+      "content_text": "The Justice Department, on behalf of the Environmental Protection Agency (EPA), lodged a proposed settlement agreement with medical equipment sterilizer Steri-Tech Inc. yesterday to resolve allegations that it violated the Clean Air Act and related federal and Commonwealth of Puerto Rico regulations at its Salinas, Puerto Rico, sterilization facility. Under the proposed settlement, Steri-Tech will pay a $700,000 civil penalty and destroy its emissions of ethylene oxide by 99.99%.",
+      "date_published": "2026-09-22T12:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "5d40265c173ebdddce7a",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.justice.gov/opa/pr/medical-equipment-sterilizer-agrees-limits-destruction-toxic-ethylene-oxide-emissions",
+          "source_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "Medical Equipment Sterilizer Agrees to Limits on Destruction of Toxic Ethylene Oxide Emissions to Resolve Clean Air Act Violations in Puerto Rico",
+            "item_type": "entry",
+            "summary": "added: Medical Equipment Sterilizer Agrees to Limits on Destruction of Toxic Ethylene Oxide Emissions to Resolve Clean Air Act Violations in Puerto Rico",
+            "after": {
+              "title": "Medical Equipment Sterilizer Agrees to Limits on Destruction of Toxic Ethylene Oxide Emissions to Resolve Clean Air Act Violations in Puerto Rico",
+              "link": "https://www.justice.gov/opa/pr/medical-equipment-sterilizer-agrees-limits-destruction-toxic-ethylene-oxide-emissions",
+              "id": "https://www.justice.gov/opa/pr/medical-equipment-sterilizer-agrees-limits-destruction-toxic-ethylene-oxide-emissions",
+              "author": "",
+              "published_at": "2026-09-22T12:00:00Z",
+              "updated_at": "2026-09-22T12:00:00Z",
+              "summary": "The Justice Department, on behalf of the Environmental Protection Agency (EPA), lodged a proposed settlement agreement with medical equipment sterilizer Steri-Tech Inc. yesterday to resolve allegations that it violated the Clean Air Act and related federal and Commonwealth of Puerto Rico regulations at its Salinas, Puerto Rico, sterilization facility. Under the proposed settlement, Steri-Tech will pay a $700,000 civil penalty and destroy its emissions of ethylene oxide by 99.99%.",
+              "categories": [],
+              "feed": {
+                "title": "Justice News",
+                "url": "https://www.justice.gov/",
+                "feed_url": "https://www.justice.gov/news/rss?type=press_release&m=1"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+            "elapsed_ms": 99,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "us-justice",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.justice.gov/opa/pr/medical-equipment-sterilizer-agrees-limits-destruction-toxic-ethylene-oxide-emissions"
+    },
+    {
+      "id": "bcacc09db93c67f30efa",
+      "title": "Court Allows U.S. Government to Exchange Land with SpaceX in South Texas",
+      "content_text": "The U.S. District Court for the Southern District of Texas yesterday allowed a land exchange to proceed between the Fish and Wildlife Service (FWS) and SpaceX in South Texas. The court denied a preliminary injunction request, finding that the plaintiffs failed to establish an injury in fact to support standing and they failed to establish irreparable harm.",
+      "date_published": "2026-09-22T12:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "bcacc09db93c67f30efa",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.justice.gov/opa/pr/court-allows-us-government-exchange-land-spacex-south-texas-0",
+          "source_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "Court Allows U.S. Government to Exchange Land with SpaceX in South Texas",
+            "item_type": "entry",
+            "summary": "added: Court Allows U.S. Government to Exchange Land with SpaceX in South Texas",
+            "after": {
+              "title": "Court Allows U.S. Government to Exchange Land with SpaceX in South Texas",
+              "link": "https://www.justice.gov/opa/pr/court-allows-us-government-exchange-land-spacex-south-texas-0",
+              "id": "https://www.justice.gov/opa/pr/court-allows-us-government-exchange-land-spacex-south-texas-0",
+              "author": "",
+              "published_at": "2026-09-22T12:00:00Z",
+              "updated_at": "2026-09-22T12:00:00Z",
+              "summary": "The U.S. District Court for the Southern District of Texas yesterday allowed a land exchange to proceed between the Fish and Wildlife Service (FWS) and SpaceX in South Texas. The court denied a preliminary injunction request, finding that the plaintiffs failed to establish an injury in fact to support standing and they failed to establish irreparable harm.",
+              "categories": [],
+              "feed": {
+                "title": "Justice News",
+                "url": "https://www.justice.gov/",
+                "feed_url": "https://www.justice.gov/news/rss?type=press_release&m=1"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+            "elapsed_ms": 99,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "us-justice",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.justice.gov/opa/pr/court-allows-us-government-exchange-land-spacex-south-texas-0"
+    },
+    {
+      "id": "3f0ddaa5afb935b7cdd9",
+      "title": "Former Bank CEO Sentenced to Over 9 Years in Prison for Multimillion-Dollar Wire Fraud Conspiracy and Venezuela Sanctions Evasion Scheme",
+      "content_text": "Tomás Niembro Concha, 64, a Spanish and Venezuelan national, the former chief executive officer of Nodus International Bank (Nodus Bank), a Puerto Rican international bank, was sentenced to 112 months in prison and three years of supervised release. Niembro led a scheme to fraudulently obtain at least $24.9 million from Nodus Bank and conspired to evade U.S. sanctions against Venezuela. Niembro was ordered to forfeit over $16.9 million, which represents the value of the proceeds he derived from…",
+      "date_published": "2026-09-21T12:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "3f0ddaa5afb935b7cdd9",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.justice.gov/opa/pr/former-bank-ceo-sentenced-over-9-years-prison-multimillion-dollar-wire-fraud-conspiracy-and",
+          "source_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "Former Bank CEO Sentenced to Over 9 Years in Prison for Multimillion-Dollar Wire Fraud Conspiracy and Venezuela Sanctions Evasion Scheme",
+            "item_type": "entry",
+            "summary": "added: Former Bank CEO Sentenced to Over 9 Years in Prison for Multimillion-Dollar Wire Fraud Conspiracy and Venezuela Sanctions Evasion Scheme",
+            "after": {
+              "title": "Former Bank CEO Sentenced to Over 9 Years in Prison for Multimillion-Dollar Wire Fraud Conspiracy and Venezuela Sanctions Evasion Scheme",
+              "link": "https://www.justice.gov/opa/pr/former-bank-ceo-sentenced-over-9-years-prison-multimillion-dollar-wire-fraud-conspiracy-and",
+              "id": "https://www.justice.gov/opa/pr/former-bank-ceo-sentenced-over-9-years-prison-multimillion-dollar-wire-fraud-conspiracy-and",
+              "author": "",
+              "published_at": "2026-09-21T12:00:00Z",
+              "updated_at": "2026-09-21T12:00:00Z",
+              "summary": "Tomás Niembro Concha, 64, a Spanish and Venezuelan national, the former chief executive officer of Nodus International Bank (Nodus Bank), a Puerto Rican international bank, was sentenced to 112 months in prison and three years of supervised release. Niembro led a scheme to fraudulently obtain at least $24.9 million from Nodus Bank and conspired to evade U.S. sanctions against Venezuela. Niembro was ordered to forfeit over $16.9 million, which represents the value of the proceeds he derived from the wire fraud conspiracy.",
+              "categories": [],
+              "feed": {
+                "title": "Justice News",
+                "url": "https://www.justice.gov/",
+                "feed_url": "https://www.justice.gov/news/rss?type=press_release&m=1"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+            "elapsed_ms": 99,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "us-justice",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.justice.gov/opa/pr/former-bank-ceo-sentenced-over-9-years-prison-multimillion-dollar-wire-fraud-conspiracy-and"
+    },
+    {
+      "id": "11e35998c5949bd7e3a7",
+      "title": "Mexican National Sentenced in Scheme to Bribe Ecuadorian and Mexican Government Officials",
+      "content_text": "Javier Aguilar, 52, a Mexican national living in Houston, Texas, and a former oil trader, was sentenced in Brooklyn, New York, to four years in prison for his role in two separate schemes to bribe foreign officials in Ecuador and Mexico. He was also ordered to pay $7.13 million in forfeiture and a $100,000 fine.",
+      "date_published": "2026-09-21T12:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "11e35998c5949bd7e3a7",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.justice.gov/opa/pr/mexican-national-sentenced-scheme-bribe-ecuadorian-and-mexican-government-officials",
+          "source_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "Mexican National Sentenced in Scheme to Bribe Ecuadorian and Mexican Government Officials",
+            "item_type": "entry",
+            "summary": "added: Mexican National Sentenced in Scheme to Bribe Ecuadorian and Mexican Government Officials",
+            "after": {
+              "title": "Mexican National Sentenced in Scheme to Bribe Ecuadorian and Mexican Government Officials",
+              "link": "https://www.justice.gov/opa/pr/mexican-national-sentenced-scheme-bribe-ecuadorian-and-mexican-government-officials",
+              "id": "https://www.justice.gov/opa/pr/mexican-national-sentenced-scheme-bribe-ecuadorian-and-mexican-government-officials",
+              "author": "",
+              "published_at": "2026-09-21T12:00:00Z",
+              "updated_at": "2026-09-21T12:00:00Z",
+              "summary": "Javier Aguilar, 52, a Mexican national living in Houston, Texas, and a former oil trader, was sentenced in Brooklyn, New York, to four years in prison for his role in two separate schemes to bribe foreign officials in Ecuador and Mexico. He was also ordered to pay $7.13 million in forfeiture and a $100,000 fine.",
+              "categories": [],
+              "feed": {
+                "title": "Justice News",
+                "url": "https://www.justice.gov/",
+                "feed_url": "https://www.justice.gov/news/rss?type=press_release&m=1"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+            "elapsed_ms": 99,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "us-justice",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.justice.gov/opa/pr/mexican-national-sentenced-scheme-bribe-ecuadorian-and-mexican-government-officials"
+    },
+    {
+      "id": "6b07a6000ea63b066224",
+      "title": "Crown Medical Solutions and Its Owners to Pay $825,000 For Fraudulent Billing Scheme",
+      "content_text": "Crown Medical Solutions LLC (Crown) and its owners, Michelle and Philanzo King, have agreed to pay $825,000 to resolve allegations that Crown and its owners violated the False Claims Act by submitting false claims for payment to Medicare.",
+      "date_published": "2026-09-21T12:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "6b07a6000ea63b066224",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.justice.gov/opa/pr/crown-medical-solutions-and-its-owners-pay-825000-fraudulent-billing-scheme",
+          "source_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "Crown Medical Solutions and Its Owners to Pay $825,000 For Fraudulent Billing Scheme",
+            "item_type": "entry",
+            "summary": "added: Crown Medical Solutions and Its Owners to Pay $825,000 For Fraudulent Billing Scheme",
+            "after": {
+              "title": "Crown Medical Solutions and Its Owners to Pay $825,000 For Fraudulent Billing Scheme",
+              "link": "https://www.justice.gov/opa/pr/crown-medical-solutions-and-its-owners-pay-825000-fraudulent-billing-scheme",
+              "id": "https://www.justice.gov/opa/pr/crown-medical-solutions-and-its-owners-pay-825000-fraudulent-billing-scheme",
+              "author": "",
+              "published_at": "2026-09-21T12:00:00Z",
+              "updated_at": "2026-09-21T12:00:00Z",
+              "summary": "Crown Medical Solutions LLC (Crown) and its owners, Michelle and Philanzo King, have agreed to pay $825,000 to resolve allegations that Crown and its owners violated the False Claims Act by submitting false claims for payment to Medicare.",
+              "categories": [],
+              "feed": {
+                "title": "Justice News",
+                "url": "https://www.justice.gov/",
+                "feed_url": "https://www.justice.gov/news/rss?type=press_release&m=1"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+            "elapsed_ms": 99,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "us-justice",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.justice.gov/opa/pr/crown-medical-solutions-and-its-owners-pay-825000-fraudulent-billing-scheme"
+    }
+  ]
+}

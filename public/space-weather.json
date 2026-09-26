@@ -1,0 +1,1272 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Space weather: solar storms (NOAA SWPC)",
+  "home_page_url": "https://www.swpc.noaa.gov/",
+  "description": "Events collected by UnlimitedPipe 0.9.1",
+  "_unlimitedpipe": {
+    "schema": "unlimitedpipe.event/1",
+    "generator": "UnlimitedPipe 0.9.1"
+  },
+  "items": [
+    {
+      "id": "4158f69da3ce7ac43153",
+      "title": "Space weather WARNING: Geomagnetic K-index of 5 expected (G1 - Minor)",
+      "content_text": "Valid From: 2026 Sep 25 0835 UTC Valid To: 2026 Sep 25 1200 UTC. Area of impact primarily poleward of 60 degrees Geomagnetic Latitude. Induced Currents - Weak power grid fluctuations can occur. Spacecraft - Minor impact on satellite operations possible. Aurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
+      "date_published": "2026-09-25T08:35:43Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "4158f69da3ce7ac43153",
+          "source": "web",
+          "type": "change",
+          "key": "https://services.swpc.noaa.gov/products/alerts.json#WARK05-2266",
+          "source_url": "https://services.swpc.noaa.gov/products/alerts.json",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:11Z",
+          "data": {
+            "change": "added",
+            "label": "Space weather WARNING: Geomagnetic K-index of 5 expected (G1 - Minor)",
+            "item_type": "record",
+            "summary": "added: Space weather WARNING: Geomagnetic K-index of 5 expected (G1 - Minor)",
+            "after": {
+              "title": "Space weather WARNING: Geomagnetic K-index of 5 expected (G1 - Minor)",
+              "summary": "Valid From: 2026 Sep 25 0835 UTC Valid To: 2026 Sep 25 1200 UTC. Area of impact primarily poleward of 60 degrees Geomagnetic Latitude. Induced Currents - Weak power grid fluctuations can occur. Spacecraft - Minor impact on satellite operations possible. Aurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
+              "link": "https://www.swpc.noaa.gov/",
+              "published_at": "2026-09-25T08:35:43Z",
+              "serial": "WARK05-2266"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://services.swpc.noaa.gov/products/alerts.json",
+            "content_type": "application/json",
+            "elapsed_ms": 25,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "filter",
+              "version": "0.9.1",
+              "args": {
+                "expr": "message matches \"NOAA Scale: [GSR]\\\\d\""
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "headline=trim(replace(message, \"(?s)^.*?\\\\n((?:ALERT|WARNING|WATCH|EXTENDED WARNING|SUMMARY|CANCEL \\\\w+)[^\\\\n]*).*$\", \"\\\\1\"))",
+                  "scale=trim(replace(message, \"(?s)^.*?NOAA Scale: ([^\\\\r\\\\n]+).*$\", \"\\\\1\"))",
+                  "title=\"Space weather \" + headline + \" (\" + scale + \")\"",
+                  "when=trim(replace(message, \"(?s)^(?:.*?((?:Valid From|Threshold Reached|Begin Time): [^\\\\r\\\\n]*(?:\\\\s+(?:Valid To|End Time): [^\\\\r\\\\n]*)?))?.*$\", \"\\\\1\"))",
+                  "impacts=trim(replace(replace(message, \"(?s)^(?:.*?Potential Impacts: (.*))?.*$\", \"\\\\1\"), \"\\\\s+\", \" \"))",
+                  "summary=trim(replace(when, \"\\\\s+\", \" \") + \". \" + impacts)",
+                  "published_at=date(issue_datetime)",
+                  "link=\"https://www.swpc.noaa.gov/\"",
+                  "serial=replace(message, \"(?s)^.*?Message Code: (\\\\S+).*?Serial Number: (\\\\d+).*$\", \"\\\\1-\\\\2\")"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "serial"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "serial",
+                "namespace": "space-weather",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.swpc.noaa.gov/"
+    },
+    {
+      "id": "7fbdeb6b788f2f279ae7",
+      "title": "Space weather WARNING: Geomagnetic K-index of 5 expected (G1 - Minor)",
+      "content_text": "Valid From: 2026 Sep 15 1855 UTC Valid To: 2026 Sep 16 0600 UTC. Area of impact primarily poleward of 60 degrees Geomagnetic Latitude. Induced Currents - Weak power grid fluctuations can occur. Spacecraft - Minor impact on satellite operations possible. Aurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
+      "date_published": "2026-09-15T18:56:11Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "7fbdeb6b788f2f279ae7",
+          "source": "web",
+          "type": "change",
+          "key": "https://services.swpc.noaa.gov/products/alerts.json#WARK05-2265",
+          "source_url": "https://services.swpc.noaa.gov/products/alerts.json",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:11Z",
+          "data": {
+            "change": "added",
+            "label": "Space weather WARNING: Geomagnetic K-index of 5 expected (G1 - Minor)",
+            "item_type": "record",
+            "summary": "added: Space weather WARNING: Geomagnetic K-index of 5 expected (G1 - Minor)",
+            "after": {
+              "title": "Space weather WARNING: Geomagnetic K-index of 5 expected (G1 - Minor)",
+              "summary": "Valid From: 2026 Sep 15 1855 UTC Valid To: 2026 Sep 16 0600 UTC. Area of impact primarily poleward of 60 degrees Geomagnetic Latitude. Induced Currents - Weak power grid fluctuations can occur. Spacecraft - Minor impact on satellite operations possible. Aurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
+              "link": "https://www.swpc.noaa.gov/",
+              "published_at": "2026-09-15T18:56:11Z",
+              "serial": "WARK05-2265"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://services.swpc.noaa.gov/products/alerts.json",
+            "content_type": "application/json",
+            "elapsed_ms": 25,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "filter",
+              "version": "0.9.1",
+              "args": {
+                "expr": "message matches \"NOAA Scale: [GSR]\\\\d\""
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "headline=trim(replace(message, \"(?s)^.*?\\\\n((?:ALERT|WARNING|WATCH|EXTENDED WARNING|SUMMARY|CANCEL \\\\w+)[^\\\\n]*).*$\", \"\\\\1\"))",
+                  "scale=trim(replace(message, \"(?s)^.*?NOAA Scale: ([^\\\\r\\\\n]+).*$\", \"\\\\1\"))",
+                  "title=\"Space weather \" + headline + \" (\" + scale + \")\"",
+                  "when=trim(replace(message, \"(?s)^(?:.*?((?:Valid From|Threshold Reached|Begin Time): [^\\\\r\\\\n]*(?:\\\\s+(?:Valid To|End Time): [^\\\\r\\\\n]*)?))?.*$\", \"\\\\1\"))",
+                  "impacts=trim(replace(replace(message, \"(?s)^(?:.*?Potential Impacts: (.*))?.*$\", \"\\\\1\"), \"\\\\s+\", \" \"))",
+                  "summary=trim(replace(when, \"\\\\s+\", \" \") + \". \" + impacts)",
+                  "published_at=date(issue_datetime)",
+                  "link=\"https://www.swpc.noaa.gov/\"",
+                  "serial=replace(message, \"(?s)^.*?Message Code: (\\\\S+).*?Serial Number: (\\\\d+).*$\", \"\\\\1-\\\\2\")"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "serial"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "serial",
+                "namespace": "space-weather",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.swpc.noaa.gov/"
+    },
+    {
+      "id": "f9a947d2e01194ea097a",
+      "title": "Space weather ALERT: Geomagnetic K-index of 5 (G1 - Minor)",
+      "content_text": "Threshold Reached: 2026 Sep 08 1744 UTC. Area of impact primarily poleward of 60 degrees Geomagnetic Latitude. Induced Currents - Weak power grid fluctuations can occur. Spacecraft - Minor impact on satellite operations possible. Aurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
+      "date_published": "2026-09-08T17:51:10Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "f9a947d2e01194ea097a",
+          "source": "web",
+          "type": "change",
+          "key": "https://services.swpc.noaa.gov/products/alerts.json#ALTK05-2049",
+          "source_url": "https://services.swpc.noaa.gov/products/alerts.json",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:11Z",
+          "data": {
+            "change": "added",
+            "label": "Space weather ALERT: Geomagnetic K-index of 5 (G1 - Minor)",
+            "item_type": "record",
+            "summary": "added: Space weather ALERT: Geomagnetic K-index of 5 (G1 - Minor)",
+            "after": {
+              "title": "Space weather ALERT: Geomagnetic K-index of 5 (G1 - Minor)",
+              "summary": "Threshold Reached: 2026 Sep 08 1744 UTC. Area of impact primarily poleward of 60 degrees Geomagnetic Latitude. Induced Currents - Weak power grid fluctuations can occur. Spacecraft - Minor impact on satellite operations possible. Aurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
+              "link": "https://www.swpc.noaa.gov/",
+              "published_at": "2026-09-08T17:51:10Z",
+              "serial": "ALTK05-2049"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://services.swpc.noaa.gov/products/alerts.json",
+            "content_type": "application/json",
+            "elapsed_ms": 25,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "filter",
+              "version": "0.9.1",
+              "args": {
+                "expr": "message matches \"NOAA Scale: [GSR]\\\\d\""
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "headline=trim(replace(message, \"(?s)^.*?\\\\n((?:ALERT|WARNING|WATCH|EXTENDED WARNING|SUMMARY|CANCEL \\\\w+)[^\\\\n]*).*$\", \"\\\\1\"))",
+                  "scale=trim(replace(message, \"(?s)^.*?NOAA Scale: ([^\\\\r\\\\n]+).*$\", \"\\\\1\"))",
+                  "title=\"Space weather \" + headline + \" (\" + scale + \")\"",
+                  "when=trim(replace(message, \"(?s)^(?:.*?((?:Valid From|Threshold Reached|Begin Time): [^\\\\r\\\\n]*(?:\\\\s+(?:Valid To|End Time): [^\\\\r\\\\n]*)?))?.*$\", \"\\\\1\"))",
+                  "impacts=trim(replace(replace(message, \"(?s)^(?:.*?Potential Impacts: (.*))?.*$\", \"\\\\1\"), \"\\\\s+\", \" \"))",
+                  "summary=trim(replace(when, \"\\\\s+\", \" \") + \". \" + impacts)",
+                  "published_at=date(issue_datetime)",
+                  "link=\"https://www.swpc.noaa.gov/\"",
+                  "serial=replace(message, \"(?s)^.*?Message Code: (\\\\S+).*?Serial Number: (\\\\d+).*$\", \"\\\\1-\\\\2\")"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "serial"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "serial",
+                "namespace": "space-weather",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.swpc.noaa.gov/"
+    },
+    {
+      "id": "a2f9e9dd2dda5931a2e5",
+      "title": "Space weather EXTENDED WARNING: Geomagnetic K-index of 5 expected (G1 - Minor)",
+      "content_text": "Valid From: 2026 Sep 07 2000 UTC. Area of impact primarily poleward of 60 degrees Geomagnetic Latitude. Induced Currents - Weak power grid fluctuations can occur. Spacecraft - Minor impact on satellite operations possible. Aurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
+      "date_published": "2026-09-08T17:27:15Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "a2f9e9dd2dda5931a2e5",
+          "source": "web",
+          "type": "change",
+          "key": "https://services.swpc.noaa.gov/products/alerts.json#WARK05-2264",
+          "source_url": "https://services.swpc.noaa.gov/products/alerts.json",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:11Z",
+          "data": {
+            "change": "added",
+            "label": "Space weather EXTENDED WARNING: Geomagnetic K-index of 5 expected (G1 - Minor)",
+            "item_type": "record",
+            "summary": "added: Space weather EXTENDED WARNING: Geomagnetic K-index of 5 expected (G1 - Minor)",
+            "after": {
+              "title": "Space weather EXTENDED WARNING: Geomagnetic K-index of 5 expected (G1 - Minor)",
+              "summary": "Valid From: 2026 Sep 07 2000 UTC. Area of impact primarily poleward of 60 degrees Geomagnetic Latitude. Induced Currents - Weak power grid fluctuations can occur. Spacecraft - Minor impact on satellite operations possible. Aurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
+              "link": "https://www.swpc.noaa.gov/",
+              "published_at": "2026-09-08T17:27:15Z",
+              "serial": "WARK05-2264"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://services.swpc.noaa.gov/products/alerts.json",
+            "content_type": "application/json",
+            "elapsed_ms": 25,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "filter",
+              "version": "0.9.1",
+              "args": {
+                "expr": "message matches \"NOAA Scale: [GSR]\\\\d\""
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "headline=trim(replace(message, \"(?s)^.*?\\\\n((?:ALERT|WARNING|WATCH|EXTENDED WARNING|SUMMARY|CANCEL \\\\w+)[^\\\\n]*).*$\", \"\\\\1\"))",
+                  "scale=trim(replace(message, \"(?s)^.*?NOAA Scale: ([^\\\\r\\\\n]+).*$\", \"\\\\1\"))",
+                  "title=\"Space weather \" + headline + \" (\" + scale + \")\"",
+                  "when=trim(replace(message, \"(?s)^(?:.*?((?:Valid From|Threshold Reached|Begin Time): [^\\\\r\\\\n]*(?:\\\\s+(?:Valid To|End Time): [^\\\\r\\\\n]*)?))?.*$\", \"\\\\1\"))",
+                  "impacts=trim(replace(replace(message, \"(?s)^(?:.*?Potential Impacts: (.*))?.*$\", \"\\\\1\"), \"\\\\s+\", \" \"))",
+                  "summary=trim(replace(when, \"\\\\s+\", \" \") + \". \" + impacts)",
+                  "published_at=date(issue_datetime)",
+                  "link=\"https://www.swpc.noaa.gov/\"",
+                  "serial=replace(message, \"(?s)^.*?Message Code: (\\\\S+).*?Serial Number: (\\\\d+).*$\", \"\\\\1-\\\\2\")"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "serial"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "serial",
+                "namespace": "space-weather",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.swpc.noaa.gov/"
+    },
+    {
+      "id": "c8a179b5fe5264fbd24d",
+      "title": "Space weather ALERT: Geomagnetic K-index of 5 (G1 - Minor)",
+      "content_text": "Threshold Reached: 2026 Sep 08 0730 UTC. Area of impact primarily poleward of 60 degrees Geomagnetic Latitude. Induced Currents - Weak power grid fluctuations can occur. Spacecraft - Minor impact on satellite operations possible. Aurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
+      "date_published": "2026-09-08T07:34:24Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c8a179b5fe5264fbd24d",
+          "source": "web",
+          "type": "change",
+          "key": "https://services.swpc.noaa.gov/products/alerts.json#ALTK05-2048",
+          "source_url": "https://services.swpc.noaa.gov/products/alerts.json",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:11Z",
+          "data": {
+            "change": "added",
+            "label": "Space weather ALERT: Geomagnetic K-index of 5 (G1 - Minor)",
+            "item_type": "record",
+            "summary": "added: Space weather ALERT: Geomagnetic K-index of 5 (G1 - Minor)",
+            "after": {
+              "title": "Space weather ALERT: Geomagnetic K-index of 5 (G1 - Minor)",
+              "summary": "Threshold Reached: 2026 Sep 08 0730 UTC. Area of impact primarily poleward of 60 degrees Geomagnetic Latitude. Induced Currents - Weak power grid fluctuations can occur. Spacecraft - Minor impact on satellite operations possible. Aurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
+              "link": "https://www.swpc.noaa.gov/",
+              "published_at": "2026-09-08T07:34:24Z",
+              "serial": "ALTK05-2048"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://services.swpc.noaa.gov/products/alerts.json",
+            "content_type": "application/json",
+            "elapsed_ms": 25,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "filter",
+              "version": "0.9.1",
+              "args": {
+                "expr": "message matches \"NOAA Scale: [GSR]\\\\d\""
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "headline=trim(replace(message, \"(?s)^.*?\\\\n((?:ALERT|WARNING|WATCH|EXTENDED WARNING|SUMMARY|CANCEL \\\\w+)[^\\\\n]*).*$\", \"\\\\1\"))",
+                  "scale=trim(replace(message, \"(?s)^.*?NOAA Scale: ([^\\\\r\\\\n]+).*$\", \"\\\\1\"))",
+                  "title=\"Space weather \" + headline + \" (\" + scale + \")\"",
+                  "when=trim(replace(message, \"(?s)^(?:.*?((?:Valid From|Threshold Reached|Begin Time): [^\\\\r\\\\n]*(?:\\\\s+(?:Valid To|End Time): [^\\\\r\\\\n]*)?))?.*$\", \"\\\\1\"))",
+                  "impacts=trim(replace(replace(message, \"(?s)^(?:.*?Potential Impacts: (.*))?.*$\", \"\\\\1\"), \"\\\\s+\", \" \"))",
+                  "summary=trim(replace(when, \"\\\\s+\", \" \") + \". \" + impacts)",
+                  "published_at=date(issue_datetime)",
+                  "link=\"https://www.swpc.noaa.gov/\"",
+                  "serial=replace(message, \"(?s)^.*?Message Code: (\\\\S+).*?Serial Number: (\\\\d+).*$\", \"\\\\1-\\\\2\")"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "serial"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "serial",
+                "namespace": "space-weather",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.swpc.noaa.gov/"
+    },
+    {
+      "id": "2c27e852465ba3b73c01",
+      "title": "Space weather EXTENDED WARNING: Geomagnetic K-index of 5 expected (G1 - Minor)",
+      "content_text": "Valid From: 2026 Sep 07 2000 UTC. Area of impact primarily poleward of 60 degrees Geomagnetic Latitude. Induced Currents - Weak power grid fluctuations can occur. Spacecraft - Minor impact on satellite operations possible. Aurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
+      "date_published": "2026-09-08T05:46:15Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "2c27e852465ba3b73c01",
+          "source": "web",
+          "type": "change",
+          "key": "https://services.swpc.noaa.gov/products/alerts.json#WARK05-2263",
+          "source_url": "https://services.swpc.noaa.gov/products/alerts.json",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:11Z",
+          "data": {
+            "change": "added",
+            "label": "Space weather EXTENDED WARNING: Geomagnetic K-index of 5 expected (G1 - Minor)",
+            "item_type": "record",
+            "summary": "added: Space weather EXTENDED WARNING: Geomagnetic K-index of 5 expected (G1 - Minor)",
+            "after": {
+              "title": "Space weather EXTENDED WARNING: Geomagnetic K-index of 5 expected (G1 - Minor)",
+              "summary": "Valid From: 2026 Sep 07 2000 UTC. Area of impact primarily poleward of 60 degrees Geomagnetic Latitude. Induced Currents - Weak power grid fluctuations can occur. Spacecraft - Minor impact on satellite operations possible. Aurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
+              "link": "https://www.swpc.noaa.gov/",
+              "published_at": "2026-09-08T05:46:15Z",
+              "serial": "WARK05-2263"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://services.swpc.noaa.gov/products/alerts.json",
+            "content_type": "application/json",
+            "elapsed_ms": 25,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "filter",
+              "version": "0.9.1",
+              "args": {
+                "expr": "message matches \"NOAA Scale: [GSR]\\\\d\""
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "headline=trim(replace(message, \"(?s)^.*?\\\\n((?:ALERT|WARNING|WATCH|EXTENDED WARNING|SUMMARY|CANCEL \\\\w+)[^\\\\n]*).*$\", \"\\\\1\"))",
+                  "scale=trim(replace(message, \"(?s)^.*?NOAA Scale: ([^\\\\r\\\\n]+).*$\", \"\\\\1\"))",
+                  "title=\"Space weather \" + headline + \" (\" + scale + \")\"",
+                  "when=trim(replace(message, \"(?s)^(?:.*?((?:Valid From|Threshold Reached|Begin Time): [^\\\\r\\\\n]*(?:\\\\s+(?:Valid To|End Time): [^\\\\r\\\\n]*)?))?.*$\", \"\\\\1\"))",
+                  "impacts=trim(replace(replace(message, \"(?s)^(?:.*?Potential Impacts: (.*))?.*$\", \"\\\\1\"), \"\\\\s+\", \" \"))",
+                  "summary=trim(replace(when, \"\\\\s+\", \" \") + \". \" + impacts)",
+                  "published_at=date(issue_datetime)",
+                  "link=\"https://www.swpc.noaa.gov/\"",
+                  "serial=replace(message, \"(?s)^.*?Message Code: (\\\\S+).*?Serial Number: (\\\\d+).*$\", \"\\\\1-\\\\2\")"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "serial"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "serial",
+                "namespace": "space-weather",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.swpc.noaa.gov/"
+    },
+    {
+      "id": "b42634017539fb7a0175",
+      "title": "Space weather WARNING: Geomagnetic K-index of 5 expected (G1 - Minor)",
+      "content_text": "Valid From: 2026 Sep 07 2000 UTC Valid To: 2026 Sep 08 0600 UTC. Area of impact primarily poleward of 60 degrees Geomagnetic Latitude. Induced Currents - Weak power grid fluctuations can occur. Spacecraft - Minor impact on satellite operations possible. Aurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
+      "date_published": "2026-09-07T20:01:31Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "b42634017539fb7a0175",
+          "source": "web",
+          "type": "change",
+          "key": "https://services.swpc.noaa.gov/products/alerts.json#WARK05-2262",
+          "source_url": "https://services.swpc.noaa.gov/products/alerts.json",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:11Z",
+          "data": {
+            "change": "added",
+            "label": "Space weather WARNING: Geomagnetic K-index of 5 expected (G1 - Minor)",
+            "item_type": "record",
+            "summary": "added: Space weather WARNING: Geomagnetic K-index of 5 expected (G1 - Minor)",
+            "after": {
+              "title": "Space weather WARNING: Geomagnetic K-index of 5 expected (G1 - Minor)",
+              "summary": "Valid From: 2026 Sep 07 2000 UTC Valid To: 2026 Sep 08 0600 UTC. Area of impact primarily poleward of 60 degrees Geomagnetic Latitude. Induced Currents - Weak power grid fluctuations can occur. Spacecraft - Minor impact on satellite operations possible. Aurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
+              "link": "https://www.swpc.noaa.gov/",
+              "published_at": "2026-09-07T20:01:31Z",
+              "serial": "WARK05-2262"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://services.swpc.noaa.gov/products/alerts.json",
+            "content_type": "application/json",
+            "elapsed_ms": 25,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "filter",
+              "version": "0.9.1",
+              "args": {
+                "expr": "message matches \"NOAA Scale: [GSR]\\\\d\""
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "headline=trim(replace(message, \"(?s)^.*?\\\\n((?:ALERT|WARNING|WATCH|EXTENDED WARNING|SUMMARY|CANCEL \\\\w+)[^\\\\n]*).*$\", \"\\\\1\"))",
+                  "scale=trim(replace(message, \"(?s)^.*?NOAA Scale: ([^\\\\r\\\\n]+).*$\", \"\\\\1\"))",
+                  "title=\"Space weather \" + headline + \" (\" + scale + \")\"",
+                  "when=trim(replace(message, \"(?s)^(?:.*?((?:Valid From|Threshold Reached|Begin Time): [^\\\\r\\\\n]*(?:\\\\s+(?:Valid To|End Time): [^\\\\r\\\\n]*)?))?.*$\", \"\\\\1\"))",
+                  "impacts=trim(replace(replace(message, \"(?s)^(?:.*?Potential Impacts: (.*))?.*$\", \"\\\\1\"), \"\\\\s+\", \" \"))",
+                  "summary=trim(replace(when, \"\\\\s+\", \" \") + \". \" + impacts)",
+                  "published_at=date(issue_datetime)",
+                  "link=\"https://www.swpc.noaa.gov/\"",
+                  "serial=replace(message, \"(?s)^.*?Message Code: (\\\\S+).*?Serial Number: (\\\\d+).*$\", \"\\\\1-\\\\2\")"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "serial"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "serial",
+                "namespace": "space-weather",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.swpc.noaa.gov/"
+    },
+    {
+      "id": "0ca8d5ddbe75d4b6ef64",
+      "title": "Space weather SUMMARY: Proton Event 10MeV Integral Flux exceeded 10pfu (S1 - Minor)",
+      "content_text": "Begin Time: 2026 Sep 05 1615 UTC.",
+      "date_published": "2026-09-06T11:55:17Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "0ca8d5ddbe75d4b6ef64",
+          "source": "web",
+          "type": "change",
+          "key": "https://services.swpc.noaa.gov/products/alerts.json#SUMPX1-134",
+          "source_url": "https://services.swpc.noaa.gov/products/alerts.json",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:11Z",
+          "data": {
+            "change": "added",
+            "label": "Space weather SUMMARY: Proton Event 10MeV Integral Flux exceeded 10pfu (S1 - Minor)",
+            "item_type": "record",
+            "summary": "added: Space weather SUMMARY: Proton Event 10MeV Integral Flux exceeded 10pfu (S1 - Minor)",
+            "after": {
+              "title": "Space weather SUMMARY: Proton Event 10MeV Integral Flux exceeded 10pfu (S1 - Minor)",
+              "summary": "Begin Time: 2026 Sep 05 1615 UTC.",
+              "link": "https://www.swpc.noaa.gov/",
+              "published_at": "2026-09-06T11:55:17Z",
+              "serial": "SUMPX1-134"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://services.swpc.noaa.gov/products/alerts.json",
+            "content_type": "application/json",
+            "elapsed_ms": 25,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "filter",
+              "version": "0.9.1",
+              "args": {
+                "expr": "message matches \"NOAA Scale: [GSR]\\\\d\""
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "headline=trim(replace(message, \"(?s)^.*?\\\\n((?:ALERT|WARNING|WATCH|EXTENDED WARNING|SUMMARY|CANCEL \\\\w+)[^\\\\n]*).*$\", \"\\\\1\"))",
+                  "scale=trim(replace(message, \"(?s)^.*?NOAA Scale: ([^\\\\r\\\\n]+).*$\", \"\\\\1\"))",
+                  "title=\"Space weather \" + headline + \" (\" + scale + \")\"",
+                  "when=trim(replace(message, \"(?s)^(?:.*?((?:Valid From|Threshold Reached|Begin Time): [^\\\\r\\\\n]*(?:\\\\s+(?:Valid To|End Time): [^\\\\r\\\\n]*)?))?.*$\", \"\\\\1\"))",
+                  "impacts=trim(replace(replace(message, \"(?s)^(?:.*?Potential Impacts: (.*))?.*$\", \"\\\\1\"), \"\\\\s+\", \" \"))",
+                  "summary=trim(replace(when, \"\\\\s+\", \" \") + \". \" + impacts)",
+                  "published_at=date(issue_datetime)",
+                  "link=\"https://www.swpc.noaa.gov/\"",
+                  "serial=replace(message, \"(?s)^.*?Message Code: (\\\\S+).*?Serial Number: (\\\\d+).*$\", \"\\\\1-\\\\2\")"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "serial"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "serial",
+                "namespace": "space-weather",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.swpc.noaa.gov/"
+    },
+    {
+      "id": "f0dbe61d8573af5519a1",
+      "title": "Space weather EXTENDED WARNING: Proton 10MeV Integral Flux above 10pfu expected (S1 - Minor)",
+      "content_text": "Valid From: 2026 Sep 05 1620 UTC.",
+      "date_published": "2026-09-05T23:58:16Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "f0dbe61d8573af5519a1",
+          "source": "web",
+          "type": "change",
+          "key": "https://services.swpc.noaa.gov/products/alerts.json#WARPX1-632",
+          "source_url": "https://services.swpc.noaa.gov/products/alerts.json",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:11Z",
+          "data": {
+            "change": "added",
+            "label": "Space weather EXTENDED WARNING: Proton 10MeV Integral Flux above 10pfu expected (S1 - Minor)",
+            "item_type": "record",
+            "summary": "added: Space weather EXTENDED WARNING: Proton 10MeV Integral Flux above 10pfu expected (S1 - Minor)",
+            "after": {
+              "title": "Space weather EXTENDED WARNING: Proton 10MeV Integral Flux above 10pfu expected (S1 - Minor)",
+              "summary": "Valid From: 2026 Sep 05 1620 UTC.",
+              "link": "https://www.swpc.noaa.gov/",
+              "published_at": "2026-09-05T23:58:16Z",
+              "serial": "WARPX1-632"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://services.swpc.noaa.gov/products/alerts.json",
+            "content_type": "application/json",
+            "elapsed_ms": 25,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "filter",
+              "version": "0.9.1",
+              "args": {
+                "expr": "message matches \"NOAA Scale: [GSR]\\\\d\""
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "headline=trim(replace(message, \"(?s)^.*?\\\\n((?:ALERT|WARNING|WATCH|EXTENDED WARNING|SUMMARY|CANCEL \\\\w+)[^\\\\n]*).*$\", \"\\\\1\"))",
+                  "scale=trim(replace(message, \"(?s)^.*?NOAA Scale: ([^\\\\r\\\\n]+).*$\", \"\\\\1\"))",
+                  "title=\"Space weather \" + headline + \" (\" + scale + \")\"",
+                  "when=trim(replace(message, \"(?s)^(?:.*?((?:Valid From|Threshold Reached|Begin Time): [^\\\\r\\\\n]*(?:\\\\s+(?:Valid To|End Time): [^\\\\r\\\\n]*)?))?.*$\", \"\\\\1\"))",
+                  "impacts=trim(replace(replace(message, \"(?s)^(?:.*?Potential Impacts: (.*))?.*$\", \"\\\\1\"), \"\\\\s+\", \" \"))",
+                  "summary=trim(replace(when, \"\\\\s+\", \" \") + \". \" + impacts)",
+                  "published_at=date(issue_datetime)",
+                  "link=\"https://www.swpc.noaa.gov/\"",
+                  "serial=replace(message, \"(?s)^.*?Message Code: (\\\\S+).*?Serial Number: (\\\\d+).*$\", \"\\\\1-\\\\2\")"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "serial"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "serial",
+                "namespace": "space-weather",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.swpc.noaa.gov/"
+    },
+    {
+      "id": "d53e35fbc4712ecad347",
+      "title": "Space weather ALERT: Proton Event 10meV Integral Flux exceeded 10pfu (S1 - Minor)",
+      "content_text": "Begin Time: 2026 Sep 05 1615 UTC.",
+      "date_published": "2026-09-05T16:33:07Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d53e35fbc4712ecad347",
+          "source": "web",
+          "type": "change",
+          "key": "https://services.swpc.noaa.gov/products/alerts.json#ALTPX1-368",
+          "source_url": "https://services.swpc.noaa.gov/products/alerts.json",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:11Z",
+          "data": {
+            "change": "added",
+            "label": "Space weather ALERT: Proton Event 10meV Integral Flux exceeded 10pfu (S1 - Minor)",
+            "item_type": "record",
+            "summary": "added: Space weather ALERT: Proton Event 10meV Integral Flux exceeded 10pfu (S1 - Minor)",
+            "after": {
+              "title": "Space weather ALERT: Proton Event 10meV Integral Flux exceeded 10pfu (S1 - Minor)",
+              "summary": "Begin Time: 2026 Sep 05 1615 UTC.",
+              "link": "https://www.swpc.noaa.gov/",
+              "published_at": "2026-09-05T16:33:07Z",
+              "serial": "ALTPX1-368"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://services.swpc.noaa.gov/products/alerts.json",
+            "content_type": "application/json",
+            "elapsed_ms": 25,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "filter",
+              "version": "0.9.1",
+              "args": {
+                "expr": "message matches \"NOAA Scale: [GSR]\\\\d\""
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "headline=trim(replace(message, \"(?s)^.*?\\\\n((?:ALERT|WARNING|WATCH|EXTENDED WARNING|SUMMARY|CANCEL \\\\w+)[^\\\\n]*).*$\", \"\\\\1\"))",
+                  "scale=trim(replace(message, \"(?s)^.*?NOAA Scale: ([^\\\\r\\\\n]+).*$\", \"\\\\1\"))",
+                  "title=\"Space weather \" + headline + \" (\" + scale + \")\"",
+                  "when=trim(replace(message, \"(?s)^(?:.*?((?:Valid From|Threshold Reached|Begin Time): [^\\\\r\\\\n]*(?:\\\\s+(?:Valid To|End Time): [^\\\\r\\\\n]*)?))?.*$\", \"\\\\1\"))",
+                  "impacts=trim(replace(replace(message, \"(?s)^(?:.*?Potential Impacts: (.*))?.*$\", \"\\\\1\"), \"\\\\s+\", \" \"))",
+                  "summary=trim(replace(when, \"\\\\s+\", \" \") + \". \" + impacts)",
+                  "published_at=date(issue_datetime)",
+                  "link=\"https://www.swpc.noaa.gov/\"",
+                  "serial=replace(message, \"(?s)^.*?Message Code: (\\\\S+).*?Serial Number: (\\\\d+).*$\", \"\\\\1-\\\\2\")"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "serial"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "serial",
+                "namespace": "space-weather",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.swpc.noaa.gov/"
+    },
+    {
+      "id": "fe14f24025e509e25708",
+      "title": "Space weather WARNING: Proton 10MeV Integral Flux above 10pfu expected (S1 - Minor)",
+      "content_text": "Valid From: 2026 Sep 05 1620 UTC Valid To: 2026 Sep 05 2359 UTC.",
+      "date_published": "2026-09-05T16:20:40Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "fe14f24025e509e25708",
+          "source": "web",
+          "type": "change",
+          "key": "https://services.swpc.noaa.gov/products/alerts.json#WARPX1-631",
+          "source_url": "https://services.swpc.noaa.gov/products/alerts.json",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:11Z",
+          "data": {
+            "change": "added",
+            "label": "Space weather WARNING: Proton 10MeV Integral Flux above 10pfu expected (S1 - Minor)",
+            "item_type": "record",
+            "summary": "added: Space weather WARNING: Proton 10MeV Integral Flux above 10pfu expected (S1 - Minor)",
+            "after": {
+              "title": "Space weather WARNING: Proton 10MeV Integral Flux above 10pfu expected (S1 - Minor)",
+              "summary": "Valid From: 2026 Sep 05 1620 UTC Valid To: 2026 Sep 05 2359 UTC.",
+              "link": "https://www.swpc.noaa.gov/",
+              "published_at": "2026-09-05T16:20:40Z",
+              "serial": "WARPX1-631"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://services.swpc.noaa.gov/products/alerts.json",
+            "content_type": "application/json",
+            "elapsed_ms": 25,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "filter",
+              "version": "0.9.1",
+              "args": {
+                "expr": "message matches \"NOAA Scale: [GSR]\\\\d\""
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "headline=trim(replace(message, \"(?s)^.*?\\\\n((?:ALERT|WARNING|WATCH|EXTENDED WARNING|SUMMARY|CANCEL \\\\w+)[^\\\\n]*).*$\", \"\\\\1\"))",
+                  "scale=trim(replace(message, \"(?s)^.*?NOAA Scale: ([^\\\\r\\\\n]+).*$\", \"\\\\1\"))",
+                  "title=\"Space weather \" + headline + \" (\" + scale + \")\"",
+                  "when=trim(replace(message, \"(?s)^(?:.*?((?:Valid From|Threshold Reached|Begin Time): [^\\\\r\\\\n]*(?:\\\\s+(?:Valid To|End Time): [^\\\\r\\\\n]*)?))?.*$\", \"\\\\1\"))",
+                  "impacts=trim(replace(replace(message, \"(?s)^(?:.*?Potential Impacts: (.*))?.*$\", \"\\\\1\"), \"\\\\s+\", \" \"))",
+                  "summary=trim(replace(when, \"\\\\s+\", \" \") + \". \" + impacts)",
+                  "published_at=date(issue_datetime)",
+                  "link=\"https://www.swpc.noaa.gov/\"",
+                  "serial=replace(message, \"(?s)^.*?Message Code: (\\\\S+).*?Serial Number: (\\\\d+).*$\", \"\\\\1-\\\\2\")"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "serial"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "serial",
+                "namespace": "space-weather",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.swpc.noaa.gov/"
+    },
+    {
+      "id": "f19b689bea784b85758f",
+      "title": "Space weather WARNING: Geomagnetic K-index of 5 expected (G1 - Minor)",
+      "content_text": "Valid From: 2026 Aug 28 2039 UTC Valid To: 2026 Aug 29 0600 UTC. Area of impact primarily poleward of 60 degrees Geomagnetic Latitude. Induced Currents - Weak power grid fluctuations can occur. Spacecraft - Minor impact on satellite operations possible. Aurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
+      "date_published": "2026-08-28T20:40:30Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "f19b689bea784b85758f",
+          "source": "web",
+          "type": "change",
+          "key": "https://services.swpc.noaa.gov/products/alerts.json#WARK05-2261",
+          "source_url": "https://services.swpc.noaa.gov/products/alerts.json",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:11Z",
+          "data": {
+            "change": "added",
+            "label": "Space weather WARNING: Geomagnetic K-index of 5 expected (G1 - Minor)",
+            "item_type": "record",
+            "summary": "added: Space weather WARNING: Geomagnetic K-index of 5 expected (G1 - Minor)",
+            "after": {
+              "title": "Space weather WARNING: Geomagnetic K-index of 5 expected (G1 - Minor)",
+              "summary": "Valid From: 2026 Aug 28 2039 UTC Valid To: 2026 Aug 29 0600 UTC. Area of impact primarily poleward of 60 degrees Geomagnetic Latitude. Induced Currents - Weak power grid fluctuations can occur. Spacecraft - Minor impact on satellite operations possible. Aurora - Aurora may be visible at high latitudes, i.e., northern tier of the U.S. such as northern Michigan and Maine.",
+              "link": "https://www.swpc.noaa.gov/",
+              "published_at": "2026-08-28T20:40:30Z",
+              "serial": "WARK05-2261"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://services.swpc.noaa.gov/products/alerts.json",
+            "content_type": "application/json",
+            "elapsed_ms": 25,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "filter",
+              "version": "0.9.1",
+              "args": {
+                "expr": "message matches \"NOAA Scale: [GSR]\\\\d\""
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "headline=trim(replace(message, \"(?s)^.*?\\\\n((?:ALERT|WARNING|WATCH|EXTENDED WARNING|SUMMARY|CANCEL \\\\w+)[^\\\\n]*).*$\", \"\\\\1\"))",
+                  "scale=trim(replace(message, \"(?s)^.*?NOAA Scale: ([^\\\\r\\\\n]+).*$\", \"\\\\1\"))",
+                  "title=\"Space weather \" + headline + \" (\" + scale + \")\"",
+                  "when=trim(replace(message, \"(?s)^(?:.*?((?:Valid From|Threshold Reached|Begin Time): [^\\\\r\\\\n]*(?:\\\\s+(?:Valid To|End Time): [^\\\\r\\\\n]*)?))?.*$\", \"\\\\1\"))",
+                  "impacts=trim(replace(replace(message, \"(?s)^(?:.*?Potential Impacts: (.*))?.*$\", \"\\\\1\"), \"\\\\s+\", \" \"))",
+                  "summary=trim(replace(when, \"\\\\s+\", \" \") + \". \" + impacts)",
+                  "published_at=date(issue_datetime)",
+                  "link=\"https://www.swpc.noaa.gov/\"",
+                  "serial=replace(message, \"(?s)^.*?Message Code: (\\\\S+).*?Serial Number: (\\\\d+).*$\", \"\\\\1-\\\\2\")"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.9.1",
+              "args": {
+                "fields": [
+                  "title",
+                  "summary",
+                  "link",
+                  "published_at",
+                  "serial"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "serial",
+                "namespace": "space-weather",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.swpc.noaa.gov/"
+    }
+  ]
+}

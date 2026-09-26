@@ -2,12 +2,98 @@
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Rocket launches",
   "home_page_url": "https://thespacedevs.com/llapi",
-  "description": "Events collected by UnlimitedPipe 0.8.0",
+  "description": "Events collected by UnlimitedPipe 0.9.1",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.8.0"
+    "generator": "UnlimitedPipe 0.9.1"
   },
   "items": [
+    {
+      "id": "b0d5880f341e7379c8b2",
+      "title": "SSLV | AayulSAT-1A & others",
+      "content_text": "Launch window opens 2026-10-31 00:00 UTC (To Be Determined)",
+      "date_published": "2026-09-26T17:27:10Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "b0d5880f341e7379c8b2",
+          "source": "web",
+          "type": "change",
+          "key": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list#e59ff9a4-f72f-4841-8546-3c94346ecdba",
+          "source_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:10Z",
+          "data": {
+            "change": "added",
+            "label": "SSLV | AayulSAT-1A & others",
+            "item_type": "record",
+            "summary": "added: SSLV | AayulSAT-1A & others",
+            "after": {
+              "id": "e59ff9a4-f72f-4841-8546-3c94346ecdba",
+              "name": "SSLV | AayulSAT-1A & others",
+              "slug": "sslv-aayulsat-1a-others",
+              "launch_designator": null,
+              "status": {
+                "id": 2,
+                "name": "To Be Determined",
+                "abbrev": "TBD",
+                "description": "Current date is a placeholder or rough estimation based on unreliable or interpreted sources."
+              },
+              "last_updated": "2026-09-26T14:16:32Z",
+              "net": "2026-10-31T00:00:00Z",
+              "window_end": "2026-10-31T00:00:00Z",
+              "window_start": "2026-10-31T00:00:00Z",
+              "link": "https://spacelaunchnow.app/launch/sslv-aayulsat-1a-others/",
+              "summary": "Launch window opens 2026-10-31 00:00 UTC (To Be Determined)"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://ll.thespacedevs.com/2.3.0/launches/upcoming/?limit=30&mode=list",
+            "content_type": "application/json",
+            "elapsed_ms": 548,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "link=\"https://spacelaunchnow.app/launch/\" + slug + \"/\"",
+                  "summary=\"Launch window opens \" + replace(net, \"T(\\\\d\\\\d:\\\\d\\\\d):\\\\d\\\\dZ$\", \" \\\\1 UTC\") + \" (\" + status.name + \")\""
+                ],
+                "drop": [
+                  "url",
+                  "response_mode",
+                  "image",
+                  "infographic",
+                  "net_precision"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "key": "id",
+                "namespace": "space-launches",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://spacelaunchnow.app/launch/sslv-aayulsat-1a-others/"
+    },
     {
       "id": "7d8b7b69f5e24193a1d9",
       "title": "LVM-3 | Gaganyaan-1",

@@ -2,12 +2,450 @@
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Security news",
   "home_page_url": "https://www.bleepingcomputer.com/feed/",
-  "description": "Events collected by UnlimitedPipe 0.8.0",
+  "description": "Events collected by UnlimitedPipe 0.9.1",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.8.0"
+    "generator": "UnlimitedPipe 0.9.1"
   },
   "items": [
+    {
+      "id": "a525155cbc781b8c7ec0",
+      "title": "Claude Opus 5.5 uses 95% fewer em dashes, but its answers are getting longer",
+      "content_text": "Anthropic's Claude Opus 5.5 appears to be changing how it writes, with new analysis showing fewer obvious AI writing patterns, shorter sentences, and simpler wording compared with Opus 5. [...]",
+      "date_published": "2026-09-26T16:26:58Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "a525155cbc781b8c7ec0",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-opus-55-uses-95-percent-fewer-em-dashes-but-its-answers-are-getting-longer/",
+          "source_url": "https://www.bleepingcomputer.com/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:02Z",
+          "data": {
+            "change": "added",
+            "label": "Claude Opus 5.5 uses 95% fewer em dashes, but its answers are getting longer",
+            "item_type": "entry",
+            "summary": "added: Claude Opus 5.5 uses 95% fewer em dashes, but its answers are getting longer",
+            "after": {
+              "title": "Claude Opus 5.5 uses 95% fewer em dashes, but its answers are getting longer",
+              "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-opus-55-uses-95-percent-fewer-em-dashes-but-its-answers-are-getting-longer/",
+              "id": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-opus-55-uses-95-percent-fewer-em-dashes-but-its-answers-are-getting-longer/",
+              "author": "Mayank Parmar",
+              "published_at": "2026-09-26T16:26:58Z",
+              "updated_at": "2026-09-26T16:26:58Z",
+              "summary": "Anthropic's Claude Opus 5.5 appears to be changing how it writes, with new analysis showing fewer obvious AI writing patterns, shorter sentences, and simpler wording compared with Opus 5. [...]",
+              "categories": [
+                "Artificial Intelligence",
+                "Technology"
+              ],
+              "feed": {
+                "title": "BleepingComputer",
+                "url": "https://www.bleepingcomputer.com/",
+                "feed_url": "https://www.bleepingcomputer.com/feed/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.bleepingcomputer.com/feed/",
+            "elapsed_ms": 234,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "security-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-opus-55-uses-95-percent-fewer-em-dashes-but-its-answers-are-getting-longer/",
+      "tags": [
+        "Artificial Intelligence",
+        "Technology"
+      ]
+    },
+    {
+      "id": "34028a74afef394405a7",
+      "title": "Microsoft pauses KB5002907 update after Office license deactivations",
+      "content_text": "Microsoft has paused the rollout of the KB5002907 Microsoft 365 update after users report that it deactivated, or in some cases completely removed, perpetual Office 2016 and Office 2019 installations. [...]",
+      "date_published": "2026-09-26T15:50:38Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "34028a74afef394405a7",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-kb5002907-update-paused-after-office-license-deactivations/",
+          "source_url": "https://www.bleepingcomputer.com/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:02Z",
+          "data": {
+            "change": "added",
+            "label": "Microsoft pauses KB5002907 update after Office license deactivations",
+            "item_type": "entry",
+            "summary": "added: Microsoft pauses KB5002907 update after Office license deactivations",
+            "after": {
+              "title": "Microsoft pauses KB5002907 update after Office license deactivations",
+              "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-kb5002907-update-paused-after-office-license-deactivations/",
+              "id": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-kb5002907-update-paused-after-office-license-deactivations/",
+              "author": "Lawrence Abrams",
+              "published_at": "2026-09-26T15:50:38Z",
+              "updated_at": "2026-09-26T15:50:38Z",
+              "summary": "Microsoft has paused the rollout of the KB5002907 Microsoft 365 update after users report that it deactivated, or in some cases completely removed, perpetual Office 2016 and Office 2019 installations. [...]",
+              "categories": [
+                "Microsoft"
+              ],
+              "feed": {
+                "title": "BleepingComputer",
+                "url": "https://www.bleepingcomputer.com/",
+                "feed_url": "https://www.bleepingcomputer.com/feed/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.bleepingcomputer.com/feed/",
+            "elapsed_ms": 234,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "security-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-kb5002907-update-paused-after-office-license-deactivations/",
+      "tags": [
+        "Microsoft"
+      ]
+    },
+    {
+      "id": "717b01f7c6843ede33a1",
+      "title": "GitHub Actions re-enabled with Mini Shai-Hulud payload still active",
+      "content_text": "Two third-party GitHub Actions previously compromised in a Mini Shai-Hulud campaign were re-enabled by their maintainer and remained accessible for more than a week despite still pointing to malicious code. [...]",
+      "date_published": "2026-09-26T14:19:46Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "717b01f7c6843ede33a1",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/",
+          "source_url": "https://www.bleepingcomputer.com/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:02Z",
+          "data": {
+            "change": "added",
+            "label": "GitHub Actions re-enabled with Mini Shai-Hulud payload still active",
+            "item_type": "entry",
+            "summary": "added: GitHub Actions re-enabled with Mini Shai-Hulud payload still active",
+            "after": {
+              "title": "GitHub Actions re-enabled with Mini Shai-Hulud payload still active",
+              "link": "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/",
+              "id": "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/",
+              "author": "Bill Toulas",
+              "published_at": "2026-09-26T14:19:46Z",
+              "updated_at": "2026-09-26T14:19:46Z",
+              "summary": "Two third-party GitHub Actions previously compromised in a Mini Shai-Hulud campaign were re-enabled by their maintainer and remained accessible for more than a week despite still pointing to malicious code. [...]",
+              "categories": [
+                "Security"
+              ],
+              "feed": {
+                "title": "BleepingComputer",
+                "url": "https://www.bleepingcomputer.com/",
+                "feed_url": "https://www.bleepingcomputer.com/feed/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.bleepingcomputer.com/feed/",
+            "elapsed_ms": 234,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "security-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/",
+      "tags": [
+        "Security"
+      ]
+    },
+    {
+      "id": "249c4cd23e77262fddf9",
+      "title": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
+      "content_text": "Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a campaign targeting multiple sectors globally.\nThe ShinyHunters-linked activity involves the weaponization of CVE-2026-35273 (CVSS score: 9.8), a critical security flaw that could result in unauthenticated remote code execution.\nThe vulnerability was first exploited as a zero-day",
+      "date_published": "2026-09-26T11:46:40Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "249c4cd23e77262fddf9",
+          "source": "rss",
+          "type": "change",
+          "key": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
+          "source_url": "https://feeds.feedburner.com/TheHackersNews",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:02Z",
+          "data": {
+            "change": "added",
+            "label": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
+            "item_type": "entry",
+            "summary": "added: Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
+            "after": {
+              "title": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
+              "link": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
+              "id": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
+              "author": "info@thehackernews.com (The Hacker News)",
+              "published_at": "2026-09-26T11:46:40Z",
+              "updated_at": "2026-09-26T11:46:40Z",
+              "summary": "Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a campaign targeting multiple sectors globally.\nThe ShinyHunters-linked activity involves the weaponization of CVE-2026-35273 (CVSS score: 9.8), a critical security flaw that could result in unauthenticated remote code execution.\nThe vulnerability was first exploited as a zero-day",
+              "categories": [],
+              "feed": {
+                "title": "The Hacker News",
+                "url": "https://thehackernews.com",
+                "feed_url": "https://feeds.feedburner.com/TheHackersNews"
+              },
+              "enclosures": [
+                "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiYN2VWIT2g8mQkV0GeZWzYErKcubb0-baI8J__2nmdElucECc7HrLkdPsR1dz93qjMBI5sr_dL8yPWHf2bwWCBXa3YfutHAeJ-70UCSMuJrHhyOB3RO4OkuDjuw7gxRLXUnK-CeK9jZO0uOJRy-N3w-rV7uZ4t1FnFIWNjEsKtSYQINUvPX31mKzV_5Ert/s1600/oracle-flaw.jpg"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.feedburner.com/TheHackersNews",
+            "elapsed_ms": 177,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "security-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html"
+    },
+    {
+      "id": "cb71b012065330d4a7fb",
+      "title": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
+      "content_text": "The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused on how quickly organizations could stand up agents and how much productivity they could promise, a string of recent incidents, including a widely discussed intrusion at Hugging Face during an evaluation of OpenAI agents, has spurred organizations to",
+      "date_published": "2026-09-26T10:30:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "cb71b012065330d4a7fb",
+          "source": "rss",
+          "type": "change",
+          "key": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html",
+          "source_url": "https://feeds.feedburner.com/TheHackersNews",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:02Z",
+          "data": {
+            "change": "added",
+            "label": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
+            "item_type": "entry",
+            "summary": "added: Zero Trust for AI Agents Starts With Fixing Zero Visibility",
+            "after": {
+              "title": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
+              "link": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html",
+              "id": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html",
+              "author": "info@thehackernews.com (The Hacker News)",
+              "published_at": "2026-09-26T10:30:00Z",
+              "updated_at": "2026-09-26T10:30:00Z",
+              "summary": "The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused on how quickly organizations could stand up agents and how much productivity they could promise, a string of recent incidents, including a widely discussed intrusion at Hugging Face during an evaluation of OpenAI agents, has spurred organizations to",
+              "categories": [],
+              "feed": {
+                "title": "The Hacker News",
+                "url": "https://thehackernews.com",
+                "feed_url": "https://feeds.feedburner.com/TheHackersNews"
+              },
+              "enclosures": [
+                "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbfTXTCeNSvaPIRWOUJJxKPfYp45QnSjl24XZ1Set210zScJhg03o_TYX0QKPQdcSq-vkiWnymSqBu-bSwcCm1Kb2Te5do1VIcbCQjc_-TOOR6VwqRiHu5LE-tBb0gdrDjmPuDADfUraASQenGh-1gI4PF_xa2GwREsDM4vq4_C-aEU8EJsBBvhykJ1E0/s1600/sans-article.jpg"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.feedburner.com/TheHackersNews",
+            "elapsed_ms": 177,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "security-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html"
+    },
     {
       "id": "b00e92c44d250495f278",
       "title": "OpenAI's AI agents accidentally uploaded user-provided images to third-party sites",

@@ -2,10 +2,65 @@
 <rss version="2.0">
   <channel>
     <title>US news (NPR, PBS NewsHour)</title>
-    <link>https://feeds.npr.org/1014/rss.xml</link>
-    <description>Events collected by UnlimitedPipe 0.8.0</description>
-    <generator>UnlimitedPipe 0.8.0</generator>
-    <lastBuildDate>Sat, 26 Sep 2026 12:15:43 +0000</lastBuildDate>
+    <link>https://www.pbs.org/newshour/feeds/rss/headlines</link>
+    <description>Events collected by UnlimitedPipe 0.9.1</description>
+    <generator>UnlimitedPipe 0.9.1</generator>
+    <lastBuildDate>Sat, 26 Sep 2026 17:27:38 +0000</lastBuildDate>
+    <item>
+      <title>PBS NewsHour: Trump administration uses rare authority to claw back nearly $1B in spending approved by Congress</title>
+      <link>https://www.pbs.org/newshour/politics/trump-administration-uses-rare-authority-to-claw-back-nearly-1b-in-spending-approved-by-congress</link>
+      <guid isPermaLink="false">fafcf1e9e571587b8f15</guid>
+      <pubDate>Sat, 26 Sep 2026 17:20:24 +0000</pubDate>
+      <description>Most of the cuts are focused on Health and Human Services programs that serve refugees and unaccompanied minors accused of being in the country illegally.</description>
+      <category>congress</category>
+      <category>goverment spending</category>
+      <category>Trump Administration</category>
+    </item>
+    <item>
+      <title>PBS NewsHour: Pope Leo draws 800,000 people to central Paris for open-air Mass on iconic square</title>
+      <link>https://www.pbs.org/newshour/world/pope-leo-draws-800000-people-to-central-paris-for-open-air-mass-on-iconic-square</link>
+      <guid isPermaLink="false">c145435f54a54dc8b1fa</guid>
+      <pubDate>Sat, 26 Sep 2026 17:07:13 +0000</pubDate>
+      <description>The turnout testified to the church's lasting influence in France despite declining attendance and secularizing trends that have emptied churches across Europe.</description>
+      <category>France</category>
+      <category>Paris</category>
+      <category>pope leo xiv</category>
+      <category>Religion</category>
+    </item>
+    <item>
+      <title>PBS NewsHour: CNN says it was left off Air Force One for Trump's Saturday trip to a college football game</title>
+      <link>https://www.pbs.org/newshour/politics/cnn-says-it-was-left-off-air-force-one-for-trumps-saturday-trip-to-a-college-football-game</link>
+      <guid isPermaLink="false">d65cb5364cfba478f2e0</guid>
+      <pubDate>Sat, 26 Sep 2026 16:35:39 +0000</pubDate>
+      <description>CNN, a member of the U.S. network video pool that rotates duties shooting and sharing video coverage of the president, reported it had been scheduled to fly aboard the president's plane Saturday for a scheduled visit to a college football game.</description>
+      <category>cnn</category>
+      <category>Media</category>
+      <category>press freedom</category>
+      <category>white house press corps</category>
+    </item>
+    <item>
+      <title>PBS NewsHour: Trump rejects Iran's proposal to reopen the Strait of Hormuz, and other Middle East news</title>
+      <link>https://www.pbs.org/newshour/world/trump-rejects-irans-proposal-to-reopen-the-strait-of-hormuz-and-other-middle-east-news</link>
+      <guid isPermaLink="false">1d010ca3ccae32b8d6d8</guid>
+      <pubDate>Sat, 26 Sep 2026 15:53:23 +0000</pubDate>
+      <description>Iran offered this week to reopen the strait and resume talks on its nuclear program in seven days if the U.S. lifts its naval blockade of Iranian ports, waives sanctions on Iranian oil sales and observes a ceasefire that would include Lebanon.</description>
+      <category>Donald Trump news</category>
+      <category>Iran</category>
+      <category>middle east</category>
+      <category>Strait of Hormuz</category>
+    </item>
+    <item>
+      <title>PBS NewsHour: Roads flood in New Jersey, inundate some homes, as major signs of nor'easter take shape</title>
+      <link>https://www.pbs.org/newshour/nation/roads-flood-in-new-jersey-inundate-some-homes-as-major-signs-of-noreaster-take-shape</link>
+      <guid isPermaLink="false">926781169e0d6d75e9a9</guid>
+      <pubDate>Sat, 26 Sep 2026 15:20:15 +0000</pubDate>
+      <description>Tens of millions of people are in the path of the storm, which was already beginning to lash the region. Dangerous flooding is expected along the Mid-Atlantic coast, particularly near New Jersey and Delaware.</description>
+      <category>new england</category>
+      <category>New Jersey</category>
+      <category>nor'easter</category>
+      <category>NORTHEAST</category>
+      <category>Weather</category>
+    </item>
     <item>
       <title>NPR: Press pool dispute escalates as White House cuts CNN from Air Force One travel</title>
       <link>https://www.npr.org/2026/09/26/nx-s1-5981494/press-pool-dispute-escalates-as-white-house-cuts-cnn-from-air-force-one-travel</link>

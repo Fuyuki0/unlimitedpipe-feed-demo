@@ -1,0 +1,4097 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Taiwan news (Taipei Times)",
+  "home_page_url": "https://www.taipeitimes.com/xml/index.rss",
+  "description": "Events collected by UnlimitedPipe 0.9.1",
+  "_unlimitedpipe": {
+    "schema": "unlimitedpipe.event/1",
+    "generator": "UnlimitedPipe 0.9.1"
+  },
+  "items": [
+    {
+      "id": "c5d2c1a46350444b6d94",
+      "title": "Taipei Times: US’ Taiwan policy unchanged: envoy",
+      "content_text": "Taipei Times: US’ Taiwan policy unchanged: envoy",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c5d2c1a46350444b6d94",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/front/archives/2026/09/27/2003864953",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: US’ Taiwan policy unchanged: envoy",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: US’ Taiwan policy unchanged: envoy",
+            "after": {
+              "title": "Taipei Times: US’ Taiwan policy unchanged: envoy",
+              "link": "https://www.taipeitimes.com/News/front/archives/2026/09/27/2003864953",
+              "id": "https://www.taipeitimes.com/News/front/archives/2026/09/27/2003864953",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/front/archives/2026/09/27/2003864953"
+    },
+    {
+      "id": "cd10d94cc416085db48b",
+      "title": "Taipei Times: Allied nations call for Taiwan’s inclusion in UN",
+      "content_text": "Taipei Times: Allied nations call for Taiwan’s inclusion in UN",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "cd10d94cc416085db48b",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/front/archives/2026/09/27/2003864954",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: Allied nations call for Taiwan’s inclusion in UN",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: Allied nations call for Taiwan’s inclusion in UN",
+            "after": {
+              "title": "Taipei Times: Allied nations call for Taiwan’s inclusion in UN",
+              "link": "https://www.taipeitimes.com/News/front/archives/2026/09/27/2003864954",
+              "id": "https://www.taipeitimes.com/News/front/archives/2026/09/27/2003864954",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/front/archives/2026/09/27/2003864954"
+    },
+    {
+      "id": "047202b2568cbaa1ea1d",
+      "title": "Taipei Times: US, China to open AI ‘communication channel’",
+      "content_text": "Taipei Times: US, China to open AI ‘communication channel’",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "047202b2568cbaa1ea1d",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/front/archives/2026/09/27/2003864955",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: US, China to open AI ‘communication channel’",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: US, China to open AI ‘communication channel’",
+            "after": {
+              "title": "Taipei Times: US, China to open AI ‘communication channel’",
+              "link": "https://www.taipeitimes.com/News/front/archives/2026/09/27/2003864955",
+              "id": "https://www.taipeitimes.com/News/front/archives/2026/09/27/2003864955",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/front/archives/2026/09/27/2003864955"
+    },
+    {
+      "id": "bbf04c356519db715809",
+      "title": "Taipei Times: OpenAI says its AI agents posted user images online",
+      "content_text": "Taipei Times: OpenAI says its AI agents posted user images online",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "bbf04c356519db715809",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/front/archives/2026/09/27/2003864956",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: OpenAI says its AI agents posted user images online",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: OpenAI says its AI agents posted user images online",
+            "after": {
+              "title": "Taipei Times: OpenAI says its AI agents posted user images online",
+              "link": "https://www.taipeitimes.com/News/front/archives/2026/09/27/2003864956",
+              "id": "https://www.taipeitimes.com/News/front/archives/2026/09/27/2003864956",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/front/archives/2026/09/27/2003864956"
+    },
+    {
+      "id": "d4729a46c240e6e91a51",
+      "title": "Taipei Times: Trump rejects Tehran’s ceasefire proposal, report says",
+      "content_text": "Taipei Times: Trump rejects Tehran’s ceasefire proposal, report says",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d4729a46c240e6e91a51",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/front/archives/2026/09/27/2003864957",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: Trump rejects Tehran’s ceasefire proposal, report says",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: Trump rejects Tehran’s ceasefire proposal, report says",
+            "after": {
+              "title": "Taipei Times: Trump rejects Tehran’s ceasefire proposal, report says",
+              "link": "https://www.taipeitimes.com/News/front/archives/2026/09/27/2003864957",
+              "id": "https://www.taipeitimes.com/News/front/archives/2026/09/27/2003864957",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/front/archives/2026/09/27/2003864957"
+    },
+    {
+      "id": "42fdd20fd6953916c6da",
+      "title": "Taipei Times: Trump-Xi meeting: Minister backs more active role",
+      "content_text": "Taipei Times: Trump-Xi meeting: Minister backs more active role",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "42fdd20fd6953916c6da",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864964",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: Trump-Xi meeting: Minister backs more active role",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: Trump-Xi meeting: Minister backs more active role",
+            "after": {
+              "title": "Taipei Times: Trump-Xi meeting: Minister backs more active role",
+              "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864964",
+              "id": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864964",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864964"
+    },
+    {
+      "id": "e824c88b0265af4a3cbd",
+      "title": "Taipei Times: Trump-Xi meeting: Xi’s visit to archives cut short, sources say",
+      "content_text": "Taipei Times: Trump-Xi meeting: Xi’s visit to archives cut short, sources say",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "e824c88b0265af4a3cbd",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864965",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: Trump-Xi meeting: Xi’s visit to archives cut short, sources say",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: Trump-Xi meeting: Xi’s visit to archives cut short, sources say",
+            "after": {
+              "title": "Taipei Times: Trump-Xi meeting: Xi’s visit to archives cut short, sources say",
+              "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864965",
+              "id": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864965",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864965"
+    },
+    {
+      "id": "729028ed80040d1e11ae",
+      "title": "Taipei Times: Trump-Xi meeting: Backing of world hailed",
+      "content_text": "Taipei Times: Trump-Xi meeting: Backing of world hailed",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "729028ed80040d1e11ae",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864966",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: Trump-Xi meeting: Backing of world hailed",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: Trump-Xi meeting: Backing of world hailed",
+            "after": {
+              "title": "Taipei Times: Trump-Xi meeting: Backing of world hailed",
+              "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864966",
+              "id": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864966",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864966"
+    },
+    {
+      "id": "b07d562a4802a6e4d84e",
+      "title": "Taipei Times: Trump-Xi meeting: US policy clues to come after meeting: academics",
+      "content_text": "Taipei Times: Trump-Xi meeting: US policy clues to come after meeting: academics",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "b07d562a4802a6e4d84e",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864967",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: Trump-Xi meeting: US policy clues to come after meeting: academics",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: Trump-Xi meeting: US policy clues to come after meeting: academics",
+            "after": {
+              "title": "Taipei Times: Trump-Xi meeting: US policy clues to come after meeting: academics",
+              "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864967",
+              "id": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864967",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864967"
+    },
+    {
+      "id": "fb956808380bc3afc4bd",
+      "title": "Taipei Times: Taiwan in global education studies top 5",
+      "content_text": "Taipei Times: Taiwan in global education studies top 5",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "fb956808380bc3afc4bd",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864968",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: Taiwan in global education studies top 5",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: Taiwan in global education studies top 5",
+            "after": {
+              "title": "Taipei Times: Taiwan in global education studies top 5",
+              "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864968",
+              "id": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864968",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864968"
+    },
+    {
+      "id": "a915e5403d7bfda271d4",
+      "title": "Taipei Times: All-night stores disappearing: association",
+      "content_text": "Taipei Times: All-night stores disappearing: association",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "a915e5403d7bfda271d4",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864969",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: All-night stores disappearing: association",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: All-night stores disappearing: association",
+            "after": {
+              "title": "Taipei Times: All-night stores disappearing: association",
+              "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864969",
+              "id": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864969",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864969"
+    },
+    {
+      "id": "fc74c15531e87513bb78",
+      "title": "Taipei Times: Asian Games bans ROC flag from baseball game",
+      "content_text": "Taipei Times: Asian Games bans ROC flag from baseball game",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "fc74c15531e87513bb78",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864970",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: Asian Games bans ROC flag from baseball game",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: Asian Games bans ROC flag from baseball game",
+            "after": {
+              "title": "Taipei Times: Asian Games bans ROC flag from baseball game",
+              "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864970",
+              "id": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864970",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864970"
+    },
+    {
+      "id": "f8978b5d6630d945a0b4",
+      "title": "Taipei Times: Risk of dementia higher for early retirees: research",
+      "content_text": "Taipei Times: Risk of dementia higher for early retirees: research",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "f8978b5d6630d945a0b4",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864971",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: Risk of dementia higher for early retirees: research",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: Risk of dementia higher for early retirees: research",
+            "after": {
+              "title": "Taipei Times: Risk of dementia higher for early retirees: research",
+              "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864971",
+              "id": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864971",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864971"
+    },
+    {
+      "id": "6534c316312193a07966",
+      "title": "Taipei Times: Yunlin farmer charged over Chinese vaccines",
+      "content_text": "Taipei Times: Yunlin farmer charged over Chinese vaccines",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "6534c316312193a07966",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864972",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: Yunlin farmer charged over Chinese vaccines",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: Yunlin farmer charged over Chinese vaccines",
+            "after": {
+              "title": "Taipei Times: Yunlin farmer charged over Chinese vaccines",
+              "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864972",
+              "id": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864972",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864972"
+    },
+    {
+      "id": "f477734b046b5800f46d",
+      "title": "Taipei Times: Institute touts its new umami seasoning powder",
+      "content_text": "Taipei Times: Institute touts its new umami seasoning powder",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "f477734b046b5800f46d",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864973",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: Institute touts its new umami seasoning powder",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: Institute touts its new umami seasoning powder",
+            "after": {
+              "title": "Taipei Times: Institute touts its new umami seasoning powder",
+              "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864973",
+              "id": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864973",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864973"
+    },
+    {
+      "id": "cb6b487b25051ac46a0a",
+      "title": "Taipei Times: Back in business",
+      "content_text": "Taipei Times: Back in business",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "cb6b487b25051ac46a0a",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864974",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: Back in business",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: Back in business",
+            "after": {
+              "title": "Taipei Times: Back in business",
+              "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864974",
+              "id": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864974",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864974"
+    },
+    {
+      "id": "8814093e21cc1bde4ece",
+      "title": "Taipei Times: Helping hands",
+      "content_text": "Taipei Times: Helping hands",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "8814093e21cc1bde4ece",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864975",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: Helping hands",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: Helping hands",
+            "after": {
+              "title": "Taipei Times: Helping hands",
+              "link": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864975",
+              "id": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864975",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/taiwan/archives/2026/09/27/2003864975"
+    },
+    {
+      "id": "f82921a9fce006d4591c",
+      "title": "Taipei Times: Rhine’s dry-out has shippers rethinking their strategies",
+      "content_text": "Taipei Times: Rhine’s dry-out has shippers rethinking their strategies",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "f82921a9fce006d4591c",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/biz/archives/2026/09/27/2003864941",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: Rhine’s dry-out has shippers rethinking their strategies",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: Rhine’s dry-out has shippers rethinking their strategies",
+            "after": {
+              "title": "Taipei Times: Rhine’s dry-out has shippers rethinking their strategies",
+              "link": "https://www.taipeitimes.com/News/biz/archives/2026/09/27/2003864941",
+              "id": "https://www.taipeitimes.com/News/biz/archives/2026/09/27/2003864941",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/09/27/2003864941"
+    },
+    {
+      "id": "c97249f2c2cb72d9a40d",
+      "title": "Taipei Times: Rescued worker ready to help rebuild Nepal",
+      "content_text": "Taipei Times: Rescued worker ready to help rebuild Nepal",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c97249f2c2cb72d9a40d",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/biz/archives/2026/09/27/2003864942",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: Rescued worker ready to help rebuild Nepal",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: Rescued worker ready to help rebuild Nepal",
+            "after": {
+              "title": "Taipei Times: Rescued worker ready to help rebuild Nepal",
+              "link": "https://www.taipeitimes.com/News/biz/archives/2026/09/27/2003864942",
+              "id": "https://www.taipeitimes.com/News/biz/archives/2026/09/27/2003864942",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/09/27/2003864942"
+    },
+    {
+      "id": "83ede5d29f2016f9f976",
+      "title": "Taipei Times: European fisheries struggling to cope with rising sea temperatures",
+      "content_text": "Taipei Times: European fisheries struggling to cope with rising sea temperatures",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "83ede5d29f2016f9f976",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/biz/archives/2026/09/27/2003864943",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: European fisheries struggling to cope with rising sea temperatures",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: European fisheries struggling to cope with rising sea temperatures",
+            "after": {
+              "title": "Taipei Times: European fisheries struggling to cope with rising sea temperatures",
+              "link": "https://www.taipeitimes.com/News/biz/archives/2026/09/27/2003864943",
+              "id": "https://www.taipeitimes.com/News/biz/archives/2026/09/27/2003864943",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/09/27/2003864943"
+    },
+    {
+      "id": "84688169a47205b1c1ff",
+      "title": "Taipei Times: EDITORIAL: Distortions with strategic intent",
+      "content_text": "Taipei Times: EDITORIAL: Distortions with strategic intent",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "84688169a47205b1c1ff",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/editorials/archives/2026/09/27/2003864944",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: EDITORIAL: Distortions with strategic intent",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: EDITORIAL: Distortions with strategic intent",
+            "after": {
+              "title": "Taipei Times: EDITORIAL: Distortions with strategic intent",
+              "link": "https://www.taipeitimes.com/News/editorials/archives/2026/09/27/2003864944",
+              "id": "https://www.taipeitimes.com/News/editorials/archives/2026/09/27/2003864944",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/09/27/2003864944"
+    },
+    {
+      "id": "98ae8b85670de2e61298",
+      "title": "Taipei Times: Trump, Xi, Takaichi and tale of headlines",
+      "content_text": "Taipei Times: Trump, Xi, Takaichi and tale of headlines",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "98ae8b85670de2e61298",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/editorials/archives/2026/09/27/2003864945",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: Trump, Xi, Takaichi and tale of headlines",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: Trump, Xi, Takaichi and tale of headlines",
+            "after": {
+              "title": "Taipei Times: Trump, Xi, Takaichi and tale of headlines",
+              "link": "https://www.taipeitimes.com/News/editorials/archives/2026/09/27/2003864945",
+              "id": "https://www.taipeitimes.com/News/editorials/archives/2026/09/27/2003864945",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/09/27/2003864945"
+    },
+    {
+      "id": "6193ae3c1510aac2a04b",
+      "title": "Taipei Times: Deterrence depends on Beijing",
+      "content_text": "Taipei Times: Deterrence depends on Beijing",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "6193ae3c1510aac2a04b",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/editorials/archives/2026/09/27/2003864946",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: Deterrence depends on Beijing",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: Deterrence depends on Beijing",
+            "after": {
+              "title": "Taipei Times: Deterrence depends on Beijing",
+              "link": "https://www.taipeitimes.com/News/editorials/archives/2026/09/27/2003864946",
+              "id": "https://www.taipeitimes.com/News/editorials/archives/2026/09/27/2003864946",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/09/27/2003864946"
+    },
+    {
+      "id": "22d7a86758cb67581357",
+      "title": "Taipei Times: Bilingual 2030 and the elephant",
+      "content_text": "Taipei Times: Bilingual 2030 and the elephant",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "22d7a86758cb67581357",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/editorials/archives/2026/09/27/2003864947",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: Bilingual 2030 and the elephant",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: Bilingual 2030 and the elephant",
+            "after": {
+              "title": "Taipei Times: Bilingual 2030 and the elephant",
+              "link": "https://www.taipeitimes.com/News/editorials/archives/2026/09/27/2003864947",
+              "id": "https://www.taipeitimes.com/News/editorials/archives/2026/09/27/2003864947",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/09/27/2003864947"
+    },
+    {
+      "id": "fc9e0b4ee87c733d7741",
+      "title": "Taipei Times: EDITORIAL CARTOON",
+      "content_text": "Taipei Times: EDITORIAL CARTOON",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "fc9e0b4ee87c733d7741",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/editorials/archives/2026/09/27/2003864948",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: EDITORIAL CARTOON",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: EDITORIAL CARTOON",
+            "after": {
+              "title": "Taipei Times: EDITORIAL CARTOON",
+              "link": "https://www.taipeitimes.com/News/editorials/archives/2026/09/27/2003864948",
+              "id": "https://www.taipeitimes.com/News/editorials/archives/2026/09/27/2003864948",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/09/27/2003864948"
+    },
+    {
+      "id": "a771288f688e088720e8",
+      "title": "Taipei Times: What Xi really wants from Trump",
+      "content_text": "Taipei Times: What Xi really wants from Trump",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "a771288f688e088720e8",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/editorials/archives/2026/09/27/2003864949",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: What Xi really wants from Trump",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: What Xi really wants from Trump",
+            "after": {
+              "title": "Taipei Times: What Xi really wants from Trump",
+              "link": "https://www.taipeitimes.com/News/editorials/archives/2026/09/27/2003864949",
+              "id": "https://www.taipeitimes.com/News/editorials/archives/2026/09/27/2003864949",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/09/27/2003864949"
+    },
+    {
+      "id": "5bccbbfbb432fe898e30",
+      "title": "Taipei Times: AI is not capable of keeping city hall accountable",
+      "content_text": "Taipei Times: AI is not capable of keeping city hall accountable",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "5bccbbfbb432fe898e30",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/editorials/archives/2026/09/27/2003864950",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: AI is not capable of keeping city hall accountable",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: AI is not capable of keeping city hall accountable",
+            "after": {
+              "title": "Taipei Times: AI is not capable of keeping city hall accountable",
+              "link": "https://www.taipeitimes.com/News/editorials/archives/2026/09/27/2003864950",
+              "id": "https://www.taipeitimes.com/News/editorials/archives/2026/09/27/2003864950",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/09/27/2003864950"
+    },
+    {
+      "id": "6ff17b947e6d164c3bde",
+      "title": "Taipei Times: Good luck to Canada and the EU, they will need it",
+      "content_text": "Taipei Times: Good luck to Canada and the EU, they will need it",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "6ff17b947e6d164c3bde",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/editorials/archives/2026/09/27/2003864951",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: Good luck to Canada and the EU, they will need it",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: Good luck to Canada and the EU, they will need it",
+            "after": {
+              "title": "Taipei Times: Good luck to Canada and the EU, they will need it",
+              "link": "https://www.taipeitimes.com/News/editorials/archives/2026/09/27/2003864951",
+              "id": "https://www.taipeitimes.com/News/editorials/archives/2026/09/27/2003864951",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/editorials/archives/2026/09/27/2003864951"
+    },
+    {
+      "id": "815164faf374257106b5",
+      "title": "Taipei Times: Games organizers apologize for issues",
+      "content_text": "Taipei Times: Games organizers apologize for issues",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "815164faf374257106b5",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/sport/archives/2026/09/27/2003864958",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: Games organizers apologize for issues",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: Games organizers apologize for issues",
+            "after": {
+              "title": "Taipei Times: Games organizers apologize for issues",
+              "link": "https://www.taipeitimes.com/News/sport/archives/2026/09/27/2003864958",
+              "id": "https://www.taipeitimes.com/News/sport/archives/2026/09/27/2003864958",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/sport/archives/2026/09/27/2003864958"
+    },
+    {
+      "id": "e184f50d98d141169c95",
+      "title": "Taipei Times: Taiwanese wins e-sports bronze",
+      "content_text": "Taipei Times: Taiwanese wins e-sports bronze",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "e184f50d98d141169c95",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/sport/archives/2026/09/27/2003864959",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: Taiwanese wins e-sports bronze",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: Taiwanese wins e-sports bronze",
+            "after": {
+              "title": "Taipei Times: Taiwanese wins e-sports bronze",
+              "link": "https://www.taipeitimes.com/News/sport/archives/2026/09/27/2003864959",
+              "id": "https://www.taipeitimes.com/News/sport/archives/2026/09/27/2003864959",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/sport/archives/2026/09/27/2003864959"
+    },
+    {
+      "id": "8337f64262e4061e349f",
+      "title": "Taipei Times: Japanese runner bides time before winning marathon",
+      "content_text": "Taipei Times: Japanese runner bides time before winning marathon",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "8337f64262e4061e349f",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/sport/archives/2026/09/27/2003864960",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: Japanese runner bides time before winning marathon",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: Japanese runner bides time before winning marathon",
+            "after": {
+              "title": "Taipei Times: Japanese runner bides time before winning marathon",
+              "link": "https://www.taipeitimes.com/News/sport/archives/2026/09/27/2003864960",
+              "id": "https://www.taipeitimes.com/News/sport/archives/2026/09/27/2003864960",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/sport/archives/2026/09/27/2003864960"
+    },
+    {
+      "id": "4415c9a26888c7e7f9ab",
+      "title": "Taipei Times: Ohtani focused on healing for time being: manager",
+      "content_text": "Taipei Times: Ohtani focused on healing for time being: manager",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "4415c9a26888c7e7f9ab",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/sport/archives/2026/09/27/2003864961",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: Ohtani focused on healing for time being: manager",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: Ohtani focused on healing for time being: manager",
+            "after": {
+              "title": "Taipei Times: Ohtani focused on healing for time being: manager",
+              "link": "https://www.taipeitimes.com/News/sport/archives/2026/09/27/2003864961",
+              "id": "https://www.taipeitimes.com/News/sport/archives/2026/09/27/2003864961",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/sport/archives/2026/09/27/2003864961"
+    },
+    {
+      "id": "c98eb8cce07ac8e44d27",
+      "title": "Taipei Times: Brisbane win AFL finals",
+      "content_text": "Taipei Times: Brisbane win AFL finals",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c98eb8cce07ac8e44d27",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/sport/archives/2026/09/27/2003864962",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: Brisbane win AFL finals",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: Brisbane win AFL finals",
+            "after": {
+              "title": "Taipei Times: Brisbane win AFL finals",
+              "link": "https://www.taipeitimes.com/News/sport/archives/2026/09/27/2003864962",
+              "id": "https://www.taipeitimes.com/News/sport/archives/2026/09/27/2003864962",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/sport/archives/2026/09/27/2003864962"
+    },
+    {
+      "id": "a20eb08d06a81b59971a",
+      "title": "Taipei Times: Worthy attempt",
+      "content_text": "Taipei Times: Worthy attempt",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "a20eb08d06a81b59971a",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/sport/archives/2026/09/27/2003864963",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: Worthy attempt",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: Worthy attempt",
+            "after": {
+              "title": "Taipei Times: Worthy attempt",
+              "link": "https://www.taipeitimes.com/News/sport/archives/2026/09/27/2003864963",
+              "id": "https://www.taipeitimes.com/News/sport/archives/2026/09/27/2003864963",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/sport/archives/2026/09/27/2003864963"
+    },
+    {
+      "id": "69785b98f65337896752",
+      "title": "Taipei Times: CNN barred from traveling with Trump",
+      "content_text": "Taipei Times: CNN barred from traveling with Trump",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "69785b98f65337896752",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/world/archives/2026/09/27/2003864976",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: CNN barred from traveling with Trump",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: CNN barred from traveling with Trump",
+            "after": {
+              "title": "Taipei Times: CNN barred from traveling with Trump",
+              "link": "https://www.taipeitimes.com/News/world/archives/2026/09/27/2003864976",
+              "id": "https://www.taipeitimes.com/News/world/archives/2026/09/27/2003864976",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/world/archives/2026/09/27/2003864976"
+    },
+    {
+      "id": "b63822c9f43767b04024",
+      "title": "Taipei Times: Saudi coalition says it halted Houthi attack",
+      "content_text": "Taipei Times: Saudi coalition says it halted Houthi attack",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "b63822c9f43767b04024",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/world/archives/2026/09/27/2003864977",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: Saudi coalition says it halted Houthi attack",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: Saudi coalition says it halted Houthi attack",
+            "after": {
+              "title": "Taipei Times: Saudi coalition says it halted Houthi attack",
+              "link": "https://www.taipeitimes.com/News/world/archives/2026/09/27/2003864977",
+              "id": "https://www.taipeitimes.com/News/world/archives/2026/09/27/2003864977",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/world/archives/2026/09/27/2003864977"
+    },
+    {
+      "id": "a5b1d4cca147277c5be9",
+      "title": "Taipei Times: Rain, flooding in Bangkok prompt evacuations",
+      "content_text": "Taipei Times: Rain, flooding in Bangkok prompt evacuations",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "a5b1d4cca147277c5be9",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/world/archives/2026/09/27/2003864978",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: Rain, flooding in Bangkok prompt evacuations",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: Rain, flooding in Bangkok prompt evacuations",
+            "after": {
+              "title": "Taipei Times: Rain, flooding in Bangkok prompt evacuations",
+              "link": "https://www.taipeitimes.com/News/world/archives/2026/09/27/2003864978",
+              "id": "https://www.taipeitimes.com/News/world/archives/2026/09/27/2003864978",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/world/archives/2026/09/27/2003864978"
+    },
+    {
+      "id": "1f183be053ca71f64957",
+      "title": "Taipei Times: South African women run armed, alert and afraid",
+      "content_text": "Taipei Times: South African women run armed, alert and afraid",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "1f183be053ca71f64957",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/world/archives/2026/09/27/2003864979",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: South African women run armed, alert and afraid",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: South African women run armed, alert and afraid",
+            "after": {
+              "title": "Taipei Times: South African women run armed, alert and afraid",
+              "link": "https://www.taipeitimes.com/News/world/archives/2026/09/27/2003864979",
+              "id": "https://www.taipeitimes.com/News/world/archives/2026/09/27/2003864979",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/world/archives/2026/09/27/2003864979"
+    },
+    {
+      "id": "868fcc1f852a1204a54b",
+      "title": "Taipei Times: TikTok agrees to teenager limits in US settlement",
+      "content_text": "Taipei Times: TikTok agrees to teenager limits in US settlement",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "868fcc1f852a1204a54b",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/world/archives/2026/09/27/2003864980",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: TikTok agrees to teenager limits in US settlement",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: TikTok agrees to teenager limits in US settlement",
+            "after": {
+              "title": "Taipei Times: TikTok agrees to teenager limits in US settlement",
+              "link": "https://www.taipeitimes.com/News/world/archives/2026/09/27/2003864980",
+              "id": "https://www.taipeitimes.com/News/world/archives/2026/09/27/2003864980",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/world/archives/2026/09/27/2003864980"
+    },
+    {
+      "id": "f831f5b9264cd71d0b31",
+      "title": "Taipei Times: Austria ‘ghetto’ language classes leave children behind",
+      "content_text": "Taipei Times: Austria ‘ghetto’ language classes leave children behind",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "f831f5b9264cd71d0b31",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/world/archives/2026/09/27/2003864981",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: Austria ‘ghetto’ language classes leave children behind",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: Austria ‘ghetto’ language classes leave children behind",
+            "after": {
+              "title": "Taipei Times: Austria ‘ghetto’ language classes leave children behind",
+              "link": "https://www.taipeitimes.com/News/world/archives/2026/09/27/2003864981",
+              "id": "https://www.taipeitimes.com/News/world/archives/2026/09/27/2003864981",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/world/archives/2026/09/27/2003864981"
+    },
+    {
+      "id": "7372baa87aa28d41103d",
+      "title": "Taipei Times: Pope in Paris",
+      "content_text": "Taipei Times: Pope in Paris",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "7372baa87aa28d41103d",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/world/archives/2026/09/27/2003864982",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: Pope in Paris",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: Pope in Paris",
+            "after": {
+              "title": "Taipei Times: Pope in Paris",
+              "link": "https://www.taipeitimes.com/News/world/archives/2026/09/27/2003864982",
+              "id": "https://www.taipeitimes.com/News/world/archives/2026/09/27/2003864982",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/world/archives/2026/09/27/2003864982"
+    },
+    {
+      "id": "a8b5ba983da151b757e7",
+      "title": "Taipei Times: Taiwan in Time: Carrying Taiwan’s stage to Singapore",
+      "content_text": "Taipei Times: Taiwan in Time: Carrying Taiwan’s stage to Singapore",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "a8b5ba983da151b757e7",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/feat/archives/2026/09/27/2003864952",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: Taiwan in Time: Carrying Taiwan’s stage to Singapore",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: Taiwan in Time: Carrying Taiwan’s stage to Singapore",
+            "after": {
+              "title": "Taipei Times: Taiwan in Time: Carrying Taiwan’s stage to Singapore",
+              "link": "https://www.taipeitimes.com/News/feat/archives/2026/09/27/2003864952",
+              "id": "https://www.taipeitimes.com/News/feat/archives/2026/09/27/2003864952",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/feat/archives/2026/09/27/2003864952"
+    },
+    {
+      "id": "2b0d6b18e0d7764f2427",
+      "title": "Taipei Times: ANALYTICAL ENGLISH 解析英語(常春藤)",
+      "content_text": "Taipei Times: ANALYTICAL ENGLISH 解析英語(常春藤)",
+      "date_published": "2026-09-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "2b0d6b18e0d7764f2427",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.taipeitimes.com/News/lang/archives/2026/09/27/2003864940",
+          "source_url": "https://www.taipeitimes.com/xml/index.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:13Z",
+          "data": {
+            "change": "added",
+            "label": "Taipei Times: ANALYTICAL ENGLISH 解析英語(常春藤)",
+            "item_type": "entry",
+            "summary": "added: Taipei Times: ANALYTICAL ENGLISH 解析英語(常春藤)",
+            "after": {
+              "title": "Taipei Times: ANALYTICAL ENGLISH 解析英語(常春藤)",
+              "link": "https://www.taipeitimes.com/News/lang/archives/2026/09/27/2003864940",
+              "id": "https://www.taipeitimes.com/News/lang/archives/2026/09/27/2003864940",
+              "author": "",
+              "published_at": "2026-09-27T00:00:00Z",
+              "updated_at": "2026-09-27T00:00:00Z",
+              "summary": null,
+              "categories": [],
+              "feed": {
+                "title": "Taipei Times",
+                "url": "https://www.taipeitimes.com/",
+                "feed_url": "https://www.taipeitimes.com/xml/index.rss"
+              },
+              "outlet": "Taipei Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.taipeitimes.com/xml/index.rss",
+            "elapsed_ms": 107,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^taipeitimes\\\\.com$\", \"Taipei Times\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "taiwan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.taipeitimes.com/News/lang/archives/2026/09/27/2003864940"
+    }
+  ]
+}

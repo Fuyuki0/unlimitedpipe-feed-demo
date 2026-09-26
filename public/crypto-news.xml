@@ -2,10 +2,45 @@
 <rss version="2.0">
   <channel>
     <title>Crypto news (CoinDesk, Cointelegraph, Decrypt)</title>
-    <link>https://cointelegraph.com/rss</link>
-    <description>Events collected by UnlimitedPipe 0.8.0</description>
-    <generator>UnlimitedPipe 0.8.0</generator>
-    <lastBuildDate>Sat, 26 Sep 2026 13:27:29 +0000</lastBuildDate>
+    <link>https://decrypt.co/feed</link>
+    <description>Events collected by UnlimitedPipe 0.9.1</description>
+    <generator>UnlimitedPipe 0.9.1</generator>
+    <lastBuildDate>Sat, 26 Sep 2026 17:24:03 +0000</lastBuildDate>
+    <item>
+      <title>Bitcoin ETFs Notch Seven-Day Winning Streak as 2026 Flows Turn Green</title>
+      <link>https://decrypt.co/379391/bitcoin-etfs-notch-seven-day-winning-streak-as-2026-flows-turn-green</link>
+      <guid isPermaLink="false">3a1fc065e102af5b3927</guid>
+      <pubDate>Sat, 26 Sep 2026 17:01:03 +0000</pubDate>
+      <description>Bitcoin ETFs have drawn nearly $3 billion over seven straight sessions, erasing post-Clarity Act losses and pushing 2026 flows back into positive territory.</description>
+      <category>Coins</category>
+    </item>
+    <item>
+      <title>How Crypto Stopped Waiting for Congress and Learned to Love the Regulators</title>
+      <link>https://decrypt.co/379383/how-crypto-stopped-waiting-congress-learned-love-regulators</link>
+      <guid isPermaLink="false">19cb7630e1148b80db8d</guid>
+      <pubDate>Sat, 26 Sep 2026 16:06:03 +0000</pubDate>
+      <description>After the Clarity Act failed in the Senate, the SEC, CFTC, and the Fed moved within days to write crypto's rules themselves. Will it be enough?</description>
+      <category>Law and Order</category>
+    </item>
+    <item>
+      <title>AI Agents Are Racing to Make Quantum-Safe Bitcoin Cheap—And Winning</title>
+      <link>https://decrypt.co/379378/ai-agents-racing-make-quantum-safe-bitcoin-cheap</link>
+      <guid isPermaLink="false">842b92e851faae7b9e61</guid>
+      <pubDate>Sat, 26 Sep 2026 15:01:05 +0000</pubDate>
+      <description>An open competition run by StarkWare, Yukon Research, and Eigen Labs drove the estimated cost of building a quantum-safe Bitcoin transaction from about $320 to roughly $67, with AI models topping the leaderboards.</description>
+      <category>Technology</category>
+    </item>
+    <item>
+      <title>Kraken’s parent Payward is betting billions on becoming financial infrastructure, not just a crypto exchange</title>
+      <link>https://www.coindesk.com/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange</link>
+      <guid isPermaLink="false">265250c0652a716a80c6</guid>
+      <pubDate>Sat, 26 Sep 2026 14:00:00 +0000</pubDate>
+      <category>Finance</category>
+      <category>Kraken</category>
+      <category>Payward</category>
+      <category>Exclusive</category>
+      <category>News</category>
+    </item>
     <item>
       <title>Kalshi loses appeal, setting up potential Supreme Court case</title>
       <link>https://cointelegraph.com/news/kalshi-loses-appeal-setting-up-potential-supreme-court-case?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound</link>
@@ -1222,38 +1257,6 @@ RENDER (+18%), SUI (+18%) and LIT (+15%) led top movers. Bank of America formall
       <pubDate>Wed, 23 Sep 2026 22:06:04 +0000</pubDate>
       <description>OpenAI is giving Ukraine's government access to Daybreak, its AI vulnerability-hunting system, as the country's cyber defenders face a record wave of attacks on hospitals, power grids, and government networks.</description>
       <category>Artificial Intelligence</category>
-    </item>
-    <item>
-      <title>Ex-SEC acting chair: Agency dropped crypto cases to avoid issues with credibility</title>
-      <link>https://cointelegraph.com/news/sec-mark-uyeda-agency-dropped-crypto-cases?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound</link>
-      <guid isPermaLink="false">c53887f76bbf6df47ab6</guid>
-      <pubDate>Wed, 23 Sep 2026 21:47:52 +0000</pubDate>
-      <description>SEC Commissioner Mark Uyeda said that the agency dropped many cases against crypto companies in early 2025 to avoid potential credibility problems in court.</description>
-      <category>Latest News</category>
-    </item>
-    <item>
-      <title>China Probes DeepSeek and Moonshot Over Alleged Data Leaks to Anthropic's Claude</title>
-      <link>https://decrypt.co/379120/china-probes-deepseek-moonshot-data-leaks-anthropic-claude</link>
-      <guid isPermaLink="false">215bca28d39273ae800e</guid>
-      <pubDate>Wed, 23 Sep 2026 21:31:03 +0000</pubDate>
-      <description>China's internet regulator is investigating DeepSeek and Moonshot AI after Anthropic accused both of secretly routing millions of user exchanges through Claude to train their own models.</description>
-      <category>Coins</category>
-    </item>
-    <item>
-      <title>Meta's Muse AI Agent Read a User's Private iMessages. Then It Lied About How</title>
-      <link>https://decrypt.co/379122/metas-muse-ai-agent-user-private-imessages-lied-how</link>
-      <guid isPermaLink="false">0f03ffcfcf83b33e182f</guid>
-      <pubDate>Wed, 23 Sep 2026 20:44:20 +0000</pubDate>
-      <description>A tech columnist declined to give Meta's new AI agent access to his messages. It read them anyway, then invented an explanation for how it knew.</description>
-      <category>Technology</category>
-    </item>
-    <item>
-      <title>Former Hack VC partner Hsin-Ju Chuang found dead at 37</title>
-      <link>https://cointelegraph.com/news/former-hack-vc-partner-hsin-ju-chuang-found-dead?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound</link>
-      <guid isPermaLink="false">410eded379bac115defe</guid>
-      <pubDate>Wed, 23 Sep 2026 20:43:56 +0000</pubDate>
-      <description>The crypto executive and Dystopia Labs founder previously held senior roles at Stellar and Solana before joining venture capital firm Hack VC.</description>
-      <category>Latest News</category>
     </item>
   </channel>
 </rss>

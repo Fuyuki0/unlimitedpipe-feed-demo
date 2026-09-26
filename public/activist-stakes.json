@@ -1,0 +1,762 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "New 5%+ stakes (SEC Schedule 13D)",
+  "home_page_url": "https://www.sec.gov/edgar/search/",
+  "description": "Events collected by UnlimitedPipe 0.9.1",
+  "_unlimitedpipe": {
+    "schema": "unlimitedpipe.event/1",
+    "generator": "UnlimitedPipe 0.9.1"
+  },
+  "items": [
+    {
+      "id": "d5c4d31dd2d0fd05e1f2",
+      "title": "Electra Therapeutics, Inc.: Orbimed Advisors LLC disclosed a stake of 5% or more (Schedule 13D)",
+      "content_text": "Filed 2026-09-25 by Orbimed Advisors LLC. Schedule 13D: the filer owns 5% or more and may seek to influence the company.",
+      "date_published": "2026-09-25T21:11:02Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d5c4d31dd2d0fd05e1f2",
+          "source": "sec",
+          "type": "change",
+          "key": "0000947871-26-000898",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2088082/000094787126000898/0000947871-26-000898-index.htm",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:23:33Z",
+          "data": {
+            "change": "added",
+            "label": "Electra Therapeutics, Inc.: Orbimed Advisors LLC disclosed a stake of 5% or more (Schedule 13D)",
+            "item_type": "stake",
+            "summary": "added: Electra Therapeutics, Inc.: Orbimed Advisors LLC disclosed a stake of 5% or more (Schedule 13D)",
+            "after": {
+              "title": "Electra Therapeutics, Inc.: Orbimed Advisors LLC disclosed a stake of 5% or more (Schedule 13D)",
+              "company": "Electra Therapeutics, Inc.",
+              "investors": [
+                "Orbimed Advisors LLC"
+              ],
+              "amendment": false,
+              "filed_at": "2026-09-25T17:11:02-04:00",
+              "link": "https://www.sec.gov/Archives/edgar/data/2088082/000094787126000898/0000947871-26-000898-index.htm",
+              "accession": "0000947871-26-000898",
+              "published_at": "2026-09-25T17:11:02-04:00",
+              "summary": "Filed 2026-09-25 by Orbimed Advisors LLC. Schedule 13D: the filer owns 5% or more and may seek to influence the company."
+            }
+          },
+          "metadata": {
+            "method": "edgar-schedule-13d"
+          },
+          "provenance": [
+            {
+              "step": "sec",
+              "version": "0.9.1"
+            },
+            {
+              "step": "filter",
+              "version": "0.9.1",
+              "args": {
+                "expr": "amendment == false"
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "published_at=filed_at",
+                  "summary=\"Filed \" + replace(filed_at, \"T.*$\", \"\") + \" by \" + investors.0 + \". Schedule 13D: the filer owns 5% or more and may seek to influence the company.\""
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "activist-stakes",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/Archives/edgar/data/2088082/000094787126000898/0000947871-26-000898-index.htm"
+    },
+    {
+      "id": "22aa686425531aa9c384",
+      "title": "FMC Corp: Tessenderlo Group NV disclosed a stake of 5% or more (Schedule 13D)",
+      "content_text": "Filed 2026-09-25 by Tessenderlo Group NV. Schedule 13D: the filer owns 5% or more and may seek to influence the company.",
+      "date_published": "2026-09-25T20:15:43Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "22aa686425531aa9c384",
+          "source": "sec",
+          "type": "change",
+          "key": "0001140361-26-037699",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/37785/000114036126037699/0001140361-26-037699-index.htm",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:23:33Z",
+          "data": {
+            "change": "added",
+            "label": "FMC Corp: Tessenderlo Group NV disclosed a stake of 5% or more (Schedule 13D)",
+            "item_type": "stake",
+            "summary": "added: FMC Corp: Tessenderlo Group NV disclosed a stake of 5% or more (Schedule 13D)",
+            "after": {
+              "title": "FMC Corp: Tessenderlo Group NV disclosed a stake of 5% or more (Schedule 13D)",
+              "company": "FMC Corp",
+              "investors": [
+                "Tessenderlo Group NV"
+              ],
+              "amendment": false,
+              "filed_at": "2026-09-25T16:15:43-04:00",
+              "link": "https://www.sec.gov/Archives/edgar/data/37785/000114036126037699/0001140361-26-037699-index.htm",
+              "accession": "0001140361-26-037699",
+              "published_at": "2026-09-25T16:15:43-04:00",
+              "summary": "Filed 2026-09-25 by Tessenderlo Group NV. Schedule 13D: the filer owns 5% or more and may seek to influence the company."
+            }
+          },
+          "metadata": {
+            "method": "edgar-schedule-13d"
+          },
+          "provenance": [
+            {
+              "step": "sec",
+              "version": "0.9.1"
+            },
+            {
+              "step": "filter",
+              "version": "0.9.1",
+              "args": {
+                "expr": "amendment == false"
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "published_at=filed_at",
+                  "summary=\"Filed \" + replace(filed_at, \"T.*$\", \"\") + \" by \" + investors.0 + \". Schedule 13D: the filer owns 5% or more and may seek to influence the company.\""
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "activist-stakes",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000114036126037699/0001140361-26-037699-index.htm"
+    },
+    {
+      "id": "6039affc62146f897cdb",
+      "title": "Redwood Trust Inc: Howard Amster disclosed a stake of 5% or more (Schedule 13D)",
+      "content_text": "Filed 2026-09-25 by Howard Amster. Schedule 13D: the filer owns 5% or more and may seek to influence the company.",
+      "date_published": "2026-09-25T17:15:23Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "6039affc62146f897cdb",
+          "source": "sec",
+          "type": "change",
+          "key": "0000904853-26-000006",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/930236/000090485326000006/0000904853-26-000006-index.htm",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:23:33Z",
+          "data": {
+            "change": "added",
+            "label": "Redwood Trust Inc: Howard Amster disclosed a stake of 5% or more (Schedule 13D)",
+            "item_type": "stake",
+            "summary": "added: Redwood Trust Inc: Howard Amster disclosed a stake of 5% or more (Schedule 13D)",
+            "after": {
+              "title": "Redwood Trust Inc: Howard Amster disclosed a stake of 5% or more (Schedule 13D)",
+              "company": "Redwood Trust Inc",
+              "investors": [
+                "Howard Amster"
+              ],
+              "amendment": false,
+              "filed_at": "2026-09-25T13:15:23-04:00",
+              "link": "https://www.sec.gov/Archives/edgar/data/930236/000090485326000006/0000904853-26-000006-index.htm",
+              "accession": "0000904853-26-000006",
+              "published_at": "2026-09-25T13:15:23-04:00",
+              "summary": "Filed 2026-09-25 by Howard Amster. Schedule 13D: the filer owns 5% or more and may seek to influence the company."
+            }
+          },
+          "metadata": {
+            "method": "edgar-schedule-13d"
+          },
+          "provenance": [
+            {
+              "step": "sec",
+              "version": "0.9.1"
+            },
+            {
+              "step": "filter",
+              "version": "0.9.1",
+              "args": {
+                "expr": "amendment == false"
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "published_at=filed_at",
+                  "summary=\"Filed \" + replace(filed_at, \"T.*$\", \"\") + \" by \" + investors.0 + \". Schedule 13D: the filer owns 5% or more and may seek to influence the company.\""
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "activist-stakes",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/Archives/edgar/data/930236/000090485326000006/0000904853-26-000006-index.htm"
+    },
+    {
+      "id": "7b41e43bf523445ed07e",
+      "title": "Host Digital Inc.: Harmol Samra disclosed a stake of 5% or more (Schedule 13D)",
+      "content_text": "Filed 2026-09-24 by Harmol Samra. Schedule 13D: the filer owns 5% or more and may seek to influence the company.",
+      "date_published": "2026-09-24T21:05:56Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "7b41e43bf523445ed07e",
+          "source": "sec",
+          "type": "change",
+          "key": "0000905148-26-004270",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1948864/000090514826004270/0000905148-26-004270-index.htm",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:23:33Z",
+          "data": {
+            "change": "added",
+            "label": "Host Digital Inc.: Harmol Samra disclosed a stake of 5% or more (Schedule 13D)",
+            "item_type": "stake",
+            "summary": "added: Host Digital Inc.: Harmol Samra disclosed a stake of 5% or more (Schedule 13D)",
+            "after": {
+              "title": "Host Digital Inc.: Harmol Samra disclosed a stake of 5% or more (Schedule 13D)",
+              "company": "Host Digital Inc.",
+              "investors": [
+                "Harmol Samra"
+              ],
+              "amendment": false,
+              "filed_at": "2026-09-24T17:05:56-04:00",
+              "link": "https://www.sec.gov/Archives/edgar/data/1948864/000090514826004270/0000905148-26-004270-index.htm",
+              "accession": "0000905148-26-004270",
+              "published_at": "2026-09-24T17:05:56-04:00",
+              "summary": "Filed 2026-09-24 by Harmol Samra. Schedule 13D: the filer owns 5% or more and may seek to influence the company."
+            }
+          },
+          "metadata": {
+            "method": "edgar-schedule-13d"
+          },
+          "provenance": [
+            {
+              "step": "sec",
+              "version": "0.9.1"
+            },
+            {
+              "step": "filter",
+              "version": "0.9.1",
+              "args": {
+                "expr": "amendment == false"
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "published_at=filed_at",
+                  "summary=\"Filed \" + replace(filed_at, \"T.*$\", \"\") + \" by \" + investors.0 + \". Schedule 13D: the filer owns 5% or more and may seek to influence the company.\""
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "activist-stakes",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/Archives/edgar/data/1948864/000090514826004270/0000905148-26-004270-index.htm"
+    },
+    {
+      "id": "0e8210a34a405220643b",
+      "title": "Host Digital Inc.: Hans Thomas disclosed a stake of 5% or more (Schedule 13D)",
+      "content_text": "Filed 2026-09-24 by Hans Thomas. Schedule 13D: the filer owns 5% or more and may seek to influence the company.",
+      "date_published": "2026-09-24T21:02:33Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "0e8210a34a405220643b",
+          "source": "sec",
+          "type": "change",
+          "key": "0000905148-26-004269",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1948864/000090514826004269/0000905148-26-004269-index.htm",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:23:33Z",
+          "data": {
+            "change": "added",
+            "label": "Host Digital Inc.: Hans Thomas disclosed a stake of 5% or more (Schedule 13D)",
+            "item_type": "stake",
+            "summary": "added: Host Digital Inc.: Hans Thomas disclosed a stake of 5% or more (Schedule 13D)",
+            "after": {
+              "title": "Host Digital Inc.: Hans Thomas disclosed a stake of 5% or more (Schedule 13D)",
+              "company": "Host Digital Inc.",
+              "investors": [
+                "Hans Thomas"
+              ],
+              "amendment": false,
+              "filed_at": "2026-09-24T17:02:33-04:00",
+              "link": "https://www.sec.gov/Archives/edgar/data/1948864/000090514826004269/0000905148-26-004269-index.htm",
+              "accession": "0000905148-26-004269",
+              "published_at": "2026-09-24T17:02:33-04:00",
+              "summary": "Filed 2026-09-24 by Hans Thomas. Schedule 13D: the filer owns 5% or more and may seek to influence the company."
+            }
+          },
+          "metadata": {
+            "method": "edgar-schedule-13d"
+          },
+          "provenance": [
+            {
+              "step": "sec",
+              "version": "0.9.1"
+            },
+            {
+              "step": "filter",
+              "version": "0.9.1",
+              "args": {
+                "expr": "amendment == false"
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "published_at=filed_at",
+                  "summary=\"Filed \" + replace(filed_at, \"T.*$\", \"\") + \" by \" + investors.0 + \". Schedule 13D: the filer owns 5% or more and may seek to influence the company.\""
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "activist-stakes",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/Archives/edgar/data/1948864/000090514826004269/0000905148-26-004269-index.htm"
+    },
+    {
+      "id": "06ff1bb532bc6ffef299",
+      "title": "PRF Technologies Ltd.: S.H.N. Financial Investments Ltd. disclosed a stake of 5% or more (Schedule 13D)",
+      "content_text": "Filed 2026-09-24 by S.H.N. Financial Investments Ltd.. Schedule 13D: the filer owns 5% or more and may seek to influence the company.",
+      "date_published": "2026-09-24T20:15:51Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "06ff1bb532bc6ffef299",
+          "source": "sec",
+          "type": "change",
+          "key": "0001079973-26-001274",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1801834/000107997326001274/0001079973-26-001274-index.htm",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:23:33Z",
+          "data": {
+            "change": "added",
+            "label": "PRF Technologies Ltd.: S.H.N. Financial Investments Ltd. disclosed a stake of 5% or more (Schedule 13D)",
+            "item_type": "stake",
+            "summary": "added: PRF Technologies Ltd.: S.H.N. Financial Investments Ltd. disclosed a stake of 5% or more (Schedule 13D)",
+            "after": {
+              "title": "PRF Technologies Ltd.: S.H.N. Financial Investments Ltd. disclosed a stake of 5% or more (Schedule 13D)",
+              "company": "PRF Technologies Ltd.",
+              "investors": [
+                "S.H.N. Financial Investments Ltd."
+              ],
+              "amendment": false,
+              "filed_at": "2026-09-24T16:15:51-04:00",
+              "link": "https://www.sec.gov/Archives/edgar/data/1801834/000107997326001274/0001079973-26-001274-index.htm",
+              "accession": "0001079973-26-001274",
+              "published_at": "2026-09-24T16:15:51-04:00",
+              "summary": "Filed 2026-09-24 by S.H.N. Financial Investments Ltd.. Schedule 13D: the filer owns 5% or more and may seek to influence the company."
+            }
+          },
+          "metadata": {
+            "method": "edgar-schedule-13d"
+          },
+          "provenance": [
+            {
+              "step": "sec",
+              "version": "0.9.1"
+            },
+            {
+              "step": "filter",
+              "version": "0.9.1",
+              "args": {
+                "expr": "amendment == false"
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "published_at=filed_at",
+                  "summary=\"Filed \" + replace(filed_at, \"T.*$\", \"\") + \" by \" + investors.0 + \". Schedule 13D: the filer owns 5% or more and may seek to influence the company.\""
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "activist-stakes",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/Archives/edgar/data/1801834/000107997326001274/0001079973-26-001274-index.htm"
+    },
+    {
+      "id": "af70b41be53fd153e2a8",
+      "title": "Real Remax Group Inc.: David L. Liniger disclosed a stake of 5% or more (Schedule 13D)",
+      "content_text": "Filed 2026-09-24 by David L. Liniger. Schedule 13D: the filer owns 5% or more and may seek to influence the company.",
+      "date_published": "2026-09-24T20:05:56Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "af70b41be53fd153e2a8",
+          "source": "sec",
+          "type": "change",
+          "key": "0001104659-26-110396",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2136387/000110465926110396/0001104659-26-110396-index.htm",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:23:33Z",
+          "data": {
+            "change": "added",
+            "label": "Real Remax Group Inc.: David L. Liniger disclosed a stake of 5% or more (Schedule 13D)",
+            "item_type": "stake",
+            "summary": "added: Real Remax Group Inc.: David L. Liniger disclosed a stake of 5% or more (Schedule 13D)",
+            "after": {
+              "title": "Real Remax Group Inc.: David L. Liniger disclosed a stake of 5% or more (Schedule 13D)",
+              "company": "Real Remax Group Inc.",
+              "investors": [
+                "David L. Liniger"
+              ],
+              "amendment": false,
+              "filed_at": "2026-09-24T16:05:56-04:00",
+              "link": "https://www.sec.gov/Archives/edgar/data/2136387/000110465926110396/0001104659-26-110396-index.htm",
+              "accession": "0001104659-26-110396",
+              "published_at": "2026-09-24T16:05:56-04:00",
+              "summary": "Filed 2026-09-24 by David L. Liniger. Schedule 13D: the filer owns 5% or more and may seek to influence the company."
+            }
+          },
+          "metadata": {
+            "method": "edgar-schedule-13d"
+          },
+          "provenance": [
+            {
+              "step": "sec",
+              "version": "0.9.1"
+            },
+            {
+              "step": "filter",
+              "version": "0.9.1",
+              "args": {
+                "expr": "amendment == false"
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "published_at=filed_at",
+                  "summary=\"Filed \" + replace(filed_at, \"T.*$\", \"\") + \" by \" + investors.0 + \". Schedule 13D: the filer owns 5% or more and may seek to influence the company.\""
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "activist-stakes",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/Archives/edgar/data/2136387/000110465926110396/0001104659-26-110396-index.htm"
+    },
+    {
+      "id": "994a977030ef268d4011",
+      "title": "Host Digital Inc.: Graham Capital Management L.P. disclosed a stake of 5% or more (Schedule 13D)",
+      "content_text": "Filed 2026-09-24 by Graham Capital Management L.P.. Schedule 13D: the filer owns 5% or more and may seek to influence the company.",
+      "date_published": "2026-09-24T20:05:09Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "994a977030ef268d4011",
+          "source": "sec",
+          "type": "change",
+          "key": "0000950142-26-002581",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1948864/000095014226002581/0000950142-26-002581-index.htm",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:23:33Z",
+          "data": {
+            "change": "added",
+            "label": "Host Digital Inc.: Graham Capital Management L.P. disclosed a stake of 5% or more (Schedule 13D)",
+            "item_type": "stake",
+            "summary": "added: Host Digital Inc.: Graham Capital Management L.P. disclosed a stake of 5% or more (Schedule 13D)",
+            "after": {
+              "title": "Host Digital Inc.: Graham Capital Management L.P. disclosed a stake of 5% or more (Schedule 13D)",
+              "company": "Host Digital Inc.",
+              "investors": [
+                "Graham Capital Management L.P."
+              ],
+              "amendment": false,
+              "filed_at": "2026-09-24T16:05:09-04:00",
+              "link": "https://www.sec.gov/Archives/edgar/data/1948864/000095014226002581/0000950142-26-002581-index.htm",
+              "accession": "0000950142-26-002581",
+              "published_at": "2026-09-24T16:05:09-04:00",
+              "summary": "Filed 2026-09-24 by Graham Capital Management L.P.. Schedule 13D: the filer owns 5% or more and may seek to influence the company."
+            }
+          },
+          "metadata": {
+            "method": "edgar-schedule-13d"
+          },
+          "provenance": [
+            {
+              "step": "sec",
+              "version": "0.9.1"
+            },
+            {
+              "step": "filter",
+              "version": "0.9.1",
+              "args": {
+                "expr": "amendment == false"
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "published_at=filed_at",
+                  "summary=\"Filed \" + replace(filed_at, \"T.*$\", \"\") + \" by \" + investors.0 + \". Schedule 13D: the filer owns 5% or more and may seek to influence the company.\""
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "activist-stakes",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/Archives/edgar/data/1948864/000095014226002581/0000950142-26-002581-index.htm"
+    },
+    {
+      "id": "5b50bed590acb0957c64",
+      "title": "Troops, Inc. /Cayman Islands/: Wang & LEE Holdings Inc. disclosed a stake of 5% or more (Schedule 13D)",
+      "content_text": "Filed 2026-09-24 by Wang & LEE Holdings Inc.. Schedule 13D: the filer owns 5% or more and may seek to influence the company.",
+      "date_published": "2026-09-24T13:01:05Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "5b50bed590acb0957c64",
+          "source": "sec",
+          "type": "change",
+          "key": "0001104659-26-110233",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1412095/000110465926110233/0001104659-26-110233-index.htm",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:23:33Z",
+          "data": {
+            "change": "added",
+            "label": "Troops, Inc. /Cayman Islands/: Wang & LEE Holdings Inc. disclosed a stake of 5% or more (Schedule 13D)",
+            "item_type": "stake",
+            "summary": "added: Troops, Inc. /Cayman Islands/: Wang & LEE Holdings Inc. disclosed a stake of 5% or more (Schedule 13D)",
+            "after": {
+              "title": "Troops, Inc. /Cayman Islands/: Wang & LEE Holdings Inc. disclosed a stake of 5% or more (Schedule 13D)",
+              "company": "Troops, Inc. /Cayman Islands/",
+              "investors": [
+                "Wang & LEE Holdings Inc."
+              ],
+              "amendment": false,
+              "filed_at": "2026-09-24T09:01:05-04:00",
+              "link": "https://www.sec.gov/Archives/edgar/data/1412095/000110465926110233/0001104659-26-110233-index.htm",
+              "accession": "0001104659-26-110233",
+              "published_at": "2026-09-24T09:01:05-04:00",
+              "summary": "Filed 2026-09-24 by Wang & LEE Holdings Inc.. Schedule 13D: the filer owns 5% or more and may seek to influence the company."
+            }
+          },
+          "metadata": {
+            "method": "edgar-schedule-13d"
+          },
+          "provenance": [
+            {
+              "step": "sec",
+              "version": "0.9.1"
+            },
+            {
+              "step": "filter",
+              "version": "0.9.1",
+              "args": {
+                "expr": "amendment == false"
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "published_at=filed_at",
+                  "summary=\"Filed \" + replace(filed_at, \"T.*$\", \"\") + \" by \" + investors.0 + \". Schedule 13D: the filer owns 5% or more and may seek to influence the company.\""
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "activist-stakes",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/Archives/edgar/data/1412095/000110465926110233/0001104659-26-110233-index.htm"
+    },
+    {
+      "id": "c9b6fc9920dc0a215f9c",
+      "title": "Troops, Inc. /Cayman Islands/: Lianteng Ltd disclosed a stake of 5% or more (Schedule 13D)",
+      "content_text": "Filed 2026-09-24 by Lianteng Ltd. Schedule 13D: the filer owns 5% or more and may seek to influence the company.",
+      "date_published": "2026-09-24T13:00:09Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c9b6fc9920dc0a215f9c",
+          "source": "sec",
+          "type": "change",
+          "key": "0001104659-26-110232",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1412095/000110465926110232/0001104659-26-110232-index.htm",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:23:33Z",
+          "data": {
+            "change": "added",
+            "label": "Troops, Inc. /Cayman Islands/: Lianteng Ltd disclosed a stake of 5% or more (Schedule 13D)",
+            "item_type": "stake",
+            "summary": "added: Troops, Inc. /Cayman Islands/: Lianteng Ltd disclosed a stake of 5% or more (Schedule 13D)",
+            "after": {
+              "title": "Troops, Inc. /Cayman Islands/: Lianteng Ltd disclosed a stake of 5% or more (Schedule 13D)",
+              "company": "Troops, Inc. /Cayman Islands/",
+              "investors": [
+                "Lianteng Ltd"
+              ],
+              "amendment": false,
+              "filed_at": "2026-09-24T09:00:09-04:00",
+              "link": "https://www.sec.gov/Archives/edgar/data/1412095/000110465926110232/0001104659-26-110232-index.htm",
+              "accession": "0001104659-26-110232",
+              "published_at": "2026-09-24T09:00:09-04:00",
+              "summary": "Filed 2026-09-24 by Lianteng Ltd. Schedule 13D: the filer owns 5% or more and may seek to influence the company."
+            }
+          },
+          "metadata": {
+            "method": "edgar-schedule-13d"
+          },
+          "provenance": [
+            {
+              "step": "sec",
+              "version": "0.9.1"
+            },
+            {
+              "step": "filter",
+              "version": "0.9.1",
+              "args": {
+                "expr": "amendment == false"
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "published_at=filed_at",
+                  "summary=\"Filed \" + replace(filed_at, \"T.*$\", \"\") + \" by \" + investors.0 + \". Schedule 13D: the filer owns 5% or more and may seek to influence the company.\""
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "activist-stakes",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/Archives/edgar/data/1412095/000110465926110232/0001104659-26-110232-index.htm"
+    }
+  ]
+}

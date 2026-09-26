@@ -3,9 +3,19 @@
   <channel>
     <title>Earthquakes around Thailand (TMD)</title>
     <link>https://earthquake.tmd.go.th/</link>
-    <description>Events collected by UnlimitedPipe 0.8.0</description>
-    <generator>UnlimitedPipe 0.8.0</generator>
-    <lastBuildDate>Sat, 26 Sep 2026 12:15:14 +0000</lastBuildDate>
+    <description>Events collected by UnlimitedPipe 0.9.1</description>
+    <generator>UnlimitedPipe 0.9.1</generator>
+    <lastBuildDate>Sat, 26 Sep 2026 17:27:17 +0000</lastBuildDate>
+    <item>
+      <title>M2.8 ประเทศเมียนมา (Myanmar)</title>
+      <link>https://earthquake.tmd.go.th/inside-info.html?earthquake=17135</link>
+      <guid isPermaLink="false">1c95e8f343d40002137f</guid>
+      <pubDate>Sat, 26 Sep 2026 15:17:22 +0000</pubDate>
+      <description>แผ่นดินไหว ประเทศเมียนมา
+2026-09-26 22:14:46 น.
+Lat. 19.969 , Long. 97.978
+ขนาด 2.8</description>
+    </item>
     <item>
       <title>M3.6 ประเทศเวียดนาม (Vietnam)</title>
       <link>https://earthquake.tmd.go.th/inside-info.html?earthquake=17133</link>

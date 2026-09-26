@@ -1,13 +1,715 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Europe news (POLITICO Europe, Euronews)",
-  "home_page_url": "https://www.euronews.com/rss",
-  "description": "Events collected by UnlimitedPipe 0.8.0",
+  "home_page_url": "https://www.politico.eu/feed/",
+  "description": "Events collected by UnlimitedPipe 0.9.1",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.8.0"
+    "generator": "UnlimitedPipe 0.9.1"
   },
   "items": [
+    {
+      "id": "554252a3b591b5a06467",
+      "title": "POLITICO Europe: Germany’s Wadephul meets Russia’s Lavrov amid tensions over ‘escalation’",
+      "content_text": "The German foreign minister blames Moscow for the Leipzig drone attack but welcomes the G20 invite to Vladimir Putin",
+      "date_published": "2026-09-26T16:50:27Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "554252a3b591b5a06467",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.politico.eu/?post_type=pro&p=9065144",
+          "source_url": "https://www.politico.eu/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:24:26Z",
+          "data": {
+            "change": "added",
+            "label": "POLITICO Europe: Germany’s Wadephul meets Russia’s Lavrov amid tensions over ‘escalation’",
+            "item_type": "entry",
+            "summary": "added: POLITICO Europe: Germany’s Wadephul meets Russia’s Lavrov amid tensions over ‘escalation’",
+            "after": {
+              "title": "POLITICO Europe: Germany’s Wadephul meets Russia’s Lavrov amid tensions over ‘escalation’",
+              "link": "https://www.politico.eu/article/germany-russia-johann-wadephul-sergey-lavrov-meeting-un/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+              "id": "https://www.politico.eu/?post_type=pro&p=9065144",
+              "author": "Hans von der Burchard",
+              "published_at": "2026-09-26T16:50:27Z",
+              "updated_at": "2026-09-26T16:50:27Z",
+              "summary": "The German foreign minister blames Moscow for the Leipzig drone attack but welcomes the G20 invite to Vladimir Putin",
+              "categories": [
+                "Drones",
+                "EU-Russia relations",
+                "Foreign policy",
+                "Intelligence",
+                "Intelligence services",
+                "Negotiations",
+                "Sanctions",
+                "Security",
+                "War",
+                "Defense",
+                "Politics"
+              ],
+              "feed": {
+                "title": "POLITICO",
+                "url": "https://www.politico.eu",
+                "feed_url": "https://www.politico.eu/feed/"
+              },
+              "outlet": "POLITICO Europe"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.politico.eu/feed/",
+            "elapsed_ms": 360,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^politico\\\\.eu$\", \"POLITICO Europe\")",
+                  "outlet=replace(outlet, \"^euronews\\\\.com$\", \"Euronews\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "europe-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.politico.eu/article/germany-russia-johann-wadephul-sergey-lavrov-meeting-un/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "tags": [
+        "Drones",
+        "EU-Russia relations",
+        "Foreign policy",
+        "Intelligence",
+        "Intelligence services",
+        "Negotiations",
+        "Sanctions",
+        "Security",
+        "War",
+        "Defense",
+        "Politics"
+      ]
+    },
+    {
+      "id": "311ae806b51f66693f2e",
+      "title": "Euronews: Oktoberfest halfway through: Is closure of the Wiesn back on the cards?",
+      "content_text": "Oktoberfest reaches its halfway point as Italian weekend looms. Could the festival grounds be closed again, as they were in 2025?",
+      "date_published": "2026-09-26T16:37:51Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "311ae806b51f66693f2e",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.euronews.com/2026/09/26/oktoberfest-wiesn-closure",
+          "source_url": "https://www.euronews.com/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:24:26Z",
+          "data": {
+            "change": "added",
+            "label": "Euronews: Oktoberfest halfway through: Is closure of the Wiesn back on the cards?",
+            "item_type": "entry",
+            "summary": "added: Euronews: Oktoberfest halfway through: Is closure of the Wiesn back on the cards?",
+            "after": {
+              "title": "Euronews: Oktoberfest halfway through: Is closure of the Wiesn back on the cards?",
+              "link": "https://www.euronews.com/2026/09/26/oktoberfest-wiesn-closure",
+              "id": "https://www.euronews.com/2026/09/26/oktoberfest-wiesn-closure",
+              "author": null,
+              "published_at": "2026-09-26T16:37:51Z",
+              "updated_at": "2026-09-26T16:37:51Z",
+              "summary": "Oktoberfest reaches its halfway point as Italian weekend looms. Could the festival grounds be closed again, as they were in 2025?",
+              "categories": [],
+              "feed": {
+                "title": "Latest News From Euronews | Euronews RSS",
+                "url": "https://www.euronews.com",
+                "feed_url": "https://www.euronews.com/rss"
+              },
+              "outlet": "Euronews"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.euronews.com/rss",
+            "elapsed_ms": 65,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^politico\\\\.eu$\", \"POLITICO Europe\")",
+                  "outlet=replace(outlet, \"^euronews\\\\.com$\", \"Euronews\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "europe-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.euronews.com/2026/09/26/oktoberfest-wiesn-closure"
+    },
+    {
+      "id": "3fe5b0f94865a82b342b",
+      "title": "Euronews: Latest news bulletin | September 26th, 2026 – Evening",
+      "content_text": "Catch up with the most important stories from around Europe and beyond this September 26th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "date_published": "2026-09-26T16:00:29Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "3fe5b0f94865a82b342b",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.euronews.com/video/2026/09/26/latest-news-bulletin-september-26th-2026-evening",
+          "source_url": "https://www.euronews.com/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:24:26Z",
+          "data": {
+            "change": "added",
+            "label": "Euronews: Latest news bulletin | September 26th, 2026 – Evening",
+            "item_type": "entry",
+            "summary": "added: Euronews: Latest news bulletin | September 26th, 2026 – Evening",
+            "after": {
+              "title": "Euronews: Latest news bulletin | September 26th, 2026 – Evening",
+              "link": "https://www.euronews.com/video/2026/09/26/latest-news-bulletin-september-26th-2026-evening",
+              "id": "https://www.euronews.com/video/2026/09/26/latest-news-bulletin-september-26th-2026-evening",
+              "author": null,
+              "published_at": "2026-09-26T16:00:29Z",
+              "updated_at": "2026-09-26T16:00:29Z",
+              "summary": "Catch up with the most important stories from around Europe and beyond this September 26th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+              "categories": [],
+              "feed": {
+                "title": "Latest News From Euronews | Euronews RSS",
+                "url": "https://www.euronews.com",
+                "feed_url": "https://www.euronews.com/rss"
+              },
+              "outlet": "Euronews"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.euronews.com/rss",
+            "elapsed_ms": 65,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^politico\\\\.eu$\", \"POLITICO Europe\")",
+                  "outlet=replace(outlet, \"^euronews\\\\.com$\", \"Euronews\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "europe-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.euronews.com/video/2026/09/26/latest-news-bulletin-september-26th-2026-evening"
+    },
+    {
+      "id": "a673d2f0c3ee3fee9e6b",
+      "title": "POLITICO Europe: ‘You can’t win’: Ireland’s football team to play Israel despite player protest",
+      "content_text": "“Nobody is comfortable playing this game,” Ireland’s coach declares after a tense locker-room vote to proceed with Sunday’s Nations League match against Israel.",
+      "date_published": "2026-09-26T15:50:36Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "a673d2f0c3ee3fee9e6b",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.politico.eu/?post_type=article&p=9065087",
+          "source_url": "https://www.politico.eu/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:24:26Z",
+          "data": {
+            "change": "added",
+            "label": "POLITICO Europe: ‘You can’t win’: Ireland’s football team to play Israel despite player protest",
+            "item_type": "entry",
+            "summary": "added: POLITICO Europe: ‘You can’t win’: Ireland’s football team to play Israel despite player protest",
+            "after": {
+              "title": "POLITICO Europe: ‘You can’t win’: Ireland’s football team to play Israel despite player protest",
+              "link": "https://www.politico.eu/article/ireland-israel-football-match-players-vote-to-play/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+              "id": "https://www.politico.eu/?post_type=article&p=9065087",
+              "author": "Shawn Pogatchnik",
+              "published_at": "2026-09-26T15:50:36Z",
+              "updated_at": "2026-09-26T15:50:36Z",
+              "summary": "“Nobody is comfortable playing this game,” Ireland’s coach declares after a tense locker-room vote to proceed with Sunday’s Nations League match against Israel.",
+              "categories": [
+                "Politics"
+              ],
+              "feed": {
+                "title": "POLITICO",
+                "url": "https://www.politico.eu",
+                "feed_url": "https://www.politico.eu/feed/"
+              },
+              "outlet": "POLITICO Europe"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.politico.eu/feed/",
+            "elapsed_ms": 360,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^politico\\\\.eu$\", \"POLITICO Europe\")",
+                  "outlet=replace(outlet, \"^euronews\\\\.com$\", \"Euronews\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "europe-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.politico.eu/article/ireland-israel-football-match-players-vote-to-play/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+      "tags": [
+        "Politics"
+      ]
+    },
+    {
+      "id": "cd40f7d02f57451cf9c8",
+      "title": "Euronews: \"Respectable women in long skirts\": Tajani under fire in memes and international media",
+      "content_text": "Italian Foreign Minister Tajani sparked outrage after saying he prefers 'respectable' women in long skirts. Opposition women senators donned skirts in protest, and memes of the minister spread well beyond Italy on social networks.",
+      "date_published": "2026-09-26T15:27:11Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "cd40f7d02f57451cf9c8",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.euronews.com/2026/09/26/serious-women-in-long-skirts-tajani-under-fire-in-memes-and-international-media",
+          "source_url": "https://www.euronews.com/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:24:26Z",
+          "data": {
+            "change": "added",
+            "label": "Euronews: \"Respectable women in long skirts\": Tajani under fire in memes and international media",
+            "item_type": "entry",
+            "summary": "added: Euronews: \"Respectable women in long skirts\": Tajani under fire in memes and international media",
+            "after": {
+              "title": "Euronews: \"Respectable women in long skirts\": Tajani under fire in memes and international media",
+              "link": "https://www.euronews.com/2026/09/26/serious-women-in-long-skirts-tajani-under-fire-in-memes-and-international-media",
+              "id": "https://www.euronews.com/2026/09/26/serious-women-in-long-skirts-tajani-under-fire-in-memes-and-international-media",
+              "author": null,
+              "published_at": "2026-09-26T15:27:11Z",
+              "updated_at": "2026-09-26T15:27:11Z",
+              "summary": "Italian Foreign Minister Tajani sparked outrage after saying he prefers 'respectable' women in long skirts. Opposition women senators donned skirts in protest, and memes of the minister spread well beyond Italy on social networks.",
+              "categories": [],
+              "feed": {
+                "title": "Latest News From Euronews | Euronews RSS",
+                "url": "https://www.euronews.com",
+                "feed_url": "https://www.euronews.com/rss"
+              },
+              "outlet": "Euronews"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.euronews.com/rss",
+            "elapsed_ms": 65,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^politico\\\\.eu$\", \"POLITICO Europe\")",
+                  "outlet=replace(outlet, \"^euronews\\\\.com$\", \"Euronews\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "europe-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.euronews.com/2026/09/26/serious-women-in-long-skirts-tajani-under-fire-in-memes-and-international-media"
+    },
+    {
+      "id": "918463fd4ac344c795b9",
+      "title": "Euronews: Fat Bear Week returns as Alaska's biggest bears compete for the crown",
+      "content_text": "Online voting has opened for Fat Bear Week, the annual competition celebrating the brown bears of Alaska's Katmai National Park and Preserve as they prepare for winter hibernation.",
+      "date_published": "2026-09-26T14:40:12Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "918463fd4ac344c795b9",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.euronews.com/2026/09/26/fat-bear-week",
+          "source_url": "https://www.euronews.com/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:24:26Z",
+          "data": {
+            "change": "added",
+            "label": "Euronews: Fat Bear Week returns as Alaska's biggest bears compete for the crown",
+            "item_type": "entry",
+            "summary": "added: Euronews: Fat Bear Week returns as Alaska's biggest bears compete for the crown",
+            "after": {
+              "title": "Euronews: Fat Bear Week returns as Alaska's biggest bears compete for the crown",
+              "link": "https://www.euronews.com/2026/09/26/fat-bear-week",
+              "id": "https://www.euronews.com/2026/09/26/fat-bear-week",
+              "author": null,
+              "published_at": "2026-09-26T14:40:12Z",
+              "updated_at": "2026-09-26T14:40:12Z",
+              "summary": "Online voting has opened for Fat Bear Week, the annual competition celebrating the brown bears of Alaska's Katmai National Park and Preserve as they prepare for winter hibernation.",
+              "categories": [],
+              "feed": {
+                "title": "Latest News From Euronews | Euronews RSS",
+                "url": "https://www.euronews.com",
+                "feed_url": "https://www.euronews.com/rss"
+              },
+              "outlet": "Euronews"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.euronews.com/rss",
+            "elapsed_ms": 65,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^politico\\\\.eu$\", \"POLITICO Europe\")",
+                  "outlet=replace(outlet, \"^euronews\\\\.com$\", \"Euronews\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "europe-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.euronews.com/2026/09/26/fat-bear-week"
+    },
+    {
+      "id": "df3741d2a9289d70f620",
+      "title": "Euronews: US president Donald Trump rejects Iranian plan to reopen Strait of Hormuz",
+      "content_text": "Trump's response comes after Iranian Foreign Minister Abbas Araghchi said on Friday that \"if the necessary conditions are met, the strait can be reopened, and normal maritime traffic can resume within seven days\".",
+      "date_published": "2026-09-26T14:10:20Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "df3741d2a9289d70f620",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.euronews.com/2026/09/26/trump-reportedly-rejects-iranian-plan-to-reopen-strait-of-hormuz",
+          "source_url": "https://www.euronews.com/rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:24:26Z",
+          "data": {
+            "change": "added",
+            "label": "Euronews: US president Donald Trump rejects Iranian plan to reopen Strait of Hormuz",
+            "item_type": "entry",
+            "summary": "added: Euronews: US president Donald Trump rejects Iranian plan to reopen Strait of Hormuz",
+            "after": {
+              "title": "Euronews: US president Donald Trump rejects Iranian plan to reopen Strait of Hormuz",
+              "link": "https://www.euronews.com/2026/09/26/trump-reportedly-rejects-iranian-plan-to-reopen-strait-of-hormuz",
+              "id": "https://www.euronews.com/2026/09/26/trump-reportedly-rejects-iranian-plan-to-reopen-strait-of-hormuz",
+              "author": null,
+              "published_at": "2026-09-26T14:10:20Z",
+              "updated_at": "2026-09-26T14:10:20Z",
+              "summary": "Trump's response comes after Iranian Foreign Minister Abbas Araghchi said on Friday that \"if the necessary conditions are met, the strait can be reopened, and normal maritime traffic can resume within seven days\".",
+              "categories": [],
+              "feed": {
+                "title": "Latest News From Euronews | Euronews RSS",
+                "url": "https://www.euronews.com",
+                "feed_url": "https://www.euronews.com/rss"
+              },
+              "outlet": "Euronews"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.euronews.com/rss",
+            "elapsed_ms": 65,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^politico\\\\.eu$\", \"POLITICO Europe\")",
+                  "outlet=replace(outlet, \"^euronews\\\\.com$\", \"Euronews\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "europe-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.euronews.com/2026/09/26/trump-reportedly-rejects-iranian-plan-to-reopen-strait-of-hormuz"
+    },
     {
       "id": "5f26498061a5f52fe220",
       "title": "Euronews: Six dead after explosion causes building to collapse in central Athens",

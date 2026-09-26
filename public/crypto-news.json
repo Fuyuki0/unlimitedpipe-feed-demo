@@ -1,13 +1,382 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Crypto news (CoinDesk, Cointelegraph, Decrypt)",
-  "home_page_url": "https://cointelegraph.com/rss",
-  "description": "Events collected by UnlimitedPipe 0.8.0",
+  "home_page_url": "https://decrypt.co/feed",
+  "description": "Events collected by UnlimitedPipe 0.9.1",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.8.0"
+    "generator": "UnlimitedPipe 0.9.1"
   },
   "items": [
+    {
+      "id": "3a1fc065e102af5b3927",
+      "title": "Bitcoin ETFs Notch Seven-Day Winning Streak as 2026 Flows Turn Green",
+      "content_text": "Bitcoin ETFs have drawn nearly $3 billion over seven straight sessions, erasing post-Clarity Act losses and pushing 2026 flows back into positive territory.",
+      "date_published": "2026-09-26T17:01:03Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "3a1fc065e102af5b3927",
+          "source": "rss",
+          "type": "change",
+          "key": "https://decrypt.co/?p=379391",
+          "source_url": "https://decrypt.co/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:24:03Z",
+          "data": {
+            "change": "added",
+            "label": "Bitcoin ETFs Notch Seven-Day Winning Streak as 2026 Flows Turn Green",
+            "item_type": "entry",
+            "summary": "added: Bitcoin ETFs Notch Seven-Day Winning Streak as 2026 Flows Turn Green",
+            "after": {
+              "title": "Bitcoin ETFs Notch Seven-Day Winning Streak as 2026 Flows Turn Green",
+              "link": "https://decrypt.co/379391/bitcoin-etfs-notch-seven-day-winning-streak-as-2026-flows-turn-green",
+              "id": "https://decrypt.co/?p=379391",
+              "author": "Decrypt Staff",
+              "published_at": "2026-09-26T17:01:03Z",
+              "updated_at": "2026-09-26T17:01:03Z",
+              "summary": "Bitcoin ETFs have drawn nearly $3 billion over seven straight sessions, erasing post-Clarity Act losses and pushing 2026 flows back into positive territory.",
+              "categories": [
+                "Coins"
+              ],
+              "feed": {
+                "title": "Decrypt",
+                "url": "https://decrypt.co/feed",
+                "feed_url": "https://decrypt.co/feed"
+              },
+              "enclosures": [
+                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/Bitcoin-decrypt-style-02-gID_7.png@png"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://decrypt.co/feed",
+            "elapsed_ms": 109,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://decrypt.co/379391/bitcoin-etfs-notch-seven-day-winning-streak-as-2026-flows-turn-green",
+      "tags": [
+        "Coins"
+      ]
+    },
+    {
+      "id": "19cb7630e1148b80db8d",
+      "title": "How Crypto Stopped Waiting for Congress and Learned to Love the Regulators",
+      "content_text": "After the Clarity Act failed in the Senate, the SEC, CFTC, and the Fed moved within days to write crypto's rules themselves. Will it be enough?",
+      "date_published": "2026-09-26T16:06:03Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "19cb7630e1148b80db8d",
+          "source": "rss",
+          "type": "change",
+          "key": "https://decrypt.co/?p=379383",
+          "source_url": "https://decrypt.co/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:24:03Z",
+          "data": {
+            "change": "added",
+            "label": "How Crypto Stopped Waiting for Congress and Learned to Love the Regulators",
+            "item_type": "entry",
+            "summary": "added: How Crypto Stopped Waiting for Congress and Learned to Love the Regulators",
+            "after": {
+              "title": "How Crypto Stopped Waiting for Congress and Learned to Love the Regulators",
+              "link": "https://decrypt.co/379383/how-crypto-stopped-waiting-congress-learned-love-regulators",
+              "id": "https://decrypt.co/?p=379383",
+              "author": "Decrypt Staff",
+              "published_at": "2026-09-26T16:06:03Z",
+              "updated_at": "2026-09-26T16:06:03Z",
+              "summary": "After the Clarity Act failed in the Senate, the SEC, CFTC, and the Fed moved within days to write crypto's rules themselves. Will it be enough?",
+              "categories": [
+                "Law and Order"
+              ],
+              "feed": {
+                "title": "Decrypt",
+                "url": "https://decrypt.co/feed",
+                "feed_url": "https://decrypt.co/feed"
+              },
+              "enclosures": [
+                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/05/US-Capitol-decrypt-style-02-gID_7.png@png"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://decrypt.co/feed",
+            "elapsed_ms": 109,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://decrypt.co/379383/how-crypto-stopped-waiting-congress-learned-love-regulators",
+      "tags": [
+        "Law and Order"
+      ]
+    },
+    {
+      "id": "842b92e851faae7b9e61",
+      "title": "AI Agents Are Racing to Make Quantum-Safe Bitcoin Cheap—And Winning",
+      "content_text": "An open competition run by StarkWare, Yukon Research, and Eigen Labs drove the estimated cost of building a quantum-safe Bitcoin transaction from about $320 to roughly $67, with AI models topping the leaderboards.",
+      "date_published": "2026-09-26T15:01:05Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "842b92e851faae7b9e61",
+          "source": "rss",
+          "type": "change",
+          "key": "https://decrypt.co/?p=379378",
+          "source_url": "https://decrypt.co/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:24:03Z",
+          "data": {
+            "change": "added",
+            "label": "AI Agents Are Racing to Make Quantum-Safe Bitcoin Cheap—And Winning",
+            "item_type": "entry",
+            "summary": "added: AI Agents Are Racing to Make Quantum-Safe Bitcoin Cheap—And Winning",
+            "after": {
+              "title": "AI Agents Are Racing to Make Quantum-Safe Bitcoin Cheap—And Winning",
+              "link": "https://decrypt.co/379378/ai-agents-racing-make-quantum-safe-bitcoin-cheap",
+              "id": "https://decrypt.co/?p=379378",
+              "author": "Decrypt Staff",
+              "published_at": "2026-09-26T15:01:05Z",
+              "updated_at": "2026-09-26T15:01:05Z",
+              "summary": "An open competition run by StarkWare, Yukon Research, and Eigen Labs drove the estimated cost of building a quantum-safe Bitcoin transaction from about $320 to roughly $67, with AI models topping the leaderboards.",
+              "categories": [
+                "Technology"
+              ],
+              "feed": {
+                "title": "Decrypt",
+                "url": "https://decrypt.co/feed",
+                "feed_url": "https://decrypt.co/feed"
+              },
+              "enclosures": [
+                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/09/Bitcoin-decrypt-style-23-gID_7.jpg@png"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://decrypt.co/feed",
+            "elapsed_ms": 109,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://decrypt.co/379378/ai-agents-racing-make-quantum-safe-bitcoin-cheap",
+      "tags": [
+        "Technology"
+      ]
+    },
+    {
+      "id": "265250c0652a716a80c6",
+      "title": "Kraken’s parent Payward is betting billions on becoming financial infrastructure, not just a crypto exchange",
+      "content_text": "Kraken’s parent Payward is betting billions on becoming financial infrastructure, not just a crypto exchange",
+      "date_published": "2026-09-26T14:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "265250c0652a716a80c6",
+          "source": "rss",
+          "type": "change",
+          "key": "8bf9807d-93f0-4d78-bba1-2b092b1897a8",
+          "source_url": "https://www.coindesk.com/arc/outboundfeeds/rss/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:24:03Z",
+          "data": {
+            "change": "added",
+            "label": "Kraken’s parent Payward is betting billions on becoming financial infrastructure, not just a crypto exchange",
+            "item_type": "entry",
+            "summary": "added: Kraken’s parent Payward is betting billions on becoming financial infrastructure, not just a crypto exchange",
+            "after": {
+              "title": "Kraken’s parent Payward is betting billions on becoming financial infrastructure, not just a crypto exchange",
+              "link": "https://www.coindesk.com/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange",
+              "id": "8bf9807d-93f0-4d78-bba1-2b092b1897a8",
+              "author": "AI Boost",
+              "published_at": "2026-09-26T14:00:00Z",
+              "updated_at": "2026-09-26T14:00:00Z",
+              "summary": null,
+              "categories": [
+                "Finance",
+                "Kraken",
+                "Payward",
+                "Exclusive",
+                "News"
+              ],
+              "feed": {
+                "title": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+                "url": "https://www.coindesk.com/",
+                "feed_url": "https://www.coindesk.com/arc/outboundfeeds/rss/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.coindesk.com/arc/outboundfeeds/rss",
+            "elapsed_ms": 182,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "crypto-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.coindesk.com/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange",
+      "tags": [
+        "Finance",
+        "Kraken",
+        "Payward",
+        "Exclusive",
+        "News"
+      ]
+    },
     {
       "id": "bf0e6902074d30f8bcec",
       "title": "Kalshi loses appeal, setting up potential Supreme Court case",
@@ -13280,370 +13649,6 @@
       "url": "https://decrypt.co/379126/openai-ukraine-access-daybreak-ai-cyber-defense-tool",
       "tags": [
         "Artificial Intelligence"
-      ]
-    },
-    {
-      "id": "c53887f76bbf6df47ab6",
-      "title": "Ex-SEC acting chair: Agency dropped crypto cases to avoid issues with credibility",
-      "content_text": "SEC Commissioner Mark Uyeda said that the agency dropped many cases against crypto companies in early 2025 to avoid potential credibility problems in court.",
-      "date_published": "2026-09-23T21:47:52Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "c53887f76bbf6df47ab6",
-          "source": "rss",
-          "type": "change",
-          "key": "https://cointelegraph.com/news/sec-mark-uyeda-agency-dropped-crypto-cases",
-          "source_url": "https://cointelegraph.com/rss",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:12Z",
-          "data": {
-            "change": "added",
-            "label": "Ex-SEC acting chair: Agency dropped crypto cases to avoid issues with credibility",
-            "item_type": "entry",
-            "summary": "added: Ex-SEC acting chair: Agency dropped crypto cases to avoid issues with credibility",
-            "after": {
-              "title": "Ex-SEC acting chair: Agency dropped crypto cases to avoid issues with credibility",
-              "link": "https://cointelegraph.com/news/sec-mark-uyeda-agency-dropped-crypto-cases?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-              "id": "https://cointelegraph.com/news/sec-mark-uyeda-agency-dropped-crypto-cases",
-              "author": "Cointelegraph by Turner Wright",
-              "published_at": "2026-09-23T21:47:52Z",
-              "updated_at": "2026-09-24T07:08:51Z",
-              "summary": "SEC Commissioner Mark Uyeda said that the agency dropped many cases against crypto companies in early 2025 to avoid potential credibility problems in court.",
-              "categories": [
-                "Latest News"
-              ],
-              "feed": {
-                "title": "Cointelegraph.com News",
-                "url": "https://cointelegraph.com",
-                "feed_url": "https://cointelegraph.com/rss"
-              },
-              "enclosures": [
-                "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M380MX1W92VXBB79W6WPSWR1/hi-sec-vs-us-court-follow-up.jpg"
-              ]
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://cointelegraph.com/rss",
-            "elapsed_ms": 184,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "crypto-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://cointelegraph.com/news/sec-mark-uyeda-agency-dropped-crypto-cases?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "tags": [
-        "Latest News"
-      ]
-    },
-    {
-      "id": "215bca28d39273ae800e",
-      "title": "China Probes DeepSeek and Moonshot Over Alleged Data Leaks to Anthropic's Claude",
-      "content_text": "China's internet regulator is investigating DeepSeek and Moonshot AI after Anthropic accused both of secretly routing millions of user exchanges through Claude to train their own models.",
-      "date_published": "2026-09-23T21:31:03Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "215bca28d39273ae800e",
-          "source": "rss",
-          "type": "change",
-          "key": "https://decrypt.co/?p=379120",
-          "source_url": "https://decrypt.co/feed",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:12Z",
-          "data": {
-            "change": "added",
-            "label": "China Probes DeepSeek and Moonshot Over Alleged Data Leaks to Anthropic's Claude",
-            "item_type": "entry",
-            "summary": "added: China Probes DeepSeek and Moonshot Over Alleged Data Leaks to Anthropic's Claude",
-            "after": {
-              "title": "China Probes DeepSeek and Moonshot Over Alleged Data Leaks to Anthropic's Claude",
-              "link": "https://decrypt.co/379120/china-probes-deepseek-moonshot-data-leaks-anthropic-claude",
-              "id": "https://decrypt.co/?p=379120",
-              "author": "Jose Antonio Lanz",
-              "published_at": "2026-09-23T21:31:03Z",
-              "updated_at": "2026-09-23T21:31:03Z",
-              "summary": "China's internet regulator is investigating DeepSeek and Moonshot AI after Anthropic accused both of secretly routing millions of user exchanges through Claude to train their own models.",
-              "categories": [
-                "Coins"
-              ],
-              "feed": {
-                "title": "Decrypt",
-                "url": "https://decrypt.co/feed",
-                "feed_url": "https://decrypt.co/feed"
-              },
-              "enclosures": [
-                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2025/11/China-USA-gID_7.jpg@png"
-              ]
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://decrypt.co/feed",
-            "elapsed_ms": 99,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "crypto-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://decrypt.co/379120/china-probes-deepseek-moonshot-data-leaks-anthropic-claude",
-      "tags": [
-        "Coins"
-      ]
-    },
-    {
-      "id": "0f03ffcfcf83b33e182f",
-      "title": "Meta's Muse AI Agent Read a User's Private iMessages. Then It Lied About How",
-      "content_text": "A tech columnist declined to give Meta's new AI agent access to his messages. It read them anyway, then invented an explanation for how it knew.",
-      "date_published": "2026-09-23T20:44:20Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "0f03ffcfcf83b33e182f",
-          "source": "rss",
-          "type": "change",
-          "key": "https://decrypt.co/?p=379122",
-          "source_url": "https://decrypt.co/feed",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:12Z",
-          "data": {
-            "change": "added",
-            "label": "Meta's Muse AI Agent Read a User's Private iMessages. Then It Lied About How",
-            "item_type": "entry",
-            "summary": "added: Meta's Muse AI Agent Read a User's Private iMessages. Then It Lied About How",
-            "after": {
-              "title": "Meta's Muse AI Agent Read a User's Private iMessages. Then It Lied About How",
-              "link": "https://decrypt.co/379122/metas-muse-ai-agent-user-private-imessages-lied-how",
-              "id": "https://decrypt.co/?p=379122",
-              "author": "Jose Antonio Lanz",
-              "published_at": "2026-09-23T20:44:20Z",
-              "updated_at": "2026-09-23T20:44:20Z",
-              "summary": "A tech columnist declined to give Meta's new AI agent access to his messages. It read them anyway, then invented an explanation for how it knew.",
-              "categories": [
-                "Technology"
-              ],
-              "feed": {
-                "title": "Decrypt",
-                "url": "https://decrypt.co/feed",
-                "feed_url": "https://decrypt.co/feed"
-              },
-              "enclosures": [
-                "https://img.decrypt.co/insecure/rs:fill:1024:512:1:0/plain/https://cdn.decrypt.co/wp-content/uploads/2026/08/meta-logo-decrypt-style-02-gID_7.jpg@png"
-              ]
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://decrypt.co/feed",
-            "elapsed_ms": 99,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "crypto-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://decrypt.co/379122/metas-muse-ai-agent-user-private-imessages-lied-how",
-      "tags": [
-        "Technology"
-      ]
-    },
-    {
-      "id": "410eded379bac115defe",
-      "title": "Former Hack VC partner Hsin-Ju Chuang found dead at 37",
-      "content_text": "The crypto executive and Dystopia Labs founder previously held senior roles at Stellar and Solana before joining venture capital firm Hack VC.",
-      "date_published": "2026-09-23T20:43:56Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "410eded379bac115defe",
-          "source": "rss",
-          "type": "change",
-          "key": "https://cointelegraph.com/news/former-hack-vc-partner-hsin-ju-chuang-found-dead",
-          "source_url": "https://cointelegraph.com/rss",
-          "timestamp": null,
-          "observed_at": "2026-09-24T17:26:12Z",
-          "data": {
-            "change": "added",
-            "label": "Former Hack VC partner Hsin-Ju Chuang found dead at 37",
-            "item_type": "entry",
-            "summary": "added: Former Hack VC partner Hsin-Ju Chuang found dead at 37",
-            "after": {
-              "title": "Former Hack VC partner Hsin-Ju Chuang found dead at 37",
-              "link": "https://cointelegraph.com/news/former-hack-vc-partner-hsin-ju-chuang-found-dead?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-              "id": "https://cointelegraph.com/news/former-hack-vc-partner-hsin-ju-chuang-found-dead",
-              "author": "Cointelegraph by Nate Kostar",
-              "published_at": "2026-09-23T20:43:56Z",
-              "updated_at": "2026-09-24T07:16:26Z",
-              "summary": "The crypto executive and Dystopia Labs founder previously held senior roles at Stellar and Solana before joining venture capital firm Hack VC.",
-              "categories": [
-                "Latest News"
-              ],
-              "feed": {
-                "title": "Cointelegraph.com News",
-                "url": "https://cointelegraph.com",
-                "feed_url": "https://cointelegraph.com/rss"
-              },
-              "enclosures": [
-                "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M3805C8FH8HWMHMANF3VXJW2/investigation-search.png"
-              ]
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://cointelegraph.com/rss",
-            "elapsed_ms": 184,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.1"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.1",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.1",
-              "args": {
-                "namespace": "crypto-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://cointelegraph.com/news/former-hack-vc-partner-hsin-ju-chuang-found-dead?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-      "tags": [
-        "Latest News"
       ]
     }
   ]

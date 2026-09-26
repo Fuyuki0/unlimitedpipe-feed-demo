@@ -1,13 +1,548 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "US news (NPR, PBS NewsHour)",
-  "home_page_url": "https://feeds.npr.org/1014/rss.xml",
-  "description": "Events collected by UnlimitedPipe 0.8.0",
+  "home_page_url": "https://www.pbs.org/newshour/feeds/rss/headlines",
+  "description": "Events collected by UnlimitedPipe 0.9.1",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.8.0"
+    "generator": "UnlimitedPipe 0.9.1"
   },
   "items": [
+    {
+      "id": "fafcf1e9e571587b8f15",
+      "title": "PBS NewsHour: Trump administration uses rare authority to claw back nearly $1B in spending approved by Congress",
+      "content_text": "Most of the cuts are focused on Health and Human Services programs that serve refugees and unaccompanied minors accused of being in the country illegally.",
+      "date_published": "2026-09-26T17:20:24Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "fafcf1e9e571587b8f15",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.pbs.org/newshour/politics/trump-administration-uses-rare-authority-to-claw-back-nearly-1b-in-spending-approved-by-congress",
+          "source_url": "https://www.pbs.org/newshour/feeds/rss/headlines",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:38Z",
+          "data": {
+            "change": "added",
+            "label": "PBS NewsHour: Trump administration uses rare authority to claw back nearly $1B in spending approved by Congress",
+            "item_type": "entry",
+            "summary": "added: PBS NewsHour: Trump administration uses rare authority to claw back nearly $1B in spending approved by Congress",
+            "after": {
+              "title": "PBS NewsHour: Trump administration uses rare authority to claw back nearly $1B in spending approved by Congress",
+              "link": "https://www.pbs.org/newshour/politics/trump-administration-uses-rare-authority-to-claw-back-nearly-1b-in-spending-approved-by-congress",
+              "id": "https://www.pbs.org/newshour/politics/trump-administration-uses-rare-authority-to-claw-back-nearly-1b-in-spending-approved-by-congress",
+              "author": "Jonathan J. Cooper, Associated Press",
+              "published_at": "2026-09-26T17:20:24Z",
+              "updated_at": "2026-09-26T17:20:24Z",
+              "summary": "Most of the cuts are focused on Health and Human Services programs that serve refugees and unaccompanied minors accused of being in the country illegally.",
+              "categories": [
+                "congress",
+                "goverment spending",
+                "Trump Administration"
+              ],
+              "feed": {
+                "title": "PBS News Hour - The Latest",
+                "url": "https://www.pbs.org/newshour/",
+                "feed_url": "https://www.pbs.org/newshour/feeds/rss/headlines"
+              },
+              "outlet": "PBS NewsHour"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.pbs.org/newshour/feeds/rss/headlines",
+            "elapsed_ms": 246,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.npr\\\\.org$\", \"NPR\")",
+                  "outlet=replace(outlet, \"^pbs\\\\.org$\", \"PBS NewsHour\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "us-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.pbs.org/newshour/politics/trump-administration-uses-rare-authority-to-claw-back-nearly-1b-in-spending-approved-by-congress",
+      "tags": [
+        "congress",
+        "goverment spending",
+        "Trump Administration"
+      ]
+    },
+    {
+      "id": "c145435f54a54dc8b1fa",
+      "title": "PBS NewsHour: Pope Leo draws 800,000 people to central Paris for open-air Mass on iconic square",
+      "content_text": "The turnout testified to the church's lasting influence in France despite declining attendance and secularizing trends that have emptied churches across Europe.",
+      "date_published": "2026-09-26T17:07:13Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c145435f54a54dc8b1fa",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.pbs.org/newshour/world/pope-leo-draws-800000-people-to-central-paris-for-open-air-mass-on-iconic-square",
+          "source_url": "https://www.pbs.org/newshour/feeds/rss/headlines",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:38Z",
+          "data": {
+            "change": "added",
+            "label": "PBS NewsHour: Pope Leo draws 800,000 people to central Paris for open-air Mass on iconic square",
+            "item_type": "entry",
+            "summary": "added: PBS NewsHour: Pope Leo draws 800,000 people to central Paris for open-air Mass on iconic square",
+            "after": {
+              "title": "PBS NewsHour: Pope Leo draws 800,000 people to central Paris for open-air Mass on iconic square",
+              "link": "https://www.pbs.org/newshour/world/pope-leo-draws-800000-people-to-central-paris-for-open-air-mass-on-iconic-square",
+              "id": "https://www.pbs.org/newshour/world/pope-leo-draws-800000-people-to-central-paris-for-open-air-mass-on-iconic-square",
+              "author": "John Leicester, Associated Press",
+              "published_at": "2026-09-26T17:07:13Z",
+              "updated_at": "2026-09-26T17:07:13Z",
+              "summary": "The turnout testified to the church's lasting influence in France despite declining attendance and secularizing trends that have emptied churches across Europe.",
+              "categories": [
+                "France",
+                "Paris",
+                "pope leo xiv",
+                "Religion"
+              ],
+              "feed": {
+                "title": "PBS News Hour - The Latest",
+                "url": "https://www.pbs.org/newshour/",
+                "feed_url": "https://www.pbs.org/newshour/feeds/rss/headlines"
+              },
+              "outlet": "PBS NewsHour"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.pbs.org/newshour/feeds/rss/headlines",
+            "elapsed_ms": 246,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.npr\\\\.org$\", \"NPR\")",
+                  "outlet=replace(outlet, \"^pbs\\\\.org$\", \"PBS NewsHour\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "us-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.pbs.org/newshour/world/pope-leo-draws-800000-people-to-central-paris-for-open-air-mass-on-iconic-square",
+      "tags": [
+        "France",
+        "Paris",
+        "pope leo xiv",
+        "Religion"
+      ]
+    },
+    {
+      "id": "d65cb5364cfba478f2e0",
+      "title": "PBS NewsHour: CNN says it was left off Air Force One for Trump's Saturday trip to a college football game",
+      "content_text": "CNN, a member of the U.S. network video pool that rotates duties shooting and sharing video coverage of the president, reported it had been scheduled to fly aboard the president's plane Saturday for a scheduled visit to a college football game.",
+      "date_published": "2026-09-26T16:35:39Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d65cb5364cfba478f2e0",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.pbs.org/newshour/politics/cnn-says-it-was-left-off-air-force-one-for-trumps-saturday-trip-to-a-college-football-game",
+          "source_url": "https://www.pbs.org/newshour/feeds/rss/headlines",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:38Z",
+          "data": {
+            "change": "added",
+            "label": "PBS NewsHour: CNN says it was left off Air Force One for Trump's Saturday trip to a college football game",
+            "item_type": "entry",
+            "summary": "added: PBS NewsHour: CNN says it was left off Air Force One for Trump's Saturday trip to a college football game",
+            "after": {
+              "title": "PBS NewsHour: CNN says it was left off Air Force One for Trump's Saturday trip to a college football game",
+              "link": "https://www.pbs.org/newshour/politics/cnn-says-it-was-left-off-air-force-one-for-trumps-saturday-trip-to-a-college-football-game",
+              "id": "https://www.pbs.org/newshour/politics/cnn-says-it-was-left-off-air-force-one-for-trumps-saturday-trip-to-a-college-football-game",
+              "author": "Hallie Golden, Associated Press",
+              "published_at": "2026-09-26T16:35:39Z",
+              "updated_at": "2026-09-26T16:35:39Z",
+              "summary": "CNN, a member of the U.S. network video pool that rotates duties shooting and sharing video coverage of the president, reported it had been scheduled to fly aboard the president's plane Saturday for a scheduled visit to a college football game.",
+              "categories": [
+                "cnn",
+                "Media",
+                "press freedom",
+                "white house press corps"
+              ],
+              "feed": {
+                "title": "PBS News Hour - The Latest",
+                "url": "https://www.pbs.org/newshour/",
+                "feed_url": "https://www.pbs.org/newshour/feeds/rss/headlines"
+              },
+              "outlet": "PBS NewsHour"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.pbs.org/newshour/feeds/rss/headlines",
+            "elapsed_ms": 246,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.npr\\\\.org$\", \"NPR\")",
+                  "outlet=replace(outlet, \"^pbs\\\\.org$\", \"PBS NewsHour\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "us-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.pbs.org/newshour/politics/cnn-says-it-was-left-off-air-force-one-for-trumps-saturday-trip-to-a-college-football-game",
+      "tags": [
+        "cnn",
+        "Media",
+        "press freedom",
+        "white house press corps"
+      ]
+    },
+    {
+      "id": "1d010ca3ccae32b8d6d8",
+      "title": "PBS NewsHour: Trump rejects Iran's proposal to reopen the Strait of Hormuz, and other Middle East news",
+      "content_text": "Iran offered this week to reopen the strait and resume talks on its nuclear program in seven days if the U.S. lifts its naval blockade of Iranian ports, waives sanctions on Iranian oil sales and observes a ceasefire that would include Lebanon.",
+      "date_published": "2026-09-26T15:53:23Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "1d010ca3ccae32b8d6d8",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.pbs.org/newshour/world/trump-rejects-irans-proposal-to-reopen-the-strait-of-hormuz-and-other-middle-east-news",
+          "source_url": "https://www.pbs.org/newshour/feeds/rss/headlines",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:38Z",
+          "data": {
+            "change": "added",
+            "label": "PBS NewsHour: Trump rejects Iran's proposal to reopen the Strait of Hormuz, and other Middle East news",
+            "item_type": "entry",
+            "summary": "added: PBS NewsHour: Trump rejects Iran's proposal to reopen the Strait of Hormuz, and other Middle East news",
+            "after": {
+              "title": "PBS NewsHour: Trump rejects Iran's proposal to reopen the Strait of Hormuz, and other Middle East news",
+              "link": "https://www.pbs.org/newshour/world/trump-rejects-irans-proposal-to-reopen-the-strait-of-hormuz-and-other-middle-east-news",
+              "id": "https://www.pbs.org/newshour/world/trump-rejects-irans-proposal-to-reopen-the-strait-of-hormuz-and-other-middle-east-news",
+              "author": "Associated Press",
+              "published_at": "2026-09-26T15:53:23Z",
+              "updated_at": "2026-09-26T15:53:23Z",
+              "summary": "Iran offered this week to reopen the strait and resume talks on its nuclear program in seven days if the U.S. lifts its naval blockade of Iranian ports, waives sanctions on Iranian oil sales and observes a ceasefire that would include Lebanon.",
+              "categories": [
+                "Donald Trump news",
+                "Iran",
+                "middle east",
+                "Strait of Hormuz"
+              ],
+              "feed": {
+                "title": "PBS News Hour - The Latest",
+                "url": "https://www.pbs.org/newshour/",
+                "feed_url": "https://www.pbs.org/newshour/feeds/rss/headlines"
+              },
+              "outlet": "PBS NewsHour"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.pbs.org/newshour/feeds/rss/headlines",
+            "elapsed_ms": 246,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.npr\\\\.org$\", \"NPR\")",
+                  "outlet=replace(outlet, \"^pbs\\\\.org$\", \"PBS NewsHour\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "us-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.pbs.org/newshour/world/trump-rejects-irans-proposal-to-reopen-the-strait-of-hormuz-and-other-middle-east-news",
+      "tags": [
+        "Donald Trump news",
+        "Iran",
+        "middle east",
+        "Strait of Hormuz"
+      ]
+    },
+    {
+      "id": "926781169e0d6d75e9a9",
+      "title": "PBS NewsHour: Roads flood in New Jersey, inundate some homes, as major signs of nor'easter take shape",
+      "content_text": "Tens of millions of people are in the path of the storm, which was already beginning to lash the region. Dangerous flooding is expected along the Mid-Atlantic coast, particularly near New Jersey and Delaware.",
+      "date_published": "2026-09-26T15:20:15Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "926781169e0d6d75e9a9",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.pbs.org/newshour/nation/roads-flood-in-new-jersey-inundate-some-homes-as-major-signs-of-noreaster-take-shape",
+          "source_url": "https://www.pbs.org/newshour/feeds/rss/headlines",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:38Z",
+          "data": {
+            "change": "added",
+            "label": "PBS NewsHour: Roads flood in New Jersey, inundate some homes, as major signs of nor'easter take shape",
+            "item_type": "entry",
+            "summary": "added: PBS NewsHour: Roads flood in New Jersey, inundate some homes, as major signs of nor'easter take shape",
+            "after": {
+              "title": "PBS NewsHour: Roads flood in New Jersey, inundate some homes, as major signs of nor'easter take shape",
+              "link": "https://www.pbs.org/newshour/nation/roads-flood-in-new-jersey-inundate-some-homes-as-major-signs-of-noreaster-take-shape",
+              "id": "https://www.pbs.org/newshour/nation/roads-flood-in-new-jersey-inundate-some-homes-as-major-signs-of-noreaster-take-shape",
+              "author": "Leah Willingham, Associated Press",
+              "published_at": "2026-09-26T15:20:15Z",
+              "updated_at": "2026-09-26T15:20:15Z",
+              "summary": "Tens of millions of people are in the path of the storm, which was already beginning to lash the region. Dangerous flooding is expected along the Mid-Atlantic coast, particularly near New Jersey and Delaware.",
+              "categories": [
+                "new england",
+                "New Jersey",
+                "nor'easter",
+                "NORTHEAST",
+                "Weather"
+              ],
+              "feed": {
+                "title": "PBS News Hour - The Latest",
+                "url": "https://www.pbs.org/newshour/",
+                "feed_url": "https://www.pbs.org/newshour/feeds/rss/headlines"
+              },
+              "outlet": "PBS NewsHour"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.pbs.org/newshour/feeds/rss/headlines",
+            "elapsed_ms": 246,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.npr\\\\.org$\", \"NPR\")",
+                  "outlet=replace(outlet, \"^pbs\\\\.org$\", \"PBS NewsHour\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "us-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.pbs.org/newshour/nation/roads-flood-in-new-jersey-inundate-some-homes-as-major-signs-of-noreaster-take-shape",
+      "tags": [
+        "new england",
+        "New Jersey",
+        "nor'easter",
+        "NORTHEAST",
+        "Weather"
+      ]
+    },
     {
       "id": "86a1210aafac9e268f3d",
       "title": "NPR: Press pool dispute escalates as White House cuts CNN from Air Force One travel",

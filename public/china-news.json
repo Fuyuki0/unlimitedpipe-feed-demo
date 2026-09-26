@@ -2,12 +2,210 @@
   "version": "https://jsonfeed.org/version/1.1",
   "title": "China news (SCMP, CGTN)",
   "home_page_url": "https://www.scmp.com/rss/4/feed",
-  "description": "Events collected by UnlimitedPipe 0.8.0",
+  "description": "Events collected by UnlimitedPipe 0.9.1",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.8.0"
+    "generator": "UnlimitedPipe 0.9.1"
   },
   "items": [
+    {
+      "id": "731289a5595f42ab0fa4",
+      "title": "SCMP: 3 top reasons Trump will face a stronger Xi Jinping at November Apec forum in China",
+      "content_text": "When Donald Trump arrives in Shenzhen for the November Apec summit, he will face a Chinese leader even more confident than the one who left Washington this week after a state visit heavy on pageantry but light on concrete deliverables.\nExperts attributed this confidence to three key factors – a newly upgraded bilateral framework seeking a “constructive relationship of strategic stability based on respect, fairness and reciprocity”, the warmer tone during Xi’s three-day visit, and – crucially…",
+      "date_published": "2026-09-26T15:00:08Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "731289a5595f42ab0fa4",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.scmp.com/news/china/diplomacy/article/3368914/3-top-reasons-trump-will-face-stronger-xi-jinping-november-apec-forum-china?utm_source=rss_feed",
+          "source_url": "https://www.scmp.com/rss/4/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:23:56Z",
+          "data": {
+            "change": "added",
+            "label": "SCMP: 3 top reasons Trump will face a stronger Xi Jinping at November Apec forum in China",
+            "item_type": "entry",
+            "summary": "added: SCMP: 3 top reasons Trump will face a stronger Xi Jinping at November Apec forum in China",
+            "after": {
+              "title": "SCMP: 3 top reasons Trump will face a stronger Xi Jinping at November Apec forum in China",
+              "link": "https://www.scmp.com/news/china/diplomacy/article/3368914/3-top-reasons-trump-will-face-stronger-xi-jinping-november-apec-forum-china?utm_source=rss_feed",
+              "id": "https://www.scmp.com/news/china/diplomacy/article/3368914/3-top-reasons-trump-will-face-stronger-xi-jinping-november-apec-forum-china?utm_source=rss_feed",
+              "author": "Alyssa Chen",
+              "published_at": "2026-09-26T15:00:08Z",
+              "updated_at": "2026-09-26T15:00:08Z",
+              "summary": "When Donald Trump arrives in Shenzhen for the November Apec summit, he will face a Chinese leader even more confident than the one who left Washington this week after a state visit heavy on pageantry but light on concrete deliverables.\nExperts attributed this confidence to three key factors – a newly upgraded bilateral framework seeking a “constructive relationship of strategic stability based on respect, fairness and reciprocity”, the warmer tone during Xi’s three-day visit, and – crucially –...",
+              "categories": [],
+              "feed": {
+                "title": "China - South China Morning Post",
+                "url": "https://www.scmp.com/rss/4/feed",
+                "feed_url": "https://www.scmp.com/rss/4/feed"
+              },
+              "enclosures": [
+                "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/26/623e99d2-4276-47d1-bb79-047608ad41b6_eda5f305.jpg?itok=ayPWNPur&v=1790430383"
+              ],
+              "outlet": "SCMP"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.scmp.com/rss/4/feed/",
+            "elapsed_ms": 625,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^scmp\\\\.com$\", \"SCMP\")",
+                  "outlet=replace(outlet, \"^cgtn\\\\.com$\", \"CGTN (Chinese state media)\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "china-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3368914/3-top-reasons-trump-will-face-stronger-xi-jinping-november-apec-forum-china?utm_source=rss_feed"
+    },
+    {
+      "id": "d145e3c5a7ba0e5e7033",
+      "title": "SCMP: China-based Brics bank set for lead role in hunger alliance this year, Brazil says",
+      "content_text": "The Brics-founded New Development Bank could help launch a fund by the end of the year to guarantee cheap loans for poor families in Africa and Latin America, Brazil’s social development minister said.\nThe scheme would be the Shanghai-based lender’s first financial commitment to Brazil’s global anti-hunger alliance, an initiative sidelined by Washington’s presidency of the G20 this year.\nWellington Dias told the South China Morning Post on the sidelines of the United Nations General Assembly…",
+      "date_published": "2026-09-26T14:00:06Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d145e3c5a7ba0e5e7033",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.scmp.com/news/china/diplomacy/article/3368865/china-based-brics-bank-set-lead-role-hunger-alliance-year-brazil-says?utm_source=rss_feed",
+          "source_url": "https://www.scmp.com/rss/4/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:23:56Z",
+          "data": {
+            "change": "added",
+            "label": "SCMP: China-based Brics bank set for lead role in hunger alliance this year, Brazil says",
+            "item_type": "entry",
+            "summary": "added: SCMP: China-based Brics bank set for lead role in hunger alliance this year, Brazil says",
+            "after": {
+              "title": "SCMP: China-based Brics bank set for lead role in hunger alliance this year, Brazil says",
+              "link": "https://www.scmp.com/news/china/diplomacy/article/3368865/china-based-brics-bank-set-lead-role-hunger-alliance-year-brazil-says?utm_source=rss_feed",
+              "id": "https://www.scmp.com/news/china/diplomacy/article/3368865/china-based-brics-bank-set-lead-role-hunger-alliance-year-brazil-says?utm_source=rss_feed",
+              "author": "Igor Patrick",
+              "published_at": "2026-09-26T14:00:06Z",
+              "updated_at": "2026-09-26T14:00:06Z",
+              "summary": "The Brics-founded New Development Bank could help launch a fund by the end of the year to guarantee cheap loans for poor families in Africa and Latin America, Brazil’s social development minister said.\nThe scheme would be the Shanghai-based lender’s first financial commitment to Brazil’s global anti-hunger alliance, an initiative sidelined by Washington’s presidency of the G20 this year.\nWellington Dias told the South China Morning Post on the sidelines of the United Nations General Assembly in...",
+              "categories": [],
+              "feed": {
+                "title": "China - South China Morning Post",
+                "url": "https://www.scmp.com/rss/4/feed",
+                "feed_url": "https://www.scmp.com/rss/4/feed"
+              },
+              "enclosures": [
+                "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/26/98b7aa25-abc4-4740-be63-52d40cbcf28a_256f8dcf.jpg?itok=rsGa875E&v=1790354920"
+              ],
+              "outlet": "SCMP"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.scmp.com/rss/4/feed/",
+            "elapsed_ms": 625,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^scmp\\\\.com$\", \"SCMP\")",
+                  "outlet=replace(outlet, \"^cgtn\\\\.com$\", \"CGTN (Chinese state media)\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "china-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3368865/china-based-brics-bank-set-lead-role-hunger-alliance-year-brazil-says?utm_source=rss_feed"
+    },
     {
       "id": "f5198af789cb4ceb7c70",
       "title": "SCMP: Why Xi’s flight from China to the US was hours faster than Trump’s in May",
@@ -14362,204 +14560,6 @@
         }
       },
       "url": "https://www.scmp.com/news/china/diplomacy/article/3368696/red-carpet-vs-empty-tarmac-xis-us-welcome-fuels-debate-over-takaichis-no-show-reception?utm_source=rss_feed"
-    },
-    {
-      "id": "1618e82d3ac359ab79c5",
-      "title": "SCMP: Xi-Trump summit day 1 highlights: red carpet for China’s leader, Rubio defends visit, and more",
-      "content_text": "We have put together stories from our coverage of Xi and Trump’s meeting in the US so far. If you would like to see more of our reporting, please consider subscribing.\n1. Big picture or big deals? What the Xi-Trump summit holds for China and the US\nWith the balance of power shifting between the US and China, the success of this week’s summit hinges not on headline-grabbing deals, but on practical, cautious consensus under a new strategic stability framework, according to Chinese…",
-      "date_published": "2026-09-24T11:50:07Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "1618e82d3ac359ab79c5",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.scmp.com/news/china/diplomacy/article/3368686/xi-trump-summit-day-1-highlights-red-carpet-chinas-leader-rubio-defends-visit-and-more?utm_source=rss_feed",
-          "source_url": "https://www.scmp.com/rss/4/feed",
-          "timestamp": null,
-          "observed_at": "2026-09-25T23:49:23Z",
-          "data": {
-            "change": "added",
-            "label": "SCMP: Xi-Trump summit day 1 highlights: red carpet for China’s leader, Rubio defends visit, and more",
-            "item_type": "entry",
-            "summary": "added: SCMP: Xi-Trump summit day 1 highlights: red carpet for China’s leader, Rubio defends visit, and more",
-            "after": {
-              "title": "SCMP: Xi-Trump summit day 1 highlights: red carpet for China’s leader, Rubio defends visit, and more",
-              "link": "https://www.scmp.com/news/china/diplomacy/article/3368686/xi-trump-summit-day-1-highlights-red-carpet-chinas-leader-rubio-defends-visit-and-more?utm_source=rss_feed",
-              "id": "https://www.scmp.com/news/china/diplomacy/article/3368686/xi-trump-summit-day-1-highlights-red-carpet-chinas-leader-rubio-defends-visit-and-more?utm_source=rss_feed",
-              "author": "SCMP",
-              "published_at": "2026-09-24T11:50:07Z",
-              "updated_at": "2026-09-24T11:50:07Z",
-              "summary": "We have put together stories from our coverage of Xi and Trump’s meeting in the US so far. If you would like to see more of our reporting, please consider subscribing.\n1. Big picture or big deals? What the Xi-Trump summit holds for China and the US\nWith the balance of power shifting between the US and China, the success of this week’s summit hinges not on headline-grabbing deals, but on practical, cautious consensus under a new strategic stability framework, according to Chinese researchers.\n2....",
-              "categories": [],
-              "feed": {
-                "title": "China - South China Morning Post",
-                "url": "https://www.scmp.com/rss/4/feed",
-                "feed_url": "https://www.scmp.com/rss/4/feed"
-              },
-              "enclosures": [
-                "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/24/3cb6dca2-06d1-435c-9680-953688ca3515_37e4048e.jpg?itok=n0WbuU0i&v=1790249608"
-              ],
-              "outlet": "SCMP"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.scmp.com/rss/4/feed/",
-            "elapsed_ms": 813,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "map",
-              "version": "0.3.2",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^scmp\\\\.com$\", \"SCMP\")",
-                  "outlet=replace(outlet, \"^cgtn\\\\.com$\", \"CGTN (Chinese state media)\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "china-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3368686/xi-trump-summit-day-1-highlights-red-carpet-chinas-leader-rubio-defends-visit-and-more?utm_source=rss_feed"
-    },
-    {
-      "id": "fc243d5886c631c4c8d6",
-      "title": "SCMP: US tenor Christopher Macchio booked for Xi-Trump state dinner performance",
-      "content_text": "American tenor Christopher Macchio will perform at the White House banquet for Chinese President Xi Jinping during his first state visit to the United States in more than a decade.\n“An honour to return to Washington DC to perform for the State Dinner with Donald Trump (originally @realDonaldTrump) and President Xi,” Macchio said on social media, tagging the official accounts of Trump, the White House, and the Trump campaign.\nOften referred to as “America’s Tenor”, Macchio is a...",
-      "date_published": "2026-09-24T11:18:20Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "fc243d5886c631c4c8d6",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.scmp.com/news/china/diplomacy/article/3368682/us-tenor-christopher-macchio-booked-xi-trump-state-dinner-performance?utm_source=rss_feed",
-          "source_url": "https://www.scmp.com/rss/4/feed",
-          "timestamp": null,
-          "observed_at": "2026-09-25T23:49:23Z",
-          "data": {
-            "change": "added",
-            "label": "SCMP: US tenor Christopher Macchio booked for Xi-Trump state dinner performance",
-            "item_type": "entry",
-            "summary": "added: SCMP: US tenor Christopher Macchio booked for Xi-Trump state dinner performance",
-            "after": {
-              "title": "SCMP: US tenor Christopher Macchio booked for Xi-Trump state dinner performance",
-              "link": "https://www.scmp.com/news/china/diplomacy/article/3368682/us-tenor-christopher-macchio-booked-xi-trump-state-dinner-performance?utm_source=rss_feed",
-              "id": "https://www.scmp.com/news/china/diplomacy/article/3368682/us-tenor-christopher-macchio-booked-xi-trump-state-dinner-performance?utm_source=rss_feed",
-              "author": "Caroline Lin",
-              "published_at": "2026-09-24T11:18:20Z",
-              "updated_at": "2026-09-24T11:18:20Z",
-              "summary": "American tenor Christopher Macchio will perform at the White House banquet for Chinese President Xi Jinping during his first state visit to the United States in more than a decade.\n“An honour to return to Washington DC to perform for the State Dinner with Donald Trump (originally @realDonaldTrump) and President Xi,” Macchio said on social media, tagging the official accounts of Trump, the White House, and the Trump campaign.\nOften referred to as “America’s Tenor”, Macchio is a...",
-              "categories": [],
-              "feed": {
-                "title": "China - South China Morning Post",
-                "url": "https://www.scmp.com/rss/4/feed",
-                "feed_url": "https://www.scmp.com/rss/4/feed"
-              },
-              "enclosures": [
-                "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/24/d1cdf7c6-86fe-4c87-b1ba-be985d59f23a_b8c17af1.jpg?itok=H0H-EjZo&v=1790248700"
-              ],
-              "outlet": "SCMP"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.scmp.com/rss/4/feed/",
-            "elapsed_ms": 813,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "map",
-              "version": "0.3.2",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^scmp\\\\.com$\", \"SCMP\")",
-                  "outlet=replace(outlet, \"^cgtn\\\\.com$\", \"CGTN (Chinese state media)\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "china-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3368682/us-tenor-christopher-macchio-booked-xi-trump-state-dinner-performance?utm_source=rss_feed"
     }
   ]
 }

@@ -1,0 +1,2684 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Latin America news (BBC, MercoPress)",
+  "home_page_url": "https://en.mercopress.com/rss/",
+  "description": "Events collected by UnlimitedPipe 0.9.1",
+  "_unlimitedpipe": {
+    "schema": "unlimitedpipe.event/1",
+    "generator": "UnlimitedPipe 0.9.1"
+  },
+  "items": [
+    {
+      "id": "e768bf6639f6d5ee61d0",
+      "title": "MercoPress: De la Espriella announces the reopening of oil exploration in Colombia, including fracking",
+      "content_text": "Colombian President Abelardo de la Espriella announced on Friday that his government will \"fully\" reopen hydrocarbon exploration and the signing of new contracts, including hydraulic fracturing, during the swearing-in of businessman Joaquín Gutiérrez as president of Ecopetrol, the country's largest company.",
+      "date_published": "2026-09-26T11:06:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "e768bf6639f6d5ee61d0",
+          "source": "rss",
+          "type": "change",
+          "key": "https://en.mercopress.com/2026/09/26/de-la-espriella-announces-the-reopening-of-oil-exploration-in-colombia-including-fracking?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+          "source_url": "https://en.mercopress.com/rss/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:03Z",
+          "data": {
+            "change": "added",
+            "label": "MercoPress: De la Espriella announces the reopening of oil exploration in Colombia, including fracking",
+            "item_type": "entry",
+            "summary": "added: MercoPress: De la Espriella announces the reopening of oil exploration in Colombia, including fracking",
+            "after": {
+              "title": "MercoPress: De la Espriella announces the reopening of oil exploration in Colombia, including fracking",
+              "link": "https://en.mercopress.com/2026/09/26/de-la-espriella-announces-the-reopening-of-oil-exploration-in-colombia-including-fracking?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+              "id": "https://en.mercopress.com/2026/09/26/de-la-espriella-announces-the-reopening-of-oil-exploration-in-colombia-including-fracking?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+              "author": null,
+              "published_at": "2026-09-26T11:06:00Z",
+              "updated_at": "2026-09-26T11:06:00Z",
+              "summary": "Colombian President Abelardo de la Espriella announced on Friday that his government will \"fully\" reopen hydrocarbon exploration and the signing of new contracts, including hydraulic fracturing, during the swearing-in of businessman Joaquín Gutiérrez as president of Ecopetrol, the country's largest company.",
+              "categories": [
+                "Politics, Latin America"
+              ],
+              "feed": {
+                "title": "MercoPress",
+                "url": "https://en.mercopress.com/",
+                "feed_url": "https://en.mercopress.com/rss/"
+              },
+              "enclosures": [
+                "https://en.mercopress.com/data/cache/noticias/111586/100x80/col.jpeg"
+              ],
+              "outlet": "MercoPress"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://en.mercopress.com/rss/",
+            "elapsed_ms": 258,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^bbci\\\\.co\\\\.uk$\", \"BBC Latin America\")",
+                  "outlet=replace(outlet, \"^mercopress\\\\.com$\", \"MercoPress\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "latin-america-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://en.mercopress.com/2026/09/26/de-la-espriella-announces-the-reopening-of-oil-exploration-in-colombia-including-fracking?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "tags": [
+        "Politics, Latin America"
+      ]
+    },
+    {
+      "id": "b4d6740eedeaf5369517",
+      "title": "MercoPress: Falklands Assembly responds to Argentina's campaign: “This Assembly remains calm”",
+      "content_text": "The chair of the Falkland Islands Legislative Assembly, Jack Ford, said on Thursday during a sitting of the body that there is “nothing new” in the claims made this week, and that the institution “remains calm” and steadfast in defending the right of the archipelago's residents to determine their own future.",
+      "date_published": "2026-09-25T23:26:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "b4d6740eedeaf5369517",
+          "source": "rss",
+          "type": "change",
+          "key": "https://en.mercopress.com/2026/09/25/falklands-assembly-responds-to-argentina-s-campaign-this-assembly-remains-calm?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+          "source_url": "https://en.mercopress.com/rss/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:03Z",
+          "data": {
+            "change": "added",
+            "label": "MercoPress: Falklands Assembly responds to Argentina's campaign: “This Assembly remains calm”",
+            "item_type": "entry",
+            "summary": "added: MercoPress: Falklands Assembly responds to Argentina's campaign: “This Assembly remains calm”",
+            "after": {
+              "title": "MercoPress: Falklands Assembly responds to Argentina's campaign: “This Assembly remains calm”",
+              "link": "https://en.mercopress.com/2026/09/25/falklands-assembly-responds-to-argentina-s-campaign-this-assembly-remains-calm?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+              "id": "https://en.mercopress.com/2026/09/25/falklands-assembly-responds-to-argentina-s-campaign-this-assembly-remains-calm?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+              "author": null,
+              "published_at": "2026-09-25T23:26:00Z",
+              "updated_at": "2026-09-25T23:26:00Z",
+              "summary": "The chair of the Falkland Islands Legislative Assembly, Jack Ford, said on Thursday during a sitting of the body that there is “nothing new” in the claims made this week, and that the institution “remains calm” and steadfast in defending the right of the archipelago's residents to determine their own future.",
+              "categories": [
+                "Politics, Argentina, Falkland Islands, International"
+              ],
+              "feed": {
+                "title": "MercoPress",
+                "url": "https://en.mercopress.com/",
+                "feed_url": "https://en.mercopress.com/rss/"
+              },
+              "enclosures": [
+                "https://en.mercopress.com/data/cache/noticias/111580/100x80/jack-ford-mla.jpg"
+              ],
+              "outlet": "MercoPress"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://en.mercopress.com/rss/",
+            "elapsed_ms": 258,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^bbci\\\\.co\\\\.uk$\", \"BBC Latin America\")",
+                  "outlet=replace(outlet, \"^mercopress\\\\.com$\", \"MercoPress\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "latin-america-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://en.mercopress.com/2026/09/25/falklands-assembly-responds-to-argentina-s-campaign-this-assembly-remains-calm?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "tags": [
+        "Politics, Argentina, Falkland Islands, International"
+      ]
+    },
+    {
+      "id": "f79edb8ff5d0db43d97a",
+      "title": "MercoPress: The Falklands economic development agency appoints Josh Smith as managing director",
+      "content_text": "The Falkland Islands Development Corporation, the archipelago's economic development agency, announced on Friday the appointment of Josh Smith as its new managing director, subject to final relocation arrangements. He will succeed Zachary Franklin, who will conclude his tenure in December.",
+      "date_published": "2026-09-25T21:35:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "f79edb8ff5d0db43d97a",
+          "source": "rss",
+          "type": "change",
+          "key": "https://en.mercopress.com/2026/09/25/the-falklands-economic-development-agency-appoints-josh-smith-as-managing-director?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+          "source_url": "https://en.mercopress.com/rss/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:03Z",
+          "data": {
+            "change": "added",
+            "label": "MercoPress: The Falklands economic development agency appoints Josh Smith as managing director",
+            "item_type": "entry",
+            "summary": "added: MercoPress: The Falklands economic development agency appoints Josh Smith as managing director",
+            "after": {
+              "title": "MercoPress: The Falklands economic development agency appoints Josh Smith as managing director",
+              "link": "https://en.mercopress.com/2026/09/25/the-falklands-economic-development-agency-appoints-josh-smith-as-managing-director?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+              "id": "https://en.mercopress.com/2026/09/25/the-falklands-economic-development-agency-appoints-josh-smith-as-managing-director?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+              "author": null,
+              "published_at": "2026-09-25T21:35:00Z",
+              "updated_at": "2026-09-25T21:35:00Z",
+              "summary": "The Falkland Islands Development Corporation, the archipelago's economic development agency, announced on Friday the appointment of Josh Smith as its new managing director, subject to final relocation arrangements. He will succeed Zachary Franklin, who will conclude his tenure in December.",
+              "categories": [
+                "Economy, Investments, Falkland Islands, International"
+              ],
+              "feed": {
+                "title": "MercoPress",
+                "url": "https://en.mercopress.com/",
+                "feed_url": "https://en.mercopress.com/rss/"
+              },
+              "enclosures": [
+                "https://en.mercopress.com/data/cache/noticias/111585/100x80/ascd.jpg"
+              ],
+              "outlet": "MercoPress"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://en.mercopress.com/rss/",
+            "elapsed_ms": 258,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^bbci\\\\.co\\\\.uk$\", \"BBC Latin America\")",
+                  "outlet=replace(outlet, \"^mercopress\\\\.com$\", \"MercoPress\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "latin-america-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://en.mercopress.com/2026/09/25/the-falklands-economic-development-agency-appoints-josh-smith-as-managing-director?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "tags": [
+        "Economy, Investments, Falkland Islands, International"
+      ]
+    },
+    {
+      "id": "95678e537d02bad5f172",
+      "title": "MercoPress: Milei and Netanyahu discussed the Falklands in his only bilateral in New York",
+      "content_text": "Argentine President Javier Milei met Israeli Prime Minister Benjamin Netanyahu for about twenty minutes on Thursday at United Nations headquarters, in what was his only bilateral meeting with a head of state or government during his trip to New York. Foreign Minister Pablo Quirno confirmed they discussed the Falklands.",
+      "date_published": "2026-09-25T21:28:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "95678e537d02bad5f172",
+          "source": "rss",
+          "type": "change",
+          "key": "https://en.mercopress.com/2026/09/25/milei-and-netanyahu-discussed-the-falklands-in-his-only-bilateral-in-new-york?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+          "source_url": "https://en.mercopress.com/rss/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:03Z",
+          "data": {
+            "change": "added",
+            "label": "MercoPress: Milei and Netanyahu discussed the Falklands in his only bilateral in New York",
+            "item_type": "entry",
+            "summary": "added: MercoPress: Milei and Netanyahu discussed the Falklands in his only bilateral in New York",
+            "after": {
+              "title": "MercoPress: Milei and Netanyahu discussed the Falklands in his only bilateral in New York",
+              "link": "https://en.mercopress.com/2026/09/25/milei-and-netanyahu-discussed-the-falklands-in-his-only-bilateral-in-new-york?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+              "id": "https://en.mercopress.com/2026/09/25/milei-and-netanyahu-discussed-the-falklands-in-his-only-bilateral-in-new-york?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+              "author": null,
+              "published_at": "2026-09-25T21:28:00Z",
+              "updated_at": "2026-09-25T21:28:00Z",
+              "summary": "Argentine President Javier Milei met Israeli Prime Minister Benjamin Netanyahu for about twenty minutes on Thursday at United Nations headquarters, in what was his only bilateral meeting with a head of state or government during his trip to New York. Foreign Minister Pablo Quirno confirmed they discussed the Falklands.",
+              "categories": [
+                "Politics, Argentina, Falkland Islands, International"
+              ],
+              "feed": {
+                "title": "MercoPress",
+                "url": "https://en.mercopress.com/",
+                "feed_url": "https://en.mercopress.com/rss/"
+              },
+              "enclosures": [
+                "https://en.mercopress.com/data/cache/noticias/111582/100x80/mileinetanyahu.jpg"
+              ],
+              "outlet": "MercoPress"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://en.mercopress.com/rss/",
+            "elapsed_ms": 258,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^bbci\\\\.co\\\\.uk$\", \"BBC Latin America\")",
+                  "outlet=replace(outlet, \"^mercopress\\\\.com$\", \"MercoPress\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "latin-america-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://en.mercopress.com/2026/09/25/milei-and-netanyahu-discussed-the-falklands-in-his-only-bilateral-in-new-york?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "tags": [
+        "Politics, Argentina, Falkland Islands, International"
+      ]
+    },
+    {
+      "id": "ff977e9b0cd82366959d",
+      "title": "MercoPress: “The UN has more reason to exist every day”, Uruguay's president said two days after Milei",
+      "content_text": "Uruguayan President Yamandú Orsi defended the United Nations' relevance and condemned the economic embargo on Cuba before the General Assembly on Thursday, in an address of just under twenty minutes that contrasted with that of his Argentine counterpart, Javier Milei, two days earlier from the same podium.",
+      "date_published": "2026-09-25T10:41:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ff977e9b0cd82366959d",
+          "source": "rss",
+          "type": "change",
+          "key": "https://en.mercopress.com/2026/09/25/the-un-has-more-reason-to-exist-every-day-uruguay-s-president-said-two-days-after-milei?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+          "source_url": "https://en.mercopress.com/rss/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:03Z",
+          "data": {
+            "change": "added",
+            "label": "MercoPress: “The UN has more reason to exist every day”, Uruguay's president said two days after Milei",
+            "item_type": "entry",
+            "summary": "added: MercoPress: “The UN has more reason to exist every day”, Uruguay's president said two days after Milei",
+            "after": {
+              "title": "MercoPress: “The UN has more reason to exist every day”, Uruguay's president said two days after Milei",
+              "link": "https://en.mercopress.com/2026/09/25/the-un-has-more-reason-to-exist-every-day-uruguay-s-president-said-two-days-after-milei?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+              "id": "https://en.mercopress.com/2026/09/25/the-un-has-more-reason-to-exist-every-day-uruguay-s-president-said-two-days-after-milei?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+              "author": null,
+              "published_at": "2026-09-25T10:41:00Z",
+              "updated_at": "2026-09-25T10:41:00Z",
+              "summary": "Uruguayan President Yamandú Orsi defended the United Nations' relevance and condemned the economic embargo on Cuba before the General Assembly on Thursday, in an address of just under twenty minutes that contrasted with that of his Argentine counterpart, Javier Milei, two days earlier from the same podium.",
+              "categories": [
+                "Politics, Argentina, International, Latin America, Mercosur, United States, Uruguay, Unasur"
+              ],
+              "feed": {
+                "title": "MercoPress",
+                "url": "https://en.mercopress.com/",
+                "feed_url": "https://en.mercopress.com/rss/"
+              },
+              "enclosures": [
+                "https://en.mercopress.com/data/cache/noticias/111578/100x80/orsi.jpg"
+              ],
+              "outlet": "MercoPress"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://en.mercopress.com/rss/",
+            "elapsed_ms": 258,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^bbci\\\\.co\\\\.uk$\", \"BBC Latin America\")",
+                  "outlet=replace(outlet, \"^mercopress\\\\.com$\", \"MercoPress\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "latin-america-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://en.mercopress.com/2026/09/25/the-un-has-more-reason-to-exist-every-day-uruguay-s-president-said-two-days-after-milei?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "tags": [
+        "Politics, Argentina, International, Latin America, Mercosur, United States, Uruguay, Unasur"
+      ]
+    },
+    {
+      "id": "230c6593e38af1176ce9",
+      "title": "MercoPress: Poverty in Argentina rises to 32.3%, ending two years of decline",
+      "content_text": "Poverty in Argentina reached 32.3% of people in the first half of 2026, an increase of 4.1 percentage points on the second half of 2025, the National Institute of Statistics and Census reported on Thursday. The figure interrupts the downward path the indicator had followed since mid-2024. Extreme poverty rose 1.2 points, from 6.3% to 7.5%.",
+      "date_published": "2026-09-25T10:26:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "230c6593e38af1176ce9",
+          "source": "rss",
+          "type": "change",
+          "key": "https://en.mercopress.com/2026/09/25/poverty-in-argentina-rises-to-32.3-ending-two-years-of-decline?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+          "source_url": "https://en.mercopress.com/rss/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:03Z",
+          "data": {
+            "change": "added",
+            "label": "MercoPress: Poverty in Argentina rises to 32.3%, ending two years of decline",
+            "item_type": "entry",
+            "summary": "added: MercoPress: Poverty in Argentina rises to 32.3%, ending two years of decline",
+            "after": {
+              "title": "MercoPress: Poverty in Argentina rises to 32.3%, ending two years of decline",
+              "link": "https://en.mercopress.com/2026/09/25/poverty-in-argentina-rises-to-32.3-ending-two-years-of-decline?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+              "id": "https://en.mercopress.com/2026/09/25/poverty-in-argentina-rises-to-32.3-ending-two-years-of-decline?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+              "author": null,
+              "published_at": "2026-09-25T10:26:00Z",
+              "updated_at": "2026-09-25T10:26:00Z",
+              "summary": "Poverty in Argentina reached 32.3% of people in the first half of 2026, an increase of 4.1 percentage points on the second half of 2025, the National Institute of Statistics and Census reported on Thursday. The figure interrupts the downward path the indicator had followed since mid-2024. Extreme poverty rose 1.2 points, from 6.3% to 7.5%.",
+              "categories": [
+                "Economy, Argentina"
+              ],
+              "feed": {
+                "title": "MercoPress",
+                "url": "https://en.mercopress.com/",
+                "feed_url": "https://en.mercopress.com/rss/"
+              },
+              "enclosures": [
+                "https://en.mercopress.com/data/cache/noticias/111572/100x80/a-bsa.jpeg"
+              ],
+              "outlet": "MercoPress"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://en.mercopress.com/rss/",
+            "elapsed_ms": 258,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^bbci\\\\.co\\\\.uk$\", \"BBC Latin America\")",
+                  "outlet=replace(outlet, \"^mercopress\\\\.com$\", \"MercoPress\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "latin-america-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://en.mercopress.com/2026/09/25/poverty-in-argentina-rises-to-32.3-ending-two-years-of-decline?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "tags": [
+        "Economy, Argentina"
+      ]
+    },
+    {
+      "id": "758de65aa513c07fc7ab",
+      "title": "MercoPress: Trump and Xi end the state visit with the trade truce extended and no substantive deals",
+      "content_text": "Chinese President Xi Jinping's state visit to Washington ended on Thursday with a two-month extension of the bilateral trade truce, agreed before the meeting itself, and no progress on the central issues dividing the two powers: tariffs, rare earths, agricultural purchases, Taiwan and export restrictions on advanced chips.",
+      "date_published": "2026-09-25T09:37:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "758de65aa513c07fc7ab",
+          "source": "rss",
+          "type": "change",
+          "key": "https://en.mercopress.com/2026/09/25/trump-and-xi-end-the-state-visit-with-the-trade-truce-extended-and-no-substantive-deals?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+          "source_url": "https://en.mercopress.com/rss/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:03Z",
+          "data": {
+            "change": "added",
+            "label": "MercoPress: Trump and Xi end the state visit with the trade truce extended and no substantive deals",
+            "item_type": "entry",
+            "summary": "added: MercoPress: Trump and Xi end the state visit with the trade truce extended and no substantive deals",
+            "after": {
+              "title": "MercoPress: Trump and Xi end the state visit with the trade truce extended and no substantive deals",
+              "link": "https://en.mercopress.com/2026/09/25/trump-and-xi-end-the-state-visit-with-the-trade-truce-extended-and-no-substantive-deals?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+              "id": "https://en.mercopress.com/2026/09/25/trump-and-xi-end-the-state-visit-with-the-trade-truce-extended-and-no-substantive-deals?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+              "author": null,
+              "published_at": "2026-09-25T09:37:00Z",
+              "updated_at": "2026-09-25T09:37:00Z",
+              "summary": "Chinese President Xi Jinping's state visit to Washington ended on Thursday with a two-month extension of the bilateral trade truce, agreed before the meeting itself, and no progress on the central issues dividing the two powers: tariffs, rare earths, agricultural purchases, Taiwan and export restrictions on advanced chips.",
+              "categories": [
+                "Politics, International, United States"
+              ],
+              "feed": {
+                "title": "MercoPress",
+                "url": "https://en.mercopress.com/",
+                "feed_url": "https://en.mercopress.com/rss/"
+              },
+              "enclosures": [
+                "https://en.mercopress.com/data/cache/noticias/111576/100x80/tru.jpeg"
+              ],
+              "outlet": "MercoPress"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://en.mercopress.com/rss/",
+            "elapsed_ms": 258,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^bbci\\\\.co\\\\.uk$\", \"BBC Latin America\")",
+                  "outlet=replace(outlet, \"^mercopress\\\\.com$\", \"MercoPress\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "latin-america-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://en.mercopress.com/2026/09/25/trump-and-xi-end-the-state-visit-with-the-trade-truce-extended-and-no-substantive-deals?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "tags": [
+        "Politics, International, United States"
+      ]
+    },
+    {
+      "id": "55d6aeb3b67f80c94976",
+      "title": "MercoPress: Nine days from the vote, neither Brazilian front-runner comes close to 50%",
+      "content_text": "Neither of Brazil's two leading presidential candidates is approaching the threshold needed to win outright on October 4, according to the latest Datafolha poll, which puts President Luiz Inácio Lula da Silva on 40% of voting intentions and Senator Flávio Bolsonaro on 36%.",
+      "date_published": "2026-09-25T00:10:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "55d6aeb3b67f80c94976",
+          "source": "rss",
+          "type": "change",
+          "key": "https://en.mercopress.com/2026/09/25/nine-days-from-the-vote-neither-brazilian-front-runner-comes-close-to-50?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+          "source_url": "https://en.mercopress.com/rss/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:03Z",
+          "data": {
+            "change": "added",
+            "label": "MercoPress: Nine days from the vote, neither Brazilian front-runner comes close to 50%",
+            "item_type": "entry",
+            "summary": "added: MercoPress: Nine days from the vote, neither Brazilian front-runner comes close to 50%",
+            "after": {
+              "title": "MercoPress: Nine days from the vote, neither Brazilian front-runner comes close to 50%",
+              "link": "https://en.mercopress.com/2026/09/25/nine-days-from-the-vote-neither-brazilian-front-runner-comes-close-to-50?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+              "id": "https://en.mercopress.com/2026/09/25/nine-days-from-the-vote-neither-brazilian-front-runner-comes-close-to-50?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+              "author": null,
+              "published_at": "2026-09-25T00:10:00Z",
+              "updated_at": "2026-09-25T00:10:00Z",
+              "summary": "Neither of Brazil's two leading presidential candidates is approaching the threshold needed to win outright on October 4, according to the latest Datafolha poll, which puts President Luiz Inácio Lula da Silva on 40% of voting intentions and Senator Flávio Bolsonaro on 36%.",
+              "categories": [
+                "Politics, Brazil"
+              ],
+              "feed": {
+                "title": "MercoPress",
+                "url": "https://en.mercopress.com/",
+                "feed_url": "https://en.mercopress.com/rss/"
+              },
+              "enclosures": [
+                "https://en.mercopress.com/data/cache/noticias/111571/100x80/bra.jpeg"
+              ],
+              "outlet": "MercoPress"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://en.mercopress.com/rss/",
+            "elapsed_ms": 258,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^bbci\\\\.co\\\\.uk$\", \"BBC Latin America\")",
+                  "outlet=replace(outlet, \"^mercopress\\\\.com$\", \"MercoPress\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "latin-america-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://en.mercopress.com/2026/09/25/nine-days-from-the-vote-neither-brazilian-front-runner-comes-close-to-50?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "tags": [
+        "Politics, Brazil"
+      ]
+    },
+    {
+      "id": "e08d2b10ee11f62b6dfb",
+      "title": "MercoPress: Netanyahu rejects genocide allegations before an assembly emptied by dozens of delegations",
+      "content_text": "Israeli Prime Minister Benjamin Netanyahu on Thursday called genocide allegations against his country over the war in Gaza \"the biggest lie of the century\", in an address to the United Nations General Assembly that dozens of delegations left before he began speaking.",
+      "date_published": "2026-09-25T00:08:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "e08d2b10ee11f62b6dfb",
+          "source": "rss",
+          "type": "change",
+          "key": "https://en.mercopress.com/2026/09/25/netanyahu-rejects-genocide-allegations-before-an-assembly-emptied-by-dozens-of-delegations?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+          "source_url": "https://en.mercopress.com/rss/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:03Z",
+          "data": {
+            "change": "added",
+            "label": "MercoPress: Netanyahu rejects genocide allegations before an assembly emptied by dozens of delegations",
+            "item_type": "entry",
+            "summary": "added: MercoPress: Netanyahu rejects genocide allegations before an assembly emptied by dozens of delegations",
+            "after": {
+              "title": "MercoPress: Netanyahu rejects genocide allegations before an assembly emptied by dozens of delegations",
+              "link": "https://en.mercopress.com/2026/09/25/netanyahu-rejects-genocide-allegations-before-an-assembly-emptied-by-dozens-of-delegations?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+              "id": "https://en.mercopress.com/2026/09/25/netanyahu-rejects-genocide-allegations-before-an-assembly-emptied-by-dozens-of-delegations?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+              "author": null,
+              "published_at": "2026-09-25T00:08:00Z",
+              "updated_at": "2026-09-25T00:08:00Z",
+              "summary": "Israeli Prime Minister Benjamin Netanyahu on Thursday called genocide allegations against his country over the war in Gaza \"the biggest lie of the century\", in an address to the United Nations General Assembly that dozens of delegations left before he began speaking.",
+              "categories": [
+                "Politics, International"
+              ],
+              "feed": {
+                "title": "MercoPress",
+                "url": "https://en.mercopress.com/",
+                "feed_url": "https://en.mercopress.com/rss/"
+              },
+              "enclosures": [
+                "https://en.mercopress.com/data/cache/noticias/111568/100x80/bn.jpg"
+              ],
+              "outlet": "MercoPress"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://en.mercopress.com/rss/",
+            "elapsed_ms": 258,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^bbci\\\\.co\\\\.uk$\", \"BBC Latin America\")",
+                  "outlet=replace(outlet, \"^mercopress\\\\.com$\", \"MercoPress\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "latin-america-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://en.mercopress.com/2026/09/25/netanyahu-rejects-genocide-allegations-before-an-assembly-emptied-by-dozens-of-delegations?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "tags": [
+        "Politics, International"
+      ]
+    },
+    {
+      "id": "174a048f3274a44d2343",
+      "title": "MercoPress: Punta Arenas/Falklands maritime links are based on history, economics and geography",
+      "content_text": "The announced maritime and trade link between Punta Arenas in Chile and the Falkland Islands has been strongly argued and supported by the main newspaper from the Chilean austral city on the Magellan Strait and capital of the Magallanes Region.",
+      "date_published": "2026-09-24T23:47:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "174a048f3274a44d2343",
+          "source": "rss",
+          "type": "change",
+          "key": "https://en.mercopress.com/2026/09/24/punta-arenas-falklands-maritime-links-are-based-on-history-economics-and-geography?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+          "source_url": "https://en.mercopress.com/rss/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:03Z",
+          "data": {
+            "change": "added",
+            "label": "MercoPress: Punta Arenas/Falklands maritime links are based on history, economics and geography",
+            "item_type": "entry",
+            "summary": "added: MercoPress: Punta Arenas/Falklands maritime links are based on history, economics and geography",
+            "after": {
+              "title": "MercoPress: Punta Arenas/Falklands maritime links are based on history, economics and geography",
+              "link": "https://en.mercopress.com/2026/09/24/punta-arenas-falklands-maritime-links-are-based-on-history-economics-and-geography?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+              "id": "https://en.mercopress.com/2026/09/24/punta-arenas-falklands-maritime-links-are-based-on-history-economics-and-geography?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+              "author": null,
+              "published_at": "2026-09-24T23:47:00Z",
+              "updated_at": "2026-09-24T23:47:00Z",
+              "summary": "The announced maritime and trade link between Punta Arenas in Chile and the Falkland Islands has been strongly argued and supported by the main newspaper from the Chilean austral city on the Magellan Strait and capital of the Magallanes Region.",
+              "categories": [
+                "Politics, Falkland Islands, Chile"
+              ],
+              "feed": {
+                "title": "MercoPress",
+                "url": "https://en.mercopress.com/",
+                "feed_url": "https://en.mercopress.com/rss/"
+              },
+              "enclosures": [
+                "https://en.mercopress.com/data/cache/noticias/111565/100x80/fipass.jpg"
+              ],
+              "outlet": "MercoPress"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://en.mercopress.com/rss/",
+            "elapsed_ms": 258,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^bbci\\\\.co\\\\.uk$\", \"BBC Latin America\")",
+                  "outlet=replace(outlet, \"^mercopress\\\\.com$\", \"MercoPress\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "latin-america-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://en.mercopress.com/2026/09/24/punta-arenas-falklands-maritime-links-are-based-on-history-economics-and-geography?utm_source=feed&utm_medium=rss&utm_content=main&utm_campaign=rss",
+      "tags": [
+        "Politics, Falkland Islands, Chile"
+      ]
+    },
+    {
+      "id": "3c7f1ff8ad610ec7261b",
+      "title": "BBC Latin America: Venezuela‘s interim president promises election after Maduro ousted",
+      "content_text": "The opposition in Venezuela has slammed her for not setting even a tentative date for elections.",
+      "date_published": "2026-09-24T12:10:57Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "3c7f1ff8ad610ec7261b",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/cqe8xl265dp9o#0",
+          "source_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:03Z",
+          "data": {
+            "change": "added",
+            "label": "BBC Latin America: Venezuela‘s interim president promises election after Maduro ousted",
+            "item_type": "entry",
+            "summary": "added: BBC Latin America: Venezuela‘s interim president promises election after Maduro ousted",
+            "after": {
+              "title": "BBC Latin America: Venezuela‘s interim president promises election after Maduro ousted",
+              "link": "https://www.bbc.co.uk/news/articles/cqe8xl265dp9o?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/cqe8xl265dp9o#0",
+              "author": null,
+              "published_at": "2026-09-24T12:10:57Z",
+              "updated_at": "2026-09-24T12:10:57Z",
+              "summary": "The opposition in Venezuela has slammed her for not setting even a tentative date for elections.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world/latin_america",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml"
+              },
+              "outlet": "BBC Latin America"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+            "elapsed_ms": 265,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^bbci\\\\.co\\\\.uk$\", \"BBC Latin America\")",
+                  "outlet=replace(outlet, \"^mercopress\\\\.com$\", \"MercoPress\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "latin-america-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/cqe8xl265dp9o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "45bd9fd80f73ced2ad4d",
+      "title": "BBC Latin America: Hurricane Polo downgraded but remains 'very powerful' off coast of Mexico",
+      "content_text": "The large storm in the Pacific Ocean is being driven by warm waters caused by the El Niño weather phenomenon.",
+      "date_published": "2026-09-23T17:58:19Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "45bd9fd80f73ced2ad4d",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/ckddvlrlr5qeo#0",
+          "source_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:03Z",
+          "data": {
+            "change": "added",
+            "label": "BBC Latin America: Hurricane Polo downgraded but remains 'very powerful' off coast of Mexico",
+            "item_type": "entry",
+            "summary": "added: BBC Latin America: Hurricane Polo downgraded but remains 'very powerful' off coast of Mexico",
+            "after": {
+              "title": "BBC Latin America: Hurricane Polo downgraded but remains 'very powerful' off coast of Mexico",
+              "link": "https://www.bbc.co.uk/news/articles/ckddvlrlr5qeo?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/ckddvlrlr5qeo#0",
+              "author": null,
+              "published_at": "2026-09-23T17:58:19Z",
+              "updated_at": "2026-09-23T17:58:19Z",
+              "summary": "The large storm in the Pacific Ocean is being driven by warm waters caused by the El Niño weather phenomenon.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world/latin_america",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml"
+              },
+              "outlet": "BBC Latin America"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+            "elapsed_ms": 265,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^bbci\\\\.co\\\\.uk$\", \"BBC Latin America\")",
+                  "outlet=replace(outlet, \"^mercopress\\\\.com$\", \"MercoPress\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "latin-america-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/ckddvlrlr5qeo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "3cf53ef02f7470339c99",
+      "title": "BBC Latin America: Did El Niño turn Hurricane Polo into the most powerful storm of the season?",
+      "content_text": "The BBC's Courtney Sargent explains how El Niño could have rapidly turned Hurricane Polo into one of the Pacific season's most powerful storms.",
+      "date_published": "2026-09-23T17:33:39Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "3cf53ef02f7470339c99",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/videos/cm93v2zz4w7qo#2",
+          "source_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:03Z",
+          "data": {
+            "change": "added",
+            "label": "BBC Latin America: Did El Niño turn Hurricane Polo into the most powerful storm of the season?",
+            "item_type": "entry",
+            "summary": "added: BBC Latin America: Did El Niño turn Hurricane Polo into the most powerful storm of the season?",
+            "after": {
+              "title": "BBC Latin America: Did El Niño turn Hurricane Polo into the most powerful storm of the season?",
+              "link": "https://www.bbc.co.uk/news/videos/cm93v2zz4w7qo?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/videos/cm93v2zz4w7qo#2",
+              "author": null,
+              "published_at": "2026-09-23T17:33:39Z",
+              "updated_at": "2026-09-23T17:33:39Z",
+              "summary": "The BBC's Courtney Sargent explains how El Niño could have rapidly turned Hurricane Polo into one of the Pacific season's most powerful storms.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world/latin_america",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml"
+              },
+              "outlet": "BBC Latin America"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+            "elapsed_ms": 265,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^bbci\\\\.co\\\\.uk$\", \"BBC Latin America\")",
+                  "outlet=replace(outlet, \"^mercopress\\\\.com$\", \"MercoPress\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "latin-america-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/videos/cm93v2zz4w7qo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "0411e1f30bfc819717e3",
+      "title": "BBC Latin America: Uproar in France over award-winning author accused of using AI",
+      "content_text": "Canadian-Haitian writer Thélyson Orélien has just been awarded the Prix du Roman Fnac for his first novel.",
+      "date_published": "2026-09-23T15:28:05Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "0411e1f30bfc819717e3",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/ck7v4y45893go#0",
+          "source_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:03Z",
+          "data": {
+            "change": "added",
+            "label": "BBC Latin America: Uproar in France over award-winning author accused of using AI",
+            "item_type": "entry",
+            "summary": "added: BBC Latin America: Uproar in France over award-winning author accused of using AI",
+            "after": {
+              "title": "BBC Latin America: Uproar in France over award-winning author accused of using AI",
+              "link": "https://www.bbc.co.uk/news/articles/ck7v4y45893go?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/ck7v4y45893go#0",
+              "author": null,
+              "published_at": "2026-09-23T15:28:05Z",
+              "updated_at": "2026-09-23T15:28:05Z",
+              "summary": "Canadian-Haitian writer Thélyson Orélien has just been awarded the Prix du Roman Fnac for his first novel.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world/latin_america",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml"
+              },
+              "outlet": "BBC Latin America"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+            "elapsed_ms": 265,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^bbci\\\\.co\\\\.uk$\", \"BBC Latin America\")",
+                  "outlet=replace(outlet, \"^mercopress\\\\.com$\", \"MercoPress\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "latin-america-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/ck7v4y45893go?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "119a12d37043994f5a36",
+      "title": "BBC Latin America: Trump meets US-backed Venezuelan president for first time since Maduro seized",
+      "content_text": "Rodriguez was handpicked by Trump as leader of Venezuela was arrested and taken to the US",
+      "date_published": "2026-09-23T09:48:50Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "119a12d37043994f5a36",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/cj207y30wp0lo#0",
+          "source_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:03Z",
+          "data": {
+            "change": "added",
+            "label": "BBC Latin America: Trump meets US-backed Venezuelan president for first time since Maduro seized",
+            "item_type": "entry",
+            "summary": "added: BBC Latin America: Trump meets US-backed Venezuelan president for first time since Maduro seized",
+            "after": {
+              "title": "BBC Latin America: Trump meets US-backed Venezuelan president for first time since Maduro seized",
+              "link": "https://www.bbc.co.uk/news/articles/cj207y30wp0lo?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/cj207y30wp0lo#0",
+              "author": null,
+              "published_at": "2026-09-23T09:48:50Z",
+              "updated_at": "2026-09-23T09:48:50Z",
+              "summary": "Rodriguez was handpicked by Trump as leader of Venezuela was arrested and taken to the US",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world/latin_america",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml"
+              },
+              "outlet": "BBC Latin America"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+            "elapsed_ms": 265,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^bbci\\\\.co\\\\.uk$\", \"BBC Latin America\")",
+                  "outlet=replace(outlet, \"^mercopress\\\\.com$\", \"MercoPress\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "latin-america-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/cj207y30wp0lo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "ec6e504ccc33a5e6ff20",
+      "title": "BBC Latin America: Texas ICE shooting leaves Venezuelan DoorDash driver with bullet in his back, says lawyer",
+      "content_text": "The delivery driver was transferred from a hospital to a detention centre, his lawyer tells US media.",
+      "date_published": "2026-09-22T17:17:01Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ec6e504ccc33a5e6ff20",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/c3y0z25v0zjwo#0",
+          "source_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:03Z",
+          "data": {
+            "change": "added",
+            "label": "BBC Latin America: Texas ICE shooting leaves Venezuelan DoorDash driver with bullet in his back, says lawyer",
+            "item_type": "entry",
+            "summary": "added: BBC Latin America: Texas ICE shooting leaves Venezuelan DoorDash driver with bullet in his back, says lawyer",
+            "after": {
+              "title": "BBC Latin America: Texas ICE shooting leaves Venezuelan DoorDash driver with bullet in his back, says lawyer",
+              "link": "https://www.bbc.co.uk/news/articles/c3y0z25v0zjwo?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/c3y0z25v0zjwo#0",
+              "author": null,
+              "published_at": "2026-09-22T17:17:01Z",
+              "updated_at": "2026-09-22T17:17:01Z",
+              "summary": "The delivery driver was transferred from a hospital to a detention centre, his lawyer tells US media.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world/latin_america",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml"
+              },
+              "outlet": "BBC Latin America"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+            "elapsed_ms": 265,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^bbci\\\\.co\\\\.uk$\", \"BBC Latin America\")",
+                  "outlet=replace(outlet, \"^mercopress\\\\.com$\", \"MercoPress\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "latin-america-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/c3y0z25v0zjwo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "e3132b8518baf1c39208",
+      "title": "BBC Latin America: US strikes on alleged drug boats could be crimes against humanity, says UN",
+      "content_text": "A report says the attacks, of which there have been at least 68, were not self-defence.",
+      "date_published": "2026-09-21T12:08:56Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "e3132b8518baf1c39208",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/ck5ye7v88qy7o#0",
+          "source_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:03Z",
+          "data": {
+            "change": "added",
+            "label": "BBC Latin America: US strikes on alleged drug boats could be crimes against humanity, says UN",
+            "item_type": "entry",
+            "summary": "added: BBC Latin America: US strikes on alleged drug boats could be crimes against humanity, says UN",
+            "after": {
+              "title": "BBC Latin America: US strikes on alleged drug boats could be crimes against humanity, says UN",
+              "link": "https://www.bbc.co.uk/news/articles/ck5ye7v88qy7o?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/ck5ye7v88qy7o#0",
+              "author": null,
+              "published_at": "2026-09-21T12:08:56Z",
+              "updated_at": "2026-09-21T12:08:56Z",
+              "summary": "A report says the attacks, of which there have been at least 68, were not self-defence.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world/latin_america",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml"
+              },
+              "outlet": "BBC Latin America"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+            "elapsed_ms": 265,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^bbci\\\\.co\\\\.uk$\", \"BBC Latin America\")",
+                  "outlet=replace(outlet, \"^mercopress\\\\.com$\", \"MercoPress\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "latin-america-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/ck5ye7v88qy7o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "18b1b8f7c34e69cfe81c",
+      "title": "BBC Latin America: Haiti extradites 18 suspects in assassination of president to US",
+      "content_text": "The suspects were flown to Miami to stand trial over the murder of Haitian President Jovenel Moise five years ago.",
+      "date_published": "2026-09-21T02:44:57Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "18b1b8f7c34e69cfe81c",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/cvwyz2jr4r7eo#0",
+          "source_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:03Z",
+          "data": {
+            "change": "added",
+            "label": "BBC Latin America: Haiti extradites 18 suspects in assassination of president to US",
+            "item_type": "entry",
+            "summary": "added: BBC Latin America: Haiti extradites 18 suspects in assassination of president to US",
+            "after": {
+              "title": "BBC Latin America: Haiti extradites 18 suspects in assassination of president to US",
+              "link": "https://www.bbc.co.uk/news/articles/cvwyz2jr4r7eo?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/cvwyz2jr4r7eo#0",
+              "author": null,
+              "published_at": "2026-09-21T02:44:57Z",
+              "updated_at": "2026-09-21T02:44:57Z",
+              "summary": "The suspects were flown to Miami to stand trial over the murder of Haitian President Jovenel Moise five years ago.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world/latin_america",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml"
+              },
+              "outlet": "BBC Latin America"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+            "elapsed_ms": 265,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^bbci\\\\.co\\\\.uk$\", \"BBC Latin America\")",
+                  "outlet=replace(outlet, \"^mercopress\\\\.com$\", \"MercoPress\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "latin-america-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/cvwyz2jr4r7eo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "5440dd69c6e29edb87d9",
+      "title": "BBC Latin America: Watch: Aztec codex on display in Mexico for first time in 186 years",
+      "content_text": "Mexicans celebrate the return of a centuries-old document that tells the story of the Aztec civilisation and its fall after the arrival of Spanish conquistadors.",
+      "date_published": "2026-09-18T16:27:10Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "5440dd69c6e29edb87d9",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/videos/cjn5dg5ww7pdo#2",
+          "source_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:03Z",
+          "data": {
+            "change": "added",
+            "label": "BBC Latin America: Watch: Aztec codex on display in Mexico for first time in 186 years",
+            "item_type": "entry",
+            "summary": "added: BBC Latin America: Watch: Aztec codex on display in Mexico for first time in 186 years",
+            "after": {
+              "title": "BBC Latin America: Watch: Aztec codex on display in Mexico for first time in 186 years",
+              "link": "https://www.bbc.co.uk/news/videos/cjn5dg5ww7pdo?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/videos/cjn5dg5ww7pdo#2",
+              "author": null,
+              "published_at": "2026-09-18T16:27:10Z",
+              "updated_at": "2026-09-18T16:27:10Z",
+              "summary": "Mexicans celebrate the return of a centuries-old document that tells the story of the Aztec civilisation and its fall after the arrival of Spanish conquistadors.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world/latin_america",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml"
+              },
+              "outlet": "BBC Latin America"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+            "elapsed_ms": 265,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^bbci\\\\.co\\\\.uk$\", \"BBC Latin America\")",
+                  "outlet=replace(outlet, \"^mercopress\\\\.com$\", \"MercoPress\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "latin-america-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/videos/cjn5dg5ww7pdo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "8bbfaed3aa53455f0f7a",
+      "title": "BBC Latin America: New wild cat species discovered - with only one known living member",
+      "content_text": "A spotted wildcat long mistaken for relatives has been identified as a new species in Bolivia.",
+      "date_published": "2026-09-17T23:15:55Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "8bbfaed3aa53455f0f7a",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/c6x2zgv9rr4ro#1",
+          "source_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:03Z",
+          "data": {
+            "change": "added",
+            "label": "BBC Latin America: New wild cat species discovered - with only one known living member",
+            "item_type": "entry",
+            "summary": "added: BBC Latin America: New wild cat species discovered - with only one known living member",
+            "after": {
+              "title": "BBC Latin America: New wild cat species discovered - with only one known living member",
+              "link": "https://www.bbc.co.uk/news/articles/c6x2zgv9rr4ro?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/c6x2zgv9rr4ro#1",
+              "author": null,
+              "published_at": "2026-09-17T23:15:55Z",
+              "updated_at": "2026-09-17T23:15:55Z",
+              "summary": "A spotted wildcat long mistaken for relatives has been identified as a new species in Bolivia.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world/latin_america",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml"
+              },
+              "outlet": "BBC Latin America"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+            "elapsed_ms": 265,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^bbci\\\\.co\\\\.uk$\", \"BBC Latin America\")",
+                  "outlet=replace(outlet, \"^mercopress\\\\.com$\", \"MercoPress\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "latin-america-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/c6x2zgv9rr4ro?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "4e0b85232dd9435c7e17",
+      "title": "BBC Latin America: Mass nesting brings swarms of turtles to Mexican beach",
+      "content_text": "Thousands of turtles arrived at La Escobilla beach in Oaxaca within 48 hours, sanctuary officials said.",
+      "date_published": "2026-09-15T01:08:55Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "4e0b85232dd9435c7e17",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/videos/cm4gkvk7wzkpo#2",
+          "source_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:03Z",
+          "data": {
+            "change": "added",
+            "label": "BBC Latin America: Mass nesting brings swarms of turtles to Mexican beach",
+            "item_type": "entry",
+            "summary": "added: BBC Latin America: Mass nesting brings swarms of turtles to Mexican beach",
+            "after": {
+              "title": "BBC Latin America: Mass nesting brings swarms of turtles to Mexican beach",
+              "link": "https://www.bbc.co.uk/news/videos/cm4gkvk7wzkpo?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/videos/cm4gkvk7wzkpo#2",
+              "author": null,
+              "published_at": "2026-09-15T01:08:55Z",
+              "updated_at": "2026-09-15T01:08:55Z",
+              "summary": "Thousands of turtles arrived at La Escobilla beach in Oaxaca within 48 hours, sanctuary officials said.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world/latin_america",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml"
+              },
+              "outlet": "BBC Latin America"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+            "elapsed_ms": 265,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^bbci\\\\.co\\\\.uk$\", \"BBC Latin America\")",
+                  "outlet=replace(outlet, \"^mercopress\\\\.com$\", \"MercoPress\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "latin-america-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/videos/cm4gkvk7wzkpo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "3dc6183ed1fef20a1c91",
+      "title": "BBC Latin America: Watch: Archaeologists discover ancient tomb in Peru",
+      "content_text": "The burial site of the ancient pre-Incan Chimu culture was found largely intact.",
+      "date_published": "2026-09-09T01:44:02Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "3dc6183ed1fef20a1c91",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/videos/c07lpd9dgzdo#2",
+          "source_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:03Z",
+          "data": {
+            "change": "added",
+            "label": "BBC Latin America: Watch: Archaeologists discover ancient tomb in Peru",
+            "item_type": "entry",
+            "summary": "added: BBC Latin America: Watch: Archaeologists discover ancient tomb in Peru",
+            "after": {
+              "title": "BBC Latin America: Watch: Archaeologists discover ancient tomb in Peru",
+              "link": "https://www.bbc.co.uk/news/videos/c07lpd9dgzdo?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/videos/c07lpd9dgzdo#2",
+              "author": null,
+              "published_at": "2026-09-09T01:44:02Z",
+              "updated_at": "2026-09-09T01:44:02Z",
+              "summary": "The burial site of the ancient pre-Incan Chimu culture was found largely intact.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world/latin_america",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml"
+              },
+              "outlet": "BBC Latin America"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+            "elapsed_ms": 265,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^bbci\\\\.co\\\\.uk$\", \"BBC Latin America\")",
+                  "outlet=replace(outlet, \"^mercopress\\\\.com$\", \"MercoPress\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "latin-america-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/videos/c07lpd9dgzdo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "f151768c5e8765672a6f",
+      "title": "BBC Latin America: Lucky toddler has a narrow escape after running into speeding traffic",
+      "content_text": "Security camera footage shows a supermarket employee racing into action as a toddler runs towards moving traffic in Puebla, Mexico.",
+      "date_published": "2026-09-08T13:48:16Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "f151768c5e8765672a6f",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/videos/cgqdn8n2kjyo#2",
+          "source_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:03Z",
+          "data": {
+            "change": "added",
+            "label": "BBC Latin America: Lucky toddler has a narrow escape after running into speeding traffic",
+            "item_type": "entry",
+            "summary": "added: BBC Latin America: Lucky toddler has a narrow escape after running into speeding traffic",
+            "after": {
+              "title": "BBC Latin America: Lucky toddler has a narrow escape after running into speeding traffic",
+              "link": "https://www.bbc.co.uk/news/videos/cgqdn8n2kjyo?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/videos/cgqdn8n2kjyo#2",
+              "author": null,
+              "published_at": "2026-09-08T13:48:16Z",
+              "updated_at": "2026-09-08T13:48:16Z",
+              "summary": "Security camera footage shows a supermarket employee racing into action as a toddler runs towards moving traffic in Puebla, Mexico.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world/latin_america",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml"
+              },
+              "outlet": "BBC Latin America"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+            "elapsed_ms": 265,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^bbci\\\\.co\\\\.uk$\", \"BBC Latin America\")",
+                  "outlet=replace(outlet, \"^mercopress\\\\.com$\", \"MercoPress\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "latin-america-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/videos/cgqdn8n2kjyo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "fc4bf1dd8c71791be1a5",
+      "title": "BBC Latin America: 'He was a lifeline' - Families at a loss after Haitian caregivers let go in US",
+      "content_text": "Haitian immigrants make up a large portion of the already overburdened home-care workforce.",
+      "date_published": "2026-09-06T00:17:05Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "fc4bf1dd8c71791be1a5",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/cg491zp13qqo#1",
+          "source_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:03Z",
+          "data": {
+            "change": "added",
+            "label": "BBC Latin America: 'He was a lifeline' - Families at a loss after Haitian caregivers let go in US",
+            "item_type": "entry",
+            "summary": "added: BBC Latin America: 'He was a lifeline' - Families at a loss after Haitian caregivers let go in US",
+            "after": {
+              "title": "BBC Latin America: 'He was a lifeline' - Families at a loss after Haitian caregivers let go in US",
+              "link": "https://www.bbc.co.uk/news/articles/cg491zp13qqo?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/cg491zp13qqo#1",
+              "author": null,
+              "published_at": "2026-09-06T00:17:05Z",
+              "updated_at": "2026-09-06T00:17:05Z",
+              "summary": "Haitian immigrants make up a large portion of the already overburdened home-care workforce.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world/latin_america",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml"
+              },
+              "outlet": "BBC Latin America"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+            "elapsed_ms": 265,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^bbci\\\\.co\\\\.uk$\", \"BBC Latin America\")",
+                  "outlet=replace(outlet, \"^mercopress\\\\.com$\", \"MercoPress\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "latin-america-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/cg491zp13qqo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "1cc41adfb58f2c2e0af0",
+      "title": "BBC Latin America: Trump's response is key as Argentina's Falklands demands get louder",
+      "content_text": "With Argentina's President Milei promising \"winds of change\" over the Falklands, will Donald Trump shift his stance on British rule?",
+      "date_published": "2026-09-05T06:20:04Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "1cc41adfb58f2c2e0af0",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/c980g0g7yyjo#1",
+          "source_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:03Z",
+          "data": {
+            "change": "added",
+            "label": "BBC Latin America: Trump's response is key as Argentina's Falklands demands get louder",
+            "item_type": "entry",
+            "summary": "added: BBC Latin America: Trump's response is key as Argentina's Falklands demands get louder",
+            "after": {
+              "title": "BBC Latin America: Trump's response is key as Argentina's Falklands demands get louder",
+              "link": "https://www.bbc.co.uk/news/articles/c980g0g7yyjo?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/c980g0g7yyjo#1",
+              "author": null,
+              "published_at": "2026-09-05T06:20:04Z",
+              "updated_at": "2026-09-05T06:20:04Z",
+              "summary": "With Argentina's President Milei promising \"winds of change\" over the Falklands, will Donald Trump shift his stance on British rule?",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world/latin_america",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml"
+              },
+              "outlet": "BBC Latin America"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+            "elapsed_ms": 265,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^bbci\\\\.co\\\\.uk$\", \"BBC Latin America\")",
+                  "outlet=replace(outlet, \"^mercopress\\\\.com$\", \"MercoPress\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "latin-america-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/c980g0g7yyjo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "a303c49a34759ad7faac",
+      "title": "BBC Latin America: UN warns of 'supersized' El Niño as countries prepare for impact",
+      "content_text": "The WMO has warned that the natural weather phenomenon could bring disruption to global economies.",
+      "date_published": "2026-09-03T06:01:54Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "a303c49a34759ad7faac",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/c17jqp0xzpzo#1",
+          "source_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:03Z",
+          "data": {
+            "change": "added",
+            "label": "BBC Latin America: UN warns of 'supersized' El Niño as countries prepare for impact",
+            "item_type": "entry",
+            "summary": "added: BBC Latin America: UN warns of 'supersized' El Niño as countries prepare for impact",
+            "after": {
+              "title": "BBC Latin America: UN warns of 'supersized' El Niño as countries prepare for impact",
+              "link": "https://www.bbc.co.uk/news/articles/c17jqp0xzpzo?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/c17jqp0xzpzo#1",
+              "author": null,
+              "published_at": "2026-09-03T06:01:54Z",
+              "updated_at": "2026-09-03T06:01:54Z",
+              "summary": "The WMO has warned that the natural weather phenomenon could bring disruption to global economies.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world/latin_america",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml"
+              },
+              "outlet": "BBC Latin America"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+            "elapsed_ms": 265,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^bbci\\\\.co\\\\.uk$\", \"BBC Latin America\")",
+                  "outlet=replace(outlet, \"^mercopress\\\\.com$\", \"MercoPress\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "latin-america-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/c17jqp0xzpzo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "5b0f3a0e18e8c58594b8",
+      "title": "BBC Latin America: Who is Alejandro Betancourt, colourful oil baron behind US-Venezuela oil deal?",
+      "content_text": "The 46-year-old figure of international intrigue has an apparent knack for being in the right place at the right time.",
+      "date_published": "2026-09-02T23:53:28Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "5b0f3a0e18e8c58594b8",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/cyvze0n4vy1o#1",
+          "source_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:03Z",
+          "data": {
+            "change": "added",
+            "label": "BBC Latin America: Who is Alejandro Betancourt, colourful oil baron behind US-Venezuela oil deal?",
+            "item_type": "entry",
+            "summary": "added: BBC Latin America: Who is Alejandro Betancourt, colourful oil baron behind US-Venezuela oil deal?",
+            "after": {
+              "title": "BBC Latin America: Who is Alejandro Betancourt, colourful oil baron behind US-Venezuela oil deal?",
+              "link": "https://www.bbc.co.uk/news/articles/cyvze0n4vy1o?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/cyvze0n4vy1o#1",
+              "author": null,
+              "published_at": "2026-09-02T23:53:28Z",
+              "updated_at": "2026-09-02T23:53:28Z",
+              "summary": "The 46-year-old figure of international intrigue has an apparent knack for being in the right place at the right time.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world/latin_america",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml"
+              },
+              "outlet": "BBC Latin America"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/latin_america/rss.xml",
+            "elapsed_ms": 265,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^bbci\\\\.co\\\\.uk$\", \"BBC Latin America\")",
+                  "outlet=replace(outlet, \"^mercopress\\\\.com$\", \"MercoPress\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "latin-america-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/cyvze0n4vy1o?at_medium=RSS&at_campaign=rss"
+    }
+  ]
+}

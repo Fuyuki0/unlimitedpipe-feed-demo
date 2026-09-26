@@ -1,0 +1,2087 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "SEC press releases",
+  "home_page_url": "https://www.sec.gov/newsroom/press-releases",
+  "description": "Events collected by UnlimitedPipe 0.9.1",
+  "_unlimitedpipe": {
+    "schema": "unlimitedpipe.event/1",
+    "generator": "UnlimitedPipe 0.9.1"
+  },
+  "items": [
+    {
+      "id": "27790a5ff69fe316e22b",
+      "title": "SEC Publishes Updated Market Statistics, Highlighting Increase in IPOs and Proceeds Raised",
+      "content_text": "The Securities and Exchange Commission’s Division of Economic and Risk Analysis (DERA) published updated statistics and data visualizations covering key segments of the U.S. capital markets, including a notable increase in the number of initial public…",
+      "date_published": "2026-09-23T18:27:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "27790a5ff69fe316e22b",
+          "source": "rss",
+          "type": "change",
+          "key": "fb47e924-a7a1-41a4-92c3-a177cb83af75",
+          "source_url": "https://www.sec.gov/news/pressreleases.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:59Z",
+          "data": {
+            "change": "added",
+            "label": "SEC Publishes Updated Market Statistics, Highlighting Increase in IPOs and Proceeds Raised",
+            "item_type": "entry",
+            "summary": "added: SEC Publishes Updated Market Statistics, Highlighting Increase in IPOs and Proceeds Raised",
+            "after": {
+              "title": "SEC Publishes Updated Market Statistics, Highlighting Increase in IPOs and Proceeds Raised",
+              "link": "https://www.sec.gov/newsroom/press-releases/2026-93-sec-publishes-updated-market-statistics-highlighting-increase-ipos-proceeds-raised",
+              "id": "fb47e924-a7a1-41a4-92c3-a177cb83af75",
+              "author": "",
+              "published_at": "2026-09-23T18:27:00Z",
+              "updated_at": "2026-09-23T18:27:00Z",
+              "summary": "The Securities and Exchange Commission’s Division of Economic and Risk Analysis (DERA) published updated statistics and data visualizations covering key segments of the U.S. capital markets, including a notable increase in the number of initial public…",
+              "categories": [],
+              "feed": {
+                "title": "Press Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/news/pressreleases.rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/news/pressreleases.rss",
+            "elapsed_ms": 78,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-press-releases",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-93-sec-publishes-updated-market-statistics-highlighting-increase-ipos-proceeds-raised"
+    },
+    {
+      "id": "ad162464413c2994c4b4",
+      "title": "SEC Charges South Florida Resident and His Company for Alleged Investment Scheme Defrauding Law Enforcement",
+      "content_text": "The Securities and Exchange Commission today charged CMI Capital LLC and its founder and manager, Michael D. Williams, for an alleged fraudulent investment scheme that raised approximately $860,000 from at least 18 investors, many of whom are current or…",
+      "date_published": "2026-09-23T16:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ad162464413c2994c4b4",
+          "source": "rss",
+          "type": "change",
+          "key": "6cc659ac-93f2-4e3b-87d1-ebfbb4f2421f",
+          "source_url": "https://www.sec.gov/news/pressreleases.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:59Z",
+          "data": {
+            "change": "added",
+            "label": "SEC Charges South Florida Resident and His Company for Alleged Investment Scheme Defrauding Law Enforcement",
+            "item_type": "entry",
+            "summary": "added: SEC Charges South Florida Resident and His Company for Alleged Investment Scheme Defrauding Law Enforcement",
+            "after": {
+              "title": "SEC Charges South Florida Resident and His Company for Alleged Investment Scheme Defrauding Law Enforcement",
+              "link": "https://www.sec.gov/newsroom/press-releases/2026-92-sec-charges-south-florida-resident-his-company-alleged-investment-scheme-defrauding-law-enforcement",
+              "id": "6cc659ac-93f2-4e3b-87d1-ebfbb4f2421f",
+              "author": "",
+              "published_at": "2026-09-23T16:00:00Z",
+              "updated_at": "2026-09-23T16:00:00Z",
+              "summary": "The Securities and Exchange Commission today charged CMI Capital LLC and its founder and manager, Michael D. Williams, for an alleged fraudulent investment scheme that raised approximately $860,000 from at least 18 investors, many of whom are current or…",
+              "categories": [],
+              "feed": {
+                "title": "Press Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/news/pressreleases.rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/news/pressreleases.rss",
+            "elapsed_ms": 78,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-press-releases",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-92-sec-charges-south-florida-resident-his-company-alleged-investment-scheme-defrauding-law-enforcement"
+    },
+    {
+      "id": "56830570c7b77ee79b77",
+      "title": "SEC Censures OTC Link LLC for Repeated Compliance Failures Related to Regulation SCI",
+      "content_text": "The Securities and Exchange Commission today censured New York-based broker dealer OTC Link LLC and ordered it to pay a $575,000 civil penalty for longstanding violations of Regulation Systems Compliance and Integrity (SCI).According to the SEC’s settled…",
+      "date_published": "2026-09-22T16:41:11Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "56830570c7b77ee79b77",
+          "source": "rss",
+          "type": "change",
+          "key": "18593a6f-56eb-420e-9422-c536d03eaae1",
+          "source_url": "https://www.sec.gov/news/pressreleases.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:59Z",
+          "data": {
+            "change": "added",
+            "label": "SEC Censures OTC Link LLC for Repeated Compliance Failures Related to Regulation SCI",
+            "item_type": "entry",
+            "summary": "added: SEC Censures OTC Link LLC for Repeated Compliance Failures Related to Regulation SCI",
+            "after": {
+              "title": "SEC Censures OTC Link LLC for Repeated Compliance Failures Related to Regulation SCI",
+              "link": "https://www.sec.gov/newsroom/press-releases/2026-91-sec-censures-otc-link-llc-repeated-compliance-failures-related-regulation-sci",
+              "id": "18593a6f-56eb-420e-9422-c536d03eaae1",
+              "author": "",
+              "published_at": "2026-09-22T16:41:11Z",
+              "updated_at": "2026-09-22T16:41:11Z",
+              "summary": "The Securities and Exchange Commission today censured New York-based broker dealer OTC Link LLC and ordered it to pay a $575,000 civil penalty for longstanding violations of Regulation Systems Compliance and Integrity (SCI).According to the SEC’s settled…",
+              "categories": [],
+              "feed": {
+                "title": "Press Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/news/pressreleases.rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/news/pressreleases.rss",
+            "elapsed_ms": 78,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-press-releases",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-91-sec-censures-otc-link-llc-repeated-compliance-failures-related-regulation-sci"
+    },
+    {
+      "id": "6fcc097e2da43ea684f6",
+      "title": "SEC Issues “Innovation Exemption” to Facilitate the Trading of Tokenized NMS Stock and Request for Comment",
+      "content_text": "The SEC is taking a significant step forward, within its statutory authority, to bring America’s capital markets into the digital age by facilitating onchain trading of certain tokenized stocks.",
+      "date_published": "2026-09-17T12:55:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "6fcc097e2da43ea684f6",
+          "source": "rss",
+          "type": "change",
+          "key": "29d9b3fa-0eed-432e-850c-0978c0f4c49b",
+          "source_url": "https://www.sec.gov/news/pressreleases.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:59Z",
+          "data": {
+            "change": "added",
+            "label": "SEC Issues “Innovation Exemption” to Facilitate the Trading of Tokenized NMS Stock and Request for Comment",
+            "item_type": "entry",
+            "summary": "added: SEC Issues “Innovation Exemption” to Facilitate the Trading of Tokenized NMS Stock and Request for Comment",
+            "after": {
+              "title": "SEC Issues “Innovation Exemption” to Facilitate the Trading of Tokenized NMS Stock and Request for Comment",
+              "link": "https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment",
+              "id": "29d9b3fa-0eed-432e-850c-0978c0f4c49b",
+              "author": "",
+              "published_at": "2026-09-17T12:55:00Z",
+              "updated_at": "2026-09-17T12:55:00Z",
+              "summary": "The SEC is taking a significant step forward, within its statutory authority, to bring America’s capital markets into the digital age by facilitating onchain trading of certain tokenized stocks.",
+              "categories": [],
+              "feed": {
+                "title": "Press Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/news/pressreleases.rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/news/pressreleases.rss",
+            "elapsed_ms": 78,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-press-releases",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment"
+    },
+    {
+      "id": "a9d1576ad1c0176847f8",
+      "title": "SEC Proposes Rescission of Shareholder Proposal Rule and Reforms to Proxy Solicitation Process",
+      "content_text": "The Securities and Exchange Commission today proposed to rescind Rule 14a-8 under the Securities Exchange Act of 1934, which exceeds the scope of the Commission's statutory authority and intrudes into matters of state law.The Commission outlined…",
+      "date_published": "2026-09-16T14:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "a9d1576ad1c0176847f8",
+          "source": "rss",
+          "type": "change",
+          "key": "b3074906-964e-4cc4-81f3-1162a1036f7e",
+          "source_url": "https://www.sec.gov/news/pressreleases.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:59Z",
+          "data": {
+            "change": "added",
+            "label": "SEC Proposes Rescission of Shareholder Proposal Rule and Reforms to Proxy Solicitation Process",
+            "item_type": "entry",
+            "summary": "added: SEC Proposes Rescission of Shareholder Proposal Rule and Reforms to Proxy Solicitation Process",
+            "after": {
+              "title": "SEC Proposes Rescission of Shareholder Proposal Rule and Reforms to Proxy Solicitation Process",
+              "link": "https://www.sec.gov/newsroom/press-releases/2026-89-sec-proposes-rescission-shareholder-proposal-rule-reforms-proxy-solicitation-process",
+              "id": "b3074906-964e-4cc4-81f3-1162a1036f7e",
+              "author": "",
+              "published_at": "2026-09-16T14:00:00Z",
+              "updated_at": "2026-09-16T14:00:00Z",
+              "summary": "The Securities and Exchange Commission today proposed to rescind Rule 14a-8 under the Securities Exchange Act of 1934, which exceeds the scope of the Commission's statutory authority and intrudes into matters of state law.The Commission outlined…",
+              "categories": [],
+              "feed": {
+                "title": "Press Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/news/pressreleases.rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/news/pressreleases.rss",
+            "elapsed_ms": 78,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-press-releases",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-89-sec-proposes-rescission-shareholder-proposal-rule-reforms-proxy-solicitation-process"
+    },
+    {
+      "id": "1ad4967833b1434a0964",
+      "title": "SEC Grants Exemptive Relief from Certain Inline XBRL Filing or Submission Requirements",
+      "content_text": "The Securities and Exchange Commission issued an order granting exemptive relief from certain Inline XBRL requirements adopted on Dec. 16, 2024. More specifically, the Commission is granting exemptive relief from filing or submitting the following in…",
+      "date_published": "2026-09-14T16:47:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "1ad4967833b1434a0964",
+          "source": "rss",
+          "type": "change",
+          "key": "e311a18a-b7e8-4bad-8c06-c8e60e484bcc",
+          "source_url": "https://www.sec.gov/news/pressreleases.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:59Z",
+          "data": {
+            "change": "added",
+            "label": "SEC Grants Exemptive Relief from Certain Inline XBRL Filing or Submission Requirements",
+            "item_type": "entry",
+            "summary": "added: SEC Grants Exemptive Relief from Certain Inline XBRL Filing or Submission Requirements",
+            "after": {
+              "title": "SEC Grants Exemptive Relief from Certain Inline XBRL Filing or Submission Requirements",
+              "link": "https://www.sec.gov/newsroom/press-releases/2026-88-sec-grants-exemptive-relief-certain-inline-xbrl-filing-or-submission-requirements",
+              "id": "e311a18a-b7e8-4bad-8c06-c8e60e484bcc",
+              "author": "",
+              "published_at": "2026-09-14T16:47:00Z",
+              "updated_at": "2026-09-14T16:47:00Z",
+              "summary": "The Securities and Exchange Commission issued an order granting exemptive relief from certain Inline XBRL requirements adopted on Dec. 16, 2024. More specifically, the Commission is granting exemptive relief from filing or submitting the following in…",
+              "categories": [],
+              "feed": {
+                "title": "Press Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/news/pressreleases.rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/news/pressreleases.rss",
+            "elapsed_ms": 78,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-press-releases",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-88-sec-grants-exemptive-relief-certain-inline-xbrl-filing-or-submission-requirements"
+    },
+    {
+      "id": "5ef95ad92f45273a6dc7",
+      "title": "Joint Readout of Principals’ Meeting of U.S. and UK Authorities Regarding Central Counterparty Resolution",
+      "content_text": "Senior officials from the Securities and Exchange Commission, Federal Deposit Insurance Corporation, Commodity Futures Trading Commission, Federal Reserve Board, and Bank of England convened for a tabletop exercise on Sept. 3, 2026, to discuss certain…",
+      "date_published": "2026-09-11T15:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "5ef95ad92f45273a6dc7",
+          "source": "rss",
+          "type": "change",
+          "key": "937571b2-423b-4228-905f-4034e7af3766",
+          "source_url": "https://www.sec.gov/news/pressreleases.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:59Z",
+          "data": {
+            "change": "added",
+            "label": "Joint Readout of Principals’ Meeting of U.S. and UK Authorities Regarding Central Counterparty Resolution",
+            "item_type": "entry",
+            "summary": "added: Joint Readout of Principals’ Meeting of U.S. and UK Authorities Regarding Central Counterparty Resolution",
+            "after": {
+              "title": "Joint Readout of Principals’ Meeting of U.S. and UK Authorities Regarding Central Counterparty Resolution",
+              "link": "https://www.sec.gov/newsroom/press-releases/2026-87-joint-readout-principals-meeting-us-uk-authorities-regarding-central-counterparty-resolution",
+              "id": "937571b2-423b-4228-905f-4034e7af3766",
+              "author": "",
+              "published_at": "2026-09-11T15:00:00Z",
+              "updated_at": "2026-09-11T15:00:00Z",
+              "summary": "Senior officials from the Securities and Exchange Commission, Federal Deposit Insurance Corporation, Commodity Futures Trading Commission, Federal Reserve Board, and Bank of England convened for a tabletop exercise on Sept. 3, 2026, to discuss certain…",
+              "categories": [],
+              "feed": {
+                "title": "Press Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/news/pressreleases.rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/news/pressreleases.rss",
+            "elapsed_ms": 78,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-press-releases",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-87-joint-readout-principals-meeting-us-uk-authorities-regarding-central-counterparty-resolution"
+    },
+    {
+      "id": "27c30dd33e5b9220ed5c",
+      "title": "SEC Charges Founder and His Two New Jersey-Based Companies in Alleged $16 Million Ponzi Scheme",
+      "content_text": "The Securities and Exchange Commission today charged Ernest Ossei Boateng and two New Jersey-based companies he controls, Intercontinental Wealth Network LLC and I Wealth Network LP, for allegedly raising approximately $16 million from more than 200…",
+      "date_published": "2026-09-10T17:45:22Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "27c30dd33e5b9220ed5c",
+          "source": "rss",
+          "type": "change",
+          "key": "c2889ff5-77c4-4858-b5ae-e2b94d15998e",
+          "source_url": "https://www.sec.gov/news/pressreleases.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:59Z",
+          "data": {
+            "change": "added",
+            "label": "SEC Charges Founder and His Two New Jersey-Based Companies in Alleged $16 Million Ponzi Scheme",
+            "item_type": "entry",
+            "summary": "added: SEC Charges Founder and His Two New Jersey-Based Companies in Alleged $16 Million Ponzi Scheme",
+            "after": {
+              "title": "SEC Charges Founder and His Two New Jersey-Based Companies in Alleged $16 Million Ponzi Scheme",
+              "link": "https://www.sec.gov/newsroom/press-releases/2026-86-sec-charges-founder-his-two-new-jersey-based-companies-alleged-16-million-ponzi-scheme",
+              "id": "c2889ff5-77c4-4858-b5ae-e2b94d15998e",
+              "author": "",
+              "published_at": "2026-09-10T17:45:22Z",
+              "updated_at": "2026-09-10T17:45:22Z",
+              "summary": "The Securities and Exchange Commission today charged Ernest Ossei Boateng and two New Jersey-based companies he controls, Intercontinental Wealth Network LLC and I Wealth Network LP, for allegedly raising approximately $16 million from more than 200…",
+              "categories": [],
+              "feed": {
+                "title": "Press Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/news/pressreleases.rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/news/pressreleases.rss",
+            "elapsed_ms": 78,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-press-releases",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-86-sec-charges-founder-his-two-new-jersey-based-companies-alleged-16-million-ponzi-scheme"
+    },
+    {
+      "id": "40a0f0b85044168db922",
+      "title": "SEC Proposes Rescission of Political Contribution Rule for Investment Advisers",
+      "content_text": "The Securities and Exchange Commission today issued a proposal to rescind its “pay-to-play” rule that prohibits investment advisers from providing compensated investment advisory services to a government client for two years…",
+      "date_published": "2026-09-03T20:30:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "40a0f0b85044168db922",
+          "source": "rss",
+          "type": "change",
+          "key": "06cec215-1a77-4ef5-826d-4a0a23404513",
+          "source_url": "https://www.sec.gov/news/pressreleases.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:59Z",
+          "data": {
+            "change": "added",
+            "label": "SEC Proposes Rescission of Political Contribution Rule for Investment Advisers",
+            "item_type": "entry",
+            "summary": "added: SEC Proposes Rescission of Political Contribution Rule for Investment Advisers",
+            "after": {
+              "title": "SEC Proposes Rescission of Political Contribution Rule for Investment Advisers",
+              "link": "https://www.sec.gov/newsroom/press-releases/2026-85-sec-proposes-rescission-political-contribution-rule-investment-advisers",
+              "id": "06cec215-1a77-4ef5-826d-4a0a23404513",
+              "author": "",
+              "published_at": "2026-09-03T20:30:00Z",
+              "updated_at": "2026-09-03T20:30:00Z",
+              "summary": "The Securities and Exchange Commission today issued a proposal to rescind its “pay-to-play” rule that prohibits investment advisers from providing compensated investment advisory services to a government client for two years…",
+              "categories": [],
+              "feed": {
+                "title": "Press Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/news/pressreleases.rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/news/pressreleases.rss",
+            "elapsed_ms": 78,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-press-releases",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-85-sec-proposes-rescission-political-contribution-rule-investment-advisers"
+    },
+    {
+      "id": "e24dd67f39e82086fc64",
+      "title": "SEC Investor Advisory Committee to Host Sept. 10 Meeting",
+      "content_text": "The Securities and Exchange Commission’s Investor Advisory Committee will host a public meeting at the SEC Headquarters in Washington D.C. on Sept. 10 at 10 a.m. ET to discuss artificial intelligence technologies in the public markets and the SEC’s…",
+      "date_published": "2026-09-03T14:27:49Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "e24dd67f39e82086fc64",
+          "source": "rss",
+          "type": "change",
+          "key": "7b964f5e-d7e8-41ff-9d1a-c1bf94e8ca11",
+          "source_url": "https://www.sec.gov/news/pressreleases.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:59Z",
+          "data": {
+            "change": "added",
+            "label": "SEC Investor Advisory Committee to Host Sept. 10 Meeting",
+            "item_type": "entry",
+            "summary": "added: SEC Investor Advisory Committee to Host Sept. 10 Meeting",
+            "after": {
+              "title": "SEC Investor Advisory Committee to Host Sept. 10 Meeting",
+              "link": "https://www.sec.gov/newsroom/press-releases/2026-84-sec-investor-advisory-committee-host-sept-10-meeting",
+              "id": "7b964f5e-d7e8-41ff-9d1a-c1bf94e8ca11",
+              "author": "",
+              "published_at": "2026-09-03T14:27:49Z",
+              "updated_at": "2026-09-03T14:27:49Z",
+              "summary": "The Securities and Exchange Commission’s Investor Advisory Committee will host a public meeting at the SEC Headquarters in Washington D.C. on Sept. 10 at 10 a.m. ET to discuss artificial intelligence technologies in the public markets and the SEC’s…",
+              "categories": [],
+              "feed": {
+                "title": "Press Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/news/pressreleases.rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/news/pressreleases.rss",
+            "elapsed_ms": 78,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-press-releases",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-84-sec-investor-advisory-committee-host-sept-10-meeting"
+    },
+    {
+      "id": "1497f92395e7c7b7ddda",
+      "title": "SEC Announces Agenda and Panelists for Roundtable on Preparations for 24-Hour Trading",
+      "content_text": "The Securities and Exchange Commission today announced the agenda and panelists for its Sept. 17, 2026, roundtable on preparations for 24-hour trading.The roundtable will be held at the SEC’s headquarters at 100 F Street, N.E., Washington, D.C., from 10…",
+      "date_published": "2026-09-01T19:17:39Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "1497f92395e7c7b7ddda",
+          "source": "rss",
+          "type": "change",
+          "key": "520b1092-2fa4-4ecd-ac8c-f5b43146f5bf",
+          "source_url": "https://www.sec.gov/news/pressreleases.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:59Z",
+          "data": {
+            "change": "added",
+            "label": "SEC Announces Agenda and Panelists for Roundtable on Preparations for 24-Hour Trading",
+            "item_type": "entry",
+            "summary": "added: SEC Announces Agenda and Panelists for Roundtable on Preparations for 24-Hour Trading",
+            "after": {
+              "title": "SEC Announces Agenda and Panelists for Roundtable on Preparations for 24-Hour Trading",
+              "link": "https://www.sec.gov/newsroom/press-releases/2026-83-sec-announces-agenda-panelists-roundtable-preparations-24-hour-trading",
+              "id": "520b1092-2fa4-4ecd-ac8c-f5b43146f5bf",
+              "author": "",
+              "published_at": "2026-09-01T19:17:39Z",
+              "updated_at": "2026-09-01T19:17:39Z",
+              "summary": "The Securities and Exchange Commission today announced the agenda and panelists for its Sept. 17, 2026, roundtable on preparations for 24-hour trading.The roundtable will be held at the SEC’s headquarters at 100 F Street, N.E., Washington, D.C., from 10…",
+              "categories": [],
+              "feed": {
+                "title": "Press Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/news/pressreleases.rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/news/pressreleases.rss",
+            "elapsed_ms": 78,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-press-releases",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-83-sec-announces-agenda-panelists-roundtable-preparations-24-hour-trading"
+    },
+    {
+      "id": "29813d4e6ba2797086ae",
+      "title": "SEC Charges San Francisco Bay Area Private Fund Executives with Multimillion Dollar Ponzi-Like Scheme",
+      "content_text": "The Securities and Exchange Commission today charged Mark D. Hanf, the former CEO of Novato, California-based Pacific Private Money Group LLC (PPMG), and Hoai-Nam Chu Phan, the former COO of a PPMG subsidiary, with orchestrating an offering fraud that…",
+      "date_published": "2026-09-01T17:52:32Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "29813d4e6ba2797086ae",
+          "source": "rss",
+          "type": "change",
+          "key": "d5092649-bd5b-4cff-bc37-a0f18d33a1f1",
+          "source_url": "https://www.sec.gov/news/pressreleases.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:59Z",
+          "data": {
+            "change": "added",
+            "label": "SEC Charges San Francisco Bay Area Private Fund Executives with Multimillion Dollar Ponzi-Like Scheme",
+            "item_type": "entry",
+            "summary": "added: SEC Charges San Francisco Bay Area Private Fund Executives with Multimillion Dollar Ponzi-Like Scheme",
+            "after": {
+              "title": "SEC Charges San Francisco Bay Area Private Fund Executives with Multimillion Dollar Ponzi-Like Scheme",
+              "link": "https://www.sec.gov/newsroom/press-releases/2026-82-sec-charges-san-francisco-bay-area-private-fund-executives-multimillion-dollar-ponzi-scheme",
+              "id": "d5092649-bd5b-4cff-bc37-a0f18d33a1f1",
+              "author": "",
+              "published_at": "2026-09-01T17:52:32Z",
+              "updated_at": "2026-09-01T17:52:32Z",
+              "summary": "The Securities and Exchange Commission today charged Mark D. Hanf, the former CEO of Novato, California-based Pacific Private Money Group LLC (PPMG), and Hoai-Nam Chu Phan, the former COO of a PPMG subsidiary, with orchestrating an offering fraud that…",
+              "categories": [],
+              "feed": {
+                "title": "Press Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/news/pressreleases.rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/news/pressreleases.rss",
+            "elapsed_ms": 78,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-press-releases",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-82-sec-charges-san-francisco-bay-area-private-fund-executives-multimillion-dollar-ponzi-scheme"
+    },
+    {
+      "id": "0132bf78e9e66ee810ba",
+      "title": "SEC Proposes to Modernize Rules for Registered Transfer Agents",
+      "content_text": "The Securities and Exchange Commission today proposed to update the rules and forms that apply to registered transfer agents.Transfer agents are a key component of the national clearance and settlement system. Transfer agents now perform a more diverse…",
+      "date_published": "2026-09-01T14:57:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "0132bf78e9e66ee810ba",
+          "source": "rss",
+          "type": "change",
+          "key": "2c8c18a5-7b57-4306-80fe-0ec46fdc9309",
+          "source_url": "https://www.sec.gov/news/pressreleases.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:59Z",
+          "data": {
+            "change": "added",
+            "label": "SEC Proposes to Modernize Rules for Registered Transfer Agents",
+            "item_type": "entry",
+            "summary": "added: SEC Proposes to Modernize Rules for Registered Transfer Agents",
+            "after": {
+              "title": "SEC Proposes to Modernize Rules for Registered Transfer Agents",
+              "link": "https://www.sec.gov/newsroom/press-releases/2026-81-sec-proposes-modernize-rules-registered-transfer-agents",
+              "id": "2c8c18a5-7b57-4306-80fe-0ec46fdc9309",
+              "author": "",
+              "published_at": "2026-09-01T14:57:00Z",
+              "updated_at": "2026-09-01T14:57:00Z",
+              "summary": "The Securities and Exchange Commission today proposed to update the rules and forms that apply to registered transfer agents.Transfer agents are a key component of the national clearance and settlement system. Transfer agents now perform a more diverse…",
+              "categories": [],
+              "feed": {
+                "title": "Press Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/news/pressreleases.rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/news/pressreleases.rss",
+            "elapsed_ms": 78,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-press-releases",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-81-sec-proposes-modernize-rules-registered-transfer-agents"
+    },
+    {
+      "id": "8bafed1eade8a5635d22",
+      "title": "SEC and FDA Announce MOU to Bolster Cooperation and Ensure Market Integrity",
+      "content_text": "The Securities and Exchange Commission and the Food and Drug Administration today announced that they have entered into a Memorandum of Understanding (MOU) designed to assist the agencies in carrying out their respective missions of ensuring the…",
+      "date_published": "2026-08-31T18:24:32Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "8bafed1eade8a5635d22",
+          "source": "rss",
+          "type": "change",
+          "key": "1942e114-32dd-492b-b092-3ee2d71324bd",
+          "source_url": "https://www.sec.gov/news/pressreleases.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:59Z",
+          "data": {
+            "change": "added",
+            "label": "SEC and FDA Announce MOU to Bolster Cooperation and Ensure Market Integrity",
+            "item_type": "entry",
+            "summary": "added: SEC and FDA Announce MOU to Bolster Cooperation and Ensure Market Integrity",
+            "after": {
+              "title": "SEC and FDA Announce MOU to Bolster Cooperation and Ensure Market Integrity",
+              "link": "https://www.sec.gov/newsroom/press-releases/2026-80-sec-fda-announce-mou-bolster-cooperation-ensure-market-integrity",
+              "id": "1942e114-32dd-492b-b092-3ee2d71324bd",
+              "author": "",
+              "published_at": "2026-08-31T18:24:32Z",
+              "updated_at": "2026-08-31T18:24:32Z",
+              "summary": "The Securities and Exchange Commission and the Food and Drug Administration today announced that they have entered into a Memorandum of Understanding (MOU) designed to assist the agencies in carrying out their respective missions of ensuring the…",
+              "categories": [],
+              "feed": {
+                "title": "Press Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/news/pressreleases.rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/news/pressreleases.rss",
+            "elapsed_ms": 78,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-press-releases",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-80-sec-fda-announce-mou-bolster-cooperation-ensure-market-integrity"
+    },
+    {
+      "id": "6c8befad36e7ce3e04be",
+      "title": "SEC Proposes Amendments to Exchange Act Rule 3a12-8 to Add European Union Debt Obligations",
+      "content_text": "The Securities and Exchange Commission today proposed amendments to Rule 3a12-8 under the Securities Exchange Act of 1934 to add the debt obligations of the European Union (EU) to the list of foreign government debt obligations designated as \"exempted…",
+      "date_published": "2026-08-28T17:33:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "6c8befad36e7ce3e04be",
+          "source": "rss",
+          "type": "change",
+          "key": "82191acc-5985-4b1a-96c4-6508f92ec06c",
+          "source_url": "https://www.sec.gov/news/pressreleases.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:59Z",
+          "data": {
+            "change": "added",
+            "label": "SEC Proposes Amendments to Exchange Act Rule 3a12-8 to Add European Union Debt Obligations",
+            "item_type": "entry",
+            "summary": "added: SEC Proposes Amendments to Exchange Act Rule 3a12-8 to Add European Union Debt Obligations",
+            "after": {
+              "title": "SEC Proposes Amendments to Exchange Act Rule 3a12-8 to Add European Union Debt Obligations",
+              "link": "https://www.sec.gov/newsroom/press-releases/2026-79-sec-proposes-amendments-exchange-act-rule-3a12-8-add-european-union-debt-obligations",
+              "id": "82191acc-5985-4b1a-96c4-6508f92ec06c",
+              "author": "",
+              "published_at": "2026-08-28T17:33:00Z",
+              "updated_at": "2026-08-28T17:33:00Z",
+              "summary": "The Securities and Exchange Commission today proposed amendments to Rule 3a12-8 under the Securities Exchange Act of 1934 to add the debt obligations of the European Union (EU) to the list of foreign government debt obligations designated as \"exempted…",
+              "categories": [],
+              "feed": {
+                "title": "Press Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/news/pressreleases.rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/news/pressreleases.rss",
+            "elapsed_ms": 78,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-press-releases",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-79-sec-proposes-amendments-exchange-act-rule-3a12-8-add-european-union-debt-obligations"
+    },
+    {
+      "id": "159cdaf2fa78135861c3",
+      "title": "SEC: 38 Entities Feigned Legitimacy as U.S. Advisers Through False Filings to Lure Retail Investors",
+      "content_text": "The Securities and Exchange Commission today charged 38 entities alleging that they made material misrepresentations in Forms ADV filed with the Commission between 2025 and 2026 to falsely portray themselves as legitimate advisory firms to U.S. investors…",
+      "date_published": "2026-08-27T21:30:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "159cdaf2fa78135861c3",
+          "source": "rss",
+          "type": "change",
+          "key": "9659dd0c-acc8-4f5d-adc3-2c2f245209cd",
+          "source_url": "https://www.sec.gov/news/pressreleases.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:59Z",
+          "data": {
+            "change": "added",
+            "label": "SEC: 38 Entities Feigned Legitimacy as U.S. Advisers Through False Filings to Lure Retail Investors",
+            "item_type": "entry",
+            "summary": "added: SEC: 38 Entities Feigned Legitimacy as U.S. Advisers Through False Filings to Lure Retail Investors",
+            "after": {
+              "title": "SEC: 38 Entities Feigned Legitimacy as U.S. Advisers Through False Filings to Lure Retail Investors",
+              "link": "https://www.sec.gov/newsroom/press-releases/2026-78-sec-38-entities-feigned-legitimacy-us-advisers-through-false-filings-lure-retail-investors",
+              "id": "9659dd0c-acc8-4f5d-adc3-2c2f245209cd",
+              "author": "",
+              "published_at": "2026-08-27T21:30:00Z",
+              "updated_at": "2026-08-27T21:30:00Z",
+              "summary": "The Securities and Exchange Commission today charged 38 entities alleging that they made material misrepresentations in Forms ADV filed with the Commission between 2025 and 2026 to falsely portray themselves as legitimate advisory firms to U.S. investors…",
+              "categories": [],
+              "feed": {
+                "title": "Press Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/news/pressreleases.rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/news/pressreleases.rss",
+            "elapsed_ms": 78,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-press-releases",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-78-sec-38-entities-feigned-legitimacy-us-advisers-through-false-filings-lure-retail-investors"
+    },
+    {
+      "id": "97cd27e9352aedfd50b7",
+      "title": "SEC Charges Former Executives With Fraud in Connection With $1.9 Billion Collapse of Subprime Auto Lender Tricolor",
+      "content_text": "The Securities and Exchange Commission today charged Daniel Chu, Jerome Kollar, and Ameryn Seibold, the former CEO, CFO, and Senior Director of Finance, respectively, at Texas-based Tricolor Holdings, LLC, for their roles in an alleged multi-year scheme…",
+      "date_published": "2026-08-18T19:55:10Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "97cd27e9352aedfd50b7",
+          "source": "rss",
+          "type": "change",
+          "key": "5ee7718e-9046-432f-ad1f-48d1dd52366f",
+          "source_url": "https://www.sec.gov/news/pressreleases.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:59Z",
+          "data": {
+            "change": "added",
+            "label": "SEC Charges Former Executives With Fraud in Connection With $1.9 Billion Collapse of Subprime Auto Lender Tricolor",
+            "item_type": "entry",
+            "summary": "added: SEC Charges Former Executives With Fraud in Connection With $1.9 Billion Collapse of Subprime Auto Lender Tricolor",
+            "after": {
+              "title": "SEC Charges Former Executives With Fraud in Connection With $1.9 Billion Collapse of Subprime Auto Lender Tricolor",
+              "link": "https://www.sec.gov/newsroom/press-releases/2026-77-sec-charges-former-executives-fraud-connection-19-billion-collapse-subprime-auto-lender-tricolor",
+              "id": "5ee7718e-9046-432f-ad1f-48d1dd52366f",
+              "author": "",
+              "published_at": "2026-08-18T19:55:10Z",
+              "updated_at": "2026-08-18T19:55:10Z",
+              "summary": "The Securities and Exchange Commission today charged Daniel Chu, Jerome Kollar, and Ameryn Seibold, the former CEO, CFO, and Senior Director of Finance, respectively, at Texas-based Tricolor Holdings, LLC, for their roles in an alleged multi-year scheme…",
+              "categories": [],
+              "feed": {
+                "title": "Press Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/news/pressreleases.rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/news/pressreleases.rss",
+            "elapsed_ms": 78,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-press-releases",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-77-sec-charges-former-executives-fraud-connection-19-billion-collapse-subprime-auto-lender-tricolor"
+    },
+    {
+      "id": "f289bbc28d00b51b3b79",
+      "title": "SEC Proposes New Regulation Crypto Assets",
+      "content_text": "The Securities and Exchange Commission today announced that it proposed new rules, titled “Regulation Crypto Assets,” that would create a clear and fit-for-purpose framework for certain investment contracts involving crypto assets. This proposal follows…",
+      "date_published": "2026-08-18T17:15:48Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "f289bbc28d00b51b3b79",
+          "source": "rss",
+          "type": "change",
+          "key": "e1c1d2d7-1743-4e9a-8857-9a03028b7fb0",
+          "source_url": "https://www.sec.gov/news/pressreleases.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:59Z",
+          "data": {
+            "change": "added",
+            "label": "SEC Proposes New Regulation Crypto Assets",
+            "item_type": "entry",
+            "summary": "added: SEC Proposes New Regulation Crypto Assets",
+            "after": {
+              "title": "SEC Proposes New Regulation Crypto Assets",
+              "link": "https://www.sec.gov/newsroom/press-releases/2026-76-sec-proposes-new-regulation-crypto-assets",
+              "id": "e1c1d2d7-1743-4e9a-8857-9a03028b7fb0",
+              "author": "",
+              "published_at": "2026-08-18T17:15:48Z",
+              "updated_at": "2026-08-18T17:15:48Z",
+              "summary": "The Securities and Exchange Commission today announced that it proposed new rules, titled “Regulation Crypto Assets,” that would create a clear and fit-for-purpose framework for certain investment contracts involving crypto assets. This proposal follows…",
+              "categories": [],
+              "feed": {
+                "title": "Press Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/news/pressreleases.rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/news/pressreleases.rss",
+            "elapsed_ms": 78,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-press-releases",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-76-sec-proposes-new-regulation-crypto-assets"
+    },
+    {
+      "id": "8ee3ed9434b2a23c8546",
+      "title": "SEC Charges Boiler Room Operator and Three Entities with Defrauding Retail Investors in $74 Million Pre-IPO Investment Scam",
+      "content_text": "The Securities and Exchange Commission today charged New York resident Andrew Spaventa and three entities he owned and controlled with fraud and other violations in connection with unregistered securities offerings of private funds that purportedly…",
+      "date_published": "2026-08-14T20:16:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "8ee3ed9434b2a23c8546",
+          "source": "rss",
+          "type": "change",
+          "key": "543d0d43-3c8a-40d1-823b-2333c50bc407",
+          "source_url": "https://www.sec.gov/news/pressreleases.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:59Z",
+          "data": {
+            "change": "added",
+            "label": "SEC Charges Boiler Room Operator and Three Entities with Defrauding Retail Investors in $74 Million Pre-IPO Investment Scam",
+            "item_type": "entry",
+            "summary": "added: SEC Charges Boiler Room Operator and Three Entities with Defrauding Retail Investors in $74 Million Pre-IPO Investment Scam",
+            "after": {
+              "title": "SEC Charges Boiler Room Operator and Three Entities with Defrauding Retail Investors in $74 Million Pre-IPO Investment Scam",
+              "link": "https://www.sec.gov/newsroom/press-releases/2026-75-sec-charges-boiler-room-operator-three-entities-defrauding-retail-investors-74-million-pre-ipo",
+              "id": "543d0d43-3c8a-40d1-823b-2333c50bc407",
+              "author": "",
+              "published_at": "2026-08-14T20:16:34Z",
+              "updated_at": "2026-08-14T20:16:34Z",
+              "summary": "The Securities and Exchange Commission today charged New York resident Andrew Spaventa and three entities he owned and controlled with fraud and other violations in connection with unregistered securities offerings of private funds that purportedly…",
+              "categories": [],
+              "feed": {
+                "title": "Press Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/news/pressreleases.rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/news/pressreleases.rss",
+            "elapsed_ms": 78,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-press-releases",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-75-sec-charges-boiler-room-operator-three-entities-defrauding-retail-investors-74-million-pre-ipo"
+    },
+    {
+      "id": "3d319254090fcadb0202",
+      "title": "SEC Charges Toms River Trio in Connection with Alleged $47 Million Fraud Targeting Orthodox Jewish Communities",
+      "content_text": "The Securities and Exchange Commission today charged three Toms River, New Jersey residents for their roles in an affinity investment fraud that raised approximately $47 million from more than 87 investors, who were primarily members of Orthodox Jewish…",
+      "date_published": "2026-08-13T20:32:19Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "3d319254090fcadb0202",
+          "source": "rss",
+          "type": "change",
+          "key": "1b55b0cf-217e-4004-9bf7-5ff22562e98c",
+          "source_url": "https://www.sec.gov/news/pressreleases.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:59Z",
+          "data": {
+            "change": "added",
+            "label": "SEC Charges Toms River Trio in Connection with Alleged $47 Million Fraud Targeting Orthodox Jewish Communities",
+            "item_type": "entry",
+            "summary": "added: SEC Charges Toms River Trio in Connection with Alleged $47 Million Fraud Targeting Orthodox Jewish Communities",
+            "after": {
+              "title": "SEC Charges Toms River Trio in Connection with Alleged $47 Million Fraud Targeting Orthodox Jewish Communities",
+              "link": "https://www.sec.gov/newsroom/press-releases/2026-74-sec-charges-toms-river-trio-connection-alleged-47-million-fraud-targeting-orthodox-jewish",
+              "id": "1b55b0cf-217e-4004-9bf7-5ff22562e98c",
+              "author": "",
+              "published_at": "2026-08-13T20:32:19Z",
+              "updated_at": "2026-08-13T20:32:19Z",
+              "summary": "The Securities and Exchange Commission today charged three Toms River, New Jersey residents for their roles in an affinity investment fraud that raised approximately $47 million from more than 87 investors, who were primarily members of Orthodox Jewish…",
+              "categories": [],
+              "feed": {
+                "title": "Press Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/news/pressreleases.rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/news/pressreleases.rss",
+            "elapsed_ms": 78,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-press-releases",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-74-sec-charges-toms-river-trio-connection-alleged-47-million-fraud-targeting-orthodox-jewish"
+    },
+    {
+      "id": "bc5f086c3bd900c8fcf8",
+      "title": "SEC Charges Private Fund Adviser Adit Ventures Management, Its CEO and Affiliated General Partners in Alleged Fraud",
+      "content_text": "The Securities and Exchange Commission today charged New York-based investment adviser Adit Ventures Management LLC, its CEO Eric Munson, and three affiliated general partners, Adit Ventures LLC; Adit Ventures II LLC; and Adit Ventures III LLC (the…",
+      "date_published": "2026-08-10T18:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "bc5f086c3bd900c8fcf8",
+          "source": "rss",
+          "type": "change",
+          "key": "506dc3f1-f71f-40fb-80aa-e5efcbae1f07",
+          "source_url": "https://www.sec.gov/news/pressreleases.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:59Z",
+          "data": {
+            "change": "added",
+            "label": "SEC Charges Private Fund Adviser Adit Ventures Management, Its CEO and Affiliated General Partners in Alleged Fraud",
+            "item_type": "entry",
+            "summary": "added: SEC Charges Private Fund Adviser Adit Ventures Management, Its CEO and Affiliated General Partners in Alleged Fraud",
+            "after": {
+              "title": "SEC Charges Private Fund Adviser Adit Ventures Management, Its CEO and Affiliated General Partners in Alleged Fraud",
+              "link": "https://www.sec.gov/newsroom/press-releases/2026-73-sec-charges-private-fund-adviser-adit-ventures-management-its-ceo-affiliated-general-partners",
+              "id": "506dc3f1-f71f-40fb-80aa-e5efcbae1f07",
+              "author": "",
+              "published_at": "2026-08-10T18:00:00Z",
+              "updated_at": "2026-08-10T18:00:00Z",
+              "summary": "The Securities and Exchange Commission today charged New York-based investment adviser Adit Ventures Management LLC, its CEO Eric Munson, and three affiliated general partners, Adit Ventures LLC; Adit Ventures II LLC; and Adit Ventures III LLC (the…",
+              "categories": [],
+              "feed": {
+                "title": "Press Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/news/pressreleases.rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/news/pressreleases.rss",
+            "elapsed_ms": 78,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-press-releases",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-73-sec-charges-private-fund-adviser-adit-ventures-management-its-ceo-affiliated-general-partners"
+    },
+    {
+      "id": "3dcb834c4c454e835400",
+      "title": "SEC Establishes Financial Reporting and Accounting Unit in Enforcement Division",
+      "content_text": "The Securities and Exchange Commission today announced it is establishing a new specialized unit within the Division of Enforcement to provide the dedicated expertise, focus, and capacity to pursue accounting and financial reporting fraud cases as well…",
+      "date_published": "2026-08-05T18:30:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "3dcb834c4c454e835400",
+          "source": "rss",
+          "type": "change",
+          "key": "3b108935-d9dd-43a0-98ec-f05df42fc4ea",
+          "source_url": "https://www.sec.gov/news/pressreleases.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:59Z",
+          "data": {
+            "change": "added",
+            "label": "SEC Establishes Financial Reporting and Accounting Unit in Enforcement Division",
+            "item_type": "entry",
+            "summary": "added: SEC Establishes Financial Reporting and Accounting Unit in Enforcement Division",
+            "after": {
+              "title": "SEC Establishes Financial Reporting and Accounting Unit in Enforcement Division",
+              "link": "https://www.sec.gov/newsroom/press-releases/2026-72-sec-establishes-financial-reporting-accounting-unit-enforcement-division",
+              "id": "3b108935-d9dd-43a0-98ec-f05df42fc4ea",
+              "author": "",
+              "published_at": "2026-08-05T18:30:00Z",
+              "updated_at": "2026-08-05T18:30:00Z",
+              "summary": "The Securities and Exchange Commission today announced it is establishing a new specialized unit within the Division of Enforcement to provide the dedicated expertise, focus, and capacity to pursue accounting and financial reporting fraud cases as well…",
+              "categories": [],
+              "feed": {
+                "title": "Press Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/news/pressreleases.rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/news/pressreleases.rss",
+            "elapsed_ms": 78,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-press-releases",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-72-sec-establishes-financial-reporting-accounting-unit-enforcement-division"
+    },
+    {
+      "id": "3ab03ef9e2ea89c66e77",
+      "title": "SEC Announces Continuation of Small Business Advisory Committee Meeting",
+      "content_text": "The Securities and Exchange Commission announced that the Small Business Capital Formation Advisory Committee meeting held on July 21, 2026, will reconvene August 6, 2026, at 1 p.m. ET, virtually, on SEC.gov. The committee will…",
+      "date_published": "2026-07-30T13:53:38Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "3ab03ef9e2ea89c66e77",
+          "source": "rss",
+          "type": "change",
+          "key": "8a776414-36bd-4800-a82c-b525aa231fa4",
+          "source_url": "https://www.sec.gov/news/pressreleases.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:59Z",
+          "data": {
+            "change": "added",
+            "label": "SEC Announces Continuation of Small Business Advisory Committee Meeting",
+            "item_type": "entry",
+            "summary": "added: SEC Announces Continuation of Small Business Advisory Committee Meeting",
+            "after": {
+              "title": "SEC Announces Continuation of Small Business Advisory Committee Meeting",
+              "link": "https://www.sec.gov/newsroom/press-releases/2026-71-sec-announces-continuation-small-business-advisory-committee-meeting",
+              "id": "8a776414-36bd-4800-a82c-b525aa231fa4",
+              "author": "",
+              "published_at": "2026-07-30T13:53:38Z",
+              "updated_at": "2026-07-30T13:53:38Z",
+              "summary": "The Securities and Exchange Commission announced that the Small Business Capital Formation Advisory Committee meeting held on July 21, 2026, will reconvene August 6, 2026, at 1 p.m. ET, virtually, on SEC.gov. The committee will…",
+              "categories": [],
+              "feed": {
+                "title": "Press Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/news/pressreleases.rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/news/pressreleases.rss",
+            "elapsed_ms": 78,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-press-releases",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-71-sec-announces-continuation-small-business-advisory-committee-meeting"
+    },
+    {
+      "id": "ee677a7401fa0f7464f1",
+      "title": "Small Business Forum’s Report to Congress Highlights Recommendations to Improve Capital-Raising Policy",
+      "content_text": "The Securities and Exchange Commission released a report to Congress today highlighting policy recommendations from the SEC’s 45th Annual Government-Business Forum on Small Business Capital Formation. The report provides a summary of the forum…",
+      "date_published": "2026-07-27T19:59:17Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ee677a7401fa0f7464f1",
+          "source": "rss",
+          "type": "change",
+          "key": "d2788195-1473-4b91-8bbb-b008e5299767",
+          "source_url": "https://www.sec.gov/news/pressreleases.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:59Z",
+          "data": {
+            "change": "added",
+            "label": "Small Business Forum’s Report to Congress Highlights Recommendations to Improve Capital-Raising Policy",
+            "item_type": "entry",
+            "summary": "added: Small Business Forum’s Report to Congress Highlights Recommendations to Improve Capital-Raising Policy",
+            "after": {
+              "title": "Small Business Forum’s Report to Congress Highlights Recommendations to Improve Capital-Raising Policy",
+              "link": "https://www.sec.gov/newsroom/press-releases/2026-70-small-business-forums-report-congress-highlights-recommendations-improve-capital-raising-policy",
+              "id": "d2788195-1473-4b91-8bbb-b008e5299767",
+              "author": "",
+              "published_at": "2026-07-27T19:59:17Z",
+              "updated_at": "2026-07-27T19:59:17Z",
+              "summary": "The Securities and Exchange Commission released a report to Congress today highlighting policy recommendations from the SEC’s 45th Annual Government-Business Forum on Small Business Capital Formation. The report provides a summary of the forum…",
+              "categories": [],
+              "feed": {
+                "title": "Press Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/news/pressreleases.rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/news/pressreleases.rss",
+            "elapsed_ms": 78,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-press-releases",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-70-small-business-forums-report-congress-highlights-recommendations-improve-capital-raising-policy"
+    },
+    {
+      "id": "fc9439c85d3d8e7ac753",
+      "title": "SEC Announces Roundtable on Preparations for 24-Hour Trading",
+      "content_text": "The Securities and Exchange Commission announced today that it will host a roundtable on Sept. 17, 2026, to discuss moving towards 24-hour trading in the U.S. equity markets, including preparations to support overnight trading, operations and resiliency…",
+      "date_published": "2026-07-23T15:04:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "fc9439c85d3d8e7ac753",
+          "source": "rss",
+          "type": "change",
+          "key": "58e3f4dc-f597-4d50-af9c-2d88525a3c98",
+          "source_url": "https://www.sec.gov/news/pressreleases.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:26:59Z",
+          "data": {
+            "change": "added",
+            "label": "SEC Announces Roundtable on Preparations for 24-Hour Trading",
+            "item_type": "entry",
+            "summary": "added: SEC Announces Roundtable on Preparations for 24-Hour Trading",
+            "after": {
+              "title": "SEC Announces Roundtable on Preparations for 24-Hour Trading",
+              "link": "https://www.sec.gov/newsroom/press-releases/2026-69-sec-announces-roundtable-preparations-24-hour-trading",
+              "id": "58e3f4dc-f597-4d50-af9c-2d88525a3c98",
+              "author": "",
+              "published_at": "2026-07-23T15:04:00Z",
+              "updated_at": "2026-07-23T15:04:00Z",
+              "summary": "The Securities and Exchange Commission announced today that it will host a roundtable on Sept. 17, 2026, to discuss moving towards 24-hour trading in the U.S. equity markets, including preparations to support overnight trading, operations and resiliency…",
+              "categories": [],
+              "feed": {
+                "title": "Press Releases",
+                "url": "https://www.sec.gov/",
+                "feed_url": "https://www.sec.gov/news/pressreleases.rss"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.sec.gov/news/pressreleases.rss",
+            "elapsed_ms": 78,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "sec-press-releases",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/newsroom/press-releases/2026-69-sec-announces-roundtable-preparations-24-hour-trading"
+    }
+  ]
+}

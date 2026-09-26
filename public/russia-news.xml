@@ -2,10 +2,87 @@
 <rss version="2.0">
   <channel>
     <title>Russia news (TASS, Meduza, Moscow Times)</title>
-    <link>https://tass.com/rss/v2.xml</link>
-    <description>Events collected by UnlimitedPipe 0.8.0</description>
-    <generator>UnlimitedPipe 0.8.0</generator>
-    <lastBuildDate>Sat, 26 Sep 2026 13:29:37 +0000</lastBuildDate>
+    <link>https://www.themoscowtimes.com/rss/news</link>
+    <description>Events collected by UnlimitedPipe 0.9.1</description>
+    <generator>UnlimitedPipe 0.9.1</generator>
+    <lastBuildDate>Sat, 26 Sep 2026 17:26:23 +0000</lastBuildDate>
+    <item>
+      <title>The Moscow Times: Russian and German FMs Meet for First Time Since Ukraine Invasion</title>
+      <link>https://www.themoscowtimes.com/2026/09/26/russian-and-german-fms-meet-for-first-time-since-ukraine-invasion-a93799</link>
+      <guid isPermaLink="false">87caf6ab2a563a907a48</guid>
+      <pubDate>Sat, 26 Sep 2026 16:59:15 +0000</pubDate>
+      <description>Russia’s Foreign Ministry said that the ministers discussed bilateral relations and the war in Ukraine.</description>
+    </item>
+    <item>
+      <title>TASS (Russian state media): Russia’s Lavrov holds final bilateral meeting on sidelines of UNGA session</title>
+      <link>https://tass.com/politics/2193331</link>
+      <guid isPermaLink="false">865c79fcf4d26f40c2a3</guid>
+      <pubDate>Sat, 26 Sep 2026 15:51:08 +0000</pubDate>
+      <description>Lavrov is expected to hold a traditional news conference at the UN headquarters before the flight</description>
+      <category>Russian Politics &amp; Diplomacy</category>
+    </item>
+    <item>
+      <title>TASS (Russian state media): Russian forces strike logistics hub in Odessa, bulk carrier at sea — top bras</title>
+      <link>https://tass.com/defense/2193329</link>
+      <guid isPermaLink="false">a65ab888b120bef03c50</guid>
+      <pubDate>Sat, 26 Sep 2026 15:27:19 +0000</pubDate>
+      <description>In addition, a bulk carrier with cargo for the Ukrainian army was struck at sea en route to the port of Odessa, the ministry added</description>
+      <category>Military &amp; Defense</category>
+      <category>Military operation in Ukraine</category>
+    </item>
+    <item>
+      <title>TASS (Russian state media): Russia’s top diplomat holds meeting with his German counterpart on sidelines of UNGA</title>
+      <link>https://tass.com/politics/2193323</link>
+      <guid isPermaLink="false">0fced7cd96dfd15f18db</guid>
+      <pubDate>Sat, 26 Sep 2026 14:51:08 +0000</pubDate>
+      <description>The meeting is taking place at Germany’s request, Russian Foreign Ministry Spokeswoman Maria Zakharova told reporters</description>
+      <category>FOREIGN POLICY</category>
+      <category>Russian Politics &amp; Diplomacy</category>
+    </item>
+    <item>
+      <title>TASS (Russian state media): North Korea congratulates United Russia on Duma election victory</title>
+      <link>https://tass.com/politics/2193321</link>
+      <guid isPermaLink="false">dc333c60392c8f85e374</guid>
+      <pubDate>Sat, 26 Sep 2026 14:28:57 +0000</pubDate>
+      <description>In a telegram sent on Thursday on behalf of the Central Committee of North Korea’s ruling party and himself, Jo Yong Won extended heartfelt congratulations and comrade greetings to all members of the All-Russian political party</description>
+      <category>FOREIGN POLICY</category>
+      <category>Russian Politics &amp; Diplomacy</category>
+    </item>
+    <item>
+      <title>TASS (Russian state media): Vucic congratulates Putin on successful elections to State Duma</title>
+      <link>https://tass.com/politics/2193317</link>
+      <guid isPermaLink="false">bbb1029912a9f43e6864</guid>
+      <pubDate>Sat, 26 Sep 2026 13:35:35 +0000</pubDate>
+      <description>Vucic also spoke about preparations for an early parliamentary election</description>
+      <category>FOREIGN POLICY</category>
+      <category>Russian Politics &amp; Diplomacy</category>
+    </item>
+    <item>
+      <title>TASS (Russian state media): Putin, Vucic discuss Ukrainian conflict, situation in Balkans</title>
+      <link>https://tass.com/politics/2193315</link>
+      <guid isPermaLink="false">243f873f001a8a2c91f4</guid>
+      <pubDate>Sat, 26 Sep 2026 13:31:34 +0000</pubDate>
+      <description>Vucic also expressed gratitude for Russia’s comprehensive assistance to Serbia, especially in helping to fight forest fires, the Kremlin reported</description>
+      <category>FOREIGN POLICY</category>
+      <category>Russian Politics &amp; Diplomacy</category>
+    </item>
+    <item>
+      <title>TASS (Russian state media): Putin speaks by phone with Vucic</title>
+      <link>https://tass.com/politics/2193311</link>
+      <guid isPermaLink="false">2c0212a2bc709cf79674</guid>
+      <pubDate>Sat, 26 Sep 2026 13:29:06 +0000</pubDate>
+      <description>The conversation was held in a warm and friendly atmosphere, the Kremlin reported</description>
+      <category>FOREIGN POLICY</category>
+      <category>Russian Politics &amp; Diplomacy</category>
+    </item>
+    <item>
+      <title>TASS (Russian state media): At least 11 killed, 30 more injured in blast in northwestern Pakistan — Reuters</title>
+      <link>https://tass.com/emergencies/2193309</link>
+      <guid isPermaLink="false">d075c3966a14696e1ce9</guid>
+      <pubDate>Sat, 26 Sep 2026 13:27:46 +0000</pubDate>
+      <description>The incident took place in Dera Ismail Khan, the news agency said</description>
+      <category>Emergencies</category>
+    </item>
     <item>
       <title>TASS (Russian state media): Iran no longer trusts talks with US amid ongoing strikes, sanctions — president</title>
       <link>https://tass.com/world/2193301</link>
@@ -1217,83 +1294,6 @@
       <description>The UK wants to wear Russia down using Ukrainians, Yulia Mendel said</description>
       <category>World</category>
       <category>Ukraine crisis</category>
-    </item>
-    <item>
-      <title>TASS (Russian state media): CIS observers note fair and open nature of Russia’s State Duma elections</title>
-      <link>https://tass.com/world/2192819</link>
-      <guid isPermaLink="false">6baf6308b1264409554c</guid>
-      <pubDate>Fri, 25 Sep 2026 12:45:02 +0000</pubDate>
-      <description>The CIS observer mission highlighted that the elections had been conducted at a high organizational level and in full compliance with the electoral legislation of the Russian Federation</description>
-      <category>World</category>
-      <category>Russian Politics &amp; Diplomacy</category>
-      <category>Single Voting Day</category>
-    </item>
-    <item>
-      <title>TASS (Russian state media): Mass rollout of in-flight internet on Russian aircraft to begin by 2030 — RSCC</title>
-      <link>https://tass.com/economy/2192813</link>
-      <guid isPermaLink="false">ced6ba2f34eb465f568e</guid>
-      <pubDate>Fri, 25 Sep 2026 12:39:51 +0000</pubDate>
-      <description>Director General Alexey Volin explained that the foreign aircraft fleets used by Russian companies have pre-installed equipment configured for foreign satellite operators that have exited the Russian market</description>
-      <category>Business &amp; Economy</category>
-      <category>Transport</category>
-    </item>
-    <item>
-      <title>TASS (Russian state media): Proposals to launch remaining Nord Stream 2 line equated to treason in Germany — diplomat</title>
-      <link>https://tass.com/politics/2192807</link>
-      <guid isPermaLink="false">a0be3d44371cb010e677</guid>
-      <pubDate>Fri, 25 Sep 2026 12:17:33 +0000</pubDate>
-      <description>Sergey Nechayev noted that large industrial enterprises, small and medium-sized businesses, and private households are acutely feeling the consequences</description>
-      <category>World</category>
-      <category>FOREIGN POLICY</category>
-      <category>Russian Politics &amp; Diplomacy</category>
-      <category>Nord Stream gas leak investigation</category>
-    </item>
-    <item>
-      <title>The Moscow Times: Moscow Police Arrest Political Expert Alexander Kynev on Drug Charges</title>
-      <link>https://www.themoscowtimes.com/2026/09/25/moscow-police-arrest-political-expert-alexander-kynev-on-drug-charges-a93796</link>
-      <guid isPermaLink="false">1b79afc3b25ec3095776</guid>
-      <pubDate>Fri, 25 Sep 2026 12:17:00 +0000</pubDate>
-      <description>Kynev is a veteran political consultant and independent elections expert who used to teach at the Higher School of Economics.</description>
-    </item>
-    <item>
-      <title>Meduza: Raising taxes on passive income could bring Russia’s budget an additional 700 billion rubles a year, economist says</title>
-      <link>https://meduza.io/en/news/2026/09/25/raisingtaxes-on-passive-income-could-bring-russia-s-budget-an-additional-700-billion-rubles-a-year-economist-says</link>
-      <guid isPermaLink="false">d8b7421e4ba1baeea6c6</guid>
-      <pubDate>Fri, 25 Sep 2026 12:16:04 +0000</pubDate>
-      <description>Applying Russia’s progressive personal income tax to income from deposits, dividends, investments, and property sales could bring the budget roughly 500–700 billion rubles in additional revenue a year, economist Dmitry Polevoy estimated.</description>
-    </item>
-    <item>
-      <title>TASS (Russian state media): Russia, China, India responsible for keeping energy markets stable — senior diplomat</title>
-      <link>https://tass.com/politics/2192791</link>
-      <guid isPermaLink="false">c95b1c29f96b9889e85d</guid>
-      <pubDate>Fri, 25 Sep 2026 12:05:48 +0000</pubDate>
-      <description>Russian Deputy Foreign Minister Andrey Rudenko said that coordinated approaches to international security issues, including the situation around Iran, were reflected in the Bishkek Declaration of the SCO Council of Heads of States</description>
-      <category>FOREIGN POLICY</category>
-      <category>Russian Politics &amp; Diplomacy</category>
-    </item>
-    <item>
-      <title>TASS (Russian state media): Araghchi, Lavrov discuss Strait of Hormuz, contacts with US — Iranian MFA</title>
-      <link>https://tass.com/world/2192789</link>
-      <guid isPermaLink="false">68dcbbf1822b5dc05a12</guid>
-      <pubDate>Fri, 25 Sep 2026 12:01:08 +0000</pubDate>
-      <description>Abbas Araghchi emphasized that Iran had already demonstrated serious approach in the diplomatic arena</description>
-      <category>World</category>
-    </item>
-    <item>
-      <title>Meduza: Russian political scientist and election analyst Alexander Kynev arrested in Moscow on drug charges</title>
-      <link>https://meduza.io/en/news/2026/09/25/russian-political-scientist-alexander-kynev-arrested-in-drug-case</link>
-      <guid isPermaLink="false">d42354e6b4e049ad3579</guid>
-      <pubDate>Fri, 25 Sep 2026 11:56:37 +0000</pubDate>
-      <description>Moscow’s Perovsky District Court ordered the arrest of political scientist Alexander Kynev on September 25 in a drug case, the independent Russian news outlet Mediazona reported, citing court records and defense attorney Mikhail Biryukov.</description>
-    </item>
-    <item>
-      <title>TASS (Russian state media): Kremlin discusses potential trilateral peace talks, comments on US trip by Putin’s envoy</title>
-      <link>https://tass.com/politics/2192787</link>
-      <guid isPermaLink="false">42c1b0bb2599dc04c882</guid>
-      <pubDate>Fri, 25 Sep 2026 11:55:53 +0000</pubDate>
-      <description>According to Dmitry Peskov, it is too early to assess the results of Kirill Dmitriev’s trip to the United States</description>
-      <category>FOREIGN POLICY</category>
-      <category>Russian Politics &amp; Diplomacy</category>
     </item>
   </channel>
 </rss>

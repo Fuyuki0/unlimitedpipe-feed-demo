@@ -1,0 +1,2594 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Australia news (ABC)",
+  "home_page_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+  "description": "Events collected by UnlimitedPipe 0.9.1",
+  "_unlimitedpipe": {
+    "schema": "unlimitedpipe.event/1",
+    "generator": "UnlimitedPipe 0.9.1"
+  },
+  "items": [
+    {
+      "id": "4f0040c20daa3b830111",
+      "title": "ABC News: Roosters earn shot at perfect NRLW season with win over Canberra",
+      "content_text": "The Sydney Roosters are through to the NRLW grand final, continuing their perfect season with a 20-10 victory over Canberra.",
+      "date_published": "2026-09-26T13:21:08Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "4f0040c20daa3b830111",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.abc.net.au/news/2026-09-26/roosters-through-to-nrlw-grand-final-with-raiders-win/107199658",
+          "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:23:47Z",
+          "data": {
+            "change": "added",
+            "label": "ABC News: Roosters earn shot at perfect NRLW season with win over Canberra",
+            "item_type": "entry",
+            "summary": "added: ABC News: Roosters earn shot at perfect NRLW season with win over Canberra",
+            "after": {
+              "title": "ABC News: Roosters earn shot at perfect NRLW season with win over Canberra",
+              "link": "https://www.abc.net.au/news/2026-09-26/roosters-through-to-nrlw-grand-final-with-raiders-win/107199658",
+              "id": "https://www.abc.net.au/news/2026-09-26/roosters-through-to-nrlw-grand-final-with-raiders-win/107199658",
+              "author": null,
+              "published_at": "2026-09-26T13:21:08Z",
+              "updated_at": "2026-09-26T13:21:08Z",
+              "summary": "The Sydney Roosters are through to the NRLW grand final, continuing their perfect season with a 20-10 victory over Canberra.",
+              "categories": [
+                "NRL Women’s Premiership",
+                "Rugby League",
+                "Sport"
+              ],
+              "feed": {
+                "title": "Just In",
+                "url": "https://www.abc.net.au/news/justin/",
+                "feed_url": "https://www.abc.net.au/news/feed/51120/rss.xml"
+              },
+              "outlet": "ABC News"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+            "elapsed_ms": 128,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^abc\\\\.net\\\\.au$\", \"ABC News\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "australia-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.abc.net.au/news/2026-09-26/roosters-through-to-nrlw-grand-final-with-raiders-win/107199658",
+      "tags": [
+        "NRL Women’s Premiership",
+        "Rugby League",
+        "Sport"
+      ]
+    },
+    {
+      "id": "4ae76e49b7c0d1254fa7",
+      "title": "ABC News: 'Trump Strait' post follows Iran offer to reopen peace discussions",
+      "content_text": "Iran's proposal would reopen the Strait of Hormuz within a week, according to its Foreign Minister Abbas Araghchi, but Donald Trump has already rejected the deal.",
+      "date_published": "2026-09-26T10:46:43Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "4ae76e49b7c0d1254fa7",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.abc.net.au/news/2026-09-26/iran-offers-deal-to-us-to-reopen-strait-of-hormuz/107199816",
+          "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:23:47Z",
+          "data": {
+            "change": "added",
+            "label": "ABC News: 'Trump Strait' post follows Iran offer to reopen peace discussions",
+            "item_type": "entry",
+            "summary": "added: ABC News: 'Trump Strait' post follows Iran offer to reopen peace discussions",
+            "after": {
+              "title": "ABC News: 'Trump Strait' post follows Iran offer to reopen peace discussions",
+              "link": "https://www.abc.net.au/news/2026-09-26/iran-offers-deal-to-us-to-reopen-strait-of-hormuz/107199816",
+              "id": "https://www.abc.net.au/news/2026-09-26/iran-offers-deal-to-us-to-reopen-strait-of-hormuz/107199816",
+              "author": null,
+              "published_at": "2026-09-26T10:46:43Z",
+              "updated_at": "2026-09-26T10:46:43Z",
+              "summary": "Iran's proposal would reopen the Strait of Hormuz within a week, according to its Foreign Minister Abbas Araghchi, but Donald Trump has already rejected the deal.",
+              "categories": [
+                "War",
+                "World Politics"
+              ],
+              "feed": {
+                "title": "Just In",
+                "url": "https://www.abc.net.au/news/justin/",
+                "feed_url": "https://www.abc.net.au/news/feed/51120/rss.xml"
+              },
+              "outlet": "ABC News"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+            "elapsed_ms": 128,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^abc\\\\.net\\\\.au$\", \"ABC News\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "australia-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.abc.net.au/news/2026-09-26/iran-offers-deal-to-us-to-reopen-strait-of-hormuz/107199816",
+      "tags": [
+        "War",
+        "World Politics"
+      ]
+    },
+    {
+      "id": "d051bd6aaf24358970ec",
+      "title": "ABC News: Russell wins Azerbaijan GP after Piastri disaster in Baku",
+      "content_text": "George Russell has claimed a nail-biting victory in Baku, holding off Max Verstappen by just 0.196 seconds to secure his third victory of the season.",
+      "date_published": "2026-09-26T10:01:46Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d051bd6aaf24358970ec",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.abc.net.au/news/2026-09-26/live-updates-formula-1-azerbaijan-grand-prix-baku-city-circuit/107199702",
+          "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:23:47Z",
+          "data": {
+            "change": "added",
+            "label": "ABC News: Russell wins Azerbaijan GP after Piastri disaster in Baku",
+            "item_type": "entry",
+            "summary": "added: ABC News: Russell wins Azerbaijan GP after Piastri disaster in Baku",
+            "after": {
+              "title": "ABC News: Russell wins Azerbaijan GP after Piastri disaster in Baku",
+              "link": "https://www.abc.net.au/news/2026-09-26/live-updates-formula-1-azerbaijan-grand-prix-baku-city-circuit/107199702",
+              "id": "https://www.abc.net.au/news/2026-09-26/live-updates-formula-1-azerbaijan-grand-prix-baku-city-circuit/107199702",
+              "author": "Simon Smale",
+              "published_at": "2026-09-26T10:01:46Z",
+              "updated_at": "2026-09-26T10:01:46Z",
+              "summary": "George Russell has claimed a nail-biting victory in Baku, holding off Max Verstappen by just 0.196 seconds to secure his third victory of the season.",
+              "categories": [
+                "Formula 1",
+                "Sport"
+              ],
+              "feed": {
+                "title": "Just In",
+                "url": "https://www.abc.net.au/news/justin/",
+                "feed_url": "https://www.abc.net.au/news/feed/51120/rss.xml"
+              },
+              "outlet": "ABC News"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+            "elapsed_ms": 128,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^abc\\\\.net\\\\.au$\", \"ABC News\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "australia-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.abc.net.au/news/2026-09-26/live-updates-formula-1-azerbaijan-grand-prix-baku-city-circuit/107199702",
+      "tags": [
+        "Formula 1",
+        "Sport"
+      ]
+    },
+    {
+      "id": "383060a9c11429749b14",
+      "title": "ABC News: CNN barred from Trump trip after judge strikes down White House ban",
+      "content_text": "The White House has signalled that CNN will be barred from an upcoming Air Force One trip, replacing the news organisation with a conservative network.",
+      "date_published": "2026-09-26T08:57:27Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "383060a9c11429749b14",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.abc.net.au/news/2026-09-26/white-house-blocks-cnn-from-air-force-one-trip/107199678",
+          "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:23:47Z",
+          "data": {
+            "change": "added",
+            "label": "ABC News: CNN barred from Trump trip after judge strikes down White House ban",
+            "item_type": "entry",
+            "summary": "added: ABC News: CNN barred from Trump trip after judge strikes down White House ban",
+            "after": {
+              "title": "ABC News: CNN barred from Trump trip after judge strikes down White House ban",
+              "link": "https://www.abc.net.au/news/2026-09-26/white-house-blocks-cnn-from-air-force-one-trip/107199678",
+              "id": "https://www.abc.net.au/news/2026-09-26/white-house-blocks-cnn-from-air-force-one-trip/107199678",
+              "author": null,
+              "published_at": "2026-09-26T08:57:27Z",
+              "updated_at": "2026-09-26T08:57:27Z",
+              "summary": "The White House has signalled that CNN will be barred from an upcoming Air Force One trip, replacing the news organisation with a conservative network.",
+              "categories": [
+                "Media Industry",
+                "Journalism",
+                "World Politics"
+              ],
+              "feed": {
+                "title": "Just In",
+                "url": "https://www.abc.net.au/news/justin/",
+                "feed_url": "https://www.abc.net.au/news/feed/51120/rss.xml"
+              },
+              "outlet": "ABC News"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+            "elapsed_ms": 128,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^abc\\\\.net\\\\.au$\", \"ABC News\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "australia-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.abc.net.au/news/2026-09-26/white-house-blocks-cnn-from-air-force-one-trip/107199678",
+      "tags": [
+        "Media Industry",
+        "Journalism",
+        "World Politics"
+      ]
+    },
+    {
+      "id": "69c3f5fce7c53ee5d307",
+      "title": "ABC News: In the greatest and cruellest of grand finals, only the Lions believed",
+      "content_text": "The AFL grand final has never felt so raw as in the five ballistic minutes that elevated the Brisbane Lions to legends and delivered Fremantle the most crushing defeat imaginable.",
+      "date_published": "2026-09-26T08:46:44Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "69c3f5fce7c53ee5d307",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.abc.net.au/news/2026-09-26/afl-grand-final-brisbane-belief-sparks-cruel-fremantle-collapse/107199152",
+          "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:23:47Z",
+          "data": {
+            "change": "added",
+            "label": "ABC News: In the greatest and cruellest of grand finals, only the Lions believed",
+            "item_type": "entry",
+            "summary": "added: ABC News: In the greatest and cruellest of grand finals, only the Lions believed",
+            "after": {
+              "title": "ABC News: In the greatest and cruellest of grand finals, only the Lions believed",
+              "link": "https://www.abc.net.au/news/2026-09-26/afl-grand-final-brisbane-belief-sparks-cruel-fremantle-collapse/107199152",
+              "id": "https://www.abc.net.au/news/2026-09-26/afl-grand-final-brisbane-belief-sparks-cruel-fremantle-collapse/107199152",
+              "author": "Dean Bilton",
+              "published_at": "2026-09-26T08:46:44Z",
+              "updated_at": "2026-09-26T08:46:44Z",
+              "summary": "The AFL grand final has never felt so raw as in the five ballistic minutes that elevated the Brisbane Lions to legends and delivered Fremantle the most crushing defeat imaginable.",
+              "categories": [
+                "AFL",
+                "Australian Rules Football",
+                "Sport"
+              ],
+              "feed": {
+                "title": "Just In",
+                "url": "https://www.abc.net.au/news/justin/",
+                "feed_url": "https://www.abc.net.au/news/feed/51120/rss.xml"
+              },
+              "outlet": "ABC News"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+            "elapsed_ms": 128,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^abc\\\\.net\\\\.au$\", \"ABC News\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "australia-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.abc.net.au/news/2026-09-26/afl-grand-final-brisbane-belief-sparks-cruel-fremantle-collapse/107199152",
+      "tags": [
+        "AFL",
+        "Australian Rules Football",
+        "Sport"
+      ]
+    },
+    {
+      "id": "cdf3697ac8bf33ed3485",
+      "title": "ABC News: Quick hits: Lions use 'Wharfie Time' to energise, Treacy misses a sitter",
+      "content_text": "It was one of the greatest grand finals in history as the Lions stunned the Dockers in a comeback for the ages. Here are the quick hits from the game.",
+      "date_published": "2026-09-26T08:39:14Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "cdf3697ac8bf33ed3485",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.abc.net.au/news/2026-09-26/afl-grand-final-2026-five-quick-hits-josh-treacy-decision/107199474",
+          "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:23:47Z",
+          "data": {
+            "change": "added",
+            "label": "ABC News: Quick hits: Lions use 'Wharfie Time' to energise, Treacy misses a sitter",
+            "item_type": "entry",
+            "summary": "added: ABC News: Quick hits: Lions use 'Wharfie Time' to energise, Treacy misses a sitter",
+            "after": {
+              "title": "ABC News: Quick hits: Lions use 'Wharfie Time' to energise, Treacy misses a sitter",
+              "link": "https://www.abc.net.au/news/2026-09-26/afl-grand-final-2026-five-quick-hits-josh-treacy-decision/107199474",
+              "id": "https://www.abc.net.au/news/2026-09-26/afl-grand-final-2026-five-quick-hits-josh-treacy-decision/107199474",
+              "author": "Kyle Pollard",
+              "published_at": "2026-09-26T08:39:14Z",
+              "updated_at": "2026-09-26T08:39:14Z",
+              "summary": "It was one of the greatest grand finals in history as the Lions stunned the Dockers in a comeback for the ages. Here are the quick hits from the game.",
+              "categories": [
+                "AFL",
+                "Sport",
+                "Australian Rules Football"
+              ],
+              "feed": {
+                "title": "Just In",
+                "url": "https://www.abc.net.au/news/justin/",
+                "feed_url": "https://www.abc.net.au/news/feed/51120/rss.xml"
+              },
+              "outlet": "ABC News"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+            "elapsed_ms": 128,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^abc\\\\.net\\\\.au$\", \"ABC News\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "australia-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.abc.net.au/news/2026-09-26/afl-grand-final-2026-five-quick-hits-josh-treacy-decision/107199474",
+      "tags": [
+        "AFL",
+        "Sport",
+        "Australian Rules Football"
+      ]
+    },
+    {
+      "id": "89b6f6247d63178a4d07",
+      "title": "ABC News: Surprised Docker wins Norm Smith Medal in losing grand final team",
+      "content_text": "The Norm Smith Medal is awarded to a player from the losing side in an AFL grand final for the first time in 21 years.",
+      "date_published": "2026-09-26T08:34:15Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "89b6f6247d63178a4d07",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.abc.net.au/news/2026-09-26/afl-grand-final-dockers-lions-shai-bolton-norm-smith-medal/107199694",
+          "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:23:47Z",
+          "data": {
+            "change": "added",
+            "label": "ABC News: Surprised Docker wins Norm Smith Medal in losing grand final team",
+            "item_type": "entry",
+            "summary": "added: ABC News: Surprised Docker wins Norm Smith Medal in losing grand final team",
+            "after": {
+              "title": "ABC News: Surprised Docker wins Norm Smith Medal in losing grand final team",
+              "link": "https://www.abc.net.au/news/2026-09-26/afl-grand-final-dockers-lions-shai-bolton-norm-smith-medal/107199694",
+              "id": "https://www.abc.net.au/news/2026-09-26/afl-grand-final-dockers-lions-shai-bolton-norm-smith-medal/107199694",
+              "author": null,
+              "published_at": "2026-09-26T08:34:15Z",
+              "updated_at": "2026-09-26T08:34:15Z",
+              "summary": "The Norm Smith Medal is awarded to a player from the losing side in an AFL grand final for the first time in 21 years.",
+              "categories": [
+                "AFL",
+                "Australian Rules Football",
+                "Sport"
+              ],
+              "feed": {
+                "title": "Just In",
+                "url": "https://www.abc.net.au/news/justin/",
+                "feed_url": "https://www.abc.net.au/news/feed/51120/rss.xml"
+              },
+              "outlet": "ABC News"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+            "elapsed_ms": 128,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^abc\\\\.net\\\\.au$\", \"ABC News\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "australia-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.abc.net.au/news/2026-09-26/afl-grand-final-dockers-lions-shai-bolton-norm-smith-medal/107199694",
+      "tags": [
+        "AFL",
+        "Australian Rules Football",
+        "Sport"
+      ]
+    },
+    {
+      "id": "34a6b0d63abd980d01b1",
+      "title": "ABC News: 'Lost love of my life': Family visits crash site of young officer's death",
+      "content_text": "The loved ones of Constable Mia Lay gathered at the crash scene in Redfern where she was killed on Friday, with her father planting bright yellow flowers.",
+      "date_published": "2026-09-26T08:31:30Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "34a6b0d63abd980d01b1",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.abc.net.au/news/2026-09-26/mia-lay-family-friends-visit-sydney-crash-site-where-she-died/107199326",
+          "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:23:47Z",
+          "data": {
+            "change": "added",
+            "label": "ABC News: 'Lost love of my life': Family visits crash site of young officer's death",
+            "item_type": "entry",
+            "summary": "added: ABC News: 'Lost love of my life': Family visits crash site of young officer's death",
+            "after": {
+              "title": "ABC News: 'Lost love of my life': Family visits crash site of young officer's death",
+              "link": "https://www.abc.net.au/news/2026-09-26/mia-lay-family-friends-visit-sydney-crash-site-where-she-died/107199326",
+              "id": "https://www.abc.net.au/news/2026-09-26/mia-lay-family-friends-visit-sydney-crash-site-where-she-died/107199326",
+              "author": "Alexander Lewis",
+              "published_at": "2026-09-26T08:31:30Z",
+              "updated_at": "2026-09-26T08:31:30Z",
+              "summary": "The loved ones of Constable Mia Lay gathered at the crash scene in Redfern where she was killed on Friday, with her father planting bright yellow flowers.",
+              "categories": [
+                "Police"
+              ],
+              "feed": {
+                "title": "Just In",
+                "url": "https://www.abc.net.au/news/justin/",
+                "feed_url": "https://www.abc.net.au/news/feed/51120/rss.xml"
+              },
+              "outlet": "ABC News"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+            "elapsed_ms": 128,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^abc\\\\.net\\\\.au$\", \"ABC News\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "australia-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.abc.net.au/news/2026-09-26/mia-lay-family-friends-visit-sydney-crash-site-where-she-died/107199326",
+      "tags": [
+        "Police"
+      ]
+    },
+    {
+      "id": "03985bb1e9ee5ca713fd",
+      "title": "ABC News: 40yo man critically injured in house fire in Adelaide's south-west",
+      "content_text": "A man has been rushed to hospital with life-threatening injuries following a house fire at Marion.",
+      "date_published": "2026-09-26T07:12:08Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "03985bb1e9ee5ca713fd",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.abc.net.au/news/2026-09-26/sa-marion-house-fire-man-critical/107199588",
+          "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:23:47Z",
+          "data": {
+            "change": "added",
+            "label": "ABC News: 40yo man critically injured in house fire in Adelaide's south-west",
+            "item_type": "entry",
+            "summary": "added: ABC News: 40yo man critically injured in house fire in Adelaide's south-west",
+            "after": {
+              "title": "ABC News: 40yo man critically injured in house fire in Adelaide's south-west",
+              "link": "https://www.abc.net.au/news/2026-09-26/sa-marion-house-fire-man-critical/107199588",
+              "id": "https://www.abc.net.au/news/2026-09-26/sa-marion-house-fire-man-critical/107199588",
+              "author": null,
+              "published_at": "2026-09-26T07:12:08Z",
+              "updated_at": "2026-09-26T07:12:08Z",
+              "summary": "A man has been rushed to hospital with life-threatening injuries following a house fire at Marion.",
+              "categories": [
+                "Emergency Services"
+              ],
+              "feed": {
+                "title": "Just In",
+                "url": "https://www.abc.net.au/news/justin/",
+                "feed_url": "https://www.abc.net.au/news/feed/51120/rss.xml"
+              },
+              "outlet": "ABC News"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+            "elapsed_ms": 128,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^abc\\\\.net\\\\.au$\", \"ABC News\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "australia-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.abc.net.au/news/2026-09-26/sa-marion-house-fire-man-critical/107199588",
+      "tags": [
+        "Emergency Services"
+      ]
+    },
+    {
+      "id": "17b170230a69ac6a27dd",
+      "title": "ABC News: Melbourne family holds fears for son missing on Peru hiking trip",
+      "content_text": "Jordan Yap, 30, was last seen on the second day of his solo trek through the remote Huayhuash mountain range in Peru.",
+      "date_published": "2026-09-26T06:53:39Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "17b170230a69ac6a27dd",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.abc.net.au/news/2026-09-26/melbourne-hiker-jordan-yap-missing-in-peru/107199402",
+          "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:23:47Z",
+          "data": {
+            "change": "added",
+            "label": "ABC News: Melbourne family holds fears for son missing on Peru hiking trip",
+            "item_type": "entry",
+            "summary": "added: ABC News: Melbourne family holds fears for son missing on Peru hiking trip",
+            "after": {
+              "title": "ABC News: Melbourne family holds fears for son missing on Peru hiking trip",
+              "link": "https://www.abc.net.au/news/2026-09-26/melbourne-hiker-jordan-yap-missing-in-peru/107199402",
+              "id": "https://www.abc.net.au/news/2026-09-26/melbourne-hiker-jordan-yap-missing-in-peru/107199402",
+              "author": null,
+              "published_at": "2026-09-26T06:53:39Z",
+              "updated_at": "2026-09-26T06:53:39Z",
+              "summary": "Jordan Yap, 30, was last seen on the second day of his solo trek through the remote Huayhuash mountain range in Peru.",
+              "categories": [
+                "Missing Person"
+              ],
+              "feed": {
+                "title": "Just In",
+                "url": "https://www.abc.net.au/news/justin/",
+                "feed_url": "https://www.abc.net.au/news/feed/51120/rss.xml"
+              },
+              "outlet": "ABC News"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+            "elapsed_ms": 128,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^abc\\\\.net\\\\.au$\", \"ABC News\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "australia-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.abc.net.au/news/2026-09-26/melbourne-hiker-jordan-yap-missing-in-peru/107199402",
+      "tags": [
+        "Missing Person"
+      ]
+    },
+    {
+      "id": "a8a2410ac290f4592238",
+      "title": "ABC News: The biggest moments of Kylie Minogue's AFL grand final show",
+      "content_text": "From Loco-Motion to a sky-high Can't Get You Out of My Head — Kylie delivered a nostalgia-packed performance at the AFL grand final.",
+      "date_published": "2026-09-26T06:12:56Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "a8a2410ac290f4592238",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.abc.net.au/news/2026-09-26/kylie-minogue-afl-grand-final-show-performance-which-songs/107199212",
+          "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:23:47Z",
+          "data": {
+            "change": "added",
+            "label": "ABC News: The biggest moments of Kylie Minogue's AFL grand final show",
+            "item_type": "entry",
+            "summary": "added: ABC News: The biggest moments of Kylie Minogue's AFL grand final show",
+            "after": {
+              "title": "ABC News: The biggest moments of Kylie Minogue's AFL grand final show",
+              "link": "https://www.abc.net.au/news/2026-09-26/kylie-minogue-afl-grand-final-show-performance-which-songs/107199212",
+              "id": "https://www.abc.net.au/news/2026-09-26/kylie-minogue-afl-grand-final-show-performance-which-songs/107199212",
+              "author": "Maddie Nixon",
+              "published_at": "2026-09-26T06:12:56Z",
+              "updated_at": "2026-09-26T06:12:56Z",
+              "summary": "From Loco-Motion to a sky-high Can't Get You Out of My Head — Kylie delivered a nostalgia-packed performance at the AFL grand final.",
+              "categories": [
+                "AFL",
+                "Arts, Culture and Entertainment"
+              ],
+              "feed": {
+                "title": "Just In",
+                "url": "https://www.abc.net.au/news/justin/",
+                "feed_url": "https://www.abc.net.au/news/feed/51120/rss.xml"
+              },
+              "outlet": "ABC News"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+            "elapsed_ms": 128,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^abc\\\\.net\\\\.au$\", \"ABC News\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "australia-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.abc.net.au/news/2026-09-26/kylie-minogue-afl-grand-final-show-performance-which-songs/107199212",
+      "tags": [
+        "AFL",
+        "Arts, Culture and Entertainment"
+      ]
+    },
+    {
+      "id": "bfcf7b47b4ab6a34dfe2",
+      "title": "ABC News: Perth now only capital without major writers' festival",
+      "content_text": "Despite optimistic promises, the Perth writers' festival hasn't been scheduled since 2024. For writers and reader on the west coast, it's a deeply felt loss.",
+      "date_published": "2026-09-26T05:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "bfcf7b47b4ab6a34dfe2",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.abc.net.au/news/2026-09-26/perth-writers-festival-absence-amid-surge-in-smaller-fests/107170358",
+          "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:23:47Z",
+          "data": {
+            "change": "added",
+            "label": "ABC News: Perth now only capital without major writers' festival",
+            "item_type": "entry",
+            "summary": "added: ABC News: Perth now only capital without major writers' festival",
+            "after": {
+              "title": "ABC News: Perth now only capital without major writers' festival",
+              "link": "https://www.abc.net.au/news/2026-09-26/perth-writers-festival-absence-amid-surge-in-smaller-fests/107170358",
+              "id": "https://www.abc.net.au/news/2026-09-26/perth-writers-festival-absence-amid-surge-in-smaller-fests/107170358",
+              "author": "Emma Wynne",
+              "published_at": "2026-09-26T05:00:00Z",
+              "updated_at": "2026-09-26T05:00:00Z",
+              "summary": "Despite optimistic promises, the Perth writers' festival hasn't been scheduled since 2024. For writers and reader on the west coast, it's a deeply felt loss.",
+              "categories": [
+                "Books",
+                "Arts Festivals",
+                "Arts, Culture and Entertainment",
+                "Author"
+              ],
+              "feed": {
+                "title": "Just In",
+                "url": "https://www.abc.net.au/news/justin/",
+                "feed_url": "https://www.abc.net.au/news/feed/51120/rss.xml"
+              },
+              "outlet": "ABC News"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+            "elapsed_ms": 128,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^abc\\\\.net\\\\.au$\", \"ABC News\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "australia-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.abc.net.au/news/2026-09-26/perth-writers-festival-absence-amid-surge-in-smaller-fests/107170358",
+      "tags": [
+        "Books",
+        "Arts Festivals",
+        "Arts, Culture and Entertainment",
+        "Author"
+      ]
+    },
+    {
+      "id": "5418596eff2f2692b37f",
+      "title": "ABC News: Who is Jensen Huang, the AI boss Trump calls at night?",
+      "content_text": "The founder of the world's most valuable AI company has the ear of Donald Trump when it comes to the risks and potential of the cutting-edge technology.",
+      "date_published": "2026-09-26T04:10:47Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "5418596eff2f2692b37f",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.abc.net.au/news/2026-09-26/jensen-huang-ai-boss-trusted-by-trump/107197212",
+          "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:23:47Z",
+          "data": {
+            "change": "added",
+            "label": "ABC News: Who is Jensen Huang, the AI boss Trump calls at night?",
+            "item_type": "entry",
+            "summary": "added: ABC News: Who is Jensen Huang, the AI boss Trump calls at night?",
+            "after": {
+              "title": "ABC News: Who is Jensen Huang, the AI boss Trump calls at night?",
+              "link": "https://www.abc.net.au/news/2026-09-26/jensen-huang-ai-boss-trusted-by-trump/107197212",
+              "id": "https://www.abc.net.au/news/2026-09-26/jensen-huang-ai-boss-trusted-by-trump/107197212",
+              "author": "Echo Hui",
+              "published_at": "2026-09-26T04:10:47Z",
+              "updated_at": "2026-09-26T04:10:47Z",
+              "summary": "The founder of the world's most valuable AI company has the ear of Donald Trump when it comes to the risks and potential of the cutting-edge technology.",
+              "categories": [
+                "AI",
+                "Information Technology Industry",
+                "Technology"
+              ],
+              "feed": {
+                "title": "Just In",
+                "url": "https://www.abc.net.au/news/justin/",
+                "feed_url": "https://www.abc.net.au/news/feed/51120/rss.xml"
+              },
+              "outlet": "ABC News"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+            "elapsed_ms": 128,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^abc\\\\.net\\\\.au$\", \"ABC News\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "australia-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.abc.net.au/news/2026-09-26/jensen-huang-ai-boss-trusted-by-trump/107197212",
+      "tags": [
+        "AI",
+        "Information Technology Industry",
+        "Technology"
+      ]
+    },
+    {
+      "id": "dfc24f5b617a0f468f03",
+      "title": "ABC News: Missing couple rescued overnight at Wineglass Bay",
+      "content_text": "Police search and rescue crews located the couple in the early hours of the morning before airlifting them to safety.",
+      "date_published": "2026-09-26T03:51:42Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "dfc24f5b617a0f468f03",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.abc.net.au/news/2026-09-26/couple-missing-overnight-at-tasmania-wineglass-bay-rescued/107199258",
+          "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:23:47Z",
+          "data": {
+            "change": "added",
+            "label": "ABC News: Missing couple rescued overnight at Wineglass Bay",
+            "item_type": "entry",
+            "summary": "added: ABC News: Missing couple rescued overnight at Wineglass Bay",
+            "after": {
+              "title": "ABC News: Missing couple rescued overnight at Wineglass Bay",
+              "link": "https://www.abc.net.au/news/2026-09-26/couple-missing-overnight-at-tasmania-wineglass-bay-rescued/107199258",
+              "id": "https://www.abc.net.au/news/2026-09-26/couple-missing-overnight-at-tasmania-wineglass-bay-rescued/107199258",
+              "author": null,
+              "published_at": "2026-09-26T03:51:42Z",
+              "updated_at": "2026-09-26T03:51:42Z",
+              "summary": "Police search and rescue crews located the couple in the early hours of the morning before airlifting them to safety.",
+              "categories": [
+                "Police",
+                "Missing Person"
+              ],
+              "feed": {
+                "title": "Just In",
+                "url": "https://www.abc.net.au/news/justin/",
+                "feed_url": "https://www.abc.net.au/news/feed/51120/rss.xml"
+              },
+              "outlet": "ABC News"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+            "elapsed_ms": 128,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^abc\\\\.net\\\\.au$\", \"ABC News\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "australia-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.abc.net.au/news/2026-09-26/couple-missing-overnight-at-tasmania-wineglass-bay-rescued/107199258",
+      "tags": [
+        "Police",
+        "Missing Person"
+      ]
+    },
+    {
+      "id": "4932946dc7b8c3b17678",
+      "title": "ABC News: Queensland child deaths at five-year high",
+      "content_text": "Last financial year, 91 children known to child protection services died, the highest number in five years.",
+      "date_published": "2026-09-26T03:16:16Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "4932946dc7b8c3b17678",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.abc.net.au/news/2026-09-26/qld-family-and-child-commission-annual-report-increase-in-deaths/107198072",
+          "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:23:47Z",
+          "data": {
+            "change": "added",
+            "label": "ABC News: Queensland child deaths at five-year high",
+            "item_type": "entry",
+            "summary": "added: ABC News: Queensland child deaths at five-year high",
+            "after": {
+              "title": "ABC News: Queensland child deaths at five-year high",
+              "link": "https://www.abc.net.au/news/2026-09-26/qld-family-and-child-commission-annual-report-increase-in-deaths/107198072",
+              "id": "https://www.abc.net.au/news/2026-09-26/qld-family-and-child-commission-annual-report-increase-in-deaths/107198072",
+              "author": "Sarah Richards",
+              "published_at": "2026-09-26T03:16:16Z",
+              "updated_at": "2026-09-26T03:16:16Z",
+              "summary": "Last financial year, 91 children known to child protection services died, the highest number in five years.",
+              "categories": [
+                "Children",
+                "Children's Health",
+                "Child Abuse",
+                "Law, Crime and Justice",
+                "International Law",
+                "Parenting Children"
+              ],
+              "feed": {
+                "title": "Just In",
+                "url": "https://www.abc.net.au/news/justin/",
+                "feed_url": "https://www.abc.net.au/news/feed/51120/rss.xml"
+              },
+              "outlet": "ABC News"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+            "elapsed_ms": 128,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^abc\\\\.net\\\\.au$\", \"ABC News\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "australia-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.abc.net.au/news/2026-09-26/qld-family-and-child-commission-annual-report-increase-in-deaths/107198072",
+      "tags": [
+        "Children",
+        "Children's Health",
+        "Child Abuse",
+        "Law, Crime and Justice",
+        "International Law",
+        "Parenting Children"
+      ]
+    },
+    {
+      "id": "bed7401f1cb0377a46f8",
+      "title": "ABC News: Adam Scott, Min Woo Lee lead sweep of US at Presidents Cup",
+      "content_text": "The Internationals are in front after sweeping all four foursomes matches on day two of the Presidents Cup against Team USA.",
+      "date_published": "2026-09-26T03:15:09Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "bed7401f1cb0377a46f8",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.abc.net.au/news/2026-09-26/presidents-cup-adam-scott-min-woo-lee/107199232",
+          "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:23:47Z",
+          "data": {
+            "change": "added",
+            "label": "ABC News: Adam Scott, Min Woo Lee lead sweep of US at Presidents Cup",
+            "item_type": "entry",
+            "summary": "added: ABC News: Adam Scott, Min Woo Lee lead sweep of US at Presidents Cup",
+            "after": {
+              "title": "ABC News: Adam Scott, Min Woo Lee lead sweep of US at Presidents Cup",
+              "link": "https://www.abc.net.au/news/2026-09-26/presidents-cup-adam-scott-min-woo-lee/107199232",
+              "id": "https://www.abc.net.au/news/2026-09-26/presidents-cup-adam-scott-min-woo-lee/107199232",
+              "author": null,
+              "published_at": "2026-09-26T03:15:09Z",
+              "updated_at": "2026-09-26T03:15:09Z",
+              "summary": "The Internationals are in front after sweeping all four foursomes matches on day two of the Presidents Cup against Team USA.",
+              "categories": [
+                "Golf",
+                "Sport"
+              ],
+              "feed": {
+                "title": "Just In",
+                "url": "https://www.abc.net.au/news/justin/",
+                "feed_url": "https://www.abc.net.au/news/feed/51120/rss.xml"
+              },
+              "outlet": "ABC News"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+            "elapsed_ms": 128,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^abc\\\\.net\\\\.au$\", \"ABC News\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "australia-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.abc.net.au/news/2026-09-26/presidents-cup-adam-scott-min-woo-lee/107199232",
+      "tags": [
+        "Golf",
+        "Sport"
+      ]
+    },
+    {
+      "id": "c817f0676a5674c3b848",
+      "title": "ABC News: US judges say their jobs are getting more dangerous under Trump",
+      "content_text": "After hearing a case related to Donald Trump's immigration crackdown, a judge received more than 700 threatening phone calls. Their peers say it is part of a worrying trend.",
+      "date_published": "2026-09-26T03:10:39Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c817f0676a5674c3b848",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.abc.net.au/news/2026-09-26/us-judges-job-threats-trump/107128158",
+          "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:23:47Z",
+          "data": {
+            "change": "added",
+            "label": "ABC News: US judges say their jobs are getting more dangerous under Trump",
+            "item_type": "entry",
+            "summary": "added: ABC News: US judges say their jobs are getting more dangerous under Trump",
+            "after": {
+              "title": "ABC News: US judges say their jobs are getting more dangerous under Trump",
+              "link": "https://www.abc.net.au/news/2026-09-26/us-judges-job-threats-trump/107128158",
+              "id": "https://www.abc.net.au/news/2026-09-26/us-judges-job-threats-trump/107128158",
+              "author": "Elissa Fitzgerald",
+              "published_at": "2026-09-26T03:10:39Z",
+              "updated_at": "2026-09-26T03:10:39Z",
+              "summary": "After hearing a case related to Donald Trump's immigration crackdown, a judge received more than 700 threatening phone calls. Their peers say it is part of a worrying trend.",
+              "categories": [
+                "World Politics",
+                "Courts",
+                "Law, Crime and Justice"
+              ],
+              "feed": {
+                "title": "Just In",
+                "url": "https://www.abc.net.au/news/justin/",
+                "feed_url": "https://www.abc.net.au/news/feed/51120/rss.xml"
+              },
+              "outlet": "ABC News"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+            "elapsed_ms": 128,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^abc\\\\.net\\\\.au$\", \"ABC News\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "australia-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.abc.net.au/news/2026-09-26/us-judges-job-threats-trump/107128158",
+      "tags": [
+        "World Politics",
+        "Courts",
+        "Law, Crime and Justice"
+      ]
+    },
+    {
+      "id": "e90f3456ea31ae4e7941",
+      "title": "ABC News: Rise of Tasmanian Devils, JackJumpers leads to sports academy",
+      "content_text": "Tasmania's sports sector is creating jobs at a scale not previously seen, galvanising academic pathways for those seeking careers in sports management.",
+      "date_published": "2026-09-26T03:06:16Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "e90f3456ea31ae4e7941",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.abc.net.au/news/2026-09-26/tasmanias-professional-sport-pathways-creating-job-opportunities/107197452",
+          "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:23:47Z",
+          "data": {
+            "change": "added",
+            "label": "ABC News: Rise of Tasmanian Devils, JackJumpers leads to sports academy",
+            "item_type": "entry",
+            "summary": "added: ABC News: Rise of Tasmanian Devils, JackJumpers leads to sports academy",
+            "after": {
+              "title": "ABC News: Rise of Tasmanian Devils, JackJumpers leads to sports academy",
+              "link": "https://www.abc.net.au/news/2026-09-26/tasmanias-professional-sport-pathways-creating-job-opportunities/107197452",
+              "id": "https://www.abc.net.au/news/2026-09-26/tasmanias-professional-sport-pathways-creating-job-opportunities/107197452",
+              "author": "Selina Bryan",
+              "published_at": "2026-09-26T03:06:16Z",
+              "updated_at": "2026-09-26T03:06:16Z",
+              "summary": "Tasmania's sports sector is creating jobs at a scale not previously seen, galvanising academic pathways for those seeking careers in sports management.",
+              "categories": [
+                "Sports Industry"
+              ],
+              "feed": {
+                "title": "Just In",
+                "url": "https://www.abc.net.au/news/justin/",
+                "feed_url": "https://www.abc.net.au/news/feed/51120/rss.xml"
+              },
+              "outlet": "ABC News"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+            "elapsed_ms": 128,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^abc\\\\.net\\\\.au$\", \"ABC News\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "australia-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.abc.net.au/news/2026-09-26/tasmanias-professional-sport-pathways-creating-job-opportunities/107197452",
+      "tags": [
+        "Sports Industry"
+      ]
+    },
+    {
+      "id": "0133bea35cb7d8315a74",
+      "title": "ABC News: Australia not alone as OpenAI agents hacked other websites",
+      "content_text": "OpenAI says dozens more third parties were affected by rogue agents bypassing website security controls, as new traces reveal days of attempts to access Australian health data.",
+      "date_published": "2026-09-26T02:05:48Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "0133bea35cb7d8315a74",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.abc.net.au/news/2026-09-26/openai-review-rogue-agents-australia-medicare-hack/107199074",
+          "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:23:47Z",
+          "data": {
+            "change": "added",
+            "label": "ABC News: Australia not alone as OpenAI agents hacked other websites",
+            "item_type": "entry",
+            "summary": "added: ABC News: Australia not alone as OpenAI agents hacked other websites",
+            "after": {
+              "title": "ABC News: Australia not alone as OpenAI agents hacked other websites",
+              "link": "https://www.abc.net.au/news/2026-09-26/openai-review-rogue-agents-australia-medicare-hack/107199074",
+              "id": "https://www.abc.net.au/news/2026-09-26/openai-review-rogue-agents-australia-medicare-hack/107199074",
+              "author": "Clare Armstrong and Cam Wilson",
+              "published_at": "2026-09-26T02:05:48Z",
+              "updated_at": "2026-09-26T02:05:48Z",
+              "summary": "OpenAI says dozens more third parties were affected by rogue agents bypassing website security controls, as new traces reveal days of attempts to access Australian health data.",
+              "categories": [
+                "Cyber Security",
+                "AI",
+                "Federal Government",
+                "Data Privacy"
+              ],
+              "feed": {
+                "title": "Just In",
+                "url": "https://www.abc.net.au/news/justin/",
+                "feed_url": "https://www.abc.net.au/news/feed/51120/rss.xml"
+              },
+              "outlet": "ABC News"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+            "elapsed_ms": 128,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^abc\\\\.net\\\\.au$\", \"ABC News\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "australia-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.abc.net.au/news/2026-09-26/openai-review-rogue-agents-australia-medicare-hack/107199074",
+      "tags": [
+        "Cyber Security",
+        "AI",
+        "Federal Government",
+        "Data Privacy"
+      ]
+    },
+    {
+      "id": "d7bc51c56643b82c37bf",
+      "title": "ABC News: Beloved children's author Andy Griffiths immortalised with sculpture",
+      "content_text": "The 4-metre-high 3D-printed sculpture of the much-loved Australian children's author captures how Andy Griffiths' \"inner kid\" still runs riot while he's trying to be an adult.",
+      "date_published": "2026-09-26T02:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d7bc51c56643b82c37bf",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.abc.net.au/news/2026-09-26/act-andy-griffiths-sculpture-at-national-portrait-gallery/107196566",
+          "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:23:47Z",
+          "data": {
+            "change": "added",
+            "label": "ABC News: Beloved children's author Andy Griffiths immortalised with sculpture",
+            "item_type": "entry",
+            "summary": "added: ABC News: Beloved children's author Andy Griffiths immortalised with sculpture",
+            "after": {
+              "title": "ABC News: Beloved children's author Andy Griffiths immortalised with sculpture",
+              "link": "https://www.abc.net.au/news/2026-09-26/act-andy-griffiths-sculpture-at-national-portrait-gallery/107196566",
+              "id": "https://www.abc.net.au/news/2026-09-26/act-andy-griffiths-sculpture-at-national-portrait-gallery/107196566",
+              "author": "Lish  Fejer",
+              "published_at": "2026-09-26T02:00:00Z",
+              "updated_at": "2026-09-26T02:00:00Z",
+              "summary": "The 4-metre-high 3D-printed sculpture of the much-loved Australian children's author captures how Andy Griffiths' \"inner kid\" still runs riot while he's trying to be an adult.",
+              "categories": [
+                "Art",
+                "Libraries, Museums and Galleries",
+                "Kids Books",
+                "Author"
+              ],
+              "feed": {
+                "title": "Just In",
+                "url": "https://www.abc.net.au/news/justin/",
+                "feed_url": "https://www.abc.net.au/news/feed/51120/rss.xml"
+              },
+              "outlet": "ABC News"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+            "elapsed_ms": 128,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^abc\\\\.net\\\\.au$\", \"ABC News\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "australia-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.abc.net.au/news/2026-09-26/act-andy-griffiths-sculpture-at-national-portrait-gallery/107196566",
+      "tags": [
+        "Art",
+        "Libraries, Museums and Galleries",
+        "Kids Books",
+        "Author"
+      ]
+    },
+    {
+      "id": "7f300ce7c56301cf1557",
+      "title": "ABC News: Stunning Lions comeback breaks Freo hearts in all-time great grand final",
+      "content_text": "The Brisbane Lions launch an incredible fightback late in the grand final to edge Fremantle by seven points and win a third consecutive premiership.",
+      "date_published": "2026-09-26T01:57:19Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "7f300ce7c56301cf1557",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.abc.net.au/news/2026-09-26/afl-grand-final-fremantle-brisbane-live-blog/107196404",
+          "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:23:47Z",
+          "data": {
+            "change": "added",
+            "label": "ABC News: Stunning Lions comeback breaks Freo hearts in all-time great grand final",
+            "item_type": "entry",
+            "summary": "added: ABC News: Stunning Lions comeback breaks Freo hearts in all-time great grand final",
+            "after": {
+              "title": "ABC News: Stunning Lions comeback breaks Freo hearts in all-time great grand final",
+              "link": "https://www.abc.net.au/news/2026-09-26/afl-grand-final-fremantle-brisbane-live-blog/107196404",
+              "id": "https://www.abc.net.au/news/2026-09-26/afl-grand-final-fremantle-brisbane-live-blog/107196404",
+              "author": "Kyle Pollard, Andrew McGarry, and Chris De Silva",
+              "published_at": "2026-09-26T01:57:19Z",
+              "updated_at": "2026-09-26T01:57:19Z",
+              "summary": "The Brisbane Lions launch an incredible fightback late in the grand final to edge Fremantle by seven points and win a third consecutive premiership.",
+              "categories": [
+                "AFL",
+                "Sport",
+                "Australian Rules Football"
+              ],
+              "feed": {
+                "title": "Just In",
+                "url": "https://www.abc.net.au/news/justin/",
+                "feed_url": "https://www.abc.net.au/news/feed/51120/rss.xml"
+              },
+              "outlet": "ABC News"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+            "elapsed_ms": 128,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^abc\\\\.net\\\\.au$\", \"ABC News\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "australia-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.abc.net.au/news/2026-09-26/afl-grand-final-fremantle-brisbane-live-blog/107196404",
+      "tags": [
+        "AFL",
+        "Sport",
+        "Australian Rules Football"
+      ]
+    },
+    {
+      "id": "5e0b4dfe48a91b68172c",
+      "title": "ABC News: Did you know that cat bites or scratches can be deadly?",
+      "content_text": "For Nicky Stewart, trying to rescue her cat from a stray dog in her backyard led to a hospital stay and surgery after her cat clamped down on her hand.",
+      "date_published": "2026-09-26T01:04:51Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "5e0b4dfe48a91b68172c",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.abc.net.au/news/2026-09-26/cat-bites-scratches-can-lead-to-sepsis-death-gp-warns/107197410",
+          "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:23:47Z",
+          "data": {
+            "change": "added",
+            "label": "ABC News: Did you know that cat bites or scratches can be deadly?",
+            "item_type": "entry",
+            "summary": "added: ABC News: Did you know that cat bites or scratches can be deadly?",
+            "after": {
+              "title": "ABC News: Did you know that cat bites or scratches can be deadly?",
+              "link": "https://www.abc.net.au/news/2026-09-26/cat-bites-scratches-can-lead-to-sepsis-death-gp-warns/107197410",
+              "id": "https://www.abc.net.au/news/2026-09-26/cat-bites-scratches-can-lead-to-sepsis-death-gp-warns/107197410",
+              "author": "Crystal McKay",
+              "published_at": "2026-09-26T01:04:51Z",
+              "updated_at": "2026-09-26T01:04:51Z",
+              "summary": "For Nicky Stewart, trying to rescue her cat from a stray dog in her backyard led to a hospital stay and surgery after her cat clamped down on her hand.",
+              "categories": [
+                "Cats",
+                "Accidents and Emergency Incidents"
+              ],
+              "feed": {
+                "title": "Just In",
+                "url": "https://www.abc.net.au/news/justin/",
+                "feed_url": "https://www.abc.net.au/news/feed/51120/rss.xml"
+              },
+              "outlet": "ABC News"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+            "elapsed_ms": 128,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^abc\\\\.net\\\\.au$\", \"ABC News\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "australia-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.abc.net.au/news/2026-09-26/cat-bites-scratches-can-lead-to-sepsis-death-gp-warns/107197410",
+      "tags": [
+        "Cats",
+        "Accidents and Emergency Incidents"
+      ]
+    },
+    {
+      "id": "26da156ce627ba4b7961",
+      "title": "ABC News: Man critical after allegedly being stabbed while trying to stop car theft",
+      "content_text": "Three teenage boys have been arrested after the incident in Langwarrin, in Melbourne's south-east early this morning.",
+      "date_published": "2026-09-26T00:58:20Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "26da156ce627ba4b7961",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.abc.net.au/news/2026-09-26/teenagers-arrested-after-man-stabbed-during-alleged-car-theft/107199034",
+          "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:23:47Z",
+          "data": {
+            "change": "added",
+            "label": "ABC News: Man critical after allegedly being stabbed while trying to stop car theft",
+            "item_type": "entry",
+            "summary": "added: ABC News: Man critical after allegedly being stabbed while trying to stop car theft",
+            "after": {
+              "title": "ABC News: Man critical after allegedly being stabbed while trying to stop car theft",
+              "link": "https://www.abc.net.au/news/2026-09-26/teenagers-arrested-after-man-stabbed-during-alleged-car-theft/107199034",
+              "id": "https://www.abc.net.au/news/2026-09-26/teenagers-arrested-after-man-stabbed-during-alleged-car-theft/107199034",
+              "author": null,
+              "published_at": "2026-09-26T00:58:20Z",
+              "updated_at": "2026-09-26T00:58:20Z",
+              "summary": "Three teenage boys have been arrested after the incident in Langwarrin, in Melbourne's south-east early this morning.",
+              "categories": [
+                "Crime"
+              ],
+              "feed": {
+                "title": "Just In",
+                "url": "https://www.abc.net.au/news/justin/",
+                "feed_url": "https://www.abc.net.au/news/feed/51120/rss.xml"
+              },
+              "outlet": "ABC News"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+            "elapsed_ms": 128,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^abc\\\\.net\\\\.au$\", \"ABC News\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "australia-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.abc.net.au/news/2026-09-26/teenagers-arrested-after-man-stabbed-during-alleged-car-theft/107199034",
+      "tags": [
+        "Crime"
+      ]
+    },
+    {
+      "id": "5765abc11ef7b64fc100",
+      "title": "ABC News: 'It's an absolute Ferrari to fly on': ADF retires attack helicopters",
+      "content_text": "After more than two decades in the air, the Australian Defence Force's $1.1 billion fleet of attack helicopters, known as the Tigers, will be retired this month.",
+      "date_published": "2026-09-26T00:03:40Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "5765abc11ef7b64fc100",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.abc.net.au/news/2026-09-26/adf-retires-tiger-helicopters/107191758",
+          "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:23:47Z",
+          "data": {
+            "change": "added",
+            "label": "ABC News: 'It's an absolute Ferrari to fly on': ADF retires attack helicopters",
+            "item_type": "entry",
+            "summary": "added: ABC News: 'It's an absolute Ferrari to fly on': ADF retires attack helicopters",
+            "after": {
+              "title": "ABC News: 'It's an absolute Ferrari to fly on': ADF retires attack helicopters",
+              "link": "https://www.abc.net.au/news/2026-09-26/adf-retires-tiger-helicopters/107191758",
+              "id": "https://www.abc.net.au/news/2026-09-26/adf-retires-tiger-helicopters/107191758",
+              "author": "Tilda Colling",
+              "published_at": "2026-09-26T00:03:40Z",
+              "updated_at": "2026-09-26T00:03:40Z",
+              "summary": "After more than two decades in the air, the Australian Defence Force's $1.1 billion fleet of attack helicopters, known as the Tigers, will be retired this month.",
+              "categories": [
+                "Defence Forces",
+                "Army",
+                "Defence and National Security"
+              ],
+              "feed": {
+                "title": "Just In",
+                "url": "https://www.abc.net.au/news/justin/",
+                "feed_url": "https://www.abc.net.au/news/feed/51120/rss.xml"
+              },
+              "outlet": "ABC News"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+            "elapsed_ms": 128,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^abc\\\\.net\\\\.au$\", \"ABC News\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "australia-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.abc.net.au/news/2026-09-26/adf-retires-tiger-helicopters/107191758",
+      "tags": [
+        "Defence Forces",
+        "Army",
+        "Defence and National Security"
+      ]
+    },
+    {
+      "id": "b748d5c634e9bd9ac83a",
+      "title": "ABC News: Fake TV police station fuels outback town's plea for real thing",
+      "content_text": "When the filming of new Stan thriller Two Birds saw a fake police station erected in Boulder, WA, local businesses say crime and misbehaviour plummeted.",
+      "date_published": "2026-09-25T23:57:02Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "b748d5c634e9bd9ac83a",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.abc.net.au/news/2026-09-26/petition-for-police-station-in-boulder-stan-two-birds/107158790",
+          "source_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:23:47Z",
+          "data": {
+            "change": "added",
+            "label": "ABC News: Fake TV police station fuels outback town's plea for real thing",
+            "item_type": "entry",
+            "summary": "added: ABC News: Fake TV police station fuels outback town's plea for real thing",
+            "after": {
+              "title": "ABC News: Fake TV police station fuels outback town's plea for real thing",
+              "link": "https://www.abc.net.au/news/2026-09-26/petition-for-police-station-in-boulder-stan-two-birds/107158790",
+              "id": "https://www.abc.net.au/news/2026-09-26/petition-for-police-station-in-boulder-stan-two-birds/107158790",
+              "author": null,
+              "published_at": "2026-09-25T23:57:02Z",
+              "updated_at": "2026-09-25T23:57:02Z",
+              "summary": "When the filming of new Stan thriller Two Birds saw a fake police station erected in Boulder, WA, local businesses say crime and misbehaviour plummeted.",
+              "categories": [
+                "Crime Prevention",
+                "Regional Communities",
+                "History",
+                "Police"
+              ],
+              "feed": {
+                "title": "Just In",
+                "url": "https://www.abc.net.au/news/justin/",
+                "feed_url": "https://www.abc.net.au/news/feed/51120/rss.xml"
+              },
+              "outlet": "ABC News"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.abc.net.au/news/feed/51120/rss.xml",
+            "elapsed_ms": 128,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.|en\\\\.|e\\\\.|feeds\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^abc\\\\.net\\\\.au$\", \"ABC News\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "australia-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.abc.net.au/news/2026-09-26/petition-for-police-station-in-boulder-stan-two-birds/107158790",
+      "tags": [
+        "Crime Prevention",
+        "Regional Communities",
+        "History",
+        "Police"
+      ]
+    }
+  ]
+}

@@ -1,13 +1,212 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "World leaders' announcements (White House, Kremlin, European Commission)",
-  "home_page_url": "https://ec.europa.eu/commission/presscorner/api/rss?language=en",
-  "description": "Events collected by UnlimitedPipe 0.8.0",
+  "home_page_url": "https://www.whitehouse.gov/news/feed/",
+  "description": "Events collected by UnlimitedPipe 0.9.1",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.8.0"
+    "generator": "UnlimitedPipe 0.9.1"
   },
   "items": [
+    {
+      "id": "000c4e9b5bbe0521c693",
+      "title": "White House: Presidential Message on National Hunting and Fishing Day",
+      "content_text": "For over 250 years, America’s hunters and anglers have been faithful stewards of our great outdoors—respecting the land, pursuing their sport with honor, and preserving our lands and waters. On National Hunting and Fishing Day, we pay tribute to the American sportsmen, hunters, and fishermen who protect our abundant resources, cherish our Nation’s natural beauty, […]\nThe post Presidential Message on National Hunting and Fishing Day appeared first on The White House.",
+      "date_published": "2026-09-26T16:26:20Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "000c4e9b5bbe0521c693",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.whitehouse.gov/?p=51258",
+          "source_url": "https://www.whitehouse.gov/news/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:47Z",
+          "data": {
+            "change": "added",
+            "label": "White House: Presidential Message on National Hunting and Fishing Day",
+            "item_type": "entry",
+            "summary": "added: White House: Presidential Message on National Hunting and Fishing Day",
+            "after": {
+              "title": "White House: Presidential Message on National Hunting and Fishing Day",
+              "link": "https://www.whitehouse.gov/briefings-statements/2026/09/presidential-message-on-national-hunting-and-fishing-day/",
+              "id": "https://www.whitehouse.gov/?p=51258",
+              "author": "The White House",
+              "published_at": "2026-09-26T16:26:20Z",
+              "updated_at": "2026-09-26T16:26:20Z",
+              "summary": "For over 250 years, America’s hunters and anglers have been faithful stewards of our great outdoors—respecting the land, pursuing their sport with honor, and preserving our lands and waters. On National Hunting and Fishing Day, we pay tribute to the American sportsmen, hunters, and fishermen who protect our abundant resources, cherish our Nation’s natural beauty, […]\nThe post Presidential Message on National Hunting and Fishing Day appeared first on The White House.",
+              "categories": [
+                "Briefings & Statements"
+              ],
+              "feed": {
+                "title": "News – The White House",
+                "url": "https://www.whitehouse.gov/news/",
+                "feed_url": "https://www.whitehouse.gov/news/feed/"
+              },
+              "outlet": "White House"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.whitehouse.gov/news/feed/",
+            "elapsed_ms": 112,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^whitehouse\\\\.gov$\", \"White House\")",
+                  "outlet=replace(outlet, \"^en\\\\.kremlin\\\\.ru$\", \"Kremlin\")",
+                  "outlet=replace(outlet, \"^ec\\\\.europa\\\\.eu$\", \"European Commission\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "world-leaders",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.whitehouse.gov/briefings-statements/2026/09/presidential-message-on-national-hunting-and-fishing-day/",
+      "tags": [
+        "Briefings & Statements"
+      ]
+    },
+    {
+      "id": "197d5f5935bbc5cc114e",
+      "title": "Kremlin: Greetings to faculty members, students, post-graduates and graduates of the Russian University of Transport (MIIT)",
+      "content_text": "Vladimir\nPutin sent a congratulatory message to faculty members, students, post-graduates and graduates\nof the Russian University of Transport (MIIT) on its 130 th\nanniversary.",
+      "date_published": "2026-09-26T07:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "197d5f5935bbc5cc114e",
+          "source": "rss",
+          "type": "change",
+          "key": "http://en.kremlin.ru/events/president/news/80844",
+          "source_url": "http://en.kremlin.ru/events/president/news/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:47Z",
+          "data": {
+            "change": "added",
+            "label": "Kremlin: Greetings to faculty members, students, post-graduates and graduates of the Russian University of Transport (MIIT)",
+            "item_type": "entry",
+            "summary": "added: Kremlin: Greetings to faculty members, students, post-graduates and graduates of the Russian University of Transport (MIIT)",
+            "after": {
+              "title": "Kremlin: Greetings to faculty members, students, post-graduates and graduates of the Russian University of Transport (MIIT)",
+              "link": "http://en.kremlin.ru/events/president/news/80844",
+              "id": "http://en.kremlin.ru/events/president/news/80844",
+              "author": null,
+              "published_at": "2026-09-26T07:00:00Z",
+              "updated_at": "2026-09-26T12:54:04Z",
+              "summary": "Vladimir\nPutin sent a congratulatory message to faculty members, students, post-graduates and graduates\nof the Russian University of Transport (MIIT) on its 130 th\nanniversary.",
+              "categories": [],
+              "feed": {
+                "title": "Website of the President of Russia: President: News",
+                "url": "http://en.kremlin.ru/events/president/news",
+                "feed_url": "http://en.kremlin.ru/events/president/news/feed"
+              },
+              "outlet": "Kremlin"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "http://en.kremlin.ru/events/president/news/feed",
+            "elapsed_ms": 2557,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "map",
+              "version": "0.9.1",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^whitehouse\\\\.gov$\", \"White House\")",
+                  "outlet=replace(outlet, \"^en\\\\.kremlin\\\\.ru$\", \"Kremlin\")",
+                  "outlet=replace(outlet, \"^ec\\\\.europa\\\\.eu$\", \"European Commission\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "world-leaders",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "http://en.kremlin.ru/events/president/news/80844"
+    },
     {
       "id": "d9c9d1fc69901c1f9c25",
       "title": "European Commission: Wystąpienie komisarza Piotra Serafina podczas XXVI Międzynarodowej Konferencji „Rola chrześcijan w procesie integracji europejskiej” pt. „Europa skazana na podział czy zjednoczenie?”",

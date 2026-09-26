@@ -1,13 +1,87 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Thailand news in English",
-  "home_page_url": "https://www.khaosodenglish.com/feed/",
-  "description": "Events collected by UnlimitedPipe 0.8.0",
+  "home_page_url": "https://prachataienglish.com/rss.xml",
+  "description": "Events collected by UnlimitedPipe 0.9.1",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.8.0"
+    "generator": "UnlimitedPipe 0.9.1"
   },
   "items": [
+    {
+      "id": "5136e50339547eb9e2a9",
+      "title": "Social Security Board election postponed due to flood",
+      "content_text": "Social Security Board election postponed due to flood\nThe Social Security Board election, which was to take place tomorrow (27 September), has been postponed to 11 October due to heavy rain and flooding in several areas.\nThe Social Security Office said that the election is being postponed so that the election can be conducted fairly, ensure that voters can participate, and so that no particular candidate would be put at a disadvantage.\nHeavy rain and flooding have been reported in several areas…",
+      "date_published": "2026-09-26T16:35:28Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "5136e50339547eb9e2a9",
+          "source": "rss",
+          "type": "change",
+          "key": "12047 at https://prachataienglish.com",
+          "source_url": "https://prachataienglish.com/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:25Z",
+          "data": {
+            "change": "added",
+            "label": "Social Security Board election postponed due to flood",
+            "item_type": "entry",
+            "summary": "added: Social Security Board election postponed due to flood",
+            "after": {
+              "title": "Social Security Board election postponed due to flood",
+              "link": "https://prachataienglish.com/node/12047",
+              "id": "12047 at https://prachataienglish.com",
+              "author": "eng editor 1",
+              "published_at": "2026-09-26T16:35:28Z",
+              "updated_at": "2026-09-26T16:35:28Z",
+              "summary": "Social Security Board election postponed due to flood\nThe Social Security Board election, which was to take place tomorrow (27 September), has been postponed to 11 October due to heavy rain and flooding in several areas.\nThe Social Security Office said that the election is being postponed so that the election can be conducted fairly, ensure that voters can participate, and so that no particular candidate would be put at a disadvantage.\nHeavy rain and flooding have been reported in several areas of the country. The Social Security Office said that this may affect voters’ ability to get to the poll and disrupt the voting process. A meeting of board election commission therefore decided on Saturday (26 September) to postpone the election.\nCalls for the Social Security Board election to be postponed began on Saturday morning (26 September). The Progressive Social Security group, a team of reformist candidates running in the election, issued a statement saying that the flood situation mean voters may not be able to fully participate and going ahead with the election as scheduled would mean disenfranchising voters in flooded areas.\nSahassawat Kumkong, a People‘s Party MP for Chonburi, published an open letter to the Minister of Labour and the Social Security Board election commission calling for postponement. He said that over half of those eligible to vote in the Social Security Board election are registered in Bangkok, Chonburi, Samut Prakan, Nontaburi, Pathumthani, and Rayong — areas on alert for heavy rain and flood. Voters in these areas or may be preoccupied with moving their belongings out of the flood or taking care of family, and should not be asked to put themselves at more risk than others to get to the poll.\nThe election observation network We Watch issued a statement calling on the Social Security Office and the board election commission to postpone the election. Flooding would affect the voting process, and although some polling stations might be able to ope",
+              "categories": [],
+              "feed": {
+                "title": "Prachatai English",
+                "url": "https://prachataienglish.com/",
+                "feed_url": "https://prachataienglish.com/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://prachataienglish.com/rss.xml",
+            "elapsed_ms": 1418,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "thailand-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://prachataienglish.com/node/12047"
+    },
     {
       "id": "6187b9b1a0c329c2403c",
       "title": "Red Line suspends services on both routes after electrical fault",

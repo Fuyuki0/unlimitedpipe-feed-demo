@@ -1,0 +1,1672 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "UK government news (GOV.UK)",
+  "home_page_url": "https://www.gov.uk/search/news-and-communications",
+  "description": "Events collected by UnlimitedPipe 0.9.1",
+  "_unlimitedpipe": {
+    "schema": "unlimitedpipe.event/1",
+    "generator": "UnlimitedPipe 0.9.1"
+  },
+  "items": [
+    {
+      "id": "d2949936af9fc72cdef6",
+      "title": "New first-time buyer scheme to be confirmed at Budget",
+      "content_text": "The new scheme called Your First Home will support first-time buyers.",
+      "date_published": "2026-09-26T16:31:54Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d2949936af9fc72cdef6",
+          "source": "rss",
+          "type": "change",
+          "key": "tag:www.gov.uk,2005:/government/news/new-first-time-buyer-scheme-to-be-confirmed-at-budget",
+          "source_url": "https://www.gov.uk/search/news-and-communications.atom",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "New first-time buyer scheme to be confirmed at Budget",
+            "item_type": "entry",
+            "summary": "added: New first-time buyer scheme to be confirmed at Budget",
+            "after": {
+              "title": "New first-time buyer scheme to be confirmed at Budget",
+              "link": "https://www.gov.uk/government/news/new-first-time-buyer-scheme-to-be-confirmed-at-budget",
+              "id": "tag:www.gov.uk,2005:/government/news/new-first-time-buyer-scheme-to-be-confirmed-at-budget",
+              "author": null,
+              "published_at": "2026-09-26T16:31:54Z",
+              "updated_at": "2026-09-26T16:31:54Z",
+              "summary": "The new scheme called Your First Home will support first-time buyers.",
+              "categories": [],
+              "feed": {
+                "title": "News and communications",
+                "url": "https://www.gov.uk",
+                "feed_url": "https://www.gov.uk/search/news-and-communications.atom"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.gov.uk/search/news-and-communications.atom",
+            "elapsed_ms": 585,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "uk-government",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.gov.uk/government/news/new-first-time-buyer-scheme-to-be-confirmed-at-budget"
+    },
+    {
+      "id": "9ae4ad1aa6c32d42b4fb",
+      "title": "Education Secretary unveils plan for schools to tackle misogyny",
+      "content_text": "New whole-school approach to give schools new package of support to tackle misogyny and combat influence of figures like Andrew Tate",
+      "date_published": "2026-09-26T16:30:04Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "9ae4ad1aa6c32d42b4fb",
+          "source": "rss",
+          "type": "change",
+          "key": "tag:www.gov.uk,2005:/government/news/education-secretary-unveils-plan-for-schools-to-tackle-misogyny",
+          "source_url": "https://www.gov.uk/search/news-and-communications.atom",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "Education Secretary unveils plan for schools to tackle misogyny",
+            "item_type": "entry",
+            "summary": "added: Education Secretary unveils plan for schools to tackle misogyny",
+            "after": {
+              "title": "Education Secretary unveils plan for schools to tackle misogyny",
+              "link": "https://www.gov.uk/government/news/education-secretary-unveils-plan-for-schools-to-tackle-misogyny",
+              "id": "tag:www.gov.uk,2005:/government/news/education-secretary-unveils-plan-for-schools-to-tackle-misogyny",
+              "author": null,
+              "published_at": "2026-09-26T16:30:04Z",
+              "updated_at": "2026-09-26T16:30:04Z",
+              "summary": "New whole-school approach to give schools new package of support to tackle misogyny and combat influence of figures like Andrew Tate",
+              "categories": [],
+              "feed": {
+                "title": "News and communications",
+                "url": "https://www.gov.uk",
+                "feed_url": "https://www.gov.uk/search/news-and-communications.atom"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.gov.uk/search/news-and-communications.atom",
+            "elapsed_ms": 585,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "uk-government",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.gov.uk/government/news/education-secretary-unveils-plan-for-schools-to-tackle-misogyny"
+    },
+    {
+      "id": "50abb6d6f986d7b5eff9",
+      "title": "Businesses lead pledge to champion women's equality and root out misogyny",
+      "content_text": "Top employers are the first to join the Minister for Women and Equalities to support the women's sector and stamp out misogyny.",
+      "date_published": "2026-09-26T09:00:04Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "50abb6d6f986d7b5eff9",
+          "source": "rss",
+          "type": "change",
+          "key": "tag:www.gov.uk,2005:/government/news/businesses-lead-pledge-to-champion-womens-equality-and-root-out-misogyny",
+          "source_url": "https://www.gov.uk/search/news-and-communications.atom",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "Businesses lead pledge to champion women's equality and root out misogyny",
+            "item_type": "entry",
+            "summary": "added: Businesses lead pledge to champion women's equality and root out misogyny",
+            "after": {
+              "title": "Businesses lead pledge to champion women's equality and root out misogyny",
+              "link": "https://www.gov.uk/government/news/businesses-lead-pledge-to-champion-womens-equality-and-root-out-misogyny",
+              "id": "tag:www.gov.uk,2005:/government/news/businesses-lead-pledge-to-champion-womens-equality-and-root-out-misogyny",
+              "author": null,
+              "published_at": "2026-09-26T09:00:04Z",
+              "updated_at": "2026-09-26T09:00:04Z",
+              "summary": "Top employers are the first to join the Minister for Women and Equalities to support the women's sector and stamp out misogyny.",
+              "categories": [],
+              "feed": {
+                "title": "News and communications",
+                "url": "https://www.gov.uk",
+                "feed_url": "https://www.gov.uk/search/news-and-communications.atom"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.gov.uk/search/news-and-communications.atom",
+            "elapsed_ms": 585,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "uk-government",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.gov.uk/government/news/businesses-lead-pledge-to-champion-womens-equality-and-root-out-misogyny"
+    },
+    {
+      "id": "0c26ac05502cd50d69a6",
+      "title": "1000 new youth workers to help reduce the risk of unemployment",
+      "content_text": "Young people will be able to access specialised support in their community, as the government makes largest investment into youth services in a generation.",
+      "date_published": "2026-09-25T23:01:02Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "0c26ac05502cd50d69a6",
+          "source": "rss",
+          "type": "change",
+          "key": "tag:www.gov.uk,2005:/government/news/1000-new-youth-workers-to-help-reduce-the-risk-of-unemployment",
+          "source_url": "https://www.gov.uk/search/news-and-communications.atom",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "1000 new youth workers to help reduce the risk of unemployment",
+            "item_type": "entry",
+            "summary": "added: 1000 new youth workers to help reduce the risk of unemployment",
+            "after": {
+              "title": "1000 new youth workers to help reduce the risk of unemployment",
+              "link": "https://www.gov.uk/government/news/1000-new-youth-workers-to-help-reduce-the-risk-of-unemployment",
+              "id": "tag:www.gov.uk,2005:/government/news/1000-new-youth-workers-to-help-reduce-the-risk-of-unemployment",
+              "author": null,
+              "published_at": "2026-09-25T23:01:02Z",
+              "updated_at": "2026-09-25T23:01:02Z",
+              "summary": "Young people will be able to access specialised support in their community, as the government makes largest investment into youth services in a generation.",
+              "categories": [],
+              "feed": {
+                "title": "News and communications",
+                "url": "https://www.gov.uk",
+                "feed_url": "https://www.gov.uk/search/news-and-communications.atom"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.gov.uk/search/news-and-communications.atom",
+            "elapsed_ms": 585,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "uk-government",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.gov.uk/government/news/1000-new-youth-workers-to-help-reduce-the-risk-of-unemployment"
+    },
+    {
+      "id": "2a927bded491d36b2c0e",
+      "title": "Boarded-up high streets brought back to life with £210m boost",
+      "content_text": "Delivers on the Prime Minister’s promise to put power back in local hands and bring good growth to every postcode.",
+      "date_published": "2026-09-25T19:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "2a927bded491d36b2c0e",
+          "source": "rss",
+          "type": "change",
+          "key": "tag:www.gov.uk,2005:/government/news/boarded-up-high-streets-brought-back-to-life-with-210m-boost",
+          "source_url": "https://www.gov.uk/search/news-and-communications.atom",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "Boarded-up high streets brought back to life with £210m boost",
+            "item_type": "entry",
+            "summary": "added: Boarded-up high streets brought back to life with £210m boost",
+            "after": {
+              "title": "Boarded-up high streets brought back to life with £210m boost",
+              "link": "https://www.gov.uk/government/news/boarded-up-high-streets-brought-back-to-life-with-210m-boost",
+              "id": "tag:www.gov.uk,2005:/government/news/boarded-up-high-streets-brought-back-to-life-with-210m-boost",
+              "author": null,
+              "published_at": "2026-09-25T19:00:00Z",
+              "updated_at": "2026-09-25T19:00:00Z",
+              "summary": "Delivers on the Prime Minister’s promise to put power back in local hands and bring good growth to every postcode.",
+              "categories": [],
+              "feed": {
+                "title": "News and communications",
+                "url": "https://www.gov.uk",
+                "feed_url": "https://www.gov.uk/search/news-and-communications.atom"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.gov.uk/search/news-and-communications.atom",
+            "elapsed_ms": 585,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "uk-government",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.gov.uk/government/news/boarded-up-high-streets-brought-back-to-life-with-210m-boost"
+    },
+    {
+      "id": "2ea40a999c0b2ba750ef",
+      "title": "Our focus must be on helping people move beyond prolonged displacement: UK statement at the UN Security Council",
+      "content_text": "Statement by Ambassador Kate Foster, UK Deputy Permanent Representative to the UN, at the UN Security Council meeting on Refugees.",
+      "date_published": "2026-09-25T15:45:10Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "2ea40a999c0b2ba750ef",
+          "source": "rss",
+          "type": "change",
+          "key": "tag:www.gov.uk,2005:/government/speeches/our-focus-must-be-on-helping-people-move-beyond-prolonged-displacement-uk-statement-at-the-un-security-council",
+          "source_url": "https://www.gov.uk/search/news-and-communications.atom",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "Our focus must be on helping people move beyond prolonged displacement: UK statement at the UN Security Council",
+            "item_type": "entry",
+            "summary": "added: Our focus must be on helping people move beyond prolonged displacement: UK statement at the UN Security Council",
+            "after": {
+              "title": "Our focus must be on helping people move beyond prolonged displacement: UK statement at the UN Security Council",
+              "link": "https://www.gov.uk/government/speeches/our-focus-must-be-on-helping-people-move-beyond-prolonged-displacement-uk-statement-at-the-un-security-council",
+              "id": "tag:www.gov.uk,2005:/government/speeches/our-focus-must-be-on-helping-people-move-beyond-prolonged-displacement-uk-statement-at-the-un-security-council",
+              "author": null,
+              "published_at": "2026-09-25T15:45:10Z",
+              "updated_at": "2026-09-25T15:45:10Z",
+              "summary": "Statement by Ambassador Kate Foster, UK Deputy Permanent Representative to the UN, at the UN Security Council meeting on Refugees.",
+              "categories": [],
+              "feed": {
+                "title": "News and communications",
+                "url": "https://www.gov.uk",
+                "feed_url": "https://www.gov.uk/search/news-and-communications.atom"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.gov.uk/search/news-and-communications.atom",
+            "elapsed_ms": 585,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "uk-government",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.gov.uk/government/speeches/our-focus-must-be-on-helping-people-move-beyond-prolonged-displacement-uk-statement-at-the-un-security-council"
+    },
+    {
+      "id": "a4251370805c2ef0e321",
+      "title": "School minibus operator suspended and fleet cut after serious compliance failings",
+      "content_text": "A North East independent school has had its public service vehicle operator’s licence suspended and curtailed following a public inquiry which identified significant maintenance and compliance shortcomings.",
+      "date_published": "2026-09-25T15:21:38Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "a4251370805c2ef0e321",
+          "source": "rss",
+          "type": "change",
+          "key": "tag:www.gov.uk,2005:/government/news/school-minibus-operator-suspended-and-fleet-cut-after-serious-compliance-failings",
+          "source_url": "https://www.gov.uk/search/news-and-communications.atom",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "School minibus operator suspended and fleet cut after serious compliance failings",
+            "item_type": "entry",
+            "summary": "added: School minibus operator suspended and fleet cut after serious compliance failings",
+            "after": {
+              "title": "School minibus operator suspended and fleet cut after serious compliance failings",
+              "link": "https://www.gov.uk/government/news/school-minibus-operator-suspended-and-fleet-cut-after-serious-compliance-failings",
+              "id": "tag:www.gov.uk,2005:/government/news/school-minibus-operator-suspended-and-fleet-cut-after-serious-compliance-failings",
+              "author": null,
+              "published_at": "2026-09-25T15:21:38Z",
+              "updated_at": "2026-09-25T15:21:38Z",
+              "summary": "A North East independent school has had its public service vehicle operator’s licence suspended and curtailed following a public inquiry which identified significant maintenance and compliance shortcomings.",
+              "categories": [],
+              "feed": {
+                "title": "News and communications",
+                "url": "https://www.gov.uk",
+                "feed_url": "https://www.gov.uk/search/news-and-communications.atom"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.gov.uk/search/news-and-communications.atom",
+            "elapsed_ms": 585,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "uk-government",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.gov.uk/government/news/school-minibus-operator-suspended-and-fleet-cut-after-serious-compliance-failings"
+    },
+    {
+      "id": "ec52e300ddb4d28b68b6",
+      "title": "More enriching activities for hundreds of thousands of children",
+      "content_text": "More than 400 schools in disadvantaged communities to benefit from £22.5 million investment and tailored support to expand access to enrichment opportunities.",
+      "date_published": "2026-09-25T14:50:30Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ec52e300ddb4d28b68b6",
+          "source": "rss",
+          "type": "change",
+          "key": "tag:www.gov.uk,2005:/government/news/more-enriching-activities-for-hundreds-of-thousands-of-children",
+          "source_url": "https://www.gov.uk/search/news-and-communications.atom",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "More enriching activities for hundreds of thousands of children",
+            "item_type": "entry",
+            "summary": "added: More enriching activities for hundreds of thousands of children",
+            "after": {
+              "title": "More enriching activities for hundreds of thousands of children",
+              "link": "https://www.gov.uk/government/news/more-enriching-activities-for-hundreds-of-thousands-of-children",
+              "id": "tag:www.gov.uk,2005:/government/news/more-enriching-activities-for-hundreds-of-thousands-of-children",
+              "author": null,
+              "published_at": "2026-09-25T14:50:30Z",
+              "updated_at": "2026-09-25T14:50:30Z",
+              "summary": "More than 400 schools in disadvantaged communities to benefit from £22.5 million investment and tailored support to expand access to enrichment opportunities.",
+              "categories": [],
+              "feed": {
+                "title": "News and communications",
+                "url": "https://www.gov.uk",
+                "feed_url": "https://www.gov.uk/search/news-and-communications.atom"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.gov.uk/search/news-and-communications.atom",
+            "elapsed_ms": 585,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "uk-government",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.gov.uk/government/news/more-enriching-activities-for-hundreds-of-thousands-of-children"
+    },
+    {
+      "id": "b2eb8403efa31de8b8e7",
+      "title": "North East Lincolnshire Council: Local Plan intervention letter",
+      "content_text": "The Minister of State for Housing and Planning, the Right Honourable Matthew Pennycook MP, has written to North East Lincolnshire Council about their Local Plan.",
+      "date_published": "2026-09-25T14:44:44Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "b2eb8403efa31de8b8e7",
+          "source": "rss",
+          "type": "change",
+          "key": "tag:www.gov.uk,2005:/government/publications/north-east-lincolnshire-council-local-plan-intervention-letter",
+          "source_url": "https://www.gov.uk/search/news-and-communications.atom",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "North East Lincolnshire Council: Local Plan intervention letter",
+            "item_type": "entry",
+            "summary": "added: North East Lincolnshire Council: Local Plan intervention letter",
+            "after": {
+              "title": "North East Lincolnshire Council: Local Plan intervention letter",
+              "link": "https://www.gov.uk/government/publications/north-east-lincolnshire-council-local-plan-intervention-letter",
+              "id": "tag:www.gov.uk,2005:/government/publications/north-east-lincolnshire-council-local-plan-intervention-letter",
+              "author": null,
+              "published_at": "2026-09-25T14:44:44Z",
+              "updated_at": "2026-09-25T14:44:44Z",
+              "summary": "The Minister of State for Housing and Planning, the Right Honourable Matthew Pennycook MP, has written to North East Lincolnshire Council about their Local Plan.",
+              "categories": [],
+              "feed": {
+                "title": "News and communications",
+                "url": "https://www.gov.uk",
+                "feed_url": "https://www.gov.uk/search/news-and-communications.atom"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.gov.uk/search/news-and-communications.atom",
+            "elapsed_ms": 585,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "uk-government",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.gov.uk/government/publications/north-east-lincolnshire-council-local-plan-intervention-letter"
+    },
+    {
+      "id": "84682d4b53be36c36885",
+      "title": "How to submit applications and complaints to the CAC",
+      "content_text": "The submission of applications and complaints to the CAC.",
+      "date_published": "2026-09-25T13:37:22Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "84682d4b53be36c36885",
+          "source": "rss",
+          "type": "change",
+          "key": "tag:www.gov.uk,2005:/government/news/applications-and-complaints",
+          "source_url": "https://www.gov.uk/search/news-and-communications.atom",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "How to submit applications and complaints to the CAC",
+            "item_type": "entry",
+            "summary": "added: How to submit applications and complaints to the CAC",
+            "after": {
+              "title": "How to submit applications and complaints to the CAC",
+              "link": "https://www.gov.uk/government/news/applications-and-complaints",
+              "id": "tag:www.gov.uk,2005:/government/news/applications-and-complaints",
+              "author": null,
+              "published_at": "2026-09-25T13:37:22Z",
+              "updated_at": "2026-09-25T13:37:22Z",
+              "summary": "The submission of applications and complaints to the CAC.",
+              "categories": [],
+              "feed": {
+                "title": "News and communications",
+                "url": "https://www.gov.uk",
+                "feed_url": "https://www.gov.uk/search/news-and-communications.atom"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.gov.uk/search/news-and-communications.atom",
+            "elapsed_ms": 585,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "uk-government",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.gov.uk/government/news/applications-and-complaints"
+    },
+    {
+      "id": "40e401e920abcc8970ec",
+      "title": "Oil and gas: OPRED communications, 2026",
+      "content_text": "OPRED communications issued to stakeholders in 2026.",
+      "date_published": "2026-09-25T13:09:20Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "40e401e920abcc8970ec",
+          "source": "rss",
+          "type": "change",
+          "key": "tag:www.gov.uk,2005:/government/publications/oil-and-gas-opred-communications-2026",
+          "source_url": "https://www.gov.uk/search/news-and-communications.atom",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "Oil and gas: OPRED communications, 2026",
+            "item_type": "entry",
+            "summary": "added: Oil and gas: OPRED communications, 2026",
+            "after": {
+              "title": "Oil and gas: OPRED communications, 2026",
+              "link": "https://www.gov.uk/government/publications/oil-and-gas-opred-communications-2026",
+              "id": "tag:www.gov.uk,2005:/government/publications/oil-and-gas-opred-communications-2026",
+              "author": null,
+              "published_at": "2026-09-25T13:09:20Z",
+              "updated_at": "2026-09-25T13:09:20Z",
+              "summary": "OPRED communications issued to stakeholders in 2026.",
+              "categories": [],
+              "feed": {
+                "title": "News and communications",
+                "url": "https://www.gov.uk",
+                "feed_url": "https://www.gov.uk/search/news-and-communications.atom"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.gov.uk/search/news-and-communications.atom",
+            "elapsed_ms": 585,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "uk-government",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.gov.uk/government/publications/oil-and-gas-opred-communications-2026"
+    },
+    {
+      "id": "39e2584d0868fef269e9",
+      "title": "Online retailer shut down had £6.3 million unexplained transactions",
+      "content_text": "Funnyfuzzy Tech UK Co., Ltd sold pet supplies online – a previous company was wound up in 2024",
+      "date_published": "2026-09-25T13:05:48Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "39e2584d0868fef269e9",
+          "source": "rss",
+          "type": "change",
+          "key": "tag:www.gov.uk,2005:/government/news/online-retailer-shut-down-had-63-million-unexplained-transactions",
+          "source_url": "https://www.gov.uk/search/news-and-communications.atom",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "Online retailer shut down had £6.3 million unexplained transactions",
+            "item_type": "entry",
+            "summary": "added: Online retailer shut down had £6.3 million unexplained transactions",
+            "after": {
+              "title": "Online retailer shut down had £6.3 million unexplained transactions",
+              "link": "https://www.gov.uk/government/news/online-retailer-shut-down-had-63-million-unexplained-transactions",
+              "id": "tag:www.gov.uk,2005:/government/news/online-retailer-shut-down-had-63-million-unexplained-transactions",
+              "author": null,
+              "published_at": "2026-09-25T13:05:48Z",
+              "updated_at": "2026-09-25T13:05:48Z",
+              "summary": "Funnyfuzzy Tech UK Co., Ltd sold pet supplies online – a previous company was wound up in 2024",
+              "categories": [],
+              "feed": {
+                "title": "News and communications",
+                "url": "https://www.gov.uk",
+                "feed_url": "https://www.gov.uk/search/news-and-communications.atom"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.gov.uk/search/news-and-communications.atom",
+            "elapsed_ms": 585,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "uk-government",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.gov.uk/government/news/online-retailer-shut-down-had-63-million-unexplained-transactions"
+    },
+    {
+      "id": "555eff4b948a3b9a6866",
+      "title": "Current inspections",
+      "content_text": "Details of our live inspections, and any inspection reports awaiting publication.",
+      "date_published": "2026-09-25T12:53:46Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "555eff4b948a3b9a6866",
+          "source": "rss",
+          "type": "change",
+          "key": "tag:www.gov.uk,2005:/government/news/current-inspections",
+          "source_url": "https://www.gov.uk/search/news-and-communications.atom",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "Current inspections",
+            "item_type": "entry",
+            "summary": "added: Current inspections",
+            "after": {
+              "title": "Current inspections",
+              "link": "https://www.gov.uk/government/news/current-inspections",
+              "id": "tag:www.gov.uk,2005:/government/news/current-inspections",
+              "author": null,
+              "published_at": "2026-09-25T12:53:46Z",
+              "updated_at": "2026-09-25T12:53:46Z",
+              "summary": "Details of our live inspections, and any inspection reports awaiting publication.",
+              "categories": [],
+              "feed": {
+                "title": "News and communications",
+                "url": "https://www.gov.uk",
+                "feed_url": "https://www.gov.uk/search/news-and-communications.atom"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.gov.uk/search/news-and-communications.atom",
+            "elapsed_ms": 585,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "uk-government",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.gov.uk/government/news/current-inspections"
+    },
+    {
+      "id": "b937e0feec9ae6919d7b",
+      "title": "UK steps up humanitarian support for vulnerable civilians in Yemen following Houthi escalation",
+      "content_text": "Tens of thousands of Yemenis displaced by escalating Houthi violence will be supported by new UK funding.",
+      "date_published": "2026-09-25T12:52:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "b937e0feec9ae6919d7b",
+          "source": "rss",
+          "type": "change",
+          "key": "tag:www.gov.uk,2005:/government/news/uk-steps-up-humanitarian-support-for-vulnerable-civilians-in-yemen-following-houthi-escalation",
+          "source_url": "https://www.gov.uk/search/news-and-communications.atom",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "UK steps up humanitarian support for vulnerable civilians in Yemen following Houthi escalation",
+            "item_type": "entry",
+            "summary": "added: UK steps up humanitarian support for vulnerable civilians in Yemen following Houthi escalation",
+            "after": {
+              "title": "UK steps up humanitarian support for vulnerable civilians in Yemen following Houthi escalation",
+              "link": "https://www.gov.uk/government/news/uk-steps-up-humanitarian-support-for-vulnerable-civilians-in-yemen-following-houthi-escalation",
+              "id": "tag:www.gov.uk,2005:/government/news/uk-steps-up-humanitarian-support-for-vulnerable-civilians-in-yemen-following-houthi-escalation",
+              "author": null,
+              "published_at": "2026-09-25T12:52:00Z",
+              "updated_at": "2026-09-25T12:52:00Z",
+              "summary": "Tens of thousands of Yemenis displaced by escalating Houthi violence will be supported by new UK funding.",
+              "categories": [],
+              "feed": {
+                "title": "News and communications",
+                "url": "https://www.gov.uk",
+                "feed_url": "https://www.gov.uk/search/news-and-communications.atom"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.gov.uk/search/news-and-communications.atom",
+            "elapsed_ms": 585,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "uk-government",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.gov.uk/government/news/uk-steps-up-humanitarian-support-for-vulnerable-civilians-in-yemen-following-houthi-escalation"
+    },
+    {
+      "id": "aa12bacc95867a3fe0ed",
+      "title": "Sixth powerful attack submarine departs Barrow-in-Furness for sea trials",
+      "content_text": "UK and Euro-Atlantic security will soon be boosted, as the Royal Navy’s sixth powerful attack submarine departs from Barrow-in-Furness.",
+      "date_published": "2026-09-25T11:23:17Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "aa12bacc95867a3fe0ed",
+          "source": "rss",
+          "type": "change",
+          "key": "tag:www.gov.uk,2005:/government/news/sixth-powerful-attack-submarine-departs-barrow-in-furness-for-sea-trials",
+          "source_url": "https://www.gov.uk/search/news-and-communications.atom",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "Sixth powerful attack submarine departs Barrow-in-Furness for sea trials",
+            "item_type": "entry",
+            "summary": "added: Sixth powerful attack submarine departs Barrow-in-Furness for sea trials",
+            "after": {
+              "title": "Sixth powerful attack submarine departs Barrow-in-Furness for sea trials",
+              "link": "https://www.gov.uk/government/news/sixth-powerful-attack-submarine-departs-barrow-in-furness-for-sea-trials",
+              "id": "tag:www.gov.uk,2005:/government/news/sixth-powerful-attack-submarine-departs-barrow-in-furness-for-sea-trials",
+              "author": null,
+              "published_at": "2026-09-25T11:23:17Z",
+              "updated_at": "2026-09-25T11:23:17Z",
+              "summary": "UK and Euro-Atlantic security will soon be boosted, as the Royal Navy’s sixth powerful attack submarine departs from Barrow-in-Furness.",
+              "categories": [],
+              "feed": {
+                "title": "News and communications",
+                "url": "https://www.gov.uk",
+                "feed_url": "https://www.gov.uk/search/news-and-communications.atom"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.gov.uk/search/news-and-communications.atom",
+            "elapsed_ms": 585,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "uk-government",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.gov.uk/government/news/sixth-powerful-attack-submarine-departs-barrow-in-furness-for-sea-trials"
+    },
+    {
+      "id": "8759429983ac1a3de03f",
+      "title": "Biggest ever overhaul of SEND teacher training begins",
+      "content_text": "First-of-their-kind training materials published in first step towards every teacher being supported to teach children and young people with SEND",
+      "date_published": "2026-09-25T09:33:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "8759429983ac1a3de03f",
+          "source": "rss",
+          "type": "change",
+          "key": "tag:www.gov.uk,2005:/government/news/biggest-ever-overhaul-of-send-teacher-training-begins",
+          "source_url": "https://www.gov.uk/search/news-and-communications.atom",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "Biggest ever overhaul of SEND teacher training begins",
+            "item_type": "entry",
+            "summary": "added: Biggest ever overhaul of SEND teacher training begins",
+            "after": {
+              "title": "Biggest ever overhaul of SEND teacher training begins",
+              "link": "https://www.gov.uk/government/news/biggest-ever-overhaul-of-send-teacher-training-begins",
+              "id": "tag:www.gov.uk,2005:/government/news/biggest-ever-overhaul-of-send-teacher-training-begins",
+              "author": null,
+              "published_at": "2026-09-25T09:33:26Z",
+              "updated_at": "2026-09-25T09:33:26Z",
+              "summary": "First-of-their-kind training materials published in first step towards every teacher being supported to teach children and young people with SEND",
+              "categories": [],
+              "feed": {
+                "title": "News and communications",
+                "url": "https://www.gov.uk",
+                "feed_url": "https://www.gov.uk/search/news-and-communications.atom"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.gov.uk/search/news-and-communications.atom",
+            "elapsed_ms": 585,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "uk-government",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.gov.uk/government/news/biggest-ever-overhaul-of-send-teacher-training-begins"
+    },
+    {
+      "id": "00874cb647a96bfc65c0",
+      "title": "CMA response to consultation on swifter and simpler competition redress, regulatory appeals and competition enforcement",
+      "content_text": "Response by the Competition and Markets Authority (CMA) to the Department for Business, Innovation, Science and Trade's (BIST) consultation.",
+      "date_published": "2026-09-25T09:30:33Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "00874cb647a96bfc65c0",
+          "source": "rss",
+          "type": "change",
+          "key": "tag:www.gov.uk,2005:/government/publications/cma-response-to-consultation-on-swifter-and-simpler-competition-redress-regulatory-appeals-and-competition-enforcement",
+          "source_url": "https://www.gov.uk/search/news-and-communications.atom",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "CMA response to consultation on swifter and simpler competition redress, regulatory appeals and competition enforcement",
+            "item_type": "entry",
+            "summary": "added: CMA response to consultation on swifter and simpler competition redress, regulatory appeals and competition enforcement",
+            "after": {
+              "title": "CMA response to consultation on swifter and simpler competition redress, regulatory appeals and competition enforcement",
+              "link": "https://www.gov.uk/government/publications/cma-response-to-consultation-on-swifter-and-simpler-competition-redress-regulatory-appeals-and-competition-enforcement",
+              "id": "tag:www.gov.uk,2005:/government/publications/cma-response-to-consultation-on-swifter-and-simpler-competition-redress-regulatory-appeals-and-competition-enforcement",
+              "author": null,
+              "published_at": "2026-09-25T09:30:33Z",
+              "updated_at": "2026-09-25T09:30:33Z",
+              "summary": "Response by the Competition and Markets Authority (CMA) to the Department for Business, Innovation, Science and Trade's (BIST) consultation.",
+              "categories": [],
+              "feed": {
+                "title": "News and communications",
+                "url": "https://www.gov.uk",
+                "feed_url": "https://www.gov.uk/search/news-and-communications.atom"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.gov.uk/search/news-and-communications.atom",
+            "elapsed_ms": 585,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "uk-government",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.gov.uk/government/publications/cma-response-to-consultation-on-swifter-and-simpler-competition-redress-regulatory-appeals-and-competition-enforcement"
+    },
+    {
+      "id": "d5501687a41f47ecf43a",
+      "title": "British companies to access prized Ukraine data to develop AI drone swarms",
+      "content_text": "British companies will gain access to extensive battlefield data from Ukraine for the first time to develop new AI models for advanced drone swarms.",
+      "date_published": "2026-09-25T09:07:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d5501687a41f47ecf43a",
+          "source": "rss",
+          "type": "change",
+          "key": "tag:www.gov.uk,2005:/government/news/british-companies-to-access-prized-ukraine-data-to-develop-ai-drone-swarms",
+          "source_url": "https://www.gov.uk/search/news-and-communications.atom",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "British companies to access prized Ukraine data to develop AI drone swarms",
+            "item_type": "entry",
+            "summary": "added: British companies to access prized Ukraine data to develop AI drone swarms",
+            "after": {
+              "title": "British companies to access prized Ukraine data to develop AI drone swarms",
+              "link": "https://www.gov.uk/government/news/british-companies-to-access-prized-ukraine-data-to-develop-ai-drone-swarms",
+              "id": "tag:www.gov.uk,2005:/government/news/british-companies-to-access-prized-ukraine-data-to-develop-ai-drone-swarms",
+              "author": null,
+              "published_at": "2026-09-25T09:07:00Z",
+              "updated_at": "2026-09-25T09:07:00Z",
+              "summary": "British companies will gain access to extensive battlefield data from Ukraine for the first time to develop new AI models for advanced drone swarms.",
+              "categories": [],
+              "feed": {
+                "title": "News and communications",
+                "url": "https://www.gov.uk",
+                "feed_url": "https://www.gov.uk/search/news-and-communications.atom"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.gov.uk/search/news-and-communications.atom",
+            "elapsed_ms": 585,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "uk-government",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.gov.uk/government/news/british-companies-to-access-prized-ukraine-data-to-develop-ai-drone-swarms"
+    },
+    {
+      "id": "f27c78a4e37453848553",
+      "title": "CEOs from sensitive sectors to receive briefings on Russia threats",
+      "content_text": "CEOs from the most sensitive sectors of the economy will receive closed-door briefings on threats posed by Russia",
+      "date_published": "2026-09-25T09:03:42Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "f27c78a4e37453848553",
+          "source": "rss",
+          "type": "change",
+          "key": "tag:www.gov.uk,2005:/government/news/ceos-from-sensitive-sectors-to-receive-briefings-on-russia-threats",
+          "source_url": "https://www.gov.uk/search/news-and-communications.atom",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "CEOs from sensitive sectors to receive briefings on Russia threats",
+            "item_type": "entry",
+            "summary": "added: CEOs from sensitive sectors to receive briefings on Russia threats",
+            "after": {
+              "title": "CEOs from sensitive sectors to receive briefings on Russia threats",
+              "link": "https://www.gov.uk/government/news/ceos-from-sensitive-sectors-to-receive-briefings-on-russia-threats",
+              "id": "tag:www.gov.uk,2005:/government/news/ceos-from-sensitive-sectors-to-receive-briefings-on-russia-threats",
+              "author": null,
+              "published_at": "2026-09-25T09:03:42Z",
+              "updated_at": "2026-09-25T09:03:42Z",
+              "summary": "CEOs from the most sensitive sectors of the economy will receive closed-door briefings on threats posed by Russia",
+              "categories": [],
+              "feed": {
+                "title": "News and communications",
+                "url": "https://www.gov.uk",
+                "feed_url": "https://www.gov.uk/search/news-and-communications.atom"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.gov.uk/search/news-and-communications.atom",
+            "elapsed_ms": 585,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "uk-government",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.gov.uk/government/news/ceos-from-sensitive-sectors-to-receive-briefings-on-russia-threats"
+    },
+    {
+      "id": "9c332a23f099e0fdac96",
+      "title": "Argos Georgia report and safety flyer published",
+      "content_text": "Foundering of a fishing vessel approximately 190 nautical miles east of Port Stanley, Falkland Islands, with the loss of 13 lives.",
+      "date_published": "2026-09-25T09:00:02Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "9c332a23f099e0fdac96",
+          "source": "rss",
+          "type": "change",
+          "key": "tag:www.gov.uk,2005:/government/news/argos-georgia-report-and-safety-flyer-published",
+          "source_url": "https://www.gov.uk/search/news-and-communications.atom",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:27:36Z",
+          "data": {
+            "change": "added",
+            "label": "Argos Georgia report and safety flyer published",
+            "item_type": "entry",
+            "summary": "added: Argos Georgia report and safety flyer published",
+            "after": {
+              "title": "Argos Georgia report and safety flyer published",
+              "link": "https://www.gov.uk/government/news/argos-georgia-report-and-safety-flyer-published",
+              "id": "tag:www.gov.uk,2005:/government/news/argos-georgia-report-and-safety-flyer-published",
+              "author": null,
+              "published_at": "2026-09-25T09:00:02Z",
+              "updated_at": "2026-09-25T09:00:02Z",
+              "summary": "Foundering of a fishing vessel approximately 190 nautical miles east of Port Stanley, Falkland Islands, with the loss of 13 lives.",
+              "categories": [],
+              "feed": {
+                "title": "News and communications",
+                "url": "https://www.gov.uk",
+                "feed_url": "https://www.gov.uk/search/news-and-communications.atom"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.gov.uk/search/news-and-communications.atom",
+            "elapsed_ms": 585,
+            "not_modified": false,
+            "method": "atom10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "uk-government",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.gov.uk/government/news/argos-georgia-report-and-safety-flyer-published"
+    }
+  ]
+}

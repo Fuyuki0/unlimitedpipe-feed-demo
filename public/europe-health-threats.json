@@ -1,0 +1,842 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "ECDC: disease threats",
+  "home_page_url": "https://www.ecdc.europa.eu/en/threats-and-outbreaks",
+  "description": "Events collected by UnlimitedPipe 0.9.1",
+  "_unlimitedpipe": {
+    "schema": "unlimitedpipe.event/1",
+    "generator": "UnlimitedPipe 0.9.1"
+  },
+  "items": [
+    {
+      "id": "3b966fb44633b9c3deca",
+      "title": "Ebola disease outbreak in the Democratic Republic of the Congo",
+      "content_text": "Since May 2026, an Ebola virus disease outbreak caused by Bundibugyo virus has been ongoing in the Democratic Republic of the Congo (DRC).",
+      "date_published": "2026-09-23T15:36:21Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "3b966fb44633b9c3deca",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+          "source_url": "https://www.ecdc.europa.eu/en/taxonomy/term/1307/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:24:25Z",
+          "data": {
+            "change": "added",
+            "label": "Ebola disease outbreak in the Democratic Republic of the Congo",
+            "item_type": "entry",
+            "summary": "added: Ebola disease outbreak in the Democratic Republic of the Congo",
+            "after": {
+              "title": "Ebola disease outbreak in the Democratic Republic of the Congo",
+              "link": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+              "id": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda",
+              "author": "ECDC",
+              "published_at": "2026-09-23T15:36:21Z",
+              "updated_at": "2026-09-23T15:36:21Z",
+              "summary": "Since May 2026, an Ebola virus disease outbreak caused by Bundibugyo virus has been ongoing in the Democratic Republic of the Congo (DRC).",
+              "categories": [],
+              "feed": {
+                "title": "News",
+                "url": "https://www.ecdc.europa.eu/en",
+                "feed_url": "https://www.ecdc.europa.eu/en/taxonomy/term/1307/feed"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.ecdc.europa.eu/en/taxonomy/term/1307/feed",
+            "elapsed_ms": 166,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "europe-health-threats",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"
+    },
+    {
+      "id": "acff04e218a234f2796b",
+      "title": "ECDC deploys experts to DRC to increase support amidst ongoing Ebola outbreak",
+      "content_text": "With the Ebola disease situation in the Democratic Republic of the Congo (DRC) still critical, the European Centre for Disease Prevention and Control (ECDC) is deploying experts to DRC to increase support at the epicentre of the outbreak.",
+      "date_published": "2026-09-21T07:02:25Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "acff04e218a234f2796b",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.ecdc.europa.eu/en/news-events/ecdc-deploys-experts-drc-increase-support-amidst-ongoing-ebola-outbreak",
+          "source_url": "https://www.ecdc.europa.eu/en/taxonomy/term/1307/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:24:25Z",
+          "data": {
+            "change": "added",
+            "label": "ECDC deploys experts to DRC to increase support amidst ongoing Ebola outbreak",
+            "item_type": "entry",
+            "summary": "added: ECDC deploys experts to DRC to increase support amidst ongoing Ebola outbreak",
+            "after": {
+              "title": "ECDC deploys experts to DRC to increase support amidst ongoing Ebola outbreak",
+              "link": "https://www.ecdc.europa.eu/en/news-events/ecdc-deploys-experts-drc-increase-support-amidst-ongoing-ebola-outbreak",
+              "id": "https://www.ecdc.europa.eu/en/news-events/ecdc-deploys-experts-drc-increase-support-amidst-ongoing-ebola-outbreak",
+              "author": "ECDC",
+              "published_at": "2026-09-21T07:02:25Z",
+              "updated_at": "2026-09-21T07:02:25Z",
+              "summary": "With the Ebola disease situation in the Democratic Republic of the Congo (DRC) still critical, the European Centre for Disease Prevention and Control (ECDC) is deploying experts to DRC to increase support at the epicentre of the outbreak.",
+              "categories": [],
+              "feed": {
+                "title": "News",
+                "url": "https://www.ecdc.europa.eu/en",
+                "feed_url": "https://www.ecdc.europa.eu/en/taxonomy/term/1307/feed"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.ecdc.europa.eu/en/taxonomy/term/1307/feed",
+            "elapsed_ms": 166,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "europe-health-threats",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.ecdc.europa.eu/en/news-events/ecdc-deploys-experts-drc-increase-support-amidst-ongoing-ebola-outbreak"
+    },
+    {
+      "id": "27d7f2e0d67ba681d0b4",
+      "title": "Postcard from the field: Supporting outbreak preparedness in South Sudan - two EPIET fellows in the field",
+      "content_text": "In July and August, two fellows from ECDC’s long-standing European Programme for Intervention Epidemiology Training (EPIET) were deployed to South Sudan through the EU Health Task Force (EUHTF) and WHO’s Global Outbreak Alert and Response Network (GOARN), to support the country’s Ebola preparedness and strengthen surveillance.",
+      "date_published": "2026-09-16T11:34:58Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "27d7f2e0d67ba681d0b4",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.ecdc.europa.eu/en/news-events/postcard-field-supporting-outbreak-preparedness-south-sudan-two-epiet-fellows-field",
+          "source_url": "https://www.ecdc.europa.eu/en/taxonomy/term/1307/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:24:25Z",
+          "data": {
+            "change": "added",
+            "label": "Postcard from the field: Supporting outbreak preparedness in South Sudan - two EPIET fellows in the field",
+            "item_type": "entry",
+            "summary": "added: Postcard from the field: Supporting outbreak preparedness in South Sudan - two EPIET fellows in the field",
+            "after": {
+              "title": "Postcard from the field: Supporting outbreak preparedness in South Sudan - two EPIET fellows in the field",
+              "link": "https://www.ecdc.europa.eu/en/news-events/postcard-field-supporting-outbreak-preparedness-south-sudan-two-epiet-fellows-field",
+              "id": "https://www.ecdc.europa.eu/en/news-events/postcard-field-supporting-outbreak-preparedness-south-sudan-two-epiet-fellows-field",
+              "author": "ECDC",
+              "published_at": "2026-09-16T11:34:58Z",
+              "updated_at": "2026-09-16T11:34:58Z",
+              "summary": "In July and August, two fellows from ECDC’s long-standing European Programme for Intervention Epidemiology Training (EPIET) were deployed to South Sudan through the EU Health Task Force (EUHTF) and WHO’s Global Outbreak Alert and Response Network (GOARN), to support the country’s Ebola preparedness and strengthen surveillance.",
+              "categories": [],
+              "feed": {
+                "title": "News",
+                "url": "https://www.ecdc.europa.eu/en",
+                "feed_url": "https://www.ecdc.europa.eu/en/taxonomy/term/1307/feed"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.ecdc.europa.eu/en/taxonomy/term/1307/feed",
+            "elapsed_ms": 166,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "europe-health-threats",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.ecdc.europa.eu/en/news-events/postcard-field-supporting-outbreak-preparedness-south-sudan-two-epiet-fellows-field"
+    },
+    {
+      "id": "2db37e524548cfeca3bf",
+      "title": "MERS-CoV worldwide overview",
+      "content_text": "Summary Since the beginning of 2026, and as of 31 August 2026, two MERS cases, including one fatality, have been reported in Saudi Arabia.",
+      "date_published": "2026-09-07T12:20:22Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "2db37e524548cfeca3bf",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.ecdc.europa.eu/en/middle-east-respiratory-syndrome-coronavirus-mers-cov-situation-update",
+          "source_url": "https://www.ecdc.europa.eu/en/taxonomy/term/1307/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:24:25Z",
+          "data": {
+            "change": "added",
+            "label": "MERS-CoV worldwide overview",
+            "item_type": "entry",
+            "summary": "added: MERS-CoV worldwide overview",
+            "after": {
+              "title": "MERS-CoV worldwide overview",
+              "link": "https://www.ecdc.europa.eu/en/middle-east-respiratory-syndrome-coronavirus-mers-cov-situation-update",
+              "id": "https://www.ecdc.europa.eu/en/middle-east-respiratory-syndrome-coronavirus-mers-cov-situation-update",
+              "author": "ECDC",
+              "published_at": "2026-09-07T12:20:22Z",
+              "updated_at": "2026-09-07T12:20:22Z",
+              "summary": "Summary Since the beginning of 2026, and as of 31 August 2026, two MERS cases, including one fatality, have been reported in Saudi Arabia.",
+              "categories": [],
+              "feed": {
+                "title": "News",
+                "url": "https://www.ecdc.europa.eu/en",
+                "feed_url": "https://www.ecdc.europa.eu/en/taxonomy/term/1307/feed"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.ecdc.europa.eu/en/taxonomy/term/1307/feed",
+            "elapsed_ms": 166,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "europe-health-threats",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.ecdc.europa.eu/en/middle-east-respiratory-syndrome-coronavirus-mers-cov-situation-update"
+    },
+    {
+      "id": "03a2bd74c129619ce011",
+      "title": "World Mosquito Day 2026: Europe must upgrade control tools as disease risks rise",
+      "content_text": "Europe needs to improve its preparedness and control efforts as the risk of mosquito-borne diseases increases, with West Nile virus (WNV) continuing to spread to new regions and invasive mosquito species becoming established in more parts of Europe.",
+      "date_published": "2026-08-20T14:20:09Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "03a2bd74c129619ce011",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.ecdc.europa.eu/en/news-events/world-mosquito-day-2026-europe-must-upgrade-control-tools-disease-risks-rise",
+          "source_url": "https://www.ecdc.europa.eu/en/taxonomy/term/1307/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:24:25Z",
+          "data": {
+            "change": "added",
+            "label": "World Mosquito Day 2026: Europe must upgrade control tools as disease risks rise",
+            "item_type": "entry",
+            "summary": "added: World Mosquito Day 2026: Europe must upgrade control tools as disease risks rise",
+            "after": {
+              "title": "World Mosquito Day 2026: Europe must upgrade control tools as disease risks rise",
+              "link": "https://www.ecdc.europa.eu/en/news-events/world-mosquito-day-2026-europe-must-upgrade-control-tools-disease-risks-rise",
+              "id": "https://www.ecdc.europa.eu/en/news-events/world-mosquito-day-2026-europe-must-upgrade-control-tools-disease-risks-rise",
+              "author": "ECDC",
+              "published_at": "2026-08-20T14:20:09Z",
+              "updated_at": "2026-08-20T14:20:09Z",
+              "summary": "Europe needs to improve its preparedness and control efforts as the risk of mosquito-borne diseases increases, with West Nile virus (WNV) continuing to spread to new regions and invasive mosquito species becoming established in more parts of Europe.",
+              "categories": [],
+              "feed": {
+                "title": "News",
+                "url": "https://www.ecdc.europa.eu/en",
+                "feed_url": "https://www.ecdc.europa.eu/en/taxonomy/term/1307/feed"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.ecdc.europa.eu/en/taxonomy/term/1307/feed",
+            "elapsed_ms": 166,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "europe-health-threats",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.ecdc.europa.eu/en/news-events/world-mosquito-day-2026-europe-must-upgrade-control-tools-disease-risks-rise"
+    },
+    {
+      "id": "bd9e04ef1bfeb0ea09b1",
+      "title": "Epidemiological update – 11 August 2026: Imported case of Andes hantavirus in the EU/EEA",
+      "content_text": "On 6 August 2026, French public health authorities reported an imported case of Andes hantavirus infection in a traveller from Argentina.",
+      "date_published": "2026-08-20T11:39:42Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "bd9e04ef1bfeb0ea09b1",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.ecdc.europa.eu/en/news-events/epidemiological-update-11-august-2026-imported-case-andes-hantavirus-eueea",
+          "source_url": "https://www.ecdc.europa.eu/en/taxonomy/term/1307/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:24:25Z",
+          "data": {
+            "change": "added",
+            "label": "Epidemiological update – 11 August 2026: Imported case of Andes hantavirus in the EU/EEA",
+            "item_type": "entry",
+            "summary": "added: Epidemiological update – 11 August 2026: Imported case of Andes hantavirus in the EU/EEA",
+            "after": {
+              "title": "Epidemiological update – 11 August 2026: Imported case of Andes hantavirus in the EU/EEA",
+              "link": "https://www.ecdc.europa.eu/en/news-events/epidemiological-update-11-august-2026-imported-case-andes-hantavirus-eueea",
+              "id": "https://www.ecdc.europa.eu/en/news-events/epidemiological-update-11-august-2026-imported-case-andes-hantavirus-eueea",
+              "author": "ECDC",
+              "published_at": "2026-08-20T11:39:42Z",
+              "updated_at": "2026-08-20T11:39:42Z",
+              "summary": "On 6 August 2026, French public health authorities reported an imported case of Andes hantavirus infection in a traveller from Argentina.",
+              "categories": [],
+              "feed": {
+                "title": "News",
+                "url": "https://www.ecdc.europa.eu/en",
+                "feed_url": "https://www.ecdc.europa.eu/en/taxonomy/term/1307/feed"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.ecdc.europa.eu/en/taxonomy/term/1307/feed",
+            "elapsed_ms": 166,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "europe-health-threats",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.ecdc.europa.eu/en/news-events/epidemiological-update-11-august-2026-imported-case-andes-hantavirus-eueea"
+    },
+    {
+      "id": "ebc5233134e92dedd839",
+      "title": "Chikungunya virus disease worldwide overview",
+      "content_text": "Every month ECDC provides detailed epidemiological overview of the worldwide transmission of chikungunya virus disease in its weekly threat report (Communicable Diseases Threat Report).",
+      "date_published": "2026-08-10T14:05:05Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ebc5233134e92dedd839",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.ecdc.europa.eu/en/chikungunya-monthly",
+          "source_url": "https://www.ecdc.europa.eu/en/taxonomy/term/1307/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:24:25Z",
+          "data": {
+            "change": "added",
+            "label": "Chikungunya virus disease worldwide overview",
+            "item_type": "entry",
+            "summary": "added: Chikungunya virus disease worldwide overview",
+            "after": {
+              "title": "Chikungunya virus disease worldwide overview",
+              "link": "https://www.ecdc.europa.eu/en/chikungunya-monthly",
+              "id": "https://www.ecdc.europa.eu/en/chikungunya-monthly",
+              "author": "ECDC",
+              "published_at": "2026-08-10T14:05:05Z",
+              "updated_at": "2026-08-10T14:05:05Z",
+              "summary": "Every month ECDC provides detailed epidemiological overview of the worldwide transmission of chikungunya virus disease in its weekly threat report (Communicable Diseases Threat Report).",
+              "categories": [],
+              "feed": {
+                "title": "News",
+                "url": "https://www.ecdc.europa.eu/en",
+                "feed_url": "https://www.ecdc.europa.eu/en/taxonomy/term/1307/feed"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.ecdc.europa.eu/en/taxonomy/term/1307/feed",
+            "elapsed_ms": 166,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "europe-health-threats",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.ecdc.europa.eu/en/chikungunya-monthly"
+    },
+    {
+      "id": "746366adf8ed41f90541",
+      "title": "As sustained heatwaves increase the risk of infectious diseases across Europe, ECDC scales up action and calls for cooperation",
+      "content_text": "The risk of catching some infectious diseases is growing amidst longer, warmer summers across Europe, making close cooperation across borders and sectors vital to predict, prevent, and respond effectively, ECDC said today.",
+      "date_published": "2026-07-29T10:30:08Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "746366adf8ed41f90541",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.ecdc.europa.eu/en/news-events/sustained-heatwaves-increase-risk-infectious-diseases-across-europe-ecdc-scales-action",
+          "source_url": "https://www.ecdc.europa.eu/en/taxonomy/term/1307/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:24:25Z",
+          "data": {
+            "change": "added",
+            "label": "As sustained heatwaves increase the risk of infectious diseases across Europe, ECDC scales up action and calls for cooperation",
+            "item_type": "entry",
+            "summary": "added: As sustained heatwaves increase the risk of infectious diseases across Europe, ECDC scales up action and calls for cooperation",
+            "after": {
+              "title": "As sustained heatwaves increase the risk of infectious diseases across Europe, ECDC scales up action and calls for cooperation",
+              "link": "https://www.ecdc.europa.eu/en/news-events/sustained-heatwaves-increase-risk-infectious-diseases-across-europe-ecdc-scales-action",
+              "id": "https://www.ecdc.europa.eu/en/news-events/sustained-heatwaves-increase-risk-infectious-diseases-across-europe-ecdc-scales-action",
+              "author": "ECDC",
+              "published_at": "2026-07-29T10:30:08Z",
+              "updated_at": "2026-07-29T10:30:08Z",
+              "summary": "The risk of catching some infectious diseases is growing amidst longer, warmer summers across Europe, making close cooperation across borders and sectors vital to predict, prevent, and respond effectively, ECDC said today.",
+              "categories": [],
+              "feed": {
+                "title": "News",
+                "url": "https://www.ecdc.europa.eu/en",
+                "feed_url": "https://www.ecdc.europa.eu/en/taxonomy/term/1307/feed"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.ecdc.europa.eu/en/taxonomy/term/1307/feed",
+            "elapsed_ms": 166,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "europe-health-threats",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.ecdc.europa.eu/en/news-events/sustained-heatwaves-increase-risk-infectious-diseases-across-europe-ecdc-scales-action"
+    },
+    {
+      "id": "e853247a8e9bbbf84adf",
+      "title": "World Hepatitis Day 2026: Ensuring that life-saving interventions are accessible to everyone who needs them is a common challenge",
+      "content_text": "World Hepatitis Day is an opportunity to raise awareness of the risk of contracting hepatitis and the health threats it can bring, while at the same time recognising the progress Europe has made to strengthen prevention.",
+      "date_published": "2026-07-28T06:37:55Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "e853247a8e9bbbf84adf",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.ecdc.europa.eu/en/news-events/world-hepatitis-day-2026-ensuring-life-saving-interventions-are-accessible-everyone-who",
+          "source_url": "https://www.ecdc.europa.eu/en/taxonomy/term/1307/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:24:25Z",
+          "data": {
+            "change": "added",
+            "label": "World Hepatitis Day 2026: Ensuring that life-saving interventions are accessible to everyone who needs them is a common challenge",
+            "item_type": "entry",
+            "summary": "added: World Hepatitis Day 2026: Ensuring that life-saving interventions are accessible to everyone who needs them is a common challenge",
+            "after": {
+              "title": "World Hepatitis Day 2026: Ensuring that life-saving interventions are accessible to everyone who needs them is a common challenge",
+              "link": "https://www.ecdc.europa.eu/en/news-events/world-hepatitis-day-2026-ensuring-life-saving-interventions-are-accessible-everyone-who",
+              "id": "https://www.ecdc.europa.eu/en/news-events/world-hepatitis-day-2026-ensuring-life-saving-interventions-are-accessible-everyone-who",
+              "author": "ECDC",
+              "published_at": "2026-07-28T06:37:55Z",
+              "updated_at": "2026-07-28T06:37:55Z",
+              "summary": "World Hepatitis Day is an opportunity to raise awareness of the risk of contracting hepatitis and the health threats it can bring, while at the same time recognising the progress Europe has made to strengthen prevention.",
+              "categories": [],
+              "feed": {
+                "title": "News",
+                "url": "https://www.ecdc.europa.eu/en",
+                "feed_url": "https://www.ecdc.europa.eu/en/taxonomy/term/1307/feed"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.ecdc.europa.eu/en/taxonomy/term/1307/feed",
+            "elapsed_ms": 166,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "europe-health-threats",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.ecdc.europa.eu/en/news-events/world-hepatitis-day-2026-ensuring-life-saving-interventions-are-accessible-everyone-who"
+    },
+    {
+      "id": "aa353dc6ef9f142552f3",
+      "title": "World Hepatitis Day 2026: Despite progress towards eliminating hepatitis in Europe, gaps in prevention measures keep 2030 targets out of reach",
+      "content_text": "While Europe has made steady progress in preventing hepatitis B and C the region is set to miss the 2030 target to eliminate viral hepatitis as a public health threat.",
+      "date_published": "2026-07-28T06:00:07Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "aa353dc6ef9f142552f3",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.ecdc.europa.eu/en/news-events/world-hepatitis-day-2026-despite-progress-towards-eliminating-hepatitis-europe-gaps",
+          "source_url": "https://www.ecdc.europa.eu/en/taxonomy/term/1307/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:24:25Z",
+          "data": {
+            "change": "added",
+            "label": "World Hepatitis Day 2026: Despite progress towards eliminating hepatitis in Europe, gaps in prevention measures keep 2030 targets out of reach",
+            "item_type": "entry",
+            "summary": "added: World Hepatitis Day 2026: Despite progress towards eliminating hepatitis in Europe, gaps in prevention measures keep 2030 targets out of reach",
+            "after": {
+              "title": "World Hepatitis Day 2026: Despite progress towards eliminating hepatitis in Europe, gaps in prevention measures keep 2030 targets out of reach",
+              "link": "https://www.ecdc.europa.eu/en/news-events/world-hepatitis-day-2026-despite-progress-towards-eliminating-hepatitis-europe-gaps",
+              "id": "https://www.ecdc.europa.eu/en/news-events/world-hepatitis-day-2026-despite-progress-towards-eliminating-hepatitis-europe-gaps",
+              "author": "ECDC",
+              "published_at": "2026-07-28T06:00:07Z",
+              "updated_at": "2026-07-28T06:00:07Z",
+              "summary": "While Europe has made steady progress in preventing hepatitis B and C the region is set to miss the 2030 target to eliminate viral hepatitis as a public health threat.",
+              "categories": [],
+              "feed": {
+                "title": "News",
+                "url": "https://www.ecdc.europa.eu/en",
+                "feed_url": "https://www.ecdc.europa.eu/en/taxonomy/term/1307/feed"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.ecdc.europa.eu/en/taxonomy/term/1307/feed",
+            "elapsed_ms": 166,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "europe-health-threats",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.ecdc.europa.eu/en/news-events/world-hepatitis-day-2026-despite-progress-towards-eliminating-hepatitis-europe-gaps"
+    }
+  ]
+}
