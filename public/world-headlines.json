@@ -9,6 +9,182 @@
   },
   "items": [
     {
+      "id": "7955993d6b212a5d9e9b",
+      "title": "Plane crash in DR Congo kills more than a dozen",
+      "content_text": "Civilians and senior military officials among 14 dead after an army plane crashes into a residential area in the DRC.",
+      "date_published": "2026-09-26T01:32:36Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "7955993d6b212a5d9e9b",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790381248",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T02:11:02Z",
+          "data": {
+            "change": "added",
+            "label": "Plane crash in DR Congo kills more than a dozen",
+            "item_type": "entry",
+            "summary": "added: Plane crash in DR Congo kills more than a dozen",
+            "after": {
+              "title": "Plane crash in DR Congo kills more than a dozen",
+              "link": "https://www.aljazeera.com/news/2026/9/26/plane-crash-in-dr-congo-kills-more-than-a-dozen?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790381248",
+              "author": null,
+              "published_at": "2026-09-26T01:32:36Z",
+              "updated_at": "2026-09-26T01:32:36Z",
+              "summary": "Civilians and senior military officials among 14 dead after an army plane crashes into a residential area in the DRC.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 166,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.4.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.4.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.4.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.4.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/news/2026/9/26/plane-crash-in-dr-congo-kills-more-than-a-dozen?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "5517ae6994feeee2e8c8",
+      "title": "Facebook found liable as TikTok settles for $100m over user safety",
+      "content_text": "Facebook found liable in New Mexico for deceptive actions; TikTok settles $100m lawsuit with Alabama over safety claims.",
+      "date_published": "2026-09-26T01:26:21Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "5517ae6994feeee2e8c8",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790380606",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T02:11:02Z",
+          "data": {
+            "change": "added",
+            "label": "Facebook found liable as TikTok settles for $100m over user safety",
+            "item_type": "entry",
+            "summary": "added: Facebook found liable as TikTok settles for $100m over user safety",
+            "after": {
+              "title": "Facebook found liable as TikTok settles for $100m over user safety",
+              "link": "https://www.aljazeera.com/news/2026/9/26/facebook-found-liable-as-tiktok-settles-for-100m-over-user-safety?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790380606",
+              "author": null,
+              "published_at": "2026-09-26T01:26:21Z",
+              "updated_at": "2026-09-26T01:26:21Z",
+              "summary": "Facebook found liable in New Mexico for deceptive actions; TikTok settles $100m lawsuit with Alabama over safety claims.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 166,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.4.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.4.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.4.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.4.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/news/2026/9/26/facebook-found-liable-as-tiktok-settles-for-100m-over-user-safety?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
       "id": "60d49ae908efcbf766c0",
       "title": "Pro-Imran Khan rally delayed amid government closures",
       "content_text": "Authorities in Islamabad have blocked roads with shipping containers ahead of a Pakistan Tehreek-e-Insaf (PTI) protest.",
@@ -12741,177 +12917,6 @@
       "tags": [
         "News"
       ]
-    },
-    {
-      "id": "5aa10a45e9fb6efae1f0",
-      "title": "Trump-Xi summit: Four key takeaways from the Washington, DC, meeting",
-      "content_text": "Trump, Xi seek stable US-China ties at the White House, but differences over Iran, Taiwan and trade remain unresolved.",
-      "date_published": "2026-09-24T23:51:56Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "5aa10a45e9fb6efae1f0",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790289035",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T00:58:30Z",
-          "data": {
-            "change": "added",
-            "label": "Trump-Xi summit: Four key takeaways from the Washington, DC, meeting",
-            "item_type": "entry",
-            "summary": "added: Trump-Xi summit: Four key takeaways from the Washington, DC, meeting",
-            "after": {
-              "title": "Trump-Xi summit: Four key takeaways from the Washington, DC, meeting",
-              "link": "https://www.aljazeera.com/news/2026/9/24/trump-xi-summit-four-key-takeaways-from-the-washington-dc-meeting?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790289035",
-              "author": null,
-              "published_at": "2026-09-24T23:51:56Z",
-              "updated_at": "2026-09-24T23:51:56Z",
-              "summary": "Trump, Xi seek stable US-China ties at the White House, but differences over Iran, Taiwan and trade remain unresolved.",
-              "categories": [
-                "News"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 223,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/news/2026/9/24/trump-xi-summit-four-key-takeaways-from-the-washington-dc-meeting?traffic_source=rss",
-      "tags": [
-        "News"
-      ]
-    },
-    {
-      "id": "69ec6330bc15b0e39053",
-      "title": "From Nagaland to a path to the Oscars: Indian film brings a rarely seen world to global cinema",
-      "content_text": "After a major win at Toronto, Angh, a film from northeastern India, is now on a path towards the Oscars.",
-      "date_published": "2026-09-24T23:41:10Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "69ec6330bc15b0e39053",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.bbc.co.uk/news/articles/cv2dwk3z7x5eo#2",
-          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T00:58:30Z",
-          "data": {
-            "change": "added",
-            "label": "From Nagaland to a path to the Oscars: Indian film brings a rarely seen world to global cinema",
-            "item_type": "entry",
-            "summary": "added: From Nagaland to a path to the Oscars: Indian film brings a rarely seen world to global cinema",
-            "after": {
-              "title": "From Nagaland to a path to the Oscars: Indian film brings a rarely seen world to global cinema",
-              "link": "https://www.bbc.co.uk/news/articles/cv2dwk3z7x5eo?at_medium=RSS&at_campaign=rss",
-              "id": "https://www.bbc.co.uk/news/articles/cv2dwk3z7x5eo#2",
-              "author": null,
-              "published_at": "2026-09-24T23:41:10Z",
-              "updated_at": "2026-09-24T23:41:10Z",
-              "summary": "After a major win at Toronto, Angh, a film from northeastern India, is now on a path towards the Oscars.",
-              "categories": [],
-              "feed": {
-                "title": "BBC News",
-                "url": "https://www.bbc.co.uk/news/world",
-                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-            "elapsed_ms": 124,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.bbc.co.uk/news/articles/cv2dwk3z7x5eo?at_medium=RSS&at_campaign=rss"
     }
   ]
 }

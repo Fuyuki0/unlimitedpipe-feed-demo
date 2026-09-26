@@ -9,6 +9,309 @@
   },
   "items": [
     {
+      "id": "f81ceadab6cb9933e863",
+      "title": "The Hindu: Thiruvonam Bumper lottery results 2026: First prize ₹30 crore; check date and time",
+      "content_text": "Here is everything you need to know about the upcoming 2026 Thiruvonam Bumper (BR-111) lucky draw, including the schedule and prize details.",
+      "date_published": "2026-09-26T01:50:30Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "f81ceadab6cb9933e863",
+          "source": "rss",
+          "type": "change",
+          "key": "article-71508047",
+          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T02:07:23Z",
+          "data": {
+            "change": "added",
+            "label": "The Hindu: Thiruvonam Bumper lottery results 2026: First prize ₹30 crore; check date and time",
+            "item_type": "entry",
+            "summary": "added: The Hindu: Thiruvonam Bumper lottery results 2026: First prize ₹30 crore; check date and time",
+            "after": {
+              "title": "The Hindu: Thiruvonam Bumper lottery results 2026: First prize ₹30 crore; check date and time",
+              "link": "https://www.thehindu.com/news/national/kerala/thiruvonam-bumper-2026-results-br-111-check-result-date-time-and-prize-details/article71508047.ece",
+              "id": "article-71508047",
+              "author": null,
+              "published_at": "2026-09-26T01:50:30Z",
+              "updated_at": "2026-09-26T01:50:30Z",
+              "summary": "Here is everything you need to know about the upcoming 2026 Thiruvonam Bumper (BR-111) lucky draw, including the schedule and prize details.",
+              "categories": [
+                "Keralam"
+              ],
+              "feed": {
+                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+                "url": "https://www.thehindu.com/news/national/",
+                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+              },
+              "outlet": "The Hindu"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+            "elapsed_ms": 173,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.4.0"
+            },
+            {
+              "step": "map",
+              "version": "0.4.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.4.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.4.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.4.0",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.thehindu.com/news/national/kerala/thiruvonam-bumper-2026-results-br-111-check-result-date-time-and-prize-details/article71508047.ece",
+      "tags": [
+        "Keralam"
+      ]
+    },
+    {
+      "id": "cc6b1d9c6fd13faaec17",
+      "title": "The Hindu: Congress leads protests demanding CEC’s resignation, arrest",
+      "content_text": "Modi, Shah using Kumar to overcome public opposition through “artificial manipulation”, says Venugopal; civil society groups hold agitations in Delhi and other States; police use water cannons to stop protesters",
+      "date_published": "2026-09-26T01:46:09Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "cc6b1d9c6fd13faaec17",
+          "source": "rss",
+          "type": "change",
+          "key": "article-71509581",
+          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T02:07:23Z",
+          "data": {
+            "change": "added",
+            "label": "The Hindu: Congress leads protests demanding CEC’s resignation, arrest",
+            "item_type": "entry",
+            "summary": "added: The Hindu: Congress leads protests demanding CEC’s resignation, arrest",
+            "after": {
+              "title": "The Hindu: Congress leads protests demanding CEC’s resignation, arrest",
+              "link": "https://www.thehindu.com/news/national/congress-leads-protests-demanding-cecs-resignation-arrest/article71509581.ece",
+              "id": "article-71509581",
+              "author": null,
+              "published_at": "2026-09-26T01:46:09Z",
+              "updated_at": "2026-09-26T01:46:09Z",
+              "summary": "Modi, Shah using Kumar to overcome public opposition through “artificial manipulation”, says Venugopal; civil society groups hold agitations in Delhi and other States; police use water cannons to stop protesters",
+              "categories": [
+                "India"
+              ],
+              "feed": {
+                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+                "url": "https://www.thehindu.com/news/national/",
+                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+              },
+              "outlet": "The Hindu"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+            "elapsed_ms": 173,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.4.0"
+            },
+            {
+              "step": "map",
+              "version": "0.4.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.4.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.4.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.4.0",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.thehindu.com/news/national/congress-leads-protests-demanding-cecs-resignation-arrest/article71509581.ece",
+      "tags": [
+        "India"
+      ]
+    },
+    {
+      "id": "35a84684e0351d445fb8",
+      "title": "The Hindu: Attacks on commercial shipping in Gulf, Red Sea simply indefensible: Jaishankar as India and Liberia announce ‘group of friends’",
+      "content_text": "A terrorist country is asking me that question, the External Affairs Minister said in strong response to Pakistani journalist at the UN",
+      "date_published": "2026-09-26T01:45:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "35a84684e0351d445fb8",
+          "source": "rss",
+          "type": "change",
+          "key": "article-71509676",
+          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T02:07:23Z",
+          "data": {
+            "change": "added",
+            "label": "The Hindu: Attacks on commercial shipping in Gulf, Red Sea simply indefensible: Jaishankar as India and Liberia announce ‘group of friends’",
+            "item_type": "entry",
+            "summary": "added: The Hindu: Attacks on commercial shipping in Gulf, Red Sea simply indefensible: Jaishankar as India and Liberia announce ‘group of friends’",
+            "after": {
+              "title": "The Hindu: Attacks on commercial shipping in Gulf, Red Sea simply indefensible: Jaishankar as India and Liberia announce ‘group of friends’",
+              "link": "https://www.thehindu.com/news/national/attacks-on-commercial-shipping-in-gulf-red-sea-simply-indefensible-jaishankar/article71509676.ece",
+              "id": "article-71509676",
+              "author": null,
+              "published_at": "2026-09-26T01:45:26Z",
+              "updated_at": "2026-09-26T01:45:26Z",
+              "summary": "A terrorist country is asking me that question, the External Affairs Minister said in strong response to Pakistani journalist at the UN",
+              "categories": [
+                "India"
+              ],
+              "feed": {
+                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+                "url": "https://www.thehindu.com/news/national/",
+                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+              },
+              "outlet": "The Hindu"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+            "elapsed_ms": 173,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.4.0"
+            },
+            {
+              "step": "map",
+              "version": "0.4.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.4.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.4.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.4.0",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.thehindu.com/news/national/attacks-on-commercial-shipping-in-gulf-red-sea-simply-indefensible-jaishankar/article71509676.ece",
+      "tags": [
+        "India"
+      ]
+    },
+    {
       "id": "04df0a241e9261ad4b2e",
       "title": "The Hindu: IMD issues heavy rain alert for September 26–27 in Uttarakhand; CM Dhami directs officials to maintain vigilance",
       "content_text": "The Chief Minister appealed to residents and tourists to exercise extreme caution and urged people to travel only if essential and after checking the latest weather and road conditions.",

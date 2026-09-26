@@ -9,6 +9,78 @@
   },
   "items": [
     {
+      "id": "08450c2a562871c8fa4c",
+      "title": "GigaCloud Technology Inc (GCT): Marshall Bernes (Head of Brand Center, director) sold 18,297 shares at $54.13 ($990.4K)",
+      "content_text": "Traded 2026-09-24.",
+      "date_published": "2026-09-26T02:08:07Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "08450c2a562871c8fa4c",
+          "source": "sec",
+          "type": "change",
+          "key": "0002045034-26-000009#S",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/2045034/000204503426000009/0002045034-26-000009-index.htm",
+          "timestamp": null,
+          "observed_at": "2026-09-26T02:08:07Z",
+          "data": {
+            "change": "added",
+            "label": "GigaCloud Technology Inc (GCT): Marshall Bernes (Head of Brand Center, director) sold 18,297 shares at $54.13 ($990.4K)",
+            "item_type": "insider-trade",
+            "summary": "added: GigaCloud Technology Inc (GCT): Marshall Bernes (Head of Brand Center, director) sold 18,297 shares at $54.13 ($990.4K)",
+            "after": {
+              "title": "GigaCloud Technology Inc (GCT): Marshall Bernes (Head of Brand Center, director) sold 18,297 shares at $54.13 ($990.4K)",
+              "issuer": "GigaCloud Technology Inc",
+              "ticker": "GCT",
+              "owner": "Marshall Bernes",
+              "role": "Head of Brand Center, director",
+              "code": "S",
+              "action": "sold",
+              "shares": 18297,
+              "price": 54.1292,
+              "value": 990401.57,
+              "shares_after": 7150,
+              "traded_on": "2026-09-24",
+              "planned": false,
+              "link": "https://www.sec.gov/Archives/edgar/data/2045034/000204503426000009/0002045034-26-000009-index.htm",
+              "accession": "0002045034-26-000009",
+              "summary": "Traded 2026-09-24."
+            }
+          },
+          "metadata": {
+            "method": "edgar-form4"
+          },
+          "provenance": [
+            {
+              "step": "sec",
+              "version": "0.4.0"
+            },
+            {
+              "step": "map",
+              "version": "0.4.0",
+              "args": {
+                "assign": [
+                  "summary=\"Traded \" + traded_on + \".\" + replace(replace(\"\" + planned, \"(?i)^true$\", \" A pre-planned trade (Rule 10b5-1).\"), \"(?i)^false$\", \"\")"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.4.0",
+              "args": {
+                "namespace": "insider-trades",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.sec.gov/Archives/edgar/data/2045034/000204503426000009/0002045034-26-000009-index.htm"
+    },
+    {
       "id": "accf2dd90b470895965c",
       "title": "Natera, Inc. (NTRA): Jonathan Sheena (director) sold 18,064 shares at $388.01 ($7M)",
       "content_text": "Traded 2026-09-23. A pre-planned trade (Rule 10b5-1).",

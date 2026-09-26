@@ -2,12 +2,111 @@
   "version": "https://jsonfeed.org/version/1.1",
   "title": "China news (SCMP, CGTN)",
   "home_page_url": "https://www.scmp.com/rss/4/feed",
-  "description": "Events collected by UnlimitedPipe 0.3.2",
+  "description": "Events collected by UnlimitedPipe 0.4.0",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.3.2"
+    "generator": "UnlimitedPipe 0.4.0"
   },
   "items": [
+    {
+      "id": "dbc08f65186565f9f032",
+      "title": "SCMP: Offshore wind farm could create radar blind spots and ‘ghost’ targets, Chinese study warns",
+      "content_text": "Offshore wind farms can reduce the coverage of shore-based radar systems and create areas where targets become harder to detect, according to a new study.\nThe researchers found that at a range of 5km (3 miles), effective radar coverage fell by 6.9 per cent while blind spots increased by 14.9 per cent.\nThe research, published online last month in the peer-reviewed Chinese journal Radio Engineering, was conducted by Professor Liu Zunnian and his team from Qingdao Technological University and…",
+      "date_published": "2026-09-26T02:00:18Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "dbc08f65186565f9f032",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.scmp.com/news/china/science/article/3368851/offshore-wind-farm-could-create-radar-blind-spots-and-ghost-targets-chinese-study-warns?utm_source=rss_feed",
+          "source_url": "https://www.scmp.com/rss/4/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T02:06:50Z",
+          "data": {
+            "change": "added",
+            "label": "SCMP: Offshore wind farm could create radar blind spots and ‘ghost’ targets, Chinese study warns",
+            "item_type": "entry",
+            "summary": "added: SCMP: Offshore wind farm could create radar blind spots and ‘ghost’ targets, Chinese study warns",
+            "after": {
+              "title": "SCMP: Offshore wind farm could create radar blind spots and ‘ghost’ targets, Chinese study warns",
+              "link": "https://www.scmp.com/news/china/science/article/3368851/offshore-wind-farm-could-create-radar-blind-spots-and-ghost-targets-chinese-study-warns?utm_source=rss_feed",
+              "id": "https://www.scmp.com/news/china/science/article/3368851/offshore-wind-farm-could-create-radar-blind-spots-and-ghost-targets-chinese-study-warns?utm_source=rss_feed",
+              "author": "Chao Kong",
+              "published_at": "2026-09-26T02:00:18Z",
+              "updated_at": "2026-09-26T02:00:18Z",
+              "summary": "Offshore wind farms can reduce the coverage of shore-based radar systems and create areas where targets become harder to detect, according to a new study.\nThe researchers found that at a range of 5km (3 miles), effective radar coverage fell by 6.9 per cent while blind spots increased by 14.9 per cent.\nThe research, published online last month in the peer-reviewed Chinese journal Radio Engineering, was conducted by Professor Liu Zunnian and his team from Qingdao Technological University and the...",
+              "categories": [],
+              "feed": {
+                "title": "China - South China Morning Post",
+                "url": "https://www.scmp.com/rss/4/feed",
+                "feed_url": "https://www.scmp.com/rss/4/feed"
+              },
+              "enclosures": [
+                "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/25/9209895e-5389-4461-84d3-efa1184a4fa0_3d48c81f.jpg?itok=5tti1ufq&v=1790341824"
+              ],
+              "outlet": "SCMP"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.scmp.com/rss/4/feed/",
+            "elapsed_ms": 635,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.4.0"
+            },
+            {
+              "step": "map",
+              "version": "0.4.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^scmp\\\\.com$\", \"SCMP\")",
+                  "outlet=replace(outlet, \"^cgtn\\\\.com$\", \"CGTN (Chinese state media)\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.4.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.4.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.4.0",
+              "args": {
+                "namespace": "china-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.scmp.com/news/china/science/article/3368851/offshore-wind-farm-could-create-radar-blind-spots-and-ghost-targets-chinese-study-warns?utm_source=rss_feed"
+    },
     {
       "id": "6259ffcfea8b09e3dbff",
       "title": "SCMP: Xi-Trump atmospherics welcomed but mask structural rifts: analysts",
