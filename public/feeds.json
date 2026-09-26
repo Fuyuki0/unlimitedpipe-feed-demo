@@ -68,6 +68,19 @@
    }
   },
   {
+   "name": "bank-of-thailand",
+   "description": "Press releases from the Bank of Thailand (ธนาคารแห่งประเทศไทย) - monetary policy, the economy, banknotes and financial rules. Its news list only appears with JavaScript, so this feed renders the page in a headless browser.",
+   "files": [
+    "bank-of-thailand.xml",
+    "bank-of-thailand.json"
+   ],
+   "health": {
+    "status": "ok",
+    "since": "2026-09-26T04:05:55Z",
+    "latest": "2026-09-14T00:00:00Z"
+   }
+  },
+  {
    "name": "central-banks",
    "description": "Press releases of the Federal Reserve, the European Central Bank, the Bank of Japan, the Bank of England and the Reserve Bank of India, without routine market operations.",
    "files": [
@@ -142,7 +155,7 @@
    "health": {
     "status": "ok",
     "since": "2026-09-26T03:37:34Z",
-    "latest": "2026-09-25T22:17:38Z"
+    "latest": "2026-09-26T04:02:13Z"
    }
   },
   {
@@ -337,7 +350,7 @@
    "health": {
     "status": "ok",
     "since": "2026-09-26T03:37:34Z",
-    "latest": "2026-09-26T03:30:04Z"
+    "latest": "2026-09-26T04:00:25Z"
    }
   },
   {
@@ -558,7 +571,7 @@
    "health": {
     "status": "ok",
     "since": "2026-09-26T03:37:34Z",
-    "latest": "2026-09-26T03:34:41Z"
+    "latest": "2026-09-26T03:59:08Z"
    }
   },
   {
@@ -675,7 +688,7 @@
    "health": {
     "status": "ok",
     "since": "2026-09-26T03:37:34Z",
-    "latest": "2026-09-26T03:10:43Z"
+    "latest": "2026-09-26T03:34:23Z"
    }
   },
   {
@@ -688,11 +701,81 @@
    "health": {
     "status": "ok",
     "since": "2026-09-26T03:37:34Z",
-    "latest": "2026-09-25T20:10:42Z"
+    "latest": "2026-09-26T03:29:32Z"
    }
   }
  ],
  "items": [
+  {
+   "feed": "crypto-news",
+   "title": "Bitcoin could soon get Zcash-style 'shielded' privacy without changing its rules",
+   "summary": null,
+   "link": "https://www.coindesk.com/tech/2026/09/25/bitcoin-could-soon-get-zcash-style-shielded-privacy-without-changing-its-rules",
+   "date": "2026-09-26T04:02:13Z"
+  },
+  {
+   "feed": "japan-news",
+   "title": "The Mainichi: Isabella Bird's 'Unbeaten Tracks in Japan': Kinugawa's beauty and a flea-ridden inn (Pt. 11)",
+   "summary": "Having obtained ample rest and gathered information in Nikko, Isabella Bird finally set out for the \"unexplored interior\" on June 24, 1878. From this",
+   "link": "https://mainichi.jp/english/articles/20260924/p2a/00m/0et/036000c",
+   "date": "2026-09-26T04:00:25Z"
+  },
+  {
+   "feed": "japan-news",
+   "title": "The Mainichi: Drug-smuggling cases in Japan linked to shady gigs worldwide",
+   "summary": "TOKYO -- Foreigners are increasingly being caught attempting to smuggle illegal drugs into Japan. The cases involve stimulants, marijuana and etomidat",
+   "link": "https://mainichi.jp/english/articles/20260925/p2a/00m/0na/012000c",
+   "date": "2026-09-26T04:00:11Z"
+  },
+  {
+   "feed": "japan-news",
+   "title": "The Mainichi: Japan's 'Chanson Monk' uses song, sutras to spread message of peace",
+   "summary": "NAGOYA (Kyodo) -- French chanson and Buddhist sutras may seem an unlikely combination, but for 87-year-old priest Miruo Nakano, they have become a way",
+   "link": "https://mainichi.jp/english/articles/20260925/p2g/00m/0na/015000c",
+   "date": "2026-09-26T04:00:08Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: นายกฯ ส่งกำลังใจ ผู้ประสบภัยน้ำท่วม เร่งเดินทางกลับจากลอนดอน เตรียมเข้าพื้นที่ทันที",
+   "summary": "นายกฯ ส่งกำลังใจ ผู้ประสบภัยน้ำท่วม เร่งเดินทางกลับจากล […]",
+   "link": "https://www.matichon.co.th/politics/news_5905887",
+   "date": "2026-09-26T03:59:08Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: กรมหม่อนไหมเปิดงาน มหกรรมหม่อนไหมดี 4 ภาค รวม 4 ภูมิปัญญา สู่หนึ่งคุณค่าแห่งไหมไทย 23–27 ก.ย.ที่ขอนแก่น",
+   "summary": "กรมหม่อนไหมเปิดงาน มหกรรมหม่อนไหมดี 4 ภาค รวม 4 ภูมิปัญ […]",
+   "link": "https://www.matichon.co.th/region/news_5905877",
+   "date": "2026-09-26T03:50:54Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: ระยองอ่วม ท่วม ปลวกแดง-อำเภอเมือง ผู้ว่าฯ ระดมพลช่วยเต็มอัตราศึก สำรวจความเสียหาย",
+   "summary": "ผู้ว่าฯไตรภพ เกาะติดแก้น้ำท่วมระยอง ระดมพลช่วยเต็มอัตรา […]",
+   "link": "https://www.matichon.co.th/region/news_5905861",
+   "date": "2026-09-26T03:44:54Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: เด็จพี่ จี้รมต.ลงหน้างานน้ำท่วม วอนทุกฝ่ายแข่งกันช่วยปชช. อย่าทำให้เป็นศึกการเมือง",
+   "summary": "“เด็จพี่” ชี้น้ำท่วมอย่าให้เป็นศึกการเมือง วอนทุกฝ่ายแข […]",
+   "link": "https://www.matichon.co.th/politics/news_5905843",
+   "date": "2026-09-26T03:43:19Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "มติชน: ปิดทางข้ามห้าแยกลาดพร้าว น้ำท่วมวิภาวดีขาออกสูง รถมุ่งหน้าดอนเมือง-รังสิตต้องเลี่ยง",
+   "summary": "ปิดทางข้ามห้าแยกลาดพร้าว น้ำท่วมวิภาวดีขาออกสูง รถมุ่ง […]",
+   "link": "https://www.matichon.co.th/local/news_5905859",
+   "date": "2026-09-26T03:41:13Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "ประชาชาติธุรกิจ: ‘เอกนิติ’ เปิดใจรับบทเดอะแบก มั่นใจคนไทยร่วมมือหวนผงาดเวทีโลกได้",
+   "summary": "‘เอกนิติ’ เปิดใจรับบทเดอะแบก ยันพร้อมสู้เต็มที่ตลอด24 ชม. มั่นใจหากคนไทยร่วมมือ ไทยกลับมาผงาดเวทีโลกได้แน่นอน นายเอกนิติ นิติทัณฑ์ประภาศ รองนายกรัฐมนตรี และรัฐมนตรีว่าการกระทรวงการคลัง เปิดเผยในรายการ “คุยกับ ครม. อนุทิน” ถึงก …\nอ่านข่าวต้นฉบับ: ‘เอกนิติ’ เปิดใจรับบทเดอะแบก มั่นใจคนไทยร่วมมือหวนผงาด",
+   "link": "https://www.prachachat.net/finance/news-2072021",
+   "date": "2026-09-26T03:38:00Z"
+  },
   {
    "feed": "stablecoin-supply",
    "title": "USDC supply -$990.1M in a day, now $75.4B",
@@ -716,6 +799,27 @@
   },
   {
    "feed": "thailand-news-th",
+   "title": "มติชน: แมนยู-หลายสโมสรพรีเมียร์ลีก พิจารณาเรียกร้องค่าเสียหาย ถ้าแมนซิตี้ผิดจริง",
+   "summary": "แมนยู-หลายสโมสรพรีเมียร์ลีก พิจารณาเรียกร้องค่าเสียหาย […]",
+   "link": "https://www.matichon.co.th/sport/footballinter/news_5905824",
+   "date": "2026-09-26T03:35:37Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "ประชาชาติธุรกิจ: The Mall งามวงศ์วาน – บางกะปิ วันที่ 26 ก.ย. เปิดเที่ยง",
+   "summary": "เดอะมอลล์ แจ้งเลื่อนเวลาเปิดทำการสาขางามวงศ์วาน และบางกะปิ เป็นเวลาเที่ยงของวันที่ 26 กันยายน 2569 เนื่องจากสถานการณ์น้ำท่วม เดอะมอลล์ กรุ๊ป โพสเฟสบุ๊ค The Mall Group แจ้งเลื่อนเวลาเปิดทำการของศูนย์การค้า และห้างสรรพสินค้าเดอะมอลล์ไลฟ์สโตร์ งามวงศ์วา …\nอ่านข่าวต้นฉบับ: The Mall งามวงศ์วาน – บางกะปิ ",
+   "link": "https://www.prachachat.net/business/news-2072016",
+   "date": "2026-09-26T03:34:57Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "ประชาชาติธุรกิจ: เอกนิติ ยันไทยช่วยไทยพลัส เฟส2 ไม่ใช่ประชานิยม ย้ำยึดวินัยการคลัง",
+   "summary": "เอกนิติ ยันไทยช่วยไทยพลัส เฟส2 ไม่ใช่ประชานิยม ย้ำยึดวินัยการคลัง ชี้ช่วยเยียวยาค่าครองชีพ เปลี่ยนผ่านพลังงาน หลังราคาน้ำมันกลับมาพุ่งจากวิกฤตตะวันออกกลางยืดเยื้อ ดร.เอกนิติ นิติทัณฑ์ประภาศ รองนายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงการคลัง เปิดเผยในรายก …\nอ่านข่าวต้นฉบับ: เอกนิติ ยันไทยช่วยไทยพลัส เฟส2",
+   "link": "https://www.prachachat.net/finance/news-2072017",
+   "date": "2026-09-26T03:34:55Z"
+  },
+  {
+   "feed": "thailand-news-th",
    "title": "มติชน: แอร์เอเชีย เปิดให้ผู้โดยสารเที่ยวบินเข้า-ออก กทม. ที่ได้รับผลกระทบ เปลี่ยนเที่ยวบินได้",
    "summary": "แอร์เอเชีย เปิดให้ผู้โดยสารเที่ยวบินเข้า-ออก กทม. ที่ได […]",
    "link": "https://www.matichon.co.th/economy/news_5905849",
@@ -727,6 +831,13 @@
    "summary": "สระแก้วอ่วม! ฝนตกหนัก น้ำท่วมเส้นทางเข้าเมือง รถทุกชนิด […]",
    "link": "https://www.matichon.co.th/region/news_5905842",
    "date": "2026-09-26T03:34:30Z"
+  },
+  {
+   "feed": "world-headlines",
+   "title": "The bombs are still falling. Does diplomacy even work?",
+   "summary": "Al Jazeera’s Emma Withrow asked Al Anoud Al Thani what diplomacy can achieve.",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/the-bombs-are-still-falling-does-diplomacy-even-work?traffic_source=rss",
+   "date": "2026-09-26T03:34:23Z"
   },
   {
    "feed": "thailand-news-th",
@@ -743,11 +854,25 @@
    "date": "2026-09-26T03:30:04Z"
   },
   {
+   "feed": "world-leaders",
+   "title": "White House: Fact Sheet: President Donald J. Trump Advances a Fair and Reciprocal Relationship with China While Hosting Historic State Visit",
+   "summary": "DELIVERING FOR AMERICANS: This week, President Donald J. Trump and First Lady Melania Trump hosted President Xi Jinping and Madame Peng Liyuan of the People’s Republic of China for a reciprocal State Visit. During the visit, President Trump advanced the U.S.-China relationship and put the American p",
+   "link": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-advances-a-fair-and-reciprocal-relationship-with-china-while-hosting-historic-state-visit/",
+   "date": "2026-09-26T03:29:32Z"
+  },
+  {
    "feed": "japan-news",
    "title": "The Japan Times: Japan wary China could use Trump-Xi summit to bolster narrative against Tokyo",
    "summary": "Prime Minister Sanae Takaichi is believed to be seeking a call with U.S. President Donald Trump to dispel Tokyo's concerns.",
    "link": "https://www.japantimes.co.jp/news/2026/09/26/japan/politics/japan-trump-xi-summit/",
    "date": "2026-09-26T03:25:00Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "ประชาชาติธุรกิจ: ‘ชัชชาติ’ ประกาศขยายพื้นที่ประสบสาธารณภัย 50 เขต",
+   "summary": "ผู้ว่าฯ กทม. ยกระดับจัดการเหตุอุทกภัยประกาศขยายพื้นที่ประสบสาธารณภัย 50 เขต นายชัชชาติ สิทธิพันธุ์ ผู้ว่าราชการกรุงเทพมหานคร(กทม.) ในฐานะผู้อำนวยการกรุงเทพมหานคร ลงนามประกาศกองอำนวยการป้องกันและบรรเทาสาธารณภัยกรุงเทพมหานคร เรื่อง เขตพื้นที่ประสบสาธาร …\nอ่านข่าวต้นฉบับ: ‘ชัชชาติ’ ประกาศขยายพื้นที่ประ",
+   "link": "https://www.prachachat.net/politics/news-2072012",
+   "date": "2026-09-26T03:22:58Z"
   },
   {
    "feed": "thailand-news-th",
@@ -820,6 +945,13 @@
    "date": "2026-09-26T02:58:50Z"
   },
   {
+   "feed": "thailand-news-th",
+   "title": "ประชาชาติธุรกิจ: Rain Bomb ดันน้ำเจ้าพระยาเพิ่ม ชป.หน่วงน้ำเต็มที่ คาดฝนเบาลง 27 ก.ย.",
+   "summary": "ก.เกษตรฯ แจงฝนตกหนักแบบ Rain Bomb ดันระดับน้ำลุ่มเจ้าพระยาสูงขึ้น ปัจจุบันเขื่อนเจ้าพระยาระบาย 1,700 ลูกบาศก์เมตรต่อวินาที และอาจปรับตามสถานการณ์ ขณะที่การผันน้ำเข้าระบบคลองฝั่งตะวันออก-ตะวันตกเกือบเต็มศักยภาพแล้ว เตือนเกษตรกรพื้นที่สองฝั่งเจ้าพระยาเ …\nอ่านข่าวต้นฉบับ: Rain Bomb ดันน้ำเจ้าพระยาเพิ่ม",
+   "link": "https://www.prachachat.net/economic/news-2072006",
+   "date": "2026-09-26T02:58:43Z"
+  },
+  {
    "feed": "hurricanes",
    "title": "Hurricane Polo (EP2), advisory 26/0255Z",
    "summary": "POLO REMAINS A POWERFUL CATEGORY 5 HURRICANE. ...HURRICANE WATCH ISSUED FOR PORTIONS OF BAJA CALIFORNIA SUR... As of 8:00 PM MST Fri Sep 25 the center of Polo was located near 17.4, -110.1 with movement WNW at 10 mph. The minimum central pressure was 911 mb with maximum sustained winds of about 175 ",
@@ -839,6 +971,13 @@
    "summary": "China's Kubuqi renewable energy base hits key milestone",
    "link": "https://news.cgtn.com/news/2026-09-26/China-s-Kubuqi-renewable-energy-base-hits-key-milestone-1QKlWEM7LXO/p.html?UTM_Source=cgtn&UTM_Medium=rss&UTM_Campaign=China",
    "date": "2026-09-26T02:54:28Z"
+  },
+  {
+   "feed": "thailand-news-th",
+   "title": "ประชาชาติธุรกิจ: การค้าชายแดน-ผ่านแดน พุ่ง 34.2% 8 เดือนทะลุ 1.5 ล้านล้าน",
+   "summary": "การค้าชายแดนและผ่านแดน เดือนสิงหาคม 2569 พุ่ง 34.2% แตะ 201,600 ล้านบาท ดันยอดสะสม 8 เดือนทะลุ 1.54 ล้านล้านบาท ขณะที่การค้าชายแดนไทย-เมียนมากลับมาขยายตัวเป็นครั้งแรกในรอบ 12 เดือน ส่งออกพุ่ง 66.2% ส่วนการค้าผ่านแดนยังแรงต่อเนื่อง โต 42.1% จากดีมานด์ …\nอ่านข่าวต้นฉบับ: การค้าชายแดน-ผ่านแดน พุ่ง 34.2",
+   "link": "https://www.prachachat.net/economic/news-2071999",
+   "date": "2026-09-26T02:54:03Z"
   },
   {
    "feed": "japan-news",
@@ -988,13 +1127,6 @@
    "date": "2026-09-26T02:19:29Z"
   },
   {
-   "feed": "thailand-news-th",
-   "title": "ประชาชาติธุรกิจ: รายได้รัฐ 11 เดือนเกินเป้า ‘2 กรมภาษี’ แป้กกู้ โปะขาดดุล 8 แสนล้าน",
-   "summary": "กระทรวงการคลังเพิ่งรายงานผลการจัดเก็บรายได้รัฐบาล ช่วง 11 เดือนแรกของปีงบประมาณ 2569 (ต.ค. 68-ส.ค. 69) พบว่า รัฐเก็บรายได้สุทธิ 2,606,845 ล้านบาท สูงกว่าประมาณการ 57,498 ล้านบาท หรือสูงกว่าเป้า 2.3% และสูงกว่าช่วงเดียวกันปีก่อน 4% ทั้งนี้ หลัก ๆ มาจา …\nอ่านข่าวต้นฉบับ: รายได้รัฐ 11 เดือนเกินเป้า ‘2 ",
-   "link": "https://www.prachachat.net/finance/news-2071696",
-   "date": "2026-09-26T02:18:48Z"
-  },
-  {
    "feed": "world-headlines",
    "title": "Pope Leo XIV makes first official Papal visit in France in nearly 20",
    "summary": "Pope Leo XIV drew huge crowds on the first Papal visit to France in 18 years.",
@@ -1009,32 +1141,11 @@
    "date": "2026-09-26T02:17:28Z"
   },
   {
-   "feed": "thailand-news-th",
-   "title": "ประชาชาติธุรกิจ: พิพัฒน์ แม่ทัพกลางเกม 2 น. เพื่อไทย-ภูมิใจไทย สมการรัฐบาล 3 สี",
-   "summary": "โกเกี๊ยะ “พิพัฒน์ รัชกิจประการ” รองนายกรัฐมนตรี และ รมว.คมนาคม ขุนพลคนสำคัญของพรรคภูมิใจไทย จากอดีตที่เคยอยู่แนวหลังการเมือง แต่เมื่อภรรยาของเขา “นาที รัชกิจประการ” ถูกศาลฎีกาแผนกคดีอาญาของผู้ดำรงตำแหน่งทางการเมือง ตัดสินห้ามเล่นการเมืองตลอดไป …\nอ่านข่าวต้นฉบับ: พิพัฒน์ แม่ทัพกลางเกม 2 น. เพื่อไทย-ภ",
-   "link": "https://www.prachachat.net/politics/news-2071342",
-   "date": "2026-09-26T02:15:31Z"
-  },
-  {
    "feed": "india-news",
    "title": "The Hindu: The rebranding of Ahmedabad’s food scene",
    "summary": "Long known for its thalis and street food, Ahmedabad is developing an experimental, ambitious dining culture. With no cocktails to anchor the business, restaurateurs are getting inventive — with sprawling restaurants, specialised cuisines and mixologists creating sophisticated zero-proof drinks. Her",
    "link": "https://www.thehindu.com/food/dining/the-rebranding-of-ahmedabads-food-scene/article70646153.ece",
    "date": "2026-09-26T02:15:02Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "มติชน: ชัชชาติ ชี้สถานการณ์ ‘ยังไม่ดีขึ้น’ ฝนหมุนวน ทำน้ำเต็มแล้วทุกคลอง รองฯแนะ 17 เส้นทางหลีกเลี่ยง",
-   "summary": "ชัชชาติ ชี้ สถานการณ์เช้านี้ ‘ยังไม่ดีขึ้น’ […]",
-   "link": "https://www.matichon.co.th/local/quality-life/news_5905785",
-   "date": "2026-09-26T02:13:48Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "ประชาชาติธุรกิจ: น้ำท่วม ‘วิกฤตกรุงเทพ’ ตลาดหลักทรัพย์ฯ เลื่อนจัดงาน-กทม.วอนงดเดินทาง",
-   "summary": "น้ำท่วม กรุงเทพ วิกฤต ตลาดหลักทรัพย์ฯ เลื่อนจัดงาน-กทม.วอนงดเดินทาง สถานการณ์น้ำท่วมในพื้นที่กรุงเทพฯ ปริมณฑลเช้านี้ (26 ก.ย.) วิกฤตหลายพื้นที่ ถนนวิภาวดีรังสิตขาเข้าอ่วม “ศูนย์ป้องกันน้ำท่วม” วอนประชาชนงดเดินทาง ด้าน “ตลาดหลักทรัพย …\nอ่านข่าวต้นฉบับ: น้ำท่วม ‘วิกฤตกรุงเทพ’ ตลาดหลักทรัพย์ฯ เลื่อนจัด",
-   "link": "https://www.prachachat.net/finance/news-2071985",
-   "date": "2026-09-26T02:13:21Z"
   },
   {
    "feed": "japan-news",
@@ -1058,13 +1169,6 @@
    "date": "2026-09-26T02:10:02Z"
   },
   {
-   "feed": "thailand-news-th",
-   "title": "มติชน: อินทรีคุมฟ้า มังกรพ่นไฟ อ่านธีมลงทุนจีนหลัง ทรัมป์ พบ สี",
-   "summary": "อินทรีคุมฟ้า มังกรพ่นไฟ อ่านธีมลงทุนจีนหลัง ทรัมป์ พบ ส […]",
-   "link": "https://www.matichon.co.th/economy/news_5905381",
-   "date": "2026-09-26T02:09:28Z"
-  },
-  {
    "feed": "china-news",
    "title": "CGTN (Chinese state media): Try your hand at Shanghai's WorldSkills Expo",
    "summary": "Try your hand at Shanghai's WorldSkills Expo",
@@ -1086,27 +1190,6 @@
    "date": "2026-09-26T02:08:07Z"
   },
   {
-   "feed": "thailand-news-th",
-   "title": "มติชน: ‘มาร์ก คาร์นีย์’ คว่ำโต๊ะเจรจาต้านภาษีสหรัฐ",
-   "summary": "‘มาร์ก คาร์นีย์’ คว่ำโต๊ะเจรจาต้านภาษีสหรัฐ เมื่อเผชิญแ […]",
-   "link": "https://www.matichon.co.th/article/news_5904534",
-   "date": "2026-09-26T02:07:46Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "มติชน: ถอดรหัส SHEIN โมเดลธุรกิจเปลี่ยนโลกที่กฎหมายตามไม่ทัน : มีเรื่องเล่า กับ วิโรจน์ podcast",
-   "summary": "จากเสื้อผ้าราคาถูกหลักร้อย สู่มหากาพย์ดราม่าระดับโลกที่ […]",
-   "link": "https://www.matichon.co.th/matichon-tv/news_5905528",
-   "date": "2026-09-26T02:00:37Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "มติชน: ย้อนอดีตบนรอยร้าว สัมพันธ์วัฒนธรรมไทย–กัมพูชา",
-   "summary": "ย้อนอดีตบนรอยร้าว สัมพันธ์วัฒนธรรมไทย–กัมพูชา หากพิจารณ […]",
-   "link": "https://www.matichon.co.th/foreign/news_5905275",
-   "date": "2026-09-26T02:00:12Z"
-  },
-  {
    "feed": "japan-news",
    "title": "The Mainichi: News in Easy English: Girl in Yamanashi Pref. passes hardest Eiken test",
    "summary": "FUJIKAWAGUCHIKO, Yamanashi -- Erina Honda, 11, passed Grade 1 of the Eiken English test. It is a very hard test. The level is like advanced university",
@@ -1126,13 +1209,6 @@
    "summary": "Here is everything you need to know about the upcoming 2026 Thiruvonam Bumper (BR-111) lucky draw, including the schedule and prize details.",
    "link": "https://www.thehindu.com/news/national/kerala/thiruvonam-bumper-2026-results-br-111-check-result-date-time-and-prize-details/article71508047.ece",
    "date": "2026-09-26T01:50:30Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "มติชน: สื่อผู้ดีเผยแมนซิตี้ผิด 114 ข้อหา ละเมิดกฎการเงิน รอลุ้นโดนลงดาบรูปแบบไหน",
-   "summary": "สื่อผู้ดีเผยแมนซิตี้ผิด 114 ข้อหา ละเมิดกฎการเงิน รอลุ้ […]",
-   "link": "https://www.matichon.co.th/sport/footballinter/footballinterengland/news_5905779",
-   "date": "2026-09-26T01:50:16Z"
   },
   {
    "feed": "stablecoin-supply",
@@ -1254,13 +1330,6 @@
    "date": "2026-09-26T01:45:26Z"
   },
   {
-   "feed": "thailand-news-th",
-   "title": "มติชน: แยกบางกะปิอ่วม น้ำสูงถึงเอว ทะลักเข้ารถเมล์ สน.ลาดพร้าว เตืองดขับผ่าน แนะใช้เส้นทางอื่น",
-   "summary": "แยกบางกะปิอ่วม น้ำสูงถึงเอว ทะลักเข้ารถเมล์ สน.ลาดพร้าว […]",
-   "link": "https://www.matichon.co.th/local/news_5905771",
-   "date": "2026-09-26T01:44:34Z"
-  },
-  {
    "feed": "japan-news",
    "title": "The Mainichi: Takeaways from Trump-Xi summit: Lots of pomp and even more punting on tensions in US-China relations",
    "summary": "WASHINGTON (AP) -- Presidents Donald Trump and Xi Jinping have wrapped up a three-day Washington summit that was heavy on pomp but light on substance.",
@@ -1300,13 +1369,6 @@
    "title": "TASS (Russian state media): Trump tells aides strikes against Iran may resume after November midterms — WSJ",
    "summary": "The US President is skeptical Iran would meet his demands and has told his staff that he sees a renewed bombing campaign as likely, the newspaper said",
    "link": "https://tass.com/world/2193183",
-   "date": "2026-09-26T01:30:00Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "ประชาชาติธุรกิจ: เปิดทำเลอสังหาฯ “ขายดีขายอืด” คอนโดสุขุมวิทฟื้นแรงจีนกลับมา",
-   "summary": "ตลาดอสังหาฯ กทม.และปริมณฑล เข้าสู่ช่วงเปลี่ยนผ่าน เมืองขยายตัวตามระบบราง แหล่งงาน ไลฟ์สไตล์ ซัพพลายเหลือบาน 2.1 แสนหน่วย มูลค่า 1.35 ล้านล้านบาท รอระบาย 4 ปี เปิดทำเลขายดี-ขายฝืด “สุขุมวิท” คอนโดฯฟื้นแรง อานิสงส์จีนกลับมาโอน สวนทางแนวราบเสี่ยงสต๊อกล้ …\nอ่านข่าวต้นฉบับ: เปิดทำเลอสังหาฯ “ขายดีขายอืด” ",
-   "link": "https://www.prachachat.net/real-estate/news-2071794",
    "date": "2026-09-26T01:30:00Z"
   },
   {
@@ -1441,13 +1503,6 @@
    "summary": "Hurricane 17E (Polo) Warning #21\nIssued at 25/2200Z\nTC Warning Text\nTC Warning Graphic\nJMV 3.0 Data\nGoogle Earth Overlay\nIR Satellite Imagery\nHurricane 16E (Odalys) Warning #24\nIssued at 25/2200Z\nTC Warning Text\nTC Warning Graphic\nJMV 3.0 Data\nGoogle Earth Overlay\nIR Satellite Imagery\nHurricane 15E ",
    "link": "https://s3.amazonaws.com/www.metoc.navy.mil/jtwc/jtwc.html",
    "date": "2026-09-26T00:24:02Z"
-  },
-  {
-   "feed": "thailand-news-th",
-   "title": "มติชน: โปรพราวประเดิมรั้งที่ 3 ร่วม รอบแรก สะวิง วอลมาร์ท เอ็นดับเบิลยู อาร์คันซอว์",
-   "summary": "โปรพราวประเดิมรั้งที่ 3 ร่วม รอบแรก สะวิง วอลมาร์ท เอ็น […]",
-   "link": "https://www.matichon.co.th/sport/golf/news_5905845",
-   "date": "2026-09-26T00:23:58Z"
   },
   {
    "feed": "russia-news",
@@ -1605,13 +1660,6 @@
   },
   {
    "feed": "japan-news",
-   "title": "Japan Today: International sweep puts Team USA in a 7-3 hole at the Presidents Cup",
-   "summary": "Ryan Fox and Nick Taylor each delivered clutch moments Friday that carried the Internationals to another stunning sweep in foursomes at the Presidents Cup, giving them a 7-3…",
-   "link": "https://japantoday.com/category/sports/international-sweep-puts-team-usa-in-a-7-3-hole-at-the-presidents-cup",
-   "date": "2026-09-25T23:32:10Z"
-  },
-  {
-   "feed": "japan-news",
    "title": "The Japan Times: Japan’s bond ‘falling knife’ stalls repatriation rush",
    "summary": "Major investors remain reluctant to commit heavily to domestic bonds while yields are still climbing and few clues about how much rates must rise.",
    "link": "https://www.japantimes.co.jp/business/2026/09/26/markets/japan-bond-repatriation-rush-analysis/",
@@ -1674,13 +1722,6 @@
    "date": "2026-09-25T23:05:40Z"
   },
   {
-   "feed": "japan-news",
-   "title": "The Japan Times: To craft a Buddhist bell, ‘you have to find peace within yourself first’",
-   "summary": "Yoshinori Shimatani, a fourth-generation \"orin\" (standing bell) master craftsman, views his process as equal parts physical and spiritual.",
-   "link": "https://www.japantimes.co.jp/life/2026/09/26/style-design/buddhist-bell-japan-traditional-craft-toyama-temples/",
-   "date": "2026-09-25T23:05:00Z"
-  },
-  {
    "feed": "cloud-status",
    "title": "OpenAI: Issues with Codex",
    "summary": "Status: Identified\nWe have identified that users are experiencing elevated errors for the impacted services.\nWe are working on implementing a mitigation.\nAffected components\nCodex Web (Full outage)\nCLI (Full outage)\nVS Code extension (Full outage)\nCodex API (Full outage)",
@@ -1714,13 +1755,6 @@
    "summary": "There is no information about casualties or damage",
    "link": "https://tass.com/emergencies/2193161",
    "date": "2026-09-25T23:01:02Z"
-  },
-  {
-   "feed": "japan-news",
-   "title": "The Japan Times: When tourists do the ‘Nagoya skip,’ do they know what they’re skipping?",
-   "summary": "Despite historical, cultural and culinary draws, only 10% of overseas visitors set foot in Aichi and Gifu prefectures.",
-   "link": "https://www.japantimes.co.jp/life/2026/09/26/travel/nagoya-aichi-gifu-crafts-cuisine-travel-tourism/",
-   "date": "2026-09-25T23:00:00Z"
   },
   {
    "feed": "us-news",
@@ -2029,13 +2063,6 @@
    "summary": "Category: Information\nBulletin Issue Time: 2026.09.25 21:32:45 UTC\nPreliminary Magnitude: 7.0(Mwp)\nLat/Lon: -21.246 / 168.453\nAffected Region: LOYALTY ISLANDS\nNote:\nDefinition: View bulletin",
    "link": "urn:uuid:5577a45b-603c-4948-8c37-222720628e66",
    "date": "2026-09-25T21:32:45Z"
-  },
-  {
-   "feed": "world-headlines",
-   "title": "Mbappe goal overshadowed by knee injury to mar Zidane debut France win",
-   "summary": "Kylian Mbappe scores the only goal of France's win in Turkiye, but Real Madrid striker immediately forced off by injury.",
-   "link": "https://www.aljazeera.com/sports/2026/9/25/mbappe-goal-overshadowed-by-knee-injury-to-mar-zidane-debut-france-win?traffic_source=rss",
-   "date": "2026-09-25T21:32:43Z"
   },
   {
    "feed": "sec-company-events",
@@ -2533,13 +2560,6 @@
    "summary": null,
    "link": "https://www.thehindu.com/news/cities/Madurai/minister-assures-support-to-transpersons-at-transpreneur-summit-in-madurai/article71509554.ece",
    "date": "2026-09-25T18:53:46Z"
-  },
-  {
-   "feed": "crypto-news",
-   "title": "Circle and Tether Freeze Stablecoins Tied to Bitget Hack—But Most Funds Slip Away",
-   "summary": "The two stablecoin issuers blacklisted a wallet labeled \"Bitget Exploiter 8,\" locking about $318,000 in USDC and USDT—but the attacker swapped most funds into unfreezable ETH before they could act.",
-   "link": "https://decrypt.co/379365/circle-tether-freeze-stablecoins-bitget-hack",
-   "date": "2026-09-25T18:42:51Z"
   },
   {
    "feed": "us-news",
@@ -5720,13 +5740,6 @@
    "date": "2026-09-23T09:00:00Z"
   },
   {
-   "feed": "world-leaders",
-   "title": "Kremlin: Greetings to the staff and veterans of the Burnazyan Federal Medical Biophysical Centre",
-   "summary": "Vladimir Putin\ncongratulated the staff and veterans of the State Research Centre Burnazyan\nFederal Medical Biophysical Centre of the Federal Medical-Biological Agency of Russia on a significant milestone – the institution’s 80 th\nanniversary.",
-   "link": "http://en.kremlin.ru/events/president/news/80823",
-   "date": "2026-09-23T06:30:00Z"
-  },
-  {
    "feed": "ai-releases",
    "title": "ollama/ollama v0.34.4",
    "summary": "What's Changed\nStructured outputs on thinking models now apply in a single pass, making them faster and more reliable.\nFixed intermittent \"model not found\" errors with a large local library\nFixed the macOS app becoming unresponsive when checking if ChatGPT or Codex is running.\nQwen 3.8 prompt proces",
@@ -6033,6 +6046,13 @@
    "summary": "What's Changed\nAimdo 0.5.5 + Auto-detect and enable --fast-disk when the disk is fast (CORE-440) by @rattus128 in https://github.com/Comfy-Org/ComfyUI/pull/16333\n[Partner Nodes] feat(OpenAI): add transparent background support for GPT Image 2 by @bigcat88 in https://github.com/Comfy-Org/ComfyUI/pull",
    "link": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.37.0",
    "date": "2026-09-21T07:35:01Z"
+  },
+  {
+   "feed": "disaster-alerts",
+   "title": "Orange notification for tropical cyclone POLO-26. Population affected by Category 1 (120 km/h) wind speeds or higher is 0.251 million .",
+   "summary": "From 21/09/2026 to 26/09/2026, a Hurricane/Typhoon > 74 mph (maximum wind speed of 287 km/h) POLO-26 was active in EastPacific. The cyclone affects these countries: Mexico (vulnerability Medium). Estimated population affected by category 1 (120 km/h) wind speeds or higher is 0.251 million .",
+   "link": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001325",
+   "date": "2026-09-21T06:39:52Z"
   },
   {
    "feed": "show-hn",
@@ -6868,6 +6888,13 @@
    "date": "2026-09-14T03:57:19Z"
   },
   {
+   "feed": "bank-of-thailand",
+   "title": "BOT to Release Previously Issued Commemorative Banknotes Honoring Her Majesty Queen Sirikit The Queen Mother",
+   "summary": "published_at 2026-09-14",
+   "link": "https://www.bot.or.th/en/news-and-media/news/news-20260914.html",
+   "date": "2026-09-14T00:00:00Z"
+  },
+  {
    "feed": "exploited-vulnerabilities",
    "title": "CVE-2026-76461: Cisco Secure Email Gateway SQL Injection Vulnerability",
    "summary": "Cisco AsyncOS software for Cisco Secure Email Gateway (SEG) contains a SQL injection vulnerability that could allow an unauthenticated, remote attacker to execute arbitrary commands with root privileges on the underlying operating system.",
@@ -7020,6 +7047,13 @@
    "summary": "hn https://news.ycombinator.com/item?id=49637385 · published_at 2026-09-10T01:58:00Z · points 633 · num_comments 290",
    "link": "https://rivendell.dmitrybrant.com/relativity/",
    "date": "2026-09-10T01:58:00Z"
+  },
+  {
+   "feed": "bank-of-thailand",
+   "title": "Bank of Thailand and Thai Financial Sector Join Forces to Escalate Proactive Measures Against Illicit Financial Activities",
+   "summary": "published_at 2026-09-10",
+   "link": "https://www.bot.or.th/en/news-and-media/news/news-20260910.html",
+   "date": "2026-09-10T00:00:00Z"
   },
   {
    "feed": "crypto-hacks",
@@ -7442,6 +7476,13 @@
    "date": "2026-08-31T05:48:23Z"
   },
   {
+   "feed": "bank-of-thailand",
+   "title": "Press Release on the Economic and Monetary Conditions for July 2026",
+   "summary": "published_at 2026-08-31",
+   "link": "https://www.bot.or.th/en/news-and-media/news/news-20260831.html",
+   "date": "2026-08-31T00:00:00Z"
+  },
+  {
    "feed": "us-new-rules",
    "title": "Labor Department: Modifications to the Regulations Implementing the Vietnam Era Veterans' Readjustment Assistance Act of 1974, as Amended; Correction",
    "summary": "The U.S. Department of Labor published a final rule in the Federal Register on August 21, 2026, revising its implementing regulations for the Vietnam Era Veterans' Readjustment Assistance Act of 1974, as amended (VEVRAA). This document corrects amendatory instructions included in the final rule.",
@@ -7505,6 +7546,13 @@
    "date": "2026-08-27T08:14:48Z"
   },
   {
+   "feed": "bank-of-thailand",
+   "title": "Appointment of Expert Members for the Monetary Policy Committee",
+   "summary": "published_at 2026-08-27",
+   "link": "https://www.bot.or.th/en/news-and-media/news/news-20260827.html",
+   "date": "2026-08-27T00:00:00Z"
+  },
+  {
    "feed": "ai-releases",
    "title": "huggingface/transformers Release v5.16.1",
    "summary": "Release v5.16.1\nThis is a special release as we include GLM! (and a few small fixes)\nGLM-5.3-Flash\nGLM-5.3-Flash, the first natively multimodal model in the GLM-5 series. With 320B total parameters and just 18B active parameters, it outperforms GLM-5.2 across benchmarks and real-world workloads at o",
@@ -7531,6 +7579,13 @@
    "summary": "What's Changed\nFix minimax music not working on non dynamic vram. by @comfyanonymous in https://github.com/Comfy-Org/ComfyUI/pull/15588\nAdd MiniMaxH3AddGuide for anchoring image and audio guides at any frame by @drozbay in https://github.com/Comfy-Org/ComfyUI/pull/15439\nchore(openapi): sync shared A",
    "link": "https://github.com/Comfy-Org/ComfyUI/releases/tag/v0.34.0",
    "date": "2026-08-26T02:09:08Z"
+  },
+  {
+   "feed": "bank-of-thailand",
+   "title": "Appointment of Bank of Thailand’s Senior Management",
+   "summary": "published_at 2026-08-26",
+   "link": "https://www.bot.or.th/en/news-and-media/news/news-20260826.html",
+   "date": "2026-08-26T00:00:00Z"
   },
   {
    "feed": "us-new-rules",

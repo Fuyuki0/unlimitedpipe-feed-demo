@@ -2,12 +2,100 @@
   "version": "https://jsonfeed.org/version/1.1",
   "title": "World headlines (BBC, NPR, Al Jazeera)",
   "home_page_url": "https://www.aljazeera.com/xml/rss/all.xml",
-  "description": "Events collected by UnlimitedPipe 0.5.1",
+  "description": "Events collected by UnlimitedPipe 0.6.0",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.5.1"
+    "generator": "UnlimitedPipe 0.6.0"
   },
   "items": [
+    {
+      "id": "e19472cc18784a65cef7",
+      "title": "The bombs are still falling. Does diplomacy even work?",
+      "content_text": "Al Jazeera’s Emma Withrow asked Al Anoud Al Thani what diplomacy can achieve.",
+      "date_published": "2026-09-26T03:34:23Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "e19472cc18784a65cef7",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790393228",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T04:05:53Z",
+          "data": {
+            "change": "added",
+            "label": "The bombs are still falling. Does diplomacy even work?",
+            "item_type": "entry",
+            "summary": "added: The bombs are still falling. Does diplomacy even work?",
+            "after": {
+              "title": "The bombs are still falling. Does diplomacy even work?",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/the-bombs-are-still-falling-does-diplomacy-even-work?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790393228",
+              "author": null,
+              "published_at": "2026-09-26T03:34:23Z",
+              "updated_at": "2026-09-26T03:34:23Z",
+              "summary": "Al Jazeera’s Emma Withrow asked Al Anoud Al Thani what diplomacy can achieve.",
+              "categories": [
+                "Show Types"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 82,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/the-bombs-are-still-falling-does-diplomacy-even-work?traffic_source=rss",
+      "tags": [
+        "Show Types"
+      ]
+    },
     {
       "id": "30e53296b2d75fd17f0b",
       "title": "Yemeni leader urges public to enlist, offers amnesty to Houthi defectors",
@@ -12829,94 +12917,6 @@
         }
       },
       "url": "https://www.bbc.co.uk/news/articles/c607lrvm41l3o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "id": "acdcfda5bf54d67a2198",
-      "title": "At least 41 die as boat capsizes in DRC’s Lake Tanganyika",
-      "content_text": "Forty-nine passengers have been rescued and a search is under way for the missing.",
-      "date_published": "2026-09-25T00:38:13Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "acdcfda5bf54d67a2198",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790276154",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T00:58:30Z",
-          "data": {
-            "change": "added",
-            "label": "At least 41 die as boat capsizes in DRC’s Lake Tanganyika",
-            "item_type": "entry",
-            "summary": "added: At least 41 die as boat capsizes in DRC’s Lake Tanganyika",
-            "after": {
-              "title": "At least 41 die as boat capsizes in DRC’s Lake Tanganyika",
-              "link": "https://www.aljazeera.com/news/2026/9/25/at-least-41-die-as-boat-capsizes-in-drcs-lake-tanganyika?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790276154",
-              "author": null,
-              "published_at": "2026-09-25T00:38:13Z",
-              "updated_at": "2026-09-25T00:38:13Z",
-              "summary": "Forty-nine passengers have been rescued and a search is under way for the missing.",
-              "categories": [
-                "News"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 223,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/news/2026/9/25/at-least-41-die-as-boat-capsizes-in-drcs-lake-tanganyika?traffic_source=rss",
-      "tags": [
-        "News"
-      ]
     }
   ]
 }

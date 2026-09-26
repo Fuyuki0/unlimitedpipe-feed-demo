@@ -3,9 +3,17 @@
   <channel>
     <title>World headlines (BBC, NPR, Al Jazeera)</title>
     <link>https://www.aljazeera.com/xml/rss/all.xml</link>
-    <description>Events collected by UnlimitedPipe 0.5.1</description>
-    <generator>UnlimitedPipe 0.5.1</generator>
-    <lastBuildDate>Sat, 26 Sep 2026 03:37:31 +0000</lastBuildDate>
+    <description>Events collected by UnlimitedPipe 0.6.0</description>
+    <generator>UnlimitedPipe 0.6.0</generator>
+    <lastBuildDate>Sat, 26 Sep 2026 04:05:53 +0000</lastBuildDate>
+    <item>
+      <title>The bombs are still falling. Does diplomacy even work?</title>
+      <link>https://www.aljazeera.com/video/newsfeed/2026/9/26/the-bombs-are-still-falling-does-diplomacy-even-work?traffic_source=rss</link>
+      <guid isPermaLink="false">e19472cc18784a65cef7</guid>
+      <pubDate>Sat, 26 Sep 2026 03:34:23 +0000</pubDate>
+      <description>Al Jazeera’s Emma Withrow asked Al Anoud Al Thani what diplomacy can achieve.</description>
+      <category>Show Types</category>
+    </item>
     <item>
       <title>Yemeni leader urges public to enlist, offers amnesty to Houthi defectors</title>
       <link>https://www.aljazeera.com/news/2026/9/26/yemeni-leader-urges-public-to-enlist-offers-amnesty-to-houthi-defectors?traffic_source=rss</link>
@@ -1139,14 +1147,6 @@
       <guid isPermaLink="false">631a038cfaaa3f66c109</guid>
       <pubDate>Thu, 24 Sep 2026 19:18:12 +0000</pubDate>
       <description>A male suspect from Ukraine was arrested after the stabbings in the town of Jarosław, police say.</description>
-    </item>
-    <item>
-      <title>At least 41 die as boat capsizes in DRC’s Lake Tanganyika</title>
-      <link>https://www.aljazeera.com/news/2026/9/25/at-least-41-die-as-boat-capsizes-in-drcs-lake-tanganyika?traffic_source=rss</link>
-      <guid isPermaLink="false">acdcfda5bf54d67a2198</guid>
-      <pubDate>Fri, 25 Sep 2026 00:38:13 +0000</pubDate>
-      <description>Forty-nine passengers have been rescued and a search is under way for the missing.</description>
-      <category>News</category>
     </item>
   </channel>
 </rss>

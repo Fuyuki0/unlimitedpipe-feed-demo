@@ -2,12 +2,114 @@
   "version": "https://jsonfeed.org/version/1.1",
   "title": "World leaders' announcements (White House, Kremlin, European Commission)",
   "home_page_url": "https://www.whitehouse.gov/news/feed/",
-  "description": "Events collected by UnlimitedPipe 0.3.2",
+  "description": "Events collected by UnlimitedPipe 0.6.0",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.3.2"
+    "generator": "UnlimitedPipe 0.6.0"
   },
   "items": [
+    {
+      "id": "53abf7059600b743796b",
+      "title": "White House: Fact Sheet: President Donald J. Trump Advances a Fair and Reciprocal Relationship with China While Hosting Historic State Visit",
+      "content_text": "DELIVERING FOR AMERICANS: This week, President Donald J. Trump and First Lady Melania Trump hosted President Xi Jinping and Madame Peng Liyuan of the People’s Republic of China for a reciprocal State Visit. During the visit, President Trump advanced the U.S.-China relationship and put the American people first. OPERATIONALIZING THE BOARDS OF TRADE AND INVESTMENT: This week, […]\nThe post Fact Sheet: President Donald J. Trump Advances a Fair and Reciprocal Relationship with China While Hosting…",
+      "date_published": "2026-09-26T03:29:32Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "53abf7059600b743796b",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.whitehouse.gov/?p=51256",
+          "source_url": "https://www.whitehouse.gov/news/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T04:05:55Z",
+          "data": {
+            "change": "added",
+            "label": "White House: Fact Sheet: President Donald J. Trump Advances a Fair and Reciprocal Relationship with China While Hosting Historic State Visit",
+            "item_type": "entry",
+            "summary": "added: White House: Fact Sheet: President Donald J. Trump Advances a Fair and Reciprocal Relationship with China While Hosting Historic State Visit",
+            "after": {
+              "title": "White House: Fact Sheet: President Donald J. Trump Advances a Fair and Reciprocal Relationship with China While Hosting Historic State Visit",
+              "link": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-advances-a-fair-and-reciprocal-relationship-with-china-while-hosting-historic-state-visit/",
+              "id": "https://www.whitehouse.gov/?p=51256",
+              "author": "The White House",
+              "published_at": "2026-09-26T03:29:32Z",
+              "updated_at": "2026-09-26T03:29:32Z",
+              "summary": "DELIVERING FOR AMERICANS: This week, President Donald J. Trump and First Lady Melania Trump hosted President Xi Jinping and Madame Peng Liyuan of the People’s Republic of China for a reciprocal State Visit. During the visit, President Trump advanced the U.S.-China relationship and put the American people first. OPERATIONALIZING THE BOARDS OF TRADE AND INVESTMENT: This week, […]\nThe post Fact Sheet: President Donald J. Trump Advances a Fair and Reciprocal Relationship with China While Hosting Historic State Visit appeared first on The White House .",
+              "categories": [
+                "Fact Sheets"
+              ],
+              "feed": {
+                "title": "News – The White House",
+                "url": "https://www.whitehouse.gov/news/",
+                "feed_url": "https://www.whitehouse.gov/news/feed/"
+              },
+              "outlet": "White House"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.whitehouse.gov/news/feed/",
+            "elapsed_ms": 53,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^whitehouse\\\\.gov$\", \"White House\")",
+                  "outlet=replace(outlet, \"^en\\\\.kremlin\\\\.ru$\", \"Kremlin\")",
+                  "outlet=replace(outlet, \"^ec\\\\.europa\\\\.eu$\", \"European Commission\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "world-leaders",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-advances-a-fair-and-reciprocal-relationship-with-china-while-hosting-historic-state-visit/",
+      "tags": [
+        "Fact Sheets"
+      ]
+    },
     {
       "id": "cd31d4be38c143162ece",
       "title": "White House: President Trump, First Lady Conclude Historic China State Visit",

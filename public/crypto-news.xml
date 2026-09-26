@@ -2,10 +2,20 @@
 <rss version="2.0">
   <channel>
     <title>Crypto news (CoinDesk, Cointelegraph, Decrypt)</title>
-    <link>https://decrypt.co/feed</link>
-    <description>Events collected by UnlimitedPipe 0.4.0</description>
-    <generator>UnlimitedPipe 0.4.0</generator>
-    <lastBuildDate>Sat, 26 Sep 2026 02:06:54 +0000</lastBuildDate>
+    <link>https://www.coindesk.com/arc/outboundfeeds/rss/</link>
+    <description>Events collected by UnlimitedPipe 0.6.0</description>
+    <generator>UnlimitedPipe 0.6.0</generator>
+    <lastBuildDate>Sat, 26 Sep 2026 04:02:38 +0000</lastBuildDate>
+    <item>
+      <title>Bitcoin could soon get Zcash-style 'shielded' privacy without changing its rules</title>
+      <link>https://www.coindesk.com/tech/2026/09/25/bitcoin-could-soon-get-zcash-style-shielded-privacy-without-changing-its-rules</link>
+      <guid isPermaLink="false">35698ed6ed5274787dc0</guid>
+      <pubDate>Sat, 26 Sep 2026 04:02:13 +0000</pubDate>
+      <category>Tech</category>
+      <category>Bitcoin News</category>
+      <category>Privacy</category>
+      <category>News</category>
+    </item>
     <item>
       <title>Trump sues JPMorgan for $5B! Ledger prepares for $4B IPO! “Crypto Adoption is no longer reversible” says PWC!</title>
       <link>https://decrypt.co/videos/interviews/VpBdSuOE/trump-sues-jpmorgan-for-5b-ledger-prepares-for-4b-ipo-crypto-adoption-is-no-longer-reversible-says-pwc</link>
@@ -1245,14 +1255,6 @@ RENDER (+18%), SUI (+18%) and LIT (+15%) led top movers. Bank of America formall
       <category>White House</category>
       <category>Clarity Act</category>
       <category>News</category>
-    </item>
-    <item>
-      <title>Crypto Exchange That Invented 100x Leverage Is No More: Here’s What BitMEX Users Need to Know</title>
-      <link>https://decrypt.co/379089/crypto-exchange-that-invented-100x-leverage-is-no-more-heres-what-bitmex-users-need-to-know</link>
-      <guid isPermaLink="false">abdf24b68dd240465325</guid>
-      <pubDate>Wed, 23 Sep 2026 17:31:03 +0000</pubDate>
-      <description>BitMEX ended trading at 04:00 UTC Wednesday and is urging users to withdraw their remaining funds, as fees now apply to balances left on the exchange.</description>
-      <category>Business</category>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,487 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Bank of Thailand press releases",
+  "home_page_url": "https://www.bot.or.th/en/news-and-media/news.html",
+  "description": "Events collected by UnlimitedPipe 0.6.0",
+  "_unlimitedpipe": {
+    "schema": "unlimitedpipe.event/1",
+    "generator": "UnlimitedPipe 0.6.0"
+  },
+  "items": [
+    {
+      "id": "22450c38f96a09759779",
+      "title": "BOT to Release Previously Issued Commemorative Banknotes Honoring Her Majesty Queen Sirikit The Queen Mother",
+      "content_text": "published_at 2026-09-14",
+      "date_published": "2026-09-14T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "22450c38f96a09759779",
+          "source": "web",
+          "type": "change",
+          "key": "https://www.bot.or.th/en/news-and-media/news.html#https://www.bot.or.th/en/news-and-media/news/news-20260914.html",
+          "source_url": "https://www.bot.or.th/en/news-and-media/news.html",
+          "timestamp": null,
+          "observed_at": "2026-09-26T04:02:29Z",
+          "data": {
+            "change": "added",
+            "label": "BOT to Release Previously Issued Commemorative Banknotes Honoring Her Majesty Queen Sirikit The Queen Mother",
+            "item_type": "link",
+            "summary": "added: BOT to Release Previously Issued Commemorative Banknotes Honoring Her Majesty Queen Sirikit The Queen Mother",
+            "after": {
+              "title": "BOT to Release Previously Issued Commemorative Banknotes Honoring Her Majesty Queen Sirikit The Queen Mother",
+              "link": "https://www.bot.or.th/en/news-and-media/news/news-20260914.html",
+              "published_at": "2026-09-14"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.bot.or.th/en/news-and-media/news.html",
+            "content_type": "text/html",
+            "elapsed_ms": 2457,
+            "not_modified": false,
+            "rendered": true,
+            "method": "html"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.6.0"
+            },
+            {
+              "step": "filter",
+              "version": "0.6.0",
+              "args": {
+                "expr": "url matches \"/news-and-media/news/news-\\\\d{8}\\\\.html$\""
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "assign": [
+                  "title=replace(trim(text), \"\\\\s+\\\\d{1,2} [A-Z][a-z]{2} \\\\d{4}\\\\b.*$\", \"\")",
+                  "link=url",
+                  "published_at=replace(url, \"^.*news-(\\\\d{4})(\\\\d\\\\d)(\\\\d\\\\d)\\\\.html$\", \"\\\\1-\\\\2-\\\\3\")"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.6.0",
+              "args": {
+                "fields": [
+                  "title",
+                  "link",
+                  "published_at"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "key": "link",
+                "namespace": "bank-of-thailand",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bot.or.th/en/news-and-media/news/news-20260914.html"
+    },
+    {
+      "id": "79ddb4715cab4798c313",
+      "title": "Bank of Thailand and Thai Financial Sector Join Forces to Escalate Proactive Measures Against Illicit Financial Activities",
+      "content_text": "published_at 2026-09-10",
+      "date_published": "2026-09-10T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "79ddb4715cab4798c313",
+          "source": "web",
+          "type": "change",
+          "key": "https://www.bot.or.th/en/news-and-media/news.html#https://www.bot.or.th/en/news-and-media/news/news-20260910.html",
+          "source_url": "https://www.bot.or.th/en/news-and-media/news.html",
+          "timestamp": null,
+          "observed_at": "2026-09-26T04:02:29Z",
+          "data": {
+            "change": "added",
+            "label": "Bank of Thailand and Thai Financial Sector Join Forces to Escalate Proactive Measures Against Illicit Financial Activities",
+            "item_type": "link",
+            "summary": "added: Bank of Thailand and Thai Financial Sector Join Forces to Escalate Proactive Measures Against Illicit Financial Activities",
+            "after": {
+              "title": "Bank of Thailand and Thai Financial Sector Join Forces to Escalate Proactive Measures Against Illicit Financial Activities",
+              "link": "https://www.bot.or.th/en/news-and-media/news/news-20260910.html",
+              "published_at": "2026-09-10"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.bot.or.th/en/news-and-media/news.html",
+            "content_type": "text/html",
+            "elapsed_ms": 2457,
+            "not_modified": false,
+            "rendered": true,
+            "method": "html"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.6.0"
+            },
+            {
+              "step": "filter",
+              "version": "0.6.0",
+              "args": {
+                "expr": "url matches \"/news-and-media/news/news-\\\\d{8}\\\\.html$\""
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "assign": [
+                  "title=replace(trim(text), \"\\\\s+\\\\d{1,2} [A-Z][a-z]{2} \\\\d{4}\\\\b.*$\", \"\")",
+                  "link=url",
+                  "published_at=replace(url, \"^.*news-(\\\\d{4})(\\\\d\\\\d)(\\\\d\\\\d)\\\\.html$\", \"\\\\1-\\\\2-\\\\3\")"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.6.0",
+              "args": {
+                "fields": [
+                  "title",
+                  "link",
+                  "published_at"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "key": "link",
+                "namespace": "bank-of-thailand",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bot.or.th/en/news-and-media/news/news-20260910.html"
+    },
+    {
+      "id": "06441e191783afcd19e2",
+      "title": "Press Release on the Economic and Monetary Conditions for July 2026",
+      "content_text": "published_at 2026-08-31",
+      "date_published": "2026-08-31T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "06441e191783afcd19e2",
+          "source": "web",
+          "type": "change",
+          "key": "https://www.bot.or.th/en/news-and-media/news.html#https://www.bot.or.th/en/news-and-media/news/news-20260831.html",
+          "source_url": "https://www.bot.or.th/en/news-and-media/news.html",
+          "timestamp": null,
+          "observed_at": "2026-09-26T04:02:29Z",
+          "data": {
+            "change": "added",
+            "label": "Press Release on the Economic and Monetary Conditions for July 2026",
+            "item_type": "link",
+            "summary": "added: Press Release on the Economic and Monetary Conditions for July 2026",
+            "after": {
+              "title": "Press Release on the Economic and Monetary Conditions for July 2026",
+              "link": "https://www.bot.or.th/en/news-and-media/news/news-20260831.html",
+              "published_at": "2026-08-31"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.bot.or.th/en/news-and-media/news.html",
+            "content_type": "text/html",
+            "elapsed_ms": 2457,
+            "not_modified": false,
+            "rendered": true,
+            "method": "html"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.6.0"
+            },
+            {
+              "step": "filter",
+              "version": "0.6.0",
+              "args": {
+                "expr": "url matches \"/news-and-media/news/news-\\\\d{8}\\\\.html$\""
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "assign": [
+                  "title=replace(trim(text), \"\\\\s+\\\\d{1,2} [A-Z][a-z]{2} \\\\d{4}\\\\b.*$\", \"\")",
+                  "link=url",
+                  "published_at=replace(url, \"^.*news-(\\\\d{4})(\\\\d\\\\d)(\\\\d\\\\d)\\\\.html$\", \"\\\\1-\\\\2-\\\\3\")"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.6.0",
+              "args": {
+                "fields": [
+                  "title",
+                  "link",
+                  "published_at"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "key": "link",
+                "namespace": "bank-of-thailand",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bot.or.th/en/news-and-media/news/news-20260831.html"
+    },
+    {
+      "id": "4ad5b11aa9bd51cc337b",
+      "title": "Appointment of Expert Members for the Monetary Policy Committee",
+      "content_text": "published_at 2026-08-27",
+      "date_published": "2026-08-27T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "4ad5b11aa9bd51cc337b",
+          "source": "web",
+          "type": "change",
+          "key": "https://www.bot.or.th/en/news-and-media/news.html#https://www.bot.or.th/en/news-and-media/news/news-20260827.html",
+          "source_url": "https://www.bot.or.th/en/news-and-media/news.html",
+          "timestamp": null,
+          "observed_at": "2026-09-26T04:02:29Z",
+          "data": {
+            "change": "added",
+            "label": "Appointment of Expert Members for the Monetary Policy Committee",
+            "item_type": "link",
+            "summary": "added: Appointment of Expert Members for the Monetary Policy Committee",
+            "after": {
+              "title": "Appointment of Expert Members for the Monetary Policy Committee",
+              "link": "https://www.bot.or.th/en/news-and-media/news/news-20260827.html",
+              "published_at": "2026-08-27"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.bot.or.th/en/news-and-media/news.html",
+            "content_type": "text/html",
+            "elapsed_ms": 2457,
+            "not_modified": false,
+            "rendered": true,
+            "method": "html"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.6.0"
+            },
+            {
+              "step": "filter",
+              "version": "0.6.0",
+              "args": {
+                "expr": "url matches \"/news-and-media/news/news-\\\\d{8}\\\\.html$\""
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "assign": [
+                  "title=replace(trim(text), \"\\\\s+\\\\d{1,2} [A-Z][a-z]{2} \\\\d{4}\\\\b.*$\", \"\")",
+                  "link=url",
+                  "published_at=replace(url, \"^.*news-(\\\\d{4})(\\\\d\\\\d)(\\\\d\\\\d)\\\\.html$\", \"\\\\1-\\\\2-\\\\3\")"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.6.0",
+              "args": {
+                "fields": [
+                  "title",
+                  "link",
+                  "published_at"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "key": "link",
+                "namespace": "bank-of-thailand",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bot.or.th/en/news-and-media/news/news-20260827.html"
+    },
+    {
+      "id": "7e4ac8ecc8bd2a086326",
+      "title": "Appointment of Bank of Thailand’s Senior Management",
+      "content_text": "published_at 2026-08-26",
+      "date_published": "2026-08-26T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "7e4ac8ecc8bd2a086326",
+          "source": "web",
+          "type": "change",
+          "key": "https://www.bot.or.th/en/news-and-media/news.html#https://www.bot.or.th/en/news-and-media/news/news-20260826.html",
+          "source_url": "https://www.bot.or.th/en/news-and-media/news.html",
+          "timestamp": null,
+          "observed_at": "2026-09-26T04:02:29Z",
+          "data": {
+            "change": "added",
+            "label": "Appointment of Bank of Thailand’s Senior Management",
+            "item_type": "link",
+            "summary": "added: Appointment of Bank of Thailand’s Senior Management",
+            "after": {
+              "title": "Appointment of Bank of Thailand’s Senior Management",
+              "link": "https://www.bot.or.th/en/news-and-media/news/news-20260826.html",
+              "published_at": "2026-08-26"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.bot.or.th/en/news-and-media/news.html",
+            "content_type": "text/html",
+            "elapsed_ms": 2457,
+            "not_modified": false,
+            "rendered": true,
+            "method": "html"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.6.0"
+            },
+            {
+              "step": "filter",
+              "version": "0.6.0",
+              "args": {
+                "expr": "url matches \"/news-and-media/news/news-\\\\d{8}\\\\.html$\""
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "assign": [
+                  "title=replace(trim(text), \"\\\\s+\\\\d{1,2} [A-Z][a-z]{2} \\\\d{4}\\\\b.*$\", \"\")",
+                  "link=url",
+                  "published_at=replace(url, \"^.*news-(\\\\d{4})(\\\\d\\\\d)(\\\\d\\\\d)\\\\.html$\", \"\\\\1-\\\\2-\\\\3\")"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "select",
+              "version": "0.6.0",
+              "args": {
+                "fields": [
+                  "title",
+                  "link",
+                  "published_at"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "key": "link",
+                "namespace": "bank-of-thailand",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bot.or.th/en/news-and-media/news/news-20260826.html"
+    }
+  ]
+}

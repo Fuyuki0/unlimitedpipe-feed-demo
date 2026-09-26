@@ -2,12 +2,1276 @@
   "version": "https://jsonfeed.org/version/1.1",
   "title": "ข่าวไทย (มติชน, ประชาชาติธุรกิจ)",
   "home_page_url": "https://www.matichon.co.th/feed",
-  "description": "Events collected by UnlimitedPipe 0.5.1",
+  "description": "Events collected by UnlimitedPipe 0.6.0",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.5.1"
+    "generator": "UnlimitedPipe 0.6.0"
   },
   "items": [
+    {
+      "id": "63371d2af9a1cc209c88",
+      "title": "มติชน: นายกฯ ส่งกำลังใจ ผู้ประสบภัยน้ำท่วม เร่งเดินทางกลับจากลอนดอน เตรียมเข้าพื้นที่ทันที",
+      "content_text": "นายกฯ ส่งกำลังใจ ผู้ประสบภัยน้ำท่วม เร่งเดินทางกลับจากล […]",
+      "date_published": "2026-09-26T03:59:08Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "63371d2af9a1cc209c88",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.matichon.co.th/?p=5905887",
+          "source_url": "https://www.matichon.co.th/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T04:05:34Z",
+          "data": {
+            "change": "added",
+            "label": "มติชน: นายกฯ ส่งกำลังใจ ผู้ประสบภัยน้ำท่วม เร่งเดินทางกลับจากลอนดอน เตรียมเข้าพื้นที่ทันที",
+            "item_type": "entry",
+            "summary": "added: มติชน: นายกฯ ส่งกำลังใจ ผู้ประสบภัยน้ำท่วม เร่งเดินทางกลับจากลอนดอน เตรียมเข้าพื้นที่ทันที",
+            "after": {
+              "title": "มติชน: นายกฯ ส่งกำลังใจ ผู้ประสบภัยน้ำท่วม เร่งเดินทางกลับจากลอนดอน เตรียมเข้าพื้นที่ทันที",
+              "link": "https://www.matichon.co.th/politics/news_5905887",
+              "id": "https://www.matichon.co.th/?p=5905887",
+              "author": "Chanan",
+              "published_at": "2026-09-26T03:59:08Z",
+              "updated_at": "2026-09-26T03:59:08Z",
+              "summary": "นายกฯ ส่งกำลังใจ ผู้ประสบภัยน้ำท่วม เร่งเดินทางกลับจากล […]",
+              "categories": [
+                "การเมือง",
+                "ภาพนำ",
+                "น้ำท่วม",
+                "น้ำท่วมกทม."
+              ],
+              "feed": {
+                "title": "มติชนออนไลน์",
+                "url": "https://www.matichon.co.th",
+                "feed_url": "https://www.matichon.co.th/feed"
+              },
+              "outlet": "มติชน"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.matichon.co.th/feed",
+            "elapsed_ms": 408,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^matichon\\\\.co\\\\.th$\", \"มติชน\")",
+                  "outlet=replace(outlet, \"^prachachat\\\\.net$\", \"ประชาชาติธุรกิจ\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "thailand-news-th",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.matichon.co.th/politics/news_5905887",
+      "tags": [
+        "การเมือง",
+        "ภาพนำ",
+        "น้ำท่วม",
+        "น้ำท่วมกทม."
+      ]
+    },
+    {
+      "id": "218af2090ee4a644c391",
+      "title": "มติชน: กรมหม่อนไหมเปิดงาน มหกรรมหม่อนไหมดี 4 ภาค รวม 4 ภูมิปัญญา สู่หนึ่งคุณค่าแห่งไหมไทย 23–27 ก.ย.ที่ขอนแก่น",
+      "content_text": "กรมหม่อนไหมเปิดงาน มหกรรมหม่อนไหมดี 4 ภาค รวม 4 ภูมิปัญ […]",
+      "date_published": "2026-09-26T03:50:54Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "218af2090ee4a644c391",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.matichon.co.th/?p=5905877",
+          "source_url": "https://www.matichon.co.th/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T04:05:34Z",
+          "data": {
+            "change": "added",
+            "label": "มติชน: กรมหม่อนไหมเปิดงาน มหกรรมหม่อนไหมดี 4 ภาค รวม 4 ภูมิปัญญา สู่หนึ่งคุณค่าแห่งไหมไทย 23–27 ก.ย.ที่ขอนแก่น",
+            "item_type": "entry",
+            "summary": "added: มติชน: กรมหม่อนไหมเปิดงาน มหกรรมหม่อนไหมดี 4 ภาค รวม 4 ภูมิปัญญา สู่หนึ่งคุณค่าแห่งไหมไทย 23–27 ก.ย.ที่ขอนแก่น",
+            "after": {
+              "title": "มติชน: กรมหม่อนไหมเปิดงาน มหกรรมหม่อนไหมดี 4 ภาค รวม 4 ภูมิปัญญา สู่หนึ่งคุณค่าแห่งไหมไทย 23–27 ก.ย.ที่ขอนแก่น",
+              "link": "https://www.matichon.co.th/region/news_5905877",
+              "id": "https://www.matichon.co.th/?p=5905877",
+              "author": "นที ศรีพารัตน์",
+              "published_at": "2026-09-26T03:50:54Z",
+              "updated_at": "2026-09-26T03:50:54Z",
+              "summary": "กรมหม่อนไหมเปิดงาน มหกรรมหม่อนไหมดี 4 ภาค รวม 4 ภูมิปัญ […]",
+              "categories": [
+                "ภูมิภาค"
+              ],
+              "feed": {
+                "title": "มติชนออนไลน์",
+                "url": "https://www.matichon.co.th",
+                "feed_url": "https://www.matichon.co.th/feed"
+              },
+              "outlet": "มติชน"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.matichon.co.th/feed",
+            "elapsed_ms": 408,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^matichon\\\\.co\\\\.th$\", \"มติชน\")",
+                  "outlet=replace(outlet, \"^prachachat\\\\.net$\", \"ประชาชาติธุรกิจ\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "thailand-news-th",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.matichon.co.th/region/news_5905877",
+      "tags": [
+        "ภูมิภาค"
+      ]
+    },
+    {
+      "id": "bb2bd20f5d9819efe897",
+      "title": "มติชน: ระยองอ่วม ท่วม ปลวกแดง-อำเภอเมือง ผู้ว่าฯ ระดมพลช่วยเต็มอัตราศึก สำรวจความเสียหาย",
+      "content_text": "ผู้ว่าฯไตรภพ เกาะติดแก้น้ำท่วมระยอง ระดมพลช่วยเต็มอัตรา […]",
+      "date_published": "2026-09-26T03:44:54Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "bb2bd20f5d9819efe897",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.matichon.co.th/?p=5905861",
+          "source_url": "https://www.matichon.co.th/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T04:05:34Z",
+          "data": {
+            "change": "added",
+            "label": "มติชน: ระยองอ่วม ท่วม ปลวกแดง-อำเภอเมือง ผู้ว่าฯ ระดมพลช่วยเต็มอัตราศึก สำรวจความเสียหาย",
+            "item_type": "entry",
+            "summary": "added: มติชน: ระยองอ่วม ท่วม ปลวกแดง-อำเภอเมือง ผู้ว่าฯ ระดมพลช่วยเต็มอัตราศึก สำรวจความเสียหาย",
+            "after": {
+              "title": "มติชน: ระยองอ่วม ท่วม ปลวกแดง-อำเภอเมือง ผู้ว่าฯ ระดมพลช่วยเต็มอัตราศึก สำรวจความเสียหาย",
+              "link": "https://www.matichon.co.th/region/news_5905861",
+              "id": "https://www.matichon.co.th/?p=5905861",
+              "author": "Chanan",
+              "published_at": "2026-09-26T03:44:54Z",
+              "updated_at": "2026-09-26T03:44:54Z",
+              "summary": "ผู้ว่าฯไตรภพ เกาะติดแก้น้ำท่วมระยอง ระดมพลช่วยเต็มอัตรา […]",
+              "categories": [
+                "ภูมิภาค",
+                "ไตรภพ วงศ์ไตรรัตน์"
+              ],
+              "feed": {
+                "title": "มติชนออนไลน์",
+                "url": "https://www.matichon.co.th",
+                "feed_url": "https://www.matichon.co.th/feed"
+              },
+              "outlet": "มติชน"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.matichon.co.th/feed",
+            "elapsed_ms": 408,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^matichon\\\\.co\\\\.th$\", \"มติชน\")",
+                  "outlet=replace(outlet, \"^prachachat\\\\.net$\", \"ประชาชาติธุรกิจ\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "thailand-news-th",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.matichon.co.th/region/news_5905861",
+      "tags": [
+        "ภูมิภาค",
+        "ไตรภพ วงศ์ไตรรัตน์"
+      ]
+    },
+    {
+      "id": "e6ba91071d5bdcf1c389",
+      "title": "มติชน: เด็จพี่ จี้รมต.ลงหน้างานน้ำท่วม วอนทุกฝ่ายแข่งกันช่วยปชช. อย่าทำให้เป็นศึกการเมือง",
+      "content_text": "“เด็จพี่” ชี้น้ำท่วมอย่าให้เป็นศึกการเมือง วอนทุกฝ่ายแข […]",
+      "date_published": "2026-09-26T03:43:19Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "e6ba91071d5bdcf1c389",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.matichon.co.th/?p=5905843",
+          "source_url": "https://www.matichon.co.th/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T04:05:34Z",
+          "data": {
+            "change": "added",
+            "label": "มติชน: เด็จพี่ จี้รมต.ลงหน้างานน้ำท่วม วอนทุกฝ่ายแข่งกันช่วยปชช. อย่าทำให้เป็นศึกการเมือง",
+            "item_type": "entry",
+            "summary": "added: มติชน: เด็จพี่ จี้รมต.ลงหน้างานน้ำท่วม วอนทุกฝ่ายแข่งกันช่วยปชช. อย่าทำให้เป็นศึกการเมือง",
+            "after": {
+              "title": "มติชน: เด็จพี่ จี้รมต.ลงหน้างานน้ำท่วม วอนทุกฝ่ายแข่งกันช่วยปชช. อย่าทำให้เป็นศึกการเมือง",
+              "link": "https://www.matichon.co.th/politics/news_5905843",
+              "id": "https://www.matichon.co.th/?p=5905843",
+              "author": "kajorn",
+              "published_at": "2026-09-26T03:43:19Z",
+              "updated_at": "2026-09-26T03:43:19Z",
+              "summary": "“เด็จพี่” ชี้น้ำท่วมอย่าให้เป็นศึกการเมือง วอนทุกฝ่ายแข […]",
+              "categories": [
+                "การเมือง",
+                "เพื่อไทย",
+                "น้ำท่วม",
+                "น้ำท่วมกทม.",
+                "พร้อมพงศ์ นพฤทธิ์",
+                "เด็จพี่"
+              ],
+              "feed": {
+                "title": "มติชนออนไลน์",
+                "url": "https://www.matichon.co.th",
+                "feed_url": "https://www.matichon.co.th/feed"
+              },
+              "outlet": "มติชน"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.matichon.co.th/feed",
+            "elapsed_ms": 408,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^matichon\\\\.co\\\\.th$\", \"มติชน\")",
+                  "outlet=replace(outlet, \"^prachachat\\\\.net$\", \"ประชาชาติธุรกิจ\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "thailand-news-th",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.matichon.co.th/politics/news_5905843",
+      "tags": [
+        "การเมือง",
+        "เพื่อไทย",
+        "น้ำท่วม",
+        "น้ำท่วมกทม.",
+        "พร้อมพงศ์ นพฤทธิ์",
+        "เด็จพี่"
+      ]
+    },
+    {
+      "id": "b72bb40ca24859b0910c",
+      "title": "มติชน: ปิดทางข้ามห้าแยกลาดพร้าว น้ำท่วมวิภาวดีขาออกสูง รถมุ่งหน้าดอนเมือง-รังสิตต้องเลี่ยง",
+      "content_text": "ปิดทางข้ามห้าแยกลาดพร้าว น้ำท่วมวิภาวดีขาออกสูง รถมุ่ง […]",
+      "date_published": "2026-09-26T03:41:13Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "b72bb40ca24859b0910c",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.matichon.co.th/?p=5905859",
+          "source_url": "https://www.matichon.co.th/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T04:05:34Z",
+          "data": {
+            "change": "added",
+            "label": "มติชน: ปิดทางข้ามห้าแยกลาดพร้าว น้ำท่วมวิภาวดีขาออกสูง รถมุ่งหน้าดอนเมือง-รังสิตต้องเลี่ยง",
+            "item_type": "entry",
+            "summary": "added: มติชน: ปิดทางข้ามห้าแยกลาดพร้าว น้ำท่วมวิภาวดีขาออกสูง รถมุ่งหน้าดอนเมือง-รังสิตต้องเลี่ยง",
+            "after": {
+              "title": "มติชน: ปิดทางข้ามห้าแยกลาดพร้าว น้ำท่วมวิภาวดีขาออกสูง รถมุ่งหน้าดอนเมือง-รังสิตต้องเลี่ยง",
+              "link": "https://www.matichon.co.th/local/news_5905859",
+              "id": "https://www.matichon.co.th/?p=5905859",
+              "author": "Admin 01",
+              "published_at": "2026-09-26T03:41:13Z",
+              "updated_at": "2026-09-26T03:41:13Z",
+              "summary": "ปิดทางข้ามห้าแยกลาดพร้าว น้ำท่วมวิภาวดีขาออกสูง รถมุ่ง […]",
+              "categories": [
+                "ในประเทศ",
+                "น้ำท่วม",
+                "น้ำท่วมกรุงเทพ"
+              ],
+              "feed": {
+                "title": "มติชนออนไลน์",
+                "url": "https://www.matichon.co.th",
+                "feed_url": "https://www.matichon.co.th/feed"
+              },
+              "outlet": "มติชน"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.matichon.co.th/feed",
+            "elapsed_ms": 408,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^matichon\\\\.co\\\\.th$\", \"มติชน\")",
+                  "outlet=replace(outlet, \"^prachachat\\\\.net$\", \"ประชาชาติธุรกิจ\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "thailand-news-th",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.matichon.co.th/local/news_5905859",
+      "tags": [
+        "ในประเทศ",
+        "น้ำท่วม",
+        "น้ำท่วมกรุงเทพ"
+      ]
+    },
+    {
+      "id": "2d3ebdece248969fcb9f",
+      "title": "ประชาชาติธุรกิจ: ‘เอกนิติ’ เปิดใจรับบทเดอะแบก มั่นใจคนไทยร่วมมือหวนผงาดเวทีโลกได้",
+      "content_text": "‘เอกนิติ’ เปิดใจรับบทเดอะแบก ยันพร้อมสู้เต็มที่ตลอด24 ชม. มั่นใจหากคนไทยร่วมมือ ไทยกลับมาผงาดเวทีโลกได้แน่นอน นายเอกนิติ นิติทัณฑ์ประภาศ รองนายกรัฐมนตรี และรัฐมนตรีว่าการกระทรวงการคลัง เปิดเผยในรายการ “คุยกับ ครม. อนุทิน” ถึงก …\nอ่านข่าวต้นฉบับ: ‘เอกนิติ’ เปิดใจรับบทเดอะแบก มั่นใจคนไทยร่วมมือหวนผงาดเวทีโลกได้",
+      "date_published": "2026-09-26T03:38:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "2d3ebdece248969fcb9f",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.prachachat.net/?p=2072021",
+          "source_url": "https://www.prachachat.net/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T04:05:34Z",
+          "data": {
+            "change": "added",
+            "label": "ประชาชาติธุรกิจ: ‘เอกนิติ’ เปิดใจรับบทเดอะแบก มั่นใจคนไทยร่วมมือหวนผงาดเวทีโลกได้",
+            "item_type": "entry",
+            "summary": "added: ประชาชาติธุรกิจ: ‘เอกนิติ’ เปิดใจรับบทเดอะแบก มั่นใจคนไทยร่วมมือหวนผงาดเวทีโลกได้",
+            "after": {
+              "title": "ประชาชาติธุรกิจ: ‘เอกนิติ’ เปิดใจรับบทเดอะแบก มั่นใจคนไทยร่วมมือหวนผงาดเวทีโลกได้",
+              "link": "https://www.prachachat.net/finance/news-2072021",
+              "id": "https://www.prachachat.net/?p=2072021",
+              "author": "Viravin Politics Online",
+              "published_at": "2026-09-26T03:38:00Z",
+              "updated_at": "2026-09-26T03:38:00Z",
+              "summary": "‘เอกนิติ’ เปิดใจรับบทเดอะแบก ยันพร้อมสู้เต็มที่ตลอด24 ชม. มั่นใจหากคนไทยร่วมมือ ไทยกลับมาผงาดเวทีโลกได้แน่นอน นายเอกนิติ นิติทัณฑ์ประภาศ รองนายกรัฐมนตรี และรัฐมนตรีว่าการกระทรวงการคลัง เปิดเผยในรายการ “คุยกับ ครม. อนุทิน” ถึงก …\nอ่านข่าวต้นฉบับ: ‘เอกนิติ’ เปิดใจรับบทเดอะแบก มั่นใจคนไทยร่วมมือหวนผงาดเวทีโลกได้",
+              "categories": [
+                "Finance",
+                "เอกนิติ",
+                "เอกนิติ นิติทัณฑ์ประภาศ"
+              ],
+              "feed": {
+                "title": "ประชาชาติธุรกิจ",
+                "url": "https://www.prachachat.net",
+                "feed_url": "https://www.prachachat.net/feed"
+              },
+              "outlet": "ประชาชาติธุรกิจ"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.prachachat.net/feed",
+            "elapsed_ms": 175,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^matichon\\\\.co\\\\.th$\", \"มติชน\")",
+                  "outlet=replace(outlet, \"^prachachat\\\\.net$\", \"ประชาชาติธุรกิจ\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "thailand-news-th",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.prachachat.net/finance/news-2072021",
+      "tags": [
+        "Finance",
+        "เอกนิติ",
+        "เอกนิติ นิติทัณฑ์ประภาศ"
+      ]
+    },
+    {
+      "id": "6a4a96e2a604ef6cf433",
+      "title": "มติชน: แมนยู-หลายสโมสรพรีเมียร์ลีก พิจารณาเรียกร้องค่าเสียหาย ถ้าแมนซิตี้ผิดจริง",
+      "content_text": "แมนยู-หลายสโมสรพรีเมียร์ลีก พิจารณาเรียกร้องค่าเสียหาย […]",
+      "date_published": "2026-09-26T03:35:37Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "6a4a96e2a604ef6cf433",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.matichon.co.th/?p=5905824",
+          "source_url": "https://www.matichon.co.th/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T04:05:34Z",
+          "data": {
+            "change": "added",
+            "label": "มติชน: แมนยู-หลายสโมสรพรีเมียร์ลีก พิจารณาเรียกร้องค่าเสียหาย ถ้าแมนซิตี้ผิดจริง",
+            "item_type": "entry",
+            "summary": "added: มติชน: แมนยู-หลายสโมสรพรีเมียร์ลีก พิจารณาเรียกร้องค่าเสียหาย ถ้าแมนซิตี้ผิดจริง",
+            "after": {
+              "title": "มติชน: แมนยู-หลายสโมสรพรีเมียร์ลีก พิจารณาเรียกร้องค่าเสียหาย ถ้าแมนซิตี้ผิดจริง",
+              "link": "https://www.matichon.co.th/sport/footballinter/news_5905824",
+              "id": "https://www.matichon.co.th/?p=5905824",
+              "author": "ศิริชัย ธนะเบญจผล",
+              "published_at": "2026-09-26T03:35:37Z",
+              "updated_at": "2026-09-26T03:35:37Z",
+              "summary": "แมนยู-หลายสโมสรพรีเมียร์ลีก พิจารณาเรียกร้องค่าเสียหาย […]",
+              "categories": [
+                "ฟุตบอลต่างประเทศ",
+                "กีฬาต่างประเทศ",
+                "ฟุตบอลอังกฤษ",
+                "กีฬา",
+                "Sport Slide",
+                "แมนยู",
+                "แมนซิตี้"
+              ],
+              "feed": {
+                "title": "มติชนออนไลน์",
+                "url": "https://www.matichon.co.th",
+                "feed_url": "https://www.matichon.co.th/feed"
+              },
+              "outlet": "มติชน"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.matichon.co.th/feed",
+            "elapsed_ms": 408,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^matichon\\\\.co\\\\.th$\", \"มติชน\")",
+                  "outlet=replace(outlet, \"^prachachat\\\\.net$\", \"ประชาชาติธุรกิจ\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "thailand-news-th",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.matichon.co.th/sport/footballinter/news_5905824",
+      "tags": [
+        "ฟุตบอลต่างประเทศ",
+        "กีฬาต่างประเทศ",
+        "ฟุตบอลอังกฤษ",
+        "กีฬา",
+        "Sport Slide",
+        "แมนยู",
+        "แมนซิตี้"
+      ]
+    },
+    {
+      "id": "f5683fa35481048bb5a8",
+      "title": "ประชาชาติธุรกิจ: The Mall งามวงศ์วาน – บางกะปิ วันที่ 26 ก.ย. เปิดเที่ยง",
+      "content_text": "เดอะมอลล์ แจ้งเลื่อนเวลาเปิดทำการสาขางามวงศ์วาน และบางกะปิ เป็นเวลาเที่ยงของวันที่ 26 กันยายน 2569 เนื่องจากสถานการณ์น้ำท่วม เดอะมอลล์ กรุ๊ป โพสเฟสบุ๊ค The Mall Group แจ้งเลื่อนเวลาเปิดทำการของศูนย์การค้า และห้างสรรพสินค้าเดอะมอลล์ไลฟ์สโตร์ งามวงศ์วา …\nอ่านข่าวต้นฉบับ: The Mall งามวงศ์วาน – บางกะปิ วันที่ 26 ก.ย. เปิดเที่ยง",
+      "date_published": "2026-09-26T03:34:57Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "f5683fa35481048bb5a8",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.prachachat.net/?p=2072016",
+          "source_url": "https://www.prachachat.net/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T04:05:34Z",
+          "data": {
+            "change": "added",
+            "label": "ประชาชาติธุรกิจ: The Mall งามวงศ์วาน – บางกะปิ วันที่ 26 ก.ย. เปิดเที่ยง",
+            "item_type": "entry",
+            "summary": "added: ประชาชาติธุรกิจ: The Mall งามวงศ์วาน – บางกะปิ วันที่ 26 ก.ย. เปิดเที่ยง",
+            "after": {
+              "title": "ประชาชาติธุรกิจ: The Mall งามวงศ์วาน – บางกะปิ วันที่ 26 ก.ย. เปิดเที่ยง",
+              "link": "https://www.prachachat.net/business/news-2072016",
+              "id": "https://www.prachachat.net/?p=2072016",
+              "author": "การตลาด ประชาชาติ",
+              "published_at": "2026-09-26T03:34:57Z",
+              "updated_at": "2026-09-26T03:34:57Z",
+              "summary": "เดอะมอลล์ แจ้งเลื่อนเวลาเปิดทำการสาขางามวงศ์วาน และบางกะปิ เป็นเวลาเที่ยงของวันที่ 26 กันยายน 2569 เนื่องจากสถานการณ์น้ำท่วม เดอะมอลล์ กรุ๊ป โพสเฟสบุ๊ค The Mall Group แจ้งเลื่อนเวลาเปิดทำการของศูนย์การค้า และห้างสรรพสินค้าเดอะมอลล์ไลฟ์สโตร์ งามวงศ์วา …\nอ่านข่าวต้นฉบับ: The Mall งามวงศ์วาน – บางกะปิ วันที่ 26 ก.ย. เปิดเที่ยง",
+              "categories": [
+                "Business",
+                "ห้าง-ศูนย์การค้า",
+                "เดอะมอลล์ กรุ๊ป"
+              ],
+              "feed": {
+                "title": "ประชาชาติธุรกิจ",
+                "url": "https://www.prachachat.net",
+                "feed_url": "https://www.prachachat.net/feed"
+              },
+              "outlet": "ประชาชาติธุรกิจ"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.prachachat.net/feed",
+            "elapsed_ms": 175,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^matichon\\\\.co\\\\.th$\", \"มติชน\")",
+                  "outlet=replace(outlet, \"^prachachat\\\\.net$\", \"ประชาชาติธุรกิจ\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "thailand-news-th",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.prachachat.net/business/news-2072016",
+      "tags": [
+        "Business",
+        "ห้าง-ศูนย์การค้า",
+        "เดอะมอลล์ กรุ๊ป"
+      ]
+    },
+    {
+      "id": "5dd77328ee87a85b2733",
+      "title": "ประชาชาติธุรกิจ: เอกนิติ ยันไทยช่วยไทยพลัส เฟส2 ไม่ใช่ประชานิยม ย้ำยึดวินัยการคลัง",
+      "content_text": "เอกนิติ ยันไทยช่วยไทยพลัส เฟส2 ไม่ใช่ประชานิยม ย้ำยึดวินัยการคลัง ชี้ช่วยเยียวยาค่าครองชีพ เปลี่ยนผ่านพลังงาน หลังราคาน้ำมันกลับมาพุ่งจากวิกฤตตะวันออกกลางยืดเยื้อ ดร.เอกนิติ นิติทัณฑ์ประภาศ รองนายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงการคลัง เปิดเผยในรายก …\nอ่านข่าวต้นฉบับ: เอกนิติ ยันไทยช่วยไทยพลัส เฟส2 ไม่ใช่ประชานิยม ย้ำยึดวินัยการคลัง",
+      "date_published": "2026-09-26T03:34:55Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "5dd77328ee87a85b2733",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.prachachat.net/?p=2072017",
+          "source_url": "https://www.prachachat.net/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T04:05:34Z",
+          "data": {
+            "change": "added",
+            "label": "ประชาชาติธุรกิจ: เอกนิติ ยันไทยช่วยไทยพลัส เฟส2 ไม่ใช่ประชานิยม ย้ำยึดวินัยการคลัง",
+            "item_type": "entry",
+            "summary": "added: ประชาชาติธุรกิจ: เอกนิติ ยันไทยช่วยไทยพลัส เฟส2 ไม่ใช่ประชานิยม ย้ำยึดวินัยการคลัง",
+            "after": {
+              "title": "ประชาชาติธุรกิจ: เอกนิติ ยันไทยช่วยไทยพลัส เฟส2 ไม่ใช่ประชานิยม ย้ำยึดวินัยการคลัง",
+              "link": "https://www.prachachat.net/finance/news-2072017",
+              "id": "https://www.prachachat.net/?p=2072017",
+              "author": "Viravin Politics Online",
+              "published_at": "2026-09-26T03:34:55Z",
+              "updated_at": "2026-09-26T03:34:55Z",
+              "summary": "เอกนิติ ยันไทยช่วยไทยพลัส เฟส2 ไม่ใช่ประชานิยม ย้ำยึดวินัยการคลัง ชี้ช่วยเยียวยาค่าครองชีพ เปลี่ยนผ่านพลังงาน หลังราคาน้ำมันกลับมาพุ่งจากวิกฤตตะวันออกกลางยืดเยื้อ ดร.เอกนิติ นิติทัณฑ์ประภาศ รองนายกรัฐมนตรีและรัฐมนตรีว่าการกระทรวงการคลัง เปิดเผยในรายก …\nอ่านข่าวต้นฉบับ: เอกนิติ ยันไทยช่วยไทยพลัส เฟส2 ไม่ใช่ประชานิยม ย้ำยึดวินัยการคลัง",
+              "categories": [
+                "Finance",
+                "เอกนิติ"
+              ],
+              "feed": {
+                "title": "ประชาชาติธุรกิจ",
+                "url": "https://www.prachachat.net",
+                "feed_url": "https://www.prachachat.net/feed"
+              },
+              "outlet": "ประชาชาติธุรกิจ"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.prachachat.net/feed",
+            "elapsed_ms": 175,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^matichon\\\\.co\\\\.th$\", \"มติชน\")",
+                  "outlet=replace(outlet, \"^prachachat\\\\.net$\", \"ประชาชาติธุรกิจ\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "thailand-news-th",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.prachachat.net/finance/news-2072017",
+      "tags": [
+        "Finance",
+        "เอกนิติ"
+      ]
+    },
+    {
+      "id": "7a4762d34eaa6b408d3e",
+      "title": "ประชาชาติธุรกิจ: ‘ชัชชาติ’ ประกาศขยายพื้นที่ประสบสาธารณภัย 50 เขต",
+      "content_text": "ผู้ว่าฯ กทม. ยกระดับจัดการเหตุอุทกภัยประกาศขยายพื้นที่ประสบสาธารณภัย 50 เขต นายชัชชาติ สิทธิพันธุ์ ผู้ว่าราชการกรุงเทพมหานคร(กทม.) ในฐานะผู้อำนวยการกรุงเทพมหานคร ลงนามประกาศกองอำนวยการป้องกันและบรรเทาสาธารณภัยกรุงเทพมหานคร เรื่อง เขตพื้นที่ประสบสาธาร …\nอ่านข่าวต้นฉบับ: ‘ชัชชาติ’ ประกาศขยายพื้นที่ประสบสาธารณภัย 50 เขต",
+      "date_published": "2026-09-26T03:22:58Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "7a4762d34eaa6b408d3e",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.prachachat.net/?p=2072012",
+          "source_url": "https://www.prachachat.net/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T04:05:34Z",
+          "data": {
+            "change": "added",
+            "label": "ประชาชาติธุรกิจ: ‘ชัชชาติ’ ประกาศขยายพื้นที่ประสบสาธารณภัย 50 เขต",
+            "item_type": "entry",
+            "summary": "added: ประชาชาติธุรกิจ: ‘ชัชชาติ’ ประกาศขยายพื้นที่ประสบสาธารณภัย 50 เขต",
+            "after": {
+              "title": "ประชาชาติธุรกิจ: ‘ชัชชาติ’ ประกาศขยายพื้นที่ประสบสาธารณภัย 50 เขต",
+              "link": "https://www.prachachat.net/politics/news-2072012",
+              "id": "https://www.prachachat.net/?p=2072012",
+              "author": "Viravin Politics Online",
+              "published_at": "2026-09-26T03:22:58Z",
+              "updated_at": "2026-09-26T03:22:58Z",
+              "summary": "ผู้ว่าฯ กทม. ยกระดับจัดการเหตุอุทกภัยประกาศขยายพื้นที่ประสบสาธารณภัย 50 เขต นายชัชชาติ สิทธิพันธุ์ ผู้ว่าราชการกรุงเทพมหานคร(กทม.) ในฐานะผู้อำนวยการกรุงเทพมหานคร ลงนามประกาศกองอำนวยการป้องกันและบรรเทาสาธารณภัยกรุงเทพมหานคร เรื่อง เขตพื้นที่ประสบสาธาร …\nอ่านข่าวต้นฉบับ: ‘ชัชชาติ’ ประกาศขยายพื้นที่ประสบสาธารณภัย 50 เขต",
+              "categories": [
+                "Politics",
+                "น้ำท่วม"
+              ],
+              "feed": {
+                "title": "ประชาชาติธุรกิจ",
+                "url": "https://www.prachachat.net",
+                "feed_url": "https://www.prachachat.net/feed"
+              },
+              "outlet": "ประชาชาติธุรกิจ"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.prachachat.net/feed",
+            "elapsed_ms": 175,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^matichon\\\\.co\\\\.th$\", \"มติชน\")",
+                  "outlet=replace(outlet, \"^prachachat\\\\.net$\", \"ประชาชาติธุรกิจ\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "thailand-news-th",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.prachachat.net/politics/news-2072012",
+      "tags": [
+        "Politics",
+        "น้ำท่วม"
+      ]
+    },
+    {
+      "id": "547f772295b8a732c068",
+      "title": "ประชาชาติธุรกิจ: Rain Bomb ดันน้ำเจ้าพระยาเพิ่ม ชป.หน่วงน้ำเต็มที่ คาดฝนเบาลง 27 ก.ย.",
+      "content_text": "ก.เกษตรฯ แจงฝนตกหนักแบบ Rain Bomb ดันระดับน้ำลุ่มเจ้าพระยาสูงขึ้น ปัจจุบันเขื่อนเจ้าพระยาระบาย 1,700 ลูกบาศก์เมตรต่อวินาที และอาจปรับตามสถานการณ์ ขณะที่การผันน้ำเข้าระบบคลองฝั่งตะวันออก-ตะวันตกเกือบเต็มศักยภาพแล้ว เตือนเกษตรกรพื้นที่สองฝั่งเจ้าพระยาเ …\nอ่านข่าวต้นฉบับ: Rain Bomb ดันน้ำเจ้าพระยาเพิ่ม ชป.หน่วงน้ำเต็มที่ คาดฝนเบาลง 27 ก.ย.",
+      "date_published": "2026-09-26T02:58:43Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "547f772295b8a732c068",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.prachachat.net/?p=2072006",
+          "source_url": "https://www.prachachat.net/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T04:05:34Z",
+          "data": {
+            "change": "added",
+            "label": "ประชาชาติธุรกิจ: Rain Bomb ดันน้ำเจ้าพระยาเพิ่ม ชป.หน่วงน้ำเต็มที่ คาดฝนเบาลง 27 ก.ย.",
+            "item_type": "entry",
+            "summary": "added: ประชาชาติธุรกิจ: Rain Bomb ดันน้ำเจ้าพระยาเพิ่ม ชป.หน่วงน้ำเต็มที่ คาดฝนเบาลง 27 ก.ย.",
+            "after": {
+              "title": "ประชาชาติธุรกิจ: Rain Bomb ดันน้ำเจ้าพระยาเพิ่ม ชป.หน่วงน้ำเต็มที่ คาดฝนเบาลง 27 ก.ย.",
+              "link": "https://www.prachachat.net/economic/news-2072006",
+              "id": "https://www.prachachat.net/?p=2072006",
+              "author": "Viravin Politics Online",
+              "published_at": "2026-09-26T02:58:43Z",
+              "updated_at": "2026-09-26T02:58:43Z",
+              "summary": "ก.เกษตรฯ แจงฝนตกหนักแบบ Rain Bomb ดันระดับน้ำลุ่มเจ้าพระยาสูงขึ้น ปัจจุบันเขื่อนเจ้าพระยาระบาย 1,700 ลูกบาศก์เมตรต่อวินาที และอาจปรับตามสถานการณ์ ขณะที่การผันน้ำเข้าระบบคลองฝั่งตะวันออก-ตะวันตกเกือบเต็มศักยภาพแล้ว เตือนเกษตรกรพื้นที่สองฝั่งเจ้าพระยาเ …\nอ่านข่าวต้นฉบับ: Rain Bomb ดันน้ำเจ้าพระยาเพิ่ม ชป.หน่วงน้ำเต็มที่ คาดฝนเบาลง 27 ก.ย.",
+              "categories": [
+                "Economic",
+                "เจ้าพระยา"
+              ],
+              "feed": {
+                "title": "ประชาชาติธุรกิจ",
+                "url": "https://www.prachachat.net",
+                "feed_url": "https://www.prachachat.net/feed"
+              },
+              "outlet": "ประชาชาติธุรกิจ"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.prachachat.net/feed",
+            "elapsed_ms": 175,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^matichon\\\\.co\\\\.th$\", \"มติชน\")",
+                  "outlet=replace(outlet, \"^prachachat\\\\.net$\", \"ประชาชาติธุรกิจ\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "thailand-news-th",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.prachachat.net/economic/news-2072006",
+      "tags": [
+        "Economic",
+        "เจ้าพระยา"
+      ]
+    },
+    {
+      "id": "1793180a8b92db86e7e4",
+      "title": "ประชาชาติธุรกิจ: การค้าชายแดน-ผ่านแดน พุ่ง 34.2% 8 เดือนทะลุ 1.5 ล้านล้าน",
+      "content_text": "การค้าชายแดนและผ่านแดน เดือนสิงหาคม 2569 พุ่ง 34.2% แตะ 201,600 ล้านบาท ดันยอดสะสม 8 เดือนทะลุ 1.54 ล้านล้านบาท ขณะที่การค้าชายแดนไทย-เมียนมากลับมาขยายตัวเป็นครั้งแรกในรอบ 12 เดือน ส่งออกพุ่ง 66.2% ส่วนการค้าผ่านแดนยังแรงต่อเนื่อง โต 42.1% จากดีมานด์ …\nอ่านข่าวต้นฉบับ: การค้าชายแดน-ผ่านแดน พุ่ง 34.2% 8 เดือนทะลุ 1.5 ล้านล้าน",
+      "date_published": "2026-09-26T02:54:03Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "1793180a8b92db86e7e4",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.prachachat.net/?p=2071999",
+          "source_url": "https://www.prachachat.net/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T04:05:34Z",
+          "data": {
+            "change": "added",
+            "label": "ประชาชาติธุรกิจ: การค้าชายแดน-ผ่านแดน พุ่ง 34.2% 8 เดือนทะลุ 1.5 ล้านล้าน",
+            "item_type": "entry",
+            "summary": "added: ประชาชาติธุรกิจ: การค้าชายแดน-ผ่านแดน พุ่ง 34.2% 8 เดือนทะลุ 1.5 ล้านล้าน",
+            "after": {
+              "title": "ประชาชาติธุรกิจ: การค้าชายแดน-ผ่านแดน พุ่ง 34.2% 8 เดือนทะลุ 1.5 ล้านล้าน",
+              "link": "https://www.prachachat.net/economic/news-2071999",
+              "id": "https://www.prachachat.net/?p=2071999",
+              "author": "Viravin Politics Online",
+              "published_at": "2026-09-26T02:54:03Z",
+              "updated_at": "2026-09-26T02:54:03Z",
+              "summary": "การค้าชายแดนและผ่านแดน เดือนสิงหาคม 2569 พุ่ง 34.2% แตะ 201,600 ล้านบาท ดันยอดสะสม 8 เดือนทะลุ 1.54 ล้านล้านบาท ขณะที่การค้าชายแดนไทย-เมียนมากลับมาขยายตัวเป็นครั้งแรกในรอบ 12 เดือน ส่งออกพุ่ง 66.2% ส่วนการค้าผ่านแดนยังแรงต่อเนื่อง โต 42.1% จากดีมานด์ …\nอ่านข่าวต้นฉบับ: การค้าชายแดน-ผ่านแดน พุ่ง 34.2% 8 เดือนทะลุ 1.5 ล้านล้าน",
+              "categories": [
+                "Economic",
+                "การค้าชายแดน",
+                "การค้าชายแดน-ผ่านแดน"
+              ],
+              "feed": {
+                "title": "ประชาชาติธุรกิจ",
+                "url": "https://www.prachachat.net",
+                "feed_url": "https://www.prachachat.net/feed"
+              },
+              "outlet": "ประชาชาติธุรกิจ"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.prachachat.net/feed",
+            "elapsed_ms": 175,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^matichon\\\\.co\\\\.th$\", \"มติชน\")",
+                  "outlet=replace(outlet, \"^prachachat\\\\.net$\", \"ประชาชาติธุรกิจ\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "thailand-news-th",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.prachachat.net/economic/news-2071999",
+      "tags": [
+        "Economic",
+        "การค้าชายแดน",
+        "การค้าชายแดน-ผ่านแดน"
+      ]
+    },
     {
       "id": "fed4881b11307a3f59f1",
       "title": "มติชน: แอร์เอเชีย เปิดให้ผู้โดยสารเที่ยวบินเข้า-ออก กทม. ที่ได้รับผลกระทบ เปลี่ยนเที่ยวบินได้",

@@ -2,12 +2,303 @@
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Japan news (Japan Times, Mainichi, Japan Today)",
   "home_page_url": "https://mainichi.jp/rss/etc/english_latest.rss",
-  "description": "Events collected by UnlimitedPipe 0.5.1",
+  "description": "Events collected by UnlimitedPipe 0.6.0",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.5.1"
+    "generator": "UnlimitedPipe 0.6.0"
   },
   "items": [
+    {
+      "id": "8d945387cd45ff42a496",
+      "title": "The Mainichi: Isabella Bird's 'Unbeaten Tracks in Japan': Kinugawa's beauty and a flea-ridden inn (Pt. 11)",
+      "content_text": "Having obtained ample rest and gathered information in Nikko, Isabella Bird finally set out for the \"unexplored interior\" on June 24, 1878. From this",
+      "date_published": "2026-09-26T04:00:25Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "8d945387cd45ff42a496",
+          "source": "rss",
+          "type": "change",
+          "key": "https://mainichi.jp/english/articles/20260924/p2a/00m/0et/036000c",
+          "source_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T04:04:32Z",
+          "data": {
+            "change": "added",
+            "label": "The Mainichi: Isabella Bird's 'Unbeaten Tracks in Japan': Kinugawa's beauty and a flea-ridden inn (Pt. 11)",
+            "item_type": "entry",
+            "summary": "added: The Mainichi: Isabella Bird's 'Unbeaten Tracks in Japan': Kinugawa's beauty and a flea-ridden inn (Pt. 11)",
+            "after": {
+              "title": "The Mainichi: Isabella Bird's 'Unbeaten Tracks in Japan': Kinugawa's beauty and a flea-ridden inn (Pt. 11)",
+              "link": "https://mainichi.jp/english/articles/20260924/p2a/00m/0et/036000c",
+              "id": "https://mainichi.jp/english/articles/20260924/p2a/00m/0et/036000c",
+              "author": null,
+              "published_at": "2026-09-26T04:00:25Z",
+              "updated_at": "2026-09-26T04:00:25Z",
+              "summary": "Having obtained ample rest and gathered information in Nikko, Isabella Bird finally set out for the \"unexplored interior\" on June 24, 1878. From this",
+              "categories": [],
+              "feed": {
+                "title": "The Mainichi",
+                "url": "https://mainichi.jp/english/",
+                "feed_url": "https://mainichi.jp/rss/etc/english_latest.rss"
+              },
+              "outlet": "The Mainichi"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+            "elapsed_ms": 589,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://mainichi.jp/english/articles/20260924/p2a/00m/0et/036000c"
+    },
+    {
+      "id": "1dfe73199d841ba276eb",
+      "title": "The Mainichi: Drug-smuggling cases in Japan linked to shady gigs worldwide",
+      "content_text": "TOKYO -- Foreigners are increasingly being caught attempting to smuggle illegal drugs into Japan. The cases involve stimulants, marijuana and etomidat",
+      "date_published": "2026-09-26T04:00:11Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "1dfe73199d841ba276eb",
+          "source": "rss",
+          "type": "change",
+          "key": "https://mainichi.jp/english/articles/20260925/p2a/00m/0na/012000c",
+          "source_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T04:04:32Z",
+          "data": {
+            "change": "added",
+            "label": "The Mainichi: Drug-smuggling cases in Japan linked to shady gigs worldwide",
+            "item_type": "entry",
+            "summary": "added: The Mainichi: Drug-smuggling cases in Japan linked to shady gigs worldwide",
+            "after": {
+              "title": "The Mainichi: Drug-smuggling cases in Japan linked to shady gigs worldwide",
+              "link": "https://mainichi.jp/english/articles/20260925/p2a/00m/0na/012000c",
+              "id": "https://mainichi.jp/english/articles/20260925/p2a/00m/0na/012000c",
+              "author": null,
+              "published_at": "2026-09-26T04:00:11Z",
+              "updated_at": "2026-09-26T04:00:11Z",
+              "summary": "TOKYO -- Foreigners are increasingly being caught attempting to smuggle illegal drugs into Japan. The cases involve stimulants, marijuana and etomidat",
+              "categories": [],
+              "feed": {
+                "title": "The Mainichi",
+                "url": "https://mainichi.jp/english/",
+                "feed_url": "https://mainichi.jp/rss/etc/english_latest.rss"
+              },
+              "outlet": "The Mainichi"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+            "elapsed_ms": 589,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://mainichi.jp/english/articles/20260925/p2a/00m/0na/012000c"
+    },
+    {
+      "id": "13ae384c91ce70dda99f",
+      "title": "The Mainichi: Japan's 'Chanson Monk' uses song, sutras to spread message of peace",
+      "content_text": "NAGOYA (Kyodo) -- French chanson and Buddhist sutras may seem an unlikely combination, but for 87-year-old priest Miruo Nakano, they have become a way",
+      "date_published": "2026-09-26T04:00:08Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "13ae384c91ce70dda99f",
+          "source": "rss",
+          "type": "change",
+          "key": "https://mainichi.jp/english/articles/20260925/p2g/00m/0na/015000c",
+          "source_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T04:04:32Z",
+          "data": {
+            "change": "added",
+            "label": "The Mainichi: Japan's 'Chanson Monk' uses song, sutras to spread message of peace",
+            "item_type": "entry",
+            "summary": "added: The Mainichi: Japan's 'Chanson Monk' uses song, sutras to spread message of peace",
+            "after": {
+              "title": "The Mainichi: Japan's 'Chanson Monk' uses song, sutras to spread message of peace",
+              "link": "https://mainichi.jp/english/articles/20260925/p2g/00m/0na/015000c",
+              "id": "https://mainichi.jp/english/articles/20260925/p2g/00m/0na/015000c",
+              "author": null,
+              "published_at": "2026-09-26T04:00:08Z",
+              "updated_at": "2026-09-26T04:00:08Z",
+              "summary": "NAGOYA (Kyodo) -- French chanson and Buddhist sutras may seem an unlikely combination, but for 87-year-old priest Miruo Nakano, they have become a way",
+              "categories": [],
+              "feed": {
+                "title": "The Mainichi",
+                "url": "https://mainichi.jp/english/",
+                "feed_url": "https://mainichi.jp/rss/etc/english_latest.rss"
+              },
+              "outlet": "The Mainichi"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+            "elapsed_ms": 589,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://mainichi.jp/english/articles/20260925/p2g/00m/0na/015000c"
+    },
     {
       "id": "2fc21b44418787b4240f",
       "title": "The Mainichi: Iran proposes a deal to reopen the Strait of Hormuz in 7 days if the US meets its conditions",
