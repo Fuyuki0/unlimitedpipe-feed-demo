@@ -9,6 +9,1980 @@
   },
   "items": [
     {
+      "id": "c1a854b4c7588279826c",
+      "title": "Disaster zone declared across Bangkok as heavy rain triggers flooding",
+      "content_text": "Nonstop rain since Thursday has submerged Thai capital's roads and canals, sending water into homes and stores.",
+      "date_published": "2026-09-26T07:47:29Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c1a854b4c7588279826c",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790402410",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:06:34Z",
+          "data": {
+            "change": "added",
+            "label": "Disaster zone declared across Bangkok as heavy rain triggers flooding",
+            "item_type": "entry",
+            "summary": "added: Disaster zone declared across Bangkok as heavy rain triggers flooding",
+            "after": {
+              "title": "Disaster zone declared across Bangkok as heavy rain triggers flooding",
+              "link": "https://www.aljazeera.com/news/2026/9/26/disaster-zone-declared-across-bangkok-as-heavy-rain-triggers-flooding?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790402410",
+              "author": null,
+              "published_at": "2026-09-26T07:47:29Z",
+              "updated_at": "2026-09-26T07:47:29Z",
+              "summary": "Nonstop rain since Thursday has submerged Thai capital's roads and canals, sending water into homes and stores.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 107,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/news/2026/9/26/disaster-zone-declared-across-bangkok-as-heavy-rain-triggers-flooding?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "930d4443a1ed3d32b24e",
+      "title": "Could AI firms be held responsible for mass shootings?",
+      "content_text": "Canadian lawsuits against OpenAI raise questions about liability and duty to warn in the AI industry, say experts.",
+      "date_published": "2026-09-26T07:46:45Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "930d4443a1ed3d32b24e",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790338484",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:06:34Z",
+          "data": {
+            "change": "added",
+            "label": "Could AI firms be held responsible for mass shootings?",
+            "item_type": "entry",
+            "summary": "added: Could AI firms be held responsible for mass shootings?",
+            "after": {
+              "title": "Could AI firms be held responsible for mass shootings?",
+              "link": "https://www.aljazeera.com/news/2026/9/26/could-ai-firms-be-held-responsible-for-mass-shootings?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790338484",
+              "author": null,
+              "published_at": "2026-09-26T07:46:45Z",
+              "updated_at": "2026-09-26T07:46:45Z",
+              "summary": "Canadian lawsuits against OpenAI raise questions about liability and duty to warn in the AI industry, say experts.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 107,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/news/2026/9/26/could-ai-firms-be-held-responsible-for-mass-shootings?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "3c5f6413b7bf0825b805",
+      "title": "Manchester City found guilty? What we know; what could the punishment be?",
+      "content_text": "The fallout begins as football and lawyers prepare for the next phase of 115 Premier League charges against Man City.",
+      "date_published": "2026-09-26T07:44:47Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "3c5f6413b7bf0825b805",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790403742",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:06:34Z",
+          "data": {
+            "change": "added",
+            "label": "Manchester City found guilty? What we know; what could the punishment be?",
+            "item_type": "entry",
+            "summary": "added: Manchester City found guilty? What we know; what could the punishment be?",
+            "after": {
+              "title": "Manchester City found guilty? What we know; what could the punishment be?",
+              "link": "https://www.aljazeera.com/sports/2026/9/26/manchester-city-found-guilty-what-we-know-what-could-the-punishment-be?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790403742",
+              "author": null,
+              "published_at": "2026-09-26T07:44:47Z",
+              "updated_at": "2026-09-26T07:44:47Z",
+              "summary": "The fallout begins as football and lawyers prepare for the next phase of 115 Premier League charges against Man City.",
+              "categories": [
+                "Sport"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 107,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/sports/2026/9/26/manchester-city-found-guilty-what-we-know-what-could-the-punishment-be?traffic_source=rss",
+      "tags": [
+        "Sport"
+      ]
+    },
+    {
+      "id": "3e34d8fc82fb953f5988",
+      "title": "Yuki Kurihara, Japan’s 11-year-old e-sports prodigy, wins Asian Games gold",
+      "content_text": "Gold medallist Yuki Kurihara, a primary school student, is youngest athlete in host country Japan's Asian Games history.",
+      "date_published": "2026-09-26T07:33:25Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "3e34d8fc82fb953f5988",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790404852",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:06:34Z",
+          "data": {
+            "change": "added",
+            "label": "Yuki Kurihara, Japan’s 11-year-old e-sports prodigy, wins Asian Games gold",
+            "item_type": "entry",
+            "summary": "added: Yuki Kurihara, Japan’s 11-year-old e-sports prodigy, wins Asian Games gold",
+            "after": {
+              "title": "Yuki Kurihara, Japan’s 11-year-old e-sports prodigy, wins Asian Games gold",
+              "link": "https://www.aljazeera.com/sports/2026/9/26/yuki-kurihara-esports-gold-medal-japan-asian-games-2026-aichi-nagoya?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790404852",
+              "author": null,
+              "published_at": "2026-09-26T07:33:25Z",
+              "updated_at": "2026-09-26T07:33:25Z",
+              "summary": "Gold medallist Yuki Kurihara, a primary school student, is youngest athlete in host country Japan's Asian Games history.",
+              "categories": [
+                "Sport"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 107,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/sports/2026/9/26/yuki-kurihara-esports-gold-medal-japan-asian-games-2026-aichi-nagoya?traffic_source=rss",
+      "tags": [
+        "Sport"
+      ]
+    },
+    {
+      "id": "20598ffb2c5ca21d2c17",
+      "title": "Bangkok roads submerged as flood disaster declared",
+      "content_text": "An emergency has been declared across the capital of Thailand as days of heavy rain leave the city inundated.",
+      "date_published": "2026-09-26T07:21:30Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "20598ffb2c5ca21d2c17",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/ck1wxx8n2x3zo#0",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:06:34Z",
+          "data": {
+            "change": "added",
+            "label": "Bangkok roads submerged as flood disaster declared",
+            "item_type": "entry",
+            "summary": "added: Bangkok roads submerged as flood disaster declared",
+            "after": {
+              "title": "Bangkok roads submerged as flood disaster declared",
+              "link": "https://www.bbc.co.uk/news/articles/ck1wxx8n2x3zo?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/ck1wxx8n2x3zo#0",
+              "author": null,
+              "published_at": "2026-09-26T07:21:30Z",
+              "updated_at": "2026-09-26T07:21:30Z",
+              "summary": "An emergency has been declared across the capital of Thailand as days of heavy rain leave the city inundated.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 59,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/ck1wxx8n2x3zo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "c26214b7aa6f292971a0",
+      "title": "Pope warns a 'paradise of machines' could undermine humanity as he opens France trip",
+      "content_text": "Pope Leo XIV has warned that a \"paradise of machines\" could undermine humanity. He raises concerns about artificial intelligence, nuclear arms, and human rights during his visit to France.",
+      "date_published": "2026-09-26T06:59:45Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c26214b7aa6f292971a0",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.npr.org/2026/09/26/g-s1-145150/pope-warns-a-paradise-of-machines-could-undermine-humanity",
+          "source_url": "https://feeds.npr.org/1001/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:06:34Z",
+          "data": {
+            "change": "added",
+            "label": "Pope warns a 'paradise of machines' could undermine humanity as he opens France trip",
+            "item_type": "entry",
+            "summary": "added: Pope warns a 'paradise of machines' could undermine humanity as he opens France trip",
+            "after": {
+              "title": "Pope warns a 'paradise of machines' could undermine humanity as he opens France trip",
+              "link": "https://www.npr.org/2026/09/26/g-s1-145150/pope-warns-a-paradise-of-machines-could-undermine-humanity",
+              "id": "https://www.npr.org/2026/09/26/g-s1-145150/pope-warns-a-paradise-of-machines-could-undermine-humanity",
+              "author": "The Associated Press",
+              "published_at": "2026-09-26T06:59:45Z",
+              "updated_at": "2026-09-26T06:59:45Z",
+              "summary": "Pope Leo XIV has warned that a \"paradise of machines\" could undermine humanity. He raises concerns about artificial intelligence, nuclear arms, and human rights during his visit to France.",
+              "categories": [],
+              "feed": {
+                "title": "NPR Topics: News",
+                "url": "https://www.npr.org/templates/story/story.php?storyId=1001",
+                "feed_url": "https://feeds.npr.org/1001/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.npr.org/1001/rss.xml",
+            "elapsed_ms": 39,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.npr.org/2026/09/26/g-s1-145150/pope-warns-a-paradise-of-machines-could-undermine-humanity"
+    },
+    {
+      "id": "32dfbb17bda0fbb8847a",
+      "title": "Bangkok declares disaster as heavy rains spark flooding",
+      "content_text": "Days of near continuous downpours have caused widespread flooding in the Thai capital.",
+      "date_published": "2026-09-26T06:28:58Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "32dfbb17bda0fbb8847a",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/videos/ck9800jdj1q0o#3",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:06:34Z",
+          "data": {
+            "change": "added",
+            "label": "Bangkok declares disaster as heavy rains spark flooding",
+            "item_type": "entry",
+            "summary": "added: Bangkok declares disaster as heavy rains spark flooding",
+            "after": {
+              "title": "Bangkok declares disaster as heavy rains spark flooding",
+              "link": "https://www.bbc.co.uk/news/videos/ck9800jdj1q0o?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/videos/ck9800jdj1q0o#3",
+              "author": null,
+              "published_at": "2026-09-26T06:28:58Z",
+              "updated_at": "2026-09-26T06:28:58Z",
+              "summary": "Days of near continuous downpours have caused widespread flooding in the Thai capital.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 59,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/videos/ck9800jdj1q0o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "ba50bd1059e26e7c3411",
+      "title": "Roads flood in New Jersey, inundate some homes, as first major signs of nor'easter take shape",
+      "content_text": "Thousands are without power on the U.S. East Coast, while roads are flooding in some coastal New Jersey communities.",
+      "date_published": "2026-09-26T05:43:38Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ba50bd1059e26e7c3411",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.npr.org/2026/09/26/g-s1-145146/roads-flood-in-new-jersey",
+          "source_url": "https://feeds.npr.org/1001/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:06:34Z",
+          "data": {
+            "change": "added",
+            "label": "Roads flood in New Jersey, inundate some homes, as first major signs of nor'easter take shape",
+            "item_type": "entry",
+            "summary": "added: Roads flood in New Jersey, inundate some homes, as first major signs of nor'easter take shape",
+            "after": {
+              "title": "Roads flood in New Jersey, inundate some homes, as first major signs of nor'easter take shape",
+              "link": "https://www.npr.org/2026/09/26/g-s1-145146/roads-flood-in-new-jersey",
+              "id": "https://www.npr.org/2026/09/26/g-s1-145146/roads-flood-in-new-jersey",
+              "author": "The Associated Press",
+              "published_at": "2026-09-26T05:43:38Z",
+              "updated_at": "2026-09-26T05:43:38Z",
+              "summary": "Thousands are without power on the U.S. East Coast, while roads are flooding in some coastal New Jersey communities.",
+              "categories": [],
+              "feed": {
+                "title": "NPR Topics: News",
+                "url": "https://www.npr.org/templates/story/story.php?storyId=1001",
+                "feed_url": "https://feeds.npr.org/1001/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.npr.org/1001/rss.xml",
+            "elapsed_ms": 39,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.npr.org/2026/09/26/g-s1-145146/roads-flood-in-new-jersey"
+    },
+    {
+      "id": "1a569c8805b1d1fea738",
+      "title": "‘Nowhere else to go’: Gaza families shelter in buildings that may collapse",
+      "content_text": "Three years of Israel's war has left families in Gaza living in damaged buildings, with few safe alternatives available.",
+      "date_published": "2026-09-26T05:25:23Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "1a569c8805b1d1fea738",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790269843",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:06:34Z",
+          "data": {
+            "change": "added",
+            "label": "‘Nowhere else to go’: Gaza families shelter in buildings that may collapse",
+            "item_type": "entry",
+            "summary": "added: ‘Nowhere else to go’: Gaza families shelter in buildings that may collapse",
+            "after": {
+              "title": "‘Nowhere else to go’: Gaza families shelter in buildings that may collapse",
+              "link": "https://www.aljazeera.com/features/2026/9/26/nowhere-else-to-go-gaza-families-shelter-in-buildings-that-may-collapse?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790269843",
+              "author": null,
+              "published_at": "2026-09-26T05:25:23Z",
+              "updated_at": "2026-09-26T05:25:23Z",
+              "summary": "Three years of Israel's war has left families in Gaza living in damaged buildings, with few safe alternatives available.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 107,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/features/2026/9/26/nowhere-else-to-go-gaza-families-shelter-in-buildings-that-may-collapse?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "7d0f9182b0705205c2dd",
+      "title": "Huckabee blames ‘biblical illiteracy’ for waning support for Israel in US",
+      "content_text": "A Pew Research poll in April indicated 60 percent of the US adult population held an unfavourable view of Israel.",
+      "date_published": "2026-09-26T05:23:09Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "7d0f9182b0705205c2dd",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790373243",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:06:34Z",
+          "data": {
+            "change": "added",
+            "label": "Huckabee blames ‘biblical illiteracy’ for waning support for Israel in US",
+            "item_type": "entry",
+            "summary": "added: Huckabee blames ‘biblical illiteracy’ for waning support for Israel in US",
+            "after": {
+              "title": "Huckabee blames ‘biblical illiteracy’ for waning support for Israel in US",
+              "link": "https://www.aljazeera.com/news/2026/9/26/huckabee-blames-biblical-illiteracy-for-declining-us-support-for-israel?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790373243",
+              "author": null,
+              "published_at": "2026-09-26T05:23:09Z",
+              "updated_at": "2026-09-26T05:23:09Z",
+              "summary": "A Pew Research poll in April indicated 60 percent of the US adult population held an unfavourable view of Israel.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 107,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/news/2026/9/26/huckabee-blames-biblical-illiteracy-for-declining-us-support-for-israel?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "a0634fe4f2226809ab98",
+      "title": "White House bars CNN from travelling with Trump on Air Force One",
+      "content_text": "CNN was scheduled to fly with US President Donald Trump for his trip to Tennessee on Saturday.",
+      "date_published": "2026-09-26T05:09:09Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "a0634fe4f2226809ab98",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/cxq633770y16o#0",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:06:34Z",
+          "data": {
+            "change": "added",
+            "label": "White House bars CNN from travelling with Trump on Air Force One",
+            "item_type": "entry",
+            "summary": "added: White House bars CNN from travelling with Trump on Air Force One",
+            "after": {
+              "title": "White House bars CNN from travelling with Trump on Air Force One",
+              "link": "https://www.bbc.co.uk/news/articles/cxq633770y16o?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/cxq633770y16o#0",
+              "author": null,
+              "published_at": "2026-09-26T05:09:09Z",
+              "updated_at": "2026-09-26T05:09:09Z",
+              "summary": "CNN was scheduled to fly with US President Donald Trump for his trip to Tennessee on Saturday.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 59,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/cxq633770y16o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "8bea1273677a6c64e9a7",
+      "title": "‘Shaken faith’: Why are India’s elections under unprecedented scrutiny?",
+      "content_text": "India has long held up its elections as evidence of its democratic credentials. Now their legitimacy is under question.",
+      "date_published": "2026-09-26T04:48:41Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "8bea1273677a6c64e9a7",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790336513",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:06:34Z",
+          "data": {
+            "change": "added",
+            "label": "‘Shaken faith’: Why are India’s elections under unprecedented scrutiny?",
+            "item_type": "entry",
+            "summary": "added: ‘Shaken faith’: Why are India’s elections under unprecedented scrutiny?",
+            "after": {
+              "title": "‘Shaken faith’: Why are India’s elections under unprecedented scrutiny?",
+              "link": "https://www.aljazeera.com/news/2026/9/26/shaken-faith-why-are-indias-elections-under-unprecedented-scrutiny?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790336513",
+              "author": null,
+              "published_at": "2026-09-26T04:48:41Z",
+              "updated_at": "2026-09-26T04:48:41Z",
+              "summary": "India has long held up its elections as evidence of its democratic credentials. Now their legitimacy is under question.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 107,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/news/2026/9/26/shaken-faith-why-are-indias-elections-under-unprecedented-scrutiny?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "324d2f7aff38a74f2baa",
+      "title": "Bangkok on red alert as massive floods hit the city",
+      "content_text": "Persistent heavy downpours over a 48-hour period have triggered widespread flooding in Bangkok.",
+      "date_published": "2026-09-26T04:43:39Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "324d2f7aff38a74f2baa",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790397588",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:06:34Z",
+          "data": {
+            "change": "added",
+            "label": "Bangkok on red alert as massive floods hit the city",
+            "item_type": "entry",
+            "summary": "added: Bangkok on red alert as massive floods hit the city",
+            "after": {
+              "title": "Bangkok on red alert as massive floods hit the city",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/bangkok-on-red-alert-as-massive-floods-hit-the-city?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790397588",
+              "author": null,
+              "published_at": "2026-09-26T04:43:39Z",
+              "updated_at": "2026-09-26T04:43:39Z",
+              "summary": "Persistent heavy downpours over a 48-hour period have triggered widespread flooding in Bangkok.",
+              "categories": [
+                "Show Types"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 107,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/bangkok-on-red-alert-as-massive-floods-hit-the-city?traffic_source=rss",
+      "tags": [
+        "Show Types"
+      ]
+    },
+    {
+      "id": "31a6a0312c8cc6488e5a",
+      "title": "CNN left off Air Force One for Trump's upcoming trip, White House signals in new media restriction",
+      "content_text": "The White House has signaled that CNN will be left off Air Force One for President Donald Trump's Saturday trip in the latest media restriction in an ongoing dispute with First Amendment implications.",
+      "date_published": "2026-09-26T04:42:17Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "31a6a0312c8cc6488e5a",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.npr.org/2026/09/26/g-s1-145142/cnn-left-off-air-force-one",
+          "source_url": "https://feeds.npr.org/1001/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:06:34Z",
+          "data": {
+            "change": "added",
+            "label": "CNN left off Air Force One for Trump's upcoming trip, White House signals in new media restriction",
+            "item_type": "entry",
+            "summary": "added: CNN left off Air Force One for Trump's upcoming trip, White House signals in new media restriction",
+            "after": {
+              "title": "CNN left off Air Force One for Trump's upcoming trip, White House signals in new media restriction",
+              "link": "https://www.npr.org/2026/09/26/g-s1-145142/cnn-left-off-air-force-one",
+              "id": "https://www.npr.org/2026/09/26/g-s1-145142/cnn-left-off-air-force-one",
+              "author": "The Associated Press",
+              "published_at": "2026-09-26T04:42:17Z",
+              "updated_at": "2026-09-26T04:42:17Z",
+              "summary": "The White House has signaled that CNN will be left off Air Force One for President Donald Trump's Saturday trip in the latest media restriction in an ongoing dispute with First Amendment implications.",
+              "categories": [],
+              "feed": {
+                "title": "NPR Topics: News",
+                "url": "https://www.npr.org/templates/story/story.php?storyId=1001",
+                "feed_url": "https://feeds.npr.org/1001/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.npr.org/1001/rss.xml",
+            "elapsed_ms": 39,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.npr.org/2026/09/26/g-s1-145142/cnn-left-off-air-force-one"
+    },
+    {
+      "id": "085733b4319df5476ac9",
+      "title": "US official claims Trump holds all the cards in Iran talks",
+      "content_text": "US State Department Spokesman Tommy Pigott says President Donald Trump ‘holds all of the cards’ in talks with Tehran.",
+      "date_published": "2026-09-26T04:37:22Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "085733b4319df5476ac9",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790396729",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:06:34Z",
+          "data": {
+            "change": "added",
+            "label": "US official claims Trump holds all the cards in Iran talks",
+            "item_type": "entry",
+            "summary": "added: US official claims Trump holds all the cards in Iran talks",
+            "after": {
+              "title": "US official claims Trump holds all the cards in Iran talks",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/us-official-claims-trump-holds-all-the-cards-in-iran-talks?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790396729",
+              "author": null,
+              "published_at": "2026-09-26T04:37:22Z",
+              "updated_at": "2026-09-26T04:37:22Z",
+              "summary": "US State Department Spokesman Tommy Pigott says President Donald Trump ‘holds all of the cards’ in talks with Tehran.",
+              "categories": [
+                "Show Types"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 107,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/us-official-claims-trump-holds-all-the-cards-in-iran-talks?traffic_source=rss",
+      "tags": [
+        "Show Types"
+      ]
+    },
+    {
+      "id": "e1bf8089117ffe845a81",
+      "title": "Iran pitches US a seven-day end to the war at UNGA",
+      "content_text": "Iran has pitched a proposal to open the Strait of Hormuz in seven days - if the US meets its conditions.",
+      "date_published": "2026-09-26T04:28:58Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "e1bf8089117ffe845a81",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790396481",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:06:34Z",
+          "data": {
+            "change": "added",
+            "label": "Iran pitches US a seven-day end to the war at UNGA",
+            "item_type": "entry",
+            "summary": "added: Iran pitches US a seven-day end to the war at UNGA",
+            "after": {
+              "title": "Iran pitches US a seven-day end to the war at UNGA",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/iran-pitches-us-a-seven-day-end-to-the-war-at-unga?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790396481",
+              "author": null,
+              "published_at": "2026-09-26T04:28:58Z",
+              "updated_at": "2026-09-26T04:28:58Z",
+              "summary": "Iran has pitched a proposal to open the Strait of Hormuz in seven days - if the US meets its conditions.",
+              "categories": [
+                "Show Types"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 107,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/iran-pitches-us-a-seven-day-end-to-the-war-at-unga?traffic_source=rss",
+      "tags": [
+        "Show Types"
+      ]
+    },
+    {
+      "id": "aa92a36980921910463c",
+      "title": "White House bars CNN from Air Force One for Trump’s upcoming trip",
+      "content_text": "Real America's Voice News replaces CNN on Air Force One amid escalating tensions between President Trump and US media.",
+      "date_published": "2026-09-26T04:27:07Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "aa92a36980921910463c",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790393196",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:06:34Z",
+          "data": {
+            "change": "added",
+            "label": "White House bars CNN from Air Force One for Trump’s upcoming trip",
+            "item_type": "entry",
+            "summary": "added: White House bars CNN from Air Force One for Trump’s upcoming trip",
+            "after": {
+              "title": "White House bars CNN from Air Force One for Trump’s upcoming trip",
+              "link": "https://www.aljazeera.com/news/2026/9/26/white-house-bars-cnn-from-air-force-one-for-trumps-upcoming-trip?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790393196",
+              "author": null,
+              "published_at": "2026-09-26T04:27:07Z",
+              "updated_at": "2026-09-26T04:27:07Z",
+              "summary": "Real America's Voice News replaces CNN on Air Force One amid escalating tensions between President Trump and US media.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 107,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/news/2026/9/26/white-house-bars-cnn-from-air-force-one-for-trumps-upcoming-trip?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "ebb84ccbea30d6f4c108",
+      "title": "PAM wins big in Morocco parliament elections but falls short of majority",
+      "content_text": "The next government will steer Morocco's 2030 World Cup preparations amid public frustration over local economy.",
+      "date_published": "2026-09-26T04:19:11Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ebb84ccbea30d6f4c108",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790389862",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:06:34Z",
+          "data": {
+            "change": "added",
+            "label": "PAM wins big in Morocco parliament elections but falls short of majority",
+            "item_type": "entry",
+            "summary": "added: PAM wins big in Morocco parliament elections but falls short of majority",
+            "after": {
+              "title": "PAM wins big in Morocco parliament elections but falls short of majority",
+              "link": "https://www.aljazeera.com/news/2026/9/26/pam-wins-big-in-morocco-parliament-elections-but-falls-short-of-majority?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790389862",
+              "author": null,
+              "published_at": "2026-09-26T04:19:11Z",
+              "updated_at": "2026-09-26T04:19:11Z",
+              "summary": "The next government will steer Morocco's 2030 World Cup preparations amid public frustration over local economy.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 107,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/news/2026/9/26/pam-wins-big-in-morocco-parliament-elections-but-falls-short-of-majority?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "9b6cb4bca0db50cb3b8f",
+      "title": "Yemen’s government offers amnesty to Houthi defectors",
+      "content_text": "Yemen’s president called on citizens to join the armed forces, and offered amnesty to Iran-backed Houthi rebels.",
+      "date_published": "2026-09-26T04:06:49Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "9b6cb4bca0db50cb3b8f",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790395476",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:06:34Z",
+          "data": {
+            "change": "added",
+            "label": "Yemen’s government offers amnesty to Houthi defectors",
+            "item_type": "entry",
+            "summary": "added: Yemen’s government offers amnesty to Houthi defectors",
+            "after": {
+              "title": "Yemen’s government offers amnesty to Houthi defectors",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/yemens-government-offers-amnesty-to-houthi-defectors?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790395476",
+              "author": null,
+              "published_at": "2026-09-26T04:06:49Z",
+              "updated_at": "2026-09-26T04:06:49Z",
+              "summary": "Yemen’s president called on citizens to join the armed forces, and offered amnesty to Iran-backed Houthi rebels.",
+              "categories": [
+                "Show Types"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 107,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/yemens-government-offers-amnesty-to-houthi-defectors?traffic_source=rss",
+      "tags": [
+        "Show Types"
+      ]
+    },
+    {
+      "id": "36bdf9f6ec84fa007263",
+      "title": "Watch: Karaoke and butterflies - US cities celebrate Dolly Parton Day",
+      "content_text": "The day is observed on 25 September, or 9/25, as a nod to the late Queen of Country's hit song 9 to 5.",
+      "date_published": "2026-09-26T01:06:33Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "36bdf9f6ec84fa007263",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/videos/crvgyye2w772o#3",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:06:34Z",
+          "data": {
+            "change": "added",
+            "label": "Watch: Karaoke and butterflies - US cities celebrate Dolly Parton Day",
+            "item_type": "entry",
+            "summary": "added: Watch: Karaoke and butterflies - US cities celebrate Dolly Parton Day",
+            "after": {
+              "title": "Watch: Karaoke and butterflies - US cities celebrate Dolly Parton Day",
+              "link": "https://www.bbc.co.uk/news/videos/crvgyye2w772o?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/videos/crvgyye2w772o#3",
+              "author": null,
+              "published_at": "2026-09-26T01:06:33Z",
+              "updated_at": "2026-09-26T01:06:33Z",
+              "summary": "The day is observed on 25 September, or 9/25, as a nod to the late Queen of Country's hit song 9 to 5.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 59,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/videos/crvgyye2w772o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "8ea6307773ca5ba2c808",
+      "title": "Inside the FBI hack: Agents fearful and angry after 'dangerous' data breach",
+      "content_text": "Current and former agents speak to the BBC about the devastating impact of the FBI hack.",
+      "date_published": "2026-09-25T23:05:40Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "8ea6307773ca5ba2c808",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/cm4gjjlgzdjgo#1",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:06:34Z",
+          "data": {
+            "change": "added",
+            "label": "Inside the FBI hack: Agents fearful and angry after 'dangerous' data breach",
+            "item_type": "entry",
+            "summary": "added: Inside the FBI hack: Agents fearful and angry after 'dangerous' data breach",
+            "after": {
+              "title": "Inside the FBI hack: Agents fearful and angry after 'dangerous' data breach",
+              "link": "https://www.bbc.co.uk/news/articles/cm4gjjlgzdjgo?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/cm4gjjlgzdjgo#1",
+              "author": null,
+              "published_at": "2026-09-25T23:05:40Z",
+              "updated_at": "2026-09-25T23:05:40Z",
+              "summary": "Current and former agents speak to the BBC about the devastating impact of the FBI hack.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 59,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/cm4gjjlgzdjgo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "1afeaf64e0db932e2729",
+      "title": "Why an international arrest warrant didn't stop Netanyahu's US trip",
+      "content_text": "The BBC's Nada Tawfik explains why Israel's Benjamin Netanyahu was not arrested after speaking at the UN, despite an ICC arrest warrant.",
+      "date_published": "2026-09-25T18:41:13Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "1afeaf64e0db932e2729",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/videos/ckq633lm11jeo#3",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:06:34Z",
+          "data": {
+            "change": "added",
+            "label": "Why an international arrest warrant didn't stop Netanyahu's US trip",
+            "item_type": "entry",
+            "summary": "added: Why an international arrest warrant didn't stop Netanyahu's US trip",
+            "after": {
+              "title": "Why an international arrest warrant didn't stop Netanyahu's US trip",
+              "link": "https://www.bbc.co.uk/news/videos/ckq633lm11jeo?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/videos/ckq633lm11jeo#3",
+              "author": null,
+              "published_at": "2026-09-25T18:41:13Z",
+              "updated_at": "2026-09-25T18:41:13Z",
+              "summary": "The BBC's Nada Tawfik explains why Israel's Benjamin Netanyahu was not arrested after speaking at the UN, despite an ICC arrest warrant.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 59,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/videos/ckq633lm11jeo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "3009fc5882daf329e1d6",
+      "title": "Pope warns against 'losing humanity' to AI machines",
+      "content_text": "The pontiff delivered the warning on the first day of his trip to France on Friday.",
+      "date_published": "2026-09-25T15:06:41Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "3009fc5882daf329e1d6",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/cmq8j904212po#1",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:06:34Z",
+          "data": {
+            "change": "added",
+            "label": "Pope warns against 'losing humanity' to AI machines",
+            "item_type": "entry",
+            "summary": "added: Pope warns against 'losing humanity' to AI machines",
+            "after": {
+              "title": "Pope warns against 'losing humanity' to AI machines",
+              "link": "https://www.bbc.co.uk/news/articles/cmq8j904212po?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/cmq8j904212po#1",
+              "author": null,
+              "published_at": "2026-09-25T15:06:41Z",
+              "updated_at": "2026-09-25T15:06:41Z",
+              "summary": "The pontiff delivered the warning on the first day of his trip to France on Friday.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 59,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/cmq8j904212po?at_medium=RSS&at_campaign=rss"
+    },
+    {
       "id": "e19472cc18784a65cef7",
       "title": "The bombs are still falling. Does diplomacy even work?",
       "content_text": "Al Jazeera’s Emma Withrow asked Al Anoud Al Thani what diplomacy can achieve.",
@@ -10928,1995 +12902,6 @@
         }
       },
       "url": "https://www.bbc.co.uk/news/articles/cm86xn0nnw58o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "id": "860b16f0e0f2e77300d6",
-      "title": "US and China must act as responsible powers together, Xi says as Trump toasts friendship at state dinner",
-      "content_text": "Trump said he and Xi had \"never gotten along better\" as he hosted the Chinese president at the lavish White House event.",
-      "date_published": "2026-09-25T06:40:18Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "860b16f0e0f2e77300d6",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.bbc.co.uk/news/articles/cxq63dqp93n1o#0",
-          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T06:46:29Z",
-          "data": {
-            "change": "added",
-            "label": "US and China must act as responsible powers together, Xi says as Trump toasts friendship at state dinner",
-            "item_type": "entry",
-            "summary": "added: US and China must act as responsible powers together, Xi says as Trump toasts friendship at state dinner",
-            "after": {
-              "title": "US and China must act as responsible powers together, Xi says as Trump toasts friendship at state dinner",
-              "link": "https://www.bbc.co.uk/news/articles/cxq63dqp93n1o?at_medium=RSS&at_campaign=rss",
-              "id": "https://www.bbc.co.uk/news/articles/cxq63dqp93n1o#0",
-              "author": null,
-              "published_at": "2026-09-25T06:40:18Z",
-              "updated_at": "2026-09-25T06:40:18Z",
-              "summary": "Trump said he and Xi had \"never gotten along better\" as he hosted the Chinese president at the lavish White House event.",
-              "categories": [],
-              "feed": {
-                "title": "BBC News",
-                "url": "https://www.bbc.co.uk/news/world",
-                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-            "elapsed_ms": 52,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.bbc.co.uk/news/articles/cxq63dqp93n1o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "id": "630bc0066bb69f2d30a5",
-      "title": "Trump's state dinner for Xi features sea bass and a long list of tech titans",
-      "content_text": "A tech-heavy guest list, the fashion choices of those on it, who sat where and what was on the menu marked the softer — often and glitzier — details of diplomacy as Donald Trump threw a Thursday night state dinner honoring China's leader Xi Jinping.",
-      "date_published": "2026-09-25T06:18:59Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "630bc0066bb69f2d30a5",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.npr.org/2026/09/25/g-s1-144973/trump-state-dinner-xi",
-          "source_url": "https://feeds.npr.org/1001/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T06:46:29Z",
-          "data": {
-            "change": "added",
-            "label": "Trump's state dinner for Xi features sea bass and a long list of tech titans",
-            "item_type": "entry",
-            "summary": "added: Trump's state dinner for Xi features sea bass and a long list of tech titans",
-            "after": {
-              "title": "Trump's state dinner for Xi features sea bass and a long list of tech titans",
-              "link": "https://www.npr.org/2026/09/25/g-s1-144973/trump-state-dinner-xi",
-              "id": "https://www.npr.org/2026/09/25/g-s1-144973/trump-state-dinner-xi",
-              "author": "The Associated Press",
-              "published_at": "2026-09-25T06:18:59Z",
-              "updated_at": "2026-09-25T06:18:59Z",
-              "summary": "A tech-heavy guest list, the fashion choices of those on it, who sat where and what was on the menu marked the softer — often and glitzier — details of diplomacy as Donald Trump threw a Thursday night state dinner honoring China's leader Xi Jinping.",
-              "categories": [],
-              "feed": {
-                "title": "NPR Topics: News",
-                "url": "https://www.npr.org/templates/story/story.php?storyId=1001",
-                "feed_url": "https://feeds.npr.org/1001/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.npr.org/1001/rss.xml",
-            "elapsed_ms": 53,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.npr.org/2026/09/25/g-s1-144973/trump-state-dinner-xi"
-    },
-    {
-      "id": "d03cc158b1dcb657e9fc",
-      "title": "Man shot during 2024 Trump campaign rally in Butler, Pennsylvania, has died",
-      "content_text": "James Copenhaver, one of three campaign rally attendees shot in 2024 during an assassination attempt on then-candidate Donald Trump, has died in Pittsburgh, his lawyer said Thursday. He was 76.",
-      "date_published": "2026-09-25T06:16:07Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "d03cc158b1dcb657e9fc",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.npr.org/2026/09/25/nx-s1-5980967/man-shot-trump-campaign-rally-dies",
-          "source_url": "https://feeds.npr.org/1001/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T06:46:29Z",
-          "data": {
-            "change": "added",
-            "label": "Man shot during 2024 Trump campaign rally in Butler, Pennsylvania, has died",
-            "item_type": "entry",
-            "summary": "added: Man shot during 2024 Trump campaign rally in Butler, Pennsylvania, has died",
-            "after": {
-              "title": "Man shot during 2024 Trump campaign rally in Butler, Pennsylvania, has died",
-              "link": "https://www.npr.org/2026/09/25/nx-s1-5980967/man-shot-trump-campaign-rally-dies",
-              "id": "https://www.npr.org/2026/09/25/nx-s1-5980967/man-shot-trump-campaign-rally-dies",
-              "author": "The Associated Press",
-              "published_at": "2026-09-25T06:16:07Z",
-              "updated_at": "2026-09-25T06:16:07Z",
-              "summary": "James Copenhaver, one of three campaign rally attendees shot in 2024 during an assassination attempt on then-candidate Donald Trump, has died in Pittsburgh, his lawyer said Thursday. He was 76.",
-              "categories": [],
-              "feed": {
-                "title": "NPR Topics: News",
-                "url": "https://www.npr.org/templates/story/story.php?storyId=1001",
-                "feed_url": "https://feeds.npr.org/1001/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.npr.org/1001/rss.xml",
-            "elapsed_ms": 53,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.npr.org/2026/09/25/nx-s1-5980967/man-shot-trump-campaign-rally-dies"
-    },
-    {
-      "id": "e8d773e431e0e458968c",
-      "title": "Hurricane Polo lashes Mexico as Nolo strengthens near Hawaii",
-      "content_text": "Mexico's southwestern communities brace for Hurricane Polo, while Hawaii faces its third hurricane threat of the year.",
-      "date_published": "2026-09-25T06:00:15Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "e8d773e431e0e458968c",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790310672",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T06:46:29Z",
-          "data": {
-            "change": "added",
-            "label": "Hurricane Polo lashes Mexico as Nolo strengthens near Hawaii",
-            "item_type": "entry",
-            "summary": "added: Hurricane Polo lashes Mexico as Nolo strengthens near Hawaii",
-            "after": {
-              "title": "Hurricane Polo lashes Mexico as Nolo strengthens near Hawaii",
-              "link": "https://www.aljazeera.com/news/2026/9/25/hurricane-polo-lashes-mexico-as-nolo-strengthens-near-hawaii?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790310672",
-              "author": null,
-              "published_at": "2026-09-25T06:00:15Z",
-              "updated_at": "2026-09-25T06:00:15Z",
-              "summary": "Mexico's southwestern communities brace for Hurricane Polo, while Hawaii faces its third hurricane threat of the year.",
-              "categories": [
-                "News"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 47,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/news/2026/9/25/hurricane-polo-lashes-mexico-as-nolo-strengthens-near-hawaii?traffic_source=rss",
-      "tags": [
-        "News"
-      ]
-    },
-    {
-      "id": "e374b05bbd68521a8643",
-      "title": "Japan moves to tighten rules for foreigners, throwing futures into doubt",
-      "content_text": "Tokyo is raising the bar for permanent residency amid a broader rightward shift in the Asian nation's politics.",
-      "date_published": "2026-09-25T05:59:26Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "e374b05bbd68521a8643",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1788415475",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T06:46:29Z",
-          "data": {
-            "change": "added",
-            "label": "Japan moves to tighten rules for foreigners, throwing futures into doubt",
-            "item_type": "entry",
-            "summary": "added: Japan moves to tighten rules for foreigners, throwing futures into doubt",
-            "after": {
-              "title": "Japan moves to tighten rules for foreigners, throwing futures into doubt",
-              "link": "https://www.aljazeera.com/economy/2026/9/25/japan-moves-to-tighten-rules-for-foreigners-throwing-futures-into-doubt?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1788415475",
-              "author": null,
-              "published_at": "2026-09-25T05:59:26Z",
-              "updated_at": "2026-09-25T05:59:26Z",
-              "summary": "Tokyo is raising the bar for permanent residency amid a broader rightward shift in the Asian nation's politics.",
-              "categories": [
-                "Economy"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 47,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/economy/2026/9/25/japan-moves-to-tighten-rules-for-foreigners-throwing-futures-into-doubt?traffic_source=rss",
-      "tags": [
-        "Economy"
-      ]
-    },
-    {
-      "id": "22f98a309be58b72bd16",
-      "title": "Pomp and toasts: Day 2 of Trump and Xi in DC",
-      "content_text": "Xi’s first visit to Washington in a decade was a display of pomp and pageantry, with Trump offering his guest a two-month truce on the brewing tariff war.",
-      "date_published": "2026-09-25T05:54:07Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "22f98a309be58b72bd16",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.bbc.co.uk/news/videos/c9lykxx5zp70o#3",
-          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T06:46:29Z",
-          "data": {
-            "change": "added",
-            "label": "Pomp and toasts: Day 2 of Trump and Xi in DC",
-            "item_type": "entry",
-            "summary": "added: Pomp and toasts: Day 2 of Trump and Xi in DC",
-            "after": {
-              "title": "Pomp and toasts: Day 2 of Trump and Xi in DC",
-              "link": "https://www.bbc.co.uk/news/videos/c9lykxx5zp70o?at_medium=RSS&at_campaign=rss",
-              "id": "https://www.bbc.co.uk/news/videos/c9lykxx5zp70o#3",
-              "author": null,
-              "published_at": "2026-09-25T05:54:07Z",
-              "updated_at": "2026-09-25T05:54:07Z",
-              "summary": "Xi’s first visit to Washington in a decade was a display of pomp and pageantry, with Trump offering his guest a two-month truce on the brewing tariff war.",
-              "categories": [],
-              "feed": {
-                "title": "BBC News",
-                "url": "https://www.bbc.co.uk/news/world",
-                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-            "elapsed_ms": 52,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.bbc.co.uk/news/videos/c9lykxx5zp70o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "id": "5decb434665bf3fcc75e",
-      "title": "Tata v Tata: What’s behind India’s big boardroom brawl?",
-      "content_text": "India's most famous conglomerate is knee-deep in feuds over who gets to decide the Tata Group's future.",
-      "date_published": "2026-09-25T05:22:23Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "5decb434665bf3fcc75e",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790165255",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T06:46:29Z",
-          "data": {
-            "change": "added",
-            "label": "Tata v Tata: What’s behind India’s big boardroom brawl?",
-            "item_type": "entry",
-            "summary": "added: Tata v Tata: What’s behind India’s big boardroom brawl?",
-            "after": {
-              "title": "Tata v Tata: What’s behind India’s big boardroom brawl?",
-              "link": "https://www.aljazeera.com/news/2026/9/25/tata-v-tata-whats-behind-indias-big-boardroom-brawl?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790165255",
-              "author": null,
-              "published_at": "2026-09-25T05:22:23Z",
-              "updated_at": "2026-09-25T05:22:23Z",
-              "summary": "India's most famous conglomerate is knee-deep in feuds over who gets to decide the Tata Group's future.",
-              "categories": [
-                "News"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 47,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/news/2026/9/25/tata-v-tata-whats-behind-indias-big-boardroom-brawl?traffic_source=rss",
-      "tags": [
-        "News"
-      ]
-    },
-    {
-      "id": "1d0903a6a23404caade7",
-      "title": "Multiple regions in Russia come under Ukrainian drone attacks",
-      "content_text": "Ukraine has targeted an industrial plant in Russia's Perm region with a massive drone swarm.",
-      "date_published": "2026-09-25T05:18:35Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "1d0903a6a23404caade7",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790313389",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T06:46:29Z",
-          "data": {
-            "change": "added",
-            "label": "Multiple regions in Russia come under Ukrainian drone attacks",
-            "item_type": "entry",
-            "summary": "added: Multiple regions in Russia come under Ukrainian drone attacks",
-            "after": {
-              "title": "Multiple regions in Russia come under Ukrainian drone attacks",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/multiple-regions-in-russia-come-under-ukrainian-drone-attacks?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790313389",
-              "author": null,
-              "published_at": "2026-09-25T05:18:35Z",
-              "updated_at": "2026-09-25T05:18:35Z",
-              "summary": "Ukraine has targeted an industrial plant in Russia's Perm region with a massive drone swarm.",
-              "categories": [
-                "Show Types"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 47,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/25/multiple-regions-in-russia-come-under-ukrainian-drone-attacks?traffic_source=rss",
-      "tags": [
-        "Show Types"
-      ]
-    },
-    {
-      "id": "f0fb382f045bd1dbf179",
-      "title": "Israeli football player sent off after gun-firing goal celebration",
-      "content_text": "Israeli footballer Saied Abu Farchi has been sent off during a Nations League match after using a corner flag.",
-      "date_published": "2026-09-25T05:09:54Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "f0fb382f045bd1dbf179",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790312475",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T06:46:29Z",
-          "data": {
-            "change": "added",
-            "label": "Israeli football player sent off after gun-firing goal celebration",
-            "item_type": "entry",
-            "summary": "added: Israeli football player sent off after gun-firing goal celebration",
-            "after": {
-              "title": "Israeli football player sent off after gun-firing goal celebration",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/israeli-football-player-sent-off-after-gun-firing-goal-celebration?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790312475",
-              "author": null,
-              "published_at": "2026-09-25T05:09:54Z",
-              "updated_at": "2026-09-25T05:09:54Z",
-              "summary": "Israeli footballer Saied Abu Farchi has been sent off during a Nations League match after using a corner flag.",
-              "categories": [
-                "News"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 47,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/25/israeli-football-player-sent-off-after-gun-firing-goal-celebration?traffic_source=rss",
-      "tags": [
-        "News"
-      ]
-    },
-    {
-      "id": "792ad07144c7ab567ebc",
-      "title": "Pakistani forces kill Afghan Taliban fighters in border escalation",
-      "content_text": "Pakistan's security forces report ongoing cross-border fire in latest fighting with Afghanistan.",
-      "date_published": "2026-09-25T04:22:10Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "792ad07144c7ab567ebc",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790303534",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T06:46:29Z",
-          "data": {
-            "change": "added",
-            "label": "Pakistani forces kill Afghan Taliban fighters in border escalation",
-            "item_type": "entry",
-            "summary": "added: Pakistani forces kill Afghan Taliban fighters in border escalation",
-            "after": {
-              "title": "Pakistani forces kill Afghan Taliban fighters in border escalation",
-              "link": "https://www.aljazeera.com/news/2026/9/25/pakistani-forces-kill-afghan-taliban-fighters-in-border-escalation?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790303534",
-              "author": null,
-              "published_at": "2026-09-25T04:22:10Z",
-              "updated_at": "2026-09-25T04:22:10Z",
-              "summary": "Pakistan's security forces report ongoing cross-border fire in latest fighting with Afghanistan.",
-              "categories": [
-                "News"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 47,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/news/2026/9/25/pakistani-forces-kill-afghan-taliban-fighters-in-border-escalation?traffic_source=rss",
-      "tags": [
-        "News"
-      ]
-    },
-    {
-      "id": "624a4dcc6a72ab2a872c",
-      "title": "Xi got Trump's red carpet welcome - but not everything he wanted",
-      "content_text": "China wanted progress on trade, technology and Taiwan - but hasn't got as much as it would have hoped for.",
-      "date_published": "2026-09-25T03:57:09Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "624a4dcc6a72ab2a872c",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.bbc.co.uk/news/articles/cr93e4x7kdjjo#0",
-          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T06:46:29Z",
-          "data": {
-            "change": "added",
-            "label": "Xi got Trump's red carpet welcome - but not everything he wanted",
-            "item_type": "entry",
-            "summary": "added: Xi got Trump's red carpet welcome - but not everything he wanted",
-            "after": {
-              "title": "Xi got Trump's red carpet welcome - but not everything he wanted",
-              "link": "https://www.bbc.co.uk/news/articles/cr93e4x7kdjjo?at_medium=RSS&at_campaign=rss",
-              "id": "https://www.bbc.co.uk/news/articles/cr93e4x7kdjjo#0",
-              "author": null,
-              "published_at": "2026-09-25T03:57:09Z",
-              "updated_at": "2026-09-25T03:57:09Z",
-              "summary": "China wanted progress on trade, technology and Taiwan - but hasn't got as much as it would have hoped for.",
-              "categories": [],
-              "feed": {
-                "title": "BBC News",
-                "url": "https://www.bbc.co.uk/news/world",
-                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-            "elapsed_ms": 52,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.bbc.co.uk/news/articles/cr93e4x7kdjjo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "id": "dfe941f3f89643b8761c",
-      "title": "Jewish protestors join Free Palestine march to denounce Netanyahu",
-      "content_text": "Al Jazeera’s Emma Withrow reports from a Free Palestine march, where Jewish demonstrators rejected Netanyahu.",
-      "date_published": "2026-09-25T03:49:43Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "dfe941f3f89643b8761c",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790307996",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T06:46:29Z",
-          "data": {
-            "change": "added",
-            "label": "Jewish protestors join Free Palestine march to denounce Netanyahu",
-            "item_type": "entry",
-            "summary": "added: Jewish protestors join Free Palestine march to denounce Netanyahu",
-            "after": {
-              "title": "Jewish protestors join Free Palestine march to denounce Netanyahu",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/jewish-protestors-join-free-palestine-march-to-denounce-netanyahu?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790307996",
-              "author": null,
-              "published_at": "2026-09-25T03:49:43Z",
-              "updated_at": "2026-09-25T03:49:43Z",
-              "summary": "Al Jazeera’s Emma Withrow reports from a Free Palestine march, where Jewish demonstrators rejected Netanyahu.",
-              "categories": [
-                "TV News"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 47,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/25/jewish-protestors-join-free-palestine-march-to-denounce-netanyahu?traffic_source=rss",
-      "tags": [
-        "TV News"
-      ]
-    },
-    {
-      "id": "96263881c4e7563826d6",
-      "title": "Young men flee Tigray amid fears of forced recruitment",
-      "content_text": "Years after the war, unresolved tensions are again leaving young people fearful of being drawn into fighting.",
-      "date_published": "2026-09-25T03:45:06Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "96263881c4e7563826d6",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790174949",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T06:46:29Z",
-          "data": {
-            "change": "added",
-            "label": "Young men flee Tigray amid fears of forced recruitment",
-            "item_type": "entry",
-            "summary": "added: Young men flee Tigray amid fears of forced recruitment",
-            "after": {
-              "title": "Young men flee Tigray amid fears of forced recruitment",
-              "link": "https://www.aljazeera.com/news/2026/9/25/young-men-flee-tigray-amid-fears-of-forced-recruitment?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790174949",
-              "author": null,
-              "published_at": "2026-09-25T03:45:06Z",
-              "updated_at": "2026-09-25T03:45:06Z",
-              "summary": "Years after the war, unresolved tensions are again leaving young people fearful of being drawn into fighting.",
-              "categories": [
-                "News"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 47,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/news/2026/9/25/young-men-flee-tigray-amid-fears-of-forced-recruitment?traffic_source=rss",
-      "tags": [
-        "News"
-      ]
-    },
-    {
-      "id": "6bee61fcbbb09d4ffc8c",
-      "title": "Oil prices jump after Yemen’s Houthis claim attacks on Saudi facilities",
-      "content_text": "Brent crude tops $106 a barrel after Iran-aligned rebel group claims to have successfully attacked Aramco facilities.",
-      "date_published": "2026-09-25T03:41:25Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "6bee61fcbbb09d4ffc8c",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790297663",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T06:46:29Z",
-          "data": {
-            "change": "added",
-            "label": "Oil prices jump after Yemen’s Houthis claim attacks on Saudi facilities",
-            "item_type": "entry",
-            "summary": "added: Oil prices jump after Yemen’s Houthis claim attacks on Saudi facilities",
-            "after": {
-              "title": "Oil prices jump after Yemen’s Houthis claim attacks on Saudi facilities",
-              "link": "https://www.aljazeera.com/economy/2026/9/25/oil-prices-jump-after-yemens-houthis-claim-attacks-on-saudi-facilities?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790297663",
-              "author": null,
-              "published_at": "2026-09-25T03:41:25Z",
-              "updated_at": "2026-09-25T03:41:25Z",
-              "summary": "Brent crude tops $106 a barrel after Iran-aligned rebel group claims to have successfully attacked Aramco facilities.",
-              "categories": [
-                "News"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 47,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/economy/2026/9/25/oil-prices-jump-after-yemens-houthis-claim-attacks-on-saudi-facilities?traffic_source=rss",
-      "tags": [
-        "News"
-      ]
-    },
-    {
-      "id": "b6547f9221100c470ae4",
-      "title": "Saudi, Turkish, Pakistani chiefs plan urgent talks amid Yemen fighting",
-      "content_text": "Saudi Arabia, Turkiye and Pakistan move to deepen defence coordination as Houthi attacks and Yemen fighting intensify.",
-      "date_published": "2026-09-25T03:35:22Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "b6547f9221100c470ae4",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790302271",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T06:46:29Z",
-          "data": {
-            "change": "added",
-            "label": "Saudi, Turkish, Pakistani chiefs plan urgent talks amid Yemen fighting",
-            "item_type": "entry",
-            "summary": "added: Saudi, Turkish, Pakistani chiefs plan urgent talks amid Yemen fighting",
-            "after": {
-              "title": "Saudi, Turkish, Pakistani chiefs plan urgent talks amid Yemen fighting",
-              "link": "https://www.aljazeera.com/news/2026/9/25/saudi-turkish-pakistani-chiefs-plan-urgent-talks-amid-yemen-fighting?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790302271",
-              "author": null,
-              "published_at": "2026-09-25T03:35:22Z",
-              "updated_at": "2026-09-25T03:35:22Z",
-              "summary": "Saudi Arabia, Turkiye and Pakistan move to deepen defence coordination as Houthi attacks and Yemen fighting intensify.",
-              "categories": [
-                "News"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 47,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/news/2026/9/25/saudi-turkish-pakistani-chiefs-plan-urgent-talks-amid-yemen-fighting?traffic_source=rss",
-      "tags": [
-        "News"
-      ]
-    },
-    {
-      "id": "f6872a03982c62474e3a",
-      "title": "When AI’s moving this fast, who’s protecting us?",
-      "content_text": "The people building the world’s most powerful AI systems are now warning governments about losing control.",
-      "date_published": "2026-09-25T03:34:54Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "f6872a03982c62474e3a",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790307113",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T06:46:29Z",
-          "data": {
-            "change": "added",
-            "label": "When AI’s moving this fast, who’s protecting us?",
-            "item_type": "entry",
-            "summary": "added: When AI’s moving this fast, who’s protecting us?",
-            "after": {
-              "title": "When AI’s moving this fast, who’s protecting us?",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/when-ais-moving-this-fast-whos-protecting-us?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790307113",
-              "author": null,
-              "published_at": "2026-09-25T03:34:54Z",
-              "updated_at": "2026-09-25T03:34:54Z",
-              "summary": "The people building the world’s most powerful AI systems are now warning governments about losing control.",
-              "categories": [
-                "Show Types"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 47,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/25/when-ais-moving-this-fast-whos-protecting-us?traffic_source=rss",
-      "tags": [
-        "Show Types"
-      ]
-    },
-    {
-      "id": "08375ae494d20f357e9d",
-      "title": "NYC police arrest Susan Sarandon, other celebrities protesting Netanyahu",
-      "content_text": "Rights groups accuse UN of hosting a 'war criminal' as delegations walk out during Israeli prime minister's speech.",
-      "date_published": "2026-09-25T02:35:53Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "08375ae494d20f357e9d",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790292704",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T06:46:29Z",
-          "data": {
-            "change": "added",
-            "label": "NYC police arrest Susan Sarandon, other celebrities protesting Netanyahu",
-            "item_type": "entry",
-            "summary": "added: NYC police arrest Susan Sarandon, other celebrities protesting Netanyahu",
-            "after": {
-              "title": "NYC police arrest Susan Sarandon, other celebrities protesting Netanyahu",
-              "link": "https://www.aljazeera.com/news/2026/9/25/nyc-police-arrest-susan-sarandon-other-celebrities-protesting-netanyahu?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790292704",
-              "author": null,
-              "published_at": "2026-09-25T02:35:53Z",
-              "updated_at": "2026-09-25T02:35:53Z",
-              "summary": "Rights groups accuse UN of hosting a 'war criminal' as delegations walk out during Israeli prime minister's speech.",
-              "categories": [
-                "News"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 47,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/news/2026/9/25/nyc-police-arrest-susan-sarandon-other-celebrities-protesting-netanyahu?traffic_source=rss",
-      "tags": [
-        "News"
-      ]
-    },
-    {
-      "id": "283541b5a4aac8eab904",
-      "title": "Contrasting treatment of Israel and Palestine on display at the UN",
-      "content_text": "Israel’s Prime Minister addressed the UN General Assembly in person, despite having an ICC arrest warrant.",
-      "date_published": "2026-09-25T02:26:16Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "283541b5a4aac8eab904",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790283864",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T06:46:29Z",
-          "data": {
-            "change": "added",
-            "label": "Contrasting treatment of Israel and Palestine on display at the UN",
-            "item_type": "entry",
-            "summary": "added: Contrasting treatment of Israel and Palestine on display at the UN",
-            "after": {
-              "title": "Contrasting treatment of Israel and Palestine on display at the UN",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/25/contrasting-treatment-of-israel-and-palestine-on-display-at-the-un?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790283864",
-              "author": null,
-              "published_at": "2026-09-25T02:26:16Z",
-              "updated_at": "2026-09-25T02:26:16Z",
-              "summary": "Israel’s Prime Minister addressed the UN General Assembly in person, despite having an ICC arrest warrant.",
-              "categories": [
-                "Show Types"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 47,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/25/contrasting-treatment-of-israel-and-palestine-on-display-at-the-un?traffic_source=rss",
-      "tags": [
-        "Show Types"
-      ]
-    },
-    {
-      "id": "b3a13214a1d6fe7f0ca6",
-      "title": "More than 100 arrested as New Yorkers protest Netanyahu’s UN visit",
-      "content_text": "Demonstrators blocked streets and marched towards UN headquarters as the Israeli PM addressed world leaders at UNGA.",
-      "date_published": "2026-09-25T02:24:16Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "b3a13214a1d6fe7f0ca6",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790296926",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T06:46:29Z",
-          "data": {
-            "change": "added",
-            "label": "More than 100 arrested as New Yorkers protest Netanyahu’s UN visit",
-            "item_type": "entry",
-            "summary": "added: More than 100 arrested as New Yorkers protest Netanyahu’s UN visit",
-            "after": {
-              "title": "More than 100 arrested as New Yorkers protest Netanyahu’s UN visit",
-              "link": "https://www.aljazeera.com/news/2026/9/25/more-than-100-arrested-as-new-yorkers-protest-netanyahus-un-visit?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790296926",
-              "author": null,
-              "published_at": "2026-09-25T02:24:16Z",
-              "updated_at": "2026-09-25T02:24:16Z",
-              "summary": "Demonstrators blocked streets and marched towards UN headquarters as the Israeli PM addressed world leaders at UNGA.",
-              "categories": [
-                "News"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 47,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/news/2026/9/25/more-than-100-arrested-as-new-yorkers-protest-netanyahus-un-visit?traffic_source=rss",
-      "tags": [
-        "News"
-      ]
-    },
-    {
-      "id": "a7074d398510a6dfa54d",
-      "title": "Meloni government bans burqas, caps foreign students in Italian schools",
-      "content_text": "Italy is a front-line country for migration, with integration a hot campaign issue ahead of its 2027 election.",
-      "date_published": "2026-09-25T02:07:29Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "a7074d398510a6dfa54d",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790292921",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T06:46:29Z",
-          "data": {
-            "change": "added",
-            "label": "Meloni government bans burqas, caps foreign students in Italian schools",
-            "item_type": "entry",
-            "summary": "added: Meloni government bans burqas, caps foreign students in Italian schools",
-            "after": {
-              "title": "Meloni government bans burqas, caps foreign students in Italian schools",
-              "link": "https://www.aljazeera.com/news/2026/9/25/meloni-government-bans-burqas-caps-foreign-students-in-italian-schools?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790292921",
-              "author": null,
-              "published_at": "2026-09-25T02:07:29Z",
-              "updated_at": "2026-09-25T02:07:29Z",
-              "summary": "Italy is a front-line country for migration, with integration a hot campaign issue ahead of its 2027 election.",
-              "categories": [
-                "News"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 47,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/news/2026/9/25/meloni-government-bans-burqas-caps-foreign-students-in-italian-schools?traffic_source=rss",
-      "tags": [
-        "News"
-      ]
-    },
-    {
-      "id": "1126f690a7c23a99d684",
-      "title": "Trump praises US-China friendship at state dinner with Xi Jinping",
-      "content_text": "The two superpowers seek greater dialogue despite differences over issues such as Iran, Taiwan, AI and trade.",
-      "date_published": "2026-09-25T02:00:16Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "1126f690a7c23a99d684",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790298187",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T06:46:29Z",
-          "data": {
-            "change": "added",
-            "label": "Trump praises US-China friendship at state dinner with Xi Jinping",
-            "item_type": "entry",
-            "summary": "added: Trump praises US-China friendship at state dinner with Xi Jinping",
-            "after": {
-              "title": "Trump praises US-China friendship at state dinner with Xi Jinping",
-              "link": "https://www.aljazeera.com/news/2026/9/25/trump-praises-us-china-friendship-at-state-dinner-with-xi-jinping?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790298187",
-              "author": null,
-              "published_at": "2026-09-25T02:00:16Z",
-              "updated_at": "2026-09-25T02:00:16Z",
-              "summary": "The two superpowers seek greater dialogue despite differences over issues such as Iran, Taiwan, AI and trade.",
-              "categories": [
-                "News"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 47,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/news/2026/9/25/trump-praises-us-china-friendship-at-state-dinner-with-xi-jinping?traffic_source=rss",
-      "tags": [
-        "News"
-      ]
-    },
-    {
-      "id": "08d07cec7e54705dbad4",
-      "title": "The world’s two most powerful men just met. How did it go?",
-      "content_text": "The BBC’s China correspondent Laura Bicker unpacks how the trip panned out for Beijing and Washington.",
-      "date_published": "2026-09-25T01:27:10Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "08d07cec7e54705dbad4",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.bbc.co.uk/news/videos/cm790gjyw1qxo#3",
-          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T06:46:29Z",
-          "data": {
-            "change": "added",
-            "label": "The world’s two most powerful men just met. How did it go?",
-            "item_type": "entry",
-            "summary": "added: The world’s two most powerful men just met. How did it go?",
-            "after": {
-              "title": "The world’s two most powerful men just met. How did it go?",
-              "link": "https://www.bbc.co.uk/news/videos/cm790gjyw1qxo?at_medium=RSS&at_campaign=rss",
-              "id": "https://www.bbc.co.uk/news/videos/cm790gjyw1qxo#3",
-              "author": null,
-              "published_at": "2026-09-25T01:27:10Z",
-              "updated_at": "2026-09-25T01:27:10Z",
-              "summary": "The BBC’s China correspondent Laura Bicker unpacks how the trip panned out for Beijing and Washington.",
-              "categories": [],
-              "feed": {
-                "title": "BBC News",
-                "url": "https://www.bbc.co.uk/news/world",
-                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-            "elapsed_ms": 52,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.bbc.co.uk/news/videos/cm790gjyw1qxo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "id": "631a038cfaaa3f66c109",
-      "title": "Priest killed and four injured in knife attack at Polish abbey",
-      "content_text": "A male suspect from Ukraine was arrested after the stabbings in the town of Jarosław, police say.",
-      "date_published": "2026-09-24T19:18:12Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "631a038cfaaa3f66c109",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.bbc.co.uk/news/articles/c607lrvm41l3o#1",
-          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T06:46:29Z",
-          "data": {
-            "change": "added",
-            "label": "Priest killed and four injured in knife attack at Polish abbey",
-            "item_type": "entry",
-            "summary": "added: Priest killed and four injured in knife attack at Polish abbey",
-            "after": {
-              "title": "Priest killed and four injured in knife attack at Polish abbey",
-              "link": "https://www.bbc.co.uk/news/articles/c607lrvm41l3o?at_medium=RSS&at_campaign=rss",
-              "id": "https://www.bbc.co.uk/news/articles/c607lrvm41l3o#1",
-              "author": null,
-              "published_at": "2026-09-24T19:18:12Z",
-              "updated_at": "2026-09-24T19:18:12Z",
-              "summary": "A male suspect from Ukraine was arrested after the stabbings in the town of Jarosław, police say.",
-              "categories": [],
-              "feed": {
-                "title": "BBC News",
-                "url": "https://www.bbc.co.uk/news/world",
-                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-            "elapsed_ms": 52,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.bbc.co.uk/news/articles/c607lrvm41l3o?at_medium=RSS&at_campaign=rss"
     }
   ]
 }

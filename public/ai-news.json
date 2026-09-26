@@ -2,12 +2,112 @@
   "version": "https://jsonfeed.org/version/1.1",
   "title": "AI news from Hacker News and Lobsters",
   "home_page_url": "https://news.ycombinator.com/",
-  "description": "Events collected by UnlimitedPipe 0.3.2",
+  "description": "Events collected by UnlimitedPipe 0.6.0",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.3.2"
+    "generator": "UnlimitedPipe 0.6.0"
   },
   "items": [
+    {
+      "id": "9bbe1ad463ef726359bd",
+      "title": "A single function Jev-like wrapper for LLMs, including vision models",
+      "content_text": "A single function Jev-like wrapper for LLMs, including vision models",
+      "date_published": "2026-09-26T04:20:58Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "9bbe1ad463ef726359bd",
+          "source": "rss",
+          "type": "change",
+          "key": "https://news.ycombinator.com/item?id=49853175",
+          "source_url": "https://hnrss.org/frontpage",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:03:06Z",
+          "data": {
+            "change": "added",
+            "label": "A single function Jev-like wrapper for LLMs, including vision models",
+            "item_type": "entry",
+            "summary": "added: A single function Jev-like wrapper for LLMs, including vision models",
+            "after": {
+              "title": "A single function Jev-like wrapper for LLMs, including vision models",
+              "link": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html",
+              "id": "https://news.ycombinator.com/item?id=49853175",
+              "author": "allanrbo",
+              "published_at": "2026-09-26T04:20:58Z",
+              "updated_at": "2026-09-26T04:20:58Z",
+              "categories": [],
+              "feed": {
+                "title": "Hacker News: Front Page",
+                "url": "https://news.ycombinator.com/",
+                "feed_url": "https://hnrss.org/frontpage"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://hnrss.org/frontpage",
+            "elapsed_ms": 545,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "grep",
+              "version": "0.6.0",
+              "args": {
+                "patterns": [
+                  "AI",
+                  "LLM",
+                  "LLMs",
+                  "GPT",
+                  "Claude",
+                  "Gemini",
+                  "language model",
+                  "machine learning"
+                ],
+                "field": [
+                  "title"
+                ]
+              }
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "drop": [
+                  "summary"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "ai-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "http://allanrbo.blogspot.com/2026/09/a-jev-like-wrapper-for-llms-including.html"
+    },
     {
       "id": "ff8833dc33990dd231c9",
       "title": "Microsoft abandons personal AI chatbot race with Copilot reboot",

@@ -2,10 +2,34 @@
 <rss version="2.0">
   <channel>
     <title>Crypto news (CoinDesk, Cointelegraph, Decrypt)</title>
-    <link>https://www.coindesk.com/arc/outboundfeeds/rss/</link>
+    <link>https://cointelegraph.com/rss</link>
     <description>Events collected by UnlimitedPipe 0.6.0</description>
     <generator>UnlimitedPipe 0.6.0</generator>
-    <lastBuildDate>Sat, 26 Sep 2026 04:02:38 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 08:03:29 +0000</lastBuildDate>
+    <item>
+      <title>CFTC sues Cash FX, alleges $950M crypto-linked forex scheme</title>
+      <link>https://cointelegraph.com/news/cftc-sues-cash-fx-alleges-950m-crypto-linked-forex-scheme?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound</link>
+      <guid isPermaLink="false">71ff4fd87502e5989cc4</guid>
+      <pubDate>Sat, 26 Sep 2026 06:59:29 +0000</pubDate>
+      <description>The CFTC claimed that Cash FX engaged in minimal forex trading and misappropriated most of the participant funds.</description>
+      <category>Latest News</category>
+    </item>
+    <item>
+      <title>Solana’s 150-millisecond settlement upgrade reaches second public test network</title>
+      <link>https://www.coindesk.com/tech/2026/09/26/solana-s-150-millisecond-settlement-upgrade-reaches-second-public-test-network</link>
+      <guid isPermaLink="false">01cd11d16a51932de97c</guid>
+      <pubDate>Sat, 26 Sep 2026 05:00:00 +0000</pubDate>
+      <category>Tech</category>
+      <category>News</category>
+    </item>
+    <item>
+      <title>XRP Ledger’s Batch upgrade slips to Oct. 9 after validator support resets</title>
+      <link>https://www.coindesk.com/tech/2026/09/26/xrp-ledger-s-batch-upgrade-slips-to-oct-9-after-validator-support-resets</link>
+      <guid isPermaLink="false">be95a2e85a74b83f5a61</guid>
+      <pubDate>Sat, 26 Sep 2026 04:30:00 +0000</pubDate>
+      <category>Tech</category>
+      <category>News</category>
+    </item>
     <item>
       <title>Bitcoin could soon get Zcash-style 'shielded' privacy without changing its rules</title>
       <link>https://www.coindesk.com/tech/2026/09/25/bitcoin-could-soon-get-zcash-style-shielded-privacy-without-changing-its-rules</link>
@@ -1229,32 +1253,6 @@ RENDER (+18%), SUI (+18%) and LIT (+15%) led top movers. Bank of America formall
       <pubDate>Wed, 23 Sep 2026 18:46:03 +0000</pubDate>
       <description>Deribit's strike-by-strike data shows a book stacked with calls, and one price level drawing hedging pressure from both sides at once.</description>
       <category>Markets</category>
-    </item>
-    <item>
-      <title>US stablecoin adoption could surge with bank-like protections: Visa survey</title>
-      <link>https://cointelegraph.com/news/stablecoin-adoption-bank-level-protections-visa?utm_source=rss_feed&amp;utm_medium=rss&amp;utm_campaign=rss_partner_inbound</link>
-      <guid isPermaLink="false">569865d31a48e4694448</guid>
-      <pubDate>Wed, 23 Sep 2026 18:17:48 +0000</pubDate>
-      <description>The survey released by Visa posited that bank-like protections for stablecoins could increase adoption in the US as companies are preparing for the enactment of the GENIUS Act.</description>
-      <category>Latest News</category>
-    </item>
-    <item>
-      <title>Borrow Against Your Bitcoin at a Fixed Rate: Coinbase Expands Morpho Loans</title>
-      <link>https://decrypt.co/379091/borrow-against-bitcoin-fixed-rate-coinbase-morpho</link>
-      <guid isPermaLink="false">3392a4b357f71c91c323</guid>
-      <pubDate>Wed, 23 Sep 2026 18:15:06 +0000</pubDate>
-      <description>The product lets users lock in their rate and repayment date when borrowing USDC against Bitcoin, marking the first enterprise-scale deployment of Morpho Midnight and a shift away from on-chain lending's variable-rate norm.</description>
-      <category>Business</category>
-    </item>
-    <item>
-      <title>White House adviser defends President Trump's crypto ties in wake of Clarity Act defeat</title>
-      <link>https://www.coindesk.com/policy/2026/09/23/white-house-adviser-defends-president-trump-s-crypto-ties-in-wake-of-clarity-act-defeat</link>
-      <guid isPermaLink="false">968040f5d6badc474a5e</guid>
-      <pubDate>Wed, 23 Sep 2026 18:04:11 +0000</pubDate>
-      <category>Policy</category>
-      <category>White House</category>
-      <category>Clarity Act</category>
-      <category>News</category>
     </item>
   </channel>
 </rss>

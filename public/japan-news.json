@@ -9,6 +9,1369 @@
   },
   "items": [
     {
+      "id": "e1bcf2a599aefaca4399",
+      "title": "The Mainichi: From Gaza to Sudan to Nepal, more than 500 million children are in desperate need of education",
+      "content_text": "UNITED NATIONS (AP) -- In a stifling sixth grade classroom in war-torn Sudan, a very motivated teacher was giving a lesson to 120 very committed child",
+      "date_published": "2026-09-26T08:00:05Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "e1bcf2a599aefaca4399",
+          "source": "rss",
+          "type": "change",
+          "key": "https://mainichi.jp/english/articles/20260926/p2g/00m/0in/018000c",
+          "source_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:05:21Z",
+          "data": {
+            "change": "added",
+            "label": "The Mainichi: From Gaza to Sudan to Nepal, more than 500 million children are in desperate need of education",
+            "item_type": "entry",
+            "summary": "added: The Mainichi: From Gaza to Sudan to Nepal, more than 500 million children are in desperate need of education",
+            "after": {
+              "title": "The Mainichi: From Gaza to Sudan to Nepal, more than 500 million children are in desperate need of education",
+              "link": "https://mainichi.jp/english/articles/20260926/p2g/00m/0in/018000c",
+              "id": "https://mainichi.jp/english/articles/20260926/p2g/00m/0in/018000c",
+              "author": null,
+              "published_at": "2026-09-26T08:00:05Z",
+              "updated_at": "2026-09-26T08:00:05Z",
+              "summary": "UNITED NATIONS (AP) -- In a stifling sixth grade classroom in war-torn Sudan, a very motivated teacher was giving a lesson to 120 very committed child",
+              "categories": [],
+              "feed": {
+                "title": "The Mainichi",
+                "url": "https://mainichi.jp/english/",
+                "feed_url": "https://mainichi.jp/rss/etc/english_latest.rss"
+              },
+              "outlet": "The Mainichi"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+            "elapsed_ms": 598,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://mainichi.jp/english/articles/20260926/p2g/00m/0in/018000c"
+    },
+    {
+      "id": "864cababc0e549271195",
+      "title": "The Mainichi: Fire breaks out at Nagoya TV Tower in central Japan, no injuries reported",
+      "content_text": "NAGOYA (Kyodo) -- A fire broke out on Saturday at the Nagoya TV Tower, a landmark in the central Japanese city of Nagoya, but there has been no report",
+      "date_published": "2026-09-26T07:31:05Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "864cababc0e549271195",
+          "source": "rss",
+          "type": "change",
+          "key": "https://mainichi.jp/english/articles/20260926/p2g/00m/0na/024000c",
+          "source_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:05:21Z",
+          "data": {
+            "change": "added",
+            "label": "The Mainichi: Fire breaks out at Nagoya TV Tower in central Japan, no injuries reported",
+            "item_type": "entry",
+            "summary": "added: The Mainichi: Fire breaks out at Nagoya TV Tower in central Japan, no injuries reported",
+            "after": {
+              "title": "The Mainichi: Fire breaks out at Nagoya TV Tower in central Japan, no injuries reported",
+              "link": "https://mainichi.jp/english/articles/20260926/p2g/00m/0na/024000c",
+              "id": "https://mainichi.jp/english/articles/20260926/p2g/00m/0na/024000c",
+              "author": null,
+              "published_at": "2026-09-26T07:31:05Z",
+              "updated_at": "2026-09-26T07:31:05Z",
+              "summary": "NAGOYA (Kyodo) -- A fire broke out on Saturday at the Nagoya TV Tower, a landmark in the central Japanese city of Nagoya, but there has been no report",
+              "categories": [],
+              "feed": {
+                "title": "The Mainichi",
+                "url": "https://mainichi.jp/english/",
+                "feed_url": "https://mainichi.jp/rss/etc/english_latest.rss"
+              },
+              "outlet": "The Mainichi"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+            "elapsed_ms": 598,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://mainichi.jp/english/articles/20260926/p2g/00m/0na/024000c"
+    },
+    {
+      "id": "83f7f0427ebf63cb412e",
+      "title": "Japan Today: Fire breaks out at Nagoya TV Tower; no injuries reported",
+      "content_text": "A fire broke out on Saturday at the Nagoya TV Tower, a landmark in Nagoya, but there has been no report of injuries.\nA witness made an emergency…",
+      "date_published": "2026-09-26T07:08:43Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "83f7f0427ebf63cb412e",
+          "source": "rss",
+          "type": "change",
+          "key": "https://japantoday.com/category/national/update1-fire-breaks-out-at-nagoya-tv-tower-in-central-japan-no-injuries-reported",
+          "source_url": "https://japantoday.com/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:05:21Z",
+          "data": {
+            "change": "added",
+            "label": "Japan Today: Fire breaks out at Nagoya TV Tower; no injuries reported",
+            "item_type": "entry",
+            "summary": "added: Japan Today: Fire breaks out at Nagoya TV Tower; no injuries reported",
+            "after": {
+              "title": "Japan Today: Fire breaks out at Nagoya TV Tower; no injuries reported",
+              "link": "https://japantoday.com/category/national/update1-fire-breaks-out-at-nagoya-tv-tower-in-central-japan-no-injuries-reported",
+              "id": "https://japantoday.com/category/national/update1-fire-breaks-out-at-nagoya-tv-tower-in-central-japan-no-injuries-reported",
+              "author": null,
+              "published_at": "2026-09-26T07:08:43Z",
+              "updated_at": "2026-09-26T07:08:43Z",
+              "summary": "A fire broke out on Saturday at the Nagoya TV Tower, a landmark in Nagoya, but there has been no report of injuries.\nA witness made an emergency…",
+              "categories": [],
+              "feed": {
+                "title": "Japan Today",
+                "url": "https://japantoday.com/",
+                "feed_url": "https://japantoday.com/feed"
+              },
+              "outlet": "Japan Today"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://japantoday.com/feed",
+            "elapsed_ms": 641,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://japantoday.com/category/national/update1-fire-breaks-out-at-nagoya-tv-tower-in-central-japan-no-injuries-reported"
+    },
+    {
+      "id": "add4f97b63daa9eb885d",
+      "title": "Japan Today: Woman stabbed to death in Gunma; wanted notice issued for ex-husband of victim's daughter",
+      "content_text": "Gunma Prefectural Police have issued a public wanted notice for the ex-husband of a woman whose mother was found stabbed to death at her home in Ota, Gunma…",
+      "date_published": "2026-09-26T07:08:30Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "add4f97b63daa9eb885d",
+          "source": "rss",
+          "type": "change",
+          "key": "https://japantoday.com/category/crime/woman-stabbed-to-death-in-gunma-wanted-notice-issued-for-ex-husband-of-victim%27s-daughter",
+          "source_url": "https://japantoday.com/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:05:21Z",
+          "data": {
+            "change": "added",
+            "label": "Japan Today: Woman stabbed to death in Gunma; wanted notice issued for ex-husband of victim's daughter",
+            "item_type": "entry",
+            "summary": "added: Japan Today: Woman stabbed to death in Gunma; wanted notice issued for ex-husband of victim's daughter",
+            "after": {
+              "title": "Japan Today: Woman stabbed to death in Gunma; wanted notice issued for ex-husband of victim's daughter",
+              "link": "https://japantoday.com/category/crime/woman-stabbed-to-death-in-gunma-wanted-notice-issued-for-ex-husband-of-victim%27s-daughter",
+              "id": "https://japantoday.com/category/crime/woman-stabbed-to-death-in-gunma-wanted-notice-issued-for-ex-husband-of-victim%27s-daughter",
+              "author": null,
+              "published_at": "2026-09-26T07:08:30Z",
+              "updated_at": "2026-09-26T07:08:30Z",
+              "summary": "Gunma Prefectural Police have issued a public wanted notice for the ex-husband of a woman whose mother was found stabbed to death at her home in Ota, Gunma…",
+              "categories": [],
+              "feed": {
+                "title": "Japan Today",
+                "url": "https://japantoday.com/",
+                "feed_url": "https://japantoday.com/feed"
+              },
+              "outlet": "Japan Today"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://japantoday.com/feed",
+            "elapsed_ms": 641,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://japantoday.com/category/crime/woman-stabbed-to-death-in-gunma-wanted-notice-issued-for-ex-husband-of-victim%27s-daughter"
+    },
+    {
+      "id": "0de940c343ce08e0b830",
+      "title": "Japan Today: Japan, U.S. reliable allies with strong bond after WWII: Takaichi",
+      "content_text": "Prime Minister Sanae Takaichi says that Japan and the United States have become \"allies bound by very strong ties\" based on mutual trust after World War II, following…",
+      "date_published": "2026-09-26T07:05:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "0de940c343ce08e0b830",
+          "source": "rss",
+          "type": "change",
+          "key": "https://japantoday.com/category/politics/update2-japan-u.s.-reliable-allies-with-strong-bond-after-wwii-takaichi",
+          "source_url": "https://japantoday.com/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:05:21Z",
+          "data": {
+            "change": "added",
+            "label": "Japan Today: Japan, U.S. reliable allies with strong bond after WWII: Takaichi",
+            "item_type": "entry",
+            "summary": "added: Japan Today: Japan, U.S. reliable allies with strong bond after WWII: Takaichi",
+            "after": {
+              "title": "Japan Today: Japan, U.S. reliable allies with strong bond after WWII: Takaichi",
+              "link": "https://japantoday.com/category/politics/update2-japan-u.s.-reliable-allies-with-strong-bond-after-wwii-takaichi",
+              "id": "https://japantoday.com/category/politics/update2-japan-u.s.-reliable-allies-with-strong-bond-after-wwii-takaichi",
+              "author": null,
+              "published_at": "2026-09-26T07:05:34Z",
+              "updated_at": "2026-09-26T07:05:34Z",
+              "summary": "Prime Minister Sanae Takaichi says that Japan and the United States have become \"allies bound by very strong ties\" based on mutual trust after World War II, following…",
+              "categories": [],
+              "feed": {
+                "title": "Japan Today",
+                "url": "https://japantoday.com/",
+                "feed_url": "https://japantoday.com/feed"
+              },
+              "outlet": "Japan Today"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://japantoday.com/feed",
+            "elapsed_ms": 641,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://japantoday.com/category/politics/update2-japan-u.s.-reliable-allies-with-strong-bond-after-wwii-takaichi"
+    },
+    {
+      "id": "b775f3645e24b349c8a8",
+      "title": "Japan Today: Father arrested for throwing 2 kids, aged 4 and 1, from 6th-floor balcony in Gifu",
+      "content_text": "Police in Kakamigahara City, Gifu Prefecture, have arrested a 25-year-old man on suspicion of attempted murder after he allegedly threw his two daughters from the balcony of his…",
+      "date_published": "2026-09-26T07:05:20Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "b775f3645e24b349c8a8",
+          "source": "rss",
+          "type": "change",
+          "key": "https://japantoday.com/category/crime/father-held-for-throwing-2-kids-off-6th-floor-balcony-in-central-japan",
+          "source_url": "https://japantoday.com/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:05:21Z",
+          "data": {
+            "change": "added",
+            "label": "Japan Today: Father arrested for throwing 2 kids, aged 4 and 1, from 6th-floor balcony in Gifu",
+            "item_type": "entry",
+            "summary": "added: Japan Today: Father arrested for throwing 2 kids, aged 4 and 1, from 6th-floor balcony in Gifu",
+            "after": {
+              "title": "Japan Today: Father arrested for throwing 2 kids, aged 4 and 1, from 6th-floor balcony in Gifu",
+              "link": "https://japantoday.com/category/crime/father-held-for-throwing-2-kids-off-6th-floor-balcony-in-central-japan",
+              "id": "https://japantoday.com/category/crime/father-held-for-throwing-2-kids-off-6th-floor-balcony-in-central-japan",
+              "author": null,
+              "published_at": "2026-09-26T07:05:20Z",
+              "updated_at": "2026-09-26T07:05:20Z",
+              "summary": "Police in Kakamigahara City, Gifu Prefecture, have arrested a 25-year-old man on suspicion of attempted murder after he allegedly threw his two daughters from the balcony of his…",
+              "categories": [],
+              "feed": {
+                "title": "Japan Today",
+                "url": "https://japantoday.com/",
+                "feed_url": "https://japantoday.com/feed"
+              },
+              "outlet": "Japan Today"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://japantoday.com/feed",
+            "elapsed_ms": 641,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://japantoday.com/category/crime/father-held-for-throwing-2-kids-off-6th-floor-balcony-in-central-japan"
+    },
+    {
+      "id": "c47d8441c0550071751e",
+      "title": "Japan Today: Japanese 11-year-old wins Asian Games eSports gold",
+      "content_text": "Japan's 11-year-old eSports prodigy Yuki Kurihara won Asian Games gold on Saturday in style after thrashing a series of opponents up to three times his age.\nThe bespectacled…",
+      "date_published": "2026-09-26T07:02:51Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c47d8441c0550071751e",
+          "source": "rss",
+          "type": "change",
+          "key": "https://japantoday.com/category/sports/japanese-11-year-old-wins-asian-games-esports-gold",
+          "source_url": "https://japantoday.com/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:05:21Z",
+          "data": {
+            "change": "added",
+            "label": "Japan Today: Japanese 11-year-old wins Asian Games eSports gold",
+            "item_type": "entry",
+            "summary": "added: Japan Today: Japanese 11-year-old wins Asian Games eSports gold",
+            "after": {
+              "title": "Japan Today: Japanese 11-year-old wins Asian Games eSports gold",
+              "link": "https://japantoday.com/category/sports/japanese-11-year-old-wins-asian-games-esports-gold",
+              "id": "https://japantoday.com/category/sports/japanese-11-year-old-wins-asian-games-esports-gold",
+              "author": null,
+              "published_at": "2026-09-26T07:02:51Z",
+              "updated_at": "2026-09-26T07:02:51Z",
+              "summary": "Japan's 11-year-old eSports prodigy Yuki Kurihara won Asian Games gold on Saturday in style after thrashing a series of opponents up to three times his age.\nThe bespectacled…",
+              "categories": [],
+              "feed": {
+                "title": "Japan Today",
+                "url": "https://japantoday.com/",
+                "feed_url": "https://japantoday.com/feed"
+              },
+              "outlet": "Japan Today"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://japantoday.com/feed",
+            "elapsed_ms": 641,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://japantoday.com/category/sports/japanese-11-year-old-wins-asian-games-esports-gold"
+    },
+    {
+      "id": "a1f84a969d6db9c7f723",
+      "title": "The Mainichi: Asian Games: Yamashita wins men's marathon as Habte takes women's title",
+      "content_text": "NAGOYA (Kyodo) -- Japan's Ichitaka Yamashita won the men's marathon at the Aichi-Nagoya Asian Games on Saturday, clocking 2 hours, 10 minutes, 49 seco",
+      "date_published": "2026-09-26T07:00:05Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "a1f84a969d6db9c7f723",
+          "source": "rss",
+          "type": "change",
+          "key": "https://mainichi.jp/english/articles/20260926/p2g/00m/0sp/014000c",
+          "source_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:05:21Z",
+          "data": {
+            "change": "added",
+            "label": "The Mainichi: Asian Games: Yamashita wins men's marathon as Habte takes women's title",
+            "item_type": "entry",
+            "summary": "added: The Mainichi: Asian Games: Yamashita wins men's marathon as Habte takes women's title",
+            "after": {
+              "title": "The Mainichi: Asian Games: Yamashita wins men's marathon as Habte takes women's title",
+              "link": "https://mainichi.jp/english/articles/20260926/p2g/00m/0sp/014000c",
+              "id": "https://mainichi.jp/english/articles/20260926/p2g/00m/0sp/014000c",
+              "author": null,
+              "published_at": "2026-09-26T07:00:05Z",
+              "updated_at": "2026-09-26T07:00:05Z",
+              "summary": "NAGOYA (Kyodo) -- Japan's Ichitaka Yamashita won the men's marathon at the Aichi-Nagoya Asian Games on Saturday, clocking 2 hours, 10 minutes, 49 seco",
+              "categories": [],
+              "feed": {
+                "title": "The Mainichi",
+                "url": "https://mainichi.jp/english/",
+                "feed_url": "https://mainichi.jp/rss/etc/english_latest.rss"
+              },
+              "outlet": "The Mainichi"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+            "elapsed_ms": 598,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://mainichi.jp/english/articles/20260926/p2g/00m/0sp/014000c"
+    },
+    {
+      "id": "04e9736d5454fa6e94f5",
+      "title": "The Japan Times: China and U.S. to open AI ‘communication channel’ after summit",
+      "content_text": "U.S. President Donald Trump and Chinese leader Xi Jinping discussed matters ranging from AI and trade to the stalled war in Iran.",
+      "date_published": "2026-09-26T06:03:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "04e9736d5454fa6e94f5",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.japantimes.co.jp/article/647029/",
+          "source_url": "https://www.japantimes.co.jp/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:05:21Z",
+          "data": {
+            "change": "added",
+            "label": "The Japan Times: China and U.S. to open AI ‘communication channel’ after summit",
+            "item_type": "entry",
+            "summary": "added: The Japan Times: China and U.S. to open AI ‘communication channel’ after summit",
+            "after": {
+              "title": "The Japan Times: China and U.S. to open AI ‘communication channel’ after summit",
+              "link": "https://www.japantimes.co.jp/news/2026/09/26/world/us-china-ai-communication-line/",
+              "id": "https://www.japantimes.co.jp/article/647029/",
+              "author": null,
+              "published_at": "2026-09-26T06:03:00Z",
+              "updated_at": "2026-09-26T06:03:00Z",
+              "summary": "U.S. President Donald Trump and Chinese leader Xi Jinping discussed matters ranging from AI and trade to the stalled war in Iran.",
+              "categories": [
+                "WORLD"
+              ],
+              "feed": {
+                "title": "Latest articles - The Japan Times",
+                "url": "https://www.japantimes.co.jp/",
+                "feed_url": "https://www.japantimes.co.jp/feed/"
+              },
+              "outlet": "The Japan Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.japantimes.co.jp/feed/",
+            "elapsed_ms": 342,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.japantimes.co.jp/news/2026/09/26/world/us-china-ai-communication-line/",
+      "tags": [
+        "WORLD"
+      ]
+    },
+    {
+      "id": "b441535c708c70a208d7",
+      "title": "The Mainichi: Japanese fiction boom looks set to endure, experts say",
+      "content_text": "LONDON (Kyodo) -- An unusual mix of stories about alienation, feminism, cats and coffee shops is charming foreign audiences as a boom in translated Ja",
+      "date_published": "2026-09-26T06:00:04Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "b441535c708c70a208d7",
+          "source": "rss",
+          "type": "change",
+          "key": "https://mainichi.jp/english/articles/20260926/p2g/00m/0et/006000c",
+          "source_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:05:21Z",
+          "data": {
+            "change": "added",
+            "label": "The Mainichi: Japanese fiction boom looks set to endure, experts say",
+            "item_type": "entry",
+            "summary": "added: The Mainichi: Japanese fiction boom looks set to endure, experts say",
+            "after": {
+              "title": "The Mainichi: Japanese fiction boom looks set to endure, experts say",
+              "link": "https://mainichi.jp/english/articles/20260926/p2g/00m/0et/006000c",
+              "id": "https://mainichi.jp/english/articles/20260926/p2g/00m/0et/006000c",
+              "author": null,
+              "published_at": "2026-09-26T06:00:04Z",
+              "updated_at": "2026-09-26T06:00:04Z",
+              "summary": "LONDON (Kyodo) -- An unusual mix of stories about alienation, feminism, cats and coffee shops is charming foreign audiences as a boom in translated Ja",
+              "categories": [],
+              "feed": {
+                "title": "The Mainichi",
+                "url": "https://mainichi.jp/english/",
+                "feed_url": "https://mainichi.jp/rss/etc/english_latest.rss"
+              },
+              "outlet": "The Mainichi"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+            "elapsed_ms": 598,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://mainichi.jp/english/articles/20260926/p2g/00m/0et/006000c"
+    },
+    {
+      "id": "bab2154252e6e5fc5394",
+      "title": "Japan Today: TikTok agrees to teen limits in US settlement following Meta",
+      "content_text": "TikTok on Friday agreed to pay Alabama at least $100 million and enact time limits and other restrictions for teen users, avoiding trial with a settlement modeled on…",
+      "date_published": "2026-09-26T05:03:16Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "bab2154252e6e5fc5394",
+          "source": "rss",
+          "type": "change",
+          "key": "https://japantoday.com/category/tech/tiktok-agrees-to-teen-limits-in-us-settlement-following-meta",
+          "source_url": "https://japantoday.com/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:05:21Z",
+          "data": {
+            "change": "added",
+            "label": "Japan Today: TikTok agrees to teen limits in US settlement following Meta",
+            "item_type": "entry",
+            "summary": "added: Japan Today: TikTok agrees to teen limits in US settlement following Meta",
+            "after": {
+              "title": "Japan Today: TikTok agrees to teen limits in US settlement following Meta",
+              "link": "https://japantoday.com/category/tech/tiktok-agrees-to-teen-limits-in-us-settlement-following-meta",
+              "id": "https://japantoday.com/category/tech/tiktok-agrees-to-teen-limits-in-us-settlement-following-meta",
+              "author": null,
+              "published_at": "2026-09-26T05:03:16Z",
+              "updated_at": "2026-09-26T05:03:16Z",
+              "summary": "TikTok on Friday agreed to pay Alabama at least $100 million and enact time limits and other restrictions for teen users, avoiding trial with a settlement modeled on…",
+              "categories": [],
+              "feed": {
+                "title": "Japan Today",
+                "url": "https://japantoday.com/",
+                "feed_url": "https://japantoday.com/feed"
+              },
+              "outlet": "Japan Today"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://japantoday.com/feed",
+            "elapsed_ms": 641,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://japantoday.com/category/tech/tiktok-agrees-to-teen-limits-in-us-settlement-following-meta"
+    },
+    {
+      "id": "cdb852f5e25839749343",
+      "title": "Japan Today: Bangkok declares flood disaster across city",
+      "content_text": "Bangkok authorities declared on Saturday a disaster across all 50 districts of the Thai capital after heavy rain for a third consecutive day caused heavy flooding.\nThe disaster…",
+      "date_published": "2026-09-26T05:02:10Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "cdb852f5e25839749343",
+          "source": "rss",
+          "type": "change",
+          "key": "https://japantoday.com/category/world/bangkok-declares-flood-disaster-across-city",
+          "source_url": "https://japantoday.com/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:05:21Z",
+          "data": {
+            "change": "added",
+            "label": "Japan Today: Bangkok declares flood disaster across city",
+            "item_type": "entry",
+            "summary": "added: Japan Today: Bangkok declares flood disaster across city",
+            "after": {
+              "title": "Japan Today: Bangkok declares flood disaster across city",
+              "link": "https://japantoday.com/category/world/bangkok-declares-flood-disaster-across-city",
+              "id": "https://japantoday.com/category/world/bangkok-declares-flood-disaster-across-city",
+              "author": null,
+              "published_at": "2026-09-26T05:02:10Z",
+              "updated_at": "2026-09-26T05:02:10Z",
+              "summary": "Bangkok authorities declared on Saturday a disaster across all 50 districts of the Thai capital after heavy rain for a third consecutive day caused heavy flooding.\nThe disaster…",
+              "categories": [],
+              "feed": {
+                "title": "Japan Today",
+                "url": "https://japantoday.com/",
+                "feed_url": "https://japantoday.com/feed"
+              },
+              "outlet": "Japan Today"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://japantoday.com/feed",
+            "elapsed_ms": 641,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://japantoday.com/category/world/bangkok-declares-flood-disaster-across-city"
+    },
+    {
+      "id": "524a857a034d497ad477",
+      "title": "The Mainichi: Asian Games: 15-yr-old skateboarders among 8 golds for Japan",
+      "content_text": "NAGOYA (Kyodo) -- Japan's 15-year-old sensations Mizuho Hasegawa and Izuru Nagahara won the skateboarding park events on Friday as the host bagged eig",
+      "date_published": "2026-09-26T05:00:04Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "524a857a034d497ad477",
+          "source": "rss",
+          "type": "change",
+          "key": "https://mainichi.jp/english/articles/20260926/p2g/00m/0sp/010000c",
+          "source_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:05:21Z",
+          "data": {
+            "change": "added",
+            "label": "The Mainichi: Asian Games: 15-yr-old skateboarders among 8 golds for Japan",
+            "item_type": "entry",
+            "summary": "added: The Mainichi: Asian Games: 15-yr-old skateboarders among 8 golds for Japan",
+            "after": {
+              "title": "The Mainichi: Asian Games: 15-yr-old skateboarders among 8 golds for Japan",
+              "link": "https://mainichi.jp/english/articles/20260926/p2g/00m/0sp/010000c",
+              "id": "https://mainichi.jp/english/articles/20260926/p2g/00m/0sp/010000c",
+              "author": null,
+              "published_at": "2026-09-26T05:00:04Z",
+              "updated_at": "2026-09-26T05:00:04Z",
+              "summary": "NAGOYA (Kyodo) -- Japan's 15-year-old sensations Mizuho Hasegawa and Izuru Nagahara won the skateboarding park events on Friday as the host bagged eig",
+              "categories": [],
+              "feed": {
+                "title": "The Mainichi",
+                "url": "https://mainichi.jp/english/",
+                "feed_url": "https://mainichi.jp/rss/etc/english_latest.rss"
+              },
+              "outlet": "The Mainichi"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+            "elapsed_ms": 598,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://mainichi.jp/english/articles/20260926/p2g/00m/0sp/010000c"
+    },
+    {
+      "id": "e41e6a01f919188d5b7e",
+      "title": "The Mainichi: Japan-US drill to start October to involve Japan's long-range missiles",
+      "content_text": "TOKYO (Kyodo) -- A major Japan-U.S. joint drill to start in October is expected to involve the Japanese Ground Self-Defense Force's long-range missile",
+      "date_published": "2026-09-26T04:41:21Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "e41e6a01f919188d5b7e",
+          "source": "rss",
+          "type": "change",
+          "key": "https://mainichi.jp/english/articles/20260926/p2g/00m/0na/022000c",
+          "source_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:05:21Z",
+          "data": {
+            "change": "added",
+            "label": "The Mainichi: Japan-US drill to start October to involve Japan's long-range missiles",
+            "item_type": "entry",
+            "summary": "added: The Mainichi: Japan-US drill to start October to involve Japan's long-range missiles",
+            "after": {
+              "title": "The Mainichi: Japan-US drill to start October to involve Japan's long-range missiles",
+              "link": "https://mainichi.jp/english/articles/20260926/p2g/00m/0na/022000c",
+              "id": "https://mainichi.jp/english/articles/20260926/p2g/00m/0na/022000c",
+              "author": null,
+              "published_at": "2026-09-26T04:41:21Z",
+              "updated_at": "2026-09-26T04:41:21Z",
+              "summary": "TOKYO (Kyodo) -- A major Japan-U.S. joint drill to start in October is expected to involve the Japanese Ground Self-Defense Force's long-range missile",
+              "categories": [],
+              "feed": {
+                "title": "The Mainichi",
+                "url": "https://mainichi.jp/english/",
+                "feed_url": "https://mainichi.jp/rss/etc/english_latest.rss"
+              },
+              "outlet": "The Mainichi"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+            "elapsed_ms": 598,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://mainichi.jp/english/articles/20260926/p2g/00m/0na/022000c"
+    },
+    {
       "id": "8d945387cd45ff42a496",
       "title": "The Mainichi: Isabella Bird's 'Unbeaten Tracks in Japan': Kinugawa's beauty and a flea-ridden inn (Pt. 11)",
       "content_text": "Having obtained ample rest and gathered information in Nikko, Isabella Bird finally set out for the \"unexplored interior\" on June 24, 1878. From this",

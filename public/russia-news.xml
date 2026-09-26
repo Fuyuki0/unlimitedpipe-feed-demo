@@ -3,9 +3,97 @@
   <channel>
     <title>Russia news (TASS, Meduza, Moscow Times)</title>
     <link>https://tass.com/rss/v2.xml</link>
-    <description>Events collected by UnlimitedPipe 0.5.1</description>
-    <generator>UnlimitedPipe 0.5.1</generator>
-    <lastBuildDate>Sat, 26 Sep 2026 03:36:08 +0000</lastBuildDate>
+    <description>Events collected by UnlimitedPipe 0.6.0</description>
+    <generator>UnlimitedPipe 0.6.0</generator>
+    <lastBuildDate>Sat, 26 Sep 2026 08:05:39 +0000</lastBuildDate>
+    <item>
+      <title>TASS (Russian state media): Explosion occurres during welding works at Elga deposit in Yakutia causing fatalities</title>
+      <link>https://tass.com/emergencies/2193237</link>
+      <guid isPermaLink="false">507ad7629b18a6f6381f</guid>
+      <pubDate>Sat, 26 Sep 2026 07:26:56 +0000</pubDate>
+      <description>According to preliminary information, an explosion occurred on September 26 during welding operations at the backup pumping station, the press service of the regional prosecutor’s office reported</description>
+      <category>Emergencies</category>
+    </item>
+    <item>
+      <title>TASS (Russian state media): Air defense forces shot down nine UAVs flying toward Moscow</title>
+      <link>https://tass.com/defense/2193235</link>
+      <guid isPermaLink="false">8ded004a51747cd16b20</guid>
+      <pubDate>Sat, 26 Sep 2026 07:08:02 +0000</pubDate>
+      <description>Emergency service personnel are working at the crash sites, Mayor Sergey Sobyanin said</description>
+      <category>Military &amp; Defense</category>
+    </item>
+    <item>
+      <title>TASS (Russian state media): Air defenses down 645 drones over Russian regions, Black Sea, Sea of Azov overnight</title>
+      <link>https://tass.com/defense/2193231</link>
+      <guid isPermaLink="false">44291843ed429b36eb2e</guid>
+      <pubDate>Sat, 26 Sep 2026 06:13:00 +0000</pubDate>
+      <description>Ukrainian fixed-wing unmanned aerial vehicles were destroyed over the territories of the Astrakhan, Belgorod, Bryansk, Voronezh, Kaluga, Kursk, Oryol, Rostov, Ryazan, Tula, Moscow, Krasnodar, Stavropol Regions, the Republic of Crimea</description>
+      <category>Military &amp; Defense</category>
+    </item>
+    <item>
+      <title>TASS (Russian state media): Russian forces strike Novaya Pochta logistics center in Odessa Region</title>
+      <link>https://tass.com/defense/2193227</link>
+      <guid isPermaLink="false">711130c17a68fcac3ac7</guid>
+      <pubDate>Sat, 26 Sep 2026 05:57:23 +0000</pubDate>
+      <description>Military cargo was stored there for the Ukrainian army, the Russian Defense Ministry reported</description>
+      <category>Military &amp; Defense</category>
+    </item>
+    <item>
+      <title>TASS (Russian state media): Russian Armed Forces hit Cosmonova data center in Kiev</title>
+      <link>https://tass.com/defense/2193225</link>
+      <guid isPermaLink="false">ca3a310c1113fa50b14e</guid>
+      <pubDate>Sat, 26 Sep 2026 05:42:21 +0000</pubDate>
+      <description>It provided the operation of mobile internet and supported the Starlink satellite communication system in the interests of the Ukrainian army, the Russian Defense Ministry reported</description>
+      <category>Military &amp; Defense</category>
+    </item>
+    <item>
+      <title>TASS (Russian state media): Iran may allow IAEA inspectors onto its territory — Pezeshkian</title>
+      <link>https://tass.com/world/2193209</link>
+      <guid isPermaLink="false">f0af7aa6c02189a32ba2</guid>
+      <pubDate>Sat, 26 Sep 2026 04:40:00 +0000</pubDate>
+      <category>World</category>
+    </item>
+    <item>
+      <title>TASS (Russian state media): Hormuz should be open in accordance with US-Iran memorandum — Pezeshkian</title>
+      <link>https://tass.com/world/2193207</link>
+      <guid isPermaLink="false">f223f16f594eb7fb5bfc</guid>
+      <pubDate>Sat, 26 Sep 2026 04:25:00 +0000</pubDate>
+      <description>Masoud Pezeshkian noted that Iran is still committed to this memorandum of understanding and willing to implement it</description>
+      <category>World</category>
+      <category>Strait of Hormuz developments</category>
+    </item>
+    <item>
+      <title>TASS (Russian state media): Typhon systems to be deployed to US Kadena base after drills in Japan — Defense Ministry</title>
+      <link>https://tass.com/world/2193203</link>
+      <guid isPermaLink="false">6ef329a0ee42d17fa39d</guid>
+      <pubDate>Sat, 26 Sep 2026 03:55:01 +0000</pubDate>
+      <description>The American side has explained that storing this facility at Kadena air base is not a permanent deployment in Japan</description>
+      <category>World</category>
+    </item>
+    <item>
+      <title>TASS (Russian state media): US must show it is not seeking violent change of power in Iran — Pezeshkian</title>
+      <link>https://tass.com/world/2193201</link>
+      <guid isPermaLink="false">75529e9ed42d4d79983f</guid>
+      <pubDate>Sat, 26 Sep 2026 03:40:01 +0000</pubDate>
+      <description>"The first thing that needs to happen is that the distrust created by this war has to be overcome," Iranian President Masoud Pezeshkian said</description>
+      <category>World</category>
+    </item>
+    <item>
+      <title>TASS (Russian state media): Four Italian troops injured during NATO drills in Latvia — Italian Defense Ministry</title>
+      <link>https://tass.com/emergencies/2193199</link>
+      <guid isPermaLink="false">008baccc968babbdfbdb</guid>
+      <pubDate>Sat, 26 Sep 2026 03:15:01 +0000</pubDate>
+      <description>The injured were evacuated from the training ground and taken to a hospital in Riga</description>
+      <category>Emergencies</category>
+    </item>
+    <item>
+      <title>TASS (Russian state media): Another typhoon approaches Japan’s Okinawa, moving towards Tokyo</title>
+      <link>https://tass.com/emergencies/2193197</link>
+      <guid isPermaLink="false">b0857622dc59523a1395</guid>
+      <pubDate>Sat, 26 Sep 2026 03:03:00 +0000</pubDate>
+      <description>Under the influence of the typhoon, heavy rains are forecast even in the Kanto region, where the capital prefecture of Tokyo is located</description>
+      <category>Emergencies</category>
+    </item>
     <item>
       <title>TASS (Russian state media): Hormuz blockade to threaten to least 45 million people with food shortages — UN</title>
       <link>https://tass.com/society/2193195</link>
@@ -1207,83 +1295,6 @@
       <guid isPermaLink="false">7bbcaaaa69fdbe72ed97</guid>
       <pubDate>Fri, 25 Sep 2026 11:39:35 +0000</pubDate>
       <description>The head of the Central Election Commission, Ella Pamfilova, announced the results of the State Duma elections, held September 18–20.</description>
-    </item>
-    <item>
-      <title>Meduza: Vladimir Putin has an eight-year-old granddaughter — Elza Tikhonova. Her parents are the Russian president’s younger daughter and ballet dancer Igor Zelensky.</title>
-      <link>https://meduza.io/en/news/2026/09/25/vladimir-putin-has-an-eight-year-old-granddaughter-elza-tikhonova-her-parents-are-the-russian-president-s-youngest-daughter-and-ballet-dancer-igor-zelensky</link>
-      <guid isPermaLink="false">02c6616d95695da7ffeb</guid>
-      <pubDate>Fri, 25 Sep 2026 11:27:53 +0000</pubDate>
-      <description>Vladimir Putin has an eight-year-old granddaughter, the daughter of Katerina Tikhonova, head of the Innopraktika foundation and the Russian president’s younger daughter, and ballet dancer Igor Zelensky. Journalists with the Russian investigative outlet Proekt found that the girl is named Elza Igorevna Tikhonova.</description>
-    </item>
-    <item>
-      <title>Meduza: Finnish President Stubb asks Elon Musk to expand Starlink coverage for Ukraine so it can strike missile launchers on Russian territory</title>
-      <link>https://meduza.io/en/news/2026/09/25/finnish-president-stubb-asks-elon-musk-to-expand-starlink-coverage-for-ukraine-so-it-can-strike-missile-launchers-on-russian-territory</link>
-      <guid isPermaLink="false">0fb88ef511fcc81c7b6d</guid>
-      <pubDate>Fri, 25 Sep 2026 11:19:40 +0000</pubDate>
-      <description>Finnish President Alexander Stubb has called on Elon Musk to expand Starlink satellite internet coverage so Ukraine can strike missile launchers on Russian territory, Reuters reported.</description>
-    </item>
-    <item>
-      <title>Meduza: 17 servicemen swept into Caspian Sea during military exercises in Kazakhstan. 14 died, most of them conscripts.</title>
-      <link>https://meduza.io/en/news/2026/09/25/17-servicemen-swept-into-caspian-sea-during-military-exercises-in-kazakhstan-14-died-most-of-them-conscripts</link>
-      <guid isPermaLink="false">7d40a9f8d8bf933d52bb</guid>
-      <pubDate>Fri, 25 Sep 2026 11:01:19 +0000</pubDate>
-      <description>Seventeen servicemen were swept into the Caspian Sea during naval exercises in Kazakhstan’s Mangystau region. Fourteen of them died, Kazakhstan’s Defense Ministry said.</description>
-    </item>
-    <item>
-      <title>Meduza: Russian state news agency published a column threatening Lithuania with Russia’s ‘next SVO.’ Hours later, it was deleted.</title>
-      <link>https://meduza.io/en/news/2026/09/25/russian-state-news-agency-published-a-column-threatening-lithuania-with-russia-s-next-svo-hours-later-it-was-deleted</link>
-      <guid isPermaLink="false">ebeebd7b3393202b4d72</guid>
-      <pubDate>Fri, 25 Sep 2026 10:30:16 +0000</pubDate>
-      <description>The Russian state news agency RIA Novosti published a column headlined “Russia Is In for Another SVO. It Will Be Very Short,” which threatened Lithuania with a nuclear strike.</description>
-    </item>
-    <item>
-      <title>The Moscow Times: United Russia Wins Record State Duma Majority in Elections Dubbed as Most Uncompetitive in Modern History</title>
-      <link>https://www.themoscowtimes.com/2026/09/25/united-russia-wins-record-state-duma-majority-in-elections-dubbed-as-the-most-uncompetitive-in-modern-history-a93791</link>
-      <guid isPermaLink="false">81c0db95eb1f70a5fbac</guid>
-      <pubDate>Fri, 25 Sep 2026 10:21:00 +0000</pubDate>
-      <description>The outcome was all but predetermined in Russia’s tightly controlled political system, where true opposition had been barred from the ballot.</description>
-    </item>
-    <item>
-      <title>Meduza: One in three members of Russia’s new State Duma has ties to the war in Ukraine. Some are accused of war crimes. Here’s who they are — and what they’ve done.</title>
-      <link>https://meduza.io/en/feature/2026/09/25/one-in-three-members-of-russia-s-new-state-duma-has-ties-to-the-war-in-ukraine-some-are-accused-of-war-crimes-here-s-who-they-are-and-what-they-ve-done</link>
-      <guid isPermaLink="false">2251c9bfcb419054838e</guid>
-      <pubDate>Fri, 25 Sep 2026 09:59:32 +0000</pubDate>
-      <description>Russia has held its first State Duma elections since the start of the full-scale war. According to preliminary results, United Russia has won a record number of seats — more than three-quarters of the chamber. The party has already said that 49 “participants in the special military operation” will become lawmakers on its ticket, effectively answering Putin’s call for military personnel to become Russia’s “new elite.” But they make up only part of what might be called the Duma’s “war faction.”…</description>
-    </item>
-    <item>
-      <title>The Moscow Times: At Least 2 Killed as Ukraine Strikes Industrial Sites Across Russia</title>
-      <link>https://www.themoscowtimes.com/2026/09/25/at-least-2-killed-as-ukraine-strikes-industrial-sites-across-russia-a93790</link>
-      <guid isPermaLink="false">4a748d97f77566faa298</guid>
-      <pubDate>Fri, 25 Sep 2026 08:11:00 +0000</pubDate>
-      <description>Russian authorities and independent media reported that two oil refineries were damaged during the overnight drone barrage.</description>
-    </item>
-    <item>
-      <title>Meduza: Moscow–Tolyatti passenger train damaged by ‘external interference,’ injuring driver and halting rail traffic</title>
-      <link>https://meduza.io/en/news/2026/09/25/moscow-tolyatti-passenger-train-damaged-by-external-interference-injuring-driver-and-halting-rail-traffic</link>
-      <guid isPermaLink="false">9fe74d844e4cb9728302</guid>
-      <pubDate>Fri, 25 Sep 2026 07:33:35 +0000</pubDate>
-      <description>Passenger train No. 66 Moscow–Tolyatti sustained damage to its locomotive and first car after “outside interference” on the Racheika–Belasheika stretch in the Samara region, the Kuibyshev Railway reported.</description>
-    </item>
-    <item>
-      <title>The Moscow Times: Regions Calling: Russia’s Got a Bear Problem</title>
-      <link>https://www.themoscowtimes.com/2026/09/24/regions-calling-russias-got-a-bear-problem-a93777</link>
-      <guid isPermaLink="false">d05dafd162c071eb5ad5</guid>
-      <pubDate>Thu, 24 Sep 2026 16:53:03 +0000</pubDate>
-      <description>At least 19 people have been killed in brown bear attacks across the country since April. What is going on?</description>
-    </item>
-    <item>
-      <title>The Moscow Times: State Duma Creates New AI Oversight Committee</title>
-      <link>https://www.themoscowtimes.com/2026/09/24/state-duma-creates-new-ai-oversight-committee-a93789</link>
-      <guid isPermaLink="false">960072ae5a92a9f5c04f</guid>
-      <pubDate>Thu, 24 Sep 2026 14:53:23 +0000</pubDate>
-      <description>Former President Dmitry Medvedev announced the creation of the Committee on Digital Development and Artificial Intelligence.</description>
-    </item>
-    <item>
-      <title>The Moscow Times: Finance Ministry Unveils 2027 Budget Draft With Fresh Tax Hikes to Fund War Deficit</title>
-      <link>https://www.themoscowtimes.com/2026/09/24/finance-ministry-unveils-2027-budget-draft-with-fresh-tax-hikes-to-fund-war-deficit-a93788</link>
-      <guid isPermaLink="false">e0a64b2491a188687bb4</guid>
-      <pubDate>Thu, 24 Sep 2026 13:56:00 +0000</pubDate>
-      <description>The proposed tax hikes come just weeks after the Kremlin insisted that officials were not discussing any further increases.</description>
     </item>
   </channel>
 </rss>

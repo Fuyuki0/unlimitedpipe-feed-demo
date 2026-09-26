@@ -2,12 +2,309 @@
   "version": "https://jsonfeed.org/version/1.1",
   "title": "China news (SCMP, CGTN)",
   "home_page_url": "https://www.scmp.com/rss/4/feed",
-  "description": "Events collected by UnlimitedPipe 0.5.1",
+  "description": "Events collected by UnlimitedPipe 0.6.0",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.5.1"
+    "generator": "UnlimitedPipe 0.6.0"
   },
   "items": [
+    {
+      "id": "c3f67094573de0f9bb66",
+      "title": "SCMP: Why Taiwan’s coastguard vessel transfer to the Philippines has sparked a double outcry",
+      "content_text": "Taiwan’s transfer of a former coastguard vessel to the Philippines has triggered a dual controversy – raising concerns over the interests of Taiwanese fishermen and prompting strong criticism from Beijing.\nThe matter centres on a 61-metre (200-foot) retired cutter handed over to the Philippine Coast Guard through a non-governmental organisation on Monday, as Taipei and Manila expand practical maritime cooperation despite the absence of formal diplomatic ties.\nBeijing’s Taiwan Affairs Office...",
+      "date_published": "2026-09-26T05:00:12Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c3f67094573de0f9bb66",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.scmp.com/news/china/military/article/3368788/why-taiwans-coastguard-vessel-transfer-philippines-has-sparked-double-outcry?utm_source=rss_feed",
+          "source_url": "https://www.scmp.com/rss/4/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:03:23Z",
+          "data": {
+            "change": "added",
+            "label": "SCMP: Why Taiwan’s coastguard vessel transfer to the Philippines has sparked a double outcry",
+            "item_type": "entry",
+            "summary": "added: SCMP: Why Taiwan’s coastguard vessel transfer to the Philippines has sparked a double outcry",
+            "after": {
+              "title": "SCMP: Why Taiwan’s coastguard vessel transfer to the Philippines has sparked a double outcry",
+              "link": "https://www.scmp.com/news/china/military/article/3368788/why-taiwans-coastguard-vessel-transfer-philippines-has-sparked-double-outcry?utm_source=rss_feed",
+              "id": "https://www.scmp.com/news/china/military/article/3368788/why-taiwans-coastguard-vessel-transfer-philippines-has-sparked-double-outcry?utm_source=rss_feed",
+              "author": "Gabriel Dominguez,Lawrence Chung",
+              "published_at": "2026-09-26T05:00:12Z",
+              "updated_at": "2026-09-26T05:00:12Z",
+              "summary": "Taiwan’s transfer of a former coastguard vessel to the Philippines has triggered a dual controversy – raising concerns over the interests of Taiwanese fishermen and prompting strong criticism from Beijing.\nThe matter centres on a 61-metre (200-foot) retired cutter handed over to the Philippine Coast Guard through a non-governmental organisation on Monday, as Taipei and Manila expand practical maritime cooperation despite the absence of formal diplomatic ties.\nBeijing’s Taiwan Affairs Office...",
+              "categories": [],
+              "feed": {
+                "title": "China - South China Morning Post",
+                "url": "https://www.scmp.com/rss/4/feed",
+                "feed_url": "https://www.scmp.com/rss/4/feed"
+              },
+              "enclosures": [
+                "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/25/0af6cb19-ba2b-472c-bd56-742ee1874ca0_96023cbd.jpg?itok=sZ-6BsrW&v=1790322842"
+              ],
+              "outlet": "SCMP"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.scmp.com/rss/4/feed/",
+            "elapsed_ms": 645,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^scmp\\\\.com$\", \"SCMP\")",
+                  "outlet=replace(outlet, \"^cgtn\\\\.com$\", \"CGTN (Chinese state media)\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "china-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.scmp.com/news/china/military/article/3368788/why-taiwans-coastguard-vessel-transfer-philippines-has-sparked-double-outcry?utm_source=rss_feed"
+    },
+    {
+      "id": "c71f72004c1d926b409e",
+      "title": "SCMP: Xi-Trump summit: China and US to open ‘super intelligence’ communications channel",
+      "content_text": "China and the United States have struck a new deal on coal and agreed to open a communication channel on “super intelligence” incidents, according to the White House.\nThe commitments were outlined in a fact sheet on Chinese President Xi Jinping’s visit to Washington this week.\nIt said China had agreed to import at least 10 million tonnes of coal from the United States next year and again in 2028.\nThe statement also said the two sides would “continue to work on” US concerns about China’s…",
+      "date_published": "2026-09-26T04:49:50Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c71f72004c1d926b409e",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.scmp.com/news/china/diplomacy/article/3368884/xi-trump-summit-china-and-us-open-super-intelligence-communications-channel?utm_source=rss_feed",
+          "source_url": "https://www.scmp.com/rss/4/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:03:23Z",
+          "data": {
+            "change": "added",
+            "label": "SCMP: Xi-Trump summit: China and US to open ‘super intelligence’ communications channel",
+            "item_type": "entry",
+            "summary": "added: SCMP: Xi-Trump summit: China and US to open ‘super intelligence’ communications channel",
+            "after": {
+              "title": "SCMP: Xi-Trump summit: China and US to open ‘super intelligence’ communications channel",
+              "link": "https://www.scmp.com/news/china/diplomacy/article/3368884/xi-trump-summit-china-and-us-open-super-intelligence-communications-channel?utm_source=rss_feed",
+              "id": "https://www.scmp.com/news/china/diplomacy/article/3368884/xi-trump-summit-china-and-us-open-super-intelligence-communications-channel?utm_source=rss_feed",
+              "author": "Albee Zhang,Josephine Ma",
+              "published_at": "2026-09-26T04:49:50Z",
+              "updated_at": "2026-09-26T04:49:50Z",
+              "summary": "China and the United States have struck a new deal on coal and agreed to open a communication channel on “super intelligence” incidents, according to the White House.\nThe commitments were outlined in a fact sheet on Chinese President Xi Jinping’s visit to Washington this week.\nIt said China had agreed to import at least 10 million tonnes of coal from the United States next year and again in 2028.\nThe statement also said the two sides would “continue to work on” US concerns about China’s exports...",
+              "categories": [],
+              "feed": {
+                "title": "China - South China Morning Post",
+                "url": "https://www.scmp.com/rss/4/feed",
+                "feed_url": "https://www.scmp.com/rss/4/feed"
+              },
+              "enclosures": [
+                "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/26/ba1bb5bb-2ca8-4505-ac0b-1d7252cdf6ae_7cac8bb1.jpg?itok=onS2enBQ&v=1790398424"
+              ],
+              "outlet": "SCMP"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.scmp.com/rss/4/feed/",
+            "elapsed_ms": 645,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^scmp\\\\.com$\", \"SCMP\")",
+                  "outlet=replace(outlet, \"^cgtn\\\\.com$\", \"CGTN (Chinese state media)\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "china-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3368884/xi-trump-summit-china-and-us-open-super-intelligence-communications-channel?utm_source=rss_feed"
+    },
+    {
+      "id": "1a46ab72b5c4f04eafb5",
+      "title": "SCMP: China’s first lady Peng Liyuan shines during Xi-Trump summit: everything you missed",
+      "content_text": "We have put together stories from our coverage of Peng Liyuan during the Xi-Trump summit. If you would like to see more of our reporting, please consider subscribing.\n1. China’s first lady Peng Liyuan projects glamour and soft power on world stage\nChina’s first lady Peng Liyuan is again stepping into the international limelight as she travels to Washington with President Xi Jinping this week.\n2. Peng Liyuan and Melania Trump renew acquaintance as Xi arrives in US\nChinese first lady Peng…",
+      "date_published": "2026-09-26T04:30:07Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "1a46ab72b5c4f04eafb5",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.scmp.com/news/china/diplomacy/article/3368880/chinas-first-lady-peng-liyuan-shines-during-xi-trump-summit-everything-you-missed?utm_source=rss_feed",
+          "source_url": "https://www.scmp.com/rss/4/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:03:23Z",
+          "data": {
+            "change": "added",
+            "label": "SCMP: China’s first lady Peng Liyuan shines during Xi-Trump summit: everything you missed",
+            "item_type": "entry",
+            "summary": "added: SCMP: China’s first lady Peng Liyuan shines during Xi-Trump summit: everything you missed",
+            "after": {
+              "title": "SCMP: China’s first lady Peng Liyuan shines during Xi-Trump summit: everything you missed",
+              "link": "https://www.scmp.com/news/china/diplomacy/article/3368880/chinas-first-lady-peng-liyuan-shines-during-xi-trump-summit-everything-you-missed?utm_source=rss_feed",
+              "id": "https://www.scmp.com/news/china/diplomacy/article/3368880/chinas-first-lady-peng-liyuan-shines-during-xi-trump-summit-everything-you-missed?utm_source=rss_feed",
+              "author": "SCMP",
+              "published_at": "2026-09-26T04:30:07Z",
+              "updated_at": "2026-09-26T04:30:07Z",
+              "summary": "We have put together stories from our coverage of Peng Liyuan during the Xi-Trump summit. If you would like to see more of our reporting, please consider subscribing.\n1. China’s first lady Peng Liyuan projects glamour and soft power on world stage\nChina’s first lady Peng Liyuan is again stepping into the international limelight as she travels to Washington with President Xi Jinping this week.\n2. Peng Liyuan and Melania Trump renew acquaintance as Xi arrives in US\nChinese first lady Peng Liyuan...",
+              "categories": [],
+              "feed": {
+                "title": "China - South China Morning Post",
+                "url": "https://www.scmp.com/rss/4/feed",
+                "feed_url": "https://www.scmp.com/rss/4/feed"
+              },
+              "enclosures": [
+                "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/26/6c304d60-eead-4a0e-a521-9b9ffad7c50c_462cfb3f.jpg?itok=VKzzUwaC&v=1790392867"
+              ],
+              "outlet": "SCMP"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.scmp.com/rss/4/feed/",
+            "elapsed_ms": 645,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "map",
+              "version": "0.6.0",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^scmp\\\\.com$\", \"SCMP\")",
+                  "outlet=replace(outlet, \"^cgtn\\\\.com$\", \"CGTN (Chinese state media)\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "china-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3368880/chinas-first-lady-peng-liyuan-shines-during-xi-trump-summit-everything-you-missed?utm_source=rss_feed"
+    },
     {
       "id": "945b08495e35f09ebd9a",
       "title": "SCMP: Will the Trump-Xi wartime ally nostalgia prompt a Japanese rethink on China ties?",
@@ -14263,303 +14560,6 @@
         }
       },
       "url": "https://www.scmp.com/news/china/diplomacy/article/3368543/american-ai-development-cannot-separate-itself-china-zheng-yongnian?utm_source=rss_feed"
-    },
-    {
-      "id": "16f699f7b2fd0980fa63",
-      "title": "SCMP: Who has the upper hand in financial markets, the US or China?",
-      "content_text": "As Chinese President Xi Jinping arrives in Washington for his much-anticipated summit with US President Donald Trump, it is clear which country emerged stronger from the tariff shock. Last month, China’s exports rose 25 per cent in annualised terms, causing the country’s trade surplus to swell to US$119 billion and putting it on track to exceed last year’s record of US$1.2 trillion.\nMoreover, China’s surplus with the US rose 44 per cent to US$29 billion, the widest gap since Trump returned to...",
-      "date_published": "2026-09-24T08:30:04Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "16f699f7b2fd0980fa63",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.scmp.com/opinion/china-opinion/article/3368593/who-has-upper-hand-financial-markets-us-or-china?utm_source=rss_feed",
-          "source_url": "https://www.scmp.com/rss/4/feed",
-          "timestamp": null,
-          "observed_at": "2026-09-25T23:49:23Z",
-          "data": {
-            "change": "added",
-            "label": "SCMP: Who has the upper hand in financial markets, the US or China?",
-            "item_type": "entry",
-            "summary": "added: SCMP: Who has the upper hand in financial markets, the US or China?",
-            "after": {
-              "title": "SCMP: Who has the upper hand in financial markets, the US or China?",
-              "link": "https://www.scmp.com/opinion/china-opinion/article/3368593/who-has-upper-hand-financial-markets-us-or-china?utm_source=rss_feed",
-              "id": "https://www.scmp.com/opinion/china-opinion/article/3368593/who-has-upper-hand-financial-markets-us-or-china?utm_source=rss_feed",
-              "author": "Nicholas Spiro",
-              "published_at": "2026-09-24T08:30:04Z",
-              "updated_at": "2026-09-24T08:30:04Z",
-              "summary": "As Chinese President Xi Jinping arrives in Washington for his much-anticipated summit with US President Donald Trump, it is clear which country emerged stronger from the tariff shock. Last month, China’s exports rose 25 per cent in annualised terms, causing the country’s trade surplus to swell to US$119 billion and putting it on track to exceed last year’s record of US$1.2 trillion.\nMoreover, China’s surplus with the US rose 44 per cent to US$29 billion, the widest gap since Trump returned to...",
-              "categories": [],
-              "feed": {
-                "title": "China - South China Morning Post",
-                "url": "https://www.scmp.com/rss/4/feed",
-                "feed_url": "https://www.scmp.com/rss/4/feed"
-              },
-              "enclosures": [
-                "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/24/efc33894-ac78-4b12-b490-2d693e472579_3a470ee8.jpg?itok=BGBaLxD0&v=1790221737"
-              ],
-              "outlet": "SCMP"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.scmp.com/rss/4/feed/",
-            "elapsed_ms": 813,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "map",
-              "version": "0.3.2",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^scmp\\\\.com$\", \"SCMP\")",
-                  "outlet=replace(outlet, \"^cgtn\\\\.com$\", \"CGTN (Chinese state media)\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "china-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.scmp.com/opinion/china-opinion/article/3368593/who-has-upper-hand-financial-markets-us-or-china?utm_source=rss_feed"
-    },
-    {
-      "id": "0d0cb8e920db2a391f73",
-      "title": "SCMP: Trump grimaces, Xi unfazed during US military flyover for historic tarmac welcome",
-      "content_text": "At Joint Base Andrews where Donald Trump rolled out the red carpet for the visiting Chinese president, Xi Jinping appeared unfazed during a ceremonial flyover by a screeching US bomber while the US president visibly winced at the noise.\nAs Xi arrived at the military base just outside Washington, he was greeted with a ceremony that included the US Air Force band playing the American and Chinese national anthems, a 21-gun salute, a guard of honour, a display of six F-16 and six F-22 fighter…",
-      "date_published": "2026-09-24T07:43:39Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "0d0cb8e920db2a391f73",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.scmp.com/news/china/military/article/3368621/xi-maintains-composure-during-us-military-flyover-historic-tarmac-welcome?utm_source=rss_feed",
-          "source_url": "https://www.scmp.com/rss/4/feed",
-          "timestamp": null,
-          "observed_at": "2026-09-25T23:49:23Z",
-          "data": {
-            "change": "added",
-            "label": "SCMP: Trump grimaces, Xi unfazed during US military flyover for historic tarmac welcome",
-            "item_type": "entry",
-            "summary": "added: SCMP: Trump grimaces, Xi unfazed during US military flyover for historic tarmac welcome",
-            "after": {
-              "title": "SCMP: Trump grimaces, Xi unfazed during US military flyover for historic tarmac welcome",
-              "link": "https://www.scmp.com/news/china/military/article/3368621/xi-maintains-composure-during-us-military-flyover-historic-tarmac-welcome?utm_source=rss_feed",
-              "id": "https://www.scmp.com/news/china/military/article/3368621/xi-maintains-composure-during-us-military-flyover-historic-tarmac-welcome?utm_source=rss_feed",
-              "author": "Albee Zhang",
-              "published_at": "2026-09-24T07:43:39Z",
-              "updated_at": "2026-09-24T07:43:39Z",
-              "summary": "At Joint Base Andrews where Donald Trump rolled out the red carpet for the visiting Chinese president, Xi Jinping appeared unfazed during a ceremonial flyover by a screeching US bomber while the US president visibly winced at the noise.\nAs Xi arrived at the military base just outside Washington, he was greeted with a ceremony that included the US Air Force band playing the American and Chinese national anthems, a 21-gun salute, a guard of honour, a display of six F-16 and six F-22 fighter jets,...",
-              "categories": [],
-              "feed": {
-                "title": "China - South China Morning Post",
-                "url": "https://www.scmp.com/rss/4/feed",
-                "feed_url": "https://www.scmp.com/rss/4/feed"
-              },
-              "enclosures": [
-                "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/24/c94cd6f6-32c6-4001-899f-30e3f416d625_3981bdd8.jpg?itok=TXEZ6s-0&v=1790234934"
-              ],
-              "outlet": "SCMP"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.scmp.com/rss/4/feed/",
-            "elapsed_ms": 813,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "map",
-              "version": "0.3.2",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^scmp\\\\.com$\", \"SCMP\")",
-                  "outlet=replace(outlet, \"^cgtn\\\\.com$\", \"CGTN (Chinese state media)\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "china-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.scmp.com/news/china/military/article/3368621/xi-maintains-composure-during-us-military-flyover-historic-tarmac-welcome?utm_source=rss_feed"
-    },
-    {
-      "id": "1533cf664a483a42a611",
-      "title": "SCMP: Why did Trump wear gloves to greet China’s Xi Jinping at Joint Base Andrews?",
-      "content_text": "US President Donald Trump’s choice of attire at Joint Base Andrews on Wednesday drew online attention as he made a rare personal appearance to welcome Xi Jinping.\nTrump was on the tarmac to greet Xi on Wednesday evening as the Chinese president arrived in Washington for his first US state visit in more than a decade.\nBut while temperatures at the airbase were around 19 degrees Celsius (66 Fahrenheit), Trump was the only one wearing a dark overcoat and gloves as he and first lady Melania Trump...",
-      "date_published": "2026-09-24T07:29:02Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "1533cf664a483a42a611",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.scmp.com/news/china/diplomacy/article/3368619/why-did-trump-wear-gloves-greet-chinas-xi-jinping-joint-base-andrews?utm_source=rss_feed",
-          "source_url": "https://www.scmp.com/rss/4/feed",
-          "timestamp": null,
-          "observed_at": "2026-09-25T23:49:23Z",
-          "data": {
-            "change": "added",
-            "label": "SCMP: Why did Trump wear gloves to greet China’s Xi Jinping at Joint Base Andrews?",
-            "item_type": "entry",
-            "summary": "added: SCMP: Why did Trump wear gloves to greet China’s Xi Jinping at Joint Base Andrews?",
-            "after": {
-              "title": "SCMP: Why did Trump wear gloves to greet China’s Xi Jinping at Joint Base Andrews?",
-              "link": "https://www.scmp.com/news/china/diplomacy/article/3368619/why-did-trump-wear-gloves-greet-chinas-xi-jinping-joint-base-andrews?utm_source=rss_feed",
-              "id": "https://www.scmp.com/news/china/diplomacy/article/3368619/why-did-trump-wear-gloves-greet-chinas-xi-jinping-joint-base-andrews?utm_source=rss_feed",
-              "author": "Cao Jiaxuan",
-              "published_at": "2026-09-24T07:29:02Z",
-              "updated_at": "2026-09-24T07:29:02Z",
-              "summary": "US President Donald Trump’s choice of attire at Joint Base Andrews on Wednesday drew online attention as he made a rare personal appearance to welcome Xi Jinping.\nTrump was on the tarmac to greet Xi on Wednesday evening as the Chinese president arrived in Washington for his first US state visit in more than a decade.\nBut while temperatures at the airbase were around 19 degrees Celsius (66 Fahrenheit), Trump was the only one wearing a dark overcoat and gloves as he and first lady Melania Trump...",
-              "categories": [],
-              "feed": {
-                "title": "China - South China Morning Post",
-                "url": "https://www.scmp.com/rss/4/feed",
-                "feed_url": "https://www.scmp.com/rss/4/feed"
-              },
-              "enclosures": [
-                "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/24/ee9246be-0ad9-438a-b5e4-bfcee9d578fb_7b914f44.jpg?itok=eX7cIHxJ&v=1790234036"
-              ],
-              "outlet": "SCMP"
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.scmp.com/rss/4/feed/",
-            "elapsed_ms": 813,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "map",
-              "version": "0.3.2",
-              "args": {
-                "assign": [
-                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
-                  "outlet=replace(outlet, \"^scmp\\\\.com$\", \"SCMP\")",
-                  "outlet=replace(outlet, \"^cgtn\\\\.com$\", \"CGTN (Chinese state media)\")",
-                  "title=outlet + \": \" + title"
-                ]
-              }
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "china-news",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3368619/why-did-trump-wear-gloves-greet-chinas-xi-jinping-joint-base-andrews?utm_source=rss_feed"
     }
   ]
 }

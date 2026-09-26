@@ -2,12 +2,341 @@
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Climate and energy news",
   "home_page_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-  "description": "Events collected by UnlimitedPipe 0.3.2",
+  "description": "Events collected by UnlimitedPipe 0.6.0",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.3.2"
+    "generator": "UnlimitedPipe 0.6.0"
   },
   "items": [
+    {
+      "id": "20598ffb2c5ca21d2c17",
+      "title": "Bangkok roads submerged as flood disaster declared",
+      "content_text": "An emergency has been declared across the capital of Thailand as days of heavy rain leave the city inundated.",
+      "date_published": "2026-09-26T07:21:30Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "20598ffb2c5ca21d2c17",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/ck1wxx8n2x3zo#0",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:03:24Z",
+          "data": {
+            "change": "added",
+            "label": "Bangkok roads submerged as flood disaster declared",
+            "item_type": "entry",
+            "summary": "added: Bangkok roads submerged as flood disaster declared",
+            "after": {
+              "title": "Bangkok roads submerged as flood disaster declared",
+              "link": "https://www.bbc.co.uk/news/articles/ck1wxx8n2x3zo?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/ck1wxx8n2x3zo#0",
+              "author": null,
+              "published_at": "2026-09-26T07:21:30Z",
+              "updated_at": "2026-09-26T07:21:30Z",
+              "summary": "An emergency has been declared across the capital of Thailand as days of heavy rain leave the city inundated.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 102,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "grep",
+              "version": "0.6.0",
+              "args": {
+                "patterns": [
+                  "climate",
+                  "warming",
+                  "emissions",
+                  "heatwave",
+                  "wildfire",
+                  "wildfires",
+                  "drought",
+                  "flood",
+                  "floods",
+                  "renewable",
+                  "solar",
+                  "carbon",
+                  "COP31"
+                ],
+                "field": [
+                  "title",
+                  "summary"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "climate-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/ck1wxx8n2x3zo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "ba50bd1059e26e7c3411",
+      "title": "Roads flood in New Jersey, inundate some homes, as first major signs of nor'easter take shape",
+      "content_text": "Thousands are without power on the U.S. East Coast, while roads are flooding in some coastal New Jersey communities.",
+      "date_published": "2026-09-26T05:43:38Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ba50bd1059e26e7c3411",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.npr.org/2026/09/26/g-s1-145146/roads-flood-in-new-jersey",
+          "source_url": "https://feeds.npr.org/1001/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:03:24Z",
+          "data": {
+            "change": "added",
+            "label": "Roads flood in New Jersey, inundate some homes, as first major signs of nor'easter take shape",
+            "item_type": "entry",
+            "summary": "added: Roads flood in New Jersey, inundate some homes, as first major signs of nor'easter take shape",
+            "after": {
+              "title": "Roads flood in New Jersey, inundate some homes, as first major signs of nor'easter take shape",
+              "link": "https://www.npr.org/2026/09/26/g-s1-145146/roads-flood-in-new-jersey",
+              "id": "https://www.npr.org/2026/09/26/g-s1-145146/roads-flood-in-new-jersey",
+              "author": "The Associated Press",
+              "published_at": "2026-09-26T05:43:38Z",
+              "updated_at": "2026-09-26T05:43:38Z",
+              "summary": "Thousands are without power on the U.S. East Coast, while roads are flooding in some coastal New Jersey communities.",
+              "categories": [],
+              "feed": {
+                "title": "NPR Topics: News",
+                "url": "https://www.npr.org/templates/story/story.php?storyId=1001",
+                "feed_url": "https://feeds.npr.org/1001/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.npr.org/1001/rss.xml",
+            "elapsed_ms": 84,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "grep",
+              "version": "0.6.0",
+              "args": {
+                "patterns": [
+                  "climate",
+                  "warming",
+                  "emissions",
+                  "heatwave",
+                  "wildfire",
+                  "wildfires",
+                  "drought",
+                  "flood",
+                  "floods",
+                  "renewable",
+                  "solar",
+                  "carbon",
+                  "COP31"
+                ],
+                "field": [
+                  "title",
+                  "summary"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "climate-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.npr.org/2026/09/26/g-s1-145146/roads-flood-in-new-jersey"
+    },
+    {
+      "id": "324d2f7aff38a74f2baa",
+      "title": "Bangkok on red alert as massive floods hit the city",
+      "content_text": "Persistent heavy downpours over a 48-hour period have triggered widespread flooding in Bangkok.",
+      "date_published": "2026-09-26T04:43:39Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "324d2f7aff38a74f2baa",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790397588",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:03:24Z",
+          "data": {
+            "change": "added",
+            "label": "Bangkok on red alert as massive floods hit the city",
+            "item_type": "entry",
+            "summary": "added: Bangkok on red alert as massive floods hit the city",
+            "after": {
+              "title": "Bangkok on red alert as massive floods hit the city",
+              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/bangkok-on-red-alert-as-massive-floods-hit-the-city?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790397588",
+              "author": null,
+              "published_at": "2026-09-26T04:43:39Z",
+              "updated_at": "2026-09-26T04:43:39Z",
+              "summary": "Persistent heavy downpours over a 48-hour period have triggered widespread flooding in Bangkok.",
+              "categories": [
+                "Show Types"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 128,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "grep",
+              "version": "0.6.0",
+              "args": {
+                "patterns": [
+                  "climate",
+                  "warming",
+                  "emissions",
+                  "heatwave",
+                  "wildfire",
+                  "wildfires",
+                  "drought",
+                  "flood",
+                  "floods",
+                  "renewable",
+                  "solar",
+                  "carbon",
+                  "COP31"
+                ],
+                "field": [
+                  "title",
+                  "summary"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "climate-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/26/bangkok-on-red-alert-as-massive-floods-hit-the-city?traffic_source=rss",
+      "tags": [
+        "Show Types"
+      ]
+    },
     {
       "id": "4d7fde4cbecf9486b48d",
       "title": "The treasured 'eternal snow' on this tropical island is about to disappear forever",

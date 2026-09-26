@@ -1,13 +1,256 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Thailand news in English",
-  "home_page_url": "https://prachataienglish.com/rss.xml",
-  "description": "Events collected by UnlimitedPipe 0.3.2",
+  "home_page_url": "https://www.khaosodenglish.com/feed/",
+  "description": "Events collected by UnlimitedPipe 0.6.0",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
-    "generator": "UnlimitedPipe 0.3.2"
+    "generator": "UnlimitedPipe 0.6.0"
   },
   "items": [
+    {
+      "id": "86c1577eb98085d57fc0",
+      "title": "Closed schools and work from home on Monday as Bangkok battles floods",
+      "content_text": "BANGKOK — 26 September 2026, Bangkok Governor Chadchart Sittipunt said the capital’s flood situation has stabilised and could begin improving by Saturday evening if no further heavy rain arrives. Bangkok Metropolitan Administration schools will close on Monday, while BMA staff whose work does not require them to be on site will work from home to […]\nThe post Closed schools and work from home on Monday as Bangkok battles floods appeared first on Khaosod English .",
+      "date_published": "2026-09-26T08:05:40Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "86c1577eb98085d57fc0",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.khaosodenglish.com/?p=1464955979",
+          "source_url": "https://www.khaosodenglish.com/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:06:20Z",
+          "data": {
+            "change": "added",
+            "label": "Closed schools and work from home on Monday as Bangkok battles floods",
+            "item_type": "entry",
+            "summary": "added: Closed schools and work from home on Monday as Bangkok battles floods",
+            "after": {
+              "title": "Closed schools and work from home on Monday as Bangkok battles floods",
+              "link": "https://www.khaosodenglish.com/news/2026/09/26/closed-schools-and-work-from-home-on-monday-as-bangkok-battles-floods/",
+              "id": "https://www.khaosodenglish.com/?p=1464955979",
+              "author": "Khaosod English",
+              "published_at": "2026-09-26T08:05:40Z",
+              "updated_at": "2026-09-26T08:05:40Z",
+              "summary": "BANGKOK — 26 September 2026, Bangkok Governor Chadchart Sittipunt said the capital’s flood situation has stabilised and could begin improving by Saturday evening if no further heavy rain arrives. Bangkok Metropolitan Administration schools will close on Monday, while BMA staff whose work does not require them to be on site will work from home to […]\nThe post Closed schools and work from home on Monday as Bangkok battles floods appeared first on Khaosod English .",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Khaosod English",
+                "url": "https://www.khaosodenglish.com",
+                "feed_url": "https://www.khaosodenglish.com/feed/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.khaosodenglish.com/feed/",
+            "elapsed_ms": 1159,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "thailand-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.khaosodenglish.com/news/2026/09/26/closed-schools-and-work-from-home-on-monday-as-bangkok-battles-floods/",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "001c007eddfc7d8fafd6",
+      "title": "Bangkok declares all 50 districts disaster-affected as flood warning issued",
+      "content_text": "BANGKOK — All 50 districts of Bangkok have been declared disaster-affected areas as widespread flooding continues across the capital, with authorities issuing an urgent warning over critical canal levels and advising motorists to avoid more than 20 flood-hit roads. Bangkok Governor Chadchart Sittipunt expanded the city’s declared flood-disaster area from three districts to all 50 […]\nThe post Bangkok declares all 50 districts disaster-affected as flood warning issued appeared first on Khaosod…",
+      "date_published": "2026-09-26T06:15:37Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "001c007eddfc7d8fafd6",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.khaosodenglish.com/?p=1464955968",
+          "source_url": "https://www.khaosodenglish.com/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:06:20Z",
+          "data": {
+            "change": "added",
+            "label": "Bangkok declares all 50 districts disaster-affected as flood warning issued",
+            "item_type": "entry",
+            "summary": "added: Bangkok declares all 50 districts disaster-affected as flood warning issued",
+            "after": {
+              "title": "Bangkok declares all 50 districts disaster-affected as flood warning issued",
+              "link": "https://www.khaosodenglish.com/featured/2026/09/26/bangkok-declares-all-50-districts-disaster-affected-as-flood-warning-issued/",
+              "id": "https://www.khaosodenglish.com/?p=1464955968",
+              "author": "Khaosod English",
+              "published_at": "2026-09-26T06:15:37Z",
+              "updated_at": "2026-09-26T06:15:37Z",
+              "summary": "BANGKOK — All 50 districts of Bangkok have been declared disaster-affected areas as widespread flooding continues across the capital, with authorities issuing an urgent warning over critical canal levels and advising motorists to avoid more than 20 flood-hit roads. Bangkok Governor Chadchart Sittipunt expanded the city’s declared flood-disaster area from three districts to all 50 […]\nThe post Bangkok declares all 50 districts disaster-affected as flood warning issued appeared first on Khaosod English .",
+              "categories": [
+                "Bangkok",
+                "Calamity",
+                "Featured",
+                "flood"
+              ],
+              "feed": {
+                "title": "Khaosod English",
+                "url": "https://www.khaosodenglish.com",
+                "feed_url": "https://www.khaosodenglish.com/feed/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.khaosodenglish.com/feed/",
+            "elapsed_ms": 1159,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "thailand-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.khaosodenglish.com/featured/2026/09/26/bangkok-declares-all-50-districts-disaster-affected-as-flood-warning-issued/",
+      "tags": [
+        "Bangkok",
+        "Calamity",
+        "Featured",
+        "flood"
+      ]
+    },
+    {
+      "id": "c5a2d5e8fdac7d89adcc",
+      "title": "Supajee orders provincial commerce offices to keep flood-hit areas supplied and prices in check",
+      "content_text": "BANGKOK — 26 September 2026, Deputy Prime Minister and Commerce Minister Supajee Suthumpun has instructed provincial commerce offices to ensure essential goods remain available and reasonably priced in areas affected by flooding. Supajee said on 26 September that the Commerce Ministry is closely monitoring heavy rainfall and flooding across the country and has instructed relevant […]\nThe post Supajee orders provincial commerce offices to keep flood-hit areas supplied and prices in check…",
+      "date_published": "2026-09-26T05:45:54Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c5a2d5e8fdac7d89adcc",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.khaosodenglish.com/?p=1464955966",
+          "source_url": "https://www.khaosodenglish.com/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T08:06:20Z",
+          "data": {
+            "change": "added",
+            "label": "Supajee orders provincial commerce offices to keep flood-hit areas supplied and prices in check",
+            "item_type": "entry",
+            "summary": "added: Supajee orders provincial commerce offices to keep flood-hit areas supplied and prices in check",
+            "after": {
+              "title": "Supajee orders provincial commerce offices to keep flood-hit areas supplied and prices in check",
+              "link": "https://www.khaosodenglish.com/news/crimecourtscalamity/calamity/2026/09/26/supajee-orders-provincial-commerce-offices-to-keep-flood-hit-areas-supplied-and-prices-in-check/",
+              "id": "https://www.khaosodenglish.com/?p=1464955966",
+              "author": "Khaosod English",
+              "published_at": "2026-09-26T05:45:54Z",
+              "updated_at": "2026-09-26T05:45:54Z",
+              "summary": "BANGKOK — 26 September 2026, Deputy Prime Minister and Commerce Minister Supajee Suthumpun has instructed provincial commerce offices to ensure essential goods remain available and reasonably priced in areas affected by flooding. Supajee said on 26 September that the Commerce Ministry is closely monitoring heavy rainfall and flooding across the country and has instructed relevant […]\nThe post Supajee orders provincial commerce offices to keep flood-hit areas supplied and prices in check appeared first on Khaosod English .",
+              "categories": [
+                "Calamity"
+              ],
+              "feed": {
+                "title": "Khaosod English",
+                "url": "https://www.khaosodenglish.com",
+                "feed_url": "https://www.khaosodenglish.com/feed/"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.khaosodenglish.com/feed/",
+            "elapsed_ms": 1159,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.6.0"
+            },
+            {
+              "step": "sort",
+              "version": "0.6.0",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.6.0",
+              "args": {
+                "namespace": "thailand-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.khaosodenglish.com/news/crimecourtscalamity/calamity/2026/09/26/supajee-orders-provincial-commerce-offices-to-keep-flood-hit-areas-supplied-and-prices-in-check/",
+      "tags": [
+        "Calamity"
+      ]
+    },
     {
       "id": "3082a9741598ceeed1cf",
       "title": "Activist network calls for repeal of 1976 coup-era order",

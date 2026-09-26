@@ -3,9 +3,16 @@
   <channel>
     <title>Hacker News (300+ points)</title>
     <link>https://news.ycombinator.com/</link>
-    <description>Events collected by UnlimitedPipe 0.4.0</description>
-    <generator>UnlimitedPipe 0.4.0</generator>
-    <lastBuildDate>Sat, 26 Sep 2026 01:47:08 +0000</lastBuildDate>
+    <description>Events collected by UnlimitedPipe 0.6.0</description>
+    <generator>UnlimitedPipe 0.6.0</generator>
+    <lastBuildDate>Sat, 26 Sep 2026 08:03:54 +0000</lastBuildDate>
+    <item>
+      <title>Revealing the details of how OpenAI agents hacked Hugging Face</title>
+      <link>https://swarmtraces.org/</link>
+      <guid isPermaLink="false">b190cfd9b11c1b676818</guid>
+      <pubDate>Fri, 25 Sep 2026 21:09:27 +0000</pubDate>
+      <description>hn https://news.ycombinator.com/item?id=49849985 · published_at 2026-09-25T21:09:27Z · points 443 · num_comments 273</description>
+    </item>
     <item>
       <title>Git-bug: Distributed, offline-first bug tracker embedded in Git</title>
       <link>https://github.com/git-bug/git-bug</link>
