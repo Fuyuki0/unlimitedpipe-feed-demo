@@ -429,7 +429,7 @@
    "health": {
     "status": "ok",
     "since": "2026-09-26T03:37:34Z",
-    "latest": "2026-09-26T17:13:27Z"
+    "latest": "2026-09-26T17:24:02Z"
    }
   },
   {
@@ -754,7 +754,7 @@
    "health": {
     "status": "ok",
     "since": "2026-09-26T03:37:34Z",
-    "latest": "2026-09-26T17:27:13Z"
+    "latest": "2026-09-26T17:32:27Z"
    }
   },
   {
@@ -1221,14 +1221,21 @@
    "title": "USDT supply +$199.8M in a day, now $183.9B",
    "summary": "Tether (USDT): +$199.8M in 24 hours; week before: $183.3B.",
    "link": "https://defillama.com/stablecoin/tether",
-   "date": "2026-09-26T17:27:13Z"
+   "date": "2026-09-26T17:32:27Z"
   },
   {
    "feed": "stablecoin-supply",
    "title": "USDC supply -$1B in a day, now $75.4B",
    "summary": "USD Coin (USDC): -$1B in 24 hours; week before: $74.4B.",
    "link": "https://defillama.com/stablecoin/usd-coin",
-   "date": "2026-09-26T17:27:13Z"
+   "date": "2026-09-26T17:32:27Z"
+  },
+  {
+   "feed": "stablecoin-supply",
+   "title": "USDS supply +$114.6M in a day, now $6.7B",
+   "summary": "Sky Dollar (USDS): +$114.6M in 24 hours; week before: $6.5B.",
+   "link": "https://defillama.com/stablecoin/usds",
+   "date": "2026-09-26T17:32:27Z"
   },
   {
    "feed": "stablecoin-supply",
@@ -1257,6 +1264,13 @@
    "summary": "Hurricane 17E (Polo) Warning #24\nIssued at 26/1600Z\nTC Warning Text\nTC Warning Graphic\nJMV 3.0 Data\nGoogle Earth Overlay\nIR Satellite Imagery\nTropical Cyclone Formation Alert WTPN21\nIssued at 26/0100Z\nTCFA Text\nTCFA Graphic\nJMV 3.0 Data\nGoogle Earth Overlay\nIR Satellite Imagery\nHurricane 16E (Odalys",
    "link": "https://s3.amazonaws.com/www.metoc.navy.mil/jtwc/jtwc.html",
    "date": "2026-09-26T17:26:02Z"
+  },
+  {
+   "feed": "india-news",
+   "title": "The Hindu: It's not BRICS or UN, BRICS is supportive of UN: Jaishankar",
+   "summary": "The External Affairs Minister says smaller groupings are supportive of UN and will push for its reform",
+   "link": "https://www.thehindu.com/news/national/its-not-brics-or-un-brics-is-supportive-of-un-jaishankar/article71513762.ece",
+   "date": "2026-09-26T17:24:02Z"
   },
   {
    "feed": "crypto-big-moves",
@@ -1845,13 +1859,6 @@
    "summary": "\"They want to make a deal to open the Hormuz Strait immediately because they're losing so badly,\" US President Donald Trump said.",
    "link": "https://www.channelnewsasia.com/world/trump-rejects-iran-proposal-strait-hormuz-6412896",
    "date": "2026-09-26T15:40:00Z"
-  },
-  {
-   "feed": "india-news",
-   "title": "NDTV: Election Commission's Note Settles Row, Says BJP. Congress Lists 'Unanswered Questions'",
-   "summary": "Gyanesh Kumar remains at the centre of a Congress-BJP war of words.",
-   "link": "https://www.ndtv.com/india-news/election-commissions-note-settles-row-says-bjp-congress-lists-unanswered-questions-12102630#publisher=newsstand",
-   "date": "2026-09-26T15:39:38Z"
   },
   {
    "feed": "middle-east-news",
@@ -2610,13 +2617,6 @@
    "date": "2026-09-26T12:49:36Z"
   },
   {
-   "feed": "world-headlines",
-   "title": "Mecca defence alliance chiefs meet amid Houthi attacks",
-   "summary": "Defence chiefs from Saudi Arabia, Turkiye and Pakistan have been meeting in Riyadh to discuss support for Saudi Arabia.",
-   "link": "https://www.aljazeera.com/video/newsfeed/2026/9/26/26-09-sv-saudi-turkiye-pakistan-chiefs-riy-ks?traffic_source=rss",
-   "date": "2026-09-26T12:48:50Z"
-  },
-  {
    "feed": "middle-east-news",
    "title": "Middle East Eye: Iran moves key defence capabilities underground, Tasnim reports",
    "summary": "Iran moves key defence capabilities underground, Tasnim reports\nIran has relocated part of its army’s strategic capabilities to underground facilities to prevent adversaries from gaining a complete understanding of its defence capabilities and weapons production capacity, the country's defence minis",
@@ -2779,6 +2779,13 @@
   },
   {
    "feed": "un-news",
+   "title": "‘Safeguard the postwar order,’ China tells UN General Assembly",
+   "summary": "China's Vice President, Han Zheng, urged the world to defend the postwar international order on Saturday, telling the UN General Assembly that geopolitical conflicts, widening development gaps and mounting global challenges make multilateralism more urgent than ever.",
+   "link": "https://news.un.org/feed/view/en/story/2026/09/1168456",
+   "date": "2026-09-26T12:00:00Z"
+  },
+  {
+   "feed": "un-news",
    "title": "Countries adopt global blueprint to tackle fast-evolving crime in digital age",
    "summary": "Countries adopted on Saturday a new global blueprint for tackling rapidly evolving forms of crime, as the UN’s largest gathering on crime prevention and criminal justice opened in Abu Dhabi with a call for stronger international cooperation.",
    "link": "https://news.un.org/feed/view/en/story/2026/09/1168455",
@@ -2867,6 +2874,13 @@
    "summary": "Both parties target the Lehigh Valley for House control. While the GOP made inroads with Latinos, Dems argue Trump's immigration stance hurts them. Can Republicans hold this 1% margin swing seat?",
    "link": "https://www.npr.org/2026/09/26/nx-s1-5947225/battle-for-the-lehigh-valley-can-gop-hold-its-razor-thin-margin",
    "date": "2026-09-26T11:37:51Z"
+  },
+  {
+   "feed": "world-headlines",
+   "title": "Suicide bombing in Pakistan’s Dera Ismail Khan kills at least 12 people",
+   "summary": "Most of those killed and wounded are security personnel, police say.",
+   "link": "https://www.aljazeera.com/news/2026/9/26/blast-in-pakistans-dera-ismail-khan-kills-several-people?traffic_source=rss",
+   "date": "2026-09-26T11:33:42Z"
   },
   {
    "feed": "japan-news",
@@ -3441,13 +3455,6 @@
    "summary": "The ¥70 billion park opened last July to high expectations that it would help extend tourist stays and boost the local economy.",
    "link": "https://www.japantimes.co.jp/business/2026/09/26/junglia-okinawa-first-year-loss/",
    "date": "2026-09-26T08:00:00Z"
-  },
-  {
-   "feed": "travel-advisories",
-   "title": "UK travel advice for Mexico",
-   "summary": "Further information about Hurricane Polo, with links to the guidance on emergency planning and shelter locations published by local authorities (Warnings and insurance)",
-   "link": "https://www.gov.uk/foreign-travel-advice/mexico",
-   "date": "2026-09-26T07:59:13Z"
   },
   {
    "feed": "security-news",
@@ -4318,13 +4325,6 @@
    "date": "2026-09-26T00:03:40Z"
   },
   {
-   "feed": "travel-advisories",
-   "title": "US travel advice for Cyprus: Level 1: Exercise Normal Precautions",
-   "summary": "Exercise normal precautionSummary not available",
-   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.cyp.html",
-   "date": "2026-09-26T00:00:00Z"
-  },
-  {
    "feed": "australia-news",
    "title": "ABC News: Fake TV police station fuels outback town's plea for real thing",
    "summary": "When the filming of new Stan thriller Two Birds saw a fake police station erected in Boulder, WA, local businesses say crime and misbehaviour plummeted.",
@@ -5116,20 +5116,6 @@
    "date": "2026-09-25T15:21:38Z"
   },
   {
-   "feed": "travel-advisories",
-   "title": "UK travel advice for Ethiopia",
-   "summary": "New information about health screening on arrival, updated information about conflict and violence and the removal of information about elections and Danakil desert ('Entry requirements', Safety and security’ and ‘Regional risks’ pages).",
-   "link": "https://www.gov.uk/foreign-travel-advice/ethiopia",
-   "date": "2026-09-25T15:13:20Z"
-  },
-  {
-   "feed": "travel-advisories",
-   "title": "UK travel advice for Algeria",
-   "summary": "Updated information about customs rules, terrorism in Algeria, political situation and personal ID (‘Entry requirements’ and ‘Safety and security’ pages).",
-   "link": "https://www.gov.uk/foreign-travel-advice/algeria",
-   "date": "2026-09-25T15:01:59Z"
-  },
-  {
    "feed": "security-news",
    "title": "OpenAI is preparing a $500 ChatGPT Pro Max plan with faster Codex",
    "summary": "OpenAI appears to be preparing a new ChatGPT Pro Max subscription that could cost $500 per month, but it's unclear when it'll begin rolling out. [...]",
@@ -5536,13 +5522,6 @@
    "date": "2026-09-25T12:00:00Z"
   },
   {
-   "feed": "travel-advisories",
-   "title": "UK travel advice for Belgium",
-   "summary": "Addition of information about a public sector strike planned for 12 October ('Warnings and insurance' page).",
-   "link": "https://www.gov.uk/foreign-travel-advice/belgium",
-   "date": "2026-09-25T11:48:06Z"
-  },
-  {
    "feed": "africa-news",
    "title": "Africanews: US rapper Macklemore announces “free Palestine” concerts",
    "summary": "The announcement comes after Macklemore was removed from Ed Sheeran’s Loop Tour, following his public pro-Palestinian comments on stage",
@@ -5569,13 +5548,6 @@
    "summary": "hn https://news.ycombinator.com/item?id=49843174 · published_at 2026-09-25T11:38:31Z · points 307 · num_comments 100",
    "link": "https://github.com/git-bug/git-bug",
    "date": "2026-09-25T11:38:31Z"
-  },
-  {
-   "feed": "travel-advisories",
-   "title": "UK travel advice for Cuba",
-   "summary": "This travel advice has been reviewed for accuracy with changes made throughout, including protests in Cuba, power outages and fuel and water shortages, travel disruption, international card transactions, travel insurance, visa requirements, travelling to the USA from Cuba, taking money into Cuba, cr",
-   "link": "https://www.gov.uk/foreign-travel-advice/cuba",
-   "date": "2026-09-25T11:36:31Z"
   },
   {
    "feed": "security-news",
@@ -8476,13 +8448,6 @@
    "date": "2026-09-23T18:15:31Z"
   },
   {
-   "feed": "travel-advisories",
-   "title": "UK travel advice for Colombia",
-   "summary": "Updated information on heightened security measures in Santa Marta ('Warnings and insurance' page).",
-   "link": "https://www.gov.uk/foreign-travel-advice/colombia",
-   "date": "2026-09-23T18:02:49Z"
-  },
-  {
    "feed": "natural-events",
    "title": "Severe Storms: Typhoon Surigae",
    "summary": "Reported by JTWC, first seen 2026-09-23. Tracked by NASA EONET.",
@@ -8560,24 +8525,10 @@
    "date": "2026-09-23T15:28:05Z"
   },
   {
-   "feed": "travel-advisories",
-   "title": "UK travel advice for Hungary",
-   "summary": "Removal of information about restrictions to LGBT+ marches and events ('Safety and security' page).",
-   "link": "https://www.gov.uk/foreign-travel-advice/hungary",
-   "date": "2026-09-23T15:27:57Z"
-  },
-  {
    "feed": "un-news",
    "title": "Venezuela seeking rebirth after political crisis and devastating earthquakes, President tells UN",
    "summary": "Venezuela is seeking to rebuild after a period of political upheaval and the destruction caused by twin earthquakes earlier this year, Acting President Delcy Rodríguez told world leaders at the United Nations on Wednesday.",
    "link": "https://news.un.org/feed/view/en/story/2026/09/1168420",
-   "date": "2026-09-23T12:00:00Z"
-  },
-  {
-   "feed": "un-news",
-   "title": "Equality ‘ends at the doors of the Security Council’, Kenya’s Ruto tells General Assembly",
-   "summary": "Kenyan President William Ruto told the General Assembly on Wednesday that the sovereign equality the UN proclaims is contradicted by its own structures, urging Member States to reform the Security Council and an international financial system “built for another age”.",
-   "link": "https://news.un.org/feed/view/en/story/2026/09/1168419",
    "date": "2026-09-23T12:00:00Z"
   },
   {
@@ -8593,13 +8544,6 @@
    "summary": "The Justice Department issued the following statements regarding the U.S. District Court for the Western District of Michigan’s decision in People of the State of Michigan vs. BP, P.L.C., et al., which was an antitrust lawsuit brought by the state against energy companies. The Justice Department’s A",
    "link": "https://www.justice.gov/opa/pr/justice-department-issues-statements-us-district-court-western-district-michigans-decision",
    "date": "2026-09-23T12:00:00Z"
-  },
-  {
-   "feed": "travel-advisories",
-   "title": "UK travel advice for Kosovo",
-   "summary": "Updated information about large gatherings in Pristina and other urban areas of Kosovo (‘Warnings and insurance’ page).",
-   "link": "https://www.gov.uk/foreign-travel-advice/kosovo",
-   "date": "2026-09-23T11:48:46Z"
   },
   {
    "feed": "middle-east-news",
@@ -9085,13 +9029,6 @@
    "date": "2026-09-22T15:58:32Z"
   },
   {
-   "feed": "travel-advisories",
-   "title": "UK travel advice for Bolivia",
-   "summary": "Updated information about the State of Emergency ('Warnings and insurance' page).",
-   "link": "https://www.gov.uk/foreign-travel-advice/bolivia",
-   "date": "2026-09-22T15:45:15Z"
-  },
-  {
    "feed": "central-banks",
    "title": "Bank of England: Foreign Currency Reserves 2026 – Market Notice 22 September 2026",
    "summary": "Not for distribution, directly or indirectly, in or into the United States, Canada, Australia, Japan or any other jurisdiction where it is unlawful to distribute this announcement",
@@ -9188,13 +9125,6 @@
    "summary": "Status: Resolved\nAll impacted services have now fully recovered.\nAffected components\nConversations (Operational)",
    "link": "https://status.openai.com//incidents/01M348TX2DX7KPM9X857N4APNV",
    "date": "2026-09-22T10:37:42Z"
-  },
-  {
-   "feed": "travel-advisories",
-   "title": "UK travel advice for Pakistan",
-   "summary": "Addition of information about planned protests and possible disruption in Pakistan (‘Warnings and insurance’ page)",
-   "link": "https://www.gov.uk/foreign-travel-advice/pakistan",
-   "date": "2026-09-22T10:07:03Z"
   },
   {
    "feed": "climate-news",
@@ -9344,13 +9274,6 @@
    "date": "2026-09-21T19:25:21Z"
   },
   {
-   "feed": "travel-advisories",
-   "title": "UK travel advice for Trinidad and Tobago",
-   "summary": "Removal of information about State of Emergency ('Warnings and insurance' page).",
-   "link": "https://www.gov.uk/foreign-travel-advice/trinidad-and-tobago",
-   "date": "2026-09-21T15:13:58Z"
-  },
-  {
    "feed": "show-hn",
    "title": "Show HN: Make math automatic with Mathy",
    "summary": "hn https://news.ycombinator.com/item?id=49788014 · published_at 2026-09-21T14:49:05Z · points 101 · num_comments 34",
@@ -9358,32 +9281,11 @@
    "date": "2026-09-21T14:49:05Z"
   },
   {
-   "feed": "travel-advisories",
-   "title": "UK travel advice for Sri Lanka",
-   "summary": "Addition of information about heavy rainfall, flooding and landslides (‘Warnings and insurance’ page)",
-   "link": "https://www.gov.uk/foreign-travel-advice/sri-lanka",
-   "date": "2026-09-21T14:39:53Z"
-  },
-  {
    "feed": "data-breaches",
    "title": "Burger King Russia: 3.1M accounts breached",
    "summary": "In October 2024, news of a data breach exposing Burger King Russia customers broke following an August attack on the Mindbox marketing automation platform. The breach exposed 3.2M unique email addresses along with names, genders, dates of birth, phone numbers and approximate geolocations, with the d",
    "link": "https://haveibeenpwned.com/Breach/BurgerKingRussia",
    "date": "2026-09-21T13:54:00Z"
-  },
-  {
-   "feed": "travel-advisories",
-   "title": "UK travel advice for Vietnam",
-   "summary": "Addition of information about tropical storm season ('Warnings and insurance') page",
-   "link": "https://www.gov.uk/foreign-travel-advice/vietnam",
-   "date": "2026-09-21T13:25:10Z"
-  },
-  {
-   "feed": "travel-advisories",
-   "title": "UK travel advice for Turkey",
-   "summary": "Updated information for LGBT+ travellers ('Safety and security' page).",
-   "link": "https://www.gov.uk/foreign-travel-advice/turkey",
-   "date": "2026-09-21T13:00:49Z"
   },
   {
    "feed": "fda-news",
@@ -9533,13 +9435,6 @@
    "date": "2026-09-20T23:22:16Z"
   },
   {
-   "feed": "travel-advisories",
-   "title": "UK travel advice for Saudi Arabia",
-   "summary": "The Foreign, Commonwealth and Development Office (FCDO) advice against all but essential travel extends to include the cities of Abha and Khamis Mushait in Aseer province. The FCDO continues to advise against all travel to within 10km of the border with Yemen and all but essential travel to areas be",
-   "link": "https://www.gov.uk/foreign-travel-advice/saudi-arabia",
-   "date": "2026-09-20T19:23:47Z"
-  },
-  {
    "feed": "natural-events",
    "title": "Wildfires: Wildfire Round Prarie, Morehouse, Louisiana",
    "summary": "Reported by IRWIN, first seen 2026-09-20. Tracked by NASA EONET.",
@@ -9680,13 +9575,6 @@
    "date": "2026-09-18T16:27:10Z"
   },
   {
-   "feed": "travel-advisories",
-   "title": "UK travel advice for Thailand",
-   "summary": "Updated information on visa exemption scheme, business ownership and deportation ('Entry requirements' and ‘Safety and security’ pages)",
-   "link": "https://www.gov.uk/foreign-travel-advice/thailand",
-   "date": "2026-09-18T15:03:52Z"
-  },
-  {
    "feed": "central-banks",
    "title": "Federal Reserve: Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
    "summary": "Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank",
@@ -9701,13 +9589,6 @@
    "date": "2026-09-18T15:00:00Z"
   },
   {
-   "feed": "travel-advisories",
-   "title": "UK travel advice for Romania",
-   "summary": "New information about drones crossing into Romanian airspace (‘Safety and security’ page).",
-   "link": "https://www.gov.uk/foreign-travel-advice/romania",
-   "date": "2026-09-18T13:15:40Z"
-  },
-  {
    "feed": "crypto-releases",
    "title": "anza-xyz/agave v4.3.0: Release v4.3.0",
    "summary": "This a stable release suitable for Testnet, Devnet and Mainnet Beta.\nhttps://github.com/anza-xyz/agave/blob/v4.3/CHANGELOG.md\nWhat's Changed\nv4.3: cli: add vote-update-commission-bps command (backport of #15075) by @mergify[bot] in https://github.com/anza-xyz/agave/pull/15144\nv4.3: cli: add vote-upd",
@@ -9720,20 +9601,6 @@
    "summary": "The Transaction and Post-trade Reporting Harmonisation Taskforce, through its three working groups, will help inform the design of the Bank and FCA’s long-term approach to harmonising UK MiFIR, UK EMIR and UK SFTR reporting requirements",
    "link": "https://www.bankofengland.co.uk/minutes/2026/july/minutes-of-the-transaction-and-post-trade-reporting-harmonisation-taskforce-july-2026",
    "date": "2026-09-18T11:00:00Z"
-  },
-  {
-   "feed": "travel-advisories",
-   "title": "UK travel advice for Indonesia",
-   "summary": "FCDO no longer advises against all travel to volcanoes in Indonesia and will no longer advise against all travel in the event of future volcanic eruptions. FCDO have added new information about volcanoes in Indonesia, including information from the local authorities who enforce exclusion zones on a ",
-   "link": "https://www.gov.uk/foreign-travel-advice/indonesia",
-   "date": "2026-09-18T10:54:47Z"
-  },
-  {
-   "feed": "travel-advisories",
-   "title": "UK travel advice for Russia",
-   "summary": "Updated information about drone attacks leading to short-notice restrictions on airspace use and airport operations (‘Warnings and insurance’ and ‘Safety and security’ pages).",
-   "link": "https://www.gov.uk/foreign-travel-advice/russia",
-   "date": "2026-09-18T10:01:11Z"
   },
   {
    "feed": "central-banks",
@@ -9909,13 +9776,6 @@
    "summary": "The SEC is taking a significant step forward, within its statutory authority, to bring America’s capital markets into the digital age by facilitating onchain trading of certain tokenized stocks.",
    "link": "https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment",
    "date": "2026-09-17T12:55:00Z"
-  },
-  {
-   "feed": "travel-advisories",
-   "title": "UK travel advice for Italy",
-   "summary": "Removal of information about Mount Etna eruption and flight disruption ('Warnings and insurance' page).",
-   "link": "https://www.gov.uk/foreign-travel-advice/italy",
-   "date": "2026-09-17T11:00:32Z"
   },
   {
    "feed": "dev-releases",
@@ -11010,6 +10870,13 @@
    "date": "2026-09-09T00:00:00Z"
   },
   {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Curaçao: Level 1: Exercise Normal Precautions",
+   "summary": "Exercise normal precaution in Curaçao.\nCuraçao is generally a safe destination for travelers.\nPetty crime is most likely to occur in popular tourist locations. Stay aware of your surroundings.\nMost crimes against foreigners are crimes of opportunity, such as theft of unsecured property or vehicle br",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.cuw.html",
+   "date": "2026-09-09T00:00:00Z"
+  },
+  {
    "feed": "dev-releases",
    "title": "nodejs/node 2026-09-08, Version 24.21.0 'Krypton' (LTS), @aduh95",
    "summary": "Notable Changes\n[71106e1f17] - crypto: update root certificates to NSS 3.126 (Node.js GitHub Bot) #65495\n[afca0a912d] - (SEMVER-MINOR) crypto: support loading private keys through STORE loaders (Filip Skokan) #63949\n[6274fccbd9] - deps: update OpenSSL to 3.5.8 (Node.js GitHub Bot) #65542\n[53cba013c7",
@@ -11105,13 +10972,6 @@
    "title": "Iran-related Designations; Counter Terrorism Designations; Updates to Iran-related General Licenses; Issuance of Counter Terrorism General License",
    "summary": "Sanctions List Updates",
    "link": "https://ofac.treasury.gov/recent-actions/20260908",
-   "date": "2026-09-08T00:00:00Z"
-  },
-  {
-   "feed": "travel-advisories",
-   "title": "US travel advice for Suriname: Level 1: Exercise Normal Precautions",
-   "summary": "There were no changes to the advisory level or risk indicators. Advisory summary was updated.\nSuriname is generally a safe destination for travelers\nReview our Travel Guidance for Suriname to learn how to prepare for a safe trip.\nIf you decide to travel to Suriname:\nEnroll in the Smart Traveler Enro",
-   "link": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/suriname-travel-advisory.html",
    "date": "2026-09-08T00:00:00Z"
   },
   {
@@ -11326,23 +11186,9 @@
   },
   {
    "feed": "travel-advisories",
-   "title": "US travel advice for Macau: Level 3: Reconsider Travel",
-   "summary": "There were no changes to the advisory level or risk indicators. Advisory summary was updated.\nLevel 2: Exercise Increased Caution in mainland China and Hong Kong\nExercise increased caution in mainland China due to the arbitrary enforcement of local laws, the use of exit bans without a fair and trans",
-   "link": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/macau-travel-advisory.html",
-   "date": "2026-09-04T00:00:00Z"
-  },
-  {
-   "feed": "travel-advisories",
-   "title": "US travel advice for Mainland China, Hong Kong & Macau - See Summaries: Level 3: Reconsider Travel",
-   "summary": "Reissued statement: There were no changes to the advisory level or risk indicators. Advisory summary was updated.\nLevel 2: Exercise Increased Caution in mainland China and Hong Kong\nExercise increased caution in mainland China due to the arbitrary enforcement of local laws, the use of exit bans with",
-   "link": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/macau-travel-advisory1.html",
-   "date": "2026-09-04T00:00:00Z"
-  },
-  {
-   "feed": "travel-advisories",
-   "title": "US travel advice for Mainland China, Hong Kong & Macau - See Summaries: Level 2: Exercise Increased Caution",
-   "summary": "Reissued Statement: There were no changes to the advisory level or risk indicators. Advisory summary was updated.\nLevel 2: Exercise Increased Caution in mainland China and Hong Kong\nExercise increased caution in mainland China due to the arbitrary enforcement of local laws, the use of exit bans with",
-   "link": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/hong-kong-travel-advisory1.html",
+   "title": "US travel advice for Hong Kong: Level 2: Exercise Increased Caution",
+   "summary": "Exercise increased caution when traveling to the Hong Kong Special Administrative Region (SAR) due to the a rbitrary enforcement of local laws.\nExercise increased caution due to the arbitrary enforcement of local laws .\nHong Kong SAR authorities have passed laws that limit people’s civil liberties. ",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.hkg.html",
    "date": "2026-09-04T00:00:00Z"
   },
   {
@@ -11551,15 +11397,15 @@
   {
    "feed": "travel-advisories",
    "title": "US travel advice for Iraq: Level 4: Do Not Travel",
-   "summary": "There were no changes to the Travel Advisory Level. The “Crime” risk indicator was added. Advisory summary was updated to reflect changes to U.S. embassy operations.\nDo not travel to Iraq due to terrorism, kidnapping, armed conflict, crime, health risks, and the U.S. government’s limited ability to ",
-   "link": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/iraq-travel-advisory.html",
+   "summary": "Do not travel to Iraq due to terrorism, kidnapping, armed conflict, crime, health risks , and the U.S. government’s limited ability to provide emergency services to U.S. citizens in Iraq .\nDo not travel to Iraq for any reason. The U.S. government has limited ability to offer emergency services to U.",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.irq.html",
    "date": "2026-08-29T00:00:00Z"
   },
   {
    "feed": "travel-advisories",
    "title": "US travel advice for United Arab Emirates: Level 3: Reconsider Travel",
-   "summary": "There were no changes to the Travel Advisory Level or the risk indicators. Advisory summary was updated to reflect that family members may travel to the UAE.\nReconsider Travel to the United Arab Emirates due to terrorism and armed conflict.\nAdvisory Summary\nU.S. government employees working in the U",
-   "link": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/united-arab-emirates-travel-advisory.html",
+   "summary": "Reconsider travel to the United Arab Emirates due to terrorism and armed conflict .\nU.S. government employees working in the UAE need special authorization to travel to military bases and critical energy infrastructure sites due to UAE government restrictions and potential security risks.\nAs of Augu",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.are.html",
    "date": "2026-08-29T00:00:00Z"
   },
   {
@@ -11589,27 +11435,6 @@
    "summary": "2nd Quarter - Amendment filed by FRIENDS COMMITTEE ON NATIONAL LEGISLATION.",
    "link": "https://lda.gov/filings/public/filing/3fab6cea-8d98-4d11-889c-5c6b9dc18500/print/",
    "date": "2026-08-28T11:36:12Z"
-  },
-  {
-   "feed": "travel-advisories",
-   "title": "US travel advice for Qatar: Level 3: Reconsider Travel",
-   "summary": "There were no changes to the Travel Advisory Level or risk indicators. Advisory summary was updated to reflect that family members may travel to Qatar.\nReconsider travel to Qatar due to risk of armed conflict.\nAdvisory summary\nU.S. government employee travel restrictions\nAs of August 28, 2026, famil",
-   "link": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/qatar-travel-advisory.html",
-   "date": "2026-08-28T00:00:00Z"
-  },
-  {
-   "feed": "travel-advisories",
-   "title": "US travel advice for Ukraine: Level 4: Do Not Travel",
-   "summary": "There was no change to the advisory level. Armed conflict risks were updated under “unrest” indicator. Advisory summary was updated.\nAdvisory summary\nDo not travel to Ukraine for any reason due to the Russia-Ukraine war.\nU.S. embassy operations\nThe Embassy is open and operating in Kyiv; however, Emb",
-   "link": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/ukraine-travel-advisory.html",
-   "date": "2026-08-28T00:00:00Z"
-  },
-  {
-   "feed": "travel-advisories",
-   "title": "US travel advice for Kuwait: Level 3: Reconsider Travel",
-   "summary": "There were no changes to the Travel Advisory Level or the risk indicators. Advisory summary was updated to reflect changes that family members 18 years of age or older may travel to Kuwait.\nReconsider Travel to Kuwait due to the threat of armed conflict, landmines, and crime .\nAdvisory summary\nThe U",
-   "link": "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/kuwait-travel-advisory.html",
-   "date": "2026-08-28T00:00:00Z"
   },
   {
    "feed": "us-new-rules",
@@ -11672,6 +11497,20 @@
    "title": "Appointment of Expert Members for the Monetary Policy Committee",
    "summary": "published_at 2026-08-27",
    "link": "https://www.bot.or.th/en/news-and-media/news/news-20260827.html",
+   "date": "2026-08-27T00:00:00Z"
+  },
+  {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Serbia: Level 2: Exercise Increased Caution",
+   "summary": "Exercise increased caution in Serbia due to crime .\nCrime can occur anywhere in Serbia. Police may take longer to respond than they do in the United States.\nCrime\nViolence associated with organized crime and high-profile sporting events is common.\nPetty crime is common, especially in popular tourist",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.srb.html",
+   "date": "2026-08-27T00:00:00Z"
+  },
+  {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Ethiopia: Level 3: Reconsider Travel",
+   "summary": "Reconsider travel to Ethiopia due to unrest, crime, kidnapping, terrorism, landmines, communications disruptions, and exit bans. Some areas have increased risk. Read the entire Travel Advisory.\nUnrest\nThe security situation in Addis Ababa is stable. However, there is sporadic violent, armed conflict",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.eth.html",
    "date": "2026-08-27T00:00:00Z"
   },
   {
@@ -11752,6 +11591,13 @@
    "date": "2026-08-25T18:21:22Z"
   },
   {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Algeria: Level 2: Exercise Increased Caution",
+   "summary": "Exercise increased caution in Algeria due to terrorism and kidnapping . Some areas have increased risk. Read the entire Travel Advisory.\nTerrorism remains a possible threat in Algeria. Terrorist attacks have historically targeted Algerian security forces. Attacks are possible in both rural and urban",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.dza.html",
+   "date": "2026-08-25T00:00:00Z"
+  },
+  {
    "feed": "us-new-rules",
    "title": "Personnel Management Office: Reduction in Force Appeals; Correction",
    "summary": "The Office of Personnel Management (OPM) published a final rule in the Federal Register on August 3, 2026, concerning reduction in force appeals. That document contained typographical and citation errors in the regulatory text. This document corrects the final rule.",
@@ -11799,6 +11645,13 @@
    "summary": "In mid-2026, hundreds of thousands of user records allegedly sourced from Golf Canada began circulating via Telegram. The data included 569k unique email addresses along with names, usernames, dates of birth, genders and approximate geographic locations (city, province and postcode). It remains uncl",
    "link": "https://haveibeenpwned.com/Breach/GolfCanada",
    "date": "2026-08-22T07:17:23Z"
+  },
+  {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Turkmenistan: Level 1: Exercise Normal Precautions",
+   "summary": "Exercise normal precaution in Turkmenistan .\nTurkmenistan is generally a safe destination for travelers.\nMedical services for routine and emergency procedures are limited.\nReview the Health section of the Travel Guidance on this page for more information.\nTurkmenistan is located in a seismically act",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.tkm.html",
+   "date": "2026-08-21T00:00:00Z"
   },
   {
    "feed": "us-new-rules",
@@ -11857,6 +11710,41 @@
    "date": "2026-08-20T11:39:42Z"
   },
   {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Guadeloupe: Level 1: Exercise Normal Precautions",
+   "summary": "Exercise normal precaution in Guadeloupe.\nGuadeloupe is generally a safe destination for travelers.\nGuadeloupe regularly experiences hurricanes. Review our information on Weather and Natural Disasters in Guadeloupe.\nReview our Travel Guidance for Guadeloupe to learn how to prepare for a safe trip.",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.glp.html",
+   "date": "2026-08-20T00:00:00Z"
+  },
+  {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Martinique: Level 1: Exercise Normal Precautions",
+   "summary": "Exercise normal precaution in Martinique.\nMartinique is generally a safe destination for travelers.\nMartinique regularly experiences hurricanes. Review our information on Weather and Natural Disasters in Martinique.\nReview our Travel Guidance for Martinique to learn how to prepare for a safe trip.",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.mtq.html",
+   "date": "2026-08-20T00:00:00Z"
+  },
+  {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Saint Barthelemy: Level 1: Exercise Normal Precautions",
+   "summary": "Exercise normal precaution in Saint Barthélemy.\nSaint Barthélemy is generally a safe destination for travelers.\nSaint Barthélemy regularly experiences hurricanes.\nReview our information on Weather and Natural Disasters in Saint Barthélemy.\nReview our Travel Guidance for Saint Barthélemy to learn how",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.blm.html",
+   "date": "2026-08-20T00:00:00Z"
+  },
+  {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Bonaire: Level 1: Exercise Normal Precautions",
+   "summary": "Exercise normal precaution in Bonaire .\nBonaire is generally a safe destination for travelers.\nPetty crime is most likely to occur in popular tourist locations. Stay aware of your surroundings.\nMost crimes against foreigners are crimes of opportunity, such as theft of unsecured property or vehicle b",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.bes.html",
+   "date": "2026-08-20T00:00:00Z"
+  },
+  {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Saba and Sint Eustatius: Level 1: Exercise Normal Precautions",
+   "summary": "Exercise normal precaution in Saba and Sint Eustatius .\nSaba and Sint Eustatius are generally safe destinations for travelers.\nPetty crime is most likely to occur in popular tourist locations. Stay aware of your surroundings.\nMost crimes against foreigners are crimes of opportunity, such as theft of",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.xqx.html",
+   "date": "2026-08-20T00:00:00Z"
+  },
+  {
    "feed": "us-new-rules",
    "title": "Labor Department: Wagner-Peyser Act Employment Service Staffing",
    "summary": "The U.S. Department of Labor (DOL or the Department) is removing the requirement that States use State merit staff to provide Wagner-Peyser Employment Service (ES) services. This final rule allows States to use the staffing model that provides the required services with the most efficient and cost-e",
@@ -11913,6 +11801,20 @@
    "date": "2026-08-19T02:09:16Z"
   },
   {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Panama: Level 2: Exercise Increased Caution",
+   "summary": "Exercise increased caution in Panama due to crime. Some areas have increased risk. Read the entire travel advisory.\nU.S. government employees working in Panama need special authorization to travel to the Mosquito Gulf and the Darién Region due to safety risks. The U.S. government has limited ability",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.pan.html",
+   "date": "2026-08-19T00:00:00Z"
+  },
+  {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Paraguay: Level 1: Exercise Normal Precautions",
+   "summary": "Exercise normal precaution in Paraguay due to crime.\nParaguay is generally a safe destination for travelers. Some areas have increased crime risk. U.S. government employees working in Paraguay need special authorization to travel to some areas. U.S. government employees are prohibited from using mun",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.pry.html",
+   "date": "2026-08-19T00:00:00Z"
+  },
+  {
    "feed": "sec-press-releases",
    "title": "SEC Charges Former Executives With Fraud in Connection With $1.9 Billion Collapse of Subprime Auto Lender Tricolor",
    "summary": "The Securities and Exchange Commission today charged Daniel Chu, Jerome Kollar, and Ameryn Seibold, the former CEO, CFO, and Senior Director of Finance, respectively, at Texas-based Tricolor Holdings, LLC, for their roles in an alleged multi-year scheme…",
@@ -11939,6 +11841,13 @@
    "summary": "Summary\n:warning: Lighthouse v8.2.2 is a high-priority release containing fixes for several security vulnerabilities.\nAll mainnet beacon node users should upgrade as soon as practical to receive the security fixes in this release.\nUpgrade Notes\nNo special action is required beyond upgrading. This re",
    "link": "https://github.com/sigp/lighthouse/releases/tag/v8.2.2",
    "date": "2026-08-18T00:53:15Z"
+  },
+  {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Mauritania: Level 3: Reconsider Travel",
+   "summary": "Reconsider travel to Mauritania due to terrorism, crime, and limited health infrastructure . Some areas have increased risk. Read the entire Travel Advisory.\nU.S. government employee travel restrictions\nThe U.S. government has limited ability to offer emergency services to American citizens in Mauri",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.mrt.html",
+   "date": "2026-08-18T00:00:00Z"
   },
   {
    "feed": "sec-press-releases",
@@ -12172,6 +12081,20 @@
    "date": "2026-07-28T06:00:07Z"
   },
   {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Uruguay: Level 2: Exercise Increased Caution",
+   "summary": "Exercise increased caution in Uruguay due to crime .\nExercise increased caution in Uruguay due to crime .\nCrime is most common in these departments:\nMontevideo\nCanelones\nMaldonado\nRivera\nViolent crime occurs across the country. Crimes include homicide, armed robbery, carjacking and theft. These crim",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.ury.html",
+   "date": "2026-07-28T00:00:00Z"
+  },
+  {
+   "feed": "travel-advisories",
+   "title": "US travel advice for The Bahamas: Level 2: Exercise Increased Caution",
+   "summary": "Exercise increased caution in The Bahamas due to crime .\nCrime\nViolent crime, including armed robberies, burglaries, and sexual assaults, can occur anywhere in The Bahamas.\nMost crime occurs in Nassau and Freeport on New Providence and Grand Bahama islands. Stay alert in the “Over the Hill” area in ",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.bhs.html",
+   "date": "2026-07-28T00:00:00Z"
+  },
+  {
    "feed": "sec-press-releases",
    "title": "Small Business Forum’s Report to Congress Highlights Recommendations to Improve Capital-Raising Policy",
    "summary": "The Securities and Exchange Commission released a report to Congress today highlighting policy recommendations from the SEC’s 45th Annual Government-Business Forum on Small Business Capital Formation. The report provides a summary of the forum…",
@@ -12354,6 +12277,13 @@
    "date": "2026-07-15T05:03:14Z"
   },
   {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Democratic Republic of the Congo: Level 4: Do Not Travel",
+   "summary": "Do not travel to the Democratic Republic of the Congo (DRC) due to health , crime , unrest , terrorism , and kidnapping\nDue to the Ebola outbreak in the DRC, the Department of Homeland Security has implemented new restrictions under Title 49 of the U.S. Code which prevent U.S. citizens and nationals",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.cod.html",
+   "date": "2026-07-15T00:00:00Z"
+  },
+  {
    "feed": "data-breaches",
    "title": "Glendale Community College: 793K accounts breached",
    "summary": "In June 2026, Glendale Community College was the target of a ShinyHunters \"pay or leak\" extortion campaign. Data allegedly obtained from Glendale was later published online and included almost 800k unique email addresses along with various other data fields, including names, addresses, phone numbers",
@@ -12375,11 +12305,39 @@
    "date": "2026-07-10T09:34:59Z"
   },
   {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Saint Lucia: Level 2: Exercise Increased Caution",
+   "summary": "Exercise increased caution in Saint Lucia due to risk of crime .\nViolent crime can occur anywhere in Saint Lucia. U.S. citizens and other foreigners in Saint Lucia have been victims of armed robbery, assault, burglary, and rape. In some cases, U.S. citizens have been killed.\nCrime\nGuests at tourist ",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.lca.html",
+   "date": "2026-07-10T00:00:00Z"
+  },
+  {
    "feed": "crypto-releases",
    "title": "bitcoin/bitcoin v31.1: Bitcoin Core 31.1",
    "summary": "Bitcoin Core version 31.1 is now available from:\nhttps://bitcoincore.org/bin/bitcoin-core-31.1/\nFor the release notes please see the git repository:\nhttps://github.com/bitcoin/bitcoin/blob/master/doc/release-notes/release-notes-31.1.md\nDo not use the links provided by GitHub. Use the above download ",
    "link": "https://github.com/bitcoin/bitcoin/releases/tag/v31.1",
    "date": "2026-07-08T09:14:15Z"
+  },
+  {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Saint Kitts and Nevis: Level 1: Exercise Normal Precautions",
+   "summary": "Exercise normal precaution in Saint Kitts and Nevis.\nSaint Kitts and Nevis is generally a safe destination for travelers.\nSaint Kitts and Nevis regularly experiences hurricanes. Review our information on Weather and Natural Disasters in Saint Kitts and Nevis.\nReview our Travel Guidance for Saint Kit",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.kn.html",
+   "date": "2026-07-07T00:00:00Z"
+  },
+  {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Saint Vincent and the Grenadines: Level 1: Exercise Normal Precautions",
+   "summary": "Exercise normal precaution in Saint Vincent and the Grenadines .\nSaint Vincent and the Grenadines is generally a safe destination for travelers.\nSaint Vincent and the Grenadines regularly experiences hurricanes. Review our information on Weather and Natural Disasters in Saint Vincent and the Grenadi",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.vct.html",
+   "date": "2026-07-07T00:00:00Z"
+  },
+  {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Turks and Caicos Islands: Level 2: Exercise Increased Caution",
+   "summary": "Exercise increased caution in the Turks and Caicos Islands due to crime .\nCrime\nMost crime occurs in Providenciales. Police may have limited resources to investigate crimes.\nThere have been reports of sexual assaults in the Turks and Caicos Islands.\nPetty crime is common, especially in popular touri",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.tca.html",
+   "date": "2026-07-07T00:00:00Z"
   },
   {
    "feed": "data-breaches",
@@ -12480,6 +12438,13 @@
    "date": "2026-06-18T20:08:06Z"
   },
   {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Lesotho: Level 2: Exercise Increased Caution",
+   "summary": "Exercise increased caution in Lesotho due to crime and health .\nCrime\nCrime is common in Lesotho. Armed robberies and carjackings happen from time to time. Local police may not have enough resources to respond quickly when crimes occur.\nHealth\nLesotho’s health infrastructure is inadequate. Health fa",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.lso.html",
+   "date": "2026-06-17T00:00:00Z"
+  },
+  {
    "feed": "disease-outbreaks",
    "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda",
    "summary": "The Bundibugyo virus disease (BVD) outbreak in the Democratic Republic of the Congo continues to evolve rapidly, with increasing case numbers and geographic spread. As of 10 June, a cumulative of 676 confirmed cases, including 136 deaths, have been reported from the Democratic Republic of the Congo.",
@@ -12543,11 +12508,25 @@
    "date": "2026-05-22T21:06:24Z"
   },
   {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Antigua and Barbuda: Level 1: Exercise Normal Precautions",
+   "summary": "Exercise normal precaution in Antigua and Barbuda.\nAntigua and Barbuda is generally a safe destination for travelers.\nAntigua and Barbuda regularly experiences hurricanes. Review our information on Weather and Natural Disasters in Antigua and Barbuda.\nReview our Travel Guidance for Antigua and Barbu",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.atg.html",
+   "date": "2026-05-20T00:00:00Z"
+  },
+  {
    "feed": "disease-outbreaks",
    "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda",
    "summary": "On 5 May 2026, the World Health Organization (WHO) was alerted of a high-mortality outbreak of unknown illness in Mongbwalu Health Zone, Ituri Province, Democratic Republic of the Congo (DRC), including deaths among health workers. \r\nOn 14 May 2026, the Institut national de recherche biomédicale (IN",
    "link": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON602",
    "date": "2026-05-17T09:35:15Z"
+  },
+  {
+   "feed": "travel-advisories",
+   "title": "US travel advice for South Sudan: Level 4: Do Not Travel",
+   "summary": "Do not travel to South Sudan due to risk of unrest , crime , kidnapping , landmines , and health risks .\nThe U.S. government has limited ability to provide emergency consular services to U.S. citizens in South Sudan due to the health and security situation\nFamily members cannot join U.S. government ",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.ssd.html",
+   "date": "2026-05-17T00:00:00Z"
   },
   {
    "feed": "disease-outbreaks",
@@ -12599,6 +12578,20 @@
    "date": "2026-04-30T11:25:30Z"
   },
   {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Lithuania: Level 1: Exercise Normal Precautions",
+   "summary": "Exercise normal precaution in Lithuania .\nLithuania is generally a safe destination for travelers.\nReview our Travel Guidance for Lithuania to learn how to prepare for a safe trip.",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.ltu.html",
+   "date": "2026-04-28T00:00:00Z"
+  },
+  {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Azerbaijan: Level 3: Reconsider Travel",
+   "summary": "Reconsider travel to Azerbaijan due to terrorism , armed conflict , and risk of landmines . Some areas have increased risk. Read the entire Travel Advisory.\nArmed Conflict\nFollowing the onset of hostilities between the United States and Iran on February 28, 2026, there has been an ongoing threat of ",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.aze.html",
+   "date": "2026-04-28T00:00:00Z"
+  },
+  {
    "feed": "disease-outbreaks",
    "title": "Measles - Bangladesh",
    "summary": "On 4 April 2026, the National International Health Regulations (IHR) Focal Point for Bangladesh notified WHO of a nationwide increase in measles cases, geographically affecting 58 out of 64 districts across all eight divisions in Bangladesh. A total of 19 161 suspected measles cases and 2897 laborat",
@@ -12625,6 +12618,20 @@
    "summary": "Bitcoin Core version 28.4 is now available from:\nhttps://bitcoincore.org/bin/bitcoin-core-28.4/\nFor the release notes please see the git repository:\nhttps://github.com/bitcoin/bitcoin/blob/master/doc/release-notes/release-notes-28.4.md\nDo not use the links provided by GitHub. Use the above download ",
    "link": "https://github.com/bitcoin/bitcoin/releases/tag/v28.4",
    "date": "2026-04-06T06:37:17Z"
+  },
+  {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Latvia: Level 1: Exercise Normal Precautions",
+   "summary": "Exercise normal precaution in Latvia .\nLatvia is generally a safe destination for travelers.\nReview our Travel Guidance for Latvia to learn how to prepare for a safe trip.",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.lva.html",
+   "date": "2026-04-01T00:00:00Z"
+  },
+  {
+   "feed": "travel-advisories",
+   "title": "US travel advice for Estonia: Level 1: Exercise Normal Precautions",
+   "summary": "Exercise normal precaution in Estonia .\nEstonia is generally a safe destination for travelers.\nReview our travel guidance for Estonia to learn how to prepare for a safe trip.",
+   "link": "https://travel.state.gov/content/tsg_aem/us/en/home/international-travel/travel-advisories/destination.est.html",
+   "date": "2026-03-31T00:00:00Z"
   },
   {
    "feed": "crypto-releases",

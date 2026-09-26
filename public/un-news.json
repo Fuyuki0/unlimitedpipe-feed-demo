@@ -9,6 +9,92 @@
   },
   "items": [
     {
+      "id": "1320b0319cad70c67d14",
+      "title": "‘Safeguard the postwar order,’ China tells UN General Assembly",
+      "content_text": "China's Vice President, Han Zheng, urged the world to defend the postwar international order on Saturday, telling the UN General Assembly that geopolitical conflicts, widening development gaps and mounting global challenges make multilateralism more urgent than ever.",
+      "date_published": "2026-09-26T12:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "1320b0319cad70c67d14",
+          "source": "rss",
+          "type": "change",
+          "key": "https://news.un.org/en/story/2026/09/1168456",
+          "source_url": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T17:33:09Z",
+          "data": {
+            "change": "added",
+            "label": "‘Safeguard the postwar order,’ China tells UN General Assembly",
+            "item_type": "entry",
+            "summary": "added: ‘Safeguard the postwar order,’ China tells UN General Assembly",
+            "after": {
+              "title": "‘Safeguard the postwar order,’ China tells UN General Assembly",
+              "link": "https://news.un.org/feed/view/en/story/2026/09/1168456",
+              "id": "https://news.un.org/en/story/2026/09/1168456",
+              "author": null,
+              "published_at": "2026-09-26T12:00:00Z",
+              "updated_at": "2026-09-26T12:00:00Z",
+              "summary": "China's Vice President, Han Zheng, urged the world to defend the postwar international order on Saturday, telling the UN General Assembly that geopolitical conflicts, widening development gaps and mounting global challenges make multilateralism more urgent than ever.",
+              "categories": [],
+              "feed": {
+                "title": "UN News - Global perspective Human stories",
+                "url": "https://news.un.org/en/",
+                "feed_url": "https://news.un.org/feed/subscribe/en/news/all/rss.xml"
+              },
+              "enclosures": [
+                "https://global.unitednations.entermediadb.net/assets/mediadb/services/module/asset/downloads/preset/Collections/Production%20Library/2026/09/26-09-26_China_UNGA81.jpg/image560x340cropped.jpg"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://news.un.org/feed/subscribe/en/news/all/rss.xml",
+            "elapsed_ms": 65,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.9.1"
+            },
+            {
+              "step": "sort",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.9.1",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.9.1",
+              "args": {
+                "namespace": "un-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://news.un.org/feed/view/en/story/2026/09/1168456"
+    },
+    {
       "id": "b4a6c78fa71a031b875f",
       "title": "Countries adopt global blueprint to tackle fast-evolving crime in digital age",
       "content_text": "Countries adopted on Saturday a new global blueprint for tackling rapidly evolving forms of crime, as the UN’s largest gathering on crime prevention and criminal justice opened in Abu Dhabi with a call for stronger international cooperation.",
