@@ -1,0 +1,20 @@
+name: africa-news
+description: "Africa news from BBC Africa and Africanews, merged, newest first."
+sources:
+  - type: rss
+    url:
+      - https://feeds.bbci.co.uk/news/world/africa/rss.xml
+      - https://www.africanews.com/feed/rss
+operators:
+  - type: map
+    assign:
+      - 'outlet=replace(source_url, "^https?://(?:www\\d?\\.|en\\.|e\\.|feeds\\.)?([^/]+).*$", "\\1")'
+      - 'outlet=replace(outlet, "^bbci\\.co\\.uk$", "BBC Africa")'
+      - 'outlet=replace(outlet, "^africanews\\.com$", "Africanews")'
+      - 'title=outlet + ": " + title'
+  - {type: dedupe, by: [link]}
+  - {type: sort, by: [published_at], reverse: true}
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/africa-news.xml, title: "Africa news (BBC, Africanews)", max_items: 150}
+  - {type: feed, path: ../public/africa-news.json, title: "Africa news (BBC, Africanews)", max_items: 150}

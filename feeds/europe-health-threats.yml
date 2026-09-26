@@ -1,0 +1,13 @@
+name: europe-health-threats
+description: "Communicable disease threats in Europe and worldwide from the European Centre for Disease Prevention and Control (ECDC): outbreaks, risk assessments and epidemiological updates."
+sources:
+  - type: rss
+    url:
+      - "https://www.ecdc.europa.eu/en/taxonomy/term/1307/feed"
+operators:
+  - {type: sort, by: [published_at], reverse: true}
+  - {type: dedupe, by: [link]}
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/europe-health-threats.xml, title: "ECDC: disease threats", link: "https://www.ecdc.europa.eu/en/threats-and-outbreaks"}
+  - {type: feed, path: ../public/europe-health-threats.json, title: "ECDC: disease threats", link: "https://www.ecdc.europa.eu/en/threats-and-outbreaks"}

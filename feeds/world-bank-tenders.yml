@@ -1,0 +1,23 @@
+name: world-bank-tenders
+description: "New tenders in World Bank-financed projects worldwide - invitations for bids and requests for expressions of interest - with the country, what is bought and the deadline."
+sources:
+  - type: web
+    url: "https://search.worldbank.org/api/v2/procnotices?format=json&rows=40&srt=noticedate&order=desc&notice_type_exact=Invitation%20for%20Bids&fl=id,notice_type,noticedate,project_ctry_name,project_name,bid_description,submission_date,submission_deadline_date"
+    records: procnotices
+  - type: web
+    url: "https://search.worldbank.org/api/v2/procnotices?format=json&rows=40&srt=noticedate&order=desc&notice_type_exact=Request%20for%20Expression%20of%20Interest&fl=id,notice_type,noticedate,project_ctry_name,project_name,bid_description,submission_date,submission_deadline_date"
+    records: procnotices
+operators:
+  - type: map
+    assign:
+      - 'what=trim(replace(bid_description, "\\s+", " "))'
+      - 'title=project_ctry_name + ": " + what'
+      - 'summary=notice_type + " for the " + project_name + " project. Deadline: " + replace("" + submission_deadline_date, "T.*$", "") + "."'
+      - 'link="https://projects.worldbank.org/en/projects-operations/procurement-detail/" + id'
+      - 'published_at=submission_date'
+  - {type: select, fields: [title, summary, link, published_at, id]}
+  - {type: sort, by: [published_at], reverse: true}
+  - {type: diff, key: id, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/world-bank-tenders.xml, title: "World Bank project tenders", link: "https://projects.worldbank.org/en/projects-operations/procurement", max_items: 150}
+  - {type: feed, path: ../public/world-bank-tenders.json, title: "World Bank project tenders", link: "https://projects.worldbank.org/en/projects-operations/procurement", max_items: 150}

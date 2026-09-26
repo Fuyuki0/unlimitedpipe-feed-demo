@@ -1,0 +1,18 @@
+name: sec-enforcement
+description: "SEC litigation releases: civil lawsuits the SEC files in federal court for fraud and other securities violations."
+sources:
+  - type: rss
+    url:
+      - "https://www.sec.gov/enforcement-litigation/litigation-releases/rss"
+    user_agent: "UnlimitedPipe ${SEC_CONTACT}"   # the SEC asks automated readers for a contact email
+operators:
+  - type: map
+    assign:
+      - 'summary="The SEC filed a civil action in federal court against " + title + " (litigation release " + author + ")."'
+      - 'title="SEC lawsuit: " + title'
+  - {type: sort, by: [published_at], reverse: true}
+  - {type: dedupe, by: [link]}
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/sec-enforcement.xml, title: "SEC litigation releases", link: "https://www.sec.gov/enforcement-litigation/litigation-releases"}
+  - {type: feed, path: ../public/sec-enforcement.json, title: "SEC litigation releases", link: "https://www.sec.gov/enforcement-litigation/litigation-releases"}

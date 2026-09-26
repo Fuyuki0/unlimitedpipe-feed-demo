@@ -1,0 +1,18 @@
+name: taiwan-news
+description: "Taiwan news in English from the Taipei Times."
+sources:
+  - type: rss
+    url:
+      - https://www.taipeitimes.com/xml/index.rss
+operators:
+  - type: map
+    assign:
+      - 'outlet=replace(source_url, "^https?://(?:www\\d?\\.|en\\.|e\\.|feeds\\.)?([^/]+).*$", "\\1")'
+      - 'outlet=replace(outlet, "^taipeitimes\\.com$", "Taipei Times")'
+      - 'title=outlet + ": " + title'
+  - {type: dedupe, by: [link]}
+  - {type: sort, by: [published_at], reverse: true}
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/taiwan-news.xml, title: "Taiwan news (Taipei Times)", max_items: 150}
+  - {type: feed, path: ../public/taiwan-news.json, title: "Taiwan news (Taipei Times)", max_items: 150}

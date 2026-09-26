@@ -1,0 +1,19 @@
+name: travel-advisories
+description: "Travel warnings: new and updated advice for travellers from the US State Department (levels 1 to 4) and the UK Foreign Office, per country."
+sources:
+  - type: rss
+    url:
+      - "https://travel.state.gov/_res/rss/TAsTWs.xml"
+      - "https://www.gov.uk/foreign-travel-advice.atom"
+operators:
+  - type: map
+    assign:
+      - 'issuer=replace(replace(source_url, "^.*state\\.gov.*$", "US"), "^.*gov\\.uk.*$", "UK")'
+      - 'title=replace(title, "^(.*?) - (Level \\d.*)$", "\\1: \\2")'
+      - 'title=issuer + " travel advice for " + title'
+  - {type: sort, by: [published_at], reverse: true}
+  - {type: dedupe, by: [link]}
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/travel-advisories.xml, title: "Travel advisories (US State Department, UK FCDO)", link: "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html"}
+  - {type: feed, path: ../public/travel-advisories.json, title: "Travel advisories (US State Department, UK FCDO)", link: "https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html"}

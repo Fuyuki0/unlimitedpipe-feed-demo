@@ -1,0 +1,13 @@
+name: un-news
+description: "United Nations news: the Secretary-General, the Security Council, peace, humanitarian crises, climate and human rights, from UN News."
+sources:
+  - type: rss
+    url:
+      - "https://news.un.org/feed/subscribe/en/news/all/rss.xml"
+operators:
+  - {type: sort, by: [published_at], reverse: true}
+  - {type: dedupe, by: [link]}
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/un-news.xml, title: "UN News", link: "https://news.un.org/"}
+  - {type: feed, path: ../public/un-news.json, title: "UN News", link: "https://news.un.org/"}

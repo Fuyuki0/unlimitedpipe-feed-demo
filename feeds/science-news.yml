@@ -1,0 +1,18 @@
+name: science-news
+description: "Science news from Nature and Science, the two leading research journals: discoveries, research policy and the people behind them."
+sources:
+  - type: rss
+    url:
+      - "https://www.nature.com/nature.rss"
+      - "https://www.science.org/rss/news_current.xml"
+operators:
+  - type: map
+    assign:
+      - 'journal=replace(replace(source_url, "^.*nature\\.com.*$", "Nature"), "^.*science\\.org.*$", "Science")'
+      - 'title=journal + ": " + title'
+  - {type: sort, by: [published_at], reverse: true}
+  - {type: dedupe, by: [link]}
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/science-news.xml, title: "Science news (Nature, Science)", link: "https://www.nature.com/news"}
+  - {type: feed, path: ../public/science-news.json, title: "Science news (Nature, Science)", link: "https://www.nature.com/news"}

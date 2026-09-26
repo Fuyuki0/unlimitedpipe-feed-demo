@@ -1,0 +1,20 @@
+name: middle-east-news
+description: "Middle East news from BBC Middle East and Middle East Eye, merged, newest first."
+sources:
+  - type: rss
+    url:
+      - https://feeds.bbci.co.uk/news/world/middle_east/rss.xml
+      - https://www.middleeasteye.net/rss
+operators:
+  - type: map
+    assign:
+      - 'outlet=replace(source_url, "^https?://(?:www\\d?\\.|en\\.|e\\.|feeds\\.)?([^/]+).*$", "\\1")'
+      - 'outlet=replace(outlet, "^bbci\\.co\\.uk$", "BBC Middle East")'
+      - 'outlet=replace(outlet, "^middleeasteye\\.net$", "Middle East Eye")'
+      - 'title=outlet + ": " + title'
+  - {type: dedupe, by: [link]}
+  - {type: sort, by: [published_at], reverse: true}
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/middle-east-news.xml, title: "Middle East news (BBC, Middle East Eye)", max_items: 150}
+  - {type: feed, path: ../public/middle-east-news.json, title: "Middle East news (BBC, Middle East Eye)", max_items: 150}

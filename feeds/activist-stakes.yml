@@ -1,0 +1,16 @@
+name: activist-stakes
+description: "Investors disclosing a new stake of 5% or more in a US public company (SEC Schedule 13D) - often activists or would-be buyers - as soon as they file."
+sources:
+  - type: sec
+    resource: activist-stakes
+    contact: ${SEC_CONTACT}   # the SEC asks automated readers for a contact email
+operators:
+  - {type: filter, expr: 'amendment == false'}
+  - type: map
+    assign:
+      - 'published_at=filed_at'
+      - 'summary="Filed " + replace(filed_at, "T.*$", "") + " by " + investors.0 + ". Schedule 13D: the filer owns 5% or more and may seek to influence the company."'
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/activist-stakes.xml, title: "New 5%+ stakes (SEC Schedule 13D)", link: "https://www.sec.gov/edgar/search/"}
+  - {type: feed, path: ../public/activist-stakes.json, title: "New 5%+ stakes (SEC Schedule 13D)", link: "https://www.sec.gov/edgar/search/"}

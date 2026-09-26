@@ -1,12 +1,14 @@
 # UnlimitedPipe feeds
 
-54 free feeds, updated every hour by a GitHub Actions workflow and served by GitHub Pages.
+77 free feeds, updated every hour by a GitHub Actions workflow and served by GitHub Pages.
 No server, no database, no account. Each feed is one short YAML file, built with
-[UnlimitedPipe](https://pypi.org/project/unlimitedpipe/).
+[UnlimitedPipe](https://github.com/Fuyuki0/unlimitedpipe).
 
 **Browse and subscribe: https://feeds.daemonfill.dev/**
 
-Search them all at once: `pip install unlimitedpipe`, then `unlimited search "cyber attack"`.
+Search them all at once: install UnlimitedPipe with
+`curl -fsSL https://raw.githubusercontent.com/Fuyuki0/unlimitedpipe/main/install.sh | sh`,
+then `unlimited search "cyber attack"` or `unlimited ask "what happened in Bangkok today?"`.
 [`feeds.json`](https://feeds.daemonfill.dev/feeds.json) lists every feed with its latest items.
 
 Paste any `.xml` link into a feed reader. Every feed also exists as a JSON Feed (same name,
@@ -57,6 +59,13 @@ on it: `unlimited rss https://feeds.daemonfill.dev/ai-news.json`.
 | [central-banks](https://feeds.daemonfill.dev/central-banks.xml) | Press releases of the Fed, ECB, Bank of Japan, Bank of England and Reserve Bank of India, without routine operations |
 | [world-leaders](https://feeds.daemonfill.dev/world-leaders.xml) | Official announcements of the White House, the Kremlin and the European Commission |
 | [usd-rates](https://feeds.daemonfill.dev/usd-rates.xml) | The US dollar against the baht, yen, yuan, rupee and euro, daily (ECB reference rates) |
+| [activist-stakes](https://feeds.daemonfill.dev/activist-stakes.xml) | Investors disclosing a new stake of 5% or more in a US public company (SEC Schedule 13D) |
+| [sec-press-releases](https://feeds.daemonfill.dev/sec-press-releases.xml) | SEC press releases: charges, settlements, new rules |
+| [sec-enforcement](https://feeds.daemonfill.dev/sec-enforcement.xml) | SEC lawsuits filed in federal court (litigation releases) |
+| [us-justice](https://feeds.daemonfill.dev/us-justice.xml) | US Justice Department press releases: indictments, convictions, sentences |
+| [uk-government](https://feeds.daemonfill.dev/uk-government.xml) | UK government news and announcements (GOV.UK) |
+| [un-news](https://feeds.daemonfill.dev/un-news.xml) | United Nations news: the Secretary-General, the Security Council, crises, climate |
+| [world-bank-tenders](https://feeds.daemonfill.dev/world-bank-tenders.xml) | New tenders in World Bank-financed projects worldwide, with country and deadline |
 
 ### Crypto
 
@@ -64,6 +73,8 @@ Data, not investment advice.
 
 | Feed | What it follows |
 | --- | --- |
+| [crypto-prices](https://feeds.daemonfill.dev/crypto-prices.xml) | Bitcoin, Ethereum, XRP, BNB, Solana, Dogecoin, Tron and Cardano prices, twice a day (DefiLlama) |
+| [crypto-big-moves](https://feeds.daemonfill.dev/crypto-big-moves.xml) | Large coins that moved 10% or more in 24 hours (DefiLlama) |
 | [exchange-listings](https://feeds.daemonfill.dev/exchange-listings.xml) | New and removed trading pairs on Coinbase, Binance, OKX and Upbit, from each exchange's official market list |
 | [crypto-hacks](https://feeds.daemonfill.dev/crypto-hacks.xml) | Hacks and exploits with the amount lost and how it happened (DefiLlama) |
 | [stablecoin-supply](https://feeds.daemonfill.dev/stablecoin-supply.xml) | Daily moves of $100M+ in the supply of the largest stablecoins (DefiLlama) |
@@ -88,13 +99,21 @@ Each feed labels items by outlet; state media is marked as such.
 | [india-news](https://feeds.daemonfill.dev/india-news.xml) | The Hindu and NDTV |
 | [europe-news](https://feeds.daemonfill.dev/europe-news.xml) | POLITICO Europe and Euronews |
 | [us-news](https://feeds.daemonfill.dev/us-news.xml) | NPR politics and PBS NewsHour |
+| [korea-news](https://feeds.daemonfill.dev/korea-news.xml) | Yonhap, South Korea's national news agency |
+| [taiwan-news](https://feeds.daemonfill.dev/taiwan-news.xml) | The Taipei Times |
+| [australia-news](https://feeds.daemonfill.dev/australia-news.xml) | ABC News, the public broadcaster |
 
-### News
+### World and regions
 
 | Feed | What it follows |
 | --- | --- |
 | [world-headlines](https://feeds.daemonfill.dev/world-headlines.xml) | BBC, NPR and Al Jazeera headlines, merged |
 | [climate-news](https://feeds.daemonfill.dev/climate-news.xml) | Climate and energy stories |
+| [southeast-asia-news](https://feeds.daemonfill.dev/southeast-asia-news.xml) | Vietnam (VnExpress), the Philippines (Rappler), Singapore (CNA) and Indonesia (Antara) |
+| [middle-east-news](https://feeds.daemonfill.dev/middle-east-news.xml) | BBC Middle East and Middle East Eye |
+| [africa-news](https://feeds.daemonfill.dev/africa-news.xml) | BBC Africa and Africanews |
+| [latin-america-news](https://feeds.daemonfill.dev/latin-america-news.xml) | BBC Latin America and MercoPress |
+| [travel-advisories](https://feeds.daemonfill.dev/travel-advisories.xml) | New and updated travel warnings per country from the US State Department and the UK Foreign Office |
 
 ### Disasters and health
 
@@ -106,13 +125,19 @@ Each feed labels items by outlet; state media is marked as such.
 | [typhoons](https://feeds.daemonfill.dev/typhoons.xml) | Western Pacific and Indian Ocean typhoon warnings (Joint Typhoon Warning Center) |
 | [tsunami-alerts](https://feeds.daemonfill.dev/tsunami-alerts.xml) | Tsunami bulletins and warnings from the US Tsunami Warning Centers |
 | [volcanoes](https://feeds.daemonfill.dev/volcanoes.xml) | Weekly volcanic activity reports (Smithsonian Global Volcanism Program) |
+| [natural-events](https://feeds.daemonfill.dev/natural-events.xml) | Wildfires, severe storms, volcanoes, floods and icebergs happening now (NASA EONET) |
 | [disease-outbreaks](https://feeds.daemonfill.dev/disease-outbreaks.xml) | WHO Disease Outbreak News: Ebola, cholera, avian flu, mpox and more |
 | [food-drug-recalls](https://feeds.daemonfill.dev/food-drug-recalls.xml) | US food, drug and medical device recalls (FDA) |
+| [europe-health-threats](https://feeds.daemonfill.dev/europe-health-threats.xml) | Disease threats and outbreak assessments from the European CDC (ECDC) |
+| [fda-news](https://feeds.daemonfill.dev/fda-news.xml) | FDA press releases: approvals, safety warnings, enforcement |
 
-### Space
+### Science and space
 
 | Feed | What it follows |
 | --- | --- |
+| [science-news](https://feeds.daemonfill.dev/science-news.xml) | News from the journals Nature and Science |
+| [health-papers](https://feeds.daemonfill.dev/health-papers.xml) | New medical research preprints on medRxiv (not yet peer reviewed) |
+| [space-weather](https://feeds.daemonfill.dev/space-weather.xml) | Solar storms: geomagnetic storms, radiation storms and radio blackouts (NOAA SWPC) |
 | [space-launches](https://feeds.daemonfill.dev/space-launches.xml) | Rocket launches worldwide as soon as they are scheduled (Launch Library 2) |
 | [nasa-image](https://feeds.daemonfill.dev/nasa-image.xml) | NASA Image of the Day |
 
@@ -135,7 +160,7 @@ summaries come from the sources' own feeds.
 ## Make your own
 
 1. Fork this repository and delete the feeds you don't want.
-2. Add yours: `pip install unlimitedpipe`, then `unlimited new https://some-site.example`
+2. Add yours: install UnlimitedPipe, then `unlimited new https://some-site.example`
    writes a starting pipeline, or copy one from `feeds/`.
 3. Run `unlimited publish feeds/*.yml --force` to regenerate the workflow and index page.
 4. In your fork's Settings, enable Actions and set Pages to deploy from GitHub Actions.
@@ -154,11 +179,12 @@ search further back than the latest items: `unlimited search sanctions --since 2
 The whole catalog works without the internet too:
 
 ```bash
-pip install unlimitedpipe
-unlimited mirror ~/feeds                 # download it (run again to refresh)
-unlimited search flood --catalog ~/feeds
-unlimited serve ~/feeds --lan            # share the search page on your Wi-Fi
+unlimited mirror                          # download it (run again to refresh)
+unlimited search flood --catalog offline  # search the copy on purpose
+unlimited serve --lan                     # share the search page on your Wi-Fi
 ```
+
+`search` and `ask` switch to that copy by themselves when the internet is down.
 
 ## Health
 

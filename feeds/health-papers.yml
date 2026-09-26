@@ -1,0 +1,16 @@
+name: health-papers
+description: "New medical and health research preprints on medRxiv, across all fields (not yet peer reviewed)."
+sources:
+  - type: rss
+    url:
+      - "https://connect.medrxiv.org/medrxiv_xml.php?subject=all"
+operators:
+  - type: map
+    assign:
+      - 'title="Preprint: " + title'
+      - 'summary=replace(trim(summary), "^(Background|Objectives?|Introduction|Aims?|Purpose|Importance|Context|Rationale)(?=[A-Z])", "\\1: ")'   # medRxiv drops the break after the heading
+  - {type: dedupe, by: [link]}
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/health-papers.xml, title: "medRxiv: new health research", link: "https://www.medrxiv.org/"}
+  - {type: feed, path: ../public/health-papers.json, title: "medRxiv: new health research", link: "https://www.medrxiv.org/"}

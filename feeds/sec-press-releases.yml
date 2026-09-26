@@ -1,0 +1,14 @@
+name: sec-press-releases
+description: "Press releases from the US Securities and Exchange Commission: enforcement actions, new rules, charges and settlements."
+sources:
+  - type: rss
+    url:
+      - "https://www.sec.gov/news/pressreleases.rss"
+    user_agent: "UnlimitedPipe ${SEC_CONTACT}"   # the SEC asks automated readers for a contact email
+operators:
+  - {type: sort, by: [published_at], reverse: true}
+  - {type: dedupe, by: [link]}
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/sec-press-releases.xml, title: "SEC press releases", link: "https://www.sec.gov/newsroom/press-releases"}
+  - {type: feed, path: ../public/sec-press-releases.json, title: "SEC press releases", link: "https://www.sec.gov/newsroom/press-releases"}

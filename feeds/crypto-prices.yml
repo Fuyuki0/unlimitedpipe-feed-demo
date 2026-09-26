@@ -1,0 +1,21 @@
+name: crypto-prices
+description: "Prices of the largest cryptocurrencies (Bitcoin, Ethereum, XRP, BNB, Solana, Dogecoin, Tron, Cardano) twice a day, in US dollars, from DefiLlama's open price API. Data, not investment advice."
+sources:
+  - type: web
+    url: "https://coins.llama.fi/prices/current/coingecko:bitcoin,coingecko:ethereum,coingecko:ripple,coingecko:binancecoin,coingecko:solana,coingecko:dogecoin,coingecko:tron,coingecko:cardano?searchWidth=4h"
+    records: coins
+operators:
+  - type: map
+    assign:
+      - 'coin=replace(key, "^coingecko:", "")'
+      - 'name=replace(replace(replace(title(coin), "^Ripple$", "XRP"), "^Binancecoin$", "BNB"), "^Tron$", "TRON")'
+      - 'published_at=date(timestamp)'
+      - 'title=name + " (" + symbol + ") price: $" + commas(price, 2)'
+      - 'summary=name + " cost $" + commas(price, 4) + " at " + replace(published_at, "^(\\d{4}-\\d\\d-\\d\\d)T(\\d\\d:\\d\\d).*$", "\\1 \\2 UTC") + ", from DefiLlama. Data, not investment advice."'
+      - 'link="https://www.coingecko.com/en/coins/" + coin'
+      - 'period=symbol + " " + replace(replace(published_at, "^(\\d{4}-\\d\\d-\\d\\d)T(0\\d|1[01]).*$", "\\1 morning"), "^(\\d{4}-\\d\\d-\\d\\d)T\\d\\d:.*$", "\\1 evening")'
+  - {type: select, fields: [title, summary, link, published_at, period, symbol, price]}
+  - {type: diff, key: period, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/crypto-prices.xml, title: "Crypto prices, twice a day (DefiLlama)", link: "https://defillama.com/"}
+  - {type: feed, path: ../public/crypto-prices.json, title: "Crypto prices, twice a day (DefiLlama)", link: "https://defillama.com/"}

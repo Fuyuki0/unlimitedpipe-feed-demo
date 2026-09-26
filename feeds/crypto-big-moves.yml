@@ -1,0 +1,22 @@
+name: crypto-big-moves
+description: "Large cryptocurrencies (about 45 of the biggest, stablecoins left out) whose price moved 10% or more in 24 hours, once per coin per day, from DefiLlama. Data, not investment advice."
+sources:
+  - type: web
+    url: "https://coins.llama.fi/percentage/coingecko:bitcoin,coingecko:ethereum,coingecko:ripple,coingecko:binancecoin,coingecko:solana,coingecko:dogecoin,coingecko:tron,coingecko:cardano,coingecko:hyperliquid,coingecko:chainlink,coingecko:sui,coingecko:stellar,coingecko:bitcoin-cash,coingecko:avalanche-2,coingecko:hedera-hashgraph,coingecko:litecoin,coingecko:the-open-network,coingecko:shiba-inu,coingecko:polkadot,coingecko:monero,coingecko:uniswap,coingecko:pepe,coingecko:aave,coingecko:near,coingecko:aptos,coingecko:internet-computer,coingecko:ethereum-classic,coingecko:ondo-finance,coingecko:bittensor,coingecko:kaspa,coingecko:crypto-com-chain,coingecko:arbitrum,coingecko:render-token,coingecko:filecoin,coingecko:cosmos,coingecko:algorand,coingecko:vechain,coingecko:bonk,coingecko:worldcoin-wld,coingecko:injective-protocol,coingecko:optimism,coingecko:sei-network,coingecko:celestia,coingecko:fetch-ai,coingecko:ethena?period=24h"
+    records: coins
+operators:
+  - {type: filter, expr: 'abs(value) >= 10'}
+  - type: map
+    assign:
+      - 'coin=replace(key, "^coingecko:", "")'
+      - 'name=title(replace(replace(replace(replace(coin, "^ripple$", "XRP"), "^binancecoin$", "BNB"), "^crypto-com-chain$", "Cronos"), "-", " "))'
+      - 'moved=replace("" + round(value, 1), "^(?!-)", "+")'
+      - 'title=name + " " + moved + "% in 24 hours"'
+      - 'summary=name + " moved " + moved + "% in the 24 hours to " + replace(observed_at, "^(\\d{4}-\\d\\d-\\d\\d)T(\\d\\d:\\d\\d).*$", "\\1 \\2 UTC") + ", from DefiLlama prices. Data, not investment advice."'
+      - 'link="https://www.coingecko.com/en/coins/" + coin'
+      - 'day=coin + " " + replace(observed_at, "T.*$", "")'
+  - {type: select, fields: [title, summary, link, day, value]}
+  - {type: diff, key: day, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/crypto-big-moves.xml, title: "Crypto: 10%+ moves in 24 hours (DefiLlama)", link: "https://defillama.com/"}
+  - {type: feed, path: ../public/crypto-big-moves.json, title: "Crypto: 10%+ moves in 24 hours (DefiLlama)", link: "https://defillama.com/"}

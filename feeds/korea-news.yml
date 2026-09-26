@@ -1,0 +1,18 @@
+name: korea-news
+description: "South Korea news in English from Yonhap, the national news agency."
+sources:
+  - type: rss
+    url:
+      - https://en.yna.co.kr/RSS/news.xml
+operators:
+  - type: map
+    assign:
+      - 'outlet=replace(source_url, "^https?://(?:www\\d?\\.|en\\.|e\\.|feeds\\.)?([^/]+).*$", "\\1")'
+      - 'outlet=replace(outlet, "^yna\\.co\\.kr$", "Yonhap")'
+      - 'title=outlet + ": " + title'
+  - {type: dedupe, by: [link]}
+  - {type: sort, by: [published_at], reverse: true}
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/korea-news.xml, title: "Korea news (Yonhap)", max_items: 150}
+  - {type: feed, path: ../public/korea-news.json, title: "Korea news (Yonhap)", max_items: 150}

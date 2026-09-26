@@ -2,7 +2,8 @@
 
 Every feed here is one pipeline file in [`feeds/`](feeds). To add one:
 
-1. `pip install unlimitedpipe`, then find the best way to read the source:
+1. Install UnlimitedPipe (`curl -fsSL https://raw.githubusercontent.com/Fuyuki0/unlimitedpipe/main/install.sh | sh`),
+   then find the best way to read the source:
    `unlimited inspect https://example.gov/news` shows its feeds, JSON APIs, product data and
    what robots.txt allows.
 2. Copy a similar file from `feeds/` (an RSS merge, a JSON API, a GitHub releases list) or let

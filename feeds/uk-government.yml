@@ -1,0 +1,13 @@
+name: uk-government
+description: "UK government news and announcements from GOV.UK: policy, ministers, departments and public services."
+sources:
+  - type: rss
+    url:
+      - "https://www.gov.uk/search/news-and-communications.atom"
+operators:
+  - {type: sort, by: [published_at], reverse: true}
+  - {type: dedupe, by: [link]}
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/uk-government.xml, title: "UK government news (GOV.UK)", link: "https://www.gov.uk/search/news-and-communications"}
+  - {type: feed, path: ../public/uk-government.json, title: "UK government news (GOV.UK)", link: "https://www.gov.uk/search/news-and-communications"}

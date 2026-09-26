@@ -1,0 +1,13 @@
+name: us-justice
+description: "US Department of Justice press releases: indictments, convictions, sentences and settlements, from national cases to US attorneys' offices."
+sources:
+  - type: rss
+    url:
+      - "https://www.justice.gov/news/rss?type=press_release&m=1"
+operators:
+  - {type: sort, by: [published_at], reverse: true}
+  - {type: dedupe, by: [link]}
+  - {type: diff, only: [added], emit_initial: true}
+outputs:
+  - {type: feed, path: ../public/us-justice.xml, title: "US Justice Department press releases", link: "https://www.justice.gov/news"}
+  - {type: feed, path: ../public/us-justice.json, title: "US Justice Department press releases", link: "https://www.justice.gov/news"}
