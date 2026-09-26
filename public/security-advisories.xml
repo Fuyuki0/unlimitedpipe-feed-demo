@@ -1,10 +1,143 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
   <channel>
-    <title>Cybersecurity advisories (CISA)</title>
-    <link>https://www.cisa.gov/news-events/cybersecurity-advisories</link>
+    <title>Security advisories (CERT-EU, JPCERT/CC, Canada)</title>
+    <link>https://www.cyber.gc.ca/api/cccs/rss/v1/get?feed=alerts_advisories&amp;lang=en</link>
     <description>Events collected by UnlimitedPipe 0.3.2</description>
     <generator>UnlimitedPipe 0.3.2</generator>
-    <lastBuildDate>Sat, 26 Sep 2026 00:26:02 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 00:32:23 +0000</lastBuildDate>
+    <item>
+      <title>Canadian Centre for Cyber Security: AL26-023 - Vulnerability Impacting Microsoft SharePoint Server - CVE-2026-65660</title>
+      <link>https://cyber.gc.ca/en/alerts-advisories/al26-023-vulnerability-impacting-microsoft-sharepoint-server-cve-2026-65660</link>
+      <guid isPermaLink="false">e60a4a14b2c6512ad6a1</guid>
+      <pubDate>Thu, 24 Sep 2026 17:12:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Canadian Centre for Cyber Security: AL26-022 - Vulnerability impacting F5 BIG-IP Access Policy Manager (APM) – CVE-2026-94127</title>
+      <link>https://cyber.gc.ca/en/alerts-advisories/al26-022-vulnerability-impacting-f5-big-ip-access-policy-manager-apm-cve-2026-94127</link>
+      <guid isPermaLink="false">12d2e4c125cb9f6fad06</guid>
+      <pubDate>Tue, 22 Sep 2026 19:10:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>CERT-EU: 2026-013: Critical Vulnerability in F5 BIG-IP APM</title>
+      <link>https://cert.europa.eu/publications/security-advisories/2026-013/</link>
+      <guid isPermaLink="false">f79d09ff07f456301056</guid>
+      <pubDate>Tue, 22 Sep 2026 18:52:36 +0000</pubDate>
+      <description>On 22 September 2026, F5 published an advisory addressing a critical vulnerability affecting its BIG-IP APM product. The vendor confirmed active exploitation in the wild.
+CERT-EU recommends taking appropriate actions as soon as possible.</description>
+    </item>
+    <item>
+      <title>Canadian Centre for Cyber Security: AL26-021 - Vulnerabilities Impacting Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) - CVE-2026-20192, CVE-2026-76423 and CVE-2026-76460</title>
+      <link>https://cyber.gc.ca/en/alerts-advisories/al26-021-vulnerabilities-impacting-cisco-identity-services-engine-ise-cisco-ise-passive-identity-connector-ise-pic-cve-2026-20192-cve-2026-76423-cve-2026-76460</link>
+      <guid isPermaLink="false">6a61abb00f036b1727a2</guid>
+      <pubDate>Thu, 17 Sep 2026 17:32:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>CERT-EU: 2026-012: Critical Vulnerabilities in Check Point Products</title>
+      <link>https://cert.europa.eu/publications/security-advisories/2026-012/</link>
+      <guid isPermaLink="false">7c737c9f9fd0b83d12d2</guid>
+      <pubDate>Thu, 10 Sep 2026 10:20:06 +0000</pubDate>
+      <description>On 9 September 2026, Check Point released emergency security updates addressing two critical vulnerabilities affecting Check Point Security Gateway, Security Management Server, and Spark Firewall deployments configured to use Remote Access VPN or Site-to-Site VPN. Both vulnerabilities carry a CVSS score of 9.8 and could allow an unauthenticated, remote attacker to execute arbitrary code on affected appliances.
+CERT-EU strongly recommends applying the available hotfixes as soon as possible…</description>
+    </item>
+    <item>
+      <title>CERT-EU: 2026-011: Critical Vulnerabilities in SAP Kernel and NetWeaver Message Server</title>
+      <link>https://cert.europa.eu/publications/security-advisories/2026-011/</link>
+      <guid isPermaLink="false">a31e4f69bbe8e4fdbfac</guid>
+      <pubDate>Wed, 09 Sep 2026 15:07:59 +0000</pubDate>
+      <description>On 8 September 2026, as part of its September Security Patch Day, SAP released Security Notes addressing two critical vulnerabilities affecting a broad range of SAP products[3]. The most severe, CVE-2026-44756 (CVSS 10.0), is a memory corruption vulnerability in SAP Extended Passport (EPP) processing, nicknamed "OVERPASS" by the Onapsis Research Labs (ORL), which discovered and responsibly disclosed it[3]. The second, CVE-2026-58240 (CVSS 9.8), nicknamed "S4GET", is a missing authentication…</description>
+    </item>
+    <item>
+      <title>JPCERT/CC: Security Alert: Alert Regarding Vulnerabilities in Adobe Acrobat and Reader (APSB26-141)</title>
+      <link>https://www.jpcert.or.jp/english/at/2026/at260026.html</link>
+      <guid isPermaLink="false">91a460817e83ffdb04f2</guid>
+      <pubDate>Wed, 09 Sep 2026 02:36:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>JPCERT/CC: Security Alert: Microsoft Releases September 2026 Security Updates</title>
+      <link>https://www.jpcert.or.jp/english/at/2026/at260025.html</link>
+      <guid isPermaLink="false">892a93dafd57b83935e2</guid>
+      <pubDate>Wed, 09 Sep 2026 02:36:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CERT-EU: 2026-010: Critical Vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway</title>
+      <link>https://cert.europa.eu/publications/security-advisories/2026-010/</link>
+      <guid isPermaLink="false">3105f0d169181c3a722c</guid>
+      <pubDate>Wed, 19 Aug 2026 18:13:47 +0000</pubDate>
+      <description>On 19 August 2026, Citrix published a security advisory addressing multiple critical vulnerabilities in NetScaler ADC (formerly Citrix ADC) and NetScaler Gateway (formerly Citrix Gateway).
+CERT-EU recommends updating affected devices as soon as possible.</description>
+    </item>
+    <item>
+      <title>JPCERT/CC: Security Alert: Microsoft Releases August 2026 Security Updates</title>
+      <link>https://www.jpcert.or.jp/english/at/2026/at260022.html</link>
+      <guid isPermaLink="false">6d58aaebe4f1ffc3680e</guid>
+      <pubDate>Wed, 12 Aug 2026 02:27:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>JPCERT/CC: Security Alert: [Updated] Microsoft Releases July 2026 Security Updates</title>
+      <link>https://www.jpcert.or.jp/english/at/2026/at260020.html</link>
+      <guid isPermaLink="false">9be5ddfe65f6236d239b</guid>
+      <pubDate>Fri, 31 Jul 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CERT-EU: 2026-009: Critical Vulnerabilities in Microsoft SharePoint</title>
+      <link>https://cert.europa.eu/publications/security-advisories/2026-009/</link>
+      <guid isPermaLink="false">78d1e7dd64341d0bedfd</guid>
+      <pubDate>Thu, 23 Jul 2026 09:13:03 +0000</pubDate>
+      <description>[UPDATED] On 14 July 2026, Microsoft released security updates addressing critical remote code execution (RCE) vulnerabilities in Microsoft SharePoint Server. On 20 July 2026, WatchTowr identified a proof-of-concept exploit code and subsequently observed active exploitation of CVE-2026-50522, a vulnerability part of an ongoing series of actively exploited flaws affecting on-premise SharePoint Server instances, including CVE-2026-32201, CVE-2026-45659, CVE-2026-56164, and CVE-2026-58644.
+CERT-EU…</description>
+    </item>
+    <item>
+      <title>CERT-EU: 2026-008: Critical vulnerabilities in Ivanti Sentry</title>
+      <link>https://cert.europa.eu/publications/security-advisories/2026-008/</link>
+      <guid isPermaLink="false">f9fa6dce0d7dcd9d57f1</guid>
+      <pubDate>Wed, 10 Jun 2026 13:55:39 +0000</pubDate>
+      <description>On 9 June 2026, Ivanti released a security advisory addressing two critical vulnerabilities in their Sentry products[1]. An attacker could exploit those flaws to achieve unauthenticated remote code execution on the vulnerable device.</description>
+    </item>
+    <item>
+      <title>CERT-EU: 2026-007: Critical Vulnerability in Windows Netlogon</title>
+      <link>https://cert.europa.eu/publications/security-advisories/2026-007/</link>
+      <guid isPermaLink="false">10ce124e4cce947511c4</guid>
+      <pubDate>Wed, 10 Jun 2026 08:47:08 +0000</pubDate>
+      <description>On 12 May 2026, Microsoft published a security advisory addressing a critical vulnerability affecting Windows Server when acting as a domain controller. This vulnerability allows an unauthenticated attacker to execute arbitrary code over a network.
+According to The Centre for Cybersecurity Belgium (CCB), this vulnerability is currently exploited by threat actors. It is strongly recommended updating affected Windows servers as soon as possible.</description>
+    </item>
+    <item>
+      <title>JPCERT/CC: Security Alert: Alert Regarding Vulnerabilities in Adobe Acrobat and Reader (APSB26-63)</title>
+      <link>https://www.jpcert.or.jp/english/at/2026/at260018.html</link>
+      <guid isPermaLink="false">08a9012b0c3f9141d3f0</guid>
+      <pubDate>Wed, 10 Jun 2026 04:50:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>JPCERT/CC: Security Alert: Microsoft Releases June 2026 Security Updates</title>
+      <link>https://www.jpcert.or.jp/english/at/2026/at260017.html</link>
+      <guid isPermaLink="false">5bde38552448dd16c460</guid>
+      <pubDate>Wed, 10 Jun 2026 04:50:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CERT-EU: 2026-006: Critical Vulnerability in PAN-OS</title>
+      <link>https://cert.europa.eu/publications/security-advisories/2026-006/</link>
+      <guid isPermaLink="false">fa5cd23220b22371fee5</guid>
+      <pubDate>Wed, 06 May 2026 10:44:32 +0000</pubDate>
+      <description>On 6 May 2026, Palo Alto published a security advisory addressing a critical vulnerability affecting PAN-OS. This vulnerability allows an unauthenticated attacker to execute arbitrary code with root privileges.
+Palo Alto observed limited exploitation of this vulnerability. It is strongly recommended updating affected appliances as soon as patches will be available, and to apply workarounds and mitigation in the meantime.</description>
+    </item>
+    <item>
+      <title>CERT-EU: 2026-005: High Vulnerability in the Linux Kernel ("Copy Fail")</title>
+      <link>https://cert.europa.eu/publications/security-advisories/2026-005/</link>
+      <guid isPermaLink="false">2c02bc7e8db52e13d822</guid>
+      <pubDate>Thu, 30 Apr 2026 11:25:30 +0000</pubDate>
+      <description>On 29 April 2026, a high local privilege escalation vulnerability in the Linux kernel, tracked as CVE-2026-31431 and named "Copy Fail", was publicly disclosed.
+The vulnerability affects every mainstream Linux distributions shipping a kernel built since 2017. A public proof-of-concept exploit has been released.
+As of the date of this advisory, no distribution has shipped a fixed kernel package. The mainline fix was committed on 1 April 2026, but vendor updates are still pending across all major…</description>
+    </item>
+    <item>
+      <title>CERT-EU: 2026-004: Critical Vulnerability in SharePoint Exploited</title>
+      <link>https://cert.europa.eu/publications/security-advisories/2026-004/</link>
+      <guid isPermaLink="false">82438f724f75a0365bb4</guid>
+      <pubDate>Wed, 25 Mar 2026 08:51:39 +0000</pubDate>
+      <description>On 17 March 2026, Microsoft updated one of its January 2026 security advisories related to a remote code execution vulnerability in Microsoft SharePoint. Specifically, Microsoft raised the CVSS score and changed the FAQ section to indicate that the vulnerability could be exploited by an unauthenticated attacker. This vulnerability was added in the CISA's Known Exploited Vulnerabilities (KEV) catalogue on 18 March 2026.
+Additionally, three further RCE flaws affecting Microsoft SharePoint were…</description>
+    </item>
   </channel>
 </rss>

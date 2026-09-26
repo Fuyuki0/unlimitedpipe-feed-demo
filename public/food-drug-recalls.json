@@ -9,6 +9,70 @@
   },
   "items": [
     {
+      "id": "bf75fa1992b4ce796a11",
+      "title": "G. L. Mezzetta Inc. Announces Recall of Mezzetta Brand Golden Greek Peperoncini (Medium Heat) Due to Presence of Pest Contaminant in the Jar",
+      "content_text": "For generations, families have trusted Mezzetta products on their tables. We take that trust seriously, which is why we want to share what we know about a voluntary recall involving a specific lot of Mezzetta Greek Peppers and the actions we are taking.",
+      "date_published": "2026-09-23T22:17:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "bf75fa1992b4ce796a11",
+          "source": "rss",
+          "type": "change",
+          "key": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/g-l-mezzetta-inc-announces-recall-mezzetta-brand-golden-greek-peperoncini-medium-heat-due-presence",
+          "source_url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/recalls/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:30:16Z",
+          "data": {
+            "change": "added",
+            "label": "G. L. Mezzetta Inc. Announces Recall of Mezzetta Brand Golden Greek Peperoncini (Medium Heat) Due to Presence of Pest Contaminant in the Jar",
+            "item_type": "entry",
+            "summary": "added: G. L. Mezzetta Inc. Announces Recall of Mezzetta Brand Golden Greek Peperoncini (Medium Heat) Due to Presence of Pest Contaminant in the Jar",
+            "after": {
+              "title": "G. L. Mezzetta Inc. Announces Recall of Mezzetta Brand Golden Greek Peperoncini (Medium Heat) Due to Presence of Pest Contaminant in the Jar",
+              "link": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/g-l-mezzetta-inc-announces-recall-mezzetta-brand-golden-greek-peperoncini-medium-heat-due-presence",
+              "id": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/g-l-mezzetta-inc-announces-recall-mezzetta-brand-golden-greek-peperoncini-medium-heat-due-presence",
+              "author": "FDA",
+              "published_at": "2026-09-23T22:17:00Z",
+              "updated_at": "2026-09-23T22:17:00Z",
+              "summary": "For generations, families have trusted Mezzetta products on their tables. We take that trust seriously, which is why we want to share what we know about a voluntary recall involving a specific lot of Mezzetta Greek Peppers and the actions we are taking.",
+              "categories": [],
+              "feed": {
+                "title": "Food and Drugs Administration--Recalls/Safety Alerts",
+                "url": "http://www.fda.gov/",
+                "feed_url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/recalls/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/recalls/rss.xml",
+            "elapsed_ms": 146,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "food-drug-recalls",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/g-l-mezzetta-inc-announces-recall-mezzetta-brand-golden-greek-peperoncini-medium-heat-due-presence"
+    },
+    {
       "id": "7cd0cff4bf28d65ea726",
       "title": "Deano’s Pasta Issue Allergy Alert on Undeclared Lobster in Pear and Pecorino Triangoli Ravioli",
       "content_text": "Deano’s Pasta of Somerville, MA is recalling approximately 20 lbs. of Pear and Pecorino Triangoli Ravioli, because it may contain undeclared Lobster. People who have an allergy or severe sensitivity to Crustacean Shellfish (Lobster) run the risk of serious or life-threatening allergic reaction if th",

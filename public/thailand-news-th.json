@@ -9,6 +9,109 @@
   },
   "items": [
     {
+      "id": "d78de80432a041a2bccc",
+      "title": "มติชน: เตือน7ถนนกรุงท่วมหนัก รถเล็กห้ามผ่าน แจ้งวัฒนะ-ราม-ลาดกระบัง",
+      "content_text": "เตือน7ถนนกรุงท่วมหนัก รถเล็กห้ามผ่าน แจ้งวัฒนะ-ราม-ลาดก […]",
+      "date_published": "2026-09-26T00:28:23Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d78de80432a041a2bccc",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.matichon.co.th/?p=5905735",
+          "source_url": "https://www.matichon.co.th/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:32:32Z",
+          "data": {
+            "change": "added",
+            "label": "มติชน: เตือน7ถนนกรุงท่วมหนัก รถเล็กห้ามผ่าน แจ้งวัฒนะ-ราม-ลาดกระบัง",
+            "item_type": "entry",
+            "summary": "added: มติชน: เตือน7ถนนกรุงท่วมหนัก รถเล็กห้ามผ่าน แจ้งวัฒนะ-ราม-ลาดกระบัง",
+            "after": {
+              "title": "มติชน: เตือน7ถนนกรุงท่วมหนัก รถเล็กห้ามผ่าน แจ้งวัฒนะ-ราม-ลาดกระบัง",
+              "link": "https://www.matichon.co.th/local/news_5905735",
+              "id": "https://www.matichon.co.th/?p=5905735",
+              "author": "Admin 01",
+              "published_at": "2026-09-26T00:28:23Z",
+              "updated_at": "2026-09-26T00:28:23Z",
+              "summary": "เตือน7ถนนกรุงท่วมหนัก รถเล็กห้ามผ่าน แจ้งวัฒนะ-ราม-ลาดก […]",
+              "categories": [
+                "ในประเทศ",
+                "น้ำท่วม"
+              ],
+              "feed": {
+                "title": "มติชนออนไลน์",
+                "url": "https://www.matichon.co.th",
+                "feed_url": "https://www.matichon.co.th/feed"
+              },
+              "outlet": "มติชน"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.matichon.co.th/feed",
+            "elapsed_ms": 692,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^matichon\\\\.co\\\\.th$\", \"มติชน\")",
+                  "outlet=replace(outlet, \"^prachachat\\\\.net$\", \"ประชาชาติธุรกิจ\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "thailand-news-th",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.matichon.co.th/local/news_5905735",
+      "tags": [
+        "ในประเทศ",
+        "น้ำท่วม"
+      ]
+    },
+    {
       "id": "f9764446c6dd82fc2770",
       "title": "มติชน: อุตุฯ เตือน กรุงเทพฯ มีฝนตกหนักมากหลายพื้นที่ ลมแปรปรวน ความเร็ว 10-25 กม./ชม.",
       "content_text": "อุตุฯ เตือน กรุงเทพฯ มีฝนตกหนักมากหลายพื้นที่ ลมแปรปรวน […]",
