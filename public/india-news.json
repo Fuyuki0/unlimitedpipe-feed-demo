@@ -9,6 +9,713 @@
   },
   "items": [
     {
+      "id": "459c8344297cf6fb5294",
+      "title": "The Hindu: 2020 Delhi riots case: Supreme Court relaxes specific bail condition for about-to-be-married accused",
+      "content_text": "Bench reduces Meeran Haider’s mandatory police station appearances from twice a week to once weekly",
+      "date_published": "2026-09-26T00:08:01Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "459c8344297cf6fb5294",
+          "source": "rss",
+          "type": "change",
+          "key": "article-71509648",
+          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:46Z",
+          "data": {
+            "change": "added",
+            "label": "The Hindu: 2020 Delhi riots case: Supreme Court relaxes specific bail condition for about-to-be-married accused",
+            "item_type": "entry",
+            "summary": "added: The Hindu: 2020 Delhi riots case: Supreme Court relaxes specific bail condition for about-to-be-married accused",
+            "after": {
+              "title": "The Hindu: 2020 Delhi riots case: Supreme Court relaxes specific bail condition for about-to-be-married accused",
+              "link": "https://www.thehindu.com/news/cities/Delhi/2020-delhi-riots-case-supreme-court-relaxes-specific-bail-condition-for-about-to-be-married-accused/article71509648.ece",
+              "id": "article-71509648",
+              "author": null,
+              "published_at": "2026-09-26T00:08:01Z",
+              "updated_at": "2026-09-26T00:08:01Z",
+              "summary": "Bench reduces Meeran Haider’s mandatory police station appearances from twice a week to once weekly",
+              "categories": [
+                "Delhi"
+              ],
+              "feed": {
+                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+                "url": "https://www.thehindu.com/news/national/",
+                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+              },
+              "outlet": "The Hindu"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+            "elapsed_ms": 96,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.thehindu.com/news/cities/Delhi/2020-delhi-riots-case-supreme-court-relaxes-specific-bail-condition-for-about-to-be-married-accused/article71509648.ece",
+      "tags": [
+        "Delhi"
+      ]
+    },
+    {
+      "id": "f4bb09d9600c3a0aa61e",
+      "title": "The Hindu: Odisha Pedestrian Safety Rules, 2026 proposes pedestrian path mandatory",
+      "content_text": "The rules prescribe action against road owning agency, contractor or consultant if a faulty design leads to death or disability or grievous injury of a pedestrians",
+      "date_published": "2026-09-25T23:47:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "f4bb09d9600c3a0aa61e",
+          "source": "rss",
+          "type": "change",
+          "key": "article-71509089",
+          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:46Z",
+          "data": {
+            "change": "added",
+            "label": "The Hindu: Odisha Pedestrian Safety Rules, 2026 proposes pedestrian path mandatory",
+            "item_type": "entry",
+            "summary": "added: The Hindu: Odisha Pedestrian Safety Rules, 2026 proposes pedestrian path mandatory",
+            "after": {
+              "title": "The Hindu: Odisha Pedestrian Safety Rules, 2026 proposes pedestrian path mandatory",
+              "link": "https://www.thehindu.com/news/national/odisha/odisha-pedestrian-safety-rules-2026-proposes-pedestrian-path-mandatory/article71509089.ece",
+              "id": "article-71509089",
+              "author": null,
+              "published_at": "2026-09-25T23:47:00Z",
+              "updated_at": "2026-09-25T23:47:00Z",
+              "summary": "The rules prescribe action against road owning agency, contractor or consultant if a faulty design leads to death or disability or grievous injury of a pedestrians",
+              "categories": [
+                "Odisha"
+              ],
+              "feed": {
+                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+                "url": "https://www.thehindu.com/news/national/",
+                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+              },
+              "outlet": "The Hindu"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+            "elapsed_ms": 96,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.thehindu.com/news/national/odisha/odisha-pedestrian-safety-rules-2026-proposes-pedestrian-path-mandatory/article71509089.ece",
+      "tags": [
+        "Odisha"
+      ]
+    },
+    {
+      "id": "79d368c96fa18ede665c",
+      "title": "The Hindu: Aaditya Thackeray seeks postponement of MPSC State Service Mains pending reform panel report",
+      "content_text": "In his September 25 letter, Mr. Thackeray said the examination should be deferred if the report of the State-appointed committee headed by Additional Chief Secretary V. Radha remains pending and held only after its recommendations are appropriately implemented",
+      "date_published": "2026-09-25T22:36:50Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "79d368c96fa18ede665c",
+          "source": "rss",
+          "type": "change",
+          "key": "article-71509822",
+          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:46Z",
+          "data": {
+            "change": "added",
+            "label": "The Hindu: Aaditya Thackeray seeks postponement of MPSC State Service Mains pending reform panel report",
+            "item_type": "entry",
+            "summary": "added: The Hindu: Aaditya Thackeray seeks postponement of MPSC State Service Mains pending reform panel report",
+            "after": {
+              "title": "The Hindu: Aaditya Thackeray seeks postponement of MPSC State Service Mains pending reform panel report",
+              "link": "https://www.thehindu.com/news/national/maharashtra/aaditya-thackeray-seeks-postponement-of-mpsc-state-service-mains-pending-reform-panel-report/article71509822.ece",
+              "id": "article-71509822",
+              "author": null,
+              "published_at": "2026-09-25T22:36:50Z",
+              "updated_at": "2026-09-25T22:36:50Z",
+              "summary": "In his September 25 letter, Mr. Thackeray said the examination should be deferred if the report of the State-appointed committee headed by Additional Chief Secretary V. Radha remains pending and held only after its recommendations are appropriately implemented",
+              "categories": [
+                "Maharashtra"
+              ],
+              "feed": {
+                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+                "url": "https://www.thehindu.com/news/national/",
+                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+              },
+              "outlet": "The Hindu"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+            "elapsed_ms": 96,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.thehindu.com/news/national/maharashtra/aaditya-thackeray-seeks-postponement-of-mpsc-state-service-mains-pending-reform-panel-report/article71509822.ece",
+      "tags": [
+        "Maharashtra"
+      ]
+    },
+    {
+      "id": "fa8f485817e004d1d51b",
+      "title": "The Hindu: U.P. focuses on high-yielding disease-resistant sugarcane varieties, scientific sugarcane cultivation practices and mechanization",
+      "content_text": "As land availability becomes increasingly constrained, the future of sugarcane growth depends less on expansion of area and more on gains in productivity, said",
+      "date_published": "2026-09-25T22:29:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "fa8f485817e004d1d51b",
+          "source": "rss",
+          "type": "change",
+          "key": "article-71509757",
+          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:46Z",
+          "data": {
+            "change": "added",
+            "label": "The Hindu: U.P. focuses on high-yielding disease-resistant sugarcane varieties, scientific sugarcane cultivation practices and mechanization",
+            "item_type": "entry",
+            "summary": "added: The Hindu: U.P. focuses on high-yielding disease-resistant sugarcane varieties, scientific sugarcane cultivation practices and mechanization",
+            "after": {
+              "title": "The Hindu: U.P. focuses on high-yielding disease-resistant sugarcane varieties, scientific sugarcane cultivation practices and mechanization",
+              "link": "https://www.thehindu.com/news/national/uttar-pradesh/up-focuses-on-high-yielding-disease-resistant-sugarcane-varieties-scientific-sugarcane-cultivation-practices-and-mechanization/article71509757.ece",
+              "id": "article-71509757",
+              "author": null,
+              "published_at": "2026-09-25T22:29:00Z",
+              "updated_at": "2026-09-25T22:29:00Z",
+              "summary": "As land availability becomes increasingly constrained, the future of sugarcane growth depends less on expansion of area and more on gains in productivity, said",
+              "categories": [
+                "Uttar Pradesh"
+              ],
+              "feed": {
+                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+                "url": "https://www.thehindu.com/news/national/",
+                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+              },
+              "outlet": "The Hindu"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+            "elapsed_ms": 96,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.thehindu.com/news/national/uttar-pradesh/up-focuses-on-high-yielding-disease-resistant-sugarcane-varieties-scientific-sugarcane-cultivation-practices-and-mechanization/article71509757.ece",
+      "tags": [
+        "Uttar Pradesh"
+      ]
+    },
+    {
+      "id": "84c19da7c5b17abcc9a5",
+      "title": "The Hindu: Trust earned through serving people is BJP’s strength: Nitin Nabin",
+      "content_text": "‘The Leader of Opposition has asked why the BJP governments keep returning to power; we are asked how we can make the claim of serving the people for the next 25 years with such confidence,’ said Nitin Nabin",
+      "date_published": "2026-09-25T22:21:05Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "84c19da7c5b17abcc9a5",
+          "source": "rss",
+          "type": "change",
+          "key": "article-71509585",
+          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:46Z",
+          "data": {
+            "change": "added",
+            "label": "The Hindu: Trust earned through serving people is BJP’s strength: Nitin Nabin",
+            "item_type": "entry",
+            "summary": "added: The Hindu: Trust earned through serving people is BJP’s strength: Nitin Nabin",
+            "after": {
+              "title": "The Hindu: Trust earned through serving people is BJP’s strength: Nitin Nabin",
+              "link": "https://www.thehindu.com/news/national/rajasthan/trust-earned-through-serving-people-is-bjps-strength-nitin-nabin/article71509585.ece",
+              "id": "article-71509585",
+              "author": null,
+              "published_at": "2026-09-25T22:21:05Z",
+              "updated_at": "2026-09-25T22:21:05Z",
+              "summary": "‘The Leader of Opposition has asked why the BJP governments keep returning to power; we are asked how we can make the claim of serving the people for the next 25 years with such confidence,’ said Nitin Nabin",
+              "categories": [
+                "Rajasthan"
+              ],
+              "feed": {
+                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+                "url": "https://www.thehindu.com/news/national/",
+                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+              },
+              "outlet": "The Hindu"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+            "elapsed_ms": 96,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.thehindu.com/news/national/rajasthan/trust-earned-through-serving-people-is-bjps-strength-nitin-nabin/article71509585.ece",
+      "tags": [
+        "Rajasthan"
+      ]
+    },
+    {
+      "id": "e5ea5ca45461a6b29856",
+      "title": "The Hindu: Philanthropist receives Sankara Ratna Award for contribution to eye care",
+      "content_text": "The award was presented in recognition of his contribution to expanding access to eye-care and surgical services",
+      "date_published": "2026-09-25T19:18:35Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "e5ea5ca45461a6b29856",
+          "source": "rss",
+          "type": "change",
+          "key": "article-71509335",
+          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:46Z",
+          "data": {
+            "change": "added",
+            "label": "The Hindu: Philanthropist receives Sankara Ratna Award for contribution to eye care",
+            "item_type": "entry",
+            "summary": "added: The Hindu: Philanthropist receives Sankara Ratna Award for contribution to eye care",
+            "after": {
+              "title": "The Hindu: Philanthropist receives Sankara Ratna Award for contribution to eye care",
+              "link": "https://www.thehindu.com/news/cities/chennai/philanthropist-receives-sankara-ratna-award-for-contribution-to-eye-care/article71509335.ece",
+              "id": "article-71509335",
+              "author": null,
+              "published_at": "2026-09-25T19:18:35Z",
+              "updated_at": "2026-09-25T19:18:35Z",
+              "summary": "The award was presented in recognition of his contribution to expanding access to eye-care and surgical services",
+              "categories": [
+                "Chennai"
+              ],
+              "feed": {
+                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+                "url": "https://www.thehindu.com/news/national/",
+                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+              },
+              "outlet": "The Hindu"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+            "elapsed_ms": 96,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.thehindu.com/news/cities/chennai/philanthropist-receives-sankara-ratna-award-for-contribution-to-eye-care/article71509335.ece",
+      "tags": [
+        "Chennai"
+      ]
+    },
+    {
+      "id": "91c2a3cb3cfdfde30183",
+      "title": "The Hindu: Minister assures support to transpersons at transpreneur summit in Madurai",
+      "content_text": "The Hindu: Minister assures support to transpersons at transpreneur summit in Madurai",
+      "date_published": "2026-09-25T18:53:46Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "91c2a3cb3cfdfde30183",
+          "source": "rss",
+          "type": "change",
+          "key": "article-71509554",
+          "source_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:46Z",
+          "data": {
+            "change": "added",
+            "label": "The Hindu: Minister assures support to transpersons at transpreneur summit in Madurai",
+            "item_type": "entry",
+            "summary": "added: The Hindu: Minister assures support to transpersons at transpreneur summit in Madurai",
+            "after": {
+              "title": "The Hindu: Minister assures support to transpersons at transpreneur summit in Madurai",
+              "link": "https://www.thehindu.com/news/cities/Madurai/minister-assures-support-to-transpersons-at-transpreneur-summit-in-madurai/article71509554.ece",
+              "id": "article-71509554",
+              "author": null,
+              "published_at": "2026-09-25T18:53:46Z",
+              "updated_at": "2026-09-25T18:53:46Z",
+              "summary": null,
+              "categories": [
+                "Madurai"
+              ],
+              "feed": {
+                "title": "India Latest News: Top National Headlines Today & Breaking News | The Hindu",
+                "url": "https://www.thehindu.com/news/national/",
+                "feed_url": "https://www.thehindu.com/news/national/feeder/default.rss"
+              },
+              "outlet": "The Hindu"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.thehindu.com/news/national/feeder/default.rss",
+            "elapsed_ms": 96,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^thehindu\\\\.com$\", \"The Hindu\")",
+                  "outlet=replace(outlet, \"^feeds\\\\.feedburner\\\\.com$\", \"NDTV\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "india-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.thehindu.com/news/cities/Madurai/minister-assures-support-to-transpersons-at-transpreneur-summit-in-madurai/article71509554.ece",
+      "tags": [
+        "Madurai"
+      ]
+    },
+    {
       "id": "9c0c71261c2423632aec",
       "title": "The Hindu: Asian Games 2026 LIVE | Men's Marathon final: Sawan Barwal and Kartik Karkera",
       "content_text": "India won the semi-final match 48-24 and will face Iran or Chinese Taipei in Saturday’s final",

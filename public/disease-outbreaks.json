@@ -1,0 +1,2262 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Disease outbreak news (WHO)",
+  "home_page_url": "https://www.who.int/emergencies/disease-outbreak-news",
+  "description": "Events collected by UnlimitedPipe 0.3.2",
+  "_unlimitedpipe": {
+    "schema": "unlimitedpipe.event/1",
+    "generator": "UnlimitedPipe 0.3.2"
+  },
+  "items": [
+    {
+      "id": "8d78f3a5fb9a71296244",
+      "title": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo",
+      "content_text": "Since the last Disease Outbreak News was published on 11 September 2026, the Bundibugyo virus outbreak in the Democratic Republic of the Congo has expanded further, with two additional health zones affected. These include Bulu health zone in a new province, Sud Ubangi, located on the north-west part of the country and Dungu health zone in Haut-Uélé province, bordering South Sudan. This brings the total number of affected health zones to 63 across seven provinces out of 26 provinces of the…",
+      "date_published": "2026-09-25T15:30:18Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "8d78f3a5fb9a71296244",
+          "source": "web",
+          "type": "change",
+          "key": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary#2026-DON618",
+          "source_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:36Z",
+          "data": {
+            "change": "added",
+            "label": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo",
+            "item_type": "record",
+            "summary": "added: Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo",
+            "after": {
+              "PublicationDate": "2026-09-25T15:30:18Z",
+              "UrlName": "2026-DON618",
+              "title": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo",
+              "summary": "Since the last Disease Outbreak News was published on 11 September 2026, the Bundibugyo virus outbreak in the Democratic Republic of the Congo has expanded further, with two additional health zones affected. These include Bulu health zone in a new province, Sud Ubangi, located on the north-west part of the country and Dungu health zone in Haut-Uélé province, bordering South Sudan. This brings the total number of affected health zones to 63 across seven provinces out of 26 provinces of the country: Bas-Uélé, Haut-Uélé, Ituri, North Kivu, South Kivu, Sud Ubangi and Tshopo. This latest geographic expansion increases the risk of cross-border transmission. \r\n\r\nAs of 23 September 2026, the Democratic Republic of the Congo has reported 7890 confirmed cases, including 3799 deaths, resulting in a crude case fatality ratio (CFR) of 48.1%.  \r\n\r\nAt the national level, the number of new cases reported each day remains high. However, the situation varies across the country, with some provinces and health zones experiencing much higher levels of transmission than others.  \r\n\r\nThe continuously high CFR, and especially the continuous high rate of deaths occurring in communities, highlights the seriousness of the disease and the persistent challenges in timely case detection and access to early and adequate patient care. These delays can contribute to preventable illness and deaths among people in affected and newly affected areas, while also allowing transmission to continue within households, communities, and healthcare settings. ",
+              "published_at": "2026-09-25T15:30:18Z",
+              "link": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON618"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+            "content_type": "application/json",
+            "elapsed_ms": 153,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "title=Title",
+                  "summary=replace(Summary, \"<[^>]+>\", \"\")",
+                  "published_at=PublicationDate",
+                  "link=\"https://www.who.int/emergencies/disease-outbreak-news/item/\" + UrlName"
+                ],
+                "drop": [
+                  "Title",
+                  "Summary"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "UrlName",
+                "namespace": "disease-outbreaks",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON618"
+    },
+    {
+      "id": "c4902e3bee9413ec02f2",
+      "title": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo",
+      "content_text": "Since the last Disease Outbreak News was published on 28 August 2026, the Bundibugyo virus outbreak in the Democratic Republic of the Congo has expanded to one additional health zone, Kayna, in North Kivu. This increase brings the total number of affected health zones to 61 across six out of 26 provinces of the country: Bas-Uélé, Haut-Uélé, Ituri, North Kivu, South Kivu, and Tshopo.\r\nAs of 7 September 2026, the Democratic Republic of the Congo has reported 6757 confirmed cases, including 3267…",
+      "date_published": "2026-09-10T08:52:02Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c4902e3bee9413ec02f2",
+          "source": "web",
+          "type": "change",
+          "key": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary#2026-DON617",
+          "source_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:36Z",
+          "data": {
+            "change": "added",
+            "label": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo",
+            "item_type": "record",
+            "summary": "added: Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo",
+            "after": {
+              "PublicationDate": "2026-09-10T08:52:02Z",
+              "UrlName": "2026-DON617",
+              "title": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo",
+              "summary": "Since the last Disease Outbreak News was published on 28 August 2026, the Bundibugyo virus outbreak in the Democratic Republic of the Congo has expanded to one additional health zone, Kayna, in North Kivu. This increase brings the total number of affected health zones to 61 across six out of 26 provinces of the country: Bas-Uélé, Haut-Uélé, Ituri, North Kivu, South Kivu, and Tshopo.\r\nAs of 7 September 2026, the Democratic Republic of the Congo has reported 6757 confirmed cases, including 3267 deaths, resulting in a crude case fatality ratio (CFR) of 48.3%. The transmission dynamics remain variable across affected locations, with evidence of ongoing geographical expansion and sustained increase in cases in some health zones. The continuously high CFR highlights the seriousness of the disease and persistent challenges in timely case detection, access to early and adequate patient care, and effective interruption of transmission. Delayed detection of cases continues to increase the risk of further spread within households, communities, and healthcare settings.",
+              "published_at": "2026-09-10T08:52:02Z",
+              "link": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON617"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+            "content_type": "application/json",
+            "elapsed_ms": 153,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "title=Title",
+                  "summary=replace(Summary, \"<[^>]+>\", \"\")",
+                  "published_at=PublicationDate",
+                  "link=\"https://www.who.int/emergencies/disease-outbreak-news/item/\" + UrlName"
+                ],
+                "drop": [
+                  "Title",
+                  "Summary"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "UrlName",
+                "namespace": "disease-outbreaks",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON617"
+    },
+    {
+      "id": "0f3fa35229a4bde73132",
+      "title": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo",
+      "content_text": "Since the last Disease Outbreak News was published on 14 August 2026, the outbreak has spread from 54 to 60 health zones. The number of affected provinces stands at six out of 26 provinces of the country: Bas-Uélé, Haut-Uélé, Ituri, North Kivu, South Kivu, and Tshopo. Six additional health zones reported cases since the last update - Ganga and Viadana health zones in Bas-Uélé province, Biena, Manguredjipa, and Mutwanga in North Kivu, and Tshopo health zone in Tshopo province.  \r\n\r\nAs of 26…",
+      "date_published": "2026-08-28T15:31:07Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "0f3fa35229a4bde73132",
+          "source": "web",
+          "type": "change",
+          "key": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary#2026-DON616",
+          "source_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:36Z",
+          "data": {
+            "change": "added",
+            "label": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo",
+            "item_type": "record",
+            "summary": "added: Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo",
+            "after": {
+              "PublicationDate": "2026-08-28T15:31:07Z",
+              "UrlName": "2026-DON616",
+              "title": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo",
+              "summary": "Since the last Disease Outbreak News was published on 14 August 2026, the outbreak has spread from 54 to 60 health zones. The number of affected provinces stands at six out of 26 provinces of the country: Bas-Uélé, Haut-Uélé, Ituri, North Kivu, South Kivu, and Tshopo. Six additional health zones reported cases since the last update - Ganga and Viadana health zones in Bas-Uélé province, Biena, Manguredjipa, and Mutwanga in North Kivu, and Tshopo health zone in Tshopo province.  \r\n\r\nAs of 26 August 2026, a total of 5794 confirmed cases, including 2786 deaths, have been reported, corresponding to a crude case fatality ratio (CFR) of 48.1%. These figures demonstrate a substantial increase in the scale and geographic extent of the outbreak over the past three months. The crude case fatality ratio of 48% underscores the severity of the disease and ongoing challenges related to timely case detection, access to and quality of clinical care, and effective interruption of viral transmission. Delays in recognizing cases increase the likelihood of onward transmission within households, communities and healthcare facilities.   \r\n\r\nThe outbreak remains a public health emergency of international concern, following the advice of Emergency Committee meeting convened on 18 August. ",
+              "published_at": "2026-08-28T15:31:07Z",
+              "link": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON616"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+            "content_type": "application/json",
+            "elapsed_ms": 153,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "title=Title",
+                  "summary=replace(Summary, \"<[^>]+>\", \"\")",
+                  "published_at=PublicationDate",
+                  "link=\"https://www.who.int/emergencies/disease-outbreak-news/item/\" + UrlName"
+                ],
+                "drop": [
+                  "Title",
+                  "Summary"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "UrlName",
+                "namespace": "disease-outbreaks",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON616"
+    },
+    {
+      "id": "703ea9c85e51a76ba40b",
+      "title": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo",
+      "content_text": "The Bundibugyo virus disease (BVD) outbreak in the Democratic Republic of the Congo is in a phase of intense transmission. It is the largest Ebola outbreak ever reported in the country and expanding faster than any previous Ebola outbreak. The epidemic is increasingly characterized by sustained transmission within interconnected geographic clusters. Initially confined to the Mongbwalu health zone in Ituri Province, the outbreak has now expanded to 54 health zones across six provinces (Ituri…",
+      "date_published": "2026-08-14T15:54:20Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "703ea9c85e51a76ba40b",
+          "source": "web",
+          "type": "change",
+          "key": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary#2026-DON615",
+          "source_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:36Z",
+          "data": {
+            "change": "added",
+            "label": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo",
+            "item_type": "record",
+            "summary": "added: Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo",
+            "after": {
+              "PublicationDate": "2026-08-14T15:54:20Z",
+              "UrlName": "2026-DON615",
+              "title": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo",
+              "summary": "The Bundibugyo virus disease (BVD) outbreak in the Democratic Republic of the Congo is in a phase of intense transmission. It is the largest Ebola outbreak ever reported in the country and expanding faster than any previous Ebola outbreak. The epidemic is increasingly characterized by sustained transmission within interconnected geographic clusters. Initially confined to the Mongbwalu health zone in Ituri Province, the outbreak has now expanded to 54 health zones across six provinces (Ituri, North Kivu, South Kivu, Haut-Uélé, Tshopo, and Bas-Uélé). The most recently affected Bas-Uélé province recorded one confirmed case in Buta health zone with travel history to Haut-Uélé and onset of symptoms on 4 August. \r\n\r\nAs of 12 August 2026, a total of 4665 confirmed cases, including 2184 deaths, have been reported, corresponding to a crude case fatality ratio (CFR) of 46.8%. The ongoing rise in cases, broader geographic spread, and continued high mortality demonstrate the rapidly changing scope of this public health emergency of international concern. During the most recent reporting week (epidemiological week 32, 3 to 9 August 2026), the highest weekly number of reported cases (579) and deaths (304) were recorded, highlighting the exceptional pace of transmission. \r\n\r\nThe ongoing humanitarian crisis, compounded by insecurity, population displacement and mobility, and cross-border movements, continues to pose significant challenges to response efforts and increase the risk of further geographical spread. National authorities in the Democratic Republic of the Congo, continue to implement extensive response measures in collaboration with WHO and partners. However, a substantial scaling up of response activities is underway to get ahead of the outbreak. Following their missions to the Democratic Republic of the Congo, WHO’s Director-General and Regional Director for Africa, and the Director General of Africa CDC, highlighted surveillance activities and closer work with communities as priority areas. Expanding the number of treatment centers, across more areas, is underway, along with training for the health and care workers to staff them.  \r\n\r\nFrance has reported no secondary transmission following an imported case detected on 24 June 2026. As of 14 August, 41 days had passed since the patient’s discharge on 4 July, with no additional confirmed cases reported.  \r\n\r\nIn Uganda the most recent imported case was discharged from a treatment centre on 16 July, and the 42-day enhanced monitoring period will cease on 27 August. \r\n\r\nUganda remains at risk of BVD re-introduction due to ongoing transmission in neighbouring Democratic Republic of the Congo and is undertaking heightened surveillance activities given continued population movement and the risk of cross-border transmission. A regional preparedness and prioritization framework continues to guide readiness and response activities across the African Region. ",
+              "published_at": "2026-08-14T15:54:20Z",
+              "link": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON615"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+            "content_type": "application/json",
+            "elapsed_ms": 153,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "title=Title",
+                  "summary=replace(Summary, \"<[^>]+>\", \"\")",
+                  "published_at=PublicationDate",
+                  "link=\"https://www.who.int/emergencies/disease-outbreak-news/item/\" + UrlName"
+                ],
+                "drop": [
+                  "Title",
+                  "Summary"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "UrlName",
+                "namespace": "disease-outbreaks",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON615"
+    },
+    {
+      "id": "97216220c2b10a27e547",
+      "title": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo",
+      "content_text": "The Bundibugyo virus disease (BVD) outbreak in the Democratic Republic of the Congo is intensifying, with sustained transmission and continued increases in reported cases and deaths. Initially confined to the Mongbwalu health zone in Ituri Province, over the last two months, the outbreak has expanded to five provinces (Ituri, North Kivu, South Kivu, Haut-Uélé and Tshopo), now affecting 49 health zones. \r\nThe outbreak is now the largest Ebola outbreak ever reported in the Democratic Republic of…",
+      "date_published": "2026-08-01T10:46:53Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "97216220c2b10a27e547",
+          "source": "web",
+          "type": "change",
+          "key": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary#2026-DON614",
+          "source_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:36Z",
+          "data": {
+            "change": "added",
+            "label": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo",
+            "item_type": "record",
+            "summary": "added: Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo",
+            "after": {
+              "PublicationDate": "2026-08-01T10:46:53Z",
+              "UrlName": "2026-DON614",
+              "title": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo",
+              "summary": "The Bundibugyo virus disease (BVD) outbreak in the Democratic Republic of the Congo is intensifying, with sustained transmission and continued increases in reported cases and deaths. Initially confined to the Mongbwalu health zone in Ituri Province, over the last two months, the outbreak has expanded to five provinces (Ituri, North Kivu, South Kivu, Haut-Uélé and Tshopo), now affecting 49 health zones. \r\nThe outbreak is now the largest Ebola outbreak ever reported in the Democratic Republic of the Congo. As of 30 July 2026, a total of 3605 confirmed cases, including 1587 deaths, have been reported, corresponding to a crude case fatality ratio (CFR) of 44%. The continued increase in cases, expanding geographic spread, and persistently high mortality underscore the rapidly evolving nature of this public health emergency. During the most recent complete reporting week (epidemiological week 30), the highest weekly number of reported cases (567) and deaths (296) to date were recorded, underscoring the exceptional pace of transmission.\r\nThe convergence of insecurity, population displacement and mobility, and cross-border movements complicate response operations and increase the risk of further geographical spread. National authorities in the Democratic Republic of the Congo, in collaboration with WHO and partners, continue to implement extensive response measures, however, a substantial scaling up of response activities is needed to get ahead of the outbreak. A regional preparedness and prioritization framework continues to guide readiness and response activities across the African Region.\r\nThe confirmed BVD case reported in France on 24 June 2026 following deployment to support the outbreak in the Democratic Republic of the Congo recovered and was discharged on 4 July 2026 after two consecutive negative PCR test results. No secondary transmission has been identified, and all five flight contacts, as well as those listed in the Democratic Republic of the Congo completed their 21-day follow-up without developing symptoms. As of 1 August 2026, France has not reported any additional confirmed BVD cases for 28 days since the patient's discharge. \r\nOn 28 July, the Ministry of Health of Uganda declared the end of the BVD outbreak in the country, following 42 days without a new confirmed locally transmitted case after the last confirmed case was discharged from care on 16 June 2026.  The most recent imported case was discharged from a treatment centre on 16 July after two negative tests results. Following international guidance WHO will be monitoring the situation for 42 days from this date to ensure no chains of transmission have been missed. Uganda remains at risk of imported cases and re-introduction of BVD, due to ongoing transmission in neighbouring Democratic Republic of the Congo. WHO reiterates the need to maintain heightened surveillance, preparedness and control measures, particularly in view of continued population movement and the risk of cross-border transmission.",
+              "published_at": "2026-08-01T10:46:53Z",
+              "link": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON614"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+            "content_type": "application/json",
+            "elapsed_ms": 153,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "title=Title",
+                  "summary=replace(Summary, \"<[^>]+>\", \"\")",
+                  "published_at=PublicationDate",
+                  "link=\"https://www.who.int/emergencies/disease-outbreak-news/item/\" + UrlName"
+                ],
+                "drop": [
+                  "Title",
+                  "Summary"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "UrlName",
+                "namespace": "disease-outbreaks",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON614"
+    },
+    {
+      "id": "fd03cee08f5d93151c7c",
+      "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda",
+      "content_text": "The Bundibugyo virus disease (BVD) outbreak in the Democratic Republic of the Congo remains active, with sustained transmission driving increases in reported cases and deaths. As of 15 July 2026, a cumulative total of 2124 confirmed cases, including 828 deaths, have been reported from the Democratic Republic of the Congo. On 13 July 2026, German authorities informed WHO of a laboratory-confirmed case of Ebola disease caused by Bundibugyo virus in a humanitarian worker from the United States of…",
+      "date_published": "2026-07-17T16:51:09Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "fd03cee08f5d93151c7c",
+          "source": "web",
+          "type": "change",
+          "key": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary#2026-DON613",
+          "source_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:36Z",
+          "data": {
+            "change": "added",
+            "label": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda",
+            "item_type": "record",
+            "summary": "added: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda",
+            "after": {
+              "PublicationDate": "2026-07-17T16:51:09Z",
+              "UrlName": "2026-DON613",
+              "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda",
+              "summary": "The Bundibugyo virus disease (BVD) outbreak in the Democratic Republic of the Congo remains active, with sustained transmission driving increases in reported cases and deaths. As of 15 July 2026, a cumulative total of 2124 confirmed cases, including 828 deaths, have been reported from the Democratic Republic of the Congo. On 13 July 2026, German authorities informed WHO of a laboratory-confirmed case of Ebola disease caused by Bundibugyo virus in a humanitarian worker from the United States of America who was medically evacuated from the Democratic Republic of the Congo. This is the second United States citizen to be treated in Germany, reflecting the ongoing international response efforts. \r\n\r\nIn Uganda no new cases have been reported since 21 June 2026. The most recent case was discharged from the treatment centre on 16 July after two negative tests results. The country has therefore begun the 42-day period of enhanced surveillance required before the end of the outbreak can be declared.  \r\n\r\nNational authorities in Uganda and the Democratic Republic of the Congo, in collaboration with WHO and partners, continue to implement extensive response measures. A regional preparedness and prioritization framework continues to guide readiness activities across the African Region. ",
+              "published_at": "2026-07-17T16:51:09Z",
+              "link": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON613"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+            "content_type": "application/json",
+            "elapsed_ms": 153,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "title=Title",
+                  "summary=replace(Summary, \"<[^>]+>\", \"\")",
+                  "published_at=PublicationDate",
+                  "link=\"https://www.who.int/emergencies/disease-outbreak-news/item/\" + UrlName"
+                ],
+                "drop": [
+                  "Title",
+                  "Summary"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "UrlName",
+                "namespace": "disease-outbreaks",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON613"
+    },
+    {
+      "id": "715f3777e76041979d82",
+      "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda",
+      "content_text": "The Bundibugyo virus disease (BVD) outbreak in the Democratic Republic of the Congo continues to evolve rapidly, with sustained transmission and increasing numbers of reported cases. As of 1 July, a cumulative of 1460 confirmed cases, including 452 deaths, have been reported from the Democratic Republic of the Congo. As of 2 July, Uganda has reported 20 confirmed cases including two deaths, as well as one probable case who has died. In addition, on 24 June 2026, French authorities notified WHO…",
+      "date_published": "2026-07-03T15:31:57Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "715f3777e76041979d82",
+          "source": "web",
+          "type": "change",
+          "key": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary#2026-DON612",
+          "source_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:36Z",
+          "data": {
+            "change": "added",
+            "label": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda",
+            "item_type": "record",
+            "summary": "added: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda",
+            "after": {
+              "PublicationDate": "2026-07-03T15:31:57Z",
+              "UrlName": "2026-DON612",
+              "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda",
+              "summary": "The Bundibugyo virus disease (BVD) outbreak in the Democratic Republic of the Congo continues to evolve rapidly, with sustained transmission and increasing numbers of reported cases. As of 1 July, a cumulative of 1460 confirmed cases, including 452 deaths, have been reported from the Democratic Republic of the Congo. As of 2 July, Uganda has reported 20 confirmed cases including two deaths, as well as one probable case who has died. In addition, on 24 June 2026, French authorities notified WHO of a laboratory-confirmed case of Ebola disease caused by Bundibugyo virus in a medical doctor returning from the Democratic Republic of the Congo.\r\nIn Uganda, the outbreak remains epidemiologically linked to transmission originating in the Democratic Republic of the Congo, with evidence of both imported infections and secondary transmission among contacts and healthcare workers. Uganda has not reported any new cases since 21 June 2026.\r\nNational authorities in the two affected countries, in collaboration with WHO and partners, are implementing an extensive set of response measures. A regional preparedness and prioritization framework continues to guide readiness activities across the African Region.",
+              "published_at": "2026-07-03T15:31:57Z",
+              "link": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON612"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+            "content_type": "application/json",
+            "elapsed_ms": 153,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "title=Title",
+                  "summary=replace(Summary, \"<[^>]+>\", \"\")",
+                  "published_at=PublicationDate",
+                  "link=\"https://www.who.int/emergencies/disease-outbreak-news/item/\" + UrlName"
+                ],
+                "drop": [
+                  "Title",
+                  "Summary"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "UrlName",
+                "namespace": "disease-outbreaks",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON612"
+    },
+    {
+      "id": "35392049ec25dcc20859",
+      "title": "Hantavirus outbreak linked to cruise ship travel, Multi-locations",
+      "content_text": "This is the fifth Disease Outbreak News posting on the Andes hantavirus (ANDV) outbreak linked to the cruise ship M/V Hondius. The outbreak identification followed the notification to the World Health Organization (WHO) on 2 May 2026 of severe acute respiratory illness cases onboard. Since the previous Disease Outbreak News was published on 28 May 2026, one of the probable cases from Tristan da Cunha, an Overseas Territory of the United Kingdom of Great Britain and Northern Ireland (hereafter…",
+      "date_published": "2026-07-02T18:27:48Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "35392049ec25dcc20859",
+          "source": "web",
+          "type": "change",
+          "key": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary#2026-DON611",
+          "source_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:36Z",
+          "data": {
+            "change": "added",
+            "label": "Hantavirus outbreak linked to cruise ship travel, Multi-locations",
+            "item_type": "record",
+            "summary": "added: Hantavirus outbreak linked to cruise ship travel, Multi-locations",
+            "after": {
+              "PublicationDate": "2026-07-02T18:27:48Z",
+              "UrlName": "2026-DON611",
+              "title": "Hantavirus outbreak linked to cruise ship travel, Multi-locations",
+              "summary": "This is the fifth Disease Outbreak News posting on the Andes hantavirus (ANDV) outbreak linked to the cruise ship M/V Hondius. The outbreak identification followed the notification to the World Health Organization (WHO) on 2 May 2026 of severe acute respiratory illness cases onboard. Since the previous Disease Outbreak News was published on 28 May 2026, one of the probable cases from Tristan da Cunha, an Overseas Territory of the United Kingdom of Great Britain and Northern Ireland (hereafter referred to as the United Kingdom), was laboratory confirmed. \r\n\r\nAs of 2 July, a total of 13 cases, including three deaths, have been notified (case fatality ratio 23%). Twelve cases have been laboratory-confirmed for ANDV infection, and one is a probable case. All confirmed cases are among individuals who travelled onboard the M/V Hondius. Among the ten cases admitted to hospitals, eight have recovered and have been discharged, while two are still undergoing medical treatment.\r\n\r\nAll identified contacts have completed the 42 day follow-up period by local health authorities in line with WHO guidance. The completion of the contact follow up without detection of additional secondary cases demonstrates effective interruption of transmission and confirms outbreak containment.\r\n\r\nThis outbreak no longer poses a public health risk and no further related transmission is expected. \r\n",
+              "published_at": "2026-07-02T18:27:48Z",
+              "link": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON611"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+            "content_type": "application/json",
+            "elapsed_ms": 153,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "title=Title",
+                  "summary=replace(Summary, \"<[^>]+>\", \"\")",
+                  "published_at=PublicationDate",
+                  "link=\"https://www.who.int/emergencies/disease-outbreak-news/item/\" + UrlName"
+                ],
+                "drop": [
+                  "Title",
+                  "Summary"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "UrlName",
+                "namespace": "disease-outbreaks",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON611"
+    },
+    {
+      "id": "2301e2fcab8123cd8aa6",
+      "title": "Nipah virus disease - India",
+      "content_text": "On 11 June 2026, the Kerala State Health Department confirmed one laboratory confirmed case of Nipah virus (NiV) infection in Kozhikode district, Kerala State, India. \r\nThe case is an adult male who developed symptoms on 30 May 2026 and was hospitalized on 10 June 2026. He presented with neurological manifestations and at the time of reporting is on ventilatory support in an intensive care unit (ICU).\r\nAs of 18 June 2026, a total of 104 contacts had been identified and were under monitoring…",
+      "date_published": "2026-06-25T15:43:28Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "2301e2fcab8123cd8aa6",
+          "source": "web",
+          "type": "change",
+          "key": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary#2026-DON609",
+          "source_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:36Z",
+          "data": {
+            "change": "added",
+            "label": "Nipah virus disease - India",
+            "item_type": "record",
+            "summary": "added: Nipah virus disease - India",
+            "after": {
+              "PublicationDate": "2026-06-25T15:43:28Z",
+              "UrlName": "2026-DON609",
+              "title": "Nipah virus disease - India",
+              "summary": "On 11 June 2026, the Kerala State Health Department confirmed one laboratory confirmed case of Nipah virus (NiV) infection in Kozhikode district, Kerala State, India. \r\nThe case is an adult male who developed symptoms on 30 May 2026 and was hospitalized on 10 June 2026. He presented with neurological manifestations and at the time of reporting is on ventilatory support in an intensive care unit (ICU).\r\nAs of 18 June 2026, a total of 104 contacts had been identified and were under monitoring, including health and care workers, with no reported secondary cases to date.\r\nNiV is a zoonotic disease transmitted to humans through infected animals, or through consumption of fruits or fruit products, such as raw date palm juice contaminated with the saliva, urine, or excreta of infected bats, as well as close contact with infected individuals. \r\n\r\nThe current event involves a single confirmed case, with no secondary transmission identified to date. Public health measures are in place, including isolation, contact tracing, and enhanced surveillance. However, as the source of infection has not yet been identified and given the known presence of animal reservoirs, additional cases cannot be excluded.",
+              "published_at": "2026-06-25T15:43:28Z",
+              "link": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON609"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+            "content_type": "application/json",
+            "elapsed_ms": 153,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "title=Title",
+                  "summary=replace(Summary, \"<[^>]+>\", \"\")",
+                  "published_at=PublicationDate",
+                  "link=\"https://www.who.int/emergencies/disease-outbreak-news/item/\" + UrlName"
+                ],
+                "drop": [
+                  "Title",
+                  "Summary"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "UrlName",
+                "namespace": "disease-outbreaks",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON609"
+    },
+    {
+      "id": "b74de682a1064a52e769",
+      "title": "Yellow fever - Global",
+      "content_text": "Yellow fever is a viral disease found in areas of Africa and the Americas, spread by infected mosquitoes. Following an increase of cases in the Americas in 2025, transmission activity remained into 2026. From 1 January to 26 May 2026, six countries reported a total of 79 human infections along with multiple epizootics, indicating active sylvatic circulation. In Africa, sustained activity continued across parts of the region, affecting 13 high-risk countries (as per classification in the…",
+      "date_published": "2026-06-24T15:23:22Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "b74de682a1064a52e769",
+          "source": "web",
+          "type": "change",
+          "key": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary#2026-DON610",
+          "source_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:36Z",
+          "data": {
+            "change": "added",
+            "label": "Yellow fever - Global",
+            "item_type": "record",
+            "summary": "added: Yellow fever - Global",
+            "after": {
+              "PublicationDate": "2026-06-24T15:23:22Z",
+              "UrlName": "2026-DON610",
+              "title": "Yellow fever - Global",
+              "summary": "Yellow fever is a viral disease found in areas of Africa and the Americas, spread by infected mosquitoes. Following an increase of cases in the Americas in 2025, transmission activity remained into 2026. From 1 January to 26 May 2026, six countries reported a total of 79 human infections along with multiple epizootics, indicating active sylvatic circulation. In Africa, sustained activity continued across parts of the region, affecting 13 high-risk countries (as per classification in the Eliminate Yellow fever Epidemics (EYE) Strategy). From January to May 2026, three countries in Africa reported 16 confirmed human cases, with an additional 32 suspected cases under investigation in five other countries.  \r\nThe recent rapid risk assessment assessed geographical variations in vaccination coverage, evidence of viral circulation, and the presence of competent vectors, concluding that unvaccinated populations in countries or areas with a history of yellow fever transmission remain at greatest risk. Transmission dynamics are further influenced by seasonal ecological factors, particularly rainfall, temperature, and mosquito abundance.  \r\nOutbreaks reported from October 2025 through May 2026 in countries or areas with a history of yellow fever transmission were generally consistent with seasonal patterns or reflected gaps in immunization coverage. In contrast, cases detected in previously unaffected areas suggest viral introduction and an increased risk of urban transmission. No imported cases were detected outside the two affected WHO regions, but expanding vector suitability, rapid urbanization, climate shifts, and increased mobility continue to create conditions conducive to international spread.\r\nWHO emphasizes the importance of active surveillance, timely laboratory testing, cross-border coordination, and information sharing. Vaccination remains the primary means for the prevention and control of yellow fever. WHO continues to support countries in expanding vaccination coverage through routine immunization programmes and preventive vaccination campaigns to enhance population immunity and reduce the risk of outbreaks.",
+              "published_at": "2026-06-24T15:23:22Z",
+              "link": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON610"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+            "content_type": "application/json",
+            "elapsed_ms": 153,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "title=Title",
+                  "summary=replace(Summary, \"<[^>]+>\", \"\")",
+                  "published_at=PublicationDate",
+                  "link=\"https://www.who.int/emergencies/disease-outbreak-news/item/\" + UrlName"
+                ],
+                "drop": [
+                  "Title",
+                  "Summary"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "UrlName",
+                "namespace": "disease-outbreaks",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON610"
+    },
+    {
+      "id": "1badbbe128f9755e8990",
+      "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda",
+      "content_text": "The Bundibugyo virus disease (BVD) outbreak in the Democratic Republic of the Congo continues to evolve rapidly, with sustained transmission and increasing numbers of reported cases. As of 17 June, a cumulative of 896 confirmed cases, including 232 deaths, have been reported from the Democratic Republic of the Congo. As of 18 June, Uganda has reported 19 confirmed cases including two deaths, as well as one probable case who has died. \r\nIn Uganda, the outbreak remains epidemiologically linked to…",
+      "date_published": "2026-06-19T12:51:03Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "1badbbe128f9755e8990",
+          "source": "web",
+          "type": "change",
+          "key": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary#2026-DON608",
+          "source_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:36Z",
+          "data": {
+            "change": "added",
+            "label": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda",
+            "item_type": "record",
+            "summary": "added: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda",
+            "after": {
+              "PublicationDate": "2026-06-19T12:51:03Z",
+              "UrlName": "2026-DON608",
+              "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda",
+              "summary": "The Bundibugyo virus disease (BVD) outbreak in the Democratic Republic of the Congo continues to evolve rapidly, with sustained transmission and increasing numbers of reported cases. As of 17 June, a cumulative of 896 confirmed cases, including 232 deaths, have been reported from the Democratic Republic of the Congo. As of 18 June, Uganda has reported 19 confirmed cases including two deaths, as well as one probable case who has died. \r\nIn Uganda, the outbreak remains epidemiologically linked to transmission originating in the Democratic Republic of the Congo, with evidence of both imported infections and secondary transmission among contacts and healthcare workers. Uganda has not reported any new cases since 5 June 2026.\r\nNational authorities in the two affected countries, in collaboration with WHO and partners, are implementing an extensive set of response measures. A regional preparedness and prioritization framework continues to guide readiness activities across the African Region.",
+              "published_at": "2026-06-19T12:51:03Z",
+              "link": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON608"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+            "content_type": "application/json",
+            "elapsed_ms": 153,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "title=Title",
+                  "summary=replace(Summary, \"<[^>]+>\", \"\")",
+                  "published_at=PublicationDate",
+                  "link=\"https://www.who.int/emergencies/disease-outbreak-news/item/\" + UrlName"
+                ],
+                "drop": [
+                  "Title",
+                  "Summary"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "UrlName",
+                "namespace": "disease-outbreaks",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON608"
+    },
+    {
+      "id": "5246b667906f2476dc89",
+      "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda",
+      "content_text": "The Bundibugyo virus disease (BVD) outbreak in the Democratic Republic of the Congo continues to evolve rapidly, with increasing case numbers and geographic spread. As of 10 June, a cumulative of 676 confirmed cases, including 136 deaths, have been reported from the Democratic Republic of the Congo. As of 11 June, Uganda has reported 19 confirmed cases including two deaths, as well as one probable case who has died. \r\nIn Uganda, the outbreak remains epidemiologically linked to transmission…",
+      "date_published": "2026-06-13T08:15:15Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "5246b667906f2476dc89",
+          "source": "web",
+          "type": "change",
+          "key": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary#2026-DON607",
+          "source_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:36Z",
+          "data": {
+            "change": "added",
+            "label": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda",
+            "item_type": "record",
+            "summary": "added: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda",
+            "after": {
+              "PublicationDate": "2026-06-13T08:15:15Z",
+              "UrlName": "2026-DON607",
+              "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda",
+              "summary": "The Bundibugyo virus disease (BVD) outbreak in the Democratic Republic of the Congo continues to evolve rapidly, with increasing case numbers and geographic spread. As of 10 June, a cumulative of 676 confirmed cases, including 136 deaths, have been reported from the Democratic Republic of the Congo. As of 11 June, Uganda has reported 19 confirmed cases including two deaths, as well as one probable case who has died. \r\nIn Uganda, the outbreak remains epidemiologically linked to transmission originating in the Democratic Republic of the Congo, with evidence of both imported infections and secondary transmission among contacts and healthcare workers. Uganda has not reported any new cases in the past six days. \r\nNational authorities in the two affected countries, in collaboration with WHO and partners, are implementing a comprehensive package of response measures. A regional preparedness and prioritization framework continues to guide readiness activities across the African Region.",
+              "published_at": "2026-06-13T08:15:15Z",
+              "link": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON607"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+            "content_type": "application/json",
+            "elapsed_ms": 153,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "title=Title",
+                  "summary=replace(Summary, \"<[^>]+>\", \"\")",
+                  "published_at=PublicationDate",
+                  "link=\"https://www.who.int/emergencies/disease-outbreak-news/item/\" + UrlName"
+                ],
+                "drop": [
+                  "Title",
+                  "Summary"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "UrlName",
+                "namespace": "disease-outbreaks",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON607"
+    },
+    {
+      "id": "d9c7c2850c8e2a4c69e7",
+      "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda",
+      "content_text": "The Bundibugyo virus disease (BVD) outbreak in the Democratic Republic of the Congo continues to evolve rapidly, with increasing case numbers, geographic spread, and cross-border transmission to Uganda. As of 6 June, a total of 515 confirmed cases, with 91 deaths among these confirmed cases, have been reported from the Democratic Republic of the Congo; Uganda has reported 19 confirmed cases including two deaths, as well as one probable case who has died. \r\nIn Uganda, the outbreak remains…",
+      "date_published": "2026-06-08T13:12:23Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d9c7c2850c8e2a4c69e7",
+          "source": "web",
+          "type": "change",
+          "key": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary#2026-DON606",
+          "source_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:36Z",
+          "data": {
+            "change": "added",
+            "label": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda",
+            "item_type": "record",
+            "summary": "added: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda",
+            "after": {
+              "PublicationDate": "2026-06-08T13:12:23Z",
+              "UrlName": "2026-DON606",
+              "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda",
+              "summary": "The Bundibugyo virus disease (BVD) outbreak in the Democratic Republic of the Congo continues to evolve rapidly, with increasing case numbers, geographic spread, and cross-border transmission to Uganda. As of 6 June, a total of 515 confirmed cases, with 91 deaths among these confirmed cases, have been reported from the Democratic Republic of the Congo; Uganda has reported 19 confirmed cases including two deaths, as well as one probable case who has died. \r\nIn Uganda, the outbreak remains epidemiologically linked to transmission originating in the Democratic Republic of the Congo, with evidence of both imported infections and secondary transmission among contacts and healthcare workers. \r\nNational authorities, in collaboration with WHO and partners, are undertaking a wide-ranging package of response measures. \r\nOn 5 June, the Africa Centres for Disease Control and Prevention (Africa CDC) and WHO, together with partners, launched a joint Ebola continental preparedness and response plan, with an ask of US$ 518 million to support African countries to prepare for, rapidly detect and respond to the outbreak.",
+              "published_at": "2026-06-08T13:12:23Z",
+              "link": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON606"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+            "content_type": "application/json",
+            "elapsed_ms": 153,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "title=Title",
+                  "summary=replace(Summary, \"<[^>]+>\", \"\")",
+                  "published_at=PublicationDate",
+                  "link=\"https://www.who.int/emergencies/disease-outbreak-news/item/\" + UrlName"
+                ],
+                "drop": [
+                  "Title",
+                  "Summary"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "UrlName",
+                "namespace": "disease-outbreaks",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON606"
+    },
+    {
+      "id": "2cd01079c9305f29a33f",
+      "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda",
+      "content_text": "The Bundibugyo virus disease (BVD) outbreak in the Democratic Republic of the Congo and Uganda continues to evolve rapidly, with increasing case numbers, geographic spread, and ongoing cross-border transmission. As of 27 May, a total of 906 suspected cases and 223 deaths among suspected cases have been reported in the Democratic Republic of the Congo. As of 29 May, a total of 134 confirmed cases, including nine in Uganda, with 18 deaths among the confirmed cases, have been reported across both…",
+      "date_published": "2026-05-29T15:43:01Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "2cd01079c9305f29a33f",
+          "source": "web",
+          "type": "change",
+          "key": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary#2026-DON605",
+          "source_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:36Z",
+          "data": {
+            "change": "added",
+            "label": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda",
+            "item_type": "record",
+            "summary": "added: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda",
+            "after": {
+              "PublicationDate": "2026-05-29T15:43:01Z",
+              "UrlName": "2026-DON605",
+              "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda",
+              "summary": "The Bundibugyo virus disease (BVD) outbreak in the Democratic Republic of the Congo and Uganda continues to evolve rapidly, with increasing case numbers, geographic spread, and ongoing cross-border transmission. As of 27 May, a total of 906 suspected cases and 223 deaths among suspected cases have been reported in the Democratic Republic of the Congo. As of 29 May, a total of 134 confirmed cases, including nine in Uganda, with 18 deaths among the confirmed cases, have been reported across both countries. This is an additional 49 confirmed cases, eight confirmed deaths, 160 suspected cases and 47 suspected deaths since the last update on 21 May. In addition, there is one confirmed case, an individual from the United States of America, who had treated patients in the Democratic Republic of the Congo and is currently receiving care in Germany. \r\nIn the Democratic Republic of the Congo, transmission is concentrated in Ituri, as well as North Kivu and South Kivu provinces, with challenges in contact tracing and follow-up, insecurity, inadequate isolation, care, and referral systems for patients complicating response efforts. \r\nNational authorities, in collaboration with WHO and partners, are implementing response measures including deployment of rapid response teams, delivery of medical supplies, strengthened surveillance, laboratory confirmation, infection prevention and control, the set-up of safe and optimized treatment centers, and community engagement.",
+              "published_at": "2026-05-29T15:43:01Z",
+              "link": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON605"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+            "content_type": "application/json",
+            "elapsed_ms": 153,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "title=Title",
+                  "summary=replace(Summary, \"<[^>]+>\", \"\")",
+                  "published_at=PublicationDate",
+                  "link=\"https://www.who.int/emergencies/disease-outbreak-news/item/\" + UrlName"
+                ],
+                "drop": [
+                  "Title",
+                  "Summary"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "UrlName",
+                "namespace": "disease-outbreaks",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON605"
+    },
+    {
+      "id": "14e76a7bc85469f3cfc8",
+      "title": "Hantavirus outbreak linked to cruise ship travel, Multi-locations",
+      "content_text": "This is the fourth Disease Outbreak News report on the Andes hantavirus outbreak linked to cruise ship travel, following the notification to the World Health Organization (WHO) on 2 May 2026 of severe respiratory illness cases aboard M/V Hondius, a cruise ship. Since the last DON was published on 13 May, three additional confirmed cases were reported, from Canada, the Netherlands, and Spain. The previously reported inconclusive case from the United States of America was subsequently determined…",
+      "date_published": "2026-05-28T14:43:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "14e76a7bc85469f3cfc8",
+          "source": "web",
+          "type": "change",
+          "key": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary#2026-DON604",
+          "source_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:36Z",
+          "data": {
+            "change": "added",
+            "label": "Hantavirus outbreak linked to cruise ship travel, Multi-locations",
+            "item_type": "record",
+            "summary": "added: Hantavirus outbreak linked to cruise ship travel, Multi-locations",
+            "after": {
+              "PublicationDate": "2026-05-28T14:43:00Z",
+              "UrlName": "2026-DON604",
+              "title": "Hantavirus outbreak linked to cruise ship travel, Multi-locations",
+              "summary": "This is the fourth Disease Outbreak News report on the Andes hantavirus outbreak linked to cruise ship travel, following the notification to the World Health Organization (WHO) on 2 May 2026 of severe respiratory illness cases aboard M/V Hondius, a cruise ship. Since the last DON was published on 13 May, three additional confirmed cases were reported, from Canada, the Netherlands, and Spain. The previously reported inconclusive case from the United States of America was subsequently determined to be negative following further laboratory testing and has been removed from the total case count. All cases to date have been passengers or crew members on the ship. As of 27 May, a total of 13 cases, including three deaths, have been reported (case fatality ratio 23%). Eleven cases have been laboratory-confirmed for Andes virus (ANDV) infection, and two are probable cases. Given the long incubation period of up to six weeks, it is not unexpected that cases continue to be reported until the end of the six weeks since last exposure. \r\n\r\nThrough the International Health Regulations (2005) (IHR) channels, National IHR Focal Points (NFPs) have all been informed and are supporting international contact tracing and monitoring efforts. WHO has assessed the risk posed by this event to the global population as low and will continue to monitor the epidemiological situation and update the risk assessment as needed. ",
+              "published_at": "2026-05-28T14:43:00Z",
+              "link": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON604"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+            "content_type": "application/json",
+            "elapsed_ms": 153,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "title=Title",
+                  "summary=replace(Summary, \"<[^>]+>\", \"\")",
+                  "published_at=PublicationDate",
+                  "link=\"https://www.who.int/emergencies/disease-outbreak-news/item/\" + UrlName"
+                ],
+                "drop": [
+                  "Title",
+                  "Summary"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "UrlName",
+                "namespace": "disease-outbreaks",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON604"
+    },
+    {
+      "id": "7985832934d564857dc1",
+      "title": "Ebola disease caused by Bundibugyo virus – Democratic Republic of the Congo",
+      "content_text": "On 15 May 2026, the Ministry of Public Health, Hygiene and Social Welfare, Democratic Republic of the Congo (DRC), and the Ministry of Health of Uganda declared an outbreak of Ebola Disease following the confirmation of Bundibugyo virus disease (BVD) in both countries.\r\nOn 17 May 2026, the World Health Organization (WHO) Director-General determined that the Ebola disease caused by Bundibugyo virus in DRC and Uganda constitutes a public health emergency of international concern (PHEIC), as…",
+      "date_published": "2026-05-22T21:06:24Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "7985832934d564857dc1",
+          "source": "web",
+          "type": "change",
+          "key": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary#2026-DON603",
+          "source_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:36Z",
+          "data": {
+            "change": "added",
+            "label": "Ebola disease caused by Bundibugyo virus – Democratic Republic of the Congo",
+            "item_type": "record",
+            "summary": "added: Ebola disease caused by Bundibugyo virus – Democratic Republic of the Congo",
+            "after": {
+              "PublicationDate": "2026-05-22T21:06:24Z",
+              "UrlName": "2026-DON603",
+              "title": "Ebola disease caused by Bundibugyo virus – Democratic Republic of the Congo",
+              "summary": "On 15 May 2026, the Ministry of Public Health, Hygiene and Social Welfare, Democratic Republic of the Congo (DRC), and the Ministry of Health of Uganda declared an outbreak of Ebola Disease following the confirmation of Bundibugyo virus disease (BVD) in both countries.\r\nOn 17 May 2026, the World Health Organization (WHO) Director-General determined that the Ebola disease caused by Bundibugyo virus in DRC and Uganda constitutes a public health emergency of international concern (PHEIC), as defined in the provisions of IHR.\r\nOn 19 May 2026, the Director-General of WHO convened the first meeting of the IHR Emergency Committee, and temporary recommendations were issued to State Parties.\r\nAs of 21 May, 746 suspected cases and 176 deaths among suspected cases were reported in DRC. So far 85 confirmed cases, including two in Uganda, and ten deaths, with one in Uganda, among confirmed cases were reported across both countries. In DRC, transmission is concentrated in Ituri, North Kivu and South Kivu provinces, with challenges in contact follow-up, insecure conditions, and inadequate isolation and referral systems complicating response efforts. Uganda has reported two imported cases with no confirmed local transmission. An American national who was working in DRC has also been confirmed positive and transferred to Germany for care.\r\nNational authorities, in collaboration with WHO and partners, are implementing response measures including deployment of rapid response teams, delivery of medical supplies, strengthened surveillance, laboratory confirmation, infection prevention and control assessments, the set-up of safe and optimized treatment centers, and community engagement.",
+              "published_at": "2026-05-22T21:06:24Z",
+              "link": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON603"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+            "content_type": "application/json",
+            "elapsed_ms": 153,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "title=Title",
+                  "summary=replace(Summary, \"<[^>]+>\", \"\")",
+                  "published_at=PublicationDate",
+                  "link=\"https://www.who.int/emergencies/disease-outbreak-news/item/\" + UrlName"
+                ],
+                "drop": [
+                  "Title",
+                  "Summary"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "UrlName",
+                "namespace": "disease-outbreaks",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON603"
+    },
+    {
+      "id": "b88b83e452b1bb2364c7",
+      "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda",
+      "content_text": "On 5 May 2026, the World Health Organization (WHO) was alerted of a high-mortality outbreak of unknown illness in Mongbwalu Health Zone, Ituri Province, Democratic Republic of the Congo (DRC), including deaths among health workers. \r\nOn 14 May 2026, the Institut national de recherche biomédicale (INRB) Kinshasa analyzed 13 blood samples from Rwampara Health Zone, Ituri Province. Laboratory analysis confirmed Bundibugyo virus disease (BVD) in eight of these samples on 15 May, a species of…",
+      "date_published": "2026-05-17T09:35:15Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "b88b83e452b1bb2364c7",
+          "source": "web",
+          "type": "change",
+          "key": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary#2026-DON602",
+          "source_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:36Z",
+          "data": {
+            "change": "added",
+            "label": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda",
+            "item_type": "record",
+            "summary": "added: Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda",
+            "after": {
+              "PublicationDate": "2026-05-17T09:35:15Z",
+              "UrlName": "2026-DON602",
+              "title": "Ebola disease caused by Bundibugyo virus, Democratic Republic of the Congo & Uganda",
+              "summary": "On 5 May 2026, the World Health Organization (WHO) was alerted of a high-mortality outbreak of unknown illness in Mongbwalu Health Zone, Ituri Province, Democratic Republic of the Congo (DRC), including deaths among health workers. \r\nOn 14 May 2026, the Institut national de recherche biomédicale (INRB) Kinshasa analyzed 13 blood samples from Rwampara Health Zone, Ituri Province. Laboratory analysis confirmed Bundibugyo virus disease (BVD) in eight of these samples on 15 May, a species of Ebola.\r\nThe case fatality rates in the past two BVD outbreaks have ranged from 30% to 50%. Unlike Ebola virus disease, there is no licensed vaccine or specific therapeutics against Bundibugyo virus, though early supportive care is lifesaving. \r\nOn 15 May 2026, the Ministry of Public Health, Hygiene and Social Welfare, DRC, officially declared the 17th Ebola Disease outbreak in DRC. Concurrently, the Uganda Ministry of Health confirmed an outbreak of BVD following the identification of one imported case from DRC, a Congolese man who died in the capital city of Kampala. \r\nOn 17 May 2026, WHO Director-General, after having consulted the States Parties where the event is known to be currently occurring, determined that the Ebola disease caused by Bundibugyo virus in DRC and Uganda constitutes a public health emergency of international concern (PHEIC), as defined in the provisions of IHR.\r\nResponse measures include deployment of rapid response teams, delivery of medical supplies, strengthened surveillance, laboratory confirmation, infection prevention and control assessments, the set-up of safe treatment centers, and community engagement. WHO is supporting the coordination of the response, case management, and cross-border preparedness. WHO advice has been issued to countries.",
+              "published_at": "2026-05-17T09:35:15Z",
+              "link": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON602"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+            "content_type": "application/json",
+            "elapsed_ms": 153,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "title=Title",
+                  "summary=replace(Summary, \"<[^>]+>\", \"\")",
+                  "published_at=PublicationDate",
+                  "link=\"https://www.who.int/emergencies/disease-outbreak-news/item/\" + UrlName"
+                ],
+                "drop": [
+                  "Title",
+                  "Summary"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "UrlName",
+                "namespace": "disease-outbreaks",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON602"
+    },
+    {
+      "id": "25e2a43f12228347f315",
+      "title": "Hantavirus cluster linked to cruise ship travel, Multi-country",
+      "content_text": "This is the third Disease Outbreak News report on the hantavirus cluster, following the notification to the World Health Organization (WHO) on 2 May 2026 of severe respiratory illness cases aboard MV Hondius, a cruise ship. Since the last DON was published on 8 May, two additional confirmed cases were reported from France and Spain. In addition, there is one inconclusive result for a case in the United States of America. All were passengers on the ship.   As of 13 May, a total of 11 cases…",
+      "date_published": "2026-05-13T19:30:36Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "25e2a43f12228347f315",
+          "source": "web",
+          "type": "change",
+          "key": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary#2026-DON601",
+          "source_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:36Z",
+          "data": {
+            "change": "added",
+            "label": "Hantavirus cluster linked to cruise ship travel, Multi-country",
+            "item_type": "record",
+            "summary": "added: Hantavirus cluster linked to cruise ship travel, Multi-country",
+            "after": {
+              "PublicationDate": "2026-05-13T19:30:36Z",
+              "UrlName": "2026-DON601",
+              "title": "Hantavirus cluster linked to cruise ship travel, Multi-country",
+              "summary": "This is the third Disease Outbreak News report on the hantavirus cluster, following the notification to the World Health Organization (WHO) on 2 May 2026 of severe respiratory illness cases aboard MV Hondius, a cruise ship. Since the last DON was published on 8 May, two additional confirmed cases were reported from France and Spain. In addition, there is one inconclusive result for a case in the United States of America. All were passengers on the ship.   As of 13 May, a total of 11 cases, including three deaths, have been reported (case fatality ratio 27%). Eight cases were laboratory-confirmed for Andes virus (ANDV) infection, two are probable, and one case remains inconclusive and undergoing further testing. Through the International Health Regulations (2005) (IHR) channels, National IHR Focal Points (NFPs) have all been informed and are supporting international contact tracing efforts. WHO has assessed the risk posed by this event to the global population as low and will continue to monitor the epidemiological situation and update the risk assessment as needed. ",
+              "published_at": "2026-05-13T19:30:36Z",
+              "link": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON601"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+            "content_type": "application/json",
+            "elapsed_ms": 153,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "title=Title",
+                  "summary=replace(Summary, \"<[^>]+>\", \"\")",
+                  "published_at=PublicationDate",
+                  "link=\"https://www.who.int/emergencies/disease-outbreak-news/item/\" + UrlName"
+                ],
+                "drop": [
+                  "Title",
+                  "Summary"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "UrlName",
+                "namespace": "disease-outbreaks",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON601"
+    },
+    {
+      "id": "b8da7c1379f3cf1a167d",
+      "title": "Hantavirus cluster linked to cruise ship travel, Multi-country",
+      "content_text": "On 2 May 2026, a cluster of passengers with severe respiratory illness aboard a cruise ship was reported to the World Health Organization (WHO). At that time, according to the ship operator, 147 passengers and crew were onboard, and 34 passengers and crew had previously disembarked. Since the last Disease Outbreak News published on 4 May, three of the suspected cases were confirmed, and one additional confirmed case was reported.   As of 8 May, a total of eight cases, including three deaths…",
+      "date_published": "2026-05-08T21:31:10Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "b8da7c1379f3cf1a167d",
+          "source": "web",
+          "type": "change",
+          "key": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary#2026-DON600",
+          "source_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:36Z",
+          "data": {
+            "change": "added",
+            "label": "Hantavirus cluster linked to cruise ship travel, Multi-country",
+            "item_type": "record",
+            "summary": "added: Hantavirus cluster linked to cruise ship travel, Multi-country",
+            "after": {
+              "PublicationDate": "2026-05-08T21:31:10Z",
+              "UrlName": "2026-DON600",
+              "title": "Hantavirus cluster linked to cruise ship travel, Multi-country",
+              "summary": "On 2 May 2026, a cluster of passengers with severe respiratory illness aboard a cruise ship was reported to the World Health Organization (WHO). At that time, according to the ship operator, 147 passengers and crew were onboard, and 34 passengers and crew had previously disembarked. Since the last Disease Outbreak News published on 4 May, three of the suspected cases were confirmed, and one additional confirmed case was reported.   As of 8 May, a total of eight cases, including three deaths (case fatality ratio 38%), have been reported. Six cases have been laboratory-confirmed as hantavirus infections, with all identified as Andes virus (ANDV). Through the International Health Regulations (2005) (IHR) channel, National IHR Focal Points (NFPs) have all been informed and are supporting international contact tracing. WHO assesses the risk to the global population posed by this event as low and will continue to monitor the epidemiological situation and update the risk assessment. The risk for passengers and crew on the ship is considered moderate.",
+              "published_at": "2026-05-08T21:31:10Z",
+              "link": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+            "content_type": "application/json",
+            "elapsed_ms": 153,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "title=Title",
+                  "summary=replace(Summary, \"<[^>]+>\", \"\")",
+                  "published_at=PublicationDate",
+                  "link=\"https://www.who.int/emergencies/disease-outbreak-news/item/\" + UrlName"
+                ],
+                "drop": [
+                  "Title",
+                  "Summary"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "UrlName",
+                "namespace": "disease-outbreaks",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600"
+    },
+    {
+      "id": "394a4f745e85a13fc205",
+      "title": "Hantavirus cluster linked to cruise ship travel, Multi-country",
+      "content_text": "On 2 May 2026, a cluster of passengers with severe respiratory illness aboard a cruise ship was reported to the World Health Organization. The ship is carrying 147 passengers and crew. As of 4 May 2026, seven cases (two laboratory confirmed cases of hantavirus and five suspected cases) have been identified, including three deaths, one critically ill patient and three individuals reporting mild symptoms. Illness onset occurred between 6 and 28 April 2026 and was characterized by fever…",
+      "date_published": "2026-05-04T21:48:22Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "394a4f745e85a13fc205",
+          "source": "web",
+          "type": "change",
+          "key": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary#2026-DON599",
+          "source_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:36Z",
+          "data": {
+            "change": "added",
+            "label": "Hantavirus cluster linked to cruise ship travel, Multi-country",
+            "item_type": "record",
+            "summary": "added: Hantavirus cluster linked to cruise ship travel, Multi-country",
+            "after": {
+              "PublicationDate": "2026-05-04T21:48:22Z",
+              "UrlName": "2026-DON599",
+              "title": "Hantavirus cluster linked to cruise ship travel, Multi-country",
+              "summary": "On 2 May 2026, a cluster of passengers with severe respiratory illness aboard a cruise ship was reported to the World Health Organization. The ship is carrying 147 passengers and crew. As of 4 May 2026, seven cases (two laboratory confirmed cases of hantavirus and five suspected cases) have been identified, including three deaths, one critically ill patient and three individuals reporting mild symptoms. Illness onset occurred between 6 and 28 April 2026 and was characterized by fever, gastrointestinal symptoms, rapid progression to pneumonia, acute respiratory distress syndrome and shock.  Further investigations are ongoing. The outbreak is being managed through coordinated international response, and includes in-depth investigations, case isolation and care, medical evacuation and laboratory investigations. \r\n\r\nHuman hantavirus infection is primarily acquired through contact with the urine, faeces, or saliva of infected rodents. It is a rare but severe disease that can be deadly. Although uncommon, limited human to human transmission has been reported in previous outbreaks of Andes virus (a specific species of hantavirus). \r\n\r\nWHO currently assesses the risk to the global population from this event as low and will continue to monitor the epidemiological situation and update the risk assessment. \r\n",
+              "published_at": "2026-05-04T21:48:22Z",
+              "link": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON599"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+            "content_type": "application/json",
+            "elapsed_ms": 153,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "title=Title",
+                  "summary=replace(Summary, \"<[^>]+>\", \"\")",
+                  "published_at=PublicationDate",
+                  "link=\"https://www.who.int/emergencies/disease-outbreak-news/item/\" + UrlName"
+                ],
+                "drop": [
+                  "Title",
+                  "Summary"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "UrlName",
+                "namespace": "disease-outbreaks",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON599"
+    },
+    {
+      "id": "da46b95d4e926e3457f6",
+      "title": "Measles - Bangladesh",
+      "content_text": "On 4 April 2026, the National International Health Regulations (IHR) Focal Point for Bangladesh notified WHO of a nationwide increase in measles cases, geographically affecting 58 out of 64 districts across all eight divisions in Bangladesh. A total of 19 161 suspected measles cases and 2897 laboratory-confirmed measles cases have been reported between 15 March and 14 April 2026, including 166 measles related deaths (CFR 0.9%). The majority (79%) of the reported cases are children aged under 5…",
+      "date_published": "2026-04-23T13:14:13Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "da46b95d4e926e3457f6",
+          "source": "web",
+          "type": "change",
+          "key": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary#2026-DON598",
+          "source_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:36Z",
+          "data": {
+            "change": "added",
+            "label": "Measles - Bangladesh",
+            "item_type": "record",
+            "summary": "added: Measles - Bangladesh",
+            "after": {
+              "PublicationDate": "2026-04-23T13:14:13Z",
+              "UrlName": "2026-DON598",
+              "title": "Measles - Bangladesh",
+              "summary": "On 4 April 2026, the National International Health Regulations (IHR) Focal Point for Bangladesh notified WHO of a nationwide increase in measles cases, geographically affecting 58 out of 64 districts across all eight divisions in Bangladesh. A total of 19 161 suspected measles cases and 2897 laboratory-confirmed measles cases have been reported between 15 March and 14 April 2026, including 166 measles related deaths (CFR 0.9%). The majority (79%) of the reported cases are children aged under 5 years. A targeted measles-rubella (MR) vaccination campaign started on 5 April, and various outbreak response measures are ongoing including strengthening nationwide surveillance and epidemiological analysis to enhance case detection and reporting. Based on currently available information, WHO assesses the risk at the national level as high due to ongoing transmission across multiple divisions, the large number of susceptible children, documented immunity gaps, and the occurrence of suspected measles-related deaths.",
+              "published_at": "2026-04-23T13:14:13Z",
+              "link": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON598"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+            "content_type": "application/json",
+            "elapsed_ms": 153,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "title=Title",
+                  "summary=replace(Summary, \"<[^>]+>\", \"\")",
+                  "published_at=PublicationDate",
+                  "link=\"https://www.who.int/emergencies/disease-outbreak-news/item/\" + UrlName"
+                ],
+                "drop": [
+                  "Title",
+                  "Summary"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "UrlName",
+                "namespace": "disease-outbreaks",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON598"
+    },
+    {
+      "id": "cf31408c12e4dfe16faa",
+      "title": "Avian Influenza A(H9N2) - Italy",
+      "content_text": "On 21 March 2026, the National International Health Regulations (IHR) Focal Point for Italy notified the World Health Organization (WHO) of the identification of a human case of avian influenza A(H9) in an adult male returning from Senegal. Next generation sequencing confirmed Influenza A(H9N2). According to epidemiological investigations, the patient had no known history of exposure to poultry or any person with similar symptoms prior to the onset of symptoms. Authorities in Italy have…",
+      "date_published": "2026-04-10T14:03:01Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "cf31408c12e4dfe16faa",
+          "source": "web",
+          "type": "change",
+          "key": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary#2026-DON597",
+          "source_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:36Z",
+          "data": {
+            "change": "added",
+            "label": "Avian Influenza A(H9N2) - Italy",
+            "item_type": "record",
+            "summary": "added: Avian Influenza A(H9N2) - Italy",
+            "after": {
+              "PublicationDate": "2026-04-10T14:03:01Z",
+              "UrlName": "2026-DON597",
+              "title": "Avian Influenza A(H9N2) - Italy",
+              "summary": "On 21 March 2026, the National International Health Regulations (IHR) Focal Point for Italy notified the World Health Organization (WHO) of the identification of a human case of avian influenza A(H9) in an adult male returning from Senegal. Next generation sequencing confirmed Influenza A(H9N2). According to epidemiological investigations, the patient had no known history of exposure to poultry or any person with similar symptoms prior to the onset of symptoms. Authorities in Italy have implemented a series of measures aimed at monitoring, preventing and controlling the situation. According to the IHR (2005), a human infection caused by a novel influenza A virus subtype is an event that has the potential for high public health impact and must be notified to the WHO. This is the first imported human case of avian Influenza A(H9N2) reported in the European Region. Based on currently available information, WHO assesses the current risk to the general population posed by A(H9N2) viruses as low but continues to monitor these viruses and the situation globally.",
+              "published_at": "2026-04-10T14:03:01Z",
+              "link": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON597"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+            "content_type": "application/json",
+            "elapsed_ms": 153,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "title=Title",
+                  "summary=replace(Summary, \"<[^>]+>\", \"\")",
+                  "published_at=PublicationDate",
+                  "link=\"https://www.who.int/emergencies/disease-outbreak-news/item/\" + UrlName"
+                ],
+                "drop": [
+                  "Title",
+                  "Summary"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "UrlName",
+                "namespace": "disease-outbreaks",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON597"
+    },
+    {
+      "id": "0526c5a689a2f12a7599",
+      "title": "International food safety event: Infant formula and products containing arachidonic acid oil contaminated with cereulide toxin - Multi-country",
+      "content_text": "Multi-country recalls of infant formula and other products have been initiated after cereulide toxin, was detected in batches of multiple internationally distributed brands. Investigations have identified arachidonic acid (ARA) oil, used as an ingredient in the implicated products, as the source of contamination. However, the full root cause analysis and complete traceability of all affected batches remains under investigation. Contaminated formulae, nutritional products, and oil mixes have…",
+      "date_published": "2026-03-13T16:05:10Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "0526c5a689a2f12a7599",
+          "source": "web",
+          "type": "change",
+          "key": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary#2026-DON596",
+          "source_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:36Z",
+          "data": {
+            "change": "added",
+            "label": "International food safety event: Infant formula and products containing arachidonic acid oil contaminated with cereulide toxin - Multi-country",
+            "item_type": "record",
+            "summary": "added: International food safety event: Infant formula and products containing arachidonic acid oil contaminated with cereulide toxin - Multi-country",
+            "after": {
+              "PublicationDate": "2026-03-13T16:05:10Z",
+              "UrlName": "2026-DON596",
+              "title": "International food safety event: Infant formula and products containing arachidonic acid oil contaminated with cereulide toxin - Multi-country",
+              "summary": "Multi-country recalls of infant formula and other products have been initiated after cereulide toxin, was detected in batches of multiple internationally distributed brands. Investigations have identified arachidonic acid (ARA) oil, used as an ingredient in the implicated products, as the source of contamination. However, the full root cause analysis and complete traceability of all affected batches remains under investigation. Contaminated formulae, nutritional products, and oil mixes have been distributed to 99 countries and territories across six WHO Regions, with the first product recalls initiated on 10 December 2025. Between 1 January and 25 February 2026, 144 suspected and confirmed cases were reported across ten countries in three WHO Regions, with investigations ongoing.\r\nBased on the available information, WHO assesses the overall public health risk as moderate due to the vulnerability of the affected population (infants), the ongoing uncertainty regarding the full extent of distribution and exposure, and remaining gaps in case detection and root cause information.",
+              "published_at": "2026-03-13T16:05:10Z",
+              "link": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON596"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+            "content_type": "application/json",
+            "elapsed_ms": 153,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "title=Title",
+                  "summary=replace(Summary, \"<[^>]+>\", \"\")",
+                  "published_at=PublicationDate",
+                  "link=\"https://www.who.int/emergencies/disease-outbreak-news/item/\" + UrlName"
+                ],
+                "drop": [
+                  "Title",
+                  "Summary"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "UrlName",
+                "namespace": "disease-outbreaks",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON596"
+    },
+    {
+      "id": "122393b2c039de0c190f",
+      "title": "Mpox: recombinant virus with genomic elements of clades Ib and IIb – Global situation",
+      "content_text": "Recombination of monkeypox virus (MPXV) strains has been documented in recent months, with two cases of a recombinant strain comprising clade Ib and IIb MPXV reported.   Recombination is a known natural process that can occur when two related viruses infecting the same individual exchange genetic material, producing a new virus.   \r\nThe first case was detected in the United Kingdom of Great Britain and Northern Ireland (hereafter “United Kingdom”), with travel history to a country in South-East…",
+      "date_published": "2026-02-14T14:07:30Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "122393b2c039de0c190f",
+          "source": "web",
+          "type": "change",
+          "key": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary#2026-DON595",
+          "source_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:36Z",
+          "data": {
+            "change": "added",
+            "label": "Mpox: recombinant virus with genomic elements of clades Ib and IIb – Global situation",
+            "item_type": "record",
+            "summary": "added: Mpox: recombinant virus with genomic elements of clades Ib and IIb – Global situation",
+            "after": {
+              "PublicationDate": "2026-02-14T14:07:30Z",
+              "UrlName": "2026-DON595",
+              "title": "Mpox: recombinant virus with genomic elements of clades Ib and IIb – Global situation",
+              "summary": "Recombination of monkeypox virus (MPXV) strains has been documented in recent months, with two cases of a recombinant strain comprising clade Ib and IIb MPXV reported.   Recombination is a known natural process that can occur when two related viruses infecting the same individual exchange genetic material, producing a new virus.   \r\nThe first case was detected in the United Kingdom of Great Britain and Northern Ireland (hereafter “United Kingdom”), with travel history to a country in South-East Asia, and the second in India, with travel history to a country in the Arabian Peninsula. Detailed analysis of the virus genomes shows that the two individuals fell ill several weeks apart with the same recombinant strain, suggesting that there may be further cases than are currently reported.\r\n\r\nBoth cases had similar clinical presentation to that observed for other clades. Neither patient experienced severe outcomes. Contact tracing for both cases in the reporting countries has been completed; no secondary cases were detected. \r\nBased on available information, the overall WHO public health risk assessment for mpox remains unchanged: the risk is assessed as moderate for men who have sex with men with new and/or multiple partners and for sex workers or others with multiple casual sexual partners, and low for the general population without specific risk factors.",
+              "published_at": "2026-02-14T14:07:30Z",
+              "link": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON595"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+            "content_type": "application/json",
+            "elapsed_ms": 153,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "title=Title",
+                  "summary=replace(Summary, \"<[^>]+>\", \"\")",
+                  "published_at=PublicationDate",
+                  "link=\"https://www.who.int/emergencies/disease-outbreak-news/item/\" + UrlName"
+                ],
+                "drop": [
+                  "Title",
+                  "Summary"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "UrlName",
+                "namespace": "disease-outbreaks",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON595"
+    },
+    {
+      "id": "027b25c29a4df4d70e6f",
+      "title": "Nipah virus infection - Bangladesh",
+      "content_text": "On 3 February 2026, the International Health Regulations National Focal Point (IHR NFP) for Bangladesh notified WHO of one confirmed case of Nipah virus (NiV) infection in Rajshahi Division. The patient developed fever and neurological symptoms on 21 January. Nipah virus infection was laboratory-confirmed on 29 January. The patient reported no travel history but had a history of consuming raw date palm sap. All 35 contact-persons are being monitored and have tested negative for NiV and no…",
+      "date_published": "2026-02-06T21:43:10Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "027b25c29a4df4d70e6f",
+          "source": "web",
+          "type": "change",
+          "key": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary#2026-DON594",
+          "source_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:36Z",
+          "data": {
+            "change": "added",
+            "label": "Nipah virus infection - Bangladesh",
+            "item_type": "record",
+            "summary": "added: Nipah virus infection - Bangladesh",
+            "after": {
+              "PublicationDate": "2026-02-06T21:43:10Z",
+              "UrlName": "2026-DON594",
+              "title": "Nipah virus infection - Bangladesh",
+              "summary": "On 3 February 2026, the International Health Regulations National Focal Point (IHR NFP) for Bangladesh notified WHO of one confirmed case of Nipah virus (NiV) infection in Rajshahi Division. The patient developed fever and neurological symptoms on 21 January. Nipah virus infection was laboratory-confirmed on 29 January. The patient reported no travel history but had a history of consuming raw date palm sap. All 35 contact-persons are being monitored and have tested negative for NiV and no further cases have been detected to date.\r\n\r\nBangladesh regularly has small NiV outbreaks, with cases reported at different times of the year, though outbreaks tend to occur between December and April corresponding with the harvesting and consumption of date palm sap.\r\n\r\nThe Ministry of Health and Family Welfare in Bangladesh has implemented several public health measures. WHO assesses the overall public health risk posed by NiV to be low at the national, the regional and global level. The risk of international disease spread is considered low. ",
+              "published_at": "2026-02-06T21:43:10Z",
+              "link": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON594"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+            "content_type": "application/json",
+            "elapsed_ms": 153,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "title=Title",
+                  "summary=replace(Summary, \"<[^>]+>\", \"\")",
+                  "published_at=PublicationDate",
+                  "link=\"https://www.who.int/emergencies/disease-outbreak-news/item/\" + UrlName"
+                ],
+                "drop": [
+                  "Title",
+                  "Summary"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "UrlName",
+                "namespace": "disease-outbreaks",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON594"
+    },
+    {
+      "id": "b81f395e5a1d1e67b425",
+      "title": "Nipah virus disease - India",
+      "content_text": "On 26 January 2026, the National IHR Focal Point for India notified WHO of two laboratory‑confirmed cases of Nipah virus (NiV) infection in West Bengal State. Both are healthcare workers at the same private hospital in Barasat (North 24 Parganas district). NiV infection was confirmed at the National Institute of Virology in Pune on 13 January. One case remains on mechanical ventilation as of 21 January, the other case experienced severe neurological illness but has since improved…",
+      "date_published": "2026-01-30T16:32:57Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "b81f395e5a1d1e67b425",
+          "source": "web",
+          "type": "change",
+          "key": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary#2026-DON593",
+          "source_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:36Z",
+          "data": {
+            "change": "added",
+            "label": "Nipah virus disease - India",
+            "item_type": "record",
+            "summary": "added: Nipah virus disease - India",
+            "after": {
+              "PublicationDate": "2026-01-30T16:32:57Z",
+              "UrlName": "2026-DON593",
+              "title": "Nipah virus disease - India",
+              "summary": "On 26 January 2026, the National IHR Focal Point for India notified WHO of two laboratory‑confirmed cases of Nipah virus (NiV) infection in West Bengal State. Both are healthcare workers at the same private hospital in Barasat (North 24 Parganas district). NiV infection was confirmed at the National Institute of Virology in Pune on 13 January. One case remains on mechanical ventilation as of 21 January, the other case experienced severe neurological illness but has since improved. \r\n\r\nAuthorities have identified and tested over 190 contacts, who all tested negative for NiV with support from a mobile BSL‑3 laboratory deployed by the National Institute of Virology, Pune. No further cases have been detected to date.\r\n\r\nThis event represents the third NiV infection outbreak reported in West Bengal (previous outbreaks reported in Siliguri in 2001 and Nadia in 2007). Enhanced surveillance and infection prevention and control (IPC) measures are in place while investigations into the source of exposure are ongoing. \r\n\r\nNiV infection is a serious but rare zoonotic disease transmitted to humans through infected animals (such as bats), or food contaminated with saliva, urine, and excreta of infected animals. It can also be transmitted directly from person to person through close contact with an infected person. There are currently no licensed medicines or vaccines for NiV infection, however early supportive care can improve survival. \r\n\r\nWHO assesses the risk posed by Nipah to be moderate at the sub-national level, and low at the national, the regional and global levels. ",
+              "published_at": "2026-01-30T16:32:57Z",
+              "link": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON593"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+            "content_type": "application/json",
+            "elapsed_ms": 153,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "title=Title",
+                  "summary=replace(Summary, \"<[^>]+>\", \"\")",
+                  "published_at=PublicationDate",
+                  "link=\"https://www.who.int/emergencies/disease-outbreak-news/item/\" + UrlName"
+                ],
+                "drop": [
+                  "Title",
+                  "Summary"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "UrlName",
+                "namespace": "disease-outbreaks",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON593"
+    },
+    {
+      "id": "404d08a36162a9c30482",
+      "title": "Marburg virus disease- Ethiopia",
+      "content_text": "On 26 January 2026, the Ministry of Health of Ethiopia declared the end of the Marburg virus disease (MVD) outbreak. This declaration came after two consecutive incubation periods (a total of 42 days) since the last person confirmed with MVD died and was given a safe and dignified burial, in accordance with WHO recommendations on 14 December 2025. As of 25 January 2026, a cumulative total of 19 cases, including 14 confirmed (including nine deaths) and five probable cases (all deaths), were…",
+      "date_published": "2026-01-26T17:02:50Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "404d08a36162a9c30482",
+          "source": "web",
+          "type": "change",
+          "key": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary#2026-DON592",
+          "source_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:36Z",
+          "data": {
+            "change": "added",
+            "label": "Marburg virus disease- Ethiopia",
+            "item_type": "record",
+            "summary": "added: Marburg virus disease- Ethiopia",
+            "after": {
+              "PublicationDate": "2026-01-26T17:02:50Z",
+              "UrlName": "2026-DON592",
+              "title": "Marburg virus disease- Ethiopia",
+              "summary": "On 26 January 2026, the Ministry of Health of Ethiopia declared the end of the Marburg virus disease (MVD) outbreak. This declaration came after two consecutive incubation periods (a total of 42 days) since the last person confirmed with MVD died and was given a safe and dignified burial, in accordance with WHO recommendations on 14 December 2025. As of 25 January 2026, a cumulative total of 19 cases, including 14 confirmed (including nine deaths) and five probable cases (all deaths), were reported. \r\nA total of 857 contacts listed for monitoring all had completed their 21-day follow-up as of 25 January 2026.\r\n\r\nWHO, through its country office and partners, provided technical, operational and financial support to the government to contain this outbreak. ",
+              "published_at": "2026-01-26T17:02:50Z",
+              "link": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON592"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+            "content_type": "application/json",
+            "elapsed_ms": 153,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "title=Title",
+                  "summary=replace(Summary, \"<[^>]+>\", \"\")",
+                  "published_at=PublicationDate",
+                  "link=\"https://www.who.int/emergencies/disease-outbreak-news/item/\" + UrlName"
+                ],
+                "drop": [
+                  "Title",
+                  "Summary"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "UrlName",
+                "namespace": "disease-outbreaks",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON592"
+    },
+    {
+      "id": "ddd679c8c28de53c8f92",
+      "title": "Middle East respiratory syndrome coronavirus - Global update",
+      "content_text": "Since the beginning of 2025 and as of 21 December 2025, a total of 19 cases of Middle East respiratory syndrome coronavirus (MERS- CoV), including four deaths have been reported to WHO globally. Of the 19 cases, 17 were reported by the Kingdom of Saudi Arabia (KSA), and two were reported from France.\r\nBetween 4 June and 21 December 2025, the Ministry of Health (MoH) of KSA reported a total of seven cases of MERS-CoV infection, including two deaths. In addition, at the beginning of December…",
+      "date_published": "2025-12-24T09:19:23Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ddd679c8c28de53c8f92",
+          "source": "web",
+          "type": "change",
+          "key": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary#2025-DON591",
+          "source_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:36Z",
+          "data": {
+            "change": "added",
+            "label": "Middle East respiratory syndrome coronavirus - Global update",
+            "item_type": "record",
+            "summary": "added: Middle East respiratory syndrome coronavirus - Global update",
+            "after": {
+              "PublicationDate": "2025-12-24T09:19:23Z",
+              "UrlName": "2025-DON591",
+              "title": "Middle East respiratory syndrome coronavirus - Global update",
+              "summary": "Since the beginning of 2025 and as of 21 December 2025, a total of 19 cases of Middle East respiratory syndrome coronavirus (MERS- CoV), including four deaths have been reported to WHO globally. Of the 19 cases, 17 were reported by the Kingdom of Saudi Arabia (KSA), and two were reported from France.\r\nBetween 4 June and 21 December 2025, the Ministry of Health (MoH) of KSA reported a total of seven cases of MERS-CoV infection, including two deaths. In addition, at the beginning of December 2025, the National IHR Focal Point (IHR NFP) for France also reported two MERS-CoV travel – associated cases; involving individuals with recent travel to countries in the Arabian Peninsula.\r\nThe notification of these latest cases does not change the overall risk assessment, which remains moderate at both the global and regional levels. These cases show that the virus continues to pose a threat in countries where it is circulating in dromedary camels, with regular spillover into the human population. WHO recommends implementation of targeted infection, prevention and control (IPC) measures to prevent the spread of health care-associated infections of MERS-CoV and onward human transmission.",
+              "published_at": "2025-12-24T09:19:23Z",
+              "link": "https://www.who.int/emergencies/disease-outbreak-news/item/2025-DON591"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+            "content_type": "application/json",
+            "elapsed_ms": 153,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "title=Title",
+                  "summary=replace(Summary, \"<[^>]+>\", \"\")",
+                  "published_at=PublicationDate",
+                  "link=\"https://www.who.int/emergencies/disease-outbreak-news/item/\" + UrlName"
+                ],
+                "drop": [
+                  "Title",
+                  "Summary"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "UrlName",
+                "namespace": "disease-outbreaks",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2025-DON591"
+    },
+    {
+      "id": "97b58dc9082f2273dcda",
+      "title": "Seasonal influenza - Global situation",
+      "content_text": "Seasonal influenza (‘the flu’) is an acute respiratory infection caused by influenza viruses that circulate globally and year-round. It can cause illness ranging from mild to severe, sometimes resulting in hospitalization or death.  Seasonal influenza activity has increased globally in recent months, with an increased proportion of seasonal influenza A(H3N2) viruses being detected. This rise coincides with the onset of winter in the northern hemisphere and an increase in acute respiratory…",
+      "date_published": "2025-12-10T19:54:36Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "97b58dc9082f2273dcda",
+          "source": "web",
+          "type": "change",
+          "key": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary#2025-DON586",
+          "source_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:36Z",
+          "data": {
+            "change": "added",
+            "label": "Seasonal influenza - Global situation",
+            "item_type": "record",
+            "summary": "added: Seasonal influenza - Global situation",
+            "after": {
+              "PublicationDate": "2025-12-10T19:54:36Z",
+              "UrlName": "2025-DON586",
+              "title": "Seasonal influenza - Global situation",
+              "summary": "Seasonal influenza (‘the flu’) is an acute respiratory infection caused by influenza viruses that circulate globally and year-round. It can cause illness ranging from mild to severe, sometimes resulting in hospitalization or death.  Seasonal influenza activity has increased globally in recent months, with an increased proportion of seasonal influenza A(H3N2) viruses being detected. This rise coincides with the onset of winter in the northern hemisphere and an increase in acute respiratory infections caused by influenza and other respiratory viruses typically observed at this time of year. Although global activity remains within expected seasonal ranges, early increases and higher activity than typical at this time of year have been observed in some regions.\r\nSeasonal influenza viruses, including A(H3N2) viruses, continually evolve over time. Since August 2025, there has been a rapid increase of A(H3N2) J.2.4.1 alias K subclade viruses detected from several countries based on available genetic sequence data. These subclade K viruses have several changes from related A(H3N2) viruses. Current epidemiological data do not indicate an increase in disease severity, although this subclade marks a notable evolution in influenza A(H3N2) viruses.\r\nEarly estimates suggest that the influenza vaccine continues to provide protection against hospital attendance in both children and adults, even though its effectiveness against clinical disease during the current season remains uncertain. Vaccines remain essential, especially for people at high risk of influenza complications and their care givers. Even if there are some genetic differences between the circulating influenza viruses and the strains included in the vaccines, the seasonal influenza vaccine may still provide protection against drifted viruses and the other virus strains included in the vaccine. Vaccination is still expected to protect against severe illness and remains one of the most effective public health measures. \r\nWHO continues to monitor global influenza activity and influenza viruses, supports countries in surveillance capacity and updates guidance as needed. ",
+              "published_at": "2025-12-10T19:54:36Z",
+              "link": "https://www.who.int/emergencies/disease-outbreak-news/item/2025-DON586"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+            "content_type": "application/json",
+            "elapsed_ms": 153,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "title=Title",
+                  "summary=replace(Summary, \"<[^>]+>\", \"\")",
+                  "published_at=PublicationDate",
+                  "link=\"https://www.who.int/emergencies/disease-outbreak-news/item/\" + UrlName"
+                ],
+                "drop": [
+                  "Title",
+                  "Summary"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "UrlName",
+                "namespace": "disease-outbreaks",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2025-DON586"
+    },
+    {
+      "id": "ea728735f4a0064b2a7b",
+      "title": "Broader transmission of mpox due to clade Ib MPXV – Global situation",
+      "content_text": "The purpose of this report is to raise awareness about the local transmission of clade Ib monkeypox virus (MPXV) among men who have sex with men (MSM) in countries previously unaffected or to date reporting only cases linked to travel. This report summarizes recent epidemiological developments, response activities, and the associated global public health risk.\r\n\r\nThe second declaration of a public health emergency of international concern (PHEIC) for mpox was lifted on 5 September 2025. As both…",
+      "date_published": "2025-12-05T17:52:36Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ea728735f4a0064b2a7b",
+          "source": "web",
+          "type": "change",
+          "key": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary#2025-DON587",
+          "source_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:36Z",
+          "data": {
+            "change": "added",
+            "label": "Broader transmission of mpox due to clade Ib MPXV – Global situation",
+            "item_type": "record",
+            "summary": "added: Broader transmission of mpox due to clade Ib MPXV – Global situation",
+            "after": {
+              "PublicationDate": "2025-12-05T17:52:36Z",
+              "UrlName": "2025-DON587",
+              "title": "Broader transmission of mpox due to clade Ib MPXV – Global situation",
+              "summary": "The purpose of this report is to raise awareness about the local transmission of clade Ib monkeypox virus (MPXV) among men who have sex with men (MSM) in countries previously unaffected or to date reporting only cases linked to travel. This report summarizes recent epidemiological developments, response activities, and the associated global public health risk.\r\n\r\nThe second declaration of a public health emergency of international concern (PHEIC) for mpox was lifted on 5 September 2025. As both MPXV clades I and II and their subclades continue to circulate globally, leading to substantial outbreaks in African countries, WHO continues to advise emergency preparedness and response activities. Multiple modes of transmission underlie ongoing virus circulation, with sexual contact remaining the primary amplifier of transmission in most settings.\r\n\r\nSince 5 September 2025, several countries across four of six WHO regions have confirmed clade Ib MPXV infection in individuals with no recent travel reported (WHO African Region, Region of the Americas, the European Region and the Western Pacific Region), most of which are being detected among men who have sex with men,  suggesting local transmission, particularly given that infections often manifest with few or no symptoms (paucisymptomatic or asymptomatic cases) leading to undetected onward transmission. \r\n\r\nOverall, the surveillance data in most countries is sufficient to detect and respond effectively to mpox outbreaks. However, thorough epidemiological investigation, contact tracing and implementation of public health interventions to control spread remain challenging. Mpox is known to resolve on its own over two to four weeks in most cases. However, timely access to quality healthcare is essential to identify, prevent and manage secondary bacterial infections and other complications. Individuals living with immune suppressive conditions remain at high risk of more severe mpox disease and death, most notably people living with undetected and/or untreated, uncontrolled human immunodeficiency virus (HIV) infection. Men who have sex with men with new and/or multiple partners remain at increased risk of clade Ib and also IIb MPXV infection. WHO assesses the public health risk posed by clade Ib MPXV to men who have sex with men as moderate and the risk to the general population as low in most countries.\r\n",
+              "published_at": "2025-12-05T17:52:36Z",
+              "link": "https://www.who.int/emergencies/disease-outbreak-news/item/2025-DON587"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.who.int/api/news/diseaseoutbreaknews?$orderby=PublicationDate%20desc&$top=30&$select=Title,PublicationDate,UrlName,Summary",
+            "content_type": "application/json",
+            "elapsed_ms": 153,
+            "not_modified": false,
+            "method": "json"
+          },
+          "provenance": [
+            {
+              "step": "web",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "title=Title",
+                  "summary=replace(Summary, \"<[^>]+>\", \"\")",
+                  "published_at=PublicationDate",
+                  "link=\"https://www.who.int/emergencies/disease-outbreak-news/item/\" + UrlName"
+                ],
+                "drop": [
+                  "Title",
+                  "Summary"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "key": "UrlName",
+                "namespace": "disease-outbreaks",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2025-DON587"
+    }
+  ]
+}

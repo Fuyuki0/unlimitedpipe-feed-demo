@@ -1,13 +1,1439 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "World headlines (BBC, NPR, Al Jazeera)",
-  "home_page_url": "https://www.aljazeera.com/xml/rss/all.xml",
+  "home_page_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
   "description": "Events collected by UnlimitedPipe 0.3.2",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
     "generator": "UnlimitedPipe 0.3.2"
   },
   "items": [
+    {
+      "id": "019ffc68e31c8cf5f404",
+      "title": "OpenAI investigating 'dozens' of instances of agents acting improperly",
+      "content_text": "OpenAI agents tried to get information from \"governments, universities, public agencies, and other institutions\" through extreme means that sometimes curbed security controls, the company said.",
+      "date_published": "2026-09-26T00:09:45Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "019ffc68e31c8cf5f404",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/cw62jje658dlo#0",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:26:24Z",
+          "data": {
+            "change": "added",
+            "label": "OpenAI investigating 'dozens' of instances of agents acting improperly",
+            "item_type": "entry",
+            "summary": "added: OpenAI investigating 'dozens' of instances of agents acting improperly",
+            "after": {
+              "title": "OpenAI investigating 'dozens' of instances of agents acting improperly",
+              "link": "https://www.bbc.co.uk/news/articles/cw62jje658dlo?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/cw62jje658dlo#0",
+              "author": null,
+              "published_at": "2026-09-26T00:09:45Z",
+              "updated_at": "2026-09-26T00:09:45Z",
+              "summary": "OpenAI agents tried to get information from \"governments, universities, public agencies, and other institutions\" through extreme means that sometimes curbed security controls, the company said.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 245,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/cw62jje658dlo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "77375c5a485be9952cdd",
+      "title": "Iran war live: Tehran offers US plan to reopen Hormuz within seven days",
+      "content_text": "Iran's FM says the \"choice rests with the US\" to approve the proposed seven-day proposal to reopen Hormuz.",
+      "date_published": "2026-09-26T00:00:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "77375c5a485be9952cdd",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790375448",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:26:24Z",
+          "data": {
+            "change": "added",
+            "label": "Iran war live: Tehran offers US plan to reopen Hormuz within seven days",
+            "item_type": "entry",
+            "summary": "added: Iran war live: Tehran offers US plan to reopen Hormuz within seven days",
+            "after": {
+              "title": "Iran war live: Tehran offers US plan to reopen Hormuz within seven days",
+              "link": "https://www.aljazeera.com/news/liveblog/2026/9/26/iran-war-live-tehran-offers-us-plan-to-reopen-hormuz-within-seven-days?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790375448",
+              "author": null,
+              "published_at": "2026-09-26T00:00:00Z",
+              "updated_at": "2026-09-26T00:00:00Z",
+              "summary": "Iran's FM says the \"choice rests with the US\" to approve the proposed seven-day proposal to reopen Hormuz.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 113,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/news/liveblog/2026/9/26/iran-war-live-tehran-offers-us-plan-to-reopen-hormuz-within-seven-days?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "014912c007032b3f5539",
+      "title": "US court rules against Kalshi, says states can regulate prediction markets",
+      "content_text": "US appeals courts have varied on regulation of prediction markets, opening the door to US Supreme Court debate.",
+      "date_published": "2026-09-25T23:56:46Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "014912c007032b3f5539",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790374665",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:26:24Z",
+          "data": {
+            "change": "added",
+            "label": "US court rules against Kalshi, says states can regulate prediction markets",
+            "item_type": "entry",
+            "summary": "added: US court rules against Kalshi, says states can regulate prediction markets",
+            "after": {
+              "title": "US court rules against Kalshi, says states can regulate prediction markets",
+              "link": "https://www.aljazeera.com/news/2026/9/25/us-court-rules-against-kalshi-says-states-can-regulate-prediction-markets?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790374665",
+              "author": null,
+              "published_at": "2026-09-25T23:56:46Z",
+              "updated_at": "2026-09-25T23:56:46Z",
+              "summary": "US appeals courts have varied on regulation of prediction markets, opening the door to US Supreme Court debate.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 113,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/news/2026/9/25/us-court-rules-against-kalshi-says-states-can-regulate-prediction-markets?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "c82d4a1a3025ea4704f5",
+      "title": "Iran says it awaits US response on seven-day roadmap to end war",
+      "content_text": "Tehran says the plan would reopen the Strait of Hormuz and resume nuclear talks within a week if Washington agrees.",
+      "date_published": "2026-09-25T23:52:18Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c82d4a1a3025ea4704f5",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.aljazeera.com/?t=1790372606",
+          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:26:24Z",
+          "data": {
+            "change": "added",
+            "label": "Iran says it awaits US response on seven-day roadmap to end war",
+            "item_type": "entry",
+            "summary": "added: Iran says it awaits US response on seven-day roadmap to end war",
+            "after": {
+              "title": "Iran says it awaits US response on seven-day roadmap to end war",
+              "link": "https://www.aljazeera.com/news/2026/9/25/iran-says-it-awaits-us-response-on-seven-day-roadmap-to-end-war?traffic_source=rss",
+              "id": "https://www.aljazeera.com/?t=1790372606",
+              "author": null,
+              "published_at": "2026-09-25T23:52:18Z",
+              "updated_at": "2026-09-25T23:52:18Z",
+              "summary": "Tehran says the plan would reopen the Strait of Hormuz and resume nuclear talks within a week if Washington agrees.",
+              "categories": [
+                "News"
+              ],
+              "feed": {
+                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
+                "url": "https://www.aljazeera.com",
+                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
+            "elapsed_ms": 113,
+            "not_modified": true,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.aljazeera.com/news/2026/9/25/iran-says-it-awaits-us-response-on-seven-day-roadmap-to-end-war?traffic_source=rss",
+      "tags": [
+        "News"
+      ]
+    },
+    {
+      "id": "7c2cb9f7da168aadde96",
+      "title": "Are Ethiopians marching back to war in Tigray?",
+      "content_text": "Exploring the issues behind the escalation of tensions between the TPLF and the national army.",
+      "date_published": "2026-09-25T23:42:39Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "7c2cb9f7da168aadde96",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/c6d94wywx0ypo#2",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:26:24Z",
+          "data": {
+            "change": "added",
+            "label": "Are Ethiopians marching back to war in Tigray?",
+            "item_type": "entry",
+            "summary": "added: Are Ethiopians marching back to war in Tigray?",
+            "after": {
+              "title": "Are Ethiopians marching back to war in Tigray?",
+              "link": "https://www.bbc.co.uk/news/articles/c6d94wywx0ypo?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/c6d94wywx0ypo#2",
+              "author": null,
+              "published_at": "2026-09-25T23:42:39Z",
+              "updated_at": "2026-09-25T23:42:39Z",
+              "summary": "Exploring the issues behind the escalation of tensions between the TPLF and the national army.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 245,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/c6d94wywx0ypo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "c8fe6867fa95f8901cb9",
+      "title": "Iran offers US deal to reopen Strait of Hormuz in seven days",
+      "content_text": "Asked about the Iranian offer, a US official told the BBC \"constructive discussions\" were taking place through mediators.",
+      "date_published": "2026-09-25T23:38:48Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "c8fe6867fa95f8901cb9",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko#0",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:26:24Z",
+          "data": {
+            "change": "added",
+            "label": "Iran offers US deal to reopen Strait of Hormuz in seven days",
+            "item_type": "entry",
+            "summary": "added: Iran offers US deal to reopen Strait of Hormuz in seven days",
+            "after": {
+              "title": "Iran offers US deal to reopen Strait of Hormuz in seven days",
+              "link": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko#0",
+              "author": null,
+              "published_at": "2026-09-25T23:38:48Z",
+              "updated_at": "2026-09-25T23:38:48Z",
+              "summary": "Asked about the Iranian offer, a US official told the BBC \"constructive discussions\" were taking place through mediators.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 245,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "6937514e54c20ebfc276",
+      "title": "South African white genocide does not exist, new ambassador to US tells BBC",
+      "content_text": "Roelf Meyer tells the BBC that being a white Afrikaner gives him legitimacy to challenge Trump's claim of a genocide.",
+      "date_published": "2026-09-25T23:20:48Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "6937514e54c20ebfc276",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/cm2l8qv7zppko#0",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:26:24Z",
+          "data": {
+            "change": "added",
+            "label": "South African white genocide does not exist, new ambassador to US tells BBC",
+            "item_type": "entry",
+            "summary": "added: South African white genocide does not exist, new ambassador to US tells BBC",
+            "after": {
+              "title": "South African white genocide does not exist, new ambassador to US tells BBC",
+              "link": "https://www.bbc.co.uk/news/articles/cm2l8qv7zppko?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/cm2l8qv7zppko#0",
+              "author": null,
+              "published_at": "2026-09-25T23:20:48Z",
+              "updated_at": "2026-09-25T23:20:48Z",
+              "summary": "Roelf Meyer tells the BBC that being a white Afrikaner gives him legitimacy to challenge Trump's claim of a genocide.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 245,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/cm2l8qv7zppko?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "7a1dca88bde0c0d83e55",
+      "title": "As Merz scrambles for support, Germany's identity crisis is laid bare",
+      "content_text": "Voters are turning away from the centre in Germany as fears grow about the economy and migration.",
+      "date_published": "2026-09-25T23:08:02Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "7a1dca88bde0c0d83e55",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/cmx2zlqeje9zo#2",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:26:24Z",
+          "data": {
+            "change": "added",
+            "label": "As Merz scrambles for support, Germany's identity crisis is laid bare",
+            "item_type": "entry",
+            "summary": "added: As Merz scrambles for support, Germany's identity crisis is laid bare",
+            "after": {
+              "title": "As Merz scrambles for support, Germany's identity crisis is laid bare",
+              "link": "https://www.bbc.co.uk/news/articles/cmx2zlqeje9zo?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/cmx2zlqeje9zo#2",
+              "author": null,
+              "published_at": "2026-09-25T23:08:02Z",
+              "updated_at": "2026-09-25T23:08:02Z",
+              "summary": "Voters are turning away from the centre in Germany as fears grow about the economy and migration.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 245,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/cmx2zlqeje9zo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "2c34820d62d4a2f76c93",
+      "title": "Inside the FBI hack: Agents fearful and angry after 'dangerous' data breach",
+      "content_text": "Current and former agents speak to the BBC about the devastating impact of the FBI hack.",
+      "date_published": "2026-09-25T23:05:40Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "2c34820d62d4a2f76c93",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/cm4gjjlgzdjgo#0",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:26:24Z",
+          "data": {
+            "change": "added",
+            "label": "Inside the FBI hack: Agents fearful and angry after 'dangerous' data breach",
+            "item_type": "entry",
+            "summary": "added: Inside the FBI hack: Agents fearful and angry after 'dangerous' data breach",
+            "after": {
+              "title": "Inside the FBI hack: Agents fearful and angry after 'dangerous' data breach",
+              "link": "https://www.bbc.co.uk/news/articles/cm4gjjlgzdjgo?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/cm4gjjlgzdjgo#0",
+              "author": null,
+              "published_at": "2026-09-25T23:05:40Z",
+              "updated_at": "2026-09-25T23:05:40Z",
+              "summary": "Current and former agents speak to the BBC about the devastating impact of the FBI hack.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 245,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/cm4gjjlgzdjgo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "4d7fde4cbecf9486b48d",
+      "title": "The treasured 'eternal snow' on this tropical island is about to disappear forever",
+      "content_text": "Climate change is transforming Papua's snowy peaks, which hold scientific value and spiritual significance.",
+      "date_published": "2026-09-25T22:12:48Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "4d7fde4cbecf9486b48d",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/cm5ydvww0erdo#2",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:26:24Z",
+          "data": {
+            "change": "added",
+            "label": "The treasured 'eternal snow' on this tropical island is about to disappear forever",
+            "item_type": "entry",
+            "summary": "added: The treasured 'eternal snow' on this tropical island is about to disappear forever",
+            "after": {
+              "title": "The treasured 'eternal snow' on this tropical island is about to disappear forever",
+              "link": "https://www.bbc.co.uk/news/articles/cm5ydvww0erdo?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/cm5ydvww0erdo#2",
+              "author": null,
+              "published_at": "2026-09-25T22:12:48Z",
+              "updated_at": "2026-09-25T22:12:48Z",
+              "summary": "Climate change is transforming Papua's snowy peaks, which hold scientific value and spiritual significance.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 245,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/cm5ydvww0erdo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "51d71a9f8142e28dcf22",
+      "title": "Black woman found hanging from tree was dead before body was 'staged', police say",
+      "content_text": "Tasia Fortune's body was found hanging from a tree on the grounds of an abandoned home in Jackson in August.",
+      "date_published": "2026-09-25T21:16:59Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "51d71a9f8142e28dcf22",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/cwp933nzpp9ro#0",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:26:24Z",
+          "data": {
+            "change": "added",
+            "label": "Black woman found hanging from tree was dead before body was 'staged', police say",
+            "item_type": "entry",
+            "summary": "added: Black woman found hanging from tree was dead before body was 'staged', police say",
+            "after": {
+              "title": "Black woman found hanging from tree was dead before body was 'staged', police say",
+              "link": "https://www.bbc.co.uk/news/articles/cwp933nzpp9ro?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/cwp933nzpp9ro#0",
+              "author": null,
+              "published_at": "2026-09-25T21:16:59Z",
+              "updated_at": "2026-09-25T21:16:59Z",
+              "summary": "Tasia Fortune's body was found hanging from a tree on the grounds of an abandoned home in Jackson in August.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 245,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/cwp933nzpp9ro?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "ae711848d5d01105f9eb",
+      "title": "Supreme Court allows Trump to use controversial database to check voter citizenship",
+      "content_text": "Critics have questioned the reliability of the data, warning it could result in US citizens being wrongly removed from electoral rolls.",
+      "date_published": "2026-09-25T19:13:35Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ae711848d5d01105f9eb",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/ck05rrj3jeylo#1",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:26:24Z",
+          "data": {
+            "change": "added",
+            "label": "Supreme Court allows Trump to use controversial database to check voter citizenship",
+            "item_type": "entry",
+            "summary": "added: Supreme Court allows Trump to use controversial database to check voter citizenship",
+            "after": {
+              "title": "Supreme Court allows Trump to use controversial database to check voter citizenship",
+              "link": "https://www.bbc.co.uk/news/articles/ck05rrj3jeylo?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/ck05rrj3jeylo#1",
+              "author": null,
+              "published_at": "2026-09-25T19:13:35Z",
+              "updated_at": "2026-09-25T19:13:35Z",
+              "summary": "Critics have questioned the reliability of the data, warning it could result in US citizens being wrongly removed from electoral rolls.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 245,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/ck05rrj3jeylo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "fc4bf33b11ff6a72fb26",
+      "title": "Trump's plans for massive arch move ahead",
+      "content_text": "Opposition to building the 250-foot arch, and using it for military purposes, is growing with one Democrat blasting Trump's plans as \"foolhardy\".",
+      "date_published": "2026-09-25T18:27:46Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "fc4bf33b11ff6a72fb26",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/cq0lrr8kxy0lo#1",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:26:24Z",
+          "data": {
+            "change": "added",
+            "label": "Trump's plans for massive arch move ahead",
+            "item_type": "entry",
+            "summary": "added: Trump's plans for massive arch move ahead",
+            "after": {
+              "title": "Trump's plans for massive arch move ahead",
+              "link": "https://www.bbc.co.uk/news/articles/cq0lrr8kxy0lo?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/cq0lrr8kxy0lo#1",
+              "author": null,
+              "published_at": "2026-09-25T18:27:46Z",
+              "updated_at": "2026-09-25T18:27:46Z",
+              "summary": "Opposition to building the 250-foot arch, and using it for military purposes, is growing with one Democrat blasting Trump's plans as \"foolhardy\".",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 245,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/cq0lrr8kxy0lo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "67335102397345ecb147",
+      "title": "Two arrested after people seen mysteriously emerging from various New York City sewers",
+      "content_text": "The city has seen a string of incidents in which people have climbed out of manholes late at night.",
+      "date_published": "2026-09-25T17:59:03Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "67335102397345ecb147",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/cwddvv44091vo#1",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:26:24Z",
+          "data": {
+            "change": "added",
+            "label": "Two arrested after people seen mysteriously emerging from various New York City sewers",
+            "item_type": "entry",
+            "summary": "added: Two arrested after people seen mysteriously emerging from various New York City sewers",
+            "after": {
+              "title": "Two arrested after people seen mysteriously emerging from various New York City sewers",
+              "link": "https://www.bbc.co.uk/news/articles/cwddvv44091vo?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/cwddvv44091vo#1",
+              "author": null,
+              "published_at": "2026-09-25T17:59:03Z",
+              "updated_at": "2026-09-25T17:59:03Z",
+              "summary": "The city has seen a string of incidents in which people have climbed out of manholes late at night.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 245,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/cwddvv44091vo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "ffe04ab490ce13a13a8f",
+      "title": "Thousands turn out to greet Pope in France",
+      "content_text": "The BBC's Hugh Schofield looks at why the visit is met with enthusiasm the Church attributes to growing spirituality among the French.",
+      "date_published": "2026-09-25T15:44:55Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "ffe04ab490ce13a13a8f",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/videos/cq14d142p08do#3",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:26:24Z",
+          "data": {
+            "change": "added",
+            "label": "Thousands turn out to greet Pope in France",
+            "item_type": "entry",
+            "summary": "added: Thousands turn out to greet Pope in France",
+            "after": {
+              "title": "Thousands turn out to greet Pope in France",
+              "link": "https://www.bbc.co.uk/news/videos/cq14d142p08do?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/videos/cq14d142p08do#3",
+              "author": null,
+              "published_at": "2026-09-25T15:44:55Z",
+              "updated_at": "2026-09-25T15:44:55Z",
+              "summary": "The BBC's Hugh Schofield looks at why the visit is met with enthusiasm the Church attributes to growing spirituality among the French.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 245,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/videos/cq14d142p08do?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "9da9b61f4ea9f6c520d4",
+      "title": "Students strike across Germany in protest against military service",
+      "content_text": "A law establishing voluntary military service came into effect in January, but protest organisers fear compulsory service could follow.",
+      "date_published": "2026-09-25T15:36:22Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "9da9b61f4ea9f6c520d4",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/cxnvlnve52qdo#1",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:26:24Z",
+          "data": {
+            "change": "added",
+            "label": "Students strike across Germany in protest against military service",
+            "item_type": "entry",
+            "summary": "added: Students strike across Germany in protest against military service",
+            "after": {
+              "title": "Students strike across Germany in protest against military service",
+              "link": "https://www.bbc.co.uk/news/articles/cxnvlnve52qdo?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/cxnvlnve52qdo#1",
+              "author": null,
+              "published_at": "2026-09-25T15:36:22Z",
+              "updated_at": "2026-09-25T15:36:22Z",
+              "summary": "A law establishing voluntary military service came into effect in January, but protest organisers fear compulsory service could follow.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 245,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/cxnvlnve52qdo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "id": "6495baf94b06c5663892",
+      "title": "Man shot during 2024 Trump campaign rally in Butler dies",
+      "content_text": "A gunman shot Jim Copenhaver twice while also killing another man and grazing Trump's ear with a bullet.",
+      "date_published": "2026-09-25T13:23:33Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "6495baf94b06c5663892",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.bbc.co.uk/news/articles/c5dj401d88l3o#1",
+          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:26:24Z",
+          "data": {
+            "change": "added",
+            "label": "Man shot during 2024 Trump campaign rally in Butler dies",
+            "item_type": "entry",
+            "summary": "added: Man shot during 2024 Trump campaign rally in Butler dies",
+            "after": {
+              "title": "Man shot during 2024 Trump campaign rally in Butler dies",
+              "link": "https://www.bbc.co.uk/news/articles/c5dj401d88l3o?at_medium=RSS&at_campaign=rss",
+              "id": "https://www.bbc.co.uk/news/articles/c5dj401d88l3o#1",
+              "author": null,
+              "published_at": "2026-09-25T13:23:33Z",
+              "updated_at": "2026-09-25T13:23:33Z",
+              "summary": "A gunman shot Jim Copenhaver twice while also killing another man and grazing Trump's ear with a bullet.",
+              "categories": [],
+              "feed": {
+                "title": "BBC News",
+                "url": "https://www.bbc.co.uk/news/world",
+                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
+              }
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
+            "elapsed_ms": 245,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "world-headlines",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.bbc.co.uk/news/articles/c5dj401d88l3o?at_medium=RSS&at_campaign=rss"
+    },
     {
       "id": "1c619b31587e7b37d63b",
       "title": "Pope Leo XIV warns AI could undermine humanity during France visit",
@@ -11486,1477 +12912,6 @@
       "tags": [
         "News"
       ]
-    },
-    {
-      "id": "8553b963a9d64682a707",
-      "title": "Hundreds of thousands expected in Paris for Pope's visit",
-      "content_text": "The highpoint of his time in Paris will be a giant Mass attended by more than half a million people.",
-      "date_published": "2026-09-24T23:17:00Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "8553b963a9d64682a707",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.bbc.co.uk/news/articles/cmq8j904212po#0",
-          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T00:58:30Z",
-          "data": {
-            "change": "added",
-            "label": "Hundreds of thousands expected in Paris for Pope's visit",
-            "item_type": "entry",
-            "summary": "added: Hundreds of thousands expected in Paris for Pope's visit",
-            "after": {
-              "title": "Hundreds of thousands expected in Paris for Pope's visit",
-              "link": "https://www.bbc.co.uk/news/articles/cmq8j904212po?at_medium=RSS&at_campaign=rss",
-              "id": "https://www.bbc.co.uk/news/articles/cmq8j904212po#0",
-              "author": null,
-              "published_at": "2026-09-24T23:17:00Z",
-              "updated_at": "2026-09-24T23:17:00Z",
-              "summary": "The highpoint of his time in Paris will be a giant Mass attended by more than half a million people.",
-              "categories": [],
-              "feed": {
-                "title": "BBC News",
-                "url": "https://www.bbc.co.uk/news/world",
-                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-            "elapsed_ms": 124,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.bbc.co.uk/news/articles/cmq8j904212po?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "id": "1382f7b5e36b2d5b9a67",
-      "title": "Turkiye vs France: UEFA Nations League – teams, kickoff time, lineups",
-      "content_text": "Zinedine Zidane brings 'aura' to his first France game as coach, against Turkiye in Nations League.",
-      "date_published": "2026-09-24T22:55:03Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "1382f7b5e36b2d5b9a67",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790288558",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T00:58:30Z",
-          "data": {
-            "change": "added",
-            "label": "Turkiye vs France: UEFA Nations League – teams, kickoff time, lineups",
-            "item_type": "entry",
-            "summary": "added: Turkiye vs France: UEFA Nations League – teams, kickoff time, lineups",
-            "after": {
-              "title": "Turkiye vs France: UEFA Nations League – teams, kickoff time, lineups",
-              "link": "https://www.aljazeera.com/sports/2026/9/24/turkiye-vs-france-uefa-nations-league-teams-kickoff-time-lineups?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790288558",
-              "author": null,
-              "published_at": "2026-09-24T22:55:03Z",
-              "updated_at": "2026-09-24T22:55:03Z",
-              "summary": "Zinedine Zidane brings 'aura' to his first France game as coach, against Turkiye in Nations League.",
-              "categories": [
-                "Sport"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 223,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/sports/2026/9/24/turkiye-vs-france-uefa-nations-league-teams-kickoff-time-lineups?traffic_source=rss",
-      "tags": [
-        "Sport"
-      ]
-    },
-    {
-      "id": "865a6a348e7c1da6214b",
-      "title": "Benjamin Netanyahu attacks Israel’s enemies and allies in UN speech",
-      "content_text": "Israeli prime minister denounces Iran, NYC Mayor Mamdani and critics accusing Israel of crimes against Palestinians.",
-      "date_published": "2026-09-24T22:32:39Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "865a6a348e7c1da6214b",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790280091",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T00:58:30Z",
-          "data": {
-            "change": "added",
-            "label": "Benjamin Netanyahu attacks Israel’s enemies and allies in UN speech",
-            "item_type": "entry",
-            "summary": "added: Benjamin Netanyahu attacks Israel’s enemies and allies in UN speech",
-            "after": {
-              "title": "Benjamin Netanyahu attacks Israel’s enemies and allies in UN speech",
-              "link": "https://www.aljazeera.com/news/2026/9/24/benjamin-netanyahu-attacks-israels-enemies-and-allies-in-un-speech?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790280091",
-              "author": null,
-              "published_at": "2026-09-24T22:32:39Z",
-              "updated_at": "2026-09-24T22:32:39Z",
-              "summary": "Israeli prime minister denounces Iran, NYC Mayor Mamdani and critics accusing Israel of crimes against Palestinians.",
-              "categories": [
-                "News"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 223,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/news/2026/9/24/benjamin-netanyahu-attacks-israels-enemies-and-allies-in-un-speech?traffic_source=rss",
-      "tags": [
-        "News"
-      ]
-    },
-    {
-      "id": "c8a6ba8bb45cab0ec4bf",
-      "title": "Italy ministers agree to ban burqa and niqab in school and cap foreigners in class",
-      "content_text": "Prime Minister Giorgia Meloni described the measures as \"common-sense tools that do not divide but really help to integrate\".",
-      "date_published": "2026-09-24T19:32:59Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "c8a6ba8bb45cab0ec4bf",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.bbc.co.uk/news/articles/cw99d8g48873o#1",
-          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-25T00:58:30Z",
-          "data": {
-            "change": "added",
-            "label": "Italy ministers agree to ban burqa and niqab in school and cap foreigners in class",
-            "item_type": "entry",
-            "summary": "added: Italy ministers agree to ban burqa and niqab in school and cap foreigners in class",
-            "after": {
-              "title": "Italy ministers agree to ban burqa and niqab in school and cap foreigners in class",
-              "link": "https://www.bbc.co.uk/news/articles/cw99d8g48873o?at_medium=RSS&at_campaign=rss",
-              "id": "https://www.bbc.co.uk/news/articles/cw99d8g48873o#1",
-              "author": null,
-              "published_at": "2026-09-24T19:32:59Z",
-              "updated_at": "2026-09-24T19:32:59Z",
-              "summary": "Prime Minister Giorgia Meloni described the measures as \"common-sense tools that do not divide but really help to integrate\".",
-              "categories": [],
-              "feed": {
-                "title": "BBC News",
-                "url": "https://www.bbc.co.uk/news/world",
-                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-            "elapsed_ms": 124,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.bbc.co.uk/news/articles/cw99d8g48873o?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "id": "e12b0b082dd955e26e9b",
-      "title": "Long agenda, short meeting: Trump and Xi meet",
-      "content_text": "All Things Considered host Mary Louise Kelly talks with White House correspondent Emily Feng about the Trump/Xi summit.",
-      "date_published": "2026-09-24T22:10:00Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "e12b0b082dd955e26e9b",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.npr.org/2026/09/24/nx-s1-5973112/long-agenda-short-meeting-trump-and-xi-meet",
-          "source_url": "https://feeds.npr.org/1001/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T22:46:33Z",
-          "data": {
-            "change": "added",
-            "label": "Long agenda, short meeting: Trump and Xi meet",
-            "item_type": "entry",
-            "summary": "added: Long agenda, short meeting: Trump and Xi meet",
-            "after": {
-              "title": "Long agenda, short meeting: Trump and Xi meet",
-              "link": "https://www.npr.org/2026/09/24/nx-s1-5973112/long-agenda-short-meeting-trump-and-xi-meet",
-              "id": "https://www.npr.org/2026/09/24/nx-s1-5973112/long-agenda-short-meeting-trump-and-xi-meet",
-              "author": "Emily Feng",
-              "published_at": "2026-09-24T22:10:00Z",
-              "updated_at": "2026-09-24T22:10:00Z",
-              "summary": "All Things Considered host Mary Louise Kelly talks with White House correspondent Emily Feng about the Trump/Xi summit.",
-              "categories": [],
-              "feed": {
-                "title": "NPR Topics: News",
-                "url": "https://www.npr.org/templates/story/story.php?storyId=1001",
-                "feed_url": "https://feeds.npr.org/1001/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.npr.org/1001/rss.xml",
-            "elapsed_ms": 256,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.npr.org/2026/09/24/nx-s1-5973112/long-agenda-short-meeting-trump-and-xi-meet"
-    },
-    {
-      "id": "b30ad786fb5c2bf4f374",
-      "title": "DR Congo and Ivory Coast top Africa Cup of Nations qualifying opening wins",
-      "content_text": "DR Congo beat Equatorial Guinea, while Ivory Coast cruise by Ghana and Cameroon beat Comoros as AFCON qualifiers begin.",
-      "date_published": "2026-09-24T21:56:15Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "b30ad786fb5c2bf4f374",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790283867",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T22:46:33Z",
-          "data": {
-            "change": "added",
-            "label": "DR Congo and Ivory Coast top Africa Cup of Nations qualifying opening wins",
-            "item_type": "entry",
-            "summary": "added: DR Congo and Ivory Coast top Africa Cup of Nations qualifying opening wins",
-            "after": {
-              "title": "DR Congo and Ivory Coast top Africa Cup of Nations qualifying opening wins",
-              "link": "https://www.aljazeera.com/sports/2026/9/24/dr-congo-and-ivory-coast-top-africa-cup-of-nations-qualifying-opening-wins?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790283867",
-              "author": null,
-              "published_at": "2026-09-24T21:56:15Z",
-              "updated_at": "2026-09-24T21:56:15Z",
-              "summary": "DR Congo beat Equatorial Guinea, while Ivory Coast cruise by Ghana and Cameroon beat Comoros as AFCON qualifiers begin.",
-              "categories": [
-                "Sport"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 172,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/sports/2026/9/24/dr-congo-and-ivory-coast-top-africa-cup-of-nations-qualifying-opening-wins?traffic_source=rss",
-      "tags": [
-        "Sport"
-      ]
-    },
-    {
-      "id": "37ea98875b2f961813f4",
-      "title": "Croatian court approves extradition in Nord Stream bombing case",
-      "content_text": "Nord Stream sabotage suspect to be extradited from Croatia; court ruling faces appeal with final decision still pending.",
-      "date_published": "2026-09-24T21:47:44Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "37ea98875b2f961813f4",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790279401",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T22:46:33Z",
-          "data": {
-            "change": "added",
-            "label": "Croatian court approves extradition in Nord Stream bombing case",
-            "item_type": "entry",
-            "summary": "added: Croatian court approves extradition in Nord Stream bombing case",
-            "after": {
-              "title": "Croatian court approves extradition in Nord Stream bombing case",
-              "link": "https://www.aljazeera.com/news/2026/9/24/croatian-court-approves-extradition-in-nord-stream-bombing-case?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790279401",
-              "author": null,
-              "published_at": "2026-09-24T21:47:44Z",
-              "updated_at": "2026-09-24T21:47:44Z",
-              "summary": "Nord Stream sabotage suspect to be extradited from Croatia; court ruling faces appeal with final decision still pending.",
-              "categories": [
-                "News"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 172,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/news/2026/9/24/croatian-court-approves-extradition-in-nord-stream-bombing-case?traffic_source=rss",
-      "tags": [
-        "News"
-      ]
-    },
-    {
-      "id": "8c1693b26e3bae58afa7",
-      "title": "Trump and Xi hold critical talks at White House summit",
-      "content_text": "US President Donald Trump welcomed Chinese President Xi Jinping to Washington for talks on trade, AI, Taiwan and Iran.",
-      "date_published": "2026-09-24T21:41:40Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "8c1693b26e3bae58afa7",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790283181",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T22:46:33Z",
-          "data": {
-            "change": "added",
-            "label": "Trump and Xi hold critical talks at White House summit",
-            "item_type": "entry",
-            "summary": "added: Trump and Xi hold critical talks at White House summit",
-            "after": {
-              "title": "Trump and Xi hold critical talks at White House summit",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/24/trump-and-xi-hold-critical-talks-at-white-house-summit?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790283181",
-              "author": null,
-              "published_at": "2026-09-24T21:41:40Z",
-              "updated_at": "2026-09-24T21:41:40Z",
-              "summary": "US President Donald Trump welcomed Chinese President Xi Jinping to Washington for talks on trade, AI, Taiwan and Iran.",
-              "categories": [
-                "Show Types"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 172,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/trump-and-xi-hold-critical-talks-at-white-house-summit?traffic_source=rss",
-      "tags": [
-        "Show Types"
-      ]
-    },
-    {
-      "id": "7158029369a0e439637e",
-      "title": "Netanyahu defends Israeli military action as delegates walk out before UN speech",
-      "content_text": "The Israeli leader labels those who left his speech at the UN General Assembly as \"moral cowards\".",
-      "date_published": "2026-09-24T21:21:47Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "7158029369a0e439637e",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.bbc.co.uk/news/articles/c3y0z7kxlegdo#0",
-          "source_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T22:46:33Z",
-          "data": {
-            "change": "added",
-            "label": "Netanyahu defends Israeli military action as delegates walk out before UN speech",
-            "item_type": "entry",
-            "summary": "added: Netanyahu defends Israeli military action as delegates walk out before UN speech",
-            "after": {
-              "title": "Netanyahu defends Israeli military action as delegates walk out before UN speech",
-              "link": "https://www.bbc.co.uk/news/articles/c3y0z7kxlegdo?at_medium=RSS&at_campaign=rss",
-              "id": "https://www.bbc.co.uk/news/articles/c3y0z7kxlegdo#0",
-              "author": null,
-              "published_at": "2026-09-24T21:21:47Z",
-              "updated_at": "2026-09-24T21:21:47Z",
-              "summary": "The Israeli leader labels those who left his speech at the UN General Assembly as \"moral cowards\".",
-              "categories": [],
-              "feed": {
-                "title": "BBC News",
-                "url": "https://www.bbc.co.uk/news/world",
-                "feed_url": "https://feeds.bbci.co.uk/news/world/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-            "elapsed_ms": 333,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.bbc.co.uk/news/articles/c3y0z7kxlegdo?at_medium=RSS&at_campaign=rss"
-    },
-    {
-      "id": "5c5c87f8668b7fa4fbfa",
-      "title": "Susan Sarandon, Hannah Einbinder arrested at Netanyahu UN protest",
-      "content_text": "Susan Sarandon and Hannah Einbinder were among about 100 protesters arrested outside the UN ahead of Netanyahu’s speech.",
-      "date_published": "2026-09-24T21:15:56Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "5c5c87f8668b7fa4fbfa",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790284398",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T22:46:33Z",
-          "data": {
-            "change": "added",
-            "label": "Susan Sarandon, Hannah Einbinder arrested at Netanyahu UN protest",
-            "item_type": "entry",
-            "summary": "added: Susan Sarandon, Hannah Einbinder arrested at Netanyahu UN protest",
-            "after": {
-              "title": "Susan Sarandon, Hannah Einbinder arrested at Netanyahu UN protest",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/24/actors-arrested-bibi-protest-unga?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790284398",
-              "author": null,
-              "published_at": "2026-09-24T21:15:56Z",
-              "updated_at": "2026-09-24T21:15:56Z",
-              "summary": "Susan Sarandon and Hannah Einbinder were among about 100 protesters arrested outside the UN ahead of Netanyahu’s speech.",
-              "categories": [
-                "Show Types"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 172,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/actors-arrested-bibi-protest-unga?traffic_source=rss",
-      "tags": [
-        "Show Types"
-      ]
-    },
-    {
-      "id": "d26679e9ca23e9114e30",
-      "title": "Dutch PM’s contrasting stance on ICC-wanted Putin, Netanyahu",
-      "content_text": "Dutch PM Rob Jetten says Israeli Prime Minister Benjamin Netanyahu should be at the UNGA despite an ICC arrest warrant.",
-      "date_published": "2026-09-24T21:08:30Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "d26679e9ca23e9114e30",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790282700",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T22:46:33Z",
-          "data": {
-            "change": "added",
-            "label": "Dutch PM’s contrasting stance on ICC-wanted Putin, Netanyahu",
-            "item_type": "entry",
-            "summary": "added: Dutch PM’s contrasting stance on ICC-wanted Putin, Netanyahu",
-            "after": {
-              "title": "Dutch PM’s contrasting stance on ICC-wanted Putin, Netanyahu",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/24/dutch-pms-contrasting-stance-on-icc-wanted-putin-netanyahu?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790282700",
-              "author": null,
-              "published_at": "2026-09-24T21:08:30Z",
-              "updated_at": "2026-09-24T21:08:30Z",
-              "summary": "Dutch PM Rob Jetten says Israeli Prime Minister Benjamin Netanyahu should be at the UNGA despite an ICC arrest warrant.",
-              "categories": [
-                "Show Types"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 172,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/dutch-pms-contrasting-stance-on-icc-wanted-putin-netanyahu?traffic_source=rss",
-      "tags": [
-        "Show Types"
-      ]
-    },
-    {
-      "id": "d9f502eda91bb0a6aec7",
-      "title": "Portugal beat Wales 1-0 with Felix goal as Nations League defence begins",
-      "content_text": "Joao Felix nets the only goal of the game, while Cristiano Ronaldo has an effort ruled out, as Portugal beat Wales 1-0.",
-      "date_published": "2026-09-24T21:07:33Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "d9f502eda91bb0a6aec7",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790281924",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T22:46:33Z",
-          "data": {
-            "change": "added",
-            "label": "Portugal beat Wales 1-0 with Felix goal as Nations League defence begins",
-            "item_type": "entry",
-            "summary": "added: Portugal beat Wales 1-0 with Felix goal as Nations League defence begins",
-            "after": {
-              "title": "Portugal beat Wales 1-0 with Felix goal as Nations League defence begins",
-              "link": "https://www.aljazeera.com/sports/2026/9/24/portugal-beat-wales-1-0-as-nations-league-defence-begins?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790281924",
-              "author": null,
-              "published_at": "2026-09-24T21:07:33Z",
-              "updated_at": "2026-09-24T21:07:33Z",
-              "summary": "Joao Felix nets the only goal of the game, while Cristiano Ronaldo has an effort ruled out, as Portugal beat Wales 1-0.",
-              "categories": [
-                "Sport"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 172,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/sports/2026/9/24/portugal-beat-wales-1-0-as-nations-league-defence-begins?traffic_source=rss",
-      "tags": [
-        "Sport"
-      ]
-    },
-    {
-      "id": "8ec76291efdc86f12548",
-      "title": "Netanyahu blames ‘juvenile delinquents’ for violence in occupied West Bank",
-      "content_text": "As spoke at the UN, Israeli Prime Minister Benjamin Netanyahu downplayed settler violence in the occupied West Bank.",
-      "date_published": "2026-09-24T20:54:28Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "8ec76291efdc86f12548",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790282768",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T22:46:33Z",
-          "data": {
-            "change": "added",
-            "label": "Netanyahu blames ‘juvenile delinquents’ for violence in occupied West Bank",
-            "item_type": "entry",
-            "summary": "added: Netanyahu blames ‘juvenile delinquents’ for violence in occupied West Bank",
-            "after": {
-              "title": "Netanyahu blames ‘juvenile delinquents’ for violence in occupied West Bank",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/24/netanyahu-blames-juvenile-delinquents-for-violence-in-occupied-west-bank?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790282768",
-              "author": null,
-              "published_at": "2026-09-24T20:54:28Z",
-              "updated_at": "2026-09-24T20:54:28Z",
-              "summary": "As spoke at the UN, Israeli Prime Minister Benjamin Netanyahu downplayed settler violence in the occupied West Bank.",
-              "categories": [
-                "Show Types"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 172,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/netanyahu-blames-juvenile-delinquents-for-violence-in-occupied-west-bank?traffic_source=rss",
-      "tags": [
-        "Show Types"
-      ]
-    },
-    {
-      "id": "e170174a5939811e0a67",
-      "title": "US citizen injured after wrongly arrested by ICE in Illinois",
-      "content_text": "US citizen injured after wrongly arrested by ICE in Illinois",
-      "date_published": "2026-09-24T20:23:06Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "e170174a5939811e0a67",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790281132",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T22:46:33Z",
-          "data": {
-            "change": "added",
-            "label": "US citizen injured after wrongly arrested by ICE in Illinois",
-            "item_type": "entry",
-            "summary": "added: US citizen injured after wrongly arrested by ICE in Illinois",
-            "after": {
-              "title": "US citizen injured after wrongly arrested by ICE in Illinois",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/24/us-citizen-injured-after-wrongly-arrested-by-ice-in-illinois?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790281132",
-              "author": null,
-              "published_at": "2026-09-24T20:23:06Z",
-              "updated_at": "2026-09-24T20:23:06Z",
-              "summary": "US citizen injured after wrongly arrested by ICE in Illinois",
-              "categories": [
-                "News"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 172,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/us-citizen-injured-after-wrongly-arrested-by-ice-in-illinois?traffic_source=rss",
-      "tags": [
-        "News"
-      ]
-    },
-    {
-      "id": "4568db2fa47f24707f37",
-      "title": "New York sues Polymarket over allegations of illegal gambling operations",
-      "content_text": "The lawsuit comes two months after the state filed a similar lawsuit against competitor Kalshi.",
-      "date_published": "2026-09-24T20:15:25Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "4568db2fa47f24707f37",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790276050",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T22:46:33Z",
-          "data": {
-            "change": "added",
-            "label": "New York sues Polymarket over allegations of illegal gambling operations",
-            "item_type": "entry",
-            "summary": "added: New York sues Polymarket over allegations of illegal gambling operations",
-            "after": {
-              "title": "New York sues Polymarket over allegations of illegal gambling operations",
-              "link": "https://www.aljazeera.com/economy/2026/9/24/new-york-sues-polymarket-over-allegations-of-illegal-gambling-operations?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790276050",
-              "author": null,
-              "published_at": "2026-09-24T20:15:25Z",
-              "updated_at": "2026-09-24T20:15:25Z",
-              "summary": "The lawsuit comes two months after the state filed a similar lawsuit against competitor Kalshi.",
-              "categories": [
-                "News"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 172,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/economy/2026/9/24/new-york-sues-polymarket-over-allegations-of-illegal-gambling-operations?traffic_source=rss",
-      "tags": [
-        "News"
-      ]
-    },
-    {
-      "id": "976b7eb310d506e5f479",
-      "title": "Israel moves to ban main Palestinian-led lists from election",
-      "content_text": "Israel’s election panel has voted to disqualify the two main Palestinian-led lists from next month’s election.",
-      "date_published": "2026-09-24T19:54:00Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "976b7eb310d506e5f479",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.aljazeera.com/?t=1790279513",
-          "source_url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T22:46:33Z",
-          "data": {
-            "change": "added",
-            "label": "Israel moves to ban main Palestinian-led lists from election",
-            "item_type": "entry",
-            "summary": "added: Israel moves to ban main Palestinian-led lists from election",
-            "after": {
-              "title": "Israel moves to ban main Palestinian-led lists from election",
-              "link": "https://www.aljazeera.com/video/newsfeed/2026/9/24/09-24-israel-palestinian-parties-banned-sv?traffic_source=rss",
-              "id": "https://www.aljazeera.com/?t=1790279513",
-              "author": null,
-              "published_at": "2026-09-24T19:54:00Z",
-              "updated_at": "2026-09-24T19:54:00Z",
-              "summary": "Israel’s election panel has voted to disqualify the two main Palestinian-led lists from next month’s election.",
-              "categories": [
-                "Show Types"
-              ],
-              "feed": {
-                "title": "Al Jazeera – Breaking News, World News and Video from Al Jazeera",
-                "url": "https://www.aljazeera.com",
-                "feed_url": "https://www.aljazeera.com/xml/rss/all.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://www.aljazeera.com/xml/rss/all.xml",
-            "elapsed_ms": 172,
-            "not_modified": true,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/24/09-24-israel-palestinian-parties-banned-sv?traffic_source=rss",
-      "tags": [
-        "Show Types"
-      ]
-    },
-    {
-      "id": "e20e6d31b13cb8db0540",
-      "title": "In one of their last votes before November, Senate GOP blocks effort to end Iran war",
-      "content_text": "The vote on a war powers resolution introduced by Democrats came at a moment when some Republicans have begun to distance themselves from President Trump over the ongoing conflict.",
-      "date_published": "2026-09-24T19:46:53Z",
-      "_unlimitedpipe": {
-        "event": {
-          "schema": "unlimitedpipe.event/1",
-          "id": "e20e6d31b13cb8db0540",
-          "source": "rss",
-          "type": "change",
-          "key": "https://www.npr.org/2026/09/24/nx-s1-5980318/senate-iran-war-powers-vote",
-          "source_url": "https://feeds.npr.org/1001/rss.xml",
-          "timestamp": null,
-          "observed_at": "2026-09-24T22:46:33Z",
-          "data": {
-            "change": "added",
-            "label": "In one of their last votes before November, Senate GOP blocks effort to end Iran war",
-            "item_type": "entry",
-            "summary": "added: In one of their last votes before November, Senate GOP blocks effort to end Iran war",
-            "after": {
-              "title": "In one of their last votes before November, Senate GOP blocks effort to end Iran war",
-              "link": "https://www.npr.org/2026/09/24/nx-s1-5980318/senate-iran-war-powers-vote",
-              "id": "https://www.npr.org/2026/09/24/nx-s1-5980318/senate-iran-war-powers-vote",
-              "author": "Claudia Grisales",
-              "published_at": "2026-09-24T19:46:53Z",
-              "updated_at": "2026-09-24T19:46:53Z",
-              "summary": "The vote on a war powers resolution introduced by Democrats came at a moment when some Republicans have begun to distance themselves from President Trump over the ongoing conflict.",
-              "categories": [],
-              "feed": {
-                "title": "NPR Topics: News",
-                "url": "https://www.npr.org/templates/story/story.php?storyId=1001",
-                "feed_url": "https://feeds.npr.org/1001/rss.xml"
-              }
-            }
-          },
-          "metadata": {
-            "status": 200,
-            "final_url": "https://feeds.npr.org/1001/rss.xml",
-            "elapsed_ms": 256,
-            "not_modified": false,
-            "method": "rss20"
-          },
-          "provenance": [
-            {
-              "step": "rss",
-              "version": "0.3.2"
-            },
-            {
-              "step": "dedupe",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "link"
-                ]
-              }
-            },
-            {
-              "step": "sort",
-              "version": "0.3.2",
-              "args": {
-                "by": [
-                  "published_at"
-                ],
-                "reverse": true
-              }
-            },
-            {
-              "step": "diff",
-              "version": "0.3.2",
-              "args": {
-                "namespace": "world-headlines",
-                "only": [
-                  "added"
-                ],
-                "emit_initial": true
-              }
-            }
-          ]
-        }
-      },
-      "url": "https://www.npr.org/2026/09/24/nx-s1-5980318/senate-iran-war-powers-vote"
     }
   ]
 }

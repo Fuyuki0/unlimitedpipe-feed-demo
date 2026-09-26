@@ -1,13 +1,411 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Japan news (Japan Times, Mainichi, Japan Today)",
-  "home_page_url": "https://japantoday.com/feed",
+  "home_page_url": "https://mainichi.jp/rss/etc/english_latest.rss",
   "description": "Events collected by UnlimitedPipe 0.3.2",
   "_unlimitedpipe": {
     "schema": "unlimitedpipe.event/1",
     "generator": "UnlimitedPipe 0.3.2"
   },
   "items": [
+    {
+      "id": "5335d191f6ef81f9e293",
+      "title": "The Mainichi: Japan municipal gov't to offer 100 yen a day for helping elderly, disabled take out trash",
+      "content_text": "HITACHIOTA, Ibaraki -- The Hitachiota Municipal Government in Ibaraki Prefecture, eastern Japan, will launch a new initiative from October that reward",
+      "date_published": "2026-09-26T00:00:14Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "5335d191f6ef81f9e293",
+          "source": "rss",
+          "type": "change",
+          "key": "https://mainichi.jp/english/articles/20260916/p2a/00m/0na/043000c",
+          "source_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:48Z",
+          "data": {
+            "change": "added",
+            "label": "The Mainichi: Japan municipal gov't to offer 100 yen a day for helping elderly, disabled take out trash",
+            "item_type": "entry",
+            "summary": "added: The Mainichi: Japan municipal gov't to offer 100 yen a day for helping elderly, disabled take out trash",
+            "after": {
+              "title": "The Mainichi: Japan municipal gov't to offer 100 yen a day for helping elderly, disabled take out trash",
+              "link": "https://mainichi.jp/english/articles/20260916/p2a/00m/0na/043000c",
+              "id": "https://mainichi.jp/english/articles/20260916/p2a/00m/0na/043000c",
+              "author": null,
+              "published_at": "2026-09-26T00:00:14Z",
+              "updated_at": "2026-09-26T00:00:14Z",
+              "summary": "HITACHIOTA, Ibaraki -- The Hitachiota Municipal Government in Ibaraki Prefecture, eastern Japan, will launch a new initiative from October that reward",
+              "categories": [],
+              "feed": {
+                "title": "The Mainichi",
+                "url": "https://mainichi.jp/english/",
+                "feed_url": "https://mainichi.jp/rss/etc/english_latest.rss"
+              },
+              "outlet": "The Mainichi"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+            "elapsed_ms": 513,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://mainichi.jp/english/articles/20260916/p2a/00m/0na/043000c"
+    },
+    {
+      "id": "9997e60a8a12c3189ba7",
+      "title": "The Mainichi: 'Grandchild leave' spreading in Japan as working grandparents help with child care",
+      "content_text": "TOKYO -- Companies and local governments in Japan are increasingly introducing \"grandchild leave,\" which can be used to prepare for the birth of a gra",
+      "date_published": "2026-09-26T00:00:12Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "9997e60a8a12c3189ba7",
+          "source": "rss",
+          "type": "change",
+          "key": "https://mainichi.jp/english/articles/20260909/p2a/00m/0bu/007000c",
+          "source_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:48Z",
+          "data": {
+            "change": "added",
+            "label": "The Mainichi: 'Grandchild leave' spreading in Japan as working grandparents help with child care",
+            "item_type": "entry",
+            "summary": "added: The Mainichi: 'Grandchild leave' spreading in Japan as working grandparents help with child care",
+            "after": {
+              "title": "The Mainichi: 'Grandchild leave' spreading in Japan as working grandparents help with child care",
+              "link": "https://mainichi.jp/english/articles/20260909/p2a/00m/0bu/007000c",
+              "id": "https://mainichi.jp/english/articles/20260909/p2a/00m/0bu/007000c",
+              "author": null,
+              "published_at": "2026-09-26T00:00:12Z",
+              "updated_at": "2026-09-26T00:00:12Z",
+              "summary": "TOKYO -- Companies and local governments in Japan are increasingly introducing \"grandchild leave,\" which can be used to prepare for the birth of a gra",
+              "categories": [],
+              "feed": {
+                "title": "The Mainichi",
+                "url": "https://mainichi.jp/english/",
+                "feed_url": "https://mainichi.jp/rss/etc/english_latest.rss"
+              },
+              "outlet": "The Mainichi"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://mainichi.jp/rss/etc/english_latest.rss",
+            "elapsed_ms": 513,
+            "not_modified": false,
+            "method": "rss10"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://mainichi.jp/english/articles/20260909/p2a/00m/0bu/007000c"
+    },
+    {
+      "id": "27a6f461eeb94925f83b",
+      "title": "The Japan Times: Xi seizes Trump detente to seek lasting gains on trade and Taiwan",
+      "content_text": "Underneath many of U.S. President Donald Trump's grand gestures at his summit with Xi Jinping, there were signs of the limits to their relationship.",
+      "date_published": "2026-09-25T23:33:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "27a6f461eeb94925f83b",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.japantimes.co.jp/article/647014/",
+          "source_url": "https://www.japantimes.co.jp/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:48Z",
+          "data": {
+            "change": "added",
+            "label": "The Japan Times: Xi seizes Trump detente to seek lasting gains on trade and Taiwan",
+            "item_type": "entry",
+            "summary": "added: The Japan Times: Xi seizes Trump detente to seek lasting gains on trade and Taiwan",
+            "after": {
+              "title": "The Japan Times: Xi seizes Trump detente to seek lasting gains on trade and Taiwan",
+              "link": "https://www.japantimes.co.jp/news/2026/09/26/world/politics/xi-trump-us-china-focus/",
+              "id": "https://www.japantimes.co.jp/article/647014/",
+              "author": null,
+              "published_at": "2026-09-25T23:33:00Z",
+              "updated_at": "2026-09-25T23:33:00Z",
+              "summary": "Underneath many of U.S. President Donald Trump's grand gestures at his summit with Xi Jinping, there were signs of the limits to their relationship.",
+              "categories": [
+                "WORLD"
+              ],
+              "feed": {
+                "title": "Latest articles - The Japan Times",
+                "url": "https://www.japantimes.co.jp/",
+                "feed_url": "https://www.japantimes.co.jp/feed/"
+              },
+              "outlet": "The Japan Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.japantimes.co.jp/feed/",
+            "elapsed_ms": 221,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.japantimes.co.jp/news/2026/09/26/world/politics/xi-trump-us-china-focus/",
+      "tags": [
+        "WORLD"
+      ]
+    },
+    {
+      "id": "56616a5138fa7efe522a",
+      "title": "The Japan Times: Yen rises as Japanese officials say weak currency is problem",
+      "content_text": "The currency strengthened as much as 1.2%, the most since Sept. 7, to ¥156.94 per dollar on Friday, outperforming all of its Group-of-10 peers.",
+      "date_published": "2026-09-25T23:29:00Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "56616a5138fa7efe522a",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.japantimes.co.jp/article/647015/",
+          "source_url": "https://www.japantimes.co.jp/feed/",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:48Z",
+          "data": {
+            "change": "added",
+            "label": "The Japan Times: Yen rises as Japanese officials say weak currency is problem",
+            "item_type": "entry",
+            "summary": "added: The Japan Times: Yen rises as Japanese officials say weak currency is problem",
+            "after": {
+              "title": "The Japan Times: Yen rises as Japanese officials say weak currency is problem",
+              "link": "https://www.japantimes.co.jp/business/2026/09/26/markets/japan-yen-rises-us/",
+              "id": "https://www.japantimes.co.jp/article/647015/",
+              "author": null,
+              "published_at": "2026-09-25T23:29:00Z",
+              "updated_at": "2026-09-25T23:29:00Z",
+              "summary": "The currency strengthened as much as 1.2%, the most since Sept. 7, to ¥156.94 per dollar on Friday, outperforming all of its Group-of-10 peers.",
+              "categories": [
+                "BUSINESS"
+              ],
+              "feed": {
+                "title": "Latest articles - The Japan Times",
+                "url": "https://www.japantimes.co.jp/",
+                "feed_url": "https://www.japantimes.co.jp/feed/"
+              },
+              "outlet": "The Japan Times"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.japantimes.co.jp/feed/",
+            "elapsed_ms": 221,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^japantimes\\\\.co\\\\.jp$\", \"The Japan Times\")",
+                  "outlet=replace(outlet, \"^mainichi\\\\.jp$\", \"The Mainichi\")",
+                  "outlet=replace(outlet, \"^japantoday\\\\.com$\", \"Japan Today\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "japan-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.japantimes.co.jp/business/2026/09/26/markets/japan-yen-rises-us/",
+      "tags": [
+        "BUSINESS"
+      ]
+    },
     {
       "id": "d8ec893b3176c124132a",
       "title": "Japan Today: Former far-right group member found guilty of murdering Argentina rugby star",

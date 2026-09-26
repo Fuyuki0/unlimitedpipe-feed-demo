@@ -1,0 +1,408 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Disaster alerts for Thailand and neighbours (GDACS)",
+  "home_page_url": "https://www.gdacs.org/",
+  "description": "Events collected by UnlimitedPipe 0.3.2",
+  "_unlimitedpipe": {
+    "schema": "unlimitedpipe.event/1",
+    "generator": "UnlimitedPipe 0.3.2"
+  },
+  "items": [
+    {
+      "id": "d77ad27d1eeefdc997f1",
+      "title": "Green flood alert in Malaysia",
+      "content_text": "On 20/09/2026, a flood started in Malaysia, lasting until 22/09/2026 (last update). The flood caused 0 deaths and 365 displaced .",
+      "date_published": "2026-09-22T07:36:54Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d77ad27d1eeefdc997f1",
+          "source": "rss",
+          "type": "change",
+          "key": "FL1104184",
+          "source_url": "https://www.gdacs.org/xml/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:26:09Z",
+          "data": {
+            "change": "added",
+            "label": "Green flood alert in Malaysia",
+            "item_type": "entry",
+            "summary": "added: Green flood alert in Malaysia",
+            "after": {
+              "title": "Green flood alert in Malaysia",
+              "link": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104184",
+              "id": "FL1104184",
+              "author": null,
+              "published_at": "2026-09-22T07:36:54Z",
+              "updated_at": "2026-09-22T07:36:54Z",
+              "summary": "On 20/09/2026, a flood started in Malaysia, lasting until 22/09/2026 (last update). The flood caused 0 deaths and 365 displaced .",
+              "categories": [
+                "FL1"
+              ],
+              "feed": {
+                "title": "GDACS RSS information",
+                "url": "https://www.gdacs.org/",
+                "feed_url": "https://www.gdacs.org/xml/rss.xml"
+              },
+              "enclosures": [
+                "https://www.gdacs.org/contentdata/resources/imgtemp/gdacs/fl/dfo2026_1104184.png"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.gdacs.org/xml/rss.xml",
+            "elapsed_ms": 1094,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "grep",
+              "version": "0.3.2",
+              "args": {
+                "patterns": [
+                  "Thailand",
+                  "Myanmar",
+                  "Laos",
+                  "Cambodia",
+                  "Malaysia"
+                ],
+                "field": [
+                  "title",
+                  "summary"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "thailand-disasters",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104184",
+      "tags": [
+        "FL1"
+      ]
+    },
+    {
+      "id": "fdc81f3036734b1ce0b1",
+      "title": "Green flood alert in Thailand",
+      "content_text": "On 05/10/2026, a flood started in Thailand, lasting until 07/10/2026 (last update). The flood caused 0 deaths and 0 displaced .",
+      "date_published": "2026-09-18T06:16:34Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "fdc81f3036734b1ce0b1",
+          "source": "rss",
+          "type": "change",
+          "key": "FL1104169",
+          "source_url": "https://www.gdacs.org/xml/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:26:09Z",
+          "data": {
+            "change": "added",
+            "label": "Green flood alert in Thailand",
+            "item_type": "entry",
+            "summary": "added: Green flood alert in Thailand",
+            "after": {
+              "title": "Green flood alert in Thailand",
+              "link": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104169",
+              "id": "FL1104169",
+              "author": null,
+              "published_at": "2026-09-18T06:16:34Z",
+              "updated_at": "2026-09-18T06:16:34Z",
+              "summary": "On 05/10/2026, a flood started in Thailand, lasting until 07/10/2026 (last update). The flood caused 0 deaths and 0 displaced .",
+              "categories": [
+                "FL1"
+              ],
+              "feed": {
+                "title": "GDACS RSS information",
+                "url": "https://www.gdacs.org/",
+                "feed_url": "https://www.gdacs.org/xml/rss.xml"
+              },
+              "enclosures": [
+                "https://www.gdacs.org/contentdata/resources/imgtemp/gdacs/fl/dfo2026_1104169.png"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.gdacs.org/xml/rss.xml",
+            "elapsed_ms": 1094,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "grep",
+              "version": "0.3.2",
+              "args": {
+                "patterns": [
+                  "Thailand",
+                  "Myanmar",
+                  "Laos",
+                  "Cambodia",
+                  "Malaysia"
+                ],
+                "field": [
+                  "title",
+                  "summary"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "thailand-disasters",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104169",
+      "tags": [
+        "FL1"
+      ]
+    },
+    {
+      "id": "856c440d011175d5073b",
+      "title": "Green flood alert in Thailand",
+      "content_text": "On 18/08/2026, a flood started in Thailand, lasting until 24/09/2026 (last update). The flood caused 3 deaths and 169 displaced .",
+      "date_published": "2026-08-27T09:43:25Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "856c440d011175d5073b",
+          "source": "rss",
+          "type": "change",
+          "key": "FL1104122",
+          "source_url": "https://www.gdacs.org/xml/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:26:09Z",
+          "data": {
+            "change": "added",
+            "label": "Green flood alert in Thailand",
+            "item_type": "entry",
+            "summary": "added: Green flood alert in Thailand",
+            "after": {
+              "title": "Green flood alert in Thailand",
+              "link": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104122",
+              "id": "FL1104122",
+              "author": null,
+              "published_at": "2026-08-27T09:43:25Z",
+              "updated_at": "2026-08-27T09:43:25Z",
+              "summary": "On 18/08/2026, a flood started in Thailand, lasting until 24/09/2026 (last update). The flood caused 3 deaths and 169 displaced .",
+              "categories": [
+                "FL1"
+              ],
+              "feed": {
+                "title": "GDACS RSS information",
+                "url": "https://www.gdacs.org/",
+                "feed_url": "https://www.gdacs.org/xml/rss.xml"
+              },
+              "enclosures": [
+                "https://www.gdacs.org/contentdata/resources/imgtemp/gdacs/fl/dfo2026_1104122.png"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.gdacs.org/xml/rss.xml",
+            "elapsed_ms": 1094,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "grep",
+              "version": "0.3.2",
+              "args": {
+                "patterns": [
+                  "Thailand",
+                  "Myanmar",
+                  "Laos",
+                  "Cambodia",
+                  "Malaysia"
+                ],
+                "field": [
+                  "title",
+                  "summary"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "thailand-disasters",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104122",
+      "tags": [
+        "FL1"
+      ]
+    },
+    {
+      "id": "8985a2e4f9473819ac9f",
+      "title": "Drought is on going in Australia, Indonesia, Cambodia, Papua New Guinea, Philippines, Thailand, Vietnam",
+      "content_text": "The Drought notification level is Green.",
+      "date_published": "2026-04-30T13:07:47Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "8985a2e4f9473819ac9f",
+          "source": "rss",
+          "type": "change",
+          "key": "DR1018545",
+          "source_url": "https://www.gdacs.org/xml/rss.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:26:09Z",
+          "data": {
+            "change": "added",
+            "label": "Drought is on going in Australia, Indonesia, Cambodia, Papua New Guinea, Philippines, Thailand, Vietnam",
+            "item_type": "entry",
+            "summary": "added: Drought is on going in Australia, Indonesia, Cambodia, Papua New Guinea, Philippines, Thailand, Vietnam",
+            "after": {
+              "title": "Drought is on going in Australia, Indonesia, Cambodia, Papua New Guinea, Philippines, Thailand, Vietnam",
+              "link": "https://www.gdacs.org/report.aspx?eventtype=DR&eventid=1018545",
+              "id": "DR1018545",
+              "author": null,
+              "published_at": "2026-04-30T13:07:47Z",
+              "updated_at": "2026-04-30T13:07:47Z",
+              "summary": "The Drought notification level is Green.",
+              "categories": [
+                "DR1"
+              ],
+              "feed": {
+                "title": "GDACS RSS information",
+                "url": "https://www.gdacs.org/",
+                "feed_url": "https://www.gdacs.org/xml/rss.xml"
+              },
+              "enclosures": [
+                "https://www.gdacs.org/contentdata/resources/imgtemp/gdacs/dr/dr1018545_15.png"
+              ]
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.gdacs.org/xml/rss.xml",
+            "elapsed_ms": 1094,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "grep",
+              "version": "0.3.2",
+              "args": {
+                "patterns": [
+                  "Thailand",
+                  "Myanmar",
+                  "Laos",
+                  "Cambodia",
+                  "Malaysia"
+                ],
+                "field": [
+                  "title",
+                  "summary"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "thailand-disasters",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.gdacs.org/report.aspx?eventtype=DR&eventid=1018545",
+      "tags": [
+        "DR1"
+      ]
+    }
+  ]
+}

@@ -9,6 +9,105 @@
   },
   "items": [
     {
+      "id": "6259ffcfea8b09e3dbff",
+      "title": "SCMP: Xi-Trump atmospherics welcomed but mask structural rifts: analysts",
+      "content_text": "During their three-day summit that ended on Friday, US President Donald Trump and Chinese President Xi Jinping worked overtime to underscore their increasingly close relationship even as the meeting produced few concrete deliverables.\nBut the fact that the two economic and military giants are talking – and pledging to talk some more – suggests some period of relative stability ahead, certainly relative to last year’s all-out trade war, chest-thumping and market turmoil, said analysts…",
+      "date_published": "2026-09-26T00:02:27Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "6259ffcfea8b09e3dbff",
+          "source": "rss",
+          "type": "change",
+          "key": "https://www.scmp.com/news/china/diplomacy/article/3368875/xi-trump-atmospherics-welcomed-mask-structural-rifts-analysts?utm_source=rss_feed",
+          "source_url": "https://www.scmp.com/rss/4/feed",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:24:07Z",
+          "data": {
+            "change": "added",
+            "label": "SCMP: Xi-Trump atmospherics welcomed but mask structural rifts: analysts",
+            "item_type": "entry",
+            "summary": "added: SCMP: Xi-Trump atmospherics welcomed but mask structural rifts: analysts",
+            "after": {
+              "title": "SCMP: Xi-Trump atmospherics welcomed but mask structural rifts: analysts",
+              "link": "https://www.scmp.com/news/china/diplomacy/article/3368875/xi-trump-atmospherics-welcomed-mask-structural-rifts-analysts?utm_source=rss_feed",
+              "id": "https://www.scmp.com/news/china/diplomacy/article/3368875/xi-trump-atmospherics-welcomed-mask-structural-rifts-analysts?utm_source=rss_feed",
+              "author": "Mark Magnier",
+              "published_at": "2026-09-26T00:02:27Z",
+              "updated_at": "2026-09-26T00:02:27Z",
+              "summary": "During their three-day summit that ended on Friday, US President Donald Trump and Chinese President Xi Jinping worked overtime to underscore their increasingly close relationship even as the meeting produced few concrete deliverables.\nBut the fact that the two economic and military giants are talking – and pledging to talk some more – suggests some period of relative stability ahead, certainly relative to last year’s all-out trade war, chest-thumping and market turmoil, said analysts, companies...",
+              "categories": [],
+              "feed": {
+                "title": "China - South China Morning Post",
+                "url": "https://www.scmp.com/rss/4/feed",
+                "feed_url": "https://www.scmp.com/rss/4/feed"
+              },
+              "enclosures": [
+                "https://cdn.i-scmp.com/sites/default/files/styles/1280x720/public/d8/images/canvas/2026/09/26/de63bea2-83c2-428d-8c9d-fac3cac520c6_6919b43b.jpg?itok=R92jJ-DS&v=1790380941"
+              ],
+              "outlet": "SCMP"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://www.scmp.com/rss/4/feed/",
+            "elapsed_ms": 537,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "outlet=replace(source_url, \"^https?://(?:www\\\\d?\\\\.)?([^/]+).*$\", \"\\\\1\")",
+                  "outlet=replace(outlet, \"^scmp\\\\.com$\", \"SCMP\")",
+                  "outlet=replace(outlet, \"^cgtn\\\\.com$\", \"CGTN (Chinese state media)\")",
+                  "title=outlet + \": \" + title"
+                ]
+              }
+            },
+            {
+              "step": "dedupe",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "link"
+                ]
+              }
+            },
+            {
+              "step": "sort",
+              "version": "0.3.2",
+              "args": {
+                "by": [
+                  "published_at"
+                ],
+                "reverse": true
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "china-news",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3368875/xi-trump-atmospherics-welcomed-mask-structural-rifts-analysts?utm_source=rss_feed"
+    },
+    {
       "id": "d9e51142d7b333a1cd47",
       "title": "SCMP: What Donald Trump and Xi Jinping revealed in the body language with their wives",
       "content_text": "As Chinese leader Xi Jinping and US President Donald Trump wrapped up their three-day state visit on Friday, a stark contrast in the two presidential couples’ hand-holding dynamics was on display, body language experts said.\nThe exchanges between Xi and his wife, Peng Liyuan, and Trump and first lady Melania Trump, were closely followed on the trip, with the couples’ activities together on Friday culminating in an outing at the National Archives Museum in Washington.\nThe couples’ divergent...",

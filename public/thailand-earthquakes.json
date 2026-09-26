@@ -1,0 +1,762 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Earthquakes around Thailand (TMD)",
+  "home_page_url": "https://earthquake.tmd.go.th/",
+  "description": "Events collected by UnlimitedPipe 0.3.2",
+  "_unlimitedpipe": {
+    "schema": "unlimitedpipe.event/1",
+    "generator": "UnlimitedPipe 0.3.2"
+  },
+  "items": [
+    {
+      "id": "561c1ad74f28e84e14dc",
+      "title": "M2.4 ประเทศเมียนมา (Myanmar)",
+      "content_text": "แผ่นดินไหว ประเทศเมียนมา\n2026-09-26 02:20:42 น.\nLat. 19.738 , Long. 98.429\nขนาด 2.4",
+      "date_published": "2026-09-25T19:27:27Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "561c1ad74f28e84e14dc",
+          "source": "rss",
+          "type": "change",
+          "key": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17131",
+          "source_url": "https://earthquake.tmd.go.th/feed/rss_tmd.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:26:11Z",
+          "data": {
+            "change": "added",
+            "label": "M2.4 ประเทศเมียนมา (Myanmar)",
+            "item_type": "entry",
+            "summary": "added: M2.4 ประเทศเมียนมา (Myanmar)",
+            "after": {
+              "title": "M2.4 ประเทศเมียนมา (Myanmar)",
+              "link": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17131",
+              "id": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17131",
+              "author": null,
+              "published_at": "2026-09-25T19:27:27Z",
+              "updated_at": "2026-09-25T19:27:27Z",
+              "summary": "แผ่นดินไหว ประเทศเมียนมา\n2026-09-26 02:20:42 น.\nLat. 19.738 , Long. 98.429\nขนาด 2.4",
+              "categories": [],
+              "feed": {
+                "title": "แผ่นดินไหว",
+                "url": "https://earthquake.tmd.go.th",
+                "feed_url": "https://earthquake.tmd.go.th/feed/rss_tmd.xml"
+              },
+              "magnitude": "2.4"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://earthquake.tmd.go.th/feed/rss_tmd.xml",
+            "elapsed_ms": 1657,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "magnitude=replace(summary, \"(?s)^.*ขนาด\\\\s*([\\\\d.]+).*$\", \"\\\\1\")",
+                  "title=\"M\" + magnitude + \" \" + title"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "thailand-earthquakes",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17131"
+    },
+    {
+      "id": "26ef5ebc776951692697",
+      "title": "M3.1 ประเทศเวียดนาม (Vietnam)",
+      "content_text": "แผ่นดินไหว ประเทศเวียดนาม\n2026-09-26 02:03:43 น.\nLat. 15.265 , Long. 107.899\nขนาด 3.1",
+      "date_published": "2026-09-25T22:18:46Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "26ef5ebc776951692697",
+          "source": "rss",
+          "type": "change",
+          "key": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17132",
+          "source_url": "https://earthquake.tmd.go.th/feed/rss_tmd.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:26:11Z",
+          "data": {
+            "change": "added",
+            "label": "M3.1 ประเทศเวียดนาม (Vietnam)",
+            "item_type": "entry",
+            "summary": "added: M3.1 ประเทศเวียดนาม (Vietnam)",
+            "after": {
+              "title": "M3.1 ประเทศเวียดนาม (Vietnam)",
+              "link": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17132",
+              "id": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17132",
+              "author": null,
+              "published_at": "2026-09-25T22:18:46Z",
+              "updated_at": "2026-09-25T22:18:46Z",
+              "summary": "แผ่นดินไหว ประเทศเวียดนาม\n2026-09-26 02:03:43 น.\nLat. 15.265 , Long. 107.899\nขนาด 3.1",
+              "categories": [],
+              "feed": {
+                "title": "แผ่นดินไหว",
+                "url": "https://earthquake.tmd.go.th",
+                "feed_url": "https://earthquake.tmd.go.th/feed/rss_tmd.xml"
+              },
+              "magnitude": "3.1"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://earthquake.tmd.go.th/feed/rss_tmd.xml",
+            "elapsed_ms": 1657,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "magnitude=replace(summary, \"(?s)^.*ขนาด\\\\s*([\\\\d.]+).*$\", \"\\\\1\")",
+                  "title=\"M\" + magnitude + \" \" + title"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "thailand-earthquakes",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17132"
+    },
+    {
+      "id": "69b80b062cb18c690d13",
+      "title": "M1.4 ประเทศลาว (Laos)",
+      "content_text": "แผ่นดินไหว ประเทศลาว\n2026-09-25 21:31:09 น.\nLat. 20.385 , Long. 100.704\nขนาด 1.4",
+      "date_published": "2026-09-25T14:49:36Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "69b80b062cb18c690d13",
+          "source": "rss",
+          "type": "change",
+          "key": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17130",
+          "source_url": "https://earthquake.tmd.go.th/feed/rss_tmd.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:26:11Z",
+          "data": {
+            "change": "added",
+            "label": "M1.4 ประเทศลาว (Laos)",
+            "item_type": "entry",
+            "summary": "added: M1.4 ประเทศลาว (Laos)",
+            "after": {
+              "title": "M1.4 ประเทศลาว (Laos)",
+              "link": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17130",
+              "id": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17130",
+              "author": null,
+              "published_at": "2026-09-25T14:49:36Z",
+              "updated_at": "2026-09-25T14:49:36Z",
+              "summary": "แผ่นดินไหว ประเทศลาว\n2026-09-25 21:31:09 น.\nLat. 20.385 , Long. 100.704\nขนาด 1.4",
+              "categories": [],
+              "feed": {
+                "title": "แผ่นดินไหว",
+                "url": "https://earthquake.tmd.go.th",
+                "feed_url": "https://earthquake.tmd.go.th/feed/rss_tmd.xml"
+              },
+              "magnitude": "1.4"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://earthquake.tmd.go.th/feed/rss_tmd.xml",
+            "elapsed_ms": 1657,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "magnitude=replace(summary, \"(?s)^.*ขนาด\\\\s*([\\\\d.]+).*$\", \"\\\\1\")",
+                  "title=\"M\" + magnitude + \" \" + title"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "thailand-earthquakes",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17130"
+    },
+    {
+      "id": "a139bdfb71e1746d8d6c",
+      "title": "M3.5 ประเทศเมียนมา (Myanmar)",
+      "content_text": "แผ่นดินไหว ประเทศเมียนมา\n2026-09-25 19:47:54 น.\nLat. 22.084 , Long. 96.141\nขนาด 3.5",
+      "date_published": "2026-09-25T13:00:26Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "a139bdfb71e1746d8d6c",
+          "source": "rss",
+          "type": "change",
+          "key": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17129",
+          "source_url": "https://earthquake.tmd.go.th/feed/rss_tmd.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:26:11Z",
+          "data": {
+            "change": "added",
+            "label": "M3.5 ประเทศเมียนมา (Myanmar)",
+            "item_type": "entry",
+            "summary": "added: M3.5 ประเทศเมียนมา (Myanmar)",
+            "after": {
+              "title": "M3.5 ประเทศเมียนมา (Myanmar)",
+              "link": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17129",
+              "id": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17129",
+              "author": null,
+              "published_at": "2026-09-25T13:00:26Z",
+              "updated_at": "2026-09-25T13:00:26Z",
+              "summary": "แผ่นดินไหว ประเทศเมียนมา\n2026-09-25 19:47:54 น.\nLat. 22.084 , Long. 96.141\nขนาด 3.5",
+              "categories": [],
+              "feed": {
+                "title": "แผ่นดินไหว",
+                "url": "https://earthquake.tmd.go.th",
+                "feed_url": "https://earthquake.tmd.go.th/feed/rss_tmd.xml"
+              },
+              "magnitude": "3.5"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://earthquake.tmd.go.th/feed/rss_tmd.xml",
+            "elapsed_ms": 1657,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "magnitude=replace(summary, \"(?s)^.*ขนาด\\\\s*([\\\\d.]+).*$\", \"\\\\1\")",
+                  "title=\"M\" + magnitude + \" \" + title"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "thailand-earthquakes",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17129"
+    },
+    {
+      "id": "002a6604c3ffc08e6c72",
+      "title": "M2.3 ประเทศเมียนมา (Myanmar)",
+      "content_text": "แผ่นดินไหว ประเทศเมียนมา\n2026-09-25 17:36:37 น.\nLat. 14.650 , Long. 98.345\nขนาด 2.3",
+      "date_published": "2026-09-25T11:19:04Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "002a6604c3ffc08e6c72",
+          "source": "rss",
+          "type": "change",
+          "key": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17128",
+          "source_url": "https://earthquake.tmd.go.th/feed/rss_tmd.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:26:11Z",
+          "data": {
+            "change": "added",
+            "label": "M2.3 ประเทศเมียนมา (Myanmar)",
+            "item_type": "entry",
+            "summary": "added: M2.3 ประเทศเมียนมา (Myanmar)",
+            "after": {
+              "title": "M2.3 ประเทศเมียนมา (Myanmar)",
+              "link": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17128",
+              "id": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17128",
+              "author": null,
+              "published_at": "2026-09-25T11:19:04Z",
+              "updated_at": "2026-09-25T11:19:04Z",
+              "summary": "แผ่นดินไหว ประเทศเมียนมา\n2026-09-25 17:36:37 น.\nLat. 14.650 , Long. 98.345\nขนาด 2.3",
+              "categories": [],
+              "feed": {
+                "title": "แผ่นดินไหว",
+                "url": "https://earthquake.tmd.go.th",
+                "feed_url": "https://earthquake.tmd.go.th/feed/rss_tmd.xml"
+              },
+              "magnitude": "2.3"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://earthquake.tmd.go.th/feed/rss_tmd.xml",
+            "elapsed_ms": 1657,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "magnitude=replace(summary, \"(?s)^.*ขนาด\\\\s*([\\\\d.]+).*$\", \"\\\\1\")",
+                  "title=\"M\" + magnitude + \" \" + title"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "thailand-earthquakes",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17128"
+    },
+    {
+      "id": "cf434fbae25d48f84e34",
+      "title": "M3.6 ประเทศเมียนมา (Myanmar)",
+      "content_text": "แผ่นดินไหว ประเทศเมียนมา\n2026-09-25 16:47:04 น.\nLat. 20.001 , Long. 98.011\nขนาด 3.6",
+      "date_published": "2026-09-25T09:53:56Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "cf434fbae25d48f84e34",
+          "source": "rss",
+          "type": "change",
+          "key": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17127",
+          "source_url": "https://earthquake.tmd.go.th/feed/rss_tmd.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:26:11Z",
+          "data": {
+            "change": "added",
+            "label": "M3.6 ประเทศเมียนมา (Myanmar)",
+            "item_type": "entry",
+            "summary": "added: M3.6 ประเทศเมียนมา (Myanmar)",
+            "after": {
+              "title": "M3.6 ประเทศเมียนมา (Myanmar)",
+              "link": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17127",
+              "id": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17127",
+              "author": null,
+              "published_at": "2026-09-25T09:53:56Z",
+              "updated_at": "2026-09-25T09:53:56Z",
+              "summary": "แผ่นดินไหว ประเทศเมียนมา\n2026-09-25 16:47:04 น.\nLat. 20.001 , Long. 98.011\nขนาด 3.6",
+              "categories": [],
+              "feed": {
+                "title": "แผ่นดินไหว",
+                "url": "https://earthquake.tmd.go.th",
+                "feed_url": "https://earthquake.tmd.go.th/feed/rss_tmd.xml"
+              },
+              "magnitude": "3.6"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://earthquake.tmd.go.th/feed/rss_tmd.xml",
+            "elapsed_ms": 1657,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "magnitude=replace(summary, \"(?s)^.*ขนาด\\\\s*([\\\\d.]+).*$\", \"\\\\1\")",
+                  "title=\"M\" + magnitude + \" \" + title"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "thailand-earthquakes",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17127"
+    },
+    {
+      "id": "6a984ce496d181a6946c",
+      "title": "M3.7 ประเทศเมียนมา (Myanmar)",
+      "content_text": "แผ่นดินไหว ประเทศเมียนมา\n2026-09-25 09:13:57 น.\nLat. 21.876 , Long. 94.893\nขนาด 3.7",
+      "date_published": "2026-09-25T02:25:58Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "6a984ce496d181a6946c",
+          "source": "rss",
+          "type": "change",
+          "key": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17126",
+          "source_url": "https://earthquake.tmd.go.th/feed/rss_tmd.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:26:11Z",
+          "data": {
+            "change": "added",
+            "label": "M3.7 ประเทศเมียนมา (Myanmar)",
+            "item_type": "entry",
+            "summary": "added: M3.7 ประเทศเมียนมา (Myanmar)",
+            "after": {
+              "title": "M3.7 ประเทศเมียนมา (Myanmar)",
+              "link": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17126",
+              "id": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17126",
+              "author": null,
+              "published_at": "2026-09-25T02:25:58Z",
+              "updated_at": "2026-09-25T02:25:58Z",
+              "summary": "แผ่นดินไหว ประเทศเมียนมา\n2026-09-25 09:13:57 น.\nLat. 21.876 , Long. 94.893\nขนาด 3.7",
+              "categories": [],
+              "feed": {
+                "title": "แผ่นดินไหว",
+                "url": "https://earthquake.tmd.go.th",
+                "feed_url": "https://earthquake.tmd.go.th/feed/rss_tmd.xml"
+              },
+              "magnitude": "3.7"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://earthquake.tmd.go.th/feed/rss_tmd.xml",
+            "elapsed_ms": 1657,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "magnitude=replace(summary, \"(?s)^.*ขนาด\\\\s*([\\\\d.]+).*$\", \"\\\\1\")",
+                  "title=\"M\" + magnitude + \" \" + title"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "thailand-earthquakes",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17126"
+    },
+    {
+      "id": "796fcd310e5f1798a37c",
+      "title": "M3.6 ประเทศเวียดนาม (Vietnam)",
+      "content_text": "แผ่นดินไหว ประเทศเวียดนาม\n2026-09-25 06:38:20 น.\nLat. 15.451 , Long. 107.939\nขนาด 3.6",
+      "date_published": "2026-09-24T23:53:50Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "796fcd310e5f1798a37c",
+          "source": "rss",
+          "type": "change",
+          "key": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17124",
+          "source_url": "https://earthquake.tmd.go.th/feed/rss_tmd.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:26:11Z",
+          "data": {
+            "change": "added",
+            "label": "M3.6 ประเทศเวียดนาม (Vietnam)",
+            "item_type": "entry",
+            "summary": "added: M3.6 ประเทศเวียดนาม (Vietnam)",
+            "after": {
+              "title": "M3.6 ประเทศเวียดนาม (Vietnam)",
+              "link": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17124",
+              "id": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17124",
+              "author": null,
+              "published_at": "2026-09-24T23:53:50Z",
+              "updated_at": "2026-09-24T23:53:50Z",
+              "summary": "แผ่นดินไหว ประเทศเวียดนาม\n2026-09-25 06:38:20 น.\nLat. 15.451 , Long. 107.939\nขนาด 3.6",
+              "categories": [],
+              "feed": {
+                "title": "แผ่นดินไหว",
+                "url": "https://earthquake.tmd.go.th",
+                "feed_url": "https://earthquake.tmd.go.th/feed/rss_tmd.xml"
+              },
+              "magnitude": "3.6"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://earthquake.tmd.go.th/feed/rss_tmd.xml",
+            "elapsed_ms": 1657,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "magnitude=replace(summary, \"(?s)^.*ขนาด\\\\s*([\\\\d.]+).*$\", \"\\\\1\")",
+                  "title=\"M\" + magnitude + \" \" + title"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "thailand-earthquakes",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17124"
+    },
+    {
+      "id": "d9e4567e49de294a5b9e",
+      "title": "M3.1 ประเทศเวียดนาม (Vietnam)",
+      "content_text": "แผ่นดินไหว ประเทศเวียดนาม\n2026-09-25 05:54:19 น.\nLat. 14.808 , Long. 107.992\nขนาด 3.1",
+      "date_published": "2026-09-24T23:08:55Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "d9e4567e49de294a5b9e",
+          "source": "rss",
+          "type": "change",
+          "key": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17123",
+          "source_url": "https://earthquake.tmd.go.th/feed/rss_tmd.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:26:11Z",
+          "data": {
+            "change": "added",
+            "label": "M3.1 ประเทศเวียดนาม (Vietnam)",
+            "item_type": "entry",
+            "summary": "added: M3.1 ประเทศเวียดนาม (Vietnam)",
+            "after": {
+              "title": "M3.1 ประเทศเวียดนาม (Vietnam)",
+              "link": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17123",
+              "id": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17123",
+              "author": null,
+              "published_at": "2026-09-24T23:08:55Z",
+              "updated_at": "2026-09-24T23:08:55Z",
+              "summary": "แผ่นดินไหว ประเทศเวียดนาม\n2026-09-25 05:54:19 น.\nLat. 14.808 , Long. 107.992\nขนาด 3.1",
+              "categories": [],
+              "feed": {
+                "title": "แผ่นดินไหว",
+                "url": "https://earthquake.tmd.go.th",
+                "feed_url": "https://earthquake.tmd.go.th/feed/rss_tmd.xml"
+              },
+              "magnitude": "3.1"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://earthquake.tmd.go.th/feed/rss_tmd.xml",
+            "elapsed_ms": 1657,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "magnitude=replace(summary, \"(?s)^.*ขนาด\\\\s*([\\\\d.]+).*$\", \"\\\\1\")",
+                  "title=\"M\" + magnitude + \" \" + title"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "thailand-earthquakes",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17123"
+    },
+    {
+      "id": "0a2bae84eca579720537",
+      "title": "M3.9 ประเทศเวียดนาม (Vietnam)",
+      "content_text": "แผ่นดินไหว ประเทศเวียดนาม\n2026-09-25 05:35:13 น.\nLat. 14.997 , Long. 107.789\nขนาด 3.9",
+      "date_published": "2026-09-24T22:43:54Z",
+      "_unlimitedpipe": {
+        "event": {
+          "schema": "unlimitedpipe.event/1",
+          "id": "0a2bae84eca579720537",
+          "source": "rss",
+          "type": "change",
+          "key": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17122",
+          "source_url": "https://earthquake.tmd.go.th/feed/rss_tmd.xml",
+          "timestamp": null,
+          "observed_at": "2026-09-26T00:26:11Z",
+          "data": {
+            "change": "added",
+            "label": "M3.9 ประเทศเวียดนาม (Vietnam)",
+            "item_type": "entry",
+            "summary": "added: M3.9 ประเทศเวียดนาม (Vietnam)",
+            "after": {
+              "title": "M3.9 ประเทศเวียดนาม (Vietnam)",
+              "link": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17122",
+              "id": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17122",
+              "author": null,
+              "published_at": "2026-09-24T22:43:54Z",
+              "updated_at": "2026-09-24T22:43:54Z",
+              "summary": "แผ่นดินไหว ประเทศเวียดนาม\n2026-09-25 05:35:13 น.\nLat. 14.997 , Long. 107.789\nขนาด 3.9",
+              "categories": [],
+              "feed": {
+                "title": "แผ่นดินไหว",
+                "url": "https://earthquake.tmd.go.th",
+                "feed_url": "https://earthquake.tmd.go.th/feed/rss_tmd.xml"
+              },
+              "magnitude": "3.9"
+            }
+          },
+          "metadata": {
+            "status": 200,
+            "final_url": "https://earthquake.tmd.go.th/feed/rss_tmd.xml",
+            "elapsed_ms": 1657,
+            "not_modified": false,
+            "method": "rss20"
+          },
+          "provenance": [
+            {
+              "step": "rss",
+              "version": "0.3.2"
+            },
+            {
+              "step": "map",
+              "version": "0.3.2",
+              "args": {
+                "assign": [
+                  "magnitude=replace(summary, \"(?s)^.*ขนาด\\\\s*([\\\\d.]+).*$\", \"\\\\1\")",
+                  "title=\"M\" + magnitude + \" \" + title"
+                ]
+              }
+            },
+            {
+              "step": "diff",
+              "version": "0.3.2",
+              "args": {
+                "namespace": "thailand-earthquakes",
+                "only": [
+                  "added"
+                ],
+                "emit_initial": true
+              }
+            }
+          ]
+        }
+      },
+      "url": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17122"
+    }
+  ]
+}
