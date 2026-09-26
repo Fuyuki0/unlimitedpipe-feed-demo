@@ -135,7 +135,7 @@ Each feed labels items by outlet; state media is marked as such.
 
 | Feed | What it follows |
 | --- | --- |
-| [science-news](https://feeds.daemonfill.dev/science-news.xml) | News from the journals Nature and Science |
+| [science-news](https://feeds.daemonfill.dev/science-news.xml) | Nature, New Scientist and ScienceDaily |
 | [health-papers](https://feeds.daemonfill.dev/health-papers.xml) | New medical research preprints on medRxiv (not yet peer reviewed) |
 | [space-weather](https://feeds.daemonfill.dev/space-weather.xml) | Solar storms: geomagnetic storms, radiation storms and radio blackouts (NOAA SWPC) |
 | [space-launches](https://feeds.daemonfill.dev/space-launches.xml) | Rocket launches worldwide as soon as they are scheduled (Launch Library 2) |
